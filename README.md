@@ -37,4 +37,4 @@ Then open `index.html` in a browser (or serve the folder with any static file se
 
 - Change `RELDATE_DAYS` / `MAX_PER_CATEGORY` env vars in `.github/workflows/update.yml` to widen/narrow the window or article count.
 - Edit the `CATEGORIES` list in `scripts/fetch_articles.py` to change search terms or add/remove systems.
-- Change the cron schedule in `.github/workflows/update.yml` (currently daily at 05:17 UTC) — e.g. `"0 6 * * 1"` for weekly on Mondays.
+- Change the cron schedule in `.github/workflows/update.yml` (currently daily at 06:00 AST / 03:00 UTC) — e.g. `"0 6 * * 1"` for weekly on Mondays.
