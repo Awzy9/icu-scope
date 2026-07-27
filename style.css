@@ -65,34 +65,6 @@ body {
 
 a { color: var(--accent-strong); }
 
-.ecg-strip {
-  height: 44px;
-  background: #0b120f;
-  border-bottom: 1px solid var(--border);
-  overflow: hidden;
-  position: relative;
-}
-
-.ecg-strip::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 40'%3E%3Cpath d='M0,20 L18,20 L22,15 L26,20 L40,20 L45,4 L50,36 L55,10 L60,20 L74,20 L79,13 L84,20 L100,20' fill='none' stroke='%2339ff8f' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
-  background-repeat: repeat-x;
-  background-size: 100px 44px;
-  animation: ecg-scroll 3.2s linear infinite;
-  filter: drop-shadow(0 0 4px rgba(57, 255, 143, 0.55));
-}
-
-@keyframes ecg-scroll {
-  from { background-position-x: 0; }
-  to { background-position-x: -100px; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .ecg-strip::before { animation: none; }
-}
-
 .credit-bar {
   text-align: center;
   background: var(--surface-soft);
