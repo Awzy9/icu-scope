@@ -16,6 +16,9 @@ TOOL = "icu-scope"
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "")
 RELDATE_DAYS = int(os.environ.get("RELDATE_DAYS", "3"))
 MAX_PER_CATEGORY = int(os.environ.get("MAX_PER_CATEGORY", "8"))
+TRENDING_DAYS = int(os.environ.get("TRENDING_DAYS", "30"))
+TRENDING_CANDIDATES = int(os.environ.get("TRENDING_CANDIDATES", "60"))
+TRENDING_TOP_N = int(os.environ.get("TRENDING_TOP_N", "10"))
 REQUEST_DELAY = 0.4  # stay under NCBI's 3 req/sec unauthenticated limit
 
 ICU_CONTEXT = '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critical illness"[MeSH] OR "critically ill")'
@@ -165,6 +168,21 @@ def doi_for(summary):
     return None
 
 
+def article_from_summary(pmid, s, abstracts):
+    authors = [a["name"] for a in s.get("authors", []) if a.get("name")]
+    return {
+        "pmid": pmid,
+        "title": re.sub(r"\s+", " ", s.get("title", "")).strip(),
+        "journal": s.get("fulljournalname") or s.get("source", ""),
+        "pubdate": s.get("pubdate", ""),
+        "authors": authors,
+        "doi": doi_for(s),
+        "abstract": abstracts.get(pmid, ""),
+        "citation_count": int(s.get("pmcrefcount") or 0),
+        "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
+    }
+
+
 def build_category(cat):
     pmids = esearch(cat["query"], RELDATE_DAYS, MAX_PER_CATEGORY)
     time.sleep(REQUEST_DELAY)
@@ -178,20 +196,27 @@ def build_category(cat):
         s = summaries.get(pmid)
         if not s:
             continue
-        authors = [a["name"] for a in s.get("authors", []) if a.get("name")]
-        articles.append(
-            {
-                "pmid": pmid,
-                "title": re.sub(r"\s+", " ", s.get("title", "")).strip(),
-                "journal": s.get("fulljournalname") or s.get("source", ""),
-                "pubdate": s.get("pubdate", ""),
-                "authors": authors,
-                "doi": doi_for(s),
-                "abstract": abstracts.get(pmid, ""),
-                "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
-            }
-        )
+        articles.append(article_from_summary(pmid, s, abstracts))
     return articles
+
+
+def build_trending():
+    pmids = esearch(ICU_CONTEXT, TRENDING_DAYS, TRENDING_CANDIDATES)
+    time.sleep(REQUEST_DELAY)
+    summaries = esummary(pmids)
+    time.sleep(REQUEST_DELAY)
+
+    ranked = sorted(
+        summaries.items(),
+        key=lambda kv: int(kv[1].get("pmcrefcount") or 0),
+        reverse=True,
+    )[:TRENDING_TOP_N]
+    top_pmids = [pmid for pmid, _ in ranked]
+
+    abstracts = efetch_abstracts(top_pmids)
+    time.sleep(REQUEST_DELAY)
+
+    return [article_from_summary(pmid, s, abstracts) for pmid, s in ranked]
 
 
 def main():
@@ -215,9 +240,20 @@ def main():
             }
         )
 
+    print("Fetching trending this month...")
+    try:
+        trending_articles = build_trending()
+    except Exception as e:
+        print(f"  warning: trending fetch failed: {e}")
+        trending_articles = []
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "window_days": RELDATE_DAYS,
+        "trending": {
+            "window_days": TRENDING_DAYS,
+            "articles": trending_articles,
+        },
         "categories": categories_out,
     }
 
@@ -225,7 +261,8 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     total = sum(len(c["articles"]) for c in categories_out)
-    print(f"Wrote {total} articles across {len(categories_out)} categories to {out_path}")
+    print(f"Wrote {total} articles across {len(categories_out)} categories "
+          f"and {len(trending_articles)} trending articles to {out_path}")
 
 
 if __name__ == "__main__":

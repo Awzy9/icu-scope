@@ -2,28 +2,41 @@
   const nav = document.getElementById("category-nav");
   const content = document.getElementById("content");
   const updatedLine = document.getElementById("updated-line");
+  const trendingSection = document.getElementById("trending-section");
+  const trendingList = document.getElementById("trending-list");
+  const trendingCount = document.getElementById("trending-count");
+  const themeToggle = document.getElementById("theme-toggle");
+
+  function initTheme() {
+    const saved = localStorage.getItem("icu-scope-theme");
+    const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    const effective = saved || (prefersDark ? "dark" : "light");
+    themeToggle.textContent = effective === "dark" ? "☀️" : "🌙";
+    themeToggle.addEventListener("click", () => {
+      const current = document.documentElement.getAttribute("data-theme")
+        || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+      const next = current === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      localStorage.setItem("icu-scope-theme", next);
+      themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
+    });
+  }
 
   function formatUpdatedAt(iso, windowDays) {
     if (!iso) return "";
     const d = new Date(iso);
-    const formatted = d.toLocaleString(undefined, {
-      dateStyle: "medium",
-      timeStyle: "short",
-    });
+    const formatted = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
     return `Last updated ${formatted} · showing articles from the last ${windowDays} day${windowDays === 1 ? "" : "s"}`;
   }
 
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, (c) => ({
-      "&": "&amp;",
-      "<": "&lt;",
-      ">": "&gt;",
-      '"': "&quot;",
-      "'": "&#39;",
+      "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
     }[c]));
   }
 
-  function articleCard(article) {
+  function articleCard(article, opts) {
+    opts = opts || {};
     const authors = article.authors && article.authors.length
       ? article.authors.slice(0, 4).join(", ") + (article.authors.length > 4 ? ", et al." : "")
       : "Authors unavailable";
@@ -34,11 +47,14 @@
       ? `<p class="article-abstract">${escapeHtml(article.abstract)}</p>
          <button class="abstract-toggle" type="button">Show more</button>`
       : "";
+    const citationBadge = opts.showCitations && article.citation_count > 0
+      ? `<span class="citation-badge">cited ${article.citation_count}×</span>`
+      : "";
 
     const card = document.createElement("article");
     card.className = "article-card";
     card.innerHTML = `
-      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a></h3>
+      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
@@ -61,8 +77,21 @@
     return card;
   }
 
+  function renderTrending(trending) {
+    const articles = (trending && trending.articles) || [];
+    if (!articles.length) {
+      trendingSection.hidden = true;
+      return;
+    }
+    trendingSection.hidden = false;
+    trendingCount.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"} · last ${trending.window_days} days`;
+    trendingList.innerHTML = "";
+    articles.forEach((article) => trendingList.appendChild(articleCard(article, { showCitations: true })));
+  }
+
   function render(data) {
     updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
+    renderTrending(data.trending);
 
     nav.innerHTML = "";
     content.innerHTML = "";
@@ -115,6 +144,8 @@
       document.addEventListener("scroll", onScroll, { passive: true });
     }
   }
+
+  initTheme();
 
   fetch("data/articles.json", { cache: "no-store" })
     .then((res) => {

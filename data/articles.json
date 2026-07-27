@@ -1,6 +1,7 @@
 {
   "generated_at": "2026-07-27T18:43:48+00:00",
   "window_days": 3,
+  "trending": { "window_days": 30, "articles": [] },
   "categories": [
     {
       "id": "cardiovascular",

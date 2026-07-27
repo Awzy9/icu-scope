@@ -23,6 +23,9 @@ jobs:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
           RELDATE_DAYS: "3"
           MAX_PER_CATEGORY: "8"
+          TRENDING_DAYS: "30"
+          TRENDING_CANDIDATES: "60"
+          TRENDING_TOP_N: "10"
         run: python scripts/fetch_articles.py
 
       - name: Commit and push if changed

@@ -6,16 +6,27 @@
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated feed of recent ICU and critical care research, organized by organ system." />
   <link rel="stylesheet" href="style.css" />
+  <script>
+    (function () {
+      var saved = localStorage.getItem("icu-scope-theme");
+      if (saved === "light" || saved === "dark") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    })();
+  </script>
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <div class="brand">
-        <span class="brand-mark">ICU</span>
-        <span class="brand-name">Scope</span>
+      <div class="header-text">
+        <div class="brand">
+          <span class="brand-mark">ICU</span>
+          <span class="brand-name">Scope</span>
+        </div>
+        <p class="tagline">Recent critical care literature, organized by system</p>
+        <p class="updated-line" id="updated-line">Loading update time…</p>
       </div>
-      <p class="tagline">Recent critical care literature, organized by system</p>
-      <p class="updated-line" id="updated-line">Loading update time…</p>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
     </div>
   </header>
 
@@ -23,8 +34,17 @@
     <!-- populated by app.js -->
   </nav>
 
-  <main id="content" class="content">
-    <p class="loading">Loading latest articles…</p>
+  <main class="content">
+    <section class="trending-section" id="trending-section" hidden>
+      <div class="trending-heading">
+        <h2>🔥 Trending this month</h2>
+        <span class="category-count" id="trending-count"></span>
+      </div>
+      <div id="trending-list"></div>
+    </section>
+    <div id="content">
+      <p class="loading">Loading latest articles…</p>
+    </div>
   </main>
 
   <footer class="site-footer">
