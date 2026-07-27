@@ -110,7 +110,7 @@
 
   function matchesSearch(article, term) {
     if (!term) return true;
-    const hay = `${article.title} ${article.journal || ""} ${article.abstract || ""} ${(article.authors || []).join(" ")}`.toLowerCase();
+    const hay = `${article.title} ${article.journal || ""} ${article.abstract || ""} ${article.ai_summary || ""} ${article.ai_significance || ""} ${(article.authors || []).join(" ")}`.toLowerCase();
     return hay.includes(term);
   }
 
@@ -150,9 +150,19 @@
     const doiLink = article.doi
       ? `<a href="https://doi.org/${encodeURIComponent(article.doi)}" target="_blank" rel="noopener">DOI</a>`
       : "";
+    const hasAiSummary = !!(article.ai_summary || article.ai_significance);
+    const abstractToggleLabel = hasAiSummary ? "Show original text" : "Show more";
     const abstractBlock = article.abstract
       ? `<p class="article-abstract">${escapeHtml(article.abstract)}</p>
-         <button class="abstract-toggle" type="button">Show more</button>`
+         <button class="abstract-toggle" type="button">${abstractToggleLabel}</button>`
+      : "";
+    const aiBlock = hasAiSummary
+      ? `<div class="ai-summary">
+           <div class="ai-summary-label">✨ AI Summary</div>
+           ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
+           ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
+           <p class="ai-disclaimer">AI-generated — verify against the source before relying on it clinically.</p>
+         </div>`
       : "";
     const citationBadge = article.citation_count > 0
       ? `<span class="citation-badge">cited ${article.citation_count}×</span>`
@@ -173,9 +183,10 @@
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
+      ${aiBlock}
       ${abstractBlock}
       <div class="article-links">
-        <a href="${article.url}" target="_blank" rel="noopener">PubMed</a>
+        <a href="${article.url}" target="_blank" rel="noopener">${article.is_foamed ? "Read post" : "PubMed"}</a>
         ${doiLink}
       </div>
     `;

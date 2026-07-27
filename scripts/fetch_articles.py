@@ -26,6 +26,12 @@ FOAMED_MAX_PER_SOURCE = int(os.environ.get("FOAMED_MAX_PER_SOURCE", "6"))
 FOAMED_TOTAL_MAX = int(os.environ.get("FOAMED_TOTAL_MAX", "15"))
 REQUEST_DELAY = 0.4  # stay under NCBI's 3 req/sec unauthenticated limit
 
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
+AI_SUMMARY_MAX_PER_RUN = int(os.environ.get("AI_SUMMARY_MAX_PER_RUN", "40"))
+AI_REQUEST_DELAY = 0.6
+
 ICU_CONTEXT = '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critical illness"[MeSH] OR "critically ill")'
 
 TOP_JOURNAL_MATCHERS = ["new england journal of medicine", "jama"]
@@ -327,6 +333,141 @@ def build_foamed():
     return all_items[:FOAMED_TOTAL_MAX]
 
 
+AI_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "ai_cache.json")
+
+
+def load_ai_cache():
+    try:
+        with open(AI_CACHE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_ai_cache(cache):
+    with open(AI_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, indent=2, ensure_ascii=False)
+
+
+def ai_summarize(title, text):
+    prompt = (
+        "You are helping ICU/critical-care clinicians triage research quickly. "
+        "Given the title and text below (a study abstract or a FOAMed blog/podcast description), "
+        "respond with STRICT JSON only, no markdown fences, matching exactly this schema: "
+        '{"summary": "2-3 plain-language sentences on what was done and found", '
+        '"significance": "1-2 sentences on why this matters for ICU clinical practice"}.'
+        f"\n\nTitle: {title}\n\nText: {text[:3000]}"
+    )
+    body = json.dumps(
+        {
+            "model": GROQ_MODEL,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "You are a concise clinical research summarizer. Always respond with valid JSON only, no other text.",
+                },
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.3,
+            "max_completion_tokens": 300,
+            "response_format": {"type": "json_object"},
+        }
+    ).encode("utf-8")
+    req = urllib.request.Request(
+        GROQ_ENDPOINT,
+        data=body,
+        headers={
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                data = json.loads(resp.read())
+            content = data["choices"][0]["message"]["content"]
+            parsed = json.loads(content)
+            summary = (parsed.get("summary") or "").strip()
+            significance = (parsed.get("significance") or "").strip()
+            if summary or significance:
+                return {"summary": summary, "significance": significance}
+            return None
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < 2:
+                time.sleep(3 * (attempt + 1))
+                continue
+            print(f"  warning: Groq API error {e.code} for '{title[:60]}'")
+            return None
+        except Exception as e:
+            print(f"  warning: AI summarize failed for '{title[:60]}': {e}")
+            return None
+    return None
+
+
+def article_ai_id(article):
+    return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
+
+
+def gather_ai_targets(categories_out, trending_articles, foamed_articles):
+    by_id = {}
+
+    def register(article):
+        text = article.get("abstract") or article.get("summary") or ""
+        if not text:
+            return
+        aid = article_ai_id(article)
+        entry = by_id.setdefault(aid, {"title": article["title"], "text": text, "targets": []})
+        entry["targets"].append(article)
+
+    for cat in categories_out:
+        for a in cat["articles"]:
+            register(a)
+    for a in trending_articles:
+        register(a)
+    for a in foamed_articles:
+        register(a)
+    return by_id
+
+
+def enrich_with_ai(categories_out, trending_articles, foamed_articles):
+    if not GROQ_API_KEY:
+        print("  GROQ_API_KEY not set, skipping AI summaries")
+        return
+
+    cache = load_ai_cache()
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles)
+
+    remaining_budget = AI_SUMMARY_MAX_PER_RUN
+    new_count = 0
+    cached_count = 0
+
+    for aid, entry in by_id.items():
+        result = cache.get(aid)
+        if result is None:
+            if remaining_budget <= 0:
+                continue
+            result = ai_summarize(entry["title"], entry["text"])
+            remaining_budget -= 1
+            time.sleep(AI_REQUEST_DELAY)
+            if result:
+                cache[aid] = result
+                new_count += 1
+        else:
+            cached_count += 1
+
+        if result:
+            for target in entry["targets"]:
+                target["ai_summary"] = result["summary"]
+                target["ai_significance"] = result["significance"]
+
+    # Keep the cache bounded to ids still relevant this run.
+    pruned_cache = {aid: cache[aid] for aid in by_id if aid in cache}
+    save_ai_cache(pruned_cache)
+    print(f"  AI summaries: {new_count} new, {cached_count} from cache, "
+          f"{len(by_id) - new_count - cached_count} skipped (budget exhausted)")
+
+
 def main():
     if not CONTACT_EMAIL:
         raise SystemExit("CONTACT_EMAIL env var is required (NCBI usage policy).")
@@ -361,6 +502,12 @@ def main():
     except Exception as e:
         print(f"  warning: FOAMed fetch failed: {e}")
         foamed_articles = []
+
+    print("Generating AI summaries...")
+    try:
+        enrich_with_ai(categories_out, trending_articles, foamed_articles)
+    except Exception as e:
+        print(f"  warning: AI summarization failed: {e}")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
