@@ -219,18 +219,14 @@ select:focus-visible {
 #saved-count-badge { font-size: 0.85rem; font-weight: 700; }
 
 .category-nav {
-  position: sticky;
-  top: 0;
-  z-index: 10;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
   display: flex;
+  flex-wrap: wrap;
   gap: 0.5rem;
-  overflow-x: auto;
   padding: 0.85rem 1.5rem;
   max-width: 880px;
   margin: 0 auto;
-  scrollbar-width: thin;
 }
 
 .nav-chip {
