@@ -147,7 +147,7 @@
 
   initTheme();
 
-  fetch("data/articles.json", { cache: "no-store" })
+  fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" })
     .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
