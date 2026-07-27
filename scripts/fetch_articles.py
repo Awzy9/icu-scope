@@ -379,6 +379,8 @@ def ai_summarize(title, text):
         headers={
             "Authorization": f"Bearer {GROQ_API_KEY}",
             "Content-Type": "application/json",
+            "Accept": "application/json",
+            "User-Agent": "icu-scope/1.0 (+https://github.com/Awzy9/icu-scope)",
         },
         method="POST",
     )
