@@ -26,6 +26,9 @@ jobs:
           TRENDING_DAYS: "30"
           TRENDING_CANDIDATES: "60"
           TRENDING_TOP_N: "10"
+          FOAMED_DAYS: "30"
+          FOAMED_MAX_PER_SOURCE: "6"
+          FOAMED_TOTAL_MAX: "15"
         run: python scripts/fetch_articles.py
 
       - name: Commit and push if changed

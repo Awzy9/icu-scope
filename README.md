@@ -4,7 +4,8 @@ A daily-updating feed of recent ICU / critical-care literature from PubMed, orga
 
 ## How it works
 
-- `scripts/fetch_articles.py` queries the NCBI PubMed E-utilities API for each category and writes `data/articles.json`.
+- `scripts/fetch_articles.py` queries the NCBI PubMed E-utilities API for each category, plus a "Trending this month" ranking (by PMC citation count) and a "FOAMed & Blogs" section (RSS from EMCrit, PulmCrit, REBEL EM, LITFL), and writes it all to `data/articles.json`.
+- Articles from NEJM/JAMA are tagged `is_top_journal` and shown with a badge in the normal category feeds.
 - `.github/workflows/update.yml` runs that script daily via GitHub Actions and commits the result if it changed.
 - `index.html` / `app.js` / `style.css` render `data/articles.json` as a static site, served via GitHub Pages.
 

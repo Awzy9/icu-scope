@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated feed of recent ICU and critical care research, organized by organ system." />
-  <link rel="stylesheet" href="style.css?v=4" />
+  <link rel="stylesheet" href="style.css?v=5" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -47,6 +47,14 @@
       </div>
       <div id="trending-list"></div>
     </section>
+    <section class="foamed-section" id="foamed-section" hidden>
+      <div class="trending-heading foamed-heading">
+        <h2>📚 FOAMed &amp; Blogs</h2>
+        <span class="category-count" id="foamed-count"></span>
+      </div>
+      <p class="foamed-note">Free open-access med-ed posts from EMCrit, PulmCrit, REBEL EM, and LITFL — commentary and teaching, not peer-reviewed.</p>
+      <div id="foamed-list"></div>
+    </section>
     <div id="content">
       <p class="loading">Loading latest articles…</p>
     </div>
@@ -59,6 +67,6 @@
     </p>
   </footer>
 
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 </body>
 </html>

@@ -11,6 +11,12 @@
   --trending-bg: #fdf6e8;
   --trending-border: #f0deac;
   --trending-accent: #a5730c;
+  --foamed-bg: #eef3fb;
+  --foamed-border: #cddbee;
+  --foamed-accent: #2f5e9c;
+  --top-journal-bg: #efe9fb;
+  --top-journal-border: #d9cdf2;
+  --top-journal-accent: #6a4fb3;
   --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
   --radius: 12px;
 }
@@ -28,6 +34,12 @@
   --trending-bg: #2c2717;
   --trending-border: #4a3d1c;
   --trending-accent: #e0b448;
+  --foamed-bg: #16202c;
+  --foamed-border: #24384e;
+  --foamed-accent: #6fa8e0;
+  --top-journal-bg: #241c33;
+  --top-journal-border: #3a2c52;
+  --top-journal-accent: #b79df0;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 }
 
@@ -45,6 +57,12 @@
     --trending-bg: #2c2717;
     --trending-border: #4a3d1c;
     --trending-accent: #e0b448;
+    --foamed-bg: #16202c;
+    --foamed-border: #24384e;
+    --foamed-accent: #6fa8e0;
+    --top-journal-bg: #241c33;
+    --top-journal-border: #3a2c52;
+    --top-journal-accent: #b79df0;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
   }
 }
@@ -226,16 +244,32 @@ a { color: var(--accent-strong); }
 
 .article-meta .journal { font-style: italic; }
 
-.citation-badge {
+.citation-badge, .top-journal-badge, .foamed-badge {
   display: inline-block;
   margin-left: 0.5rem;
   padding: 0.1rem 0.55rem;
   border-radius: 999px;
-  background: var(--trending-bg);
-  color: var(--trending-accent);
   font-size: 0.76rem;
   font-weight: 600;
-  border: 1px solid var(--trending-border);
+  border: 1px solid transparent;
+}
+
+.citation-badge {
+  background: var(--trending-bg);
+  color: var(--trending-accent);
+  border-color: var(--trending-border);
+}
+
+.top-journal-badge {
+  background: var(--top-journal-bg);
+  color: var(--top-journal-accent);
+  border-color: var(--top-journal-border);
+}
+
+.foamed-badge {
+  background: var(--foamed-bg);
+  color: var(--foamed-accent);
+  border-color: var(--foamed-border);
 }
 
 .article-abstract {
@@ -288,6 +322,24 @@ a { color: var(--accent-strong); }
 .trending-heading .category-count { color: var(--text-muted); }
 
 .trending-section .article-card { background: var(--surface); }
+
+.foamed-section {
+  margin-bottom: 2.75rem;
+  background: var(--foamed-bg);
+  border: 1px solid var(--foamed-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.5rem 0.25rem;
+}
+
+.foamed-heading h2 { color: var(--foamed-accent); }
+
+.foamed-note {
+  margin: -0.4rem 0 1rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.foamed-section .article-card { background: var(--surface); }
 
 .site-footer {
   max-width: 880px;

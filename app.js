@@ -5,6 +5,9 @@
   const trendingSection = document.getElementById("trending-section");
   const trendingList = document.getElementById("trending-list");
   const trendingCount = document.getElementById("trending-count");
+  const foamedSection = document.getElementById("foamed-section");
+  const foamedList = document.getElementById("foamed-list");
+  const foamedCount = document.getElementById("foamed-count");
   const themeToggle = document.getElementById("theme-toggle");
 
   function initTheme() {
@@ -50,11 +53,17 @@
     const citationBadge = opts.showCitations && article.citation_count > 0
       ? `<span class="citation-badge">cited ${article.citation_count}×</span>`
       : "";
+    const topJournalBadge = article.is_top_journal
+      ? `<span class="top-journal-badge">★ Top Journal</span>`
+      : "";
+    const foamedBadge = article.is_foamed
+      ? `<span class="foamed-badge">FOAMed</span>`
+      : "";
 
     const card = document.createElement("article");
     card.className = "article-card";
     card.innerHTML = `
-      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${citationBadge}</h3>
+      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
@@ -89,9 +98,37 @@
     articles.forEach((article) => trendingList.appendChild(articleCard(article, { showCitations: true })));
   }
 
+  function foamedToArticle(item) {
+    return {
+      title: item.title,
+      journal: item.source,
+      pubdate: item.pubdate,
+      authors: item.author ? [item.author] : [],
+      doi: null,
+      abstract: item.summary,
+      citation_count: 0,
+      is_top_journal: false,
+      is_foamed: true,
+      url: item.url,
+    };
+  }
+
+  function renderFoamed(foamed) {
+    const posts = (foamed && foamed.articles) || [];
+    if (!posts.length) {
+      foamedSection.hidden = true;
+      return;
+    }
+    foamedSection.hidden = false;
+    foamedCount.textContent = `${posts.length} post${posts.length === 1 ? "" : "s"} · last ${foamed.window_days} days`;
+    foamedList.innerHTML = "";
+    posts.forEach((item) => foamedList.appendChild(articleCard(foamedToArticle(item))));
+  }
+
   function render(data) {
     updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
     renderTrending(data.trending);
+    renderFoamed(data.foamed);
 
     nav.innerHTML = "";
     content.innerHTML = "";

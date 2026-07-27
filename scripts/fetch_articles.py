@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Pull recent ICU/critical-care literature from PubMed, grouped by organ system."""
 
+import email.utils
+import html
 import json
 import os
 import re
@@ -9,7 +11,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 TOOL = "icu-scope"
@@ -19,9 +21,28 @@ MAX_PER_CATEGORY = int(os.environ.get("MAX_PER_CATEGORY", "8"))
 TRENDING_DAYS = int(os.environ.get("TRENDING_DAYS", "30"))
 TRENDING_CANDIDATES = int(os.environ.get("TRENDING_CANDIDATES", "60"))
 TRENDING_TOP_N = int(os.environ.get("TRENDING_TOP_N", "10"))
+FOAMED_DAYS = int(os.environ.get("FOAMED_DAYS", "30"))
+FOAMED_MAX_PER_SOURCE = int(os.environ.get("FOAMED_MAX_PER_SOURCE", "6"))
+FOAMED_TOTAL_MAX = int(os.environ.get("FOAMED_TOTAL_MAX", "15"))
 REQUEST_DELAY = 0.4  # stay under NCBI's 3 req/sec unauthenticated limit
 
 ICU_CONTEXT = '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critical illness"[MeSH] OR "critically ill")'
+
+TOP_JOURNAL_MATCHERS = ["new england journal of medicine", "jama"]
+
+FOAMED_KEYWORDS = [
+    "critical care", "intensive care", "icu", "resuscitat", "sepsis", "septic",
+    "shock", "ventilat", "intubat", "airway", "ards", "vasopressor", "hemodynamic",
+    "cardiac arrest", "crrt", "renal replacement", "status epilepticus", "toxicology",
+    "overdose", "dka", "acidosis", "coagulopathy", "transfusion", "trauma",
+]
+
+FOAMED_SOURCES = [
+    {"name": "EMCrit", "feed": "https://emcrit.org/feed/", "filter_keywords": False},
+    {"name": "PulmCrit", "feed": "https://emcrit.org/category/pulmcrit/feed/", "filter_keywords": False},
+    {"name": "REBEL EM", "feed": "https://rebelem.com/feed/", "filter_keywords": True},
+    {"name": "LITFL", "feed": "https://litfl.com/feed/", "filter_keywords": True},
+]
 
 CATEGORIES = [
     {
@@ -168,17 +189,24 @@ def doi_for(summary):
     return None
 
 
+def is_top_journal(journal_name):
+    lowered = (journal_name or "").lower()
+    return any(m in lowered for m in TOP_JOURNAL_MATCHERS)
+
+
 def article_from_summary(pmid, s, abstracts):
     authors = [a["name"] for a in s.get("authors", []) if a.get("name")]
+    journal = s.get("fulljournalname") or s.get("source", "")
     return {
         "pmid": pmid,
         "title": re.sub(r"\s+", " ", s.get("title", "")).strip(),
-        "journal": s.get("fulljournalname") or s.get("source", ""),
+        "journal": journal,
         "pubdate": s.get("pubdate", ""),
         "authors": authors,
         "doi": doi_for(s),
         "abstract": abstracts.get(pmid, ""),
         "citation_count": int(s.get("pmcrefcount") or 0),
+        "is_top_journal": is_top_journal(journal),
         "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
     }
 
@@ -219,6 +247,86 @@ def build_trending():
     return [article_from_summary(pmid, s, abstracts) for pmid, s in ranked]
 
 
+def strip_html(text):
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    text = html.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def fetch_feed(url):
+    req = urllib.request.Request(url, headers={"User-Agent": f"{TOOL} (contact: {CONTACT_EMAIL})"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read()
+
+
+def build_foamed_source(source):
+    try:
+        raw = fetch_feed(source["feed"])
+    except Exception as e:
+        print(f"  warning: {source['name']} feed failed: {e}")
+        return []
+    try:
+        root = ET.fromstring(raw)
+    except ET.ParseError as e:
+        print(f"  warning: {source['name']} feed parse failed: {e}")
+        return []
+
+    cutoff = datetime.now(timezone.utc) - timedelta(days=FOAMED_DAYS)
+    ns = {"dc": "http://purl.org/dc/elements/1.1/"}
+    items = []
+    for item in root.findall(".//item"):
+        title_el = item.find("title")
+        link_el = item.find("link")
+        pubdate_el = item.find("pubDate")
+        if title_el is None or link_el is None or pubdate_el is None:
+            continue
+        try:
+            pub_dt = email.utils.parsedate_to_datetime(pubdate_el.text)
+            if pub_dt.tzinfo is None:
+                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+        except (TypeError, ValueError):
+            continue
+        if pub_dt < cutoff:
+            continue
+
+        title = (title_el.text or "").strip()
+        categories = [c.text for c in item.findall("category") if c.text]
+        haystack = f"{title} {' '.join(categories)}".lower()
+        if source["filter_keywords"] and not any(k in haystack for k in FOAMED_KEYWORDS):
+            continue
+
+        desc_el = item.find("description")
+        creator_el = item.find("dc:creator", ns)
+
+        items.append(
+            {
+                "title": title,
+                "url": (link_el.text or "").split("?utm_")[0].strip(),
+                "source": source["name"],
+                "author": (creator_el.text or "").strip() if creator_el is not None else "",
+                "pubdate": pub_dt.strftime("%Y-%m-%d"),
+                "summary": strip_html(desc_el.text if desc_el is not None else "")[:400],
+                "_sort": pub_dt,
+            }
+        )
+        if len(items) >= FOAMED_MAX_PER_SOURCE:
+            break
+    return items
+
+
+def build_foamed():
+    all_items = []
+    for source in FOAMED_SOURCES:
+        print(f"Fetching {source['name']}...")
+        all_items.extend(build_foamed_source(source))
+        time.sleep(REQUEST_DELAY)
+
+    all_items.sort(key=lambda x: x["_sort"], reverse=True)
+    for item in all_items:
+        del item["_sort"]
+    return all_items[:FOAMED_TOTAL_MAX]
+
+
 def main():
     if not CONTACT_EMAIL:
         raise SystemExit("CONTACT_EMAIL env var is required (NCBI usage policy).")
@@ -247,12 +355,23 @@ def main():
         print(f"  warning: trending fetch failed: {e}")
         trending_articles = []
 
+    print("Fetching FOAMed & blogs...")
+    try:
+        foamed_articles = build_foamed()
+    except Exception as e:
+        print(f"  warning: FOAMed fetch failed: {e}")
+        foamed_articles = []
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "window_days": RELDATE_DAYS,
         "trending": {
             "window_days": TRENDING_DAYS,
             "articles": trending_articles,
+        },
+        "foamed": {
+            "window_days": FOAMED_DAYS,
+            "articles": foamed_articles,
         },
         "categories": categories_out,
     }
@@ -261,8 +380,8 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
     total = sum(len(c["articles"]) for c in categories_out)
-    print(f"Wrote {total} articles across {len(categories_out)} categories "
-          f"and {len(trending_articles)} trending articles to {out_path}")
+    print(f"Wrote {total} articles across {len(categories_out)} categories, "
+          f"{len(trending_articles)} trending, and {len(foamed_articles)} FOAMed posts to {out_path}")
 
 
 if __name__ == "__main__":
