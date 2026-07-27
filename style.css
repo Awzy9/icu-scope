@@ -20,6 +20,9 @@
   --ai-bg: #fdeef6;
   --ai-border: #f3cde3;
   --ai-accent: #b23b82;
+  --guideline-bg: #eef0fb;
+  --guideline-border: #cfd4f0;
+  --guideline-accent: #4a4fb0;
   --journal-saturation: 48%;
   --journal-lightness: 36%;
   --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
@@ -48,6 +51,9 @@
   --ai-bg: #2c1a26;
   --ai-border: #4a2c3e;
   --ai-accent: #e28ac2;
+  --guideline-bg: #1c1e33;
+  --guideline-border: #2c2f52;
+  --guideline-accent: #8b90e0;
   --journal-saturation: 55%;
   --journal-lightness: 68%;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -76,6 +82,9 @@
     --ai-bg: #2c1a26;
     --ai-border: #4a2c3e;
     --ai-accent: #e28ac2;
+    --guideline-bg: #1c1e33;
+    --guideline-border: #2c2f52;
+    --guideline-accent: #8b90e0;
     --journal-saturation: 55%;
     --journal-lightness: 68%;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -97,6 +106,29 @@ body {
 }
 
 a { color: var(--accent-strong); }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--accent-strong);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 8px 0;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 2px;
+}
 
 .credit-bar {
   text-align: center;
@@ -166,6 +198,25 @@ a { color: var(--accent-strong); }
 }
 
 .theme-toggle:hover { border-color: var(--accent); }
+
+.saved-toggle {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  color: var(--text);
+  height: 2.6rem;
+  padding: 0 0.9rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.saved-toggle:hover { border-color: var(--accent); }
+
+#saved-count-badge { font-size: 0.85rem; font-weight: 700; }
 
 .category-nav {
   position: sticky;
@@ -349,6 +400,18 @@ a { color: var(--accent-strong); }
   border-color: var(--foamed-border);
 }
 
+.study-type-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  background: var(--surface-soft);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
 .new-badge {
   display: inline-block;
   margin-left: 0.5rem;
@@ -421,8 +484,27 @@ a { color: var(--accent-strong); }
 .article-links {
   margin-top: 0.7rem;
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 1rem;
   font-size: 0.85rem;
+}
+
+.cite-btn, .bookmark-btn {
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--accent-strong);
+  font-size: 0.82rem;
+  cursor: pointer;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+}
+
+.bookmark-btn.active {
+  background: var(--accent-soft);
+  border-color: var(--accent-strong);
+  color: var(--accent-strong);
+  font-weight: 600;
 }
 
 .trending-section {
@@ -467,6 +549,58 @@ a { color: var(--accent-strong); }
 }
 
 .foamed-section .article-card { background: var(--surface); }
+
+.guideline-section {
+  margin-bottom: 2.75rem;
+  background: var(--guideline-bg);
+  border: 1px solid var(--guideline-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.5rem 0.25rem;
+}
+
+.guideline-heading h2 { color: var(--guideline-accent); }
+
+.guideline-section .article-card { background: var(--surface); }
+
+.spotlight-section {
+  margin-bottom: 2.75rem;
+  background: var(--surface);
+  border: 2px solid var(--accent-strong);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.5rem 0.25rem;
+}
+
+.spotlight-heading h2 { color: var(--accent-strong); }
+
+.spotlight-card {
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.discussion-prompts {
+  margin: 0.6rem 0;
+  font-size: 0.9rem;
+}
+
+.discussion-prompts ul {
+  margin: 0.4rem 0 0;
+  padding-left: 1.3rem;
+}
+
+.discussion-prompts li { margin-bottom: 0.3rem; }
+
+.saved-section {
+  margin-bottom: 2.75rem;
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.5rem 0.25rem;
+}
+
+.saved-heading h2 { color: var(--text); }
+
+.saved-section .article-card { background: var(--surface); }
 
 .site-footer {
   max-width: 880px;

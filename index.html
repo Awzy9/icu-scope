@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated feed of recent ICU and critical care research, organized by organ system." />
-  <link rel="stylesheet" href="style.css?v=8" />
+  <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
+  <link rel="stylesheet" href="style.css?v=10" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -16,6 +17,8 @@
   </script>
 </head>
 <body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
   <div class="credit-bar">
     <p>Done by: Fawaz Alanazi-MNGHA</p>
     <p>This website updates daily at 05:17 UTC</p>
@@ -31,6 +34,7 @@
         <p class="tagline">Recent critical care literature, organized by system</p>
         <p class="updated-line" id="updated-line">Loading update time…</p>
       </div>
+      <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">🔖 <span id="saved-count-badge">0</span></button>
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
     </div>
   </header>
@@ -47,9 +51,34 @@
       <option value="7">Last 7 days</option>
       <option value="30">Last 30 days</option>
     </select>
+    <select id="study-type-filter" class="window-filter" aria-label="Study type">
+      <option value="all">All study types</option>
+    </select>
   </div>
 
   <main class="content">
+    <section class="spotlight-section" id="spotlight-section" hidden>
+      <div class="trending-heading spotlight-heading">
+        <h2>📌 Article of the Week</h2>
+        <span class="category-count" id="spotlight-week"></span>
+      </div>
+      <div id="spotlight-body"></div>
+    </section>
+    <section class="saved-section" id="saved-section" hidden>
+      <div class="trending-heading saved-heading">
+        <h2>🔖 Saved</h2>
+        <span class="category-count" id="saved-count"></span>
+      </div>
+      <div id="saved-list"></div>
+    </section>
+    <section class="guideline-section" id="guideline-section" hidden>
+      <div class="trending-heading guideline-heading">
+        <h2>📋 Guideline Watch</h2>
+        <span class="category-count" id="guideline-count"></span>
+      </div>
+      <p class="foamed-note">Practice guidelines and consensus statements relevant to critical care, from the last <span id="guideline-window"></span> days.</p>
+      <div id="guideline-list"></div>
+    </section>
     <section class="trending-section" id="trending-section" hidden>
       <div class="trending-heading">
         <h2>🔥 Trending this month</h2>
@@ -75,8 +104,9 @@
       Sourced from <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed</a> via NCBI E-utilities.
       Updated automatically. This site aggregates publicly available citations and does not host full-text articles.
     </p>
+    <p><a href="feed.xml">📡 Subscribe via RSS</a></p>
   </footer>
 
-  <script src="app.js?v=6"></script>
+  <script src="app.js?v=7"></script>
 </body>
 </html>

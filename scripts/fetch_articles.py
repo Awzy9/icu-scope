@@ -36,6 +36,23 @@ ICU_CONTEXT = '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critic
 
 TOP_JOURNAL_MATCHERS = ["new england journal of medicine", "jama"]
 
+PUB_TYPE_PRIORITY = [
+    "Randomized Controlled Trial",
+    "Meta-Analysis",
+    "Systematic Review",
+    "Practice Guideline",
+    "Guideline",
+    "Multicenter Study",
+    "Clinical Trial",
+    "Comparative Study",
+    "Observational Study",
+    "Case Reports",
+    "Review",
+]
+
+GUIDELINE_DAYS = int(os.environ.get("GUIDELINE_DAYS", "180"))
+GUIDELINE_MAX = int(os.environ.get("GUIDELINE_MAX", "10"))
+
 FOAMED_KEYWORDS = [
     "critical care", "intensive care", "icu", "resuscitat", "sepsis", "septic",
     "shock", "ventilat", "intubat", "airway", "ards", "vasopressor", "hemodynamic",
@@ -200,6 +217,13 @@ def is_top_journal(journal_name):
     return any(m in lowered for m in TOP_JOURNAL_MATCHERS)
 
 
+def normalize_pub_type(pubtypes):
+    for candidate in PUB_TYPE_PRIORITY:
+        if candidate in pubtypes:
+            return candidate
+    return "Study"
+
+
 def article_from_summary(pmid, s, abstracts):
     authors = [a["name"] for a in s.get("authors", []) if a.get("name")]
     journal = s.get("fulljournalname") or s.get("source", "")
@@ -213,6 +237,10 @@ def article_from_summary(pmid, s, abstracts):
         "abstract": abstracts.get(pmid, ""),
         "citation_count": int(s.get("pmcrefcount") or 0),
         "is_top_journal": is_top_journal(journal),
+        "study_type": normalize_pub_type(s.get("pubtype", [])),
+        "volume": s.get("volume", ""),
+        "issue": s.get("issue", ""),
+        "pages": s.get("pages", ""),
         "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
     }
 
@@ -251,6 +279,21 @@ def build_trending():
     time.sleep(REQUEST_DELAY)
 
     return [article_from_summary(pmid, s, abstracts) for pmid, s in ranked]
+
+
+def build_guidelines():
+    query = (
+        f'{ICU_CONTEXT} AND (guideline[pt] OR "practice guideline"[pt] '
+        'OR "consensus development conference"[pt])'
+    )
+    pmids = esearch(query, GUIDELINE_DAYS, GUIDELINE_MAX)
+    time.sleep(REQUEST_DELAY)
+    summaries = esummary(pmids)
+    time.sleep(REQUEST_DELAY)
+    abstracts = efetch_abstracts(pmids)
+    time.sleep(REQUEST_DELAY)
+
+    return [article_from_summary(pmid, summaries[pmid], abstracts) for pmid in pmids if pmid in summaries]
 
 
 def strip_html(text):
@@ -312,6 +355,7 @@ def build_foamed_source(source):
                 "author": (creator_el.text or "").strip() if creator_el is not None else "",
                 "pubdate": pub_dt.strftime("%Y-%m-%d"),
                 "summary": strip_html(desc_el.text if desc_el is not None else "")[:400],
+                "study_type": "FOAMed/Blog",
                 "_sort": pub_dt,
             }
         )
@@ -349,27 +393,13 @@ def save_ai_cache(cache):
         json.dump(cache, f, indent=2, ensure_ascii=False)
 
 
-def ai_summarize(title, text):
-    prompt = (
-        "You are helping ICU/critical-care clinicians triage research quickly. "
-        "Given the title and text below (a study abstract or a FOAMed blog/podcast description), "
-        "respond with STRICT JSON only, no markdown fences, matching exactly this schema: "
-        '{"summary": "2-3 plain-language sentences on what was done and found", '
-        '"significance": "1-2 sentences on why this matters for ICU clinical practice"}.'
-        f"\n\nTitle: {title}\n\nText: {text[:3000]}"
-    )
+def groq_chat_json(messages, max_tokens=300, temperature=0.3, log_label=""):
     body = json.dumps(
         {
             "model": GROQ_MODEL,
-            "messages": [
-                {
-                    "role": "system",
-                    "content": "You are a concise clinical research summarizer. Always respond with valid JSON only, no other text.",
-                },
-                {"role": "user", "content": prompt},
-            ],
-            "temperature": 0.3,
-            "max_completion_tokens": 300,
+            "messages": messages,
+            "temperature": temperature,
+            "max_completion_tokens": max_tokens,
             "response_format": {"type": "json_object"},
         }
     ).encode("utf-8")
@@ -389,12 +419,7 @@ def ai_summarize(title, text):
             with urllib.request.urlopen(req, timeout=30) as resp:
                 data = json.loads(resp.read())
             content = data["choices"][0]["message"]["content"]
-            parsed = json.loads(content)
-            summary = (parsed.get("summary") or "").strip()
-            significance = (parsed.get("significance") or "").strip()
-            if summary or significance:
-                return {"summary": summary, "significance": significance}
-            return None
+            return json.loads(content)
         except urllib.error.HTTPError as e:
             if e.code == 429 and attempt < 2:
                 time.sleep(3 * (attempt + 1))
@@ -403,11 +428,39 @@ def ai_summarize(title, text):
                 err_body = e.read().decode("utf-8", errors="replace")[:300]
             except Exception:
                 err_body = ""
-            print(f"  warning: Groq API error {e.code} for '{title[:60]}': {err_body}")
+            print(f"  warning: Groq API error {e.code} for '{log_label[:60]}': {err_body}")
             return None
         except Exception as e:
-            print(f"  warning: AI summarize failed for '{title[:60]}': {e}")
+            print(f"  warning: Groq call failed for '{log_label[:60]}': {e}")
             return None
+    return None
+
+
+def ai_summarize(title, text):
+    messages = [
+        {
+            "role": "system",
+            "content": "You are a concise clinical research summarizer. Always respond with valid JSON only, no other text.",
+        },
+        {
+            "role": "user",
+            "content": (
+                "You are helping ICU/critical-care clinicians triage research quickly. "
+                "Given the title and text below (a study abstract or a FOAMed blog/podcast description), "
+                "respond with STRICT JSON only, no markdown fences, matching exactly this schema: "
+                '{"summary": "2-3 plain-language sentences on what was done and found", '
+                '"significance": "1-2 sentences on why this matters for ICU clinical practice"}.'
+                f"\n\nTitle: {title}\n\nText: {text[:3000]}"
+            ),
+        },
+    ]
+    parsed = groq_chat_json(messages, max_tokens=300, temperature=0.3, log_label=title)
+    if not parsed:
+        return None
+    summary = (parsed.get("summary") or "").strip()
+    significance = (parsed.get("significance") or "").strip()
+    if summary or significance:
+        return {"summary": summary, "significance": significance}
     return None
 
 
@@ -415,7 +468,7 @@ def article_ai_id(article):
     return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
 
 
-def gather_ai_targets(categories_out, trending_articles, foamed_articles):
+def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=()):
     by_id = {}
 
     def register(article):
@@ -433,16 +486,18 @@ def gather_ai_targets(categories_out, trending_articles, foamed_articles):
         register(a)
     for a in foamed_articles:
         register(a)
+    for a in guideline_articles:
+        register(a)
     return by_id
 
 
-def enrich_with_ai(categories_out, trending_articles, foamed_articles):
+def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=()):
     if not GROQ_API_KEY:
         print("  GROQ_API_KEY not set, skipping AI summaries")
         return
 
     cache = load_ai_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles)
 
     remaining_budget = AI_SUMMARY_MAX_PER_RUN
     new_count = 0
@@ -472,6 +527,153 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles):
     save_ai_cache(pruned_cache)
     print(f"  AI summaries: {new_count} new, {cached_count} from cache, "
           f"{len(by_id) - new_count - cached_count} skipped (budget exhausted)")
+
+
+SPOTLIGHT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "spotlight.json")
+
+
+def load_spotlight():
+    try:
+        with open(SPOTLIGHT_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+
+
+def save_spotlight(data):
+    with open(SPOTLIGHT_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+
+def current_iso_week():
+    iso = datetime.now(timezone.utc).isocalendar()
+    return f"{iso[0]}-W{iso[1]:02d}"
+
+
+def pick_spotlight(candidates):
+    listing = "\n".join(
+        f"{i + 1}. [{c['pmid']}] {c['title']} — {(c.get('abstract') or '')[:400]}"
+        for i, c in enumerate(candidates)
+    )
+    messages = [
+        {
+            "role": "system",
+            "content": "You are an ICU attending curating a journal club. Always respond with valid JSON only, no other text.",
+        },
+        {
+            "role": "user",
+            "content": (
+                "Select the single most clinically significant paper this week for an ICU journal club, "
+                "from the numbered candidates below. Respond with STRICT JSON only, matching exactly this schema: "
+                '{"pmid": "<the pmid of your chosen article, exactly as given in brackets>", '
+                '"why_selected": "1-2 sentences on why this is the most significant pick", '
+                '"discussion_prompts": ["question 1", "question 2", "question 3"]}.'
+                f"\n\nCandidates:\n{listing}"
+            ),
+        },
+    ]
+    parsed = groq_chat_json(messages, max_tokens=500, temperature=0.4, log_label="spotlight selection")
+    if not parsed:
+        return None
+    pmid = str(parsed.get("pmid", "")).strip()
+    match = next((c for c in candidates if c["pmid"] == pmid), None) or candidates[0]
+    prompts = [p.strip() for p in (parsed.get("discussion_prompts") or []) if p and p.strip()][:5]
+    return {
+        "pmid": match["pmid"],
+        "title": match["title"],
+        "journal": match.get("journal", ""),
+        "url": match["url"],
+        "pubdate": match.get("pubdate", ""),
+        "why_selected": (parsed.get("why_selected") or "").strip(),
+        "discussion_prompts": prompts,
+    }
+
+
+def build_spotlight(trending_articles):
+    week = current_iso_week()
+    existing = load_spotlight()
+    if existing and existing.get("week") == week:
+        return existing
+    if not GROQ_API_KEY or not trending_articles:
+        return existing
+
+    result = pick_spotlight(trending_articles[:8])
+    if not result:
+        return existing
+
+    result["week"] = week
+    result["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    save_spotlight(result)
+    return result
+
+
+RSS_PATH = os.path.join(os.path.dirname(__file__), "..", "feed.xml")
+SITE_URL = "https://awzy9.github.io/icu-scope/"
+
+
+def xml_escape(text):
+    return (
+        (text or "")
+        .replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+    )
+
+
+def build_rss_feed(categories_out, foamed_articles):
+    items = []
+    for cat in categories_out:
+        for a in cat["articles"]:
+            items.append((a, cat["label"]))
+    for a in foamed_articles:
+        items.append((a, a.get("source", "FOAMed")))
+
+    def sort_key(pair):
+        return parsed_pubdate_for_sort(pair[0].get("pubdate", ""))
+
+    items.sort(key=sort_key, reverse=True)
+    items = items[:60]
+
+    now_rfc822 = email.utils.format_datetime(datetime.now(timezone.utc))
+    entries = []
+    for article, label in items:
+        title = xml_escape(article.get("title", ""))
+        link = xml_escape(article.get("url", ""))
+        desc = xml_escape((article.get("ai_summary") or article.get("abstract") or article.get("summary") or "")[:500])
+        guid = xml_escape(article.get("pmid") and f"pmid:{article['pmid']}" or article.get("url", ""))
+        entries.append(
+            f"    <item>\n"
+            f"      <title>{title}</title>\n"
+            f"      <link>{link}</link>\n"
+            f"      <guid isPermaLink=\"false\">{guid}</guid>\n"
+            f"      <category>{xml_escape(label)}</category>\n"
+            f"      <description>{desc}</description>\n"
+            f"    </item>"
+        )
+
+    xml = (
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
+        '<rss version="2.0">\n'
+        "  <channel>\n"
+        "    <title>ICU Scope</title>\n"
+        f"    <link>{SITE_URL}</link>\n"
+        "    <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>\n"
+        f"    <lastBuildDate>{now_rfc822}</lastBuildDate>\n"
+        + "\n".join(entries)
+        + "\n  </channel>\n</rss>\n"
+    )
+    with open(RSS_PATH, "w", encoding="utf-8") as f:
+        f.write(xml)
+
+
+def parsed_pubdate_for_sort(pubdate_str):
+    for fmt in ("%Y %b %d", "%Y %b", "%Y-%m-%d", "%Y"):
+        try:
+            return datetime.strptime(pubdate_str, fmt)
+        except ValueError:
+            continue
+    return datetime.min
 
 
 def main():
@@ -509,11 +711,25 @@ def main():
         print(f"  warning: FOAMed fetch failed: {e}")
         foamed_articles = []
 
+    print("Fetching guideline watch...")
+    try:
+        guideline_articles = build_guidelines()
+    except Exception as e:
+        print(f"  warning: guideline fetch failed: {e}")
+        guideline_articles = []
+
     print("Generating AI summaries...")
     try:
-        enrich_with_ai(categories_out, trending_articles, foamed_articles)
+        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles)
     except Exception as e:
         print(f"  warning: AI summarization failed: {e}")
+
+    print("Selecting article of the week...")
+    try:
+        spotlight = build_spotlight(trending_articles)
+    except Exception as e:
+        print(f"  warning: spotlight selection failed: {e}")
+        spotlight = load_spotlight()
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -526,15 +742,27 @@ def main():
             "window_days": FOAMED_DAYS,
             "articles": foamed_articles,
         },
+        "guidelines": {
+            "window_days": GUIDELINE_DAYS,
+            "articles": guideline_articles,
+        },
+        "spotlight": spotlight,
         "categories": categories_out,
     }
 
     out_path = os.path.join(os.path.dirname(__file__), "..", "data", "articles.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
+
+    try:
+        build_rss_feed(categories_out, foamed_articles)
+    except Exception as e:
+        print(f"  warning: RSS feed generation failed: {e}")
+
     total = sum(len(c["articles"]) for c in categories_out)
     print(f"Wrote {total} articles across {len(categories_out)} categories, "
-          f"{len(trending_articles)} trending, and {len(foamed_articles)} FOAMed posts to {out_path}")
+          f"{len(trending_articles)} trending, {len(foamed_articles)} FOAMed posts, "
+          f"and {len(guideline_articles)} guidelines to {out_path}")
 
 
 if __name__ == "__main__":
