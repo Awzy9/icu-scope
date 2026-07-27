@@ -1,15 +1,666 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-07-27T18:43:48+00:00",
   "window_days": 3,
   "categories": [
-    { "id": "cardiovascular", "label": "Cardiovascular", "abbr": "CVS", "articles": [] },
-    { "id": "respiratory", "label": "Respiratory", "abbr": "Resp", "articles": [] },
-    { "id": "neurology", "label": "Neurology", "abbr": "Neuro", "articles": [] },
-    { "id": "renal", "label": "Renal", "abbr": "Renal", "articles": [] },
-    { "id": "gi-nutrition", "label": "GI & Nutrition", "abbr": "GI", "articles": [] },
-    { "id": "endocrine-metabolic", "label": "Endocrine & Metabolic", "abbr": "Endo", "articles": [] },
-    { "id": "infectious-sepsis", "label": "Infectious Disease & Sepsis", "abbr": "ID/Sepsis", "articles": [] },
-    { "id": "hematology-coag", "label": "Hematology & Coagulation", "abbr": "Heme", "articles": [] },
-    { "id": "trauma-surgical", "label": "Trauma & Surgical", "abbr": "Trauma", "articles": [] }
+    {
+      "id": "cardiovascular",
+      "label": "Cardiovascular",
+      "abbr": "CVS",
+      "articles": [
+        {
+          "pmid": "42507072",
+          "title": "Point-of-Care Echocardiography in Pediatric and Neonatal Care.",
+          "journal": "Indian journal of pediatrics",
+          "pubdate": "2026 Jul 27",
+          "authors": [
+            "Mantoo MR",
+            "Gupta SK"
+          ],
+          "doi": "10.1007/s12098-026-06362-y",
+          "abstract": "Point-of-care echocardiography (POCE) has transformed the bedside evaluation of critically ill children and neonates, enabling rapid assessment of cardiac function, hemodynamics, and structural abnormalities by the treating clinician. Unlike comprehensive echocardiography, POCE is designed to address focused clinical questions and guide time-sensitive management decisions in emergency departments and neonatal and pediatric intensive care units. This review provides an overview of the principles, performance, and interpretation of POCE.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42507072/"
+        },
+        {
+          "pmid": "42502493",
+          "title": "Prognostic Value of the Total Bilirubin-to-Albumin Ratio in Critically Ill Patients with Gastrointestinal Bleeding: A Multicentre Cohort Study.",
+          "journal": "Emergency medicine international",
+          "pubdate": "2026",
+          "authors": [
+            "Chen X",
+            "Ying S",
+            "Yuan X",
+            "Lv L",
+            "Yang X"
+          ],
+          "doi": "10.1155/emmi/1396680",
+          "abstract": "INTRODUCTION: The total bilirubin-to-serum albumin ratio (TBAR) has been proposed as an indicator of hepatic dysfunction and systemic inflammation, yet its prognostic relevance in critically ill patients with gastrointestinal bleeding (GIB) remains unclear. This study evaluated the association between TBAR and mortality and developed a TBAR-based prognostic model. METHODS: Data were extracted from the MIMIC-IV v3.1 database, with external validation using the eICU-CRD v2.0. Adult patients with GIB were included after applying predefined eligibility criteria, yielding a final cohort of 1627 individuals. The primary outcomes were 28-day all-cause mortality. Cox regression, Kaplan-Meier analyses, restricted cubic splines (RCS), ROC curves, and subgroup analyses were performed. A prediction nomogram was constructed using variables selected through the Boruta algorithm and evaluated using AUC, C-index, calibration performance, and decision curve analysis. RESULTS: Nonsurvivors exhibited markedly greater physiological instability, more severe organ dysfunction, and substantially higher TBAR levels. TBAR was independently associated with mortality across all Cox models (fully adjusted HR for 28-day mortality: 1.10, 95% CI 1.06-1.15). High TBAR was associated with more than a twofold increased risk of death. TBAR demonstrated superior discriminatory ability compared with TBIL or ALB alone and provided incremental predictive value when combined with the SOFA score. RCS analysis supported a linear dose-response association. Subgroup analyses showed no significant interactions. The final nomogram-which incorporated SOFA, APTT, TBAR, vasopressor use, CRRT, and anion gap-achieved an AUC of 0.794 and a bootstrap-corrected C-index of 0.789. External validation in the eICU cohort confirmed the robustness of the association and the strong performance of the model (AUC 0.805). CONCLUSIONS: TBAR is an independent predictor of mortality in critically ill patients with GIB. The TBAR-based nomogram demonstrates reliable discrimination and calibration and may facilitate individualized mortality risk stratification in clinical practice.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502493/"
+        },
+        {
+          "pmid": "42501114",
+          "title": "Combined metabolic risk and admission lactate-to-bicarbonate ratio in critically ill children: a retrospective pediatric ıntensive care cohort study.",
+          "journal": "European journal of pediatrics",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Guvenc KB",
+            "Sahin EG",
+            "Akyuz SZ",
+            "Varol F",
+            "Durak C"
+          ],
+          "doi": "10.1007/s00431-026-07291-w",
+          "abstract": "UNLABELLED: Early identification of high-risk children at pediatric intensive care unit (PICU) admission is essential. This study evaluated the association of admission combined acidosis-hyperlactatemia risk classification and lactate-to-bicarbonate ratio (LBR) with PICU mortality and organ support requirements. This retrospective cohort study included children aged 1 month to 18 years admitted to a tertiary PICU between January 2022 and May 2025 who had lactate and bicarbonate values available from blood gas analysis within the first 24 h. Metabolic acidosis was defined as pH ≤ 7.30 and/or base excess ≤  - 7 mmol/L, and hyperlactatemia as lactate > 2.3 mmol/L. Patients were classified as low risk, intermediate risk, or high risk according to the presence of neither, either, or both abnormalities. The primary outcome was PICU mortality. A total of 1,636 patients were included, and PICU mortality was 7.3%. The low-, intermediate-, and high-risk groups included 874 (53.4%), 569 (34.8%), and 193 (11.8%) patients, respectively. Mortality increased progressively across risk groups from 3.4% to 7.0% and 25.9% (p < 0.001). Similar increases were observed for invasive mechanical ventilation, inotrope/vasopressor use, continuous renal replacement therapy, acute kidney injury, and plasma exchange (all p < 0.001). The combined metabolic risk model showed moderate discrimination for PICU mortality (AUC 0.710), comparable to lactate (AUC 0.707) and LBR (AUC 0.700), while PRISM showed the highest discrimination (AUC 0.820). After PRISM adjustment, high-risk status remained independently associated with mortality (adjusted OR 3.31, 95% CI 1.86-5.88; p < 0.001), whereas LBR showed borderline significance (adjusted OR 2.48, 95% CI 0.96-6.44; p = 0.062). CONCLUSION: The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype associated with higher mortality and greater organ support requirements. The combined metabolic risk classification may support early bedside risk assessment, whereas LBR should be interpreted as a complementary marker rather than a prognostic measure superior to lactate or validated severity scores. WHAT IS KNOWN: • Lactate and acid-base parameters are associated with illness severity and adverse outcomes in critically ill children. • Validated severity scores remain the standard approach for mortality risk assessment in the PICU. WHAT IS NEW: • The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype with substantially increased PICU mortality and organ support requirements. • LBR showed mortality discrimination similar to lactate alone and should be interpreted as a complementary rather than superior prognostic marker.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42501114/"
+        },
+        {
+          "pmid": "42498874",
+          "title": "Point-of-care echocardiographic assessment of right ventricle systolic function in infants with severe bronchiolitis: a prospective observational study.",
+          "journal": "European journal of pediatrics",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Gotchac J",
+            "Rousseau A",
+            "Arcourt A",
+            "Chareyre J",
+            "Klifa R",
+            "Nolent P",
+            "Ros B",
+            "Hayotte A",
+            "Guichoux J",
+            "Brissaud O"
+          ],
+          "doi": "10.1007/s00431-026-07274-x",
+          "abstract": "The aim of this study was to assess right ventricle (RV) systolic function in infants with severe bronchiolitis using tricuspid annular plane systolic excursion (TAPSE) and to explore its prognostic value. We hypothesized that lower TAPSE at pediatric intensive care unit (PICU) admission could be associated with prolonged length of stay (LOS) and duration of respiratory support. We conducted a prospective single-center observational pilot study in a tertiary general PICU during the 2022-2023 bronchiolitis season. All children < 12 months admitted to PICU for bronchiolitis were eligible. TAPSE was measured by transthoracic echocardiography at PICU admission. Patients were followed up until discharge. Forty-six patients were included, aged from 16 days to 9.5 months. TAPSE Z-score was within normal range (- 2 to + 2) in 36/46 (78%) patients and >  + 2 in 10/46 (22%) patients. TAPSE Z-score was weakly associated with PICU LOS (Spearman ρ =  - 0.38, p = 0.009) and moderately associated with the duration of respiratory support (Spearman ρ =  - 0.45, p = 0.002). No significant association was found between other echocardiographic parameters and PICU LOS or duration of respiratory support. In post hoc exploratory multivariable analysis, TAPSE Z-score was independently associated with a duration of respiratory support < 3 days (OR = 2.29, 95% CI [1.25; 4.17], p = 0.007). Conclusion: TAPSE was within or above normal range in children with severe bronchiolitis, suggesting that RV systolic dysfunction is uncommon. Although its value may be associated with patients' clinical course, the pathophysiological basis and the clinical relevance of this association warrants further investigations.Trial registration: NCT07209956, date of registration October 7, 2025, retrospectively registered.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42498874/"
+        },
+        {
+          "pmid": "42496754",
+          "title": "Prognostic factors and outcomes in pediatric posterior reversible encephalopathy syndrome: a 6-year single-center PICU study.",
+          "journal": "European journal of pediatrics",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Bayramov B",
+            "Oglakcioglu A",
+            "Ozcan S",
+            "Direk Kockuzu E",
+            "Sigirci A",
+            "Citak Kurt AN",
+            "Bayrakci US",
+            "Ozbek NY",
+            "Emeksiz S"
+          ],
+          "doi": "10.1007/s00431-026-07275-w",
+          "abstract": "UNLABELLED: This study aims to evaluate the demographic, clinical, laboratory, and radiological characteristics of pediatric patients with posterior reversible encephalopathy syndrome (PRES) admitted to the pediatric intensive care unit (PICU) and to identify prognostic factors associated with mortality. This retrospective cohort study included 52 MRI-confirmed pediatric PRES cases managed in a tertiary-level PICU between January 2020 and January 2026. Demographic features, etiologies, clinical findings, severity scores (PRISM/PELOD), laboratory parameters, treatment modalities, MRI patterns, and outcomes were compared between survivors and non-survivors. Univariable logistic regression and receiver operating characteristic (ROC) curve analyses were performed to identify unadjusted clinical correlates of mortality; given the small number of deaths (n = 8), a multivariable model was not fitted, and Firth's penalized logistic regression was used as a sensitivity analysis for the main associations. The study adhered to STROBE guidelines. The mean age was 120.0 ± 50.8 months; 65.4% had hematologic-oncologic diagnoses. Overall mortality was 15.4% (8/52). Seizures occurred in 90.4% and hypertension in 88.5% of patients. MRI most frequently demonstrated occipital and parietal involvement (90.4% each). Non-survivors had significantly lower admission GCS scores (median 10.0 [IQR 8.0-12.5] vs 13.0 [12.0-15.0], p = 0.012), and longer PICU length of stay (median 14.5 days [IQR 9.2-26.5] vs 5.0 days [3.0-12.2], p = 0.016). GCS demonstrated an area under the curve (AUC) of 0.777 (95% CI 0.619-0.918) with optimal cutoff ≤ 10 (sensitivity 62%, specificity 84%). In univariate logistic regression with Firth penalized correction, vasopressor requirement was strongly associated with mortality (unadjusted penalized OR = 29.75, 95% CI 2.800-315.530, p = 0.005); the wide confidence interval reflects near-complete separation (7/8 non-survivors vs 6/44 survivors required vasopressors). The Glasgow Coma Scale (GCS) score at admission was associated with survival; each one-unit increase in the GCS score was associated with a 27% lower unadjusted odds of death (Firth-penalized estimate OR 0.73, 95% CI 0.550-0.940, p = 0.016). CONCLUSION: In this large single-center pediatric series, lower GCS score, vasopressor requirement, and prolonged PICU stay were associated with mortality in univariate analysis. Vasopressor requirement may reflect the degree of hemodynamic compromise and the severity of illness rather than serve as an early clinical warning. These exploratory findings require validation in larger multicenter cohorts before clinical application. WHAT IS KNOWN: • PRES typically presents with acute hypertension, seizures, headaches, visual disturbances, and altered mental status. Radiologically, brain imaging reveals cerebral edema, which is more pronounced in the parietal and occipital regions. WHAT IS NEW: • In univariate logistic regression with Firth penalized correction, vasopressor requirement was associated with mortality (OR = 29.75, 95% CI 2.800-315.530, p = 0.005). • Non-survivors had lower admission GCS, and GCS ≤ 10 predicted death (AUC 0.777, 95% CI 0.619-0.918; 84% specificity).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42496754/"
+        },
+        {
+          "pmid": "42413523",
+          "title": "Standard-dose unfractionated heparin versus low-dose unfractionated heparin and low-molecular-weight heparin in extracorporeal life support (RATE): an open-label, randomised, non-inferiority trial.",
+          "journal": "Lancet (London, England)",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Minnen OV",
+            "Lansink-Hartgring AO",
+            "van Amstel RBE",
+            "van den Bogaard B",
+            "Bunge JJH",
+            "Delnoij TSR",
+            "Droogh JM",
+            "Koppenhagen LV",
+            "Kraemer CVE",
+            "Kuijpers M",
+            "Maas JJ",
+            "Metz J",
+            "van de Poll MCG",
+            "Raasveld SJ",
+            "Dos Reis Miranda D",
+            "Vart P",
+            "Vermeulen KM",
+            "Vlaar APJ",
+            "van den Bergh WM",
+            "Dutch ECLS Study Group"
+          ],
+          "doi": "10.1016/S0140-6736(26)00851-2",
+          "abstract": "BACKGROUND: In patients receiving extracorporeal membrane oxygenation (ECMO), standard practice is full-dose intravenous unfractionated heparin (UFH) targeting an activated partial thromboplastin time of 2·0-2·5 times baseline to reduce thrombotic risk. This approach can increase bleeding without further reducing thrombosis compared with low-dose UFH. Robust evidence to guide anticoagulation targets is absent because anticoagulation targets in ECMO have never been assessed in a sufficiently powered randomised trial. We aimed to determine whether low-dose UFH or therapeutic low-molecular-weight heparin (LMWH) is non-inferior to standard-dose UFH in patients receiving ECMO. METHODS: In this open-label, three-arm, randomised, non-inferiority trial at seven Dutch intensive care units (ICUs), adults aged 18 years or older supported with veno-venous or veno-arterial ECMO at the ICU without vital indication for full-dose anticoagulation (eg, mechanical mitral valve) were randomly assigned to intravenous standard-dose UFH (activated partial thromboplastin time 2·0-2·5 times baseline), intravenous low-dose UFH (1·5-2·0 times baseline), or therapeutic subcutaneous LMWH. The primary outcome was a composite of severe bleeding during ECMO support, severe thromboembolic complications during ECMO support, or all-cause mortality at 6 months, and was assessed in all randomly assigned patients with deferred informed consent and 6-month follow-up data according to the intention-to-treat principle. Non-inferiority was met if the upper 95% CI limit for the absolute risk difference was less than 7·5 percentage points. This trial is registered at ClinicalTrials.gov (NCT04536272) and the Dutch trial register (NL7976). FINDINGS: Between Oct 22, 2020, and Sept 12, 2024, 330 patients were enrolled: 110 were randomly assigned to standard-dose UFH, 110 to low-dose UFH, and 110 to LMWH. Of 330 enrolled patients, 320 (225 [70%] males, 95 [30%] females; median age 56 years [IQR 45-65]; 255 [80%] White ethnicity) were analysed at 6 months. The composite primary outcome occurred in 87 (81%) of 107 patients with standard-dose UFH, 78 (72%) of 108 with low-dose UFH (absolute risk difference -9·1 percentage points [95% CI -20·3 to 2·1]), and 79 (75%) of 105 with LMWH (-6·1 percentage points [-17·2 to 5·0]), meeting non-inferiority for both interventions. The frequency of severe bleeding was lower with low-dose UFH and LMWH than with standard-dose UFH (63 [58%] patients and 62 [59%] vs 70 [65%]), without excess severe thromboembolic complications (11 [10%] and nine [9%] vs 12 [11%]), although these differences did not reach statistical significance. At 6 months, 54 (50%) patients in the standard-dose UFH group, 45 (42%) in the low-dose UFH group, and 46 (44%) in the LMWH group had died. INTERPRETATION: Low-dose UFH and therapeutic LMWH were non-inferior to standard-dose UFH. This finding supports reconsideration of anticoagulation targets in ECMO. Given the global expansion of ECMO, these findings suggest that reduced anticoagulation targets could substantially reduce bleeding-related harm. FUNDING: ZonMw.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42413523/"
+        },
+        {
+          "pmid": "42214223",
+          "title": "Association between senna use and outcomes in critically ill patients with hepatic failure: A propensity score-matched real-world cohort study.",
+          "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Yang Q",
+            "Mo P",
+            "Wu A",
+            "Liu Y",
+            "Guo Z",
+            "Zhao N"
+          ],
+          "doi": "10.1016/j.phymed.2026.158304",
+          "abstract": "BACKGROUND: Hepatic failure remains associated with substantial mortality in critically ill patients, with gut-liver axis dysfunction playing an important pathogenic role. Senna, a stimulant laxative with potential pleiotropic effects including gut microbiota modulation and anti-inflammatory properties, and hepatoprotective, may offer therapeutic benefits beyond bowel management. However, its impact on mortality outcomes in this population remains unclear. METHODS: This retrospective cohort study analyzed 1751 critically ill patients with hepatic failure from the MIMIC-IV database (2008-2022). Patients were stratified by senna exposure during Intensive Care Unit (ICU) stay. The primary outcome was 28-day all-cause mortality. Secondary outcomes included ventilator-free days, vasopressor-free days, and ICU-free days within 28 days. Propensity score matching (PSM) and multiple Cox regression models were employed to assess associations. Subgroup analyses explored effect modification, and dose-response relationships were also evaluated. RESULTS: Among 1751 patients (mean age 59.9 ± 15.5 years, 60.4% male), 764 (43.6%) received senna. After PSM (456 pairs), senna use was independently associated with lower 28-day mortality [adjusted: HR (hazard ratio) 0.69, 95%CI 0.58-0.82, p < 0.001]. The E-value is 1.91. This association remained robust in sensitivity analyses including PS-adjusted model (HR 0.81, 95%CI 0.68-0.96, p = 0.017), PSM cohort (HR 0.79, 95%CI 0.64-0.98, p = 0.029), and partial adjustment (HR 0.79, 95%CI 0.64-0.98, p = 0.013). A dose-response relationship was observed, with each 10 mg increase in cumulative senna dose associated with 14% lower mortality (adjusted HR 0.86, 95%CI 0.82-0.90, p < 0.001). Senna administration was associated with an increased number of ventilator-free days (adjusted β=1.38, 95%CI 0.12-2.63, p = 0.031) and vasopressor-free days (adjusted β=1.52, 95%CI 0.26-2.79, p = 0.018). Subgroup analyses revealed stronger mortality benefits in patients aged <65 years, MELD (Model for End-Stage Liver Disease) score ≥24, and APSIII (Acute Physiology Score III) score ≥74 (all p for interaction <0.05). CONCLUSIONS: In this large real-world cohort, senna use was independently associated with lower 28-day mortality with evidence of a dose-response relationship. Prospective randomized controlled trials are warranted to establish causality and inform clinical practice guidelines.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42214223/"
+        }
+      ]
+    },
+    {
+      "id": "respiratory",
+      "label": "Respiratory",
+      "abbr": "Resp",
+      "articles": [
+        {
+          "pmid": "42502162",
+          "title": "Tooth brushing versus routine oral care impact on ventilator-associated pneumonia in PICU: a clinical trial.",
+          "journal": "BMC pediatrics",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Rezk AR",
+            "Hassan SA",
+            "Abd Elhakam RM",
+            "Kamel AM",
+            "Bakry NA"
+          ],
+          "doi": "10.1186/s12887-026-07239-x",
+          "abstract": "OBJECTIVES: Ventilator-associated pneumonia (VAP) is a frequent and serious infection among mechanically ventilated children in pediatric intensive care units (PICUs), with oral colonization playing a key role in its pathogenesis. Effective oral hygiene measures are therefore crucial to reduce VAP incidence and improve clinical outcomes. This study aimed to compare the incidence of VAP in PICU patients receiving routine oral care versus toothbrushing with chlorhexidine, and to evaluate the impact on mechanical ventilation duration, PICU stay, and mortality with secondary outcomes including microbiological colonization, inflammatory markers, and inotropic support requirements. DESIGN: A parallel-group superiority randomized controlled trial. METHODS: A randomized controlled trial was conducted on 118 children aged 18 months to 16 years, including PICU patients requiring invasive mechanical ventilation for ≥ 48 h. On admission, patients were randomly allocated into two groups: the intervention group received oral care with toothbrushing plus 0.12% chlorhexidine mouth rinse, while the control group received routine care with 0.12% chlorhexidine rinse only. Both procedures were performed three times daily. VAP was diagnosed according to CDC criteria. Quantitative and qualitative analyses assessed variables distinguishing VAP cases from controls, and multivariate logistic regression identified independent predictors of disease severity. RESULTS: The results of our study revealed that VAP occurred in 31 patients (52.5%) in the control group and 25 patients (42.3%) in the intervention group, indicating a lower incidence with toothbrushing plus chlorhexidine, although this difference was not statistically significant (p = 0.36). Among all participants, 45.8% died and 54.2% were discharged. Mortality was higher in the control group (53.7%) compared with the intervention group (46.3%), while discharge rates favored the intervention group (53.1% vs. 46.9%); however, these differences did not reach statistical significance (p = 0.46). Positive sputum cultures were more frequent in the control group (55.6%) than in the intervention group (44.4%), whereas negative cultures were more common among intervention patients (54.7% vs. 45.3%), with no significant difference between groups (p = 0.268). CONCLUSION: Although adding toothbrushing to routine chlorhexidine oral care did not produce a statistically significant reduction in VAP incidence or mortality, a consistent trend toward clinical benefit was observed across multiple outcome measures, including lower rates of positive sputum cultures, reduced inotropic support requirements, and fewer new pulmonary infiltrates. These findings highlight the potential value of enhanced oral hygiene in the PICU and support the need for larger multicenter studies to confirm its effect. TRIAL REGISTRATION: ClinicalTrials.gov, NCT07287566. Registered on November 20, 2025. Retrospectively registered at https://clinicaltrials.gov/ct2/show/NCT07287566 . PROTOCOL AND STATISTICAL ANALYSIS PLAN ACCESS: The full study protocol and the statistical analysis plan are included in this document and are available from the corresponding author upon reasonable request.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502162/"
+        },
+        {
+          "pmid": "42501114",
+          "title": "Combined metabolic risk and admission lactate-to-bicarbonate ratio in critically ill children: a retrospective pediatric ıntensive care cohort study.",
+          "journal": "European journal of pediatrics",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Guvenc KB",
+            "Sahin EG",
+            "Akyuz SZ",
+            "Varol F",
+            "Durak C"
+          ],
+          "doi": "10.1007/s00431-026-07291-w",
+          "abstract": "UNLABELLED: Early identification of high-risk children at pediatric intensive care unit (PICU) admission is essential. This study evaluated the association of admission combined acidosis-hyperlactatemia risk classification and lactate-to-bicarbonate ratio (LBR) with PICU mortality and organ support requirements. This retrospective cohort study included children aged 1 month to 18 years admitted to a tertiary PICU between January 2022 and May 2025 who had lactate and bicarbonate values available from blood gas analysis within the first 24 h. Metabolic acidosis was defined as pH ≤ 7.30 and/or base excess ≤  - 7 mmol/L, and hyperlactatemia as lactate > 2.3 mmol/L. Patients were classified as low risk, intermediate risk, or high risk according to the presence of neither, either, or both abnormalities. The primary outcome was PICU mortality. A total of 1,636 patients were included, and PICU mortality was 7.3%. The low-, intermediate-, and high-risk groups included 874 (53.4%), 569 (34.8%), and 193 (11.8%) patients, respectively. Mortality increased progressively across risk groups from 3.4% to 7.0% and 25.9% (p < 0.001). Similar increases were observed for invasive mechanical ventilation, inotrope/vasopressor use, continuous renal replacement therapy, acute kidney injury, and plasma exchange (all p < 0.001). The combined metabolic risk model showed moderate discrimination for PICU mortality (AUC 0.710), comparable to lactate (AUC 0.707) and LBR (AUC 0.700), while PRISM showed the highest discrimination (AUC 0.820). After PRISM adjustment, high-risk status remained independently associated with mortality (adjusted OR 3.31, 95% CI 1.86-5.88; p < 0.001), whereas LBR showed borderline significance (adjusted OR 2.48, 95% CI 0.96-6.44; p = 0.062). CONCLUSION: The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype associated with higher mortality and greater organ support requirements. The combined metabolic risk classification may support early bedside risk assessment, whereas LBR should be interpreted as a complementary marker rather than a prognostic measure superior to lactate or validated severity scores. WHAT IS KNOWN: • Lactate and acid-base parameters are associated with illness severity and adverse outcomes in critically ill children. • Validated severity scores remain the standard approach for mortality risk assessment in the PICU. WHAT IS NEW: • The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype with substantially increased PICU mortality and organ support requirements. • LBR showed mortality discrimination similar to lactate alone and should be interpreted as a complementary rather than superior prognostic marker.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42501114/"
+        },
+        {
+          "pmid": "42495753",
+          "title": "Mechanisms and therapeutic strategies of pyroptosis in sepsis‑induced acute lung injury (Review).",
+          "journal": "International journal of molecular medicine",
+          "pubdate": "2026 Sep",
+          "authors": [
+            "Wu W",
+            "Li N",
+            "Deng G",
+            "Yang S",
+            "Zeng R",
+            "Chen R",
+            "Li J"
+          ],
+          "doi": "10.3892/ijmm.2026.5935",
+          "abstract": "Sepsis‑induced acute lung injury (S‑ALI) is a leading cause of respiratory failure and mortality in intensive care units, characterized by profound biological and clinical heterogeneity that explains the repeated failure of uniform anti‑inflammatory therapies. This variability underscores the urgent need for mechanism‑based patient stratification and precision medicine approaches. Pyroptosis, a regulated inflammatory cell death program driven by gasdermin‑mediated membrane pore formation, has emerged as a critical driver of alveolar‑capillary barrier disruption and cytokine amplification in S‑ALI. The activation of canonical and non‑canonical inflammasome pathways, together with molecular crosstalk within the integrated PANoptosome network, promotes context‑dependent pyroptotic responses across pulmonary endothelial, epithelial and immune cells. Notably, recent insights into lineage plasticity and transcriptional heterogeneity further elucidate the dynamic cellular orchestration of these pathways. Pyroptotic effectors, such as circulating gasdermin D fragments and mature IL‑1β/IL‑18, are detectable in patients with sepsis and acute respiratory distress syndrome, being associated with hyperinflammatory endotypes, disease severity and clinical trajectories. By integrating preclinical mechanistic insights with emerging human biomarker and trial data, the present review positions pyroptosis as a clinically actionable, stratification‑relevant target. The present review highlights current advances in pathway‑specific inhibitors and discusses their potential to enable biomarker‑guided, personalized interventions in critically ill patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42495753/"
+        },
+        {
+          "pmid": "42493817",
+          "title": "Association between energy adequacy and clinical outcomes in septic ICU patients stratified by modified NUTRIC score.",
+          "journal": "Journal of the Chinese Medical Association : JCMA",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Lin PY",
+            "Yen YT",
+            "Lu MJ",
+            "Hsu HS"
+          ],
+          "doi": "10.1097/JCMA.0000000000001407",
+          "abstract": "BACKGROUND: Although malnutrition is common among critically ill patients with sepsis, it is unclear whether early nutritional supplementation is beneficial. We investigated the effects of early calorie and protein delivery in critically ill patients with sepsis. METHODS: Adult patients with sepsis who required mechanical ventilation in a surgical intensive care unit (ICU) between January 2021 and December 2022 were enrolled. Nutritional risk in these patients was evaluated using the modified Nutrition Risk in the Critically ill (m-NUTRIC) Score. Participants were divided into two groups based on whether they received <50% or ≥50% of their estimated calorie needs within the first 5 days of their ICU stay. The primary outcome was 28-day ICU mortality. RESULTS: Among the 258 participants (195 men and 63 women; mean age, 64.8 ± 13.7 years), within the first 5 days of their ICU stay, 63.2% and 36.8% of the patients received <50% and ≥50% of their estimated calorie needs, respectively. The 28-day ICU mortality rate did not differ significantly between the two groups. Multivariate logistic regression revealed that the use of continuous renal replacement therapy (odds ratio [OR] 4.07, 95% confidence interval [CI] 1.10-15.09; p = 0.036) and the duration of mechanical ventilation (OR 1.05, 95% CI 1.01-1.10; p = 0.020) were independent predictors of 28-day ICU mortality. Providing early nutritional support of ≤50% of the estimated calorie needs did not affect 28-day ICU mortality in these patients ( p =0.229). CONCLUSION: Achieving at least 50% of the estimated calorie needs within the first 5 days of ICU stay did not improve 28-day ICU survival in this cohort of critically ill patients with sepsis. Further investigations are needed to elucidate whether early nutritional interventions are beneficial for this population.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42493817/"
+        },
+        {
+          "pmid": "42218858",
+          "title": "Harpagide alleviates sepsis-induced acute respiratory distress syndrome via gut microbiota modulation.",
+          "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Sun Y",
+            "Xie D",
+            "Fu H",
+            "He M",
+            "Li J",
+            "Wu C",
+            "Pan S"
+          ],
+          "doi": "10.1016/j.phymed.2026.158329",
+          "abstract": "BACKGROUND: Sepsis-associated acute respiratory distress syndrome (ARDS) remains a leading cause of mortality in critically ill patients, with limited therapeutic options beyond supportive care. The gut-lung axis is critical in sepsis pathogenesis, yet effective targeting strategies remain scarce. Harpagide (HPG), an iridoid glycoside from Scrophularia ningpoensis, exhibits anti-inflammatory properties, but whether it protects against sepsis-induced ARDS through gut microbiota modulation remains unexplored. METHODS: Sepsis-induced ARDS was established using the cecal ligation and puncture (CLP) model. Gut microbiota dependency was assessed via antibiotic depletion (ABX) and fecal microbiota transplantation (FMT). Ffar2-/- mice were used to verify receptor necessity. Microbial composition and SCFAs were analyzed by 16S rRNA sequencing and GC-MS. Lung signaling was assessed by RNA-seq, Western blot, and RT-qPCR. Plasma SCFAs were quantified in sepsis-induced ARDS patients (n = 12) and healthy controls (n = 12) by LC-MS/MS. RESULTS: HPG significantly improved survival, attenuated lung injury, and suppressed cytokine storm in septic mice. These effects were abolished by ABX but transferable via FMT, confirming microbiota dependency. HPG enriched acetate-producing taxa, elevating fecal and plasma acetate. Transcriptomic analysis revealed simultaneous suppression of NF-κB signaling and excessive IFN-γ/STAT1 activation. HPG-mediated protection was completely abrogated in Ffar2-/- mice, and exogenous sodium acetate recapitulated these effects in a Ffar2-dependent manner. Clinically, plasma acetate was significantly depleted in ARDS patients and correlated with disease severity. CONCLUSIONS: HPG alleviates sepsis-induced ARDS by reshaping gut microbiota to boost acetate production, which activates FFAR2 to orchestrate immune reprogramming via NF-κB and IFN-γ/STAT1 pathways, offering a novel microbial-metabolic therapeutic strategy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42218858/"
+        }
+      ]
+    },
+    {
+      "id": "neurology",
+      "label": "Neurology",
+      "abbr": "Neuro",
+      "articles": [
+        {
+          "pmid": "42502154",
+          "title": "Development and validation of a nomogram for predicting subsyndromal delirium in critically ill patients in the emergency department.",
+          "journal": "Internal and emergency medicine",
+          "pubdate": "2026 Jul 26",
+          "authors": [
+            "Wei C",
+            "Wang H",
+            "Su M",
+            "Sun P",
+            "Gao J",
+            "Zhu Q",
+            "Feng T",
+            "Shang T",
+            "Le Y",
+            "Li F"
+          ],
+          "doi": "10.1007/s11739-026-04448-1",
+          "abstract": "This study aimed to develop and validate a nomogram for predicting subsyndromal delirium (SSD) risk in critically ill patients in the emergency department (ED). A retrospective cohort study was conducted on 712 patients admitted to the ED resuscitation room of Peking Union Medical College Hospital from January 2025 to August 2025. Patients were randomly divided into training (n = 525) and validation (n = 187) sets. Multivariate logistic regression analyses were performed to identify independent risk factors for SSD. A nomogram prediction model was constructed based on these factors and evaluated using receiver operating characteristic (ROC) curves, calibration plots, and decision curve analysis (DCA). Multivariate analysis identified six independent predictors of SSD: marital status (divorced: OR = 12.210, 95%CI 1.334-111.750), physical restraint (OR = 10.386, 95%CI 2.932-36.786), RASS score (OR = 4.090, 95%CI 2.029-8.243), APACHE II score (OR = 1.092, 95%CI 1.011-1.180), Barthel index (OR = 0.968, 95%CI 0.951-0.984), and PSQI score (OR = 1.239, 95%CI 1.123-1.368). The nomogram demonstrated excellent discrimination, with an AUC of 0.898. The calibration curve showed good agreement between predicted and actual probabilities. DCA indicated that the nomogram had significant clinical net benefit across a wide range of threshold probabilities. This study developed a novel nomogram that incorporates six readily available clinical variables. This tool effectively predicts the individual risk of SSD in ED critically ill patients, facilitating early identification and targeted preventive interventions to improve patient outcomes.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502154/"
+        },
+        {
+          "pmid": "42498895",
+          "title": "Early Identification of Recovery Potential After Acute Brain Injury Using Functional Near-Infrared Spectroscopy.",
+          "journal": "Neurocritical care",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Kolisnyk M",
+            "Kazazian K",
+            "Gupta G",
+            "de Jeu J",
+            "Abdalmalak A",
+            "Novi SL",
+            "Gonzalez-Lara LE",
+            "Slessarev M",
+            "Gofton TE",
+            "Norton L",
+            "Debicki DB",
+            "Owen AM"
+          ],
+          "doi": "10.1007/s12028-026-02605-0",
+          "abstract": "BACKGROUND: Accurate early prognostication in patients with acute brain injury remains a major challenge in neurocritical care. Conventional bedside assessments provide limited insight into long-term outcomes and may not fully capture preserved brain function that supports recovery. Functional neuroimaging can detect brain activity not evident at the bedside, but its use in intensive care remains constrained by cost, logistics, and the need for stronger evidence supporting its value. Functional near-infrared spectroscopy (fNIRS) offers a scalable, bedside-compatible approach for assessing brain function in critically ill patients, but its value for early prognostication has yet to be established. METHODS: In this prospective observational cohort study, 33 patients with acute brain injury in the intensive care unit (ICU) underwent fNIRS recording while listening to two audio-only movie clips. Functional connectivity features were used to train a machine learning model to classify 6-month functional outcome, defined by the Glasgow Outcome Scale-Extended (favorable ≥ 4, unfavorable < 4). Model performance was assessed using balanced accuracy and statistically evaluated using permutation testing. Performance was compared with validated behavioral assessments and clinical variables. Secondary analyses evaluated prediction of behavioral responsiveness (observable command-following after testing) and covert awareness (neural command-following). RESULTS: A total of 26 patients had an unfavorable outcome and 7 had a favorable outcome. The fNIRS-based model predicted 6-month outcome with a balanced accuracy of 81.3% (sensitivity = 85.7%, specificity = 76.9%; p = 0.006), outperforming clinical models (balanced accuracy = 67.6%; p = 0.018). The fNIRS-based model also predicted recovery of behavioral responsiveness (balanced accuracy 78.5%; p = 0.008) but not covert awareness (70.4%; p = 0.109). CONCLUSIONS: Bedside fNIRS provides objective neural measures associated with later functional recovery and behavioral responsiveness in patients with acute brain injury. These findings suggest that fNIRS may capture clinically relevant brain function not detected by conventional assessments. With further validation in larger, multicenter cohorts, such approaches may complement existing methods for early prognostication.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42498895/"
+        },
+        {
+          "pmid": "42498537",
+          "title": "Weight-adjusted fluid balance and its impact on days alive without life support in critical illness - an observational cohort study.",
+          "journal": "European journal of internal medicine",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Hofer DM",
+            "Pitteloud M",
+            "Faltys M",
+            "Ostini A",
+            "Waskowski J",
+            "Messmer AS",
+            "Pfortmueller CA"
+          ],
+          "doi": "10.1016/j.ejim.2026.107091",
+          "abstract": "BACKGROUND: Fluid accumulation (FA) and fluid depletion (FD) are associated with worse outcomes in critically ill patients. However, it is not known at what threshold a positive or negative fluid balance leads to impaired organ function and impacts outcomes. The aim of this study was to investigate the association between the degree of weight-adjusted fluid balance (wFB) and the days alive without life support (DAWOLS) and to identify proposed wFB thresholds. METHODS: Retrospective, single-centre cohort study including adult ICU patients. The association between wFB three days after ICU admission and DAWOLS was examined. The lowest positive / highest negative wFB with a statistically significant and relevant association with DAWOLS was determined as threshold for a significant FA and FD, respectively. In addition, we analysed the association between FA / FD and mortality, organ support, length of stay, and delirium. RESULTS: In the 17'956 patients included in this analysis, we identified a wFB cut-off of +7% and -4% to be significantly associated with DAWOLS (p < 0.001). Using these cut-offs, FA (regression coefficient β -3.92 (95%-CI -4.37; -3.46), p < 0.001) as well as FD (-0.95 (-1.35; -0.54), p < 0.001) were significantly associated with DAWOLS. Furthermore, FA and FD were significantly associated with mortality, the need for organ support, a longer length of ICU and hospital stay, and delirium. CONCLUSIONS: When assessing the relationship between wFB and DAWOLS, the threshold for FA was a wFB ≥+7%, while FD could be defined with a wFB cut-off of ≤-4%. Both FA and FD were significantly associated with reduced DAWOLS, with a less robust association for FD.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42498537/"
+        },
+        {
+          "pmid": "42496754",
+          "title": "Prognostic factors and outcomes in pediatric posterior reversible encephalopathy syndrome: a 6-year single-center PICU study.",
+          "journal": "European journal of pediatrics",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Bayramov B",
+            "Oglakcioglu A",
+            "Ozcan S",
+            "Direk Kockuzu E",
+            "Sigirci A",
+            "Citak Kurt AN",
+            "Bayrakci US",
+            "Ozbek NY",
+            "Emeksiz S"
+          ],
+          "doi": "10.1007/s00431-026-07275-w",
+          "abstract": "UNLABELLED: This study aims to evaluate the demographic, clinical, laboratory, and radiological characteristics of pediatric patients with posterior reversible encephalopathy syndrome (PRES) admitted to the pediatric intensive care unit (PICU) and to identify prognostic factors associated with mortality. This retrospective cohort study included 52 MRI-confirmed pediatric PRES cases managed in a tertiary-level PICU between January 2020 and January 2026. Demographic features, etiologies, clinical findings, severity scores (PRISM/PELOD), laboratory parameters, treatment modalities, MRI patterns, and outcomes were compared between survivors and non-survivors. Univariable logistic regression and receiver operating characteristic (ROC) curve analyses were performed to identify unadjusted clinical correlates of mortality; given the small number of deaths (n = 8), a multivariable model was not fitted, and Firth's penalized logistic regression was used as a sensitivity analysis for the main associations. The study adhered to STROBE guidelines. The mean age was 120.0 ± 50.8 months; 65.4% had hematologic-oncologic diagnoses. Overall mortality was 15.4% (8/52). Seizures occurred in 90.4% and hypertension in 88.5% of patients. MRI most frequently demonstrated occipital and parietal involvement (90.4% each). Non-survivors had significantly lower admission GCS scores (median 10.0 [IQR 8.0-12.5] vs 13.0 [12.0-15.0], p = 0.012), and longer PICU length of stay (median 14.5 days [IQR 9.2-26.5] vs 5.0 days [3.0-12.2], p = 0.016). GCS demonstrated an area under the curve (AUC) of 0.777 (95% CI 0.619-0.918) with optimal cutoff ≤ 10 (sensitivity 62%, specificity 84%). In univariate logistic regression with Firth penalized correction, vasopressor requirement was strongly associated with mortality (unadjusted penalized OR = 29.75, 95% CI 2.800-315.530, p = 0.005); the wide confidence interval reflects near-complete separation (7/8 non-survivors vs 6/44 survivors required vasopressors). The Glasgow Coma Scale (GCS) score at admission was associated with survival; each one-unit increase in the GCS score was associated with a 27% lower unadjusted odds of death (Firth-penalized estimate OR 0.73, 95% CI 0.550-0.940, p = 0.016). CONCLUSION: In this large single-center pediatric series, lower GCS score, vasopressor requirement, and prolonged PICU stay were associated with mortality in univariate analysis. Vasopressor requirement may reflect the degree of hemodynamic compromise and the severity of illness rather than serve as an early clinical warning. These exploratory findings require validation in larger multicenter cohorts before clinical application. WHAT IS KNOWN: • PRES typically presents with acute hypertension, seizures, headaches, visual disturbances, and altered mental status. Radiologically, brain imaging reveals cerebral edema, which is more pronounced in the parietal and occipital regions. WHAT IS NEW: • In univariate logistic regression with Firth penalized correction, vasopressor requirement was associated with mortality (OR = 29.75, 95% CI 2.800-315.530, p = 0.005). • Non-survivors had lower admission GCS, and GCS ≤ 10 predicted death (AUC 0.777, 95% CI 0.619-0.918; 84% specificity).",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42496754/"
+        }
+      ]
+    },
+    {
+      "id": "renal",
+      "label": "Renal",
+      "abbr": "Renal",
+      "articles": [
+        {
+          "pmid": "42502493",
+          "title": "Prognostic Value of the Total Bilirubin-to-Albumin Ratio in Critically Ill Patients with Gastrointestinal Bleeding: A Multicentre Cohort Study.",
+          "journal": "Emergency medicine international",
+          "pubdate": "2026",
+          "authors": [
+            "Chen X",
+            "Ying S",
+            "Yuan X",
+            "Lv L",
+            "Yang X"
+          ],
+          "doi": "10.1155/emmi/1396680",
+          "abstract": "INTRODUCTION: The total bilirubin-to-serum albumin ratio (TBAR) has been proposed as an indicator of hepatic dysfunction and systemic inflammation, yet its prognostic relevance in critically ill patients with gastrointestinal bleeding (GIB) remains unclear. This study evaluated the association between TBAR and mortality and developed a TBAR-based prognostic model. METHODS: Data were extracted from the MIMIC-IV v3.1 database, with external validation using the eICU-CRD v2.0. Adult patients with GIB were included after applying predefined eligibility criteria, yielding a final cohort of 1627 individuals. The primary outcomes were 28-day all-cause mortality. Cox regression, Kaplan-Meier analyses, restricted cubic splines (RCS), ROC curves, and subgroup analyses were performed. A prediction nomogram was constructed using variables selected through the Boruta algorithm and evaluated using AUC, C-index, calibration performance, and decision curve analysis. RESULTS: Nonsurvivors exhibited markedly greater physiological instability, more severe organ dysfunction, and substantially higher TBAR levels. TBAR was independently associated with mortality across all Cox models (fully adjusted HR for 28-day mortality: 1.10, 95% CI 1.06-1.15). High TBAR was associated with more than a twofold increased risk of death. TBAR demonstrated superior discriminatory ability compared with TBIL or ALB alone and provided incremental predictive value when combined with the SOFA score. RCS analysis supported a linear dose-response association. Subgroup analyses showed no significant interactions. The final nomogram-which incorporated SOFA, APTT, TBAR, vasopressor use, CRRT, and anion gap-achieved an AUC of 0.794 and a bootstrap-corrected C-index of 0.789. External validation in the eICU cohort confirmed the robustness of the association and the strong performance of the model (AUC 0.805). CONCLUSIONS: TBAR is an independent predictor of mortality in critically ill patients with GIB. The TBAR-based nomogram demonstrates reliable discrimination and calibration and may facilitate individualized mortality risk stratification in clinical practice.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502493/"
+        },
+        {
+          "pmid": "42501114",
+          "title": "Combined metabolic risk and admission lactate-to-bicarbonate ratio in critically ill children: a retrospective pediatric ıntensive care cohort study.",
+          "journal": "European journal of pediatrics",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Guvenc KB",
+            "Sahin EG",
+            "Akyuz SZ",
+            "Varol F",
+            "Durak C"
+          ],
+          "doi": "10.1007/s00431-026-07291-w",
+          "abstract": "UNLABELLED: Early identification of high-risk children at pediatric intensive care unit (PICU) admission is essential. This study evaluated the association of admission combined acidosis-hyperlactatemia risk classification and lactate-to-bicarbonate ratio (LBR) with PICU mortality and organ support requirements. This retrospective cohort study included children aged 1 month to 18 years admitted to a tertiary PICU between January 2022 and May 2025 who had lactate and bicarbonate values available from blood gas analysis within the first 24 h. Metabolic acidosis was defined as pH ≤ 7.30 and/or base excess ≤  - 7 mmol/L, and hyperlactatemia as lactate > 2.3 mmol/L. Patients were classified as low risk, intermediate risk, or high risk according to the presence of neither, either, or both abnormalities. The primary outcome was PICU mortality. A total of 1,636 patients were included, and PICU mortality was 7.3%. The low-, intermediate-, and high-risk groups included 874 (53.4%), 569 (34.8%), and 193 (11.8%) patients, respectively. Mortality increased progressively across risk groups from 3.4% to 7.0% and 25.9% (p < 0.001). Similar increases were observed for invasive mechanical ventilation, inotrope/vasopressor use, continuous renal replacement therapy, acute kidney injury, and plasma exchange (all p < 0.001). The combined metabolic risk model showed moderate discrimination for PICU mortality (AUC 0.710), comparable to lactate (AUC 0.707) and LBR (AUC 0.700), while PRISM showed the highest discrimination (AUC 0.820). After PRISM adjustment, high-risk status remained independently associated with mortality (adjusted OR 3.31, 95% CI 1.86-5.88; p < 0.001), whereas LBR showed borderline significance (adjusted OR 2.48, 95% CI 0.96-6.44; p = 0.062). CONCLUSION: The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype associated with higher mortality and greater organ support requirements. The combined metabolic risk classification may support early bedside risk assessment, whereas LBR should be interpreted as a complementary marker rather than a prognostic measure superior to lactate or validated severity scores. WHAT IS KNOWN: • Lactate and acid-base parameters are associated with illness severity and adverse outcomes in critically ill children. • Validated severity scores remain the standard approach for mortality risk assessment in the PICU. WHAT IS NEW: • The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype with substantially increased PICU mortality and organ support requirements. • LBR showed mortality discrimination similar to lactate alone and should be interpreted as a complementary rather than superior prognostic marker.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42501114/"
+        },
+        {
+          "pmid": "42498537",
+          "title": "Weight-adjusted fluid balance and its impact on days alive without life support in critical illness - an observational cohort study.",
+          "journal": "European journal of internal medicine",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Hofer DM",
+            "Pitteloud M",
+            "Faltys M",
+            "Ostini A",
+            "Waskowski J",
+            "Messmer AS",
+            "Pfortmueller CA"
+          ],
+          "doi": "10.1016/j.ejim.2026.107091",
+          "abstract": "BACKGROUND: Fluid accumulation (FA) and fluid depletion (FD) are associated with worse outcomes in critically ill patients. However, it is not known at what threshold a positive or negative fluid balance leads to impaired organ function and impacts outcomes. The aim of this study was to investigate the association between the degree of weight-adjusted fluid balance (wFB) and the days alive without life support (DAWOLS) and to identify proposed wFB thresholds. METHODS: Retrospective, single-centre cohort study including adult ICU patients. The association between wFB three days after ICU admission and DAWOLS was examined. The lowest positive / highest negative wFB with a statistically significant and relevant association with DAWOLS was determined as threshold for a significant FA and FD, respectively. In addition, we analysed the association between FA / FD and mortality, organ support, length of stay, and delirium. RESULTS: In the 17'956 patients included in this analysis, we identified a wFB cut-off of +7% and -4% to be significantly associated with DAWOLS (p < 0.001). Using these cut-offs, FA (regression coefficient β -3.92 (95%-CI -4.37; -3.46), p < 0.001) as well as FD (-0.95 (-1.35; -0.54), p < 0.001) were significantly associated with DAWOLS. Furthermore, FA and FD were significantly associated with mortality, the need for organ support, a longer length of ICU and hospital stay, and delirium. CONCLUSIONS: When assessing the relationship between wFB and DAWOLS, the threshold for FA was a wFB ≥+7%, while FD could be defined with a wFB cut-off of ≤-4%. Both FA and FD were significantly associated with reduced DAWOLS, with a less robust association for FD.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42498537/"
+        },
+        {
+          "pmid": "42498470",
+          "title": "Development of a population-level frfailty index using Quebec administrative data: a Canadian retrospective study.",
+          "journal": "BMJ open",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Dahel H",
+            "Williamson D",
+            "Li Q",
+            "Dumais C",
+            "Brosseau M",
+            "Chagnon S",
+            "Bluteau JP",
+            "Rinfret J",
+            "Beaucage-Charron J",
+            "Emond JP",
+            "Wang HT"
+          ],
+          "doi": "10.1136/bmjopen-2026-116456",
+          "abstract": "OBJECTIVES: The objectives of this study were to develop and validate a frailty index in the Quebec health administrative dataset designed to identify frail ICU patients and investigate the effects of frailty on ICU patients' outcomes.DesignWe conducted a retrospective observational study. SETTINGS: We used the administrative data of the Centre intégré universitaire de santé et de services sociaux de l'Est-de-l'Île-de-Montréal (CIUSSS-EMTL), which regroups a supra-regional academic hospital and a community centre in Montreal, Quebec. We created a cohort through data linkage of hospital admission summary database, homecare database and in-hospital medication database. We included patients 18 years and older with an index ICU admission between 2016 and 2023 in one of the healthcare centres of CIUSSS-EMTL. The index entry date was defined as the date of the first ICU admission within the study period. We excluded patients under 18 years of age, patients who did not live in the CIUSSS-EMTL territory and patients with invalid public insurance number. The frailty index was created following Rockwood guidelines. Our primary outcome was in-hospital mortality. We performed a multivariable regression to determine the relationship between in-hospital mortality and frailty. RESULTS: We created a 30-item frailty index. We included 10 849 patients with a mean age of 67.7 (15.4) years. 20% of patients were frail. Frail patients were older, more likely to have dialysis on admission and to be mechanically ventilated. Frailty was associated with an increased risk of in-hospital mortality (aOR: 1.464 (1.293; 1.659)). CONCLUSION: We created a multidimensional 30-item frailty index. We showed a strong correlation between frailty and mortality. Implementation of this index may help with identifying at-risk populations or evaluating processes of care.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42498470/"
+        },
+        {
+          "pmid": "42497050",
+          "title": "An Interpretable Machine Learning Model for Continuous Prediction of Acute Kidney Injury in Critically Ill Patients With Atrial Fibrillation.",
+          "journal": "IEEE transactions on bio-medical engineering",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Liu W",
+            "Zhao F",
+            "Qin H",
+            "He J"
+          ],
+          "doi": "10.1109/TBME.2026.3716727",
+          "abstract": "The occurrence of acute kidney injury (AKI) in hospitalized patients with atrial fibrillation (AF) significantly increases the mortality risk. Currently, effective tools for early identification and dynamic predictive models remain lacking for this high-risk population, and the roles and underlying mechanisms of cardiorenal crosstalk remain underexplored. This study aims to develop a clinically interpretable model that continuously predicts the risk of AKI in patients with AF following admission to the intensive care unit (ICU). By retrospectively analyzing 19,347 critically ill patients with AF from the Medical Information Mart for Intensive Care IV (MIMIC-IV) database, we developed five machine learning models and two deep learning models. Model performance was assessed using Decision Curve Analysis (DCA) and calibration curves. Simultaneously, the SHapley Additive exPlanations (SHAP) framework was utilized to quantify feature contributions and generate clinically interpretable visualizations. The results demonstrated that the eXtreme Gradient Boosting (XGBoost) model achieved the highest predictive performance, with an area under the receiver operating characteristic curve (AUROC) of 0.866 (95% CI: 0.864-0.868) and an area under the precision-recall curve (AUPRC) of 0.723 (95% CI: 0.718-0.729). Combined with real-time electronic health record (EHR) data, this proposed model can provide reliable reference evidence for clinicians to formulate reasonable clinical decisions and facilitate rational patient management strategies.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42497050/"
+        },
+        {
+          "pmid": "42493817",
+          "title": "Association between energy adequacy and clinical outcomes in septic ICU patients stratified by modified NUTRIC score.",
+          "journal": "Journal of the Chinese Medical Association : JCMA",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Lin PY",
+            "Yen YT",
+            "Lu MJ",
+            "Hsu HS"
+          ],
+          "doi": "10.1097/JCMA.0000000000001407",
+          "abstract": "BACKGROUND: Although malnutrition is common among critically ill patients with sepsis, it is unclear whether early nutritional supplementation is beneficial. We investigated the effects of early calorie and protein delivery in critically ill patients with sepsis. METHODS: Adult patients with sepsis who required mechanical ventilation in a surgical intensive care unit (ICU) between January 2021 and December 2022 were enrolled. Nutritional risk in these patients was evaluated using the modified Nutrition Risk in the Critically ill (m-NUTRIC) Score. Participants were divided into two groups based on whether they received <50% or ≥50% of their estimated calorie needs within the first 5 days of their ICU stay. The primary outcome was 28-day ICU mortality. RESULTS: Among the 258 participants (195 men and 63 women; mean age, 64.8 ± 13.7 years), within the first 5 days of their ICU stay, 63.2% and 36.8% of the patients received <50% and ≥50% of their estimated calorie needs, respectively. The 28-day ICU mortality rate did not differ significantly between the two groups. Multivariate logistic regression revealed that the use of continuous renal replacement therapy (odds ratio [OR] 4.07, 95% confidence interval [CI] 1.10-15.09; p = 0.036) and the duration of mechanical ventilation (OR 1.05, 95% CI 1.01-1.10; p = 0.020) were independent predictors of 28-day ICU mortality. Providing early nutritional support of ≤50% of the estimated calorie needs did not affect 28-day ICU mortality in these patients ( p =0.229). CONCLUSION: Achieving at least 50% of the estimated calorie needs within the first 5 days of ICU stay did not improve 28-day ICU survival in this cohort of critically ill patients with sepsis. Further investigations are needed to elucidate whether early nutritional interventions are beneficial for this population.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42493817/"
+        }
+      ]
+    },
+    {
+      "id": "gi-nutrition",
+      "label": "GI & Nutrition",
+      "abbr": "GI",
+      "articles": [
+        {
+          "pmid": "42214223",
+          "title": "Association between senna use and outcomes in critically ill patients with hepatic failure: A propensity score-matched real-world cohort study.",
+          "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Yang Q",
+            "Mo P",
+            "Wu A",
+            "Liu Y",
+            "Guo Z",
+            "Zhao N"
+          ],
+          "doi": "10.1016/j.phymed.2026.158304",
+          "abstract": "BACKGROUND: Hepatic failure remains associated with substantial mortality in critically ill patients, with gut-liver axis dysfunction playing an important pathogenic role. Senna, a stimulant laxative with potential pleiotropic effects including gut microbiota modulation and anti-inflammatory properties, and hepatoprotective, may offer therapeutic benefits beyond bowel management. However, its impact on mortality outcomes in this population remains unclear. METHODS: This retrospective cohort study analyzed 1751 critically ill patients with hepatic failure from the MIMIC-IV database (2008-2022). Patients were stratified by senna exposure during Intensive Care Unit (ICU) stay. The primary outcome was 28-day all-cause mortality. Secondary outcomes included ventilator-free days, vasopressor-free days, and ICU-free days within 28 days. Propensity score matching (PSM) and multiple Cox regression models were employed to assess associations. Subgroup analyses explored effect modification, and dose-response relationships were also evaluated. RESULTS: Among 1751 patients (mean age 59.9 ± 15.5 years, 60.4% male), 764 (43.6%) received senna. After PSM (456 pairs), senna use was independently associated with lower 28-day mortality [adjusted: HR (hazard ratio) 0.69, 95%CI 0.58-0.82, p < 0.001]. The E-value is 1.91. This association remained robust in sensitivity analyses including PS-adjusted model (HR 0.81, 95%CI 0.68-0.96, p = 0.017), PSM cohort (HR 0.79, 95%CI 0.64-0.98, p = 0.029), and partial adjustment (HR 0.79, 95%CI 0.64-0.98, p = 0.013). A dose-response relationship was observed, with each 10 mg increase in cumulative senna dose associated with 14% lower mortality (adjusted HR 0.86, 95%CI 0.82-0.90, p < 0.001). Senna administration was associated with an increased number of ventilator-free days (adjusted β=1.38, 95%CI 0.12-2.63, p = 0.031) and vasopressor-free days (adjusted β=1.52, 95%CI 0.26-2.79, p = 0.018). Subgroup analyses revealed stronger mortality benefits in patients aged <65 years, MELD (Model for End-Stage Liver Disease) score ≥24, and APSIII (Acute Physiology Score III) score ≥74 (all p for interaction <0.05). CONCLUSIONS: In this large real-world cohort, senna use was independently associated with lower 28-day mortality with evidence of a dose-response relationship. Prospective randomized controlled trials are warranted to establish causality and inform clinical practice guidelines.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42214223/"
+        }
+      ]
+    },
+    {
+      "id": "endocrine-metabolic",
+      "label": "Endocrine & Metabolic",
+      "abbr": "Endo",
+      "articles": [
+        {
+          "pmid": "42501114",
+          "title": "Combined metabolic risk and admission lactate-to-bicarbonate ratio in critically ill children: a retrospective pediatric ıntensive care cohort study.",
+          "journal": "European journal of pediatrics",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Guvenc KB",
+            "Sahin EG",
+            "Akyuz SZ",
+            "Varol F",
+            "Durak C"
+          ],
+          "doi": "10.1007/s00431-026-07291-w",
+          "abstract": "UNLABELLED: Early identification of high-risk children at pediatric intensive care unit (PICU) admission is essential. This study evaluated the association of admission combined acidosis-hyperlactatemia risk classification and lactate-to-bicarbonate ratio (LBR) with PICU mortality and organ support requirements. This retrospective cohort study included children aged 1 month to 18 years admitted to a tertiary PICU between January 2022 and May 2025 who had lactate and bicarbonate values available from blood gas analysis within the first 24 h. Metabolic acidosis was defined as pH ≤ 7.30 and/or base excess ≤  - 7 mmol/L, and hyperlactatemia as lactate > 2.3 mmol/L. Patients were classified as low risk, intermediate risk, or high risk according to the presence of neither, either, or both abnormalities. The primary outcome was PICU mortality. A total of 1,636 patients were included, and PICU mortality was 7.3%. The low-, intermediate-, and high-risk groups included 874 (53.4%), 569 (34.8%), and 193 (11.8%) patients, respectively. Mortality increased progressively across risk groups from 3.4% to 7.0% and 25.9% (p < 0.001). Similar increases were observed for invasive mechanical ventilation, inotrope/vasopressor use, continuous renal replacement therapy, acute kidney injury, and plasma exchange (all p < 0.001). The combined metabolic risk model showed moderate discrimination for PICU mortality (AUC 0.710), comparable to lactate (AUC 0.707) and LBR (AUC 0.700), while PRISM showed the highest discrimination (AUC 0.820). After PRISM adjustment, high-risk status remained independently associated with mortality (adjusted OR 3.31, 95% CI 1.86-5.88; p < 0.001), whereas LBR showed borderline significance (adjusted OR 2.48, 95% CI 0.96-6.44; p = 0.062). CONCLUSION: The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype associated with higher mortality and greater organ support requirements. The combined metabolic risk classification may support early bedside risk assessment, whereas LBR should be interpreted as a complementary marker rather than a prognostic measure superior to lactate or validated severity scores. WHAT IS KNOWN: • Lactate and acid-base parameters are associated with illness severity and adverse outcomes in critically ill children. • Validated severity scores remain the standard approach for mortality risk assessment in the PICU. WHAT IS NEW: • The coexistence of admission hyperlactatemia and metabolic acidosis identified a high-risk phenotype with substantially increased PICU mortality and organ support requirements. • LBR showed mortality discrimination similar to lactate alone and should be interpreted as a complementary rather than superior prognostic marker.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42501114/"
+        },
+        {
+          "pmid": "42496059",
+          "title": "Glycemic Ratio Is a Superior Predictor of Mortality Compared With Stress Hyperglycemia Ratio in Critically Ill Patients.",
+          "journal": "Journal of diabetes science and technology",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Krinsley JS",
+            "Roberts G",
+            "Gunst J",
+            "Preiser JC",
+            "Rule PR",
+            "Umpierrez G",
+            "Hirsch IB"
+          ],
+          "doi": "10.1177/19322968261464561",
+          "abstract": "BACKGROUND: The glycemic ratio (GR), defined as the ratio of mean intensive care unit (ICU) blood glucose (BG) to estimated preadmission BG (EPBG), may provide superior prognostic insight compared with the single admission snapshot represented by the stress hyperglycemia ratio (SHR, the ratio of ICU admission BG to EPAG). METHODS: This retrospective study included 4148 patients treated in a university-affiliated medical-surgical ICU from 2019 to 2023 who had >4 ICU BG measurements and a glycated hemoglobin (HbA1c) measured at admission. We compared SHR and GR prognostic ability for mortality, analyzed across prespecified GR and SHR bands, and calculated observed:expected mortality ratios (OEMRs). RESULTS: We observed a more sharply defined J-shaped relationship between GR and mortality compared with that generated by SHR. Mortality in the reference band of 0.8 to <1.0 for GR and SHR mortality was 7.5% vs 10.9%, respectively (P = .0087), and for the strata ≥1.4, mortality was 25.6% vs 20.5% (P = .0376). Compared with the reference band, GR < 0.8 and GR > 1.0 had higher OEMR (P < .0001 for each), but the OEMR for SHR <0.8 and >1.0 compared with the reference band was not significantly different. CONCLUSIONS: Glycemic ratio was superior to SHR as a predictor of mortality. This study demonstrates that a mean ICU BG level representing 80% to 100% of the patient's EPBG was associated with the lowest mortality rate in a heterogeneous cohort of critically ill patients. These results may inform current BG management strategies and should be considered when designing future interventional trials in the critically ill.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42496059/"
+        }
+      ]
+    },
+    {
+      "id": "infectious-sepsis",
+      "label": "Infectious Disease & Sepsis",
+      "abbr": "ID/Sepsis",
+      "articles": [
+        {
+          "pmid": "42507322",
+          "title": "Fosfomycin as an adjunctive agent against carbapenem-resistant Acinetobacter baumannii: an updated narrative review.",
+          "journal": "Infection",
+          "pubdate": "2026 Jul 27",
+          "authors": [
+            "Pipitò L",
+            "Bono E",
+            "Mazzola CV",
+            "Cascio A"
+          ],
+          "doi": "10.1007/s15010-026-02895-8",
+          "abstract": "Carbapenem-resistant Acinetobacter baumannii (CRAB) represents a critical therapeutic challenge due to limited effective treatment options and high associated mortality. Fosfomycin has been increasingly investigated as an adjunctive agent in combination regimens, despite its intrinsically reduced activity against A. baumannii. This narrative review summarizes current in vitro, in vivo, and clinical evidence on fosfomycin-containing therapies for CRAB infections. A total of 48 studies were included, encompassing in vitro (n = 27), animal (n = 2), and clinical investigations (n = 20). In one case, both in vitro and clinical data were reported. In vitro data suggest that fosfomycin may exhibit synergistic or additive activity when combined with several anti-CRAB agents, most consistently with sulbactam, imipenem, and colistin, although results are highly heterogeneous and method-dependent. Although limited, in vivo studies indicate improved bacterial clearance with fosfomycin-based combinations, particularly in pneumonia models. Clinical evidence remains largely observational and non-randomized, frequently involving critically ill patients receiving multiple combination therapies. While some multicenter studies, particularly from Italian cohorts, report improved clinical outcomes and survival associated with fosfomycin-containing regimens, especially in combination with cefiderocol, other studies do not confirm a clear benefit. Clinical trials have mainly demonstrated improvements in microbiological response and early infection control, without consistent effects on mortality. Overall, current evidence suggests that fosfomycin may provide additional benefit when incorporated into selected combination regimens for CRAB infections, although its independent contribution remains uncertain. Among the evaluated regimens, cefiderocol-fosfomycin combinations currently appear to be supported by the most encouraging observational clinical evidence, particularly regarding early clinical response and microbiological control.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42507322/"
+        },
+        {
+          "pmid": "42502162",
+          "title": "Tooth brushing versus routine oral care impact on ventilator-associated pneumonia in PICU: a clinical trial.",
+          "journal": "BMC pediatrics",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Rezk AR",
+            "Hassan SA",
+            "Abd Elhakam RM",
+            "Kamel AM",
+            "Bakry NA"
+          ],
+          "doi": "10.1186/s12887-026-07239-x",
+          "abstract": "OBJECTIVES: Ventilator-associated pneumonia (VAP) is a frequent and serious infection among mechanically ventilated children in pediatric intensive care units (PICUs), with oral colonization playing a key role in its pathogenesis. Effective oral hygiene measures are therefore crucial to reduce VAP incidence and improve clinical outcomes. This study aimed to compare the incidence of VAP in PICU patients receiving routine oral care versus toothbrushing with chlorhexidine, and to evaluate the impact on mechanical ventilation duration, PICU stay, and mortality with secondary outcomes including microbiological colonization, inflammatory markers, and inotropic support requirements. DESIGN: A parallel-group superiority randomized controlled trial. METHODS: A randomized controlled trial was conducted on 118 children aged 18 months to 16 years, including PICU patients requiring invasive mechanical ventilation for ≥ 48 h. On admission, patients were randomly allocated into two groups: the intervention group received oral care with toothbrushing plus 0.12% chlorhexidine mouth rinse, while the control group received routine care with 0.12% chlorhexidine rinse only. Both procedures were performed three times daily. VAP was diagnosed according to CDC criteria. Quantitative and qualitative analyses assessed variables distinguishing VAP cases from controls, and multivariate logistic regression identified independent predictors of disease severity. RESULTS: The results of our study revealed that VAP occurred in 31 patients (52.5%) in the control group and 25 patients (42.3%) in the intervention group, indicating a lower incidence with toothbrushing plus chlorhexidine, although this difference was not statistically significant (p = 0.36). Among all participants, 45.8% died and 54.2% were discharged. Mortality was higher in the control group (53.7%) compared with the intervention group (46.3%), while discharge rates favored the intervention group (53.1% vs. 46.9%); however, these differences did not reach statistical significance (p = 0.46). Positive sputum cultures were more frequent in the control group (55.6%) than in the intervention group (44.4%), whereas negative cultures were more common among intervention patients (54.7% vs. 45.3%), with no significant difference between groups (p = 0.268). CONCLUSION: Although adding toothbrushing to routine chlorhexidine oral care did not produce a statistically significant reduction in VAP incidence or mortality, a consistent trend toward clinical benefit was observed across multiple outcome measures, including lower rates of positive sputum cultures, reduced inotropic support requirements, and fewer new pulmonary infiltrates. These findings highlight the potential value of enhanced oral hygiene in the PICU and support the need for larger multicenter studies to confirm its effect. TRIAL REGISTRATION: ClinicalTrials.gov, NCT07287566. Registered on November 20, 2025. Retrospectively registered at https://clinicaltrials.gov/ct2/show/NCT07287566 . PROTOCOL AND STATISTICAL ANALYSIS PLAN ACCESS: The full study protocol and the statistical analysis plan are included in this document and are available from the corresponding author upon reasonable request.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42502162/"
+        },
+        {
+          "pmid": "42497015",
+          "title": "Clinical and Culture-Based Predictors of Gut Microbiome Alpha Diversity at the Time of ICU Admission.",
+          "journal": "Critical care explorations",
+          "pubdate": "2026 Jul 1",
+          "authors": [
+            "Ma D",
+            "Uhlemann AC",
+            "Abrams JA",
+            "Freedberg DE"
+          ],
+          "doi": "10.1097/CCE.0000000000001455",
+          "abstract": "OBJECTIVES: Microbiome-based therapies to improve gut colonization resistance are being developed for the ICU, but their efficacy may depend on the baseline gut microbiome at ICU admission. We sought to identify clinical predictors of alpha diversity at ICU admission. DESIGN: Retrospective reanalysis of a randomized clinical trial (NCT03865706). SETTING: Single-center ICU. PATIENTS: ICU patients with sepsis as the primary diagnosis who were receiving broad-spectrum antibiotics and could be enrolled within 24 hours of ICU admission. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Demographic and clinical characteristics for medical ICU patients with sepsis were recorded during a previously published randomized clinical trial. Deep rectal swabs were collected within 24 hours of ICU admission and sequenced to describe alpha diversity (Shannon index) and cultured for vancomycin-resistant Enterococcus (VRE). Patients were organized into tertiles of Shannon diversity (low, middle, high) with a primary outcome of a lower Shannon tertile at ICU admission. Overall, 90 patients were enrolled. The three variables of location before ICU admission (adjusted odds ratio [aOR], 3.54; 95% CI, 1.21-10.3 for ICU transfer vs. emergency department [ED]; aOR, 6.09; 95% CI, 1.89-19.6 for hospital ward vs. ED), prior culture-proven infection within 1 year (aOR, 2.46; 95% CI, 1.02-5.96), and VRE status on ICU admission (aOR, 4.18; 95% CI, 1.44-12.1 for positive vs. negative swab) were sufficient to describe a quasi-linear trend in alpha diversity at ICU admission. CONCLUSIONS: Baseline gut microbiome Shannon alpha diversity at ICU admission could be described with three readily ascertained clinical variables. Our model shows promise as a preliminary framework of factors that collectively best predict baseline alpha diversity at ICU admission and warrants validation in larger independent cohorts.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42497015/"
+        },
+        {
+          "pmid": "42495753",
+          "title": "Mechanisms and therapeutic strategies of pyroptosis in sepsis‑induced acute lung injury (Review).",
+          "journal": "International journal of molecular medicine",
+          "pubdate": "2026 Sep",
+          "authors": [
+            "Wu W",
+            "Li N",
+            "Deng G",
+            "Yang S",
+            "Zeng R",
+            "Chen R",
+            "Li J"
+          ],
+          "doi": "10.3892/ijmm.2026.5935",
+          "abstract": "Sepsis‑induced acute lung injury (S‑ALI) is a leading cause of respiratory failure and mortality in intensive care units, characterized by profound biological and clinical heterogeneity that explains the repeated failure of uniform anti‑inflammatory therapies. This variability underscores the urgent need for mechanism‑based patient stratification and precision medicine approaches. Pyroptosis, a regulated inflammatory cell death program driven by gasdermin‑mediated membrane pore formation, has emerged as a critical driver of alveolar‑capillary barrier disruption and cytokine amplification in S‑ALI. The activation of canonical and non‑canonical inflammasome pathways, together with molecular crosstalk within the integrated PANoptosome network, promotes context‑dependent pyroptotic responses across pulmonary endothelial, epithelial and immune cells. Notably, recent insights into lineage plasticity and transcriptional heterogeneity further elucidate the dynamic cellular orchestration of these pathways. Pyroptotic effectors, such as circulating gasdermin D fragments and mature IL‑1β/IL‑18, are detectable in patients with sepsis and acute respiratory distress syndrome, being associated with hyperinflammatory endotypes, disease severity and clinical trajectories. By integrating preclinical mechanistic insights with emerging human biomarker and trial data, the present review positions pyroptosis as a clinically actionable, stratification‑relevant target. The present review highlights current advances in pathway‑specific inhibitors and discusses their potential to enable biomarker‑guided, personalized interventions in critically ill patients.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42495753/"
+        },
+        {
+          "pmid": "42493817",
+          "title": "Association between energy adequacy and clinical outcomes in septic ICU patients stratified by modified NUTRIC score.",
+          "journal": "Journal of the Chinese Medical Association : JCMA",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Lin PY",
+            "Yen YT",
+            "Lu MJ",
+            "Hsu HS"
+          ],
+          "doi": "10.1097/JCMA.0000000000001407",
+          "abstract": "BACKGROUND: Although malnutrition is common among critically ill patients with sepsis, it is unclear whether early nutritional supplementation is beneficial. We investigated the effects of early calorie and protein delivery in critically ill patients with sepsis. METHODS: Adult patients with sepsis who required mechanical ventilation in a surgical intensive care unit (ICU) between January 2021 and December 2022 were enrolled. Nutritional risk in these patients was evaluated using the modified Nutrition Risk in the Critically ill (m-NUTRIC) Score. Participants were divided into two groups based on whether they received <50% or ≥50% of their estimated calorie needs within the first 5 days of their ICU stay. The primary outcome was 28-day ICU mortality. RESULTS: Among the 258 participants (195 men and 63 women; mean age, 64.8 ± 13.7 years), within the first 5 days of their ICU stay, 63.2% and 36.8% of the patients received <50% and ≥50% of their estimated calorie needs, respectively. The 28-day ICU mortality rate did not differ significantly between the two groups. Multivariate logistic regression revealed that the use of continuous renal replacement therapy (odds ratio [OR] 4.07, 95% confidence interval [CI] 1.10-15.09; p = 0.036) and the duration of mechanical ventilation (OR 1.05, 95% CI 1.01-1.10; p = 0.020) were independent predictors of 28-day ICU mortality. Providing early nutritional support of ≤50% of the estimated calorie needs did not affect 28-day ICU mortality in these patients ( p =0.229). CONCLUSION: Achieving at least 50% of the estimated calorie needs within the first 5 days of ICU stay did not improve 28-day ICU survival in this cohort of critically ill patients with sepsis. Further investigations are needed to elucidate whether early nutritional interventions are beneficial for this population.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42493817/"
+        },
+        {
+          "pmid": "42218858",
+          "title": "Harpagide alleviates sepsis-induced acute respiratory distress syndrome via gut microbiota modulation.",
+          "journal": "Phytomedicine : international journal of phytotherapy and phytopharmacology",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Sun Y",
+            "Xie D",
+            "Fu H",
+            "He M",
+            "Li J",
+            "Wu C",
+            "Pan S"
+          ],
+          "doi": "10.1016/j.phymed.2026.158329",
+          "abstract": "BACKGROUND: Sepsis-associated acute respiratory distress syndrome (ARDS) remains a leading cause of mortality in critically ill patients, with limited therapeutic options beyond supportive care. The gut-lung axis is critical in sepsis pathogenesis, yet effective targeting strategies remain scarce. Harpagide (HPG), an iridoid glycoside from Scrophularia ningpoensis, exhibits anti-inflammatory properties, but whether it protects against sepsis-induced ARDS through gut microbiota modulation remains unexplored. METHODS: Sepsis-induced ARDS was established using the cecal ligation and puncture (CLP) model. Gut microbiota dependency was assessed via antibiotic depletion (ABX) and fecal microbiota transplantation (FMT). Ffar2-/- mice were used to verify receptor necessity. Microbial composition and SCFAs were analyzed by 16S rRNA sequencing and GC-MS. Lung signaling was assessed by RNA-seq, Western blot, and RT-qPCR. Plasma SCFAs were quantified in sepsis-induced ARDS patients (n = 12) and healthy controls (n = 12) by LC-MS/MS. RESULTS: HPG significantly improved survival, attenuated lung injury, and suppressed cytokine storm in septic mice. These effects were abolished by ABX but transferable via FMT, confirming microbiota dependency. HPG enriched acetate-producing taxa, elevating fecal and plasma acetate. Transcriptomic analysis revealed simultaneous suppression of NF-κB signaling and excessive IFN-γ/STAT1 activation. HPG-mediated protection was completely abrogated in Ffar2-/- mice, and exogenous sodium acetate recapitulated these effects in a Ffar2-dependent manner. Clinically, plasma acetate was significantly depleted in ARDS patients and correlated with disease severity. CONCLUSIONS: HPG alleviates sepsis-induced ARDS by reshaping gut microbiota to boost acetate production, which activates FFAR2 to orchestrate immune reprogramming via NF-κB and IFN-γ/STAT1 pathways, offering a novel microbial-metabolic therapeutic strategy.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42218858/"
+        }
+      ]
+    },
+    {
+      "id": "hematology-coag",
+      "label": "Hematology & Coagulation",
+      "abbr": "Heme",
+      "articles": [
+        {
+          "pmid": "42413523",
+          "title": "Standard-dose unfractionated heparin versus low-dose unfractionated heparin and low-molecular-weight heparin in extracorporeal life support (RATE): an open-label, randomised, non-inferiority trial.",
+          "journal": "Lancet (London, England)",
+          "pubdate": "2026 Jul 25",
+          "authors": [
+            "Minnen OV",
+            "Lansink-Hartgring AO",
+            "van Amstel RBE",
+            "van den Bogaard B",
+            "Bunge JJH",
+            "Delnoij TSR",
+            "Droogh JM",
+            "Koppenhagen LV",
+            "Kraemer CVE",
+            "Kuijpers M",
+            "Maas JJ",
+            "Metz J",
+            "van de Poll MCG",
+            "Raasveld SJ",
+            "Dos Reis Miranda D",
+            "Vart P",
+            "Vermeulen KM",
+            "Vlaar APJ",
+            "van den Bergh WM",
+            "Dutch ECLS Study Group"
+          ],
+          "doi": "10.1016/S0140-6736(26)00851-2",
+          "abstract": "BACKGROUND: In patients receiving extracorporeal membrane oxygenation (ECMO), standard practice is full-dose intravenous unfractionated heparin (UFH) targeting an activated partial thromboplastin time of 2·0-2·5 times baseline to reduce thrombotic risk. This approach can increase bleeding without further reducing thrombosis compared with low-dose UFH. Robust evidence to guide anticoagulation targets is absent because anticoagulation targets in ECMO have never been assessed in a sufficiently powered randomised trial. We aimed to determine whether low-dose UFH or therapeutic low-molecular-weight heparin (LMWH) is non-inferior to standard-dose UFH in patients receiving ECMO. METHODS: In this open-label, three-arm, randomised, non-inferiority trial at seven Dutch intensive care units (ICUs), adults aged 18 years or older supported with veno-venous or veno-arterial ECMO at the ICU without vital indication for full-dose anticoagulation (eg, mechanical mitral valve) were randomly assigned to intravenous standard-dose UFH (activated partial thromboplastin time 2·0-2·5 times baseline), intravenous low-dose UFH (1·5-2·0 times baseline), or therapeutic subcutaneous LMWH. The primary outcome was a composite of severe bleeding during ECMO support, severe thromboembolic complications during ECMO support, or all-cause mortality at 6 months, and was assessed in all randomly assigned patients with deferred informed consent and 6-month follow-up data according to the intention-to-treat principle. Non-inferiority was met if the upper 95% CI limit for the absolute risk difference was less than 7·5 percentage points. This trial is registered at ClinicalTrials.gov (NCT04536272) and the Dutch trial register (NL7976). FINDINGS: Between Oct 22, 2020, and Sept 12, 2024, 330 patients were enrolled: 110 were randomly assigned to standard-dose UFH, 110 to low-dose UFH, and 110 to LMWH. Of 330 enrolled patients, 320 (225 [70%] males, 95 [30%] females; median age 56 years [IQR 45-65]; 255 [80%] White ethnicity) were analysed at 6 months. The composite primary outcome occurred in 87 (81%) of 107 patients with standard-dose UFH, 78 (72%) of 108 with low-dose UFH (absolute risk difference -9·1 percentage points [95% CI -20·3 to 2·1]), and 79 (75%) of 105 with LMWH (-6·1 percentage points [-17·2 to 5·0]), meeting non-inferiority for both interventions. The frequency of severe bleeding was lower with low-dose UFH and LMWH than with standard-dose UFH (63 [58%] patients and 62 [59%] vs 70 [65%]), without excess severe thromboembolic complications (11 [10%] and nine [9%] vs 12 [11%]), although these differences did not reach statistical significance. At 6 months, 54 (50%) patients in the standard-dose UFH group, 45 (42%) in the low-dose UFH group, and 46 (44%) in the LMWH group had died. INTERPRETATION: Low-dose UFH and therapeutic LMWH were non-inferior to standard-dose UFH. This finding supports reconsideration of anticoagulation targets in ECMO. Given the global expansion of ECMO, these findings suggest that reduced anticoagulation targets could substantially reduce bleeding-related harm. FUNDING: ZonMw.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42413523/"
+        }
+      ]
+    },
+    {
+      "id": "trauma-surgical",
+      "label": "Trauma & Surgical",
+      "abbr": "Trauma",
+      "articles": [
+        {
+          "pmid": "42496126",
+          "title": "Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.",
+          "journal": "European journal of psychotraumatology",
+          "pubdate": "2026 Dec",
+          "authors": [
+            "Nojiri S",
+            "Takahashi T",
+            "Wang Y",
+            "Katsuta N",
+            "Daida H",
+            "Nishizaki Y"
+          ],
+          "doi": "10.1080/20008066.2026.2692771",
+          "abstract": "Background: Physiotherapists played central roles in high-risk 'red-zone' care during COVID-19 and reported substantial distress, yet mechanisms linking exposure to burnout remain unclear.Objective: To examine whether the association between direct patient contact and burnout operates through a stress-related behavioural mediator (feeling like quitting/taking a break) and whether organisational resources moderate this pathway.Methods: We conducted a secondary analysis of a nationwide, multicentre, web-based survey of Japanese physiotherapists engaged in COVID-19 care (March 2021). Burnout was defined using the Japanese MBI-GS case algorithm. Counterfactual mediation analysis with bias-corrected and accelerated (BCa) bootstraps (5,000 resamples) was used to estimate the average causal mediation effect (ACME), average direct effect (ADE), and total effect on the risk-difference scale. Models were adjusted for age, sex, years in practice, and cohabitation.Results: Burnout prevalence was 19.4%. A small indirect effect was observed (ACME = 0.00932; 95% CI 0.00188-0.0200), whereas the direct and total effects were not statistically significant. Appreciation/respect was associated with attenuation of the indirect effect (ACME = 0.00007), whereas endorsement of enhanced reimbursement for two-therapist care of critically ill patients was associated with a larger indirect effect (ACME = 0.00637; 95% CI 0.00122-0.0100). Because the primary mediation analysis used a binary mediator and binary outcome with logistic link functions, a formal ρ-based sensitivity analysis for unmeasured mediator-outcome confounding was not available under this specification.Conclusions: Among Japanese physiotherapists, the association between direct COVID-19 patient contact and burnout was consistent with an indirect pathway operating through a stress-related behavioural mediator. Recognition appeared to buffer this pathway, whereas reimbursement-linked resource strain appeared to amplify it. These findings suggest potentially relevant organisational targets for future intervention, but should be interpreted cautiously given the cross-sectional design and the causal assumptions required for mediation analysis.",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42496126/"
+        }
+      ]
+    }
   ]
 }
