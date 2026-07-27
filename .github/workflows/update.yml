@@ -1,0 +1,38 @@
+name: Update ICU literature feed
+
+on:
+  schedule:
+    - cron: "17 5 * * *" # ~05:17 UTC daily
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch latest articles
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          RELDATE_DAYS: "3"
+          MAX_PER_CATEGORY: "8"
+        run: python scripts/fetch_articles.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "icu-scope-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git diff --quiet -- data/articles.json; then
+            echo "No changes to commit."
+          else
+            git add data/articles.json
+            git commit -m "Update ICU literature feed"
+            git push
+          fi

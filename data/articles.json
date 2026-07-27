@@ -1,0 +1,15 @@
+{
+  "generated_at": null,
+  "window_days": 3,
+  "categories": [
+    { "id": "cardiovascular", "label": "Cardiovascular", "abbr": "CVS", "articles": [] },
+    { "id": "respiratory", "label": "Respiratory", "abbr": "Resp", "articles": [] },
+    { "id": "neurology", "label": "Neurology", "abbr": "Neuro", "articles": [] },
+    { "id": "renal", "label": "Renal", "abbr": "Renal", "articles": [] },
+    { "id": "gi-nutrition", "label": "GI & Nutrition", "abbr": "GI", "articles": [] },
+    { "id": "endocrine-metabolic", "label": "Endocrine & Metabolic", "abbr": "Endo", "articles": [] },
+    { "id": "infectious-sepsis", "label": "Infectious Disease & Sepsis", "abbr": "ID/Sepsis", "articles": [] },
+    { "id": "hematology-coag", "label": "Hematology & Coagulation", "abbr": "Heme", "articles": [] },
+    { "id": "trauma-surgical", "label": "Trauma & Surgical", "abbr": "Trauma", "articles": [] }
+  ]
+}
