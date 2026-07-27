@@ -32,6 +32,15 @@
     return `Last updated ${formatted} · showing articles from the last ${windowDays} day${windowDays === 1 ? "" : "s"}`;
   }
 
+  function journalHue(name) {
+    let hash = 0;
+    const str = name || "unknown";
+    for (let i = 0; i < str.length; i++) {
+      hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
+    }
+    return hash % 360;
+  }
+
   function escapeHtml(str) {
     return String(str).replace(/[&<>"']/g, (c) => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
@@ -65,7 +74,7 @@
     card.innerHTML = `
       <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
-        <span class="journal">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
+        <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
       ${abstractBlock}

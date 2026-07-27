@@ -17,6 +17,8 @@
   --top-journal-bg: #efe9fb;
   --top-journal-border: #d9cdf2;
   --top-journal-accent: #6a4fb3;
+  --journal-saturation: 48%;
+  --journal-lightness: 36%;
   --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
   --radius: 12px;
 }
@@ -40,6 +42,8 @@
   --top-journal-bg: #241c33;
   --top-journal-border: #3a2c52;
   --top-journal-accent: #b79df0;
+  --journal-saturation: 55%;
+  --journal-lightness: 68%;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
 }
 
@@ -63,6 +67,8 @@
     --top-journal-bg: #241c33;
     --top-journal-border: #3a2c52;
     --top-journal-accent: #b79df0;
+    --journal-saturation: 55%;
+    --journal-lightness: 68%;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
   }
 }
@@ -242,7 +248,11 @@ a { color: var(--accent-strong); }
   margin-bottom: 0.65rem;
 }
 
-.article-meta .journal { font-style: italic; }
+.article-meta .journal {
+  font-style: italic;
+  font-weight: 600;
+  color: hsl(var(--journal-hue, 200), var(--journal-saturation), var(--journal-lightness));
+}
 
 .citation-badge, .top-journal-badge, .foamed-badge {
   display: inline-block;
