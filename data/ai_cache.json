@@ -158,5 +158,165 @@
   "pmid:42507322": {
     "summary": "This study reviewed 48 studies on using fosfomycin to treat carbapenem-resistant Acinetobacter baumannii infections. Fosfomycin may help when combined with other antibiotics, especially sulbactam, imipenem, and colistin. However, its independent contribution to treatment outcomes is unclear.",
     "significance": "Fosfomycin may be a useful adjunctive agent in treating CRAB infections, particularly when combined with cefiderocol, but more research is needed to confirm its benefits and optimal use in clinical practice."
+  },
+  "pmid:42506983": {
+    "summary": "A model-informed precision dosing software was tested for predicting cefotaxime concentrations in critically ill infants and children. The software showed improved accuracy when using measured blood samples, achieving target drug concentrations in over 90% of simulations. This could help treat severe infections more effectively.",
+    "significance": "This study's findings are significant for ICU clinical practice as they suggest that personalized dosing of cefotaxime using model-informed precision dosing software can improve treatment outcomes for critically ill infants and children."
+  },
+  "pmid:42502453": {
+    "summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
+    "significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality."
+  },
+  "pmid:42493201": {
+    "summary": "Researchers compared 24G and 26G short peripheral catheters in neonates and found that 26G catheters had a slightly longer dwell time and higher first-attempt insertion success rates, but similar complication rates.",
+    "significance": "This study informs the choice of catheter gauge in neonatal intensive care units, where smaller catheters may offer improved insertion success but potentially compromise flow during blood transfusions."
+  },
+  "pmid:42490008": {
+    "summary": "This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.",
+    "significance": "This study's findings support the use of RCA as an alternative to NA during CRRT in high-risk patients, potentially reducing bleeding complications without affecting mortality. However, careful monitoring of citrate levels and calcium levels is necessary to mitigate the risks associated with RCA."
+  },
+  "pmid:42489096": {
+    "summary": "Researchers analyzed data from 840,988 newborns in US NICUs from 2010-2020 to understand congenital CMV infection testing and diagnosis. They found that 1.2% of newborns were tested, with 5.6% diagnosed with CMV infection. Clinical signs like hepatosplenomegaly and microcephaly were associated with increased odds of testing and diagnosis.",
+    "significance": "This study highlights the importance of CMV testing in NICUs, particularly for newborns with concerning clinical signs. Early diagnosis can inform treatment and improve outcomes for these vulnerable patients."
+  },
+  "pmid:42488586": {
+    "summary": "Researchers found that delaying cord clamping and using umbilical cord blood for initial blood work can reduce blood loss and transfusions in newborns. A restrictive transfusion strategy and individualized blood transfusion decisions also help minimize blood loss. These strategies can improve outcomes for preterm and critically ill term newborns.",
+    "significance": "This study's findings are significant for ICU clinical practice as they provide evidence-based recommendations for minimizing blood loss and transfusions in newborns, potentially reducing complications and improving patient outcomes."
+  },
+  "pmid:42477630": {
+    "summary": "Researchers developed and validated a machine learning model using the XGBoost algorithm to predict ICU death in patients with chronic heart failure and pulmonary infection. The model was able to identify key predictors of mortality, including lactic acid, white blood cell count, and pre-existing diabetes. The model's performance was evaluated and found to be accurate in predicting ICU mortality.",
+    "significance": "This study provides a valuable tool for ICU clinicians to predict mortality in patients with chronic heart failure and pulmonary infection, allowing for more individualized risk assessment and management."
+  },
+  "pmid:42471569": {
+    "summary": "This study found that sepsis-induced coagulopathy is associated with higher in-hospital mortality and increased need for vasopressor support in ICU patients with sepsis. The study used a scoring system to predict mortality, which showed moderate discriminative performance. The results suggest that sepsis-induced coagulopathy may provide additional prognostic information when used alongside existing severity assessment tools.",
+    "significance": "Understanding the prognostic impact of sepsis-induced coagulopathy can help clinicians identify patients at higher risk of mortality and inform treatment decisions, potentially improving outcomes in critically ill patients with sepsis."
+  },
+  "pmid:42469406": {
+    "summary": "Researchers developed a machine learning model to help manage bleeding and clotting in critically ill patients by analyzing their medical records and lab results. The model showed promise in guiding personalized treatment and identifying key factors that affect bleeding and clotting. It can help doctors make more informed decisions about patient care.",
+    "significance": "This study provides a data-driven tool for managing coagulopathy in critically ill patients, which can lead to improved patient outcomes and more effective use of resources in the ICU."
+  },
+  "pmid:42458534": {
+    "summary": "Researchers studied 100 ICU patients to see if disseminated intravascular coagulation (DIC) is linked to a condition called persistent inflammation, immunosuppression, and catabolism syndrome (PIICS). They found that DIC occurring after 8 days in the ICU may increase the risk of PIICS. The study suggests that coagulopathy during the middle phase of ICU stay may contribute to PIICS.",
+    "significance": "Understanding the relationship between DIC and PIICS can help ICU clinicians identify patients at risk of developing PIICS, allowing for targeted interventions to prevent or mitigate its effects."
+  },
+  "pmid:42504371": {
+    "summary": "This study compared three pre-transfer risk assessment tools for critically ill patients. The Risk Score for Transport Patients (RSTP) had the highest sensitivity, but its performance needs further validation in the Indian context. The study found a significant number of adverse events during patient transport.",
+    "significance": "This study's findings are important for ICU clinicians as they highlight the need for efficient pre-transfer risk assessment tools to minimize adverse events during interhospital patient transport."
+  },
+  "pmid:42496477": {
+    "summary": "A 31-year-old woman experienced multiple cutaneous burns from a lightning strike, leading to three extubation failures and ultimately requiring a tracheostomy. Direct airway injury and inflammation likely contributed to her inability to breathe independently. Bronchoscopic assessment and conservative extubation protocols may help prevent similar complications.",
+    "significance": "This case highlights the importance of considering airway injury in lightning strike victims with neck or thoracic burns, and the need for early and conservative management to prevent extubation failure."
+  },
+  "pmid:42496126": {
+    "summary": "This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.",
+    "significance": "These findings are relevant for ICU clinical practice as they highlight the importance of organisational resources and staff appreciation in mitigating burnout among healthcare workers, particularly during high-stress situations like the COVID-19 pandemic."
+  },
+  "pmid:42494451": {
+    "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
+    "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
+  },
+  "pmid:42493813": {
+    "summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
+    "significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
+  },
+  "pmid:42491130": {
+    "summary": "A 57-year-old man with polytrauma was diagnosed with a rare cardiac injury using multimodal ultrasound, which showed a tear in the right coronary sinus and atrial septum. Despite treatment, the patient developed severe infection and multiple organ failure. Early diagnosis using ultrasound is crucial in managing polytrauma patients with cardiac injuries.",
+    "significance": "This study highlights the importance of using multimodal ultrasound for rapid diagnosis of cardiac injuries in polytrauma patients, which can guide treatment and improve outcomes."
+  },
+  "pmid:42494527": {
+    "summary": "This study reviewed emerging technologies to improve therapeutic drug monitoring (TDM) of last-resort antibiotics. It found that new platforms like LC-MS/MS and innovative sensors can provide more precise and real-time monitoring, allowing for better dosing and outcomes. A three-tiered TDM model was proposed to integrate these technologies and improve antimicrobial stewardship.",
+    "significance": "This study's findings have significant implications for ICU clinical practice, as they offer a path toward personalized antibiotic therapy and optimized clinical outcomes, which can help mitigate antimicrobial resistance in critical care settings."
+  },
+  "pmid:42494444": {
+    "summary": "Researchers explored using cell and extracellular vesicle therapies to treat acute kidney injury in ICU patients, with promising preclinical results but limited efficacy in early clinical trials. These therapies aim to promote renal recovery and reduce inflammation. Further studies are needed to optimize their use.",
+    "significance": "This research has implications for improving the treatment of AKI in ICU patients, a condition associated with high mortality, by developing more effective adjunctive therapies that can be integrated into clinical practice."
+  },
+  "pmid:42494464": {
+    "summary": "This study compared the cost-effectiveness of conservative versus liberal oxygen therapy in critically ill adults with post-cardiac arrest hypoxic ischemic encephalopathy. Conservative oxygen therapy, targeting an oxygen saturation of 90-95%, resulted in modest cost savings but small differences in health outcomes compared to liberal oxygen therapy. The study found that conservative oxygen therapy was associated with cost savings but at the cost of slightly worse health outcomes.",
+    "significance": "These findings are important for ICU clinical practice as they suggest that conservative oxygen therapy may be a cost-effective option for patients with post-cardiac arrest hypoxic ischemic encephalopathy, but further research is needed to confirm these results and determine the optimal oxygen therapy strategy."
+  },
+  "url:https://emcrit.org/emnerd/fgebm001/": {
+    "summary": "This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.",
+    "significance": "Understanding evidence-based medicine is crucial for ICU clinicians to provide high-quality patient care, and this podcast aims to educate and guide them in this area."
+  },
+  "url:https://emcrit.org/emcrit/qa-004/": {
+    "summary": "Dr. Sarah Crager discusses bedside shock management, moving beyond blood pressure targets to a dynamic approach. They address clinical dilemmas, including lactated Ringer's in lactic acidosis and albumin and diuretics in edematous patients. A real-world approach to fluid management is explored.",
+    "significance": "This episode provides ICU clinicians with practical guidance on fluid management in shock, helping them make informed decisions in high-pressure situations."
+  },
+  "url:https://emcrit.org/emnerd/a-study-in-priors/": {
+    "summary": "Researchers found that nearly half of positive medical trial results cannot be replicated, highlighting issues with trust in medical literature.",
+    "significance": "This has significant implications for ICU clinical practice, as it may lead to the adoption of ineffective treatments and delay the discovery of effective ones."
+  },
+  "url:https://litfl.com/paediatric-intubation-checklist/": {
+    "summary": "A checklist was developed to standardize pediatric intubation procedures, covering preparation, equipment selection, and post-intubation care.",
+    "significance": "This checklist may improve the quality and safety of pediatric intubations by ensuring healthcare providers follow a consistent and evidence-based approach."
+  },
+  "url:https://rebelem.com/hfnc-vs-niv/": {
+    "summary": "This study compared high-flow nasal cannula (HFNC) to non-invasive ventilation (NIV) in patients with acute cardiogenic pulmonary edema. It found that HFNC may be as effective as NIV in reducing respiratory rate and improving respiratory distress within 2 hours. The study aimed to determine if HFNC is a viable alternative to NIV in this setting.",
+    "significance": "This study's findings could help clinicians choose between HFNC and NIV for patients with acute cardiogenic pulmonary edema, potentially improving patient outcomes and reducing the need for invasive ventilation."
+  },
+  "url:https://litfl.com/ecg-criteria-for-left-ventricular-hypertrophy/": {
+    "summary": "This study reviews the ECG criteria for diagnosing left ventricular hypertrophy, including their historical development, diagnostic performance, and limitations. It aims to provide a comprehensive overview of these criteria for clinicians. The study covers the principal ECG criteria used to diagnose left ventricular hypertrophy.",
+    "significance": "Understanding ECG criteria for left ventricular hypertrophy is crucial for accurate diagnosis and management of cardiac conditions in ICU patients, allowing for timely interventions and improved patient outcomes."
+  },
+  "url:https://emcrit.org/emnerd/the-case-of-the-malignant-cohort/": {
+    "summary": "The YEARS protocol was tested to see if it can safely identify low-risk patients with suspected pulmonary embolism. The study aimed to determine if this approach can be applied to patients with malignancy. Results were not provided.",
+    "significance": "This study's findings could impact ICU clinical practice by helping clinicians determine which patients with malignancy and suspected PE can safely use a lower D-dimer threshold."
+  },
+  "url:https://emcrit.org/emcrit/racc-lit-2026-july/": {
+    "summary": "This is a literature review on various topics in critical care, including prehospital whole blood transfusions, defibrillator damage from DSD, and adenosine dosing for supraventricular tachycardia.",
+    "significance": "Understanding these topics can help ICU clinicians make informed decisions and improve patient outcomes."
+  },
+  "url:https://litfl.com/cant-intubate-cant-oxygenate-cico/": {
+    "summary": "This study discusses the management of Can't Intubate Can't Oxygenate (CICO) situations in ICU, where standard airway rescue techniques fail. CICO is recognized, and the patient is prepared for Front of Neck Access (FONA). FONA is then transitioned to for oxygen delivery.",
+    "significance": "CICO management is crucial for ICU clinicians to prevent hypoxia and cardiac arrest in critically ill patients. Effective recognition and transition to FONA can improve patient outcomes in life-threatening situations."
+  },
+  "url:https://litfl.com/adult-intubation-checklist/": {
+    "summary": "This study developed a checklist for adult intubation in emergency situations, covering preparation, pause before intubation, backup plans, and post-intubation care. The checklist aims to standardize and improve the intubation process. It may reduce errors and improve patient outcomes.",
+    "significance": "This checklist can be a valuable tool for ICU clinicians to improve their intubation skills and patient safety, especially in high-pressure emergency situations."
+  },
+  "url:https://emcrit.org/emcrit/rush-2/": {
+    "summary": "This episode introduces the updated RUSH Exam 2.0, also known as the iRUSH, which provides a standardized map for comprehensive bedside hemodynamic assessment. It combines clinical findings with advanced ultrasound modalities to phenotype shock. This updated protocol moves beyond its original role for the crashing patient.",
+    "significance": "This matters for ICU clinical practice as it provides a standardized approach to bedside hemodynamic assessment, potentially improving patient outcomes by accurately phenotyping shock."
+  },
+  "url:https://litfl.com/bronchoscopic-anatomy/": {
+    "summary": "This study reviews airway anatomy to help clinicians understand the basics of bronchoscopy and airway management, highlighting normal variations and potential abnormalities.",
+    "significance": "Understanding airway anatomy is crucial for successful bronchoscopy and airway management in ICU patients, which can impact patient outcomes and survival."
+  },
+  "url:https://litfl.com/patient-preparation-for-icu-bronchoscopy/": {
+    "summary": "Researchers identified key considerations for preparing ICU patients for bronchoscopy, including time out, consent, and patient positioning. They also highlighted the importance of awake versus intubated & sedated bronchoscopy and effective teamwork. The study aimed to improve safety during ICU bronchoscopy.",
+    "significance": "This study's findings are crucial for ICU clinicians to ensure safe and effective bronchoscopy procedures, which can impact patient outcomes and reduce complications."
+  },
+  "url:https://rebelem.com/abc-vs-tash/": {
+    "summary": "Researchers compared two tools for deciding massive transfusions in trauma patients: the ABC Score, which uses 4 variables at the bedside, and TASH, which uses labs and imaging for a more precise estimate.",
+    "significance": "Understanding which tool is most accurate can help ICU clinicians make better decisions about massive transfusions, potentially improving patient outcomes."
+  },
+  "pmid:42246225": {
+    "summary": "These guidelines provide evidence-based recommendations for central venous cannulation in critically ill patients. They aim to standardize the approach, increase effectiveness, and minimize complications. The guidelines cover pre-procedural ultrasound assessment, optimal vascular access site selection, and catheter position confirmation.",
+    "significance": "These guidelines are crucial for ICU clinicians to standardize and improve central venous cannulation procedures, potentially reducing complications and improving patient outcomes."
+  },
+  "pmid:42087034": {
+    "summary": "This study reviewed the use of seizure medications in patients after brain surgery. The results suggest that using seizure medications may help prevent early seizures, but the benefits are uncertain. Levetiracetam may be a better choice than phenytoin for seizure prevention.",
+    "significance": "This study's findings inform ICU clinicians about the use of seizure medications in patients after brain surgery, helping them make more informed decisions about patient care."
+  },
+  "pmid:41949461": {
+    "summary": "ASH and ISTH developed guidelines for anticoagulant prophylaxis in pediatric patients at risk of VTE, based on a systematic review of evidence up to April 2025. The guidelines provide recommendations for different pediatric subgroups, including those with cancer, trauma, or critical illness. The panel agreed on 12 recommendations, including conditional suggestions for anticoagulant use in certain subgroups.",
+    "significance": "These guidelines are crucial for clinicians to make informed decisions about anticoagulant prophylaxis in pediatric patients at risk of VTE, given the lack of consensus and high-quality data in this area."
+  },
+  "pmid:41942818": {
+    "summary": "This study developed guidelines for predicting outcomes in critically ill adults with acute ischemic stroke, including avoiding premature predictions and using multimodal assessments. It found that early neurological improvement within 24 hours of revascularization is a moderately reliable predictor of good functional outcome. No other individual predictor was considered reliable for predicting mortality or functional outcome.",
+    "significance": "These guidelines are important for ICU clinicians as they provide a framework for counseling patients and their surrogates about outcomes, helping to set realistic expectations and guide treatment decisions."
+  },
+  "pmid:41916807": {
+    "summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
+    "significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients."
+  },
+  "pmid:41860325": {
+    "summary": "The Society of Critical Care Medicine developed guidelines for end-of-life care in pediatric and neonatal ICUs based on a systematic review of literature. The guidelines focus on advance care planning, palliative care, symptom management, and bereavement support. These recommendations aim to improve end-of-life care for critically ill patients and their families.",
+    "significance": "These guidelines are crucial for ICU clinicians to provide high-quality end-of-life care, ensuring that patients and their families receive compassionate and evidence-based support during a difficult time."
+  },
+  "pmid:41860322": {
+    "summary": "This study developed evidence-based guidelines for caring for older adults in the ICU, recommending a geriatric model of care and avoiding antipsychotic medications for preventing delirium. The guidelines were developed using a systematic review and expert consensus. The recommendations aim to improve outcomes for older ICU patients.",
+    "significance": "These guidelines are crucial for ICU clinicians as they provide evidence-based recommendations for caring for older adults, who are a growing proportion of the ICU population. By following these guidelines, clinicians can improve patient outcomes and reduce complications."
   }
 }
