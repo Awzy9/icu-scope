@@ -14,7 +14,7 @@ from datetime import datetime, timezone
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 TOOL = "icu-scope"
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "")
-RELDATE_DAYS = int(os.environ.get("RELDATE_DAYS", "3"))
+RELDATE_DAYS = int(os.environ.get("RELDATE_DAYS", "60"))
 MAX_PER_CATEGORY = int(os.environ.get("MAX_PER_CATEGORY", "8"))
 TRENDING_DAYS = int(os.environ.get("TRENDING_DAYS", "30"))
 TRENDING_CANDIDATES = int(os.environ.get("TRENDING_CANDIDATES", "60"))
