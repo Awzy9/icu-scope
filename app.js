@@ -9,6 +9,27 @@
   const foamedList = document.getElementById("foamed-list");
   const foamedCount = document.getElementById("foamed-count");
   const themeToggle = document.getElementById("theme-toggle");
+  const searchInput = document.getElementById("search-input");
+  const windowFilter = document.getElementById("window-filter");
+
+  const CATEGORY_ICONS = {
+    cardiovascular: "❤️",
+    respiratory: "🫁",
+    neurology: "🧠",
+    renal: "🫘",
+    "gi-nutrition": "🍽️",
+    "endocrine-metabolic": "🧪",
+    "infectious-sepsis": "🦠",
+    "hematology-coag": "🩸",
+    "trauma-surgical": "🚑",
+  };
+
+  let rawData = null;
+  let scrollHandler = null;
+  const categorySort = {}; // category id -> "newest" | "cited"
+  let previousSeenIds = new Set();
+  let isFirstVisit = true;
+  let currentSessionIds = new Set();
 
   function initTheme() {
     const saved = localStorage.getItem("icu-scope-theme");
@@ -23,6 +44,40 @@
       localStorage.setItem("icu-scope-theme", next);
       themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
     });
+  }
+
+  function loadSeenIds() {
+    try {
+      const raw = localStorage.getItem("icu-scope-seen");
+      if (raw === null) {
+        isFirstVisit = true;
+        return new Set();
+      }
+      isFirstVisit = false;
+      return new Set(JSON.parse(raw));
+    } catch (e) {
+      return new Set();
+    }
+  }
+
+  function saveSeenIds(ids) {
+    try {
+      localStorage.setItem("icu-scope-seen", JSON.stringify([...ids]));
+    } catch (e) {
+      /* localStorage unavailable, skip */
+    }
+  }
+
+  function articleId(article) {
+    return article.pmid ? `pmid:${article.pmid}` : `url:${article.url}`;
+  }
+
+  function collectAllIds(data) {
+    const ids = new Set();
+    (data.trending && data.trending.articles || []).forEach((a) => ids.add(articleId(a)));
+    (data.foamed && data.foamed.articles || []).forEach((a) => ids.add(`url:${a.url}`));
+    (data.categories || []).forEach((c) => c.articles.forEach((a) => ids.add(articleId(a))));
+    return ids;
   }
 
   function formatUpdatedAt(iso, windowDays) {
@@ -47,8 +102,48 @@
     }[c]));
   }
 
-  function articleCard(article, opts) {
-    opts = opts || {};
+  function parsePubDate(str) {
+    if (!str) return null;
+    const d = new Date(str);
+    return isNaN(d.getTime()) ? null : d;
+  }
+
+  function matchesSearch(article, term) {
+    if (!term) return true;
+    const hay = `${article.title} ${article.journal || ""} ${article.abstract || ""} ${(article.authors || []).join(" ")}`.toLowerCase();
+    return hay.includes(term);
+  }
+
+  function withinWindow(article, days) {
+    if (!days) return true;
+    const d = parsePubDate(article.pubdate);
+    if (!d) return false;
+    const cutoff = Date.now() - days * 86400000;
+    return d.getTime() >= cutoff;
+  }
+
+  function sortArticles(mode, articles) {
+    const copy = articles.slice();
+    if (mode === "cited") {
+      copy.sort((a, b) => (b.citation_count || 0) - (a.citation_count || 0));
+    } else {
+      copy.sort((a, b) => {
+        const da = parsePubDate(a.pubdate);
+        const db = parsePubDate(b.pubdate);
+        if (!da && !db) return 0;
+        if (!da) return 1;
+        if (!db) return -1;
+        return db - da;
+      });
+    }
+    return copy;
+  }
+
+  function articleCard(article) {
+    const id = articleId(article);
+    const isNew = !isFirstVisit && !previousSeenIds.has(id);
+    currentSessionIds.add(id);
+
     const authors = article.authors && article.authors.length
       ? article.authors.slice(0, 4).join(", ") + (article.authors.length > 4 ? ", et al." : "")
       : "Authors unavailable";
@@ -59,7 +154,7 @@
       ? `<p class="article-abstract">${escapeHtml(article.abstract)}</p>
          <button class="abstract-toggle" type="button">Show more</button>`
       : "";
-    const citationBadge = opts.showCitations && article.citation_count > 0
+    const citationBadge = article.citation_count > 0
       ? `<span class="citation-badge">cited ${article.citation_count}×</span>`
       : "";
     const topJournalBadge = article.is_top_journal
@@ -68,11 +163,12 @@
     const foamedBadge = article.is_foamed
       ? `<span class="foamed-badge">FOAMed</span>`
       : "";
+    const newBadge = isNew ? `<span class="new-badge">● New</span>` : "";
 
     const card = document.createElement("article");
-    card.className = "article-card";
+    card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
-      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${topJournalBadge}${foamedBadge}${citationBadge}</h3>
+      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
@@ -95,18 +191,6 @@
     return card;
   }
 
-  function renderTrending(trending) {
-    const articles = (trending && trending.articles) || [];
-    if (!articles.length) {
-      trendingSection.hidden = true;
-      return;
-    }
-    trendingSection.hidden = false;
-    trendingCount.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"} · last ${trending.window_days} days`;
-    trendingList.innerHTML = "";
-    articles.forEach((article) => trendingList.appendChild(articleCard(article, { showCitations: true })));
-  }
-
   function foamedToArticle(item) {
     return {
       title: item.title,
@@ -122,8 +206,20 @@
     };
   }
 
-  function renderFoamed(foamed) {
-    const posts = (foamed && foamed.articles) || [];
+  function renderTrending(trending, term, days) {
+    const articles = filterList((trending && trending.articles) || [], term, days);
+    if (!articles.length) {
+      trendingSection.hidden = true;
+      return;
+    }
+    trendingSection.hidden = false;
+    trendingCount.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"} · last ${trending.window_days} days`;
+    trendingList.innerHTML = "";
+    articles.forEach((article) => trendingList.appendChild(articleCard(article)));
+  }
+
+  function renderFoamed(foamed, term, days) {
+    const posts = filterList(((foamed && foamed.articles) || []).map(foamedToArticle), term, days);
     if (!posts.length) {
       foamedSection.hidden = true;
       return;
@@ -131,23 +227,27 @@
     foamedSection.hidden = false;
     foamedCount.textContent = `${posts.length} post${posts.length === 1 ? "" : "s"} · last ${foamed.window_days} days`;
     foamedList.innerHTML = "";
-    posts.forEach((item) => foamedList.appendChild(articleCard(foamedToArticle(item))));
+    posts.forEach((item) => foamedList.appendChild(articleCard(item)));
   }
 
-  function render(data) {
-    updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
-    renderTrending(data.trending);
-    renderFoamed(data.foamed);
+  function filterList(list, term, days) {
+    return list.filter((a) => matchesSearch(a, term) && withinWindow(a, days));
+  }
 
+  function renderCategories(categories, term, days) {
     nav.innerHTML = "";
     content.innerHTML = "";
 
-    const categoriesWithArticles = data.categories || [];
+    const filtered = categories.map((cat) => ({
+      ...cat,
+      articles: sortArticles(categorySort[cat.id] || "newest", filterList(cat.articles, term, days)),
+    }));
 
-    categoriesWithArticles.forEach((cat, idx) => {
+    filtered.forEach((cat, idx) => {
+      const icon = CATEGORY_ICONS[cat.id] || "";
       const chip = document.createElement("button");
       chip.className = "nav-chip" + (idx === 0 ? " active" : "");
-      chip.textContent = `${cat.abbr} (${cat.articles.length})`;
+      chip.textContent = `${icon} ${cat.abbr} (${cat.articles.length})`;
       chip.addEventListener("click", () => {
         document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: "smooth", block: "start" });
       });
@@ -159,13 +259,27 @@
 
       const heading = document.createElement("div");
       heading.className = "category-heading";
-      heading.innerHTML = `<h2>${escapeHtml(cat.label)}</h2><span class="category-count">${cat.articles.length} article${cat.articles.length === 1 ? "" : "s"}</span>`;
+      const mode = categorySort[cat.id] || "newest";
+      heading.innerHTML = `
+        <h2>${icon} ${escapeHtml(cat.label)}</h2>
+        <span class="category-count">${cat.articles.length} article${cat.articles.length === 1 ? "" : "s"}</span>
+        <div class="sort-toggle">
+          <button type="button" class="sort-btn${mode === "newest" ? " active" : ""}" data-mode="newest">Newest</button>
+          <button type="button" class="sort-btn${mode === "cited" ? " active" : ""}" data-mode="cited">Most cited</button>
+        </div>
+      `;
+      heading.querySelectorAll(".sort-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          categorySort[cat.id] = btn.dataset.mode;
+          applyFiltersAndRender();
+        });
+      });
       section.appendChild(heading);
 
       if (!cat.articles.length) {
         const empty = document.createElement("p");
         empty.className = "empty";
-        empty.textContent = "No new articles in this window.";
+        empty.textContent = "No articles match the current filters.";
         section.appendChild(empty);
       } else {
         cat.articles.forEach((article) => section.appendChild(articleCard(article)));
@@ -174,31 +288,54 @@
       content.appendChild(section);
     });
 
+    if (scrollHandler) {
+      document.removeEventListener("scroll", scrollHandler);
+    }
     if (nav.children.length) {
-      const onScroll = () => {
+      scrollHandler = () => {
         let currentId = null;
-        for (const cat of categoriesWithArticles) {
+        for (const cat of filtered) {
           const el = document.getElementById(`cat-${cat.id}`);
           if (el && el.getBoundingClientRect().top <= 80) {
             currentId = cat.id;
           }
         }
         [...nav.children].forEach((chip, idx) => {
-          chip.classList.toggle("active", categoriesWithArticles[idx] && categoriesWithArticles[idx].id === currentId);
+          chip.classList.toggle("active", filtered[idx] && filtered[idx].id === currentId);
         });
       };
-      document.addEventListener("scroll", onScroll, { passive: true });
+      document.addEventListener("scroll", scrollHandler, { passive: true });
     }
   }
 
+  function applyFiltersAndRender() {
+    if (!rawData) return;
+    const term = searchInput.value.trim().toLowerCase();
+    const days = windowFilter.value === "all" ? null : Number(windowFilter.value);
+
+    currentSessionIds = new Set();
+    renderTrending(rawData.trending, term, days);
+    renderFoamed(rawData.foamed, term, days);
+    renderCategories(rawData.categories || [], term, days);
+  }
+
   initTheme();
+  previousSeenIds = loadSeenIds();
+
+  searchInput.addEventListener("input", () => applyFiltersAndRender());
+  windowFilter.addEventListener("change", () => applyFiltersAndRender());
 
   fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" })
     .then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
     })
-    .then(render)
+    .then((data) => {
+      rawData = data;
+      updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
+      applyFiltersAndRender();
+      saveSeenIds(collectAllIds(data));
+    })
     .catch((err) => {
       content.innerHTML = `<p class="empty">Couldn't load article data (${escapeHtml(err.message)}).</p>`;
     });

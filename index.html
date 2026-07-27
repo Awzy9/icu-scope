@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated feed of recent ICU and critical care research, organized by organ system." />
-  <link rel="stylesheet" href="style.css?v=6" />
+  <link rel="stylesheet" href="style.css?v=7" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -39,6 +39,16 @@
     <!-- populated by app.js -->
   </nav>
 
+  <div class="toolbar">
+    <input type="search" id="search-input" class="search-input" placeholder="Search titles, journals, abstracts…" aria-label="Search articles" />
+    <select id="window-filter" class="window-filter" aria-label="Time window">
+      <option value="all">All time</option>
+      <option value="1">Last 24 hours</option>
+      <option value="7">Last 7 days</option>
+      <option value="30">Last 30 days</option>
+    </select>
+  </div>
+
   <main class="content">
     <section class="trending-section" id="trending-section" hidden>
       <div class="trending-heading">
@@ -67,6 +77,6 @@
     </p>
   </footer>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>

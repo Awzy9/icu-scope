@@ -194,6 +194,41 @@ a { color: var(--accent-strong); }
   color: #fff;
 }
 
+.toolbar {
+  display: flex;
+  gap: 0.6rem;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0.85rem 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  flex: 1 1 240px;
+  min-width: 0;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.search-input:focus, .window-filter:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+.window-filter {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.5rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
 .content {
   max-width: 880px;
   margin: 0 auto;
@@ -214,6 +249,7 @@ a { color: var(--accent-strong); }
 .category-heading {
   display: flex;
   align-items: baseline;
+  flex-wrap: wrap;
   gap: 0.6rem;
   margin: 0 0 1.1rem;
   padding-bottom: 0.6rem;
@@ -223,6 +259,28 @@ a { color: var(--accent-strong); }
 .category-heading h2 { margin: 0; font-size: 1.35rem; }
 
 .category-count { color: var(--text-muted); font-size: 0.88rem; }
+
+.sort-toggle {
+  margin-left: auto;
+  display: flex;
+  gap: 0.35rem;
+}
+
+.sort-btn {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  cursor: pointer;
+}
+
+.sort-btn.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
 
 .article-card {
   background: var(--surface);
@@ -280,6 +338,22 @@ a { color: var(--accent-strong); }
   background: var(--foamed-bg);
   color: var(--foamed-accent);
   border-color: var(--foamed-border);
+}
+
+.new-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 700;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border: 1px solid var(--accent-strong);
+}
+
+.article-card.is-new {
+  border-left: 3px solid var(--accent-strong);
 }
 
 .article-abstract {
