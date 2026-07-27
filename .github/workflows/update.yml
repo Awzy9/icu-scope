@@ -30,7 +30,7 @@ jobs:
           FOAMED_MAX_PER_SOURCE: "6"
           FOAMED_TOTAL_MAX: "15"
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: "llama-3.3-70b-versatile"
+          GROQ_MODEL: "llama-3.1-8b-instant"
           AI_SUMMARY_MAX_PER_RUN: "40"
         run: python scripts/fetch_articles.py
 

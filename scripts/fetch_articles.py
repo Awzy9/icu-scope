@@ -27,7 +27,7 @@ FOAMED_TOTAL_MAX = int(os.environ.get("FOAMED_TOTAL_MAX", "15"))
 REQUEST_DELAY = 0.4  # stay under NCBI's 3 req/sec unauthenticated limit
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")
 GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 AI_SUMMARY_MAX_PER_RUN = int(os.environ.get("AI_SUMMARY_MAX_PER_RUN", "40"))
 AI_REQUEST_DELAY = 0.6
@@ -397,7 +397,11 @@ def ai_summarize(title, text):
             if e.code == 429 and attempt < 2:
                 time.sleep(3 * (attempt + 1))
                 continue
-            print(f"  warning: Groq API error {e.code} for '{title[:60]}'")
+            try:
+                err_body = e.read().decode("utf-8", errors="replace")[:300]
+            except Exception:
+                err_body = ""
+            print(f"  warning: Groq API error {e.code} for '{title[:60]}': {err_body}")
             return None
         except Exception as e:
             print(f"  warning: AI summarize failed for '{title[:60]}': {e}")
