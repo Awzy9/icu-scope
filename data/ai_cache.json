@@ -1,4 +1,8 @@
 {
+  "pmid:42507507": {
+    "summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
+    "significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions."
+  },
   "pmid:42507344": {
     "summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
     "significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates."
@@ -26,10 +30,6 @@
   "pmid:42502537": {
     "summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
     "significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly."
-  },
-  "pmid:42502493": {
-    "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
-    "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
   },
   "pmid:42506467": {
     "summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
@@ -79,9 +79,9 @@
     "summary": "This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.",
     "significance": "This study's findings highlight the importance of monitoring fluid balance in ICU patients to prevent fluid accumulation and depletion, which can lead to worse outcomes. Clinicians can use these thresholds to guide fluid management and improve patient care."
   },
-  "pmid:42498337": {
-    "summary": "This study explored pain and sedation management in ICU patients with fungal meningitis, focusing on evidence-based approaches to multimodal analgesia and delirium prevention.",
-    "significance": "Effective pain and sedation management in fungal meningitis patients is crucial for preventing delirium and improving outcomes, making this study's findings essential for ICU clinicians."
+  "pmid:42508300": {
+    "summary": "Australian critical care nurses were surveyed about their postinsertion care practices for non-tunnelled dialysis catheters. The survey found variability in practices, with common methods including inspecting insertion sites, using chlorhexidine gluconate-impregnated dressings, and securing catheters with sutures. Troubleshooting methods also varied.",
+    "significance": "This study highlights the need for evidence-based guidelines on postinsertion care for dialysis catheters, which could improve patient outcomes and reduce complications in intensive care units."
   },
   "pmid:42506352": {
     "summary": "This study compared electrolyte measurements from arterial blood gas (ABG) analyzers to central laboratory analyzers in critically ill patients with acute kidney injury (AKI). The results showed relatively good agreement for sodium and potassium measurements, but clinically meaningful discrepancies occurred in a subset of measurements. The study suggests that ABG-derived electrolyte measurements can support rapid bedside assessment, but central laboratory measurements remain the reference standard.",
@@ -91,6 +91,10 @@
     "summary": "This study looked at the kidney safety of liposomal amphotericin B in ICU patients with invasive pulmonary aspergillosis. It found that one-third of patients developed kidney impairment, but most cases were mild and reversible. The study also found that other nephrotoxic treatments increased the risk of kidney failure and death.",
     "significance": "This study is important for ICU clinicians because it highlights the risk of kidney impairment in patients treated with liposomal amphotericin B, and the need to carefully consider the use of other nephrotoxic treatments in this population."
   },
+  "pmid:42502493": {
+    "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
+    "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
+  },
   "pmid:42498470": {
     "summary": "Researchers developed a 30-item frailty index using Quebec administrative data to identify frail ICU patients. They found that frail patients were older, more likely to have dialysis on admission, and had a higher risk of in-hospital mortality. The index showed a strong correlation between frailty and mortality.",
     "significance": "This study's findings highlight the importance of identifying frail patients in the ICU, where frailty is strongly associated with increased mortality risk. Implementing this index may help clinicians identify at-risk populations and improve care processes."
@@ -98,10 +102,6 @@
   "pmid:42497050": {
     "summary": "Researchers developed a machine learning model to predict acute kidney injury in ICU patients with atrial fibrillation, using data from 19,347 patients. The model, which combines electronic health record data, achieved high accuracy in predicting AKI risk. Clinicians can use this model to inform patient management decisions.",
     "significance": "This study provides a valuable tool for clinicians to identify patients at high risk of AKI, potentially reducing mortality risk and improving patient outcomes in the ICU."
-  },
-  "pmid:42495260": {
-    "summary": "Researchers developed a machine learning model to predict acute kidney injury in critically ill children using early available clinical data. The model, which included variables such as bicarbonate and magnesium levels, showed good performance in identifying children at risk. This could help doctors intervene early and improve patient outcomes.",
-    "significance": "Early prediction of acute kidney injury in children is crucial for improving prognosis. This study provides a valuable tool for clinicians to identify at-risk patients and take timely action to prevent or mitigate the condition."
   },
   "pmid:42506102": {
     "summary": "This study reviewed existing methods for assessing gastrointestinal function in ICU patients and proposed algorithms for enteral feeding decisions using gastrointestinal ultrasound. It found that certain sonographic parameters, like gastric antral cross-sectional area, are clinically relevant. The study suggests that GIUS-based algorithms may improve enteral nutrition management but more research is needed.",
@@ -155,6 +155,14 @@
     "summary": "This study analyzed 22 clinical trials with 1,396 patients to compare the effectiveness of continuous glucose monitoring (CGM) versus conventional blood glucose monitoring in ICU patients. CGM was found to reduce hypoglycemic events, average blood glucose levels, and daily insulin use, while also improving time in glycemic target range and reducing total mortality. These results suggest that incorporating CGM into ICU glycemic control strategies could be beneficial.",
     "significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that using CGM can improve patient outcomes and reduce complications associated with glycemic management. Integrating CGM into routine ICU care could lead to better patient care and improved survival rates."
   },
+  "pmid:42508689": {
+    "summary": "Researchers analyzed 895 patients with Enterobacterales bacteremia to identify risk factors for carbapenem resistance and predictors of mortality. They found that ICU admission, prolonged hospitalization, and prior carbapenem exposure increased the risk of carbapenem-resistant Enterobacterales (CRE) bacteremia. Patients with CRE bacteremia had higher 28-day mortality rates compared to those with susceptible bacteria.",
+    "significance": "This study helps ICU clinicians identify high-risk patients for CRE bacteremia and prioritize early appropriate empirical antimicrobial therapy to improve survival. It also highlights the importance of sepsis management and empirical therapy in critically ill patients."
+  },
+  "pmid:42508520": {
+    "summary": "Researchers compared plasma and whole-blood tests for detecting pathogens in ICU patients with suspected sepsis. Both tests found more pathogens than traditional blood culture, but whole-blood tests detected more Candida infections. The results suggest both tests can complement blood culture.",
+    "significance": "This study's findings can help ICU clinicians choose the best diagnostic tool for suspected sepsis, potentially improving patient outcomes by identifying pathogens more accurately and quickly."
+  },
   "pmid:42507322": {
     "summary": "This study reviewed 48 studies on using fosfomycin to treat carbapenem-resistant Acinetobacter baumannii infections. Fosfomycin may help when combined with other antibiotics, especially sulbactam, imipenem, and colistin. However, its independent contribution to treatment outcomes is unclear.",
     "significance": "Fosfomycin may be a useful adjunctive agent in treating CRAB infections, particularly when combined with cefiderocol, but more research is needed to confirm its benefits and optimal use in clinical practice."
@@ -162,10 +170,6 @@
   "pmid:42506983": {
     "summary": "A model-informed precision dosing software was tested for predicting cefotaxime concentrations in critically ill infants and children. The software showed improved accuracy when using measured blood samples, achieving target drug concentrations in over 90% of simulations. This could help treat severe infections more effectively.",
     "significance": "This study's findings are significant for ICU clinical practice as they suggest that personalized dosing of cefotaxime using model-informed precision dosing software can improve treatment outcomes for critically ill infants and children."
-  },
-  "pmid:42502453": {
-    "summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
-    "significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality."
   },
   "pmid:42493201": {
     "summary": "Researchers compared 24G and 26G short peripheral catheters in neonates and found that 26G catheters had a slightly longer dwell time and higher first-attempt insertion success rates, but similar complication rates.",
@@ -199,6 +203,10 @@
     "summary": "Researchers studied 100 ICU patients to see if disseminated intravascular coagulation (DIC) is linked to a condition called persistent inflammation, immunosuppression, and catabolism syndrome (PIICS). They found that DIC occurring after 8 days in the ICU may increase the risk of PIICS. The study suggests that coagulopathy during the middle phase of ICU stay may contribute to PIICS.",
     "significance": "Understanding the relationship between DIC and PIICS can help ICU clinicians identify patients at risk of developing PIICS, allowing for targeted interventions to prevent or mitigate its effects."
   },
+  "pmid:42507964": {
+    "summary": "This study surveyed 298 Family Medicine physicians about their preparedness to deliver Role 2 care in combat settings. Most had little experience and felt unprepared, but those with more experience and training felt more confident. Factors associated with perceived preparedness included career Role 2 experience, recent training, and caring for critically ill patients.",
+    "significance": "This study highlights the need for Family Medicine physicians to develop critical care skills in preparation for large-scale combat operations. Prioritizing Role 2 training and experience can improve their perceived preparedness and readiness to provide lifesaving care."
+  },
   "pmid:42504371": {
     "summary": "This study compared three pre-transfer risk assessment tools for critically ill patients. The Risk Score for Transport Patients (RSTP) had the highest sensitivity, but its performance needs further validation in the Indian context. The study found a significant number of adverse events during patient transport.",
     "significance": "This study's findings are important for ICU clinicians as they highlight the need for efficient pre-transfer risk assessment tools to minimize adverse events during interhospital patient transport."
@@ -219,21 +227,33 @@
     "summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
     "significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
   },
-  "pmid:42491130": {
-    "summary": "A 57-year-old man with polytrauma was diagnosed with a rare cardiac injury using multimodal ultrasound, which showed a tear in the right coronary sinus and atrial septum. Despite treatment, the patient developed severe infection and multiple organ failure. Early diagnosis using ultrasound is crucial in managing polytrauma patients with cardiac injuries.",
-    "significance": "This study highlights the importance of using multimodal ultrasound for rapid diagnosis of cardiac injuries in polytrauma patients, which can guide treatment and improve outcomes."
+  "pmid:42502453": {
+    "summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
+    "significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality."
   },
-  "pmid:42494527": {
-    "summary": "This study reviewed emerging technologies to improve therapeutic drug monitoring (TDM) of last-resort antibiotics. It found that new platforms like LC-MS/MS and innovative sensors can provide more precise and real-time monitoring, allowing for better dosing and outcomes. A three-tiered TDM model was proposed to integrate these technologies and improve antimicrobial stewardship.",
-    "significance": "This study's findings have significant implications for ICU clinical practice, as they offer a path toward personalized antibiotic therapy and optimized clinical outcomes, which can help mitigate antimicrobial resistance in critical care settings."
+  "pmid:42495260": {
+    "summary": "Researchers developed a machine learning model to predict acute kidney injury in critically ill children using early available clinical data. The model, which included variables such as bicarbonate and magnesium levels, showed good performance in identifying children at risk. This could help doctors intervene early and improve patient outcomes.",
+    "significance": "Early prediction of acute kidney injury in children is crucial for improving prognosis. This study provides a valuable tool for clinicians to identify at-risk patients and take timely action to prevent or mitigate the condition."
   },
-  "pmid:42494444": {
-    "summary": "Researchers explored using cell and extracellular vesicle therapies to treat acute kidney injury in ICU patients, with promising preclinical results but limited efficacy in early clinical trials. These therapies aim to promote renal recovery and reduce inflammation. Further studies are needed to optimize their use.",
-    "significance": "This research has implications for improving the treatment of AKI in ICU patients, a condition associated with high mortality, by developing more effective adjunctive therapies that can be integrated into clinical practice."
+  "pmid:42494847": {
+    "summary": "Researchers used a combination of a bacteriophage and antibiotics to treat a patient with a severe and drug-resistant lung infection. The treatment was successful and reduced the amount of bacteria in the patient's lungs. The combination therapy also reduced the bacteria's ability to resist antibiotics.",
+    "significance": "This study highlights the potential of precision phage-antibiotic therapy to treat recalcitrant XDR bacterial infections in critically ill patients, offering a new approach to addressing the growing problem of antibiotic resistance."
   },
-  "pmid:42494464": {
-    "summary": "This study compared the cost-effectiveness of conservative versus liberal oxygen therapy in critically ill adults with post-cardiac arrest hypoxic ischemic encephalopathy. Conservative oxygen therapy, targeting an oxygen saturation of 90-95%, resulted in modest cost savings but small differences in health outcomes compared to liberal oxygen therapy. The study found that conservative oxygen therapy was associated with cost savings but at the cost of slightly worse health outcomes.",
-    "significance": "These findings are important for ICU clinical practice as they suggest that conservative oxygen therapy may be a cost-effective option for patients with post-cardiac arrest hypoxic ischemic encephalopathy, but further research is needed to confirm these results and determine the optimal oxygen therapy strategy."
+  "pmid:42496119": {
+    "summary": "Researchers analyzed lactate levels in 2,091 ICU patients with pneumonia over 72 hours and found 4 distinct lactate trajectories. These trajectories were associated with illness severity, resource use, and mortality. Patients with unfavorable lactate trajectories had higher 28-day mortality rates.",
+    "significance": "This study's findings can help ICU clinicians better understand the relationship between lactate levels and patient outcomes, potentially leading to more personalized and effective treatment strategies for patients with pneumonia."
+  },
+  "pmid:42498874": {
+    "summary": "This study used echocardiograms to assess heart function in 46 infants with severe bronchiolitis. They found that most infants had normal heart function, but those with lower heart function had longer hospital stays and needed respiratory support for longer. Lower heart function was also associated with shorter respiratory support times.",
+    "significance": "This study's findings suggest that heart function may be an important factor in the recovery of infants with severe bronchiolitis, and further research is needed to understand this relationship."
+  },
+  "pmid:42497383": {
+    "summary": "Researchers tested an antibiotic dosing software program in critically ill adults with infection. The program's predictions were accurate for vancomycin, but not for other antibiotics. The program's performance improved when using data from after the antibiotic was given.",
+    "significance": "This study highlights the importance of choosing the right antibiotic dosing strategy for critically ill patients, and suggests that using precision dosing software can improve antibiotic exposures, potentially reducing antibiotic resistance and improving patient outcomes."
+  },
+  "pmid:42500521": {
+    "summary": "This study of 1,686 patients with severe urosepsis found that a higher Pan-immune-inflammation Value (PIV) was associated with increased risk of 28-day mortality. The PIV was independently associated with mortality, and its predictive value was consistent across different patient groups. The study suggests that PIV could be a useful tool for predicting outcomes in patients with urosepsis.",
+    "significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that PIV could be a useful prognostic tool for patients with urosepsis. This could help clinicians to identify patients at high risk of mortality and provide more targeted and effective care."
   },
   "url:https://emcrit.org/emnerd/fgebm001/": {
     "summary": "This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.",
@@ -318,5 +338,17 @@
   "pmid:41860322": {
     "summary": "This study developed evidence-based guidelines for caring for older adults in the ICU, recommending a geriatric model of care and avoiding antipsychotic medications for preventing delirium. The guidelines were developed using a systematic review and expert consensus. The recommendations aim to improve outcomes for older ICU patients.",
     "significance": "These guidelines are crucial for ICU clinicians as they provide evidence-based recommendations for caring for older adults, who are a growing proportion of the ICU population. By following these guidelines, clinicians can improve patient outcomes and reduce complications."
+  },
+  "pmid:41773929": {
+    "summary": "This study developed guidelines for using neuromuscular blocking agents in adults with acute respiratory distress syndrome (ARDS). The guidelines recommend using these agents in patients with a specific oxygen level, but do not make recommendations for other situations due to a lack of evidence. The guidelines aim to help clinicians make informed decisions about using these agents.",
+    "significance": "These guidelines are important for ICU clinicians because they provide evidence-based recommendations for using neuromuscular blocking agents in ARDS patients, which can help improve patient outcomes and reduce complications."
+  },
+  "pmid:41773927": {
+    "summary": "These guidelines were developed to provide evidence-based recommendations for triaging critically ill patients during ICU capacity shortages. A multidisciplinary panel used the GRADE methodology to analyze evidence and formulate recommendations. The panel generated one conditional recommendation and five no recommendation statements.",
+    "significance": "These guidelines are crucial for ICU clinicians to make informed decisions during crisis-level shortages, ensuring efficient distribution of critical care resources and saving lives."
+  },
+  "pmid:41700745": {
+    "summary": "This study updated the guidelines for managing penetrating traumatic brain injury (pTBI) based on new literature and expert consensus. The guidelines cover resuscitation, imaging, critical care, surgery, and prognosis. A summary of the recommendations and seven treatment algorithms are provided.",
+    "significance": "These guidelines are crucial for ICU clinicians to make informed decisions about the care of patients with pTBI, potentially improving outcomes and reducing complications."
   }
 }

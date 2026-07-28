@@ -4,20 +4,13 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Mon, 27 Jul 2026 21:49:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 05:38:49 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
       <guid isPermaLink="false">pmid:42496126</guid>
       <category>Trauma &amp; Surgical</category>
       <description>This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.</description>
-    </item>
-    <item>
-      <title>Managing Pain, Sedation, and Delirium in Intensive Care Unit Patients with Fungal Central Nervous System Infections.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42498337/</link>
-      <guid isPermaLink="false">pmid:42498337</guid>
-      <category>Neurology</category>
-      <description>This study explored pain and sedation management in ICU patients with fungal meningitis, focusing on evidence-based approaches to multimodal analgesia and delirium prevention.</description>
     </item>
     <item>
       <title>Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.</title>
@@ -41,6 +34,27 @@
       <description>This review discusses the use of point-of-care echocardiography in pediatric and neonatal care, highlighting its ability to quickly assess cardiac function and guide management decisions. POCE is a focused tool for bedside evaluation, unlike comprehensive echocardiography. It helps clinicians make rapid time-sensitive decisions.</description>
     </item>
     <item>
+      <title>Postinsertion care practices for nontunnelled dialysis catheters in intensive care: A cross-sectional survey.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42508300/</link>
+      <guid isPermaLink="false">pmid:42508300</guid>
+      <category>Renal</category>
+      <description>Australian critical care nurses were surveyed about their postinsertion care practices for non-tunnelled dialysis catheters. The survey found variability in practices, with common methods including inspecting insertion sites, using chlorhexidine gluconate-impregnated dressings, and securing catheters with sutures. Troubleshooting methods also varied.</description>
+    </item>
+    <item>
+      <title>Risk Factors and Development of a Clinical Prediction Model for Carbapenem-Resistant Enterobacterales Bacteremia: A Retrospective Cohort Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42508689/</link>
+      <guid isPermaLink="false">pmid:42508689</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>Researchers analyzed 895 patients with Enterobacterales bacteremia to identify risk factors for carbapenem resistance and predictors of mortality. They found that ICU admission, prolonged hospitalization, and prior carbapenem exposure increased the risk of carbapenem-resistant Enterobacterales (CRE) bacteremia. Patients with CRE bacteremia had higher 28-day mortality rates compared to those with susceptible bacteria.</description>
+    </item>
+    <item>
+      <title>Plasma versus Whole Blood Multiplex Droplet Digital PCR for Pathogen Detection in ICU Patients with Clinically Suspected Sepsis: A Prospective Multicenter Cohort Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42508520/</link>
+      <guid isPermaLink="false">pmid:42508520</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>Researchers compared plasma and whole-blood tests for detecting pathogens in ICU patients with suspected sepsis. Both tests found more pathogens than traditional blood culture, but whole-blood tests detected more Candida infections. The results suggest both tests can complement blood culture.</description>
+    </item>
+    <item>
       <title>Fosfomycin as an adjunctive agent against carbapenem-resistant Acinetobacter baumannii: an updated narrative review.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42507322/</link>
       <guid isPermaLink="false">pmid:42507322</guid>
@@ -48,7 +62,14 @@
       <description>This study reviewed 48 studies on using fosfomycin to treat carbapenem-resistant Acinetobacter baumannii infections. Fosfomycin may help when combined with other antibiotics, especially sulbactam, imipenem, and colistin. However, its independent contribution to treatment outcomes is unclear.</description>
     </item>
     <item>
-      <title>EMNerd – FGEBM 001 – A Field Guide to Evidence Based Medicine Podcast – Episode 1</title>
+      <title>The Self-Perceived Role 2 Preparedness of Family Medicine Physicians.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42507964/</link>
+      <guid isPermaLink="false">pmid:42507964</guid>
+      <category>Trauma &amp; Surgical</category>
+      <description>This study surveyed 298 Family Medicine physicians about their preparedness to deliver Role 2 care in combat settings. Most had little experience and felt unprepared, but those with more experience and training felt more confident. Factors associated with perceived preparedness included career Role 2 experience, recent training, and caring for critically ill patients.</description>
+    </item>
+    <item>
+      <title>A Field Guide to Evidence Based Medicine Podcast – Episode 1</title>
       <link>https://emcrit.org/emnerd/fgebm001/</link>
       <guid isPermaLink="false">https://emcrit.org/emnerd/fgebm001/</guid>
       <category>EMCrit</category>
@@ -403,27 +424,6 @@
       <guid isPermaLink="false">pmid:42506983</guid>
       <category>Infectious Disease &amp; Sepsis</category>
       <description>A model-informed precision dosing software was tested for predicting cefotaxime concentrations in critically ill infants and children. The software showed improved accuracy when using measured blood samples, achieving target drug concentrations in over 90% of simulations. This could help treat severe infections more effectively.</description>
-    </item>
-    <item>
-      <title>Singapore Post-cardiac Arrest Care Guidelines 2026.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42507344/</link>
-      <guid isPermaLink="false">pmid:42507344</guid>
-      <category>Cardiovascular</category>
-      <description>This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.</description>
-    </item>
-    <item>
-      <title>Congenital Cytomegalovirus Among Newborns in Neonatal Intensive Care Units, United States, 2010-2020.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42489096/</link>
-      <guid isPermaLink="false">pmid:42489096</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>Researchers analyzed data from 840,988 newborns in US NICUs from 2010-2020 to understand congenital CMV infection testing and diagnosis. They found that 1.2% of newborns were tested, with 5.6% diagnosed with CMV infection. Clinical signs like hepatosplenomegaly and microcephaly were associated with increased odds of testing and diagnosis.</description>
-    </item>
-    <item>
-      <title>Lightning Strike-Induced Cutaneous Burns and Airway Injury: A Case Report Highlighting Recurrent Extubation Failure in a Critically Ill Patient.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42496477/</link>
-      <guid isPermaLink="false">pmid:42496477</guid>
-      <category>Trauma &amp; Surgical</category>
-      <description>A 31-year-old woman experienced multiple cutaneous burns from a lightning strike, leading to three extubation failures and ultimately requiring a tracheostomy. Direct airway injury and inflammation likely contributed to her inability to breathe independently. Bronchoscopic assessment and conservative extubation protocols may help prevent similar complications.</description>
     </item>
   </channel>
 </rss>

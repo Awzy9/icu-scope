@@ -1,90 +1,9 @@
 {
-  "generated_at": "2026-07-27T21:49:47+00:00",
+  "generated_at": "2026-07-28T05:38:49+00:00",
   "window_days": 60,
   "trending": {
     "window_days": 30,
     "articles": [
-      {
-        "pmid": "42494527",
-        "title": "Next-generation hybrid bioanalytical platforms and clinical integration of TDM technologies for precision monitoring to optimize last-resort antibiotic therapy.",
-        "journal": "Frontiers in pharmacology",
-        "pubdate": "2026",
-        "authors": [
-          "Inamdar A",
-          "Beeraka NM",
-          "Hemanth Vikram PR",
-          "Gurupadayya B",
-          "Sanathan SR",
-          "Prashant A",
-          "Kumar TP",
-          "Nikolenko VN",
-          "Padmanabha Reddy Y",
-          "Kandula DR",
-          "Basappa B"
-        ],
-        "doi": "10.3389/fphar.2026.1761582",
-        "abstract": "BACKGROUND: The global rise of multidrug-resistant (MDR) infections has intensified the clinical reliance on last-resort antibiotics such as vancomycin, linezolid, and tigecycline, particularly in critically ill patients. These agents possess narrow therapeutic windows, complex pharmacokinetics, and substantial inter-patient variability, making therapeutic drug monitoring (TDM) a cornerstone of individualized therapy. Traditional TDM methodologies though accurate are often limited by centralized processing, slow turnaround times, and cost constraints, which hinder real-time clinical decision-making in intensive care settings. OBJECTIVE: This review aims to critically evaluate emerging bioanalytical platforms, modeling frameworks, and decision-support systems for optimizing TDM of last-resort antibiotics. It focuses on enhancing precision dosing, improving clinical outcomes, and addressing antimicrobial resistance through integration of innovative sensor technologies and artificial intelligence. METHODS: A comprehensive literature search was conducted across databases, including PubMed, Google Scholar, Scopus, and Nature. Relevant studies were analyzed for analytical techniques, matrix types, extraction strategies, assay validation parameters, and clinical applicability. Emphasis was placed on comparing high-performance liquid chromatography (HPLC), LC-MS/MS, and immunoassays with novel approaches such as microneedle-based biosensors, real-time urinary antibiotic monitoring, wearable devices, and luciferase-based bioluminescent sensors. Mechanism-based pharmacokinetic/pharmacodynamic (PK/PD) modelling and Bayesian forecasting frameworks were reviewed for their role in adaptive dosing. RESULTS: LC-MS/MS emerged as the most sensitive and specific platform, while immunoassays provided practical solutions for near-patient testing. Innovations such as microsampling, temperature-responsive two-dimensional chromatography, and bioluminescent sensor platforms demonstrated potential to overcome the limitations of conventional assays. Integration of population pharmacokinetic (PPK) models and AI-driven decision-support algorithms enhanced predictive precision, allowing dynamic dose optimization for β-lactam antibiotics, tetracyclines, vancomycin, linezolid, and tigecycline. A three-tiered TDM model was proposed, combining site-specific sensing, real-time analysis, and computational forecasting to improve antimicrobial stewardship. CONCLUSION: Emerging bioanalytical technologies and predictive PK/PD modeling are transforming TDM from a static laboratory tool into a real-time, precision-guided clinical decision platform. The integration of minimally invasive sensing technologies with AI-enabled dose optimization offers a path toward personalized antibiotic therapy, optimized clinical outcomes, and the mitigation of antimicrobial resistance in critical care settings. This paradigm shift supports a more adaptive and responsive approach to TDM, ensuring last-resort antibiotics are used effectively and sustainably.",
-        "citation_count": 259,
-        "is_top_journal": false,
-        "study_type": "Review",
-        "volume": "17",
-        "issue": "",
-        "pages": "1761582",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42494527/",
-        "ai_summary": "This study reviewed emerging technologies to improve therapeutic drug monitoring (TDM) of last-resort antibiotics. It found that new platforms like LC-MS/MS and innovative sensors can provide more precise and real-time monitoring, allowing for better dosing and outcomes. A three-tiered TDM model was proposed to integrate these technologies and improve antimicrobial stewardship.",
-        "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they offer a path toward personalized antibiotic therapy and optimized clinical outcomes, which can help mitigate antimicrobial resistance in critical care settings."
-      },
-      {
-        "pmid": "42494451",
-        "title": "OSCARinED: a policy and practice review of an emergency department-based critical care framework for critically ill non-trauma patients.",
-        "journal": "Frontiers in medicine",
-        "pubdate": "2026",
-        "authors": [
-          "Kemper JJ",
-          "Michael M",
-          "Elsemann I",
-          "Ghobadi L",
-          "Kümpers P",
-          "Reindl M",
-          "Kumle B",
-          "Pin M",
-          "Bernhard M"
-        ],
-        "doi": "10.3389/fmed.2026.1872523",
-        "abstract": "Critically ill non-trauma patients are increasingly managed in the emergency department (ED) for prolonged periods because of hospital crowding, intensive care unit (ICU) capacity constraints, and diagnostic or procedural delays. During this interval, ED teams are required to provide emergency critical care (ECC) that extends beyond initial resuscitation and includes continued organ support, target-based reassessment, prevention of secondary complications, and structured handover. However, unlike trauma and cardiac arrest care, ongoing ECC for boarded non-trauma patients is less consistently supported by ED-specific practice frameworks. This Policy and Practice Review introduces OSCARinED, a pragmatic framework designed to organize ED-based ECC after initial ABCDE stabilization. OSCARinED integrates seven recurrent care domains: oxygenation and ventilation; sedation and analgesia; catecholamines, fluid therapy, and catheter management; anti-infective therapy; risk-adapted positioning and prophylaxis; electrolyte, blood gas, glucose, and nutrition management; and delirium prevention and treatment. The framework links trigger recognition and framework activation to explicit treatment targets, scheduled reassessment, documentation, and disposition planning. OSCARinED is intended as a safety bridge during ED boarding, not as a substitute for ICU admission. Its implementation may support standardization of care, reduce omission-prone tasks, improve handover reliability, and provide a structure for local quality improvement. Future studies should evaluate OSCARinED using implementation-science designs, focusing on process reliability, team performance, patient-centered outcomes, and ED operational endpoints.",
-        "citation_count": 78,
-        "is_top_journal": false,
-        "study_type": "Study",
-        "volume": "13",
-        "issue": "",
-        "pages": "1872523",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42494451/",
-        "ai_summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
-        "ai_significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
-      },
-      {
-        "pmid": "42494444",
-        "title": "Cell and extracellular vesicle therapies for AKI in critical care: clinical translation, organ-support integration, and lessons learned.",
-        "journal": "Frontiers in medicine",
-        "pubdate": "2026",
-        "authors": [
-          "Salybekov AA",
-          "Kinzhebay A",
-          "Zhanymbetova A",
-          "Kobayashi S"
-        ],
-        "doi": "10.3389/fmed.2026.1818060",
-        "abstract": "Acute kidney injury (AKI) affects up to half of critically ill intensive care unit (ICU) patients and remains associated with high mortality despite advances in renal replacement therapy (RRT). Current management is largely supportive and does not modify the underlying biological mechanisms driving inflammation, microvascular dysfunction, and maladaptive repair. Regenerative approaches using mesenchymal stromal cells (MSCs) and extracellular vesicles (EVs) have emerged as potential adjunctive therapies aimed at promoting renal recovery beyond organ support. Preclinical studies consistently demonstrate that MSCs and MSC-derived EVs reduce inflammation, attenuate oxidative stress, preserve tubular integrity, and enhance microvascular repair through paracrine signaling. However, early clinical trials in post-operative, sepsis-associated AKI populations have shown safety but limited efficacy signals. These neutral outcomes likely reflect AKI heterogeneity, delayed intervention timing, non-enriched patient selection, and reliance on insensitive endpoints such as serum creatinine. EV-based therapies offer practical advantages over whole-cell approaches, including scalable manufacturing, off-the-shelf availability, and easier integration into ICU workflows. Future progress requires phenotype-enriched enrollment strategies, biomarker-guided therapeutic windows, harmonized EV dosing and potency assays, and kidney-specific endpoints such as dialysis-free days.",
-        "citation_count": 63,
-        "is_top_journal": false,
-        "study_type": "Review",
-        "volume": "13",
-        "issue": "",
-        "pages": "1818060",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42494444/",
-        "ai_summary": "Researchers explored using cell and extracellular vesicle therapies to treat acute kidney injury in ICU patients, with promising preclinical results but limited efficacy in early clinical trials. These therapies aim to promote renal recovery and reduce inflammation. Further studies are needed to optimize their use.",
-        "ai_significance": "This research has implications for improving the treatment of AKI in ICU patients, a condition associated with high mortality, by developing more effective adjunctive therapies that can be integrated into clinical practice."
-      },
       {
         "pmid": "42496059",
         "title": "Glycemic Ratio Is a Superior Predictor of Mortality Compared With Stress Hyperglycemia Ratio in Critically Ill Patients.",
@@ -112,33 +31,6 @@
         "ai_significance": "This study's findings may improve blood glucose management strategies in the ICU and inform the design of future clinical trials."
       },
       {
-        "pmid": "42494464",
-        "title": "Conservative versus liberal oxygen therapy in hypoxic ischemic encephalopathy following cardiac arrest: a trial-based cost-effectiveness analysis.",
-        "journal": "Resuscitation plus",
-        "pubdate": "2026 Jul",
-        "authors": [
-          "Orman Z",
-          "Hodgson C",
-          "Bailey M",
-          "Mackle D",
-          "Mather AM",
-          "Young P",
-          "Higgins AM",
-          "LOGICAL Investigators and the Australian and New Zealand Intensive Care Society Clinical Trial Group†"
-        ],
-        "doi": "10.1016/j.resplu.2026.101403",
-        "abstract": "BACKGROUND: The cost-effectiveness of conservative versus liberal oxygen therapy in critically ill adults with post-cardiac arrest hypoxic ischemic encephalopathy is unknown. METHODS: A cost-effectiveness analysis alongside the LOGICAL trial was conducted from a health system perspective. Conservative oxygen targeted arterial oxygen saturation (SpO2) of 90-95% using the lowest fraction of inspired oxygen (FiO2), while liberal oxygen had no upper SpO2 limit and a minimum FiO2 of 0.3 during invasive ventilation. Patient-level data were analyzed from 53 intensive care units (ICU) in Australia, New Zealand, and Ireland. Costs (2024, US$) included ICU, ward, and inpatient rehabilitation stays. Health outcomes included favorable functional outcome (Glasgow Outcome Scale-Extended score 5-8) and quality-adjusted life years (QALYs) at 180 days derived from EQ-5D-5L. Uncertainty was explored using bootstrapping. Discounting was not applied. RESULTS: Among 1821 participants (median age 62 years; 28.6% female), 873 were randomized to conservative and 948 to liberal oxygen. Mean per-patient cost was $33,629 ($33,517) in the conservative group, with an incremental cost of -$1392 (95% CI, -$4696 to $1911). Favorable functional outcome occurred in 38.2% with conservative oxygen (risk difference, -1.5 percentage points; 95% CI, -6.1 to 3.2). Incremental QALYs were -0.002 (95% CI, -0.013 to 0.008). Conservative oxygen was associated with cost-savings of $635,151 per QALY forgone with considerable uncertainty (>55% bootstrapped replications). Incremental net monetary benefit was $1173 (95% CI, -$2096 to $4442) at $100,000 per QALY. CONCLUSIONS: Conservative oxygen was associated with modest cost savings and small differences in health outcomes, with no clear economic advantage over liberal oxygen.  Trial number: ACTRN12621000518864.",
-        "citation_count": 36,
-        "is_top_journal": false,
-        "study_type": "Study",
-        "volume": "30",
-        "issue": "",
-        "pages": "101403",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42494464/",
-        "ai_summary": "This study compared the cost-effectiveness of conservative versus liberal oxygen therapy in critically ill adults with post-cardiac arrest hypoxic ischemic encephalopathy. Conservative oxygen therapy, targeting an oxygen saturation of 90-95%, resulted in modest cost savings but small differences in health outcomes compared to liberal oxygen therapy. The study found that conservative oxygen therapy was associated with cost savings but at the cost of slightly worse health outcomes.",
-        "ai_significance": "These findings are important for ICU clinical practice as they suggest that conservative oxygen therapy may be a cost-effective option for patients with post-cardiac arrest hypoxic ischemic encephalopathy, but further research is needed to confirm these results and determine the optimal oxygen therapy strategy."
-      },
-      {
         "pmid": "42502453",
         "title": "Toward Model-Informed Precision Dosing of Imipenem: Multicenter External Validation of Population Pharmacokinetic Models in Adult Critically Ill Patients.",
         "journal": "Drug design, development and therapy",
@@ -164,27 +56,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42502453/",
         "ai_summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
         "ai_significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality."
-      },
-      {
-        "pmid": "42493813",
-        "title": "Pressure-targeted neurocritical care at the bedside: the emerging role of transcranial doppler.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Jul 22",
-        "authors": [
-          "Melo RH",
-          "Robba C"
-        ],
-        "doi": "10.1186/s13054-026-06167-7",
-        "abstract": "Management of acute brain injury (ABI) focuses on maintaining cerebral perfusion pressure through systemic blood pressure optimization. However, traditional approaches relying on fixed pressure thresholds may not fully capture the complex interaction between systemic hemodynamics, cerebrovascular resistance, and cerebral autoregulation. Transcranial Doppler (TCD) ultrasonography offers a noninvasive bedside method to assess cerebral blood flow velocity patterns and their response to hemodynamic interventions. Doppler-derived parameters such as diastolic flow velocity (FVd) and pulsatility index (PI) provide physiological information that may help interpret the relationship between systemic arterial pressure and cerebral circulation. Observing how these signals change during controlled adjustments of mean arterial pressure may allow clinicians to identify pressure ranges in which cerebral perfusion appears more favorable for an individual patient. Importantly, TCD findings should not be interpreted in isolation but integrated with systemic hemodynamic assessment, including cardiac output, fluid responsiveness, and the underlying mechanism of hypotension. When used within a multimodal monitoring strategy, TCD may serve as a practical physiological tool to complement traditional neurocritical care monitoring. This viewpoint discusses the physiological rationale, potential clinical applications, and current limitations of Doppler-guided blood pressure targeting in patients with ABI.",
-        "citation_count": 33,
-        "is_top_journal": false,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42493813/",
-        "ai_summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
-        "ai_significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
       },
       {
         "pmid": "42502858",
@@ -256,6 +127,144 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42495260/",
         "ai_summary": "Researchers developed a machine learning model to predict acute kidney injury in critically ill children using early available clinical data. The model, which included variables such as bicarbonate and magnesium levels, showed good performance in identifying children at risk. This could help doctors intervene early and improve patient outcomes.",
         "ai_significance": "Early prediction of acute kidney injury in children is crucial for improving prognosis. This study provides a valuable tool for clinicians to identify at-risk patients and take timely action to prevent or mitigate the condition."
+      },
+      {
+        "pmid": "42494847",
+        "title": "Phage-antibiotic synergy attenuates Acinetobacter baumannii resistance in refractory pneumonia: a precision therapeutic case.",
+        "journal": "Frontiers in cellular and infection microbiology",
+        "pubdate": "2026",
+        "authors": [
+          "Zhang L",
+          "Yan K",
+          "Xu P",
+          "Xiao Y",
+          "Guo C",
+          "Dai G",
+          "Lin J",
+          "Liu D",
+          "Rao M",
+          "Lin Z",
+          "Zhao P",
+          "Zheng M",
+          "Zhou Y",
+          "Lu H"
+        ],
+        "doi": "10.3389/fcimb.2026.1851410",
+        "abstract": "Extensively drug-resistant (XDR) Acinetobacter baumannii pneumonia carries severe pneumonia, respiratory failure and high mortality, showing limited therapeutic options in critically ill patients. Although bacteriophage (phage) therapy represents a promising alternative against drug-resistant infections, its clinical use remains largely empirical. Here, we reported a systematically planned phage-antibiotic combination strategy in a critically ill patient with refractory XDR A. baumannii pneumonia. A virulent phage targeting the patient-derived strain was isolated from hospital wastewater and classified within the class Caudoviricetes, with no virulence, toxin, or antibiotic resistance genes. In vitro time-kill assays showed that phage monotherapy failed to persistently suppress bacteria proliferation, whereas phage-antibiotic therapy achieved synergistic inhibition of A. baumannii growth for over 48 h. The patient received nebulized phage therapy (5 × 109 PFU/mL twice daily) combined with intravenous fosfomycin (8 g, every 8 hours), amikacin (0.2 g, every 12 hours), and polymyxin B (500, 000 U, every 12 hours). Clinically, treatment was associated with rapid normalization of arterial carbon dioxide tension (PaCO2), clearance of A. baumannii sputum cultures by day 4, declining inflammatory markers, and no treatment-related toxicity.Longitudinal metagenomic sequencing further revealed approximately 52-fold reduction in pathogen abundance and significant decrease of A. baumannii-associated antimicrobial resistance genes (ARGs) in the lung, highlighting the potential of precision phage-antibiotic therapy for recalcitrant XDR bacterial infections.",
+        "citation_count": 31,
+        "is_top_journal": false,
+        "study_type": "Case Reports",
+        "volume": "16",
+        "issue": "",
+        "pages": "1851410",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42494847/",
+        "ai_summary": "Researchers used a combination of a bacteriophage and antibiotics to treat a patient with a severe and drug-resistant lung infection. The treatment was successful and reduced the amount of bacteria in the patient's lungs. The combination therapy also reduced the bacteria's ability to resist antibiotics.",
+        "ai_significance": "This study highlights the potential of precision phage-antibiotic therapy to treat recalcitrant XDR bacterial infections in critically ill patients, offering a new approach to addressing the growing problem of antibiotic resistance."
+      },
+      {
+        "pmid": "42496119",
+        "title": "The association between lactate trajectories and prognosis in ICU patients with pneumonia: A retrospective group-based trajectory model analysis.",
+        "journal": "Science progress",
+        "pubdate": "2026 Jul-Sep",
+        "authors": [
+          "Lin Q",
+          "Lin X",
+          "Yang X",
+          "Wang M",
+          "Zhang Q",
+          "Xu G"
+        ],
+        "doi": "10.1177/00368504261472723",
+        "abstract": "ObjectiveTo identify pneumonia-specific lactate trajectory phenotypes and evaluate their association with 28-day mortality in ICU patients with pneumonia.MethodsA retrospective cohort study was performed using the MIMIC-IV database. Adult ICU patients with pneumonia were identified via ICD-9/10 codes. Exclusions were non-index ICU admissions, age <18 or >100 years, ICU stay <3 days, and incomplete lactate data in the first 72 hours. Demographics, vital signs, laboratory results, comorbidities, severity scores, and treatments were extracted. Group-based trajectory modeling (GBTM) was applied to lactate values over 72 hours. Model selection considered BIC, AIC, average posterior probability (AvePP), odds of correct classification (OCC), class size, and clinical interpretability. Outcomes included 28-day all-cause mortality (primary) and secondary endpoints. Kaplan-Meier analysis and Cox regression were used to examine associations, with subgroup analyses across demographic and clinical strata.ResultsA total of 2,091 patients were included. Four distinct lactate trajectories were identified: low-stable (n=1161), moderate with gradual decline (n=721), initial rise then decline (n=89), and very high with rapid decline (n=120). Unfavorable trajectory classes were associated with greater illness severity, metabolic derangements, resource use, and higher mortality. As a continuous variable, lactate showed a borderline association with 28-day mortality in unadjusted analysis (HR 1.03, 95% CI 1.00-1.05, p=0.082), but lost significance after adjustment. In contrast, trajectory-based groups remained independently associated with outcomes: fully adjusted HRs were 1.30 (95% CI 1.08-1.56, p=0.004) for class 2, 1.49 (95% CI 1.03-2.15, p=0.034) for class 3, and 1.71 (95% CI 1.20-2.45, p=0.003) for class 4. Subgroup analyses showed consistent associations, with a stronger effect in patients <65 years (p for interaction=0.033).ConclusionsIn ICU patients with pneumonia, 72-hour lactate trajectory phenotypes were independently associated with 28-day mortality and may help characterize prognostic heterogeneity, including delayed lactate elevation patterns not captured by admission lactate alone.",
+        "citation_count": 30,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "109",
+        "issue": "3",
+        "pages": "368504261472723",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42496119/",
+        "ai_summary": "Researchers analyzed lactate levels in 2,091 ICU patients with pneumonia over 72 hours and found 4 distinct lactate trajectories. These trajectories were associated with illness severity, resource use, and mortality. Patients with unfavorable lactate trajectories had higher 28-day mortality rates.",
+        "ai_significance": "This study's findings can help ICU clinicians better understand the relationship between lactate levels and patient outcomes, potentially leading to more personalized and effective treatment strategies for patients with pneumonia."
+      },
+      {
+        "pmid": "42498874",
+        "title": "Point-of-care echocardiographic assessment of right ventricle systolic function in infants with severe bronchiolitis: a prospective observational study.",
+        "journal": "European journal of pediatrics",
+        "pubdate": "2026 Jul 25",
+        "authors": [
+          "Gotchac J",
+          "Rousseau A",
+          "Arcourt A",
+          "Chareyre J",
+          "Klifa R",
+          "Nolent P",
+          "Ros B",
+          "Hayotte A",
+          "Guichoux J",
+          "Brissaud O"
+        ],
+        "doi": "10.1007/s00431-026-07274-x",
+        "abstract": "The aim of this study was to assess right ventricle (RV) systolic function in infants with severe bronchiolitis using tricuspid annular plane systolic excursion (TAPSE) and to explore its prognostic value. We hypothesized that lower TAPSE at pediatric intensive care unit (PICU) admission could be associated with prolonged length of stay (LOS) and duration of respiratory support. We conducted a prospective single-center observational pilot study in a tertiary general PICU during the 2022-2023 bronchiolitis season. All children < 12 months admitted to PICU for bronchiolitis were eligible. TAPSE was measured by transthoracic echocardiography at PICU admission. Patients were followed up until discharge. Forty-six patients were included, aged from 16 days to 9.5 months. TAPSE Z-score was within normal range (- 2 to + 2) in 36/46 (78%) patients and >  + 2 in 10/46 (22%) patients. TAPSE Z-score was weakly associated with PICU LOS (Spearman ρ =  - 0.38, p = 0.009) and moderately associated with the duration of respiratory support (Spearman ρ =  - 0.45, p = 0.002). No significant association was found between other echocardiographic parameters and PICU LOS or duration of respiratory support. In post hoc exploratory multivariable analysis, TAPSE Z-score was independently associated with a duration of respiratory support < 3 days (OR = 2.29, 95% CI [1.25; 4.17], p = 0.007). Conclusion: TAPSE was within or above normal range in children with severe bronchiolitis, suggesting that RV systolic dysfunction is uncommon. Although its value may be associated with patients' clinical course, the pathophysiological basis and the clinical relevance of this association warrants further investigations.Trial registration: NCT07209956, date of registration October 7, 2025, retrospectively registered.",
+        "citation_count": 29,
+        "is_top_journal": false,
+        "study_type": "Observational Study",
+        "volume": "185",
+        "issue": "8",
+        "pages": "",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42498874/",
+        "ai_summary": "This study used echocardiograms to assess heart function in 46 infants with severe bronchiolitis. They found that most infants had normal heart function, but those with lower heart function had longer hospital stays and needed respiratory support for longer. Lower heart function was also associated with shorter respiratory support times.",
+        "ai_significance": "This study's findings suggest that heart function may be an important factor in the recovery of infants with severe bronchiolitis, and further research is needed to understand this relationship."
+      },
+      {
+        "pmid": "42497383",
+        "title": "Predictive performance of an antibiotic precision dosing software program in critically ill adults with infection.",
+        "journal": "The Journal of antimicrobial chemotherapy",
+        "pubdate": "2026 Jul 2",
+        "authors": [
+          "Williams P",
+          "Cotta MO",
+          "Wilks K",
+          "Farkas A",
+          "Spelman T",
+          "Roberts JA"
+        ],
+        "doi": "10.1093/jac/dkag234",
+        "abstract": "BACKGROUND: Critically ill patients exhibit altered pharmacokinetics, rendering antibiotic dosing challenging. Achieving therapeutic antibiotic exposures may be improved with the use of precision dosing software programs. OBJECTIVES: To quantify and compare both a priori and a posteriori predictive performance of an antibiotic precision dosing software program in a heterogenous cohort of critically ill adults with infection. METHODS: The precision dosing program, ID-ODSTM, was used to predict a priori and a posteriori concentrations for piperacillin, meropenem, cefepime, flucloxacillin and vancomycin using clinical and demographic data derived from a previous study in critically ill adults (GUIDE trial). Predicted concentrations were compared to observed concentrations using pre-specified acceptance criteria (median predictive error (MDPE) ≤20% and median absolute predictive error (MDAPE) ≤30%), along with F20 and F30 metrics. Furthermore, the impact of predictions on theoretical dosing recommendations to achieve pre-defined drug exposures was assessed. RESULTS: The a priori predictive performance in 81 patients administered beta-lactams did not meet any pre-specified acceptance criteria (pooled MDPE -35% and MDAPE 58%). However, all beta-lactams met accuracy acceptance criteria for the a posteriori approach (pooled MDPE -3.6%), although only cefepime demonstrated acceptable precision and F20 and F30 acceptance. In 25 patients administered vancomycin, a priori predictive performance met all acceptance criteria for accuracy and precision.When assessing a priori theoretical dosing recommendation concordance, approximately one in three predictions led to an unnecessary dosing action. Concordance was similar with an a posteriori approach, however, overprediction was observed in 20% of meropenem predictions. CONCLUSIONS: In a heterogenous adult ICU population, the a priori predictive performance of vancomycin was shown to be acceptable. Conversely, the a priori predictive performance for the beta-lactams was not acceptable. Although predictive performance improved with the a posteriori approach for beta-lactams, only cefepime met acceptance criteria.",
+        "citation_count": 29,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "81",
+        "issue": "8",
+        "pages": "",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42497383/",
+        "ai_summary": "Researchers tested an antibiotic dosing software program in critically ill adults with infection. The program's predictions were accurate for vancomycin, but not for other antibiotics. The program's performance improved when using data from after the antibiotic was given.",
+        "ai_significance": "This study highlights the importance of choosing the right antibiotic dosing strategy for critically ill patients, and suggests that using precision dosing software can improve antibiotic exposures, potentially reducing antibiotic resistance and improving patient outcomes."
+      },
+      {
+        "pmid": "42500521",
+        "title": "The relationship between pan immune inflammatory index (PIV) and 28 day mortality in patients with severe urinary sepsis: a retrospective study of a multinational dual cohort study.",
+        "journal": "Frontiers in medicine",
+        "pubdate": "2026",
+        "authors": [
+          "Zhang W",
+          "Huang K",
+          "Li X",
+          "Chen G",
+          "Wang C",
+          "Yang K",
+          "Tang K"
+        ],
+        "doi": "10.3389/fmed.2026.1802352",
+        "abstract": "BACKGROUND: Urosepsis is a critical condition originating from urinary tract infections, characterized by rapid progression and high mortality. The Pan-immune-inflammation Value (PIV), a novel composite index reflecting integrated immune and inflammatory status, has shown prognostic value in various critically ill and septic populations. However, its independent prognostic value in urosepsis remains inadequately explored. This study therefore aims to systematically evaluate the ability of PIV to predict 28-day adverse outcomes in patients with urosepsis. MATERIALS AND METHODS: This study employed a retrospective dual-cohort design. The internal training cohort comprised adult ICU patients with urosepsis from the MIMIC-IV database, while the external validation cohort was derived from the electronic medical record system of Anshun Municipal People's Hospital. To investigate the association between the PIV and short-term adverse outcomes in urosepsis patients, we utilized a range of statistical methods, including multivariable Cox regression, restricted cubic spline (RCS) analysis, subgroup analysis, and Kaplan-Meier survival curves. To develop a parsimonious predictive model, the internal cohort was randomly split into training and testing sets at a 7:3 ratio. Within the training set, an ensemble machine learning strategy-incorporating the Boruta algorithm, LASSO-Cox regression, random forest (RF), gradient boosting (GBDT), and support vector machine (SVM)-was applied to identify key predictive variables from serological tests, comorbidities, demographic characteristics, and vital signs. Based on the selected features, prognostic models were constructed using multivariable Cox regression in the training, testing, and external validation sets, respectively. The discriminatory power of these models against traditional disease severity scores was assessed using receiver operating characteristic (ROC) curves, with the area under the curve (AUC) quantifying predictive performance. RESULT: A total of 1,686 patients with severe urosepsis were included in this study. In the fully adjusted model, both continuous PIV and PIV quartiles were independently associated with 28-day adverse outcomes. For 28-day ICU mortality, each unit increase in continuous PIV was associated with a 76.4% higher risk (HR 1.764, 95% CI 1.340-2.323, p < 0.001); compared with the lowest quartile (Q1), the highest quartile (Q4) showed a significantly increased risk of 84.3% (HR 1.843, 95% CI 1.186-2.846, p = 0.007). For 28-day in-hospital mortality, the HR for continuous PIV was 1.639 (95% CI 1.214-2.214, p < 0.001), and the HR for Q4 was 1.789 (95% CI 1.110-2.885, p = 0.039). In the external validation cohort, the predictive value of PIV for 28-day ICU mortality remained consistent and was even more pronounced (continuous PIV: HR 1.79, 95% CI 1.21-2.64, p = 0.004). Restricted cubic spline analysis further confirmed a significant positive dose-response relationship between PIV and mortality (overall p < 0.001). The risk prediction model based on PIV demonstrated good discriminative ability, with areas under the receiver operating characteristic curve of 0.71, 0.73, and 0.76 in the training, internal testing, and external validation sets, respectively, all of which were higher than those of traditional severity scores (e.g., SOFA, APACHE II). CONCLUSION: This study confirms PIV as an independent predictor of 28-day mortality risk in patients with urosepsis across two cohorts. The prediction model incorporating PIV and four other clinical variables exhibited good discrimination and calibration, with prognostic performance superior to that of traditional disease severity scores. Future prospective, multicenter studies involving diverse geographic and ethnic populations are needed to further validate the generalizability of this model, thereby facilitating precise risk stratification for patients with urosepsis.",
+        "citation_count": 27,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "13",
+        "issue": "",
+        "pages": "1802352",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42500521/",
+        "ai_summary": "This study of 1,686 patients with severe urosepsis found that a higher Pan-immune-inflammation Value (PIV) was associated with increased risk of 28-day mortality. The PIV was independently associated with mortality, and its predictive value was consistent across different patient groups. The study suggests that PIV could be a useful tool for predicting outcomes in patients with urosepsis.",
+        "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that PIV could be a useful prognostic tool for patients with urosepsis. This could help clinicians to identify patients at high risk of mortality and provide more targeted and effective care."
       }
     ]
   },
@@ -263,7 +272,7 @@
     "window_days": 30,
     "articles": [
       {
-        "title": "EMNerd – FGEBM 001 – A Field Guide to Evidence Based Medicine Podcast – Episode 1",
+        "title": "A Field Guide to Evidence Based Medicine Podcast – Episode 1",
         "url": "https://emcrit.org/emnerd/fgebm001/",
         "source": "EMCrit",
         "author": "Rory Spiegel",
@@ -744,7 +753,9 @@
         "volume": "54",
         "issue": "3",
         "pages": "634-643",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41773929/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41773929/",
+        "ai_summary": "This study developed guidelines for using neuromuscular blocking agents in adults with acute respiratory distress syndrome (ARDS). The guidelines recommend using these agents in patients with a specific oxygen level, but do not make recommendations for other situations due to a lack of evidence. The guidelines aim to help clinicians make informed decisions about using these agents.",
+        "ai_significance": "These guidelines are important for ICU clinicians because they provide evidence-based recommendations for using neuromuscular blocking agents in ARDS patients, which can help improve patient outcomes and reduce complications."
       },
       {
         "pmid": "41773927",
@@ -782,7 +793,9 @@
         "volume": "54",
         "issue": "3",
         "pages": "619-629",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41773927/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41773927/",
+        "ai_summary": "These guidelines were developed to provide evidence-based recommendations for triaging critically ill patients during ICU capacity shortages. A multidisciplinary panel used the GRADE methodology to analyze evidence and formulate recommendations. The panel generated one conditional recommendation and five no recommendation statements.",
+        "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions during crisis-level shortages, ensuring efficient distribution of critical care resources and saving lives."
       },
       {
         "pmid": "41700745",
@@ -806,7 +819,9 @@
         "volume": "100",
         "issue": "3",
         "pages": "371-379",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41700745/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41700745/",
+        "ai_summary": "This study updated the guidelines for managing penetrating traumatic brain injury (pTBI) based on new literature and expert consensus. The guidelines cover resuscitation, imaging, critical care, surgery, and prognosis. A summary of the recommendations and seven treatment algorithms are provided.",
+        "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions about the care of patients with pTBI, potentially improving outcomes and reducing complications."
       }
     ]
   },
@@ -831,6 +846,32 @@
       "label": "Cardiovascular",
       "abbr": "CVS",
       "articles": [
+        {
+          "pmid": "42507507",
+          "title": "Acute Cholecystitis as a Potentially Fatal Complication of Cerebrovascular Disease.",
+          "journal": "Neurology India",
+          "pubdate": "2026 Jul 1",
+          "authors": [
+            "Yokota H",
+            "Terabe M",
+            "Matsumoto Y",
+            "Wajima D",
+            "Ida Y",
+            "Kubota H",
+            "Itoh H"
+          ],
+          "doi": "10.4103/neuroindia.NI_130_20",
+          "abstract": "BACKGROUND/OBJECTIVE: Acute cholecystitis (AC) can occur as a potentially fatal complication in critically ill patients, with multiple risk factors such as old age, male sex, diabetes mellitus, and history of cardiovascular disease reported. Recently, a history of cerebrovascular disease (CVD) has been suggested as a risk factor for the development of a complication in which vascular disease pathogenic factors, including atherosclerosis and ischemia, may play a role. However, little has been reported about the occurrence of AC in patients who have experienced CVD. This study aimed to investigate the incidence and clinical details of AC after CVD. METHODS: This was a retrospective review performed at a single institution. The records of all patients hospitalized with CVD were examined. In addition to the incidence of AC, atherosclerotic factors as well as previously reported risk factors were reviewed and then compared with those in patients with traumatic brain injury (TBI). RESULTS: AC was identified in 4/156 (2.6%) patients with CVD and 1/135 (0.7%) patients with TBI, which was not a statistically significant difference ( P = 0.233). In addition, factors were comparable, except for hypertension, fever, and nonambulant status, which were found significantly more often in CVD patients. Notably, three of the four patients developed AC after recurrent CVD. CONCLUSIONS: AC can occur as a potentially fatal complication in CVD patients. In addition to nonspecific clinical findings, consciousness disturbance with neurological deficits may lead to delayed diagnosis. A prospective study with a larger cohort is warranted to clarify the relationship between AC development and CVD.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Study",
+          "volume": "74",
+          "issue": "4",
+          "pages": "637-641",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42507507/",
+          "ai_summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
+          "ai_significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions."
+        },
         {
           "pmid": "42507344",
           "title": "Singapore Post-cardiac Arrest Care Guidelines 2026.",
@@ -1008,30 +1049,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42502537/",
           "ai_summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
           "ai_significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly."
-        },
-        {
-          "pmid": "42502493",
-          "title": "Prognostic Value of the Total Bilirubin-to-Albumin Ratio in Critically Ill Patients with Gastrointestinal Bleeding: A Multicentre Cohort Study.",
-          "journal": "Emergency medicine international",
-          "pubdate": "2026",
-          "authors": [
-            "Chen X",
-            "Ying S",
-            "Yuan X",
-            "Lv L",
-            "Yang X"
-          ],
-          "doi": "10.1155/emmi/1396680",
-          "abstract": "INTRODUCTION: The total bilirubin-to-serum albumin ratio (TBAR) has been proposed as an indicator of hepatic dysfunction and systemic inflammation, yet its prognostic relevance in critically ill patients with gastrointestinal bleeding (GIB) remains unclear. This study evaluated the association between TBAR and mortality and developed a TBAR-based prognostic model. METHODS: Data were extracted from the MIMIC-IV v3.1 database, with external validation using the eICU-CRD v2.0. Adult patients with GIB were included after applying predefined eligibility criteria, yielding a final cohort of 1627 individuals. The primary outcomes were 28-day all-cause mortality. Cox regression, Kaplan-Meier analyses, restricted cubic splines (RCS), ROC curves, and subgroup analyses were performed. A prediction nomogram was constructed using variables selected through the Boruta algorithm and evaluated using AUC, C-index, calibration performance, and decision curve analysis. RESULTS: Nonsurvivors exhibited markedly greater physiological instability, more severe organ dysfunction, and substantially higher TBAR levels. TBAR was independently associated with mortality across all Cox models (fully adjusted HR for 28-day mortality: 1.10, 95% CI 1.06-1.15). High TBAR was associated with more than a twofold increased risk of death. TBAR demonstrated superior discriminatory ability compared with TBIL or ALB alone and provided incremental predictive value when combined with the SOFA score. RCS analysis supported a linear dose-response association. Subgroup analyses showed no significant interactions. The final nomogram-which incorporated SOFA, APTT, TBAR, vasopressor use, CRRT, and anion gap-achieved an AUC of 0.794 and a bootstrap-corrected C-index of 0.789. External validation in the eICU cohort confirmed the robustness of the association and the strong performance of the model (AUC 0.805). CONCLUSIONS: TBAR is an independent predictor of mortality in critically ill patients with GIB. The TBAR-based nomogram demonstrates reliable discrimination and calibration and may facilitate individualized mortality risk stratification in clinical practice.",
-          "citation_count": 31,
-          "is_top_journal": false,
-          "study_type": "Study",
-          "volume": "2026",
-          "issue": "",
-          "pages": "1396680",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42502493/",
-          "ai_summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
-          "ai_significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
         }
       ]
     },
@@ -1215,7 +1232,7 @@
           ],
           "doi": "10.1186/s12887-026-07239-x",
           "abstract": "OBJECTIVES: Ventilator-associated pneumonia (VAP) is a frequent and serious infection among mechanically ventilated children in pediatric intensive care units (PICUs), with oral colonization playing a key role in its pathogenesis. Effective oral hygiene measures are therefore crucial to reduce VAP incidence and improve clinical outcomes. This study aimed to compare the incidence of VAP in PICU patients receiving routine oral care versus toothbrushing with chlorhexidine, and to evaluate the impact on mechanical ventilation duration, PICU stay, and mortality with secondary outcomes including microbiological colonization, inflammatory markers, and inotropic support requirements. DESIGN: A parallel-group superiority randomized controlled trial. METHODS: A randomized controlled trial was conducted on 118 children aged 18 months to 16 years, including PICU patients requiring invasive mechanical ventilation for ≥ 48 h. On admission, patients were randomly allocated into two groups: the intervention group received oral care with toothbrushing plus 0.12% chlorhexidine mouth rinse, while the control group received routine care with 0.12% chlorhexidine rinse only. Both procedures were performed three times daily. VAP was diagnosed according to CDC criteria. Quantitative and qualitative analyses assessed variables distinguishing VAP cases from controls, and multivariate logistic regression identified independent predictors of disease severity. RESULTS: The results of our study revealed that VAP occurred in 31 patients (52.5%) in the control group and 25 patients (42.3%) in the intervention group, indicating a lower incidence with toothbrushing plus chlorhexidine, although this difference was not statistically significant (p = 0.36). Among all participants, 45.8% died and 54.2% were discharged. Mortality was higher in the control group (53.7%) compared with the intervention group (46.3%), while discharge rates favored the intervention group (53.1% vs. 46.9%); however, these differences did not reach statistical significance (p = 0.46). Positive sputum cultures were more frequent in the control group (55.6%) than in the intervention group (44.4%), whereas negative cultures were more common among intervention patients (54.7% vs. 45.3%), with no significant difference between groups (p = 0.268). CONCLUSION: Although adding toothbrushing to routine chlorhexidine oral care did not produce a statistically significant reduction in VAP incidence or mortality, a consistent trend toward clinical benefit was observed across multiple outcome measures, including lower rates of positive sputum cultures, reduced inotropic support requirements, and fewer new pulmonary infiltrates. These findings highlight the potential value of enhanced oral hygiene in the PICU and support the need for larger multicenter studies to confirm its effect. TRIAL REGISTRATION: ClinicalTrials.gov, NCT07287566. Registered on November 20, 2025. Retrospectively registered at https://clinicaltrials.gov/ct2/show/NCT07287566 . PROTOCOL AND STATISTICAL ANALYSIS PLAN ACCESS: The full study protocol and the statistical analysis plan are included in this document and are available from the corresponding author upon reasonable request.",
-          "citation_count": 0,
+          "citation_count": 14,
           "is_top_journal": false,
           "study_type": "Randomized Controlled Trial",
           "volume": "26",
@@ -1256,6 +1273,32 @@
       "label": "Neurology",
       "abbr": "Neuro",
       "articles": [
+        {
+          "pmid": "42507507",
+          "title": "Acute Cholecystitis as a Potentially Fatal Complication of Cerebrovascular Disease.",
+          "journal": "Neurology India",
+          "pubdate": "2026 Jul 1",
+          "authors": [
+            "Yokota H",
+            "Terabe M",
+            "Matsumoto Y",
+            "Wajima D",
+            "Ida Y",
+            "Kubota H",
+            "Itoh H"
+          ],
+          "doi": "10.4103/neuroindia.NI_130_20",
+          "abstract": "BACKGROUND/OBJECTIVE: Acute cholecystitis (AC) can occur as a potentially fatal complication in critically ill patients, with multiple risk factors such as old age, male sex, diabetes mellitus, and history of cardiovascular disease reported. Recently, a history of cerebrovascular disease (CVD) has been suggested as a risk factor for the development of a complication in which vascular disease pathogenic factors, including atherosclerosis and ischemia, may play a role. However, little has been reported about the occurrence of AC in patients who have experienced CVD. This study aimed to investigate the incidence and clinical details of AC after CVD. METHODS: This was a retrospective review performed at a single institution. The records of all patients hospitalized with CVD were examined. In addition to the incidence of AC, atherosclerotic factors as well as previously reported risk factors were reviewed and then compared with those in patients with traumatic brain injury (TBI). RESULTS: AC was identified in 4/156 (2.6%) patients with CVD and 1/135 (0.7%) patients with TBI, which was not a statistically significant difference ( P = 0.233). In addition, factors were comparable, except for hypertension, fever, and nonambulant status, which were found significantly more often in CVD patients. Notably, three of the four patients developed AC after recurrent CVD. CONCLUSIONS: AC can occur as a potentially fatal complication in CVD patients. In addition to nonspecific clinical findings, consciousness disturbance with neurological deficits may lead to delayed diagnosis. A prospective study with a larger cohort is warranted to clarify the relationship between AC development and CVD.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Study",
+          "volume": "74",
+          "issue": "4",
+          "pages": "637-641",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42507507/",
+          "ai_summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
+          "ai_significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions."
+        },
         {
           "pmid": "42506343",
           "title": "Nicotine Withdrawal Syndrome in Intensive Care Patients-Preventive and Therapeutic Implications.",
@@ -1442,29 +1485,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42498537/",
           "ai_summary": "This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.",
           "ai_significance": "This study's findings highlight the importance of monitoring fluid balance in ICU patients to prevent fluid accumulation and depletion, which can lead to worse outcomes. Clinicians can use these thresholds to guide fluid management and improve patient care."
-        },
-        {
-          "pmid": "42498337",
-          "title": "Managing Pain, Sedation, and Delirium in Intensive Care Unit Patients with Fungal Central Nervous System Infections.",
-          "journal": "Critical care nursing clinics of North America",
-          "pubdate": "2026 Sep",
-          "authors": [
-            "Iseler J",
-            "Catinella R",
-            "Ellena K",
-            "LaBine L"
-          ],
-          "doi": "10.1016/j.cnc.2026.04.008",
-          "abstract": "Critically ill patients with fungal meningitis present complex challenges in pain and sedation management due to the need for accurate neurologic assessments, immunosuppression, and high intracranial pressure. This article explores pathophysiology, clinical presentation, and diagnostic strategies for fungal meningitis, with a focus on evidence-based, interdisciplinary approaches to pain and sedation. Emphasis is placed on multimodal analgesia delirium prevention, and critical role of nurses in optimizing outcomes. Ethical considerations and long-term recovery planning are also discussed to support comprehensive care.",
-          "citation_count": 0,
-          "is_top_journal": false,
-          "study_type": "Review",
-          "volume": "38",
-          "issue": "3",
-          "pages": "395-404",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42498337/",
-          "ai_summary": "This study explored pain and sedation management in ICU patients with fungal meningitis, focusing on evidence-based approaches to multimodal analgesia and delirium prevention.",
-          "ai_significance": "Effective pain and sedation management in fungal meningitis patients is crucial for preventing delirium and improving outcomes, making this study's findings essential for ICU clinicians."
         }
       ]
     },
@@ -1473,6 +1493,36 @@
       "label": "Renal",
       "abbr": "Renal",
       "articles": [
+        {
+          "pmid": "42508300",
+          "title": "Postinsertion care practices for nontunnelled dialysis catheters in intensive care: A cross-sectional survey.",
+          "journal": "Australian critical care : official journal of the Confederation of Australian Critical Care Nurses",
+          "pubdate": "2026 Jul 27",
+          "authors": [
+            "Corley A",
+            "Takashima M",
+            "Bloomer MJ",
+            "Ullman AJ",
+            "Keogh S",
+            "Shinners L",
+            "Hall S",
+            "O'Brien C",
+            "Larsen EN",
+            "Coyer F",
+            "Marsh N"
+          ],
+          "doi": "10.1016/j.aucc.2026.101653",
+          "abstract": "BACKGROUND: Dialysis catheters facilitate renal replacement therapy in critically ill patients with acute renal failure. However, they have the highest failure rate of all central venous access devices, estimated at 7-20%. Their unique postinsertion management requirements to maintain extracorporeal blood flow may contribute to increased rates of complications and failure. OBJECTIVES: The aim of this study was to describe current clinical practices of Australian critical care nurses caring for nontunnelled dialysis catheters in intensive care units to identify opportunities for practice improvement. METHODS: A cross-sectional, internet-based survey explored six postinsertion clinical practice domains. Critical care nurses with experience of caring for dialysis catheters within the last 12 months were eligible to participate. RESULTS: From 276 responses, 205 (74%) met minimum data requirements and were included in the analysis. Most respondents were registered nurses (97/205, 47%), clinical nurses (41/205, 20%), or clinical nurse specialists/consultants (48/205, 23%), with more than 15 years' experience (82/203, 40%), working in adult settings (156/205, 76%). For 85% (172/203) of respondents, a policy guiding postinsertion care existed in their unit. Most commonly, insertion sites were inspected once a shift (76/198, 38%); covered with bordered chlorhexidine gluconate-impregnated dressings (111/193, 58%); which were changed every 7 days and as required (109/192, 56.8%). Catheters were commonly secured with insertion site sutures (176/196, 90%). Ninety-seven unique dressing and securement combinations were reported. Heparin was the most used medication for catheter locking (124/190, 65%). To troubleshoot catheter dysfunction, respondents repositioned patients (177/182, 97%), swapped access/return lines (170/182, 93%), applied traction (154/182, 85%), flushed (145/182, 80%) and/or rotated catheters 180° (112/182, 62%). CONCLUSIONS: This survey demonstrates some variability in postinsertion care practices for dialysis catheters in Australian intensive care units, likely driven by the lack of specific evidence in this area. Findings suggest opportunities may exist where practice variability was observed, and these findings can help guide priorities for future interventional research.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Study",
+          "volume": "39",
+          "issue": "5",
+          "pages": "101653",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42508300/",
+          "ai_summary": "Australian critical care nurses were surveyed about their postinsertion care practices for non-tunnelled dialysis catheters. The survey found variability in practices, with common methods including inspecting insertion sites, using chlorhexidine gluconate-impregnated dressings, and securing catheters with sutures. Troubleshooting methods also varied.",
+          "ai_significance": "This study highlights the need for evidence-based guidelines on postinsertion care for dialysis catheters, which could improve patient outcomes and reduce complications in intensive care units."
+        },
         {
           "pmid": "42506352",
           "title": "Agreement of Electrolyte Measurements Between Arterial Blood Gas Analyzers and Central Laboratories in Critically Ill Patients with Acute Kidney Injury.",
@@ -1653,30 +1703,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42497050/",
           "ai_summary": "Researchers developed a machine learning model to predict acute kidney injury in ICU patients with atrial fibrillation, using data from 19,347 patients. The model, which combines electronic health record data, achieved high accuracy in predicting AKI risk. Clinicians can use this model to inform patient management decisions.",
           "ai_significance": "This study provides a valuable tool for clinicians to identify patients at high risk of AKI, potentially reducing mortality risk and improving patient outcomes in the ICU."
-        },
-        {
-          "pmid": "42495260",
-          "title": "Machine learning early risk assessment model for acute kidney injury in critically ill children: a retrospective cohort study.",
-          "journal": "Frontiers in pediatrics",
-          "pubdate": "2026",
-          "authors": [
-            "Xie L",
-            "Chen C",
-            "Zhang C",
-            "Chen L",
-            "Li Y"
-          ],
-          "doi": "10.3389/fped.2026.1847661",
-          "abstract": "BACKGROUND: Acute kidney injury (AKI) is a common severe complication in intensive care unit (ICU). However, an early risk assessment model that can accurately and promptly predict the risk of AKI in critically ill children remains lacking. METHODS: This retrospective study included 3,799 children from the Pediatric Intensive Care (PIC) database. The dataset was randomly divided into training set and validation set at a ratio of 7:3. LASSO regression and the Boruta algorithm were employed for feature selection, and the selected variables were incorporated into five machine learning models (Logistic Regression, Random Forest, XGBoost, LightGBM, Support Vector Machine) for training and construction. Model performance was evaluated using the area under the receiver operating characteristic curve (AUC), and the SHAP framework was applied for interpretability analysis of the optimal model. RESULTS: On the validation set, the XGBoost model demonstrated the best risk stratification performance among all five algorithms. SHAP analysis identified bicarbonate, magnesium, activated partial thromboplastin time, lymphocyte count, and thrombin time as the five most important features contributing to the model's predictions. CONCLUSION: We successfully developed an AKI risk stratification model based on early available clinical data. The model demonstrated acceptable discriminative ability and clinical interpretability in critically ill children, offering potential support for early intervention and improving prognosis.",
-          "citation_count": 31,
-          "is_top_journal": false,
-          "study_type": "Study",
-          "volume": "14",
-          "issue": "",
-          "pages": "1847661",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42495260/",
-          "ai_summary": "Researchers developed a machine learning model to predict acute kidney injury in critically ill children using early available clinical data. The model, which included variables such as bicarbonate and magnesium levels, showed good performance in identifying children at risk. This could help doctors intervene early and improve patient outcomes.",
-          "ai_significance": "Early prediction of acute kidney injury in children is crucial for improving prognosis. This study provides a valuable tool for clinicians to identify at-risk patients and take timely action to prevent or mitigate the condition."
         }
       ]
     },
@@ -2108,6 +2134,55 @@
       "abbr": "ID/Sepsis",
       "articles": [
         {
+          "pmid": "42508689",
+          "title": "Risk Factors and Development of a Clinical Prediction Model for Carbapenem-Resistant Enterobacterales Bacteremia: A Retrospective Cohort Study.",
+          "journal": "Journal of global antimicrobial resistance",
+          "pubdate": "2026 Jul 27",
+          "authors": [
+            "Akbulut E",
+            "Emecen AN",
+            "Arslan F"
+          ],
+          "doi": "10.1016/j.jgar.2026.07.022",
+          "abstract": "OBJECTIVES: To identify risk factors for carbapenem resistance in Enterobacterales bacteremia and predictors of 14- and 28-day mortality. METHODS: Adult patients (≥18 years) with Enterobacterales bacteremia admitted to a tertiary-care center between January 2015 and January 2024 were retrospectively analyzed. Isolates were classified as carbapenem-resistant Enterobacterales (CRE), extended-spectrum β-lactamase-producing (ESBL), or non-ESBL (nESBL). Independent predictors of CRE were identified using multivariable logistic regression. Model calibration, internal validation, and a nomogram were used to assess predictive performance. Cox proportional hazards models identified predictors of 14- and 28-day mortality. RESULTS: Of 895 patients, 14.9% had CRE bacteremia. Independent predictors of CRE were intensive care unit (ICU) admission (OR 4.87, 95% CI 3.18-7.57), hospitalization for ≥14 days before index blood culture (OR 2.67, 95% CI 1.74-4.09), and prior carbapenem exposure (OR 2.79, 95% CI 1.84-4.25). Twenty-eight-day mortality was higher in the CRE than ESBL and nESBL groups (63.9% vs. 32.3% vs. 28.3%; p<0.001). ICU admission, sepsis, and inappropriate empirical antimicrobial therapy independently predicted mortality. The prediction model showed good discrimination (Harrell's C-index, 0.79). CONCLUSIONS: CRE bacteremia was associated with high mortality and occurred predominantly in critically ill patients with prolonged hospitalization and prior carbapenem exposure. Mortality was driven primarily by illness severity and inappropriate empirical antimicrobial therapy rather than carbapenem resistance itself. Early appropriate empirical therapy independently improved survival regardless of resistance profile.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42508689/",
+          "ai_summary": "Researchers analyzed 895 patients with Enterobacterales bacteremia to identify risk factors for carbapenem resistance and predictors of mortality. They found that ICU admission, prolonged hospitalization, and prior carbapenem exposure increased the risk of carbapenem-resistant Enterobacterales (CRE) bacteremia. Patients with CRE bacteremia had higher 28-day mortality rates compared to those with susceptible bacteria.",
+          "ai_significance": "This study helps ICU clinicians identify high-risk patients for CRE bacteremia and prioritize early appropriate empirical antimicrobial therapy to improve survival. It also highlights the importance of sepsis management and empirical therapy in critically ill patients."
+        },
+        {
+          "pmid": "42508520",
+          "title": "Plasma versus Whole Blood Multiplex Droplet Digital PCR for Pathogen Detection in ICU Patients with Clinically Suspected Sepsis: A Prospective Multicenter Cohort Study.",
+          "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+          "pubdate": "2026 Jul 27",
+          "authors": [
+            "Wu Z",
+            "Wang X",
+            "Xia J",
+            "Zheng X",
+            "Meng J",
+            "Yu H",
+            "Yu Y",
+            "Zhou H"
+          ],
+          "doi": "10.1016/j.ijid.2026.109015",
+          "abstract": "BACKGROUND: Rapid pathogen identification remains challenging in critically ill patients with suspected sepsis. Droplet digital PCR (ddPCR) is a promising molecular diagnostic tool, but it is usually performed on plasma and may miss pathogen signals retained in cellular blood components. We therefore compared plasma and whole-blood ddPCR in ICU patients with clinically suspected sepsis. METHODS: In this prospective multicenter cohort study, ICU patients with clinically suspected sepsis underwent paired plasma and whole-blood ddPCR together with blood culture. Blood culture-negative/ddPCR-positive cases were interpreted using structured clinical adjudication. RESULTS: Among 223 patients, 62 (27.8%) had positive blood cultures. Both plasma and whole-blood ddPCR identified substantially more pathogens than blood culture alone and provided microbiological support for 38 and 46 adjudicated definite sepsis cases, respectively, among blood culture-negative patients. Overall performance was similar between matrices, but whole-blood ddPCR showed a higher detection rate for the Candida genus than plasma ddPCR (87.5% vs. 31.3%, P = 0.03). Concordant positivity in both matrices was associated with greater disease severity. CONCLUSIONS: Both plasma and whole-blood ddPCR complement blood culture in ICU patients with clinically suspected sepsis. Although overall performance was similar, whole-blood ddPCR showed higher detection of the Candida genus in this cohort, a finding that requires validation in larger fungal sepsis cohorts.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "109015",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42508520/",
+          "ai_summary": "Researchers compared plasma and whole-blood tests for detecting pathogens in ICU patients with suspected sepsis. Both tests found more pathogens than traditional blood culture, but whole-blood tests detected more Candida infections. The results suggest both tests can complement blood culture.",
+          "ai_significance": "This study's findings can help ICU clinicians choose the best diagnostic tool for suspected sepsis, potentially improving patient outcomes by identifying pathogens more accurately and quickly."
+        },
+        {
           "pmid": "42507322",
           "title": "Fosfomycin as an adjunctive agent against carbapenem-resistant Acinetobacter baumannii: an updated narrative review.",
           "journal": "Infection",
@@ -2256,53 +2331,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42502858/",
           "ai_summary": "This study of 1,014 neonates in Ethiopia found that extremely low birth weight, perinatal asphyxia, neonatal sepsis, and other complications are strong predictors of mortality. Most deaths occurred within the first week, particularly among low-birth-weight neonates. The study suggests that targeted interventions could reduce neonatal mortality in resource-constrained settings.",
           "ai_significance": "This study's findings are crucial for ICU clinicians in low-income countries, where neonatal mortality rates are high. By identifying key risk factors, clinicians can implement targeted interventions to improve survival rates and reduce mortality."
-        },
-        {
-          "pmid": "42502517",
-          "title": "Endophthalmitis Requiring Enucleation in a Sedated Critically Ill Patient: A Case Report.",
-          "journal": "Cureus",
-          "pubdate": "2026 Jun",
-          "authors": [
-            "Saba M"
-          ],
-          "doi": "10.7759/cureus.111473",
-          "abstract": "Endophthalmitis is a rare but sight-threatening ophthalmic emergency that may occur following trauma, surgery, or hematogenous spread of infection. Diagnosis may be particularly challenging in critically ill or sedated patients unable to report visual symptoms. A Caucasian male in his 50s was admitted to the ICU following a motor vehicle collision. During admission, progressive erythematous changes developed around the right eye in the absence of clinically identified ocular trauma, systemic infectious features, or subjective visual symptoms due to ongoing sedation. Computed tomography demonstrated orbital cellulitis with probable endophthalmitis and lens dislocation. Despite urgent ophthalmological intervention, systemic and intravitreal antimicrobial therapy, and orbital decompression, disease progression resulted in corneal perforation requiring enucleation. Early lens dislocation was considered a poor prognostic feature. This case highlights the diagnostic challenge of rapidly progressive endophthalmitis in sedated critically ill patients and emphasizes the importance of vigilant ocular assessment, early specialist involvement, and prompt treatment to minimize irreversible complications.",
-          "citation_count": 9,
-          "is_top_journal": false,
-          "study_type": "Case Reports",
-          "volume": "18",
-          "issue": "6",
-          "pages": "e111473",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42502517/",
-          "ai_summary": "A critically ill patient developed endophthalmitis after a car accident, despite not showing symptoms due to sedation. Urgent treatment was attempted, but the disease progressed to corneal perforation requiring enucleation. Early lens dislocation was a poor prognostic feature.",
-          "ai_significance": "This case highlights the importance of vigilant ocular assessment in sedated critically ill patients and emphasizes the need for early specialist involvement to prevent irreversible complications."
-        },
-        {
-          "pmid": "42502453",
-          "title": "Toward Model-Informed Precision Dosing of Imipenem: Multicenter External Validation of Population Pharmacokinetic Models in Adult Critically Ill Patients.",
-          "journal": "Drug design, development and therapy",
-          "pubdate": "2026",
-          "authors": [
-            "Zhang P",
-            "Pang X",
-            "Chen H",
-            "Zhu J",
-            "Liang G",
-            "Yang Y",
-            "Zhang X",
-            "Yu Z"
-          ],
-          "doi": "10.2147/DDDT.S617895",
-          "abstract": "BACKGROUND: Model-informed individualized dosing of imipenem is required for critically ill patients due to high infection mortality and large pharmacokinetic (PK) variability. This study aims to externally evaluate the predictive performance of available imipenem pharmacokinetic (popPK) models to facilitate clinical application. METHODS: A multicenter dataset of 152 ICU patients (201 concentrations) was used for the external validation of 9 popPK models. Model performance was investigated for prediction- and simulation-based diagnostics and Bayesian forecasting. The median relative prediction error (rPEmedian), median absolute relative prediction error (rAPEmedian), and NPDE were calculated to quantify accuracy and precision. RESULTS: Model predictive performance exhibited heterogeneity. Priori prediction showed wide rPEmedian ranges, and only 3 models were within ± 15%. Moreover, the priori predictions of all models failed to demonstrate satisfactory performance in terms of both F20 and F50. Notably, Bayesian forecasting incorporating TDM data significantly improved accuracy, with four models demonstrating superior performance in terms of rPEmedian and F50. Predictive performance was poorer in patients with renal function impairments. Simulation diagnostics revealed systematic bias across all models. In general, the Truong et al (2025) model performed better than the other models. CONCLUSION: Available imipenem popPK models for adult critically ill patients were unsatisfactory in predictive performance, and the Truong et al (2025) model performed best among all models. The integration of Bayesian forecasting with therapeutic drug monitoring (TDM) data significantly improved predictive accuracy, suggesting that the synergistic use of the popPK model and TDM may optimize clinical dosing decisions and potentially improve clinical outcomes.",
-          "citation_count": 35,
-          "is_top_journal": false,
-          "study_type": "Multicenter Study",
-          "volume": "20",
-          "issue": "",
-          "pages": "617895",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42502453/",
-          "ai_summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
-          "ai_significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality."
         }
       ]
     },
@@ -2512,6 +2540,28 @@
       "abbr": "Trauma",
       "articles": [
         {
+          "pmid": "42507964",
+          "title": "The Self-Perceived Role 2 Preparedness of Family Medicine Physicians.",
+          "journal": "Military medicine",
+          "pubdate": "2026 Jul 27",
+          "authors": [
+            "Volle MJ",
+            "Monroe MG",
+            "Ford BS"
+          ],
+          "doi": "10.1093/milmed/usag346",
+          "abstract": "INTRODUCTION: Large-scale combat operations (LSCO) are anticipated to restrict casualty evacuation, resulting in an increase in volume and duration of Role 2 care. This study assessed self-perceived preparedness among active-duty Family Medicine physicians to deliver Role 2 care and analyzed the training and experiences associated with that perceived preparedness. MATERIALS AND METHODS: In March 2025, a cross-sectional survey was administered to attendees of the Uniformed Services Academy of Family Physicians (USAFP) Annual Meeting. This study assessed career Role 2 experience, recent participation in Role 2 training, completion of relevant training courses, exposure to caring for critically ill patients, and self-perceived preparedness to deliver Role 2 care. Preparedness was assessed in two domains, damage control resuscitation (DCR) and prolonged casualty care (PCC). Factors were screened for association with self-perceived preparedness using a chi-square test. Factors that showed significant associations were further analyzed for the degree of correlation using Kendall's rank correlation coefficient (τb). RESULTS: In total, 298 meeting attendees responded to the survey (response rate of 47.5%). The survey found that 55% of active-duty Family Medicine physicians had never provided Role 2 care, 51% had not participated in Role 2 training within two years, and 36% had not provided damage control resuscitative care within three years. Half of respondents reported feeling not prepared or only slightly prepared to provide Role 2 PCC, while just 9% felt very prepared. Results for DCR were similar. The chi-square test identified nine factors associated with self-perceived preparedness: career Role 2 experience (DCR P < .001, PCC P < .001), damage control resuscitation (within 3 years) (DCR P < .001, PCC P = .001), Role 2 training exercises (within 2 years) (DCR P < .001, PCC P = .003), rank (DCR P = .003, PCC P = .006), ATLS course completed (DCR P = .017, PCC P < .001), ASSET course completion (DCR P < .001, PCC P = .009), BEST course completion (DCR P = .017, PCC P = .098), TCCC course completed (DCR P = .103, PCC P = .001), and ventilated patient care (within 3 years) (DCR P = .001, PCC P < .001). Kendall's τb demonstrated that three factors had a moderate to strong correlation: career Role 2 experience, damage control resuscitation (within 3 years), and Role 2 training exercises (within 2 years). CONCLUSIONS: LSCO will require Family Medicine physicians to provide critical care in Role 2 settings, yet half report feeling poorly prepared. This study provides quantitative data demonstrating that Role 2 experience, exposure to hospital-based critical care, and participation in Role 2 training exercises were each meaningfully associated with improved perceived preparedness, supporting recommendations to prioritize these experiences. The absence of an objective measure of Role 2 readiness is a key limitation of this study. Although procedure-based specialties have developed the KSA score, many specialties lack an equivalent means of quantifying readiness. Future efforts should prioritize developing objective readiness metrics and expanding access to Role 2 relevant clinical experiences throughout a Family Medicine physician's career.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42507964/",
+          "ai_summary": "This study surveyed 298 Family Medicine physicians about their preparedness to deliver Role 2 care in combat settings. Most had little experience and felt unprepared, but those with more experience and training felt more confident. Factors associated with perceived preparedness included career Role 2 experience, recent training, and caring for critically ill patients.",
+          "ai_significance": "This study highlights the need for Family Medicine physicians to develop critical care skills in preparation for large-scale combat operations. Prioritizing Role 2 training and experience can improve their perceived preparedness and readiness to provide lifesaving care."
+        },
+        {
           "pmid": "42506042",
           "title": "Incidence of Dependency-Related Skin Injury in Critical Care: A Longitudinal Study.",
           "journal": "Nursing reports (Pavia, Italy)",
@@ -2677,28 +2727,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42493813/",
           "ai_summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
           "ai_significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
-        },
-        {
-          "pmid": "42491130",
-          "title": "Case Report: Multimodal ultrasound diagnosis of traumatic right coronary sinus rupture combined with atrial septal tears.",
-          "journal": "Frontiers in medicine",
-          "pubdate": "2026",
-          "authors": [
-            "Wang J",
-            "Yang C",
-            "Wu Y"
-          ],
-          "doi": "10.3389/fmed.2026.1812111",
-          "abstract": "BACKGROUND: Cardiac injury in patients with severe polytrauma is often occult and carries a high mortality, making rapid and accurate diagnosis a significant clinical challenge. CASE PRESENTATION: A 57-year-old Asian male was admitted with polytrauma and impaired consciousness for over 2 h after a fall from the 9th floor. Post-injury manifestations included confusion, restlessness, and active bleeding from multiple wounds. The initial diagnosis was polytrauma with traumatic hemorrhagic shock. Following initial resuscitation and thoracic endovascular aortic repair (TEVAR), he developed refractory hypoxemia and hemodynamic instability. Subsequent multimodal ultrasound revealed combined injuries: traumatic rupture of the right coronary sinus into the right atrium and right ventricle, multiple tears in the mid-portion of the atrial septum, and bidirectional shunt at the atrial level. The patient received comprehensive treatment, including TEVAR, mechanical ventilation, anti-infection therapy, maintenance of internal homeostasis, and nutritional support. Due to cardiopulmonary failure secondary to the cardiac injury, extracorporeal membrane oxygenation (ECMO) was initiated. Despite aggressive life-sustaining measures, the patient developed severe infection and multiple organ failure, precluding cardiac surgical intervention. He ultimately succumbed after the withdrawal of ECMO support. CONCLUSION: In the management of polytrauma, a high index of suspicion for occult cardiac injuries is essential. Multimodal echocardiography-comprising transthoracic echocardiography, transesophageal echocardiography, and agitated saline contrast echocardiography-serves as an efficient and precise bedside diagnostic toolkit. It not only enables rapid diagnosis of complex intracardiac injuries and hemodynamic assessment but also plays a crucial role in guiding advanced life support and developing effective treatment strategies. The early and systematic application of this approach may facilitate timely intervention for critically ill patients with polytrauma.",
-          "citation_count": 27,
-          "is_top_journal": false,
-          "study_type": "Case Reports",
-          "volume": "13",
-          "issue": "",
-          "pages": "1812111",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42491130/",
-          "ai_summary": "A 57-year-old man with polytrauma was diagnosed with a rare cardiac injury using multimodal ultrasound, which showed a tear in the right coronary sinus and atrial septum. Despite treatment, the patient developed severe infection and multiple organ failure. Early diagnosis using ultrasound is crucial in managing polytrauma patients with cardiac injuries.",
-          "ai_significance": "This study highlights the importance of using multimodal ultrasound for rapid diagnosis of cardiac injuries in polytrauma patients, which can guide treatment and improve outcomes."
         }
       ]
     }
