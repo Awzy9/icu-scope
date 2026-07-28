@@ -304,7 +304,7 @@ select:focus-visible {
 
 .category-heading {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.6rem;
   margin: 0 0 1.1rem;

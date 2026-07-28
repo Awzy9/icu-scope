@@ -480,13 +480,21 @@
       articles: sortArticles(categorySort[cat.id] || "newest", filterList(cat.articles, term, days, studyType)),
     }));
 
+    const collapseState = loadCollapseState();
+
     filtered.forEach((cat, idx) => {
       const icon = CATEGORY_ICONS[cat.id] || "";
+      const collapseId = `category-${cat.id}`;
+      const bodyId = `cat-body-${cat.id}`;
       const chip = document.createElement("button");
       chip.className = "nav-chip" + (idx === 0 ? " active" : "");
       chip.setAttribute("aria-pressed", idx === 0 ? "true" : "false");
       chip.textContent = `${icon} ${cat.abbr} (${cat.articles.length})`;
       chip.addEventListener("click", () => {
+        const body = document.getElementById(bodyId);
+        if (body && body.hidden) {
+          document.querySelector(`#cat-${cat.id} .collapse-toggle`).click();
+        }
         document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: "smooth", block: "start" });
       });
       nav.appendChild(chip);
@@ -499,6 +507,7 @@
       heading.className = "category-heading";
       const mode = categorySort[cat.id] || "newest";
       heading.innerHTML = `
+        <button class="collapse-toggle" type="button" aria-controls="${bodyId}">▸</button>
         <h2>${icon} ${escapeHtml(cat.label)}</h2>
         <span class="category-count">${cat.articles.length} article${cat.articles.length === 1 ? "" : "s"}</span>
         <div class="sort-toggle">
@@ -514,16 +523,33 @@
       });
       section.appendChild(heading);
 
+      const body = document.createElement("div");
+      body.className = "section-body category-body";
+      body.id = bodyId;
+
       if (!cat.articles.length) {
         const empty = document.createElement("p");
         empty.className = "empty";
         empty.textContent = "No articles match the current filters.";
-        section.appendChild(empty);
+        body.appendChild(empty);
       } else {
-        cat.articles.forEach((article) => section.appendChild(articleCard(article)));
+        cat.articles.forEach((article) => body.appendChild(articleCard(article)));
       }
 
+      section.appendChild(body);
       content.appendChild(section);
+
+      const collapseToggle = heading.querySelector(".collapse-toggle");
+      const entry = { body, toggle: collapseToggle };
+      const collapsed = collapseState[collapseId] === undefined ? true : collapseState[collapseId];
+      setSectionCollapsed(entry, collapsed);
+      collapseToggle.addEventListener("click", () => {
+        const nowCollapsed = !body.hidden;
+        setSectionCollapsed(entry, nowCollapsed);
+        const current = loadCollapseState();
+        current[collapseId] = nowCollapsed;
+        saveCollapseState(current);
+      });
     });
 
     if (scrollHandler) {
