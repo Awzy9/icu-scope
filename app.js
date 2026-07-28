@@ -177,7 +177,7 @@
     if (!iso) return "";
     const d = new Date(iso);
     const formatted = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
-    return `Last updated ${formatted} · new articles pulled from the last ${windowDays} day${windowDays === 1 ? "" : "s"} — nothing already shown is ever removed`;
+    return `Last updated ${formatted} · new articles pulled from the last ${windowDays} day${windowDays === 1 ? "" : "s"}`;
   }
 
   function journalHue(name) {

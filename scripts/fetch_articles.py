@@ -16,7 +16,7 @@ from datetime import datetime, timedelta, timezone
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 TOOL = "icu-scope"
 CONTACT_EMAIL = os.environ.get("CONTACT_EMAIL", "")
-RELDATE_DAYS = int(os.environ.get("RELDATE_DAYS", "60"))
+RELDATE_DAYS = int(os.environ.get("RELDATE_DAYS", "120"))
 MAX_PER_CATEGORY = int(os.environ.get("MAX_PER_CATEGORY", "8"))
 TRENDING_DAYS = int(os.environ.get("TRENDING_DAYS", "30"))
 TRENDING_CANDIDATES = int(os.environ.get("TRENDING_CANDIDATES", "60"))
@@ -32,7 +32,11 @@ GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 AI_SUMMARY_MAX_PER_RUN = int(os.environ.get("AI_SUMMARY_MAX_PER_RUN", "40"))
 AI_REQUEST_DELAY = 0.6
 
-ICU_CONTEXT = '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critical illness"[MeSH] OR "critically ill")'
+ICU_CONTEXT = (
+    '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critical illness"[MeSH] OR "critically ill") '
+    'NOT (pediatric*[Title] OR paediatric*[Title] OR neonat*[Title] OR infant*[Title] OR child*[Title] '
+    'OR adolescent*[Title] OR "infant, newborn"[MeSH] OR "pediatrics"[MeSH] OR "child"[MeSH] OR "adolescent"[MeSH])'
+)
 
 TOP_JOURNAL_MATCHERS = ["new england journal of medicine", "jama"]
 TOP_JOURNAL_FILTER = '("N Engl J Med"[Journal] OR "JAMA"[Journal])'

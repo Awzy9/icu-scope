@@ -21,7 +21,7 @@ jobs:
       - name: Fetch latest articles
         env:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
-          RELDATE_DAYS: "60"
+          RELDATE_DAYS: "120"
           MAX_PER_CATEGORY: "8"
           TRENDING_DAYS: "30"
           TRENDING_CANDIDATES: "60"
