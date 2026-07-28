@@ -718,14 +718,29 @@ def save_archive(archive):
         json.dump(archive, f, indent=2, ensure_ascii=False)
 
 
+PEDIATRIC_TITLE_KEYWORDS = [
+    "pediatric", "paediatric", "neonat", "infant", "child", "adolescent", "newborn",
+]
+
+
+def is_pediatric(article):
+    title = (article.get("title") or "").lower()
+    return any(kw in title for kw in PEDIATRIC_TITLE_KEYWORDS)
+
+
 def merge_into_bucket(bucket, fresh_articles, id_fn):
     """Add/update fresh_articles into bucket (keyed dict, mutated in place).
 
-    Existing entries are never deleted here, even if they're no longer part
-    of today's fresh fetch — that's how "never remove, just add" is enforced.
+    Existing entries are never deleted here for staleness, even if they're no
+    longer part of today's fresh fetch — that's how "never remove, just add"
+    is enforced. The one exception is pediatric/neonatal content, which is
+    explicitly out of scope and pruned on every run (covers both new fetches
+    and anything archived before this exclusion existed).
     """
     for a in fresh_articles:
         bucket[id_fn(a)] = a
+    for key in [k for k, a in bucket.items() if is_pediatric(a)]:
+        del bucket[key]
     return sorted(bucket.values(), key=lambda a: parsed_pubdate_for_sort(a.get("pubdate", "")), reverse=True)
 
 
