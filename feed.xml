@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 28 Jul 2026 07:30:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 15:56:45 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -90,6 +90,20 @@
       <description>Dr. Sarah Crager discusses bedside shock management, moving beyond blood pressure targets to a dynamic approach. They address clinical dilemmas, including lactated Ringer's in lactic acidosis and albumin and diuretics in edematous patients. A real-world approach to fluid management is explored.</description>
     </item>
     <item>
+      <title>Standard-dose unfractionated heparin versus low-dose unfractionated heparin and low-molecular-weight heparin in extracorporeal life support (RATE): an open-label, randomised, non-inferiority trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42413523/</link>
+      <guid isPermaLink="false">pmid:42413523</guid>
+      <category>Cardiovascular</category>
+      <description>This study compared standard-dose unfractionated heparin with low-dose unfractionated heparin and low-molecular-weight heparin in patients on extracorporeal life support. Low-dose heparin and low-molecular-weight heparin were found to be non-inferior to standard-dose heparin in reducing thrombotic risk without increasing bleeding. The study suggests that anticoagulation targets in ECMO may need to be reconsidered.</description>
+    </item>
+    <item>
+      <title>Standard-dose unfractionated heparin versus low-dose unfractionated heparin and low-molecular-weight heparin in extracorporeal life support (RATE): an open-label, randomised, non-inferiority trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42413523/</link>
+      <guid isPermaLink="false">pmid:42413523</guid>
+      <category>Hematology &amp; Coagulation</category>
+      <description>This study compared standard-dose unfractionated heparin with low-dose unfractionated heparin and low-molecular-weight heparin in patients on extracorporeal life support. Low-dose heparin and low-molecular-weight heparin were found to be non-inferior to standard-dose heparin in reducing thrombotic risk without increasing bleeding. The study suggests that anticoagulation targets in ECMO may need to be reconsidered.</description>
+    </item>
+    <item>
       <title>Tooth brushing versus routine oral care impact on ventilator-associated pneumonia in PICU: a clinical trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42502162/</link>
       <guid isPermaLink="false">pmid:42502162</guid>
@@ -160,11 +174,25 @@
       <description>This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.</description>
     </item>
     <item>
+      <title>Pressure-targeted neurocritical care at the bedside: the emerging role of transcranial doppler.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42493813/</link>
+      <guid isPermaLink="false">pmid:42493813</guid>
+      <category>Cardiovascular</category>
+      <description>This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.</description>
+    </item>
+    <item>
       <title>Metabolomic Signatures of Biotrauma Associated with Mortality in ICU Patients Requiring Invasive Mechanical Ventilation and ECMO.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42506467/</link>
       <guid isPermaLink="false">pmid:42506467</guid>
       <category>Respiratory</category>
       <description>This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.</description>
+    </item>
+    <item>
+      <title>Pressure-targeted neurocritical care at the bedside: the emerging role of transcranial doppler.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42493813/</link>
+      <guid isPermaLink="false">pmid:42493813</guid>
+      <category>Neurology</category>
+      <description>This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.</description>
     </item>
     <item>
       <title>Effects of nutritional therapy on morphofunctional outcomes in critically ill patients: a systematic narrative synthesis.</title>
@@ -258,6 +286,13 @@
       <description>This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.</description>
     </item>
     <item>
+      <title>Sodium bicarbonate therapy in severe metabolic acidemia: an individual patient data meta-analysis of the BICAR-ICU and BICAR-ICU2 trials.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42472834/</link>
+      <guid isPermaLink="false">pmid:42472834</guid>
+      <category>Renal</category>
+      <description>This study combined data from two previous trials to assess the effect of sodium bicarbonate therapy on patients with severe metabolic acidemia. It found that while sodium bicarbonate did not reduce overall mortality, it did decrease the need for renal replacement therapy and may benefit patients with the most severe acidemia.</description>
+    </item>
+    <item>
       <title>Prognostic impact of sepsis-induced coagulopathy on mortality and clinical outcomes in ICU patients.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42471569/</link>
       <guid isPermaLink="false">pmid:42471569</guid>
@@ -279,6 +314,20 @@
       <description>This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.</description>
     </item>
     <item>
+      <title>Key principles for rehabilitation of critically ill patients with obesity.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42467246/</link>
+      <guid isPermaLink="false">pmid:42467246</guid>
+      <category>Respiratory</category>
+      <description>This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.</description>
+    </item>
+    <item>
+      <title>Key principles for rehabilitation of critically ill patients with obesity.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42467246/</link>
+      <guid isPermaLink="false">pmid:42467246</guid>
+      <category>Neurology</category>
+      <description>This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.</description>
+    </item>
+    <item>
       <title>High-Dose Intravenous Vitamin C in Critical Illness: A Translational Exposure-Response Framework for Biomarker-Guided Precision Therapy.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42506369/</link>
       <guid isPermaLink="false">pmid:42506369</guid>
@@ -298,6 +347,13 @@
       <guid isPermaLink="false">pmid:42469406</guid>
       <category>Hematology &amp; Coagulation</category>
       <description>Researchers developed a machine learning model to help manage bleeding and clotting in critically ill patients by analyzing their medical records and lab results. The model showed promise in guiding personalized treatment and identifying key factors that affect bleeding and clotting. It can help doctors make more informed decisions about patient care.</description>
+    </item>
+    <item>
+      <title>Key principles for rehabilitation of critically ill patients with obesity.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42467246/</link>
+      <guid isPermaLink="false">pmid:42467246</guid>
+      <category>Pharmacology</category>
+      <description>This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.</description>
     </item>
     <item>
       <title>EMCrit RACC-Lit Review – 2026 July</title>
@@ -356,74 +412,18 @@
       <description>This study developed a checklist for adult intubation in emergency situations, covering preparation, pause before intubation, backup plans, and post-intubation care. The checklist aims to standardize and improve the intubation process. It may reduce errors and improve patient outcomes.</description>
     </item>
     <item>
-      <title>EMCrit 429 – RUSH 2.0 – The I-RUSH and CRUSH Exams</title>
-      <link>https://emcrit.org/emcrit/rush-2/</link>
-      <guid isPermaLink="false">https://emcrit.org/emcrit/rush-2/</guid>
-      <category>EMCrit</category>
-      <description>This episode introduces the updated RUSH Exam 2.0, also known as the iRUSH, which provides a standardized map for comprehensive bedside hemodynamic assessment. It combines clinical findings with advanced ultrasound modalities to phenotype shock. This updated protocol moves beyond its original role for the crashing patient.</description>
+      <title>PAUSE-Agents: A Clinician-in-the-Loop Multi-Agent AI Pipeline for ICU-to-Ward Handoff Briefs</title>
+      <link>https://doi.org/10.64898/2026.07.10.26357759</link>
+      <guid isPermaLink="false">https://doi.org/10.64898/2026.07.10.26357759</guid>
+      <category>Preprint</category>
+      <description>ICU-to-ward transfers are high-risk transitions marked by information loss and burdensome handoff preparation. We developed PAUSE-Agents, a clinician-in-the-loop multi-agent LLM pipeline that drafts source-attributed handoff briefs from structured ICU data and clinical notes using the clinician-developed ICU-PAUSE template. Mirroring ICU team structure, PAUSE-Agents routes each record through a scribe extractor, 6 role-specialized agents, explicit conflict surfacing, and deterministic safety che</description>
     </item>
     <item>
-      <title>Anatomy for bronchoscopy</title>
-      <link>https://litfl.com/bronchoscopic-anatomy/</link>
-      <guid isPermaLink="false">https://litfl.com/bronchoscopic-anatomy/</guid>
-      <category>LITFL</category>
-      <description>This study reviews airway anatomy to help clinicians understand the basics of bronchoscopy and airway management, highlighting normal variations and potential abnormalities.</description>
-    </item>
-    <item>
-      <title>Nutrition Therapy in Critically Ill Adults.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
-      <guid isPermaLink="false">pmid:42418776</guid>
+      <title>The ARDS, Pneumonia, and Sepsis (APS) Consortium: Rationale, Design, and Feasibility of a National Platform for Phenotyping Critical Illness Syndromes.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42442528/</link>
+      <guid isPermaLink="false">pmid:42442528</guid>
       <category>Cardiovascular</category>
-      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
-    </item>
-    <item>
-      <title>Agreement of Electrolyte Measurements Between Arterial Blood Gas Analyzers and Central Laboratories in Critically Ill Patients with Acute Kidney Injury.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506352/</link>
-      <guid isPermaLink="false">pmid:42506352</guid>
-      <category>Renal</category>
-      <description>This study compared electrolyte measurements from arterial blood gas (ABG) analyzers to central laboratory analyzers in critically ill patients with acute kidney injury (AKI). The results showed relatively good agreement for sodium and potassium measurements, but clinically meaningful discrepancies occurred in a subset of measurements. The study suggests that ABG-derived electrolyte measurements can support rapid bedside assessment, but central laboratory measurements remain the reference standa</description>
-    </item>
-    <item>
-      <title>Nutrition Therapy in Critically Ill Adults.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
-      <guid isPermaLink="false">pmid:42418776</guid>
-      <category>Renal</category>
-      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
-    </item>
-    <item>
-      <title>Nutrition Therapy in Critically Ill Adults.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
-      <guid isPermaLink="false">pmid:42418776</guid>
-      <category>GI &amp; Nutrition</category>
-      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
-    </item>
-    <item>
-      <title>Nutrition Therapy in Critically Ill Adults.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
-      <guid isPermaLink="false">pmid:42418776</guid>
-      <category>Endocrine &amp; Metabolic</category>
-      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
-    </item>
-    <item>
-      <title>Patient preparation for ICU bronchoscopy</title>
-      <link>https://litfl.com/patient-preparation-for-icu-bronchoscopy/</link>
-      <guid isPermaLink="false">https://litfl.com/patient-preparation-for-icu-bronchoscopy/</guid>
-      <category>LITFL</category>
-      <description>Researchers identified key considerations for preparing ICU patients for bronchoscopy, including time out, consent, and patient positioning. They also highlighted the importance of awake versus intubated &amp; sedated bronchoscopy and effective teamwork. The study aimed to improve safety during ICU bronchoscopy.</description>
-    </item>
-    <item>
-      <title>Nicotine Withdrawal Syndrome in Intensive Care Patients-Preventive and Therapeutic Implications.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506343/</link>
-      <guid isPermaLink="false">pmid:42506343</guid>
-      <category>Neurology</category>
-      <description>This study reviewed nicotine withdrawal in ICU patients, finding that smoking-related status is linked to agitation and delirium, but evidence on nicotine withdrawal syndrome is limited. The study suggests that routine identification of nicotine dependence and monitoring of withdrawal symptoms could improve patient care. NRT may be beneficial but its effectiveness and safety are uncertain.</description>
-    </item>
-    <item>
-      <title>Acute Cholecystitis as a Potentially Fatal Complication of Cerebrovascular Disease.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42507507/</link>
-      <guid isPermaLink="false">pmid:42507507</guid>
-      <category>Cardiovascular</category>
-      <description>This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.</description>
+      <description>The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.</description>
     </item>
   </channel>
 </rss>
