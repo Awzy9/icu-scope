@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T07:09:49+00:00",
+  "generated_at": "2026-07-28T07:12:24+00:00",
   "window_days": 60,
   "trending": {
     "window_days": 30,
@@ -826,19 +826,19 @@
     ]
   },
   "spotlight": {
-    "pmid": "42502453",
-    "title": "Toward Model-Informed Precision Dosing of Imipenem: Multicenter External Validation of Population Pharmacokinetic Models in Adult Critically Ill Patients.",
-    "journal": "Drug design, development and therapy",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42502453/",
-    "pubdate": "2026",
-    "why_selected": "This article is the most clinically significant pick because it aims to develop a precision dosing strategy for imipenem, a crucial antibiotic in critically ill patients, which has the potential to improve patient outcomes and reduce mortality.",
+    "pmid": "42496059",
+    "title": "Glycemic Ratio Is a Superior Predictor of Mortality Compared With Stress Hyperglycemia Ratio in Critically Ill Patients.",
+    "journal": "Journal of diabetes science and technology",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42496059/",
+    "pubdate": "2026 Jul 24",
+    "why_selected": "This article is selected for its novel approach to predicting mortality in critically ill patients, providing a more accurate assessment of glycemic control compared to traditional methods.",
     "discussion_prompts": [
-      "What are the implications of using model-informed precision dosing for imipenem in critically ill patients?",
-      "How can this approach be integrated into clinical practice, and what are the potential challenges?",
-      "What are the next steps in validating and implementing this approach in real-world settings?"
+      "How does the glycemic ratio compare to other prognostic indicators in critically ill patients?",
+      "What are the potential clinical implications of using the glycemic ratio in ICU decision-making?",
+      "Are there any limitations to the study's methodology that could impact the generalizability of the findings?"
     ],
-    "week": "2026-W31",
-    "generated_at": "2026-07-27T21:49:47+00:00"
+    "week": "2026-07-25",
+    "generated_at": "2026-07-28T07:12:24+00:00"
   },
   "categories": [
     {
