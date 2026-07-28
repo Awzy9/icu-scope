@@ -15,6 +15,13 @@
   const preprintList = document.getElementById("preprint-list");
   const preprintCount = document.getElementById("preprint-count");
   const preprintWindow = document.getElementById("preprint-window");
+  const trialSection = document.getElementById("trial-section");
+  const trialBody = document.getElementById("trial-body");
+  const trialList = document.getElementById("trial-list");
+  const trialCount = document.getElementById("trial-count");
+  const trialWindow = document.getElementById("trial-window");
+  const classicsBody = document.getElementById("classics-body");
+  const classicsList = document.getElementById("classics-list");
   const guidelineSection = document.getElementById("guideline-section");
   const guidelineBody = document.getElementById("guideline-body");
   const guidelineList = document.getElementById("guideline-list");
@@ -37,6 +44,8 @@
     { id: "trending", body: trendingBody, toggle: document.getElementById("trending-collapse-toggle") },
     { id: "foamed", body: foamedBody, toggle: document.getElementById("foamed-collapse-toggle") },
     { id: "preprint", body: preprintBody, toggle: document.getElementById("preprint-collapse-toggle") },
+    { id: "trial", body: trialBody, toggle: document.getElementById("trial-collapse-toggle") },
+    { id: "classics", body: classicsBody, toggle: document.getElementById("classics-collapse-toggle") },
   ];
   const themeToggle = document.getElementById("theme-toggle");
   const searchInput = document.getElementById("search-input");
@@ -59,6 +68,142 @@
     "procedures-pocus": "🩺",
     pharmacology: "💊",
   };
+
+  // Curated once, not part of the daily fetch pipeline. Each links to a
+  // PubMed search on the trial's distinctive title rather than a hardcoded
+  // PMID, since a mistyped PMID would silently point at the wrong paper.
+  const CLASSIC_TRIALS = [
+    {
+      title: "ARDSNet ARMA: Lower tidal volumes for ARDS",
+      journal: "New England Journal of Medicine",
+      pubdate: "2000",
+      authors: ["ARDS Network"],
+      doi: null,
+      abstract: "Established that ventilating with 6 mL/kg predicted body weight instead of the traditional 12 mL/kg reduced mortality in acute lung injury/ARDS — the trial that made low tidal volume ventilation standard of care.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=ventilation+lower+tidal+volumes+acute+respiratory+distress+syndrome+network",
+    },
+    {
+      title: "Rivers et al.: Early Goal-Directed Therapy in septic shock",
+      journal: "New England Journal of Medicine",
+      pubdate: "2001",
+      authors: ["Rivers E", "et al."],
+      doi: null,
+      abstract: "A single-center trial that popularized protocolized hemodynamic resuscitation (EGDT) for early severe sepsis/septic shock. Later multicenter trials (ProCESS, ARISE, ProMISe) failed to reproduce its mortality benefit, but it reshaped a generation of sepsis care.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=early+goal-directed+therapy+treatment+severe+sepsis+septic+shock+rivers",
+    },
+    {
+      title: "NICE-SUGAR: Intensive vs conventional glucose control",
+      journal: "New England Journal of Medicine",
+      pubdate: "2009",
+      authors: ["NICE-SUGAR Study Investigators"],
+      doi: null,
+      abstract: "Found that tight glycemic control (81-108 mg/dL) increased mortality compared to a more conventional target (<180 mg/dL) in critically ill adults, reversing the prior push toward intensive insulin therapy.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=intensive+versus+conventional+glucose+control+critically+ill+patients+NICE-SUGAR",
+    },
+    {
+      title: "PROSEVA: Prone positioning in severe ARDS",
+      journal: "New England Journal of Medicine",
+      pubdate: "2013",
+      authors: ["Guerin C", "et al."],
+      doi: null,
+      abstract: "Showed a substantial mortality reduction with early, prolonged prone positioning in severe ARDS, establishing prone ventilation as standard practice for this population.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=prone+positioning+severe+acute+respiratory+distress+syndrome+guerin",
+    },
+    {
+      title: "TTM Trial: Targeted temperature management after cardiac arrest",
+      journal: "New England Journal of Medicine",
+      pubdate: "2013",
+      authors: ["Nielsen N", "et al."],
+      doi: null,
+      abstract: "Found no difference in outcomes between targeting 33°C vs 36°C after out-of-hospital cardiac arrest, challenging the assumption that deeper cooling is necessary and shifting practice toward fever avoidance/targeted normothermia.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=targeted+temperature+management+33+36+degrees+after+cardiac+arrest+nielsen",
+    },
+    {
+      title: "ProCESS: Protocol-based care for early septic shock",
+      journal: "New England Journal of Medicine",
+      pubdate: "2014",
+      authors: ["ProCESS Investigators"],
+      doi: null,
+      abstract: "Along with ARISE and ProMISe, found no mortality benefit of protocolized EGDT over usual care in modern sepsis management, effectively retiring the strict Rivers protocol while keeping its underlying principles (early recognition, early antibiotics/fluids).",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=randomized+trial+protocol-based+care+early+septic+shock+ProCESS",
+    },
+    {
+      title: "EOLIA: ECMO for severe ARDS",
+      journal: "New England Journal of Medicine",
+      pubdate: "2018",
+      authors: ["Combes A", "et al."],
+      doi: null,
+      abstract: "A trial of early ECMO vs conventional ventilation (with crossover to ECMO as rescue) in very severe ARDS; the primary mortality endpoint was not statistically significant, but high crossover and post-hoc analyses kept ECMO's role in severe ARDS actively debated.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=extracorporeal+membrane+oxygenation+severe+acute+respiratory+distress+syndrome+combes",
+    },
+    {
+      title: "CRASH-2: Tranexamic acid in trauma hemorrhage",
+      journal: "The Lancet",
+      pubdate: "2010",
+      authors: ["CRASH-2 Collaborators"],
+      doi: null,
+      abstract: "A large multicenter trial showing tranexamic acid reduced death from bleeding in trauma patients when given early, especially within 3 hours of injury — now standard in trauma resuscitation protocols worldwide.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=effects+tranexamic+acid+death+vascular+occlusive+events+blood+transfusion+trauma+CRASH-2",
+    },
+    {
+      title: "SAFE Study: Albumin vs saline for fluid resuscitation",
+      journal: "New England Journal of Medicine",
+      pubdate: "2004",
+      authors: ["SAFE Study Investigators"],
+      doi: null,
+      abstract: "Found no overall mortality difference between 4% albumin and normal saline for ICU fluid resuscitation, though subgroup signals (traumatic brain injury did worse with albumin) still influence fluid choice today.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=comparison+albumin+saline+fluid+resuscitation+intensive+care+unit+SAFE+study",
+    },
+    {
+      title: "ADRENAL: Hydrocortisone in septic shock",
+      journal: "New England Journal of Medicine",
+      pubdate: "2018",
+      authors: ["ADRENAL Trial Investigators"],
+      doi: null,
+      abstract: "Found hydrocortisone sped resolution of septic shock and reduced time on ventilation/ICU length of stay, without a statistically significant 90-day mortality benefit — informing current selective-use steroid practice in refractory septic shock.",
+      citation_count: 0,
+      is_top_journal: true,
+      is_open_access: false,
+      study_type: "Landmark Trial",
+      url: "https://pubmed.ncbi.nlm.nih.gov/?term=adjunctive+glucocorticoid+therapy+patients+septic+shock+ADRENAL",
+    },
+  ];
 
   let rawData = null;
   let scrollHandler = null;
@@ -180,6 +325,8 @@
     (data.trending && data.trending.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.foamed && data.foamed.articles || []).forEach((a) => ids.add(`url:${a.url}`));
     (data.preprints && data.preprints.articles || []).forEach((a) => ids.add(`url:${a.url}`));
+    (data.trials && data.trials.articles || []).forEach((a) => ids.add(`url:${a.url}`));
+    CLASSIC_TRIALS.forEach((a) => ids.add(articleId(a)));
     (data.guidelines && data.guidelines.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.categories || []).forEach((c) => c.articles.forEach((a) => ids.add(articleId(a))));
     return ids;
@@ -194,6 +341,8 @@
     (data.trending && data.trending.articles || []).forEach(add);
     ((data.foamed && data.foamed.articles) || []).map(foamedToArticle).forEach(add);
     ((data.preprints && data.preprints.articles) || []).map(preprintToArticle).forEach(add);
+    ((data.trials && data.trials.articles) || []).map(trialToArticle).forEach(add);
+    CLASSIC_TRIALS.forEach(add);
     (data.guidelines && data.guidelines.articles || []).forEach(add);
     (data.categories || []).forEach((c) => c.articles.forEach(add));
     return map;
@@ -369,7 +518,13 @@
     const fullTextLink = article.pmc_url
       ? `<a href="${article.pmc_url}" target="_blank" rel="noopener">Free full text</a>`
       : "";
-    const readLabel = article.is_foamed ? "Read post" : (article.is_preprint ? "Read preprint" : "PubMed");
+    const readLabel = article.is_foamed
+      ? "Read post"
+      : article.is_preprint
+        ? "Read preprint"
+        : article.is_trial
+          ? "ClinicalTrials.gov"
+          : "PubMed";
 
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
@@ -476,6 +631,25 @@
     };
   }
 
+  function trialToArticle(item) {
+    return {
+      title: item.title,
+      journal: item.source,
+      pubdate: item.pubdate,
+      authors: [],
+      doi: null,
+      abstract: item.summary,
+      ai_summary: item.ai_summary,
+      ai_significance: item.ai_significance,
+      citation_count: 0,
+      is_top_journal: false,
+      is_open_access: true,
+      is_trial: true,
+      study_type: item.study_type || "Clinical Trial",
+      url: item.url,
+    };
+  }
+
   function renderTrending(trending, term, days, studyType) {
     const articles = filterList((trending && trending.articles) || [], term, days, studyType);
     if (!articles.length) {
@@ -511,6 +685,19 @@
     preprintCount.textContent = `${articles.length} preprint${articles.length === 1 ? "" : "s"}`;
     preprintList.innerHTML = "";
     articles.forEach((article) => preprintList.appendChild(articleCard(article)));
+  }
+
+  function renderTrials(trials, term, days, studyType) {
+    const articles = filterList(((trials && trials.articles) || []).map(trialToArticle), term, days, studyType);
+    trialWindow.textContent = trials ? trials.window_days : "";
+    if (!articles.length) {
+      trialSection.hidden = true;
+      return;
+    }
+    trialSection.hidden = false;
+    trialCount.textContent = `${articles.length} trial${articles.length === 1 ? "" : "s"}`;
+    trialList.innerHTML = "";
+    articles.forEach((article) => trialList.appendChild(articleCard(article)));
   }
 
   function renderGuidelines(guidelines, term, days, studyType) {
@@ -549,6 +736,11 @@
     `;
   }
 
+  function renderClassics() {
+    classicsList.innerHTML = "";
+    CLASSIC_TRIALS.forEach((trial) => classicsList.appendChild(articleCard(trial)));
+  }
+
   function renderSaved(articleIndex) {
     const saved = [...bookmarkedIds].map((id) => articleIndex.get(id)).filter(Boolean);
     savedCountBadge.textContent = String(saved.length);
@@ -568,6 +760,7 @@
     collect((data.trending && data.trending.articles) || []);
     collect(((data.foamed && data.foamed.articles) || []).map(foamedToArticle));
     collect(((data.preprints && data.preprints.articles) || []).map(preprintToArticle));
+    collect(((data.trials && data.trials.articles) || []).map(trialToArticle));
     collect((data.guidelines && data.guidelines.articles) || []);
     (data.categories || []).forEach((c) => collect(c.articles));
     const sorted = [...types].sort();
@@ -691,12 +884,14 @@
     renderTrending(rawData.trending, term, days, studyType);
     renderFoamed(rawData.foamed, term, days, studyType);
     renderPreprints(rawData.preprints, term, days, studyType);
+    renderTrials(rawData.trials, term, days, studyType);
     renderCategories(rawData.categories || [], term, days, studyType);
   }
 
   initTheme();
   initCompactView();
   initCollapsibleSections();
+  renderClassics();
   previousSeenIds = loadSeenIds();
   bookmarkedIds = loadBookmarks();
 

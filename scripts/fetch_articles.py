@@ -29,6 +29,13 @@ MEDRXIV_API = "https://api.biorxiv.org/details/medrxiv"
 MEDRXIV_CATEGORY = "intensive care and critical care medicine"
 PREPRINT_DAYS = int(os.environ.get("PREPRINT_DAYS", "14"))
 PREPRINT_MAX = int(os.environ.get("PREPRINT_MAX", "10"))
+
+CLINICALTRIALS_API = "https://clinicaltrials.gov/api/v2/studies"
+CLINICALTRIALS_CONDITIONS = "critical illness OR critical care OR intensive care unit OR sepsis OR septic shock OR ARDS"
+TRIALS_DAYS = int(os.environ.get("TRIALS_DAYS", "30"))
+TRIALS_CANDIDATES = int(os.environ.get("TRIALS_CANDIDATES", "40"))
+TRIALS_MAX = int(os.environ.get("TRIALS_MAX", "10"))
+
 REQUEST_DELAY = 0.4  # stay under NCBI's 3 req/sec unauthenticated limit
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
@@ -505,6 +512,67 @@ def build_preprints():
     return items[:PREPRINT_MAX]
 
 
+def build_trials():
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=TRIALS_DAYS)
+    params = {
+        "query.cond": CLINICALTRIALS_CONDITIONS,
+        "filter.overallStatus": "RECRUITING,ACTIVE_NOT_RECRUITING,COMPLETED",
+        "sort": "LastUpdatePostDate:desc",
+        "pageSize": TRIALS_CANDIDATES,
+        "format": "json",
+    }
+    qs = urllib.parse.urlencode(params)
+    url = f"{CLINICALTRIALS_API}?{qs}"
+    req = urllib.request.Request(url, headers={"User-Agent": f"{TOOL} (contact: {CONTACT_EMAIL})"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read())
+
+    items = []
+    for study in data.get("studies", []):
+        proto = study.get("protocolSection", {})
+        ident = proto.get("identificationModule", {})
+        status = proto.get("statusModule", {})
+        desc = proto.get("descriptionModule", {})
+        sponsor = (proto.get("sponsorCollaboratorsModule", {}) or {}).get("leadSponsor", {}) or {}
+
+        nct_id = ident.get("nctId", "")
+        title = re.sub(r"\s+", " ", ident.get("briefTitle") or ident.get("officialTitle") or "").strip()
+        if not nct_id or not title or is_pediatric({"title": title}):
+            continue
+
+        last_update = ((status.get("lastUpdatePostDateStruct") or {}).get("date") or "")
+        first_post = ((status.get("studyFirstPostDateStruct") or {}).get("date") or "")
+        pubdate = last_update or first_post
+        if pubdate:
+            try:
+                pd = datetime.strptime(pubdate[:10], "%Y-%m-%d").date()
+                if pd < start:
+                    continue
+            except ValueError:
+                pass
+
+        overall_status = (status.get("overallStatus") or "").replace("_", " ").title()
+        items.append(
+            {
+                "title": title,
+                "url": f"https://clinicaltrials.gov/study/{nct_id}",
+                "source": (sponsor.get("name") or "").strip() or "ClinicalTrials.gov",
+                "author": "",
+                "pubdate": pubdate,
+                "summary": strip_html(desc.get("briefSummary", ""))[:500],
+                "study_type": f"Clinical Trial ({overall_status})" if overall_status else "Clinical Trial",
+                "is_open_access": True,
+                "is_trial": True,
+                "nct_id": nct_id,
+            }
+        )
+        if len(items) >= TRIALS_MAX:
+            break
+
+    return items
+
+
 AI_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "ai_cache.json")
 
 
@@ -596,7 +664,7 @@ def article_ai_id(article):
     return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
 
 
-def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=()):
+def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=()):
     by_id = {}
 
     def register(article):
@@ -618,16 +686,18 @@ def gather_ai_targets(categories_out, trending_articles, foamed_articles, guidel
         register(a)
     for a in preprint_articles:
         register(a)
+    for a in trial_articles:
+        register(a)
     return by_id
 
 
-def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=()):
+def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=()):
     if not GROQ_API_KEY:
         print("  GROQ_API_KEY not set, skipping AI summaries")
         return
 
     cache = load_ai_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
 
     remaining_budget = AI_SUMMARY_MAX_PER_RUN
     new_count = 0
@@ -758,7 +828,7 @@ def xml_escape(text):
     )
 
 
-def build_rss_feed(categories_out, foamed_articles, preprint_articles=()):
+def build_rss_feed(categories_out, foamed_articles, preprint_articles=(), trial_articles=()):
     items = []
     for cat in categories_out:
         for a in cat["articles"]:
@@ -767,6 +837,8 @@ def build_rss_feed(categories_out, foamed_articles, preprint_articles=()):
         items.append((a, a.get("source", "FOAMed")))
     for a in preprint_articles:
         items.append((a, "Preprint"))
+    for a in trial_articles:
+        items.append((a, "Clinical Trial"))
 
     def sort_key(pair):
         return parsed_pubdate_for_sort(pair[0].get("pubdate", ""))
@@ -828,6 +900,7 @@ def load_archive():
     data.setdefault("foamed", {})
     data.setdefault("guidelines", {})
     data.setdefault("preprints", {})
+    data.setdefault("trials", {})
     return data
 
 
@@ -989,6 +1062,14 @@ def main():
         fresh_preprints = []
     preprint_articles = merge_into_bucket(archive["preprints"], fresh_preprints, lambda a: a["url"])
 
+    print("Fetching ClinicalTrials.gov tracker...")
+    try:
+        fresh_trials = build_trials()
+    except Exception as e:
+        print(f"  warning: trials fetch failed: {e}")
+        fresh_trials = []
+    trial_articles = merge_into_bucket(archive["trials"], fresh_trials, lambda a: a["nct_id"])
+
     save_archive(archive)
 
     # Run before the bulk AI summarization below so it isn't starved of
@@ -1002,7 +1083,7 @@ def main():
 
     print("Generating AI summaries...")
     try:
-        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles)
+        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
     except Exception as e:
         print(f"  warning: AI summarization failed: {e}")
 
@@ -1022,6 +1103,8 @@ def main():
         for a in foamed_articles:
             link_targets.append((f"url:{a['url']}", a["url"], a))
         for a in preprint_articles:
+            link_targets.append((f"url:{a['url']}", a["url"], a))
+        for a in trial_articles:
             link_targets.append((f"url:{a['url']}", a["url"], a))
         check_links(link_targets)
     except Exception as e:
@@ -1046,6 +1129,10 @@ def main():
             "window_days": PREPRINT_DAYS,
             "articles": preprint_articles,
         },
+        "trials": {
+            "window_days": TRIALS_DAYS,
+            "articles": trial_articles,
+        },
         "spotlight": spotlight,
         "categories": categories_out,
     }
@@ -1055,14 +1142,15 @@ def main():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     try:
-        build_rss_feed(categories_out, foamed_articles, preprint_articles)
+        build_rss_feed(categories_out, foamed_articles, preprint_articles, trial_articles)
     except Exception as e:
         print(f"  warning: RSS feed generation failed: {e}")
 
     total = sum(len(c["articles"]) for c in categories_out)
     print(f"Wrote {total} articles across {len(categories_out)} categories, "
           f"{len(trending_articles)} trending, {len(foamed_articles)} FOAMed posts, "
-          f"{len(guideline_articles)} guidelines, and {len(preprint_articles)} preprints to {out_path}")
+          f"{len(guideline_articles)} guidelines, {len(preprint_articles)} preprints, "
+          f"and {len(trial_articles)} trials to {out_path}")
 
 
 if __name__ == "__main__":
