@@ -54,6 +54,7 @@
   const compactToggle = document.getElementById("compact-toggle");
   const digestBtn = document.getElementById("digest-btn");
   const spotlightPrintBtn = document.getElementById("spotlight-print-btn");
+  const backToTopBtn = document.getElementById("back-to-top");
 
   const CATEGORY_ICONS = {
     cardiovascular: "❤️",
@@ -67,6 +68,20 @@
     "trauma-surgical": "🚑",
     "procedures-pocus": "🩺",
     pharmacology: "💊",
+  };
+
+  const CATEGORY_COLORS = {
+    cardiovascular: "#d6336c",
+    respiratory: "#1c7ed6",
+    neurology: "#7048e8",
+    renal: "#c92a2a",
+    "gi-nutrition": "#e8590c",
+    "endocrine-metabolic": "#0ca678",
+    "infectious-sepsis": "#2f9e44",
+    "hematology-coag": "#e03131",
+    "trauma-surgical": "#f08c00",
+    "procedures-pocus": "#1098ad",
+    pharmacology: "#9c36b5",
   };
 
   // Curated once, not part of the daily fetch pipeline. Each links to a
@@ -206,6 +221,7 @@
   ];
 
   let rawData = null;
+  let currentSearchTerm = "";
   let scrollHandler = null;
   const categorySort = {}; // category id -> "newest" | "cited"
   let previousSeenIds = new Set();
@@ -296,7 +312,7 @@
   }
 
   function setSectionCollapsed(entry, collapsed) {
-    entry.body.hidden = collapsed;
+    entry.body.classList.toggle("collapsed", collapsed);
     entry.toggle.setAttribute("aria-expanded", String(!collapsed));
     entry.toggle.textContent = collapsed ? "▸" : "▾";
   }
@@ -307,7 +323,7 @@
       const collapsed = state[entry.id] === undefined ? true : state[entry.id];
       setSectionCollapsed(entry, collapsed);
       entry.toggle.addEventListener("click", () => {
-        const nowCollapsed = !entry.body.hidden;
+        const nowCollapsed = !entry.body.classList.contains("collapsed");
         setSectionCollapsed(entry, nowCollapsed);
         const current = loadCollapseState();
         current[entry.id] = nowCollapsed;
@@ -368,6 +384,13 @@
     return String(str).replace(/[&<>"']/g, (c) => ({
       "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
     }[c]));
+  }
+
+  function highlightMatch(str, term) {
+    const escaped = escapeHtml(str);
+    if (!term) return escaped;
+    const escapedTerm = term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    return escaped.replace(new RegExp(`(${escapedTerm})`, "ig"), "<mark>$1</mark>");
   }
 
   function parsePubDate(str) {
@@ -481,7 +504,7 @@
     const hasAiSummary = !!(article.ai_summary || article.ai_significance);
     const abstractToggleLabel = hasAiSummary ? "Show original text" : "Show more";
     const abstractBlock = article.abstract
-      ? `<p class="article-abstract">${escapeHtml(article.abstract)}</p>
+      ? `<p class="article-abstract">${highlightMatch(article.abstract, currentSearchTerm)}</p>
          <button class="abstract-toggle" type="button">${abstractToggleLabel}</button>`
       : "";
     const aiBlock = hasAiSummary
@@ -529,7 +552,7 @@
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
-      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
+      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${highlightMatch(article.title, currentSearchTerm)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
@@ -786,10 +809,11 @@
       const chip = document.createElement("button");
       chip.className = "nav-chip" + (idx === 0 ? " active" : "");
       chip.setAttribute("aria-pressed", idx === 0 ? "true" : "false");
+      chip.style.setProperty("--cat-accent", CATEGORY_COLORS[cat.id] || "");
       chip.textContent = `${icon} ${cat.abbr} (${cat.articles.length})`;
       chip.addEventListener("click", () => {
         const body = document.getElementById(bodyId);
-        if (body && body.hidden) {
+        if (body && body.classList.contains("collapsed")) {
           document.querySelector(`#cat-${cat.id} .collapse-toggle`).click();
         }
         document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: "smooth", block: "start" });
@@ -799,6 +823,7 @@
       const section = document.createElement("section");
       section.className = "category-section";
       section.id = `cat-${cat.id}`;
+      section.style.setProperty("--cat-accent", CATEGORY_COLORS[cat.id] || "");
 
       const heading = document.createElement("div");
       heading.className = "category-heading";
@@ -841,7 +866,7 @@
       const collapsed = collapseState[collapseId] === undefined ? true : collapseState[collapseId];
       setSectionCollapsed(entry, collapsed);
       collapseToggle.addEventListener("click", () => {
-        const nowCollapsed = !body.hidden;
+        const nowCollapsed = !body.classList.contains("collapsed");
         setSectionCollapsed(entry, nowCollapsed);
         const current = loadCollapseState();
         current[collapseId] = nowCollapsed;
@@ -876,6 +901,7 @@
     const term = searchInput.value.trim().toLowerCase();
     const days = windowFilter.value === "all" ? null : Number(windowFilter.value);
     const studyType = studyTypeFilter.value;
+    currentSearchTerm = term;
 
     currentSessionIds = new Set();
     renderSpotlight(rawData.spotlight);
@@ -892,6 +918,13 @@
   initCompactView();
   initCollapsibleSections();
   renderClassics();
+
+  backToTopBtn.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  window.addEventListener("scroll", () => {
+    backToTopBtn.hidden = window.scrollY < 600;
+  }, { passive: true });
   previousSeenIds = loadSeenIds();
   bookmarkedIds = loadBookmarks();
 
@@ -901,7 +934,7 @@
   savedToggle.addEventListener("click", () => {
     if (savedSection.hidden) return;
     const savedEntry = COLLAPSIBLE_SECTIONS.find((e) => e.id === "saved");
-    if (savedBody.hidden) {
+    if (savedBody.classList.contains("collapsed")) {
       setSectionCollapsed(savedEntry, false);
       const current = loadCollapseState();
       current.saved = false;
@@ -911,12 +944,12 @@
   });
 
   spotlightPrintBtn.addEventListener("click", () => {
-    const wasHidden = spotlightBody.hidden;
-    spotlightBody.hidden = false;
+    const wasCollapsed = spotlightBody.classList.contains("collapsed");
+    spotlightBody.classList.remove("collapsed");
     document.body.classList.add("printing-spotlight");
     const restore = () => {
       document.body.classList.remove("printing-spotlight");
-      spotlightBody.hidden = wasHidden;
+      if (wasCollapsed) spotlightBody.classList.add("collapsed");
       window.removeEventListener("afterprint", restore);
     };
     window.addEventListener("afterprint", restore);
