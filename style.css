@@ -396,9 +396,20 @@ select:focus-visible {
   border-color: var(--foamed-border);
 }
 
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: -0.2rem 0 0.6rem;
+}
+
+.article-tags:empty {
+  display: none;
+  margin: 0;
+}
+
 .study-type-badge {
   display: inline-block;
-  margin-left: 0.5rem;
   padding: 0.1rem 0.55rem;
   border-radius: 999px;
   font-size: 0.76rem;
@@ -406,6 +417,17 @@ select:focus-visible {
   background: var(--surface-soft);
   color: var(--text-muted);
   border: 1px solid var(--border);
+}
+
+.society-badge {
+  display: inline-block;
+  padding: 0.1rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  background: var(--top-journal-bg);
+  color: var(--top-journal-accent);
+  border: 1px solid var(--top-journal-border);
 }
 
 .new-badge {
@@ -440,9 +462,27 @@ select:focus-visible {
 }
 
 .ai-summary-text {
-  margin: 0 0 0.5rem;
+  margin: 0;
   font-size: 0.92rem;
   color: var(--text);
+  max-height: 0;
+  overflow: hidden;
+}
+
+.ai-summary-text.expanded {
+  max-height: none;
+  margin: 0 0 0.5rem;
+}
+
+.ai-summary-toggle {
+  background: none;
+  border: none;
+  color: var(--ai-accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0 0 0.5rem;
+  display: block;
 }
 
 .ai-significance {

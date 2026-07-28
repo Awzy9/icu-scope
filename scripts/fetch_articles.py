@@ -38,8 +38,18 @@ ICU_CONTEXT = (
     'OR adolescent*[Title] OR "infant, newborn"[MeSH] OR "pediatrics"[MeSH] OR "child"[MeSH] OR "adolescent"[MeSH])'
 )
 
-TOP_JOURNAL_MATCHERS = ["new england journal of medicine", "jama"]
-TOP_JOURNAL_FILTER = '("N Engl J Med"[Journal] OR "JAMA"[Journal])'
+TOP_JOURNAL_MATCHERS = [
+    "new england journal of medicine",
+    "jama",
+    "intensive care medicine",
+    "critical care medicine",
+    "chest",
+    "american journal of respiratory and critical care medicine",
+]
+TOP_JOURNAL_FILTER = (
+    '("N Engl J Med"[Journal] OR "JAMA"[Journal] OR "Intensive Care Med"[Journal] '
+    'OR "Crit Care Med"[Journal] OR "Chest"[Journal] OR "Am J Respir Crit Care Med"[Journal])'
+)
 TOP_JOURNAL_EXTRA_PER_CATEGORY = int(os.environ.get("TOP_JOURNAL_EXTRA_PER_CATEGORY", "3"))
 
 PUB_TYPE_PRIORITY = [
@@ -58,6 +68,15 @@ PUB_TYPE_PRIORITY = [
 
 GUIDELINE_DAYS = int(os.environ.get("GUIDELINE_DAYS", "180"))
 GUIDELINE_MAX = int(os.environ.get("GUIDELINE_MAX", "10"))
+
+# Matched against title+abstract (lowercase) to badge guidelines issued by a
+# named critical-care society, in addition to whatever PubMed's own
+# guideline[pt] tagging catches.
+SOCIETY_GUIDELINE_MATCHERS = [
+    ("surviving sepsis campaign", "Surviving Sepsis Campaign"),
+    ("society of critical care medicine", "SCCM"),
+    ("european society of intensive care medicine", "ESICM"),
+]
 
 FOAMED_KEYWORDS = [
     "critical care", "intensive care", "icu", "resuscitat", "sepsis", "septic",
@@ -296,10 +315,21 @@ def build_trending():
     return [article_from_summary(pmid, s, abstracts) for pmid, s in ranked]
 
 
+def detect_society(title, abstract):
+    haystack = f"{title} {abstract}".lower()
+    for needle, name in SOCIETY_GUIDELINE_MATCHERS:
+        if needle in haystack:
+            return name
+    return None
+
+
 def build_guidelines():
     query = (
         f'{ICU_CONTEXT} AND (guideline[pt] OR "practice guideline"[pt] '
-        'OR "consensus development conference"[pt])'
+        'OR "consensus development conference"[pt] '
+        'OR "Surviving Sepsis Campaign"[Title/Abstract] '
+        'OR "Society of Critical Care Medicine"[Title/Abstract] '
+        'OR "European Society of Intensive Care Medicine"[Title/Abstract])'
     )
     pmids = esearch(query, GUIDELINE_DAYS, GUIDELINE_MAX)
     time.sleep(REQUEST_DELAY)
@@ -308,7 +338,14 @@ def build_guidelines():
     abstracts = efetch_abstracts(pmids)
     time.sleep(REQUEST_DELAY)
 
-    return [article_from_summary(pmid, summaries[pmid], abstracts) for pmid in pmids if pmid in summaries]
+    articles = []
+    for pmid in pmids:
+        if pmid not in summaries:
+            continue
+        article = article_from_summary(pmid, summaries[pmid], abstracts)
+        article["society"] = detect_society(article["title"], article["abstract"])
+        articles.append(article)
+    return articles
 
 
 def strip_html(text):

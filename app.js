@@ -279,8 +279,9 @@
     const aiBlock = hasAiSummary
       ? `<div class="ai-summary">
            <div class="ai-summary-label">✨ AI Summary</div>
-           ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
            ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
+           ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
+           ${article.ai_summary ? `<button class="ai-summary-toggle" type="button">Show full summary</button>` : ""}
            <p class="ai-disclaimer">AI-generated — verify against the source before relying on it clinically.</p>
          </div>`
       : "";
@@ -294,18 +295,22 @@
       ? `<span class="foamed-badge">FOAMed</span>`
       : "";
     const newBadge = isNew ? `<span class="new-badge">● New</span>` : "";
-    const studyTypeBadge = article.study_type && article.study_type !== "Study"
+    const studyTypeBadge = article.study_type
       ? `<span class="study-type-badge">${escapeHtml(article.study_type)}</span>`
+      : "";
+    const societyBadge = article.society
+      ? `<span class="society-badge">${escapeHtml(article.society)}</span>`
       : "";
 
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
-      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${newBadge}${topJournalBadge}${foamedBadge}${studyTypeBadge}${citationBadge}</h3>
+      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
+      <div class="article-tags">${studyTypeBadge}${societyBadge}</div>
       ${aiBlock}
       ${abstractBlock}
       <div class="article-links">
@@ -322,6 +327,15 @@
       toggle.addEventListener("click", () => {
         const expanded = abstractEl.classList.toggle("expanded");
         toggle.textContent = expanded ? "Show less" : abstractToggleLabel;
+      });
+    }
+
+    const aiToggle = card.querySelector(".ai-summary-toggle");
+    const aiSummaryEl = card.querySelector(".ai-summary-text");
+    if (aiToggle && aiSummaryEl) {
+      aiToggle.addEventListener("click", () => {
+        const expanded = aiSummaryEl.classList.toggle("expanded");
+        aiToggle.textContent = expanded ? "Hide full summary" : "Show full summary";
       });
     }
 
