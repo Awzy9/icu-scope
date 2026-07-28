@@ -279,8 +279,9 @@
     const aiBlock = hasAiSummary
       ? `<div class="ai-summary">
            <div class="ai-summary-label">✨ AI Summary</div>
-           ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
            ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
+           ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
+           ${article.ai_summary ? `<button class="ai-summary-toggle" type="button">Show full summary</button>` : ""}
            <p class="ai-disclaimer">AI-generated — verify against the source before relying on it clinically.</p>
          </div>`
       : "";
@@ -294,18 +295,22 @@
       ? `<span class="foamed-badge">FOAMed</span>`
       : "";
     const newBadge = isNew ? `<span class="new-badge">● New</span>` : "";
-    const studyTypeBadge = article.study_type && article.study_type !== "Study"
+    const studyTypeBadge = article.study_type
       ? `<span class="study-type-badge">${escapeHtml(article.study_type)}</span>`
+      : "";
+    const societyBadge = article.society
+      ? `<span class="society-badge">${escapeHtml(article.society)}</span>`
       : "";
 
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
-      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${newBadge}${topJournalBadge}${foamedBadge}${studyTypeBadge}${citationBadge}</h3>
+      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${escapeHtml(article.title)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
+      <div class="article-tags">${studyTypeBadge}${societyBadge}</div>
       ${aiBlock}
       ${abstractBlock}
       <div class="article-links">
@@ -322,6 +327,15 @@
       toggle.addEventListener("click", () => {
         const expanded = abstractEl.classList.toggle("expanded");
         toggle.textContent = expanded ? "Show less" : abstractToggleLabel;
+      });
+    }
+
+    const aiToggle = card.querySelector(".ai-summary-toggle");
+    const aiSummaryEl = card.querySelector(".ai-summary-text");
+    if (aiToggle && aiSummaryEl) {
+      aiToggle.addEventListener("click", () => {
+        const expanded = aiSummaryEl.classList.toggle("expanded");
+        aiToggle.textContent = expanded ? "Hide full summary" : "Show full summary";
       });
     }
 
@@ -466,13 +480,21 @@
       articles: sortArticles(categorySort[cat.id] || "newest", filterList(cat.articles, term, days, studyType)),
     }));
 
+    const collapseState = loadCollapseState();
+
     filtered.forEach((cat, idx) => {
       const icon = CATEGORY_ICONS[cat.id] || "";
+      const collapseId = `category-${cat.id}`;
+      const bodyId = `cat-body-${cat.id}`;
       const chip = document.createElement("button");
       chip.className = "nav-chip" + (idx === 0 ? " active" : "");
       chip.setAttribute("aria-pressed", idx === 0 ? "true" : "false");
       chip.textContent = `${icon} ${cat.abbr} (${cat.articles.length})`;
       chip.addEventListener("click", () => {
+        const body = document.getElementById(bodyId);
+        if (body && body.hidden) {
+          document.querySelector(`#cat-${cat.id} .collapse-toggle`).click();
+        }
         document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: "smooth", block: "start" });
       });
       nav.appendChild(chip);
@@ -485,6 +507,7 @@
       heading.className = "category-heading";
       const mode = categorySort[cat.id] || "newest";
       heading.innerHTML = `
+        <button class="collapse-toggle" type="button" aria-controls="${bodyId}">▸</button>
         <h2>${icon} ${escapeHtml(cat.label)}</h2>
         <span class="category-count">${cat.articles.length} article${cat.articles.length === 1 ? "" : "s"}</span>
         <div class="sort-toggle">
@@ -500,16 +523,33 @@
       });
       section.appendChild(heading);
 
+      const body = document.createElement("div");
+      body.className = "section-body category-body";
+      body.id = bodyId;
+
       if (!cat.articles.length) {
         const empty = document.createElement("p");
         empty.className = "empty";
         empty.textContent = "No articles match the current filters.";
-        section.appendChild(empty);
+        body.appendChild(empty);
       } else {
-        cat.articles.forEach((article) => section.appendChild(articleCard(article)));
+        cat.articles.forEach((article) => body.appendChild(articleCard(article)));
       }
 
+      section.appendChild(body);
       content.appendChild(section);
+
+      const collapseToggle = heading.querySelector(".collapse-toggle");
+      const entry = { body, toggle: collapseToggle };
+      const collapsed = collapseState[collapseId] === undefined ? true : collapseState[collapseId];
+      setSectionCollapsed(entry, collapsed);
+      collapseToggle.addEventListener("click", () => {
+        const nowCollapsed = !body.hidden;
+        setSectionCollapsed(entry, nowCollapsed);
+        const current = loadCollapseState();
+        current[collapseId] = nowCollapsed;
+        saveCollapseState(current);
+      });
     });
 
     if (scrollHandler) {
