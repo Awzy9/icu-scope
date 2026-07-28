@@ -34,7 +34,6 @@ jobs:
           AI_SUMMARY_MAX_PER_RUN: "40"
           GUIDELINE_DAYS: "180"
           GUIDELINE_MAX: "10"
-          TOP_JOURNAL_EXTRA_PER_CATEGORY: "3"
         run: python scripts/fetch_articles.py
 
       - name: Commit and push if changed

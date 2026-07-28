@@ -38,19 +38,30 @@ ICU_CONTEXT = (
     'OR adolescent*[Title] OR "infant, newborn"[MeSH] OR "pediatrics"[MeSH] OR "child"[MeSH] OR "adolescent"[MeSH])'
 )
 
+# Category feeds and trending are restricted to this journal allowlist —
+# the "best" general + critical-care-specific journals — rather than a
+# broad keyword search across every indexed journal.
+JOURNAL_FILTER = (
+    '("N Engl J Med"[Journal] OR "JAMA"[Journal] OR "Lancet"[Journal] '
+    'OR "Lancet Respir Med"[Journal] OR "Intensive Care Med"[Journal] '
+    'OR "Crit Care Med"[Journal] OR "Am J Respir Crit Care Med"[Journal] '
+    'OR "Chest"[Journal] OR "Crit Care"[Journal])'
+)
+
+# Substring matchers for is_top_journal() below. "lancet" and "critical care"
+# are handled separately (bare-name-or-"(London, England)"-suffix check)
+# since a plain substring match would also catch sister journals like
+# "Lancet Oncology" or "Journal of Critical Care".
 TOP_JOURNAL_MATCHERS = [
     "new england journal of medicine",
     "jama",
+    "lancet respiratory medicine",
     "intensive care medicine",
     "critical care medicine",
     "chest",
     "american journal of respiratory and critical care medicine",
 ]
-TOP_JOURNAL_FILTER = (
-    '("N Engl J Med"[Journal] OR "JAMA"[Journal] OR "Intensive Care Med"[Journal] '
-    'OR "Crit Care Med"[Journal] OR "Chest"[Journal] OR "Am J Respir Crit Care Med"[Journal])'
-)
-TOP_JOURNAL_EXTRA_PER_CATEGORY = int(os.environ.get("TOP_JOURNAL_EXTRA_PER_CATEGORY", "3"))
+TOP_JOURNAL_BARE_NAMES = ("lancet", "critical care")
 
 PUB_TYPE_PRIORITY = [
     "Randomized Controlled Trial",
@@ -238,7 +249,10 @@ def doi_for(summary):
 
 
 def is_top_journal(journal_name):
-    lowered = (journal_name or "").lower()
+    lowered = (journal_name or "").lower().strip()
+    for base in TOP_JOURNAL_BARE_NAMES:
+        if lowered == base or lowered.startswith(base + " ("):
+            return True
     return any(m in lowered for m in TOP_JOURNAL_MATCHERS)
 
 
@@ -271,24 +285,17 @@ def article_from_summary(pmid, s, abstracts):
 
 
 def build_category(cat):
-    pmids = esearch(cat["query"], RELDATE_DAYS, MAX_PER_CATEGORY)
+    query = f'{cat["query"]} AND {JOURNAL_FILTER}'
+    pmids = esearch(query, RELDATE_DAYS, MAX_PER_CATEGORY)
     time.sleep(REQUEST_DELAY)
 
-    # Top journals (NEJM/JAMA) rarely win a relevance-ranked top-N slice for a
-    # niche ICU topic, so fetch a few explicitly rather than relying on luck.
-    top_journal_query = f'{cat["query"]} AND {TOP_JOURNAL_FILTER}'
-    top_pmids = esearch(top_journal_query, RELDATE_DAYS, TOP_JOURNAL_EXTRA_PER_CATEGORY)
+    summaries = esummary(pmids)
     time.sleep(REQUEST_DELAY)
-
-    combined_pmids = list(dict.fromkeys(pmids + [p for p in top_pmids if p not in pmids]))
-
-    summaries = esummary(combined_pmids)
-    time.sleep(REQUEST_DELAY)
-    abstracts = efetch_abstracts(combined_pmids)
+    abstracts = efetch_abstracts(pmids)
     time.sleep(REQUEST_DELAY)
 
     articles = []
-    for pmid in combined_pmids:
+    for pmid in pmids:
         s = summaries.get(pmid)
         if not s:
             continue
@@ -297,7 +304,8 @@ def build_category(cat):
 
 
 def build_trending():
-    pmids = esearch(ICU_CONTEXT, TRENDING_DAYS, TRENDING_CANDIDATES)
+    query = f'{ICU_CONTEXT} AND {JOURNAL_FILTER}'
+    pmids = esearch(query, TRENDING_DAYS, TRENDING_CANDIDATES)
     time.sleep(REQUEST_DELAY)
     summaries = esummary(pmids)
     time.sleep(REQUEST_DELAY)
