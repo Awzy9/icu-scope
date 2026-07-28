@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 28 Jul 2026 07:12:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:30:24 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -13,25 +13,25 @@
       <description>This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.</description>
     </item>
     <item>
+      <title>Mechanisms and therapeutic strategies of pyroptosis in sepsis‑induced acute lung injury (Review).</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42495753/</link>
+      <guid isPermaLink="false">pmid:42495753</guid>
+      <category>Respiratory</category>
+      <description>This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.</description>
+    </item>
+    <item>
+      <title>Fluid and Electrolyte Management in Critically Ill Patients with Infections.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42498336/</link>
+      <guid isPermaLink="false">pmid:42498336</guid>
+      <category>Renal</category>
+      <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
       <title>Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42467893/</link>
       <guid isPermaLink="false">pmid:42467893</guid>
       <category>GI &amp; Nutrition</category>
       <description></description>
-    </item>
-    <item>
-      <title>Diabetic ketoacidosis induced by long-acting growth hormone in a child without preexisting diabetes.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42488375/</link>
-      <guid isPermaLink="false">pmid:42488375</guid>
-      <category>Endocrine &amp; Metabolic</category>
-      <description>A 13-year-old boy developed severe diabetic ketoacidosis after starting long-acting growth hormone therapy, despite having no pre-existing diabetes. The condition resolved with insulin and fluid therapy. The case highlights the potential for growth hormone therapy to cause insulin resistance and diabetic ketoacidosis.</description>
-    </item>
-    <item>
-      <title>Point-of-Care Echocardiography in Pediatric and Neonatal Care.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42507072/</link>
-      <guid isPermaLink="false">pmid:42507072</guid>
-      <category>Cardiovascular</category>
-      <description>This review discusses the use of point-of-care echocardiography in pediatric and neonatal care, highlighting its ability to quickly assess cardiac function and guide management decisions. POCE is a focused tool for bedside evaluation, unlike comprehensive echocardiography. It helps clinicians make rapid time-sensitive decisions.</description>
     </item>
     <item>
       <title>Postinsertion care practices for nontunnelled dialysis catheters in intensive care: A cross-sectional survey.</title>
@@ -90,32 +90,18 @@
       <description>Dr. Sarah Crager discusses bedside shock management, moving beyond blood pressure targets to a dynamic approach. They address clinical dilemmas, including lactated Ringer's in lactic acidosis and albumin and diuretics in edematous patients. A real-world approach to fluid management is explored.</description>
     </item>
     <item>
-      <title>Combined metabolic risk and admission lactate-to-bicarbonate ratio in critically ill children: a retrospective pediatric ıntensive care cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42501114/</link>
-      <guid isPermaLink="false">pmid:42501114</guid>
-      <category>Respiratory</category>
-      <description>This study in critically ill children found that those with both high lactate and acidosis at admission were at higher risk of death and needed more organ support. A new risk classification system using both factors may help doctors quickly identify high-risk patients. The study also found that lactate levels alone can be a useful marker of risk, but should be used alongside other measures.</description>
-    </item>
-    <item>
-      <title>Combined metabolic risk and admission lactate-to-bicarbonate ratio in critically ill children: a retrospective pediatric ıntensive care cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42501114/</link>
-      <guid isPermaLink="false">pmid:42501114</guid>
-      <category>Renal</category>
-      <description>This study in critically ill children found that those with both high lactate and acidosis at admission were at higher risk of death and needed more organ support. A new risk classification system using both factors may help doctors quickly identify high-risk patients. The study also found that lactate levels alone can be a useful marker of risk, but should be used alongside other measures.</description>
-    </item>
-    <item>
-      <title>Combined metabolic risk and admission lactate-to-bicarbonate ratio in critically ill children: a retrospective pediatric ıntensive care cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42501114/</link>
-      <guid isPermaLink="false">pmid:42501114</guid>
-      <category>Endocrine &amp; Metabolic</category>
-      <description>This study in critically ill children found that those with both high lactate and acidosis at admission were at higher risk of death and needed more organ support. A new risk classification system using both factors may help doctors quickly identify high-risk patients. The study also found that lactate levels alone can be a useful marker of risk, but should be used alongside other measures.</description>
-    </item>
-    <item>
       <title>Tooth brushing versus routine oral care impact on ventilator-associated pneumonia in PICU: a clinical trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42502162/</link>
       <guid isPermaLink="false">pmid:42502162</guid>
       <category>Respiratory</category>
       <description>This study compared toothbrushing with chlorhexidine to routine oral care in 118 children on ventilators in the PICU. While there was no significant difference in ventilator-associated pneumonia (VAP) incidence, there was a trend towards reduced VAP and improved outcomes in the toothbrushing group. The study suggests that enhanced oral hygiene may be beneficial in the PICU.</description>
+    </item>
+    <item>
+      <title>Association between energy adequacy and clinical outcomes in septic ICU patients stratified by modified NUTRIC score.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42493817/</link>
+      <guid isPermaLink="false">pmid:42493817</guid>
+      <category>Respiratory</category>
+      <description>This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.</description>
     </item>
     <item>
       <title>Early Identification of Recovery Potential After Acute Brain Injury Using Functional Near-Infrared Spectroscopy.</title>
@@ -167,25 +153,11 @@
       <description>Researchers found that nearly half of positive medical trial results cannot be replicated, highlighting issues with trust in medical literature.</description>
     </item>
     <item>
-      <title>Comparative performance of 24G and 26G short peripheral catheters in neonates: a single-centre retrospective cohort study in a tertiary neonatal intensive care unit.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42493201/</link>
-      <guid isPermaLink="false">pmid:42493201</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>Researchers compared 24G and 26G short peripheral catheters in neonates and found that 26G catheters had a slightly longer dwell time and higher first-attempt insertion success rates, but similar complication rates.</description>
-    </item>
-    <item>
       <title>Regional Citrate Anticoagulation Versus No Anticoagulation During Continuous Renal Replacement Therapy in Critically Ill Patients at High Risk of Bleeding: A Meta-analysis of Randomized Controlled Trials.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42490008/</link>
       <guid isPermaLink="false">pmid:42490008</guid>
       <category>Hematology &amp; Coagulation</category>
       <description>This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.</description>
-    </item>
-    <item>
-      <title>Paediatric Intubation Checklist</title>
-      <link>https://litfl.com/paediatric-intubation-checklist/</link>
-      <guid isPermaLink="false">https://litfl.com/paediatric-intubation-checklist/</guid>
-      <category>LITFL</category>
-      <description>A checklist was developed to standardize pediatric intubation procedures, covering preparation, equipment selection, and post-intubation care.</description>
     </item>
     <item>
       <title>Metabolomic Signatures of Biotrauma Associated with Mortality in ICU Patients Requiring Invasive Mechanical Ventilation and ECMO.</title>
@@ -200,13 +172,6 @@
       <guid isPermaLink="false">pmid:42486401</guid>
       <category>GI &amp; Nutrition</category>
       <description>This review of 29 studies found that high-protein nutritional strategies and supplementation with β-hydroxy-β-methyl butyrate can help preserve muscle mass and strength in critically ill patients. However, physical function showed less responsiveness to interventions. Multimodal approaches may be needed for functional recovery.</description>
-    </item>
-    <item>
-      <title>Feeding or Failing? Rethinking Nutrition Therapy in Pediatric Critical Care.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42484982/</link>
-      <guid isPermaLink="false">pmid:42484982</guid>
-      <category>GI &amp; Nutrition</category>
-      <description>This review examined the importance of nutrition in pediatric ICU patients, highlighting the need for early enteral nutrition and individualized strategies to meet metabolic demands.</description>
     </item>
     <item>
       <title>A Cross-sectional Study to Examine the Prognostic Value of Glycated Hemoglobin Levels and Glycated Hemoglobin-adjusted Glycemic Variables in Patients with Acute Exacerbation of Chronic Obstructive Pulmonary Disease.</title>
@@ -321,13 +286,6 @@
       <description>This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.</description>
     </item>
     <item>
-      <title>The interplay between early energy intake and nosocomial infection risk in the critically ill neonate.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42470081/</link>
-      <guid isPermaLink="false">pmid:42470081</guid>
-      <category>GI &amp; Nutrition</category>
-      <description>Researchers studied 200 critically ill neonates to see if early nutrition affects the risk of hospital-acquired infections. They found that achieving energy targets early on reduced the risk of infection, especially in very low birth weight infants.</description>
-    </item>
-    <item>
       <title>High-Dose Intravenous Vitamin C in Critical Illness: A Translational Exposure-Response Framework for Biomarker-Guided Precision Therapy.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42506369/</link>
       <guid isPermaLink="false">pmid:42506369</guid>
@@ -368,6 +326,13 @@
       <guid isPermaLink="false">pmid:42458534</guid>
       <category>Hematology &amp; Coagulation</category>
       <description>Researchers studied 100 ICU patients to see if disseminated intravascular coagulation (DIC) is linked to a condition called persistent inflammation, immunosuppression, and catabolism syndrome (PIICS). They found that DIC occurring after 8 days in the ICU may increase the risk of PIICS. The study suggests that coagulopathy during the middle phase of ICU stay may contribute to PIICS.</description>
+    </item>
+    <item>
+      <title>Association of the pan-immune-inflammation value with 60-day in-hospital mortality in critically ill patients with acute myocardial infarction: evidence from the MIMIC-IV database.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42449240/</link>
+      <guid isPermaLink="false">pmid:42449240</guid>
+      <category>Hematology &amp; Coagulation</category>
+      <description>Researchers analyzed the relationship between a measure of inflammation (pan-immune-inflammation value or PIV) and death in critically ill patients with heart attacks. They found that higher PIV levels were associated with increased risk of death, but only above a certain threshold. This suggests that PIV could be a useful tool for identifying patients at high risk of death.</description>
     </item>
     <item>
       <title>Beyond Description: A Functional GIUS-Based Algorithm for Enteral Feeding Decisions in the ICU.</title>
@@ -424,6 +389,41 @@
       <guid isPermaLink="false">pmid:42418776</guid>
       <category>Renal</category>
       <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
+    </item>
+    <item>
+      <title>Nutrition Therapy in Critically Ill Adults.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
+      <guid isPermaLink="false">pmid:42418776</guid>
+      <category>GI &amp; Nutrition</category>
+      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
+    </item>
+    <item>
+      <title>Nutrition Therapy in Critically Ill Adults.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
+      <guid isPermaLink="false">pmid:42418776</guid>
+      <category>Endocrine &amp; Metabolic</category>
+      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
+    </item>
+    <item>
+      <title>Patient preparation for ICU bronchoscopy</title>
+      <link>https://litfl.com/patient-preparation-for-icu-bronchoscopy/</link>
+      <guid isPermaLink="false">https://litfl.com/patient-preparation-for-icu-bronchoscopy/</guid>
+      <category>LITFL</category>
+      <description>Researchers identified key considerations for preparing ICU patients for bronchoscopy, including time out, consent, and patient positioning. They also highlighted the importance of awake versus intubated &amp; sedated bronchoscopy and effective teamwork. The study aimed to improve safety during ICU bronchoscopy.</description>
+    </item>
+    <item>
+      <title>Nicotine Withdrawal Syndrome in Intensive Care Patients-Preventive and Therapeutic Implications.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42506343/</link>
+      <guid isPermaLink="false">pmid:42506343</guid>
+      <category>Neurology</category>
+      <description>This study reviewed nicotine withdrawal in ICU patients, finding that smoking-related status is linked to agitation and delirium, but evidence on nicotine withdrawal syndrome is limited. The study suggests that routine identification of nicotine dependence and monitoring of withdrawal symptoms could improve patient care. NRT may be beneficial but its effectiveness and safety are uncertain.</description>
+    </item>
+    <item>
+      <title>Acute Cholecystitis as a Potentially Fatal Complication of Cerebrovascular Disease.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42507507/</link>
+      <guid isPermaLink="false">pmid:42507507</guid>
+      <category>Cardiovascular</category>
+      <description>This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.</description>
     </item>
   </channel>
 </rss>
