@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=14" />
+  <link rel="stylesheet" href="style.css?v=15" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -28,10 +29,24 @@
     <div class="header-inner">
       <div class="header-text">
         <div class="brand">
+          <svg class="brand-icon" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M4 17 H10 L13 9 L18 24 L21 14 L23 17 H28"
+                  fill="none" stroke="currentColor" stroke-width="2.6"
+                  stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
           <span class="brand-mark">ICU</span>
           <span class="brand-name">Scope</span>
         </div>
         <p class="tagline">ICU literature, guidelines &amp; FOAMed — organized by system</p>
+        <p class="sources-line">
+          Sources: <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed</a>
+          (NEJM, JAMA, The Lancet, Lancet Respir Med, Intensive Care Med, Crit Care Med, Am J Respir Crit Care Med, Chest, Critical Care)
+          · <a href="https://emcrit.org/" target="_blank" rel="noopener">EMCrit</a>/<a href="https://emcrit.org/category/pulmcrit/" target="_blank" rel="noopener">PulmCrit</a>,
+          <a href="https://rebelem.com/" target="_blank" rel="noopener">REBEL EM</a>,
+          <a href="https://litfl.com/" target="_blank" rel="noopener">LITFL</a>
+          · <a href="https://www.medrxiv.org/" target="_blank" rel="noopener">medRxiv</a>
+          · <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a>
+        </p>
         <p class="updated-line" id="updated-line">Loading update time…</p>
       </div>
       <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">🔖 <span id="saved-count-badge">0</span></button>
@@ -143,7 +158,27 @@
       </div>
     </section>
     <div id="content">
-      <p class="loading">Loading latest articles…</p>
+      <div class="skeleton-list" aria-hidden="true">
+        <div class="skeleton-card">
+          <div class="skeleton-line skeleton-title"></div>
+          <div class="skeleton-line skeleton-title short"></div>
+          <div class="skeleton-line skeleton-meta"></div>
+          <div class="skeleton-line skeleton-text"></div>
+          <div class="skeleton-line skeleton-text short"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line skeleton-title"></div>
+          <div class="skeleton-line skeleton-meta"></div>
+          <div class="skeleton-line skeleton-text"></div>
+          <div class="skeleton-line skeleton-text short"></div>
+        </div>
+        <div class="skeleton-card">
+          <div class="skeleton-line skeleton-title"></div>
+          <div class="skeleton-line skeleton-title short"></div>
+          <div class="skeleton-line skeleton-meta"></div>
+          <div class="skeleton-line skeleton-text"></div>
+        </div>
+      </div>
     </div>
   </main>
 
@@ -155,6 +190,8 @@
     <p><a href="feed.xml">📡 Subscribe via RSS</a></p>
   </footer>
 
-  <script src="app.js?v=10"></script>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
+
+  <script src="app.js?v=11"></script>
 </body>
 </html>
