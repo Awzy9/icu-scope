@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 28 Jul 2026 05:38:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 07:09:49 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -237,6 +237,13 @@
       <description>This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.</description>
     </item>
     <item>
+      <title>Remote Multicomponent Rehabilitation in Intensive Care Unit Survivors: A Randomized Clinical Trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42150121/</link>
+      <guid isPermaLink="false">pmid:42150121</guid>
+      <category>Respiratory</category>
+      <description>This study investigated the effects of a 6-week remote rehabilitation program on health-related quality of life in ICU survivors who required mechanical ventilation. The program included symptom management, exercise, and psychological support. The results showed no significant improvement in health-related quality of life at 8 weeks compared to standard care.</description>
+    </item>
+    <item>
       <title>Incidence of Dependency-Related Skin Injury in Critical Care: A Longitudinal Study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42506042/</link>
       <guid isPermaLink="false">pmid:42506042</guid>
@@ -398,6 +405,13 @@
       <description>This study reviews airway anatomy to help clinicians understand the basics of bronchoscopy and airway management, highlighting normal variations and potential abnormalities.</description>
     </item>
     <item>
+      <title>Nutrition Therapy in Critically Ill Adults.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
+      <guid isPermaLink="false">pmid:42418776</guid>
+      <category>Cardiovascular</category>
+      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
+    </item>
+    <item>
       <title>Agreement of Electrolyte Measurements Between Arterial Blood Gas Analyzers and Central Laboratories in Critically Ill Patients with Acute Kidney Injury.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42506352/</link>
       <guid isPermaLink="false">pmid:42506352</guid>
@@ -405,25 +419,11 @@
       <description>This study compared electrolyte measurements from arterial blood gas (ABG) analyzers to central laboratory analyzers in critically ill patients with acute kidney injury (AKI). The results showed relatively good agreement for sodium and potassium measurements, but clinically meaningful discrepancies occurred in a subset of measurements. The study suggests that ABG-derived electrolyte measurements can support rapid bedside assessment, but central laboratory measurements remain the reference standa</description>
     </item>
     <item>
-      <title>Patient preparation for ICU bronchoscopy</title>
-      <link>https://litfl.com/patient-preparation-for-icu-bronchoscopy/</link>
-      <guid isPermaLink="false">https://litfl.com/patient-preparation-for-icu-bronchoscopy/</guid>
-      <category>LITFL</category>
-      <description>Researchers identified key considerations for preparing ICU patients for bronchoscopy, including time out, consent, and patient positioning. They also highlighted the importance of awake versus intubated &amp; sedated bronchoscopy and effective teamwork. The study aimed to improve safety during ICU bronchoscopy.</description>
-    </item>
-    <item>
-      <title>Nicotine Withdrawal Syndrome in Intensive Care Patients-Preventive and Therapeutic Implications.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506343/</link>
-      <guid isPermaLink="false">pmid:42506343</guid>
-      <category>Neurology</category>
-      <description>This study reviewed nicotine withdrawal in ICU patients, finding that smoking-related status is linked to agitation and delirium, but evidence on nicotine withdrawal syndrome is limited. The study suggests that routine identification of nicotine dependence and monitoring of withdrawal symptoms could improve patient care. NRT may be beneficial but its effectiveness and safety are uncertain.</description>
-    </item>
-    <item>
-      <title>External validation of a model informed precision dosing software for cefotaxime for treating critical ill infants and children.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506983/</link>
-      <guid isPermaLink="false">pmid:42506983</guid>
-      <category>Infectious Disease &amp; Sepsis</category>
-      <description>A model-informed precision dosing software was tested for predicting cefotaxime concentrations in critically ill infants and children. The software showed improved accuracy when using measured blood samples, achieving target drug concentrations in over 90% of simulations. This could help treat severe infections more effectively.</description>
+      <title>Nutrition Therapy in Critically Ill Adults.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42418776/</link>
+      <guid isPermaLink="false">pmid:42418776</guid>
+      <category>Renal</category>
+      <description>Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.</description>
     </item>
   </channel>
 </rss>

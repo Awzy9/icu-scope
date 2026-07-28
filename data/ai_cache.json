@@ -1,4 +1,24 @@
 {
+  "pmid:42507072": {
+    "summary": "This review discusses the use of point-of-care echocardiography in pediatric and neonatal care, highlighting its ability to quickly assess cardiac function and guide management decisions. POCE is a focused tool for bedside evaluation, unlike comprehensive echocardiography. It helps clinicians make rapid time-sensitive decisions.",
+    "significance": "POCE is crucial for timely management of critically ill children and neonates, enabling clinicians to make informed decisions at the bedside. This review provides essential knowledge for ICU clinicians to integrate POCE into their practice."
+  },
+  "pmid:42506042": {
+    "summary": "This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.",
+    "significance": "Preventing dependency-related skin injuries is crucial in critical care, as they can lead to prolonged hospital stays, increased healthcare costs, and decreased patient quality of life. Identifying high-risk patients and implementing preventive measures can help mitigate this issue."
+  },
+  "pmid:42506109": {
+    "summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
+    "significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes."
+  },
+  "pmid:42506363": {
+    "summary": "This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.",
+    "significance": "These findings highlight the importance of early and accurate antibiotic therapy and infection source identification in septic shock, and suggest that vasopressor trajectories may be a useful tool for guiding clinical decision-making."
+  },
+  "pmid:42418776": {
+    "summary": "Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.",
+    "significance": "This study informs ICU clinicians to adopt a restrictive nutrition approach, avoiding full-dose energy delivery and high-dose protein, to minimize complications and promote recovery in critically ill patients."
+  },
   "pmid:42507507": {
     "summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
     "significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions."
@@ -7,21 +27,13 @@
     "summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
     "significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates."
   },
-  "pmid:42507072": {
-    "summary": "This review discusses the use of point-of-care echocardiography in pediatric and neonatal care, highlighting its ability to quickly assess cardiac function and guide management decisions. POCE is a focused tool for bedside evaluation, unlike comprehensive echocardiography. It helps clinicians make rapid time-sensitive decisions.",
-    "significance": "POCE is crucial for timely management of critically ill children and neonates, enabling clinicians to make informed decisions at the bedside. This review provides essential knowledge for ICU clinicians to integrate POCE into their practice."
+  "pmid:42150112": {
+    "summary": "This randomized clinical trial found that using 4% tetrasodium EDTA as a locking fluid in central venous access devices reduced the risk of catheter-associated complications, including infections and occlusions, in ICU patients. The study included 1468 patients and found that the incidence rate of primary outcome events was lower in the EDTA group compared to the control group. The results suggest that EDTA may be a useful strategy to prevent CVAD-associated complications.",
+    "significance": "These findings are significant for ICU clinical practice as they suggest a simple and effective way to reduce the risk of catheter-associated complications, which are common and costly in critically ill patients."
   },
-  "pmid:42506363": {
-    "summary": "This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.",
-    "significance": "These findings highlight the importance of early and accurate antibiotic therapy and infection source identification in septic shock, and suggest that vasopressor trajectories may be a useful tool for guiding clinical decision-making."
-  },
-  "pmid:42506109": {
-    "summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
-    "significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes."
-  },
-  "pmid:42506042": {
-    "summary": "This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.",
-    "significance": "Preventing dependency-related skin injuries is crucial in critical care, as they can lead to prolonged hospital stays, increased healthcare costs, and decreased patient quality of life. Identifying high-risk patients and implementing preventive measures can help mitigate this issue."
+  "pmid:42283370": {
+    "summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
+    "significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients."
   },
   "pmid:42504332": {
     "summary": "A 60-year-old woman with spondylodiscitis due to Staphylococcus aureus developed a life-threatening aortic fistula and mycotic pseudoaneurysm, leading to rapid deterioration and death. This case highlights the serious complications of spondylodiscitis and the importance of early multidisciplinary intervention. Contrast-enhanced MRI was crucial in diagnosing the condition.",
@@ -31,9 +43,21 @@
     "summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
     "significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly."
   },
+  "pmid:42501114": {
+    "summary": "This study in critically ill children found that those with both high lactate and acidosis at admission were at higher risk of death and needed more organ support. A new risk classification system using both factors may help doctors quickly identify high-risk patients. The study also found that lactate levels alone can be a useful marker of risk, but should be used alongside other measures.",
+    "significance": "This research is important for ICU clinicians because it provides a new tool to quickly identify high-risk patients, which can help guide treatment decisions and improve outcomes. The findings also highlight the importance of considering multiple factors when assessing a patient's risk of death and organ failure."
+  },
+  "pmid:42502162": {
+    "summary": "This study compared toothbrushing with chlorhexidine to routine oral care in 118 children on ventilators in the PICU. While there was no significant difference in ventilator-associated pneumonia (VAP) incidence, there was a trend towards reduced VAP and improved outcomes in the toothbrushing group. The study suggests that enhanced oral hygiene may be beneficial in the PICU.",
+    "significance": "This study highlights the potential value of enhanced oral hygiene in reducing VAP and improving outcomes in critically ill children. Further research is needed to confirm its effect and inform clinical practice in the PICU."
+  },
   "pmid:42506467": {
     "summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
     "significance": "These results have implications for the development of personalized treatment strategies and outcome prediction tools in critically ill patients, potentially improving patient care and outcomes in the ICU."
+  },
+  "pmid:42150121": {
+    "summary": "This study investigated the effects of a 6-week remote rehabilitation program on health-related quality of life in ICU survivors who required mechanical ventilation. The program included symptom management, exercise, and psychological support. The results showed no significant improvement in health-related quality of life at 8 weeks compared to standard care.",
+    "significance": "This study's findings suggest that a 6-week remote rehabilitation program may not be sufficient to improve health-related quality of life in ICU survivors who required mechanical ventilation, highlighting the need for further research into effective rehabilitation strategies for this population."
   },
   "pmid:42506369": {
     "summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
@@ -43,6 +67,14 @@
     "summary": "This study looked at how neutrophil-to-lymphocyte ratio and mean platelet volume affected critically ill COVID-19 patients at different altitudes. Researchers found that higher levels of these markers were associated with increased risk of death in ICU patients. These findings suggest that altitude may impact the prognostic value of these markers.",
     "significance": "This study's findings may help clinicians tailor their treatment approaches to critically ill COVID-19 patients based on their altitude and laboratory values, potentially improving outcomes."
   },
+  "pmid:42283228": {
+    "summary": "A randomized clinical trial in 4700 critically ill children found that not routinely assessing gastric residual volume did not harm and actually improved nutritional delivery compared to assessing it every 6 hours.",
+    "significance": "This study's findings suggest that clinicians can safely stop routine gastric residual volume assessments in critically ill children, potentially reducing unnecessary delays in feeding and improving nutritional outcomes."
+  },
+  "pmid:42267821": {
+    "summary": "This study tested the effectiveness of carbocisteine and hypertonic saline in reducing the duration of mechanical ventilation in critically ill patients with acute respiratory failure. Neither treatment significantly reduced ventilation time, but both were associated with adverse effects, including upper gastrointestinal bleeding with carbocisteine and bronchoconstriction and hypoxemia with hypertonic saline.",
+    "significance": "These findings suggest that carbocisteine and hypertonic saline should not be used in critically ill patients with acute respiratory failure, as they do not provide benefit and may cause harm. Clinicians should consider alternative treatments for this condition."
+  },
   "pmid:42502860": {
     "summary": "Researchers developed a lung ultrasound score to predict oxygen needs in newborns with transient tachypnea of the neonate. The score correlated with oxygen levels and respiratory support needs. It may help standardize oxygen and respiratory support decisions at the bedside.",
     "significance": "This study provides a non-invasive tool to assess disease severity in TTN, potentially improving care and reducing variability in oxygen and respiratory support decisions."
@@ -50,22 +82,6 @@
   "pmid:42502858": {
     "summary": "This study of 1,014 neonates in Ethiopia found that extremely low birth weight, perinatal asphyxia, neonatal sepsis, and other complications are strong predictors of mortality. Most deaths occurred within the first week, particularly among low-birth-weight neonates. The study suggests that targeted interventions could reduce neonatal mortality in resource-constrained settings.",
     "significance": "This study's findings are crucial for ICU clinicians in low-income countries, where neonatal mortality rates are high. By identifying key risk factors, clinicians can implement targeted interventions to improve survival rates and reduce mortality."
-  },
-  "pmid:42502162": {
-    "summary": "This study compared toothbrushing with chlorhexidine to routine oral care in 118 children on ventilators in the PICU. While there was no significant difference in ventilator-associated pneumonia (VAP) incidence, there was a trend towards reduced VAP and improved outcomes in the toothbrushing group. The study suggests that enhanced oral hygiene may be beneficial in the PICU.",
-    "significance": "This study highlights the potential value of enhanced oral hygiene in reducing VAP and improving outcomes in critically ill children. Further research is needed to confirm its effect and inform clinical practice in the PICU."
-  },
-  "pmid:42501114": {
-    "summary": "This study in critically ill children found that those with both high lactate and acidosis at admission were at higher risk of death and needed more organ support. A new risk classification system using both factors may help doctors quickly identify high-risk patients. The study also found that lactate levels alone can be a useful marker of risk, but should be used alongside other measures.",
-    "significance": "This research is important for ICU clinicians because it provides a new tool to quickly identify high-risk patients, which can help guide treatment decisions and improve outcomes. The findings also highlight the importance of considering multiple factors when assessing a patient's risk of death and organ failure."
-  },
-  "pmid:42506343": {
-    "summary": "This study reviewed nicotine withdrawal in ICU patients, finding that smoking-related status is linked to agitation and delirium, but evidence on nicotine withdrawal syndrome is limited. The study suggests that routine identification of nicotine dependence and monitoring of withdrawal symptoms could improve patient care. NRT may be beneficial but its effectiveness and safety are uncertain.",
-    "significance": "Identifying nicotine dependence in ICU patients and monitoring withdrawal symptoms can help prevent complications like agitation and delirium. This information can inform clinical practice and improve patient outcomes."
-  },
-  "pmid:42502517": {
-    "summary": "A critically ill patient developed endophthalmitis after a car accident, despite not showing symptoms due to sedation. Urgent treatment was attempted, but the disease progressed to corneal perforation requiring enucleation. Early lens dislocation was a poor prognostic feature.",
-    "significance": "This case highlights the importance of vigilant ocular assessment in sedated critically ill patients and emphasizes the need for early specialist involvement to prevent irreversible complications."
   },
   "pmid:42502154": {
     "summary": "Researchers developed a tool to predict the risk of subsyndromal delirium in critically ill patients in the emergency department, using six easily available clinical variables. The tool showed excellent accuracy and can help identify patients at risk early on. This can lead to targeted interventions to improve patient outcomes.",
@@ -79,9 +95,25 @@
     "summary": "This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.",
     "significance": "This study's findings highlight the importance of monitoring fluid balance in ICU patients to prevent fluid accumulation and depletion, which can lead to worse outcomes. Clinicians can use these thresholds to guide fluid management and improve patient care."
   },
+  "pmid:42506343": {
+    "summary": "This study reviewed nicotine withdrawal in ICU patients, finding that smoking-related status is linked to agitation and delirium, but evidence on nicotine withdrawal syndrome is limited. The study suggests that routine identification of nicotine dependence and monitoring of withdrawal symptoms could improve patient care. NRT may be beneficial but its effectiveness and safety are uncertain.",
+    "significance": "Identifying nicotine dependence in ICU patients and monitoring withdrawal symptoms can help prevent complications like agitation and delirium. This information can inform clinical practice and improve patient outcomes."
+  },
+  "pmid:42502517": {
+    "summary": "A critically ill patient developed endophthalmitis after a car accident, despite not showing symptoms due to sedation. Urgent treatment was attempted, but the disease progressed to corneal perforation requiring enucleation. Early lens dislocation was a poor prognostic feature.",
+    "significance": "This case highlights the importance of vigilant ocular assessment in sedated critically ill patients and emphasizes the need for early specialist involvement to prevent irreversible complications."
+  },
   "pmid:42508300": {
     "summary": "Australian critical care nurses were surveyed about their postinsertion care practices for non-tunnelled dialysis catheters. The survey found variability in practices, with common methods including inspecting insertion sites, using chlorhexidine gluconate-impregnated dressings, and securing catheters with sutures. Troubleshooting methods also varied.",
     "significance": "This study highlights the need for evidence-based guidelines on postinsertion care for dialysis catheters, which could improve patient outcomes and reduce complications in intensive care units."
+  },
+  "pmid:42498470": {
+    "summary": "Researchers developed a 30-item frailty index using Quebec administrative data to identify frail ICU patients. They found that frail patients were older, more likely to have dialysis on admission, and had a higher risk of in-hospital mortality. The index showed a strong correlation between frailty and mortality.",
+    "significance": "This study's findings highlight the importance of identifying frail patients in the ICU, where frailty is strongly associated with increased mortality risk. Implementing this index may help clinicians identify at-risk populations and improve care processes."
+  },
+  "pmid:42497050": {
+    "summary": "Researchers developed a machine learning model to predict acute kidney injury in ICU patients with atrial fibrillation, using data from 19,347 patients. The model, which combines electronic health record data, achieved high accuracy in predicting AKI risk. Clinicians can use this model to inform patient management decisions.",
+    "significance": "This study provides a valuable tool for clinicians to identify patients at high risk of AKI, potentially reducing mortality risk and improving patient outcomes in the ICU."
   },
   "pmid:42506352": {
     "summary": "This study compared electrolyte measurements from arterial blood gas (ABG) analyzers to central laboratory analyzers in critically ill patients with acute kidney injury (AKI). The results showed relatively good agreement for sodium and potassium measurements, but clinically meaningful discrepancies occurred in a subset of measurements. The study suggests that ABG-derived electrolyte measurements can support rapid bedside assessment, but central laboratory measurements remain the reference standard.",
@@ -95,13 +127,17 @@
     "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
     "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
   },
-  "pmid:42498470": {
-    "summary": "Researchers developed a 30-item frailty index using Quebec administrative data to identify frail ICU patients. They found that frail patients were older, more likely to have dialysis on admission, and had a higher risk of in-hospital mortality. The index showed a strong correlation between frailty and mortality.",
-    "significance": "This study's findings highlight the importance of identifying frail patients in the ICU, where frailty is strongly associated with increased mortality risk. Implementing this index may help clinicians identify at-risk populations and improve care processes."
+  "pmid:42486401": {
+    "summary": "This review of 29 studies found that high-protein nutritional strategies and supplementation with β-hydroxy-β-methyl butyrate can help preserve muscle mass and strength in critically ill patients. However, physical function showed less responsiveness to interventions. Multimodal approaches may be needed for functional recovery.",
+    "significance": "Understanding the effects of nutritional therapy on morphofunctional outcomes in critically ill patients can inform ICU clinicians about the most effective interventions to improve patient autonomy and quality of life."
   },
-  "pmid:42497050": {
-    "summary": "Researchers developed a machine learning model to predict acute kidney injury in ICU patients with atrial fibrillation, using data from 19,347 patients. The model, which combines electronic health record data, achieved high accuracy in predicting AKI risk. Clinicians can use this model to inform patient management decisions.",
-    "significance": "This study provides a valuable tool for clinicians to identify patients at high risk of AKI, potentially reducing mortality risk and improving patient outcomes in the ICU."
+  "pmid:42484982": {
+    "summary": "This review examined the importance of nutrition in pediatric ICU patients, highlighting the need for early enteral nutrition and individualized strategies to meet metabolic demands.",
+    "significance": "Optimizing nutrition in pediatric ICU patients can improve clinical outcomes, support recovery, and enhance long-term rehabilitation."
+  },
+  "pmid:42470081": {
+    "summary": "Researchers studied 200 critically ill neonates to see if early nutrition affects the risk of hospital-acquired infections. They found that achieving energy targets early on reduced the risk of infection, especially in very low birth weight infants.",
+    "significance": "This study highlights the importance of timely and sufficient nutrition in critically ill neonates to reduce the risk of infections, which can be particularly severe in this vulnerable population."
   },
   "pmid:42506102": {
     "summary": "This study reviewed existing methods for assessing gastrointestinal function in ICU patients and proposed algorithms for enteral feeding decisions using gastrointestinal ultrasound. It found that certain sonographic parameters, like gastric antral cross-sectional area, are clinically relevant. The study suggests that GIUS-based algorithms may improve enteral nutrition management but more research is needed.",
@@ -111,41 +147,17 @@
     "summary": "A 69-year-old man developed a rare esophageal obstruction from coagulated enteral nutrition formula, which was mistaken for reflux or tube blockage. Bedside gastroscopy revealed extensive retention of coagulated material in the esophagus. The patient underwent partial endoscopic removal and was switched to a jejunal feeding tube.",
     "significance": "This case highlights the importance of promptly recognizing and treating esophageal obstructions in critically ill patients receiving high-protein or fiber-containing enteral formulas to prevent serious complications."
   },
-  "pmid:42486401": {
-    "summary": "This review of 29 studies found that high-protein nutritional strategies and supplementation with β-hydroxy-β-methyl butyrate can help preserve muscle mass and strength in critically ill patients. However, physical function showed less responsiveness to interventions. Multimodal approaches may be needed for functional recovery.",
-    "significance": "Understanding the effects of nutritional therapy on morphofunctional outcomes in critically ill patients can inform ICU clinicians about the most effective interventions to improve patient autonomy and quality of life."
-  },
-  "pmid:42484982": {
-    "summary": "This review examined the importance of nutrition in pediatric ICU patients, highlighting the need for early enteral nutrition and individualized strategies to meet metabolic demands.",
-    "significance": "Optimizing nutrition in pediatric ICU patients can improve clinical outcomes, support recovery, and enhance long-term rehabilitation."
-  },
   "pmid:42483648": {
     "summary": "This systematic review of 45 studies examined the mechanisms and management of hyperglycemia in critically ill patients receiving enteral nutrition, proposing a six-level conceptual cascade framework to guide precision glycemic care.",
     "significance": "Understanding and managing enteral nutrition-related hyperglycemia is crucial for ICU clinical practice as it can lead to improved glycemic control, but further studies are needed to confirm its clinical benefits."
-  },
-  "pmid:42470081": {
-    "summary": "Researchers studied 200 critically ill neonates to see if early nutrition affects the risk of hospital-acquired infections. They found that achieving energy targets early on reduced the risk of infection, especially in very low birth weight infants.",
-    "significance": "This study highlights the importance of timely and sufficient nutrition in critically ill neonates to reduce the risk of infections, which can be particularly severe in this vulnerable population."
-  },
-  "pmid:42500117": {
-    "summary": "Researchers studied 120 critically ill patients in Tanzania and found that 23.3% had Non-Thyroidal Illness Syndrome (NTIS), which was strongly linked to higher mortality and longer hospital stays. NTIS is a common condition in ICU patients and may be a useful marker for predicting poor outcomes. Patients with NTIS had a much higher risk of death compared to those without NTIS.",
-    "significance": "This study highlights the importance of NTIS as a potential prognostic marker in ICU settings, particularly in resource-limited environments. It suggests that NTIS could be used to identify patients at higher risk of mortality and inform clinical decision-making."
-  },
-  "pmid:42496059": {
-    "summary": "This study compared two ways to predict mortality in critically ill patients: using a single blood glucose measurement at admission, and using a ratio of mean ICU blood glucose to estimated preadmission blood glucose. The study found that the ratio method was a better predictor of mortality. The best outcome was associated with a mean ICU blood glucose level that was 80-100% of the patient's preadmission level.",
-    "significance": "This study's findings may improve blood glucose management strategies in the ICU and inform the design of future clinical trials."
   },
   "pmid:42488375": {
     "summary": "A 13-year-old boy developed severe diabetic ketoacidosis after starting long-acting growth hormone therapy, despite having no pre-existing diabetes. The condition resolved with insulin and fluid therapy. The case highlights the potential for growth hormone therapy to cause insulin resistance and diabetic ketoacidosis.",
     "significance": "This case emphasizes the importance of close glucose monitoring in patients initiating long-acting growth hormone therapy, particularly those with risk factors such as obesity and glucocorticoid use."
   },
-  "pmid:42487967": {
-    "summary": "This study looked at how glucose variability and mineral disorders affect critically ill patients with kidney disease. It found that both factors can increase the risk of death and severe complications, especially when combined. The study suggests that managing these factors could improve survival.",
-    "significance": "This study's findings are important for ICU clinicians because they highlight the need to closely monitor and manage glucose variability and mineral disorders in critically ill patients with kidney disease to improve their outcomes."
-  },
-  "pmid:42487955": {
-    "summary": "Researchers studied how a measure of hemoglobin glycation (HGI) affects short-term mortality in sepsis patients. They found that higher HGI levels were associated with lower mortality rates, especially within 28 days. This suggests HGI could be a useful prognostic tool in the early stages of sepsis.",
-    "significance": "These findings could help clinicians predict patient outcomes and make more informed decisions in sepsis care. Further studies are needed to confirm the clinical utility of HGI in this context."
+  "pmid:42496059": {
+    "summary": "This study compared two ways to predict mortality in critically ill patients: using a single blood glucose measurement at admission, and using a ratio of mean ICU blood glucose to estimated preadmission blood glucose. The study found that the ratio method was a better predictor of mortality. The best outcome was associated with a mean ICU blood glucose level that was 80-100% of the patient's preadmission level.",
+    "significance": "This study's findings may improve blood glucose management strategies in the ICU and inform the design of future clinical trials."
   },
   "pmid:42487335": {
     "summary": "This study examined the relationship between glycated hemoglobin levels and glycemic variables in patients with acute exacerbation of chronic obstructive pulmonary disease. It found that HbA1c-adjusted glycemic indices, such as glycemic gap and stress hyperglycemia ratio, were strong predictors of clinical outcomes. These indices may be useful in predicting patient outcomes and guiding treatment decisions.",
@@ -154,6 +166,18 @@
   "pmid:42486781": {
     "summary": "This study analyzed 22 clinical trials with 1,396 patients to compare the effectiveness of continuous glucose monitoring (CGM) versus conventional blood glucose monitoring in ICU patients. CGM was found to reduce hypoglycemic events, average blood glucose levels, and daily insulin use, while also improving time in glycemic target range and reducing total mortality. These results suggest that incorporating CGM into ICU glycemic control strategies could be beneficial.",
     "significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that using CGM can improve patient outcomes and reduce complications associated with glycemic management. Integrating CGM into routine ICU care could lead to better patient care and improved survival rates."
+  },
+  "pmid:42500117": {
+    "summary": "Researchers studied 120 critically ill patients in Tanzania and found that 23.3% had Non-Thyroidal Illness Syndrome (NTIS), which was strongly linked to higher mortality and longer hospital stays. NTIS is a common condition in ICU patients and may be a useful marker for predicting poor outcomes. Patients with NTIS had a much higher risk of death compared to those without NTIS.",
+    "significance": "This study highlights the importance of NTIS as a potential prognostic marker in ICU settings, particularly in resource-limited environments. It suggests that NTIS could be used to identify patients at higher risk of mortality and inform clinical decision-making."
+  },
+  "pmid:42487967": {
+    "summary": "This study looked at how glucose variability and mineral disorders affect critically ill patients with kidney disease. It found that both factors can increase the risk of death and severe complications, especially when combined. The study suggests that managing these factors could improve survival.",
+    "significance": "This study's findings are important for ICU clinicians because they highlight the need to closely monitor and manage glucose variability and mineral disorders in critically ill patients with kidney disease to improve their outcomes."
+  },
+  "pmid:42487955": {
+    "summary": "Researchers studied how a measure of hemoglobin glycation (HGI) affects short-term mortality in sepsis patients. They found that higher HGI levels were associated with lower mortality rates, especially within 28 days. This suggests HGI could be a useful prognostic tool in the early stages of sepsis.",
+    "significance": "These findings could help clinicians predict patient outcomes and make more informed decisions in sepsis care. Further studies are needed to confirm the clinical utility of HGI in this context."
   },
   "pmid:42508689": {
     "summary": "Researchers analyzed 895 patients with Enterobacterales bacteremia to identify risk factors for carbapenem resistance and predictors of mortality. They found that ICU admission, prolonged hospitalization, and prior carbapenem exposure increased the risk of carbapenem-resistant Enterobacterales (CRE) bacteremia. Patients with CRE bacteremia had higher 28-day mortality rates compared to those with susceptible bacteria.",
@@ -179,14 +203,6 @@
     "summary": "This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.",
     "significance": "This study's findings support the use of RCA as an alternative to NA during CRRT in high-risk patients, potentially reducing bleeding complications without affecting mortality. However, careful monitoring of citrate levels and calcium levels is necessary to mitigate the risks associated with RCA."
   },
-  "pmid:42489096": {
-    "summary": "Researchers analyzed data from 840,988 newborns in US NICUs from 2010-2020 to understand congenital CMV infection testing and diagnosis. They found that 1.2% of newborns were tested, with 5.6% diagnosed with CMV infection. Clinical signs like hepatosplenomegaly and microcephaly were associated with increased odds of testing and diagnosis.",
-    "significance": "This study highlights the importance of CMV testing in NICUs, particularly for newborns with concerning clinical signs. Early diagnosis can inform treatment and improve outcomes for these vulnerable patients."
-  },
-  "pmid:42488586": {
-    "summary": "Researchers found that delaying cord clamping and using umbilical cord blood for initial blood work can reduce blood loss and transfusions in newborns. A restrictive transfusion strategy and individualized blood transfusion decisions also help minimize blood loss. These strategies can improve outcomes for preterm and critically ill term newborns.",
-    "significance": "This study's findings are significant for ICU clinical practice as they provide evidence-based recommendations for minimizing blood loss and transfusions in newborns, potentially reducing complications and improving patient outcomes."
-  },
   "pmid:42477630": {
     "summary": "Researchers developed and validated a machine learning model using the XGBoost algorithm to predict ICU death in patients with chronic heart failure and pulmonary infection. The model was able to identify key predictors of mortality, including lactic acid, white blood cell count, and pre-existing diabetes. The model's performance was evaluated and found to be accurate in predicting ICU mortality.",
     "significance": "This study provides a valuable tool for ICU clinicians to predict mortality in patients with chronic heart failure and pulmonary infection, allowing for more individualized risk assessment and management."
@@ -203,29 +219,37 @@
     "summary": "Researchers studied 100 ICU patients to see if disseminated intravascular coagulation (DIC) is linked to a condition called persistent inflammation, immunosuppression, and catabolism syndrome (PIICS). They found that DIC occurring after 8 days in the ICU may increase the risk of PIICS. The study suggests that coagulopathy during the middle phase of ICU stay may contribute to PIICS.",
     "significance": "Understanding the relationship between DIC and PIICS can help ICU clinicians identify patients at risk of developing PIICS, allowing for targeted interventions to prevent or mitigate its effects."
   },
-  "pmid:42507964": {
-    "summary": "This study surveyed 298 Family Medicine physicians about their preparedness to deliver Role 2 care in combat settings. Most had little experience and felt unprepared, but those with more experience and training felt more confident. Factors associated with perceived preparedness included career Role 2 experience, recent training, and caring for critically ill patients.",
-    "significance": "This study highlights the need for Family Medicine physicians to develop critical care skills in preparation for large-scale combat operations. Prioritizing Role 2 training and experience can improve their perceived preparedness and readiness to provide lifesaving care."
+  "pmid:42489096": {
+    "summary": "Researchers analyzed data from 840,988 newborns in US NICUs from 2010-2020 to understand congenital CMV infection testing and diagnosis. They found that 1.2% of newborns were tested, with 5.6% diagnosed with CMV infection. Clinical signs like hepatosplenomegaly and microcephaly were associated with increased odds of testing and diagnosis.",
+    "significance": "This study highlights the importance of CMV testing in NICUs, particularly for newborns with concerning clinical signs. Early diagnosis can inform treatment and improve outcomes for these vulnerable patients."
   },
-  "pmid:42504371": {
-    "summary": "This study compared three pre-transfer risk assessment tools for critically ill patients. The Risk Score for Transport Patients (RSTP) had the highest sensitivity, but its performance needs further validation in the Indian context. The study found a significant number of adverse events during patient transport.",
-    "significance": "This study's findings are important for ICU clinicians as they highlight the need for efficient pre-transfer risk assessment tools to minimize adverse events during interhospital patient transport."
-  },
-  "pmid:42496477": {
-    "summary": "A 31-year-old woman experienced multiple cutaneous burns from a lightning strike, leading to three extubation failures and ultimately requiring a tracheostomy. Direct airway injury and inflammation likely contributed to her inability to breathe independently. Bronchoscopic assessment and conservative extubation protocols may help prevent similar complications.",
-    "significance": "This case highlights the importance of considering airway injury in lightning strike victims with neck or thoracic burns, and the need for early and conservative management to prevent extubation failure."
+  "pmid:42488586": {
+    "summary": "Researchers found that delaying cord clamping and using umbilical cord blood for initial blood work can reduce blood loss and transfusions in newborns. A restrictive transfusion strategy and individualized blood transfusion decisions also help minimize blood loss. These strategies can improve outcomes for preterm and critically ill term newborns.",
+    "significance": "This study's findings are significant for ICU clinical practice as they provide evidence-based recommendations for minimizing blood loss and transfusions in newborns, potentially reducing complications and improving patient outcomes."
   },
   "pmid:42496126": {
     "summary": "This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.",
     "significance": "These findings are relevant for ICU clinical practice as they highlight the importance of organisational resources and staff appreciation in mitigating burnout among healthcare workers, particularly during high-stress situations like the COVID-19 pandemic."
   },
-  "pmid:42494451": {
-    "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
-    "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
+  "pmid:42507964": {
+    "summary": "This study surveyed 298 Family Medicine physicians about their preparedness to deliver Role 2 care in combat settings. Most had little experience and felt unprepared, but those with more experience and training felt more confident. Factors associated with perceived preparedness included career Role 2 experience, recent training, and caring for critically ill patients.",
+    "significance": "This study highlights the need for Family Medicine physicians to develop critical care skills in preparation for large-scale combat operations. Prioritizing Role 2 training and experience can improve their perceived preparedness and readiness to provide lifesaving care."
   },
   "pmid:42493813": {
     "summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
     "significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
+  },
+  "pmid:42496477": {
+    "summary": "A 31-year-old woman experienced multiple cutaneous burns from a lightning strike, leading to three extubation failures and ultimately requiring a tracheostomy. Direct airway injury and inflammation likely contributed to her inability to breathe independently. Bronchoscopic assessment and conservative extubation protocols may help prevent similar complications.",
+    "significance": "This case highlights the importance of considering airway injury in lightning strike victims with neck or thoracic burns, and the need for early and conservative management to prevent extubation failure."
+  },
+  "pmid:42504371": {
+    "summary": "This study compared three pre-transfer risk assessment tools for critically ill patients. The Risk Score for Transport Patients (RSTP) had the highest sensitivity, but its performance needs further validation in the Indian context. The study found a significant number of adverse events during patient transport.",
+    "significance": "This study's findings are important for ICU clinicians as they highlight the need for efficient pre-transfer risk assessment tools to minimize adverse events during interhospital patient transport."
+  },
+  "pmid:42494451": {
+    "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
+    "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
   },
   "pmid:42502453": {
     "summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
@@ -311,13 +335,13 @@
     "summary": "Researchers compared two tools for deciding massive transfusions in trauma patients: the ABC Score, which uses 4 variables at the bedside, and TASH, which uses labs and imaging for a more precise estimate.",
     "significance": "Understanding which tool is most accurate can help ICU clinicians make better decisions about massive transfusions, potentially improving patient outcomes."
   },
-  "pmid:42246225": {
-    "summary": "These guidelines provide evidence-based recommendations for central venous cannulation in critically ill patients. They aim to standardize the approach, increase effectiveness, and minimize complications. The guidelines cover pre-procedural ultrasound assessment, optimal vascular access site selection, and catheter position confirmation.",
-    "significance": "These guidelines are crucial for ICU clinicians to standardize and improve central venous cannulation procedures, potentially reducing complications and improving patient outcomes."
-  },
   "pmid:42087034": {
     "summary": "This study reviewed the use of seizure medications in patients after brain surgery. The results suggest that using seizure medications may help prevent early seizures, but the benefits are uncertain. Levetiracetam may be a better choice than phenytoin for seizure prevention.",
     "significance": "This study's findings inform ICU clinicians about the use of seizure medications in patients after brain surgery, helping them make more informed decisions about patient care."
+  },
+  "pmid:41916807": {
+    "summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
+    "significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients."
   },
   "pmid:41949461": {
     "summary": "ASH and ISTH developed guidelines for anticoagulant prophylaxis in pediatric patients at risk of VTE, based on a systematic review of evidence up to April 2025. The guidelines provide recommendations for different pediatric subgroups, including those with cancer, trauma, or critical illness. The panel agreed on 12 recommendations, including conditional suggestions for anticoagulant use in certain subgroups.",
@@ -327,17 +351,17 @@
     "summary": "This study developed guidelines for predicting outcomes in critically ill adults with acute ischemic stroke, including avoiding premature predictions and using multimodal assessments. It found that early neurological improvement within 24 hours of revascularization is a moderately reliable predictor of good functional outcome. No other individual predictor was considered reliable for predicting mortality or functional outcome.",
     "significance": "These guidelines are important for ICU clinicians as they provide a framework for counseling patients and their surrogates about outcomes, helping to set realistic expectations and guide treatment decisions."
   },
-  "pmid:41916807": {
-    "summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
-    "significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients."
-  },
-  "pmid:41860325": {
-    "summary": "The Society of Critical Care Medicine developed guidelines for end-of-life care in pediatric and neonatal ICUs based on a systematic review of literature. The guidelines focus on advance care planning, palliative care, symptom management, and bereavement support. These recommendations aim to improve end-of-life care for critically ill patients and their families.",
-    "significance": "These guidelines are crucial for ICU clinicians to provide high-quality end-of-life care, ensuring that patients and their families receive compassionate and evidence-based support during a difficult time."
+  "pmid:42246225": {
+    "summary": "These guidelines provide evidence-based recommendations for central venous cannulation in critically ill patients. They aim to standardize the approach, increase effectiveness, and minimize complications. The guidelines cover pre-procedural ultrasound assessment, optimal vascular access site selection, and catheter position confirmation.",
+    "significance": "These guidelines are crucial for ICU clinicians to standardize and improve central venous cannulation procedures, potentially reducing complications and improving patient outcomes."
   },
   "pmid:41860322": {
     "summary": "This study developed evidence-based guidelines for caring for older adults in the ICU, recommending a geriatric model of care and avoiding antipsychotic medications for preventing delirium. The guidelines were developed using a systematic review and expert consensus. The recommendations aim to improve outcomes for older ICU patients.",
     "significance": "These guidelines are crucial for ICU clinicians as they provide evidence-based recommendations for caring for older adults, who are a growing proportion of the ICU population. By following these guidelines, clinicians can improve patient outcomes and reduce complications."
+  },
+  "pmid:41860325": {
+    "summary": "The Society of Critical Care Medicine developed guidelines for end-of-life care in pediatric and neonatal ICUs based on a systematic review of literature. The guidelines focus on advance care planning, palliative care, symptom management, and bereavement support. These recommendations aim to improve end-of-life care for critically ill patients and their families.",
+    "significance": "These guidelines are crucial for ICU clinicians to provide high-quality end-of-life care, ensuring that patients and their families receive compassionate and evidence-based support during a difficult time."
   },
   "pmid:41773929": {
     "summary": "This study developed guidelines for using neuromuscular blocking agents in adults with acute respiratory distress syndrome (ARDS). The guidelines recommend using these agents in patients with a specific oxygen level, but do not make recommendations for other situations due to a lack of evidence. The guidelines aim to help clinicians make informed decisions about using these agents.",
