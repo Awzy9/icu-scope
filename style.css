@@ -130,6 +130,7 @@ body {
   font-size: 17px;
   line-height: 1.65;
   transition: background 0.2s, color 0.2s;
+  padding-bottom: calc(3.8rem + env(safe-area-inset-bottom, 0px));
 }
 
 a { color: var(--accent-strong); }
@@ -300,6 +301,158 @@ select:focus-visible {
   padding: 0.85rem 1.5rem;
   max-width: 880px;
   margin: 0 auto;
+}
+
+/* Section quick-jump: a mobile slide-up sheet by default, becomes a
+   fixed sidebar on wide viewports (see the >=1100px block below). */
+.section-jump {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 1rem 1.25rem;
+  transform: translateY(100%);
+  transition: transform 0.25s ease;
+  z-index: 90;
+}
+
+.section-jump.open {
+  transform: translateY(0);
+}
+
+.section-jump-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  padding: 0.6rem 0.25rem;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.section-jump-close {
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+
+.section-jump-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+  border: none;
+  background: none;
+  color: var(--text);
+  font-size: 0.95rem;
+  text-align: left;
+  padding: 0.65rem 0.25rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.section-jump-btn:hover {
+  background: var(--surface-soft);
+}
+
+.bottom-nav-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 85;
+}
+
+.bottom-nav {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  padding: 0.4rem 0.5rem calc(0.4rem + env(safe-area-inset-bottom, 0px));
+  z-index: 80;
+}
+
+.bottom-nav-btn {
+  flex: 1 1 0;
+  border: none;
+  background: none;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.15rem;
+  font-size: 0.7rem;
+  padding: 0.3rem 0.2rem;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.bottom-nav-btn:active, .bottom-nav-btn[aria-expanded="true"] {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.bottom-nav-icon {
+  font-size: 1.25rem;
+}
+
+@media (min-width: 1100px) {
+  .section-jump-header, .section-jump-close, .bottom-nav, .bottom-nav-backdrop {
+    display: none;
+  }
+
+  body {
+    padding-bottom: 0;
+  }
+
+  .section-jump {
+    position: fixed;
+    left: max(1.25rem, calc((100vw - 880px) / 2 - 230px));
+    right: auto;
+    bottom: auto;
+    top: 6.5rem;
+    width: 210px;
+    max-height: none;
+    transform: none;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    padding: 0.5rem;
+  }
+
+  .category-nav {
+    position: fixed;
+    left: max(1.25rem, calc((100vw - 880px) / 2 - 230px));
+    top: calc(6.5rem + var(--section-jump-height, 22rem) + 1rem);
+    bottom: 1.5rem;
+    width: 210px;
+    max-width: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    border-bottom: none;
+    padding: 0.5rem;
+    border-radius: 12px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  .nav-chip {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 .nav-chip {

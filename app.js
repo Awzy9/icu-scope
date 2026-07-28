@@ -61,6 +61,25 @@
   const digestBtn = document.getElementById("digest-btn");
   const spotlightPrintBtn = document.getElementById("spotlight-print-btn");
   const backToTopBtn = document.getElementById("back-to-top");
+  const sectionJumpNav = document.getElementById("section-jump");
+  const sectionJumpClose = document.getElementById("section-jump-close");
+  const bottomNav = document.getElementById("bottom-nav");
+  const bottomNavBackdrop = document.getElementById("bottom-nav-backdrop");
+  const bottomNavTop = document.getElementById("bottom-nav-top");
+  const bottomNavTrending = document.getElementById("bottom-nav-trending");
+  const bottomNavSaved = document.getElementById("bottom-nav-saved");
+  const bottomNavMore = document.getElementById("bottom-nav-more");
+
+  const SECTION_JUMP_TARGETS = [
+    { sectionId: "spotlight", label: "Article of the Week", icon: "📌" },
+    { sectionId: "saved", label: "Saved", icon: "🔖" },
+    { sectionId: "guideline", label: "Guideline Watch", icon: "📋" },
+    { sectionId: "trending", label: "Trending this month", icon: "🔥" },
+    { sectionId: "foamed", label: "FOAMed & Blogs", icon: "📚" },
+    { sectionId: "preprint", label: "Preprints", icon: "🧪" },
+    { sectionId: "trial", label: "Trial Tracker", icon: "🔬" },
+    { sectionId: "classics", label: "ICU Classics", icon: "🏛️" },
+  ];
 
   const CATEGORY_ICONS = {
     cardiovascular: "❤️",
@@ -336,6 +355,41 @@
         saveCollapseState(current);
       });
     });
+  }
+
+  function jumpToSection(sectionId) {
+    const entry = COLLAPSIBLE_SECTIONS.find((e) => e.id === sectionId);
+    const sectionEl = document.getElementById(`${sectionId}-section`);
+    if (!sectionEl || sectionEl.hidden) return;
+    if (entry && entry.body.classList.contains("collapsed")) {
+      setSectionCollapsed(entry, false);
+      const current = loadCollapseState();
+      current[sectionId] = false;
+      saveCollapseState(current);
+    }
+    sectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+
+  function closeSectionJumpMenu() {
+    sectionJumpNav.classList.remove("open");
+    bottomNavBackdrop.hidden = true;
+    bottomNavMore.setAttribute("aria-expanded", "false");
+  }
+
+  function initSectionJump() {
+    sectionJumpNav.querySelectorAll(".section-jump-btn").forEach((btn) => { btn.remove(); });
+    SECTION_JUMP_TARGETS.forEach((target) => {
+      const btn = document.createElement("button");
+      btn.className = "section-jump-btn";
+      btn.type = "button";
+      btn.innerHTML = `<span>${target.icon}</span><span>${escapeHtml(target.label)}</span>`;
+      btn.addEventListener("click", () => {
+        jumpToSection(target.sectionId);
+        closeSectionJumpMenu();
+      });
+      sectionJumpNav.appendChild(btn);
+    });
+    document.documentElement.style.setProperty("--section-jump-height", `${sectionJumpNav.offsetHeight}px`);
   }
 
   function articleId(article) {
@@ -978,6 +1032,7 @@
   initCompactView();
   initCollapsibleSections();
   renderClassics();
+  initSectionJump();
 
   backToTopBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -987,6 +1042,19 @@
   }, { passive: true });
   previousSeenIds = loadSeenIds();
   bookmarkedIds = loadBookmarks();
+
+  bottomNavTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+  bottomNavTrending.addEventListener("click", () => jumpToSection("trending"));
+  bottomNavSaved.addEventListener("click", () => jumpToSection("saved"));
+  bottomNavMore.addEventListener("click", () => {
+    const isOpen = sectionJumpNav.classList.toggle("open");
+    bottomNavBackdrop.hidden = !isOpen;
+    bottomNavMore.setAttribute("aria-expanded", String(isOpen));
+  });
+  sectionJumpClose.addEventListener("click", closeSectionJumpMenu);
+  bottomNavBackdrop.addEventListener("click", closeSectionJumpMenu);
 
   searchInput.addEventListener("input", () => applyFiltersAndRender());
   windowFilter.addEventListener("change", () => applyFiltersAndRender());
