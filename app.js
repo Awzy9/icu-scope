@@ -3,12 +3,15 @@
   const content = document.getElementById("content");
   const updatedLine = document.getElementById("updated-line");
   const trendingSection = document.getElementById("trending-section");
+  const trendingBody = document.getElementById("trending-body");
   const trendingList = document.getElementById("trending-list");
   const trendingCount = document.getElementById("trending-count");
   const foamedSection = document.getElementById("foamed-section");
+  const foamedBody = document.getElementById("foamed-body");
   const foamedList = document.getElementById("foamed-list");
   const foamedCount = document.getElementById("foamed-count");
   const guidelineSection = document.getElementById("guideline-section");
+  const guidelineBody = document.getElementById("guideline-body");
   const guidelineList = document.getElementById("guideline-list");
   const guidelineCount = document.getElementById("guideline-count");
   const guidelineWindow = document.getElementById("guideline-window");
@@ -16,10 +19,19 @@
   const spotlightBody = document.getElementById("spotlight-body");
   const spotlightWeek = document.getElementById("spotlight-week");
   const savedSection = document.getElementById("saved-section");
+  const savedBody = document.getElementById("saved-body");
   const savedList = document.getElementById("saved-list");
   const savedCount = document.getElementById("saved-count");
   const savedCountBadge = document.getElementById("saved-count-badge");
   const savedToggle = document.getElementById("saved-toggle");
+
+  const COLLAPSIBLE_SECTIONS = [
+    { id: "spotlight", body: spotlightBody, toggle: document.getElementById("spotlight-collapse-toggle") },
+    { id: "saved", body: savedBody, toggle: document.getElementById("saved-collapse-toggle") },
+    { id: "guideline", body: guidelineBody, toggle: document.getElementById("guideline-collapse-toggle") },
+    { id: "trending", body: trendingBody, toggle: document.getElementById("trending-collapse-toggle") },
+    { id: "foamed", body: foamedBody, toggle: document.getElementById("foamed-collapse-toggle") },
+  ];
   const themeToggle = document.getElementById("theme-toggle");
   const searchInput = document.getElementById("search-input");
   const windowFilter = document.getElementById("window-filter");
@@ -96,6 +108,43 @@
     } catch (e) {
       /* localStorage unavailable, skip */
     }
+  }
+
+  function loadCollapseState() {
+    try {
+      return JSON.parse(localStorage.getItem("icu-scope-collapsed") || "{}");
+    } catch (e) {
+      return {};
+    }
+  }
+
+  function saveCollapseState(state) {
+    try {
+      localStorage.setItem("icu-scope-collapsed", JSON.stringify(state));
+    } catch (e) {
+      /* localStorage unavailable, skip */
+    }
+  }
+
+  function setSectionCollapsed(entry, collapsed) {
+    entry.body.hidden = collapsed;
+    entry.toggle.setAttribute("aria-expanded", String(!collapsed));
+    entry.toggle.textContent = collapsed ? "▸" : "▾";
+  }
+
+  function initCollapsibleSections() {
+    const state = loadCollapseState();
+    COLLAPSIBLE_SECTIONS.forEach((entry) => {
+      const collapsed = state[entry.id] === undefined ? true : state[entry.id];
+      setSectionCollapsed(entry, collapsed);
+      entry.toggle.addEventListener("click", () => {
+        const nowCollapsed = !entry.body.hidden;
+        setSectionCollapsed(entry, nowCollapsed);
+        const current = loadCollapseState();
+        current[entry.id] = nowCollapsed;
+        saveCollapseState(current);
+      });
+    });
   }
 
   function articleId(article) {
@@ -499,6 +548,7 @@
   }
 
   initTheme();
+  initCollapsibleSections();
   previousSeenIds = loadSeenIds();
   bookmarkedIds = loadBookmarks();
 
@@ -506,9 +556,15 @@
   windowFilter.addEventListener("change", () => applyFiltersAndRender());
   studyTypeFilter.addEventListener("change", () => applyFiltersAndRender());
   savedToggle.addEventListener("click", () => {
-    if (!savedSection.hidden) {
-      savedSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (savedSection.hidden) return;
+    const savedEntry = COLLAPSIBLE_SECTIONS.find((e) => e.id === "saved");
+    if (savedBody.hidden) {
+      setSectionCollapsed(savedEntry, false);
+      const current = loadCollapseState();
+      current.saved = false;
+      saveCollapseState(current);
     }
+    savedSection.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" })

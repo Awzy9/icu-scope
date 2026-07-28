@@ -513,7 +513,7 @@ select:focus-visible {
 
 .trending-heading {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 0.55rem;
   margin: 0 0 1rem;
 }
@@ -525,6 +525,28 @@ select:focus-visible {
 }
 
 .trending-heading .category-count { color: var(--text-muted); }
+
+.collapse-toggle {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s;
+}
+
+.collapse-toggle[aria-expanded="true"] {
+  transform: rotate(90deg);
+}
+
+.section-body[hidden] { display: none; }
 
 .trending-section .article-card { background: var(--surface); }
 

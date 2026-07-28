@@ -6,7 +6,7 @@
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=11" />
+  <link rel="stylesheet" href="style.css?v=12" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -59,40 +59,53 @@
   <main class="content">
     <section class="spotlight-section" id="spotlight-section" hidden>
       <div class="trending-heading spotlight-heading">
+        <button class="collapse-toggle" id="spotlight-collapse-toggle" type="button" aria-expanded="false" aria-controls="spotlight-body">▸</button>
         <h2>📌 Article of the Week</h2>
         <span class="category-count" id="spotlight-week"></span>
       </div>
-      <div id="spotlight-body"></div>
+      <div id="spotlight-body" class="section-body"></div>
     </section>
     <section class="saved-section" id="saved-section" hidden>
       <div class="trending-heading saved-heading">
+        <button class="collapse-toggle" id="saved-collapse-toggle" type="button" aria-expanded="false" aria-controls="saved-body">▸</button>
         <h2>🔖 Saved</h2>
         <span class="category-count" id="saved-count"></span>
       </div>
-      <div id="saved-list"></div>
+      <div id="saved-body" class="section-body">
+        <div id="saved-list"></div>
+      </div>
     </section>
     <section class="guideline-section" id="guideline-section" hidden>
       <div class="trending-heading guideline-heading">
+        <button class="collapse-toggle" id="guideline-collapse-toggle" type="button" aria-expanded="false" aria-controls="guideline-body">▸</button>
         <h2>📋 Guideline Watch</h2>
         <span class="category-count" id="guideline-count"></span>
       </div>
-      <p class="foamed-note">Practice guidelines and consensus statements relevant to critical care, from the last <span id="guideline-window"></span> days.</p>
-      <div id="guideline-list"></div>
+      <div id="guideline-body" class="section-body">
+        <p class="foamed-note">Practice guidelines and consensus statements relevant to critical care, from the last <span id="guideline-window"></span> days.</p>
+        <div id="guideline-list"></div>
+      </div>
     </section>
     <section class="trending-section" id="trending-section" hidden>
       <div class="trending-heading">
+        <button class="collapse-toggle" id="trending-collapse-toggle" type="button" aria-expanded="false" aria-controls="trending-body">▸</button>
         <h2>🔥 Trending this month</h2>
         <span class="category-count" id="trending-count"></span>
       </div>
-      <div id="trending-list"></div>
+      <div id="trending-body" class="section-body">
+        <div id="trending-list"></div>
+      </div>
     </section>
     <section class="foamed-section" id="foamed-section" hidden>
       <div class="trending-heading foamed-heading">
+        <button class="collapse-toggle" id="foamed-collapse-toggle" type="button" aria-expanded="false" aria-controls="foamed-body">▸</button>
         <h2>📚 FOAMed &amp; Blogs</h2>
         <span class="category-count" id="foamed-count"></span>
       </div>
-      <p class="foamed-note">Free open-access med-ed posts from EMCrit, PulmCrit, REBEL EM, and LITFL — commentary and teaching, not peer-reviewed.</p>
-      <div id="foamed-list"></div>
+      <div id="foamed-body" class="section-body">
+        <p class="foamed-note">Free open-access med-ed posts from EMCrit, PulmCrit, REBEL EM, and LITFL — commentary and teaching, not peer-reviewed.</p>
+        <div id="foamed-list"></div>
+      </div>
     </section>
     <div id="content">
       <p class="loading">Loading latest articles…</p>
@@ -107,6 +120,6 @@
     <p><a href="feed.xml">📡 Subscribe via RSS</a></p>
   </footer>
 
-  <script src="app.js?v=7"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>
