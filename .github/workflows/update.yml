@@ -34,16 +34,17 @@ jobs:
           AI_SUMMARY_MAX_PER_RUN: "40"
           GUIDELINE_DAYS: "180"
           GUIDELINE_MAX: "10"
+          TOP_JOURNAL_EXTRA_PER_CATEGORY: "3"
         run: python scripts/fetch_articles.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "icu-scope-bot"
           git config user.email "actions@users.noreply.github.com"
-          if git diff --quiet -- data/articles.json data/ai_cache.json data/spotlight.json feed.xml; then
+          if git diff --quiet -- data/articles.json data/ai_cache.json data/spotlight.json data/archive.json feed.xml; then
             echo "No changes to commit."
           else
-            git add data/articles.json data/ai_cache.json data/spotlight.json feed.xml
+            git add data/articles.json data/ai_cache.json data/spotlight.json data/archive.json feed.xml
             git commit -m "Update ICU literature feed"
             git push
           fi

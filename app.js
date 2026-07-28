@@ -177,7 +177,7 @@
     if (!iso) return "";
     const d = new Date(iso);
     const formatted = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
-    return `Last updated ${formatted} · showing articles from the last ${windowDays} day${windowDays === 1 ? "" : "s"}`;
+    return `Last updated ${formatted} · new articles pulled from the last ${windowDays} day${windowDays === 1 ? "" : "s"} — nothing already shown is ever removed`;
   }
 
   function journalHue(name) {
@@ -415,7 +415,9 @@
       return;
     }
     spotlightSection.hidden = false;
-    spotlightWeek.textContent = spotlight.week || "";
+    spotlightWeek.textContent = spotlight.week
+      ? `Week of ${new Date(`${spotlight.week}T00:00:00Z`).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" })}`
+      : "";
     const prompts = (spotlight.discussion_prompts || []).map((p) => `<li>${escapeHtml(p)}</li>`).join("");
     spotlightBody.innerHTML = `
       <div class="article-card spotlight-card">

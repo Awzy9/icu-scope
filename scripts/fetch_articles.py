@@ -35,6 +35,8 @@ AI_REQUEST_DELAY = 0.6
 ICU_CONTEXT = '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critical illness"[MeSH] OR "critically ill")'
 
 TOP_JOURNAL_MATCHERS = ["new england journal of medicine", "jama"]
+TOP_JOURNAL_FILTER = '("N Engl J Med"[Journal] OR "JAMA"[Journal])'
+TOP_JOURNAL_EXTRA_PER_CATEGORY = int(os.environ.get("TOP_JOURNAL_EXTRA_PER_CATEGORY", "3"))
 
 PUB_TYPE_PRIORITY = [
     "Randomized Controlled Trial",
@@ -248,13 +250,22 @@ def article_from_summary(pmid, s, abstracts):
 def build_category(cat):
     pmids = esearch(cat["query"], RELDATE_DAYS, MAX_PER_CATEGORY)
     time.sleep(REQUEST_DELAY)
-    summaries = esummary(pmids)
+
+    # Top journals (NEJM/JAMA) rarely win a relevance-ranked top-N slice for a
+    # niche ICU topic, so fetch a few explicitly rather than relying on luck.
+    top_journal_query = f'{cat["query"]} AND {TOP_JOURNAL_FILTER}'
+    top_pmids = esearch(top_journal_query, RELDATE_DAYS, TOP_JOURNAL_EXTRA_PER_CATEGORY)
     time.sleep(REQUEST_DELAY)
-    abstracts = efetch_abstracts(pmids)
+
+    combined_pmids = list(dict.fromkeys(pmids + [p for p in top_pmids if p not in pmids]))
+
+    summaries = esummary(combined_pmids)
+    time.sleep(REQUEST_DELAY)
+    abstracts = efetch_abstracts(combined_pmids)
     time.sleep(REQUEST_DELAY)
 
     articles = []
-    for pmid in pmids:
+    for pmid in combined_pmids:
         s = summaries.get(pmid)
         if not s:
             continue
@@ -545,9 +556,16 @@ def save_spotlight(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
-def current_iso_week():
-    iso = datetime.now(timezone.utc).isocalendar()
-    return f"{iso[0]}-W{iso[1]:02d}"
+def current_week_anchor():
+    """Return the date (YYYY-MM-DD) of the most recent Saturday, UTC.
+
+    Using a Saturday-anchored week (rather than ISO week) means the spotlight
+    refreshes on Saturdays instead of Mondays.
+    """
+    now = datetime.now(timezone.utc)
+    days_since_saturday = (now.weekday() - 5) % 7  # Monday=0 ... Saturday=5, Sunday=6
+    anchor = (now - timedelta(days=days_since_saturday)).date()
+    return anchor.isoformat()
 
 
 def pick_spotlight(candidates):
@@ -590,7 +608,7 @@ def pick_spotlight(candidates):
 
 
 def build_spotlight(trending_articles):
-    week = current_iso_week()
+    week = current_week_anchor()
     existing = load_spotlight()
     if existing and existing.get("week") == week:
         return existing
@@ -676,24 +694,59 @@ def parsed_pubdate_for_sort(pubdate_str):
     return datetime.min
 
 
+ARCHIVE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "archive.json")
+
+
+def load_archive():
+    try:
+        with open(ARCHIVE_PATH, "r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        data = {}
+    data.setdefault("categories", {})
+    data.setdefault("foamed", {})
+    data.setdefault("guidelines", {})
+    return data
+
+
+def save_archive(archive):
+    with open(ARCHIVE_PATH, "w", encoding="utf-8") as f:
+        json.dump(archive, f, indent=2, ensure_ascii=False)
+
+
+def merge_into_bucket(bucket, fresh_articles, id_fn):
+    """Add/update fresh_articles into bucket (keyed dict, mutated in place).
+
+    Existing entries are never deleted here, even if they're no longer part
+    of today's fresh fetch — that's how "never remove, just add" is enforced.
+    """
+    for a in fresh_articles:
+        bucket[id_fn(a)] = a
+    return sorted(bucket.values(), key=lambda a: parsed_pubdate_for_sort(a.get("pubdate", "")), reverse=True)
+
+
 def main():
     if not CONTACT_EMAIL:
         raise SystemExit("CONTACT_EMAIL env var is required (NCBI usage policy).")
+
+    archive = load_archive()
 
     categories_out = []
     for cat in CATEGORIES:
         print(f"Fetching {cat['label']}...")
         try:
-            articles = build_category(cat)
+            fresh = build_category(cat)
         except Exception as e:
             print(f"  warning: {cat['label']} failed: {e}")
-            articles = []
+            fresh = []
+        bucket = archive["categories"].setdefault(cat["id"], {})
+        merged = merge_into_bucket(bucket, fresh, lambda a: a["pmid"])
         categories_out.append(
             {
                 "id": cat["id"],
                 "label": cat["label"],
                 "abbr": cat["abbr"],
-                "articles": articles,
+                "articles": merged,
             }
         )
 
@@ -706,17 +759,21 @@ def main():
 
     print("Fetching FOAMed & blogs...")
     try:
-        foamed_articles = build_foamed()
+        fresh_foamed = build_foamed()
     except Exception as e:
         print(f"  warning: FOAMed fetch failed: {e}")
-        foamed_articles = []
+        fresh_foamed = []
+    foamed_articles = merge_into_bucket(archive["foamed"], fresh_foamed, lambda a: a["url"])
 
     print("Fetching guideline watch...")
     try:
-        guideline_articles = build_guidelines()
+        fresh_guidelines = build_guidelines()
     except Exception as e:
         print(f"  warning: guideline fetch failed: {e}")
-        guideline_articles = []
+        fresh_guidelines = []
+    guideline_articles = merge_into_bucket(archive["guidelines"], fresh_guidelines, lambda a: a["pmid"])
+
+    save_archive(archive)
 
     print("Generating AI summaries...")
     try:

@@ -5,7 +5,9 @@ A daily-updating feed of recent ICU / critical-care literature from PubMed, orga
 ## How it works
 
 - `scripts/fetch_articles.py` queries the NCBI PubMed E-utilities API for each category, plus a "Trending this month" ranking (by PMC citation count) and a "FOAMed & Blogs" section (RSS from EMCrit, PulmCrit, REBEL EM, LITFL), and writes it all to `data/articles.json`.
-- Articles from NEJM/JAMA are tagged `is_top_journal` and shown with a badge in the normal category feeds.
+- Articles from NEJM/JAMA are tagged `is_top_journal` and shown with a badge in the normal category feeds. Each category also runs a small supplementary NEJM/JAMA-only query (`TOP_JOURNAL_EXTRA_PER_CATEGORY`, default 3) so they don't get crowded out by a relevance-ranked top-N slice.
+- Categories, FOAMed posts, and guidelines **accumulate in `data/archive.json`** and are never removed — each day's fetch only adds newly-discovered items on top of everything already archived, keyed by PMID/URL. (Trending and the weekly Spotlight are rankings, not archives, so those do rotate by design.)
+- The "Article of the Week" spotlight refreshes every **Saturday** (cached in `data/spotlight.json`, keyed off the most recent Saturday's date).
 - If `GROQ_API_KEY` is set, each article/post also gets an AI-generated plain-language summary and a "why it matters" clinical significance note (via Groq's free API, running the open-source Llama 3.3 70B model). Results are cached in `data/ai_cache.json` so each article is only summarized once, ever — not re-summarized every day it stays in the window.
 - `.github/workflows/update.yml` runs that script daily via GitHub Actions and commits the result if it changed.
 - `index.html` / `app.js` / `style.css` render `data/articles.json` as a static site, served via GitHub Pages.
