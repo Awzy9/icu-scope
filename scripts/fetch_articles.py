@@ -775,18 +775,20 @@ def main():
 
     save_archive(archive)
 
-    print("Generating AI summaries...")
-    try:
-        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles)
-    except Exception as e:
-        print(f"  warning: AI summarization failed: {e}")
-
+    # Run before the bulk AI summarization below so it isn't starved of
+    # tokens-per-minute budget on Groq's free tier.
     print("Selecting article of the week...")
     try:
         spotlight = build_spotlight(trending_articles)
     except Exception as e:
         print(f"  warning: spotlight selection failed: {e}")
         spotlight = load_spotlight()
+
+    print("Generating AI summaries...")
+    try:
+        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles)
+    except Exception as e:
+        print(f"  warning: AI summarization failed: {e}")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
