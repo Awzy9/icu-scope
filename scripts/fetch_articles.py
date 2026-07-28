@@ -24,6 +24,11 @@ TRENDING_TOP_N = int(os.environ.get("TRENDING_TOP_N", "10"))
 FOAMED_DAYS = int(os.environ.get("FOAMED_DAYS", "30"))
 FOAMED_MAX_PER_SOURCE = int(os.environ.get("FOAMED_MAX_PER_SOURCE", "6"))
 FOAMED_TOTAL_MAX = int(os.environ.get("FOAMED_TOTAL_MAX", "15"))
+
+MEDRXIV_API = "https://api.biorxiv.org/details/medrxiv"
+MEDRXIV_CATEGORY = "intensive care and critical care medicine"
+PREPRINT_DAYS = int(os.environ.get("PREPRINT_DAYS", "14"))
+PREPRINT_MAX = int(os.environ.get("PREPRINT_MAX", "10"))
 REQUEST_DELAY = 0.4  # stay under NCBI's 3 req/sec unauthenticated limit
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
@@ -79,6 +84,13 @@ PUB_TYPE_PRIORITY = [
 
 GUIDELINE_DAYS = int(os.environ.get("GUIDELINE_DAYS", "180"))
 GUIDELINE_MAX = int(os.environ.get("GUIDELINE_MAX", "10"))
+
+# Rotating link-liveness check: archives never shrink, so DOI/FOAMed/preprint
+# links can rot silently over time. Only a bounded number are (re-)checked
+# per run, oldest-checked-first, so the whole archive gets covered gradually
+# without hammering external hosts on every fetch.
+LINK_CHECK_MAX_PER_RUN = int(os.environ.get("LINK_CHECK_MAX_PER_RUN", "25"))
+LINK_CHECK_RECHECK_DAYS = int(os.environ.get("LINK_CHECK_RECHECK_DAYS", "30"))
 
 # Matched against title+abstract (lowercase) to badge guidelines issued by a
 # named critical-care society, in addition to whatever PubMed's own
@@ -157,6 +169,18 @@ CATEGORIES = [
         "label": "Trauma & Surgical",
         "abbr": "Trauma",
         "query": f'{ICU_CONTEXT} AND (trauma OR "postoperative care" OR "surgical critical care" OR polytrauma OR "damage control")',
+    },
+    {
+        "id": "procedures-pocus",
+        "label": "Procedures & POCUS",
+        "abbr": "Procedures",
+        "query": f'{ICU_CONTEXT} AND ("point-of-care ultrasound" OR POCUS OR "critical care ultrasonography" OR intubation OR tracheostomy OR "central venous catheterization" OR "arterial catheterization" OR "chest tube" OR thoracostomy OR bronchoscopy)',
+    },
+    {
+        "id": "pharmacology",
+        "label": "Pharmacology",
+        "abbr": "Pharm",
+        "query": f'{ICU_CONTEXT} AND ("critical care pharmacotherapy"[MeSH Terms] OR "drug-related side effects and adverse reactions"[MeSH] OR "pharmacokinetics"[MeSH] AND "critical illness"[MeSH] OR sedation OR analgosedation OR "drug dosing" OR "therapeutic drug monitoring")',
     },
 ]
 
@@ -248,6 +272,13 @@ def doi_for(summary):
     return None
 
 
+def pmcid_for(summary):
+    for aid in summary.get("articleids", []):
+        if aid.get("idtype") == "pmc":
+            return aid.get("value")
+    return None
+
+
 def is_top_journal(journal_name):
     lowered = (journal_name or "").lower().strip()
     for base in TOP_JOURNAL_BARE_NAMES:
@@ -266,6 +297,7 @@ def normalize_pub_type(pubtypes):
 def article_from_summary(pmid, s, abstracts):
     authors = [a["name"] for a in s.get("authors", []) if a.get("name")]
     journal = s.get("fulljournalname") or s.get("source", "")
+    pmcid = pmcid_for(s)
     return {
         "pmid": pmid,
         "title": re.sub(r"\s+", " ", s.get("title", "")).strip(),
@@ -280,6 +312,8 @@ def article_from_summary(pmid, s, abstracts):
         "volume": s.get("volume", ""),
         "issue": s.get("issue", ""),
         "pages": s.get("pages", ""),
+        "is_open_access": bool(pmcid),
+        "pmc_url": f"https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/" if pmcid else None,
         "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/",
     }
 
@@ -416,6 +450,7 @@ def build_foamed_source(source):
                 "pubdate": pub_dt.strftime("%Y-%m-%d"),
                 "summary": strip_html(desc_el.text if desc_el is not None else "")[:400],
                 "study_type": "FOAMed/Blog",
+                "is_open_access": True,
                 "_sort": pub_dt,
             }
         )
@@ -435,6 +470,39 @@ def build_foamed():
     for item in all_items:
         del item["_sort"]
     return all_items[:FOAMED_TOTAL_MAX]
+
+
+def build_preprints():
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=PREPRINT_DAYS)
+    url = f"{MEDRXIV_API}/{start.isoformat()}/{end.isoformat()}/0/json"
+    req = urllib.request.Request(url, headers={"User-Agent": f"{TOOL} (contact: {CONTACT_EMAIL})"})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        data = json.loads(resp.read())
+
+    items = []
+    for entry in data.get("collection", []):
+        if (entry.get("category") or "").strip().lower() != MEDRXIV_CATEGORY:
+            continue
+        doi = (entry.get("doi") or "").strip()
+        if not doi:
+            continue
+        items.append(
+            {
+                "title": re.sub(r"\s+", " ", entry.get("title", "")).strip(),
+                "url": f"https://doi.org/{doi}",
+                "source": "medRxiv preprint",
+                "author": (entry.get("author_corresponding") or "").strip(),
+                "pubdate": entry.get("date", ""),
+                "summary": strip_html(entry.get("abstract", ""))[:500],
+                "study_type": "Preprint (not peer-reviewed)",
+                "is_open_access": True,
+                "is_preprint": True,
+            }
+        )
+
+    items.sort(key=lambda x: parsed_pubdate_for_sort(x.get("pubdate", "")), reverse=True)
+    return items[:PREPRINT_MAX]
 
 
 AI_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "ai_cache.json")
@@ -528,7 +596,7 @@ def article_ai_id(article):
     return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
 
 
-def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=()):
+def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=()):
     by_id = {}
 
     def register(article):
@@ -548,16 +616,18 @@ def gather_ai_targets(categories_out, trending_articles, foamed_articles, guidel
         register(a)
     for a in guideline_articles:
         register(a)
+    for a in preprint_articles:
+        register(a)
     return by_id
 
 
-def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=()):
+def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=()):
     if not GROQ_API_KEY:
         print("  GROQ_API_KEY not set, skipping AI summaries")
         return
 
     cache = load_ai_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles)
 
     remaining_budget = AI_SUMMARY_MAX_PER_RUN
     new_count = 0
@@ -688,13 +758,15 @@ def xml_escape(text):
     )
 
 
-def build_rss_feed(categories_out, foamed_articles):
+def build_rss_feed(categories_out, foamed_articles, preprint_articles=()):
     items = []
     for cat in categories_out:
         for a in cat["articles"]:
             items.append((a, cat["label"]))
     for a in foamed_articles:
         items.append((a, a.get("source", "FOAMed")))
+    for a in preprint_articles:
+        items.append((a, "Preprint"))
 
     def sort_key(pair):
         return parsed_pubdate_for_sort(pair[0].get("pubdate", ""))
@@ -755,12 +827,84 @@ def load_archive():
     data.setdefault("categories", {})
     data.setdefault("foamed", {})
     data.setdefault("guidelines", {})
+    data.setdefault("preprints", {})
     return data
 
 
 def save_archive(archive):
     with open(ARCHIVE_PATH, "w", encoding="utf-8") as f:
         json.dump(archive, f, indent=2, ensure_ascii=False)
+
+
+LINK_CHECK_STATE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "link_check.json")
+
+
+def load_link_check_state():
+    try:
+        with open(LINK_CHECK_STATE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_link_check_state(state):
+    with open(LINK_CHECK_STATE_PATH, "w", encoding="utf-8") as f:
+        json.dump(state, f, indent=2, ensure_ascii=False)
+
+
+def url_is_reachable(url):
+    def attempt(method):
+        req = urllib.request.Request(url, method=method, headers={"User-Agent": f"{TOOL} (contact: {CONTACT_EMAIL})"})
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return resp.status < 400
+
+    try:
+        return attempt("HEAD")
+    except urllib.error.HTTPError as e:
+        if e.code in (403, 405):
+            # Some hosts (incl. common doi.org redirect targets) reject HEAD.
+            try:
+                return attempt("GET")
+            except Exception:
+                return False
+        return False
+    except Exception:
+        return False
+
+
+def check_links(check_targets):
+    """Verify a bounded, rotating slice of (check_id, url, article) links.
+
+    Sets article["link_broken"] only for links actually (re-)checked this
+    run; articles never checked yet simply have no key, so the UI can tell
+    "known broken" apart from "not verified yet".
+    """
+    state = load_link_check_state()
+    now = datetime.now(timezone.utc)
+
+    due = []
+    for check_id, url, article in check_targets:
+        last = state.get(check_id)
+        if last:
+            try:
+                last_dt = datetime.fromisoformat(last)
+            except ValueError:
+                last_dt = None
+            if last_dt and (now - last_dt).days < LINK_CHECK_RECHECK_DAYS:
+                continue
+        due.append((check_id, url, article))
+
+    checked = 0
+    for check_id, url, article in due:
+        if checked >= LINK_CHECK_MAX_PER_RUN:
+            break
+        article["link_broken"] = not url_is_reachable(url)
+        state[check_id] = now.isoformat(timespec="seconds")
+        checked += 1
+        time.sleep(0.3)
+
+    save_link_check_state(state)
+    print(f"  Link check: {checked} checked this run, {len(due) - checked} still due out of {len(check_targets)} total")
 
 
 PEDIATRIC_TITLE_KEYWORDS = [
@@ -837,6 +981,14 @@ def main():
         fresh_guidelines = []
     guideline_articles = merge_into_bucket(archive["guidelines"], fresh_guidelines, lambda a: a["pmid"])
 
+    print("Fetching medRxiv preprints...")
+    try:
+        fresh_preprints = build_preprints()
+    except Exception as e:
+        print(f"  warning: preprint fetch failed: {e}")
+        fresh_preprints = []
+    preprint_articles = merge_into_bucket(archive["preprints"], fresh_preprints, lambda a: a["url"])
+
     save_archive(archive)
 
     # Run before the bulk AI summarization below so it isn't starved of
@@ -850,9 +1002,30 @@ def main():
 
     print("Generating AI summaries...")
     try:
-        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles)
+        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles)
     except Exception as e:
         print(f"  warning: AI summarization failed: {e}")
+
+    print("Checking for broken links...")
+    try:
+        link_targets = []
+        for cat in categories_out:
+            for a in cat["articles"]:
+                if a.get("doi"):
+                    link_targets.append((f"doi:{a['doi']}", f"https://doi.org/{a['doi']}", a))
+        for a in trending_articles:
+            if a.get("doi"):
+                link_targets.append((f"doi:{a['doi']}", f"https://doi.org/{a['doi']}", a))
+        for a in guideline_articles:
+            if a.get("doi"):
+                link_targets.append((f"doi:{a['doi']}", f"https://doi.org/{a['doi']}", a))
+        for a in foamed_articles:
+            link_targets.append((f"url:{a['url']}", a["url"], a))
+        for a in preprint_articles:
+            link_targets.append((f"url:{a['url']}", a["url"], a))
+        check_links(link_targets)
+    except Exception as e:
+        print(f"  warning: link check failed: {e}")
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -869,6 +1042,10 @@ def main():
             "window_days": GUIDELINE_DAYS,
             "articles": guideline_articles,
         },
+        "preprints": {
+            "window_days": PREPRINT_DAYS,
+            "articles": preprint_articles,
+        },
         "spotlight": spotlight,
         "categories": categories_out,
     }
@@ -878,14 +1055,14 @@ def main():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     try:
-        build_rss_feed(categories_out, foamed_articles)
+        build_rss_feed(categories_out, foamed_articles, preprint_articles)
     except Exception as e:
         print(f"  warning: RSS feed generation failed: {e}")
 
     total = sum(len(c["articles"]) for c in categories_out)
     print(f"Wrote {total} articles across {len(categories_out)} categories, "
           f"{len(trending_articles)} trending, {len(foamed_articles)} FOAMed posts, "
-          f"and {len(guideline_articles)} guidelines to {out_path}")
+          f"{len(guideline_articles)} guidelines, and {len(preprint_articles)} preprints to {out_path}")
 
 
 if __name__ == "__main__":

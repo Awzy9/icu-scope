@@ -6,7 +6,7 @@
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=12" />
+  <link rel="stylesheet" href="style.css?v=13" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -54,6 +54,8 @@
     <select id="study-type-filter" class="window-filter" aria-label="Study type">
       <option value="all">All study types</option>
     </select>
+    <button id="compact-toggle" class="toolbar-btn" type="button" aria-pressed="false">☰ Compact view</button>
+    <button id="digest-btn" class="toolbar-btn" type="button">📋 Copy weekly digest</button>
   </div>
 
   <main class="content">
@@ -62,6 +64,7 @@
         <button class="collapse-toggle" id="spotlight-collapse-toggle" type="button" aria-expanded="false" aria-controls="spotlight-body">▸</button>
         <h2>📌 Article of the Week</h2>
         <span class="category-count" id="spotlight-week"></span>
+        <button class="print-btn" id="spotlight-print-btn" type="button">🖨️ Print handout</button>
       </div>
       <div id="spotlight-body" class="section-body"></div>
     </section>
@@ -105,6 +108,17 @@
       <div id="foamed-body" class="section-body">
         <p class="foamed-note">Free open-access med-ed posts from EMCrit, PulmCrit, REBEL EM, and LITFL — commentary and teaching, not peer-reviewed.</p>
         <div id="foamed-list"></div>
+      </div>
+    </section>
+    <section class="preprint-section" id="preprint-section" hidden>
+      <div class="trending-heading preprint-heading">
+        <button class="collapse-toggle" id="preprint-collapse-toggle" type="button" aria-expanded="false" aria-controls="preprint-body">▸</button>
+        <h2>🧪 Preprints</h2>
+        <span class="category-count" id="preprint-count"></span>
+      </div>
+      <div id="preprint-body" class="section-body">
+        <p class="foamed-note">Not yet peer-reviewed — from medRxiv's Intensive/Critical Care category, last <span id="preprint-window"></span> days.</p>
+        <div id="preprint-list"></div>
       </div>
     </section>
     <div id="content">
