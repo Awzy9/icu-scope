@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=15" />
+  <link rel="stylesheet" href="style.css?v=16" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -38,21 +38,30 @@
           <span class="brand-name">Scope</span>
         </div>
         <p class="tagline">ICU literature, guidelines &amp; FOAMed — organized by system</p>
-        <p class="sources-line">
-          Sources: <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed</a>
+        <details class="sources-line">
+          <summary>Sources</summary>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank" rel="noopener">PubMed</a>
           (NEJM, JAMA, The Lancet, Lancet Respir Med, Intensive Care Med, Crit Care Med, Am J Respir Crit Care Med, Chest, Critical Care)
           · <a href="https://emcrit.org/" target="_blank" rel="noopener">EMCrit</a>/<a href="https://emcrit.org/category/pulmcrit/" target="_blank" rel="noopener">PulmCrit</a>,
           <a href="https://rebelem.com/" target="_blank" rel="noopener">REBEL EM</a>,
           <a href="https://litfl.com/" target="_blank" rel="noopener">LITFL</a>
           · <a href="https://www.medrxiv.org/" target="_blank" rel="noopener">medRxiv</a>
           · <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a>
-        </p>
+        </details>
         <p class="updated-line" id="updated-line">Loading update time…</p>
       </div>
       <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">🔖 <span id="saved-count-badge">0</span></button>
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
     </div>
   </header>
+
+  <nav class="section-jump" id="section-jump" aria-label="Jump to section">
+    <div class="section-jump-header">
+      <span>Jump to</span>
+      <button class="section-jump-close" id="section-jump-close" type="button" aria-label="Close menu">✕</button>
+    </div>
+    <!-- populated by app.js -->
+  </nav>
 
   <nav class="category-nav" id="category-nav" aria-label="Categories">
     <!-- populated by app.js -->
@@ -192,6 +201,22 @@
 
   <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
 
-  <script src="app.js?v=11"></script>
+  <nav class="bottom-nav" id="bottom-nav" aria-label="Mobile navigation">
+    <button class="bottom-nav-btn" id="bottom-nav-top" type="button">
+      <span class="bottom-nav-icon">🏠</span><span>Top</span>
+    </button>
+    <button class="bottom-nav-btn" id="bottom-nav-trending" type="button">
+      <span class="bottom-nav-icon">🔥</span><span>Trending</span>
+    </button>
+    <button class="bottom-nav-btn" id="bottom-nav-saved" type="button">
+      <span class="bottom-nav-icon">🔖</span><span>Saved</span>
+    </button>
+    <button class="bottom-nav-btn" id="bottom-nav-more" type="button" aria-expanded="false" aria-controls="section-jump">
+      <span class="bottom-nav-icon">☰</span><span>More</span>
+    </button>
+  </nav>
+  <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
+
+  <script src="app.js?v=12"></script>
 </body>
 </html>
