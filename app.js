@@ -10,6 +10,11 @@
   const foamedBody = document.getElementById("foamed-body");
   const foamedList = document.getElementById("foamed-list");
   const foamedCount = document.getElementById("foamed-count");
+  const preprintSection = document.getElementById("preprint-section");
+  const preprintBody = document.getElementById("preprint-body");
+  const preprintList = document.getElementById("preprint-list");
+  const preprintCount = document.getElementById("preprint-count");
+  const preprintWindow = document.getElementById("preprint-window");
   const guidelineSection = document.getElementById("guideline-section");
   const guidelineBody = document.getElementById("guideline-body");
   const guidelineList = document.getElementById("guideline-list");
@@ -31,11 +36,15 @@
     { id: "guideline", body: guidelineBody, toggle: document.getElementById("guideline-collapse-toggle") },
     { id: "trending", body: trendingBody, toggle: document.getElementById("trending-collapse-toggle") },
     { id: "foamed", body: foamedBody, toggle: document.getElementById("foamed-collapse-toggle") },
+    { id: "preprint", body: preprintBody, toggle: document.getElementById("preprint-collapse-toggle") },
   ];
   const themeToggle = document.getElementById("theme-toggle");
   const searchInput = document.getElementById("search-input");
   const windowFilter = document.getElementById("window-filter");
   const studyTypeFilter = document.getElementById("study-type-filter");
+  const compactToggle = document.getElementById("compact-toggle");
+  const digestBtn = document.getElementById("digest-btn");
+  const spotlightPrintBtn = document.getElementById("spotlight-print-btn");
 
   const CATEGORY_ICONS = {
     cardiovascular: "❤️",
@@ -47,6 +56,8 @@
     "infectious-sepsis": "🦠",
     "hematology-coag": "🩸",
     "trauma-surgical": "🚑",
+    "procedures-pocus": "🩺",
+    pharmacology: "💊",
   };
 
   let rawData = null;
@@ -69,6 +80,19 @@
       document.documentElement.setAttribute("data-theme", next);
       localStorage.setItem("icu-scope-theme", next);
       themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
+    });
+  }
+
+  function initCompactView() {
+    const saved = localStorage.getItem("icu-scope-compact") === "1";
+    document.body.classList.toggle("compact-view", saved);
+    compactToggle.setAttribute("aria-pressed", String(saved));
+    compactToggle.textContent = saved ? "☰ Full view" : "☰ Compact view";
+    compactToggle.addEventListener("click", () => {
+      const active = document.body.classList.toggle("compact-view");
+      compactToggle.setAttribute("aria-pressed", String(active));
+      compactToggle.textContent = active ? "☰ Full view" : "☰ Compact view";
+      localStorage.setItem("icu-scope-compact", active ? "1" : "0");
     });
   }
 
@@ -155,6 +179,7 @@
     const ids = new Set();
     (data.trending && data.trending.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.foamed && data.foamed.articles || []).forEach((a) => ids.add(`url:${a.url}`));
+    (data.preprints && data.preprints.articles || []).forEach((a) => ids.add(`url:${a.url}`));
     (data.guidelines && data.guidelines.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.categories || []).forEach((c) => c.articles.forEach((a) => ids.add(articleId(a))));
     return ids;
@@ -168,6 +193,7 @@
     };
     (data.trending && data.trending.articles || []).forEach(add);
     ((data.foamed && data.foamed.articles) || []).map(foamedToArticle).forEach(add);
+    ((data.preprints && data.preprints.articles) || []).map(preprintToArticle).forEach(add);
     (data.guidelines && data.guidelines.articles || []).forEach(add);
     (data.categories || []).forEach((c) => c.articles.forEach(add));
     return map;
@@ -258,6 +284,39 @@
     return citation;
   }
 
+  function buildDigestText(data) {
+    if (!data) return "";
+    const lines = [`ICU Scope — Weekly Digest (${new Date().toLocaleDateString()})`, ""];
+
+    if (data.spotlight && data.spotlight.title) {
+      lines.push(`📌 Article of the Week: ${data.spotlight.title}`);
+      if (data.spotlight.why_selected) lines.push(`   ${data.spotlight.why_selected}`);
+      lines.push(`   ${data.spotlight.url}`, "");
+    }
+
+    const trending = ((data.trending && data.trending.articles) || []).slice(0, 5);
+    if (trending.length) {
+      lines.push("🔥 Trending this month:");
+      trending.forEach((a) => {
+        lines.push(`- ${a.title} (${a.journal || ""}, ${a.pubdate || ""})`);
+        if (a.ai_significance) lines.push(`  ${a.ai_significance}`);
+        lines.push(`  ${a.url}`);
+      });
+      lines.push("");
+    }
+
+    const guidelines = ((data.guidelines && data.guidelines.articles) || []).slice(0, 5);
+    if (guidelines.length) {
+      lines.push("📋 Guideline Watch:");
+      guidelines.forEach((a) => {
+        lines.push(`- ${a.title}${a.society ? ` (${a.society})` : ""}`);
+        lines.push(`  ${a.url}`);
+      });
+    }
+
+    return lines.join("\n").trim();
+  }
+
   function articleCard(article) {
     const id = articleId(article);
     const isNew = !isFirstVisit && !previousSeenIds.has(id);
@@ -301,6 +360,16 @@
     const societyBadge = article.society
       ? `<span class="society-badge">${escapeHtml(article.society)}</span>`
       : "";
+    const oaBadge = article.is_open_access
+      ? `<span class="oa-badge">🔓 Open Access</span>`
+      : "";
+    const brokenBadge = article.link_broken
+      ? `<span class="broken-link-badge" title="This link may no longer resolve">⚠ Link may be broken</span>`
+      : "";
+    const fullTextLink = article.pmc_url
+      ? `<a href="${article.pmc_url}" target="_blank" rel="noopener">Free full text</a>`
+      : "";
+    const readLabel = article.is_foamed ? "Read post" : (article.is_preprint ? "Read preprint" : "PubMed");
 
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
@@ -310,12 +379,13 @@
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
-      <div class="article-tags">${studyTypeBadge}${societyBadge}</div>
+      <div class="article-tags">${studyTypeBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
       ${aiBlock}
       ${abstractBlock}
       <div class="article-links">
-        <a href="${article.url}" target="_blank" rel="noopener">${article.is_foamed ? "Read post" : "PubMed"}</a>
+        <a href="${article.url}" target="_blank" rel="noopener">${readLabel}</a>
         ${doiLink}
+        ${fullTextLink}
         <button class="cite-btn" type="button">Cite</button>
         <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">${isBookmarked ? "🔖 Saved" : "🔖 Save"}</button>
       </div>
@@ -381,7 +451,27 @@
       citation_count: 0,
       is_top_journal: false,
       is_foamed: true,
+      is_open_access: item.is_open_access !== false,
       study_type: item.study_type || "FOAMed/Blog",
+      url: item.url,
+    };
+  }
+
+  function preprintToArticle(item) {
+    return {
+      title: item.title,
+      journal: item.source,
+      pubdate: item.pubdate,
+      authors: item.author ? [item.author] : [],
+      doi: null,
+      abstract: item.summary,
+      ai_summary: item.ai_summary,
+      ai_significance: item.ai_significance,
+      citation_count: 0,
+      is_top_journal: false,
+      is_open_access: true,
+      is_preprint: true,
+      study_type: item.study_type || "Preprint (not peer-reviewed)",
       url: item.url,
     };
   }
@@ -408,6 +498,19 @@
     foamedCount.textContent = `${posts.length} post${posts.length === 1 ? "" : "s"} · last ${foamed.window_days} days`;
     foamedList.innerHTML = "";
     posts.forEach((item) => foamedList.appendChild(articleCard(item)));
+  }
+
+  function renderPreprints(preprints, term, days, studyType) {
+    const articles = filterList(((preprints && preprints.articles) || []).map(preprintToArticle), term, days, studyType);
+    preprintWindow.textContent = preprints ? preprints.window_days : "";
+    if (!articles.length) {
+      preprintSection.hidden = true;
+      return;
+    }
+    preprintSection.hidden = false;
+    preprintCount.textContent = `${articles.length} preprint${articles.length === 1 ? "" : "s"}`;
+    preprintList.innerHTML = "";
+    articles.forEach((article) => preprintList.appendChild(articleCard(article)));
   }
 
   function renderGuidelines(guidelines, term, days, studyType) {
@@ -464,6 +567,7 @@
     const collect = (list) => list.forEach((a) => types.add(a.study_type || "Study"));
     collect((data.trending && data.trending.articles) || []);
     collect(((data.foamed && data.foamed.articles) || []).map(foamedToArticle));
+    collect(((data.preprints && data.preprints.articles) || []).map(preprintToArticle));
     collect((data.guidelines && data.guidelines.articles) || []);
     (data.categories || []).forEach((c) => collect(c.articles));
     const sorted = [...types].sort();
@@ -586,10 +690,12 @@
     renderGuidelines(rawData.guidelines, term, days, studyType);
     renderTrending(rawData.trending, term, days, studyType);
     renderFoamed(rawData.foamed, term, days, studyType);
+    renderPreprints(rawData.preprints, term, days, studyType);
     renderCategories(rawData.categories || [], term, days, studyType);
   }
 
   initTheme();
+  initCompactView();
   initCollapsibleSections();
   previousSeenIds = loadSeenIds();
   bookmarkedIds = loadBookmarks();
@@ -607,6 +713,37 @@
       saveCollapseState(current);
     }
     savedSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  spotlightPrintBtn.addEventListener("click", () => {
+    const wasHidden = spotlightBody.hidden;
+    spotlightBody.hidden = false;
+    document.body.classList.add("printing-spotlight");
+    const restore = () => {
+      document.body.classList.remove("printing-spotlight");
+      spotlightBody.hidden = wasHidden;
+      window.removeEventListener("afterprint", restore);
+    };
+    window.addEventListener("afterprint", restore);
+    window.print();
+  });
+
+  digestBtn.addEventListener("click", () => {
+    const text = buildDigestText(rawData);
+    const original = digestBtn.textContent;
+    const flash = (label) => {
+      digestBtn.textContent = label;
+      setTimeout(() => { digestBtn.textContent = original; }, 1500);
+    };
+    if (!text) {
+      flash("Nothing to copy yet");
+      return;
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(() => flash("Copied!")).catch(() => flash("Copy failed"));
+    } else {
+      flash("Copy unsupported");
+    }
   });
 
   fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" })
