@@ -1,0 +1,12 @@
+name = "icu-scope-ask"
+main = "index.js"
+compatibility_date = "2024-01-01"
+
+[vars]
+# Lock CORS to your GitHub Pages origin so other sites can't casually
+# embed this endpoint and burn through your Groq quota. Update if you
+# fork/rename the repo or use a custom domain.
+ALLOWED_ORIGIN = "https://awzy9.github.io"
+
+# GROQ_API_KEY is a secret, not a var — set it with:
+#   wrangler secret put GROQ_API_KEY

@@ -638,6 +638,67 @@ body.compact-view .article-meta {
   font-style: italic;
 }
 
+.ask-ai {
+  margin: 0.75rem 0 0;
+}
+
+.ask-toggle {
+  background: none;
+  border: 1px solid var(--ai-border);
+  color: var(--ai-accent);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.3rem 0.75rem;
+  border-radius: 999px;
+}
+
+.ask-panel {
+  margin-top: 0.6rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 8px;
+  background: var(--ai-bg);
+  border: 1px solid var(--ai-border);
+}
+
+.ask-input-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.ask-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.4rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+}
+
+.ask-submit {
+  flex: none;
+  border: 1px solid var(--ai-accent);
+  background: var(--ai-accent);
+  color: #fff;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.ask-submit:disabled, .ask-input:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.ask-answer {
+  margin: 0.6rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
 .article-abstract {
   font-size: 0.95rem;
   color: var(--text);
