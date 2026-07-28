@@ -223,6 +223,29 @@ select:focus-visible {
   line-height: 1.5;
 }
 
+.sources-line summary {
+  cursor: pointer;
+  font-weight: 600;
+  color: var(--text-muted);
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.2rem 0;
+}
+
+.sources-line summary::-webkit-details-marker { display: none; }
+
+.sources-line summary::before {
+  content: "▸";
+  display: inline-block;
+  transition: transform 0.15s;
+}
+
+.sources-line[open] summary::before {
+  transform: rotate(90deg);
+}
+
 .sources-line a {
   color: var(--text-muted);
   text-decoration: underline;
@@ -920,9 +943,53 @@ mark {
 
 @media (max-width: 520px) {
   body { font-size: 16px; }
-  .site-header { padding: 1.75rem 1.1rem 1.4rem; }
+  .site-header { padding: 1.5rem 1.1rem 1.1rem; }
   .content { padding: 1.4rem 1.1rem; }
-  .category-nav { padding: 0.75rem 1.1rem; }
+
+  /* Prevent iOS Safari's disorienting auto-zoom when an input under
+     16px gets focus. */
+  .search-input, .window-filter, .toolbar-btn, .ask-input {
+    font-size: 16px;
+  }
+
+  /* Scroll instead of wrap: 11 categories wrapped into 6 rows ate the
+     whole first screen before any article was visible. */
+  .category-nav {
+    padding: 0.7rem 1.1rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .category-nav::-webkit-scrollbar { display: none; }
+  .nav-chip { min-height: 2.6rem; }
+
+  /* Bigger touch targets (Apple HIG recommends ~44px) for the small
+     collapse-toggle circles, which were ~29px and hard to tap precisely. */
+  .collapse-toggle {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+
+  .theme-toggle, .saved-toggle {
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+
+  .header-inner {
+    flex-wrap: wrap;
+  }
+
+  .toolbar { gap: 0.5rem; }
+
+  .ask-input-row { flex-wrap: wrap; }
+  .ask-submit { flex: 1 1 auto; }
+
+  .back-to-top {
+    right: 1rem;
+    bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
+  }
 }
 
 .print-btn {
