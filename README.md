@@ -26,6 +26,18 @@ A daily-updating feed of recent ICU / critical-care literature from PubMed, orga
    Without this secret, the site works exactly as before — just without the AI summary/significance block. With it, up to `AI_SUMMARY_MAX_PER_RUN` (default 40) new articles get summarized per day, so a full backlog fills in over a few days rather than all at once.
 5. Optionally trigger the first fetch manually: Actions tab → "Update ICU literature feed" → Run workflow.
 
+## Ask about this article (optional)
+
+Each article card can show a "💬 Ask about this article" box that answers questions grounded *only* in that article's title/abstract (via Groq's free API, same model as the summaries). It's off by default — the site is fully static (GitHub Pages), so a live Q&A endpoint needs a small serverless proxy to keep the Groq key off the client. Nothing else on the site depends on this; skip it if you don't want it.
+
+1. Install [wrangler](https://developers.cloudflare.com/workers/wrangler/) and log in: `npm install -g wrangler && wrangler login` (free Cloudflare account).
+2. From `cloudflare-worker/`, set the secret: `wrangler secret put GROQ_API_KEY` (paste the same key from the AI summaries step above, or a separate one).
+3. If your site isn't at `https://awzy9.github.io`, update `ALLOWED_ORIGIN` in `cloudflare-worker/wrangler.toml` first (this locks down CORS so other sites can't call your endpoint and burn your quota).
+4. Deploy: `wrangler deploy` from `cloudflare-worker/`. It prints a URL like `https://icu-scope-ask.<your-subdomain>.workers.dev`.
+5. Paste that URL into `ASK_AI_ENDPOINT` near the top of `app.js`, commit, and push.
+
+The Worker only ever sees the question plus the one article's title/abstract — it has no access to your archive, PubMed, or anything else, and it refuses to answer if no abstract was passed in.
+
 ## Local development
 
 Requires Python 3.10+:

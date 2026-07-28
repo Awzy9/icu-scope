@@ -1,4 +1,10 @@
 (function () {
+  // Set this to your deployed Cloudflare Worker URL to enable the
+  // "Ask about this article" feature (see cloudflare-worker/ + README).
+  // Left blank, the feature stays hidden — no broken UI for anyone who
+  // hasn't set up the Worker.
+  const ASK_AI_ENDPOINT = "";
+
   const nav = document.getElementById("category-nav");
   const content = document.getElementById("content");
   const updatedLine = document.getElementById("updated-line");
@@ -507,6 +513,20 @@
       ? `<p class="article-abstract">${highlightMatch(article.abstract, currentSearchTerm)}</p>
          <button class="abstract-toggle" type="button">${abstractToggleLabel}</button>`
       : "";
+    const askContext = article.abstract || article.summary || "";
+    const askBlock = (ASK_AI_ENDPOINT && askContext)
+      ? `<div class="ask-ai">
+           <button class="ask-toggle" type="button">💬 Ask about this article</button>
+           <div class="ask-panel" hidden>
+             <div class="ask-input-row">
+               <input type="text" class="ask-input" placeholder="e.g. What was the sample size?" maxlength="300" />
+               <button class="ask-submit" type="button">Ask</button>
+             </div>
+             <p class="ask-answer" hidden></p>
+             <p class="ai-disclaimer">AI-generated from this article's abstract only — verify against the source.</p>
+           </div>
+         </div>`
+      : "";
     const aiBlock = hasAiSummary
       ? `<div class="ai-summary">
            <div class="ai-summary-label">✨ AI Summary</div>
@@ -560,6 +580,7 @@
       <div class="article-tags">${studyTypeBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
       ${aiBlock}
       ${abstractBlock}
+      ${askBlock}
       <div class="article-links">
         <a href="${article.url}" target="_blank" rel="noopener">${readLabel}</a>
         ${doiLink}
@@ -584,6 +605,45 @@
       aiToggle.addEventListener("click", () => {
         const expanded = aiSummaryEl.classList.toggle("expanded");
         aiToggle.textContent = expanded ? "Hide full summary" : "Show full summary";
+      });
+    }
+
+    const askToggle = card.querySelector(".ask-toggle");
+    const askPanel = card.querySelector(".ask-panel");
+    if (askToggle && askPanel) {
+      askToggle.addEventListener("click", () => {
+        askPanel.hidden = !askPanel.hidden;
+      });
+      const askInput = card.querySelector(".ask-input");
+      const askSubmit = card.querySelector(".ask-submit");
+      const askAnswer = card.querySelector(".ask-answer");
+      const submitQuestion = () => {
+        const question = askInput.value.trim();
+        if (!question) return;
+        askSubmit.disabled = true;
+        askInput.disabled = true;
+        askAnswer.hidden = false;
+        askAnswer.textContent = "Thinking…";
+        fetch(ASK_AI_ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ question, title: article.title, context: askContext }),
+        })
+          .then((res) => res.json().then((data) => ({ ok: res.ok, data })))
+          .then(({ ok, data }) => {
+            askAnswer.textContent = ok ? (data.answer || "No answer generated.") : (data.error || "Something went wrong.");
+          })
+          .catch(() => {
+            askAnswer.textContent = "Couldn't reach the AI service. Try again later.";
+          })
+          .finally(() => {
+            askSubmit.disabled = false;
+            askInput.disabled = false;
+          });
+      };
+      askSubmit.addEventListener("click", submitQuestion);
+      askInput.addEventListener("keydown", (e) => {
+        if (e.key === "Enter") submitQuestion();
       });
     }
 
