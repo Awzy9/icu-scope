@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-28T15:56:45+00:00",
+  "generated_at": "2026-07-28T16:41:03+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -64,7 +64,9 @@
         "pages": "1767-1778",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13322154/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42207935/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42207935/",
+        "ai_summary": "This systematic review and meta-analysis evaluated technology-enhanced strategies to optimize positive end-expiratory pressure (PEEP) in ICU patients on mechanical ventilation. The study found that these technologies may reduce 28-day mortality, but did not affect duration of mechanical ventilation. The evidence was of very low certainty.",
+        "ai_significance": "These findings are significant for ICU clinicians as they suggest that technology-enhanced PEEP optimization strategies may improve patient outcomes, particularly mortality, and highlight the need for further research to confirm these results."
       },
       {
         "pmid": "42150121",
@@ -137,7 +139,9 @@
         "pages": "1610-1621",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13322145/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42159452/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42159452/",
+        "ai_summary": "This study tested whether the ABCDEF bundle could reduce delirium and improve function and quality of life in ICU patients. The bundle did not reduce delirium incidence or duration, but patients reported better quality of life in usual activities 90 days after discharge.",
+        "ai_significance": "The findings suggest that while the ABCDEF bundle may not have a direct impact on delirium, it could have long-term benefits for patients' quality of life, making it a potential tool for ICU care."
       },
       {
         "pmid": "42093058",
@@ -172,7 +176,9 @@
         "pages": "1510-1521",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13318229/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42093058/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42093058/",
+        "ai_summary": "This study compared the long-term effects of a restrictive versus liberal fluid resuscitation strategy in patients with sepsis-induced hypotension. The results showed no significant differences in cognitive or physical function between the two groups at 6 and 12 months after treatment.",
+        "ai_significance": "This study's findings are important for ICU clinicians as they suggest that a restrictive fluid resuscitation strategy may be as effective as a liberal strategy in improving long-term outcomes for sepsis survivors."
       },
       {
         "pmid": "42432793",
@@ -301,7 +307,9 @@
         "pages": "1574-1584",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13322155/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/41945715/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41945715/",
+        "ai_summary": "Researchers analyzed data from 2150 critically ill patients to understand how mechanical power from ventilation interacts with lung compliance to predict lung injury. They found that lung injury risk varies depending on lung compliance and the duration of high mechanical power. A new risk-adjusted score can help predict lung injury.",
+        "ai_significance": "This study's findings can help clinicians personalize ventilator management and reduce the risk of lung injury in critically ill patients."
       }
     ]
   },
@@ -316,6 +324,7 @@
         "pubdate": "2026-07-27",
         "summary": "Rory and Jerry Hoffman host the inaugural episode of a new podcast EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
+        "is_open_access": true,
         "ai_summary": "This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.",
         "ai_significance": "Understanding evidence-based medicine is crucial for ICU clinicians to provide high-quality patient care, and this podcast aims to educate and guide them in this area."
       },
@@ -327,6 +336,7 @@
         "pubdate": "2026-07-26",
         "summary": "In this episode of EMCrit, Dr. Sarah Crager joins me to break down down-and-dirty bedside shock management, moving beyond simple blood pressure targets to a dynamic \"shifting gears\" forward-flow mental model. They tackle tough clinical dilemmas, including the debate over lactated Ringer’s in lactic acidosis, the nuanced use of albumin and diuretics in edematous patients, and the real-world applica",
         "study_type": "FOAMed/Blog",
+        "is_open_access": true,
         "ai_summary": "Dr. Sarah Crager discusses bedside shock management, moving beyond blood pressure targets to a dynamic approach. They address clinical dilemmas, including lactated Ringer's in lactic acidosis and albumin and diuretics in edematous patients. A real-world approach to fluid management is explored.",
         "ai_significance": "This episode provides ICU clinicians with practical guidance on fluid management in shock, helping them make informed decisions in high-pressure situations."
       },
@@ -338,6 +348,7 @@
         "pubdate": "2026-07-24",
         "summary": "There is a replication crisis in the medical literature. Nearly half of all positive trials, when repeated, do not produce a similar positive result.¹,² While many reasons have been posited for this lack of reproducibility, including publication bias, p-hacking, underpowered studies, and selective reporting, what it ultimately means is that we cannot trust the results […] EMCrit Project by Rory Sp",
         "study_type": "FOAMed/Blog",
+        "is_open_access": true,
         "ai_summary": "Researchers found that nearly half of positive medical trial results cannot be replicated, highlighting issues with trust in medical literature.",
         "ai_significance": "This has significant implications for ICU clinical practice, as it may lead to the adoption of ineffective treatments and delay the discovery of effective ones."
       },
@@ -373,6 +384,7 @@
         "pubdate": "2026-07-18",
         "summary": "The YEARS protocol has gained popularity as a straightforward approach to identify a subset of patients undergoing a workup for suspected pulmonary embolism (PE) who are at sufficiently low risk to safely use a D-dimer threshold of 1000 ng/mL. Despite its success, questions remain about whether this strategy can be safely applied to patients with […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
+        "is_open_access": true,
         "ai_summary": "The YEARS protocol was tested to see if it can safely identify low-risk patients with suspected pulmonary embolism. The study aimed to determine if this approach can be applied to patients with malignancy. Results were not provided.",
         "ai_significance": "This study's findings could impact ICU clinical practice by helping clinicians determine which patients with malignancy and suspected PE can safely use a lower D-dimer threshold."
       },
@@ -384,6 +396,7 @@
         "pubdate": "2026-07-17",
         "summary": "EMCrit RACC-Lit Review for July 2026 This month: • Does prehospital whole blood actually improve outcomes? • Can DSD damage your defibrillator? • Go big or go home for adenosine & SVT? and so much more... EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
+        "is_open_access": true,
         "ai_summary": "This is a literature review on various topics in critical care, including prehospital whole blood transfusions, defibrillator damage from DSD, and adenosine dosing for supraventricular tachycardia.",
         "ai_significance": "Understanding these topics can help ICU clinicians make informed decisions and improve patient outcomes."
       },
@@ -419,6 +432,7 @@
         "pubdate": "2026-07-11",
         "summary": "In this episode, Scott Weingart introduces the RUSH Exam 2.0, also known as the iRUSH. Moving beyond its original role for the crashing patient, this updated protocol provides a standardized map for comprehensive bedside hemodynamic assessment. Tune in to learn how to synthesize clinical findings with advanced ultrasound modalities to phenotype shock. EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
+        "is_open_access": true,
         "ai_summary": "This episode introduces the updated RUSH Exam 2.0, also known as the iRUSH, which provides a standardized map for comprehensive bedside hemodynamic assessment. It combines clinical findings with advanced ultrasound modalities to phenotype shock. This updated protocol moves beyond its original role for the crashing patient.",
         "ai_significance": "This matters for ICU clinical practice as it provides a standardized approach to bedside hemodynamic assessment, potentially improving patient outcomes by accurately phenotyping shock."
       },
@@ -572,7 +586,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42409761/",
-        "society": "SCCM"
+        "society": "SCCM",
+        "ai_summary": "Clinical pharmacists are increasingly involved in acute stroke care, but their role is inconsistently defined. A consensus statement recommends their involvement in managing acute ischemic and hemorrhagic stroke in emergency departments.",
+        "ai_significance": "This matters for ICU clinical practice because optimizing the clinical pharmacist role can improve time-sensitive treatment and equity in care delivery for stroke patients."
       },
       {
         "pmid": "42262517",
@@ -708,7 +724,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13249445/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42260906/",
-        "society": "SCCM"
+        "society": "SCCM",
+        "ai_summary": "This study surveyed ICU clinicians and leaders to identify barriers and facilitators to implementing the ICU Liberation bundle, which aims to improve outcomes for critically ill patients. Results showed that clinicians were more familiar with the bundle and prioritized it, but compliance was lower post-pandemic. Workflow integration and aligning the bundle with healthcare goals facilitated compliance.",
+        "ai_significance": "Understanding the barriers to ICU Liberation bundle implementation is crucial for improving patient outcomes, as it has been shown to reduce delirium, immobility, and other complications in critically ill patients."
       },
       {
         "pmid": "42164574",
@@ -752,7 +770,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42203644/",
-        "society": "SCCM"
+        "society": "SCCM",
+        "ai_summary": "This 2026 clinical practice guideline for renal replacement therapy in critically ill patients with acute kidney injury was developed by a Chinese expert panel using the GRADE approach. It provides 34 evidence-based recommendations on topics such as RRT initiation, anticoagulation, and weaning. The guideline aims to standardize RRT management in adult critically ill patients with AKI.",
+        "ai_significance": "This guideline is crucial for ICU clinicians in China as it provides a unified framework for RRT management, potentially improving patient outcomes and reducing variability in care."
       },
       {
         "pmid": "42246225",
@@ -856,7 +876,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13268723/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42272209/",
-        "society": "SCCM"
+        "society": "SCCM",
+        "ai_summary": "A modified Delphi study developed a consensus-based framework for assessing ICU capacity and capability in South Korea, prioritizing functional capabilities over structural metrics. The framework includes 29 indicators across four domains. It provides a foundation for a capability-oriented classification system.",
+        "ai_significance": "This study is significant for ICU clinical practice in South Korea as it establishes a standardized framework for assessing ICU capacity and capability, potentially improving patient safety and resource allocation."
       },
       {
         "pmid": "41773929",
@@ -1035,7 +1057,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13399251/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42417792/",
-        "society": "SCCM"
+        "society": "SCCM",
+        "ai_summary": "This study reviewed Brazilian ICU design standards and found they conflict with decades of evidence on environment's impact on patient healing and staff performance. Current standards are associated with negative outcomes for patients, staff, and families. Updating these standards is necessary to improve critical care outcomes.",
+        "ai_significance": "This study highlights the need for evidence-based ICU design standards to improve patient and staff outcomes, emphasizing the importance of policy updates to prioritize patient-centered care and staff well-being."
       },
       {
         "pmid": "42245967",
@@ -1093,7 +1117,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13230042/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42245967/",
-        "society": "ESICM"
+        "society": "ESICM",
+        "ai_summary": "This study evaluated the simplified Radiographic Assessment of Lung Edema (RALE) score's ability to predict mortality in critically ill patients with Delta-variant COVID-19 using chest X-rays. The RALE score performed comparably to other scoring systems and remained an independent predictor of mortality. The study suggests that the RALE score could be a useful tool for risk stratification in critically ill patients with COVID-19, particularly in resource-limited settings.",
+        "ai_significance": "This study's findings support the use of the simplified RALE score as a practical tool for guiding treatment decisions in critically ill patients with COVID-19, which could lead to improved outcomes and resource allocation in high-burden settings."
       },
       {
         "pmid": "42415882",
@@ -1144,7 +1170,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13337818/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42415882/",
-        "society": "SCCM"
+        "society": "SCCM",
+        "ai_summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
+        "ai_significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care."
       }
     ]
   },
@@ -1160,7 +1188,154 @@
         "summary": "ICU-to-ward transfers are high-risk transitions marked by information loss and burdensome handoff preparation. We developed PAUSE-Agents, a clinician-in-the-loop multi-agent LLM pipeline that drafts source-attributed handoff briefs from structured ICU data and clinical notes using the clinician-developed ICU-PAUSE template. Mirroring ICU team structure, PAUSE-Agents routes each record through a scribe extractor, 6 role-specialized agents, explicit conflict surfacing, and deterministic safety che",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true
+        "is_preprint": true,
+        "ai_summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
+        "ai_significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+      }
+    ]
+  },
+  "trials": {
+    "window_days": 30,
+    "articles": [
+      {
+        "title": "Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07170527",
+        "source": "ARH van Zanten, MD PhD",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "Despite being young, healthy, and physically fit, some intensive care unit (ICU) patients experience significantly worse functional recovery after critical illness than older patients with multiple comorbidities although a poor precondition seems to be associated with worse ICU outcomes. This paradox highlights a fundamental gap in our understanding of the determinants of long-term recovery. While nonmodifiable factors such as age and pre-existing disease explain part of the variation, they cann",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07170527",
+        "ai_summary": "Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.",
+        "ai_significance": "Understanding the determinants of long-term recovery in ICU patients is crucial for improving functional outcomes and reducing the burden of post-intensive care syndrome."
+      },
+      {
+        "title": "Ultrasound Detection of Body Composition in Critical Care",
+        "url": "https://clinicaltrials.gov/study/NCT06728722",
+        "source": "Ain Shams University",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "Objective assessment of the Changes in body composition of critically ill patients is very valuable. Ultrasound stands as a solution due to its portability, bedside availability, and radiation-free technology. Those criteria are crucial for critically ill obstetrics and gynecological cases.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06728722",
+        "ai_summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
+        "ai_significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases."
+      },
+      {
+        "title": "Risk Factors for Adverse Outcomes in Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT06541600",
+        "source": "Qin Zhang",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "This multi-phase prospective study utilized Data-Independent Acquisition proteomics on a nested subset (15 SIC vs. 15 matched sepsis) to map early molecular alterations. Guided by gene-set enrichment evidence of extracellular matrix (ECM) disruption as a pathway-derived biomarker. Admission matrix metalloproteinase-3 was validated in 567 critically ill patients (417 sepsis, 150 non-septic controls) across three hospital campuses.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06541600",
+        "ai_summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
+        "ai_significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes."
+      },
+      {
+        "title": "Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06513949",
+        "source": "Implicit Bioscience",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "Hospitalized patients with ARDS will be randomized to intravenous treatment with a monoclonal antibody against CD14, called IC14, or placebo. They will be followed for 28 days. The primary outcome is the day 4 oxygenation index assessed as a continuous measure.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06513949",
+        "ai_summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
+        "ai_significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery."
+      },
+      {
+        "title": "Role of the Kallikrein-kinin System in Septic Cardiomyopathy",
+        "url": "https://clinicaltrials.gov/study/NCT06080282",
+        "source": "Qin Zhang",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "The purpose of this study is to investigate whether there are differential expressions of molecules in the kallikrein-kinin system (KKS) pathway in septic cardiomyopathy, and to analyze their regulatory mechanisms and gene expression changes.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06080282",
+        "ai_summary": "Researchers studied the kallikrein-kinin system in septic cardiomyopathy to see if certain molecules are differently expressed and how they are regulated.",
+        "ai_significance": "Understanding the kallikrein-kinin system could help develop new treatments for septic cardiomyopathy, a serious complication of sepsis."
+      },
+      {
+        "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial",
+        "url": "https://clinicaltrials.gov/study/NCT06174649",
+        "source": "Duke University",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "This study is a 2-arm, multicenter, multinational, prospective, randomized, controlled clinical trial. Hospitalized subjects with blood cultures growing Gram negative bacilli (GNB) will be randomized 1:1 to have the positive blood cultures characterized using standard of care (SOC) antimicrobial susceptibility testing (AST) vs. a rapid AST method known as Reveal™ in addition to SOC AST. The purpose of the FAST trial is to evaluate whether use of a rapid phenotypic AST improves clinical outcomes ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06174649",
+        "ai_summary": "This study compared standard antibiotic testing to a faster testing method for patients with Gram-negative bacteria in their blood. Patients were randomly assigned to receive either standard testing or faster testing, in addition to standard testing. The faster testing method did not improve clinical outcomes.",
+        "ai_significance": "This study's findings are important for ICU clinicians as they inform the use of rapid antibiotic susceptibility testing in patients with Gram-negative bacteremia, which can guide treatment decisions and potentially improve patient outcomes."
+      },
+      {
+        "title": "Wireless MicroPremVitals Button Sensor in the NICU",
+        "url": "https://clinicaltrials.gov/study/NCT07732257",
+        "source": "McGill University Health Centre/Research Institute of the McGill University Health Centre",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "A wireless and miniaturized vital sign (ECG, SpO2, Skin Temperature) sensor system, MicroPremVitals Button Sensors was developed by the Dr. John Rogers Laboratory (QSIB- Northwestern University, Chicago, USA) to facilitate vital sign monitoring in extremely preterm neonates.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07732257",
+        "ai_summary": "Researchers developed a small, wireless sensor to monitor vital signs in extremely preterm babies, including heart rate, oxygen levels, and body temperature.",
+        "ai_significance": "This technology could improve monitoring and care for vulnerable newborns, potentially reducing complications and improving outcomes."
+      },
+      {
+        "title": "Adrenal Function in Critical Illness",
+        "url": "https://clinicaltrials.gov/study/NCT00156767",
+        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT00156767",
+        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
+      },
+      {
+        "title": "Real-time Evaluation and Continuous Observation of Vital Signs for Enhanced Recovery: a Study for the Early Identification of Complications in the Surgical Ward Following Surgery in Patients Not Eligible for Intensive Care Admission.",
+        "url": "https://clinicaltrials.gov/study/NCT07729891",
+        "source": "Azienda Ospedaliero-Universitaria di Parma",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "This study aims to evaluate whether continuous vital sign monitoring with wearable devices can help detect postoperative complications in surgical ward earlier than standard hospital monitoring. In particular, the goal of this observational study is to evaluate if the wireless wearable devices Portrait Mobile (GE Healthcare) can detect early signs of complications after major urologic surgery in adults who are not eligible for intensive care unit admission. The main questions it aims to answer a",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07729891",
+        "ai_summary": "This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.",
+        "ai_significance": "Early detection of postoperative complications can improve patient outcomes and reduce morbidity and mortality. This study's findings can inform the use of wearable devices in surgical wards to enhance patient care."
+      },
+      {
+        "title": "Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS",
+        "url": "https://clinicaltrials.gov/study/NCT07669558",
+        "source": "Ruijin Hospital",
+        "author": "",
+        "pubdate": "2026-07-28",
+        "summary": "This prospective, randomized crossover physiological study evaluates the effects of lateral positioning (left lateral position and right lateral position) versus the supine position on ventilation-perfusion (V/Q) matching in adult postoperative abdominal surgery participants with acute respiratory distress syndrome (ARDS). Bedside electrical impedance tomography (EIT) will be used to quantify regional ventilation and perfusion (perfusion derived from an intravenous tracer bolus administered duri",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07669558",
+        "ai_summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
+        "ai_significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes."
       }
     ]
   },
@@ -6203,7 +6378,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42149702/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42149702/",
+          "ai_summary": "Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.",
+          "ai_significance": "This study's findings suggest that using a higher dose of rocuronium may improve intubation success rates in the ICU, but more research is needed to confirm this and to understand the potential benefits and risks."
         },
         {
           "pmid": "42121165",
@@ -6230,7 +6407,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13245039/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42121165/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42121165/",
+          "ai_summary": "This study compared three induction agents (etomidate, ketamine, and propofol) for emergency tracheal intubation in critically ill adults. The results showed that etomidate and ketamine probably result in similar mortality, but ketamine may cause more peri-intubation hemodynamic instability. The study also found that propofol has no randomized evidence for emergency intubation in critically ill adults.",
+          "ai_significance": "This study's findings are important for ICU clinical practice as they provide guidance on the choice of induction agent for emergency tracheal intubation, which can impact patient outcomes and hemodynamic stability."
         },
         {
           "pmid": "41954744",
@@ -6260,7 +6439,9 @@
           "pages": "1051-1065",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13246572/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41954744/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41954744/",
+          "ai_summary": "This study highlights the challenges of ventilating ICU patients with obesity, including altered respiratory mechanics and increased susceptibility to hypoxemia and ventilator-induced lung injury. Tailored ventilatory strategies, such as lung-protective ventilation and higher positive end-expiratory pressure, are recommended. Adjunctive monitoring tools and therapies, such as prone positioning and non-invasive ventilation, may also improve outcomes.",
+          "ai_significance": "Understanding and addressing the unique physiology of critically ill patients with obesity is crucial to improving their outcomes, and dedicated clinical trials are needed to define optimal ventilatory strategies."
         }
       ]
     },
@@ -6397,7 +6578,9 @@
           "pages": "1464-1476",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13185727/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41989178/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41989178/",
+          "ai_summary": "This study found that delirium detection tools were less accurate for Spanish-speaking ICU patients compared to English-speaking patients. Using a tool administered by caregivers improved delirium detection in Spanish-speaking patients. These findings highlight the need for language-sensitive delirium detection methods to ensure equitable care.",
+          "ai_significance": "Language-sensitive delirium detection methods are crucial for providing equitable care to diverse ICU populations, as disparities in delirium detection can lead to delayed or inadequate treatment and worsened patient outcomes."
         },
         {
           "pmid": "42210338",
@@ -6424,7 +6607,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13403814/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42210338/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42210338/",
+          "ai_summary": "This study compared the safety and effectiveness of early isoflurane sedation to propofol in critically ill neuro patients with ICP monitoring. Isoflurane was found to be effective and safe without increasing ICP or requiring more vasopressors. Both groups had 100% sedation efficacy.",
+          "ai_significance": "This study provides reassuring evidence for the use of isoflurane sedation in neurocritical patients without intracranial hypertension, which may help reduce the risk of sedation-related complications."
         },
         {
           "pmid": "42152115",
@@ -6457,7 +6642,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13361821/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42152115/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42152115/",
+          "ai_summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
+          "ai_significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients."
         },
         {
           "pmid": "42129898",
@@ -6492,7 +6679,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13262505/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42129898/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42129898/",
+          "ai_summary": "This study compared the effectiveness of two antibiotic combinations, ceftolozane/tazobactam and ceftazidime/avibactam, in treating pneumonia in critically ill patients. The results showed that standard doses of both combinations achieved adequate levels in the lungs, but individualized dosing may be needed due to variability in patient responses. The study suggests that standard dosing is sufficient for most patients, but therapeutic drug monitoring may be necessary in some cases.",
+          "ai_significance": "This study provides important information for ICU clinicians on the dosing and effectiveness of ceftolozane/tazobactam and ceftazidime/avibactam in treating nosocomial pneumonia, which can help guide treatment decisions and improve patient outcomes."
         },
         {
           "pmid": "41998735",
@@ -6517,7 +6706,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13218011/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41998735/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41998735/",
+          "ai_summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
+          "ai_significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury."
         }
       ]
     }

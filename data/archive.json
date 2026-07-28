@@ -4960,7 +4960,8 @@
       "author": "Rory Spiegel",
       "pubdate": "2026-07-27",
       "summary": "Rory and Jerry Hoffman host the inaugural episode of a new podcast EMCrit Project by Rory Spiegel .",
-      "study_type": "FOAMed/Blog"
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     },
     "https://emcrit.org/emcrit/qa-004/": {
       "title": "EMCrit 430 – Questions and Answers (Members Q&A Episode 004) with Sara Crager",
@@ -4969,7 +4970,8 @@
       "author": "Scott Weingart, MD FCCM",
       "pubdate": "2026-07-26",
       "summary": "In this episode of EMCrit, Dr. Sarah Crager joins me to break down down-and-dirty bedside shock management, moving beyond simple blood pressure targets to a dynamic \"shifting gears\" forward-flow mental model. They tackle tough clinical dilemmas, including the debate over lactated Ringer’s in lactic acidosis, the nuanced use of albumin and diuretics in edematous patients, and the real-world applica",
-      "study_type": "FOAMed/Blog"
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     },
     "https://emcrit.org/emnerd/a-study-in-priors/": {
       "title": "A Study in Priors",
@@ -4978,7 +4980,8 @@
       "author": "Rory Spiegel",
       "pubdate": "2026-07-24",
       "summary": "There is a replication crisis in the medical literature. Nearly half of all positive trials, when repeated, do not produce a similar positive result.¹,² While many reasons have been posited for this lack of reproducibility, including publication bias, p-hacking, underpowered studies, and selective reporting, what it ultimately means is that we cannot trust the results […] EMCrit Project by Rory Sp",
-      "study_type": "FOAMed/Blog"
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     },
     "https://rebelem.com/hfnc-vs-niv/": {
       "title": "HFNC vs. NIV in Acute Cardiogenic Pulmonary Edema: Go with the Flow?",
@@ -5007,7 +5010,8 @@
       "author": "Rory Spiegel",
       "pubdate": "2026-07-18",
       "summary": "The YEARS protocol has gained popularity as a straightforward approach to identify a subset of patients undergoing a workup for suspected pulmonary embolism (PE) who are at sufficiently low risk to safely use a D-dimer threshold of 1000 ng/mL. Despite its success, questions remain about whether this strategy can be safely applied to patients with […] EMCrit Project by Rory Spiegel .",
-      "study_type": "FOAMed/Blog"
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     },
     "https://emcrit.org/emcrit/racc-lit-2026-july/": {
       "title": "EMCrit RACC-Lit Review – 2026 July",
@@ -5016,7 +5020,8 @@
       "author": "Scott Weingart, MD FCCM",
       "pubdate": "2026-07-17",
       "summary": "EMCrit RACC-Lit Review for July 2026 This month: • Does prehospital whole blood actually improve outcomes? • Can DSD damage your defibrillator? • Go big or go home for adenosine & SVT? and so much more... EMCrit Project by Scott Weingart, MD FCCM .",
-      "study_type": "FOAMed/Blog"
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     },
     "https://litfl.com/cant-intubate-cant-oxygenate-cico/": {
       "title": "Can’t Intubate Can’t Oxygenate (CICO)",
@@ -5045,7 +5050,8 @@
       "author": "Scott Weingart, MD FCCM",
       "pubdate": "2026-07-11",
       "summary": "In this episode, Scott Weingart introduces the RUSH Exam 2.0, also known as the iRUSH. Moving beyond its original role for the crashing patient, this updated protocol provides a standardized map for comprehensive bedside hemodynamic assessment. Tune in to learn how to synthesize clinical findings with advanced ultrasound modalities to phenotype shock. EMCrit Project by Scott Weingart, MD FCCM .",
-      "study_type": "FOAMed/Blog"
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     },
     "https://litfl.com/bronchoscopic-anatomy/": {
       "title": "Anatomy for bronchoscopy",
@@ -5752,6 +5758,128 @@
       "study_type": "Preprint (not peer-reviewed)",
       "is_open_access": true,
       "is_preprint": true
+    }
+  },
+  "trials": {
+    "NCT07170527": {
+      "title": "Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07170527",
+      "source": "ARH van Zanten, MD PhD",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "Despite being young, healthy, and physically fit, some intensive care unit (ICU) patients experience significantly worse functional recovery after critical illness than older patients with multiple comorbidities although a poor precondition seems to be associated with worse ICU outcomes. This paradox highlights a fundamental gap in our understanding of the determinants of long-term recovery. While nonmodifiable factors such as age and pre-existing disease explain part of the variation, they cann",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07170527"
+    },
+    "NCT06728722": {
+      "title": "Ultrasound Detection of Body Composition in Critical Care",
+      "url": "https://clinicaltrials.gov/study/NCT06728722",
+      "source": "Ain Shams University",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "Objective assessment of the Changes in body composition of critically ill patients is very valuable. Ultrasound stands as a solution due to its portability, bedside availability, and radiation-free technology. Those criteria are crucial for critically ill obstetrics and gynecological cases.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06728722"
+    },
+    "NCT06541600": {
+      "title": "Risk Factors for Adverse Outcomes in Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT06541600",
+      "source": "Qin Zhang",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "This multi-phase prospective study utilized Data-Independent Acquisition proteomics on a nested subset (15 SIC vs. 15 matched sepsis) to map early molecular alterations. Guided by gene-set enrichment evidence of extracellular matrix (ECM) disruption as a pathway-derived biomarker. Admission matrix metalloproteinase-3 was validated in 567 critically ill patients (417 sepsis, 150 non-septic controls) across three hospital campuses.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06541600"
+    },
+    "NCT06513949": {
+      "title": "Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients",
+      "url": "https://clinicaltrials.gov/study/NCT06513949",
+      "source": "Implicit Bioscience",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "Hospitalized patients with ARDS will be randomized to intravenous treatment with a monoclonal antibody against CD14, called IC14, or placebo. They will be followed for 28 days. The primary outcome is the day 4 oxygenation index assessed as a continuous measure.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06513949"
+    },
+    "NCT06080282": {
+      "title": "Role of the Kallikrein-kinin System in Septic Cardiomyopathy",
+      "url": "https://clinicaltrials.gov/study/NCT06080282",
+      "source": "Qin Zhang",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "The purpose of this study is to investigate whether there are differential expressions of molecules in the kallikrein-kinin system (KKS) pathway in septic cardiomyopathy, and to analyze their regulatory mechanisms and gene expression changes.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06080282"
+    },
+    "NCT06174649": {
+      "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial",
+      "url": "https://clinicaltrials.gov/study/NCT06174649",
+      "source": "Duke University",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "This study is a 2-arm, multicenter, multinational, prospective, randomized, controlled clinical trial. Hospitalized subjects with blood cultures growing Gram negative bacilli (GNB) will be randomized 1:1 to have the positive blood cultures characterized using standard of care (SOC) antimicrobial susceptibility testing (AST) vs. a rapid AST method known as Reveal™ in addition to SOC AST. The purpose of the FAST trial is to evaluate whether use of a rapid phenotypic AST improves clinical outcomes ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06174649"
+    },
+    "NCT07732257": {
+      "title": "Wireless MicroPremVitals Button Sensor in the NICU",
+      "url": "https://clinicaltrials.gov/study/NCT07732257",
+      "source": "McGill University Health Centre/Research Institute of the McGill University Health Centre",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "A wireless and miniaturized vital sign (ECG, SpO2, Skin Temperature) sensor system, MicroPremVitals Button Sensors was developed by the Dr. John Rogers Laboratory (QSIB- Northwestern University, Chicago, USA) to facilitate vital sign monitoring in extremely preterm neonates.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07732257"
+    },
+    "NCT00156767": {
+      "title": "Adrenal Function in Critical Illness",
+      "url": "https://clinicaltrials.gov/study/NCT00156767",
+      "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT00156767"
+    },
+    "NCT07729891": {
+      "title": "Real-time Evaluation and Continuous Observation of Vital Signs for Enhanced Recovery: a Study for the Early Identification of Complications in the Surgical Ward Following Surgery in Patients Not Eligible for Intensive Care Admission.",
+      "url": "https://clinicaltrials.gov/study/NCT07729891",
+      "source": "Azienda Ospedaliero-Universitaria di Parma",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "This study aims to evaluate whether continuous vital sign monitoring with wearable devices can help detect postoperative complications in surgical ward earlier than standard hospital monitoring. In particular, the goal of this observational study is to evaluate if the wireless wearable devices Portrait Mobile (GE Healthcare) can detect early signs of complications after major urologic surgery in adults who are not eligible for intensive care unit admission. The main questions it aims to answer a",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07729891"
+    },
+    "NCT07669558": {
+      "title": "Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS",
+      "url": "https://clinicaltrials.gov/study/NCT07669558",
+      "source": "Ruijin Hospital",
+      "author": "",
+      "pubdate": "2026-07-28",
+      "summary": "This prospective, randomized crossover physiological study evaluates the effects of lateral positioning (left lateral position and right lateral position) versus the supine position on ventilation-perfusion (V/Q) matching in adult postoperative abdominal surgery participants with acute respiratory distress syndrome (ARDS). Bedside electrical impedance tomography (EIT) will be used to quantify regional ventilation and perfusion (perfusion derived from an intravenous tracer bolus administered duri",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07669558"
     }
   }
 }

@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 28 Jul 2026 15:56:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jul 2026 16:41:03 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -32,6 +32,76 @@
       <guid isPermaLink="false">pmid:42467893</guid>
       <category>GI &amp; Nutrition</category>
       <description></description>
+    </item>
+    <item>
+      <title>Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT07170527</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07170527</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.</description>
+    </item>
+    <item>
+      <title>Ultrasound Detection of Body Composition in Critical Care</title>
+      <link>https://clinicaltrials.gov/study/NCT06728722</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06728722</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.</description>
+    </item>
+    <item>
+      <title>Risk Factors for Adverse Outcomes in Sepsis</title>
+      <link>https://clinicaltrials.gov/study/NCT06541600</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06541600</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.</description>
+    </item>
+    <item>
+      <title>Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT06513949</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06513949</guid>
+      <category>Clinical Trial</category>
+      <description>Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.</description>
+    </item>
+    <item>
+      <title>Role of the Kallikrein-kinin System in Septic Cardiomyopathy</title>
+      <link>https://clinicaltrials.gov/study/NCT06080282</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06080282</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers studied the kallikrein-kinin system in septic cardiomyopathy to see if certain molecules are differently expressed and how they are regulated.</description>
+    </item>
+    <item>
+      <title>Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial</title>
+      <link>https://clinicaltrials.gov/study/NCT06174649</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06174649</guid>
+      <category>Clinical Trial</category>
+      <description>This study compared standard antibiotic testing to a faster testing method for patients with Gram-negative bacteria in their blood. Patients were randomly assigned to receive either standard testing or faster testing, in addition to standard testing. The faster testing method did not improve clinical outcomes.</description>
+    </item>
+    <item>
+      <title>Wireless MicroPremVitals Button Sensor in the NICU</title>
+      <link>https://clinicaltrials.gov/study/NCT07732257</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07732257</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers developed a small, wireless sensor to monitor vital signs in extremely preterm babies, including heart rate, oxygen levels, and body temperature.</description>
+    </item>
+    <item>
+      <title>Adrenal Function in Critical Illness</title>
+      <link>https://clinicaltrials.gov/study/NCT00156767</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT00156767</guid>
+      <category>Clinical Trial</category>
+      <description>This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.</description>
+    </item>
+    <item>
+      <title>Real-time Evaluation and Continuous Observation of Vital Signs for Enhanced Recovery: a Study for the Early Identification of Complications in the Surgical Ward Following Surgery in Patients Not Eligible for Intensive Care Admission.</title>
+      <link>https://clinicaltrials.gov/study/NCT07729891</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07729891</guid>
+      <category>Clinical Trial</category>
+      <description>This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.</description>
+    </item>
+    <item>
+      <title>Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS</title>
+      <link>https://clinicaltrials.gov/study/NCT07669558</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07669558</guid>
+      <category>Clinical Trial</category>
+      <description>This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.</description>
     </item>
     <item>
       <title>Postinsertion care practices for nontunnelled dialysis catheters in intensive care: A cross-sectional survey.</title>
@@ -354,76 +424,6 @@
       <guid isPermaLink="false">pmid:42467246</guid>
       <category>Pharmacology</category>
       <description>This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.</description>
-    </item>
-    <item>
-      <title>EMCrit RACC-Lit Review – 2026 July</title>
-      <link>https://emcrit.org/emcrit/racc-lit-2026-july/</link>
-      <guid isPermaLink="false">https://emcrit.org/emcrit/racc-lit-2026-july/</guid>
-      <category>EMCrit</category>
-      <description>This is a literature review on various topics in critical care, including prehospital whole blood transfusions, defibrillator damage from DSD, and adenosine dosing for supraventricular tachycardia.</description>
-    </item>
-    <item>
-      <title>Vasopressor Dosing Trajectories in Septic Shock According to Initial Antimicrobial Susceptibility and Infection Source Concordance: A Retrospective Observational Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506363/</link>
-      <guid isPermaLink="false">pmid:42506363</guid>
-      <category>Cardiovascular</category>
-      <description>This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.</description>
-    </item>
-    <item>
-      <title>Vasopressor Dosing Trajectories in Septic Shock According to Initial Antimicrobial Susceptibility and Infection Source Concordance: A Retrospective Observational Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506363/</link>
-      <guid isPermaLink="false">pmid:42506363</guid>
-      <category>Infectious Disease &amp; Sepsis</category>
-      <description>This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.</description>
-    </item>
-    <item>
-      <title>Timing of disseminated intravascular coagulation onset is associated with development of persistent inflammation, immunosuppression, and catabolism syndrome in critically ill patients.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42458534/</link>
-      <guid isPermaLink="false">pmid:42458534</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>Researchers studied 100 ICU patients to see if disseminated intravascular coagulation (DIC) is linked to a condition called persistent inflammation, immunosuppression, and catabolism syndrome (PIICS). They found that DIC occurring after 8 days in the ICU may increase the risk of PIICS. The study suggests that coagulopathy during the middle phase of ICU stay may contribute to PIICS.</description>
-    </item>
-    <item>
-      <title>Association of the pan-immune-inflammation value with 60-day in-hospital mortality in critically ill patients with acute myocardial infarction: evidence from the MIMIC-IV database.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42449240/</link>
-      <guid isPermaLink="false">pmid:42449240</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>Researchers analyzed the relationship between a measure of inflammation (pan-immune-inflammation value or PIV) and death in critically ill patients with heart attacks. They found that higher PIV levels were associated with increased risk of death, but only above a certain threshold. This suggests that PIV could be a useful tool for identifying patients at high risk of death.</description>
-    </item>
-    <item>
-      <title>Beyond Description: A Functional GIUS-Based Algorithm for Enteral Feeding Decisions in the ICU.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506102/</link>
-      <guid isPermaLink="false">pmid:42506102</guid>
-      <category>GI &amp; Nutrition</category>
-      <description>This study reviewed existing methods for assessing gastrointestinal function in ICU patients and proposed algorithms for enteral feeding decisions using gastrointestinal ultrasound. It found that certain sonographic parameters, like gastric antral cross-sectional area, are clinically relevant. The study suggests that GIUS-based algorithms may improve enteral nutrition management but more research is needed.</description>
-    </item>
-    <item>
-      <title>Can’t Intubate Can’t Oxygenate (CICO)</title>
-      <link>https://litfl.com/cant-intubate-cant-oxygenate-cico/</link>
-      <guid isPermaLink="false">https://litfl.com/cant-intubate-cant-oxygenate-cico/</guid>
-      <category>LITFL</category>
-      <description>This study discusses the management of Can't Intubate Can't Oxygenate (CICO) situations in ICU, where standard airway rescue techniques fail. CICO is recognized, and the patient is prepared for Front of Neck Access (FONA). FONA is then transitioned to for oxygen delivery.</description>
-    </item>
-    <item>
-      <title>Adult Intubation Checklist</title>
-      <link>https://litfl.com/adult-intubation-checklist/</link>
-      <guid isPermaLink="false">https://litfl.com/adult-intubation-checklist/</guid>
-      <category>LITFL</category>
-      <description>This study developed a checklist for adult intubation in emergency situations, covering preparation, pause before intubation, backup plans, and post-intubation care. The checklist aims to standardize and improve the intubation process. It may reduce errors and improve patient outcomes.</description>
-    </item>
-    <item>
-      <title>PAUSE-Agents: A Clinician-in-the-Loop Multi-Agent AI Pipeline for ICU-to-Ward Handoff Briefs</title>
-      <link>https://doi.org/10.64898/2026.07.10.26357759</link>
-      <guid isPermaLink="false">https://doi.org/10.64898/2026.07.10.26357759</guid>
-      <category>Preprint</category>
-      <description>ICU-to-ward transfers are high-risk transitions marked by information loss and burdensome handoff preparation. We developed PAUSE-Agents, a clinician-in-the-loop multi-agent LLM pipeline that drafts source-attributed handoff briefs from structured ICU data and clinical notes using the clinician-developed ICU-PAUSE template. Mirroring ICU team structure, PAUSE-Agents routes each record through a scribe extractor, 6 role-specialized agents, explicit conflict surfacing, and deterministic safety che</description>
-    </item>
-    <item>
-      <title>The ARDS, Pneumonia, and Sepsis (APS) Consortium: Rationale, Design, and Feasibility of a National Platform for Phenotyping Critical Illness Syndromes.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42442528/</link>
-      <guid isPermaLink="false">pmid:42442528</guid>
-      <category>Cardiovascular</category>
-      <description>The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.</description>
     </item>
   </channel>
 </rss>

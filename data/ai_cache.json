@@ -415,6 +415,54 @@
     "summary": "Researchers found that point-of-care ultrasound can quickly identify signs of right ventricular dysfunction and detect thrombus in transit in critically ill patients with suspected pulmonary embolism, helping with timely therapeutic decisions.",
     "significance": "This matters for ICU clinical practice as it provides a rapid diagnostic tool for unstable patients where transport for definitive imaging is not feasible, potentially improving patient outcomes."
   },
+  "pmid:42149702": {
+    "summary": "Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.",
+    "significance": "This study's findings suggest that using a higher dose of rocuronium may improve intubation success rates in the ICU, but more research is needed to confirm this and to understand the potential benefits and risks."
+  },
+  "pmid:42121165": {
+    "summary": "This study compared three induction agents (etomidate, ketamine, and propofol) for emergency tracheal intubation in critically ill adults. The results showed that etomidate and ketamine probably result in similar mortality, but ketamine may cause more peri-intubation hemodynamic instability. The study also found that propofol has no randomized evidence for emergency intubation in critically ill adults.",
+    "significance": "This study's findings are important for ICU clinical practice as they provide guidance on the choice of induction agent for emergency tracheal intubation, which can impact patient outcomes and hemodynamic stability."
+  },
+  "pmid:41954744": {
+    "summary": "This study highlights the challenges of ventilating ICU patients with obesity, including altered respiratory mechanics and increased susceptibility to hypoxemia and ventilator-induced lung injury. Tailored ventilatory strategies, such as lung-protective ventilation and higher positive end-expiratory pressure, are recommended. Adjunctive monitoring tools and therapies, such as prone positioning and non-invasive ventilation, may also improve outcomes.",
+    "significance": "Understanding and addressing the unique physiology of critically ill patients with obesity is crucial to improving their outcomes, and dedicated clinical trials are needed to define optimal ventilatory strategies."
+  },
+  "pmid:41989178": {
+    "summary": "This study found that delirium detection tools were less accurate for Spanish-speaking ICU patients compared to English-speaking patients. Using a tool administered by caregivers improved delirium detection in Spanish-speaking patients. These findings highlight the need for language-sensitive delirium detection methods to ensure equitable care.",
+    "significance": "Language-sensitive delirium detection methods are crucial for providing equitable care to diverse ICU populations, as disparities in delirium detection can lead to delayed or inadequate treatment and worsened patient outcomes."
+  },
+  "pmid:42210338": {
+    "summary": "This study compared the safety and effectiveness of early isoflurane sedation to propofol in critically ill neuro patients with ICP monitoring. Isoflurane was found to be effective and safe without increasing ICP or requiring more vasopressors. Both groups had 100% sedation efficacy.",
+    "significance": "This study provides reassuring evidence for the use of isoflurane sedation in neurocritical patients without intracranial hypertension, which may help reduce the risk of sedation-related complications."
+  },
+  "pmid:42152115": {
+    "summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
+    "significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients."
+  },
+  "pmid:42129898": {
+    "summary": "This study compared the effectiveness of two antibiotic combinations, ceftolozane/tazobactam and ceftazidime/avibactam, in treating pneumonia in critically ill patients. The results showed that standard doses of both combinations achieved adequate levels in the lungs, but individualized dosing may be needed due to variability in patient responses. The study suggests that standard dosing is sufficient for most patients, but therapeutic drug monitoring may be necessary in some cases.",
+    "significance": "This study provides important information for ICU clinicians on the dosing and effectiveness of ceftolozane/tazobactam and ceftazidime/avibactam in treating nosocomial pneumonia, which can help guide treatment decisions and improve patient outcomes."
+  },
+  "pmid:41998735": {
+    "summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
+    "significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury."
+  },
+  "pmid:42207935": {
+    "summary": "This systematic review and meta-analysis evaluated technology-enhanced strategies to optimize positive end-expiratory pressure (PEEP) in ICU patients on mechanical ventilation. The study found that these technologies may reduce 28-day mortality, but did not affect duration of mechanical ventilation. The evidence was of very low certainty.",
+    "significance": "These findings are significant for ICU clinicians as they suggest that technology-enhanced PEEP optimization strategies may improve patient outcomes, particularly mortality, and highlight the need for further research to confirm these results."
+  },
+  "pmid:42159452": {
+    "summary": "This study tested whether the ABCDEF bundle could reduce delirium and improve function and quality of life in ICU patients. The bundle did not reduce delirium incidence or duration, but patients reported better quality of life in usual activities 90 days after discharge.",
+    "significance": "The findings suggest that while the ABCDEF bundle may not have a direct impact on delirium, it could have long-term benefits for patients' quality of life, making it a potential tool for ICU care."
+  },
+  "pmid:42093058": {
+    "summary": "This study compared the long-term effects of a restrictive versus liberal fluid resuscitation strategy in patients with sepsis-induced hypotension. The results showed no significant differences in cognitive or physical function between the two groups at 6 and 12 months after treatment.",
+    "significance": "This study's findings are important for ICU clinicians as they suggest that a restrictive fluid resuscitation strategy may be as effective as a liberal strategy in improving long-term outcomes for sepsis survivors."
+  },
+  "pmid:41945715": {
+    "summary": "Researchers analyzed data from 2150 critically ill patients to understand how mechanical power from ventilation interacts with lung compliance to predict lung injury. They found that lung injury risk varies depending on lung compliance and the duration of high mechanical power. A new risk-adjusted score can help predict lung injury.",
+    "significance": "This study's findings can help clinicians personalize ventilator management and reduce the risk of lung injury in critically ill patients."
+  },
   "url:https://emcrit.org/emnerd/fgebm001/": {
     "summary": "This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.",
     "significance": "Understanding evidence-based medicine is crucial for ICU clinicians to provide high-quality patient care, and this podcast aims to educate and guide them in this area."
@@ -475,6 +523,10 @@
     "summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
     "significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients."
   },
+  "pmid:42409761": {
+    "summary": "Clinical pharmacists are increasingly involved in acute stroke care, but their role is inconsistently defined. A consensus statement recommends their involvement in managing acute ischemic and hemorrhagic stroke in emergency departments.",
+    "significance": "This matters for ICU clinical practice because optimizing the clinical pharmacist role can improve time-sensitive treatment and equity in care delivery for stroke patients."
+  },
   "pmid:41942818": {
     "summary": "This study developed guidelines for predicting outcomes in critically ill adults with acute ischemic stroke, including avoiding premature predictions and using multimodal assessments. It found that early neurological improvement within 24 hours of revascularization is a moderately reliable predictor of good functional outcome. No other individual predictor was considered reliable for predicting mortality or functional outcome.",
     "significance": "These guidelines are important for ICU clinicians as they provide a framework for counseling patients and their surrogates about outcomes, helping to set realistic expectations and guide treatment decisions."
@@ -483,6 +535,14 @@
     "summary": "Researchers created a standardized guideline for using propofol to manage refractory symptoms in end-of-life care by developing a flow diagram and defining parameters for its use.",
     "significance": "This guideline can help reduce confusion and improve decision-making for ICU clinicians when using propofol to manage refractory symptoms in end-of-life care, ensuring patient comfort and preventing suffering."
   },
+  "pmid:42260906": {
+    "summary": "This study surveyed ICU clinicians and leaders to identify barriers and facilitators to implementing the ICU Liberation bundle, which aims to improve outcomes for critically ill patients. Results showed that clinicians were more familiar with the bundle and prioritized it, but compliance was lower post-pandemic. Workflow integration and aligning the bundle with healthcare goals facilitated compliance.",
+    "significance": "Understanding the barriers to ICU Liberation bundle implementation is crucial for improving patient outcomes, as it has been shown to reduce delirium, immobility, and other complications in critically ill patients."
+  },
+  "pmid:42203644": {
+    "summary": "This 2026 clinical practice guideline for renal replacement therapy in critically ill patients with acute kidney injury was developed by a Chinese expert panel using the GRADE approach. It provides 34 evidence-based recommendations on topics such as RRT initiation, anticoagulation, and weaning. The guideline aims to standardize RRT management in adult critically ill patients with AKI.",
+    "significance": "This guideline is crucial for ICU clinicians in China as it provides a unified framework for RRT management, potentially improving patient outcomes and reducing variability in care."
+  },
   "pmid:42246225": {
     "summary": "These guidelines provide evidence-based recommendations for central venous cannulation in critically ill patients. They aim to standardize the approach, increase effectiveness, and minimize complications. The guidelines cover pre-procedural ultrasound assessment, optimal vascular access site selection, and catheter position confirmation.",
     "significance": "These guidelines are crucial for ICU clinicians to standardize and improve central venous cannulation procedures, potentially reducing complications and improving patient outcomes."
@@ -490,6 +550,10 @@
   "pmid:41860322": {
     "summary": "This study developed evidence-based guidelines for caring for older adults in the ICU, recommending a geriatric model of care and avoiding antipsychotic medications for preventing delirium. The guidelines were developed using a systematic review and expert consensus. The recommendations aim to improve outcomes for older ICU patients.",
     "significance": "These guidelines are crucial for ICU clinicians as they provide evidence-based recommendations for caring for older adults, who are a growing proportion of the ICU population. By following these guidelines, clinicians can improve patient outcomes and reduce complications."
+  },
+  "pmid:42272209": {
+    "summary": "A modified Delphi study developed a consensus-based framework for assessing ICU capacity and capability in South Korea, prioritizing functional capabilities over structural metrics. The framework includes 29 indicators across four domains. It provides a foundation for a capability-oriented classification system.",
+    "significance": "This study is significant for ICU clinical practice in South Korea as it establishes a standardized framework for assessing ICU capacity and capability, potentially improving patient safety and resource allocation."
   },
   "pmid:41773929": {
     "summary": "This study developed guidelines for using neuromuscular blocking agents in adults with acute respiratory distress syndrome (ARDS). The guidelines recommend using these agents in patients with a specific oxygen level, but do not make recommendations for other situations due to a lack of evidence. The guidelines aim to help clinicians make informed decisions about using these agents.",
@@ -506,5 +570,61 @@
   "pmid:41655594": {
     "summary": "This study developed a regionally adapted clinical practice guideline for stress ulcer prophylaxis in critically ill adults in Saudi Arabia, Kuwait, and Nordic countries. The guideline provides evidence-based recommendations for SUP use, including who should receive it, which medications to use, and when to discontinue. The recommendations were developed using the GRADE-ADOLOPMENT methodology and took into account local epidemiology, drug access, and health system variables.",
     "significance": "These recommendations can help ICU clinicians make informed decisions about stress ulcer prophylaxis in critically ill adults, taking into account regional variations in healthcare systems and patient populations."
+  },
+  "pmid:42417792": {
+    "summary": "This study reviewed Brazilian ICU design standards and found they conflict with decades of evidence on environment's impact on patient healing and staff performance. Current standards are associated with negative outcomes for patients, staff, and families. Updating these standards is necessary to improve critical care outcomes.",
+    "significance": "This study highlights the need for evidence-based ICU design standards to improve patient and staff outcomes, emphasizing the importance of policy updates to prioritize patient-centered care and staff well-being."
+  },
+  "pmid:42245967": {
+    "summary": "This study evaluated the simplified Radiographic Assessment of Lung Edema (RALE) score's ability to predict mortality in critically ill patients with Delta-variant COVID-19 using chest X-rays. The RALE score performed comparably to other scoring systems and remained an independent predictor of mortality. The study suggests that the RALE score could be a useful tool for risk stratification in critically ill patients with COVID-19, particularly in resource-limited settings.",
+    "significance": "This study's findings support the use of the simplified RALE score as a practical tool for guiding treatment decisions in critically ill patients with COVID-19, which could lead to improved outcomes and resource allocation in high-burden settings."
+  },
+  "pmid:42415882": {
+    "summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
+    "significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care."
+  },
+  "url:https://doi.org/10.64898/2026.07.10.26357759": {
+    "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
+    "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07170527": {
+    "summary": "Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.",
+    "significance": "Understanding the determinants of long-term recovery in ICU patients is crucial for improving functional outcomes and reducing the burden of post-intensive care syndrome."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06728722": {
+    "summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
+    "significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06541600": {
+    "summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
+    "significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06513949": {
+    "summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
+    "significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06080282": {
+    "summary": "Researchers studied the kallikrein-kinin system in septic cardiomyopathy to see if certain molecules are differently expressed and how they are regulated.",
+    "significance": "Understanding the kallikrein-kinin system could help develop new treatments for septic cardiomyopathy, a serious complication of sepsis."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06174649": {
+    "summary": "This study compared standard antibiotic testing to a faster testing method for patients with Gram-negative bacteria in their blood. Patients were randomly assigned to receive either standard testing or faster testing, in addition to standard testing. The faster testing method did not improve clinical outcomes.",
+    "significance": "This study's findings are important for ICU clinicians as they inform the use of rapid antibiotic susceptibility testing in patients with Gram-negative bacteremia, which can guide treatment decisions and potentially improve patient outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07732257": {
+    "summary": "Researchers developed a small, wireless sensor to monitor vital signs in extremely preterm babies, including heart rate, oxygen levels, and body temperature.",
+    "significance": "This technology could improve monitoring and care for vulnerable newborns, potentially reducing complications and improving outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT00156767": {
+    "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+    "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07729891": {
+    "summary": "This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.",
+    "significance": "Early detection of postoperative complications can improve patient outcomes and reduce morbidity and mortality. This study's findings can inform the use of wearable devices in surgical wards to enhance patient care."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07669558": {
+    "summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
+    "significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes."
   }
 }
