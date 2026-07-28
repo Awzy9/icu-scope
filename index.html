@@ -6,7 +6,7 @@
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=13" />
+  <link rel="stylesheet" href="style.css?v=14" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -119,6 +119,27 @@
       <div id="preprint-body" class="section-body">
         <p class="foamed-note">Not yet peer-reviewed — from medRxiv's Intensive/Critical Care category, last <span id="preprint-window"></span> days.</p>
         <div id="preprint-list"></div>
+      </div>
+    </section>
+    <section class="trial-section" id="trial-section" hidden>
+      <div class="trending-heading trial-heading">
+        <button class="collapse-toggle" id="trial-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-body">▸</button>
+        <h2>🔬 Trial Tracker</h2>
+        <span class="category-count" id="trial-count"></span>
+      </div>
+      <div id="trial-body" class="section-body">
+        <p class="foamed-note">Recently registered or updated ICU/critical-care trials from ClinicalTrials.gov, last <span id="trial-window"></span> days.</p>
+        <div id="trial-list"></div>
+      </div>
+    </section>
+    <section class="classics-section" id="classics-section">
+      <div class="trending-heading classics-heading">
+        <button class="collapse-toggle" id="classics-collapse-toggle" type="button" aria-expanded="false" aria-controls="classics-body">▸</button>
+        <h2>🏛️ ICU Classics</h2>
+        <span class="category-count">Landmark trials every intensivist should know</span>
+      </div>
+      <div id="classics-body" class="section-body">
+        <div id="classics-list"></div>
       </div>
     </section>
     <div id="content">
