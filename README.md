@@ -34,9 +34,22 @@ Each article card can show a "💬 Ask about this article" box that answers ques
 2. From `cloudflare-worker/`, set the secret: `wrangler secret put GROQ_API_KEY` (paste the same key from the AI summaries step above, or a separate one).
 3. If your site isn't at `https://awzy9.github.io`, update `ALLOWED_ORIGIN` in `cloudflare-worker/wrangler.toml` first (this locks down CORS so other sites can't call your endpoint and burn your quota).
 4. Deploy: `wrangler deploy` from `cloudflare-worker/`. It prints a URL like `https://icu-scope-ask.<your-subdomain>.workers.dev`.
-5. Paste that URL into `ASK_AI_ENDPOINT` near the top of `app.js`, commit, and push.
+5. Paste that URL into `WORKER_ENDPOINT` near the top of `app.js`, commit, and push.
 
 The Worker only ever sees the question plus the one article's title/abstract — it has no access to your archive, PubMed, or anything else, and it refuses to answer if no abstract was passed in.
+
+## Semantic search (optional)
+
+A "🧠 Semantic search" button next to the search box ranks articles by *meaning* rather than exact keyword match, using free open-source embedding models — e.g. searching "kidney injury after cardiac surgery" surfaces AKI articles even if they never use that exact phrase. It reuses the same Cloudflare Worker as "Ask about this article" above, so set that up first.
+
+1. **Backend embeddings**: sign up free at [huggingface.co](https://huggingface.co), create an access token (Settings → Access Tokens, "Read" scope is enough), then add it as a repository secret:
+   - Name: `HF_API_TOKEN`
+   - Value: your Hugging Face token
+   Without this secret, `data/embeddings.json` simply never gets populated and the semantic search button stays hidden — nothing else changes. With it, up to `EMBEDDING_MAX_PER_RUN` (default 60) new articles get embedded per day via Hugging Face's free Inference API (model `BAAI/bge-small-en-v1.5` by default, cached forever like AI summaries).
+2. **Live query embedding**: the Worker needs the same token to embed whatever a user types into the search box, so the token never has to ship to the browser. From `cloudflare-worker/`: `wrangler secret put HF_API_TOKEN` (same token as above), then `wrangler deploy` again. If you already deployed the Worker for Ask-AI, this just adds the new secret to that same Worker.
+3. Nothing to change in `app.js` — it reuses `WORKER_ENDPOINT` from the Ask-AI setup above.
+
+Similarity is computed client-side (cosine similarity against the cached article vectors), so no vector database is needed — the Worker's only job is turning the search query into a vector with the same model used for the articles.
 
 ## Local development
 

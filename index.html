@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=17" />
+  <link rel="stylesheet" href="style.css?v=18" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -108,6 +108,7 @@
     </select>
     <button id="compact-toggle" class="toolbar-btn" type="button" aria-pressed="false">☰ Compact view</button>
     <button id="digest-btn" class="toolbar-btn" type="button">📋 Copy weekly digest</button>
+    <button id="semantic-search-btn" class="toolbar-btn" type="button" hidden>🧠 Semantic search</button>
   </div>
   <div class="quick-filters" id="quick-filters">
     <button class="quick-filter-chip" type="button" data-study-type="Randomized Controlled Trial">RCT</button>
@@ -117,6 +118,17 @@
   </div>
 
   <main class="content">
+    <section class="semantic-section" id="semantic-section" hidden>
+      <div class="trending-heading semantic-heading">
+        <h2>🧠 Semantic search results</h2>
+        <span class="category-count" id="semantic-count"></span>
+        <button class="print-btn" id="semantic-close-btn" type="button">✕ Close</button>
+      </div>
+      <div id="semantic-body" class="section-body">
+        <p class="foamed-note">Ranked by meaning, not just keyword match — powered by AI embeddings of each article's title and abstract.</p>
+        <div id="semantic-list"></div>
+      </div>
+    </section>
     <section class="spotlight-section" id="spotlight-section" hidden>
       <div class="trending-heading spotlight-heading">
         <button class="collapse-toggle" id="spotlight-collapse-toggle" type="button" aria-expanded="false" aria-controls="spotlight-body">▸</button>
@@ -251,6 +263,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=13"></script>
+  <script src="app.js?v=14"></script>
 </body>
 </html>
