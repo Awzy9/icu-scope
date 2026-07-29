@@ -4,9 +4,15 @@ compatibility_date = "2024-01-01"
 
 [vars]
 # Lock CORS to your GitHub Pages origin so other sites can't casually
-# embed this endpoint and burn through your Groq quota. Update if you
+# embed this endpoint and burn through your Groq/HF quota. Update if you
 # fork/rename the repo or use a custom domain.
 ALLOWED_ORIGIN = "https://awzy9.github.io"
 
-# GROQ_API_KEY is a secret, not a var — set it with:
+# Optional: must match HF_EMBEDDING_MODEL used by scripts/fetch_articles.py,
+# so query embeddings and cached article embeddings live in the same
+# vector space. Defaults to BAAI/bge-small-en-v1.5 if unset.
+# HF_EMBEDDING_MODEL = "BAAI/bge-small-en-v1.5"
+
+# GROQ_API_KEY and HF_API_TOKEN are secrets, not vars — set them with:
 #   wrangler secret put GROQ_API_KEY
+#   wrangler secret put HF_API_TOKEN

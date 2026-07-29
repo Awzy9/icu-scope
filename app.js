@@ -1,9 +1,9 @@
 (function () {
   // Set this to your deployed Cloudflare Worker URL to enable the
-  // "Ask about this article" feature (see cloudflare-worker/ + README).
-  // Left blank, the feature stays hidden — no broken UI for anyone who
-  // hasn't set up the Worker.
-  const ASK_AI_ENDPOINT = "";
+  // "Ask about this article" and "Semantic search" features (see
+  // cloudflare-worker/ + README). Left blank, both features stay hidden —
+  // no broken UI for anyone who hasn't set up the Worker.
+  const WORKER_ENDPOINT = "";
 
   const nav = document.getElementById("category-nav");
   const content = document.getElementById("content");
@@ -80,6 +80,11 @@
   const bottomNavTrending = document.getElementById("bottom-nav-trending");
   const bottomNavSaved = document.getElementById("bottom-nav-saved");
   const bottomNavMore = document.getElementById("bottom-nav-more");
+  const semanticSearchBtn = document.getElementById("semantic-search-btn");
+  const semanticSection = document.getElementById("semantic-section");
+  const semanticCount = document.getElementById("semantic-count");
+  const semanticList = document.getElementById("semantic-list");
+  const semanticCloseBtn = document.getElementById("semantic-close-btn");
 
   const SECTION_JUMP_TARGETS = [
     { sectionId: "spotlight", label: "Article of the Week", icon: "📌" },
@@ -296,6 +301,7 @@
   let isFirstVisit = true;
   let currentSessionIds = new Set();
   let bookmarkedIds = new Set();
+  let embeddingsPromise = null;
 
   function initTheme() {
     const saved = localStorage.getItem("icu-scope-theme");
@@ -485,6 +491,86 @@
     return map;
   }
 
+  function loadEmbeddings() {
+    if (!embeddingsPromise) {
+      embeddingsPromise = fetch("data/embeddings.json")
+        .then((res) => (res.ok ? res.json() : {}))
+        .catch(() => ({}));
+    }
+    return embeddingsPromise;
+  }
+
+  function cosineSimilarity(a, b) {
+    let dot = 0, magA = 0, magB = 0;
+    const len = Math.min(a.length, b.length);
+    for (let i = 0; i < len; i++) {
+      dot += a[i] * b[i];
+      magA += a[i] * a[i];
+      magB += b[i] * b[i];
+    }
+    if (!magA || !magB) return 0;
+    return dot / (Math.sqrt(magA) * Math.sqrt(magB));
+  }
+
+  async function runSemanticSearch(query) {
+    if (!WORKER_ENDPOINT || !rawData) return;
+    semanticSection.hidden = false;
+    semanticSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    semanticList.innerHTML = "";
+    semanticCount.textContent = "Searching…";
+    semanticSearchBtn.disabled = true;
+    try {
+      const [embeddings, queryResult] = await Promise.all([
+        loadEmbeddings(),
+        fetch(WORKER_ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ action: "embed", text: query }),
+        }).then((res) => res.json().then((data) => ({ ok: res.ok, data }))),
+      ]);
+
+      if (!queryResult.ok || !queryResult.data || !queryResult.data.vector) {
+        semanticCount.textContent = (queryResult.data && queryResult.data.error) || "Semantic search failed.";
+        return;
+      }
+      if (!embeddings || !Object.keys(embeddings).length) {
+        semanticCount.textContent = "No article embeddings are available yet.";
+        return;
+      }
+
+      const queryVector = queryResult.data.vector;
+      const index = buildArticleIndex(rawData);
+      const scored = [];
+      for (const [id, vector] of Object.entries(embeddings)) {
+        const article = index.get(id);
+        if (!article) continue;
+        scored.push({ article, score: cosineSimilarity(queryVector, vector) });
+      }
+      scored.sort((a, b) => b.score - a.score);
+      const top = scored.slice(0, 20);
+
+      if (!top.length) {
+        semanticCount.textContent = "No matches found.";
+        return;
+      }
+
+      semanticCount.textContent = `Top ${top.length} match${top.length === 1 ? "" : "es"} for "${query}"`;
+      top.forEach(({ article, score }) => {
+        const card = articleCard(article);
+        const badge = document.createElement("span");
+        badge.className = "similarity-badge";
+        badge.textContent = `${Math.round(score * 100)}% match`;
+        const titleEl = card.querySelector(".article-title");
+        if (titleEl) titleEl.appendChild(badge);
+        semanticList.appendChild(card);
+      });
+    } catch (e) {
+      semanticCount.textContent = "Couldn't reach the semantic search service. Try again later.";
+    } finally {
+      semanticSearchBtn.disabled = false;
+    }
+  }
+
   function formatUpdatedAt(iso, windowDays) {
     if (!iso) return "";
     const d = new Date(iso);
@@ -655,7 +741,7 @@
          <button class="abstract-toggle" type="button">${abstractToggleLabel}</button>`
       : "";
     const askContext = article.abstract || article.summary || "";
-    const askBlock = (ASK_AI_ENDPOINT && askContext)
+    const askBlock = (WORKER_ENDPOINT && askContext)
       ? `<div class="ask-ai">
            <button class="ask-toggle" type="button">💬 Ask about this article</button>
            <div class="ask-panel" hidden>
@@ -766,7 +852,7 @@
         askInput.disabled = true;
         askAnswer.hidden = false;
         askAnswer.textContent = "Thinking…";
-        fetch(ASK_AI_ENDPOINT, {
+        fetch(WORKER_ENDPOINT, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ question, title: article.title, context: askContext }),
@@ -1219,6 +1305,19 @@
   });
   sectionJumpClose.addEventListener("click", closeSectionJumpMenu);
   bottomNavBackdrop.addEventListener("click", closeSectionJumpMenu);
+
+  semanticSearchBtn.hidden = !WORKER_ENDPOINT;
+  semanticSearchBtn.addEventListener("click", () => {
+    const query = searchInput.value.trim();
+    if (!query) {
+      searchInput.focus();
+      return;
+    }
+    runSemanticSearch(query);
+  });
+  semanticCloseBtn.addEventListener("click", () => {
+    semanticSection.hidden = true;
+  });
 
   searchInput.addEventListener("input", () => applyFiltersAndRender());
   windowFilter.addEventListener("change", () => applyFiltersAndRender());

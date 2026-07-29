@@ -44,6 +44,15 @@ GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 AI_SUMMARY_MAX_PER_RUN = int(os.environ.get("AI_SUMMARY_MAX_PER_RUN", "40"))
 AI_REQUEST_DELAY = 0.6
 
+# Optional: powers client-side semantic search (see cloudflare-worker/ +
+# README "Semantic search"). Without this secret, embeddings.json simply
+# never gets written and the frontend's semantic-search button stays hidden.
+HF_API_TOKEN = os.environ.get("HF_API_TOKEN", "")
+HF_EMBEDDING_MODEL = os.environ.get("HF_EMBEDDING_MODEL", "BAAI/bge-small-en-v1.5")
+HF_EMBEDDING_ENDPOINT = f"https://api-inference.huggingface.co/pipeline/feature-extraction/{HF_EMBEDDING_MODEL}"
+EMBEDDING_MAX_PER_RUN = int(os.environ.get("EMBEDDING_MAX_PER_RUN", "60"))
+EMBEDDING_REQUEST_DELAY = 0.3
+
 ICU_CONTEXT = (
     '("critical care"[MeSH] OR "intensive care units"[MeSH] OR "critical illness"[MeSH] OR "critically ill") '
     'NOT (pediatric*[Title] OR paediatric*[Title] OR neonat*[Title] OR infant*[Title] OR child*[Title] '
@@ -589,6 +598,65 @@ def save_ai_cache(cache):
         json.dump(cache, f, indent=2, ensure_ascii=False)
 
 
+EMBEDDING_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "embeddings.json")
+
+
+def load_embedding_cache():
+    try:
+        with open(EMBEDDING_CACHE_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+def save_embedding_cache(cache):
+    # No indent: this file is fetched lazily by the frontend only when
+    # semantic search is used, and can hold thousands of 384-float vectors,
+    # so compactness matters more than readability here.
+    with open(EMBEDDING_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, separators=(",", ":"))
+
+
+def hf_embed(text):
+    if not HF_API_TOKEN:
+        return None
+    body = json.dumps({"inputs": text[:2000], "options": {"wait_for_model": True}}).encode("utf-8")
+    req = urllib.request.Request(
+        HF_EMBEDDING_ENDPOINT,
+        data=body,
+        headers={
+            "Authorization": f"Bearer {HF_API_TOKEN}",
+            "Content-Type": "application/json",
+        },
+        method="POST",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            data = json.loads(resp.read())
+    except Exception as e:
+        print(f"  warning: HF embedding request failed: {e}")
+        return None
+    return _pool_embedding_response(data)
+
+
+def _pool_embedding_response(data):
+    """Normalize the feature-extraction response into one flat vector.
+
+    Depending on the model's pipeline tag, the API returns either the
+    already-pooled sentence vector (a flat list of floats) or per-token
+    vectors (a list of lists) that need mean-pooling ourselves.
+    """
+    if not isinstance(data, list) or not data:
+        return None
+    first = data[0]
+    if isinstance(first, (int, float)):
+        return data
+    if isinstance(first, list) and first and isinstance(first[0], (int, float)):
+        dim = len(first)
+        return [sum(row[i] for row in data) / len(data) for i in range(dim)]
+    return None
+
+
 def groq_chat_json(messages, max_tokens=300, temperature=0.3, log_label=""):
     body = json.dumps(
         {
@@ -735,6 +803,37 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
     pruned_cache = {aid: cache[aid] for aid in by_id if aid in cache}
     save_ai_cache(pruned_cache)
     print(f"  AI summaries: {new_count} new, {cached_count} from cache, "
+          f"{len(by_id) - new_count - cached_count} skipped (budget exhausted)")
+
+
+def enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=()):
+    if not HF_API_TOKEN:
+        print("  HF_API_TOKEN not set, skipping embeddings")
+        return
+
+    cache = load_embedding_cache()
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
+
+    remaining_budget = EMBEDDING_MAX_PER_RUN
+    new_count = 0
+    cached_count = 0
+
+    for aid, entry in by_id.items():
+        if aid in cache:
+            cached_count += 1
+            continue
+        if remaining_budget <= 0:
+            continue
+        vector = hf_embed(f"{entry['title']}. {entry['text']}")
+        remaining_budget -= 1
+        time.sleep(EMBEDDING_REQUEST_DELAY)
+        if vector:
+            cache[aid] = vector
+            new_count += 1
+
+    pruned_cache = {aid: cache[aid] for aid in by_id if aid in cache}
+    save_embedding_cache(pruned_cache)
+    print(f"  Embeddings: {new_count} new, {cached_count} from cache, "
           f"{len(by_id) - new_count - cached_count} skipped (budget exhausted)")
 
 
@@ -1095,6 +1194,12 @@ def main():
         enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
     except Exception as e:
         print(f"  warning: AI summarization failed: {e}")
+
+    print("Generating embeddings for semantic search...")
+    try:
+        enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
+    except Exception as e:
+        print(f"  warning: embedding generation failed: {e}")
 
     print("Checking for broken links...")
     try:
