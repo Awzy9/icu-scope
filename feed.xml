@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Wed, 29 Jul 2026 05:42:49 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 14:40:00 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -34,6 +34,55 @@
       <description></description>
     </item>
     <item>
+      <title>Blunt cerebrovascular injury</title>
+      <link>https://litfl.com/blunt-cerebrovascular-injury/</link>
+      <guid isPermaLink="false">https://litfl.com/blunt-cerebrovascular-injury/</guid>
+      <category>LITFL</category>
+      <description>This article discusses the management of blunt cerebrovascular injury, including expanded Denver screening, CTA diagnosis, Biffl grading, antithrombotic treatment, and follow-up.</description>
+    </item>
+    <item>
+      <title>Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT06513949</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06513949</guid>
+      <category>Clinical Trial</category>
+      <description>Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.</description>
+    </item>
+    <item>
+      <title>Phase 2b Study to Investigate the Safety and Efficacy of TIN816 in Sepsis-associated Acute Kidney Injury (CLEAR-AKI)</title>
+      <link>https://clinicaltrials.gov/study/NCT05996835</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05996835</guid>
+      <category>Clinical Trial</category>
+      <description>This Phase 2b study investigated the safety and efficacy of TIN816 in patients with sepsis-associated acute kidney injury (SA-AKI). Three different single doses of TIN816 were evaluated in hospitalized adult participants in an intensive care setting. The study aimed to characterize the dose-response relationship.</description>
+    </item>
+    <item>
+      <title>Microbiome and Enteric Signatures in Sepsis-associated Hepatorenal Injury</title>
+      <link>https://clinicaltrials.gov/study/NCT07735182</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07735182</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers investigated the relationship between gut microbiome and enteric signatures in patients with sepsis-associated hepatorenal injury. They found that altered gut microbial diversity and microbial metabolites may contribute to hepato-renal injury during sepsis. However, prospective longitudinal evidence in patients with sepsis-associated liver injury and acute kidney injury remains limited.</description>
+    </item>
+    <item>
+      <title>Ultrasound vs. Nasofibroscopy for Evaluating Dysphagia After Extubation in the ICU</title>
+      <link>https://clinicaltrials.gov/study/NCT07734298</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07734298</guid>
+      <category>Clinical Trial</category>
+      <description>This observational study compared the diagnostic performance of bedside cervical ultrasonography to nasofibroscopy (FEES) for detecting post-extubation dysphagia in critically ill adult patients. The study aimed to evaluate the degree of diagnostic concordance between the two methods. No significant results were reported.</description>
+    </item>
+    <item>
+      <title>SEPSIS EARLY WARNING: NEWS2 VS MACHINE LEARNING</title>
+      <link>https://clinicaltrials.gov/study/NCT07734480</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07734480</guid>
+      <category>Clinical Trial</category>
+      <description>This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.</description>
+    </item>
+    <item>
+      <title>Fecal Lactate and Resuscitation Outcomes in Critical Illness</title>
+      <link>https://clinicaltrials.gov/study/NCT07658001</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07658001</guid>
+      <category>Clinical Trial</category>
+      <description>This study investigated the use of fecal lactate as an early biomarker of tissue hypoperfusion in critically ill patients. Fecal lactate levels were measured within the first 12-24 hours to predict poor response to resuscitation at 24 hours. The study found that fecal lactate levels were associated with resuscitation outcomes.</description>
+    </item>
+    <item>
       <title>Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients</title>
       <link>https://clinicaltrials.gov/study/NCT07170527</link>
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07170527</guid>
@@ -53,13 +102,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06541600</guid>
       <category>Clinical Trial</category>
       <description>Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.</description>
-    </item>
-    <item>
-      <title>Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT06513949</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06513949</guid>
-      <category>Clinical Trial</category>
-      <description>Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.</description>
     </item>
     <item>
       <title>Role of the Kallikrein-kinin System in Septic Cardiomyopathy</title>
@@ -102,6 +144,13 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07669558</guid>
       <category>Clinical Trial</category>
       <description>This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.</description>
+    </item>
+    <item>
+      <title>Disseminated Intravascular Coagulation (DIC) Score and Organ Dysfunction in Septic Shock Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT06363149</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06363149</guid>
+      <category>Clinical Trial</category>
+      <description>This study investigated the relationship between Disseminated Intravascular Coagulation (DIC) score and organ dysfunction in septic shock patients. DIC is a common condition in patients with sepsis and septic shock, and its coexistence with septic shock increases mortality and morbidity. The study aimed to understand the impact of DIC on organ dysfunction in septic shock patients.</description>
     </item>
     <item>
       <title>Postinsertion care practices for nontunnelled dialysis catheters in intensive care: A cross-sectional survey.</title>
@@ -375,55 +424,6 @@
       <guid isPermaLink="false">https://emcrit.org/emnerd/the-case-of-the-malignant-cohort/</guid>
       <category>EMCrit</category>
       <description>The YEARS protocol was tested to see if it can safely identify low-risk patients with suspected pulmonary embolism. The study aimed to determine if this approach can be applied to patients with malignancy. Results were not provided.</description>
-    </item>
-    <item>
-      <title>High-Dose Intravenous Vitamin C in Critical Illness: A Translational Exposure-Response Framework for Biomarker-Guided Precision Therapy.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506369/</link>
-      <guid isPermaLink="false">pmid:42506369</guid>
-      <category>Respiratory</category>
-      <description>This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.</description>
-    </item>
-    <item>
-      <title>Key principles for rehabilitation of critically ill patients with obesity.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42467246/</link>
-      <guid isPermaLink="false">pmid:42467246</guid>
-      <category>Respiratory</category>
-      <description>This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.</description>
-    </item>
-    <item>
-      <title>Key principles for rehabilitation of critically ill patients with obesity.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42467246/</link>
-      <guid isPermaLink="false">pmid:42467246</guid>
-      <category>Neurology</category>
-      <description>This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.</description>
-    </item>
-    <item>
-      <title>High-Dose Intravenous Vitamin C in Critical Illness: A Translational Exposure-Response Framework for Biomarker-Guided Precision Therapy.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506369/</link>
-      <guid isPermaLink="false">pmid:42506369</guid>
-      <category>GI &amp; Nutrition</category>
-      <description>This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.</description>
-    </item>
-    <item>
-      <title>High-Dose Intravenous Vitamin C in Critical Illness: A Translational Exposure-Response Framework for Biomarker-Guided Precision Therapy.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506369/</link>
-      <guid isPermaLink="false">pmid:42506369</guid>
-      <category>Infectious Disease &amp; Sepsis</category>
-      <description>This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.</description>
-    </item>
-    <item>
-      <title>A distributional reinforcement learning model for temporal coagulation balance evaluation and state‑guided supportive suggestions.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42469406/</link>
-      <guid isPermaLink="false">pmid:42469406</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>Researchers developed a machine learning model to help manage bleeding and clotting in critically ill patients by analyzing their medical records and lab results. The model showed promise in guiding personalized treatment and identifying key factors that affect bleeding and clotting. It can help doctors make more informed decisions about patient care.</description>
-    </item>
-    <item>
-      <title>Key principles for rehabilitation of critically ill patients with obesity.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42467246/</link>
-      <guid isPermaLink="false">pmid:42467246</guid>
-      <category>Pharmacology</category>
-      <description>This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.</description>
     </item>
   </channel>
 </rss>

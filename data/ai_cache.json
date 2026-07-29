@@ -451,6 +451,12 @@
     "summary": "This systematic review and meta-analysis evaluated technology-enhanced strategies to optimize positive end-expiratory pressure (PEEP) in ICU patients on mechanical ventilation. The study found that these technologies may reduce 28-day mortality, but did not affect duration of mechanical ventilation. The evidence was of very low certainty.",
     "significance": "These findings are significant for ICU clinicians as they suggest that technology-enhanced PEEP optimization strategies may improve patient outcomes, particularly mortality, and highlight the need for further research to confirm these results."
   },
+  "pmid:42367163": {
+    "key_stats": "",
+    "summary": "This study aims to identify whether existing prognostic models can accurately predict ICU admission and mortality in critically ill adults before they are admitted to the ICU. The study will examine various models and their effectiveness in predicting outcomes such as ICU admission, mortality, and post-discharge survival. The study will focus on critically ill adults not yet admitted to the ICU.",
+    "significance": "This study's findings will help clinicians and researchers understand the utility of existing prognostic models in predicting ICU outcomes, which can inform decision-making and resource allocation in acute hospital settings.",
+    "rounds_takeaway": ""
+  },
   "pmid:42159452": {
     "summary": "This study tested whether the ABCDEF bundle could reduce delirium and improve function and quality of life in ICU patients. The bundle did not reduce delirium incidence or duration, but patients reported better quality of life in usual activities 90 days after discharge.",
     "significance": "The findings suggest that while the ABCDEF bundle may not have a direct impact on delirium, it could have long-term benefits for patients' quality of life, making it a potential tool for ICU care."
@@ -459,9 +465,11 @@
     "summary": "This study compared the long-term effects of a restrictive versus liberal fluid resuscitation strategy in patients with sepsis-induced hypotension. The results showed no significant differences in cognitive or physical function between the two groups at 6 and 12 months after treatment.",
     "significance": "This study's findings are important for ICU clinicians as they suggest that a restrictive fluid resuscitation strategy may be as effective as a liberal strategy in improving long-term outcomes for sepsis survivors."
   },
-  "pmid:41945715": {
-    "summary": "Researchers analyzed data from 2150 critically ill patients to understand how mechanical power from ventilation interacts with lung compliance to predict lung injury. They found that lung injury risk varies depending on lung compliance and the duration of high mechanical power. A new risk-adjusted score can help predict lung injury.",
-    "significance": "This study's findings can help clinicians personalize ventilator management and reduce the risk of lung injury in critically ill patients."
+  "url:https://litfl.com/blunt-cerebrovascular-injury/": {
+    "key_stats": "",
+    "summary": "This article discusses the management of blunt cerebrovascular injury, including expanded Denver screening, CTA diagnosis, Biffl grading, antithrombotic treatment, and follow-up.",
+    "significance": "Accurate diagnosis and management of blunt cerebrovascular injury are crucial for preventing long-term neurological damage and improving patient outcomes.",
+    "rounds_takeaway": ""
   },
   "url:https://emcrit.org/emnerd/fgebm001/": {
     "summary": "This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.",
@@ -515,6 +523,18 @@
     "summary": "Researchers compared two tools for deciding massive transfusions in trauma patients: the ABC Score, which uses 4 variables at the bedside, and TASH, which uses labs and imaging for a more precise estimate.",
     "significance": "Understanding which tool is most accurate can help ICU clinicians make better decisions about massive transfusions, potentially improving patient outcomes."
   },
+  "pmid:42414252": {
+    "key_stats": "n=210, 52.4% developed AKI stages 2-3, moderate-to-severe AKI independently associated with 30-day mortality, VA-ECMO modality and norepinephrine use increased AKI risk, high fibrinogen level and CVD provided protection",
+    "summary": "This study looked at how acute kidney injury (AKI) affects patients on ECMO and found that AKI is a major complication that affects mortality and long-term renal function. The study identified risk factors for AKI in ECMO patients, including the type of ECMO used and the use of certain medications. The study also found that severe AKI is a strong predictor of 30-day mortality in ECMO patients.",
+    "significance": "Understanding risk factors for AKI in ECMO patients can help clinicians take steps to prevent or mitigate this serious complication, which can improve patient outcomes and reduce mortality.",
+    "rounds_takeaway": "Consider using VA-ECMO modality with caution in patients with a history of cardiovascular disease and avoid norepinephrine use when possible."
+  },
+  "pmid:42410341": {
+    "key_stats": "n=2935, sHR 1.05 (95% CI 1.01-1.10), 1.95 (95% CI 1.11-3.43), 1.93 (95% CI 1.29-2.87), 1.26 (95% CI 1.06-1.50), 1.33 (95% CI 1.05-1.69), 1.50 (95% CI 1.19-1.90), 1.06 (per 1 mmol/L), 1.02 (per 10,000 cells/µL), p=not reported",
+    "summary": "Researchers studied 2935 critically ill adults in a Brazilian ICU to identify risk factors for acute kidney injury (AKI). They found that several factors, including age, chronic liver disease, and high lactate levels, were associated with AKI. The proportion of AKI cases classified as KDIGO stage 3 increased after day 7.",
+    "significance": "These findings highlight the importance of early recognition of risk factors for AKI in critically ill patients, supporting the implementation of kidney-protective care strategies in the ICU.",
+    "rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels."
+  },
   "pmid:42087034": {
     "summary": "This study reviewed the use of seizure medications in patients after brain surgery. The results suggest that using seizure medications may help prevent early seizures, but the benefits are uncertain. Levetiracetam may be a better choice than phenytoin for seizure prevention.",
     "significance": "This study's findings inform ICU clinicians about the use of seizure medications in patients after brain surgery, helping them make more informed decisions about patient care."
@@ -522,6 +542,24 @@
   "pmid:41916807": {
     "summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
     "significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients."
+  },
+  "pmid:42481936": {
+    "key_stats": "n=5721, HR 1.52 (95% CI 1.29-1.79), HR 1.41 (95% CI 1.20-1.65), HR 1.34, HR 1.14, OR 1.87, OR 1.51, p<0.001",
+    "summary": "Researchers analyzed data from 5721 older ICU patients to identify comorbidity patterns associated with acute kidney injury (AKI). They found five distinct comorbidity phenotypes, with those including atrial fibrillation and ischemic heart failure having the highest risk of AKI. These phenotypes were also associated with more severe AKI.",
+    "significance": "This study highlights the importance of considering comorbidities when evaluating older critically ill patients for AKI risk, and suggests that targeted renal surveillance and individualized hemodynamic management may be beneficial for high-risk patients.",
+    "rounds_takeaway": "Consider targeted renal surveillance and individualized hemodynamic management in older critically ill patients with comorbidities including atrial fibrillation and ischemic heart failure."
+  },
+  "pmid:42425561": {
+    "key_stats": "n=10642, primary endpoint: AKI occurrence and maximum severity within 7 days of ICU admission",
+    "summary": "This study aims to describe the occurrence and outcomes of acute kidney injury (AKI) in critically ill patients worldwide. It is a prospective, observational study of 10,642 patients admitted to the ICU. The study will collect data on AKI occurrence, severity, duration, and outcomes, as well as long-term kidney and patient outcomes in selected centers.",
+    "significance": "This study will provide valuable data on the epidemiology and outcomes of AKI in critically ill patients, which can inform future research and clinical practice in critical care nephrology.",
+    "rounds_takeaway": ""
+  },
+  "pmid:42418363": {
+    "key_stats": "n=202, moderate-to-severe AKI 9.1% vs 11.7%, nephrotoxic drug administration lower in postimplementation period, hypotensive episodes lower in postimplementation period",
+    "summary": "This study evaluated the impact of an artificial intelligence-powered clinical decision support system on acute kidney injury prevention in the ICU. The system, called U-Care Renal Platform, was integrated into ICU workflows and provided actionable recommendations. The study found lower rates of moderate-to-severe AKI, nephrotoxic drug administration, and hypotensive episodes among patients with AKI after implementation.",
+    "significance": "This study suggests that the integration of artificial intelligence-powered clinical decision support systems may be a useful tool for preventing acute kidney injury in the ICU, which is a serious and costly complication.",
+    "rounds_takeaway": "Consider implementing AI-powered clinical decision support systems to reduce the risk of AKI in critically ill patients."
   },
   "pmid:42409761": {
     "summary": "Clinical pharmacists are increasingly involved in acute stroke care, but their role is inconsistently defined. A consensus statement recommends their involvement in managing acute ischemic and hemorrhagic stroke in emergency departments.",
@@ -579,6 +617,12 @@
     "summary": "This study evaluated the simplified Radiographic Assessment of Lung Edema (RALE) score's ability to predict mortality in critically ill patients with Delta-variant COVID-19 using chest X-rays. The RALE score performed comparably to other scoring systems and remained an independent predictor of mortality. The study suggests that the RALE score could be a useful tool for risk stratification in critically ill patients with COVID-19, particularly in resource-limited settings.",
     "significance": "This study's findings support the use of the simplified RALE score as a practical tool for guiding treatment decisions in critically ill patients with COVID-19, which could lead to improved outcomes and resource allocation in high-burden settings."
   },
+  "pmid:42484242": {
+    "key_stats": "n=189, OR 20.8 (95% CI 3.8-114) for stage 2 AKI, OR 93.6 (95% CI 23.4-375) for stage 3 AKI, p < 0.001",
+    "summary": "This study looked at cardiac surgery patients in a single healthcare system and found that 16.7% developed acute kidney injury (AKI). Patients with AKI had higher mortality, longer hospital stays, and reduced renal recovery compared to those without AKI.",
+    "significance": "Early identification and management of AKI are crucial in cardiac surgery patients to reduce mortality and improve outcomes.",
+    "rounds_takeaway": "Consider AKI risk stratification and early intervention in cardiac surgery patients with elevated serum creatinine or decreased urine output."
+  },
   "pmid:42415882": {
     "summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
     "significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care."
@@ -586,6 +630,40 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06513949": {
+    "summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
+    "significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery."
+  },
+  "url:https://clinicaltrials.gov/study/NCT05996835": {
+    "key_stats": "",
+    "summary": "This Phase 2b study investigated the safety and efficacy of TIN816 in patients with sepsis-associated acute kidney injury (SA-AKI). Three different single doses of TIN816 were evaluated in hospitalized adult participants in an intensive care setting. The study aimed to characterize the dose-response relationship.",
+    "significance": "This study is significant for ICU clinical practice as it aims to find a treatment for sepsis-associated acute kidney injury, a serious complication in critically ill patients.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07735182": {
+    "key_stats": "",
+    "summary": "Researchers investigated the relationship between gut microbiome and enteric signatures in patients with sepsis-associated hepatorenal injury. They found that altered gut microbial diversity and microbial metabolites may contribute to hepato-renal injury during sepsis. However, prospective longitudinal evidence in patients with sepsis-associated liver injury and acute kidney injury remains limited.",
+    "significance": "This study highlights the need for further research into the gut microbiome's role in sepsis-associated complications, which could lead to new therapeutic targets for improving patient outcomes.",
+    "rounds_takeaway": "Consider evaluating gut microbiome in patients with sepsis-associated liver injury and acute kidney injury to inform potential targeted interventions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07734298": {
+    "key_stats": "n=120, Kappa index not reported, p not reported",
+    "summary": "This observational study compared the diagnostic performance of bedside cervical ultrasonography to nasofibroscopy (FEES) for detecting post-extubation dysphagia in critically ill adult patients. The study aimed to evaluate the degree of diagnostic concordance between the two methods. No significant results were reported.",
+    "significance": "Accurate diagnosis of post-extubation dysphagia is crucial for preventing aspiration and improving patient outcomes in the ICU. This study's findings can inform the choice of diagnostic tool for critically ill patients.",
+    "rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients"
+  },
+  "url:https://clinicaltrials.gov/study/NCT07734480": {
+    "key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
+    "summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
+    "significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
+    "rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07658001": {
+    "key_stats": "n=1200, p=0.01",
+    "summary": "This study investigated the use of fecal lactate as an early biomarker of tissue hypoperfusion in critically ill patients. Fecal lactate levels were measured within the first 12-24 hours to predict poor response to resuscitation at 24 hours. The study found that fecal lactate levels were associated with resuscitation outcomes.",
+    "significance": "This study provides valuable information for clinicians to identify critically ill patients at risk of poor response to resuscitation, allowing for timely intervention.",
+    "rounds_takeaway": "Consider fecal lactate levels in patients with suspected tissue hypoperfusion to guide resuscitation efforts."
   },
   "url:https://clinicaltrials.gov/study/NCT07170527": {
     "summary": "Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.",
@@ -598,10 +676,6 @@
   "url:https://clinicaltrials.gov/study/NCT06541600": {
     "summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
     "significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes."
-  },
-  "url:https://clinicaltrials.gov/study/NCT06513949": {
-    "summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
-    "significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery."
   },
   "url:https://clinicaltrials.gov/study/NCT06080282": {
     "summary": "Researchers studied the kallikrein-kinin system in septic cardiomyopathy to see if certain molecules are differently expressed and how they are regulated.",
@@ -626,5 +700,11 @@
   "url:https://clinicaltrials.gov/study/NCT07669558": {
     "summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
     "significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06363149": {
+    "key_stats": "",
+    "summary": "This study investigated the relationship between Disseminated Intravascular Coagulation (DIC) score and organ dysfunction in septic shock patients. DIC is a common condition in patients with sepsis and septic shock, and its coexistence with septic shock increases mortality and morbidity. The study aimed to understand the impact of DIC on organ dysfunction in septic shock patients.",
+    "significance": "Understanding the relationship between DIC and organ dysfunction in septic shock patients is crucial for developing targeted interventions to improve outcomes in critically ill patients.",
+    "rounds_takeaway": "Assess DIC score in septic shock patients to identify those at higher risk of organ dysfunction."
   }
 }
