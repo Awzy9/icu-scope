@@ -711,8 +711,8 @@ def ai_summarize(title, text):
             "content": (
                 "You are helping ICU/critical-care clinicians triage research quickly. "
                 "Given the title and text below (a study abstract or a FOAMed blog/podcast description), "
-                "respond with STRICT JSON only, no markdown fences, with exactly these three keys: "
-                "key_stats, summary, significance.\n\n"
+                "respond with STRICT JSON only, no markdown fences, with exactly these four keys: "
+                "key_stats, summary, significance, rounds_takeaway.\n\n"
                 "key_stats: a short line of the study's key reported numbers, formatted like "
                 "'n=1200, RR 0.82 (95% CI 0.71-0.95), ARR 4.2%, NNT 24, p=0.01'. "
                 "Only include sample size and effect measures (RR, OR, HR, ARR, RRR, NNT, mean difference, "
@@ -720,19 +720,30 @@ def ai_summarize(title, text):
                 "infer a number. Omit any measure not stated. Use an empty string if the text has no such "
                 "reportable numbers (e.g. a review, guideline, or commentary with no primary study data).\n\n"
                 "summary: 2-3 plain-language sentences on what was done and found.\n\n"
-                "significance: 1-2 sentences on why this matters for ICU clinical practice."
+                "significance: 1-2 sentences on why this matters for ICU clinical practice.\n\n"
+                "rounds_takeaway: ONE short, concrete, actionable sentence a clinician could act on during "
+                "bedside rounds (e.g. 'Consider X in patients with Y' or 'No change to current practice — "
+                "confirms existing approach'). Not a restatement of the summary. Use an empty string if the "
+                "text doesn't support a concrete practice takeaway (e.g. a purely descriptive or hypothesis-"
+                "generating piece)."
                 f"\n\nTitle: {title}\n\nText: {text[:3000]}"
             ),
         },
     ]
-    parsed = groq_chat_json(messages, max_tokens=350, temperature=0.2, log_label=title)
+    parsed = groq_chat_json(messages, max_tokens=400, temperature=0.2, log_label=title)
     if not parsed:
         return None
     key_stats = (parsed.get("key_stats") or "").strip()
     summary = (parsed.get("summary") or "").strip()
     significance = (parsed.get("significance") or "").strip()
+    rounds_takeaway = (parsed.get("rounds_takeaway") or "").strip()
     if summary or significance:
-        return {"key_stats": key_stats, "summary": summary, "significance": significance}
+        return {
+            "key_stats": key_stats,
+            "summary": summary,
+            "significance": significance,
+            "rounds_takeaway": rounds_takeaway,
+        }
     return None
 
 
@@ -798,6 +809,7 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
                 target["ai_key_stats"] = result.get("key_stats", "")
                 target["ai_summary"] = result["summary"]
                 target["ai_significance"] = result["significance"]
+                target["ai_rounds_takeaway"] = result.get("rounds_takeaway", "")
 
     # Keep the cache bounded to ids still relevant this run.
     pruned_cache = {aid: cache[aid] for aid in by_id if aid in cache}

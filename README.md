@@ -9,7 +9,8 @@ A daily-updating feed of recent ICU / critical-care literature from PubMed, orga
 - Guideline Watch is **not** restricted to that allowlist — it also matches on named societies (Surviving Sepsis Campaign, SCCM, ESICM) via `SOCIETY_GUIDELINE_MATCHERS`, tagged with a `society` field, so official guidance isn't missed just because it appeared in a journal outside the allowlist.
 - Categories, FOAMed posts, and guidelines **accumulate in `data/archive.json`** and are never removed — each day's fetch only adds newly-discovered items on top of everything already archived, keyed by PMID/URL. (Trending and the weekly Spotlight are rankings, not archives, so those do rotate by design.)
 - The "Article of the Week" spotlight refreshes every **Saturday** (cached in `data/spotlight.json`, keyed off the most recent Saturday's date).
-- If `GROQ_API_KEY` is set, each article/post also gets an AI-generated plain-language summary and a "why it matters" clinical significance note (via Groq's free API, running the open-source Llama 3.3 70B model). Results are cached in `data/ai_cache.json` so each article is only summarized once, ever — not re-summarized every day it stays in the window.
+- If `GROQ_API_KEY` is set, each article/post also gets an AI-generated plain-language summary, a "why it matters" clinical significance note, and a one-line "🩺 Rounds takeaway" (a concrete, actionable bedside takeaway, left blank if the text doesn't support one) via Groq's free API. Results are cached in `data/ai_cache.json` so each article is only summarized once, ever — not re-summarized every day it stays in the window.
+- Every article also gets a color-coded evidence-tier dot (🟢 meta-analysis/systematic review, 🔵 RCT/trial, 🟡 observational/comparative, 🟠 case reports, ⚪ other) and a 5-star "Impact score" (Practice changing → Hypothesis generating), both computed **client-side in `app.js`** from `study_type`/`is_top_journal`/`citation_count` — a deterministic rule of thumb, not an AI judgment, and no substitute for reading the paper.
 - `.github/workflows/update.yml` runs that script daily via GitHub Actions and commits the result if it changed.
 - `index.html` / `app.js` / `style.css` render `data/articles.json` as a static site, served via GitHub Pages.
 
@@ -50,6 +51,8 @@ A "🧠 Semantic search" button next to the search box ranks articles by *meanin
 3. Nothing to change in `app.js` — it reuses `WORKER_ENDPOINT` from the Ask-AI setup above.
 
 Similarity is computed client-side (cosine similarity against the cached article vectors), so no vector database is needed — the Worker's only job is turning the search query into a vector with the same model used for the articles.
+
+The same cached vectors also power a "🔗 Similar articles" list on each card (e.g. reading one steroids-in-ARDS RCT surfaces other related trials) — this reuses `data/embeddings.json` directly and needs no live query, so it works with just the `HF_API_TOKEN` backend step above, independent of the Worker/semantic-search button.
 
 ## Local development
 
