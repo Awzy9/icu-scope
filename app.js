@@ -459,6 +459,13 @@
     document.documentElement.style.setProperty("--section-jump-height", `${sectionJumpNav.offsetHeight}px`);
   }
 
+  // Lets the mobile category-nav row stick directly beneath the toolbar
+  // instead of a hardcoded guess — the toolbar's own height varies as its
+  // buttons/filters wrap differently across widths.
+  function updateToolbarHeight() {
+    document.documentElement.style.setProperty("--toolbar-height", `${toolbar.offsetHeight}px`);
+  }
+
   function articleId(article) {
     return article.pmid ? `pmid:${article.pmid}` : `url:${article.url}`;
   }
@@ -1282,6 +1289,8 @@
   initCollapsibleSections();
   renderClassics();
   initSectionJump();
+  updateToolbarHeight();
+  window.addEventListener("resize", updateToolbarHeight);
 
   backToTopBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1307,6 +1316,7 @@
   bottomNavBackdrop.addEventListener("click", closeSectionJumpMenu);
 
   semanticSearchBtn.hidden = !WORKER_ENDPOINT;
+  updateToolbarHeight();
   semanticSearchBtn.addEventListener("click", () => {
     const query = searchInput.value.trim();
     if (!query) {
@@ -1393,6 +1403,10 @@
       renderDashboard(data);
       applyFiltersAndRender();
       saveSeenIds(collectAllIds(data));
+      // Populating the filter <select>s can widen them enough to change how
+      // the toolbar wraps, which shifts its real height out from under the
+      // sticky category-nav's offset — recompute now that it's settled.
+      updateToolbarHeight();
     })
     .catch((err) => {
       content.innerHTML = `<p class="empty">Couldn't load article data (${escapeHtml(err.message)}).</p>`;
