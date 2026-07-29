@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=20" />
+  <link rel="stylesheet" href="style.css?v=21" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -50,8 +50,11 @@
         </details>
         <p class="updated-line" id="updated-line">Loading update time…</p>
       </div>
-      <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">🔖 <span id="saved-count-badge">0</span></button>
-      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
+      <div class="header-actions">
+        <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">🔖 <span id="saved-count-badge">0</span></button>
+        <button class="density-toggle" id="density-toggle" type="button" aria-label="Change layout density">☰ Comfortable</button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
+      </div>
     </div>
   </header>
 
@@ -102,7 +105,6 @@
     <select id="study-type-filter" class="window-filter" aria-label="Study type">
       <option value="all">All study types</option>
     </select>
-    <button id="compact-toggle" class="toolbar-btn" type="button" aria-pressed="false">☰ Compact view</button>
     <button id="digest-btn" class="toolbar-btn" type="button">📋 Copy weekly digest</button>
     <button id="semantic-search-btn" class="toolbar-btn" type="button" hidden>🧠 Semantic search</button>
   </div>
@@ -262,6 +264,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=15"></script>
+  <script src="app.js?v=16"></script>
 </body>
 </html>
