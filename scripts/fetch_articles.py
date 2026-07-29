@@ -66,13 +66,14 @@ JOURNAL_FILTER = (
     '("N Engl J Med"[Journal] OR "JAMA"[Journal] OR "Lancet"[Journal] '
     'OR "Lancet Respir Med"[Journal] OR "Intensive Care Med"[Journal] '
     'OR "Crit Care Med"[Journal] OR "Am J Respir Crit Care Med"[Journal] '
-    'OR "Chest"[Journal] OR "Crit Care"[Journal])'
+    'OR "Chest"[Journal] OR "Crit Care"[Journal] OR "BMJ"[Journal] '
+    'OR "Cochrane Database Syst Rev"[Journal])'
 )
 
-# Substring matchers for is_top_journal() below. "lancet" and "critical care"
-# are handled separately (bare-name-or-"(London, England)"-suffix check)
-# since a plain substring match would also catch sister journals like
-# "Lancet Oncology" or "Journal of Critical Care".
+# Substring matchers for is_top_journal() below. "lancet", "critical care",
+# and "bmj" are handled separately (bare-name-or-"(London, England)"-suffix
+# check) since a plain substring match would also catch sister journals
+# like "Lancet Oncology", "Journal of Critical Care", or "BMJ Open".
 TOP_JOURNAL_MATCHERS = [
     "new england journal of medicine",
     "jama",
@@ -81,8 +82,9 @@ TOP_JOURNAL_MATCHERS = [
     "critical care medicine",
     "chest",
     "american journal of respiratory and critical care medicine",
+    "cochrane database of systematic reviews",
 ]
-TOP_JOURNAL_BARE_NAMES = ("lancet", "critical care")
+TOP_JOURNAL_BARE_NAMES = ("lancet", "critical care", "bmj")
 
 PUB_TYPE_PRIORITY = [
     "Randomized Controlled Trial",
@@ -110,11 +112,37 @@ LINK_CHECK_RECHECK_DAYS = int(os.environ.get("LINK_CHECK_RECHECK_DAYS", "30"))
 
 # Matched against title+abstract (lowercase) to badge guidelines issued by a
 # named critical-care society, in addition to whatever PubMed's own
-# guideline[pt] tagging catches.
+# guideline[pt] tagging catches. Full phrases are safe to substring-match
+# directly; see SOCIETY_ACRONYM_MATCHERS below for the short forms.
 SOCIETY_GUIDELINE_MATCHERS = [
     ("surviving sepsis campaign", "Surviving Sepsis Campaign"),
     ("society of critical care medicine", "SCCM"),
     ("european society of intensive care medicine", "ESICM"),
+    ("american thoracic society", "ATS"),
+    ("european respiratory society", "ERS"),
+    ("infectious diseases society of america", "IDSA"),
+    ("european society of clinical microbiology and infectious diseases", "ESCMID"),
+    ("american heart association", "AHA"),
+    ("american college of cardiology", "ACC"),
+    ("kidney disease: improving global outcomes", "KDIGO"),
+    ("kidney disease improving global outcomes", "KDIGO"),
+]
+
+# Guideline titles very often cite these bodies by acronym only (e.g. "2024
+# KDIGO Clinical Practice Guideline..."). Unlike the full phrases above, a
+# naive substring check on a 3-6 letter acronym risks false positives inside
+# ordinary words (e.g. "acc" inside "according"), so these are matched with
+# word boundaries instead.
+SOCIETY_ACRONYM_MATCHERS = [
+    ("kdigo", "KDIGO"),
+    ("idsa", "IDSA"),
+    ("escmid", "ESCMID"),
+    ("aha", "AHA"),
+    ("acc", "ACC"),
+    ("ats", "ATS"),
+    ("ers", "ERS"),
+    ("sccm", "SCCM"),
+    ("esicm", "ESICM"),
 ]
 
 FOAMED_KEYWORDS = [
@@ -378,6 +406,9 @@ def detect_society(title, abstract):
     for needle, name in SOCIETY_GUIDELINE_MATCHERS:
         if needle in haystack:
             return name
+    for needle, name in SOCIETY_ACRONYM_MATCHERS:
+        if re.search(rf"\b{re.escape(needle)}\b", haystack):
+            return name
     return None
 
 
@@ -387,7 +418,15 @@ def build_guidelines():
         'OR "consensus development conference"[pt] '
         'OR "Surviving Sepsis Campaign"[Title/Abstract] '
         'OR "Society of Critical Care Medicine"[Title/Abstract] '
-        'OR "European Society of Intensive Care Medicine"[Title/Abstract])'
+        'OR "European Society of Intensive Care Medicine"[Title/Abstract] '
+        'OR "American Thoracic Society"[Title/Abstract] '
+        'OR "European Respiratory Society"[Title/Abstract] '
+        'OR "Infectious Diseases Society of America"[Title/Abstract] '
+        'OR "European Society of Clinical Microbiology and Infectious Diseases"[Title/Abstract] '
+        'OR "American Heart Association"[Title/Abstract] '
+        'OR "American College of Cardiology"[Title/Abstract] '
+        'OR "Kidney Disease: Improving Global Outcomes"[Title/Abstract] '
+        'OR "KDIGO"[Title/Abstract])'
     )
     pmids = esearch(query, GUIDELINE_DAYS, GUIDELINE_MAX)
     time.sleep(REQUEST_DELAY)
