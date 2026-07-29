@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=16" />
+  <link rel="stylesheet" href="style.css?v=17" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -67,7 +67,26 @@
     <!-- populated by app.js -->
   </nav>
 
-  <div class="toolbar">
+  <section class="dashboard-strip" id="dashboard-strip" aria-label="This week at a glance" hidden>
+    <div class="dashboard-tile">
+      <div class="dashboard-value" id="dash-new-count">–</div>
+      <div class="dashboard-label">New this week</div>
+    </div>
+    <div class="dashboard-tile">
+      <div class="dashboard-value" id="dash-top-category">–</div>
+      <div class="dashboard-label">Most active category</div>
+    </div>
+    <a class="dashboard-tile dashboard-tile-spotlight" id="dash-spotlight-tile" href="#spotlight-section" hidden>
+      <div class="dashboard-label">📌 Article of the Week</div>
+      <div class="dashboard-spotlight-title" id="dash-spotlight-title"></div>
+    </a>
+    <div class="dashboard-tile">
+      <div class="dashboard-value" id="dash-guideline-count">–</div>
+      <div class="dashboard-label">Guidelines tracked</div>
+    </div>
+  </section>
+
+  <div class="toolbar" id="toolbar">
     <input type="search" id="search-input" class="search-input" placeholder="Search titles, journals, abstracts…" aria-label="Search articles" />
     <select id="window-filter" class="window-filter" aria-label="Time window">
       <option value="all">All time</option>
@@ -75,11 +94,26 @@
       <option value="7">Last 7 days</option>
       <option value="30">Last 30 days</option>
     </select>
+    <select id="year-filter" class="window-filter" aria-label="Publication year">
+      <option value="all">All years</option>
+    </select>
+    <select id="organ-filter" class="window-filter" aria-label="Organ system">
+      <option value="all">All organ systems</option>
+    </select>
+    <select id="journal-filter" class="window-filter" aria-label="Journal">
+      <option value="all">All journals</option>
+    </select>
     <select id="study-type-filter" class="window-filter" aria-label="Study type">
       <option value="all">All study types</option>
     </select>
     <button id="compact-toggle" class="toolbar-btn" type="button" aria-pressed="false">☰ Compact view</button>
     <button id="digest-btn" class="toolbar-btn" type="button">📋 Copy weekly digest</button>
+  </div>
+  <div class="quick-filters" id="quick-filters">
+    <button class="quick-filter-chip" type="button" data-study-type="Randomized Controlled Trial">RCT</button>
+    <button class="quick-filter-chip" type="button" data-study-type="Meta-Analysis">Meta-Analysis</button>
+    <button class="quick-filter-chip" type="button" data-study-type="Review">Review</button>
+    <button class="quick-filter-chip" type="button" data-study-type="Practice Guideline">Guideline</button>
   </div>
 
   <main class="content">
@@ -217,6 +251,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=12"></script>
+  <script src="app.js?v=13"></script>
 </body>
 </html>
