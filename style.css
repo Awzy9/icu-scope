@@ -1214,13 +1214,18 @@ mark {
   }
 
   /* Scroll instead of wrap: 11 categories wrapped into 6 rows ate the
-     whole first screen before any article was visible. */
+     whole first screen before any article was visible. Sticking it right
+     under the toolbar (also sticky) keeps organ-system jump links in
+     reach while scrolling, without costing more than one compact row. */
   .category-nav {
     padding: 0.7rem 1.1rem;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    position: sticky;
+    top: var(--toolbar-height, 4.4rem);
+    z-index: 39;
   }
   .category-nav::-webkit-scrollbar { display: none; }
   .nav-chip { min-height: 2.6rem; }
