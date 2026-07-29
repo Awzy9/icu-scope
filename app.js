@@ -68,7 +68,7 @@
   const dashGuidelineCount = document.getElementById("dash-guideline-count");
   const dashSpotlightTile = document.getElementById("dash-spotlight-tile");
   const dashSpotlightTitle = document.getElementById("dash-spotlight-title");
-  const compactToggle = document.getElementById("compact-toggle");
+  const densityToggle = document.getElementById("density-toggle");
   const digestBtn = document.getElementById("digest-btn");
   const spotlightPrintBtn = document.getElementById("spotlight-print-btn");
   const backToTopBtn = document.getElementById("back-to-top");
@@ -318,16 +318,39 @@
     });
   }
 
-  function initCompactView() {
-    const saved = localStorage.getItem("icu-scope-compact") === "1";
-    document.body.classList.toggle("compact-view", saved);
-    compactToggle.setAttribute("aria-pressed", String(saved));
-    compactToggle.textContent = saved ? "☰ Full view" : "☰ Compact view";
-    compactToggle.addEventListener("click", () => {
-      const active = document.body.classList.toggle("compact-view");
-      compactToggle.setAttribute("aria-pressed", String(active));
-      compactToggle.textContent = active ? "☰ Full view" : "☰ Compact view";
-      localStorage.setItem("icu-scope-compact", active ? "1" : "0");
+  const DENSITY_LEVELS = ["comfortable", "compact", "ultra"];
+  const DENSITY_LABELS = {
+    comfortable: "☰ Comfortable",
+    compact: "☰ Compact",
+    ultra: "☰ Ultra Compact",
+  };
+
+  function applyDensity(level) {
+    if (level === "comfortable") {
+      delete document.body.dataset.density;
+    } else {
+      document.body.dataset.density = level;
+    }
+    densityToggle.textContent = DENSITY_LABELS[level];
+    densityToggle.setAttribute("aria-label", `Layout density: ${level}. Tap to change.`);
+  }
+
+  function initDensity() {
+    let saved = localStorage.getItem("icu-scope-density");
+    if (!saved) {
+      // Carry the old boolean "Compact view" (which hid AI summaries and
+      // abstracts) forward as the closest new tier, rather than silently
+      // resetting anyone who had it on back to Comfortable.
+      saved = localStorage.getItem("icu-scope-compact") === "1" ? "ultra" : "comfortable";
+    }
+    if (!DENSITY_LEVELS.includes(saved)) saved = "comfortable";
+    applyDensity(saved);
+
+    densityToggle.addEventListener("click", () => {
+      const current = document.body.dataset.density || "comfortable";
+      const next = DENSITY_LEVELS[(DENSITY_LEVELS.indexOf(current) + 1) % DENSITY_LEVELS.length];
+      applyDensity(next);
+      localStorage.setItem("icu-scope-density", next);
     });
   }
 
@@ -1285,7 +1308,7 @@
   }
 
   initTheme();
-  initCompactView();
+  initDensity();
   initCollapsibleSections();
   renderClassics();
   initSectionJump();

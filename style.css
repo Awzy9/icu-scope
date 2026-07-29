@@ -188,6 +188,16 @@ select:focus-visible {
 
 .header-text { flex: 1; min-width: 0; }
 
+/* One flex item, not three: keeps the header's action buttons wrapping
+   as a single unit onto their own row on narrow screens, instead of each
+   sharing the text's row and squeezing the brand name into overflow. */
+.header-actions {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
 .brand {
   display: flex;
   align-items: center;
@@ -291,6 +301,21 @@ select:focus-visible {
 .saved-toggle:hover { border-color: var(--accent); }
 
 #saved-count-badge { font-size: 0.85rem; font-weight: 700; }
+
+.density-toggle {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  color: var(--text);
+  height: 2.6rem;
+  padding: 0 0.9rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.density-toggle:hover { border-color: var(--accent); }
 
 .category-nav {
   background: var(--bg);
@@ -621,22 +646,37 @@ select:focus-visible {
   border-color: var(--accent-strong);
 }
 
-body.compact-view .article-card {
+/* Layout density: Comfortable (default, no attribute) / Compact (tighter
+   spacing, ~15-20% less padding) / Ultra Compact (tightest, plus hides
+   the AI summary/abstract/tags for fast title-only scanning on rounds). */
+body[data-density="compact"] .article-card {
+  padding: 1.05rem 1.2rem;
+  margin-bottom: 0.75rem;
+}
+
+body[data-density="compact"] .article-meta {
+  margin-bottom: 0.5rem;
+}
+
+body[data-density="ultra"] .article-card {
   padding: 0.65rem 1rem;
   margin-bottom: 0.5rem;
 }
 
-body.compact-view .ai-summary,
-body.compact-view .article-abstract,
-body.compact-view .abstract-toggle,
-body.compact-view .ai-summary-toggle,
-body.compact-view .article-tags {
+body[data-density="ultra"] .article-meta {
+  margin-bottom: 0.3rem;
+}
+
+body[data-density="ultra"] .ai-summary,
+body[data-density="ultra"] .article-abstract,
+body[data-density="ultra"] .abstract-toggle,
+body[data-density="ultra"] .ai-summary-toggle,
+body[data-density="ultra"] .article-tags {
   display: none;
 }
 
-body.compact-view .article-meta {
-  margin-bottom: 0.3rem;
-}
+body[data-density="compact"] .category-section { margin-bottom: 2rem; }
+body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
 
 .content {
   max-width: 880px;
@@ -1213,13 +1253,47 @@ mark {
 @media (max-width: 520px) {
   body { font-size: 16px; }
   .site-header { padding: 1.5rem 1.1rem 1.1rem; }
-  .content { padding: 1.4rem 1.1rem; }
+
+  /* A bit more horizontal breathing room around cards, but noticeably
+     less vertical padding, so more articles fit above the fold on a
+     phone without shrinking body text. */
+  .content { padding: 1.1rem 1.2rem; }
 
   /* Prevent iOS Safari's disorienting auto-zoom when an input under
      16px gets focus. */
   .search-input, .window-filter, .toolbar-btn, .ask-input {
     font-size: 16px;
   }
+
+  .search-input { padding: 0.4rem 0.85rem; }
+
+  /* Headings ~8-10% smaller than desktop — still clearly a heading, just
+     not eating a full line of a small screen for a section label. */
+  .trending-heading h2 { font-size: 1.18rem; }
+  .category-heading h2 { font-size: 1.2rem; }
+  .article-title { font-size: 1rem; }
+
+  .article-card {
+    padding: 1rem 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .category-section { margin-bottom: 2rem; }
+
+  body[data-density="compact"] .article-card {
+    padding: 0.8rem 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+
+  body[data-density="ultra"] .article-card {
+    padding: 0.55rem 0.85rem;
+    margin-bottom: 0.45rem;
+  }
+
+  body[data-density="compact"] .category-section { margin-bottom: 1.5rem; }
+  body[data-density="ultra"] .category-section { margin-bottom: 1.1rem; }
+
+  .density-toggle { height: 2.75rem; }
 
   /* Scroll instead of wrap: 11 categories wrapped into 6 rows ate the
      whole first screen before any article was visible. Sticking it right
@@ -1251,8 +1325,19 @@ mark {
     height: 2.75rem;
   }
 
+  /* header-text has min-width:0 (so its paragraphs can wrap instead of
+     overflowing), which also means flex-wrap's automatic line-breaking
+     never triggers — there's always room to keep shrinking it instead of
+     wrapping. Force the stack explicitly so the action buttons get their
+     own full-width row under the brand/tagline rather than squeezing
+     onto its line and pushing the brand text into overflow. */
   .header-inner {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-actions {
+    justify-content: flex-end;
   }
 
   .toolbar { gap: 0.5rem; }
