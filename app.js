@@ -602,6 +602,7 @@
     const aiBlock = hasAiSummary
       ? `<div class="ai-summary">
            <div class="ai-summary-label">✨ AI Summary</div>
+           ${article.ai_key_stats ? `<p class="ai-key-stats">${escapeHtml(article.ai_key_stats)}</p>` : ""}
            ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
            ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
            ${article.ai_summary ? `<button class="ai-summary-toggle" type="button">Show full summary</button>` : ""}
@@ -756,6 +757,7 @@
       authors: item.author ? [item.author] : [],
       doi: null,
       abstract: item.summary,
+      ai_key_stats: item.ai_key_stats,
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
       citation_count: 0,
@@ -775,6 +777,7 @@
       authors: item.author ? [item.author] : [],
       doi: null,
       abstract: item.summary,
+      ai_key_stats: item.ai_key_stats,
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
       citation_count: 0,
@@ -794,6 +797,7 @@
       authors: [],
       doi: null,
       abstract: item.summary,
+      ai_key_stats: item.ai_key_stats,
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
       citation_count: 0,
