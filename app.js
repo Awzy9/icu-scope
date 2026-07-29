@@ -302,6 +302,7 @@
   let currentSessionIds = new Set();
   let bookmarkedIds = new Set();
   let embeddingsPromise = null;
+  let embeddingsCache = null;
 
   function initTheme() {
     const saved = localStorage.getItem("icu-scope-theme");
@@ -525,9 +526,74 @@
     if (!embeddingsPromise) {
       embeddingsPromise = fetch("data/embeddings.json")
         .then((res) => (res.ok ? res.json() : {}))
-        .catch(() => ({}));
+        .catch(() => ({}))
+        .then((data) => {
+          embeddingsCache = data;
+          return data;
+        });
     }
     return embeddingsPromise;
+  }
+
+  // Uses the cache synchronously once loadEmbeddings() has resolved once —
+  // powers both semantic search and each card's "Similar articles" list.
+  function findSimilarArticles(id, count) {
+    if (!embeddingsCache || !embeddingsCache[id] || !rawData) return [];
+    const vector = embeddingsCache[id];
+    const index = buildArticleIndex(rawData);
+    const scored = [];
+    for (const otherId of Object.keys(embeddingsCache)) {
+      if (otherId === id) continue;
+      const article = index.get(otherId);
+      if (!article) continue;
+      scored.push({ article, score: cosineSimilarity(vector, embeddingsCache[otherId]) });
+    }
+    scored.sort((a, b) => b.score - a.score);
+    return scored.slice(0, count).map((s) => s.article);
+  }
+
+  // Rough evidence-hierarchy color coding, derived from the study_type
+  // string already computed server-side. Approximate by design: the
+  // underlying PubMed publication types don't cleanly separate e.g.
+  // "cohort" from other observational designs, so this maps to the
+  // closest bucket rather than inventing precision the data doesn't have.
+  function evidenceTierDot(studyType) {
+    const type = (studyType || "").toLowerCase();
+    if (!type || type.includes("foamed") || type.includes("preprint")) return "";
+    if (type.includes("randomized")) return "🔵";
+    if (type.includes("meta-analysis") || type.includes("systematic review")) return "🟢";
+    if (type.includes("landmark") || type.includes("trial")) return "🔵";
+    if (type.includes("multicenter") || type.includes("observational") || type.includes("comparative")) return "🟡";
+    if (type.includes("case report")) return "🟠";
+    return "⚪";
+  }
+
+  const IMPACT_LABELS = {
+    5: "★★★★★ Practice changing",
+    4: "★★★★ Strong evidence",
+    3: "★★★ Interesting",
+    2: "★★ Research only",
+    1: "★ Hypothesis generating",
+  };
+
+  // A deterministic estimate from study design, journal tier, and citation
+  // count — NOT an AI judgment of quality, and not a substitute for reading
+  // and critically appraising the actual paper. Null means "not applicable"
+  // (FOAMed commentary, trial registrations with no results yet).
+  function impactScore(article) {
+    if (article.is_trial || article.is_foamed) return null;
+    if (article.is_preprint) return 1;
+    const type = (article.study_type || "").toLowerCase();
+    const notable = article.is_top_journal || (article.citation_count || 0) >= 10;
+    if (type.includes("landmark")) return 5;
+    if (type.includes("guideline")) return 5;
+    if (type.includes("meta-analysis") || type.includes("systematic review")) return notable ? 5 : 4;
+    if (type.includes("randomized")) return notable ? 5 : 4;
+    if (type.includes("trial")) return notable ? 4 : 3;
+    if (type.includes("multicenter") || type.includes("comparative") || type.includes("observational")) return 3;
+    if (type.includes("case report")) return 2;
+    if (type.includes("review")) return 2;
+    return 2;
   }
 
   function cosineSimilarity(a, b) {
@@ -787,6 +853,7 @@
     const aiBlock = hasAiSummary
       ? `<div class="ai-summary">
            <div class="ai-summary-label">✨ AI Summary</div>
+           ${article.ai_rounds_takeaway ? `<p class="ai-rounds-takeaway">🩺 <strong>Rounds takeaway:</strong> ${escapeHtml(article.ai_rounds_takeaway)}</p>` : ""}
            ${article.ai_key_stats ? `<p class="ai-key-stats">${escapeHtml(article.ai_key_stats)}</p>` : ""}
            ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
            ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
@@ -804,8 +871,13 @@
       ? `<span class="foamed-badge">FOAMed</span>`
       : "";
     const newBadge = isNew ? `<span class="new-badge">● New</span>` : "";
+    const evidenceDot = evidenceTierDot(article.study_type);
     const studyTypeBadge = article.study_type
-      ? `<span class="study-type-badge">${escapeHtml(article.study_type)}</span>`
+      ? `<span class="study-type-badge">${evidenceDot ? `${evidenceDot} ` : ""}${escapeHtml(article.study_type)}</span>`
+      : "";
+    const impact = impactScore(article);
+    const impactBadge = impact
+      ? `<span class="impact-score-badge" title="Estimated from study design, journal tier, and citation count — not an AI judgment, and not a substitute for appraising the paper yourself.">${IMPACT_LABELS[impact]}</span>`
       : "";
     const societyBadge = article.society
       ? `<span class="society-badge">${escapeHtml(article.society)}</span>`
@@ -827,6 +899,17 @@
           ? "ClinicalTrials.gov"
           : "PubMed";
 
+    // Only offer this when the article actually has a cached embedding —
+    // embeddingsCache is resolved before the first render (see the initial
+    // fetch chain), so this is accurate from the start, not just after a
+    // later re-render.
+    const similarBlock = (embeddingsCache && embeddingsCache[id])
+      ? `<div class="similar-articles">
+           <button class="similar-toggle" type="button">🔗 Similar articles</button>
+           <div class="similar-list" hidden></div>
+         </div>`
+      : "";
+
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
@@ -835,10 +918,11 @@
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
-      <div class="article-tags">${studyTypeBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
+      <div class="article-tags">${studyTypeBadge}${impactBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
       ${aiBlock}
       ${abstractBlock}
       ${askBlock}
+      ${similarBlock}
       <div class="article-links">
         <a href="${article.url}" target="_blank" rel="noopener">${readLabel}</a>
         ${doiLink}
@@ -905,6 +989,31 @@
       });
     }
 
+    const similarToggle = card.querySelector(".similar-toggle");
+    const similarList = card.querySelector(".similar-list");
+    if (similarToggle && similarList) {
+      similarToggle.addEventListener("click", () => {
+        const opening = similarList.hidden;
+        similarList.hidden = !opening;
+        if (opening && !similarList.childElementCount) {
+          const related = findSimilarArticles(id, 3);
+          if (!related.length) {
+            similarList.innerHTML = `<p class="empty">No similar articles found.</p>`;
+          } else {
+            related.forEach((related_article) => {
+              const item = document.createElement("a");
+              item.className = "similar-item";
+              item.href = related_article.url;
+              item.target = "_blank";
+              item.rel = "noopener";
+              item.innerHTML = `<span class="similar-item-title">${escapeHtml(related_article.title)}</span><span class="similar-item-journal">${escapeHtml(related_article.journal || "")}</span>`;
+              similarList.appendChild(item);
+            });
+          }
+        }
+      });
+    }
+
     const citeBtn = card.querySelector(".cite-btn");
     citeBtn.addEventListener("click", () => {
       const text = formatCitation(article);
@@ -945,6 +1054,7 @@
       ai_key_stats: item.ai_key_stats,
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
+      ai_rounds_takeaway: item.ai_rounds_takeaway,
       citation_count: 0,
       is_top_journal: false,
       is_foamed: true,
@@ -965,6 +1075,7 @@
       ai_key_stats: item.ai_key_stats,
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
+      ai_rounds_takeaway: item.ai_rounds_takeaway,
       citation_count: 0,
       is_top_journal: false,
       is_open_access: true,
@@ -985,6 +1096,7 @@
       ai_key_stats: item.ai_key_stats,
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
+      ai_rounds_takeaway: item.ai_rounds_takeaway,
       citation_count: 0,
       is_top_journal: false,
       is_open_access: true,
@@ -1414,12 +1526,17 @@
     }
   });
 
-  fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" })
-    .then((res) => {
+  Promise.all([
+    fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" }).then((res) => {
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       return res.json();
-    })
-    .then((data) => {
+    }),
+    // Resolved before the first render so each card can synchronously know
+    // whether it has a "Similar articles" list to offer, instead of the
+    // button popping in/out after the fact.
+    loadEmbeddings(),
+  ])
+    .then(([data]) => {
       rawData = data;
       updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
       populateFilterOptions(data);
