@@ -801,6 +801,19 @@ body.compact-view .article-meta {
   display: block;
 }
 
+.ai-key-stats {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: "SF Mono", "Consolas", "Menlo", monospace;
+  color: var(--ai-accent);
+  background: var(--surface);
+  border: 1px solid var(--ai-border);
+  border-radius: 6px;
+  padding: 0.35rem 0.6rem;
+  display: inline-block;
+}
+
 .ai-significance {
   margin: 0 0 0.5rem;
   font-size: 0.88rem;
