@@ -337,7 +337,25 @@
   }
 
   function setSectionCollapsed(entry, collapsed) {
-    entry.body.classList.toggle("collapsed", collapsed);
+    const body = entry.body;
+    // max-height drives the animation, but a fixed guess clips longer
+    // sections (bit us on mobile, where cards run taller). Measure the
+    // real content height instead: scrollHeight is unaffected by the
+    // current max-height/overflow clipping, so it's always accurate.
+    if (collapsed) {
+      body.style.maxHeight = `${body.scrollHeight}px`;
+      body.offsetHeight; // force layout so the browser registers the start height
+      body.style.maxHeight = "0px";
+    } else {
+      body.style.maxHeight = `${body.scrollHeight}px`;
+      body.addEventListener("transitionend", function onEnd(e) {
+        if (e.propertyName === "max-height") {
+          body.style.maxHeight = "";
+          body.removeEventListener("transitionend", onEnd);
+        }
+      });
+    }
+    body.classList.toggle("collapsed", collapsed);
     entry.toggle.setAttribute("aria-expanded", String(!collapsed));
     entry.toggle.textContent = collapsed ? "▸" : "▾";
   }
@@ -1072,12 +1090,18 @@
   });
 
   spotlightPrintBtn.addEventListener("click", () => {
+    const spotlightEntry = COLLAPSIBLE_SECTIONS.find((e) => e.id === "spotlight");
     const wasCollapsed = spotlightBody.classList.contains("collapsed");
     spotlightBody.classList.remove("collapsed");
+    spotlightBody.style.maxHeight = "none";
     document.body.classList.add("printing-spotlight");
     const restore = () => {
       document.body.classList.remove("printing-spotlight");
-      if (wasCollapsed) spotlightBody.classList.add("collapsed");
+      if (wasCollapsed) {
+        setSectionCollapsed(spotlightEntry, true);
+      } else {
+        spotlightBody.style.maxHeight = "";
+      }
       window.removeEventListener("afterprint", restore);
     };
     window.addEventListener("afterprint", restore);

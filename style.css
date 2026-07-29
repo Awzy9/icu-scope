@@ -972,13 +972,11 @@ mark {
 
 .section-body {
   overflow: hidden;
-  max-height: 6000px;
   opacity: 1;
   transition: max-height 0.35s ease, opacity 0.25s ease;
 }
 
 .section-body.collapsed {
-  max-height: 0;
   opacity: 0;
   pointer-events: none;
 }
