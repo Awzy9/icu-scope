@@ -54,9 +54,20 @@
     { id: "classics", body: classicsBody, toggle: document.getElementById("classics-collapse-toggle") },
   ];
   const themeToggle = document.getElementById("theme-toggle");
+  const toolbar = document.getElementById("toolbar");
   const searchInput = document.getElementById("search-input");
   const windowFilter = document.getElementById("window-filter");
+  const yearFilter = document.getElementById("year-filter");
+  const organFilter = document.getElementById("organ-filter");
+  const journalFilter = document.getElementById("journal-filter");
   const studyTypeFilter = document.getElementById("study-type-filter");
+  const quickFilters = document.getElementById("quick-filters");
+  const dashboardStrip = document.getElementById("dashboard-strip");
+  const dashNewCount = document.getElementById("dash-new-count");
+  const dashTopCategory = document.getElementById("dash-top-category");
+  const dashGuidelineCount = document.getElementById("dash-guideline-count");
+  const dashSpotlightTile = document.getElementById("dash-spotlight-tile");
+  const dashSpotlightTitle = document.getElementById("dash-spotlight-title");
   const compactToggle = document.getElementById("compact-toggle");
   const digestBtn = document.getElementById("digest-btn");
   const spotlightPrintBtn = document.getElementById("spotlight-print-btn");
@@ -107,6 +118,38 @@
     "trauma-surgical": "#f08c00",
     "procedures-pocus": "#1098ad",
     pharmacology: "#9c36b5",
+  };
+
+  // Plain-keyword approximation of the MeSH queries in fetch_articles.py's
+  // CATEGORIES list, used to apply an organ-system filter to sections that
+  // don't carry a category field of their own (Trending/Guideline/FOAMed/
+  // Preprints/Trials only get a category via their per-organ feed).
+  const ORGAN_KEYWORDS = {
+    cardiovascular: ["cardiovascular", "shock", "cardiac arrest", "arrhythmia", "vasopressor", "hemodynamic"],
+    respiratory: ["ards", "mechanical ventilation", "respiratory failure", "acute respiratory distress", "extubation", "weaning"],
+    neurology: ["delirium", "traumatic brain injury", "stroke", "sedation", "status epilepticus", "brain injury", "neuro"],
+    renal: ["acute kidney injury", "renal replacement", "crrt", "dialysis", "fluid balance", "renal"],
+    "gi-nutrition": ["enteral nutrition", "gastrointestinal", "parenteral nutrition", "nutrition", "liver failure"],
+    "endocrine-metabolic": ["glycemic", "hyperglycemia", "adrenal insufficiency", "thyroid", "metabolic acidosis"],
+    "infectious-sepsis": ["sepsis", "septic shock", "antimicrobial", "ventilator-associated pneumonia", "bacteremia"],
+    "hematology-coag": ["coagulopathy", "transfusion", "disseminated intravascular coagulation", "anticoagulation", "thrombocytopenia"],
+    "trauma-surgical": ["trauma", "postoperative care", "surgical critical care", "polytrauma", "damage control"],
+    "procedures-pocus": ["point-of-care ultrasound", "pocus", "ultrasonography", "intubation", "tracheostomy", "central venous", "chest tube", "bronchoscopy"],
+    pharmacology: ["pharmacotherapy", "pharmacokinetics", "analgosedation", "drug dosing", "therapeutic drug monitoring"],
+  };
+
+  const ORGAN_LABELS = {
+    cardiovascular: "❤️ Cardiovascular",
+    respiratory: "🫁 Respiratory",
+    neurology: "🧠 Neurology",
+    renal: "🫘 Renal",
+    "gi-nutrition": "🍽️ GI & Nutrition",
+    "endocrine-metabolic": "🧪 Endocrine & Metabolic",
+    "infectious-sepsis": "🦠 Infectious Disease & Sepsis",
+    "hematology-coag": "🩸 Hematology & Coagulation",
+    "trauma-surgical": "🚑 Trauma & Surgical",
+    "procedures-pocus": "🩺 Procedures & POCUS",
+    pharmacology: "💊 Pharmacology",
   };
 
   // Curated once, not part of the daily fetch pipeline. Each links to a
@@ -496,8 +539,34 @@
     return (article.study_type || "Study") === type;
   }
 
-  function filterList(list, term, days, studyType) {
-    return list.filter((a) => matchesSearch(a, term) && withinWindow(a, days) && matchesStudyType(a, studyType));
+  function matchesYear(article, year) {
+    if (!year || year === "all") return true;
+    const match = (article.pubdate || "").match(/\d{4}/);
+    return !!match && match[0] === year;
+  }
+
+  function matchesJournal(article, journal) {
+    if (!journal || journal === "all") return true;
+    return (article.journal || "") === journal;
+  }
+
+  function matchesOrgan(article, organId) {
+    if (!organId || organId === "all") return true;
+    const keywords = ORGAN_KEYWORDS[organId];
+    if (!keywords) return true;
+    const hay = `${article.title || ""} ${article.abstract || ""} ${article.summary || ""}`.toLowerCase();
+    return keywords.some((k) => hay.includes(k));
+  }
+
+  function filterList(list, term, days, studyType, year, journal, organId) {
+    return list.filter((a) =>
+      matchesSearch(a, term) &&
+      withinWindow(a, days) &&
+      matchesStudyType(a, studyType) &&
+      matchesYear(a, year) &&
+      matchesJournal(a, journal) &&
+      matchesOrgan(a, organId)
+    );
   }
 
   function sortArticles(mode, articles) {
@@ -809,8 +878,8 @@
     };
   }
 
-  function renderTrending(trending, term, days, studyType) {
-    const articles = filterList((trending && trending.articles) || [], term, days, studyType);
+  function renderTrending(trending, term, days, studyType, year, journal, organId) {
+    const articles = filterList((trending && trending.articles) || [], term, days, studyType, year, journal, organId);
     if (!articles.length) {
       trendingSection.hidden = true;
       return;
@@ -821,8 +890,8 @@
     articles.forEach((article) => trendingList.appendChild(articleCard(article)));
   }
 
-  function renderFoamed(foamed, term, days, studyType) {
-    const posts = filterList(((foamed && foamed.articles) || []).map(foamedToArticle), term, days, studyType);
+  function renderFoamed(foamed, term, days, studyType, year, journal, organId) {
+    const posts = filterList(((foamed && foamed.articles) || []).map(foamedToArticle), term, days, studyType, year, journal, organId);
     if (!posts.length) {
       foamedSection.hidden = true;
       return;
@@ -833,8 +902,8 @@
     posts.forEach((item) => foamedList.appendChild(articleCard(item)));
   }
 
-  function renderPreprints(preprints, term, days, studyType) {
-    const articles = filterList(((preprints && preprints.articles) || []).map(preprintToArticle), term, days, studyType);
+  function renderPreprints(preprints, term, days, studyType, year, journal, organId) {
+    const articles = filterList(((preprints && preprints.articles) || []).map(preprintToArticle), term, days, studyType, year, journal, organId);
     preprintWindow.textContent = preprints ? preprints.window_days : "";
     if (!articles.length) {
       preprintSection.hidden = true;
@@ -846,8 +915,8 @@
     articles.forEach((article) => preprintList.appendChild(articleCard(article)));
   }
 
-  function renderTrials(trials, term, days, studyType) {
-    const articles = filterList(((trials && trials.articles) || []).map(trialToArticle), term, days, studyType);
+  function renderTrials(trials, term, days, studyType, year, journal, organId) {
+    const articles = filterList(((trials && trials.articles) || []).map(trialToArticle), term, days, studyType, year, journal, organId);
     trialWindow.textContent = trials ? trials.window_days : "";
     if (!articles.length) {
       trialSection.hidden = true;
@@ -859,8 +928,8 @@
     articles.forEach((article) => trialList.appendChild(articleCard(article)));
   }
 
-  function renderGuidelines(guidelines, term, days, studyType) {
-    const articles = filterList((guidelines && guidelines.articles) || [], term, days, studyType);
+  function renderGuidelines(guidelines, term, days, studyType, year, journal, organId) {
+    const articles = filterList((guidelines && guidelines.articles) || [], term, days, studyType, year, journal, organId);
     guidelineWindow.textContent = guidelines ? guidelines.window_days : "";
     if (!articles.length) {
       guidelineSection.hidden = true;
@@ -895,6 +964,44 @@
     `;
   }
 
+  function renderDashboard(data) {
+    const categories = data.categories || [];
+    if (!categories.length) {
+      dashboardStrip.hidden = true;
+      return;
+    }
+    dashboardStrip.hidden = false;
+
+    const cutoff = Date.now() - 7 * 86400000;
+    let newCount = 0;
+    let topCategory = null;
+    let topCategoryCount = -1;
+    categories.forEach((cat) => {
+      const recent = cat.articles.filter((a) => {
+        const d = parsePubDate(a.pubdate);
+        return d && d.getTime() >= cutoff;
+      });
+      newCount += recent.length;
+      if (recent.length > topCategoryCount) {
+        topCategoryCount = recent.length;
+        topCategory = cat;
+      }
+    });
+
+    dashNewCount.textContent = String(newCount);
+    dashTopCategory.textContent = topCategory && topCategoryCount > 0
+      ? `${CATEGORY_ICONS[topCategory.id] || ""} ${topCategory.label}`
+      : "–";
+    dashGuidelineCount.textContent = String((data.guidelines && data.guidelines.articles && data.guidelines.articles.length) || 0);
+
+    if (data.spotlight && data.spotlight.title) {
+      dashSpotlightTile.hidden = false;
+      dashSpotlightTitle.textContent = data.spotlight.title;
+    } else {
+      dashSpotlightTile.hidden = true;
+    }
+  }
+
   function renderClassics() {
     classicsList.innerHTML = "";
     CLASSIC_TRIALS.forEach((trial) => classicsList.appendChild(articleCard(trial)));
@@ -913,27 +1020,54 @@
     saved.forEach((a) => savedList.appendChild(articleCard(a)));
   }
 
-  function populateStudyTypeOptions(data) {
-    const types = new Set();
-    const collect = (list) => list.forEach((a) => types.add(a.study_type || "Study"));
-    collect((data.trending && data.trending.articles) || []);
-    collect(((data.foamed && data.foamed.articles) || []).map(foamedToArticle));
-    collect(((data.preprints && data.preprints.articles) || []).map(preprintToArticle));
-    collect(((data.trials && data.trials.articles) || []).map(trialToArticle));
-    collect((data.guidelines && data.guidelines.articles) || []);
-    (data.categories || []).forEach((c) => collect(c.articles));
-    const sorted = [...types].sort();
-    studyTypeFilter.innerHTML = '<option value="all">All study types</option>'
-      + sorted.map((t) => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("");
+  function collectAllArticlesFlat(data) {
+    const all = [];
+    all.push(...((data.trending && data.trending.articles) || []));
+    all.push(...(((data.foamed && data.foamed.articles) || []).map(foamedToArticle)));
+    all.push(...(((data.preprints && data.preprints.articles) || []).map(preprintToArticle)));
+    all.push(...(((data.trials && data.trials.articles) || []).map(trialToArticle)));
+    all.push(...((data.guidelines && data.guidelines.articles) || []));
+    (data.categories || []).forEach((c) => all.push(...c.articles));
+    return all;
   }
 
-  function renderCategories(categories, term, days, studyType) {
+  function populateFilterOptions(data) {
+    const allArticles = collectAllArticlesFlat(data);
+
+    const types = new Set();
+    const journals = new Set();
+    const years = new Set();
+    allArticles.forEach((a) => {
+      types.add(a.study_type || "Study");
+      if (a.journal) journals.add(a.journal);
+      const yearMatch = (a.pubdate || "").match(/\d{4}/);
+      if (yearMatch) years.add(yearMatch[0]);
+    });
+
+    const sortedTypes = [...types].sort();
+    studyTypeFilter.innerHTML = '<option value="all">All study types</option>'
+      + sortedTypes.map((t) => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("");
+
+    const sortedJournals = [...journals].sort();
+    journalFilter.innerHTML = '<option value="all">All journals</option>'
+      + sortedJournals.map((j) => `<option value="${escapeHtml(j)}">${escapeHtml(j)}</option>`).join("");
+
+    const sortedYears = [...years].sort().reverse();
+    yearFilter.innerHTML = '<option value="all">All years</option>'
+      + sortedYears.map((y) => `<option value="${escapeHtml(y)}">${escapeHtml(y)}</option>`).join("");
+
+    organFilter.innerHTML = '<option value="all">All organ systems</option>'
+      + (data.categories || []).map((c) => `<option value="${escapeHtml(c.id)}">${escapeHtml(ORGAN_LABELS[c.id] || c.label)}</option>`).join("");
+  }
+
+  function renderCategories(categories, term, days, studyType, year, journal, organId) {
     nav.innerHTML = "";
     content.innerHTML = "";
 
-    const filtered = categories.map((cat) => ({
+    const scoped = (!organId || organId === "all") ? categories : categories.filter((c) => c.id === organId);
+    const filtered = scoped.map((cat) => ({
       ...cat,
-      articles: sortArticles(categorySort[cat.id] || "newest", filterList(cat.articles, term, days, studyType)),
+      articles: sortArticles(categorySort[cat.id] || "newest", filterList(cat.articles, term, days, studyType, year, journal)),
     }));
 
     const collapseState = loadCollapseState();
@@ -1037,17 +1171,24 @@
     const term = searchInput.value.trim().toLowerCase();
     const days = windowFilter.value === "all" ? null : Number(windowFilter.value);
     const studyType = studyTypeFilter.value;
+    const year = yearFilter.value;
+    const journal = journalFilter.value;
+    const organId = organFilter.value;
     currentSearchTerm = term;
+
+    quickFilters.querySelectorAll(".quick-filter-chip").forEach((chip) => {
+      chip.classList.toggle("active", chip.dataset.studyType === studyType);
+    });
 
     currentSessionIds = new Set();
     renderSpotlight(rawData.spotlight);
     renderSaved(buildArticleIndex(rawData));
-    renderGuidelines(rawData.guidelines, term, days, studyType);
-    renderTrending(rawData.trending, term, days, studyType);
-    renderFoamed(rawData.foamed, term, days, studyType);
-    renderPreprints(rawData.preprints, term, days, studyType);
-    renderTrials(rawData.trials, term, days, studyType);
-    renderCategories(rawData.categories || [], term, days, studyType);
+    renderGuidelines(rawData.guidelines, term, days, studyType, year, journal, organId);
+    renderTrending(rawData.trending, term, days, studyType, year, journal, organId);
+    renderFoamed(rawData.foamed, term, days, studyType, year, journal, organId);
+    renderPreprints(rawData.preprints, term, days, studyType, year, journal, organId);
+    renderTrials(rawData.trials, term, days, studyType, year, journal, organId);
+    renderCategories(rawData.categories || [], term, days, studyType, year, journal, organId);
   }
 
   initTheme();
@@ -1061,6 +1202,7 @@
   });
   window.addEventListener("scroll", () => {
     backToTopBtn.hidden = window.scrollY < 600;
+    toolbar.classList.toggle("is-stuck", toolbar.getBoundingClientRect().top <= 0);
   }, { passive: true });
   previousSeenIds = loadSeenIds();
   bookmarkedIds = loadBookmarks();
@@ -1081,6 +1223,16 @@
   searchInput.addEventListener("input", () => applyFiltersAndRender());
   windowFilter.addEventListener("change", () => applyFiltersAndRender());
   studyTypeFilter.addEventListener("change", () => applyFiltersAndRender());
+  yearFilter.addEventListener("change", () => applyFiltersAndRender());
+  journalFilter.addEventListener("change", () => applyFiltersAndRender());
+  organFilter.addEventListener("change", () => applyFiltersAndRender());
+  quickFilters.querySelectorAll(".quick-filter-chip").forEach((chip) => {
+    chip.addEventListener("click", () => {
+      const type = chip.dataset.studyType;
+      studyTypeFilter.value = studyTypeFilter.value === type ? "all" : type;
+      applyFiltersAndRender();
+    });
+  });
   savedToggle.addEventListener("click", () => {
     if (savedSection.hidden) return;
     const savedEntry = COLLAPSIBLE_SECTIONS.find((e) => e.id === "saved");
@@ -1138,7 +1290,8 @@
     .then((data) => {
       rawData = data;
       updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
-      populateStudyTypeOptions(data);
+      populateFilterOptions(data);
+      renderDashboard(data);
       applyFiltersAndRender();
       saveSeenIds(collectAllIds(data));
     })
