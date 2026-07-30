@@ -444,7 +444,13 @@
     COLLAPSIBLE_SECTIONS.forEach((entry) => {
       const collapsed = state[entry.id] === undefined ? true : state[entry.id];
       setSectionCollapsed(entry, collapsed);
-      entry.toggle.addEventListener("click", () => {
+      // Whole heading is clickable, not just the small toggle circle — but
+      // other buttons living in the same heading (print, close, etc.) must
+      // keep their own behavior instead of also toggling the section.
+      const heading = entry.toggle.closest(".trending-heading");
+      heading.addEventListener("click", (e) => {
+        const btn = e.target.closest("button");
+        if (btn && btn !== entry.toggle) return;
         const nowCollapsed = !entry.body.classList.contains("collapsed");
         setSectionCollapsed(entry, nowCollapsed);
         const current = loadCollapseState();
@@ -1407,7 +1413,12 @@
       const entry = { body, toggle: collapseToggle };
       const collapsed = collapseState[collapseId] === undefined ? true : collapseState[collapseId];
       setSectionCollapsed(entry, collapsed);
-      collapseToggle.addEventListener("click", () => {
+      // Whole heading is clickable, not just the toggle circle — but the
+      // "Newest"/"Most cited" sort buttons in the same heading need to keep
+      // doing their own thing rather than also toggling the section.
+      heading.addEventListener("click", (e) => {
+        const btn = e.target.closest("button");
+        if (btn && btn !== collapseToggle) return;
         const nowCollapsed = !body.classList.contains("collapsed");
         setSectionCollapsed(entry, nowCollapsed);
         const current = loadCollapseState();
