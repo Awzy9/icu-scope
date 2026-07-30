@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Thu, 30 Jul 2026 05:31:18 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2026 12:43:23 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -223,6 +223,27 @@
       <description>This study compared standard-dose unfractionated heparin with low-dose unfractionated heparin and low-molecular-weight heparin in patients on extracorporeal life support. Low-dose heparin and low-molecular-weight heparin were found to be non-inferior to standard-dose heparin in reducing thrombotic risk without increasing bleeding. The study suggests that anticoagulation targets in ECMO may need to be reconsidered.</description>
     </item>
     <item>
+      <title>LOGICAL – Conservative Oxygen after Cardiac Arrest</title>
+      <link>https://www.thebottomline.org.uk/blog/ebm/logical/</link>
+      <guid isPermaLink="false">https://www.thebottomline.org.uk/blog/ebm/logical/</guid>
+      <category>The Bottom Line</category>
+      <description>This study investigated the effect of limiting oxygen exposure on unresponsive patients after cardiac arrest. The results showed that conservative oxygen therapy did not increase the likelihood of survival. The study included 1200 patients.</description>
+    </item>
+    <item>
+      <title>Emergency Evidence Updates – June 2026</title>
+      <link>https://www.thebottomline.org.uk/blog/emergency-evidence-updates-june-2026/</link>
+      <guid isPermaLink="false">https://www.thebottomline.org.uk/blog/emergency-evidence-updates-june-2026/</guid>
+      <category>The Bottom Line</category>
+      <description>This is a monthly update of critical care literature, summarizing recent studies and findings.</description>
+    </item>
+    <item>
+      <title>Critical Care Evidence Updates – June 2026</title>
+      <link>https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-june-2026/</link>
+      <guid isPermaLink="false">https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-june-2026/</guid>
+      <category>The Bottom Line</category>
+      <description>This article provides a monthly update on recent critical care literature, highlighting new studies and findings.</description>
+    </item>
+    <item>
       <title>Tooth brushing versus routine oral care impact on ventilator-associated pneumonia in PICU: a clinical trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42502162/</link>
       <guid isPermaLink="false">pmid:42502162</guid>
@@ -403,27 +424,6 @@
       <guid isPermaLink="false">pmid:42506109</guid>
       <category>Neurology</category>
       <description>This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.</description>
-    </item>
-    <item>
-      <title>Sodium bicarbonate therapy in severe metabolic acidemia: an individual patient data meta-analysis of the BICAR-ICU and BICAR-ICU2 trials.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42472834/</link>
-      <guid isPermaLink="false">pmid:42472834</guid>
-      <category>Renal</category>
-      <description>This study combined data from two previous trials to assess the effect of sodium bicarbonate therapy on patients with severe metabolic acidemia. It found that while sodium bicarbonate did not reduce overall mortality, it did decrease the need for renal replacement therapy and may benefit patients with the most severe acidemia.</description>
-    </item>
-    <item>
-      <title>Prognostic impact of sepsis-induced coagulopathy on mortality and clinical outcomes in ICU patients.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42471569/</link>
-      <guid isPermaLink="false">pmid:42471569</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>This study found that sepsis-induced coagulopathy is associated with higher in-hospital mortality and increased need for vasopressor support in ICU patients with sepsis. The study used a scoring system to predict mortality, which showed moderate discriminative performance. The results suggest that sepsis-induced coagulopathy may provide additional prognostic information when used alongside existing severity assessment tools.</description>
-    </item>
-    <item>
-      <title>The Case of the Malignant Cohort</title>
-      <link>https://emcrit.org/emnerd/the-case-of-the-malignant-cohort/</link>
-      <guid isPermaLink="false">https://emcrit.org/emnerd/the-case-of-the-malignant-cohort/</guid>
-      <category>EMCrit</category>
-      <description>The YEARS protocol was tested to see if it can safely identify low-risk patients with suspected pulmonary embolism. The study aimed to determine if this approach can be applied to patients with malignancy. Results were not provided.</description>
     </item>
   </channel>
 </rss>

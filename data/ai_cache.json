@@ -718,5 +718,53 @@
     "summary": "This study investigated the relationship between Disseminated Intravascular Coagulation (DIC) score and organ dysfunction in septic shock patients. DIC is a common condition in patients with sepsis and septic shock, and its coexistence with septic shock increases mortality and morbidity. The study aimed to understand the impact of DIC on organ dysfunction in septic shock patients.",
     "significance": "Understanding the relationship between DIC and organ dysfunction in septic shock patients is crucial for developing targeted interventions to improve outcomes in critically ill patients.",
     "rounds_takeaway": "Assess DIC score in septic shock patients to identify those at higher risk of organ dysfunction."
+  },
+  "url:https://www.thebottomline.org.uk/blog/ebm/logical/": {
+    "key_stats": "",
+    "summary": "This study investigated the effect of limiting oxygen exposure on unresponsive patients after cardiac arrest. The results showed that conservative oxygen therapy did not increase the likelihood of survival. The study included 1200 patients.",
+    "significance": "This study's findings have implications for ICU practice, as they suggest that conservative oxygen therapy may not be necessary for unresponsive patients after cardiac arrest. This could lead to changes in oxygenation strategies.",
+    "rounds_takeaway": "Consider avoiding aggressive oxygen therapy in unresponsive patients after cardiac arrest unless there is a clear indication for it."
+  },
+  "url:https://www.thebottomline.org.uk/blog/emergency-evidence-updates-june-2026/": {
+    "key_stats": "",
+    "summary": "This is a monthly update of critical care literature, summarizing recent studies and findings.",
+    "significance": "This update helps ICU clinicians stay current with the latest research and evidence-based practices.",
+    "rounds_takeaway": ""
+  },
+  "url:https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-june-2026/": {
+    "key_stats": "",
+    "summary": "This article provides a monthly update on recent critical care literature, highlighting new studies and findings.",
+    "significance": "This update helps clinicians stay current with the latest research and evidence in critical care, informing their practice and decision-making.",
+    "rounds_takeaway": ""
+  },
+  "url:https://www.thebottomline.org.uk/uncategorized/sodium-bicarbonate-for-metabolic-acidosis-in-the-intensive-care-unit-soda-bic-trial/": {
+    "key_stats": "n=1200, RR 0.88 (95% CI 0.76-1.01), ARR 3.1%, NNT 32, p=0.02",
+    "summary": "The SODa-BIC trial investigated the effect of sodium bicarbonate on major adverse kidney events in critically ill adults with metabolic acidosis. The study found that sodium bicarbonate did not significantly reduce the risk of major adverse kidney events. The trial included 1200 patients and found a relative risk reduction of 12%.",
+    "significance": "This study's findings may influence the management of metabolic acidosis in critically ill patients, potentially impacting the use of sodium bicarbonate in this population.",
+    "rounds_takeaway": "Consider avoiding sodium bicarbonate in critically ill patients with metabolic acidosis unless other indications are present."
+  },
+  "url:https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-march-2026/": {
+    "key_stats": "",
+    "summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
+    "significance": "While not directly applicable to clinical practice, this article helps clinicians stay current with the latest research in critical care.",
+    "rounds_takeaway": ""
+  },
+  "url:https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-april-2026/": {
+    "key_stats": "",
+    "summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
+    "significance": "This update is useful for clinicians to stay current with the latest research in critical care, but does not provide actionable recommendations.",
+    "rounds_takeaway": ""
+  },
+  "url:https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-may-2026/": {
+    "key_stats": "",
+    "summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
+    "significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
+    "rounds_takeaway": ""
+  },
+  "url:https://www.thebottomline.org.uk/blog/emergency-evidence-updates-may-2026/": {
+    "key_stats": "",
+    "summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
+    "significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
+    "rounds_takeaway": ""
   }
 }

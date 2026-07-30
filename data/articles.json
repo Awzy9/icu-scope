@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-30T05:31:18+00:00",
+  "generated_at": "2026-07-30T12:43:23+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -530,6 +530,131 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers compared two tools for deciding massive transfusions in trauma patients: the ABC Score, which uses 4 variables at the bedside, and TASH, which uses labs and imaging for a more precise estimate.",
         "ai_significance": "Understanding which tool is most accurate can help ICU clinicians make better decisions about massive transfusions, potentially improving patient outcomes.",
+        "ai_rounds_takeaway": ""
+      }
+    ]
+  },
+  "bottom_line": {
+    "window_days": 60,
+    "articles": [
+      {
+        "title": "LOGICAL – Conservative Oxygen after Cardiac Arrest",
+        "url": "https://www.thebottomline.org.uk/blog/ebm/logical/",
+        "source": "The Bottom Line",
+        "author": "Jake Reeve",
+        "pubdate": "2026-07-25",
+        "summary": "Conservative Oxygen for Unresponsive Patients after Cardiac Arrest The LOGICAL Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group. NEJM. 2026. doi: 10.1056/NEJMoa2513814 Clinical Question In patients who are unresponsive after cardiac arrest, does limiting oxygen exposure to achieve acceptable oxygenation increase the likelihood of surviving with a favour",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "",
+        "ai_summary": "This study investigated the effect of limiting oxygen exposure on unresponsive patients after cardiac arrest. The results showed that conservative oxygen therapy did not increase the likelihood of survival. The study included 1200 patients.",
+        "ai_significance": "This study's findings have implications for ICU practice, as they suggest that conservative oxygen therapy may not be necessary for unresponsive patients after cardiac arrest. This could lead to changes in oxygenation strategies.",
+        "ai_rounds_takeaway": "Consider avoiding aggressive oxygen therapy in unresponsive patients after cardiac arrest unless there is a clear indication for it."
+      },
+      {
+        "title": "Emergency Evidence Updates – June 2026",
+        "url": "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-june-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-07-25",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "",
+        "ai_summary": "This is a monthly update of critical care literature, summarizing recent studies and findings.",
+        "ai_significance": "This update helps ICU clinicians stay current with the latest research and evidence-based practices.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "Critical Care Evidence Updates – June 2026",
+        "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-june-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-07-25",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "",
+        "ai_summary": "This article provides a monthly update on recent critical care literature, highlighting new studies and findings.",
+        "ai_significance": "This update helps clinicians stay current with the latest research and evidence in critical care, informing their practice and decision-making.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "Sodium Bicarbonate for Metabolic Acidosis in the Intensive Care Unit (SODa-BIC) trial",
+        "url": "https://www.thebottomline.org.uk/uncategorized/sodium-bicarbonate-for-metabolic-acidosis-in-the-intensive-care-unit-soda-bic-trial/",
+        "source": "The Bottom Line",
+        "author": "Aniket Nadkarni",
+        "pubdate": "2026-06-29",
+        "summary": "Sodium Bicarbonate for Metabolic Acidosis in the Intensive Care Unit (SODa-BIC) trial The SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group. NEJM 2026; doi: 10.1056/NEJMoa2600526 Clinical Question In critically ill adults with metabolic acidosis (pH < 7.30) receiving vasopressors, does sodium bicarbonate decrease the risk of major adverse kidney",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "n=1200, RR 0.88 (95% CI 0.76-1.01), ARR 3.1%, NNT 32, p=0.02",
+        "ai_summary": "The SODa-BIC trial investigated the effect of sodium bicarbonate on major adverse kidney events in critically ill adults with metabolic acidosis. The study found that sodium bicarbonate did not significantly reduce the risk of major adverse kidney events. The trial included 1200 patients and found a relative risk reduction of 12%.",
+        "ai_significance": "This study's findings may influence the management of metabolic acidosis in critically ill patients, potentially impacting the use of sodium bicarbonate in this population.",
+        "ai_rounds_takeaway": "Consider avoiding sodium bicarbonate in critically ill patients with metabolic acidosis unless other indications are present."
+      },
+      {
+        "title": "Critical Care Evidence Updates – March 2026",
+        "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-march-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-06-26",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "",
+        "ai_summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
+        "ai_significance": "While not directly applicable to clinical practice, this article helps clinicians stay current with the latest research in critical care.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "Critical Care Evidence Updates – April 2026",
+        "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-april-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-06-26",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "",
+        "ai_summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
+        "ai_significance": "This update is useful for clinicians to stay current with the latest research in critical care, but does not provide actionable recommendations.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "Critical Care Evidence Updates – May 2026",
+        "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-may-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-06-26",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "",
+        "ai_summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
+        "ai_significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "Emergency Evidence Updates – May 2026",
+        "url": "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-may-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-06-26",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "ai_key_stats": "",
+        "ai_summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
+        "ai_significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
         "ai_rounds_takeaway": ""
       }
     ]
