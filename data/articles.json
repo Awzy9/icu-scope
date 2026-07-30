@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T14:40:00+00:00",
+  "generated_at": "2026-07-30T05:31:18+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -118,40 +118,6 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effects of a 6-week remote rehabilitation program on health-related quality of life in ICU survivors who required mechanical ventilation. The program included symptom management, exercise, and psychological support. The results showed no significant improvement in health-related quality of life at 8 weeks compared to standard care.",
         "ai_significance": "This study's findings suggest that a 6-week remote rehabilitation program may not be sufficient to improve health-related quality of life in ICU survivors who required mechanical ventilation, highlighting the need for further research into effective rehabilitation strategies for this population.",
-        "ai_rounds_takeaway": ""
-      },
-      {
-        "pmid": "42367163",
-        "title": "Prognostic models for predicting intensive care unit admission or mortality in critically ill adults not yet been admitted to the intensive care unit.",
-        "journal": "The Cochrane database of systematic reviews",
-        "pubdate": "2026 Jun 29",
-        "authors": [
-          "Vieira AGS",
-          "Pinto ACPN",
-          "Garcia AAA",
-          "Nawa RK",
-          "Mól CG",
-          "Duenas JD",
-          "Atallah ÁN",
-          "Shrestha GS",
-          "Schultz MJ",
-          "Saconato H",
-          "Trevisani VF"
-        ],
-        "doi": "10.1002/14651858.CD016115",
-        "abstract": "OBJECTIVES: This is a protocol for a Cochrane Review (prognosis). The objectives are as follows: To determine whether prognostic models can be used for predicting the occurrence of ICU admission and mortality within the index hospital admission, and post-discharge survival at reported follow-up time points, up to one year, in critically ill adults not yet admitted to the ICU. The objective in PICOTS format is as follows. POPULATION: critically ill adults not yet admitted to the ICU Index prognostic model: available prognostic models with or without external validation Comparator: not applicable Outcomes: ICU admission, ICU and hospital mortality, and post-discharge survival Timing: for ICU admission or transfer, ICU mortality, and hospital mortality outcomes, the timing will be in hospital. For post-discharge survival, the timing will be up to 28 days, 1 to 3 months, 6 months, and 1 year after hospital discharge. SETTING: acute hospital wards and emergency care departments.",
-        "citation_count": 59,
-        "is_top_journal": true,
-        "study_type": "Systematic Review",
-        "volume": "6",
-        "issue": "6",
-        "pages": "CD016115",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13312402/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42367163/",
-        "ai_key_stats": "",
-        "ai_summary": "This study aims to identify whether existing prognostic models can accurately predict ICU admission and mortality in critically ill adults before they are admitted to the ICU. The study will examine various models and their effectiveness in predicting outcomes such as ICU admission, mortality, and post-discharge survival. The study will focus on critically ill adults not yet admitted to the ICU.",
-        "ai_significance": "This study's findings will help clinicians and researchers understand the utility of existing prognostic models in predicting ICU outcomes, which can inform decision-making and resource allocation in acute hospital settings.",
         "ai_rounds_takeaway": ""
       },
       {
@@ -336,6 +302,34 @@
         "ai_summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
         "ai_significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes.",
         "ai_rounds_takeaway": ""
+      },
+      {
+        "pmid": "41945715",
+        "title": "Power, Duration, and Compliance: Reframing Risk of Ventilatory-Induced Lung Injury With the Risk-Adjusted Mechanical-Power Score.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Jul 1",
+        "authors": [
+          "Lijović L",
+          "Hilders P",
+          "Radočaj T",
+          "Širanović M",
+          "Elbers P"
+        ],
+        "doi": "10.1097/CCM.0000000000007129",
+        "abstract": "OBJECTIVES: Static thresholds for mechanical power (MP) may not prevent ventilator-induced lung injury because risk depends on exposure duration and the underlying respiratory compliance. We aimed to quantify how MP intensity and exposure duration interact with respiratory compliance to predict oxygenation changes consistent with acute respiratory distress syndrome worsening or 14-day mortality. DESIGN: A retrospective analysis of 2 large intensive care datasets. SETTING: ICUs in the Netherlands and the United States from 2003 to 2016 and 2008 to 2019, respectively. PATIENTS: Mechanically ventilated adults with oxygenation levels consistent with moderate to severe acute respiratory distress syndrome. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Time-dependent Cox proportional hazards models stratified by respiratory compliance estimated the hour-specific associations of immediate exceedance and cumulative time above MP thresholds with the primary outcome. Estimated effects were integrated into a risk-adjusted mechanical-power score. Among 2150 mechanically ventilated acute respiratory distress syndrome patients risk from MP exposure was dictated by respiratory compliance: in higher-compliance lungs, risk followed a dose-response pattern, with immediate hazard beginning at 10 J/min (hazard ratio = 1.04) and cumulative harm amplifying significantly over time. Conversely, for low-compliance patients, risk was confined to a narrow power band (11-20 J/min) without evidence of cumulative harm. With risk-adjusted MP score as a predictor of outcome eXtreme Gradient Boosting yielded an area under the receiver operating characteristic curve of 0.863. CONCLUSIONS: A single \"safe\" MP threshold is insufficient for guiding ventilation; the risk of lung injury is governed by a dynamic interplay of power intensity, duration, and the patient's respiratory compliance. The risk-adjusted MP score unifies these factors into a time-varying, clinically interpretable metric that warrants prospective validation for personalized ventilator management.",
+        "citation_count": 31,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "54",
+        "issue": "7",
+        "pages": "1574-1584",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13322155/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41945715/",
+        "ai_key_stats": "n=2150, HR 1.04 (95% CI 1.01-1.07), AUC 0.863",
+        "ai_summary": "Researchers analyzed data from 2150 ICU patients with acute respiratory distress syndrome to understand how mechanical power from ventilation affects lung injury. They found that lung compliance affects the risk of lung injury, with higher-compliance lungs showing a dose-response pattern and lower-compliance lungs showing a narrow power band. A risk-adjusted mechanical-power score was developed to predict outcomes.",
+        "ai_significance": "This study highlights the importance of considering individual patient factors, such as respiratory compliance, when guiding ventilation to prevent lung injury. It also suggests that a single 'safe' mechanical power threshold may not be sufficient.",
+        "ai_rounds_takeaway": "Consider using the risk-adjusted mechanical-power score to guide ventilator management in patients with acute respiratory distress syndrome, particularly those with varying levels of respiratory compliance."
       }
     ]
   },
@@ -997,6 +991,48 @@
         "society": "ESICM"
       },
       {
+        "pmid": "42523687",
+        "title": "Indian Society of Critical Care Medicine Guidelines on Evidence-based Recommendations for the Treatment of Carbapenem-resistant Enterobacterales, Carbapenem-resistant Acinetobacter baumannii, and Carbapenem-resistant Pseudomonas aeruginosa in Critically Ill Patients: A GRADE-guided Approach.",
+        "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
+        "pubdate": "2026 Jun",
+        "authors": [
+          "Todi SK",
+          "Jagiasi BG",
+          "Juneja D",
+          "Gopaldas JA",
+          "Soni KD",
+          "Karanth S",
+          "Singh R",
+          "Kharbanda M",
+          "Bhardwaj A",
+          "Sahoo TK",
+          "Bhosale S",
+          "Sinha S",
+          "Bharti M",
+          "Clerk AM",
+          "Kumar A",
+          "Rochwerg B",
+          "Singh VK",
+          "Bhattacharya PK"
+        ],
+        "doi": "10.5005/jp-journals-10071-25216",
+        "abstract": "BACKGROUND: Carbapenem-resistant Enterobacterales (CRE), Acinetobacter baumannii (CRAB), and Pseudomonas aeruginosa (CRPA) are major antimicrobial resistance (AMR) threats in Indian intensive care units, with mortality rates often exceeding 40-70%. Despite the clinical burden, there is a lack of standardized treatment guidelines. This study aimed to develop Grading of Recommendations Assessment, Development and Evaluation (GRADE)-based recommendations for managing carbapenem-resistant gram-negative (CRGN) infections in critically ill patients. METHODOLOGY: A systematic review was conducted following the GRADE framework. PubMed was searched through October 2024 for studies comparing polymyxin B/colistin with alternative regimens for CRE, CRAB, and CRPA, and sulbactam-based therapy vs comparators for CRAB. Meta-analyses were performed using RevMan. Evidence of certainty was graded, and recommendations were formulated through structured expert consensus. Outcomes included clinical cure, microbiological eradication, mortality, and adverse events (AEs). RESULTS: Fifty-two studies were included: 36 evaluating polymyxin/colistin and 16 evaluating sulbactam. For CRE, β-lactam/β-lactamase inhibitor (BL/BLI) combinations achieved higher cure rates (58.7 vs 48.9%), fewer AEs (10.3 vs 13.3%), and trends toward reduced mortality compared with polymyxin-based regimens, leading to a strong recommendation for non-polymyxin therapy (very low certainty). For CRAB, sulbactam-based regimens, particularly sulbactam-durlobactam, showed superior cure rates (61.9 vs 39.7%) and reduced nephrotoxicity (13 vs 38%), supporting a strong recommendation (very low certainty). For CRPA, efficacy appeared comparable, but polymyxin therapy caused higher toxicity (42.1 vs 17.9%), resulting in a weak recommendation for non-polymyxin options (very low certainty). CONCLUSION: These findings provide GRADE-based treatment recommendations for carbapenem-resistant infections in Indian ICUs. Non-polymyxin regimens are preferred for CRE and CRPA, while sulbactam-based therapy is favored for CRAB. This shift away from polymyxin use may improve outcomes and reduce toxicity, though robust randomized trials are urgently needed.",
+        "citation_count": 109,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "6",
+        "pages": "472-517",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13407482/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42523687/",
+        "society": "SCCM",
+        "ai_key_stats": "",
+        "ai_summary": "The Indian Society of Critical Care Medicine developed guidelines for treating carbapenem-resistant Enterobacterales, Acinetobacter baumannii, and Pseudomonas aeruginosa in critically ill patients. The guidelines recommend non-polymyxin therapy for CRE and CRPA, and sulbactam-based therapy for CRAB. These recommendations are based on a systematic review and meta-analysis of 52 studies.",
+        "ai_significance": "These guidelines are significant for ICU clinical practice as they provide evidence-based recommendations for managing carbapenem-resistant gram-negative infections, which are major antimicrobial resistance threats in Indian ICUs.",
+        "ai_rounds_takeaway": "Consider non-polymyxin therapy for patients with CRE or CRPA infections."
+      },
+      {
         "pmid": "42203644",
         "title": "[Clinical practice guideline for renal replacement therapy in critically ill patients with acute kidney injury (2026 edition)].",
         "journal": "Zhonghua yi xue za zhi",
@@ -1410,7 +1446,7 @@
         ],
         "doi": "10.1016/j.aicoj.2026.100111",
         "abstract": "BACKGROUND: Acute kidney injury (AKI) is prevalent in critically ill patients, contributing to high morbidity, mortality, and healthcare costs. Early detection and differentiation between transient and persistent AKI are critical for guiding timely interventions. This study evaluates the NephroCheck® score, based on Tissue inhibitor of metalloproteinases-2 (TIMP-2) and Insulin-like growth factor-binding protein 7 (IGFBP7) biomarkers. The primary objective was to assess its ability to predict AKI risk and AKI subtype within the first seven days of Intensive Care Unit (ICU) admission. Secondary objectives included evaluating its association with the need for renal replacement therapy (RRT) and overall ICU outcomes in a heterogeneous critical care population. METHODS: This prospective, multicenter observational study included 455 ICU patients from five hospitals in Barcelona, Spain. Biomarker analysis was conducted on urine samples collected at admission, and AKI was classified according to the kidney Disease: Improving Global Outcomes (KDIGO) criteria. Patients were grouped by TIMP-2·IGFBP7 values and AKI subtypes. Data was analyzed using Stata version 18.0 (StataCorp, College Station, TX). RESULTS: AKI occurred in 51% of patients; with 29% transient and 71% persistent. High TIMP-2·IGFBP7 (TIMP-2·IGFBP7 > 2.0) levels were significantly associated with AKI (OR 19.44; 95% CI [2.57-146.5], p = 0.004), persistent AKI (OR 4.3; 95% CI [1.61-11.41], p = 0.003), and RRT requirements (OR 3.93; 95% CI [1.34-11.47], p = 0.012). Patients with high TIMP-2·IGFBP7 had longer ICU stays, more severe AKI, increased RRT duration, and higher mortality rates. TIMP-2·IGFBP7 values correlated positively with ICU and in-hospital mortality and reduced 90-day survival. CONCLUSION: TIMP-2·IGFBP7 showed modest performance for early AKI detection, identifying RRT requirements and risk stratification in critically ill patients. While moderately effective for predicting outcomes, its role in differentiating transient from persistent AKI remains inconsistent. Further research is warranted to optimize TIMP-2·IGFBP7 guided interventions and explore its application in diverse AKI etiologies.",
-        "citation_count": 0,
+        "citation_count": 33,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "16",
@@ -1419,7 +1455,11 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13382416/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42518782/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "ai_key_stats": "n=455, OR 19.44 (95% CI 2.57-146.5), p=0.004, OR 4.3 (95% CI 1.61-11.41), p=0.003, OR 3.93 (95% CI 1.34-11.47), p=0.012",
+        "ai_summary": "This study evaluated the NephroCheck score, a urine test using biomarkers IGFBP7 and TIMP-2, to predict acute kidney injury (AKI) in ICU patients. The test showed some ability to identify AKI risk and need for renal replacement therapy, but its performance was inconsistent for differentiating transient from persistent AKI.",
+        "ai_significance": "Early detection of AKI is critical for guiding timely interventions and improving outcomes in critically ill patients, making this study's findings relevant for ICU clinical practice.",
+        "ai_rounds_takeaway": "Consider using the NephroCheck score to identify patients at high risk for AKI and renal replacement therapy in the ICU."
       },
       {
         "pmid": "42484242",

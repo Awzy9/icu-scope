@@ -451,12 +451,6 @@
     "summary": "This systematic review and meta-analysis evaluated technology-enhanced strategies to optimize positive end-expiratory pressure (PEEP) in ICU patients on mechanical ventilation. The study found that these technologies may reduce 28-day mortality, but did not affect duration of mechanical ventilation. The evidence was of very low certainty.",
     "significance": "These findings are significant for ICU clinicians as they suggest that technology-enhanced PEEP optimization strategies may improve patient outcomes, particularly mortality, and highlight the need for further research to confirm these results."
   },
-  "pmid:42367163": {
-    "key_stats": "",
-    "summary": "This study aims to identify whether existing prognostic models can accurately predict ICU admission and mortality in critically ill adults before they are admitted to the ICU. The study will examine various models and their effectiveness in predicting outcomes such as ICU admission, mortality, and post-discharge survival. The study will focus on critically ill adults not yet admitted to the ICU.",
-    "significance": "This study's findings will help clinicians and researchers understand the utility of existing prognostic models in predicting ICU outcomes, which can inform decision-making and resource allocation in acute hospital settings.",
-    "rounds_takeaway": ""
-  },
   "pmid:42159452": {
     "summary": "This study tested whether the ABCDEF bundle could reduce delirium and improve function and quality of life in ICU patients. The bundle did not reduce delirium incidence or duration, but patients reported better quality of life in usual activities 90 days after discharge.",
     "significance": "The findings suggest that while the ABCDEF bundle may not have a direct impact on delirium, it could have long-term benefits for patients' quality of life, making it a potential tool for ICU care."
@@ -464,6 +458,12 @@
   "pmid:42093058": {
     "summary": "This study compared the long-term effects of a restrictive versus liberal fluid resuscitation strategy in patients with sepsis-induced hypotension. The results showed no significant differences in cognitive or physical function between the two groups at 6 and 12 months after treatment.",
     "significance": "This study's findings are important for ICU clinicians as they suggest that a restrictive fluid resuscitation strategy may be as effective as a liberal strategy in improving long-term outcomes for sepsis survivors."
+  },
+  "pmid:41945715": {
+    "key_stats": "n=2150, HR 1.04 (95% CI 1.01-1.07), AUC 0.863",
+    "summary": "Researchers analyzed data from 2150 ICU patients with acute respiratory distress syndrome to understand how mechanical power from ventilation affects lung injury. They found that lung compliance affects the risk of lung injury, with higher-compliance lungs showing a dose-response pattern and lower-compliance lungs showing a narrow power band. A risk-adjusted mechanical-power score was developed to predict outcomes.",
+    "significance": "This study highlights the importance of considering individual patient factors, such as respiratory compliance, when guiding ventilation to prevent lung injury. It also suggests that a single 'safe' mechanical power threshold may not be sufficient.",
+    "rounds_takeaway": "Consider using the risk-adjusted mechanical-power score to guide ventilator management in patients with acute respiratory distress syndrome, particularly those with varying levels of respiratory compliance."
   },
   "url:https://litfl.com/blunt-cerebrovascular-injury/": {
     "key_stats": "",
@@ -577,6 +577,12 @@
     "summary": "This study surveyed ICU clinicians and leaders to identify barriers and facilitators to implementing the ICU Liberation bundle, which aims to improve outcomes for critically ill patients. Results showed that clinicians were more familiar with the bundle and prioritized it, but compliance was lower post-pandemic. Workflow integration and aligning the bundle with healthcare goals facilitated compliance.",
     "significance": "Understanding the barriers to ICU Liberation bundle implementation is crucial for improving patient outcomes, as it has been shown to reduce delirium, immobility, and other complications in critically ill patients."
   },
+  "pmid:42523687": {
+    "key_stats": "",
+    "summary": "The Indian Society of Critical Care Medicine developed guidelines for treating carbapenem-resistant Enterobacterales, Acinetobacter baumannii, and Pseudomonas aeruginosa in critically ill patients. The guidelines recommend non-polymyxin therapy for CRE and CRPA, and sulbactam-based therapy for CRAB. These recommendations are based on a systematic review and meta-analysis of 52 studies.",
+    "significance": "These guidelines are significant for ICU clinical practice as they provide evidence-based recommendations for managing carbapenem-resistant gram-negative infections, which are major antimicrobial resistance threats in Indian ICUs.",
+    "rounds_takeaway": "Consider non-polymyxin therapy for patients with CRE or CRPA infections."
+  },
   "pmid:42203644": {
     "summary": "This 2026 clinical practice guideline for renal replacement therapy in critically ill patients with acute kidney injury was developed by a Chinese expert panel using the GRADE approach. It provides 34 evidence-based recommendations on topics such as RRT initiation, anticoagulation, and weaning. The guideline aims to standardize RRT management in adult critically ill patients with AKI.",
     "significance": "This guideline is crucial for ICU clinicians in China as it provides a unified framework for RRT management, potentially improving patient outcomes and reducing variability in care."
@@ -616,6 +622,12 @@
   "pmid:42245967": {
     "summary": "This study evaluated the simplified Radiographic Assessment of Lung Edema (RALE) score's ability to predict mortality in critically ill patients with Delta-variant COVID-19 using chest X-rays. The RALE score performed comparably to other scoring systems and remained an independent predictor of mortality. The study suggests that the RALE score could be a useful tool for risk stratification in critically ill patients with COVID-19, particularly in resource-limited settings.",
     "significance": "This study's findings support the use of the simplified RALE score as a practical tool for guiding treatment decisions in critically ill patients with COVID-19, which could lead to improved outcomes and resource allocation in high-burden settings."
+  },
+  "pmid:42518782": {
+    "key_stats": "n=455, OR 19.44 (95% CI 2.57-146.5), p=0.004, OR 4.3 (95% CI 1.61-11.41), p=0.003, OR 3.93 (95% CI 1.34-11.47), p=0.012",
+    "summary": "This study evaluated the NephroCheck score, a urine test using biomarkers IGFBP7 and TIMP-2, to predict acute kidney injury (AKI) in ICU patients. The test showed some ability to identify AKI risk and need for renal replacement therapy, but its performance was inconsistent for differentiating transient from persistent AKI.",
+    "significance": "Early detection of AKI is critical for guiding timely interventions and improving outcomes in critically ill patients, making this study's findings relevant for ICU clinical practice.",
+    "rounds_takeaway": "Consider using the NephroCheck score to identify patients at high risk for AKI and renal replacement therapy in the ICU."
   },
   "pmid:42484242": {
     "key_stats": "n=189, OR 20.8 (95% CI 3.8-114) for stage 2 AKI, OR 93.6 (95% CI 23.4-375) for stage 3 AKI, p < 0.001",
