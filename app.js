@@ -16,6 +16,10 @@
   const foamedBody = document.getElementById("foamed-body");
   const foamedList = document.getElementById("foamed-list");
   const foamedCount = document.getElementById("foamed-count");
+  const bottomLineSection = document.getElementById("bottom-line-section");
+  const bottomLineBody = document.getElementById("bottom-line-body");
+  const bottomLineList = document.getElementById("bottom-line-list");
+  const bottomLineCount = document.getElementById("bottom-line-count");
   const preprintSection = document.getElementById("preprint-section");
   const preprintBody = document.getElementById("preprint-body");
   const preprintList = document.getElementById("preprint-list");
@@ -49,6 +53,7 @@
     { id: "guideline", body: guidelineBody, toggle: document.getElementById("guideline-collapse-toggle") },
     { id: "trending", body: trendingBody, toggle: document.getElementById("trending-collapse-toggle") },
     { id: "foamed", body: foamedBody, toggle: document.getElementById("foamed-collapse-toggle") },
+    { id: "bottom-line", body: bottomLineBody, toggle: document.getElementById("bottom-line-collapse-toggle") },
     { id: "preprint", body: preprintBody, toggle: document.getElementById("preprint-collapse-toggle") },
     { id: "trial", body: trialBody, toggle: document.getElementById("trial-collapse-toggle") },
     { id: "classics", body: classicsBody, toggle: document.getElementById("classics-collapse-toggle") },
@@ -92,6 +97,7 @@
     { sectionId: "guideline", label: "Guideline Watch", icon: "📋" },
     { sectionId: "trending", label: "Trending this month", icon: "🔥" },
     { sectionId: "foamed", label: "FOAMed & Blogs", icon: "📚" },
+    { sectionId: "bottom-line", label: "The Bottom Line", icon: "🎯" },
     { sectionId: "preprint", label: "Preprints", icon: "🧪" },
     { sectionId: "trial", label: "Trial Tracker", icon: "🔬" },
     { sectionId: "classics", label: "ICU Classics", icon: "🏛️" },
@@ -498,6 +504,7 @@
     const ids = new Set();
     (data.trending && data.trending.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.foamed && data.foamed.articles || []).forEach((a) => ids.add(`url:${a.url}`));
+    (data.bottom_line && data.bottom_line.articles || []).forEach((a) => ids.add(`url:${a.url}`));
     (data.preprints && data.preprints.articles || []).forEach((a) => ids.add(`url:${a.url}`));
     (data.trials && data.trials.articles || []).forEach((a) => ids.add(`url:${a.url}`));
     CLASSIC_TRIALS.forEach((a) => ids.add(articleId(a)));
@@ -514,6 +521,7 @@
     };
     (data.trending && data.trending.articles || []).forEach(add);
     ((data.foamed && data.foamed.articles) || []).map(foamedToArticle).forEach(add);
+    ((data.bottom_line && data.bottom_line.articles) || []).map(bottomLineToArticle).forEach(add);
     ((data.preprints && data.preprints.articles) || []).map(preprintToArticle).forEach(add);
     ((data.trials && data.trials.articles) || []).map(trialToArticle).forEach(add);
     CLASSIC_TRIALS.forEach(add);
@@ -581,7 +589,7 @@
   // and critically appraising the actual paper. Null means "not applicable"
   // (FOAMed commentary, trial registrations with no results yet).
   function impactScore(article) {
-    if (article.is_trial || article.is_foamed) return null;
+    if (article.is_trial || article.is_foamed || article.is_bottom_line) return null;
     if (article.is_preprint) return 1;
     const type = (article.study_type || "").toLowerCase();
     const notable = article.is_top_journal || (article.citation_count || 0) >= 10;
@@ -893,11 +901,13 @@
       : "";
     const readLabel = article.is_foamed
       ? "Read post"
-      : article.is_preprint
-        ? "Read preprint"
-        : article.is_trial
-          ? "ClinicalTrials.gov"
-          : "PubMed";
+      : article.is_bottom_line
+        ? "Read appraisal"
+        : article.is_preprint
+          ? "Read preprint"
+          : article.is_trial
+            ? "ClinicalTrials.gov"
+            : "PubMed";
 
     // Only offer this when the article actually has a cached embedding —
     // embeddingsCache is resolved before the first render (see the initial
@@ -1064,6 +1074,27 @@
     };
   }
 
+  function bottomLineToArticle(item) {
+    return {
+      title: item.title,
+      journal: item.source,
+      pubdate: item.pubdate,
+      authors: item.author ? [item.author] : [],
+      doi: null,
+      abstract: item.summary,
+      ai_key_stats: item.ai_key_stats,
+      ai_summary: item.ai_summary,
+      ai_significance: item.ai_significance,
+      ai_rounds_takeaway: item.ai_rounds_takeaway,
+      citation_count: 0,
+      is_top_journal: false,
+      is_bottom_line: true,
+      is_open_access: item.is_open_access !== false,
+      study_type: item.study_type || "EBM Summary",
+      url: item.url,
+    };
+  }
+
   function preprintToArticle(item) {
     return {
       title: item.title,
@@ -1128,6 +1159,18 @@
     foamedCount.textContent = `${posts.length} post${posts.length === 1 ? "" : "s"} · last ${foamed.window_days} days`;
     foamedList.innerHTML = "";
     posts.forEach((item) => foamedList.appendChild(articleCard(item)));
+  }
+
+  function renderBottomLine(bottomLine, term, days, studyType, year, journal, organId) {
+    const posts = filterList(((bottomLine && bottomLine.articles) || []).map(bottomLineToArticle), term, days, studyType, year, journal, organId);
+    if (!posts.length) {
+      bottomLineSection.hidden = true;
+      return;
+    }
+    bottomLineSection.hidden = false;
+    bottomLineCount.textContent = `${posts.length} post${posts.length === 1 ? "" : "s"} · last ${bottomLine.window_days} days`;
+    bottomLineList.innerHTML = "";
+    posts.forEach((item) => bottomLineList.appendChild(articleCard(item)));
   }
 
   function renderPreprints(preprints, term, days, studyType, year, journal, organId) {
@@ -1252,6 +1295,7 @@
     const all = [];
     all.push(...((data.trending && data.trending.articles) || []));
     all.push(...(((data.foamed && data.foamed.articles) || []).map(foamedToArticle)));
+    all.push(...(((data.bottom_line && data.bottom_line.articles) || []).map(bottomLineToArticle)));
     all.push(...(((data.preprints && data.preprints.articles) || []).map(preprintToArticle)));
     all.push(...(((data.trials && data.trials.articles) || []).map(trialToArticle)));
     all.push(...((data.guidelines && data.guidelines.articles) || []));
@@ -1414,6 +1458,7 @@
     renderGuidelines(rawData.guidelines, term, days, studyType, year, journal, organId);
     renderTrending(rawData.trending, term, days, studyType, year, journal, organId);
     renderFoamed(rawData.foamed, term, days, studyType, year, journal, organId);
+    renderBottomLine(rawData.bottom_line, term, days, studyType, year, journal, organId);
     renderPreprints(rawData.preprints, term, days, studyType, year, journal, organId);
     renderTrials(rawData.trials, term, days, studyType, year, journal, organId);
     renderCategories(rawData.categories || [], term, days, studyType, year, journal, organId);

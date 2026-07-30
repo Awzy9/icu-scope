@@ -25,6 +25,14 @@ FOAMED_DAYS = int(os.environ.get("FOAMED_DAYS", "30"))
 FOAMED_MAX_PER_SOURCE = int(os.environ.get("FOAMED_MAX_PER_SOURCE", "6"))
 FOAMED_TOTAL_MAX = int(os.environ.get("FOAMED_TOTAL_MAX", "15"))
 
+# The Bottom Line (thebottomline.org.uk): UK-based EBM appraisals of
+# individual critical care trials. Kept as its own section rather than
+# folded into FOAMed & Blogs — it's structured trial appraisal, not general
+# commentary.
+BOTTOM_LINE_FEED = "https://thebottomline.org.uk/feed/"
+BOTTOM_LINE_DAYS = int(os.environ.get("BOTTOM_LINE_DAYS", "60"))
+BOTTOM_LINE_MAX = int(os.environ.get("BOTTOM_LINE_MAX", "10"))
+
 MEDRXIV_API = "https://api.biorxiv.org/details/medrxiv"
 MEDRXIV_CATEGORY = "intensive care and critical care medicine"
 PREPRINT_DAYS = int(os.environ.get("PREPRINT_DAYS", "14"))
@@ -457,7 +465,9 @@ def fetch_feed(url):
         return resp.read()
 
 
-def build_foamed_source(source):
+def build_foamed_source(source, days=None, max_items=None, study_type="FOAMed/Blog"):
+    days = FOAMED_DAYS if days is None else days
+    max_items = FOAMED_MAX_PER_SOURCE if max_items is None else max_items
     try:
         raw = fetch_feed(source["feed"])
     except Exception as e:
@@ -469,7 +479,7 @@ def build_foamed_source(source):
         print(f"  warning: {source['name']} feed parse failed: {e}")
         return []
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=FOAMED_DAYS)
+    cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     ns = {"dc": "http://purl.org/dc/elements/1.1/"}
     items = []
     for item in root.findall(".//item"):
@@ -504,12 +514,12 @@ def build_foamed_source(source):
                 "author": (creator_el.text or "").strip() if creator_el is not None else "",
                 "pubdate": pub_dt.strftime("%Y-%m-%d"),
                 "summary": strip_html(desc_el.text if desc_el is not None else "")[:400],
-                "study_type": "FOAMed/Blog",
+                "study_type": study_type,
                 "is_open_access": True,
                 "_sort": pub_dt,
             }
         )
-        if len(items) >= FOAMED_MAX_PER_SOURCE:
+        if len(items) >= max_items:
             break
     return items
 
@@ -525,6 +535,15 @@ def build_foamed():
     for item in all_items:
         del item["_sort"]
     return all_items[:FOAMED_TOTAL_MAX]
+
+
+def build_bottom_line():
+    source = {"name": "The Bottom Line", "feed": BOTTOM_LINE_FEED, "filter_keywords": False}
+    items = build_foamed_source(source, days=BOTTOM_LINE_DAYS, max_items=BOTTOM_LINE_MAX, study_type="EBM Summary")
+    for item in items:
+        item["is_bottom_line"] = True
+        del item["_sort"]
+    return items
 
 
 def build_preprints():
@@ -790,7 +809,7 @@ def article_ai_id(article):
     return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
 
 
-def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=()):
+def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=()):
     by_id = {}
 
     def register(article):
@@ -814,16 +833,18 @@ def gather_ai_targets(categories_out, trending_articles, foamed_articles, guidel
         register(a)
     for a in trial_articles:
         register(a)
+    for a in bottom_line_articles:
+        register(a)
     return by_id
 
 
-def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=()):
+def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=()):
     if not GROQ_API_KEY:
         print("  GROQ_API_KEY not set, skipping AI summaries")
         return
 
     cache = load_ai_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
 
     remaining_budget = AI_SUMMARY_MAX_PER_RUN
     new_count = 0
@@ -857,13 +878,13 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
           f"{len(by_id) - new_count - cached_count} skipped (budget exhausted)")
 
 
-def enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=()):
+def enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=()):
     if not HF_API_TOKEN:
         print("  HF_API_TOKEN not set, skipping embeddings")
         return
 
     cache = load_embedding_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
 
     remaining_budget = EMBEDDING_MAX_PER_RUN
     new_count = 0
@@ -987,7 +1008,7 @@ def xml_escape(text):
     )
 
 
-def build_rss_feed(categories_out, foamed_articles, preprint_articles=(), trial_articles=()):
+def build_rss_feed(categories_out, foamed_articles, preprint_articles=(), trial_articles=(), bottom_line_articles=()):
     items = []
     for cat in categories_out:
         for a in cat["articles"]:
@@ -998,6 +1019,8 @@ def build_rss_feed(categories_out, foamed_articles, preprint_articles=(), trial_
         items.append((a, "Preprint"))
     for a in trial_articles:
         items.append((a, "Clinical Trial"))
+    for a in bottom_line_articles:
+        items.append((a, "The Bottom Line"))
 
     def sort_key(pair):
         return parsed_pubdate_for_sort(pair[0].get("pubdate", ""))
@@ -1060,6 +1083,7 @@ def load_archive():
     data.setdefault("guidelines", {})
     data.setdefault("preprints", {})
     data.setdefault("trials", {})
+    data.setdefault("bottom_line", {})
     return data
 
 
@@ -1205,6 +1229,14 @@ def main():
         fresh_foamed = []
     foamed_articles = merge_into_bucket(archive["foamed"], fresh_foamed, lambda a: a["url"])
 
+    print("Fetching The Bottom Line...")
+    try:
+        fresh_bottom_line = build_bottom_line()
+    except Exception as e:
+        print(f"  warning: The Bottom Line fetch failed: {e}")
+        fresh_bottom_line = []
+    bottom_line_articles = merge_into_bucket(archive["bottom_line"], fresh_bottom_line, lambda a: a["url"])
+
     print("Fetching guideline watch...")
     try:
         fresh_guidelines = build_guidelines()
@@ -1242,13 +1274,13 @@ def main():
 
     print("Generating AI summaries...")
     try:
-        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
+        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
     except Exception as e:
         print(f"  warning: AI summarization failed: {e}")
 
     print("Generating embeddings for semantic search...")
     try:
-        enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles)
+        enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
     except Exception as e:
         print(f"  warning: embedding generation failed: {e}")
 
@@ -1271,6 +1303,8 @@ def main():
             link_targets.append((f"url:{a['url']}", a["url"], a))
         for a in trial_articles:
             link_targets.append((f"url:{a['url']}", a["url"], a))
+        for a in bottom_line_articles:
+            link_targets.append((f"url:{a['url']}", a["url"], a))
         check_links(link_targets)
     except Exception as e:
         print(f"  warning: link check failed: {e}")
@@ -1285,6 +1319,10 @@ def main():
         "foamed": {
             "window_days": FOAMED_DAYS,
             "articles": foamed_articles,
+        },
+        "bottom_line": {
+            "window_days": BOTTOM_LINE_DAYS,
+            "articles": bottom_line_articles,
         },
         "guidelines": {
             "window_days": GUIDELINE_DAYS,
@@ -1307,7 +1345,7 @@ def main():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     try:
-        build_rss_feed(categories_out, foamed_articles, preprint_articles, trial_articles)
+        build_rss_feed(categories_out, foamed_articles, preprint_articles, trial_articles, bottom_line_articles)
     except Exception as e:
         print(f"  warning: RSS feed generation failed: {e}")
 
@@ -1315,7 +1353,7 @@ def main():
     print(f"Wrote {total} articles across {len(categories_out)} categories, "
           f"{len(trending_articles)} trending, {len(foamed_articles)} FOAMed posts, "
           f"{len(guideline_articles)} guidelines, {len(preprint_articles)} preprints, "
-          f"and {len(trial_articles)} trials to {out_path}")
+          f"{len(trial_articles)} trials, and {len(bottom_line_articles)} Bottom Line posts to {out_path}")
 
 
 if __name__ == "__main__":

@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=22" />
+  <link rel="stylesheet" href="style.css?v=23" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -45,6 +45,7 @@
           · <a href="https://emcrit.org/" target="_blank" rel="noopener">EMCrit</a>/<a href="https://emcrit.org/category/pulmcrit/" target="_blank" rel="noopener">PulmCrit</a>,
           <a href="https://rebelem.com/" target="_blank" rel="noopener">REBEL EM</a>,
           <a href="https://litfl.com/" target="_blank" rel="noopener">LITFL</a>
+          · <a href="https://thebottomline.org.uk/" target="_blank" rel="noopener">The Bottom Line</a>
           · <a href="https://www.medrxiv.org/" target="_blank" rel="noopener">medRxiv</a>
           · <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a>
         </details>
@@ -181,6 +182,17 @@
         <div id="foamed-list"></div>
       </div>
     </section>
+    <section class="bottom-line-section" id="bottom-line-section" hidden>
+      <div class="trending-heading bottom-line-heading">
+        <button class="collapse-toggle" id="bottom-line-collapse-toggle" type="button" aria-expanded="false" aria-controls="bottom-line-body">▸</button>
+        <h2>🎯 The Bottom Line</h2>
+        <span class="category-count" id="bottom-line-count"></span>
+      </div>
+      <div id="bottom-line-body" class="section-body">
+        <p class="foamed-note">UK-based evidence-based medicine appraisals of individual critical care trials, from <a href="https://thebottomline.org.uk/" target="_blank" rel="noopener">thebottomline.org.uk</a> — critical appraisal, not original research.</p>
+        <div id="bottom-line-list"></div>
+      </div>
+    </section>
     <section class="preprint-section" id="preprint-section" hidden>
       <div class="trending-heading preprint-heading">
         <button class="collapse-toggle" id="preprint-collapse-toggle" type="button" aria-expanded="false" aria-controls="preprint-body">▸</button>
@@ -264,6 +276,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=17"></script>
+  <script src="app.js?v=18"></script>
 </body>
 </html>

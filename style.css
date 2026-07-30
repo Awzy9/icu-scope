@@ -32,6 +32,9 @@
   --classics-bg: #f7f0e6;
   --classics-border: #e8d9bd;
   --classics-accent: #8a6d1f;
+  --bottom-line-bg: #e6f7fa;
+  --bottom-line-border: #b3e3ec;
+  --bottom-line-accent: #0f7c92;
   --journal-saturation: 48%;
   --journal-lightness: 36%;
   --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
@@ -72,6 +75,9 @@
   --classics-bg: #2e2617;
   --classics-border: #4a3c22;
   --classics-accent: #d9b45c;
+  --bottom-line-bg: #12262b;
+  --bottom-line-border: #1f3f47;
+  --bottom-line-accent: #4dc4d9;
   --journal-saturation: 55%;
   --journal-lightness: 68%;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -112,6 +118,9 @@
     --classics-bg: #2e2617;
     --classics-border: #4a3c22;
     --classics-accent: #d9b45c;
+    --bottom-line-bg: #12262b;
+    --bottom-line-border: #1f3f47;
+    --bottom-line-accent: #4dc4d9;
     --journal-saturation: 55%;
     --journal-lightness: 68%;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -1234,6 +1243,18 @@ mark {
 }
 
 .foamed-section .article-card { background: var(--surface); }
+
+.bottom-line-section {
+  margin-bottom: 2.75rem;
+  background: var(--bottom-line-bg);
+  border: 1px solid var(--bottom-line-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.5rem 0.25rem;
+}
+
+.bottom-line-heading h2 { color: var(--bottom-line-accent); }
+
+.bottom-line-section .article-card { background: var(--surface); }
 
 .guideline-section {
   margin-bottom: 2.75rem;
