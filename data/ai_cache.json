@@ -1069,6 +1069,12 @@
     "significance": "This study highlights the importance of considering clinical factors, such as age and comorbidities, when interpreting serological measures in COVID-19 patients.",
     "rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care."
   },
+  "pmid:42347268": {
+    "key_stats": "n=86, p<0.001, p=0.019, p<0.001, p=0.038, p=0.005, p=0.032, p=0.007, p=0.023, p=0.013, p=0.035, p=0.002",
+    "summary": "A multicenter study in Saudi Arabia assessed ICU practitioners' knowledge and adherence to a ventilator bundle for VAP prevention. Significant disparities were found in knowledge and adherence across educational levels, professional experience, and professional categories.",
+    "significance": "This study highlights the need for targeted training for newly hired ICU staff to improve adherence to VAP prevention guidelines, which is crucial in reducing mortality rates in developing countries.",
+    "rounds_takeaway": "Consider providing targeted training for newly hired ICU staff to improve adherence to the ventilator bundle for VAP prevention."
+  },
   "pmid:42330317": {
     "key_stats": "",
     "summary": "This study synthesized international evidence on virtual-care models, including tele-ICU, hospital-at-home, and virtual wards, and examined Saudi Arabia's Seha Virtual Hospital as a national case study. The models showed comparable outcomes to in-person hospital care when patient selection and escalation pathways were appropriate. However, the evidence base remains heterogeneous and context-dependent.",
@@ -1081,17 +1087,41 @@
     "significance": "Identifying these factors can help optimize patient care, minimize complications, and alleviate healthcare costs within critical care settings.",
     "rounds_takeaway": "Consider sepsis as a potential cause of prolonged ICU stay in patients with prolonged hospitalization."
   },
+  "pmid:42279205": {
+    "key_stats": "n=404, NLR 4.26 (optimal cutoff), SII 958 (optimal cutoff), HALP 2.15 (optimal cutoff), AUC NLR 0.80 (95% CI 0.74-0.85), AUC SII 0.76 (95% CI 0.71-0.81), AUC HALP 0.76 (95% CI 0.70-0.81)",
+    "summary": "This study examined the association between hematological parameters and mortality in patients with acute respiratory distress syndrome (ARDS). The researchers found that the neutrophil-to-lymphocyte ratio (NLR), systemic immune-inflammation index (SII), and hemoglobin-albumin-lymphocyte-platelet (HALP) score were significantly associated with mortality in ARDS patients. NLR showed the strongest prognostic performance for mortality.",
+    "significance": "These findings suggest that routine hematological parameters and derived inflammatory indices may offer practical value for early risk stratification and clinical decision-making in patients with ARDS, particularly in resource-limited settings.",
+    "rounds_takeaway": "Consider calculating the neutrophil-to-lymphocyte ratio (NLR) in patients with acute respiratory distress syndrome (ARDS) to aid in early risk stratification and clinical decision-making."
+  },
   "pmid:42240436": {
     "key_stats": "",
     "summary": "This review examined current methods for assessing tissue perfusion in critically ill patients. It found that a combination of monitoring tools, including capillary refill time, can provide a more accurate picture of perfusion. The review suggests that monitoring should be individualized and guided by patient risk and uncertainty.",
     "significance": "This review provides a framework for clinicians to assess tissue perfusion in critically ill patients, which can help guide resuscitation efforts and reduce unnecessary therapeutic escalation.",
     "rounds_takeaway": "Consider using capillary refill time as a clinical anchor for perfusion assessment, and escalate monitoring based on patient risk and uncertainty."
   },
+  "pmid:42198795": {
+    "key_stats": "",
+    "summary": "This study assessed the awareness levels of infection control and prevention among intensive care nurses in Saudi Arabia. The results showed that most nurses had unsatisfactory awareness of hospital-acquired infections, despite being aware of standard precautions. There was a significant difference between nurses' educational level and their workplace awareness of infection control and prevention measures.",
+    "significance": "This study highlights the need for targeted educational interventions to improve infection control awareness among ICU nurses, which is crucial for preventing hospital-acquired infections and ensuring patient safety.",
+    "rounds_takeaway": "Consider implementing targeted educational interventions to improve infection control awareness among ICU nurses."
+  },
+  "pmid:42192544": {
+    "key_stats": "",
+    "summary": "This qualitative study explored the experiences of critical care nurses managing patients receiving continuous kidney replacement therapy in Saudi Arabian ICUs. Nurses described the complex and emotionally demanding nature of this care, requiring technical, relational, and moral competencies. Four themes emerged from the analysis, highlighting the need for structured education and support.",
+    "significance": "This study highlights the importance of considering the emotional and relational aspects of critical care, particularly in managing patients receiving CKRT, and underscores the need for structured education and support for critical care nurses.",
+    "rounds_takeaway": "Consider implementing structured CKRT education and simulation-based training for critical care nurses to enhance their technical and relational competencies."
+  },
   "pmid:42357610": {
     "key_stats": "n=33, virological response 65.6%, median time to undetectable CMV viral load 28 days",
     "summary": "This study evaluated the effectiveness of cytomegalovirus immunoglobulin (CMVIG) in treating severe or refractory CMV infection in transplant recipients. The results showed that CMVIG was well-tolerated but had a limited virological response rate of 65.6%. The study also found a high mortality rate despite virological response.",
     "significance": "This study highlights the need for further research on the effectiveness of CMVIG in combination with standard antiviral therapy for treating CMV infection in critically ill transplant recipients.",
     "rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population."
+  },
+  "pmid:42194645": {
+    "key_stats": "n=341, CAR 35.5 vs 18.1 (p=0.008), AUC 0.637 (95% CI 0.543-0.732), HR 3.02 (95% CI 1.48-6.17, p=0.0024)",
+    "summary": "Researchers studied the C-reactive protein-to-albumin ratio (CAR) as a prognostic marker in ICU patients with pre-existing hypertension and diabetes. They found that higher CAR levels were associated with increased 30-day mortality. CAR may be a useful tool for mortality risk stratification in these patients.",
+    "significance": "This study's findings suggest that CAR could help clinicians identify ICU patients with pre-existing hypertension and diabetes who are at higher risk of mortality, allowing for more targeted care.",
+    "rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes."
   },
   "pmid:42472230": {
     "key_stats": "n=5582, OR 1.82 (95% CI 1.45-2.28), p<0.001",
@@ -1128,6 +1158,12 @@
     "summary": "This study analyzed EEGs from 188 ICU patients to see how often seizures occurred and what factors were associated with them. They found that seizures were more common in older patients, those admitted to the ICU due to status epilepticus, and those with a history of epilepsy. Epileptiform abnormalities were seen in 14.9% of patients.",
     "significance": "This study highlights the importance of routine EEGs in ICU patients with altered mental status, particularly for seizure evaluation, and identifies key factors associated with seizure occurrence.",
     "rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus."
+  },
+  "pmid:42340792": {
+    "key_stats": "n=12347, OR 2.28 (95% CI 1.83-2.83), OR 5.84 (95% CI 1.07-31.83)",
+    "summary": "This systematic review and meta-analysis evaluated the prognostic value of CT-assessed sarcopenia, alone or combined with laboratory inflammatory markers, for predicting mortality and other outcomes in critically ill, pulmonary, and geriatric patients. The results showed that CT-assessed sarcopenia, when integrated with laboratory inflammatory markers, provides a robust prognostic framework. The pooled odds ratio for mortality in sarcopenic patients was 2.28, and 5.84 in COVID-19 pulmonary populations.",
+    "significance": "This study provides a clinically accessible multimodal prognostic framework for critically ill, pulmonary, and geriatric populations, which can help clinicians make more informed decisions.",
+    "rounds_takeaway": "Consider incorporating CT-assessed sarcopenia and laboratory inflammatory markers into your prognostic assessment for critically ill, pulmonary, and geriatric patients."
   },
   "pmid:42251513": {
     "key_stats": "n=228, ETT size 7.5 mm, rs=0.341 (P<.001), rs=0.190 (p=0.004), aOR 2.38 (95% CI 1.12-5.05), aOR 2.31 (95% CI 1.10-4.86), aOR 1.20 (95% CI 1.02-1.42), aOR 1.95 (95% CI 1.20-3.16), 77% non-compliance with guidelines",
