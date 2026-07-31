@@ -39,7 +39,7 @@ Each article card can show a "💬 Ask about this article" box that answers ques
 4. Deploy: `wrangler deploy` from `cloudflare-worker/`. It prints a URL like `https://icu-scope-ask.<your-subdomain>.workers.dev`.
 5. Paste that URL into `WORKER_ENDPOINT` near the top of `app.js`, commit, and push.
 
-The Worker only ever sees the question plus the one article's title/abstract — it has no access to your archive, PubMed, or anything else, and it refuses to answer if no abstract was passed in.
+The Worker only ever sees the question plus the one article's title/abstract — it has no access to your archive, PubMed, or anything else, and it refuses to answer if no abstract was passed in. It's also rate-limited per visitor IP (20 requests/60s, via Cloudflare's built-in Rate Limiting binding in `wrangler.toml`) so one script or bot can't burn through the shared Groq/HF free-tier quota for everyone else — adjust the `simple = { limit, period }` values there if you need something different.
 
 ## Semantic search (optional)
 

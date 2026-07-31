@@ -965,7 +965,9 @@
       ? `<span class="oa-badge">🔓 Open Access</span>`
       : "";
     const brokenBadge = article.link_broken
-      ? `<span class="broken-link-badge" title="This link may no longer resolve">⚠ Link may be broken</span>`
+      ? article.link_broken_kind === "doi"
+        ? `<span class="broken-link-badge" title="The publisher DOI link may no longer resolve — the PubMed link itself is unaffected">⚠ DOI link may be broken</span>`
+        : `<span class="broken-link-badge" title="This link may no longer resolve">⚠ Link may be broken</span>`
       : "";
     const fullTextLink = article.pmc_url
       ? `<a href="${article.pmc_url}" target="_blank" rel="noopener">Free full text</a>`
@@ -1600,7 +1602,6 @@
   initTheme();
   initDensity();
   initCollapsibleSections();
-  renderClassics();
   initSectionJump();
   updateToolbarHeight();
   window.addEventListener("resize", updateToolbarHeight);
@@ -1720,6 +1721,11 @@
       populateFilterOptions(data);
       renderDashboard(data);
       applyFiltersAndRender();
+      // Deferred until after loadEmbeddings() resolves (same Promise.all
+      // above), so ICU Classics cards can also offer "Similar articles" —
+      // building them earlier left embeddingsCache still null at card-build
+      // time, permanently omitting the button for this section only.
+      renderClassics();
       saveSeenIds(collectAllIds(data));
       // Populating the filter <select>s can widen them enough to change how
       // the toolbar wraps, which shifts its real height out from under the
