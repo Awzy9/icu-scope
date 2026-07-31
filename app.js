@@ -1237,13 +1237,15 @@
     posts.forEach((item) => bottomLineList.appendChild(articleCard(item)));
   }
 
-  // Aggregates every published trial-shaped article — RCTs, plain
-  // "Clinical Trial" pubtype, and the curated ICU Classics landmark
-  // trials — from every section into one consolidated list. Deliberately
-  // excludes Trial Tracker's ClinicalTrials.gov registrations (those are
-  // ongoing/planned, not results) and "Multicenter Study" (that pubtype
-  // just means multiple sites, not randomization — it also tags plain
-  // cohort studies, so including it let non-trial content sneak in here).
+  // Aggregates every published trial-shaped article — RCTs and plain
+  // "Clinical Trial" pubtype — from every section into one consolidated
+  // list. Deliberately excludes the curated ICU Classics landmark trials
+  // (those have their own dedicated section and shouldn't be mixed in
+  // with the current literature feed), Trial Tracker's ClinicalTrials.gov
+  // registrations (those are ongoing/planned, not results), and
+  // "Multicenter Study" (that pubtype just means multiple sites, not
+  // randomization — it also tags plain cohort studies, so including it
+  // let non-trial content sneak in here).
   function collectTrialResultArticles(data) {
     const seen = new Set();
     const result = [];
@@ -1257,7 +1259,6 @@
     (data.trending && data.trending.articles || []).forEach(consider);
     (data.guidelines && data.guidelines.articles || []).forEach(consider);
     ((data.preprints && data.preprints.articles) || []).map(preprintToArticle).forEach(consider);
-    CLASSIC_TRIALS.forEach(consider);
     (data.categories || []).forEach((c) => c.articles.forEach(consider));
     return sortArticles("newest", result);
   }
