@@ -111,8 +111,8 @@ PUB_TYPE_PRIORITY = [
 GUIDELINE_DAYS = int(os.environ.get("GUIDELINE_DAYS", "180"))
 GUIDELINE_MAX = int(os.environ.get("GUIDELINE_MAX", "10"))
 
-KSA_DAYS = int(os.environ.get("KSA_DAYS", "180"))
-KSA_MAX = int(os.environ.get("KSA_MAX", "15"))
+KSA_DAYS = int(os.environ.get("KSA_DAYS", "365"))
+KSA_MAX = int(os.environ.get("KSA_MAX", "25"))
 
 # Rotating link-liveness check: archives never shrink, so DOI/FOAMed/preprint
 # links can rot silently over time. Only a bounded number are (re-)checked
