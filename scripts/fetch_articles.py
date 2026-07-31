@@ -175,7 +175,14 @@ CATEGORIES = [
         "id": "cardiovascular",
         "label": "Cardiovascular",
         "abbr": "CVS",
-        "query": f'{ICU_CONTEXT} AND ("cardiovascular diseases"[MeSH] OR shock OR "cardiac arrest" OR arrhythmia OR vasopressor OR hemodynamic)',
+        # Bare "shock", "vasopressor", and "hemodynamic" used to be in this
+        # list, but those are generic ICU terms used across every organ
+        # system (cerebral hemodynamics in a neuro article, hemorrhagic
+        # shock in a GI-bleed article, vasopressors for any shock state) —
+        # not cardiac-specific, so they were sweeping unrelated articles
+        # into this category. Replaced with "cardiogenic shock" (the
+        # actual cardiac subtype) plus explicit cardiac diagnoses.
+        "query": f'{ICU_CONTEXT} AND ("cardiovascular diseases"[MeSH] OR "cardiac arrest" OR arrhythmia OR "cardiogenic shock" OR "heart failure" OR "myocardial infarction" OR "acute coronary syndrome")',
     },
     {
         "id": "respiratory",
