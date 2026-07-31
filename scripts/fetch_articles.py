@@ -860,12 +860,15 @@ def ai_appraise_trial(title, text):
                 "outcome: the primary outcome and its result, with numbers if reported (rates, RR/OR/HR, "
                 "confidence interval, p-value).\n\n"
                 "author_conclusion: what the trial's own authors concluded, in their framing.\n\n"
-                "strengths: 1-3 methodological strengths of the trial.\n\n"
-                "weaknesses: 1-3 methodological limitations of the trial.\n\n"
+                "strengths: 1-3 methodological strengths of the trial, as a single string (e.g. separated by "
+                "semicolons) — not a JSON array.\n\n"
+                "weaknesses: 1-3 methodological limitations of the trial, as a single string (e.g. separated by "
+                "semicolons) — not a JSON array.\n\n"
                 "bottom_line: 1-2 sentences of practical takeaway for a treating clinician — the single most "
                 "actionable message.\n\n"
                 "Only state what is explicitly reported in the text — never estimate or infer. Use an empty "
-                "string for any field the text doesn't support."
+                "string for any field the text doesn't support. Every value must be a plain string, never a "
+                "nested list or object."
                 f"\n\nTitle: {title}\n\nText: {text[:3500]}"
             ),
         },
@@ -873,10 +876,20 @@ def ai_appraise_trial(title, text):
     parsed = groq_chat_json(messages, max_tokens=900, temperature=0.2, log_label=title)
     if not parsed:
         return None
-    result = {field: (parsed.get(field) or "").strip() for field in APPRAISAL_FIELDS}
+    result = {field: _appraisal_field_text(parsed.get(field)) for field in APPRAISAL_FIELDS}
     if any(result.values()):
         return result
     return None
+
+
+def _appraisal_field_text(value):
+    # Groq/Llama sometimes returns a "1-3 items" field as a JSON list
+    # instead of the requested single string despite the prompt — be
+    # defensive rather than letting one malformed field abort the whole
+    # AI enrichment run for every other article.
+    if isinstance(value, list):
+        return "; ".join(str(v).strip() for v in value if str(v).strip())
+    return str(value).strip() if value else ""
 
 
 def article_ai_id(article):

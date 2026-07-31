@@ -20,6 +20,10 @@
   const bottomLineBody = document.getElementById("bottom-line-body");
   const bottomLineList = document.getElementById("bottom-line-list");
   const bottomLineCount = document.getElementById("bottom-line-count");
+  const trialResultsSection = document.getElementById("trial-results-section");
+  const trialResultsBody = document.getElementById("trial-results-body");
+  const trialResultsList = document.getElementById("trial-results-list");
+  const trialResultsCount = document.getElementById("trial-results-count");
   const preprintSection = document.getElementById("preprint-section");
   const preprintBody = document.getElementById("preprint-body");
   const preprintList = document.getElementById("preprint-list");
@@ -54,6 +58,7 @@
     { id: "trending", body: trendingBody, toggle: document.getElementById("trending-collapse-toggle") },
     { id: "foamed", body: foamedBody, toggle: document.getElementById("foamed-collapse-toggle") },
     { id: "bottom-line", body: bottomLineBody, toggle: document.getElementById("bottom-line-collapse-toggle") },
+    { id: "trial-results", body: trialResultsBody, toggle: document.getElementById("trial-results-collapse-toggle") },
     { id: "preprint", body: preprintBody, toggle: document.getElementById("preprint-collapse-toggle") },
     { id: "trial", body: trialBody, toggle: document.getElementById("trial-collapse-toggle") },
     { id: "classics", body: classicsBody, toggle: document.getElementById("classics-collapse-toggle") },
@@ -98,6 +103,7 @@
     { sectionId: "trending", label: "Trending this month", icon: "🔥" },
     { sectionId: "foamed", label: "FOAMed & Blogs", icon: "📚" },
     { sectionId: "bottom-line", label: "The Bottom Line", icon: "🎯" },
+    { sectionId: "trial-results", label: "Trial Results", icon: "✅" },
     { sectionId: "preprint", label: "Preprints", icon: "🧪" },
     { sectionId: "trial", label: "Trial Tracker", icon: "🔬" },
     { sectionId: "classics", label: "ICU Classics", icon: "🏛️" },
@@ -762,14 +768,15 @@
     return d.getTime() >= cutoff;
   }
 
-  // "Trials" is a broader, aggregate quick-filter (not a single literal
-  // study_type string) — it pulls together every trial-shaped article from
-  // every section, including the Trial Tracker's dynamically status-suffixed
-  // entries like "Clinical Trial (RECRUITING)".
+  // "Trials" is a broader, aggregate match (not a single literal study_type
+  // string) — it pulls together every trial-shaped article from every
+  // section, including the Trial Tracker's dynamically status-suffixed
+  // entries like "Clinical Trial (RECRUITING)". Deliberately excludes
+  // "Multicenter Study" — that pubtype just means multiple sites, not
+  // randomization, so it also tags plain multicenter cohort studies.
   const TRIAL_STUDY_TYPES = new Set([
     "Randomized Controlled Trial",
     "Clinical Trial",
-    "Multicenter Study",
     "Landmark Trial",
   ]);
 
@@ -1230,6 +1237,43 @@
     posts.forEach((item) => bottomLineList.appendChild(articleCard(item)));
   }
 
+  // Aggregates every published trial-shaped article — RCTs, plain
+  // "Clinical Trial" pubtype, and the curated ICU Classics landmark
+  // trials — from every section into one consolidated list. Deliberately
+  // excludes Trial Tracker's ClinicalTrials.gov registrations (those are
+  // ongoing/planned, not results) and "Multicenter Study" (that pubtype
+  // just means multiple sites, not randomization — it also tags plain
+  // cohort studies, so including it let non-trial content sneak in here).
+  function collectTrialResultArticles(data) {
+    const seen = new Set();
+    const result = [];
+    const consider = (article) => {
+      if (!article || !TRIAL_STUDY_TYPES.has(article.study_type)) return;
+      const id = articleId(article);
+      if (seen.has(id)) return;
+      seen.add(id);
+      result.push(article);
+    };
+    (data.trending && data.trending.articles || []).forEach(consider);
+    (data.guidelines && data.guidelines.articles || []).forEach(consider);
+    ((data.preprints && data.preprints.articles) || []).map(preprintToArticle).forEach(consider);
+    CLASSIC_TRIALS.forEach(consider);
+    (data.categories || []).forEach((c) => c.articles.forEach(consider));
+    return sortArticles("newest", result);
+  }
+
+  function renderTrialResults(data, term, days, studyType, year, journal, organId) {
+    const articles = filterList(collectTrialResultArticles(data), term, days, studyType, year, journal, organId);
+    if (!articles.length) {
+      trialResultsSection.hidden = true;
+      return;
+    }
+    trialResultsSection.hidden = false;
+    trialResultsCount.textContent = `${articles.length} trial${articles.length === 1 ? "" : "s"}`;
+    trialResultsList.innerHTML = "";
+    articles.forEach((article) => trialResultsList.appendChild(articleCard(article)));
+  }
+
   function renderPreprints(preprints, term, days, studyType, year, journal, organId) {
     const articles = filterList(((preprints && preprints.articles) || []).map(preprintToArticle), term, days, studyType, year, journal, organId);
     preprintWindow.textContent = preprints ? preprints.window_days : "";
@@ -1523,6 +1567,7 @@
     renderFoamed(rawData.foamed, term, days, studyType, year, journal, organId);
     renderBottomLine(rawData.bottom_line, term, days, studyType, year, journal, organId);
     renderPreprints(rawData.preprints, term, days, studyType, year, journal, organId);
+    renderTrialResults(rawData, term, days, studyType, year, journal, organId);
     renderTrials(rawData.trials, term, days, studyType, year, journal, organId);
     renderCategories(rawData.categories || [], term, days, studyType, year, journal, organId);
   }
