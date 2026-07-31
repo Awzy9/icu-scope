@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Fri, 31 Jul 2026 06:09:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 13:20:40 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -32,6 +32,69 @@
       <guid isPermaLink="false">pmid:42467893</guid>
       <category>GI &amp; Nutrition</category>
       <description></description>
+    </item>
+    <item>
+      <title>Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia</title>
+      <link>https://clinicaltrials.gov/study/NCT06637332</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06637332</guid>
+      <category>Clinical Trial</category>
+      <description>This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.</description>
+    </item>
+    <item>
+      <title>Optimization of Beta-lactam Dosing in Critically Ill Patients With Cystatin C (OPTIMIZE-GNI)</title>
+      <link>https://clinicaltrials.gov/study/NCT06709521</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06709521</guid>
+      <category>Clinical Trial</category>
+      <description>This study compares the accuracy of two methods (Cystatin C and eGFR equations) for estimating kidney function in critically ill patients with suspected or documented AMR Gram-negative infections. The study aims to optimize beta-lactam dosing in these patients. The study will involve up to 200 adult patients in an ICU.</description>
+    </item>
+    <item>
+      <title>JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS (Master Record)</title>
+      <link>https://clinicaltrials.gov/study/NCT06703073</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06703073</guid>
+      <category>Clinical Trial</category>
+      <description>This study is a Phase 2 trial evaluating the safety and efficacy of host-directed therapeutics in adults with Acute Respiratory Distress Syndrome (ARDS). The trial uses a platform trial design and will randomize participants to receive either a placebo or an active treatment. The study aims to assess the safety and efficacy of these innovative therapies.</description>
+    </item>
+    <item>
+      <title>JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort C: Bevacizumab</title>
+      <link>https://clinicaltrials.gov/study/NCT06701656</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06701656</guid>
+      <category>Clinical Trial</category>
+      <description>This study evaluates the safety and efficacy of bevacizumab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are randomized to receive either a placebo or bevacizumab. The study is a Phase 2 multicenter, randomized, double-blinded, placebo-controlled trial.</description>
+    </item>
+    <item>
+      <title>Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit</title>
+      <link>https://clinicaltrials.gov/study/NCT07740304</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07740304</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.</description>
+    </item>
+    <item>
+      <title>JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort A: Vilobelimab</title>
+      <link>https://clinicaltrials.gov/study/NCT06701682</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06701682</guid>
+      <category>Clinical Trial</category>
+      <description>This study is evaluating the safety and efficacy of vilobelimab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are being randomized to receive either a placebo or vilobelimab. The study aims to assess the benefits of host-directed therapeutics in ARDS patients.</description>
+    </item>
+    <item>
+      <title>Mobile-based Obstetric Monitoring for Pregnancies Complicated by Hypertension and/or Diabetes (MOM-HD)</title>
+      <link>https://clinicaltrials.gov/study/NCT07243886</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07243886</guid>
+      <category>Clinical Trial</category>
+      <description>The study discusses the potential of mobile-based obstetric monitoring for pregnancies complicated by hypertension and/or diabetes. Effective management of these conditions relies on regular monitoring of blood pressure and blood glucose. Telemonitoring is proposed as a cost-effective alternative.</description>
+    </item>
+    <item>
+      <title>Oxygen Extraction-guided Transfusion</title>
+      <link>https://clinicaltrials.gov/study/NCT06102590</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06102590</guid>
+      <category>Clinical Trial</category>
+      <description>This study evaluated the use of oxygen extraction ratio (O2ER) to guide red blood cells transfusion (RBCT) in critically ill patients. The previous study showed that O2ER can help identify the correct timing for RBCT, which may affect 90-day mortality. The current study aimed to further investigate this relationship.</description>
+    </item>
+    <item>
+      <title>JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort B: Paridiprubart</title>
+      <link>https://clinicaltrials.gov/study/NCT06701669</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06701669</guid>
+      <category>Clinical Trial</category>
+      <description>This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.</description>
     </item>
     <item>
       <title>Housing Transitions QUERI</title>
@@ -361,69 +424,6 @@
       <guid isPermaLink="false">pmid:42506467</guid>
       <category>Respiratory</category>
       <description>This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.</description>
-    </item>
-    <item>
-      <title>Pressure-targeted neurocritical care at the bedside: the emerging role of transcranial doppler.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42493813/</link>
-      <guid isPermaLink="false">pmid:42493813</guid>
-      <category>Neurology</category>
-      <description>This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.</description>
-    </item>
-    <item>
-      <title>Effects of nutritional therapy on morphofunctional outcomes in critically ill patients: a systematic narrative synthesis.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42486401/</link>
-      <guid isPermaLink="false">pmid:42486401</guid>
-      <category>GI &amp; Nutrition</category>
-      <description>This review of 29 studies found that high-protein nutritional strategies and supplementation with β-hydroxy-β-methyl butyrate can help preserve muscle mass and strength in critically ill patients. However, physical function showed less responsiveness to interventions. Multimodal approaches may be needed for functional recovery.</description>
-    </item>
-    <item>
-      <title>A Cross-sectional Study to Examine the Prognostic Value of Glycated Hemoglobin Levels and Glycated Hemoglobin-adjusted Glycemic Variables in Patients with Acute Exacerbation of Chronic Obstructive Pulmonary Disease.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42487335/</link>
-      <guid isPermaLink="false">pmid:42487335</guid>
-      <category>Endocrine &amp; Metabolic</category>
-      <description>This study examined the relationship between glycated hemoglobin levels and glycemic variables in patients with acute exacerbation of chronic obstructive pulmonary disease. It found that HbA1c-adjusted glycemic indices, such as glycemic gap and stress hyperglycemia ratio, were strong predictors of clinical outcomes. These indices may be useful in predicting patient outcomes and guiding treatment decisions.</description>
-    </item>
-    <item>
-      <title>Continuous Glucose Monitoring for Adult ICU Patients: A Meta-Analysis on Its Clinical Effectiveness.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42486781/</link>
-      <guid isPermaLink="false">pmid:42486781</guid>
-      <category>Endocrine &amp; Metabolic</category>
-      <description>This study analyzed 22 clinical trials with 1,396 patients to compare the effectiveness of continuous glucose monitoring (CGM) versus conventional blood glucose monitoring in ICU patients. CGM was found to reduce hypoglycemic events, average blood glucose levels, and daily insulin use, while also improving time in glycemic target range and reducing total mortality. These results suggest that incorporating CGM into ICU glycemic control strategies could be beneficial.</description>
-    </item>
-    <item>
-      <title>Pressure-targeted neurocritical care at the bedside: the emerging role of transcranial doppler.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42493813/</link>
-      <guid isPermaLink="false">pmid:42493813</guid>
-      <category>Trauma &amp; Surgical</category>
-      <description>This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.</description>
-    </item>
-    <item>
-      <title>Incidence of Dependency-Related Skin Injury in Critical Care: A Longitudinal Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506042/</link>
-      <guid isPermaLink="false">pmid:42506042</guid>
-      <category>Cardiovascular</category>
-      <description>This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.</description>
-    </item>
-    <item>
-      <title>Remote Multicomponent Rehabilitation in Intensive Care Unit Survivors: A Randomized Clinical Trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42150121/</link>
-      <guid isPermaLink="false">pmid:42150121</guid>
-      <category>Respiratory</category>
-      <description>IMPORTANCE: Evidence for remote multicomponent rehabilitation among critical care survivors is sparse. OBJECTIVE: To investigate the effects of a 6-week, remote, multicomponent rehabilitation intervention in survivors of critical illness following discharge from the hospital after an intensive care unit (ICU) admission compared with standard care on health-related quality of life at 8 weeks. DESIGN, SETTING, AND PARTICIPANTS: Pragmatic, multicenter, assessor-blinded, randomized clinical trial co</description>
-    </item>
-    <item>
-      <title>Incidence of Dependency-Related Skin Injury in Critical Care: A Longitudinal Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506042/</link>
-      <guid isPermaLink="false">pmid:42506042</guid>
-      <category>Trauma &amp; Surgical</category>
-      <description>This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.</description>
-    </item>
-    <item>
-      <title>Explainable machine learning model for early prediction of ICU death in chronic heart failure with pulmonary infection.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42477630/</link>
-      <guid isPermaLink="false">pmid:42477630</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>Researchers developed and validated a machine learning model using the XGBoost algorithm to predict ICU death in patients with chronic heart failure and pulmonary infection. The model was able to identify key predictors of mortality, including lactic acid, white blood cell count, and pre-existing diabetes. The model's performance was evaluated and found to be accurate in predicting ICU mortality.</description>
     </item>
   </channel>
 </rss>

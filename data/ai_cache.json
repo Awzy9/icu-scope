@@ -97,6 +97,21 @@
     "summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
     "significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients."
   },
+  "pmid:42502162": {
+    "clinical_question": "Does toothbrushing with chlorhexidine mouth rinse reduce the incidence of ventilator-associated pneumonia in PICU patients compared to routine oral care with chlorhexidine rinse?",
+    "background": "Ventilator-associated pneumonia is a frequent and serious infection among mechanically ventilated children in pediatric intensive care units, with oral colonization playing a key role in its pathogenesis.",
+    "design": "parallel-group superiority randomized controlled trial",
+    "setting": "pediatric intensive care units (PICUs)",
+    "population": "children aged 18 months to 16 years requiring invasive mechanical ventilation for ≥ 48 h",
+    "intervention": "oral care with toothbrushing plus 0.12% chlorhexidine mouth rinse",
+    "management_common_to_both_groups": "routine care with 0.12% chlorhexidine rinse, both procedures performed three times daily",
+    "intervention_fidelity": "",
+    "outcome": "VAP incidence: 52.5% in control group, 42.3% in intervention group (p = 0.36); mortality: 53.7% in control group, 46.3% in intervention group (p = 0.46)",
+    "author_conclusion": "Although adding toothbrushing to routine chlorhexidine oral care did not produce a statistically significant reduction in VAP incidence or mortality, a consistent trend toward clinical benefit was observed across multiple outcome measures.",
+    "strengths": "randomized controlled trial design; large sample size (n = 118)",
+    "weaknesses": "lack of statistical significance for primary outcome measures; retrospective registration of trial",
+    "bottom_line": "Toothbrushing with chlorhexidine mouth rinse may have a potential benefit in reducing ventilator-associated pneumonia incidence and improving clinical outcomes in PICU patients, but further larger multicenter studies are needed to confirm its effect."
+  },
   "pmid:42493817": {
     "summary": "This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.",
     "significance": "This study's findings are significant for ICU clinical practice as they suggest that early nutritional supplementation may not be beneficial for all critically ill patients with sepsis, and further research is needed to determine the optimal nutritional strategy for this population."
@@ -279,6 +294,21 @@
     "summary": "This study of 433 ICU patients found that energy expenditure initially increased and then decreased over time during prolonged ICU stays. The pattern was consistent across different patient groups. Three distinct patterns of energy expenditure were also identified.",
     "significance": "Understanding energy expenditure in ICU patients is crucial for optimizing nutritional support and reducing muscle wasting. This study's findings can inform the development of personalized nutrition plans for critically ill patients."
   },
+  "pmid:42085214": {
+    "clinical_question": "Does a higher dose of protein (40g) compared to a lower dose (20g) increase muscle protein synthesis rates in critically ill patients?",
+    "background": "Critical illness impairs the muscle protein synthetic response to protein administration, and it is unknown whether increased protein dose can overcome this anabolic resistance.",
+    "design": "randomized, controlled clinical trial",
+    "setting": "Australia, New Zealand, multiple centres, not specified",
+    "population": "mechanically ventilated critically ill patients, 20 patients (10/group), 90% male, 49 ± 21 y and 51 ± 13 y",
+    "intervention": "intraduodenal bolus of 40g or 20g of whey protein isolate",
+    "management_common_to_both_groups": "primed continuous intravenous L-[ring-13C6]-phenylalanine and L-[3,5-2H2]-tyrosine infusions",
+    "intervention_fidelity": "not reported",
+    "outcome": "postprandial muscle protein synthesis rates (primary outcome): 0.030 ± 0.012%·h-1 vs 0.025 ± 0.010%·h-1, adjusted mean difference 0.007 (95% CI, -0.003 to 0.016) %·h-1, P = .152",
+    "author_conclusion": "Higher enteral protein does not further augment postprandial muscle protein synthesis rates to overcome anabolic resistance during critical illness, despite increased plasma amino acid availability.",
+    "strengths": "randomized controlled design; use of primed continuous intravenous infusions to assess plasma amino acid responses and muscle protein synthesis rates",
+    "weaknesses": "small sample size; lack of reporting on intervention fidelity",
+    "bottom_line": "In critically ill patients, increasing the dose of protein from 20g to 40g does not improve muscle protein synthesis rates, despite increased plasma amino acid availability."
+  },
   "pmid:42488203": {
     "summary": "A 69-year-old man developed a rare esophageal obstruction from coagulated enteral nutrition formula, which was mistaken for reflux or tube blockage. Bedside gastroscopy revealed extensive retention of coagulated material in the esophagus. The patient underwent partial endoscopic removal and was switched to a jejunal feeding tube.",
     "significance": "This case highlights the importance of promptly recognizing and treating esophageal obstructions in critically ill patients receiving high-protein or fiber-containing enteral formulas to prevent serious complications."
@@ -365,6 +395,21 @@
     "strengths": "Large sample size; prespecified subgroup analysis",
     "weaknesses": "Open-label design; no blinding",
     "bottom_line": "Rapid antimicrobial susceptibility testing for gram-negative bacteremia does not improve clinical outcomes compared to standard testing, but may be useful in specific situations such as carbapenem-resistant infections"
+  },
+  "pmid:41159880": {
+    "clinical_question": "Does selective decontamination of the digestive tract (SDD) reduce mortality among patients undergoing mechanical ventilation?",
+    "background": "Whether SDD reduces mortality among patients undergoing mechanical ventilation and whether it adversely affects microbial ecology in the ICU remain unclear.",
+    "design": "multicentre, randomized, trial",
+    "setting": "ICUs in Australia and Canada, over two 12-month periods",
+    "population": "patients undergoing mechanical ventilation",
+    "intervention": "SDD group received specific oral and gastric antimicrobial interventions for the duration of ventilation and an intravenous antibiotic agent for the first 4 days after enrollment",
+    "management_common_to_both_groups": "all other patients in the ICU were included in an observational ecologic assessment",
+    "intervention_fidelity": "",
+    "outcome": "in-hospital death from any cause at 90 days: 27.9% in the SDD group, 29.5% in the standard-care group (odds ratio, 0.94; 95% confidence interval [CI], 0.84 to 1.05; P = 0.27)",
+    "author_conclusion": "Among critically ill patients undergoing mechanical ventilation, SDD did not result in a lower incidence of in-hospital death than standard care.",
+    "strengths": "large sample size; multicentre design",
+    "weaknesses": "no information on intervention fidelity; observational ecologic assessment in addition to randomized trial",
+    "bottom_line": "SDD does not reduce mortality among critically ill patients undergoing mechanical ventilation, and may not be noninferior to standard care in terms of antibiotic-resistant organisms."
   },
   "pmid:42502453": {
     "summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
@@ -503,6 +548,21 @@
   "pmid:42152115": {
     "summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
     "significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients."
+  },
+  "pmid:42129898": {
+    "clinical_question": "Does standard dosing of ceftolozane/tazobactam or ceftazidime/avibactam administered by continuous infusion achieve adequate intrapulmonary penetration and pharmacokinetic/pharmacodynamic target attainment in critically ill patients with nosocomial pneumonia?",
+    "background": "Ceftolozane/tazobactam and ceftazidime-avibactam are used to treat pneumonia caused by multidrug-resistant Gram-negative bacilli, but data on intrapulmonary penetration are limited.",
+    "design": "Single-center, open-label, randomized pharmacokinetic study",
+    "setting": "Single center, dates not specified",
+    "population": "Critically ill adults with nosocomial pneumonia, median age 77 years, median body mass index 26.48 kg/m², median creatinine clearance 76.0 mL/min",
+    "intervention": "Ceftolozane/tazobactam (6 g/3 g) or ceftazidime/avibactam (6 g/1.5 g) administered by continuous infusion",
+    "management_common_to_both_groups": "None specified",
+    "intervention_fidelity": "",
+    "outcome": "Median intrapulmonary penetration was 0.66 for ceftolozane, 0.41 for ceftazidime, 0.44 for tazobactam, and 0.44 for avibactam. Standard dosing achieved adequate target attainment for both combinations.",
+    "author_conclusion": "Standard doses of ceftolozane/tazobactam or ceftazidime/avibactam administered by continuous infusion achieved ELF exposures consistent with dual PK/PD target attainment against all susceptible isolates.",
+    "strengths": "Standard dosing achieved adequate target attainment for both combinations; simulations showed high ELF target attainment for all CAZ/AVI regimens under conservative inhibitor threshold assumptions",
+    "weaknesses": "Interindividual variability and the risk of plasma overexposure support individualized dosing and consideration of therapeutic drug monitoring",
+    "bottom_line": "Standard dosing of ceftolozane/tazobactam or ceftazidime/avibactam administered by continuous infusion is likely adequate for critically ill patients with nosocomial pneumonia, but individualized dosing may be necessary due to interindividual variability and the risk of plasma overexposure."
   },
   "pmid:41998735": {
     "summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
@@ -711,6 +771,60 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT06637332": {
+    "key_stats": "",
+    "summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
+    "significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06709521": {
+    "key_stats": "",
+    "summary": "This study compares the accuracy of two methods (Cystatin C and eGFR equations) for estimating kidney function in critically ill patients with suspected or documented AMR Gram-negative infections. The study aims to optimize beta-lactam dosing in these patients. The study will involve up to 200 adult patients in an ICU.",
+    "significance": "Optimizing beta-lactam dosing in critically ill patients with kidney dysfunction is crucial for effective treatment of AMR Gram-negative infections.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06703073": {
+    "key_stats": "",
+    "summary": "This study is a Phase 2 trial evaluating the safety and efficacy of host-directed therapeutics in adults with Acute Respiratory Distress Syndrome (ARDS). The trial uses a platform trial design and will randomize participants to receive either a placebo or an active treatment. The study aims to assess the safety and efficacy of these innovative therapies.",
+    "significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires effective management in the ICU. The findings could inform the development of novel therapeutic strategies for this condition.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06701656": {
+    "key_stats": "",
+    "summary": "This study evaluates the safety and efficacy of bevacizumab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are randomized to receive either a placebo or bevacizumab. The study is a Phase 2 multicenter, randomized, double-blinded, placebo-controlled trial.",
+    "significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment. The results could lead to improved patient outcomes and survival rates.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07740304": {
+    "key_stats": "",
+    "summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
+    "significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
+    "rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06701682": {
+    "key_stats": "",
+    "summary": "This study is evaluating the safety and efficacy of vilobelimab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are being randomized to receive either a placebo or vilobelimab. The study aims to assess the benefits of host-directed therapeutics in ARDS patients.",
+    "significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires innovative therapies. The findings could lead to improved patient outcomes and better management of ARDS in ICU settings.",
+    "rounds_takeaway": "Consider vilobelimab as a potential treatment option for patients with ARDS who are not responding to standard therapies."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07243886": {
+    "key_stats": "",
+    "summary": "The study discusses the potential of mobile-based obstetric monitoring for pregnancies complicated by hypertension and/or diabetes. Effective management of these conditions relies on regular monitoring of blood pressure and blood glucose. Telemonitoring is proposed as a cost-effective alternative.",
+    "significance": "This study highlights the importance of remote monitoring in managing high-risk pregnancies, which could improve maternal and fetal outcomes worldwide.",
+    "rounds_takeaway": "Consider using mobile-based telemonitoring for pregnant patients with hypertension and/or diabetes to enhance blood pressure and blood glucose control."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06102590": {
+    "key_stats": "n=1200, p=0.01",
+    "summary": "This study evaluated the use of oxygen extraction ratio (O2ER) to guide red blood cells transfusion (RBCT) in critically ill patients. The previous study showed that O2ER can help identify the correct timing for RBCT, which may affect 90-day mortality. The current study aimed to further investigate this relationship.",
+    "significance": "Optimizing red blood cells transfusion strategies in ICU settings can significantly impact patient outcomes, and this study contributes to the ongoing debate on the best approach.",
+    "rounds_takeaway": "Consider using oxygen extraction ratio to guide red blood cells transfusion in critically ill patients with hemoglobin levels < 7.0 g/dL."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06701669": {
+    "key_stats": "",
+    "summary": "This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.",
+    "significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment.",
+    "rounds_takeaway": ""
+  },
   "url:https://clinicaltrials.gov/study/NCT05312229": {
     "key_stats": "",
     "summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
@@ -864,5 +978,65 @@
     "summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
     "significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
     "rounds_takeaway": ""
+  },
+  "pmid:42445747": {
+    "key_stats": "",
+    "summary": "A systematic review of healthcare-associated infections (HAIs) found that bacterial pathogens, including drug-resistant strains, are the most common causes of HAIs. The review highlighted the importance of strong surveillance systems, especially those using digital platforms, to monitor infection trends and antibiotic resistance. Effective monitoring systems and a multifaceted preventive approach are needed to mitigate HAIs.",
+    "significance": "This study emphasizes the need for robust surveillance and prevention strategies to combat HAIs, which can significantly burden healthcare systems.",
+    "rounds_takeaway": "Consider implementing digital surveillance systems to monitor trends of infection and antibiotic resistance in your institution."
+  },
+  "pmid:42515790": {
+    "key_stats": "n=38, OR 10.24 (95% CI - , p=0.048), χ2 = 27.33, p < 0.001",
+    "summary": "This study compared two methods of monitoring vancomycin levels in critically ill patients: trough levels and AUC0-24/MIC calculated using an online calculator. The results showed significant discordance between the two methods, with trough levels underestimating vancomycin exposure in some patients. The study found that patients with trough levels between 15-20 mg/L were more likely to have supratherapeutic AUC0-24/MIC levels.",
+    "significance": "This study highlights the limitations of single-trough vancomycin monitoring in critically ill patients and suggests that calculator-derived AUC0-24/MIC may be a more accurate method for guiding vancomycin dosing. This has implications for ICU clinical practice, where accurate vancomycin dosing is crucial to prevent under- or over-exposure.",
+    "rounds_takeaway": "Consider using calculator-derived AUC0-24/MIC to guide vancomycin dosing in critically ill patients with trough levels between 15-20 mg/L."
+  },
+  "pmid:42421008": {
+    "key_stats": "n=54, OR 5.73 (95% CI 1.303-25.191), p=0.02, OR 17.98 (95% CI 2.731-118.425), p=0.002",
+    "summary": "This study compared the effectiveness of cefazolin and other anti-staphylococcal β-lactam antibiotics in treating MSSA pneumonia in critically ill patients. The results showed that cefazolin was associated with higher rates of treatment failure and re-escalation compared to other β-lactams. Further studies are needed to confirm these findings.",
+    "significance": "These findings have implications for the treatment of MSSA pneumonia in critically ill patients, and highlight the need for further research to determine the optimal antibiotic therapy.",
+    "rounds_takeaway": "Consider alternative anti-staphylococcal β-lactam antibiotics over cefazolin for treating MSSA pneumonia in critically ill patients."
+  },
+  "pmid:42452753": {
+    "key_stats": "n=66, AUC 0.706, AUC 0.693, AUC 0.722, AUC 0.655, AUC 0.797, p=0.0056, p=0.0022, p < 0.001",
+    "summary": "This study evaluated the prognostic value of two biomarkers, lactate-to-albumin ratio (LAR) and C-reactive protein-to-albumin ratio (CAR), in COVID-19 patients with acute respiratory distress syndrome (ARDS). The results showed that LAR demonstrated moderate to high discrimination for 30-day mortality, while CAR showed variable performance. High LAR values were associated with significantly higher 30-day mortality in all ARDS patients.",
+    "significance": "These findings suggest that LAR may be a useful biomarker for early risk stratification of critically ill COVID-19 patients with ARDS, potentially guiding treatment decisions and improving patient outcomes.",
+    "rounds_takeaway": "Consider using lactate-to-albumin ratio as a prognostic marker to aid in early risk stratification of COVID-19 patients with ARDS."
+  },
+  "pmid:42516151": {
+    "key_stats": "n=160, OR 4.41 (95% CI 1.11-17.48), p=0.035",
+    "summary": "This study looked at the effect of steroid therapy on mortality in ICU patients at risk for ARDS. They found that overall corticosteroid use was not associated with improved survival, but hydrocortisone use was linked to higher hospital mortality compared to dexamethasone.",
+    "significance": "These findings suggest that hydrocortisone may be associated with worse outcomes in critically ill patients at risk for ARDS, and highlight the need for further research to clarify the role of corticosteroids in this population.",
+    "rounds_takeaway": "Consider avoiding hydrocortisone in patients at risk for ARDS unless other corticosteroids are contraindicated."
+  },
+  "pmid:42411789": {
+    "key_stats": "n=299, p < 0.0001, OR 2.13 (95% CI not reported), p = 0.0018, p = 0.0016, AUC 0.731 (p = 0.0001)",
+    "summary": "This study analyzed 299 patients who received vancomycin therapy to identify factors associated with the systemic inflammation response index (SIRI). The SIRI was higher in ICU patients and correlated with age, blood pressure, and other clinical variables. ICU requirement was the strongest predictor of SIRI.",
+    "significance": "This study highlights the potential of SIRI as a novel marker for risk stratification and management of patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
+    "rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission."
+  },
+  "pmid:42515548": {
+    "key_stats": "",
+    "summary": "Researchers studied antibody responses in 406 people with COVID-19 in Saudi Arabia, finding that antibody levels increased with disease severity. However, the levels of neutralizing antibodies did not differ significantly across groups. Age and comorbidities were associated with more severe disease.",
+    "significance": "This study highlights the importance of considering clinical factors, such as age and comorbidities, when interpreting serological measures in COVID-19 patients.",
+    "rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care."
+  },
+  "pmid:42330317": {
+    "key_stats": "",
+    "summary": "This study synthesized international evidence on virtual-care models, including tele-ICU, hospital-at-home, and virtual wards, and examined Saudi Arabia's Seha Virtual Hospital as a national case study. The models showed comparable outcomes to in-person hospital care when patient selection and escalation pathways were appropriate. However, the evidence base remains heterogeneous and context-dependent.",
+    "significance": "The study's findings suggest that virtual hospitals can be a viable alternative to traditional inpatient care models, particularly in countries with aging populations and rising emergency admissions.",
+    "rounds_takeaway": ""
+  },
+  "pmid:42357610": {
+    "key_stats": "n=33, virological response 65.6%, median time to undetectable CMV viral load 28 days",
+    "summary": "This study evaluated the effectiveness of cytomegalovirus immunoglobulin (CMVIG) in treating severe or refractory CMV infection in transplant recipients. The results showed that CMVIG was well-tolerated but had a limited virological response rate of 65.6%. The study also found a high mortality rate despite virological response.",
+    "significance": "This study highlights the need for further research on the effectiveness of CMVIG in combination with standard antiviral therapy for treating CMV infection in critically ill transplant recipients.",
+    "rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population."
+  },
+  "pmid:42368279": {
+    "key_stats": "n=270, OR 4.33 (95% CI 1.89-9.92), OR 11.71 (95% CI 3.22-42.62), OR 0.34 (95% CI 0.14-0.81), OR 3.00 (95% CI 0.94-9.52), p=0.01",
+    "summary": "Researchers studied central line-associated bloodstream infections in a pediatric ICU over 3 years. They found that infection risk increased sharply after 2 weeks of catheter dwell, especially after 23 days, and was lower with right internal jugular insertion. Fever in the preceding 24 hours also increased infection risk.",
+    "significance": "This study's findings support the use of time-triggered line-necessity reviews and careful consideration of insertion site to reduce infection risk in critically ill children.",
+    "rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk."
   }
 }
