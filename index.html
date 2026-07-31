@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=26" />
+  <link rel="stylesheet" href="style.css?v=27" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -162,6 +162,17 @@
         <div id="guideline-list"></div>
       </div>
     </section>
+    <section class="ksa-section" id="ksa-section" hidden>
+      <div class="trending-heading ksa-heading">
+        <button class="collapse-toggle" id="ksa-collapse-toggle" type="button" aria-expanded="false" aria-controls="ksa-body">▸</button>
+        <h2>🇸🇦 KSA Research</h2>
+        <span class="category-count" id="ksa-count"></span>
+      </div>
+      <div id="ksa-body" class="section-body">
+        <p class="foamed-note">ICU/critical-care research with a Saudi Arabia author affiliation, from the last <span id="ksa-window"></span> days — pulled out of the organ-system categories into its own section rather than duplicated in both places.</p>
+        <div id="ksa-list"></div>
+      </div>
+    </section>
     <section class="trending-section" id="trending-section" hidden>
       <div class="trending-heading">
         <button class="collapse-toggle" id="trending-collapse-toggle" type="button" aria-expanded="false" aria-controls="trending-body">▸</button>
@@ -288,6 +299,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=22"></script>
+  <script src="app.js?v=23"></script>
 </body>
 </html>
