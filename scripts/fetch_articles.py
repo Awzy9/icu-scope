@@ -805,6 +805,80 @@ def ai_summarize(title, text):
     return None
 
 
+# study_type values that get the full structured trial appraisal below
+# instead of the plain summary — the appraisal's fields (design, setting,
+# population, intervention vs. control, etc.) presuppose an actual
+# randomized controlled trial, so it isn't a good fit for reviews,
+# guidelines, or observational studies.
+APPRAISAL_STUDY_TYPES = {"Randomized Controlled Trial"}
+
+APPRAISAL_FIELDS = [
+    "clinical_question",
+    "background",
+    "design",
+    "setting",
+    "population",
+    "intervention",
+    "management_common_to_both_groups",
+    "intervention_fidelity",
+    "outcome",
+    "author_conclusion",
+    "strengths",
+    "weaknesses",
+    "bottom_line",
+]
+
+
+def ai_appraise_trial(title, text):
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                "You are an evidence-based-medicine appraiser producing a structured critical appraisal of a "
+                "single randomized controlled trial, in the style of an EBM journal club (similar to "
+                "thebottomline.org.uk). Always respond with valid JSON only, no other text."
+            ),
+        },
+        {
+            "role": "user",
+            "content": (
+                "Given the title and abstract of a randomized controlled trial below, respond with STRICT JSON "
+                "only, no markdown fences, with exactly these thirteen keys: clinical_question, background, "
+                "design, setting, population, intervention, management_common_to_both_groups, "
+                "intervention_fidelity, outcome, author_conclusion, strengths, weaknesses, bottom_line.\n\n"
+                "clinical_question: the single research question the trial set out to answer, as one sentence.\n\n"
+                "background: 1-2 sentences of clinical context for why this trial was needed.\n\n"
+                "design: the study design (e.g. 'multicentre, randomized, double-blind, placebo-controlled "
+                "trial').\n\n"
+                "setting: where/when the trial was conducted, if stated (country, number of centres, dates).\n\n"
+                "population: inclusion/exclusion criteria and who was enrolled, briefly.\n\n"
+                "intervention: what the intervention group received, versus the control group.\n\n"
+                "management_common_to_both_groups: care or treatment that both the intervention and control "
+                "groups received equally, if stated.\n\n"
+                "intervention_fidelity: any reported measure of protocol adherence or compliance; empty string "
+                "if not reported.\n\n"
+                "outcome: the primary outcome and its result, with numbers if reported (rates, RR/OR/HR, "
+                "confidence interval, p-value).\n\n"
+                "author_conclusion: what the trial's own authors concluded, in their framing.\n\n"
+                "strengths: 1-3 methodological strengths of the trial.\n\n"
+                "weaknesses: 1-3 methodological limitations of the trial.\n\n"
+                "bottom_line: 1-2 sentences of practical takeaway for a treating clinician — the single most "
+                "actionable message.\n\n"
+                "Only state what is explicitly reported in the text — never estimate or infer. Use an empty "
+                "string for any field the text doesn't support."
+                f"\n\nTitle: {title}\n\nText: {text[:3500]}"
+            ),
+        },
+    ]
+    parsed = groq_chat_json(messages, max_tokens=900, temperature=0.2, log_label=title)
+    if not parsed:
+        return None
+    result = {field: (parsed.get(field) or "").strip() for field in APPRAISAL_FIELDS}
+    if any(result.values()):
+        return result
+    return None
+
+
 def article_ai_id(article):
     return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
 
@@ -817,7 +891,7 @@ def gather_ai_targets(categories_out, trending_articles, foamed_articles, guidel
         if not text:
             return
         aid = article_ai_id(article)
-        entry = by_id.setdefault(aid, {"title": article["title"], "text": text, "targets": []})
+        entry = by_id.setdefault(aid, {"title": article["title"], "text": text, "study_type": article.get("study_type"), "targets": []})
         entry["targets"].append(article)
 
     for cat in categories_out:
@@ -852,10 +926,14 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
 
     for aid, entry in by_id.items():
         result = cache.get(aid)
+        is_trial = entry.get("study_type") in APPRAISAL_STUDY_TYPES
         if result is None:
             if remaining_budget <= 0:
                 continue
-            result = ai_summarize(entry["title"], entry["text"])
+            if is_trial:
+                result = ai_appraise_trial(entry["title"], entry["text"])
+            else:
+                result = ai_summarize(entry["title"], entry["text"])
             remaining_budget -= 1
             time.sleep(AI_REQUEST_DELAY)
             if result:
@@ -866,10 +944,13 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
 
         if result:
             for target in entry["targets"]:
-                target["ai_key_stats"] = result.get("key_stats", "")
-                target["ai_summary"] = result["summary"]
-                target["ai_significance"] = result["significance"]
-                target["ai_rounds_takeaway"] = result.get("rounds_takeaway", "")
+                if "bottom_line" in result:
+                    target["ai_appraisal"] = result
+                else:
+                    target["ai_key_stats"] = result.get("key_stats", "")
+                    target["ai_summary"] = result["summary"]
+                    target["ai_significance"] = result["significance"]
+                    target["ai_rounds_takeaway"] = result.get("rounds_takeaway", "")
 
     # Keep the cache bounded to ids still relevant this run.
     pruned_cache = {aid: cache[aid] for aid in by_id if aid in cache}

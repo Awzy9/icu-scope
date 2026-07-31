@@ -1004,6 +1004,27 @@ body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
   font-style: italic;
 }
 
+.appraisal-fields {
+  margin: 0;
+}
+
+.appraisal-fields dt {
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: var(--ai-accent);
+  margin: 0.6rem 0 0.15rem;
+}
+
+.appraisal-fields dt:first-child {
+  margin-top: 0;
+}
+
+.appraisal-fields dd {
+  margin: 0 0 0.3rem;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
 .ask-ai {
   margin: 0.75rem 0 0;
 }
