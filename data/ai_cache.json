@@ -282,10 +282,6 @@
     "summary": "This review of current concepts in nutrition therapy for critically ill patients emphasizes the need for individualized, phase-specific nutrition. Experts discuss how inflammation, disease severity, and metabolic changes influence nutritional responsiveness, and propose personalized strategies for tailoring therapy. They also highlight the importance of micronutrient management and macronutrient adaptation throughout the continuum of critical illness and recovery.",
     "significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that personalized nutrition strategies may improve recovery and functional outcomes for critically ill patients. Robust clinical trials are needed to confirm the impact of these strategies on long-term patient-centered endpoints."
   },
-  "pmid:42262517": {
-    "summary": "This study compared intensive and conventional blood glucose targets in critically ill adults. It found that intensive targets may slightly improve some outcomes like infections and length of stay, but increase the risk of severe hypoglycemia. No difference was seen in mortality.",
-    "significance": "These findings are important for ICU clinicians as they suggest that intensive blood glucose targets may not be worth the increased risk of hypoglycemia, and conventional targets may be a safer choice. However, in select centers with optimized protocols, a lower target may be considered acceptable."
-  },
   "pmid:42228011": {
     "summary": "A study reviewed current evidence on nutritional support in ICU patients, finding that low-calorie and low-protein strategies during the first week may improve recovery and reduce complications. Increasing protein delivery may be harmful, especially in patients with acute kidney injury. Optimal macronutrient targets remain limited.",
     "significance": "This study's findings have significant implications for ICU clinical practice, as they support a cautious, individualized approach to nutritional support, avoiding overfeeding and considering low-calorie, low-protein feeding strategies to improve patient outcomes."
@@ -510,6 +506,21 @@
     "summary": "This study highlights the challenges of airway management in critically ill patients with obesity, including anatomical and physiological alterations that complicate intubation. Non-invasive ventilation and videolaryngoscopy are recommended to mitigate these risks. The optimal approach to intubation in obese patients remains a topic of ongoing research.",
     "significance": "Understanding airway management in obese patients is crucial for improving patient safety and outcomes in the ICU. The findings of this study may prompt clinicians to adopt new strategies for airway management in this high-risk population."
   },
+  "pmid:41914828": {
+    "clinical_question": "Does a lower positive end-expiratory pressure strategy compared to a higher one result in clinically meaningful differences in outcomes for ICU patients without acute respiratory distress syndrome?",
+    "background": "Critically ill patients without acute respiratory distress syndrome require mechanical ventilation, and the optimal positive end-expiratory pressure strategy is unclear.",
+    "design": "Post hoc Bayesian analysis of a non-inferiority multicenter randomized clinical trial",
+    "setting": "Eight ICUs in a multicenter trial conducted between October 2017 and March 2019",
+    "population": "980 ICU patients expected to require invasive mechanical ventilation greater than or equal to 24 hours for reasons other than ARDS",
+    "intervention": "Participants were randomized to the lowest possible PEEP between 0 and 5 cm H2O or to a higher PEEP of 8 cm H2O",
+    "management_common_to_both_groups": "Invasive mechanical ventilation for greater than or equal to 24 hours for reasons other than ARDS",
+    "intervention_fidelity": "",
+    "outcome": "The odds ratio for higher ventilator-free days at day 28 with lower PEEP was 1.08 (95% credible intervals, 0.87-1.35), with probabilities of superiority ranging from 75% to 78% for 28-day mortality and from 11% to 28% for duration of ventilation",
+    "author_conclusion": "The analysis suggested a higher probability of benefit in selected subgroups, particularly patients admitted for other reasons than cardiac arrest or intubated for other reasons than respiratory failure",
+    "strengths": "Post hoc Bayesian analysis allowed for re-examination of the RELAx trial data; The analysis identified potential heterogeneity of treatment effect",
+    "weaknesses": "The study was a post hoc analysis, which may introduce bias; The results may not be generalizable to all ICU patients",
+    "bottom_line": "A lower positive end-expiratory pressure strategy may be beneficial in selected subgroups of ICU patients without acute respiratory distress syndrome, particularly those admitted for reasons other than cardiac arrest or intubated for reasons other than respiratory failure"
+  },
   "pmid:42169048": {
     "summary": "Researchers found that point-of-care ultrasound can quickly identify signs of right ventricular dysfunction and detect thrombus in transit in critically ill patients with suspected pulmonary embolism, helping with timely therapeutic decisions.",
     "significance": "This matters for ICU clinical practice as it provides a rapid diagnostic tool for unstable patients where transport for definitive imaging is not feasible, potentially improving patient outcomes."
@@ -586,6 +597,21 @@
     "strengths": "Single-center, pragmatic design; complete adherence to the ABCDEF bundle in 50% of patients each study day",
     "weaknesses": "Single-center design; no effect on primary outcomes",
     "bottom_line": "The ABCDEF bundle did not reduce delirium incidence or duration, but may have long-term benefits for quality of life"
+  },
+  "pmid:42093058": {
+    "clinical_question": "Does an early restrictive fluid strategy compared to a liberal fluid strategy affect long-term functional outcomes in patients with sepsis-induced hypotension?",
+    "background": "The impact of fluid resuscitation strategies on patient-centered outcomes of sepsis survivors is unknown.",
+    "design": "open-label, randomized controlled trial",
+    "setting": "part of the NIH NHLBI PETAL Network's CLOVERS trial (NCT03434028)",
+    "population": "patients with sepsis-induced hypotension",
+    "intervention": "early restrictive fluid strategy",
+    "management_common_to_both_groups": "",
+    "intervention_fidelity": "",
+    "outcome": "no group differences observed in cognitive function, executive function, disability status, mobility, and health-related quality of life at 6 and 12 months",
+    "author_conclusion": "The restrictive fluid strategy used in this study resulted in similar cognitive and physical function at 6 and 12 months, compared to a liberal fluid strategy.",
+    "strengths": "large sample size; long-term follow-up",
+    "weaknesses": "open-label design; high loss to follow-up",
+    "bottom_line": "A restrictive fluid strategy in sepsis-induced hypotension may be as effective as a liberal strategy for long-term functional outcomes."
   },
   "pmid:41945715": {
     "key_stats": "n=2150, HR 1.04 (95% CI 1.01-1.07), AUC 0.863",
@@ -692,6 +718,10 @@
   "pmid:42409761": {
     "summary": "Clinical pharmacists are increasingly involved in acute stroke care, but their role is inconsistently defined. A consensus statement recommends their involvement in managing acute ischemic and hemorrhagic stroke in emergency departments.",
     "significance": "This matters for ICU clinical practice because optimizing the clinical pharmacist role can improve time-sensitive treatment and equity in care delivery for stroke patients."
+  },
+  "pmid:42262517": {
+    "summary": "This study compared intensive and conventional blood glucose targets in critically ill adults. It found that intensive targets may slightly improve some outcomes like infections and length of stay, but increase the risk of severe hypoglycemia. No difference was seen in mortality.",
+    "significance": "These findings are important for ICU clinicians as they suggest that intensive blood glucose targets may not be worth the increased risk of hypoglycemia, and conventional targets may be a safer choice. However, in select centers with optimized protocols, a lower target may be considered acceptable."
   },
   "pmid:41942818": {
     "summary": "This study developed guidelines for predicting outcomes in critically ill adults with acute ischemic stroke, including avoiding premature predictions and using multimodal assessments. It found that early neurological improvement within 24 hours of revascularization is a moderately reliable predictor of good functional outcome. No other individual predictor was considered reliable for predicting mortality or functional outcome.",
@@ -1009,11 +1039,29 @@
     "significance": "These findings suggest that hydrocortisone may be associated with worse outcomes in critically ill patients at risk for ARDS, and highlight the need for further research to clarify the role of corticosteroids in this population.",
     "rounds_takeaway": "Consider avoiding hydrocortisone in patients at risk for ARDS unless other corticosteroids are contraindicated."
   },
+  "pmid:42444592": {
+    "key_stats": "",
+    "summary": "This study explored ICU nurses' attitudes and decision-making processes regarding physical restraint use in critically ill older patients in Saudi Arabia. Nurses described restraint as a measure to protect patients, but also as a compromise of dignity and autonomy. Decision-making was influenced by clinical urgency, ethical tension, and cultural values.",
+    "significance": "This study highlights the importance of supporting ICU nurses in making restraint decisions and the need for clear evidence-based guidance to minimize restraint use in critically ill older patients.",
+    "rounds_takeaway": "Consider involving families in restraint decisions and exploring alternative safety measures to minimize physical restraint use in critically ill older patients."
+  },
+  "pmid:42261749": {
+    "key_stats": "",
+    "summary": "This qualitative study explored nurses' experiences with AI-enabled decision support systems in emergency and intensive care units. Nurses found these systems both helpful and burdensome, and reported increased interpretive work, accountability, and ethical tension. The study highlights the need for human-centered governance and AI literacy to support safe AI integration in acute care.",
+    "significance": "This study's findings emphasize the importance of supporting nurses with AI integration, ensuring they maintain professional judgment and moral agency in high-acuity settings.",
+    "rounds_takeaway": "Consider implementing human-centered governance and AI literacy education to support nurses in critically engaging with decision support systems."
+  },
   "pmid:42411789": {
     "key_stats": "n=299, p < 0.0001, OR 2.13 (95% CI not reported), p = 0.0018, p = 0.0016, AUC 0.731 (p = 0.0001)",
     "summary": "This study analyzed 299 patients who received vancomycin therapy to identify factors associated with the systemic inflammation response index (SIRI). The SIRI was higher in ICU patients and correlated with age, blood pressure, and other clinical variables. ICU requirement was the strongest predictor of SIRI.",
     "significance": "This study highlights the potential of SIRI as a novel marker for risk stratification and management of patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
     "rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission."
+  },
+  "pmid:42506747": {
+    "key_stats": "n=172, p < 0.001",
+    "summary": "This study compared neutralizing antibody levels among individuals vaccinated with different vaccines, across various ethnicities, and between genders. The results showed that NAB levels varied significantly across vaccination status, ethnicity, and vaccine type. The study found that vaccinated healthy participants, females, and those who received the Pfizer vaccine had the highest median NAB levels.",
+    "significance": "These findings highlight the importance of considering individual factors when developing immunization strategies to optimize protective immunity against COVID-19.",
+    "rounds_takeaway": "Consider tailoring immunization strategies to individual patient factors, such as vaccination status, ethnicity, and age, to optimize protective immunity."
   },
   "pmid:42515548": {
     "key_stats": "",
@@ -1027,16 +1075,64 @@
     "significance": "The study's findings suggest that virtual hospitals can be a viable alternative to traditional inpatient care models, particularly in countries with aging populations and rising emergency admissions.",
     "rounds_takeaway": ""
   },
+  "pmid:42299538": {
+    "key_stats": "n=7628, mean LOS 4.3±7.3 days, OR sepsis 5.56 (95% CI 3.42-9.04), OR NG tube 2.42 (95% CI 1.88-3.13), OR antibiotics 2.07 (95% CI 1.81-2.38), Exp(B) tracheostomy 3.33, Exp(B) sepsis 1.63, Exp(B) mechanical ventilation 1.60, p<.001",
+    "summary": "This study analyzed data from 7628 ICU admissions to identify factors affecting the length of stay. The results showed that sepsis, receiving nutrition via a nasogastric tube, and receiving antibiotics were significantly associated with prolonged ICU stay. Illness severity, intensity of supportive care, and patterns of clinical management were the main contributors to prolonged ICU stay.",
+    "significance": "Identifying these factors can help optimize patient care, minimize complications, and alleviate healthcare costs within critical care settings.",
+    "rounds_takeaway": "Consider sepsis as a potential cause of prolonged ICU stay in patients with prolonged hospitalization."
+  },
+  "pmid:42240436": {
+    "key_stats": "",
+    "summary": "This review examined current methods for assessing tissue perfusion in critically ill patients. It found that a combination of monitoring tools, including capillary refill time, can provide a more accurate picture of perfusion. The review suggests that monitoring should be individualized and guided by patient risk and uncertainty.",
+    "significance": "This review provides a framework for clinicians to assess tissue perfusion in critically ill patients, which can help guide resuscitation efforts and reduce unnecessary therapeutic escalation.",
+    "rounds_takeaway": "Consider using capillary refill time as a clinical anchor for perfusion assessment, and escalate monitoring based on patient risk and uncertainty."
+  },
   "pmid:42357610": {
     "key_stats": "n=33, virological response 65.6%, median time to undetectable CMV viral load 28 days",
     "summary": "This study evaluated the effectiveness of cytomegalovirus immunoglobulin (CMVIG) in treating severe or refractory CMV infection in transplant recipients. The results showed that CMVIG was well-tolerated but had a limited virological response rate of 65.6%. The study also found a high mortality rate despite virological response.",
     "significance": "This study highlights the need for further research on the effectiveness of CMVIG in combination with standard antiviral therapy for treating CMV infection in critically ill transplant recipients.",
     "rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population."
   },
+  "pmid:42472230": {
+    "key_stats": "n=5582, OR 1.82 (95% CI 1.45-2.28), p<0.001",
+    "summary": "This study investigated respiratory bacterial pathogens in a Saudi hospital from 2023-2025. The most common pathogens were Pseudomonas aeruginosa and Klebsiella spp. Multidrug-resistant organisms (MDROs) were prevalent, especially in critical care settings and during the summer months.",
+    "significance": "This study highlights the need for intensified infection control measures and antimicrobial stewardship to reduce MDRO transmission and improve patient outcomes in critical care settings.",
+    "rounds_takeaway": "Consider enhanced infection control measures and antimicrobial stewardship in critically ill patients during the summer months."
+  },
   "pmid:42368279": {
     "key_stats": "n=270, OR 4.33 (95% CI 1.89-9.92), OR 11.71 (95% CI 3.22-42.62), OR 0.34 (95% CI 0.14-0.81), OR 3.00 (95% CI 0.94-9.52), p=0.01",
     "summary": "Researchers studied central line-associated bloodstream infections in a pediatric ICU over 3 years. They found that infection risk increased sharply after 2 weeks of catheter dwell, especially after 23 days, and was lower with right internal jugular insertion. Fever in the preceding 24 hours also increased infection risk.",
     "significance": "This study's findings support the use of time-triggered line-necessity reviews and careful consideration of insertion site to reduce infection risk in critically ill children.",
     "rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk."
+  },
+  "pmid:42318382": {
+    "key_stats": "n=1236, systolic blood pressure reductions 5-22 mmHg, diastolic blood pressure reductions 3.7-14 mmHg, heart rate increases up to 20 bpm, anxiety reduction 86%, sleep quality improvement 100%, pain improvement 100%, sedation outcomes 100%",
+    "summary": "This systematic review evaluated the effects of aromatherapy on physiological outcomes in adult ICU patients. Aromatherapy showed moderate effects on cardiovascular parameters, limited effects on respiratory parameters, and strong effects on anxiety, sleep quality, pain, and sedation outcomes. The review highlights the need for further research to understand the mechanisms of aromatherapy in ICU settings.",
+    "significance": "These findings suggest that aromatherapy may be a useful adjunctive intervention in critically ill patients, particularly for reducing anxiety and improving sleep quality. However, the evidence is limited by inadequate control for ICU-specific confounders and the absence of biochemical outcome measurements.",
+    "rounds_takeaway": "Consider using aromatherapy as an adjunctive intervention to reduce anxiety in critically ill patients."
+  },
+  "pmid:42267263": {
+    "key_stats": "",
+    "summary": "A healthcare worker developed severe polymicrobial keratitis after exposure to nasogastric secretions while caring for a patient. The infection was caused by Acanthamoeba and multiple bacteria. The patient required intensive treatment and surgery to control the infection.",
+    "significance": "This case highlights the risk of occupationally acquired infections in healthcare workers, particularly those who wear contact lenses and are exposed to hospital-associated microorganisms.",
+    "rounds_takeaway": "Consider contact lens precautions and infection-control measures for healthcare workers at risk of gastrointestinal splash exposure."
+  },
+  "pmid:42247411": {
+    "key_stats": "n=144, 28-day mortality 45.5% vs 18.2% (p=0.05), IL7R downregulation",
+    "summary": "This study analyzed gene expression in ICU patients with sepsis caused by pneumonia. They found that patients who developed infections in the ICU had different gene expression patterns, particularly a downregulation of the IL7R gene, which may be associated with worse outcomes.",
+    "significance": "These findings suggest that early immune dysregulation may be a key factor in the development of secondary infections and poor outcomes in patients with community-acquired pneumonia-induced sepsis.",
+    "rounds_takeaway": "Consider checking IL7R expression in patients with CAP-induced sepsis who develop ICU-acquired infections."
+  },
+  "pmid:42238830": {
+    "key_stats": "n=188, p < 0.05, 14.9% epileptiform abnormalities, 14.3% periodic abnormalities, 11.2% electrographic seizures",
+    "summary": "This study analyzed EEGs from 188 ICU patients to see how often seizures occurred and what factors were associated with them. They found that seizures were more common in older patients, those admitted to the ICU due to status epilepticus, and those with a history of epilepsy. Epileptiform abnormalities were seen in 14.9% of patients.",
+    "significance": "This study highlights the importance of routine EEGs in ICU patients with altered mental status, particularly for seizure evaluation, and identifies key factors associated with seizure occurrence.",
+    "rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus."
+  },
+  "pmid:42251513": {
+    "key_stats": "n=228, ETT size 7.5 mm, rs=0.341 (P<.001), rs=0.190 (p=0.004), aOR 2.38 (95% CI 1.12-5.05), aOR 2.31 (95% CI 1.10-4.86), aOR 1.20 (95% CI 1.02-1.42), aOR 1.95 (95% CI 1.20-3.16), 77% non-compliance with guidelines",
+    "summary": "This study reviewed endotracheal tube (ETT) size selection in critically ill patients over 4 years at a Saudi Arabian hospital. The researchers found that ETT size was not consistently chosen according to established guidelines and was associated with patient demographics such as height, sex, and age. They also identified factors that predicted larger ETT size.",
+    "significance": "This study highlights the need for more structured and evidence-based approaches to ETT size selection in ICU patients, which could improve patient outcomes and reduce complications.",
+    "rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes."
   }
 }
