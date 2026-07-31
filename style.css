@@ -1252,6 +1252,12 @@ mark {
   overflow: hidden;
   opacity: 1;
   transition: max-height 0.35s ease, opacity 0.25s ease;
+  /* iOS Safari sometimes leaves a stale blank area below a collapsing
+     section — the layout is actually correct underneath (content shifts
+     up immediately), it just doesn't repaint until something forces it,
+     like a scroll. Promoting this element to its own compositing layer
+     avoids that stale-paint bug. */
+  transform: translateZ(0);
 }
 
 .section-body.collapsed {
