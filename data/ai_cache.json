@@ -54,6 +54,10 @@
     "summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
     "significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates."
   },
+  "pmid:42315625": {
+    "summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
+    "significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability."
+  },
   "pmid:42365349": {
     "summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
     "significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery."
@@ -77,9 +81,19 @@
     "summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
     "significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients."
   },
+  "pmid:42320025": {
+    "summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
+    "significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects."
+  },
   "pmid:42283370": {
     "summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
     "significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients."
+  },
+  "pmid:42237139": {
+    "key_stats": "",
+    "summary": "Critically ill patients with sepsis and shock often have high lactate levels, but this doesn't always mean they're not getting enough oxygen. Lactate is a key metabolic intermediate that reflects the balance between production, utilization, and clearance. The kidneys play a significant role in lactate utilization and clearance, especially in patients with acute kidney injury.",
+    "significance": "Understanding lactate biology in critical illness can help clinicians interpret lactate levels more accurately and develop more effective management strategies for septic acute kidney injury.",
+    "rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function."
   },
   "pmid:42504332": {
     "summary": "A 60-year-old woman with spondylodiscitis due to Staphylococcus aureus developed a life-threatening aortic fistula and mycotic pseudoaneurysm, leading to rapid deterioration and death. This case highlights the serious complications of spondylodiscitis and the importance of early multidisciplinary intervention. Contrast-enhanced MRI was crucial in diagnosing the condition.",
@@ -89,6 +103,16 @@
     "summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
     "significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly."
   },
+  "pmid:42216195": {
+    "key_stats": "",
+    "summary": "This review discusses the challenges of diagnosing and managing Triple M overlap syndrome, a severe and lethal immune-related adverse event in critically ill patients. It highlights key diagnostic pitfalls and proposes a structured ICU-oriented approach to improve outcomes. Early recognition and parallel evaluation for infection and immune-mediated disease are essential.",
+    "significance": "Early recognition and management of Triple M overlap syndrome are crucial to improving outcomes in critically ill patients, as delays in treatment can lead to increased mortality.",
+    "rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease."
+  },
+  "pmid:42188994": {
+    "summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
+    "significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU."
+  },
   "pmid:42502493": {
     "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
     "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
@@ -96,6 +120,12 @@
   "pmid:42495753": {
     "summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
     "significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients."
+  },
+  "pmid:42535902": {
+    "key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
+    "summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
+    "significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
+    "rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
   },
   "pmid:42502162": {
     "clinical_question": "Does toothbrushing with chlorhexidine mouth rinse reduce the incidence of ventilator-associated pneumonia in PICU patients compared to routine oral care with chlorhexidine rinse?",
@@ -167,10 +197,6 @@
     "summary": "This study looked at how well a kidney protection strategy was implemented in critically ill patients with acute kidney injury. They found that about a third of patients received the full strategy, and those who did had a higher rate of kidney recovery. The study also found a link between the number of strategy components implemented and better kidney outcomes.",
     "significance": "This study is important for ICU clinicians because it highlights the need to implement a kidney protection strategy in critically ill patients with acute kidney injury to improve kidney recovery rates."
   },
-  "pmid:42320025": {
-    "summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
-    "significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects."
-  },
   "pmid:42316318": {
     "summary": "This study evaluated a nurse-led family participatory support intervention in ICU patients. The intervention significantly reduced the incidence of delirium and was associated with shorter hospital and ICU stays, lower hospitalization costs, and shorter durations of mechanical ventilation.",
     "significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that a structured, nurse-led family participatory support intervention can improve patient outcomes and reduce costs without increasing risks."
@@ -217,10 +243,6 @@
   "pmid:42393760": {
     "summary": "Researchers used high-resolution monitoring to study light exposure in ICU patients over 14 million measurements. They found that light exposure is fragmented, with frequent short-duration light events at night, and limited sustained darkness. This may contribute to circadian dysregulation.",
     "significance": "Understanding light exposure patterns in ICUs is crucial for developing targeted interventions to prevent circadian dysregulation and its associated adverse outcomes in critically ill patients."
-  },
-  "pmid:42315625": {
-    "summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
-    "significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability."
   },
   "pmid:42502517": {
     "summary": "A critically ill patient developed endophthalmitis after a car accident, despite not showing symptoms due to sedation. Urgent treatment was attempted, but the disease progressed to corneal perforation requiring enucleation. Early lens dislocation was a poor prognostic feature.",
@@ -446,10 +468,6 @@
   "pmid:42206945": {
     "summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
     "significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay."
-  },
-  "pmid:42188994": {
-    "summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
-    "significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU."
   },
   "pmid:42496126": {
     "summary": "This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.",
@@ -1122,6 +1140,12 @@
     "summary": "Researchers studied the C-reactive protein-to-albumin ratio (CAR) as a prognostic marker in ICU patients with pre-existing hypertension and diabetes. They found that higher CAR levels were associated with increased 30-day mortality. CAR may be a useful tool for mortality risk stratification in these patients.",
     "significance": "This study's findings suggest that CAR could help clinicians identify ICU patients with pre-existing hypertension and diabetes who are at higher risk of mortality, allowing for more targeted care.",
     "rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes."
+  },
+  "pmid:42237964": {
+    "key_stats": "n=505, 64.4% male, 33.5% diabetes mellitus, 34.3% hypertension, 86.1% CTAS level 2, mean ED LOS 5.5 hours, 68.7% hospitalization, mean hospitalization 13 days, 8.5% mortality, 14.3% CTAS 1 mortality, 7.6% CTAS 2 mortality",
+    "summary": "This study reviewed the outcomes of 505 critically ill patients presenting to the emergency department of a tertiary care center in Jeddah, Saudi Arabia. The majority were male, had diabetes or hypertension, and required hospitalization. The mortality rate was 8.5%.",
+    "significance": "Understanding the characteristics and outcomes of critically ill patients in the emergency department can inform resource allocation and guide future planning in similar settings.",
+    "rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath."
   },
   "pmid:42472230": {
     "key_stats": "n=5582, OR 1.82 (95% CI 1.45-2.28), p<0.001",

@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Fri, 31 Jul 2026 15:52:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2026 16:42:14 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -32,6 +32,20 @@
       <guid isPermaLink="false">pmid:42467893</guid>
       <category>GI &amp; Nutrition</category>
       <description></description>
+    </item>
+    <item>
+      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
+      <guid isPermaLink="false">pmid:42535902</guid>
+      <category>Respiratory</category>
+      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
+    </item>
+    <item>
+      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
+      <guid isPermaLink="false">pmid:42535902</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
     </item>
     <item>
       <title>Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia</title>
@@ -410,20 +424,6 @@
       <guid isPermaLink="false">pmid:42490008</guid>
       <category>Hematology &amp; Coagulation</category>
       <description>This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.</description>
-    </item>
-    <item>
-      <title>Pressure-targeted neurocritical care at the bedside: the emerging role of transcranial doppler.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42493813/</link>
-      <guid isPermaLink="false">pmid:42493813</guid>
-      <category>Cardiovascular</category>
-      <description>This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.</description>
-    </item>
-    <item>
-      <title>Metabolomic Signatures of Biotrauma Associated with Mortality in ICU Patients Requiring Invasive Mechanical Ventilation and ECMO.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42506467/</link>
-      <guid isPermaLink="false">pmid:42506467</guid>
-      <category>Respiratory</category>
-      <description>This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.</description>
     </item>
   </channel>
 </rss>

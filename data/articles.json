@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T15:52:20+00:00",
+  "generated_at": "2026-07-31T16:42:14+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -2355,7 +2355,11 @@
         "pages": "689-694",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13227370/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42237964/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42237964/",
+        "ai_key_stats": "n=505, 64.4% male, 33.5% diabetes mellitus, 34.3% hypertension, 86.1% CTAS level 2, mean ED LOS 5.5 hours, 68.7% hospitalization, mean hospitalization 13 days, 8.5% mortality, 14.3% CTAS 1 mortality, 7.6% CTAS 2 mortality",
+        "ai_summary": "This study reviewed the outcomes of 505 critically ill patients presenting to the emergency department of a tertiary care center in Jeddah, Saudi Arabia. The majority were male, had diabetes or hypertension, and required hospitalization. The mortality rate was 8.5%.",
+        "ai_significance": "Understanding the characteristics and outcomes of critically ill patients in the emergency department can inform resource allocation and guide future planning in similar settings.",
+        "ai_rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath."
       },
       {
         "pmid": "42472230",
@@ -3177,7 +3181,8 @@
             "weaknesses": "open-label design; non-inferiority trial",
             "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
           },
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42493813",
@@ -3203,7 +3208,8 @@
           "ai_summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
           "ai_significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506042",
@@ -3228,7 +3234,8 @@
           "ai_summary": "This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.",
           "ai_significance": "Preventing dependency-related skin injuries is crucial in critical care, as they can lead to prolonged hospital stays, increased healthcare costs, and decreased patient quality of life. Identifying high-risk patients and implementing preventive measures can help mitigate this issue.",
           "ai_rounds_takeaway": "",
-          "link_broken": true
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506109",
@@ -3260,7 +3267,8 @@
           "ai_summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
           "ai_significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes.",
           "ai_rounds_takeaway": "",
-          "link_broken": true
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506363",
@@ -3288,7 +3296,8 @@
           "ai_summary": "This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.",
           "ai_significance": "These findings highlight the importance of early and accurate antibiotic therapy and infection source identification in septic shock, and suggest that vasopressor trajectories may be a useful tool for guiding clinical decision-making.",
           "ai_rounds_takeaway": "",
-          "link_broken": true
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42442528",
@@ -3395,7 +3404,8 @@
           "ai_summary": "The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.",
           "ai_significance": "This study will facilitate phenotyping of critical illness syndromes, potentially leading to more targeted and effective treatments for ARDS, pneumonia, and sepsis in ICU patients.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432793",
@@ -3423,7 +3433,8 @@
           "ai_summary": "This study evaluated the feasibility and prognostic value of echocardiographic parameters in a mixed ICU population. It found that impaired mitral annular plane systolic excursion (MAPSE) and global longitudinal strain (GLS) were associated with increased mortality. MAPSE was also the most feasible measurement.",
           "ai_significance": "These findings suggest that incorporating MAPSE into routine ICU echocardiography may improve detection and risk stratification of left ventricular dysfunction in critical illness, potentially leading to better patient outcomes.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432771",
@@ -3455,7 +3466,8 @@
           "ai_summary": "Researchers developed a new method using electrical impedance tomography (EIT) to quickly and non-invasively diagnose pulmonary embolism (PE) in critically ill patients. The method uses a frequency-domain band-pass filter to extract perfusion-related pulsatility and separate it from ventilation-related low-frequency components. The study found that the method can accurately diagnose PE and risk-stratify patients based on three key parameters.",
           "ai_significance": "This study has significant implications for ICU clinical practice as it provides a novel, non-invasive method for diagnosing and risk-stratifying patients with pulmonary embolism, which is a major cause of morbidity and mortality in critical care.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42418776",
@@ -3481,7 +3493,8 @@
           "ai_summary": "Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.",
           "ai_significance": "This study informs ICU clinicians to adopt a restrictive nutrition approach, avoiding full-dose energy delivery and high-dose protein, to minimize complications and promote recovery in critically ill patients.",
           "ai_rounds_takeaway": "",
-          "link_broken": true
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42507507",
@@ -3510,7 +3523,8 @@
           "ai_summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
           "ai_significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42507344",
@@ -3542,7 +3556,42 @@
           "ai_summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
           "ai_significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42315625",
+          "title": "How to optimize brain perfusion and prevent cerebral complications during extracorporeal life support.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Jul",
+          "authors": [
+            "Dauwe DF",
+            "Cho SM",
+            "Gijs J",
+            "Burrell A",
+            "Badulak J",
+            "Vandenbriele C",
+            "Levy B",
+            "Brady K",
+            "Combes A"
+          ],
+          "doi": "10.1007/s00134-026-08502-6",
+          "abstract": "Extracorporeal life support (ECLS) is increasingly used to rescue patients with refractory respiratory failure, cardiogenic shock and/or cardiac arrest. Acute brain injury during ECLS is common and associated with a significant increase in mortality and long-term disability. Brain injury in ECLS patients can arise from either the underlying disease or pre-ECLS events, such as cardiac arrest, or from secondary mechanisms linked to ECLS-related complications, management strategies, and physiologic perturbations during support. In this review, we will focus on the modifiable factors and clinical management strategies to prevent or mitigate secondary brain injury during ECLS. Both veno-arterial membrane oxygenation (VA-ECMO) as well as veno-venous membrane oxygenation (VV-ECMO) will be discussed. First, we provide an overview of the interplay between patient and circuit related factors that determine brain perfusion and oxygen delivery in this critically ill patient population. Second, we highlight the importance of standardized multimodal neuromonitoring to detect evolving brain injury early and to guide individualized neurocritical care and ECLS management. Third, we identify modifiable ECLS factors and physiological targets which minimize secondary brain injury. We provide guidance on the titration of extracorporeal blood flow and blood pressure targets, the amount of sweep gas flow and oxygen fraction, temperature control and anticoagulation management. A comprehensive understanding of ECLS physiology and circuit-patient interactions, integrated with protocolized multimodal monitoring, enables individualized adjustment of modifiable ECLS settings to prevent or mitigate secondary brain injury.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "7",
+          "pages": "1496-1513",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42315625/",
+          "ai_key_stats": "",
+          "ai_summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
+          "ai_significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability.",
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42365349",
@@ -3576,7 +3625,8 @@
           "ai_summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
           "ai_significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42150112",
@@ -3621,7 +3671,8 @@
             "weaknesses": "no information on intervention fidelity; secondary outcomes not reported in detail",
             "bottom_line": "Use 4% tetrasodium EDTA locking fluid for central venous access devices to reduce the risk of infection, occlusion, and thrombolytic use in adult patients in the ICU"
           },
-          "link_broken": true
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42332804",
@@ -3654,7 +3705,45 @@
           "ai_summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
           "ai_significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42320025",
+          "title": "Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Jun 19",
+          "authors": [
+            "Zochios V",
+            "Brewer JM",
+            "Velia Antonini M",
+            "Brodie D",
+            "Peek GJ",
+            "Schmidt M",
+            "Camporota L",
+            "Doyle J",
+            "Tschernko E",
+            "J Schultz M",
+            "Yusuff H",
+            "endorsing societies of Faculty of Intensive Care Medicine (FICM); Pulmonary Vascular Research Institute (PVRI); Protective Ventilation Network (PROVE Network); Association for Cardiothoracic Anaesthesia and Critical Care (ACTACC); Society of Mechanical Ventilation (SMV); Protecting the Right Ventricle Network (PRORVnet)"
+          ],
+          "doi": "10.1093/ajrccm/aamag321",
+          "abstract": "Extracorporeal life support provides temporary cardiorespiratory support for patients with severe, potentially reversible cardiac and/or respiratory failure refractory to conventional measures. Its application has broadened across a wide spectrum of critical illness, yet the mechanistic basis of its physiological benefit remains incompletely defined.This review explores the mechanisms through which extracorporeal life support may confer benefit in respiratory and cardiac failure. These include restoration of gas exchange, optimization of circulatory dynamics, and mitigation of secondary organ injuries, creating conditions that facilitate tissue repair, enable adjunctive therapies, and in selected cases, provide a bridge to transplantation. In isolated respiratory failure, respiratory extracorporeal life support stabilizes gas exchange and modulates respiratory drive, enabling lung-protective ventilation and potentially attenuating ventilator- and patient self-inflicted lung injury. In cardiogenic shock, cardiac extracorporeal life support restores systemic perfusion and may reduce myocardial oxygen demand, while during cardiac arrest it may confer neuro-protective effects. In combined cardiorespiratory failure, advanced extracorporeal support modalities may augment both systemic and pulmonary circulation, supporting gas exchange and maintaining end-organ perfusion. Mechanistically, these interventions interrupt the cascade of hypoxemia- and/or hypercapnia- induced pulmonary vasoconstriction, right ventricular overload, and systemic hypoperfusion, facilitating multi-organ recovery. Optimizing patient selection, timing for extracorporeal life support initiation, and use of adjunctive therapies require a nuanced understanding of the interplay between these physiological pathways alongside careful considerations of key limitations including device-related complications, hematologic and inflammatory perturbations, and physiological trade-offs. This concise clinical review synthesizes the current literature on the mechanistic basis of extracorporeal life support in adults.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42320025/",
+          "ai_key_stats": "",
+          "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
+          "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42283370",
@@ -3705,7 +3794,36 @@
           "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
           "ai_rounds_takeaway": "",
-          "link_broken": true
+          "link_broken": true,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42237139",
+          "title": "Hyperlactatemia in sepsis and shock: a renal metabolic perspective.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Jun 3",
+          "authors": [
+            "Payen D",
+            "Rimmelé T",
+            "Gómez H"
+          ],
+          "doi": "10.1186/s13054-026-06095-6",
+          "abstract": "Hyperlactatemia is a frequent finding in critically ill patients and is traditionally interpreted as a marker of tissue hypoxia and anaerobic metabolism. However, in sepsis, septic shock, and other states of circulatory failure - including post-cardiac arrest syndrome - elevated lactate concentrations often occur despite preserved arterial oxygenation and adequate oxygen delivery. Increasing evidence indicates that lactate is a central metabolic intermediate whose circulating concentration reflects the balance between stress-induced production, cellular utilization, and organ clearance. While hepatic metabolism has long been considered the dominant pathway for lactate disposal, the kidneys - particularly proximal tubular cells - play a major and often underappreciated role in lactate utilization and clearance. Acute kidney injury (AKI), a common complication of sepsis, directly alters systemic lactate homeostasis. In this narrative review, we synthesize current knowledge on lactate biology in critical illness and examine the contribution of renal metabolism to hyperlactatemia in patients with sepsis-induced AKI. We propose that lactate should be interpreted as an integrated metabolic signal reflecting systemic stress and impaired clearance - rather than as a surrogate for hypoxia alone - with important implications for the management of septic AKI. The potential of urinary lactate as a marker of proximal tubular metabolic dysfunction and the emerging role of protein lactylation in modulating the inflammatory-to-reparative phenotypic transition are also discussed.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42237139/",
+          "ai_key_stats": "",
+          "ai_summary": "Critically ill patients with sepsis and shock often have high lactate levels, but this doesn't always mean they're not getting enough oxygen. Lactate is a key metabolic intermediate that reflects the balance between production, utilization, and clearance. The kidneys play a significant role in lactate utilization and clearance, especially in patients with acute kidney injury.",
+          "ai_significance": "Understanding lactate biology in critical illness can help clinicians interpret lactate levels more accurately and develop more effective management strategies for septic acute kidney injury.",
+          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42504332",
@@ -3732,7 +3850,8 @@
           "ai_summary": "A 60-year-old woman with spondylodiscitis due to Staphylococcus aureus developed a life-threatening aortic fistula and mycotic pseudoaneurysm, leading to rapid deterioration and death. This case highlights the serious complications of spondylodiscitis and the importance of early multidisciplinary intervention. Contrast-enhanced MRI was crucial in diagnosing the condition.",
           "ai_significance": "This case emphasizes the need for prompt recognition and treatment of spondylodiscitis to prevent catastrophic vascular complications, and highlights the value of contrast-enhanced MRI in diagnosing such cases.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502537",
@@ -3763,7 +3882,74 @@
           "ai_summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
           "ai_significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42216195",
+          "title": "Triple M overlap syndrome in the intensive care unit: differential diagnosis and management.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 May 29",
+          "authors": [
+            "Shah C",
+            "Rajalbandi RS",
+            "Seshadri V",
+            "Chandra A",
+            "Abidoye O",
+            "Battley J"
+          ],
+          "doi": "10.1186/s13054-026-06106-6",
+          "abstract": "BACKGROUND: Immune checkpoint inhibitors (ICIs) are increasingly used as first-line therapy for various malignancies and are associated with a growing spectrum of immune-related adverse events. While many toxicities are managed in the outpatient setting, a clinically significant subset progresses to life-threatening multisystem disease requiring intensive care. Among these, the Triple M overlap syndrome, characterized by concurrent myasthenia gravis-like disease, inflammatory myositis, and myocarditis, represents the most severe and lethal phenotype encountered in critical care. MAIN TEXT: Triple M overlap syndrome presents unique diagnostic and management challenges in critically ill patients. Clinical features frequently overlap with sepsis, pneumonia, thromboembolism, and cardiopulmonary disease, creating significant diagnostic uncertainty. In addition, traditional diagnostic tools such as myasthenia gravis antibody testing and early cardiac imaging may be normal or nondiagnostic early in the disease course. This review focuses on the recognition and management of Triple M overlap syndrome in the intensive care unit. We highlight key diagnostic pitfalls, including the frequent under-recognition of occult myocarditis and the limitations of electrophysiologic and serologic testing. A structured ICU-oriented approach is proposed, emphasizing early multisystem evaluation with creatine kinase, serial troponins, electrocardiography, and cardiac imaging, alongside concurrent assessment for infection. Management strategies include prompt discontinuation of ICIs, early initiation of corticosteroids, and escalation to intravenous immunoglobulin or plasma exchange for severe neuromuscular involvement. Cardiac complications require close monitoring and early immunosuppression. Targeted therapies such as abatacept are discussed in the context of myocarditis, with current evidence limited primarily to cardiac involvement. This review emphasizes a practical ICU-oriented framework incorporating parallel evaluation for immune-mediated toxicity and infection in critically ill patients. CONCLUSION: Triple M overlap syndrome represents a high-risk and often underrecognized manifestation of ICI toxicity in critically ill patients. Early recognition, parallel evaluation for infection and immune-mediated disease, and coordinated multisystem management are essential to improving outcomes. Greater awareness and structured diagnostic approaches may reduce delays in treatment and associated mortality.",
+          "citation_count": 45,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13418458/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42216195/",
+          "ai_key_stats": "",
+          "ai_summary": "This review discusses the challenges of diagnosing and managing Triple M overlap syndrome, a severe and lethal immune-related adverse event in critically ill patients. It highlights key diagnostic pitfalls and proposes a structured ICU-oriented approach to improve outcomes. Early recognition and parallel evaluation for infection and immune-mediated disease are essential.",
+          "ai_significance": "Early recognition and management of Triple M overlap syndrome are crucial to improving outcomes in critically ill patients, as delays in treatment can lead to increased mortality.",
+          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42188994",
+          "title": "Red Cell Transfusion in Critically Ill and Noncritically Ill Patients With Acute Myocardial Infarction and Anemia-A Subanalysis of the Myocardial Ischemia and Transfusion (MINT) Trial.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 May 25",
+          "authors": [
+            "Cooper HA",
+            "Fordyce CB",
+            "Herbert BM",
+            "Alexander JH",
+            "Rao SV",
+            "Brooks MM",
+            "Bertolet M",
+            "Carson JL",
+            "Hébert PC",
+            "Myocardial Ischemia and Transfusion (MINT) Trial Investigators"
+          ],
+          "doi": "10.1097/CCM.0000000000007211",
+          "abstract": "OBJECTIVES: Anemia is common in critically ill patients. In prior trials, a restrictive transfusion strategy was at least as effective as, and possibly superior to, a liberal strategy in critically ill adult patients. However, the Transfusion Requirements in Critical Care (TRICC) trial suggested that a restrictive strategy might be harmful in critically ill patients with ischemic heart disease. Our objective was to compare outcomes for restrictive and liberal transfusion strategies in critically ill and noncritically ill patients with acute myocardial infarction (AMI) and anemia. DESIGN: Subgroup analysis of a parallel, two-arm randomized, controlled trial. SETTING: One hundred forty-four sites in the United States, Canada, France, Brazil, New Zealand, and Australia. PATIENTS: Adult patients with AMI and anemia enrolled in the Myocardial Ischemia and Transfusion (MINT) trial. Patients being treated in an ICU at randomization were considered critically ill. INTERVENTIONS: Patients were randomly assigned to a restrictive (transfuse when hemoglobin < 7-8 g/dL) or liberal (transfuse when hemoglobin < 10 g/dL) transfusion strategy. MEASUREMENTS AND MAIN RESULTS: We determined the effect of transfusion strategy on death and the composite of death/myocardial infarction (MI) at 30 days among critically ill and noncritically ill patients. Of 3504 patients enrolled in MINT, 1679 (47.9%) were critically ill. At 30 days, death (11.9% vs. 6.5%) and death/MI (18.9% vs. 12.7%) occurred more frequently in critically ill patients compared with noncritically ill patients. A restrictive, compared with a liberal, transfusion strategy resulted in a nonsignificant increase in the risk of death by 9% (risk ratio [RR], 1.09; 95% CI, 0.77-1.54) and death/MI by 9% (RR, 1.09; 95% CI, 0.85-1.38) in noncritically ill patients and a nonsignificant increase in the risk of death by 24% (RR, 1.24; 95% CI, 0.95-1.61; interaction p = 0.55) and death/MI by 21% (RR, 1.21; 95% CI, 0.99-1.47; interaction p = 0.52) in critically ill patients. CONCLUSIONS: There is no evidence that the overall MINT trial results, which generally favor a liberal transfusion strategy in AMI patients, apply differently to noncritically ill and critically ill patients.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42188994/",
+          "ai_key_stats": "",
+          "ai_summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
+          "ai_significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU.",
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502493",
@@ -3790,7 +3976,8 @@
           "ai_summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
           "ai_significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes.",
           "ai_rounds_takeaway": "",
-          "link_broken": true
+          "link_broken": true,
+          "link_broken_kind": "doi"
         }
       ]
     },
@@ -3826,7 +4013,60 @@
           "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
           "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
           "ai_rounds_takeaway": "",
-          "link_broken": false
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42535902",
+          "title": "Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Jul 31",
+          "authors": [
+            "Taenaka H",
+            "Evrard B",
+            "Maishan M",
+            "Watanabe R",
+            "Alipanah-Lechner N",
+            "Carrillo SA",
+            "Sarma A",
+            "Spottiswoode N",
+            "Sullivan KM",
+            "Weingart MF",
+            "Zhuo H",
+            "Ringor A",
+            "Leroux C",
+            "Chao O",
+            "Lin C",
+            "Schmiege E",
+            "Hariharan T",
+            "Magee L",
+            "Willmore A",
+            "Chak S",
+            "Lee D",
+            "Bardillon K",
+            "Hendrickson C",
+            "Gotts JE",
+            "Langelier CR",
+            "Calfee CS",
+            "Matthay MA"
+          ],
+          "doi": "10.1093/ajrccm/aamag402",
+          "abstract": "RATIONALE: Hyperinflammatory and hypoinflammatory phenotypes previously identified in sepsis and ARDS may enable precision therapies, but their clinical relevance and translational modeling in severe pneumonia remain incompletely characterized. OBJECTIVES: To examine biomarker-defined hyperinflammatory and hypoinflammatory phenotypes in critically ill patients with pneumonia (pulmonary sepsis), test whether the biomarkers that define these phenotypes identify subgroups and outcomes in a mouse model of bacterial pneumonia, and determine whether the mouse phenotypes respond differently to therapeutic interventions. METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier models. We developed a mouse model of pneumococcal pneumonia which recapitulates key aspects of these phenotypes and tested responses to dexamethasone and IL-6 receptor blockade. MEASUREMENTS AND MAIN RESULTS: Two phenotypes were identified in patients with pulmonary sepsis: a hyperinflammatory phenotype with more lung injury and increased mortality, and a hypoinflammatory phenotype with more favorable outcomes. Despite uniform pathogen exposure and baseline conditions, LCA identified two phenotypes in the mice with divergent trajectories (lung injury and mortality). Therapeutic benefit from anti-inflammatory interventions was observed exclusively in the more inflamed mice. CONCLUSIONS: By integrating clinical data from human studies and experimental findings in a clinically relevant mouse model, this study provides a translational framework for developing phenotype-targeted therapies for critical illness, with the goal of improving patient outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42535902/",
+          "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
+          "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
+          "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype.",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502162",
@@ -3863,8 +4103,7 @@
             "strengths": "randomized controlled trial design; large sample size (n = 118)",
             "weaknesses": "lack of statistical significance for primary outcome measures; retrospective registration of trial",
             "bottom_line": "Toothbrushing with chlorhexidine mouth rinse may have a potential benefit in reducing ventilator-associated pneumonia incidence and improving clinical outcomes in PICU patients, but further larger multicenter studies are needed to confirm its effect."
-          },
-          "link_broken": false
+          }
         },
         {
           "pmid": "42493817",
@@ -3889,8 +4128,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that early nutritional supplementation may not be beneficial for all critically ill patients with sepsis, and further research is needed to determine the optimal nutritional strategy for this population.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42506467",
@@ -3918,8 +4156,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
           "ai_significance": "These results have implications for the development of personalized treatment strategies and outcome prediction tools in critically ill patients, potentially improving patient care and outcomes in the ICU.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42150121",
@@ -3976,8 +4213,7 @@
             "strengths": "Large sample size; pragmatic design; assessor-blinded",
             "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
             "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
-          },
-          "link_broken": true
+          }
         },
         {
           "pmid": "42506109",
@@ -4008,8 +4244,7 @@
           "ai_key_stats": "",
           "ai_summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
           "ai_significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42506369",
@@ -4040,8 +4275,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
           "ai_significance": "This research has implications for ICU clinical practice, as it suggests that vitamin C can be used as a pharmacological agent in critical illness, and that biomarkers can be used to guide treatment and improve patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42467246",
@@ -6557,6 +6791,56 @@
       "label": "Infectious Disease & Sepsis",
       "abbr": "ID/Sepsis",
       "articles": [
+        {
+          "pmid": "42535902",
+          "title": "Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Jul 31",
+          "authors": [
+            "Taenaka H",
+            "Evrard B",
+            "Maishan M",
+            "Watanabe R",
+            "Alipanah-Lechner N",
+            "Carrillo SA",
+            "Sarma A",
+            "Spottiswoode N",
+            "Sullivan KM",
+            "Weingart MF",
+            "Zhuo H",
+            "Ringor A",
+            "Leroux C",
+            "Chao O",
+            "Lin C",
+            "Schmiege E",
+            "Hariharan T",
+            "Magee L",
+            "Willmore A",
+            "Chak S",
+            "Lee D",
+            "Bardillon K",
+            "Hendrickson C",
+            "Gotts JE",
+            "Langelier CR",
+            "Calfee CS",
+            "Matthay MA"
+          ],
+          "doi": "10.1093/ajrccm/aamag402",
+          "abstract": "RATIONALE: Hyperinflammatory and hypoinflammatory phenotypes previously identified in sepsis and ARDS may enable precision therapies, but their clinical relevance and translational modeling in severe pneumonia remain incompletely characterized. OBJECTIVES: To examine biomarker-defined hyperinflammatory and hypoinflammatory phenotypes in critically ill patients with pneumonia (pulmonary sepsis), test whether the biomarkers that define these phenotypes identify subgroups and outcomes in a mouse model of bacterial pneumonia, and determine whether the mouse phenotypes respond differently to therapeutic interventions. METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier models. We developed a mouse model of pneumococcal pneumonia which recapitulates key aspects of these phenotypes and tested responses to dexamethasone and IL-6 receptor blockade. MEASUREMENTS AND MAIN RESULTS: Two phenotypes were identified in patients with pulmonary sepsis: a hyperinflammatory phenotype with more lung injury and increased mortality, and a hypoinflammatory phenotype with more favorable outcomes. Despite uniform pathogen exposure and baseline conditions, LCA identified two phenotypes in the mice with divergent trajectories (lung injury and mortality). Therapeutic benefit from anti-inflammatory interventions was observed exclusively in the more inflamed mice. CONCLUSIONS: By integrating clinical data from human studies and experimental findings in a clinically relevant mouse model, this study provides a translational framework for developing phenotype-targeted therapies for critical illness, with the goal of improving patient outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42535902/",
+          "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
+          "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
+          "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
+        },
         {
           "pmid": "42508689",
           "title": "Risk Factors and Development of a Clinical Prediction Model for Carbapenem-Resistant Enterobacterales Bacteremia: A Retrospective Cohort Study.",
