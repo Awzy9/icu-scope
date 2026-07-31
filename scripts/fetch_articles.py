@@ -320,6 +320,62 @@ def efetch_abstracts(pmids):
     return abstracts
 
 
+def efetch_with_first_author_affiliation(pmids):
+    """Like efetch_abstracts, but also captures the first listed author's
+    affiliation string per article.
+
+    PubMed's "[AD]" affiliation-field search (used by build_ksa) matches
+    *any* author's affiliation on the paper — so a large multi-national
+    trial or review with a long author list gets flagged just because one
+    minor co-author happens to be Saudi-affiliated, even though the study
+    wasn't led or conducted there. Restricting to the first author's
+    affiliation (the standard bibliometric proxy for where a study was
+    primarily done) filters those false positives out.
+    """
+    if not pmids:
+        return {}, {}
+    params = {
+        "db": "pubmed",
+        "id": ",".join(pmids),
+        "retmode": "xml",
+        "rettype": "abstract",
+        "tool": TOOL,
+        "email": CONTACT_EMAIL,
+    }
+    raw = _get(f"{EUTILS}/efetch.fcgi", params)
+    abstracts = {}
+    first_author_affiliations = {}
+    try:
+        root = ET.fromstring(raw)
+    except ET.ParseError:
+        return abstracts, first_author_affiliations
+    for article in root.findall(".//PubmedArticle"):
+        pmid_el = article.find(".//PMID")
+        if pmid_el is None:
+            continue
+        pmid = pmid_el.text
+        texts = []
+        for ab in article.findall(".//Abstract/AbstractText"):
+            label = ab.get("Label")
+            text = "".join(ab.itertext()).strip()
+            if not text:
+                continue
+            texts.append(f"{label}: {text}" if label else text)
+        if texts:
+            abstracts[pmid] = " ".join(texts)
+
+        authors = article.findall(".//AuthorList/Author")
+        if authors:
+            affiliations = [
+                "".join(aff.itertext()).strip()
+                for aff in authors[0].findall("./AffiliationInfo/Affiliation")
+            ]
+            affiliations = [a for a in affiliations if a]
+            if affiliations:
+                first_author_affiliations[pmid] = " ".join(affiliations)
+    return abstracts, first_author_affiliations
+
+
 def doi_for(summary):
     for aid in summary.get("articleids", []):
         if aid.get("idtype") == "doi":
@@ -457,19 +513,28 @@ def build_guidelines():
 
 
 def build_ksa():
-    """Articles with a Saudi Arabia author affiliation, via PubMed's [AD]
-    field tag — NLM's indexing convention includes the full institution
-    address with country, so this is a reliable match without needing to
-    parse per-author AffiliationInfo XML ourselves. Not restricted to the
-    journal allowlist (same reasoning as Guideline Watch): requiring it
-    would leave this section nearly empty.
+    """Articles actually led from Saudi Arabia, not just co-authored by
+    someone there.
+
+    PubMed's [AD] field tag matches *any* author's affiliation, so a large
+    multi-national trial or review with a long author list would otherwise
+    get flagged just because one minor co-author is Saudi-affiliated —
+    that's not "research done in KSA". [AD] is used here only as a
+    candidate pre-filter (cheap, avoids scanning the whole ICU corpus);
+    each candidate is then confirmed by checking that the *first* author's
+    affiliation (the standard proxy for where a study was primarily led)
+    actually mentions Saudi Arabia. Not restricted to the journal
+    allowlist (same reasoning as Guideline Watch): requiring it would
+    leave this section nearly empty.
     """
     query = f'{ICU_CONTEXT} AND "saudi arabia"[AD]'
-    pmids = esearch(query, KSA_DAYS, KSA_MAX)
+    # Over-fetch candidates since the first-author check below discards
+    # any article where the affiliation match came from a co-author.
+    pmids = esearch(query, KSA_DAYS, min(KSA_MAX * 4, 100))
     time.sleep(REQUEST_DELAY)
     summaries = esummary(pmids)
     time.sleep(REQUEST_DELAY)
-    abstracts = efetch_abstracts(pmids)
+    abstracts, first_author_affiliations = efetch_with_first_author_affiliation(pmids)
     time.sleep(REQUEST_DELAY)
 
     articles = []
@@ -477,7 +542,11 @@ def build_ksa():
         s = summaries.get(pmid)
         if not s:
             continue
+        if "saudi arabia" not in first_author_affiliations.get(pmid, "").lower():
+            continue
         articles.append(article_from_summary(pmid, s, abstracts))
+        if len(articles) >= KSA_MAX:
+            break
     return articles
 
 
