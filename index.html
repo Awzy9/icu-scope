@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=25" />
+  <link rel="stylesheet" href="style.css?v=26" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -205,6 +205,17 @@
         <div id="preprint-list"></div>
       </div>
     </section>
+    <section class="trial-results-section" id="trial-results-section" hidden>
+      <div class="trending-heading trial-results-heading">
+        <button class="collapse-toggle" id="trial-results-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-results-body">▸</button>
+        <h2>✅ Trial Results</h2>
+        <span class="category-count" id="trial-results-count"></span>
+      </div>
+      <div id="trial-results-body" class="section-body">
+        <p class="foamed-note">Every published randomized/clinical trial pulled together from every category and section into one list — not registrations (see Trial Tracker below for those).</p>
+        <div id="trial-results-list"></div>
+      </div>
+    </section>
     <section class="trial-section" id="trial-section" hidden>
       <div class="trending-heading trial-heading">
         <button class="collapse-toggle" id="trial-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-body">▸</button>
@@ -277,6 +288,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=20"></script>
+  <script src="app.js?v=21"></script>
 </body>
 </html>

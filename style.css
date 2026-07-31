@@ -35,6 +35,9 @@
   --bottom-line-bg: #e6f7fa;
   --bottom-line-border: #b3e3ec;
   --bottom-line-accent: #0f7c92;
+  --trial-results-bg: #eaf7ea;
+  --trial-results-border: #c2e8c2;
+  --trial-results-accent: #2e7d32;
   --journal-saturation: 48%;
   --journal-lightness: 36%;
   --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
@@ -78,6 +81,9 @@
   --bottom-line-bg: #12262b;
   --bottom-line-border: #1f3f47;
   --bottom-line-accent: #4dc4d9;
+  --trial-results-bg: #16261a;
+  --trial-results-border: #234a2c;
+  --trial-results-accent: #6fcf7a;
   --journal-saturation: 55%;
   --journal-lightness: 68%;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -121,6 +127,9 @@
     --bottom-line-bg: #12262b;
     --bottom-line-border: #1f3f47;
     --bottom-line-accent: #4dc4d9;
+    --trial-results-bg: #16261a;
+    --trial-results-border: #234a2c;
+    --trial-results-accent: #6fcf7a;
     --journal-saturation: 55%;
     --journal-lightness: 68%;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -1278,6 +1287,18 @@ mark {
 .bottom-line-heading h2 { color: var(--bottom-line-accent); }
 
 .bottom-line-section .article-card { background: var(--surface); }
+
+.trial-results-section {
+  margin-bottom: 2.75rem;
+  background: var(--trial-results-bg);
+  border: 1px solid var(--trial-results-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.5rem 0.25rem;
+}
+
+.trial-results-heading h2 { color: var(--trial-results-accent); }
+
+.trial-results-section .article-card { background: var(--surface); }
 
 .guideline-section {
   margin-bottom: 2.75rem;
