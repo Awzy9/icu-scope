@@ -590,6 +590,38 @@
     1: "★ Hypothesis generating",
   };
 
+  // Mirrors scripts/fetch_articles.py's APPRAISAL_FIELDS — a structured,
+  // Bottom-Line-style critical appraisal generated for RCT articles instead
+  // of the plain AI summary.
+  const APPRAISAL_FIELDS = [
+    ["clinical_question", "Clinical question"],
+    ["background", "Background"],
+    ["design", "Design"],
+    ["setting", "Setting"],
+    ["population", "Population"],
+    ["intervention", "Intervention"],
+    ["management_common_to_both_groups", "Management common to both groups"],
+    ["intervention_fidelity", "Intervention fidelity"],
+    ["outcome", "Outcome"],
+    ["author_conclusion", "Author's conclusion"],
+    ["strengths", "Strengths"],
+    ["weaknesses", "Weaknesses"],
+  ];
+
+  function buildAppraisalBlock(appraisal) {
+    const rows = APPRAISAL_FIELDS
+      .filter(([key]) => appraisal[key])
+      .map(([key, label]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(appraisal[key])}</dd>`)
+      .join("");
+    return `<div class="ai-summary ai-appraisal">
+        <div class="ai-summary-label">🔬 AI Trial Appraisal</div>
+        ${appraisal.bottom_line ? `<p class="ai-rounds-takeaway">🎯 <strong>Bottom line:</strong> ${escapeHtml(appraisal.bottom_line)}</p>` : ""}
+        ${rows ? `<dl class="ai-summary-text appraisal-fields">${rows}</dl>` : ""}
+        ${rows ? `<button class="ai-summary-toggle" type="button">Show full appraisal</button>` : ""}
+        <p class="ai-disclaimer">AI-generated structured appraisal — verify against the source before relying on it clinically.</p>
+      </div>`;
+  }
+
   // A deterministic estimate from study design, journal tier, and citation
   // count — NOT an AI judgment of quality, and not a substitute for reading
   // and critically appraising the actual paper. Null means "not applicable"
@@ -730,8 +762,23 @@
     return d.getTime() >= cutoff;
   }
 
+  // "Trials" is a broader, aggregate quick-filter (not a single literal
+  // study_type string) — it pulls together every trial-shaped article from
+  // every section, including the Trial Tracker's dynamically status-suffixed
+  // entries like "Clinical Trial (RECRUITING)".
+  const TRIAL_STUDY_TYPES = new Set([
+    "Randomized Controlled Trial",
+    "Clinical Trial",
+    "Multicenter Study",
+    "Landmark Trial",
+  ]);
+
   function matchesStudyType(article, type) {
     if (!type || type === "all") return true;
+    if (type === "__trials__") {
+      const st = article.study_type || "Study";
+      return TRIAL_STUDY_TYPES.has(st) || st.startsWith("Clinical Trial (");
+    }
     return (article.study_type || "Study") === type;
   }
 
@@ -844,7 +891,7 @@
     const doiLink = article.doi
       ? `<a href="https://doi.org/${encodeURIComponent(article.doi)}" target="_blank" rel="noopener">DOI</a>`
       : "";
-    const hasAiSummary = !!(article.ai_summary || article.ai_significance);
+    const hasAiSummary = !!(article.ai_summary || article.ai_significance || article.ai_appraisal);
     const abstractToggleLabel = hasAiSummary ? "Show original text" : "Show more";
     const abstractBlock = article.abstract
       ? `<p class="article-abstract">${highlightMatch(article.abstract, currentSearchTerm)}</p>
@@ -864,17 +911,19 @@
            </div>
          </div>`
       : "";
-    const aiBlock = hasAiSummary
-      ? `<div class="ai-summary">
-           <div class="ai-summary-label">✨ AI Summary</div>
-           ${article.ai_rounds_takeaway ? `<p class="ai-rounds-takeaway">🩺 <strong>Rounds takeaway:</strong> ${escapeHtml(article.ai_rounds_takeaway)}</p>` : ""}
-           ${article.ai_key_stats ? `<p class="ai-key-stats">${escapeHtml(article.ai_key_stats)}</p>` : ""}
-           ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
-           ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
-           ${article.ai_summary ? `<button class="ai-summary-toggle" type="button">Show full summary</button>` : ""}
-           <p class="ai-disclaimer">AI-generated — verify against the source before relying on it clinically.</p>
-         </div>`
-      : "";
+    const aiBlock = article.ai_appraisal
+      ? buildAppraisalBlock(article.ai_appraisal)
+      : hasAiSummary
+        ? `<div class="ai-summary">
+             <div class="ai-summary-label">✨ AI Summary</div>
+             ${article.ai_rounds_takeaway ? `<p class="ai-rounds-takeaway">🩺 <strong>Rounds takeaway:</strong> ${escapeHtml(article.ai_rounds_takeaway)}</p>` : ""}
+             ${article.ai_key_stats ? `<p class="ai-key-stats">${escapeHtml(article.ai_key_stats)}</p>` : ""}
+             ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
+             ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
+             ${article.ai_summary ? `<button class="ai-summary-toggle" type="button">Show full summary</button>` : ""}
+             <p class="ai-disclaimer">AI-generated — verify against the source before relying on it clinically.</p>
+           </div>`
+        : "";
     const citationBadge = article.citation_count > 0
       ? `<span class="citation-badge">cited ${article.citation_count}×</span>`
       : "";
@@ -960,9 +1009,11 @@
     const aiToggle = card.querySelector(".ai-summary-toggle");
     const aiSummaryEl = card.querySelector(".ai-summary-text");
     if (aiToggle && aiSummaryEl) {
+      const showLabel = aiToggle.textContent;
+      const hideLabel = showLabel.replace("Show", "Hide");
       aiToggle.addEventListener("click", () => {
         const expanded = aiSummaryEl.classList.toggle("expanded");
-        aiToggle.textContent = expanded ? "Hide full summary" : "Show full summary";
+        aiToggle.textContent = expanded ? hideLabel : showLabel;
       });
     }
 
@@ -1324,6 +1375,7 @@
 
     const sortedTypes = [...types].sort();
     studyTypeFilter.innerHTML = '<option value="all">All study types</option>'
+      + '<option value="__trials__">Trials (RCT/Clinical/Landmark)</option>'
       + sortedTypes.map((t) => `<option value="${escapeHtml(t)}">${escapeHtml(t)}</option>`).join("");
 
     const sortedJournals = [...journals].sort();
