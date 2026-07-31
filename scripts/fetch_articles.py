@@ -1327,7 +1327,11 @@ def check_links(check_targets):
 
     Sets article["link_broken"] only for links actually (re-)checked this
     run; articles never checked yet simply have no key, so the UI can tell
-    "known broken" apart from "not verified yet".
+    "known broken" apart from "not verified yet". Also sets
+    article["link_broken_kind"] ("doi" or "url") from the check_id prefix,
+    since for category/trending/guideline/KSA articles the link actually
+    checked is the DOI redirect, not the PubMed page shown to the reader —
+    the two can fail independently, and the UI needs to say which one.
     """
     state = load_link_check_state()
     now = datetime.now(timezone.utc)
@@ -1349,6 +1353,7 @@ def check_links(check_targets):
         if checked >= LINK_CHECK_MAX_PER_RUN:
             break
         article["link_broken"] = not url_is_reachable(url)
+        article["link_broken_kind"] = "doi" if check_id.startswith("doi:") else "url"
         state[check_id] = now.isoformat(timespec="seconds")
         checked += 1
         time.sleep(0.3)

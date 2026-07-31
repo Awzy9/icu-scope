@@ -105,6 +105,18 @@ export default {
       return jsonResponse({ error: "Method not allowed" }, 405, env);
     }
 
+    // Per-IP rate limit (see wrangler.toml) so a single visitor can't burn
+    // through the shared Groq/HF free-tier quota. Fails open if the
+    // binding isn't present (e.g. a stale deploy from before this was
+    // added) rather than taking the whole endpoint down.
+    if (env.RATE_LIMITER) {
+      const ip = request.headers.get("CF-Connecting-IP") || "unknown";
+      const { success } = await env.RATE_LIMITER.limit({ key: ip });
+      if (!success) {
+        return jsonResponse({ error: "Rate limit exceeded — please slow down and try again shortly." }, 429, env);
+      }
+    }
+
     let body;
     try {
       body = await request.json();
