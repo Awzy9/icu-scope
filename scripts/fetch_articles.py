@@ -111,6 +111,9 @@ PUB_TYPE_PRIORITY = [
 GUIDELINE_DAYS = int(os.environ.get("GUIDELINE_DAYS", "180"))
 GUIDELINE_MAX = int(os.environ.get("GUIDELINE_MAX", "10"))
 
+KSA_DAYS = int(os.environ.get("KSA_DAYS", "180"))
+KSA_MAX = int(os.environ.get("KSA_MAX", "15"))
+
 # Rotating link-liveness check: archives never shrink, so DOI/FOAMed/preprint
 # links can rot silently over time. Only a bounded number are (re-)checked
 # per run, oldest-checked-first, so the whole archive gets covered gradually
@@ -450,6 +453,31 @@ def build_guidelines():
         article = article_from_summary(pmid, summaries[pmid], abstracts)
         article["society"] = detect_society(article["title"], article["abstract"])
         articles.append(article)
+    return articles
+
+
+def build_ksa():
+    """Articles with a Saudi Arabia author affiliation, via PubMed's [AD]
+    field tag — NLM's indexing convention includes the full institution
+    address with country, so this is a reliable match without needing to
+    parse per-author AffiliationInfo XML ourselves. Not restricted to the
+    journal allowlist (same reasoning as Guideline Watch): requiring it
+    would leave this section nearly empty.
+    """
+    query = f'{ICU_CONTEXT} AND "saudi arabia"[AD]'
+    pmids = esearch(query, KSA_DAYS, KSA_MAX)
+    time.sleep(REQUEST_DELAY)
+    summaries = esummary(pmids)
+    time.sleep(REQUEST_DELAY)
+    abstracts = efetch_abstracts(pmids)
+    time.sleep(REQUEST_DELAY)
+
+    articles = []
+    for pmid in pmids:
+        s = summaries.get(pmid)
+        if not s:
+            continue
+        articles.append(article_from_summary(pmid, s, abstracts))
     return articles
 
 
@@ -896,7 +924,7 @@ def article_ai_id(article):
     return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
 
 
-def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=()):
+def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=(), ksa_articles=()):
     by_id = {}
 
     def register(article):
@@ -922,16 +950,18 @@ def gather_ai_targets(categories_out, trending_articles, foamed_articles, guidel
         register(a)
     for a in bottom_line_articles:
         register(a)
+    for a in ksa_articles:
+        register(a)
     return by_id
 
 
-def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=()):
+def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=(), ksa_articles=()):
     if not GROQ_API_KEY:
         print("  GROQ_API_KEY not set, skipping AI summaries")
         return
 
     cache = load_ai_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles, ksa_articles)
 
     remaining_budget = AI_SUMMARY_MAX_PER_RUN
     new_count = 0
@@ -972,13 +1002,13 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
           f"{len(by_id) - new_count - cached_count} skipped (budget exhausted)")
 
 
-def enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=()):
+def enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=(), ksa_articles=()):
     if not HF_API_TOKEN:
         print("  HF_API_TOKEN not set, skipping embeddings")
         return
 
     cache = load_embedding_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles, ksa_articles)
 
     remaining_budget = EMBEDDING_MAX_PER_RUN
     new_count = 0
@@ -1178,6 +1208,7 @@ def load_archive():
     data.setdefault("preprints", {})
     data.setdefault("trials", {})
     data.setdefault("bottom_line", {})
+    data.setdefault("ksa", {})
     return data
 
 
@@ -1339,6 +1370,20 @@ def main():
         fresh_guidelines = []
     guideline_articles = merge_into_bucket(archive["guidelines"], fresh_guidelines, lambda a: a["pmid"])
 
+    print("Fetching KSA research...")
+    try:
+        fresh_ksa = build_ksa()
+    except Exception as e:
+        print(f"  warning: KSA research fetch failed: {e}")
+        fresh_ksa = []
+    ksa_articles = merge_into_bucket(archive["ksa"], fresh_ksa, lambda a: a["pmid"])
+
+    # Its own dedicated section, not also duplicated inside whichever
+    # organ-system category the same article would otherwise land in.
+    ksa_pmids = {a["pmid"] for a in ksa_articles if a.get("pmid")}
+    for cat in categories_out:
+        cat["articles"] = [a for a in cat["articles"] if a.get("pmid") not in ksa_pmids]
+
     print("Fetching medRxiv preprints...")
     try:
         fresh_preprints = build_preprints()
@@ -1368,13 +1413,13 @@ def main():
 
     print("Generating AI summaries...")
     try:
-        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
+        enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles, ksa_articles)
     except Exception as e:
         print(f"  warning: AI summarization failed: {e}")
 
     print("Generating embeddings for semantic search...")
     try:
-        enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles)
+        enrich_with_embeddings(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles, ksa_articles)
     except Exception as e:
         print(f"  warning: embedding generation failed: {e}")
 
@@ -1399,6 +1444,9 @@ def main():
             link_targets.append((f"url:{a['url']}", a["url"], a))
         for a in bottom_line_articles:
             link_targets.append((f"url:{a['url']}", a["url"], a))
+        for a in ksa_articles:
+            if a.get("doi"):
+                link_targets.append((f"doi:{a['doi']}", f"https://doi.org/{a['doi']}", a))
         check_links(link_targets)
     except Exception as e:
         print(f"  warning: link check failed: {e}")
@@ -1421,6 +1469,10 @@ def main():
         "guidelines": {
             "window_days": GUIDELINE_DAYS,
             "articles": guideline_articles,
+        },
+        "ksa": {
+            "window_days": KSA_DAYS,
+            "articles": ksa_articles,
         },
         "preprints": {
             "window_days": PREPRINT_DAYS,
@@ -1447,7 +1499,8 @@ def main():
     print(f"Wrote {total} articles across {len(categories_out)} categories, "
           f"{len(trending_articles)} trending, {len(foamed_articles)} FOAMed posts, "
           f"{len(guideline_articles)} guidelines, {len(preprint_articles)} preprints, "
-          f"{len(trial_articles)} trials, and {len(bottom_line_articles)} Bottom Line posts to {out_path}")
+          f"{len(trial_articles)} trials, {len(bottom_line_articles)} Bottom Line posts, and "
+          f"{len(ksa_articles)} KSA research articles to {out_path}")
 
 
 if __name__ == "__main__":

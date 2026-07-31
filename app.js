@@ -8,6 +8,11 @@
   const nav = document.getElementById("category-nav");
   const content = document.getElementById("content");
   const updatedLine = document.getElementById("updated-line");
+  const ksaSection = document.getElementById("ksa-section");
+  const ksaBody = document.getElementById("ksa-body");
+  const ksaList = document.getElementById("ksa-list");
+  const ksaCount = document.getElementById("ksa-count");
+  const ksaWindow = document.getElementById("ksa-window");
   const trendingSection = document.getElementById("trending-section");
   const trendingBody = document.getElementById("trending-body");
   const trendingList = document.getElementById("trending-list");
@@ -55,6 +60,7 @@
     { id: "spotlight", body: spotlightBody, toggle: document.getElementById("spotlight-collapse-toggle") },
     { id: "saved", body: savedBody, toggle: document.getElementById("saved-collapse-toggle") },
     { id: "guideline", body: guidelineBody, toggle: document.getElementById("guideline-collapse-toggle") },
+    { id: "ksa", body: ksaBody, toggle: document.getElementById("ksa-collapse-toggle") },
     { id: "trending", body: trendingBody, toggle: document.getElementById("trending-collapse-toggle") },
     { id: "foamed", body: foamedBody, toggle: document.getElementById("foamed-collapse-toggle") },
     { id: "bottom-line", body: bottomLineBody, toggle: document.getElementById("bottom-line-collapse-toggle") },
@@ -100,6 +106,7 @@
     { sectionId: "spotlight", label: "Article of the Week", icon: "📌" },
     { sectionId: "saved", label: "Saved", icon: "🔖" },
     { sectionId: "guideline", label: "Guideline Watch", icon: "📋" },
+    { sectionId: "ksa", label: "KSA Research", icon: "🇸🇦" },
     { sectionId: "trending", label: "Trending this month", icon: "🔥" },
     { sectionId: "foamed", label: "FOAMed & Blogs", icon: "📚" },
     { sectionId: "bottom-line", label: "The Bottom Line", icon: "🎯" },
@@ -521,6 +528,7 @@
     (data.trials && data.trials.articles || []).forEach((a) => ids.add(`url:${a.url}`));
     CLASSIC_TRIALS.forEach((a) => ids.add(articleId(a)));
     (data.guidelines && data.guidelines.articles || []).forEach((a) => ids.add(articleId(a)));
+    (data.ksa && data.ksa.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.categories || []).forEach((c) => c.articles.forEach((a) => ids.add(articleId(a))));
     return ids;
   }
@@ -538,6 +546,7 @@
     ((data.trials && data.trials.articles) || []).map(trialToArticle).forEach(add);
     CLASSIC_TRIALS.forEach(add);
     (data.guidelines && data.guidelines.articles || []).forEach(add);
+    (data.ksa && data.ksa.articles || []).forEach(add);
     (data.categories || []).forEach((c) => c.articles.forEach(add));
     return map;
   }
@@ -1314,6 +1323,19 @@
     articles.forEach((article) => guidelineList.appendChild(articleCard(article)));
   }
 
+  function renderKsa(ksa, term, days, studyType, year, journal, organId) {
+    const articles = filterList((ksa && ksa.articles) || [], term, days, studyType, year, journal, organId);
+    ksaWindow.textContent = ksa ? ksa.window_days : "";
+    if (!articles.length) {
+      ksaSection.hidden = true;
+      return;
+    }
+    ksaSection.hidden = false;
+    ksaCount.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"}`;
+    ksaList.innerHTML = "";
+    articles.forEach((article) => ksaList.appendChild(articleCard(article)));
+  }
+
   function renderSpotlight(spotlight) {
     if (!spotlight || !spotlight.title) {
       spotlightSection.hidden = true;
@@ -1401,6 +1423,7 @@
     all.push(...(((data.preprints && data.preprints.articles) || []).map(preprintToArticle)));
     all.push(...(((data.trials && data.trials.articles) || []).map(trialToArticle)));
     all.push(...((data.guidelines && data.guidelines.articles) || []));
+    all.push(...((data.ksa && data.ksa.articles) || []));
     (data.categories || []).forEach((c) => all.push(...c.articles));
     return all;
   }
@@ -1564,6 +1587,7 @@
     renderSpotlight(rawData.spotlight);
     renderSaved(buildArticleIndex(rawData));
     renderGuidelines(rawData.guidelines, term, days, studyType, year, journal, organId);
+    renderKsa(rawData.ksa, term, days, studyType, year, journal, organId);
     renderTrending(rawData.trending, term, days, studyType, year, journal, organId);
     renderFoamed(rawData.foamed, term, days, studyType, year, journal, organId);
     renderBottomLine(rawData.bottom_line, term, days, studyType, year, journal, organId);
