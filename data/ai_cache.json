@@ -1,4 +1,19 @@
 {
+  "pmid:42413523": {
+    "clinical_question": "Is low-dose unfractionated heparin or low-molecular-weight heparin non-inferior to standard-dose unfractionated heparin in patients receiving extracorporeal life support?",
+    "background": "In patients receiving extracorporeal membrane oxygenation (ECMO), standard practice is full-dose intravenous unfractionated heparin (UFH) targeting an activated partial thromboplastin time of 2·0-2·5 times baseline to reduce thrombotic risk, but this approach can increase bleeding without further reducing thrombosis compared with low-dose UFH.",
+    "design": "open-label, three-arm, randomised, non-inferiority trial",
+    "setting": "seven Dutch intensive care units (ICUs), between Oct 22, 2020, and Sept 12, 2024",
+    "population": "adults aged 18 years or older supported with veno-venous or veno-arterial ECMO at the ICU without vital indication for full-dose anticoagulation",
+    "intervention": "intravenous standard-dose UFH (activated partial thromboplastin time 2·0-2·5 times baseline), intravenous low-dose UFH (1·5-2·0 times baseline), or therapeutic subcutaneous LMWH",
+    "management_common_to_both_groups": "",
+    "intervention_fidelity": "",
+    "outcome": "composite of severe bleeding during ECMO support, severe thromboembolic complications during ECMO support, or all-cause mortality at 6 months; non-inferiority met if the upper 95% CI limit for the absolute risk difference was less than 7·5 percentage points",
+    "author_conclusion": "Low-dose UFH and therapeutic LMWH were non-inferior to standard-dose UFH. This finding supports reconsideration of anticoagulation targets in ECMO.",
+    "strengths": "large sample size; 6-month follow-up data; intention-to-treat principle",
+    "weaknesses": "open-label design; non-inferiority trial",
+    "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
+  },
   "pmid:42493813": {
     "summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
     "significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
@@ -43,6 +58,21 @@
     "summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
     "significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery."
   },
+  "pmid:42150112": {
+    "clinical_question": "Does 4% tetrasodium EDTA locking fluid reduce central venous access device-associated infections, occlusions, and thrombolytic use in adults treated in an intensive care unit?",
+    "background": "Use of central venous access devices can result in catheter-associated bloodstream infection, catheter occlusion, and catheter-related venous thrombosis.",
+    "design": "pragmatic, triple-blind, multicenter, cluster-randomized crossover trial",
+    "setting": "6 Canadian hospitals (3 community hospitals and 3 academic centers) between March 22, 2022, and September 25, 2024",
+    "population": "patients older than 18 years in the ICU with a CVAD in place and at least 1 lumen not in use",
+    "intervention": "4% tetrasodium EDTA locking fluid vs control locking fluid (saline or 4% citrate for hemodialysis lines)",
+    "management_common_to_both_groups": "ICUs were randomized to use prefilled, identical, masked syringes for all trial participants",
+    "intervention_fidelity": "not reported",
+    "outcome": "primary outcome: composite incidence rate of CVAD-associated bloodstream infection, catheter occlusion requiring alteplase use, and/or catheter removal due to occlusion (13.1 per 1000 catheter-days in the t-EDTA group vs 19.9 per 1000 catheter-days in the control group)",
+    "author_conclusion": "Use of 4% t-EDTA locking solution for CVADs reduced the incidence of a composite outcome of CVAD-associated bloodstream infection, catheter occlusion requiring alteplase use, and catheter removal due to occlusion among adult patients in the ICU",
+    "strengths": "large sample size; cluster-randomized crossover design",
+    "weaknesses": "no information on intervention fidelity; secondary outcomes not reported in detail",
+    "bottom_line": "Use 4% tetrasodium EDTA locking fluid for central venous access devices to reduce the risk of infection, occlusion, and thrombolytic use in adult patients in the ICU"
+  },
   "pmid:42332804": {
     "summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
     "significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients."
@@ -74,6 +104,21 @@
   "pmid:42506467": {
     "summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
     "significance": "These results have implications for the development of personalized treatment strategies and outcome prediction tools in critically ill patients, potentially improving patient care and outcomes in the ICU."
+  },
+  "pmid:42150121": {
+    "clinical_question": "Does a 6-week, remote, multicomponent rehabilitation intervention improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation?",
+    "background": "Evidence for remote multicomponent rehabilitation among critical care survivors is sparse.",
+    "design": "Pragmatic, multicenter, assessor-blinded, randomized clinical trial",
+    "setting": "52 National Health Service hospitals in the UK, from December 2022 to November 2025",
+    "population": "Adults discharged from hospital within the last 12 weeks with an ICU admission (required mechanical ventilation for ≥48 hours during ICU stay)",
+    "intervention": "6-week, remote, multicomponent, individualized, rehabilitation intervention incorporating weekly symptom management; targeted exercise; psychological support; and peer support and information",
+    "management_common_to_both_groups": "Standard care",
+    "intervention_fidelity": "",
+    "outcome": "Mean EQ-5D-5L utility score at 8 weeks: 0.69 (SD, 0.26) in the intervention group, 0.67 (SD, 0.27) in the standard care group (adjusted mean difference, 0.04 [95% CI, -0.001 to 0.09]; P = .05)",
+    "author_conclusion": "A 6-week, multicomponent, rehabilitation program did not improve health-related quality of life at 8 weeks after discharge in ICU survivors who required mechanical ventilation.",
+    "strengths": "Large sample size; pragmatic design; assessor-blinded",
+    "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
+    "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
   },
   "pmid:42506369": {
     "summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
@@ -118,6 +163,21 @@
   "pmid:42267821": {
     "summary": "This study tested the effectiveness of carbocisteine and hypertonic saline in reducing the duration of mechanical ventilation in critically ill patients with acute respiratory failure. Neither treatment significantly reduced ventilation time, but both were associated with adverse effects, including upper gastrointestinal bleeding with carbocisteine and bronchoconstriction and hypoxemia with hypertonic saline.",
     "significance": "These findings suggest that carbocisteine and hypertonic saline should not be used in critically ill patients with acute respiratory failure, as they do not provide benefit and may cause harm. Clinicians should consider alternative treatments for this condition."
+  },
+  "pmid:41841304": {
+    "clinical_question": "Does a low-use wrist-strap physical restraint strategy reduce days alive without coma or delirium in critically ill patients receiving invasive mechanical ventilation?",
+    "background": "The effect of wrist-strap physical restraints on outcomes in patients receiving mechanical ventilation in the ICU remains uncertain.",
+    "design": "Open-label randomized clinical trial",
+    "setting": "10 ICUs in France, between January 5, 2021, and January 2, 2024",
+    "population": "Adult patients who had initiated invasive mechanical ventilation within the previous 6 hours and were expected to require ventilation for at least 48 hours",
+    "intervention": "Restrictive, low-use physical restraint strategy (wrist straps avoided unless necessary) vs Liberal, high-use strategy (wrist straps applied systematically and reassessed daily)",
+    "management_common_to_both_groups": "Discontinuation of restraints was allowed in patients who were awake or extubated without delirium (measured via the Confusion Assessment Method for the ICU)",
+    "intervention_fidelity": "",
+    "outcome": "Mean days alive without coma or delirium were 6.67 days (95% CI, 5.69-7.65) in the low-use strategy group and 6.30 days (95% CI, 5.35-7.24) in the high-use strategy group (adjusted mean difference, 0.37 days [95% CI, -0.71 to 1.46]; P = .51)",
+    "author_conclusion": "A low-use wrist-strap physical restraint strategy compared with a high-use strategy did not reduce days free of delirium or coma at 14 days.",
+    "strengths": "Large sample size; well-defined inclusion and exclusion criteria",
+    "weaknesses": "Open-label design; no information on intervention fidelity",
+    "bottom_line": "A low-use wrist-strap physical restraint strategy does not reduce days alive without coma or delirium in critically ill patients receiving invasive mechanical ventilation."
   },
   "pmid:42494847": {
     "summary": "Researchers used a combination of a bacteriophage and antibiotics to treat a patient with a severe and drug-resistant lung infection. The treatment was successful and reduced the amount of bacteria in the patient's lungs. The combination therapy also reduced the bacteria's ability to resist antibiotics.",
@@ -291,6 +351,21 @@
     "summary": "Researchers studied 492 ICU patients with candidemia and found three distinct phenotypes with different outcomes. Phenotype 1 had high mortality due to severe immunosuppression, Phenotype 2 had high mortality in elderly cirrhotic patients, and Phenotype 3 had lower mortality in younger patients with catheter-related candidemia.",
     "significance": "This study helps clinicians understand the heterogeneity of candidemia in ICU patients and identify patients at higher risk of mortality, allowing for more personalized treatment and care."
   },
+  "pmid:41999287": {
+    "clinical_question": "Does rapid antimicrobial susceptibility testing for gram-negative bacteremia improve clinical outcomes compared to standard testing?",
+    "background": "Novel blood culture diagnostics provide rapid antimicrobial susceptibility testing (AST) results for bacteria causing bloodstream infections (BSIs) but have unclear clinical impact.",
+    "design": "Open-label randomized clinical trial",
+    "setting": "7 medical centers in Greece, India, Israel, and Spain, from December 2023 to May 2025",
+    "population": "Hospitalized patients (adults and children) with BSIs caused by gram-negative bacilli",
+    "intervention": "Rapid, phenotypic AST directly from positive blood cultures plus standard susceptibility testing",
+    "management_common_to_both_groups": "Local antimicrobial stewardship teams reviewed all patients and provided treatment recommendations",
+    "intervention_fidelity": "",
+    "outcome": "The probability that DOOR outcomes were more favorable in the rapid testing group was 48.8% (95% CI, 45.3%-52.4%); median time to effective antibiotic therapy was not different between the groups; median time to antibiotic escalation or deescalation was faster in the rapid testing group by 14 hours (95% CI, 6-22)",
+    "author_conclusion": "Rapid blood culture AST was not superior to standard testing by DOOR, but may help inform the use of rapid susceptibility testing in clinical practice",
+    "strengths": "Large sample size; prespecified subgroup analysis",
+    "weaknesses": "Open-label design; no blinding",
+    "bottom_line": "Rapid antimicrobial susceptibility testing for gram-negative bacteremia does not improve clinical outcomes compared to standard testing, but may be useful in specific situations such as carbapenem-resistant infections"
+  },
   "pmid:42502453": {
     "summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
     "significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality."
@@ -371,6 +446,21 @@
     "summary": "Researchers compared outcomes of 1,077 ICU patients with acute respiratory distress syndrome (ARDS) who developed ARDS after surgery (postoperative ARDS) to those who developed ARDS due to medical reasons. They found that postoperative ARDS had a more favorable early trajectory and lower 90-day mortality. The study suggests that postoperative ARDS is a distinct clinical subtype driven by extrapulmonary and surgery-related factors.",
     "significance": "This study's findings have significant implications for ICU clinical practice, suggesting that postoperative ARDS may require a distinct management approach focused on perioperative prevention and early identification of surgery-related complications."
   },
+  "pmid:42228008": {
+    "clinical_question": "Does personalized automatic management of tracheal cuff pressure and subglottic secretions drainage prevent pneumonia in critically ill intubated patients?",
+    "background": "Critically ill intubated patients are at risk of developing pneumonia, and current management strategies may not be optimal.",
+    "design": "cluster-randomized, international, open-label trial",
+    "setting": "10 ICUs, international, no specific dates mentioned",
+    "population": "adult patients at 10 ICUs",
+    "intervention": "endotracheal tube equipped with automatic Pcuff management and SSD",
+    "management_common_to_both_groups": "manual SSD",
+    "intervention_fidelity": "",
+    "outcome": "bacterial tracheal colonization on day 3 (37% vs. 41.5%), clinically diagnosed VAP (12.6% vs. 24.4%), microbiologically confirmed VAP (10.2% vs. 19.5%), Pcuff values outside the safety range (10.2% vs. 24.4%), daily SSD volume (25 [8-41] mL vs. 10.5 [6-17] mL)",
+    "author_conclusion": "Personalized automatic management of tracheal cuff pressure and subglottic secretion drainage was not superior to manual management to prevent tracheal colonization, but may reduce VAP rate.",
+    "strengths": "large sample size; multiple outcomes measured",
+    "weaknesses": "open-label design; no blinding",
+    "bottom_line": "Automatic management of tracheal cuff pressure and subglottic secretions drainage may reduce the rate of ventilator-associated pneumonia, but more research is needed to confirm this finding."
+  },
   "pmid:42126552": {
     "summary": "This study highlights the challenges of airway management in critically ill patients with obesity, including anatomical and physiological alterations that complicate intubation. Non-invasive ventilation and videolaryngoscopy are recommended to mitigate these risks. The optimal approach to intubation in obese patients remains a topic of ongoing research.",
     "significance": "Understanding airway management in obese patients is crucial for improving patient safety and outcomes in the ICU. The findings of this study may prompt clinicians to adopt new strategies for airway management in this high-risk population."
@@ -395,6 +485,21 @@
     "summary": "This study found that delirium detection tools were less accurate for Spanish-speaking ICU patients compared to English-speaking patients. Using a tool administered by caregivers improved delirium detection in Spanish-speaking patients. These findings highlight the need for language-sensitive delirium detection methods to ensure equitable care.",
     "significance": "Language-sensitive delirium detection methods are crucial for providing equitable care to diverse ICU populations, as disparities in delirium detection can lead to delayed or inadequate treatment and worsened patient outcomes."
   },
+  "pmid:42210338": {
+    "clinical_question": "Is early inhaled isoflurane sedation as effective and safe as propofol in invasively monitored neurocritical patients without intracranial hypertension?",
+    "background": "Evidence on inhaled sedation in neurocritically ill patients remains limited due to concerns about potential increases in intracranial pressure.",
+    "design": "phase IV, randomized, open-label, parallel-group pilot trial",
+    "setting": "tertiary ICU, May 2024-October 2025",
+    "population": "adult neurocritical patients requiring ICP monitoring and without intracranial hypertension",
+    "intervention": "propofol vs isoflurane",
+    "management_common_to_both_groups": "",
+    "intervention_fidelity": "",
+    "outcome": "Sedation efficacy was 100% in both groups; no serious ADRs occurred; ICP and CPP remained stable throughout the study period.",
+    "author_conclusion": "Early sedation with isoflurane was feasible and achieved reliable deep sedation without compromising intracranial or cerebral perfusion parameters in invasively monitored neurocritical patients without intracranial hypertension.",
+    "strengths": "feasible, reliable deep sedation, stable ICP and CPP",
+    "weaknesses": "open-label design, pilot trial, limited sample size",
+    "bottom_line": "Isoflurane sedation may be a safe and effective alternative to propofol in invasively monitored neurocritical patients without intracranial hypertension, but larger studies are needed to confirm these findings."
+  },
   "pmid:42152115": {
     "summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
     "significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients."
@@ -406,6 +511,21 @@
   "pmid:42207935": {
     "summary": "This systematic review and meta-analysis evaluated technology-enhanced strategies to optimize positive end-expiratory pressure (PEEP) in ICU patients on mechanical ventilation. The study found that these technologies may reduce 28-day mortality, but did not affect duration of mechanical ventilation. The evidence was of very low certainty.",
     "significance": "These findings are significant for ICU clinicians as they suggest that technology-enhanced PEEP optimization strategies may improve patient outcomes, particularly mortality, and highlight the need for further research to confirm these results."
+  },
+  "pmid:42159452": {
+    "clinical_question": "Does the ABCDEF bundle decrease delirium incidence and duration, improve functional status in the ICU, and enhance 90-day post-ICU discharge quality of life in critically ill Australian adults?",
+    "background": "Critically ill patients in intensive care units (ICUs) are at risk of developing delirium, which can lead to poor functional outcomes and reduced quality of life.",
+    "design": "Single-center, pragmatic, randomized controlled trial",
+    "setting": "Eight-bed medical/surgical ICU in a metropolitan Australian hospital",
+    "population": "Adult patients expected to remain in ICU for at least 48 hours",
+    "intervention": "ABCDEF bundle",
+    "management_common_to_both_groups": "Usual care",
+    "intervention_fidelity": "Complete ABCDEF bundle adherence was achieved in 50% of patients each study day",
+    "outcome": "Cumulative incidence of delirium: ABCDEF (37.9%), usual care (36.4%); odds ratio, 1.1; 95% CI, 0.5-2.2; p = 0.86",
+    "author_conclusion": "The ABCDEF bundle did not reduce the cumulative incidence or duration of delirium, but may have potential long-term benefits for quality of life",
+    "strengths": "Single-center, pragmatic design; complete adherence to the ABCDEF bundle in 50% of patients each study day",
+    "weaknesses": "Single-center design; no effect on primary outcomes",
+    "bottom_line": "The ABCDEF bundle did not reduce delirium incidence or duration, but may have long-term benefits for quality of life"
   },
   "pmid:41945715": {
     "key_stats": "n=2150, HR 1.04 (95% CI 1.01-1.07), AUC 0.863",
@@ -590,6 +710,36 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT05312229": {
+    "key_stats": "",
+    "summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
+    "significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07167121": {
+    "key_stats": "",
+    "summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
+    "significance": "Understanding the predictive validity of the CPAx score can help clinicians identify patients at risk of poor functional outcomes after ICU discharge, allowing for targeted interventions.",
+    "rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07737353": {
+    "key_stats": "",
+    "summary": "This study evaluated the effect of structured education for family members of ICU patients undergoing tracheostomy on their anxiety, well-being, and satisfaction with care. Participants were randomly assigned to either an intervention or control group. The study aimed to assess the impact of this education on family members' emotional and psychological state.",
+    "significance": "This study highlights the importance of supporting family members of ICU patients undergoing tracheostomy, as their emotional well-being can significantly impact patient outcomes. Structured education may be a valuable tool in addressing their concerns and improving care satisfaction.",
+    "rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07215702": {
+    "key_stats": "",
+    "summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
+    "significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06607003": {
+    "key_stats": "",
+    "summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
+    "significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
+    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT06513949": {
     "summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
