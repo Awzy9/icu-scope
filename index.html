@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=28" />
+  <link rel="stylesheet" href="style.css?v=29" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -112,6 +112,10 @@
   <nav class="category-nav" id="category-nav" aria-label="Categories">
     <!-- populated by app.js -->
   </nav>
+  <div class="hidden-categories-bar" id="hidden-categories-bar" hidden>
+    <span class="hidden-categories-label">🚫 Hidden:</span>
+    <div id="hidden-categories-list"></div>
+  </div>
   <div class="quick-filters" id="quick-filters">
     <button class="quick-filter-chip" type="button" data-study-type="Randomized Controlled Trial">RCT</button>
     <button class="quick-filter-chip" type="button" data-study-type="__trials__">Trials</button>
@@ -299,6 +303,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=23"></script>
+  <script src="app.js?v=24"></script>
 </body>
 </html>

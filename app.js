@@ -78,6 +78,8 @@
   const journalFilter = document.getElementById("journal-filter");
   const studyTypeFilter = document.getElementById("study-type-filter");
   const quickFilters = document.getElementById("quick-filters");
+  const hiddenCategoriesBar = document.getElementById("hidden-categories-bar");
+  const hiddenCategoriesList = document.getElementById("hidden-categories-list");
   const dashboardStrip = document.getElementById("dashboard-strip");
   const dashNewCount = document.getElementById("dash-new-count");
   const dashTopCategory = document.getElementById("dash-top-category");
@@ -320,6 +322,7 @@
   let isFirstVisit = true;
   let currentSessionIds = new Set();
   let bookmarkedIds = new Set();
+  let hiddenCategories = new Set();
   let embeddingsPromise = null;
   let embeddingsCache = null;
 
@@ -423,6 +426,25 @@
   function saveCollapseState(state) {
     try {
       localStorage.setItem("icu-scope-collapsed", JSON.stringify(state));
+    } catch (e) {
+      /* localStorage unavailable, skip */
+    }
+  }
+
+  // Distinct from collapse/expand (which still shows the heading) —
+  // hiding removes the category from the page entirely until restored
+  // from the "Hidden categories" control in the toolbar.
+  function loadHiddenCategories() {
+    try {
+      return new Set(JSON.parse(localStorage.getItem("icu-scope-hidden-categories") || "[]"));
+    } catch (e) {
+      return new Set();
+    }
+  }
+
+  function saveHiddenCategories(ids) {
+    try {
+      localStorage.setItem("icu-scope-hidden-categories", JSON.stringify([...ids]));
     } catch (e) {
       /* localStorage unavailable, skip */
     }
@@ -1460,11 +1482,42 @@
       + (data.categories || []).map((c) => `<option value="${escapeHtml(c.id)}">${escapeHtml(ORGAN_LABELS[c.id] || c.label)}</option>`).join("");
   }
 
+  function renderHiddenCategoriesBar(categories) {
+    const hidden = categories.filter((c) => hiddenCategories.has(c.id));
+    if (!hidden.length) {
+      hiddenCategoriesBar.hidden = true;
+      return;
+    }
+    hiddenCategoriesBar.hidden = false;
+    hiddenCategoriesList.innerHTML = "";
+    hidden.forEach((cat) => {
+      const chip = document.createElement("button");
+      chip.type = "button";
+      chip.className = "hidden-category-chip";
+      chip.title = `Show ${cat.label} again`;
+      chip.textContent = `${CATEGORY_ICONS[cat.id] || ""} ${cat.label} ✕`;
+      chip.addEventListener("click", () => {
+        hiddenCategories.delete(cat.id);
+        saveHiddenCategories(hiddenCategories);
+        applyFiltersAndRender();
+      });
+      hiddenCategoriesList.appendChild(chip);
+    });
+  }
+
   function renderCategories(categories, term, days, studyType, year, journal, organId) {
     nav.innerHTML = "";
     content.innerHTML = "";
 
-    const scoped = (!organId || organId === "all") ? categories : categories.filter((c) => c.id === organId);
+    hiddenCategories = loadHiddenCategories();
+    renderHiddenCategoriesBar(categories);
+
+    const organScoped = (!organId || organId === "all") ? categories : categories.filter((c) => c.id === organId);
+    // An explicit organ-filter selection overrides hiding — if you picked
+    // this category from the dropdown, you clearly want to see it.
+    const scoped = (!organId || organId === "all")
+      ? organScoped.filter((c) => !hiddenCategories.has(c.id))
+      : organScoped;
     const filtered = scoped.map((cat) => ({
       ...cat,
       articles: sortArticles(categorySort[cat.id] || "newest", filterList(cat.articles, term, days, studyType, year, journal)),
@@ -1506,12 +1559,18 @@
           <button type="button" class="sort-btn${mode === "newest" ? " active" : ""}" aria-pressed="${mode === "newest"}" data-mode="newest">Newest</button>
           <button type="button" class="sort-btn${mode === "cited" ? " active" : ""}" aria-pressed="${mode === "cited"}" data-mode="cited">Most cited</button>
         </div>
+        <button type="button" class="hide-category-btn" title="Hide this category" aria-label="Hide ${escapeHtml(cat.label)} category">✕</button>
       `;
       heading.querySelectorAll(".sort-btn").forEach((btn) => {
         btn.addEventListener("click", () => {
           categorySort[cat.id] = btn.dataset.mode;
           applyFiltersAndRender();
         });
+      });
+      heading.querySelector(".hide-category-btn").addEventListener("click", () => {
+        hiddenCategories.add(cat.id);
+        saveHiddenCategories(hiddenCategories);
+        applyFiltersAndRender();
       });
       section.appendChild(heading);
 

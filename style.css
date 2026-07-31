@@ -786,6 +786,58 @@ body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
   cursor: pointer;
 }
 
+.hide-category-btn {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  font-size: 0.8rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.hide-category-btn:hover {
+  color: var(--danger-accent);
+  border-color: var(--danger-accent);
+}
+
+.hidden-categories-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 1.5rem 0.6rem;
+  font-size: 0.82rem;
+}
+
+.hidden-categories-label { color: var(--text-muted); }
+
+#hidden-categories-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.hidden-category-chip {
+  border: 1px dashed var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  padding: 0.25rem 0.65rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.hidden-category-chip:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
 .sort-btn.active {
   background: var(--accent);
   border-color: var(--accent);
@@ -1480,6 +1532,12 @@ mark {
     width: 2.5rem;
     height: 2.5rem;
     font-size: 1rem;
+  }
+
+  .hide-category-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    font-size: 0.95rem;
   }
 
   .theme-toggle, .saved-toggle {
