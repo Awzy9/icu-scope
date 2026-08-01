@@ -501,6 +501,10 @@
     "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
     "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
   },
+  "pmid:42149702": {
+    "summary": "Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.",
+    "significance": "This study's findings suggest that using a higher dose of rocuronium may improve intubation success rates in the ICU, but more research is needed to confirm this and to understand the potential benefits and risks."
+  },
   "pmid:42243987": {
     "summary": "Researchers compared outcomes of 1,077 ICU patients with acute respiratory distress syndrome (ARDS) who developed ARDS after surgery (postoperative ARDS) to those who developed ARDS due to medical reasons. They found that postoperative ARDS had a more favorable early trajectory and lower 90-day mortality. The study suggests that postoperative ARDS is a distinct clinical subtype driven by extrapulmonary and surgery-related factors.",
     "significance": "This study's findings have significant implications for ICU clinical practice, suggesting that postoperative ARDS may require a distinct management approach focused on perioperative prevention and early identification of surgery-related complications."
@@ -542,10 +546,6 @@
   "pmid:42169048": {
     "summary": "Researchers found that point-of-care ultrasound can quickly identify signs of right ventricular dysfunction and detect thrombus in transit in critically ill patients with suspected pulmonary embolism, helping with timely therapeutic decisions.",
     "significance": "This matters for ICU clinical practice as it provides a rapid diagnostic tool for unstable patients where transport for definitive imaging is not feasible, potentially improving patient outcomes."
-  },
-  "pmid:42149702": {
-    "summary": "Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.",
-    "significance": "This study's findings suggest that using a higher dose of rocuronium may improve intubation success rates in the ICU, but more research is needed to confirm this and to understand the potential benefits and risks."
   },
   "pmid:42121165": {
     "summary": "This study compared three induction agents (etomidate, ketamine, and propofol) for emergency tracheal intubation in critically ill adults. The results showed that etomidate and ketamine probably result in similar mortality, but ketamine may cause more peri-intubation hemodynamic instability. The study also found that propofol has no randomized evidence for emergency intubation in critically ill adults.",
@@ -597,45 +597,17 @@
     "summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
     "significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury."
   },
-  "pmid:42207935": {
-    "summary": "This systematic review and meta-analysis evaluated technology-enhanced strategies to optimize positive end-expiratory pressure (PEEP) in ICU patients on mechanical ventilation. The study found that these technologies may reduce 28-day mortality, but did not affect duration of mechanical ventilation. The evidence was of very low certainty.",
-    "significance": "These findings are significant for ICU clinicians as they suggest that technology-enhanced PEEP optimization strategies may improve patient outcomes, particularly mortality, and highlight the need for further research to confirm these results."
+  "pmid:42484383": {
+    "key_stats": "n=449, n=505, p=0.0162, p=0.0504, 95% CI -0.70 to 0.55",
+    "summary": "A randomized controlled trial tested whether involving a communication facilitator during and after an ICU stay could reduce depressive symptoms in family members of critically ill patients. The study found no significant difference in depressive symptoms between the intervention and control groups. Secondary outcomes, such as relationship with the healthcare team and goal concordance, showed small but expected improvements.",
+    "significance": "This study highlights the importance of addressing family members' emotional distress during ICU stays, but suggests that involving a communication facilitator may not be a sufficient intervention to reduce depressive symptoms. Clinicians should consider other strategies to support family members during this challenging time.",
+    "rounds_takeaway": "Consider offering family-centered care and emotional support to family members of critically ill patients, but do not rely solely on communication facilitators to reduce depressive symptoms."
   },
-  "pmid:42159452": {
-    "clinical_question": "Does the ABCDEF bundle decrease delirium incidence and duration, improve functional status in the ICU, and enhance 90-day post-ICU discharge quality of life in critically ill Australian adults?",
-    "background": "Critically ill patients in intensive care units (ICUs) are at risk of developing delirium, which can lead to poor functional outcomes and reduced quality of life.",
-    "design": "Single-center, pragmatic, randomized controlled trial",
-    "setting": "Eight-bed medical/surgical ICU in a metropolitan Australian hospital",
-    "population": "Adult patients expected to remain in ICU for at least 48 hours",
-    "intervention": "ABCDEF bundle",
-    "management_common_to_both_groups": "Usual care",
-    "intervention_fidelity": "Complete ABCDEF bundle adherence was achieved in 50% of patients each study day",
-    "outcome": "Cumulative incidence of delirium: ABCDEF (37.9%), usual care (36.4%); odds ratio, 1.1; 95% CI, 0.5-2.2; p = 0.86",
-    "author_conclusion": "The ABCDEF bundle did not reduce the cumulative incidence or duration of delirium, but may have potential long-term benefits for quality of life",
-    "strengths": "Single-center, pragmatic design; complete adherence to the ABCDEF bundle in 50% of patients each study day",
-    "weaknesses": "Single-center design; no effect on primary outcomes",
-    "bottom_line": "The ABCDEF bundle did not reduce delirium incidence or duration, but may have long-term benefits for quality of life"
-  },
-  "pmid:42093058": {
-    "clinical_question": "Does an early restrictive fluid strategy compared to a liberal fluid strategy affect long-term functional outcomes in patients with sepsis-induced hypotension?",
-    "background": "The impact of fluid resuscitation strategies on patient-centered outcomes of sepsis survivors is unknown.",
-    "design": "open-label, randomized controlled trial",
-    "setting": "part of the NIH NHLBI PETAL Network's CLOVERS trial (NCT03434028)",
-    "population": "patients with sepsis-induced hypotension",
-    "intervention": "early restrictive fluid strategy",
-    "management_common_to_both_groups": "",
-    "intervention_fidelity": "",
-    "outcome": "no group differences observed in cognitive function, executive function, disability status, mobility, and health-related quality of life at 6 and 12 months",
-    "author_conclusion": "The restrictive fluid strategy used in this study resulted in similar cognitive and physical function at 6 and 12 months, compared to a liberal fluid strategy.",
-    "strengths": "large sample size; long-term follow-up",
-    "weaknesses": "open-label design; high loss to follow-up",
-    "bottom_line": "A restrictive fluid strategy in sepsis-induced hypotension may be as effective as a liberal strategy for long-term functional outcomes."
-  },
-  "pmid:41945715": {
-    "key_stats": "n=2150, HR 1.04 (95% CI 1.01-1.07), AUC 0.863",
-    "summary": "Researchers analyzed data from 2150 ICU patients with acute respiratory distress syndrome to understand how mechanical power from ventilation affects lung injury. They found that lung compliance affects the risk of lung injury, with higher-compliance lungs showing a dose-response pattern and lower-compliance lungs showing a narrow power band. A risk-adjusted mechanical-power score was developed to predict outcomes.",
-    "significance": "This study highlights the importance of considering individual patient factors, such as respiratory compliance, when guiding ventilation to prevent lung injury. It also suggests that a single 'safe' mechanical power threshold may not be sufficient.",
-    "rounds_takeaway": "Consider using the risk-adjusted mechanical-power score to guide ventilator management in patients with acute respiratory distress syndrome, particularly those with varying levels of respiratory compliance."
+  "pmid:42469923": {
+    "key_stats": "n=4703, OR 1.93 (95% CI 1.57-2.37), p<0.01",
+    "summary": "This study compared the characteristics and outcomes of immunocompromised patients with viral severe acute respiratory infections (SARI) to those of immunocompetent patients in Australian ICUs. Immunocompromised patients were older, had more comorbidities, and received more treatment, but had nearly double the odds of in-hospital mortality. They accounted for about one-fifth of critically ill viral SARI patients.",
+    "significance": "This study highlights the need for targeted public health campaigns and improved treatment strategies for immunocompromised patients with viral SARI, who have a higher risk of in-hospital mortality.",
+    "rounds_takeaway": "Consider immunocompromised status in critically ill patients with viral SARI to inform treatment decisions and risk assessment."
   },
   "url:https://litfl.com/blunt-cerebrovascular-injury/": {
     "key_stats": "",
@@ -714,6 +686,18 @@
   "pmid:41916807": {
     "summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
     "significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients."
+  },
+  "pmid:42522393": {
+    "key_stats": "",
+    "summary": "A consensus document was developed by 12 panelists from 3 Spanish scientific societies to provide a comprehensive care framework for accidental hypothermia. The document is based on a systematic search of 281 articles and a 2-round Delphi process. It provides 37 recommendations across 8 application domains.",
+    "significance": "This consensus document can help standardize care for accidental hypothermia, potentially improving patient outcomes and reducing its significant impact on public health.",
+    "rounds_takeaway": "Consider implementing the standardized protocols outlined in this consensus document for patients with suspected accidental hypothermia."
+  },
+  "pmid:42494313": {
+    "key_stats": "",
+    "summary": "This study evaluated the quality of clinical guidelines for nutritional risk screening in critically ill adults. The guidelines showed satisfactory methodological quality, but limitations were found in recommendation credibility, applicability, and evidence quality. Most original studies supporting recommendations had a high risk of bias.",
+    "significance": "These findings emphasize the need for high-quality evidence and transparent risk-of-bias assessment in clinical guidelines to ensure accurate and effective nutritional care for critically ill patients.",
+    "rounds_takeaway": "Consider critically evaluating the credibility and applicability of nutritional risk screening recommendations in clinical guidelines for critically ill patients."
   },
   "pmid:42481936": {
     "key_stats": "n=5721, HR 1.52 (95% CI 1.29-1.79), HR 1.41 (95% CI 1.20-1.65), HR 1.34, HR 1.14, OR 1.87, OR 1.51, p<0.001",

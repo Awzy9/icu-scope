@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Fri, 31 Jul 2026 16:42:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2026 05:46:33 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -32,6 +32,13 @@
       <guid isPermaLink="false">pmid:42467893</guid>
       <category>GI &amp; Nutrition</category>
       <description></description>
+    </item>
+    <item>
+      <title>Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42149702/</link>
+      <guid isPermaLink="false">pmid:42149702</guid>
+      <category>Procedures &amp; POCUS</category>
+      <description>Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.</description>
     </item>
     <item>
       <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">https://emcrit.org/emnerd/a-study-in-priors/</guid>
       <category>EMCrit</category>
       <description>Researchers found that nearly half of positive medical trial results cannot be replicated, highlighting issues with trust in medical literature.</description>
-    </item>
-    <item>
-      <title>Regional Citrate Anticoagulation Versus No Anticoagulation During Continuous Renal Replacement Therapy in Critically Ill Patients at High Risk of Bleeding: A Meta-analysis of Randomized Controlled Trials.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42490008/</link>
-      <guid isPermaLink="false">pmid:42490008</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.</description>
     </item>
   </channel>
 </rss>
