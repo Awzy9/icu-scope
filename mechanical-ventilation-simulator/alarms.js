@@ -331,6 +331,7 @@
     stats.total += 1;
     if (bothCorrect) stats.correct += 1;
     document.getElementById("alarm-score").textContent = `${stats.correct} / ${stats.total} correct this session`;
+    if (window.MVSIM && window.MVSIM.recordAlarmAttempt) window.MVSIM.recordAlarmAttempt(bothCorrect);
 
     box.className = `alarm-feedback ${bothCorrect ? "alarm-feedback-good" : "alarm-feedback-bad"}`;
     const dopesLine = `<p><strong>DOPES category:</strong> ${currentCase.dopes}</p>`;

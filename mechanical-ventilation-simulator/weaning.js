@@ -120,6 +120,12 @@
         ? "Reasonable to hold if there's another specific concern (e.g. copious secretions, depressed mental status) not captured here — by the numbers modeled, this patient looks ready."
         : `Reasonable decision to continue ventilatory support: ${reasons.join("; ")}.`;
     }
+
+    // Holding is never scored as the "wrong" call (caution isn't an error);
+    // extubating is reasonable exactly when the modeled criteria support it.
+    if (window.MVSIM && window.MVSIM.recordWeaningDecision) {
+      window.MVSIM.recordWeaningDecision(outcome === "hold" || likelySuccess);
+    }
   }
 
   function initButtons() {

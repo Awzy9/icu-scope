@@ -64,6 +64,12 @@ mirroring the real bedside maneuvers.
 **Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
 overdistended lung units that updates live with the settings.
 
+**Session dashboard** — a persistent (localStorage) summary tying the other sections together:
+what fraction of explored settings had no danger-level alerts, how many weaning decisions were
+reasonable given the modeled criteria, and alarm-troubleshooting accuracy, plus a rough qualitative
+read and a reset button. Nothing is sent anywhere; it's purely a local, motivational summary, not a
+validated competency score.
+
 **Alarm troubleshooting** — 8 randomized vignettes (kinked tube, mucus plug, bronchospasm,
 mainstem intubation, tension pneumothorax, dynamic hyperinflation/auto-PEEP, circuit
 disconnection, cuff leak) built around the DOPES differential (Displacement, Obstruction,
@@ -113,6 +119,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `waveforms.js` | Waveform + loop rendering, hold maneuvers, alveolar recruitment view |
 | `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
+| `dashboard.js` | Session performance summary read from `window.MVSIM.stats` |
 | `styles.css` | Self-contained styling (light/dark themes) |
 
 ## Roadmap
@@ -122,7 +129,6 @@ Planned, not yet built — several of these need a backend, which the current st
 - AI tutor explaining each intervention in context
 - Progressive clinical cases that evolve with user management
 - Additional ventilation modes (SIMV, APRV, BiLevel, NIV, HFNC) — VC/PC/PSV are built
-- Performance dashboard and guideline-adherence scoring
 - Imaging, ultrasound and ECMO physiology modules
 
 ## Sources

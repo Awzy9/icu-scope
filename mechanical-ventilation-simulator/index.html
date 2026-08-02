@@ -46,6 +46,35 @@
   </div>
 
   <main class="sim-content" id="content">
+    <section class="sim-panel sim-dashboard" id="dashboard-panel" aria-label="Session performance dashboard">
+      <div class="dash-header">
+        <h2 class="sim-panel-title">📊 Session dashboard</h2>
+        <button type="button" id="dash-reset-btn" class="toolbar-btn">↺ Reset stats</button>
+      </div>
+      <p class="sim-subnote" id="dash-overall"></p>
+      <div class="dash-grid">
+        <div class="dash-metric">
+          <small>Lung-protective settings</small>
+          <span id="dash-settings-value">–</span>
+          <div class="gauge"><div class="gauge-fill" id="dash-settings-bar"></div></div>
+          <p class="sim-subnote" id="dash-settings-sub"></p>
+        </div>
+        <div class="dash-metric">
+          <small>Weaning decisions</small>
+          <span id="dash-weaning-value">–</span>
+          <div class="gauge"><div class="gauge-fill" id="dash-weaning-bar"></div></div>
+          <p class="sim-subnote" id="dash-weaning-sub"></p>
+        </div>
+        <div class="dash-metric">
+          <small>Alarm troubleshooting</small>
+          <span id="dash-alarms-value">–</span>
+          <div class="gauge"><div class="gauge-fill" id="dash-alarms-bar"></div></div>
+          <p class="sim-subnote" id="dash-alarms-sub"></p>
+        </div>
+      </div>
+      <p class="sim-subnote">Saved locally in your browser (not sent anywhere); resets if you clear site data or click Reset.</p>
+    </section>
+
     <div class="sim-layout">
       <section class="sim-panel sim-controls" aria-label="Ventilator settings">
         <h2 class="sim-panel-title">Scenario &amp; settings</h2>
@@ -324,5 +353,6 @@
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>
+  <script src="dashboard.js?v=1"></script>
 </body>
 </html>

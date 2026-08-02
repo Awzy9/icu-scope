@@ -166,10 +166,60 @@
     return scenario.paco2Ref * refAlveolarMV;
   }
 
-  // Shared with waveforms.js / weaning.js, which run as separate <script>
-  // tags and read scenario data + helpers off this namespace rather than
-  // duplicating it.
-  window.MVSIM = { SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant };
+  // ---------------------------------------------------------------------
+  // Session performance stats, persisted to localStorage (same pattern as
+  // the theme preference) so the dashboard survives a page reload. Every
+  // module records into this shared bucket rather than keeping its own
+  // silo, so dashboard.js has one place to read from.
+  // ---------------------------------------------------------------------
+  const STATS_KEY = "mvsim-stats";
+  function loadStats() {
+    try {
+      const saved = JSON.parse(localStorage.getItem(STATS_KEY));
+      if (saved && typeof saved === "object") return Object.assign(defaultStats(), saved);
+    } catch (e) { /* corrupt or absent — fall through to defaults */ }
+    return defaultStats();
+  }
+  function defaultStats() {
+    return {
+      settingsChecked: 0, settingsSafe: 0,
+      weaningDecisions: 0, weaningReasonable: 0,
+      alarmCorrect: 0, alarmTotal: 0,
+    };
+  }
+  const stats = loadStats();
+  function saveStats() {
+    try { localStorage.setItem(STATS_KEY, JSON.stringify(stats)); } catch (e) { /* storage unavailable */ }
+    if (typeof window.renderDashboard === "function") window.renderDashboard();
+  }
+  function recordSettingsCheck(hasDangerAlert) {
+    stats.settingsChecked += 1;
+    if (!hasDangerAlert) stats.settingsSafe += 1;
+    saveStats();
+  }
+  function recordWeaningDecision(reasonable) {
+    stats.weaningDecisions += 1;
+    if (reasonable) stats.weaningReasonable += 1;
+    saveStats();
+  }
+  function recordAlarmAttempt(correct) {
+    stats.alarmTotal += 1;
+    if (correct) stats.alarmCorrect += 1;
+    saveStats();
+  }
+  function resetStats() {
+    Object.assign(stats, defaultStats());
+    saveStats();
+  }
+  let settingsCheckTimer = null;
+
+  // Shared with waveforms.js / weaning.js / alarms.js / dashboard.js, which
+  // run as separate <script> tags and read scenario data + helpers off this
+  // namespace rather than duplicating it.
+  window.MVSIM = {
+    SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant, stats,
+    recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, resetStats,
+  };
 
   // How much a spontaneous breath's volume is penalized by airway resistance
   // for a given inspiratory effort — shared by pressure-support mode and the
@@ -509,6 +559,12 @@
     if (typeof window.renderWeaning === "function") {
       window.renderWeaning(state, scenario, r, pbw);
     }
+
+    // Debounced: only tally once the user settles on a configuration,
+    // rather than once per pixel of slider drag.
+    clearTimeout(settingsCheckTimer);
+    const hasDangerAlert = warnings.some((w) => w.level === "danger");
+    settingsCheckTimer = setTimeout(() => recordSettingsCheck(hasDangerAlert), 700);
   }
 
   function initTheme() {
