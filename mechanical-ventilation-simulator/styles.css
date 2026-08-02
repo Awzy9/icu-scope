@@ -175,6 +175,44 @@ select:focus-visible {
 
 .theme-toggle:hover { border-color: var(--accent); }
 
+.difficulty-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.difficulty-picker label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.difficulty-picker .sim-select {
+  min-width: 200px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+}
+
+/* ---------------------------------------------------- Difficulty gating */
+/* .guidance-only: tutoring content, shown at beginner/resident only.
+   .gated-note: the inverse — a short note explaining guidance is hidden,
+   shown only at fellow/consultant. Warnings, alerts and evidence citations
+   are never gated by either class — those are what a real monitor and a
+   real reference list would still show at any experience level. */
+
+html[data-difficulty="fellow"] .guidance-only,
+html[data-difficulty="consultant"] .guidance-only {
+  display: none;
+}
+
+.gated-note { display: none; }
+
+html[data-difficulty="fellow"] .gated-note,
+html[data-difficulty="consultant"] .gated-note {
+  display: block;
+}
+
 /* ------------------------------------------------------------ Disclaimer */
 
 .sim-disclaimer {
@@ -1273,6 +1311,8 @@ select:focus-visible {
   .vitals-strip { grid-template-columns: repeat(3, 1fr); }
   .pt-results { grid-template-columns: 1fr; }
   .xp-grid { grid-template-columns: 1fr; }
+  .header-inner { flex-wrap: wrap; }
+  .difficulty-picker .sim-select { min-width: 0; }
 }
 
 @media (max-width: 520px) {

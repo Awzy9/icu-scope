@@ -71,25 +71,39 @@
     const sbt = runSBT(scenario, ibw, mainState, mainResults);
     const band = rsbiBand(sbt.rsbi);
 
+    // Interpreting RSBI/NIF against a threshold, and pre-computing the gas-
+    // exchange verdict, is guidance — fellow/consultant see the raw numbers
+    // (which is all a real ventilator shows) and have to know the
+    // thresholds themselves. Even the colour coding is a hint, so it's
+    // gated along with the text.
+    const D = window.MVSIM_DIFFICULTY;
+    const showInterpretation = !D || !D.atLeast("fellow");
+
     document.getElementById("wean-rr").textContent = `${sbt.spontRR.toFixed(0)} /min`;
     document.getElementById("wean-vt").textContent = `${sbt.spontVt.toFixed(0)} mL (${(sbt.spontVt / ibw).toFixed(1)} mL/kg IBW)`;
     const rsbiEl = document.getElementById("wean-rsbi");
     rsbiEl.textContent = sbt.rsbi.toFixed(0);
-    rsbiEl.className = `wean-rsbi-value wean-${band.cls}`;
-    document.getElementById("wean-rsbi-label").textContent = `${band.label} (<80 favorable, ≥105 predicts likely failure)`;
+    rsbiEl.className = showInterpretation ? `wean-rsbi-value wean-${band.cls}` : "wean-rsbi-value";
+    document.getElementById("wean-rsbi-label").textContent = showInterpretation
+      ? `${band.label} (<80 favorable, ≥105 predicts likely failure)` : "";
     document.getElementById("wean-nif").textContent = `≈ ${sbt.nifEstimate.toFixed(0)} cmH₂O`;
     const nifLabel = document.getElementById("wean-nif-label");
     if (nifLabel) {
-      nifLabel.textContent = sbt.nifEstimate > -25
+      nifLabel.textContent = !showInterpretation ? "" : sbt.nifEstimate > -25
         ? "Weaker than the usual −20 to −25 cmH₂O adequacy threshold — worth noting this can look concerning even when RSBI is favorable, particularly in neuromuscular disease, where RSBI is a poor predictor and NIF/vital capacity matter more."
         : "At or beyond the usual −20 to −25 cmH₂O adequacy threshold.";
     }
 
     const gasEl = document.getElementById("wean-gas-status");
-    gasEl.textContent = sbt.gasExchangeOk
-      ? "✅ Gas exchange criteria met (FiO₂ ≤50%, PEEP ≤8, PaO₂ ≥60, pH 7.30–7.50) on current settings."
-      : "⚠️ Gas exchange criteria not yet met on current ventilator settings — an SBT is premature regardless of RSBI.";
-    gasEl.className = sbt.gasExchangeOk ? "wean-status-ok" : "wean-status-bad";
+    if (showInterpretation) {
+      gasEl.textContent = sbt.gasExchangeOk
+        ? "✅ Gas exchange criteria met (FiO₂ ≤50%, PEEP ≤8, PaO₂ ≥60, pH 7.30–7.50) on current settings."
+        : "⚠️ Gas exchange criteria not yet met on current ventilator settings — an SBT is premature regardless of RSBI.";
+      gasEl.className = sbt.gasExchangeOk ? "wean-status-ok" : "wean-status-bad";
+    } else {
+      gasEl.textContent = "";
+      gasEl.className = "";
+    }
 
     const leakBtn = document.getElementById("wean-leak-toggle");
     if (leakBtn) {

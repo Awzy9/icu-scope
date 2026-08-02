@@ -164,10 +164,20 @@
     stepOutcomes[currentStepIndex] = passed;
     if (window.MVSIM && window.MVSIM.recordCaseStep) window.MVSIM.recordCaseStep(passed);
 
+    // Itemizing exactly what's wrong is the most direct kind of hint — this
+    // is a "beginner" feature specifically, not "beginner and resident":
+    // residents get limited hints, not the answer key. Everyone above
+    // beginner has to work out which setting is off from the pass/fail
+    // alone, same as a real attending wouldn't spell it out for them.
+    const D = window.MVSIM_DIFFICULTY;
+    const showDetail = !D || D.current() === "beginner";
+
     resultBox.className = `alarm-feedback ${passed ? "alarm-feedback-good" : "alarm-feedback-bad"}`;
     resultBox.innerHTML = passed
       ? `<p>✅ ${step.passText}</p>`
-      : `<p>⚠️ Not quite there yet:</p><ul>${problems.map((p) => `<li>${p}</li>`).join("")}</ul><p class="sim-subnote">Adjust the settings above and click “Check my settings” again — or continue anyway.</p>`;
+      : showDetail
+      ? `<p>⚠️ Not quite there yet:</p><ul>${problems.map((p) => `<li>${p}</li>`).join("")}</ul><p class="sim-subnote">Adjust the settings above and click “Check my settings” again — or continue anyway.</p>`
+      : `<p>⚠️ Not quite there yet — recheck your settings against the case's opening prompt.</p><p class="sim-subnote">Adjust the settings above and click “Check my settings” again — or continue anyway.</p>`;
 
     document.getElementById("case-next-btn").hidden = false;
   }

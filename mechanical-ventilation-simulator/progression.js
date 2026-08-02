@@ -113,22 +113,27 @@
   function describeAdvance(result, scenario, ibw) {
     const { hours, quality, before, after } = result;
     const dPf = after.pfRatio - before.pfRatio;
-    const direction = quality > 0.15 ? "improving" : quality < -0.15 ? "worsening" : "roughly unchanged";
-
-    const reasons = [];
-    if (quality > 0.15) {
-      reasons.push("plateau and driving pressure stayed within lung-protective limits");
-    } else if (quality < -0.15) {
-      reasons.push("plateau and/or driving pressure exceeded the protective thresholds, or oxygenation/acid-base was inadequate");
-    } else {
-      reasons.push("settings were neither clearly protective nor clearly injurious");
-    }
-
     const pfClause = Math.abs(dPf) >= 3
       ? `P/F ratio moved ${before.pfRatio.toFixed(0)} → ${after.pfRatio.toFixed(0)}.`
       : `P/F ratio held roughly steady (${before.pfRatio.toFixed(0)} → ${after.pfRatio.toFixed(0)}).`;
 
-    return `Over ${fmtElapsed(hours).replace("+", "")} at the current settings: ${reasons[0]}, so the lung is ${direction}. ${pfClause}`;
+    // The plain "what happened" numbers are always shown — same as a real
+    // flowsheet entry. Interpreting WHY (the reasoning sentence, and the
+    // trend badge elsewhere on this panel) is guidance, gated the same way
+    // as the physiology explanation panel.
+    const D = window.MVSIM_DIFFICULTY;
+    if (D && D.atLeast("fellow")) {
+      return `Over ${fmtElapsed(hours).replace("+", "")} at the current settings: ${pfClause}`;
+    }
+
+    const direction = quality > 0.15 ? "improving" : quality < -0.15 ? "worsening" : "roughly unchanged";
+    const reason = quality > 0.15
+      ? "plateau and driving pressure stayed within lung-protective limits"
+      : quality < -0.15
+      ? "plateau and/or driving pressure exceeded the protective thresholds, or oxygenation/acid-base was inadequate"
+      : "settings were neither clearly protective nor clearly injurious";
+
+    return `Over ${fmtElapsed(hours).replace("+", "")} at the current settings: ${reason}, so the lung is ${direction}. ${pfClause}`;
   }
 
   let lastRenderedHours = -1;
@@ -151,7 +156,10 @@
     const trend = trendFor(progression.severityMultiplier);
     const badge = document.getElementById("course-trend");
     badge.textContent = `${trend.arrow} ${trend.label}`;
-    badge.className = `course-trend-badge ${trend.cls}`;
+    // Must keep "guidance-only" (from the static markup) in this className
+    // every time it's rewritten here, or the CSS difficulty gate on this
+    // element gets silently wiped out on the very next render.
+    badge.className = `course-trend-badge guidance-only ${trend.cls}`;
 
     document.getElementById("course-current-pf").textContent = r.pfRatio.toFixed(0);
     document.getElementById("course-current-driving").textContent = `${r.drivingPressure.toFixed(1)} cmH₂O`;
@@ -179,8 +187,11 @@
   function appendLogEntry(text, quality) {
     const log = document.getElementById("course-log");
     if (!log) return;
+    const D = window.MVSIM_DIFFICULTY;
+    const interpret = !D || !D.atLeast("fellow");
     const li = document.createElement("li");
-    li.className = quality > 0.15 ? "course-log-good" : quality < -0.15 ? "course-log-bad" : "course-log-neutral";
+    li.className = !interpret ? "course-log-neutral"
+      : quality > 0.15 ? "course-log-good" : quality < -0.15 ? "course-log-bad" : "course-log-neutral";
     li.textContent = text;
     log.insertBefore(li, log.firstChild);
     // Keep the log from growing without bound across a long session.

@@ -146,6 +146,24 @@ multiple-choice decision points as the patient evolves. Non-blocking throughout:
 still lets you continue, with accurate feedback either way. Each case ends with a short summary,
 and outcomes feed the shared session dashboard.
 
+**Four learner levels** — Beginner, Resident, Fellow, Consultant, selected from the header and
+persisted across visits. This gates how much guidance the page volunteers, not what the monitor
+shows: alerts, alarms, and evidence citations are visible at every level, the same way a real
+ventilator's alarms don't turn off for a more senior clinician. What changes:
+
+- **Beginner** gets everything below, plus a "Suggested next step" box that turns whichever
+  danger-level alert is active into a concrete action ("Reduce tidal volume toward ~400 mL (6
+  mL/kg IBW)"), and the clinical-cases module spells out exactly which criteria a configure step
+  failed.
+- **Resident** keeps the physiology explanation panel, scenario teaching notes, weaning RSBI/NIF
+  interpretation, and the clinical-course trend narrative — but loses the beginner-only "here's the
+  fix" hints, so a mistake has to be reasoned out rather than corrected by button-pushing.
+- **Fellow and Consultant** drop the interpretive layer entirely: the physiology explanation panel
+  collapses to a bare factual summary, teaching notes and RSBI/NIF interpretive labels/colour
+  coding disappear (the raw numbers stay), the clinical-course trend badge and reasoning sentence
+  are replaced by the plain before/after P/F, and a failed clinical-cases step says only that it
+  failed, not why.
+
 **Clinical course** — advance simulated time (+15 min / +1 h / +6 h / +24 h) to see whether the
 settings dialed in *right now* help or hurt this patient over hours, not just this instant. Only
 advancing time moves the trend; adjusting a control alone never does — matching the bedside fact
@@ -240,6 +258,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `patient.js` | Living virtual patient: monitor, ABG, labs, engine-derived vitals |
 | `explain.js` | Mechanism / benefit / risk / evidence breakdown from measured deltas |
 | `progression.js` | Clinical course: time advance, sparkline, course log |
+| `difficulty.js` | Four-level learner mode, gates guidance across every module |
 | `cxr.js` | Chest radiograph panel: schematic films, real-image support |
 | `cxr-images.js` | Attribution manifest for real radiographs (empty by default) |
 | `panels.js` | Collapsible-panel toggles, persisted in localStorage |

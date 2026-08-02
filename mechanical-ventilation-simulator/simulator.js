@@ -559,6 +559,7 @@
     resistancePenalty, spontaneousVt, deriveVitals,
     recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, recordCaseStep, resetStats,
     computeEffectiveScenario, getProgression: () => progression, advanceTime, resetCourse,
+    rerender: () => render(),
   };
 
   // How much a spontaneous breath's volume is penalized by airway resistance
@@ -1077,6 +1078,63 @@
     return warnings;
   }
 
+  // ---------------------------------------------------------------------
+  // Beginner-only: concrete next-step suggestions for whichever danger
+  // conditions are active right now. buildWarnings() above says WHAT is
+  // wrong (and stays visible at every learner level, like a real monitor
+  // alarm); this says what to DO about it, which is the part that's a
+  // genuine hint — reserved for beginner, per the vision doc's "suggested
+  // ventilator adjustments." Only fires for controlled-mode Vt (a
+  // spontaneous patient's own breath isn't something you "set").
+  // ---------------------------------------------------------------------
+  function buildSuggestions(state, results, ibw, scenario) {
+    const suggestions = [];
+    const d = results.detail;
+    const spontaneousMode = state.mode === "psv" || state.mode === "niv" || state.mode === "hfnc";
+
+    if (!spontaneousMode) {
+      const protectiveVt = d && d.kind === "simv" ? d.mandVt : results.vt;
+      const vtPerKg = protectiveVt / ibw;
+      if (vtPerKg > 8) {
+        const targetVt = Math.round((6 * ibw) / 10) * 10;
+        suggestions.push(`Reduce tidal volume toward ~${targetVt} mL (6 mL/kg IBW) — currently ${vtPerKg.toFixed(1)} mL/kg.`);
+      }
+    }
+
+    if (results.plateauPressure > 30) {
+      suggestions.push("Lower tidal volume and/or PEEP until plateau pressure is back under 30 cmH₂O.");
+    }
+    if (results.drivingPressure > 15 && !suggestions.some((s) => s.includes("tidal volume"))) {
+      suggestions.push("Reduce tidal volume — driving pressure tracks the volume this lung is being asked to accept at its current compliance.");
+    }
+
+    if (results.autoPeep > 2 && !(d && d.kind === "aprv")) {
+      suggestions.push("Lower the respiratory rate or lengthen the I:E ratio to give more time to exhale and reduce air trapping.");
+    }
+
+    if (results.spo2 < 88 || results.pao2 < 55) {
+      if (scenario.recruitableFrac > 0.25) {
+        suggestions.push("Increase PEEP toward this lung's estimated optimum, and/or raise FiO₂, to improve oxygenation.");
+      } else {
+        suggestions.push("This lung recruits poorly — raise FiO₂ rather than PEEP; more PEEP is unlikely to help a consolidated or fibrotic lung.");
+      }
+    }
+
+    if (results.ph < 7.2) {
+      suggestions.push("Increase alveolar minute ventilation (raise rate, or tidal volume within safe limits) to lower PaCO₂ — unless this is intentional permissive hypercapnia.");
+    }
+
+    if (state.fio2 >= 80) {
+      suggestions.push("Wean FiO₂ toward ≤60% as oxygenation allows, to reduce oxygen-toxicity risk.");
+    }
+
+    if (results.hemodynamicImpact > 25) {
+      suggestions.push("High mean airway pressure is impairing venous return — consider whether PEEP can come down, or address the hypotension directly.");
+    }
+
+    return suggestions;
+  }
+
   function bandClass(value, thresholds) {
     // thresholds: [goodMax, warnMax] ascending-risk value
     if (value <= thresholds[0]) return "good";
@@ -1338,6 +1396,21 @@
           li.appendChild(cite);
         }
         els["warnings-list"].appendChild(li);
+      });
+    }
+
+    const suggestBox = document.getElementById("beginner-suggestions");
+    if (suggestBox) {
+      const D = window.MVSIM_DIFFICULTY;
+      const showSuggestions = D && D.current() === "beginner";
+      const suggestions = showSuggestions ? buildSuggestions(state, r, ibw, scenario) : [];
+      suggestBox.hidden = suggestions.length === 0;
+      const list = document.getElementById("suggestions-list");
+      list.innerHTML = "";
+      suggestions.forEach((text) => {
+        const li = document.createElement("li");
+        li.textContent = text;
+        list.appendChild(li);
       });
     }
 
