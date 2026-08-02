@@ -64,6 +64,15 @@ mirroring the real bedside maneuvers.
 **Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
 overdistended lung units that updates live with the settings.
 
+**Alarm troubleshooting** — 8 randomized vignettes (kinked tube, mucus plug, bronchospasm,
+mainstem intubation, tension pneumothorax, dynamic hyperinflation/auto-PEEP, circuit
+disconnection, cuff leak) built around the DOPES differential (Displacement, Obstruction,
+Pneumothorax, Equipment failure, Stacked breathing) and DOTTS response framework. Each case has
+monitor numbers, exam findings, and a stylized illustrative waveform; users pick a diagnosis and
+next action and get immediate, explained feedback. Deliberately decoupled from the main physiology
+engine — these are discrete faults (a disconnected circuit isn't a steady state the continuous
+compliance/resistance model represents).
+
 **Weaning readiness assessment** — simulates a spontaneous breathing trial (CPAP 5 / PS 7) using
 each scenario's respiratory muscle reserve and current lung mechanics to estimate spontaneous RR,
 Vt, Rapid Shallow Breathing Index (RSBI), and NIF, plus a cuff-leak toggle and an extubate/hold
@@ -103,6 +112,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `simulator.js` | Disease scenarios, physiology engine, evidence map, DOM wiring, `window.MVSIM` shared namespace |
 | `waveforms.js` | Waveform + loop rendering, hold maneuvers, alveolar recruitment view |
 | `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
+| `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
 | `styles.css` | Self-contained styling (light/dark themes) |
 
 ## Roadmap
@@ -110,7 +120,6 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 Planned, not yet built — several of these need a backend, which the current static setup does not have:
 
 - AI tutor explaining each intervention in context
-- Ventilator alarm troubleshooting scenarios
 - Progressive clinical cases that evolve with user management
 - Additional ventilation modes (SIMV, APRV, BiLevel, NIV, HFNC) — VC/PC/PSV are built
 - Performance dashboard and guideline-adherence scoring

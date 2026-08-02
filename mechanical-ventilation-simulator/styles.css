@@ -202,7 +202,8 @@ select:focus-visible {
 
 .sim-lung,
 .sim-waveforms,
-.sim-weaning {
+.sim-weaning,
+.sim-alarms {
   grid-column: 1 / -1;
 }
 
@@ -574,6 +575,100 @@ select:focus-visible {
 .wean-decision-good { border-color: var(--ok-accent); background: var(--surface-soft); }
 .wean-decision-bad { border-color: var(--danger-accent); background: var(--danger-bg); }
 .wean-decision-neutral { border-color: var(--info-accent); background: var(--info-bg); }
+
+/* -------------------------------------------------------------- Alarms */
+
+.alarm-case {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.alarm-case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.alarm-category-tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--danger-accent);
+  background: var(--danger-bg);
+  border: 1px solid var(--danger-border);
+  border-radius: 999px;
+  padding: 0.15rem 0.65rem;
+}
+
+.alarm-vignette {
+  font-weight: 600;
+  margin: 0 0 0.4rem;
+}
+
+.alarm-wave-wrap {
+  margin-top: 0.75rem;
+}
+
+.alarm-step {
+  margin: 1rem 0;
+}
+
+.alarm-step h3 {
+  font-size: 0.95rem;
+  margin: 0 0 0.5rem;
+}
+
+.alarm-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.alarm-option-btn {
+  text-align: left;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.alarm-option-btn:disabled {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.alarm-option-correct {
+  border-color: var(--ok-accent) !important;
+  background: var(--surface) !important;
+  color: var(--ok-accent) !important;
+  opacity: 1 !important;
+  font-weight: 700;
+}
+
+.alarm-option-wrong {
+  border-color: var(--danger-accent) !important;
+  color: var(--danger-accent) !important;
+  opacity: 1 !important;
+}
+
+.alarm-feedback {
+  border-left: 4px solid var(--border);
+  border-radius: 8px;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.alarm-feedback:empty { display: none; }
+.alarm-feedback p { margin: 0 0 0.5rem; }
+.alarm-feedback p:last-child { margin-bottom: 0; }
+
+.alarm-feedback-good { border-color: var(--ok-accent); background: var(--surface-soft); }
+.alarm-feedback-bad { border-color: var(--danger-accent); background: var(--danger-bg); }
 
 /* ---------------------------------------------------------------- Footer */
 
