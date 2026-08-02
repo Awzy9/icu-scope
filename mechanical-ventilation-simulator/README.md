@@ -120,7 +120,15 @@ in localStorage across reloads.
 **Chest radiograph** — a characteristic film for each scenario with its findings and the
 discriminators that matter (cardiomegaly and effusions separating cardiogenic oedema from ARDS;
 flat diaphragms in obstruction; a normal film in massive PE). Aeration is driven by the engine, so
-recruiting the lung visibly clears the infiltrate — the same coupling as the ultrasound B-lines.
+recruiting the lung visibly clears the infiltrate — the same coupling as the ultrasound B-lines. An
+**Original / Annotated toggle** lets a learner interpret the unlabeled film first, then check
+themselves: Annotated overlays short tag-style labels with a leader line to the finding (bilateral
+infiltrates, perihilar oedema, air bronchograms, consolidation, atelectasis, hyperinflation,
+effusion, pneumothorax's pleural line, an air-fluid level, rib fractures — whichever apply to the
+current scenario), plus a stylized ETT tip position (hidden on NIV/HFNC, where there's no tube) and
+CVC tip position that are always shown as illustrative typical placement. The toggle only appears
+over the schematic — a real registered radiograph has no matching label coordinates, so it hides
+itself rather than annotate the wrong spot.
 
 These are **drawn schematics, not photographs**, for two reasons. Real teaching radiographs
 (Radiopaedia, LITFL) are CC BY-NC-SA: the non-commercial term would limit how this project can

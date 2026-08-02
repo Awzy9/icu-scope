@@ -1235,6 +1235,14 @@ html[data-difficulty="consultant"] .gated-note {
 #cxr-photo { height: auto; }
 #cxr-canvas[hidden], #cxr-photo[hidden] { display: none; }
 
+.cxr-toggle-row {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.cxr-toggle-row[hidden] { display: none; }
+
 .cxr-credit {
   font-size: 0.74rem;
   color: var(--text-muted);

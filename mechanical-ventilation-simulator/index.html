@@ -626,10 +626,15 @@
               <canvas id="cxr-canvas" height="340"></canvas>
               <img id="cxr-photo" alt="" hidden />
             </div>
+            <div class="cxr-toggle-row" id="cxr-toggle-row">
+              <button type="button" class="toolbar-btn" id="cxr-original-btn" aria-pressed="true">Original</button>
+              <button type="button" class="toolbar-btn" id="cxr-annotated-btn" aria-pressed="false">Annotated</button>
+            </div>
             <p class="cxr-credit" id="cxr-credit" hidden></p>
             <p class="sim-subnote" id="cxr-schematic-note">
               Schematic, not a photograph — drawn so the findings can change with the patient.
-              Real radiographs can be added: see <code>cxr-images.js</code>.
+              Real radiographs can be added: see <code>cxr-images.js</code>. Try interpreting the
+              Original film yourself before switching to Annotated.
             </p>
             <p class="sim-subnote"><a id="cxr-real-link" href="https://radiopaedia.org" target="_blank" rel="noopener noreferrer"></a></p>
           </div>

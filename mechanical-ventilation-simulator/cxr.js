@@ -190,8 +190,9 @@
     return f.ref ? FILMS[f.ref] : f;
   }
 
-  let last = null;   // { scenarioId, aeration, volume }
+  let last = null;   // { scenarioId, aeration, volume, invasive }
   let rendered = null;
+  let annotated = false;
 
   function prep(canvas) {
     const rect = canvas.getBoundingClientRect();
@@ -212,7 +213,7 @@
   }
 
   // Radiographic convention: air black, soft tissue grey, bone white.
-  function drawFilm(ctx, w, h, film, aeration, volume) {
+  function drawFilm(ctx, w, h, film, aeration, volume, isAnnotated, invasive) {
     ctx.fillStyle = "#07070a";
     ctx.fillRect(0, 0, w, h);
 
@@ -263,6 +264,10 @@
       drawPneumothorax(ctx, w, h, cx, apex, diaph, halfW, film);
     }
     if (film.ribFractures) drawRibFractures(ctx, w, h, cx, apex, diaph);
+
+    if (isAnnotated) {
+      drawAnnotations(ctx, w, h, cx, apex, diaph, halfW, film, invasive);
+    }
   }
 
   function drawPattern(ctx, w, h, cx, side, apex, diaph, halfW, film, aeration) {
@@ -495,16 +500,12 @@
     ctx.moveTo(edgeX, apex + 6);
     ctx.quadraticCurveTo(cx + halfW * 1.0, (apex + diaph) / 2, cx + halfW * 0.86, diaph - 4);
     ctx.stroke();
-    ctx.fillStyle = "rgba(255,196,84,0.95)";
-    ctx.font = "600 10px system-ui, sans-serif";
-    ctx.fillText("pleural line", edgeX + 4, apex + 22);
     if (film.pattern === "hydropneumothorax") {
       ctx.strokeStyle = "rgba(255,255,255,0.7)";
       ctx.beginPath();
       ctx.moveTo(cx + halfW * 0.5, diaph - h * 0.12);
       ctx.lineTo(cx + halfW * 1.06, diaph - h * 0.12);
       ctx.stroke();
-      ctx.fillText("air–fluid level", cx + halfW * 0.5, diaph - h * 0.13);
       // Chest drain
       ctx.strokeStyle = "rgba(240,244,252,0.85)";
       ctx.lineWidth = 3;
@@ -528,9 +529,94 @@
       ctx.lineTo(x + 5, y + 5);
       ctx.stroke();
     }
-    ctx.fillStyle = "rgba(255,150,120,0.95)";
-    ctx.font = "600 10px system-ui, sans-serif";
-    ctx.fillText("rib fractures", cx + w * 0.16, apex + (diaph - apex) * 0.24);
+    ctx.restore();
+  }
+
+  // ---------------------------------------------------------------------
+  // Annotated overlay: labeled findings with a leader line to the anatomic
+  // point they describe, toggled on separately from the film itself so a
+  // learner can read the Original first, then check their interpretation.
+  // ETT/CVC positions are illustrative — typical placement, not read off
+  // any per-scenario data — everything else keys off the same `film` flags
+  // that already drive the schematic drawing above.
+  // ---------------------------------------------------------------------
+  function drawAnnotations(ctx, w, h, cx, apex, diaph, halfW, film, invasive) {
+    ctx.save();
+    ctx.font = "600 11px system-ui, sans-serif";
+    const ink = "rgba(255,214,100,0.95)";
+
+    // Short, tag-style labels (the full description already lives in the
+    // Findings list beside the image) — a leader line to an anatomic point,
+    // with the text position clamped inside the canvas regardless of which
+    // side of the film that point sits on, so nothing gets cut off at
+    // narrow container widths.
+    function label(x, y, lx, ly, text) {
+      ctx.strokeStyle = ink;
+      ctx.fillStyle = ink;
+      ctx.lineWidth = 1.3;
+      ctx.beginPath();
+      ctx.moveTo(x, y);
+      ctx.lineTo(lx, ly);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.arc(x, y, 2.6, 0, Math.PI * 2);
+      ctx.fill();
+      const textW = ctx.measureText(text).width;
+      const tx = Math.max(4, Math.min(w - textW - 4, lx - textW / 2));
+      ctx.textAlign = "left";
+      ctx.fillText(text, tx, ly + 4);
+    }
+
+    if (invasive) {
+      const tipY = apex - 10 + (diaph - apex) * 0.34;
+      ctx.strokeStyle = "rgba(255,255,255,0.9)";
+      ctx.lineWidth = 2.2;
+      ctx.beginPath();
+      ctx.moveTo(cx, apex - 44);
+      ctx.lineTo(cx, tipY);
+      ctx.stroke();
+      label(cx, tipY, cx + w * 0.24, tipY - 14, "ETT tip");
+    }
+
+    const cvcTipX = cx - w * 0.045, cvcTipY = apex + (diaph - apex) * 0.60;
+    ctx.strokeStyle = "rgba(255,255,255,0.75)";
+    ctx.lineWidth = 1.8;
+    ctx.beginPath();
+    ctx.moveTo(cx - w * 0.20, apex - 30);
+    ctx.quadraticCurveTo(cx - w * 0.10, apex + 10, cvcTipX, cvcTipY);
+    ctx.stroke();
+    label(cvcTipX, cvcTipY, cx - w * 0.30, cvcTipY + 20, "CVC tip");
+
+    const midY = (apex + diaph) / 2;
+    if (film.pattern === "diffuse" || film.pattern === "peripheral") {
+      label(cx + halfW * 0.55, midY, cx + halfW * 0.55, midY - 30, "Bilateral infiltrates");
+    }
+    if (film.pattern === "perihilar") {
+      label(cx + halfW * 0.15, midY, cx + halfW * 0.15, midY - 44, "Perihilar oedema");
+    }
+    if (film.pattern === "lobar") {
+      label(cx + halfW * 0.45, apex + (diaph - apex) * 0.32, cx + halfW * 0.45, apex + (diaph - apex) * 0.18, "Air bronchograms");
+      label(cx + halfW * 0.55, midY + 10, cx + halfW * 0.55, midY + 34, "Consolidation");
+    }
+    if (film.pattern === "basal" || film.lowVolume) {
+      label(cx + halfW * 0.5, diaph - 20, cx + halfW * 0.5, diaph + 14, "Atelectasis");
+    }
+    if (film.hyperinflated) {
+      label(cx + halfW * 0.9, diaph - 6, cx + halfW * 0.65, diaph + 22, "Hyperinflation");
+    }
+    if (film.effusion) {
+      label(cx + halfW * 0.3, diaph + 2, cx + halfW * 0.3, diaph + 26, "Effusion");
+    }
+    if (film.pattern === "pneumothorax" || film.pattern === "hydropneumothorax") {
+      const edgeX = cx + halfW * 0.52;
+      label(edgeX, apex + 10, edgeX, apex - 6, "Pleural line");
+      if (film.pattern === "hydropneumothorax") {
+        label(cx + halfW * 0.75, diaph - h * 0.12, cx + halfW * 0.75, diaph - h * 0.12 + 18, "Air–fluid level");
+      }
+    }
+    if (film.ribFractures) {
+      label(cx + w * 0.26, apex + (diaph - apex) * 0.30, cx + w * 0.26, apex + (diaph - apex) * 0.30 - 16, "Rib fractures");
+    }
     ctx.restore();
   }
 
@@ -538,7 +624,7 @@
     const canvas = document.getElementById("cxr-canvas");
     if (!canvas || !last || canvas.hidden) return;
     const { ctx, w, h } = prep(canvas);
-    drawFilm(ctx, w, h, filmFor(last.scenarioId), last.aeration, last.volume);
+    drawFilm(ctx, w, h, filmFor(last.scenarioId), last.aeration, last.volume, annotated, last.invasive);
   }
 
   // A registered image must carry its attribution; anything missing the
@@ -591,7 +677,8 @@
     // radiograph should answer to the ventilator, not sit there as a picture.
     const aeration = Math.max(0.25, 1 - r.recruitedFraction * 0.6);
     const volume = Math.min(1, Math.max(0, (r.totalPeep - 4) / 18));
-    last = { scenarioId, aeration, volume };
+    const invasive = state ? state.mode !== "niv" && state.mode !== "hfnc" : true;
+    last = { scenarioId, aeration, volume, invasive };
 
     if (rendered !== scenarioId) {
       rendered = scenarioId;
@@ -612,6 +699,12 @@
     const reg = registeredImage(scenarioId);
     if (reg) showImage(reg); else showSchematic();
 
+    // Annotation coordinates are keyed to the schematic's own drawing
+    // geometry, not to any real photograph, so the toggle only makes sense
+    // when the schematic is what's actually on screen.
+    const toggleRow = document.getElementById("cxr-toggle-row");
+    if (toggleRow) toggleRow.hidden = !!reg;
+
     const dyn = document.getElementById("cxr-dynamic");
     if (film.infiltrate > 0.2 && !reg) {
       dyn.hidden = false;
@@ -622,6 +715,23 @@
 
   }
 
+  function setAnnotated(next) {
+    annotated = next;
+    const origBtn = document.getElementById("cxr-original-btn");
+    const annoBtn = document.getElementById("cxr-annotated-btn");
+    if (origBtn) origBtn.setAttribute("aria-pressed", String(!annotated));
+    if (annoBtn) annoBtn.setAttribute("aria-pressed", String(annotated));
+    draw();
+  }
+
+  function initToggle() {
+    const origBtn = document.getElementById("cxr-original-btn");
+    const annoBtn = document.getElementById("cxr-annotated-btn");
+    if (origBtn) origBtn.addEventListener("click", () => setAnnotated(false));
+    if (annoBtn) annoBtn.addEventListener("click", () => setAnnotated(true));
+  }
+
+  document.addEventListener("DOMContentLoaded", initToggle);
   window.addEventListener("resize", draw);
   window.renderCXR = render;
 })();
