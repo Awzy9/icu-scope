@@ -146,6 +146,24 @@ multiple-choice decision points as the patient evolves. Non-blocking throughout:
 still lets you continue, with accurate feedback either way. Each case ends with a short summary,
 and outcomes feed the shared session dashboard.
 
+**Clinical course** — advance simulated time (+15 min / +1 h / +6 h / +24 h) to see whether the
+settings dialed in *right now* help or hurt this patient over hours, not just this instant. Only
+advancing time moves the trend; adjusting a control alone never does — matching the bedside fact
+that injury and recovery accrue over hours, not the moment a dial turns. Each advance scores the
+current settings mode-agnostically (plateau/driving pressure, Vt/IBW, oxygenation, acid-base, FiO₂,
+how close PEEP sits to this lung's estimated optimum, hemodynamic cost) and nudges the underlying
+shunt and compliance toward recovery or injury for that whole interval — 24 hours of lung-protective
+settings on a recruitable ARDS lung produces a dramatic, visible recovery (P/F 206 → 288, plateau
+25 → 20 cmH₂O in testing); the same 24 hours of a plateau/driving-pressure-violating pattern
+produces comparably dramatic deterioration (P/F 200 → 116, plateau 24 → 34 cmH₂O).
+
+Because every other module already reads off the physiology engine's live results rather than the
+scenario's static presentation values, this one change propagates everywhere automatically: the CXR
+infiltrate, the ultrasound B-line density, and the weaning SBT estimate all reflect the drifted
+patient without any of those modules knowing progression exists. A sparkline tracks P/F over the
+course, and a running log narrates each advance from the actual measured before/after numbers —
+same "nothing canned" principle as the physiology explanation panel below.
+
 **Physiology explanation panel** — after each adjustment settles, a breakdown of what happened:
 the mechanism, the benefits, the potential risks, and the supporting evidence. Nothing here is
 canned. Every line is generated from a *measured* delta between two engine runs, so the panel can
@@ -221,6 +239,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
 | `patient.js` | Living virtual patient: monitor, ABG, labs, engine-derived vitals |
 | `explain.js` | Mechanism / benefit / risk / evidence breakdown from measured deltas |
+| `progression.js` | Clinical course: time advance, sparkline, course log |
 | `cxr.js` | Chest radiograph panel: schematic films, real-image support |
 | `cxr-images.js` | Attribution manifest for real radiographs (empty by default) |
 | `panels.js` | Collapsible-panel toggles, persisted in localStorage |

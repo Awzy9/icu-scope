@@ -344,6 +344,41 @@
         </div>
       </section>
 
+      <section class="sim-panel sim-course" id="course-panel" aria-label="Clinical course">
+        <h2 class="sim-panel-title">⏱ Clinical course</h2>
+        <p class="sim-subnote">
+          Advance simulated time to see whether the settings dialed in right now help or hurt this
+          patient over hours — not just this instant. Only advancing time moves the trend; adjusting
+          a control alone does not, the same way a real patient doesn't heal or worsen the moment you
+          turn a dial.
+        </p>
+
+        <div class="course-header-row">
+          <span id="course-elapsed" class="course-elapsed"></span>
+          <span id="course-trend" class="course-trend-badge"></span>
+        </div>
+
+        <div class="course-current-row">
+          <div><small>Current P/F</small><span id="course-current-pf">–</span></div>
+          <div><small>Driving pressure</small><span id="course-current-driving">–</span></div>
+          <div><small>Tidal volume</small><span id="course-current-vtkg">–</span></div>
+        </div>
+
+        <div class="course-sparkline-wrap">
+          <canvas id="course-sparkline" height="70"></canvas>
+        </div>
+
+        <div class="course-controls">
+          <button type="button" class="toolbar-btn" data-advance-hours="0.25">+15 min</button>
+          <button type="button" class="toolbar-btn" data-advance-hours="1">+1 hour</button>
+          <button type="button" class="toolbar-btn" data-advance-hours="6">+6 hours</button>
+          <button type="button" class="toolbar-btn" data-advance-hours="24">+24 hours</button>
+          <button type="button" class="toolbar-btn" id="course-reset-btn">↺ Reset course</button>
+        </div>
+
+        <ul class="course-log" id="course-log"></ul>
+      </section>
+
       <section class="sim-panel sim-lung" id="lung-panel" aria-label="Alveolar recruitment">
         <h2 class="sim-panel-title">🫁 Alveolar recruitment (illustrative)</h2>
         <svg id="lung-svg" class="lung-svg" role="img" aria-label="Grid of alveoli colored by collapsed, normal, or overdistended status"></svg>
@@ -562,6 +597,7 @@
   <script src="panels.js?v=1"></script>
   <script src="patient.js?v=1"></script>
   <script src="explain.js?v=1"></script>
+  <script src="progression.js?v=1"></script>
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>

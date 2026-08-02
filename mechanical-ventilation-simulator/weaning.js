@@ -19,8 +19,12 @@
 
   function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
 
-  function runSBT(scenario, ibw, mainState, mainResults) {
+  function runSBT(baseScenario, ibw, mainState, mainResults) {
     const M = window.MVSIM;
+    // A patient's clinical course (advanced in the course panel) drifts
+    // compliance/shunt over time — the SBT should reflect the SAME patient
+    // the rest of the page is showing, not the scenario's day-1 mechanics.
+    const scenario = M.computeEffectiveScenario ? M.computeEffectiveScenario(baseScenario) : baseScenario;
     const driveP = scenario.effortPressure + SBT_PS;
 
     // Vt from the same compliance relationship used everywhere else

@@ -207,7 +207,8 @@ select:focus-visible {
 .sim-cases,
 .sim-ultrasound,
 .sim-cxr,
-.sim-explain {
+.sim-explain,
+.sim-course {
   grid-column: 1 / -1;
 }
 
@@ -794,6 +795,109 @@ select:focus-visible {
 .xp-mechanism { border-top-color: var(--info-accent); }
 .xp-benefit { border-top-color: var(--ok-accent); }
 .xp-risk { border-top-color: var(--danger-accent); }
+
+/* --------------------------------------------------------- Course */
+
+.sim-course { border-left: 4px solid var(--accent-strong); }
+
+.course-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0;
+}
+
+.course-elapsed {
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+
+.course-trend-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+}
+
+.course-trend-good { color: var(--ok-accent); border-color: var(--ok-accent); }
+.course-trend-bad { color: var(--danger-accent); border-color: var(--danger-accent); }
+.course-trend-neutral { color: var(--text-muted); }
+
+.course-current-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 0.9rem;
+}
+
+.course-current-row > div {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+}
+
+.course-current-row small {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  margin-bottom: 0.15rem;
+}
+
+.course-current-row span {
+  font-weight: 700;
+  font-size: 1.1rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.course-sparkline-wrap {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.4rem;
+  margin-bottom: 0.9rem;
+  line-height: 0;
+}
+
+#course-sparkline {
+  width: 100%;
+  display: block;
+  height: 70px;
+}
+
+.course-controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.course-log {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 220px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.course-log li {
+  font-size: 0.84rem;
+  border-left: 3px solid var(--border);
+  border-radius: 6px;
+  padding: 0.45rem 0.65rem;
+  background: var(--surface-soft);
+}
+
+.course-log-good { border-left-color: var(--ok-accent); }
+.course-log-bad { border-left-color: var(--danger-accent); }
+.course-log-neutral { border-left-color: var(--info-accent); }
 
 /* -------------------------------------------------- Collapsible panels */
 

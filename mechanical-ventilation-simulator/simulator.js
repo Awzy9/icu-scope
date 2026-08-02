@@ -379,6 +379,126 @@
   }
 
   // ---------------------------------------------------------------------
+  // Clinical course: lets the patient's underlying lung mechanics drift
+  // over simulated time based on how well the CURRENT settings are managing
+  // them, rather than staying frozen at the scenario's presentation values.
+  //
+  // A single scalar, severityMultiplier, scales shunt up/compliance down
+  // (or the reverse) relative to the scenario's baseline. It moves only
+  // when the learner explicitly advances time — settings changes alone
+  // never move it, matching the real bedside fact that injury or recovery
+  // accrues over hours, not instantaneously with a dial turn. Every module
+  // downstream (oxygenation, CXR aeration, ultrasound B-lines) already
+  // reads off compute()'s results rather than the raw scenario object, so
+  // scaling shunt/compliance once here propagates everywhere for free.
+  // ---------------------------------------------------------------------
+  let progression = { elapsedHours: 0, severityMultiplier: 1, history: [] };
+
+  function resetProgression() {
+    progression = { elapsedHours: 0, severityMultiplier: 1, history: [] };
+  }
+
+  // Distinct from resetProgression() above: THIS is what the course panel's
+  // "Reset course" button calls. resetProgression() alone is used inside
+  // applyScenarioDefaults(), which is already about to run its own render()
+  // with the new scenario's fresh dial values — calling render() from
+  // inside resetProgression() there would fire one frame early, against
+  // dial values still holding the PREVIOUS scenario's settings.
+  function resetCourse() {
+    resetProgression();
+    render();
+  }
+
+  // Applied inside compute() only — render()'s own `scenario` reference
+  // (used for the static description/teaching/evidence text) stays the
+  // textbook original throughout, so the disease description never claims
+  // to be describing the drifted state.
+  function computeEffectiveScenario(scenario) {
+    const m = progression.severityMultiplier;
+    if (m === 1) return scenario;
+    return Object.assign({}, scenario, {
+      shuntBase: clamp(scenario.shuntBase * m, 0.02, 0.92),
+      crs: clamp(scenario.crs / m, 8, 85),
+      deadSpaceFrac: clamp(scenario.deadSpaceFrac * (0.82 + 0.18 * m), 0.15, 0.92),
+    });
+  }
+
+  // Scores the settings CURRENTLY in effect, mode-agnostically, using
+  // compute()'s own results rather than raw dial values — r.totalPeep and
+  // r.vt already mean the right thing in every mode (APRV's intentional
+  // PEEP, HFNC's flow-generated pressure, a mandatory SIMV breath, etc.),
+  // so this needs no per-mode branching. Positive = trending toward
+  // recovery over the interval being advanced; negative = toward injury.
+  function assessManagementQuality(state, r, scenario, ibw) {
+    let score = 0;
+    if (r.plateauPressure > 30) score -= 0.6;
+    else if (r.plateauPressure <= 28) score += 0.1;
+
+    if (r.drivingPressure > 15) score -= 0.5;
+    else if (r.drivingPressure <= 13) score += 0.2;
+
+    const vtPerKg = r.vt / ibw;
+    if (vtPerKg > 8) score -= 0.4;
+    else if (vtPerKg >= 5 && vtPerKg <= 8) score += 0.15;
+
+    if (r.spo2 < 88 || r.pao2 < 55) score -= 0.6;
+    else if (r.spo2 >= 92 && r.pao2 >= 60) score += 0.2;
+
+    if (r.ph < 7.2) score -= 0.4;
+    else if (r.ph >= 7.3 && r.ph <= 7.5) score += 0.1;
+
+    if (state.fio2 >= 80) score -= 0.15;
+
+    if (scenario.recruitableFrac > 0.25) {
+      const peepDiff = Math.abs(r.totalPeep - scenario.peepOpt);
+      if (peepDiff <= 3) score += 0.15;
+      else if (peepDiff > 8) score -= 0.25;
+    }
+
+    if (r.hemodynamicImpact > 25) score -= 0.3;
+
+    return clamp(score, -1, 1);
+  }
+
+  // The core time-advance: read the live engine state, score it, and move
+  // severityMultiplier proportionally to both quality and duration. 24h of
+  // sustained lung-protective settings in a recruitable lung produces a
+  // dramatic, visible recovery; the same 24h of a plateau >30/driving >15
+  // pattern produces comparably dramatic deterioration — both bounded so
+  // repeated advances can't run away indefinitely.
+  const PROGRESSION_RATE_PER_HOUR = 0.02;
+
+  function advanceTime(hours) {
+    const live = window.MVSIM && window.MVSIM._lastRender;
+    if (!live) return null;
+    const quality = assessManagementQuality(live.state, live.r, live.scenario, live.ibw);
+    const before = { severityMultiplier: progression.severityMultiplier, pfRatio: live.r.pfRatio };
+
+    progression.severityMultiplier = clamp(
+      progression.severityMultiplier - quality * PROGRESSION_RATE_PER_HOUR * hours,
+      0.55, 1.9
+    );
+    // On the very first advance, anchor the sparkline at the true starting
+    // point (t=0, the P/F the patient presented with) so the trace shows
+    // the actual shape of the course rather than starting mid-story.
+    if (progression.history.length === 0) {
+      progression.history.push({ t: 0, pf: before.pfRatio, severity: before.severityMultiplier, quality: 0 });
+    }
+    progression.elapsedHours += hours;
+    progression.history.push({
+      t: progression.elapsedHours,
+      pf: live.r.pfRatio,
+      severity: progression.severityMultiplier,
+      quality,
+    });
+    if (progression.history.length > 60) progression.history.shift();
+
+    render();
+    const after = window.MVSIM._lastRender;
+    return { hours, quality, before, after: { severityMultiplier: progression.severityMultiplier, pfRatio: after ? after.r.pfRatio : null } };
+  }
+
+  // ---------------------------------------------------------------------
   // Session performance stats, persisted to localStorage (same pattern as
   // the theme preference) so the dashboard survives a page reload. Every
   // module records into this shared bucket rather than keeping its own
@@ -438,6 +558,7 @@
     SCENARIOS, EVIDENCE, clamp, computeIBW, co2Constant, stats,
     resistancePenalty, spontaneousVt, deriveVitals,
     recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, recordCaseStep, resetStats,
+    computeEffectiveScenario, getProgression: () => progression, advanceTime, resetCourse,
   };
 
   // How much a spontaneous breath's volume is penalized by airway resistance
@@ -624,7 +745,12 @@
 
   // Core physiology model. All pressures in cmH2O, volumes in mL, flows in L/s,
   // gas partial pressures in mmHg. Simplified for teaching, not clinical use.
-  function compute(state, scenario) {
+  function compute(state, baseScenario) {
+    // Everything below reads the drifted (or unchanged, if no time has been
+    // advanced) mechanics — but callers keep their own reference to the
+    // original scenario for description/teaching text, which must never
+    // describe the drifted state as if it were the textbook presentation.
+    const scenario = computeEffectiveScenario(baseScenario);
     const { fio2, hco3 } = state;
     const { vt, rr, ratio, detail } = deriveBreath(state, scenario);
 
@@ -1004,6 +1130,7 @@
 
   function applyScenarioDefaults(id) {
     const scenario = SCENARIOS[id];
+    resetProgression(); // fresh patient (new scenario, or "reset to defaults") starts at hour 0
     const ibw = computeIBW(els.sex.value, Number(els.height.value));
     els.peep.value = scenario.defaults.peep;
     els.vt.value = Math.round((scenario.defaults.vtPerKg * ibw) / 10) * 10;
@@ -1237,6 +1364,9 @@
     }
     if (typeof window.renderUltrasound === "function") {
       window.renderUltrasound(els.scenario.value, scenario, r);
+    }
+    if (typeof window.renderCourse === "function") {
+      window.renderCourse(state, scenario, r, ibw);
     }
 
     // Live snapshot for other modules (e.g. cases.js "check my settings"
