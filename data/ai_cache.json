@@ -603,12 +603,6 @@
     "significance": "This study highlights the importance of addressing family members' emotional distress during ICU stays, but suggests that involving a communication facilitator may not be a sufficient intervention to reduce depressive symptoms. Clinicians should consider other strategies to support family members during this challenging time.",
     "rounds_takeaway": "Consider offering family-centered care and emotional support to family members of critically ill patients, but do not rely solely on communication facilitators to reduce depressive symptoms."
   },
-  "pmid:42469923": {
-    "key_stats": "n=4703, OR 1.93 (95% CI 1.57-2.37), p<0.01",
-    "summary": "This study compared the characteristics and outcomes of immunocompromised patients with viral severe acute respiratory infections (SARI) to those of immunocompetent patients in Australian ICUs. Immunocompromised patients were older, had more comorbidities, and received more treatment, but had nearly double the odds of in-hospital mortality. They accounted for about one-fifth of critically ill viral SARI patients.",
-    "significance": "This study highlights the need for targeted public health campaigns and improved treatment strategies for immunocompromised patients with viral SARI, who have a higher risk of in-hospital mortality.",
-    "rounds_takeaway": "Consider immunocompromised status in critically ill patients with viral SARI to inform treatment decisions and risk assessment."
-  },
   "url:https://litfl.com/blunt-cerebrovascular-injury/": {
     "key_stats": "",
     "summary": "This article discusses the management of blunt cerebrovascular injury, including expanded Denver screening, CTA diagnosis, Biffl grading, antithrombotic treatment, and follow-up.",
@@ -698,6 +692,12 @@
     "summary": "This study evaluated the quality of clinical guidelines for nutritional risk screening in critically ill adults. The guidelines showed satisfactory methodological quality, but limitations were found in recommendation credibility, applicability, and evidence quality. Most original studies supporting recommendations had a high risk of bias.",
     "significance": "These findings emphasize the need for high-quality evidence and transparent risk-of-bias assessment in clinical guidelines to ensure accurate and effective nutritional care for critically ill patients.",
     "rounds_takeaway": "Consider critically evaluating the credibility and applicability of nutritional risk screening recommendations in clinical guidelines for critically ill patients."
+  },
+  "pmid:42538736": {
+    "key_stats": "",
+    "summary": "The Society of Critical Care Medicine Guidelines on Adult End-of-Life Care in the ICU were applied to the setting of donation after circulatory death (DCD). The guidelines' recommendations for end-of-life care were found to be applicable to patients being evaluated for or undergoing DCD. High-quality end-of-life care should be delivered to organ donors.",
+    "significance": "This study highlights the importance of providing high-quality end-of-life care to patients undergoing donation after circulatory death, which is crucial for maintaining public trust and ensuring patient dignity.",
+    "rounds_takeaway": "Consider implementing and auditing protocols to guarantee dignity and symptom control for patients undergoing donation after circulatory death."
   },
   "pmid:42481936": {
     "key_stats": "n=5721, HR 1.52 (95% CI 1.29-1.79), HR 1.41 (95% CI 1.20-1.65), HR 1.34, HR 1.14, OR 1.87, OR 1.51, p<0.001",

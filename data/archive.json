@@ -4837,14 +4837,14 @@
         ],
         "doi": "10.1093/ajrccm/aamag203",
         "abstract": "RATIONALE: The neuromuscular blockade dose may affect intubation success on the first attempt, thereby impacting outcomes for patients undergoing emergency tracheal intubation. OBJECTIVES: To evaluate the association between rocuronium dose and tracheal intubation outcomes among adults undergoing emergency tracheal intubation in the emergency department (ED) and intensive care unit (ICU). METHODS: We conducted a secondary analysis of data from two multicenter randomized controlled trials studying airway management in the ED and ICU. We compared patient characteristics and intubation outcomes between patients receiving high-dose (>1.2 mg/kg) versus standard-dose (≤1.2 mg/kg) rocuronium. The primary outcome was successful intubation on the first attempt. We used propensity matching to account for measured potential confounders, stratified by setting. MEASUREMENTS AND MAIN RESULTS: Participating sites included 9 EDs and 24 ICUs in the United States. Among 2440 patients in the trial datasets, we included the 1822 (74.7%) patients who received rocuronium in the current analysis. Of these, 720 (39.5%) received high-dose rocuronium, and 1102 (60.5%) received standard-dose rocuronium. Participants receiving high-dose rocuronium had a higher probability of successful intubation on the first attempt (adjusted relative risk [RR] 1.07, 95% confidence interval [CI] 1.02-1.12). This difference in the primary outcome was not present for ED intubations (adjusted RR 0.97, 95% CI 0.89-1.04) but was present for ICU intubations (adjusted RR 1.13, 95% CI 1.06-1.20). CONCLUSIONS: In this secondary analysis, high-dose rocuronium (>1.2 mg/kg) was associated with higher first-attempt success. Given the potential for unmeasured confounding, these findings warrant evaluation in a randomized controlled trial.",
-        "citation_count": 0,
+        "citation_count": 34,
         "is_top_journal": true,
         "study_type": "Randomized Controlled Trial",
         "volume": "212",
         "issue": "8",
         "pages": "1740-1749",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13424686/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42149702/"
       },
       "42126552": {
@@ -6311,6 +6311,31 @@
       "is_open_access": true,
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13397056/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42494313/",
+      "society": "SCCM"
+    },
+    "42538736": {
+      "pmid": "42538736",
+      "title": "When End-of-Life Becomes the Beginning of New Life: Application of the Society of Critical Care Medicine Clinical Practice Guidelines on Adult End-of-Life Care in the ICU to the Setting of Donation After Circulatory Death.",
+      "journal": "Critical care explorations",
+      "pubdate": "2026 Aug 1",
+      "authors": [
+        "Oppenheim IM",
+        "Bakhru RN",
+        "Maciel CB",
+        "Busl KM",
+        "Donor Care Unit Network for Optimizing Recovery (DONOR) Group"
+      ],
+      "doi": "10.1097/CCE.0000000000001458",
+      "abstract": "The recently published Society of Critical Care Medicine Guidelines on Adult End-of-Life Care in the ICU provide a detailed and well-thought-out approach to a vital component of critical care, although they explicitly refrain from discussing how they may apply to organ donation. As representatives of the Donor Care Unit Network for Optimizing Recovery (DONOR), a group of intensivists experienced in managing donation after circulatory death (DCD), we wish to endorse equal delivery of high-quality end-of-life (EOL) care for organ donors. Although some logistical differences must be addressed, the EOL recommendations outlined in the Guidelines are still applicable to patients being evaluated for or undergoing DCD. Recent accounts of unacceptable patient care in the setting of DCD highlight a critical threat to patient welfare and public trust. Our mandate is clear: implement and audit protocols that guarantee dignity and symptom control while demonstrating that DCD remains wholly consistent with a compassionate, honorable, and fulfilling EOL.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "8",
+      "issue": "8",
+      "pages": "e1458",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42538736/",
       "society": "SCCM"
     }
   },
