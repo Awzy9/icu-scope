@@ -40,7 +40,7 @@
       label: "ARDS — severe (P/F <100)",
       description: "Berlin severe ARDS.",
       teaching: "High recruitable shunt but also high overdistension risk — titrate PEEP carefully. Consider prone positioning, neuromuscular blockade, or ECMO referral if refractory. Keep plateau <30 and driving pressure <15 cmH2O.",
-      crs: 20, raw: 11, shuntBase: 0.50, recruitableFrac: 0.65, deadSpaceFrac: 0.60,
+      crs: 20, raw: 11, shuntBase: 0.67, recruitableFrac: 0.65, deadSpaceFrac: 0.60,
       peepOpt: 16, overdistSensitivity: 0.008, paco2Ref: 50, hco3: 24, effortPressure: 7,
       defaults: { peep: 14, vtPerKg: 6, fio2: 70, ie: 1.5, rr: 26 },
       evidence: ["ardsnet", "amato", "proseva", "art", "guidelines"],
@@ -106,8 +106,12 @@
       label: "Massive / submassive pulmonary embolism",
       description: "Acute right-ventricular strain with a large obstructed, non-perfused (dead space) region rather than a primarily shunt-type problem.",
       teaching: "Hypoxemia here is mostly V/Q mismatch and low mixed venous saturation from a falling cardiac output — not alveolar collapse — so PEEP does little for oxygenation and raises RV afterload further. Keep tidal volumes modest, avoid hyperinflation/high PEEP, and avoid hypercapnia/acidosis, both of which raise pulmonary vascular resistance and worsen RV strain. Definitive treatment is anticoagulation/thrombolysis/embolectomy, not the ventilator.",
-      crs: 45, raw: 9, shuntBase: 0.08, recruitableFrac: 0.1, deadSpaceFrac: 0.55,
+      crs: 45, raw: 9, shuntBase: 0.17, recruitableFrac: 0.1, deadSpaceFrac: 0.55,
       peepOpt: 5, overdistSensitivity: 0.014, paco2Ref: 32, hco3: 22, cvSensitivity: 2.2, effortPressure: 11,
+      // Low cardiac output from RV failure means high tissue extraction and a
+      // markedly desaturated mixed venous return — the dominant mechanism of
+      // hypoxemia here, and the reason PEEP does not fix it.
+      pvo2Base: 31,
       defaults: { peep: 5, vtPerKg: 6, fio2: 50, ie: 2, rr: 20 },
     },
     traumaFlail: {
@@ -146,6 +150,8 @@
     art: { name: "ART trial", detail: "JAMA 2017 — an aggressive lung-recruitment + high-PEEP titration strategy increased 28-day mortality vs. a lower-PEEP ARDSnet-style strategy." },
     conservativeO2: { name: "HOT-ICU / LOCO2 trials", detail: "NEJM 2021 / 2020 — targeting lower vs. higher SpO₂/PaO₂ in ICU patients; routine liberal oxygen offers no benefit and conservative targets are at least as safe." },
     guidelines: { name: "ATS/ESICM/SCCM clinical practice guideline", detail: "Mechanical ventilation in adult ARDS (2017) — the basis for low-Vt, plateau/driving-pressure limits, and PEEP/FiO₂ titration recommended here." },
+    simvWeaning: { name: "Brochard 1994 / Esteban 1995", detail: "AJRCCM 1994 and NEJM 1995 — weaning by progressively lowering the SIMV rate was SLOWER than pressure support or once-daily spontaneous breathing trials. SIMV is not a recommended weaning mode." },
+    aprvEvidence: { name: "Zhou 2017 (and ATS/ESICM/SCCM guideline)", detail: "Intensive Care Med 2017 — a single-centre RCT found more ventilator-free days with early APRV in ARDS, but there is no demonstrated mortality benefit and larger trials are lacking. Major guidelines do not recommend APRV as routine first-line ARDS ventilation." },
   };
 
   function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
@@ -153,6 +159,40 @@
   function computePBW(sex, heightCm) {
     const base = sex === "female" ? 45.5 : 50;
     return Math.max(20, base + 0.905 * (heightCm - 152.4));
+  }
+
+  // ---------------------------------------------------------------------
+  // Oxygen carriage. Shunt has to be applied to oxygen CONTENT, not to
+  // partial pressure: end-capillary blood is essentially fully saturated, so
+  // adding shunted venous blood lowers content, and PaO2 then falls off the
+  // steep part of the dissociation curve. Interpolating PaO2 linearly across
+  // the shunt (the obvious-looking shortcut) drastically understates how
+  // badly a shunt oxygenates — which is exactly why ARDS is hard to fix with
+  // FiO2 alone, and why a high FiO2 buys much less than a naive model shows.
+  // ---------------------------------------------------------------------
+  const HB_GDL = 14;          // assumed haemoglobin, g/dL
+  const HUFNER = 1.34;        // mL O2 carried per g of fully saturated Hb
+  const DISSOLVED = 0.003;    // mL O2 dissolved per dL per mmHg
+
+  // Severinghaus oxyhaemoglobin dissociation approximation.
+  function o2Saturation(po2) {
+    const x = Math.pow(po2, 3) + 150 * po2;
+    return clamp(1 / (23400 / x + 1), 0, 1);
+  }
+
+  function o2Content(po2) {
+    return HUFNER * HB_GDL * o2Saturation(po2) + DISSOLVED * po2;
+  }
+
+  // Invert the content relationship by bisection — content is monotonic in
+  // PO2, so this is stable and needs no closed-form inverse of Severinghaus.
+  function po2FromContent(content) {
+    let lo = 1, hi = 700;
+    for (let i = 0; i < 45; i++) {
+      const mid = (lo + hi) / 2;
+      if (o2Content(mid) < content) lo = mid; else hi = mid;
+    }
+    return (lo + hi) / 2;
   }
 
   // CO2-production constant for a scenario, calibrated against a reference
@@ -242,18 +282,95 @@
   // respiratory muscle reserve plus the set pressure support level — the
   // same math as the weaning simulator's spontaneous breathing trial,
   // because a PSV breath *is* a spontaneous breath.
+  // Total dead-space fraction a spontaneous/mandatory breath sees, including
+  // any circuit leak (bronchopleural fistula) that never reaches alveoli.
+  function breathDeadSpaceFrac(scenario) {
+    return clamp(scenario.deadSpaceFrac + (scenario.leakFrac || 0), 0, 0.9);
+  }
+
+  // Alveolar minute ventilation (L/min) the patient's chemoreceptors are
+  // driving toward for this scenario — the same target the PSV, SIMV and
+  // APRV spontaneous models all back-solve their respiratory rate from.
+  function targetAlveolarMV(scenario) {
+    return co2Constant(scenario) / scenario.paco2Ref;
+  }
+
+  // Volume of one unsupported (or PS-supported) spontaneous breath.
+  function spontaneousVt(scenario, support) {
+    const driveP = scenario.effortPressure + (support || 0);
+    return clamp(driveP * scenario.crs * resistancePenalty(scenario.raw), 40, 900);
+  }
+
   function deriveBreath(state, scenario) {
     if (state.mode === "pc") {
       const vt = clamp(state.pc * scenario.crs, 50, 900);
       return { vt, rr: state.rr, ratio: state.ratio };
     }
+    if (state.mode === "simv") {
+      // Mandatory volume-targeted breaths at the set SIMV rate, with the
+      // patient free to take pressure-supported breaths in between. The
+      // spontaneous rate is whatever is needed to make up the alveolar
+      // ventilation the mandatory breaths don't already supply — so lowering
+      // the SIMV rate visibly shifts work onto the patient.
+      const dsf = breathDeadSpaceFrac(scenario);
+      const mandVt = state.vt;
+      const mandRr = state.rr;
+      const mandAlvMV = (Math.max(mandVt * (1 - dsf), 20) * mandRr) / 1000;
+
+      const spontVt = spontaneousVt(scenario, state.ps);
+      const spontVa = Math.max(spontVt * (1 - dsf), 20);
+      const deficit = Math.max(targetAlveolarMV(scenario) - mandAlvMV, 0);
+      const spontRr = clamp((deficit * 1000) / spontVa, 0, 35);
+
+      const rr = clamp(mandRr + spontRr, 1, 60);
+      // The engine downstream needs one representative breath: use the
+      // rate-weighted mean volume, which reproduces the correct total minute
+      // and alveolar ventilation. Mechanics are overridden separately in
+      // compute() to use the mandatory breath, which is the pressure-limiting
+      // one — a blended Vt would understate the real plateau.
+      const vt = (mandVt * mandRr + spontVt * spontRr) / rr;
+      return {
+        vt, rr, ratio: state.ratio,
+        detail: { kind: "simv", mandVt, mandRr, spontVt, spontRr },
+      };
+    }
+    if (state.mode === "aprv") {
+      // APRV: the patient sits at P_high for a long T_high and is briefly
+      // "released" to P_low for T_low. T_low is deliberately kept short so
+      // exhalation is cut off before the lung empties — the resulting
+      // intentional gas trapping is what maintains recruitment.
+      const dsf = breathDeadSpaceFrac(scenario);
+      const tau = scenario.raw * (scenario.crs / 1000);
+      const ttot = state.tHigh + state.tLow;
+      const releaseRr = 60 / ttot;
+
+      // Only the fraction of the potential release volume that has time to
+      // leave during T_low actually counts as ventilation.
+      const exhaledFrac = 1 - Math.exp(-state.tLow / tau);
+      const releaseVt = clamp(Math.max(state.pHigh - state.pLow, 0) * scenario.crs * exhaledFrac, 0, 900);
+      const releaseAlvMV = (Math.max(releaseVt * (1 - dsf), 5) * releaseRr) / 1000;
+
+      // Spontaneous breathing on top of P_high is unsupported (APRV's chief
+      // selling point — the patient can breathe throughout the T_high phase).
+      const spontVt = spontaneousVt(scenario, 0);
+      const spontVa = Math.max(spontVt * (1 - dsf), 20);
+      const deficit = Math.max(targetAlveolarMV(scenario) - releaseAlvMV, 0);
+      const spontRr = clamp((deficit * 1000) / spontVa, 0, 35);
+
+      const rr = clamp(releaseRr + spontRr, 1, 60);
+      const vt = (releaseVt * releaseRr + spontVt * spontRr) / rr;
+      // Ratio is reported as T_high : T_low so the rest of the UI has
+      // something meaningful to show; mechanics are fully overridden below.
+      const ratio = clamp(state.tLow / state.tHigh, 0.02, 8);
+      return {
+        vt, rr, ratio,
+        detail: { kind: "aprv", releaseVt, releaseRr, spontVt, spontRr, exhaledFrac, tau },
+      };
+    }
     if (state.mode === "psv") {
-      const driveP = scenario.effortPressure + state.ps;
-      const vt = clamp(driveP * scenario.crs * resistancePenalty(scenario.raw), 80, 900);
-      const deadSpaceFrac = clamp(scenario.deadSpaceFrac + (scenario.leakFrac || 0), 0, 0.9);
-      const va = Math.max(vt * (1 - deadSpaceFrac), 20);
-      const targetAlveolarMV = co2Constant(scenario) / scenario.paco2Ref; // L/min
-      const rr = clamp((targetAlveolarMV * 1000) / va, 8, 45);
+      const vt = clamp(spontaneousVt(scenario, state.ps), 80, 900);
+      const va = Math.max(vt * (1 - breathDeadSpaceFrac(scenario)), 20);
+      const rr = clamp((targetAlveolarMV(scenario) * 1000) / va, 8, 45);
       // Spontaneous breaths have a roughly fixed neural inspiratory time
       // rather than a clinician-set I:E ratio; back-solve the ratio that
       // reproduces a ~0.9 s Ti so the rest of the engine needs no branching.
@@ -269,7 +386,7 @@
   // gas partial pressures in mmHg. Simplified for teaching, not clinical use.
   function compute(state, scenario) {
     const { peep, fio2, hco3 } = state;
-    const { vt, rr, ratio } = deriveBreath(state, scenario);
+    const { vt, rr, ratio, detail } = deriveBreath(state, scenario);
     const fio2Frac = fio2 / 100;
 
     const ttot = 60 / rr;
@@ -281,25 +398,92 @@
     const tau = scenario.raw * (scenario.crs / 1000); // seconds
     const fractionExhaled = 1 - Math.exp(-te / tau);
     const trappedVolume = vt * (1 - fractionExhaled);
-    const autoPeep = trappedVolume / scenario.crs;
-    const totalPeep = peep + autoPeep;
+    let autoPeep = trappedVolume / scenario.crs;
+    let totalPeep = peep + autoPeep;
 
-    const drivingPressure = vt / scenario.crs;
-    const resistivePressure = flow * scenario.raw;
-    const plateauPressure = totalPeep + drivingPressure;
-    const peakPressure = plateauPressure + resistivePressure;
-    const meanAirwayPressure = totalPeep + drivingPressure * (ti / ttot);
+    let drivingPressure = vt / scenario.crs;
+    let resistivePressure = flow * scenario.raw;
+    let plateauPressure = totalPeep + drivingPressure;
+    let peakPressure = plateauPressure + resistivePressure;
+    let meanAirwayPressure = totalPeep + drivingPressure * (ti / ttot);
+
+    // Mode-specific mechanics. Gas exchange above is driven by the blended
+    // breath (which carries the right minute ventilation), but the pressures
+    // a clinician must actually limit are not the blend's — so override them
+    // here, before recruitment/overdistension read mean airway pressure.
+    if (detail && detail.kind === "simv") {
+      // The mandatory breath is the pressure-limiting one; a blend of small
+      // supported breaths and full mandatory breaths would hide the real
+      // plateau the lung sees on every mandatory cycle.
+      drivingPressure = detail.mandVt / scenario.crs;
+      const mandTtot = 60 / Math.max(detail.mandRr, 1);
+      const mandTi = mandTtot / (1 + ratio);
+      resistivePressure = ((detail.mandVt / 1000) / mandTi) * scenario.raw;
+      plateauPressure = totalPeep + drivingPressure;
+      peakPressure = plateauPressure + resistivePressure;
+      // Mean airway pressure still reflects the whole cycle mix, so keep it
+      // weighted by how much of each minute is spent on mandatory breaths.
+      const mandFraction = clamp(detail.mandRr / rr, 0, 1);
+      meanAirwayPressure = totalPeep + drivingPressure * (mandTi / mandTtot) * mandFraction;
+    } else if (detail && detail.kind === "aprv") {
+      // In APRV the release is deliberately truncated: the pressure never
+      // falls all the way to P_low, and the residual above P_low IS the
+      // intentional auto-PEEP that holds the lung open.
+      const residual = Math.max(state.pHigh - state.pLow, 0) * Math.exp(-state.tLow / detail.tau);
+      autoPeep = residual;
+      totalPeep = state.pLow + residual;
+      plateauPressure = state.pHigh;          // pressure-limited: P_high IS the plateau
+      drivingPressure = Math.max(state.pHigh - totalPeep, 0);
+      resistivePressure = 0;                  // no flow at end of the T_high hold
+      peakPressure = state.pHigh;
+      // Time-weighted: nearly the whole cycle is spent at P_high, which is
+      // exactly how APRV recruits at a lower plateau than a conventional
+      // mode delivering the same mean pressure.
+      meanAirwayPressure =
+        (state.pHigh * state.tHigh + ((state.pHigh + totalPeep) / 2) * state.tLow) /
+        (state.tHigh + state.tLow);
+    }
 
     // Recruitment / overdistension shift oxygenation as a function of MAP.
     const recruitmentHalfPressure = Math.max(scenario.peepOpt - 3, 2);
-    const recruitedFraction = scenario.recruitableFrac *
+    let recruitedFraction = scenario.recruitableFrac *
       (1 - Math.exp(-Math.max(meanAirwayPressure - 2, 0) / recruitmentHalfPressure));
+
+    // Keeping a lung open needs more than a high *mean* pressure: alveoli
+    // that fall below their closing pressure at end-expiration have to be
+    // re-recruited every cycle. In conventional modes mean and end-expiratory
+    // pressure rise and fall together, so MAP alone tracks this well enough.
+    // APRV deliberately breaks that coupling — a long T_low can leave a very
+    // high MAP sitting on top of an almost-zero end-expiratory pressure — so
+    // the stability of recruitment is scored against end-expiratory pressure
+    // there. This is why a too-long T_low derecruits the lung even though the
+    // released volume (and therefore CO2 clearance) improves.
+    if (detail && detail.kind === "aprv") {
+      const stability = clamp(0.55 + 0.45 * (totalPeep / Math.max(scenario.peepOpt, 1)), 0, 1);
+      recruitedFraction *= stability;
+    }
     const overdistExcess = Math.max(meanAirwayPressure - (scenario.peepOpt + 6), 0);
     const overdistPenalty = scenario.overdistSensitivity * overdistExcess;
     const effectiveShunt = clamp(
       scenario.shuntBase * (1 - recruitedFraction) + overdistPenalty, 0, 0.9
     );
-    const pvo2 = Math.max(40 - 0.5 * overdistExcess, 25);
+    // Rough venous-return / cardiac-output impact from raised intrathoracic
+    // pressure, scaled per scenario (PE and pneumothorax's RV strain, or
+    // trapped-gas states, are more afterload/preload sensitive than normal
+    // lungs). Purely illustrative — not a real hemodynamic model.
+    const cvSensitivity = scenario.cvSensitivity || 1.0;
+    const hemodynamicImpact = clamp((meanAirwayPressure - 10) * 2.2 * cvSensitivity, 0, 45);
+
+    // Mixed venous PO2 falls when cardiac output falls, because the tissues
+    // extract more oxygen from each unit of blood. That matters for arterial
+    // oxygenation: any shunt then mixes in *more desaturated* blood. It's the
+    // reason cranking PEEP can worsen PaO2 in a preload-dependent patient
+    // even while it recruits lung, and why hypoxemia in massive PE tracks the
+    // failing right ventricle rather than alveolar collapse.
+    const pvo2 = clamp(
+      (scenario.pvo2Base || 40) - 0.5 * overdistExcess - hemodynamicImpact * 0.12,
+      20, 50
+    );
 
     // Dead space grows a little with overdistension (West zone 1 creation),
     // and a bronchopleural fistula leak also behaves like added dead space —
@@ -317,39 +501,46 @@
     // constant, calibrated at a reference "typical" setting for that scenario.
     const paco2 = clamp(co2Constant(scenario) / alveolarMinuteVentilation, 15, 130);
 
+    // Alveolar gas equation, then a content-based venous-admixture mix:
+    // arterial content is the flow-weighted blend of end-capillary blood
+    // (equilibrated with alveolar gas) and shunted mixed-venous blood.
     const pao2Alveolar = fio2Frac * (760 - 47) - paco2 / 0.8;
-    let pao2 = pao2Alveolar - effectiveShunt * (pao2Alveolar - pvo2);
-    pao2 = clamp(pao2, 30, 650);
-    const pfRatio = pao2 / fio2Frac;
+    const endCapillaryContent = o2Content(pao2Alveolar);
+    const venousContent = o2Content(pvo2);
+    const arterialContent =
+      effectiveShunt * venousContent + (1 - effectiveShunt) * endCapillaryContent;
 
-    const satX = Math.pow(pao2, 3) + 150 * pao2;
-    const spo2 = clamp((1 / ((23400 / satX) + 1)) * 100, 30, 100);
+    const pao2 = clamp(po2FromContent(arterialContent), 25, 650);
+    const pfRatio = pao2 / fio2Frac;
+    const spo2 = clamp(o2Saturation(pao2) * 100, 30, 100);
 
     const ph = 6.1 + Math.log10(hco3 / (0.03 * paco2));
-
-    // Rough venous-return / cardiac-output impact from raised intrathoracic
-    // pressure, scaled per scenario (PE and pneumothorax's RV strain, or
-    // trapped-gas states, are more afterload/preload sensitive than normal
-    // lungs). Purely illustrative — not a real hemodynamic model.
-    const cvSensitivity = scenario.cvSensitivity || 1.0;
-    const hemodynamicImpact = clamp((meanAirwayPressure - 10) * 2.2 * cvSensitivity, 0, 45);
 
     return {
       vt, rr, ratio, ttot, ti, te, flow, tau, autoPeep, totalPeep, drivingPressure, resistivePressure,
       plateauPressure, peakPressure, meanAirwayPressure, effectiveShunt, recruitedFraction,
       overdistExcess, minuteVentilation, alveolarMinuteVentilation, paco2, pao2, pfRatio, spo2, ph,
-      hemodynamicImpact, leakFrac,
+      hemodynamicImpact, leakFrac, detail,
     };
   }
 
-  function buildWarnings(state, results, pbw) {
+  function buildWarnings(state, results, pbw, scenario) {
     const warnings = [];
-    const vtPerKg = results.vt / pbw;
+    const d = results.detail;
+    // The volume that matters for lung protection isn't always the reported
+    // (blended) one: in SIMV it's the mandatory breath, in APRV the release.
+    const protectiveVt = d
+      ? (d.kind === "simv" ? d.mandVt : d.kind === "aprv" ? d.releaseVt : results.vt)
+      : results.vt;
+    const vtLabel = d && d.kind === "simv" ? "Mandatory tidal volume"
+      : d && d.kind === "aprv" ? "Release volume"
+      : "Tidal volume";
+    const vtPerKg = protectiveVt / pbw;
 
     if (vtPerKg > 8) {
-      warnings.push({ level: "danger", text: `Tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW — above the lung-protective target (~6, max 8 mL/kg).`, evidence: "ardsnet" });
+      warnings.push({ level: "danger", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — above the lung-protective target (~6, max 8 mL/kg).`, evidence: "ardsnet" });
     } else if (vtPerKg < 4) {
-      warnings.push({ level: "warn", text: `Tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW — quite low; watch for atelectasis and CO₂ retention.`, evidence: "ardsnet" });
+      warnings.push({ level: "warn", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — quite low; watch for atelectasis and CO₂ retention.`, evidence: "ardsnet" });
     }
 
     if (results.plateauPressure > 30) {
@@ -362,7 +553,7 @@
       warnings.push({ level: "danger", text: `Driving pressure ${results.drivingPressure.toFixed(1)} cmH₂O exceeds 15 — associated with higher ARDS mortality.`, evidence: "amato" });
     }
 
-    if (results.autoPeep > 2) {
+    if (results.autoPeep > 2 && !(d && d.kind === "aprv")) {
       warnings.push({ level: "danger", text: `Auto-PEEP ≈ ${results.autoPeep.toFixed(1)} cmH₂O suggests dynamic hyperinflation / breath stacking — shorten inspiratory time, lower RR, or treat bronchospasm.` });
     }
 
@@ -384,6 +575,29 @@
       warnings.push({ level: "warn", text: `Mean airway pressure is high enough to meaningfully reduce venous return (est. ${results.hemodynamicImpact.toFixed(0)}% fall) — watch blood pressure, especially if preload-dependent.` });
     }
 
+    if (d && d.kind === "simv") {
+      const spontShare = d.spontRr / Math.max(d.mandRr + d.spontRr, 0.1);
+      if (d.spontRr > 0.5) {
+        warnings.push({ level: "info", text: `The patient is taking ≈${d.spontRr.toFixed(0)} spontaneous breaths/min on top of ${d.mandRr} mandatory breaths — about ${(spontShare * 100).toFixed(0)}% of total ventilation is their own work. Lowering the SIMV rate shifts more load onto them.` });
+      }
+      warnings.push({ level: "warn", text: "SIMV is often used as a weaning mode, but weaning by stepping the SIMV rate down was slower than pressure support or once-daily spontaneous breathing trials — it is not the recommended way to liberate a patient from the ventilator.", evidence: "simvWeaning" });
+    }
+
+    if (d && d.kind === "aprv") {
+      warnings.push({ level: "info", text: `Intentional gas trapping: expiration is cut off after T_low ${state.tLow.toFixed(1)} s (≈${(d.exhaledFrac * 100).toFixed(0)}% of the release volume escapes), leaving ${results.autoPeep.toFixed(1)} cmH₂O above P_low. That residual pressure is the point of the mode — it is what prevents derecruitment between releases.` });
+
+      if (state.pHigh > 30) {
+        warnings.push({ level: "danger", text: `P_high ${state.pHigh} cmH₂O is the plateau pressure in this mode — above 30 cmH₂O it carries the same barotrauma risk as any other mode.`, evidence: "ardsnet" });
+      }
+      if (d.exhaledFrac > 0.75) {
+        warnings.push({ level: "warn", text: `T_low is long enough for ${(d.exhaledFrac * 100).toFixed(0)}% of the release volume to escape — the lung is emptying too far toward P_low and will derecruit. T_low is conventionally set to terminate expiratory flow at ~75% of its peak, i.e. well before the lung empties.` });
+      }
+      if (scenario.raw >= 18) {
+        warnings.push({ level: "danger", text: "APRV in obstructive disease is hazardous: this scenario's long expiratory time constant means the short T_low traps a large volume with every release, and gas trapping compounds breath to breath." });
+      }
+      warnings.push({ level: "info", text: "APRV's evidence base is thin — one single-centre RCT found more ventilator-free days in ARDS, but no mortality benefit has been shown and major guidelines do not recommend it as routine first-line ventilation.", evidence: "aprvEvidence" });
+    }
+
     if (state.mode === "psv" && results.drivingPressure > 15) {
       warnings.push({ level: "warn", text: `In pressure support, the set pressure (PS ${state.ps} cmH₂O) alone doesn't reveal this — the ${results.drivingPressure.toFixed(0)} cmH₂O reflects PS plus the patient's own inspiratory effort, which the ventilator can't display. Vigorous spontaneous effort can injure the lung even when the dialed-in numbers look safe (patient self-inflicted lung injury, P-SILI).` });
     }
@@ -402,6 +616,8 @@
     vc: { desc: "Clinician sets tidal volume directly; pressure is the dependent variable. The safest default for most patients." },
     pc: { desc: "Clinician sets the inspiratory pressure; tidal volume is the dependent variable and will change if compliance/resistance change — watch delivered Vt, not just the set pressure." },
     psv: { desc: "Patient-triggered and patient-cycled: only PEEP/CPAP and pressure support are set. Rate and tidal volume emerge from the patient's own effort and lung mechanics — there is no backup rate." },
+    simv: { desc: "A set number of mandatory volume-targeted breaths per minute, with the patient free to take pressure-supported breaths in between. Lower the SIMV rate and the patient picks up more of the work — but note SIMV is not a recommended weaning mode." },
+    aprv: { desc: "Continuous high pressure (P_high) held for a long T_high, with brief timed releases to P_low. Oxygenation comes from the high mean airway pressure; T_low is kept deliberately short so the lung never fully empties, and the patient can breathe spontaneously throughout." },
   };
 
   // ---------------------------------------------------------------------
@@ -413,6 +629,9 @@
     "peep", "peep-out", "vt-control", "vt", "vt-out", "vt-per-kg",
     "pc-control", "pc", "pc-out", "pc-vt-readout",
     "ps-control", "ps", "ps-out", "ps-breath-readout",
+    "aprv-controls", "phigh", "phigh-out", "plow", "plow-out",
+    "thigh", "thigh-out", "tlow", "tlow-out", "aprv-readout",
+    "simv-readout",
     "fio2", "fio2-out", "ie-control", "ie", "ie-out", "rr-control", "rr", "rr-out",
     "hco3", "hco3-out", "reset-btn",
     "scenario-desc", "scenario-teaching", "scenario-evidence",
@@ -446,6 +665,21 @@
     // modes on the same scenario starts from a comparable breath.
     els.pc.value = Math.round(clamp((scenario.defaults.vtPerKg * pbw) / scenario.crs, 5, 40));
     els.ps.value = 10;
+
+    // APRV defaults: P_low 0 (conventional), a long T_high, and a T_low set
+    // to ~0.75 expiratory time constants — short enough to terminate flow
+    // well before the lung empties, which is the whole basis of the mode.
+    // P_high is then whatever delivers this scenario's protective release
+    // volume through that deliberately truncated exhalation.
+    const tau = scenario.raw * (scenario.crs / 1000);
+    const tLow = clamp(Math.round(0.75 * tau * 100) / 100, 0.2, 0.8);
+    els.plow.value = 0;
+    els.thigh.value = 4.5;
+    els.tlow.value = tLow;
+    const exhaledFrac = 1 - Math.exp(-tLow / tau);
+    els.phigh.value = Math.round(
+      clamp((scenario.defaults.vtPerKg * pbw) / (scenario.crs * exhaledFrac), 10, 40)
+    );
     render();
   }
 
@@ -460,13 +694,31 @@
 
   function applyModeVisibility() {
     const mode = els["vent-mode"].value;
-    els["vt-control"].hidden = mode !== "vc";
+    const aprv = mode === "aprv";
+    // SIMV borrows the volume-control Vt slider (mandatory breath), the rate
+    // slider (mandatory rate) and the PS slider (for spontaneous breaths).
+    els["vt-control"].hidden = !(mode === "vc" || mode === "simv");
     els["pc-control"].hidden = mode !== "pc";
-    els["ps-control"].hidden = mode !== "psv";
-    els["ie-control"].hidden = mode === "psv";
-    els["rr-control"].hidden = mode === "psv";
+    els["ps-control"].hidden = !(mode === "psv" || mode === "simv");
+    els["ie-control"].hidden = mode === "psv" || aprv;
+    els["rr-control"].hidden = mode === "psv" || aprv;
+    els["aprv-controls"].hidden = !aprv;
+    els["simv-readout"].hidden = mode !== "simv";
+    els["aprv-readout"].hidden = !aprv;
+    // PEEP is meaningless in APRV — P_low plays that role instead.
+    els.peep.closest(".control-block").hidden = aprv;
     els["mode-desc"].textContent = MODE_INFO[mode].desc;
     els["peep-cpap-tag"].textContent = mode === "psv" ? "(= CPAP level)" : "";
+
+    // Relabel the shared sliders so SIMV's borrowed controls read correctly.
+    const vtLabel = document.querySelector('#vt-control label[for="vt"]');
+    if (vtLabel) {
+      vtLabel.childNodes[0].nodeValue = mode === "simv" ? "Mandatory tidal volume " : "Tidal volume ";
+    }
+    const rrLabel = document.querySelector('#rr-control label[for="rr"]');
+    if (rrLabel) {
+      rrLabel.childNodes[0].nodeValue = mode === "simv" ? "Mandatory (SIMV) rate " : "Respiratory rate ";
+    }
   }
 
   function render() {
@@ -483,6 +735,10 @@
       ratio: Number(els.ie.value),
       rr: Number(els.rr.value),
       hco3: Number(els.hco3.value),
+      pHigh: Number(els.phigh.value),
+      pLow: Number(els.plow.value),
+      tHigh: Number(els.thigh.value),
+      tLow: Number(els.tlow.value),
     };
 
     els["peep-out"].textContent = state.peep;
@@ -492,6 +748,10 @@
     els["ie-out"].textContent = ieLabel(state.ratio);
     els["rr-out"].textContent = state.rr;
     els["hco3-out"].textContent = state.hco3;
+    els["phigh-out"].textContent = state.pHigh;
+    els["plow-out"].textContent = state.pLow;
+    els["thigh-out"].textContent = state.tHigh.toFixed(1);
+    els["tlow-out"].textContent = state.tLow.toFixed(2);
     els["pbw-out"].textContent = `${pbw.toFixed(0)} kg`;
     els["height-out-unit"].textContent = `${els.height.value} cm`;
     els["scenario-desc"].textContent = scenario.description;
@@ -505,6 +765,22 @@
     els["vt-per-kg"].textContent = `${(r.vt / pbw).toFixed(1)} mL/kg PBW (PBW ${pbw.toFixed(0)} kg)`;
     els["pc-vt-readout"].textContent = `Delivered tidal volume ≈ ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW) at current compliance.`;
     els["ps-breath-readout"].textContent = `Patient's own breathing (estimated): RR ≈ ${r.rr.toFixed(0)} /min, Vt ≈ ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW).`;
+
+    if (r.detail && r.detail.kind === "simv") {
+      const d = r.detail;
+      els["vt-per-kg"].textContent = `${(d.mandVt / pbw).toFixed(1)} mL/kg PBW per mandatory breath (PBW ${pbw.toFixed(0)} kg)`;
+      els["simv-readout"].textContent =
+        `Mandatory: ${d.mandRr}/min × ${d.mandVt.toFixed(0)} mL. ` +
+        `Spontaneous (PS ${state.ps}): ≈${d.spontRr.toFixed(0)}/min × ${d.spontVt.toFixed(0)} mL. ` +
+        `Total RR ≈ ${r.rr.toFixed(0)}/min, total minute ventilation ${r.minuteVentilation.toFixed(1)} L/min.`;
+    }
+    if (r.detail && r.detail.kind === "aprv") {
+      const d = r.detail;
+      els["aprv-readout"].textContent =
+        `Release volume ≈ ${d.releaseVt.toFixed(0)} mL (${(d.releaseVt / pbw).toFixed(1)} mL/kg PBW) at ${d.releaseRr.toFixed(1)} releases/min. ` +
+        `Spontaneous breathing on top: ≈${d.spontRr.toFixed(0)}/min × ${d.spontVt.toFixed(0)} mL. ` +
+        `End-expiratory pressure ${r.totalPeep.toFixed(1)} cmH₂O (P_low ${state.pLow} + ${r.autoPeep.toFixed(1)} intentional).`;
+    }
 
     els["res-pao2"].textContent = `${r.pao2.toFixed(0)} mmHg`;
     els["res-spo2"].textContent = `${r.spo2.toFixed(0)}%`;
@@ -526,7 +802,7 @@
     els["res-autopeep"].textContent = `${r.autoPeep.toFixed(1)} cmH₂O`;
     els["res-totalpeep"].textContent = `${r.totalPeep.toFixed(1)} cmH₂O`;
 
-    const warnings = buildWarnings(state, r, pbw);
+    const warnings = buildWarnings(state, r, pbw, scenario);
     els["warnings-list"].innerHTML = "";
     if (warnings.length === 0) {
       const li = document.createElement("li");
@@ -600,7 +876,8 @@
     populateScenarios();
     initTheme();
 
-    ["peep", "vt", "pc", "ps", "fio2", "ie", "rr", "hco3", "height", "sex"].forEach((id) => {
+    ["peep", "vt", "pc", "ps", "fio2", "ie", "rr", "hco3", "height", "sex",
+      "phigh", "plow", "thigh", "tlow"].forEach((id) => {
       els[id].addEventListener("input", render);
     });
     els.scenario.addEventListener("change", () => applyScenarioDefaults(els.scenario.value));

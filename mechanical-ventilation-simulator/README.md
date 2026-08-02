@@ -21,7 +21,7 @@ anaesthetists, respiratory therapists, and critical care educators.
 
 ## Current features
 
-**Three ventilation modes** — Volume Control (AC/VC, tidal volume is the direct input), Pressure
+**Five ventilation modes** — Volume Control (AC/VC, tidal volume is the direct input), Pressure
 Control (AC/PC, inspiratory pressure is the direct input and Vt is derived from compliance —
 watch delivered Vt, not just the set pressure), and Pressure Support/CPAP (patient-triggered and
 patient-cycled: only PEEP/CPAP and PS are set, rate and Vt emerge from the scenario's respiratory
@@ -30,11 +30,31 @@ surfaces a specific teaching point: the displayed driving pressure doesn't inclu
 own inspiratory effort, so a P-SILI-risk alert fires when the *true* transpulmonary driving
 pressure (PS + effort) is high even though the set PS alone looks safe.
 
+*SIMV + Pressure Support* adds mandatory volume-targeted breaths with patient-triggered supported
+breaths in between: lowering the SIMV rate visibly shifts ventilation onto the patient, and a
+weak patient (e.g. the neuromuscular scenario) can be seen failing to make up the difference.
+Reported pressures come from the mandatory breath, which is the pressure-limiting one — a
+rate-blended average would understate the real plateau. The mode also carries the evidence that
+SIMV rate-reduction weaning was *slower* than pressure support or daily SBTs.
+
+*APRV / BiLevel* is modeled on its own terms — P_high, P_low, T_high and T_low rather than
+Vt/rate — because its cycle isn't a conventional breath. The release is deliberately truncated,
+so the pressure never reaches P_low and the residual is the intentional PEEP that holds the lung
+open. Lengthening T_low demonstrates the central trade-off directly: release volume and CO₂
+clearance improve while end-expiratory pressure collapses, driving pressure climbs into injurious
+territory, and the lung derecruits.
+
 **Interactive ventilator controls** — PEEP, tidal volume or inspiratory pressure or pressure
 support (depending on mode), FiO₂, I:E ratio, respiratory rate, and bicarbonate (for the pH
 estimate). Every change recomputes the patient immediately.
 
-**Physiology engine** — an alveolar-gas / shunt / dead-space model producing:
+**Physiology engine** — an alveolar-gas / shunt / dead-space model producing the values below.
+Shunt is applied to oxygen **content** (Severinghaus dissociation curve + dissolved O₂), not by
+interpolating partial pressure, because end-capillary blood is already saturated and it is the
+drop in content that pushes PaO₂ down the steep part of the curve. That's what makes a large
+shunt so resistant to FiO₂ — and it's why each scenario lands in the P/F band its label claims.
+Mixed venous PO₂ also falls as raised mean airway pressure cuts cardiac output, which is how the
+model reproduces PEEP *worsening* oxygenation in preload-dependent states like massive PE:
 
 - *Oxygenation*: PaO₂, SpO₂, P/F ratio, effective shunt fraction
 - *Ventilation*: PaCO₂, pH, minute and alveolar minute ventilation, dead-space fraction
@@ -136,7 +156,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 Planned, not yet built — several of these need a backend, which the current static setup does not have:
 
 - AI tutor explaining each intervention in context
-- Additional ventilation modes (SIMV, APRV, BiLevel, NIV, HFNC) — VC/PC/PSV are built
+- Non-invasive support modes (NIV, HFNC) — VC/PC/PSV/SIMV/APRV are built
 - Imaging, ultrasound and ECMO physiology modules
 
 ## Sources

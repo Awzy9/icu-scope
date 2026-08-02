@@ -49,9 +49,65 @@
 
   // Builds a time-sampled trace for pressure, flow, and volume over one
   // breath, honoring the current hold-maneuver mode.
+  // APRV has a fundamentally different cycle from a conventional breath —
+  // a long pressure hold at P_high punctuated by brief timed releases —
+  // so it gets its own trace builder rather than being forced through the
+  // inspiration/expiration model above. Pressures here are derived the same
+  // way as the engine's APRV mechanics override, so the drawn waveform and
+  // the reported numbers agree.
+  function buildAprvTrace(state, scenario, r) {
+    const tau = Math.max(r.tau, 0.05);
+    const tHigh = state.tHigh, tLow = state.tLow;
+    const dispTtot = tHigh + tLow;
+    const potential = Math.max(state.pHigh - state.pLow, 0) * scenario.crs; // mL above P_low equilibrium
+    const reinflate = Math.min(0.15, tHigh * 0.1); // brief re-inflation ramp
+    const points = [];
+    const N = 180;
+
+    for (let i = 0; i <= N; i++) {
+      const t = (i / N) * dispTtot;
+      let phase, volume, flow, pressure;
+
+      if (t < reinflate) {
+        // Re-pressurization back up to P_high after the release.
+        const f = t / reinflate;
+        phase = "insp";
+        volume = potential * Math.exp(-tLow / tau) + (potential - potential * Math.exp(-tLow / tau)) * f;
+        flow = ((potential - potential * Math.exp(-tLow / tau)) / 1000 / reinflate) * 60;
+        pressure = r.totalPeep + (state.pHigh - r.totalPeep) * f;
+      } else if (t <= tHigh) {
+        // The long P_high hold — where spontaneous breathing happens and
+        // where nearly all of this mode's mean airway pressure comes from.
+        phase = "insp-hold";
+        volume = potential;
+        flow = 0;
+        pressure = state.pHigh;
+      } else {
+        // Timed release, deliberately cut off before the lung empties.
+        const tInRelease = t - tHigh;
+        phase = "exp";
+        volume = potential * Math.exp(-tInRelease / tau);
+        flow = -(potential / tau / 1000) * Math.exp(-tInRelease / tau) * 60;
+        pressure = state.pLow + (state.pHigh - state.pLow) * Math.exp(-tInRelease / tau);
+      }
+
+      points.push({ t, phase, volume, flow, pressure });
+    }
+    const peakFlowLpm = (potential / tau / 1000) * 60;
+    return { points, dispTtot, peakFlowLpm };
+  }
+
   function buildTrace(state, scenario, r) {
-    const ti = r.ti, te = r.te, ttot = r.ttot, tau = Math.max(r.tau, 0.05);
-    const vt = r.vt; // mL — the actual delivered volume, not the raw VC slider value
+    if (r.detail && r.detail.kind === "aprv") return buildAprvTrace(state, scenario, r);
+    const tau = Math.max(r.tau, 0.05);
+    // In SIMV the trace shows one MANDATORY breath — that's the cycle whose
+    // pressures the engine reports, and a rate-blended breath would draw a
+    // waveform that matches neither the mandatory nor the supported breath.
+    const simv = r.detail && r.detail.kind === "simv" ? r.detail : null;
+    const ttot = simv ? 60 / Math.max(simv.mandRr, 1) : r.ttot;
+    const ti = simv ? ttot / (1 + r.ratio) : r.ti;
+    const te = ttot - ti;
+    const vt = simv ? simv.mandVt : r.vt; // actual delivered volume, not the raw VC slider value
     const peakFlowLpm = (vt / 1000 / ti) * 60; // L/min
     const holdSec = 0.9;
     const points = [];
@@ -231,7 +287,14 @@
 
     const readout = document.getElementById("hold-readout");
     if (readout) {
-      if (holdMode === "insp") {
+      const aprv = r.detail && r.detail.kind === "aprv";
+      if (aprv) {
+        // A conventional hold maneuver isn't how these values are obtained in
+        // APRV — the mode already spends nearly the whole cycle at plateau.
+        readout.textContent = holdMode
+          ? `In APRV the long T_high hold at P_high ${state.pHigh} cmH₂O is itself the plateau (${r.plateauPressure.toFixed(1)} cmH₂O), and end-release pressure ${r.totalPeep.toFixed(1)} cmH₂O is reached without a maneuver — the release is cut short deliberately, leaving ${r.autoPeep.toFixed(1)} cmH₂O of intentional PEEP above P_low.`
+          : "";
+      } else if (holdMode === "insp") {
         readout.textContent = `Inspiratory hold: plateau pressure ${r.plateauPressure.toFixed(1)} cmH₂O — this is the true alveolar distending pressure, with flow (and therefore resistive pressure) removed.`;
       } else if (holdMode === "exp") {
         readout.textContent = `Expiratory hold: total PEEP ${r.totalPeep.toFixed(1)} cmH₂O (set PEEP ${state.peep} + auto-PEEP ${r.autoPeep.toFixed(1)}) — pausing at end-exhalation lets alveolar and circuit pressure equilibrate.`;

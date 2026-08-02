@@ -715,6 +715,19 @@ select:focus-visible {
 .alarm-feedback-good { border-color: var(--ok-accent); background: var(--surface-soft); }
 .alarm-feedback-bad { border-color: var(--danger-accent); background: var(--danger-bg); }
 
+/* -------------------------------------------------- Mode readouts */
+
+.sim-mode-readout {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--info-accent);
+  border-radius: 8px;
+  padding: 0.6rem 0.75rem;
+  margin: 0 0 1rem;
+}
+
+.sim-mode-readout[hidden] { display: none; }
+
 /* ------------------------------------------------------------ Cases */
 
 .case-picker {

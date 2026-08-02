@@ -97,6 +97,8 @@
             <option value="vc">Volume Control (AC/VC)</option>
             <option value="pc">Pressure Control (AC/PC)</option>
             <option value="psv">Pressure Support / CPAP (spontaneous)</option>
+            <option value="simv">SIMV + Pressure Support</option>
+            <option value="aprv">APRV / BiLevel</option>
           </select>
           <p class="sim-subnote" id="mode-desc"></p>
         </div>
@@ -138,6 +140,28 @@
           <input type="range" id="ps" min="0" max="25" step="1" value="10" />
           <p class="sim-subnote" id="ps-breath-readout"></p>
         </div>
+
+        <div id="aprv-controls" hidden>
+          <div class="control-block">
+            <label for="phigh">P<sub>high</sub> <output id="phigh-out"></output> <span class="control-unit">cmH₂O</span></label>
+            <input type="range" id="phigh" min="10" max="40" step="1" value="25" />
+          </div>
+          <div class="control-block">
+            <label for="plow">P<sub>low</sub> <output id="plow-out"></output> <span class="control-unit">cmH₂O</span></label>
+            <input type="range" id="plow" min="0" max="15" step="1" value="0" />
+          </div>
+          <div class="control-block">
+            <label for="thigh">T<sub>high</sub> <output id="thigh-out"></output> <span class="control-unit">s</span></label>
+            <input type="range" id="thigh" min="2" max="8" step="0.1" value="4.5" />
+          </div>
+          <div class="control-block">
+            <label for="tlow">T<sub>low</sub> <output id="tlow-out"></output> <span class="control-unit">s</span></label>
+            <input type="range" id="tlow" min="0.1" max="1.5" step="0.05" value="0.3" />
+          </div>
+        </div>
+
+        <p class="sim-subnote sim-mode-readout" id="simv-readout" hidden></p>
+        <p class="sim-subnote sim-mode-readout" id="aprv-readout" hidden></p>
 
         <div class="control-block">
           <label for="fio2">FiO₂ <output id="fio2-out"></output> <span class="control-unit">%</span></label>
