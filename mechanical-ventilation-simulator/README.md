@@ -54,6 +54,17 @@ reliable FiO₂ **only when flow meets peak inspiratory demand** — set the flo
 patient entrains room air, so the delivered FiO₂ falls well below the dial. The ROX index
 (SpO₂/FiO₂ ÷ RR) is computed live as the high-flow analogue of RSBI.
 
+**Living virtual patient** — a bedside picture rather than a bare set of numbers: diagnosis, ICU
+day, airway and sedation status (RASS), vasopressor dose, a six-figure monitor strip (SpO₂, MAP,
+heart rate, respiratory rate, temperature, urine output), a full arterial blood gas and a
+laboratory panel. None of it is a stored snapshot — the vitals are derived from the engine, so the
+monitor responds to the ventilator. Raise mean airway pressure and venous return falls, MAP drops,
+the heart rate climbs, urine output falls and lactate rises.
+
+The noradrenaline control exists to expose a specific trap: turn it up and the MAP comes back,
+but the cause is untouched. When the blood pressure only looks acceptable because of the pressor,
+the panel says so explicitly.
+
 **Interactive ventilator controls** — PEEP, tidal volume or inspiratory pressure or pressure
 support (depending on mode), FiO₂, I:E ratio, respiratory rate, and bicarbonate (for the pH
 estimate). Every change recomputes the patient immediately.
@@ -175,6 +186,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `waveforms.js` | Waveform + loop rendering, hold maneuvers, alveolar recruitment view |
 | `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
+| `patient.js` | Living virtual patient: monitor, ABG, labs, engine-derived vitals |
 | `cases.js` | Progressive multi-step clinical cases, evaluated against live simulator state |
 | `ultrasound.js` | BLUE-protocol lung ultrasound views with animated sliding and engine-driven B-lines |
 | `dashboard.js` | Session performance summary read from `window.MVSIM.stats` |

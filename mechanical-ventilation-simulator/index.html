@@ -48,6 +48,44 @@
   </div>
 
   <main class="sim-content" id="content">
+    <section class="sim-panel sim-patient" id="patient-panel" aria-label="Patient">
+      <div class="pt-header">
+        <div class="pt-identity">
+          <h2 class="pt-diagnosis" id="pt-diagnosis"></h2>
+          <div class="pt-chips">
+            <span class="pt-chip" id="pt-day"></span>
+            <span class="pt-chip" id="pt-pbw"></span>
+            <span class="pt-chip" id="pt-airway"></span>
+            <span class="pt-chip" id="pt-sedation"></span>
+            <span class="pt-chip" id="pt-pressor"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="vitals-strip">
+        <div class="vital" id="vital-spo2"><small>SpO&#8322;</small><span class="vital-value">&ndash;</span><span class="vital-unit"></span><p class="vital-note"></p></div>
+        <div class="vital" id="vital-map"><small>MAP</small><span class="vital-value">&ndash;</span><span class="vital-unit"></span><p class="vital-note"></p></div>
+        <div class="vital" id="vital-hr"><small>Heart rate</small><span class="vital-value">&ndash;</span><span class="vital-unit"></span><p class="vital-note"></p></div>
+        <div class="vital" id="vital-rr"><small>Resp. rate</small><span class="vital-value">&ndash;</span><span class="vital-unit"></span><p class="vital-note"></p></div>
+        <div class="vital" id="vital-temp"><small>Temperature</small><span class="vital-value">&ndash;</span><span class="vital-unit"></span><p class="vital-note"></p></div>
+        <div class="vital" id="vital-uo"><small>Urine output</small><span class="vital-value">&ndash;</span><span class="vital-unit"></span><p class="vital-note"></p></div>
+      </div>
+
+      <p class="pt-hemo-note" id="pt-hemo-note"></p>
+
+      <div class="pt-results">
+        <div class="pt-result-block">
+          <h3>Arterial blood gas</h3>
+          <div class="abg-grid" id="pt-abg"></div>
+        </div>
+        <div class="pt-result-block">
+          <h3>Laboratory</h3>
+          <div class="abg-grid" id="pt-labs"></div>
+          <p class="sim-subnote">Bloods are stable over the minutes this simulator models; they change with the scenario, not with a ventilator adjustment.</p>
+        </div>
+      </div>
+    </section>
+
     <section class="sim-panel sim-dashboard" id="dashboard-panel" aria-label="Session performance dashboard">
       <div class="dash-header">
         <h2 class="sim-panel-title">📊 Session dashboard</h2>
@@ -200,6 +238,12 @@
           <input type="range" id="fio2" min="21" max="100" step="1" value="40" />
         </div>
 
+
+        <div class="control-block">
+          <label for="norad">Noradrenaline <output id="norad-out"></output> <span class="control-unit">mcg/kg/min</span></label>
+          <input type="range" id="norad" min="0" max="0.5" step="0.01" value="0" />
+          <p class="sim-subnote">Supports the blood pressure without altering what the ventilator is doing to venous return.</p>
+        </div>
         <div class="control-block" id="ie-control">
           <label for="ie">I:E ratio <output id="ie-out"></output></label>
           <input type="range" id="ie" min="0.3" max="5" step="0.1" value="2" />
@@ -465,6 +509,7 @@
   </footer>
 
   <script src="simulator.js?v=1"></script>
+  <script src="patient.js?v=1"></script>
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>

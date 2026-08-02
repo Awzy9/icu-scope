@@ -67,7 +67,9 @@
     edema: {
       profile: "B-profile (bilateral, symmetric)",
       anterior: "b-lines-dense",
-      lateral: "b-lines-dense",
+      // The PLAPS point is where the accompanying effusion is actually found —
+      // anterior B-lines alone would miss it.
+      lateral: "effusion",
       sliding: true,
       findings: [
         "Diffuse, bilateral, symmetric B-lines (\"lung rockets\")",

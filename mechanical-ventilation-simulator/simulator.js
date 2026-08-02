@@ -17,6 +17,17 @@
       crs: 50, raw: 8, shuntBase: 0.03, recruitableFrac: 0.3, deadSpaceFrac: 0.30,
       peepOpt: 5, overdistSensitivity: 0.010, paco2Ref: 40, hco3: 24, effortPressure: 12,
       defaults: { peep: 5, vtPerKg: 6, fio2: 30, ie: 2, rr: 14 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Elective post-operative ventilation after major abdominal surgery",
+        icuDay: 1, rass: -2,
+        baseMAP: 84, baseHR: 78, noradrenaline: 0.0,
+        temp: 36.8, lactate: 1.1, urineOutput: 1.2,
+        hb: 12.5, wbc: 9.2, creatinine: 0.9, platelets: 240,
+      },
     },
     ardsMild: {
       label: "ARDS — mild (P/F 200–300)",
@@ -25,6 +36,17 @@
       crs: 40, raw: 10, shuntBase: 0.20, recruitableFrac: 0.5, deadSpaceFrac: 0.40,
       peepOpt: 9, overdistSensitivity: 0.010, paco2Ref: 42, hco3: 24, effortPressure: 11,
       defaults: { peep: 8, vtPerKg: 6, fio2: 40, ie: 1.5, rr: 18 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Community-acquired pneumonia with mild ARDS",
+        icuDay: 2, rass: -3,
+        baseMAP: 81, baseHR: 92, noradrenaline: 0.0,
+        temp: 38.1, lactate: 1.6, urineOutput: 0.9,
+        hb: 10.8, wbc: 14.5, creatinine: 1.1, platelets: 190,
+      },
       evidence: ["ardsnet", "guidelines"],
     },
     ardsModerate: {
@@ -34,6 +56,17 @@
       crs: 30, raw: 10, shuntBase: 0.35, recruitableFrac: 0.6, deadSpaceFrac: 0.50,
       peepOpt: 12, overdistSensitivity: 0.009, paco2Ref: 45, hco3: 24, effortPressure: 9,
       defaults: { peep: 10, vtPerKg: 6, fio2: 50, ie: 1.5, rr: 22 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Septic shock from pneumonia with moderate ARDS",
+        icuDay: 3, rass: -4,
+        baseMAP: 73, baseHR: 104, noradrenaline: 0.06,
+        temp: 38.4, lactate: 2.1, urineOutput: 0.7,
+        hb: 9.8, wbc: 17.2, creatinine: 1.5, platelets: 155,
+      },
       evidence: ["ardsnet", "express", "art", "guidelines"],
     },
     ardsSevere: {
@@ -43,6 +76,17 @@
       crs: 20, raw: 11, shuntBase: 0.67, recruitableFrac: 0.65, deadSpaceFrac: 0.60,
       peepOpt: 16, overdistSensitivity: 0.008, paco2Ref: 50, hco3: 24, effortPressure: 7,
       defaults: { peep: 14, vtPerKg: 6, fio2: 70, ie: 1.5, rr: 26 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Severe ARDS, deep sedation and neuromuscular blockade",
+        icuDay: 2, rass: -5,
+        baseMAP: 60, baseHR: 112, noradrenaline: 0.18,
+        temp: 38.7, lactate: 3.4, urineOutput: 0.4,
+        hb: 9.1, wbc: 19.8, creatinine: 2.1, platelets: 110,
+      },
       evidence: ["ardsnet", "amato", "proseva", "art", "guidelines"],
     },
     copd: {
@@ -52,6 +96,17 @@
       crs: 60, raw: 28, shuntBase: 0.10, recruitableFrac: 0.10, deadSpaceFrac: 0.35,
       peepOpt: 5, overdistSensitivity: 0.020, paco2Ref: 55, hco3: 30, effortPressure: 8,
       defaults: { peep: 5, vtPerKg: 7, fio2: 28, ie: 4, rr: 12 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Acute hypercapnic COPD exacerbation",
+        icuDay: 1, rass: -2,
+        baseMAP: 78, baseHR: 98, noradrenaline: 0.0,
+        temp: 37.2, lactate: 1.4, urineOutput: 0.9,
+        hb: 14.2, wbc: 11.8, creatinine: 1.0, platelets: 210,
+      },
     },
     edema: {
       label: "Cardiogenic pulmonary edema / CHF",
@@ -60,6 +115,17 @@
       crs: 35, raw: 9, shuntBase: 0.25, recruitableFrac: 0.5, deadSpaceFrac: 0.35,
       peepOpt: 9, overdistSensitivity: 0.011, paco2Ref: 42, hco3: 24, effortPressure: 10,
       defaults: { peep: 8, vtPerKg: 6, fio2: 40, ie: 2, rr: 18 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Acute cardiogenic pulmonary edema on a background of heart failure",
+        icuDay: 1, rass: -3,
+        baseMAP: 76, baseHR: 96, noradrenaline: 0.0,
+        temp: 36.5, lactate: 2.2, urineOutput: 0.5,
+        hb: 11.5, wbc: 9.8, creatinine: 1.7, platelets: 195,
+      },
     },
     pneumonia: {
       label: "Severe pneumonia / consolidation",
@@ -68,6 +134,17 @@
       crs: 30, raw: 10, shuntBase: 0.30, recruitableFrac: 0.20, deadSpaceFrac: 0.40,
       peepOpt: 8, overdistSensitivity: 0.010, paco2Ref: 44, hco3: 24, effortPressure: 9,
       defaults: { peep: 8, vtPerKg: 6, fio2: 50, ie: 2, rr: 20 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Severe multilobar pneumonia",
+        icuDay: 2, rass: -3,
+        baseMAP: 73, baseHR: 102, noradrenaline: 0.04,
+        temp: 38.9, lactate: 2.0, urineOutput: 0.8,
+        hb: 10.2, wbc: 21.4, creatinine: 1.3, platelets: 175,
+      },
     },
     fibrosis: {
       label: "Pulmonary fibrosis (restrictive)",
@@ -76,6 +153,17 @@
       crs: 20, raw: 8, shuntBase: 0.15, recruitableFrac: 0.20, deadSpaceFrac: 0.45,
       peepOpt: 6, overdistSensitivity: 0.016, paco2Ref: 38, hco3: 24, effortPressure: 10,
       defaults: { peep: 6, vtPerKg: 6, fio2: 40, ie: 1.5, rr: 22 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Acute exacerbation of pulmonary fibrosis",
+        icuDay: 4, rass: -3,
+        baseMAP: 84, baseHR: 94, noradrenaline: 0.0,
+        temp: 37.0, lactate: 1.3, urineOutput: 1.0,
+        hb: 11.0, wbc: 8.6, creatinine: 1.0, platelets: 230,
+      },
     },
     neuromuscular: {
       label: "Neuromuscular weakness (e.g. GBS, myasthenic crisis)",
@@ -84,6 +172,17 @@
       crs: 50, raw: 8, shuntBase: 0.03, recruitableFrac: 0.3, deadSpaceFrac: 0.30,
       peepOpt: 5, overdistSensitivity: 0.010, paco2Ref: 45, hco3: 24, effortPressure: 4,
       defaults: { peep: 5, vtPerKg: 7, fio2: 25, ie: 2, rr: 16 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Guillain-Barre syndrome with respiratory pump failure",
+        icuDay: 5, rass: -1,
+        baseMAP: 84, baseHR: 82, noradrenaline: 0.0,
+        temp: 36.9, lactate: 1.0, urineOutput: 1.3,
+        hb: 12.0, wbc: 7.4, creatinine: 0.7, platelets: 250,
+      },
     },
     obesity: {
       label: "Obesity / elevated intra-abdominal pressure",
@@ -92,6 +191,17 @@
       crs: 30, raw: 10, shuntBase: 0.15, recruitableFrac: 0.4, deadSpaceFrac: 0.35,
       peepOpt: 10, overdistSensitivity: 0.012, paco2Ref: 46, hco3: 25, cvSensitivity: 1.0, effortPressure: 9,
       defaults: { peep: 10, vtPerKg: 6, fio2: 40, ie: 2, rr: 18 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Post-operative respiratory failure with raised intra-abdominal pressure",
+        icuDay: 2, rass: -3,
+        baseMAP: 86, baseHR: 88, noradrenaline: 0.0,
+        temp: 37.3, lactate: 1.5, urineOutput: 0.9,
+        hb: 13.0, wbc: 10.2, creatinine: 1.1, platelets: 220,
+      },
     },
     covidArds: {
       label: "COVID-19 ARDS",
@@ -100,6 +210,17 @@
       crs: 32, raw: 10, shuntBase: 0.32, recruitableFrac: 0.45, deadSpaceFrac: 0.48,
       peepOpt: 11, overdistSensitivity: 0.010, paco2Ref: 44, hco3: 24, cvSensitivity: 1.0, effortPressure: 9,
       defaults: { peep: 10, vtPerKg: 6, fio2: 60, ie: 1.5, rr: 24 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "COVID-19 pneumonitis with ARDS",
+        icuDay: 6, rass: -4,
+        baseMAP: 69, baseHR: 98, noradrenaline: 0.08,
+        temp: 38.2, lactate: 2.3, urineOutput: 0.6,
+        hb: 10.5, wbc: 12.6, creatinine: 1.4, platelets: 165,
+      },
       evidence: ["ardsnet", "guidelines"],
     },
     pe: {
@@ -113,6 +234,17 @@
       // hypoxemia here, and the reason PEEP does not fix it.
       pvo2Base: 31,
       defaults: { peep: 5, vtPerKg: 6, fio2: 50, ie: 2, rr: 20 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Massive pulmonary embolism with right-ventricular strain",
+        icuDay: 1, rass: -3,
+        baseMAP: 42, baseHR: 124, noradrenaline: 0.22,
+        temp: 37.1, lactate: 3.8, urineOutput: 0.4,
+        hb: 12.8, wbc: 12.0, creatinine: 1.4, platelets: 185,
+      },
     },
     traumaFlail: {
       label: "Chest trauma / flail chest",
@@ -121,6 +253,17 @@
       crs: 25, raw: 10, shuntBase: 0.22, recruitableFrac: 0.25, deadSpaceFrac: 0.40,
       peepOpt: 7, overdistSensitivity: 0.014, paco2Ref: 44, hco3: 24, cvSensitivity: 1.0, effortPressure: 6,
       defaults: { peep: 6, vtPerKg: 6, fio2: 45, ie: 1.5, rr: 20 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Blunt chest trauma with flail segment and pulmonary contusion",
+        icuDay: 1, rass: -4,
+        baseMAP: 74, baseHR: 108, noradrenaline: 0.06,
+        temp: 37.4, lactate: 2.6, urineOutput: 0.8,
+        hb: 8.9, wbc: 15.8, creatinine: 1.0, platelets: 145,
+      },
     },
     pneumothorax: {
       label: "Pneumothorax (undrained)",
@@ -129,6 +272,17 @@
       crs: 22, raw: 9, shuntBase: 0.35, recruitableFrac: 0.05, deadSpaceFrac: 0.35,
       peepOpt: 5, overdistSensitivity: 0.020, paco2Ref: 46, hco3: 24, cvSensitivity: 2.0, effortPressure: 9,
       defaults: { peep: 5, vtPerKg: 6, fio2: 50, ie: 2, rr: 20 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Undrained pneumothorax with developing tension physiology",
+        icuDay: 1, rass: -3,
+        baseMAP: 48, baseHR: 128, noradrenaline: 0.15,
+        temp: 37.0, lactate: 3.2, urineOutput: 0.3,
+        hb: 11.2, wbc: 13.4, creatinine: 1.1, platelets: 200,
+      },
     },
     bpf: {
       label: "Bronchopleural fistula (large air leak)",
@@ -137,6 +291,17 @@
       crs: 28, raw: 11, shuntBase: 0.18, recruitableFrac: 0.15, deadSpaceFrac: 0.30,
       peepOpt: 6, overdistSensitivity: 0.012, paco2Ref: 42, hco3: 24, cvSensitivity: 1.0, leakFrac: 0.30, effortPressure: 10,
       defaults: { peep: 5, vtPerKg: 6, fio2: 40, ie: 2, rr: 18 },
+      // Bedside clinical picture. baseMAP is the UNSUPPORTED map: no
+      // vasopressor and no ventilator hemodynamic burden. The displayed
+      // MAP is derived from it, so a patient who only looks stable because
+      // of their noradrenaline reads as exactly that once you turn it down.
+      clinical: {
+        diagnosis: "Bronchopleural fistula with persistent large air leak",
+        icuDay: 8, rass: -3,
+        baseMAP: 71, baseHR: 100, noradrenaline: 0.05,
+        temp: 37.8, lactate: 1.8, urineOutput: 0.8,
+        hb: 9.6, wbc: 13.0, creatinine: 1.2, platelets: 180,
+      },
     },
   };
 
@@ -271,7 +436,7 @@
   // namespace rather than duplicating it.
   window.MVSIM = {
     SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant, stats,
-    resistancePenalty, spontaneousVt,
+    resistancePenalty, spontaneousVt, deriveVitals,
     recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, recordCaseStep, resetStats,
   };
 
@@ -604,7 +769,55 @@
       vt, rr, ratio, ttot, ti, te, flow, tau, autoPeep, totalPeep, drivingPressure, resistivePressure,
       plateauPressure, peakPressure, meanAirwayPressure, effectiveShunt, recruitedFraction,
       overdistExcess, minuteVentilation, alveolarMinuteVentilation, paco2, pao2, pfRatio, spo2, ph,
-      hemodynamicImpact, leakFrac, detail, setPeep: peep, deliveredFio2,
+      hemodynamicImpact, leakFrac, detail, setPeep: peep, deliveredFio2, hco3,
+    };
+  }
+
+  // ---------------------------------------------------------------------
+  // Bedside vitals, derived from the engine rather than stored per scenario,
+  // so the monitor responds to what the ventilator is doing. The chain is:
+  // raised mean airway pressure cuts venous return -> MAP falls -> the heart
+  // rate rises, urine output falls and lactate climbs. Vasopressor support
+  // props the MAP back up WITHOUT removing the cause, which is exactly the
+  // trap this panel is meant to make visible.
+  // ---------------------------------------------------------------------
+  function deriveVitals(scenario, results, noradrenaline) {
+    const c = scenario.clinical;
+    const dose = noradrenaline != null ? noradrenaline : c.noradrenaline;
+
+    // Each 1% fall in venous return costs roughly 0.45 mmHg of MAP here.
+    const ventPenalty = results.hemodynamicImpact * 0.45;
+    // Noradrenaline response saturates — you cannot dose your way out.
+    const pressorSupport = Math.min(dose * 105, 26);
+    const map = clamp(c.baseMAP - ventPenalty + pressorSupport, 25, 130);
+
+    // Tachycardia from hypoxemia, acidemia and hypotension.
+    const hr = clamp(
+      c.baseHR
+        + Math.max(0, 92 - results.spo2) * 1.6
+        + Math.max(0, 7.30 - results.ph) * 90
+        + Math.max(0, 70 - map) * 1.3
+        - Math.max(0, map - 85) * 0.25,
+      45, 175
+    );
+
+    // Renal perfusion falls off steeply below a MAP of about 65.
+    const urineOutput = Math.max(0, c.urineOutput * clamp((map - 45) / 25, 0, 1.25));
+
+    // Anaerobic metabolism from hypoperfusion and/or severe hypoxemia.
+    const lactate = clamp(
+      c.lactate + Math.max(0, 65 - map) * 0.13 + Math.max(0, 88 - results.spo2) * 0.09,
+      0.4, 20
+    );
+
+    // Standard base excess (approximation of the Siggaard-Andersen relation).
+    const baseExcess = 0.93 * (results.hco3 - 24.4 + 14.8 * (results.ph - 7.4));
+
+    return {
+      map, hr, urineOutput, lactate, baseExcess, noradrenaline: dose,
+      ventPenalty, pressorSupport,
+      temp: c.temp, hb: c.hb, wbc: c.wbc, creatinine: c.creatinine, platelets: c.platelets,
+      icuDay: c.icuDay, rass: c.rass, diagnosis: c.diagnosis,
     };
   }
 
@@ -768,6 +981,7 @@
     "simv-readout",
     "niv-controls", "ipap", "ipap-out", "epap", "epap-out", "leak", "leak-out", "niv-readout",
     "hfnc-controls", "flow", "flow-out", "hfnc-readout",
+    "norad", "norad-out",
     "fio2", "fio2-out", "ie-control", "ie", "ie-out", "rr-control", "rr", "rr-out",
     "hco3", "hco3-out", "reset-btn",
     "scenario-desc", "scenario-teaching", "scenario-evidence",
@@ -801,6 +1015,7 @@
     // modes on the same scenario starts from a comparable breath.
     els.pc.value = Math.round(clamp((scenario.defaults.vtPerKg * pbw) / scenario.crs, 5, 40));
     els.ps.value = 10;
+    els.norad.value = scenario.clinical.noradrenaline;
 
     // APRV defaults: P_low 0 (conventional), a long T_high, and a T_low set
     // to ~0.75 expiratory time constants — short enough to terminate flow
@@ -891,6 +1106,7 @@
       epap: Number(els.epap.value),
       leak: Number(els.leak.value),
       flow: Number(els.flow.value),
+      norad: Number(els.norad.value),
     };
 
     els["peep-out"].textContent = state.peep;
@@ -908,6 +1124,7 @@
     els["epap-out"].textContent = state.epap;
     els["leak-out"].textContent = state.leak;
     els["flow-out"].textContent = state.flow;
+    els["norad-out"].textContent = state.norad.toFixed(2);
     els["pbw-out"].textContent = `${pbw.toFixed(0)} kg`;
     els["height-out-unit"].textContent = `${els.height.value} cm`;
     els["scenario-desc"].textContent = scenario.description;
@@ -1011,6 +1228,9 @@
     if (typeof window.renderWeaning === "function") {
       window.renderWeaning(state, scenario, r, pbw);
     }
+    if (typeof window.renderPatient === "function") {
+      window.renderPatient(state, scenario, r, pbw);
+    }
     if (typeof window.renderUltrasound === "function") {
       window.renderUltrasound(els.scenario.value, scenario, r);
     }
@@ -1062,7 +1282,7 @@
 
     ["peep", "vt", "pc", "ps", "fio2", "ie", "rr", "hco3", "height", "sex",
       "phigh", "plow", "thigh", "tlow",
-      "ipap", "epap", "leak", "flow"].forEach((id) => {
+      "ipap", "epap", "leak", "flow", "norad"].forEach((id) => {
       els[id].addEventListener("input", render);
     });
     els.scenario.addEventListener("change", () => applyScenarioDefaults(els.scenario.value));

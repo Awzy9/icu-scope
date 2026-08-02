@@ -729,6 +729,147 @@ select:focus-visible {
 
 .sim-mode-readout[hidden] { display: none; }
 
+/* --------------------------------------------------------- Patient */
+
+.sim-patient {
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--accent-strong);
+}
+
+.pt-diagnosis {
+  margin: 0 0 0.6rem;
+  font-size: 1.15rem;
+  text-wrap: balance;
+}
+
+.pt-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pt-chip {
+  display: inline-block;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.15rem 0.7rem;
+}
+
+.pt-chip-active {
+  color: var(--warn-accent);
+  background: var(--warn-bg);
+  border-color: var(--warn-accent);
+  font-weight: 700;
+}
+
+/* Monitor strip: state has to read at a glance, so severity is carried by
+   a colour stripe and the value weight, not by the number alone. */
+.vitals-strip {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.6rem;
+  margin: 1.1rem 0 0.8rem;
+}
+
+.vital {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--border);
+  border-radius: 9px;
+  padding: 0.55rem 0.7rem;
+}
+
+.vital small {
+  display: block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--text-muted);
+}
+
+.vital .vital-value {
+  font-size: 1.65rem;
+  font-weight: 700;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+
+.vital .vital-unit {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-left: 0.2rem;
+}
+
+.vital .vital-note {
+  margin: 0.1rem 0 0;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.vital-good { border-top-color: var(--ok-accent); }
+.vital-warn { border-top-color: var(--warn-accent); }
+.vital-warn .vital-value, .vital-warn .vital-note { color: var(--warn-accent); }
+.vital-bad { border-top-color: var(--danger-accent); background: var(--danger-bg); }
+.vital-bad .vital-value, .vital-bad .vital-note { color: var(--danger-accent); }
+
+.pt-hemo-note {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  background: var(--surface-soft);
+  border-left: 3px solid var(--info-accent);
+  border-radius: 7px;
+  padding: 0.55rem 0.75rem;
+  margin: 0 0 1rem;
+}
+
+.pt-hemo-warn {
+  border-left-color: var(--danger-accent);
+  background: var(--danger-bg);
+  color: var(--danger-accent);
+}
+
+.pt-results {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.1rem;
+}
+
+.pt-result-block h3 {
+  font-size: 0.9rem;
+  margin: 0 0 0.5rem;
+}
+
+.abg-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(128px, 1fr));
+  gap: 0.35rem;
+}
+
+.abg-row {
+  display: flex;
+  align-items: baseline;
+  gap: 0.3rem;
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--border);
+  border-radius: 7px;
+  padding: 0.3rem 0.55rem;
+  font-size: 0.8rem;
+}
+
+.abg-row span { color: var(--text-muted); flex: 1; }
+.abg-row strong { font-variant-numeric: tabular-nums; font-size: 0.95rem; }
+.abg-row small { color: var(--text-muted); font-size: 0.7rem; }
+
+.abg-good { border-left-color: var(--ok-accent); }
+.abg-warn { border-left-color: var(--warn-accent); }
+.abg-warn strong { color: var(--warn-accent); }
+.abg-bad { border-left-color: var(--danger-accent); background: var(--danger-bg); }
+.abg-bad strong { color: var(--danger-accent); }
+
 /* ------------------------------------------------------ Ultrasound */
 
 .us-controls {
@@ -855,9 +996,12 @@ select:focus-visible {
   .wean-grid { grid-template-columns: 1fr; }
   .dash-grid { grid-template-columns: 1fr; }
   .us-layout { grid-template-columns: 1fr; }
+  .vitals-strip { grid-template-columns: repeat(3, 1fr); }
+  .pt-results { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 520px) {
+  .vitals-strip { grid-template-columns: repeat(2, 1fr); }
   body { font-size: 16px; }
   .site-header { padding: 1.5rem 1.1rem 1.1rem; }
   .sim-content { padding: 1.1rem 1.2rem; }
