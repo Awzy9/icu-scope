@@ -74,11 +74,11 @@
       <p class="pt-hemo-note" id="pt-hemo-note"></p>
 
       <div class="pt-results">
-        <div class="pt-result-block">
+        <div class="pt-result-block" id="pt-abg-block">
           <h3>Arterial blood gas</h3>
           <div class="abg-grid" id="pt-abg"></div>
         </div>
-        <div class="pt-result-block">
+        <div class="pt-result-block" id="pt-labs-block">
           <h3>Laboratory</h3>
           <div class="abg-grid" id="pt-labs"></div>
           <p class="sim-subnote">Bloods are stable over the minutes this simulator models; they change with the scenario, not with a ventilator adjustment.</p>
@@ -122,7 +122,7 @@
     </section>
 
     <div class="sim-layout">
-      <section class="sim-panel sim-controls" aria-label="Ventilator settings">
+      <section class="sim-panel sim-controls" id="controls-panel" aria-label="Ventilator settings">
         <h2 class="sim-panel-title">Scenario &amp; settings</h2>
 
         <div class="control-block">
@@ -265,7 +265,7 @@
         <button type="button" id="reset-btn" class="toolbar-btn sim-reset-btn">↺ Reset to scenario defaults</button>
       </section>
 
-      <section class="sim-panel sim-results" aria-label="Predicted effects">
+      <section class="sim-panel sim-results" id="results-panel" aria-label="Predicted effects">
         <h2 class="sim-panel-title">Predicted effects</h2>
 
         <div class="sim-result-grid">
@@ -344,7 +344,7 @@
         </div>
       </section>
 
-      <section class="sim-panel sim-lung" aria-label="Alveolar recruitment">
+      <section class="sim-panel sim-lung" id="lung-panel" aria-label="Alveolar recruitment">
         <h2 class="sim-panel-title">🫁 Alveolar recruitment (illustrative)</h2>
         <svg id="lung-svg" class="lung-svg" role="img" aria-label="Grid of alveoli colored by collapsed, normal, or overdistended status"></svg>
         <div class="lung-legend">
@@ -354,7 +354,7 @@
         </div>
       </section>
 
-      <section class="sim-panel sim-waveforms" aria-label="Ventilator waveforms">
+      <section class="sim-panel sim-waveforms" id="waveforms-panel" aria-label="Ventilator waveforms">
         <h2 class="sim-panel-title">📉 Waveforms (one breath cycle)</h2>
         <div class="wave-controls">
           <button type="button" id="insp-hold-btn" class="toolbar-btn" aria-pressed="false">⏸ Inspiratory hold (show P<sub>plat</sub>)</button>
@@ -559,6 +559,7 @@
   </footer>
 
   <script src="simulator.js?v=1"></script>
+  <script src="panels.js?v=1"></script>
   <script src="patient.js?v=1"></script>
   <script src="explain.js?v=1"></script>
   <script src="waveforms.js?v=1"></script>

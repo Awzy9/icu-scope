@@ -105,6 +105,11 @@ mirroring the real bedside maneuvers.
 **Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
 overdistended lung units that updates live with the settings.
 
+**Collapsible panels** — every section (settings, results, patient labs, waveforms, ultrasound, etc.)
+has a toggle in its header to collapse it out of the way; the Patient panel's ABG and Laboratory
+blocks collapse independently of each other and of the rest of the panel. Collapsed state persists
+in localStorage across reloads.
+
 **Chest radiograph** — a characteristic film for each scenario with its findings and the
 discriminators that matter (cardiomegaly and effusions separating cardiogenic oedema from ARDS;
 flat diaphragms in obstruction; a normal film in massive PE). Aeration is driven by the engine, so
@@ -218,6 +223,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `explain.js` | Mechanism / benefit / risk / evidence breakdown from measured deltas |
 | `cxr.js` | Chest radiograph panel: schematic films, real-image support |
 | `cxr-images.js` | Attribution manifest for real radiographs (empty by default) |
+| `panels.js` | Collapsible-panel toggles, persisted in localStorage |
 | `cases.js` | Progressive multi-step clinical cases, evaluated against live simulator state |
 | `ultrasound.js` | BLUE-protocol lung ultrasound views with animated sliding and engine-driven B-lines |
 | `dashboard.js` | Session performance summary read from `window.MVSIM.stats` |

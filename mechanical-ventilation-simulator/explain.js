@@ -277,13 +277,28 @@
   // of the whole move rather than an explanation per pixel.
   function onRender() {
     if (!document.getElementById("explain-panel")) return;
+
+    // The very first render (page load, before any user interaction) has to
+    // establish the comparison baseline immediately rather than through the
+    // debounce below. Without this, a user who starts dragging a slider
+    // within 620ms of load keeps resetting the timer — the baseline never
+    // gets captured until they finally pause, and that first pause only
+    // silently records where they landed with nothing shown. They then need
+    // a SECOND change-and-pause before anything ever explains itself, which
+    // reads as "not working" and invites overshooting the control while
+    // waiting for feedback that was never coming.
+    if (!settled) {
+      settled = snapshot();
+      return;
+    }
+
     clearTimeout(timer);
     timer = setTimeout(() => {
       const cur = snapshot();
       if (!cur) return;
-      if (settled && settled.scenarioId === cur.scenarioId) {
+      if (settled.scenarioId === cur.scenarioId) {
         explain(settled, cur);
-      } else if (settled && settled.scenarioId !== cur.scenarioId) {
+      } else {
         // New patient: previous settings aren't a comparison worth making.
         document.getElementById("xp-body").hidden = true;
         document.getElementById("xp-idle").hidden = false;
