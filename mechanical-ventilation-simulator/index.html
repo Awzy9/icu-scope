@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="styles.css?v=1" />
   <script>
     (function () {
-      var saved = localStorage.getItem("mvsim-theme");
-      if (saved === "light" || saved === "dark") {
-        document.documentElement.setAttribute("data-theme", saved);
-      }
+      try {
+        var saved = localStorage.getItem("mvsim-theme");
+        if (saved === "light" || saved === "dark") {
+          document.documentElement.setAttribute("data-theme", saved);
+        }
+      } catch (e) { /* storage blocked — fall back to the OS preference */ }
     })();
   </script>
 </head>
@@ -395,6 +397,40 @@
         <button type="button" id="alarm-next-btn" class="toolbar-btn sim-reset-btn">🔀 New scenario</button>
       </section>
 
+      <section class="sim-panel sim-ultrasound" id="ultrasound-panel" aria-label="Lung ultrasound">
+        <h2 class="sim-panel-title">🔊 Lung ultrasound</h2>
+        <p class="sim-subnote">
+          The current scenario's characteristic appearance, organised around the BLUE protocol profiles.
+          Artifacts are drawn schematics, not real clip captures — but lung sliding is animated, because
+          a frozen pneumothorax and a normal lung look identical, and B-line density is driven by the
+          physiology engine's live recruitment state rather than hard-coded.
+        </p>
+
+        <div class="us-controls">
+          <button type="button" class="toolbar-btn" data-us-zone="anterior" aria-pressed="true">Anterior (BLUE points 1–2)</button>
+          <button type="button" class="toolbar-btn" data-us-zone="lateral" aria-pressed="false">Lateral / PLAPS point</button>
+          <button type="button" class="toolbar-btn" id="us-play-btn" aria-pressed="true">⏸ Freeze image</button>
+        </div>
+
+        <div class="us-layout">
+          <div class="us-canvas-wrap">
+            <canvas id="us-canvas" height="260"></canvas>
+          </div>
+          <div class="us-info">
+            <p class="us-profile-tag" id="us-profile"></p>
+            <p class="us-sliding" id="us-sliding-status"></p>
+            <h3>Findings</h3>
+            <ul class="us-findings" id="us-findings"></ul>
+          </div>
+        </div>
+
+        <div class="sim-teaching-box">
+          <p id="us-teaching"></p>
+          <p class="sim-subnote" id="us-dynamic" hidden></p>
+          <div class="evidence-row" id="us-evidence"></div>
+        </div>
+      </section>
+
       <section class="sim-panel sim-cases" id="case-panel" aria-label="Progressive clinical cases">
         <h2 class="sim-panel-title">📋 Clinical cases</h2>
         <p class="sim-subnote">
@@ -432,6 +468,7 @@
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>
+  <script src="ultrasound.js?v=1"></script>
   <script src="cases.js?v=1"></script>
   <script src="dashboard.js?v=1"></script>
 </body>

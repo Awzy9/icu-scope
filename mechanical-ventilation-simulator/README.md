@@ -94,6 +94,15 @@ mirroring the real bedside maneuvers.
 **Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
 overdistended lung units that updates live with the settings.
 
+**Lung ultrasound** — each scenario's characteristic appearance, organised around the BLUE
+protocol profiles, with anterior and lateral/PLAPS windows. Two things make it more than a
+picture gallery. Lung sliding is **animated**, because a frozen pneumothorax and a normal lung are
+genuinely indistinguishable — the artifacts are identical and only the motion differs, which is
+why the freeze button is itself a teaching device. And B-line density is driven by the physiology
+engine's live recruitment state rather than hard-coded, so adding PEEP to a recruitable lung
+visibly clears the B-lines (the basis of ultrasound-guided PEEP titration) while a consolidated
+or fibrotic lung barely changes. Artifacts are drawn schematics, not real clip captures.
+
 **Progressive clinical cases** — three multi-step cases (septic shock with ARDS, status
 asthmaticus, acute cardiogenic pulmonary edema) that combine "configure" steps — set the main
 simulator above to a lung-protective starting point, then click *Check my settings* to have your
@@ -133,6 +142,8 @@ mirroring RSBI's known unreliability in neuromuscular disease.
 - ART trial (JAMA 2017) — harm from aggressive recruitment / high PEEP
 - HOT-ICU / LOCO₂ (NEJM 2021 / 2020) — conservative oxygen targets
 - ATS/ESICM/SCCM clinical practice guideline (2017) — ARDS ventilation
+- BLUE protocol (Lichtenstein, Chest 2008) — lung ultrasound in acute respiratory failure
+- International LUS consensus (Volpicelli, Intensive Care Med 2012)
 - Brochard (NEJM 1995) / Lightowler (BMJ 2003) — NIV in hypercapnic COPD
 - 3CPO (NEJM 2008) / Vital (Cochrane 2013) — NIV in cardiogenic pulmonary edema
 - FLORALI (NEJM 2015) — high-flow vs. NIV in de novo hypoxemic failure
@@ -165,6 +176,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
 | `cases.js` | Progressive multi-step clinical cases, evaluated against live simulator state |
+| `ultrasound.js` | BLUE-protocol lung ultrasound views with animated sliding and engine-driven B-lines |
 | `dashboard.js` | Session performance summary read from `window.MVSIM.stats` |
 | `styles.css` | Self-contained styling (light/dark themes) |
 
@@ -174,7 +186,7 @@ Planned, not yet built — several of these need a backend, which the current st
 
 - AI tutor explaining each intervention in context
 - Additional invasive modes (PRVC, volume-guaranteed pressure modes)
-- Imaging, ultrasound and ECMO physiology modules
+- Chest imaging and ECMO physiology modules (lung ultrasound is built)
 
 ## Sources
 

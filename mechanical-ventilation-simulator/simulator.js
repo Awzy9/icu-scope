@@ -157,6 +157,8 @@
     florali: { name: "FLORALI trial", detail: "NEJM 2015 (Frat et al.) — in de novo acute hypoxemic respiratory failure, high-flow nasal oxygen gave lower 90-day mortality than standard oxygen or NIV. The NIV arm did worse, and larger tidal volumes on NIV were associated with failure." },
     nivFailure: { name: "LUNG SAFE (Bellani 2017)", detail: "AJRCCM 2017 — in an observational ARDS cohort, NIV use in moderate–severe ARDS (P/F <150) was associated with higher ICU mortality. NIV failure requiring delayed intubation is associated with worse outcomes." },
     roxIndex: { name: "ROX index (Roca 2016 / 2019)", detail: "J Crit Care 2016 and AJRCCM 2019 — ROX = (SpO₂/FiO₂)/respiratory rate. A value ≥4.88 at 2–12 h of high-flow therapy predicts success; persistently low or falling values predict the need for intubation." },
+    blueProtocol: { name: "BLUE protocol (Lichtenstein 2008)", detail: "Chest 2008 — a bedside lung ultrasound algorithm that reached ~90% accuracy in diagnosing the cause of acute respiratory failure, using profiles built from lung sliding, A-lines, B-lines, consolidation and venous compression." },
+    lusConsensus: { name: "International LUS consensus (Volpicelli 2012)", detail: "Intensive Care Med 2012 — evidence-based recommendations for point-of-care lung ultrasound, including the criteria for interstitial syndrome, the signs of pneumothorax (absent sliding, absent B-lines, lung point), and consolidation." },
   };
 
   function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
@@ -220,7 +222,7 @@
   const STATS_KEY = "mvsim-stats";
   function loadStats() {
     try {
-      const saved = JSON.parse(localStorage.getItem(STATS_KEY));
+      const saved = JSON.parse(storageGet(STATS_KEY));
       if (saved && typeof saved === "object") return Object.assign(defaultStats(), saved);
     } catch (e) { /* corrupt or absent — fall through to defaults */ }
     return defaultStats();
@@ -235,7 +237,7 @@
   }
   const stats = loadStats();
   function saveStats() {
-    try { localStorage.setItem(STATS_KEY, JSON.stringify(stats)); } catch (e) { /* storage unavailable */ }
+    storageSet(STATS_KEY, JSON.stringify(stats));
     if (typeof window.renderDashboard === "function") window.renderDashboard();
   }
   function recordSettingsCheck(hasDangerAlert) {
@@ -1009,6 +1011,9 @@
     if (typeof window.renderWeaning === "function") {
       window.renderWeaning(state, scenario, r, pbw);
     }
+    if (typeof window.renderUltrasound === "function") {
+      window.renderUltrasound(els.scenario.value, scenario, r);
+    }
 
     // Live snapshot for other modules (e.g. cases.js "check my settings"
     // steps) that need to read the main panel's current configuration
@@ -1023,10 +1028,21 @@
     settingsCheckTimer = setTimeout(() => recordSettingsCheck(hasDangerAlert), 700);
   }
 
+  // localStorage throws outright (not just returns null) when storage is
+  // blocked — Safari private browsing, sandboxed frames, cookies disabled.
+  // An unguarded read here would abort init() and take the whole page down,
+  // so every access goes through these.
+  function storageGet(key) {
+    try { return localStorage.getItem(key); } catch (e) { return null; }
+  }
+  function storageSet(key, value) {
+    try { localStorage.setItem(key, value); } catch (e) { /* storage unavailable */ }
+  }
+
   function initTheme() {
     const toggle = document.getElementById("theme-toggle");
     if (!toggle) return;
-    const saved = localStorage.getItem("mvsim-theme");
+    const saved = storageGet("mvsim-theme");
     const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     const effective = saved || (prefersDark ? "dark" : "light");
     toggle.textContent = effective === "dark" ? "☀️" : "🌙";
@@ -1035,7 +1051,7 @@
         || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       const next = current === "dark" ? "light" : "dark";
       document.documentElement.setAttribute("data-theme", next);
-      localStorage.setItem("mvsim-theme", next);
+      storageSet("mvsim-theme", next);
       toggle.textContent = next === "dark" ? "☀️" : "🌙";
     });
   }
