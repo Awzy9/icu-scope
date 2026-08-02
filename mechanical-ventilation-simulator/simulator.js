@@ -1232,6 +1232,9 @@
     if (typeof window.renderPatient === "function") {
       window.renderPatient(state, scenario, r, pbw);
     }
+    if (typeof window.renderCXR === "function") {
+      window.renderCXR(els.scenario.value, scenario, r, state);
+    }
     if (typeof window.renderUltrasound === "function") {
       window.renderUltrasound(els.scenario.value, scenario, r);
     }

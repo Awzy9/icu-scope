@@ -206,6 +206,7 @@ select:focus-visible {
 .sim-alarms,
 .sim-cases,
 .sim-ultrasound,
+.sim-cxr,
 .sim-explain {
   grid-column: 1 / -1;
 }
@@ -922,6 +923,57 @@ select:focus-visible {
 .abg-bad { border-left-color: var(--danger-accent); background: var(--danger-bg); }
 .abg-bad strong { color: var(--danger-accent); }
 
+/* ------------------------------------------------------------- CXR */
+
+.cxr-layout {
+  display: grid;
+  grid-template-columns: minmax(240px, 0.9fr) 1fr;
+  gap: 1.1rem;
+  align-items: start;
+}
+
+.cxr-frame {
+  background: #07070a;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+#cxr-canvas, #cxr-photo {
+  width: 100%;
+  display: block;
+}
+
+#cxr-photo { height: auto; }
+#cxr-canvas[hidden], #cxr-photo[hidden] { display: none; }
+
+.cxr-credit {
+  font-size: 0.74rem;
+  color: var(--text-muted);
+  margin: 0.4rem 0 0;
+  line-height: 1.45;
+}
+
+.cxr-title {
+  margin: 0 0 0.6rem;
+  font-size: 1rem;
+  color: var(--accent-strong);
+}
+
+.cxr-info h4 {
+  font-size: 0.85rem;
+  margin: 0 0 0.4rem;
+}
+
+.cxr-findings {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.87rem;
+}
+
+.cxr-findings li { margin-bottom: 0.32rem; }
+
 /* ------------------------------------------------------ Ultrasound */
 
 .us-controls {
@@ -1048,6 +1100,7 @@ select:focus-visible {
   .wean-grid { grid-template-columns: 1fr; }
   .dash-grid { grid-template-columns: 1fr; }
   .us-layout { grid-template-columns: 1fr; }
+  .cxr-layout { grid-template-columns: 1fr; }
   .vitals-strip { grid-template-columns: repeat(3, 1fr); }
   .pt-results { grid-template-columns: 1fr; }
   .xp-grid { grid-template-columns: 1fr; }

@@ -105,6 +105,25 @@ mirroring the real bedside maneuvers.
 **Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
 overdistended lung units that updates live with the settings.
 
+**Chest radiograph** — a characteristic film for each scenario with its findings and the
+discriminators that matter (cardiomegaly and effusions separating cardiogenic oedema from ARDS;
+flat diaphragms in obstruction; a normal film in massive PE). Aeration is driven by the engine, so
+recruiting the lung visibly clears the infiltrate — the same coupling as the ultrasound B-lines.
+
+These are **drawn schematics, not photographs**, for two reasons. Real teaching radiographs
+(Radiopaedia, LITFL) are CC BY-NC-SA: the non-commercial term would limit how this project can
+ever be used, share-alike would attach itself to the whole work, and Radiopaedia's terms
+specifically exclude assembling numerous of their cases into comparable content. The panel links
+out to their real cases instead. Secondly, a photograph is one frozen moment and cannot respond to
+the ventilator, which is the entire point here.
+
+**Real radiographs are supported.** Drop properly licensed files into `images/cxr/` and register
+them in `cxr-images.js`; a registered image replaces the schematic and its credit renders beneath
+the film. Entries missing a licence or source URL are refused rather than shown uncredited. That
+file's header lists sources that are actually reusable — Wikimedia Commons (per-file licence,
+prefer PD/CC0), NIH ChestX-ray14, NLM Open-i, the PMC open-access subset, CDC PHIL — and the ones
+not to bundle (Radiopaedia, LITFL, MIMIC-CXR, CheXpert).
+
 **Lung ultrasound** — each scenario's characteristic appearance, organised around the BLUE
 protocol profiles, with anterior and lateral/PLAPS windows. Two things make it more than a
 picture gallery. Lung sliding is **animated**, because a frozen pneumothorax and a normal lung are
@@ -197,6 +216,8 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
 | `patient.js` | Living virtual patient: monitor, ABG, labs, engine-derived vitals |
 | `explain.js` | Mechanism / benefit / risk / evidence breakdown from measured deltas |
+| `cxr.js` | Chest radiograph panel: schematic films, real-image support |
+| `cxr-images.js` | Attribution manifest for real radiographs (empty by default) |
 | `cases.js` | Progressive multi-step clinical cases, evaluated against live simulator state |
 | `ultrasound.js` | BLUE-protocol lung ultrasound views with animated sliding and engine-driven B-lines |
 | `dashboard.js` | Session performance summary read from `window.MVSIM.stats` |

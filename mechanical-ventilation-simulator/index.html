@@ -464,6 +464,33 @@
         <button type="button" id="alarm-next-btn" class="toolbar-btn sim-reset-btn">🔀 New scenario</button>
       </section>
 
+      <section class="sim-panel sim-cxr" id="cxr-panel" aria-label="Chest radiograph">
+        <h2 class="sim-panel-title">🩻 Chest radiograph</h2>
+        <div class="cxr-layout">
+          <div>
+            <div class="cxr-frame">
+              <canvas id="cxr-canvas" height="340"></canvas>
+              <img id="cxr-photo" alt="" hidden />
+            </div>
+            <p class="cxr-credit" id="cxr-credit" hidden></p>
+            <p class="sim-subnote" id="cxr-schematic-note">
+              Schematic, not a photograph — drawn so the findings can change with the patient.
+              Real radiographs can be added: see <code>cxr-images.js</code>.
+            </p>
+            <p class="sim-subnote"><a id="cxr-real-link" href="https://radiopaedia.org" target="_blank" rel="noopener noreferrer"></a></p>
+          </div>
+          <div class="cxr-info">
+            <h3 class="cxr-title" id="cxr-title"></h3>
+            <h4>Findings</h4>
+            <ul class="cxr-findings" id="cxr-findings"></ul>
+          </div>
+        </div>
+        <div class="sim-teaching-box">
+          <p id="cxr-teaching"></p>
+          <p class="sim-subnote" id="cxr-dynamic" hidden></p>
+        </div>
+      </section>
+
       <section class="sim-panel sim-ultrasound" id="ultrasound-panel" aria-label="Lung ultrasound">
         <h2 class="sim-panel-title">🔊 Lung ultrasound</h2>
         <p class="sim-subnote">
@@ -537,6 +564,8 @@
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>
+  <script src="cxr-images.js?v=1"></script>
+  <script src="cxr.js?v=1"></script>
   <script src="ultrasound.js?v=1"></script>
   <script src="cases.js?v=1"></script>
   <script src="dashboard.js?v=1"></script>
