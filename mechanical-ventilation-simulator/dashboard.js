@@ -27,6 +27,7 @@
     const safePct = pct(s.settingsSafe, s.settingsChecked);
     const weanPct = pct(s.weaningReasonable, s.weaningDecisions);
     const alarmPct = pct(s.alarmCorrect, s.alarmTotal);
+    const casePct = pct(s.caseStepsCorrect, s.caseStepsTotal);
 
     document.getElementById("dash-settings-value").textContent = safePct === null ? "–" : `${safePct}%`;
     document.getElementById("dash-settings-sub").textContent = s.settingsChecked === 0
@@ -46,7 +47,13 @@
       : `${s.alarmCorrect} / ${s.alarmTotal} scenarios diagnosed and managed correctly`;
     fillBar("dash-alarms-bar", alarmPct);
 
-    const attempted = [safePct, weanPct, alarmPct].filter((v) => v !== null);
+    document.getElementById("dash-cases-value").textContent = casePct === null ? "–" : `${casePct}%`;
+    document.getElementById("dash-cases-sub").textContent = s.caseStepsTotal === 0
+      ? "No clinical case steps attempted yet."
+      : `${s.caseStepsCorrect} / ${s.caseStepsTotal} case steps correct`;
+    fillBar("dash-cases-bar", casePct);
+
+    const attempted = [safePct, weanPct, alarmPct, casePct].filter((v) => v !== null);
     const overall = document.getElementById("dash-overall");
     if (attempted.length === 0) {
       overall.textContent = "Explore the simulator, weaning assessment, and alarm scenarios above to build a session summary.";

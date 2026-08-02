@@ -71,6 +71,12 @@
           <div class="gauge"><div class="gauge-fill" id="dash-alarms-bar"></div></div>
           <p class="sim-subnote" id="dash-alarms-sub"></p>
         </div>
+        <div class="dash-metric">
+          <small>Clinical cases</small>
+          <span id="dash-cases-value">–</span>
+          <div class="gauge"><div class="gauge-fill" id="dash-cases-bar"></div></div>
+          <p class="sim-subnote" id="dash-cases-sub"></p>
+        </div>
       </div>
       <p class="sim-subnote">Saved locally in your browser (not sent anywhere); resets if you clear site data or click Reset.</p>
     </section>
@@ -334,6 +340,25 @@
 
         <button type="button" id="alarm-next-btn" class="toolbar-btn sim-reset-btn">🔀 New scenario</button>
       </section>
+
+      <section class="sim-panel sim-cases" id="case-panel" aria-label="Progressive clinical cases">
+        <h2 class="sim-panel-title">📋 Clinical cases</h2>
+        <p class="sim-subnote">
+          Multi-step cases that combine setting the simulator above to a lung-protective starting point
+          with decision points as the (simulated) patient evolves. Non-blocking — you can continue past a
+          missed step — but feedback checks your actual live settings, not just a quiz answer.
+        </p>
+
+        <div class="case-picker" id="case-picker-list"></div>
+
+        <div class="case-runner" id="case-runner" hidden>
+          <h3 id="case-title"></h3>
+          <p id="case-prompt"></p>
+          <div id="case-action-area"></div>
+          <div class="alarm-feedback" id="case-step-result"></div>
+          <button type="button" id="case-next-btn" class="toolbar-btn sim-reset-btn" hidden>Next step →</button>
+        </div>
+      </section>
     </div>
   </main>
 
@@ -353,6 +378,7 @@
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>
+  <script src="cases.js?v=1"></script>
   <script src="dashboard.js?v=1"></script>
 </body>
 </html>

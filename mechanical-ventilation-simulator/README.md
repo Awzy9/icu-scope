@@ -64,11 +64,19 @@ mirroring the real bedside maneuvers.
 **Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
 overdistended lung units that updates live with the settings.
 
+**Progressive clinical cases** — three multi-step cases (septic shock with ARDS, status
+asthmaticus, acute cardiogenic pulmonary edema) that combine "configure" steps — set the main
+simulator above to a lung-protective starting point, then click *Check my settings* to have your
+actual live settings (not a quiz answer) evaluated against the case's criteria — with
+multiple-choice decision points as the patient evolves. Non-blocking throughout: a missed step
+still lets you continue, with accurate feedback either way. Each case ends with a short summary,
+and outcomes feed the shared session dashboard.
+
 **Session dashboard** — a persistent (localStorage) summary tying the other sections together:
 what fraction of explored settings had no danger-level alerts, how many weaning decisions were
-reasonable given the modeled criteria, and alarm-troubleshooting accuracy, plus a rough qualitative
-read and a reset button. Nothing is sent anywhere; it's purely a local, motivational summary, not a
-validated competency score.
+reasonable given the modeled criteria, alarm-troubleshooting accuracy, and clinical-case step
+accuracy, plus a rough qualitative read and a reset button. Nothing is sent anywhere; it's purely
+a local, motivational summary, not a validated competency score.
 
 **Alarm troubleshooting** — 8 randomized vignettes (kinked tube, mucus plug, bronchospasm,
 mainstem intubation, tension pneumothorax, dynamic hyperinflation/auto-PEEP, circuit
@@ -119,6 +127,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `waveforms.js` | Waveform + loop rendering, hold maneuvers, alveolar recruitment view |
 | `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
+| `cases.js` | Progressive multi-step clinical cases, evaluated against live simulator state |
 | `dashboard.js` | Session performance summary read from `window.MVSIM.stats` |
 | `styles.css` | Self-contained styling (light/dark themes) |
 
@@ -127,7 +136,6 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 Planned, not yet built — several of these need a backend, which the current static setup does not have:
 
 - AI tutor explaining each intervention in context
-- Progressive clinical cases that evolve with user management
 - Additional ventilation modes (SIMV, APRV, BiLevel, NIV, HFNC) — VC/PC/PSV are built
 - Imaging, ultrasound and ECMO physiology modules
 

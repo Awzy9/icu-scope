@@ -203,7 +203,8 @@ select:focus-visible {
 .sim-lung,
 .sim-waveforms,
 .sim-weaning,
-.sim-alarms {
+.sim-alarms,
+.sim-cases {
   grid-column: 1 / -1;
 }
 
@@ -225,7 +226,7 @@ select:focus-visible {
 
 .dash-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 0.9rem;
   margin: 1rem 0 0.5rem;
 }
@@ -713,6 +714,39 @@ select:focus-visible {
 
 .alarm-feedback-good { border-color: var(--ok-accent); background: var(--surface-soft); }
 .alarm-feedback-bad { border-color: var(--danger-accent); background: var(--danger-bg); }
+
+/* ------------------------------------------------------------ Cases */
+
+.case-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.case-picker-btn {
+  text-align: left;
+}
+
+.case-runner {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+
+.case-runner h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.case-runner > p {
+  margin: 0 0 0.75rem;
+}
+
+#case-action-area {
+  margin-bottom: 0.75rem;
+}
 
 /* ---------------------------------------------------------------- Footer */
 

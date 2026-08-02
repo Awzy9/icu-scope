@@ -185,6 +185,7 @@
       settingsChecked: 0, settingsSafe: 0,
       weaningDecisions: 0, weaningReasonable: 0,
       alarmCorrect: 0, alarmTotal: 0,
+      caseStepsCorrect: 0, caseStepsTotal: 0,
     };
   }
   const stats = loadStats();
@@ -207,6 +208,11 @@
     if (correct) stats.alarmCorrect += 1;
     saveStats();
   }
+  function recordCaseStep(correct) {
+    stats.caseStepsTotal += 1;
+    if (correct) stats.caseStepsCorrect += 1;
+    saveStats();
+  }
   function resetStats() {
     Object.assign(stats, defaultStats());
     saveStats();
@@ -218,7 +224,7 @@
   // namespace rather than duplicating it.
   window.MVSIM = {
     SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant, stats,
-    recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, resetStats,
+    recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, recordCaseStep, resetStats,
   };
 
   // How much a spontaneous breath's volume is penalized by airway resistance
@@ -559,6 +565,12 @@
     if (typeof window.renderWeaning === "function") {
       window.renderWeaning(state, scenario, r, pbw);
     }
+
+    // Live snapshot for other modules (e.g. cases.js "check my settings"
+    // steps) that need to read the main panel's current configuration
+    // without simulator.js knowing anything about them.
+    window.MVSIM._lastRender = { state, scenario, r, pbw, scenarioId: els.scenario.value };
+    if (typeof window.onSimulatorRender === "function") window.onSimulatorRender();
 
     // Debounced: only tally once the user settles on a configuration,
     // rather than once per pixel of slider drag.
