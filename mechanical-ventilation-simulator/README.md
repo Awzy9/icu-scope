@@ -55,6 +55,13 @@ mirroring the real bedside maneuvers.
 **Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
 overdistended lung units that updates live with the settings.
 
+**Weaning readiness assessment** — simulates a spontaneous breathing trial (CPAP 5 / PS 7) using
+each scenario's respiratory muscle reserve and current lung mechanics to estimate spontaneous RR,
+Vt, Rapid Shallow Breathing Index (RSBI), and NIF, plus a cuff-leak toggle and an extubate/hold
+decision with feedback. Deliberately shows where RSBI alone can be misleading — e.g. the
+neuromuscular-weakness scenario can look RSBI-favorable while NIF flags inadequate strength,
+mirroring RSBI's known unreliability in neuromuscular disease.
+
 **Evidence citations** — alerts and teaching notes carry inline references (hover for detail) to:
 
 - ARDSnet ARMA trial (NEJM 2000) — low tidal volume
@@ -84,8 +91,9 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | File | Purpose |
 |---|---|
 | `index.html` | Page structure and controls |
-| `simulator.js` | Disease scenarios, physiology engine, evidence map, DOM wiring |
+| `simulator.js` | Disease scenarios, physiology engine, evidence map, DOM wiring, `window.MVSIM` shared namespace |
 | `waveforms.js` | Waveform + loop rendering, hold maneuvers, alveolar recruitment view |
+| `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
 | `styles.css` | Self-contained styling (light/dark themes) |
 
 ## Roadmap
@@ -93,7 +101,6 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 Planned, not yet built — several of these need a backend, which the current static setup does not have:
 
 - AI tutor explaining each intervention in context
-- Weaning simulator (RSBI, NIF, cuff leak, spontaneous breathing trial, extubation decision)
 - Ventilator alarm troubleshooting scenarios
 - Progressive clinical cases that evolve with user management
 - Additional ventilation modes (SIMV, PSV, APRV, BiLevel, NIV, HFNC)

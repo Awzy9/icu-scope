@@ -206,6 +206,45 @@
           </div>
         </div>
       </section>
+
+      <section class="sim-panel sim-weaning" id="weaning-panel" aria-label="Weaning readiness assessment">
+        <h2 class="sim-panel-title">🫀 Weaning readiness (simulated SBT)</h2>
+        <p class="sim-subnote">
+          Estimates a spontaneous breathing trial at CPAP 5 / PS 7 using the current scenario's respiratory
+          muscle reserve and lung mechanics — the same physiology model driving the rest of the page, not a
+          separate patient. Illustrative only: real extubation decisions weigh far more than RSBI.
+        </p>
+
+        <div class="wean-grid">
+          <div class="wean-stat">
+            <small>Spontaneous RR</small>
+            <span id="wean-rr">–</span>
+          </div>
+          <div class="wean-stat">
+            <small>Spontaneous Vt</small>
+            <span id="wean-vt">–</span>
+          </div>
+          <div class="wean-stat wean-stat-wide">
+            <small>Rapid Shallow Breathing Index (RR / Vt in L)</small>
+            <span id="wean-rsbi" class="wean-rsbi-value">–</span>
+            <p class="sim-subnote" id="wean-rsbi-label"></p>
+          </div>
+          <div class="wean-stat wean-stat-wide">
+            <small>Estimated NIF (negative inspiratory force)</small>
+            <span id="wean-nif">–</span>
+            <p class="sim-subnote" id="wean-nif-label"></p>
+          </div>
+        </div>
+
+        <p class="sim-subnote" id="wean-gas-status"></p>
+
+        <div class="wean-controls">
+          <button type="button" id="wean-leak-toggle" class="toolbar-btn" aria-pressed="true">Cuff leak: present ✓</button>
+          <button type="button" id="wean-extubate-btn" class="toolbar-btn">Extubate now</button>
+          <button type="button" id="wean-hold-btn" class="toolbar-btn">Hold / continue support</button>
+        </div>
+        <div class="wean-decision" id="wean-decision-result"></div>
+      </section>
     </div>
   </main>
 
@@ -223,5 +262,6 @@
 
   <script src="simulator.js?v=1"></script>
   <script src="waveforms.js?v=1"></script>
+  <script src="weaning.js?v=1"></script>
 </body>
 </html>

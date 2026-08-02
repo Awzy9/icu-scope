@@ -15,7 +15,7 @@
       description: "Healthy lungs, e.g. elective post-op ventilation.",
       teaching: "Lung-protective volumes (~6 mL/kg PBW) are good practice even here — there's no reason to use large tidal volumes just because the lungs are healthy.",
       crs: 50, raw: 8, shuntBase: 0.03, recruitableFrac: 0.3, deadSpaceFrac: 0.30,
-      peepOpt: 5, overdistSensitivity: 0.010, paco2Ref: 40, hco3: 24,
+      peepOpt: 5, overdistSensitivity: 0.010, paco2Ref: 40, hco3: 24, effortPressure: 12,
       defaults: { peep: 5, vtPerKg: 6, fio2: 30, ie: 2, rr: 14 },
     },
     ardsMild: {
@@ -23,7 +23,7 @@
       description: "Berlin mild ARDS: diffuse alveolar damage with recruitable shunt.",
       teaching: "Low tidal volume (6 mL/kg PBW) and moderate PEEP. Permissive hypercapnia is acceptable if pH is tolerable.",
       crs: 40, raw: 10, shuntBase: 0.20, recruitableFrac: 0.5, deadSpaceFrac: 0.40,
-      peepOpt: 9, overdistSensitivity: 0.010, paco2Ref: 42, hco3: 24,
+      peepOpt: 9, overdistSensitivity: 0.010, paco2Ref: 42, hco3: 24, effortPressure: 11,
       defaults: { peep: 8, vtPerKg: 6, fio2: 40, ie: 1.5, rr: 18 },
       evidence: ["ardsnet", "guidelines"],
     },
@@ -32,7 +32,7 @@
       description: "Berlin moderate ARDS.",
       teaching: "Titrate PEEP for oxygenation (e.g. ARDSnet tables) but watch driving pressure — keep it ≤15 cmH2O where possible. Consider prone positioning if refractory.",
       crs: 30, raw: 10, shuntBase: 0.35, recruitableFrac: 0.6, deadSpaceFrac: 0.50,
-      peepOpt: 12, overdistSensitivity: 0.009, paco2Ref: 45, hco3: 24,
+      peepOpt: 12, overdistSensitivity: 0.009, paco2Ref: 45, hco3: 24, effortPressure: 9,
       defaults: { peep: 10, vtPerKg: 6, fio2: 50, ie: 1.5, rr: 22 },
       evidence: ["ardsnet", "express", "art", "guidelines"],
     },
@@ -41,7 +41,7 @@
       description: "Berlin severe ARDS.",
       teaching: "High recruitable shunt but also high overdistension risk — titrate PEEP carefully. Consider prone positioning, neuromuscular blockade, or ECMO referral if refractory. Keep plateau <30 and driving pressure <15 cmH2O.",
       crs: 20, raw: 11, shuntBase: 0.50, recruitableFrac: 0.65, deadSpaceFrac: 0.60,
-      peepOpt: 16, overdistSensitivity: 0.008, paco2Ref: 50, hco3: 24,
+      peepOpt: 16, overdistSensitivity: 0.008, paco2Ref: 50, hco3: 24, effortPressure: 7,
       defaults: { peep: 14, vtPerKg: 6, fio2: 70, ie: 1.5, rr: 26 },
       evidence: ["ardsnet", "amato", "proseva", "art", "guidelines"],
     },
@@ -50,7 +50,7 @@
       description: "Obstructive disease with airflow limitation and air-trapping risk.",
       teaching: "Prioritize a long expiratory time (lower RR, higher I:E ratio like 1:4) and accept permissive hypercapnia to avoid auto-PEEP / breath stacking, which can cause hypotension or barotrauma. Avoid over-oxygenating chronic CO₂ retainers.",
       crs: 60, raw: 28, shuntBase: 0.10, recruitableFrac: 0.10, deadSpaceFrac: 0.35,
-      peepOpt: 5, overdistSensitivity: 0.020, paco2Ref: 55, hco3: 30,
+      peepOpt: 5, overdistSensitivity: 0.020, paco2Ref: 55, hco3: 30, effortPressure: 8,
       defaults: { peep: 5, vtPerKg: 7, fio2: 28, ie: 4, rr: 12 },
     },
     edema: {
@@ -58,7 +58,7 @@
       description: "Fluid-filled, partly recruitable alveoli from elevated hydrostatic pressure.",
       teaching: "PEEP helps by recruiting fluid-filled alveoli and reducing preload/afterload. Watch for hemodynamic effects of high PEEP in preload-dependent patients.",
       crs: 35, raw: 9, shuntBase: 0.25, recruitableFrac: 0.5, deadSpaceFrac: 0.35,
-      peepOpt: 9, overdistSensitivity: 0.011, paco2Ref: 42, hco3: 24,
+      peepOpt: 9, overdistSensitivity: 0.011, paco2Ref: 42, hco3: 24, effortPressure: 10,
       defaults: { peep: 8, vtPerKg: 6, fio2: 40, ie: 2, rr: 18 },
     },
     pneumonia: {
@@ -66,7 +66,7 @@
       description: "Lobar or multifocal consolidation.",
       teaching: "Consolidated lung is largely non-recruitable — expect a limited response to PEEP. Focus on treating the underlying infection rather than chasing PEEP for oxygenation.",
       crs: 30, raw: 10, shuntBase: 0.30, recruitableFrac: 0.20, deadSpaceFrac: 0.40,
-      peepOpt: 8, overdistSensitivity: 0.010, paco2Ref: 44, hco3: 24,
+      peepOpt: 8, overdistSensitivity: 0.010, paco2Ref: 44, hco3: 24, effortPressure: 9,
       defaults: { peep: 8, vtPerKg: 6, fio2: 50, ie: 2, rr: 20 },
     },
     fibrosis: {
@@ -74,7 +74,7 @@
       description: "Very stiff, low-compliance lungs.",
       teaching: "Driving pressure rises quickly with even modest tidal volumes. Use lower tidal volumes; PEEP has limited recruitment benefit and raises plateau pressure fast.",
       crs: 20, raw: 8, shuntBase: 0.15, recruitableFrac: 0.20, deadSpaceFrac: 0.45,
-      peepOpt: 6, overdistSensitivity: 0.016, paco2Ref: 38, hco3: 24,
+      peepOpt: 6, overdistSensitivity: 0.016, paco2Ref: 38, hco3: 24, effortPressure: 10,
       defaults: { peep: 6, vtPerKg: 6, fio2: 40, ie: 1.5, rr: 22 },
     },
     neuromuscular: {
@@ -82,7 +82,7 @@
       description: "Normal lungs, failing respiratory pump.",
       teaching: "The lungs themselves are normal — the problem is the respiratory pump. Gas exchange settings can stay near-normal; focus is on adequate support/synchrony and monitoring for weaning readiness.",
       crs: 50, raw: 8, shuntBase: 0.03, recruitableFrac: 0.3, deadSpaceFrac: 0.30,
-      peepOpt: 5, overdistSensitivity: 0.010, paco2Ref: 45, hco3: 24,
+      peepOpt: 5, overdistSensitivity: 0.010, paco2Ref: 45, hco3: 24, effortPressure: 4,
       defaults: { peep: 5, vtPerKg: 7, fio2: 25, ie: 2, rr: 16 },
     },
     obesity: {
@@ -90,7 +90,7 @@
       description: "Reduced chest-wall/abdominal compliance causing basal atelectasis.",
       teaching: "Higher PEEP is often needed to counteract chest-wall/abdominal weight and recruit dependent lung. In practice, reverse Trendelenburg positioning helps too.",
       crs: 30, raw: 10, shuntBase: 0.15, recruitableFrac: 0.4, deadSpaceFrac: 0.35,
-      peepOpt: 10, overdistSensitivity: 0.012, paco2Ref: 46, hco3: 25, cvSensitivity: 1.0,
+      peepOpt: 10, overdistSensitivity: 0.012, paco2Ref: 46, hco3: 25, cvSensitivity: 1.0, effortPressure: 9,
       defaults: { peep: 10, vtPerKg: 6, fio2: 40, ie: 2, rr: 18 },
     },
     covidArds: {
@@ -98,7 +98,7 @@
       description: "Viral ARDS — often a spectrum from relatively preserved compliance with severe hypoxemia ('L-type') to a more classic low-compliance picture ('H-type').",
       teaching: "Manage per the same ARDSnet low-Vt / PEEP-titration framework as other ARDS — phenotype doesn't change the lung-protective targets. \"Silent hypoxemia\" (low SpO₂ with limited dyspnea) can precede rapid deterioration; falling P/F or rising respiratory effort on HFNC/NIV are cues to consider intubation before a crash, since vigorous spontaneous effort at low lung volumes risks patient self-inflicted lung injury (P-SILI).",
       crs: 32, raw: 10, shuntBase: 0.32, recruitableFrac: 0.45, deadSpaceFrac: 0.48,
-      peepOpt: 11, overdistSensitivity: 0.010, paco2Ref: 44, hco3: 24, cvSensitivity: 1.0,
+      peepOpt: 11, overdistSensitivity: 0.010, paco2Ref: 44, hco3: 24, cvSensitivity: 1.0, effortPressure: 9,
       defaults: { peep: 10, vtPerKg: 6, fio2: 60, ie: 1.5, rr: 24 },
       evidence: ["ardsnet", "guidelines"],
     },
@@ -107,7 +107,7 @@
       description: "Acute right-ventricular strain with a large obstructed, non-perfused (dead space) region rather than a primarily shunt-type problem.",
       teaching: "Hypoxemia here is mostly V/Q mismatch and low mixed venous saturation from a falling cardiac output — not alveolar collapse — so PEEP does little for oxygenation and raises RV afterload further. Keep tidal volumes modest, avoid hyperinflation/high PEEP, and avoid hypercapnia/acidosis, both of which raise pulmonary vascular resistance and worsen RV strain. Definitive treatment is anticoagulation/thrombolysis/embolectomy, not the ventilator.",
       crs: 45, raw: 9, shuntBase: 0.08, recruitableFrac: 0.1, deadSpaceFrac: 0.55,
-      peepOpt: 5, overdistSensitivity: 0.014, paco2Ref: 32, hco3: 22, cvSensitivity: 2.2,
+      peepOpt: 5, overdistSensitivity: 0.014, paco2Ref: 32, hco3: 22, cvSensitivity: 2.2, effortPressure: 11,
       defaults: { peep: 5, vtPerKg: 6, fio2: 50, ie: 2, rr: 20 },
     },
     traumaFlail: {
@@ -115,7 +115,7 @@
       description: "Pain-limited splinting plus an unstable chest wall segment, often with underlying pulmonary contusion.",
       teaching: "The restrictive picture is often partly reversible with adequate analgesia (including regional techniques) that lets the patient breathe/cough effectively. Positive pressure can worsen an occult pneumothorax in trauma — have a low threshold for imaging and a chest tube ready. Contused lung behaves like a non-recruitable consolidation, similar to pneumonia.",
       crs: 25, raw: 10, shuntBase: 0.22, recruitableFrac: 0.25, deadSpaceFrac: 0.40,
-      peepOpt: 7, overdistSensitivity: 0.014, paco2Ref: 44, hco3: 24, cvSensitivity: 1.0,
+      peepOpt: 7, overdistSensitivity: 0.014, paco2Ref: 44, hco3: 24, cvSensitivity: 1.0, effortPressure: 6,
       defaults: { peep: 6, vtPerKg: 6, fio2: 45, ie: 1.5, rr: 20 },
     },
     pneumothorax: {
@@ -123,7 +123,7 @@
       description: "Air in the pleural space collapsing the underlying lung — a mechanical problem, not a gas-exchange one.",
       teaching: "No ventilator setting fixes an undrained pneumothorax, and positive pressure can convert it to a tension pneumothorax with sudden hemodynamic collapse. This scenario exists to make the point: the numbers below describe the mechanics of the remaining aerated lung, but the actual fix is a chest tube or needle decompression, not PEEP or FiO₂.",
       crs: 22, raw: 9, shuntBase: 0.35, recruitableFrac: 0.05, deadSpaceFrac: 0.35,
-      peepOpt: 5, overdistSensitivity: 0.020, paco2Ref: 46, hco3: 24, cvSensitivity: 2.0,
+      peepOpt: 5, overdistSensitivity: 0.020, paco2Ref: 46, hco3: 24, cvSensitivity: 2.0, effortPressure: 9,
       defaults: { peep: 5, vtPerKg: 6, fio2: 50, ie: 2, rr: 20 },
     },
     bpf: {
@@ -131,7 +131,7 @@
       description: "A communication between the airway and pleural space — a substantial fraction of every delivered breath escapes through a chest tube instead of ventilating the lung.",
       teaching: "Exhaled tidal volume at the ventilator is lower than delivered volume because of the leak — trust the chest-tube air-leak assessment over displayed volumes. Use the lowest pressures/PEEP and shortest inspiratory time tolerable to minimize flow across the fistula, and accept permissive hypercapnia; the \"effective\" dead space below already reflects volume lost to the leak rather than gas exchange.",
       crs: 28, raw: 11, shuntBase: 0.18, recruitableFrac: 0.15, deadSpaceFrac: 0.30,
-      peepOpt: 6, overdistSensitivity: 0.012, paco2Ref: 42, hco3: 24, cvSensitivity: 1.0, leakFrac: 0.30,
+      peepOpt: 6, overdistSensitivity: 0.012, paco2Ref: 42, hco3: 24, cvSensitivity: 1.0, leakFrac: 0.30, effortPressure: 10,
       defaults: { peep: 5, vtPerKg: 6, fio2: 40, ie: 2, rr: 18 },
     },
   };
@@ -154,6 +154,22 @@
     const base = sex === "female" ? 45.5 : 50;
     return Math.max(20, base + 0.905 * (heightCm - 152.4));
   }
+
+  // CO2-production constant for a scenario, calibrated against a reference
+  // "typical" ventilation setting. PaCO2 = co2Constant(scenario) / current
+  // alveolar minute ventilation (L/min). Shared by the main engine and the
+  // spontaneous-breathing-trial estimate in weaning.js.
+  function co2Constant(scenario) {
+    const refVt = 420, refRr = 16;
+    const refVa = refVt * (1 - scenario.deadSpaceFrac);
+    const refAlveolarMV = (refVa * refRr) / 1000;
+    return scenario.paco2Ref * refAlveolarMV;
+  }
+
+  // Shared with waveforms.js / weaning.js, which run as separate <script>
+  // tags and read scenario data + helpers off this namespace rather than
+  // duplicating it.
+  window.MVSIM = { SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant };
 
   // Core physiology model. All pressures in cmH2O, volumes in mL, flows in L/s,
   // gas partial pressures in mmHg. Simplified for teaching, not clinical use.
@@ -204,11 +220,7 @@
 
     // CO2 tied inversely to alveolar minute ventilation via a scenario-derived
     // constant, calibrated at a reference "typical" setting for that scenario.
-    const refVt = 420, refRr = 16;
-    const refVa = refVt * (1 - scenario.deadSpaceFrac);
-    const refAlveolarMV = (refVa * refRr) / 1000;
-    const co2Constant = scenario.paco2Ref * refAlveolarMV;
-    const paco2 = clamp(co2Constant / alveolarMinuteVentilation, 15, 130);
+    const paco2 = clamp(co2Constant(scenario) / alveolarMinuteVentilation, 15, 130);
 
     const pao2Alveolar = fio2Frac * (760 - 47) - paco2 / 0.8;
     let pao2 = pao2Alveolar - effectiveShunt * (pao2Alveolar - pvo2);
@@ -416,6 +428,9 @@
 
     renderWaveforms(state, scenario, r);
     renderLung(scenario, r);
+    if (typeof window.renderWeaning === "function") {
+      window.renderWeaning(state, scenario, r, pbw);
+    }
   }
 
   function initTheme() {
