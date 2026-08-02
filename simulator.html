@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mechanical Ventilation Simulator — ICU Scope</title>
+  <meta name="description" content="Adjust PEEP, tidal volume, FiO2, I:E ratio, and respiratory rate to see predicted effects on oxygenation, CO2, plateau pressure, and driving pressure across common ICU disease scenarios." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="stylesheet" href="style.css?v=28" />
+  <link rel="stylesheet" href="simulator.css?v=1" />
+  <script>
+    (function () {
+      var saved = localStorage.getItem("icu-scope-theme");
+      if (saved === "light" || saved === "dark") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-text">
+        <div class="brand">
+          <svg class="brand-icon" viewBox="0 0 32 32" aria-hidden="true">
+            <path d="M4 17 H10 L13 9 L18 24 L21 14 L23 17 H28"
+                  fill="none" stroke="currentColor" stroke-width="2.6"
+                  stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span class="brand-mark">ICU</span>
+          <span class="brand-name">Scope</span>
+        </div>
+        <p class="tagline">🫁 Mechanical Ventilation Simulator</p>
+        <p class="sim-back"><a href="index.html">← Back to literature feed</a></p>
+      </div>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="sim-disclaimer">
+    ⚠️ <strong>Educational tool only — not for clinical decision-making.</strong>
+    Physiology relationships are simplified for teaching and do not model any real patient.
+    Never use this to guide actual ventilator settings.
+  </div>
+
+  <main class="content sim-content" id="content">
+    <div class="sim-layout">
+      <section class="sim-panel sim-controls" aria-label="Ventilator settings">
+        <h2 class="sim-panel-title">Scenario &amp; settings</h2>
+
+        <div class="control-block">
+          <label for="scenario">Disease scenario</label>
+          <select id="scenario" class="sim-select"></select>
+          <p class="sim-scenario-desc" id="scenario-desc"></p>
+        </div>
+
+        <div class="control-block sim-patient-row">
+          <div>
+            <label for="sex">Sex</label>
+            <select id="sex" class="sim-select">
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <div>
+            <label for="height">Height <span class="control-unit" id="height-out-unit">170 cm</span></label>
+            <input type="range" id="height" min="140" max="200" step="1" value="170" />
+          </div>
+          <div class="sim-pbw">Predicted body weight: <strong id="pbw-out">–</strong></div>
+        </div>
+
+        <div class="control-block">
+          <label for="peep">PEEP <output id="peep-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <input type="range" id="peep" min="0" max="24" step="1" value="5" />
+        </div>
+
+        <div class="control-block">
+          <label for="vt">Tidal volume <output id="vt-out"></output> <span class="control-unit">mL</span></label>
+          <input type="range" id="vt" min="200" max="700" step="10" value="420" />
+          <p class="sim-subnote" id="vt-per-kg"></p>
+        </div>
+
+        <div class="control-block">
+          <label for="fio2">FiO₂ <output id="fio2-out"></output> <span class="control-unit">%</span></label>
+          <input type="range" id="fio2" min="21" max="100" step="1" value="40" />
+        </div>
+
+        <div class="control-block">
+          <label for="ie">I:E ratio <output id="ie-out"></output></label>
+          <input type="range" id="ie" min="0.3" max="5" step="0.1" value="2" />
+        </div>
+
+        <div class="control-block">
+          <label for="rr">Respiratory rate <output id="rr-out"></output> <span class="control-unit">/min</span></label>
+          <input type="range" id="rr" min="5" max="40" step="1" value="16" />
+        </div>
+
+        <details class="sim-advanced">
+          <summary>Advanced: bicarbonate (for pH estimate)</summary>
+          <div class="control-block">
+            <label for="hco3">HCO₃⁻ <output id="hco3-out"></output> <span class="control-unit">mEq/L</span></label>
+            <input type="range" id="hco3" min="15" max="40" step="1" value="24" />
+          </div>
+        </details>
+
+        <button type="button" id="reset-btn" class="toolbar-btn sim-reset-btn">↺ Reset to scenario defaults</button>
+      </section>
+
+      <section class="sim-panel sim-results" aria-label="Predicted effects">
+        <h2 class="sim-panel-title">Predicted effects</h2>
+
+        <div class="sim-result-grid">
+          <div class="sim-result-card">
+            <h3>🫀 Oxygenation</h3>
+            <div class="sim-result-values">
+              <div><span id="res-pao2">–</span><small>PaO₂</small></div>
+              <div><span id="res-spo2">–</span><small>SpO₂</small></div>
+              <div><span id="res-pf">–</span><small>P/F ratio</small></div>
+            </div>
+            <div class="gauge"><div class="gauge-fill" id="res-pf-bar"></div></div>
+          </div>
+
+          <div class="sim-result-card">
+            <h3>💨 CO₂ / ventilation</h3>
+            <div class="sim-result-values">
+              <div><span id="res-paco2">–</span><small>PaCO₂</small></div>
+              <div><span id="res-ph">–</span><small>pH (est.)</small></div>
+            </div>
+            <p class="sim-subnote">Minute ventilation <span id="res-mv">–</span> · Alveolar minute ventilation <span id="res-vamv">–</span></p>
+          </div>
+
+          <div class="sim-result-card">
+            <h3>📈 Plateau pressure</h3>
+            <div class="sim-result-values"><div><span id="res-plateau">–</span></div></div>
+            <div class="gauge"><div class="gauge-fill" id="res-plateau-bar"></div></div>
+            <p class="sim-subnote">Target &lt; 30 cmH₂O</p>
+          </div>
+
+          <div class="sim-result-card">
+            <h3>📊 Driving pressure</h3>
+            <div class="sim-result-values"><div><span id="res-driving">–</span></div></div>
+            <div class="gauge"><div class="gauge-fill" id="res-driving-bar"></div></div>
+            <p class="sim-subnote">Target &lt; 15 cmH₂O</p>
+          </div>
+        </div>
+
+        <div class="sim-secondary">
+          <div><small>Peak pressure</small><span id="res-peak">–</span></div>
+          <div><small>Mean airway pressure</small><span id="res-map">–</span></div>
+          <div><small>Auto-PEEP</small><span id="res-autopeep">–</span></div>
+          <div><small>Total PEEP</small><span id="res-totalpeep">–</span></div>
+        </div>
+
+        <div class="sim-teaching-box">
+          <p id="scenario-teaching"></p>
+          <div class="evidence-row" id="scenario-evidence"></div>
+        </div>
+
+        <div class="sim-warnings">
+          <h3>Alerts</h3>
+          <ul id="warnings-list" class="warnings-list"></ul>
+        </div>
+      </section>
+
+      <section class="sim-panel sim-lung" aria-label="Alveolar recruitment">
+        <h2 class="sim-panel-title">🫁 Alveolar recruitment (illustrative)</h2>
+        <svg id="lung-svg" class="lung-svg" role="img" aria-label="Grid of alveoli colored by collapsed, normal, or overdistended status"></svg>
+        <div class="lung-legend">
+          <span><i class="legend-dot legend-collapsed"></i> Collapsed / shunt</span>
+          <span><i class="legend-dot legend-normal"></i> Normally aerated</span>
+          <span><i class="legend-dot legend-overdist"></i> Overdistended</span>
+        </div>
+      </section>
+
+      <section class="sim-panel sim-waveforms" aria-label="Ventilator waveforms">
+        <h2 class="sim-panel-title">📉 Waveforms (one breath cycle)</h2>
+        <div class="wave-controls">
+          <button type="button" id="insp-hold-btn" class="toolbar-btn" aria-pressed="false">⏸ Inspiratory hold (show P<sub>plat</sub>)</button>
+          <button type="button" id="exp-hold-btn" class="toolbar-btn" aria-pressed="false">⏸ Expiratory hold (show auto-PEEP)</button>
+        </div>
+        <p class="sim-subnote" id="hold-readout"></p>
+        <div class="wave-canvas-row">
+          <div class="wave-canvas-wrap">
+            <span class="wave-label">Pressure (cmH₂O)</span>
+            <canvas id="wave-pressure" height="110"></canvas>
+          </div>
+          <div class="wave-canvas-wrap">
+            <span class="wave-label">Flow (L/min)</span>
+            <canvas id="wave-flow" height="110"></canvas>
+          </div>
+          <div class="wave-canvas-wrap">
+            <span class="wave-label">Volume (mL)</span>
+            <canvas id="wave-volume" height="110"></canvas>
+          </div>
+        </div>
+        <div class="loop-canvas-row">
+          <div class="wave-canvas-wrap">
+            <span class="wave-label">Pressure–Volume loop</span>
+            <canvas id="loop-pv" height="180"></canvas>
+          </div>
+          <div class="wave-canvas-wrap">
+            <span class="wave-label">Flow–Volume loop</span>
+            <canvas id="loop-fv" height="180"></canvas>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Simplified physiology model for teaching purposes — not validated for clinical use.
+      Alerts and scenario notes are anchored to major society guidance (ATS/ESICM/SCCM, Surviving Sepsis Campaign)
+      and landmark trials (ARDSnet, Amato 2015, PROSEVA, EXPRESS, ART, HOT-ICU/LOCO2) where cited inline —
+      always verify against the primary literature before drawing clinical conclusions.
+      Part of <a href="index.html">ICU Scope</a>, an open-source ICU literature &amp; education site.
+    </p>
+  </footer>
+
+  <script src="simulator.js?v=1"></script>
+  <script src="waveforms.js?v=1"></script>
+</body>
+</html>

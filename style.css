@@ -673,6 +673,12 @@ select:focus-visible {
   border-color: var(--accent-strong);
 }
 
+.sim-nav-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 /* Layout density: Comfortable (default, no attribute) / Compact (tighter
    spacing, ~15-20% less padding) / Ultra Compact (tightest, plus hides
    the AI summary/abstract/tags for fast title-only scanning on rounds). */
