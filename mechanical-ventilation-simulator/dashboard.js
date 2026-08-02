@@ -28,6 +28,7 @@
     const weanPct = pct(s.weaningReasonable, s.weaningDecisions);
     const alarmPct = pct(s.alarmCorrect, s.alarmTotal);
     const casePct = pct(s.caseStepsCorrect, s.caseStepsTotal);
+    const eventPct = pct(s.eventCorrect, s.eventTotal);
 
     document.getElementById("dash-settings-value").textContent = safePct === null ? "–" : `${safePct}%`;
     document.getElementById("dash-settings-sub").textContent = s.settingsChecked === 0
@@ -53,7 +54,13 @@
       : `${s.caseStepsCorrect} / ${s.caseStepsTotal} case steps correct`;
     fillBar("dash-cases-bar", casePct);
 
-    const attempted = [safePct, weanPct, alarmPct, casePct].filter((v) => v !== null);
+    document.getElementById("dash-events-value").textContent = eventPct === null ? "–" : `${eventPct}%`;
+    document.getElementById("dash-events-sub").textContent = s.eventTotal === 0
+      ? "No unexpected events triggered yet."
+      : `${s.eventCorrect} / ${s.eventTotal} recognized and managed correctly`;
+    fillBar("dash-events-bar", eventPct);
+
+    const attempted = [safePct, weanPct, alarmPct, casePct, eventPct].filter((v) => v !== null);
     const overall = document.getElementById("dash-overall");
     if (attempted.length === 0) {
       overall.textContent = "Explore the simulator, weaning assessment, and alarm scenarios above to build a session summary.";

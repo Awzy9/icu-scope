@@ -63,8 +63,14 @@
     // Labs drift with the clinical course, not just this instant — pass the
     // current severityMultiplier so what's shown here matches the same
     // trajectory the course panel and lab-trends sparklines are tracking.
+    // An active unexpected event (events.js) layers its own direct
+    // hemodynamic/temperature shock on top, same as it does for the engine.
     const prog = M.getProgression ? M.getProgression() : null;
-    const v = M.deriveVitals(scenario, r, state.norad, prog ? prog.severityMultiplier : 1);
+    const activeEvent = M.getActiveEvent ? M.getActiveEvent() : null;
+    const v = M.deriveVitals(
+      scenario, r, state.norad, prog ? prog.severityMultiplier : 1,
+      activeEvent && activeEvent.vitals
+    );
 
     // ---- Identity strip -------------------------------------------------
     el("pt-diagnosis").textContent = v.diagnosis;

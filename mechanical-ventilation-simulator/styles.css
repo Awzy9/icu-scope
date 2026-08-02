@@ -260,7 +260,8 @@ html[data-difficulty="consultant"] .gated-note {
 .sim-cxr,
 .sim-explain,
 .sim-course,
-.sim-labtrends {
+.sim-labtrends,
+.sim-events {
   grid-column: 1 / -1;
 }
 
@@ -992,6 +993,27 @@ html[data-difficulty="consultant"] .gated-note {
   width: 100%;
   display: block;
   height: 56px;
+}
+
+/* --------------------------------------------------- Unexpected events */
+
+.sim-events { border-left: 4px solid var(--danger-accent); }
+
+.event-trigger-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0.75rem 0;
+}
+
+.event-trigger-row .sim-select {
+  flex: 1 1 220px;
+  min-width: 0;
+}
+
+.event-active {
+  margin-top: 0.5rem;
 }
 
 /* -------------------------------------------------- Collapsible panels */

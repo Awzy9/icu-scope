@@ -394,8 +394,26 @@
   // ---------------------------------------------------------------------
   let progression = { elapsedHours: 0, severityMultiplier: 1, history: [] };
 
+  // A single unexpected complication, if any, currently perturbing the
+  // physiology on top of whatever the clinical course has already drifted.
+  // Set by events.js via setActiveEvent()/clearActiveEvent() — this module
+  // only knows how to apply the generic {engine, vitals} deltas it's handed,
+  // not what a "tension pneumothorax" is; events.js owns all of that meaning.
+  let activeEvent = null;
+
   function resetProgression() {
     progression = { elapsedHours: 0, severityMultiplier: 1, history: [] };
+    activeEvent = null;
+  }
+
+  function setActiveEvent(ev) {
+    activeEvent = ev;
+    render();
+  }
+
+  function clearActiveEvent() {
+    activeEvent = null;
+    render();
   }
 
   // Distinct from resetProgression() above: THIS is what the course panel's
@@ -415,12 +433,32 @@
   // to be describing the drifted state.
   function computeEffectiveScenario(scenario) {
     const m = progression.severityMultiplier;
-    if (m === 1) return scenario;
-    return Object.assign({}, scenario, {
-      shuntBase: clamp(scenario.shuntBase * m, 0.02, 0.92),
-      crs: clamp(scenario.crs / m, 8, 85),
-      deadSpaceFrac: clamp(scenario.deadSpaceFrac * (0.82 + 0.18 * m), 0.15, 0.92),
-    });
+    let s = scenario;
+    if (m !== 1) {
+      s = Object.assign({}, s, {
+        shuntBase: clamp(s.shuntBase * m, 0.02, 0.92),
+        crs: clamp(s.crs / m, 8, 85),
+        deadSpaceFrac: clamp(s.deadSpaceFrac * (0.82 + 0.18 * m), 0.15, 0.92),
+      });
+    }
+    // An unexpected event is layered on TOP of the course drift above, using
+    // the same additive/multiplicative deltas events.js hands to
+    // setActiveEvent() — this function has no idea what the event "is",
+    // only how to perturb shuntBase/crs/raw/deadSpaceFrac/leakFrac/
+    // cvSensitivity/pvo2Base the same way it already does for course drift.
+    const e = activeEvent && activeEvent.engine;
+    if (e) {
+      s = Object.assign({}, s, {
+        shuntBase: clamp((s.shuntBase + (e.shuntAdd || 0)) * (e.shuntMult || 1), 0.02, 0.95),
+        crs: clamp(s.crs * (e.crsMult || 1), 6, 85),
+        raw: clamp(s.raw * (e.rawMult || 1), 3, 60),
+        deadSpaceFrac: clamp(s.deadSpaceFrac + (e.deadSpaceAdd || 0), 0.1, 0.95),
+        leakFrac: clamp((s.leakFrac || 0) + (e.leakFracAdd || 0), 0, 0.85),
+        cvSensitivity: (s.cvSensitivity || 1) * (e.cvSensitivityMult || 1),
+        pvo2Base: clamp((s.pvo2Base || 40) - (e.pvo2BaseSub || 0), 15, 50),
+      });
+    }
+    return s;
   }
 
   // Scores the settings CURRENTLY in effect, mode-agnostically, using
@@ -472,7 +510,10 @@
   // in the course: the point-in-time physiology plus the derived labs, at
   // whatever severityMultiplier was in effect when it was taken.
   function courseSnapshot(t, quality, state, scenario, r, ibw) {
-    const vitals = deriveVitals(scenario, r, state.norad, progression.severityMultiplier);
+    const vitals = deriveVitals(
+      scenario, r, state.norad, progression.severityMultiplier,
+      activeEvent && activeEvent.vitals
+    );
     return {
       t, quality, severity: progression.severityMultiplier,
       pf: r.pfRatio, ph: r.ph, pao2: r.pao2, paco2: r.paco2,
@@ -539,6 +580,7 @@
       weaningDecisions: 0, weaningReasonable: 0,
       alarmCorrect: 0, alarmTotal: 0,
       caseStepsCorrect: 0, caseStepsTotal: 0,
+      eventCorrect: 0, eventTotal: 0,
     };
   }
   const stats = loadStats();
@@ -566,6 +608,11 @@
     if (correct) stats.caseStepsCorrect += 1;
     saveStats();
   }
+  function recordEventAttempt(correct) {
+    stats.eventTotal += 1;
+    if (correct) stats.eventCorrect += 1;
+    saveStats();
+  }
   function resetStats() {
     Object.assign(stats, defaultStats());
     saveStats();
@@ -579,7 +626,9 @@
     SCENARIOS, EVIDENCE, clamp, computeIBW, co2Constant, stats,
     resistancePenalty, spontaneousVt, deriveVitals,
     recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, recordCaseStep, resetStats,
+    recordEventAttempt,
     computeEffectiveScenario, getProgression: () => progression, advanceTime, resetCourse,
+    getActiveEvent: () => activeEvent, setActiveEvent, clearActiveEvent,
     rerender: () => render(),
   };
 
@@ -930,7 +979,7 @@
   // props the MAP back up WITHOUT removing the cause, which is exactly the
   // trap this panel is meant to make visible.
   // ---------------------------------------------------------------------
-  function deriveVitals(scenario, results, noradrenaline, severityMultiplier) {
+  function deriveVitals(scenario, results, noradrenaline, severityMultiplier, eventVitals) {
     const c = scenario.clinical;
     const dose = noradrenaline != null ? noradrenaline : c.noradrenaline;
     const sevM = severityMultiplier != null ? severityMultiplier : 1;
@@ -939,10 +988,10 @@
     const ventPenalty = results.hemodynamicImpact * 0.45;
     // Noradrenaline response saturates — you cannot dose your way out.
     const pressorSupport = Math.min(dose * 105, 26);
-    const map = clamp(c.baseMAP - ventPenalty + pressorSupport, 25, 130);
+    let map = clamp(c.baseMAP - ventPenalty + pressorSupport, 25, 130);
 
     // Tachycardia from hypoxemia, acidemia and hypotension.
-    const hr = clamp(
+    let hr = clamp(
       c.baseHR
         + Math.max(0, 92 - results.spo2) * 1.6
         + Math.max(0, 7.30 - results.ph) * 90
@@ -950,6 +999,16 @@
         - Math.max(0, map - 85) * 0.25,
       45, 175
     );
+
+    // An active unexpected event (events.js) can carry a direct hemodynamic
+    // shock the pulmonary mechanics above don't otherwise produce — septic
+    // shock's vasoplegia, or a straightforward arrhythmia/bleed, aren't
+    // mediated by airway pressure at all. Applied after the physiology-driven
+    // component so it's a genuine ADDITION on top, not a replacement of it.
+    if (eventVitals) {
+      map = clamp(map - (eventVitals.mapSub || 0), 25, 130);
+      hr = clamp(hr + (eventVitals.hrAdd || 0), 45, 190);
+    }
 
     // Renal perfusion falls off steeply below a MAP of about 65.
     const urineOutput = Math.max(0, c.urineOutput * clamp((map - 45) / 25, 0, 1.25));
@@ -997,7 +1056,8 @@
     return {
       map, hr, urineOutput, lactate, baseExcess, noradrenaline: dose,
       ventPenalty, pressorSupport,
-      temp: c.temp, hb: c.hb, wbc, creatinine, platelets: c.platelets,
+      temp: c.temp + (eventVitals && eventVitals.tempAdd ? eventVitals.tempAdd : 0),
+      hb: c.hb, wbc, creatinine, platelets: c.platelets,
       bun, sodium, potassium, chloride,
       icuDay: c.icuDay, rass: c.rass, diagnosis: c.diagnosis,
     };
@@ -1497,6 +1557,9 @@
     }
     if (typeof window.renderLabTrends === "function") {
       window.renderLabTrends();
+    }
+    if (typeof window.renderEvents === "function") {
+      window.renderEvents(state, scenario, r, ibw);
     }
 
     // Live snapshot for other modules (e.g. cases.js "check my settings"

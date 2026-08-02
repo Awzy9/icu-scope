@@ -204,9 +204,27 @@ rising dead space and a falling PaO₂.
 
 **Session dashboard** — a persistent (localStorage) summary tying the other sections together:
 what fraction of explored settings had no danger-level alerts, how many weaning decisions were
-reasonable given the modeled criteria, alarm-troubleshooting accuracy, and clinical-case step
-accuracy, plus a rough qualitative read and a reset button. Nothing is sent anywhere; it's purely
-a local, motivational summary, not a validated competency score.
+reasonable given the modeled criteria, alarm-troubleshooting accuracy, clinical-case step accuracy,
+and unexpected-event recognition/management accuracy, plus a rough qualitative read and a reset
+button. Nothing is sent anywhere; it's purely a local, motivational summary, not a validated
+competency score.
+
+**Unexpected ICU events** — 8 complications (tension pneumothorax, acute pulmonary embolism,
+bronchospasm, new large pleural effusion, ventilator-associated pneumonia, septic shock, accidental
+extubation/major cuff rupture, sudden hemodynamic collapse) that become part of the *live*
+simulation rather than a framed vignette. Triggering one perturbs the actual physiology engine
+through the same `computeEffectiveScenario` injection point clinical-course drift already uses, so
+the monitor, waveforms, CXR, ultrasound and lab trends all reflect it in real time — an active
+tension pneumothorax visibly desaturates the patient and collapses plateau pressure, not just a text
+box saying so. A two-step recognition-then-management format (what's going on, then what do you do)
+mirrors alarm troubleshooting, but only the *correct* management action clears the derangement from
+the live physiology; a wrong pick leaves it in place, the honest bedside consequence of a wrong call
+rather than a puzzle to keep blindly guessing at. Deliberately distinct from the alarm-troubleshooting
+module below: that one is discrete, hand-specified, decoupled vignettes for practicing pattern
+recognition in isolation; this one is a continuous complication layered onto whatever scenario and
+settings are already live, so the same event reads differently in a fragile ARDS lung than in a
+healthy one. A random-draw option respects mode plausibility (e.g. accidental extubation won't be
+drawn at random on a non-invasive patient) while an explicit pick always honors the learner's choice.
 
 **Alarm troubleshooting** — 8 randomized vignettes (kinked tube, mucus plug, bronchospasm,
 mainstem intubation, tension pneumothorax, dynamic hyperinflation/auto-PEEP, circuit
@@ -266,6 +284,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `waveforms.js` | Waveform + loop rendering, hold maneuvers, alveolar recruitment view |
 | `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
+| `events.js` | 8 unexpected ICU complications, live-engine-integrated via `computeEffectiveScenario` |
 | `patient.js` | Living virtual patient: monitor, ABG, labs, engine-derived vitals |
 | `explain.js` | Mechanism / benefit / risk / evidence breakdown from measured deltas |
 | `progression.js` | Clinical course: time advance, sparkline, course log |

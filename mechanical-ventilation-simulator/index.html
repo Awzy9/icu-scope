@@ -133,6 +133,12 @@
           <div class="gauge"><div class="gauge-fill" id="dash-cases-bar"></div></div>
           <p class="sim-subnote" id="dash-cases-sub"></p>
         </div>
+        <div class="dash-metric">
+          <small>Unexpected events</small>
+          <span id="dash-events-value">–</span>
+          <div class="gauge"><div class="gauge-fill" id="dash-events-bar"></div></div>
+          <p class="sim-subnote" id="dash-events-sub"></p>
+        </div>
       </div>
       <p class="sim-subnote">Saved locally in your browser (not sent anywhere); resets if you clear site data or click Reset.</p>
     </section>
@@ -446,6 +452,44 @@
         </div>
       </section>
 
+      <section class="sim-panel sim-events" id="events-panel" aria-label="Unexpected ICU events">
+        <h2 class="sim-panel-title">🚨 Unexpected ICU events</h2>
+        <p class="sim-subnote">
+          Real ICU management isn't only about dialing in settings — patients decompensate. Trigger a
+          complication below and it becomes part of the live simulation: the monitor, waveforms, CXR,
+          ultrasound and labs all reflect it until you correctly recognize and manage it.
+        </p>
+        <div class="event-trigger-row">
+          <select id="event-picker" class="sim-select">
+            <option value="random">🎲 Random complication</option>
+          </select>
+          <button type="button" class="toolbar-btn" id="event-trigger-btn">Trigger event</button>
+          <span class="sim-subnote" id="event-score">0 / 0 correct this session</span>
+        </div>
+
+        <p class="sim-subnote" id="event-idle-note">No active complication right now — pick one above
+          (or leave it on Random) and click Trigger to practice recognizing and managing it.</p>
+
+        <div class="event-active" id="event-active" hidden>
+          <div class="alarm-case-header">
+            <span class="alarm-category-tag" id="event-category"></span>
+          </div>
+          <p class="alarm-vignette" id="event-label"></p>
+          <p class="sim-subnote" id="event-vignette"></p>
+          <p class="sim-subnote" id="event-monitor"></p>
+
+          <div class="alarm-step">
+            <h3>1. What's going on?</h3>
+            <div class="alarm-options" id="event-differentials"></div>
+          </div>
+          <div class="alarm-step">
+            <h3>2. What do you do?</h3>
+            <div class="alarm-options" id="event-actions"></div>
+          </div>
+          <div class="alarm-feedback" id="event-feedback"></div>
+        </div>
+      </section>
+
       <section class="sim-panel sim-lung" id="lung-panel" aria-label="Alveolar recruitment">
         <h2 class="sim-panel-title">🫁 Alveolar recruitment (illustrative)</h2>
         <svg id="lung-svg" class="lung-svg" role="img" aria-label="Grid of alveoli colored by collapsed, normal, or overdistended status"></svg>
@@ -669,6 +713,7 @@
   <script src="explain.js?v=1"></script>
   <script src="progression.js?v=1"></script>
   <script src="labtrends.js?v=1"></script>
+  <script src="events.js?v=1"></script>
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>
