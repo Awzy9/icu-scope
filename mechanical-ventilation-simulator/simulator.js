@@ -171,10 +171,49 @@
   // duplicating it.
   window.MVSIM = { SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant };
 
+  // How much a spontaneous breath's volume is penalized by airway resistance
+  // for a given inspiratory effort — shared by pressure-support mode and the
+  // weaning simulated SBT.
+  function resistancePenalty(raw) {
+    return clamp(1 - (raw - 8) * 0.006, 0.5, 1);
+  }
+
+  // Derives the actual delivered {vt, rr, ratio} for the current ventilation
+  // mode. In volume control these are simply the clinician's direct inputs.
+  // In pressure control, vt is derived from the set inspiratory pressure via
+  // the same compliance relationship used everywhere else (Vt = ΔP × Crs).
+  // In pressure support / CPAP, both vt and rr emerge from the scenario's
+  // respiratory muscle reserve plus the set pressure support level — the
+  // same math as the weaning simulator's spontaneous breathing trial,
+  // because a PSV breath *is* a spontaneous breath.
+  function deriveBreath(state, scenario) {
+    if (state.mode === "pc") {
+      const vt = clamp(state.pc * scenario.crs, 50, 900);
+      return { vt, rr: state.rr, ratio: state.ratio };
+    }
+    if (state.mode === "psv") {
+      const driveP = scenario.effortPressure + state.ps;
+      const vt = clamp(driveP * scenario.crs * resistancePenalty(scenario.raw), 80, 900);
+      const deadSpaceFrac = clamp(scenario.deadSpaceFrac + (scenario.leakFrac || 0), 0, 0.9);
+      const va = Math.max(vt * (1 - deadSpaceFrac), 20);
+      const targetAlveolarMV = co2Constant(scenario) / scenario.paco2Ref; // L/min
+      const rr = clamp((targetAlveolarMV * 1000) / va, 8, 45);
+      // Spontaneous breaths have a roughly fixed neural inspiratory time
+      // rather than a clinician-set I:E ratio; back-solve the ratio that
+      // reproduces a ~0.9 s Ti so the rest of the engine needs no branching.
+      const spontaneousTi = 0.9;
+      const ttot = 60 / rr;
+      const ratio = clamp((ttot - spontaneousTi) / spontaneousTi, 0.3, 8);
+      return { vt, rr, ratio };
+    }
+    return { vt: state.vt, rr: state.rr, ratio: state.ratio }; // vc
+  }
+
   // Core physiology model. All pressures in cmH2O, volumes in mL, flows in L/s,
   // gas partial pressures in mmHg. Simplified for teaching, not clinical use.
   function compute(state, scenario) {
-    const { peep, vt, fio2, ratio, rr, hco3 } = state;
+    const { peep, fio2, hco3 } = state;
+    const { vt, rr, ratio } = deriveBreath(state, scenario);
     const fio2Frac = fio2 / 100;
 
     const ttot = 60 / rr;
@@ -240,7 +279,7 @@
     const hemodynamicImpact = clamp((meanAirwayPressure - 10) * 2.2 * cvSensitivity, 0, 45);
 
     return {
-      ttot, ti, te, flow, tau, autoPeep, totalPeep, drivingPressure, resistivePressure,
+      vt, rr, ratio, ttot, ti, te, flow, tau, autoPeep, totalPeep, drivingPressure, resistivePressure,
       plateauPressure, peakPressure, meanAirwayPressure, effectiveShunt, recruitedFraction,
       overdistExcess, minuteVentilation, alveolarMinuteVentilation, paco2, pao2, pfRatio, spo2, ph,
       hemodynamicImpact, leakFrac,
@@ -249,7 +288,7 @@
 
   function buildWarnings(state, results, pbw) {
     const warnings = [];
-    const vtPerKg = state.vt / pbw;
+    const vtPerKg = results.vt / pbw;
 
     if (vtPerKg > 8) {
       warnings.push({ level: "danger", text: `Tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW — above the lung-protective target (~6, max 8 mL/kg).`, evidence: "ardsnet" });
@@ -289,6 +328,10 @@
       warnings.push({ level: "warn", text: `Mean airway pressure is high enough to meaningfully reduce venous return (est. ${results.hemodynamicImpact.toFixed(0)}% fall) — watch blood pressure, especially if preload-dependent.` });
     }
 
+    if (state.mode === "psv" && results.drivingPressure > 15) {
+      warnings.push({ level: "warn", text: `In pressure support, the set pressure (PS ${state.ps} cmH₂O) alone doesn't reveal this — the ${results.drivingPressure.toFixed(0)} cmH₂O reflects PS plus the patient's own inspiratory effort, which the ventilator can't display. Vigorous spontaneous effort can injure the lung even when the dialed-in numbers look safe (patient self-inflicted lung injury, P-SILI).` });
+    }
+
     return warnings;
   }
 
@@ -299,13 +342,22 @@
     return "bad";
   }
 
+  const MODE_INFO = {
+    vc: { desc: "Clinician sets tidal volume directly; pressure is the dependent variable. The safest default for most patients." },
+    pc: { desc: "Clinician sets the inspiratory pressure; tidal volume is the dependent variable and will change if compliance/resistance change — watch delivered Vt, not just the set pressure." },
+    psv: { desc: "Patient-triggered and patient-cycled: only PEEP/CPAP and pressure support are set. Rate and tidal volume emerge from the patient's own effort and lung mechanics — there is no backup rate." },
+  };
+
   // ---------------------------------------------------------------------
   // DOM wiring
   // ---------------------------------------------------------------------
   const els = {};
   ["scenario", "sex", "height", "height-out-unit", "pbw-out",
-    "peep", "peep-out", "vt", "vt-out", "vt-per-kg",
-    "fio2", "fio2-out", "ie", "ie-out", "rr", "rr-out",
+    "vent-mode", "mode-desc", "peep-cpap-tag",
+    "peep", "peep-out", "vt-control", "vt", "vt-out", "vt-per-kg",
+    "pc-control", "pc", "pc-out", "pc-vt-readout",
+    "ps-control", "ps", "ps-out", "ps-breath-readout",
+    "fio2", "fio2-out", "ie-control", "ie", "ie-out", "rr-control", "rr", "rr-out",
     "hco3", "hco3-out", "reset-btn",
     "scenario-desc", "scenario-teaching", "scenario-evidence",
     "res-pao2", "res-spo2", "res-pf", "res-pf-bar",
@@ -333,6 +385,11 @@
     els.ie.value = scenario.defaults.ie;
     els.rr.value = scenario.defaults.rr;
     els.hco3.value = scenario.hco3;
+    // Pressure-control default: whatever inspiratory pressure would deliver
+    // the same protective Vt as the volume-control default, so switching
+    // modes on the same scenario starts from a comparable breath.
+    els.pc.value = Math.round(clamp((scenario.defaults.vtPerKg * pbw) / scenario.crs, 5, 40));
+    els.ps.value = 10;
     render();
   }
 
@@ -345,13 +402,27 @@
     el.className = `gauge-fill gauge-${cls}`;
   }
 
+  function applyModeVisibility() {
+    const mode = els["vent-mode"].value;
+    els["vt-control"].hidden = mode !== "vc";
+    els["pc-control"].hidden = mode !== "pc";
+    els["ps-control"].hidden = mode !== "psv";
+    els["ie-control"].hidden = mode === "psv";
+    els["rr-control"].hidden = mode === "psv";
+    els["mode-desc"].textContent = MODE_INFO[mode].desc;
+    els["peep-cpap-tag"].textContent = mode === "psv" ? "(= CPAP level)" : "";
+  }
+
   function render() {
     const scenario = SCENARIOS[els.scenario.value];
     const pbw = computePBW(els.sex.value, Number(els.height.value));
 
     const state = {
+      mode: els["vent-mode"].value,
       peep: Number(els.peep.value),
       vt: Number(els.vt.value),
+      pc: Number(els.pc.value),
+      ps: Number(els.ps.value),
       fio2: Number(els.fio2.value),
       ratio: Number(els.ie.value),
       rr: Number(els.rr.value),
@@ -359,8 +430,8 @@
     };
 
     els["peep-out"].textContent = state.peep;
-    els["vt-out"].textContent = state.vt;
-    els["vt-per-kg"].textContent = `${(state.vt / pbw).toFixed(1)} mL/kg PBW (PBW ${pbw.toFixed(0)} kg)`;
+    els["pc-out"].textContent = state.pc;
+    els["ps-out"].textContent = state.ps;
     els["fio2-out"].textContent = state.fio2;
     els["ie-out"].textContent = ieLabel(state.ratio);
     els["rr-out"].textContent = state.rr;
@@ -371,6 +442,13 @@
     els["scenario-teaching"].textContent = scenario.teaching;
 
     const r = compute(state, scenario);
+
+    // Vt/RR readouts: the slider-driven value in VC, the physiology
+    // engine's derived value in PC/PSV (shown in their own sub-notes).
+    els["vt-out"].textContent = r.vt.toFixed(0);
+    els["vt-per-kg"].textContent = `${(r.vt / pbw).toFixed(1)} mL/kg PBW (PBW ${pbw.toFixed(0)} kg)`;
+    els["pc-vt-readout"].textContent = `Delivered tidal volume ≈ ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW) at current compliance.`;
+    els["ps-breath-readout"].textContent = `Patient's own breathing (estimated): RR ≈ ${r.rr.toFixed(0)} /min, Vt ≈ ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW).`;
 
     els["res-pao2"].textContent = `${r.pao2.toFixed(0)} mmHg`;
     els["res-spo2"].textContent = `${r.spo2.toFixed(0)}%`;
@@ -454,13 +532,18 @@
     populateScenarios();
     initTheme();
 
-    ["peep", "vt", "fio2", "ie", "rr", "hco3", "height", "sex"].forEach((id) => {
+    ["peep", "vt", "pc", "ps", "fio2", "ie", "rr", "hco3", "height", "sex"].forEach((id) => {
       els[id].addEventListener("input", render);
     });
     els.scenario.addEventListener("change", () => applyScenarioDefaults(els.scenario.value));
     els["reset-btn"].addEventListener("click", () => applyScenarioDefaults(els.scenario.value));
+    els["vent-mode"].addEventListener("change", () => {
+      applyModeVisibility();
+      render();
+    });
 
     els.scenario.value = "ardsModerate";
+    applyModeVisibility();
     applyScenarioDefaults("ardsModerate");
   }
 

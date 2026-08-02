@@ -21,9 +21,18 @@ anaesthetists, respiratory therapists, and critical care educators.
 
 ## Current features
 
-**Interactive ventilator controls** — PEEP, tidal volume (with predicted body weight), FiO₂,
-I:E ratio, respiratory rate, and bicarbonate (for the pH estimate). Every change recomputes the
-patient immediately.
+**Three ventilation modes** — Volume Control (AC/VC, tidal volume is the direct input), Pressure
+Control (AC/PC, inspiratory pressure is the direct input and Vt is derived from compliance —
+watch delivered Vt, not just the set pressure), and Pressure Support/CPAP (patient-triggered and
+patient-cycled: only PEEP/CPAP and PS are set, rate and Vt emerge from the scenario's respiratory
+muscle reserve and lung mechanics, the same model driving the weaning simulator's SBT). PSV mode
+surfaces a specific teaching point: the displayed driving pressure doesn't include the patient's
+own inspiratory effort, so a P-SILI-risk alert fires when the *true* transpulmonary driving
+pressure (PS + effort) is high even though the set PS alone looks safe.
+
+**Interactive ventilator controls** — PEEP, tidal volume or inspiratory pressure or pressure
+support (depending on mode), FiO₂, I:E ratio, respiratory rate, and bicarbonate (for the pH
+estimate). Every change recomputes the patient immediately.
 
 **Physiology engine** — an alveolar-gas / shunt / dead-space model producing:
 
@@ -103,7 +112,7 @@ Planned, not yet built — several of these need a backend, which the current st
 - AI tutor explaining each intervention in context
 - Ventilator alarm troubleshooting scenarios
 - Progressive clinical cases that evolve with user management
-- Additional ventilation modes (SIMV, PSV, APRV, BiLevel, NIV, HFNC)
+- Additional ventilation modes (SIMV, APRV, BiLevel, NIV, HFNC) — VC/PC/PSV are built
 - Performance dashboard and guideline-adherence scoring
 - Imaging, ultrasound and ECMO physiology modules
 

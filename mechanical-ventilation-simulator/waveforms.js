@@ -51,7 +51,7 @@
   // breath, honoring the current hold-maneuver mode.
   function buildTrace(state, scenario, r) {
     const ti = r.ti, te = r.te, ttot = r.ttot, tau = Math.max(r.tau, 0.05);
-    const vt = state.vt; // mL
+    const vt = r.vt; // mL — the actual delivered volume, not the raw VC slider value
     const peakFlowLpm = (vt / 1000 / ti) * 60; // L/min
     const holdSec = 0.9;
     const points = [];

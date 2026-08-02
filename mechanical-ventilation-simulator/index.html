@@ -56,6 +56,16 @@
           <p class="sim-scenario-desc" id="scenario-desc"></p>
         </div>
 
+        <div class="control-block">
+          <label for="vent-mode">Ventilation mode</label>
+          <select id="vent-mode" class="sim-select">
+            <option value="vc">Volume Control (AC/VC)</option>
+            <option value="pc">Pressure Control (AC/PC)</option>
+            <option value="psv">Pressure Support / CPAP (spontaneous)</option>
+          </select>
+          <p class="sim-subnote" id="mode-desc"></p>
+        </div>
+
         <div class="control-block sim-patient-row">
           <div>
             <label for="sex">Sex</label>
@@ -72,14 +82,26 @@
         </div>
 
         <div class="control-block">
-          <label for="peep">PEEP <output id="peep-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <label for="peep">PEEP <span id="peep-cpap-tag"></span> <output id="peep-out"></output> <span class="control-unit">cmH₂O</span></label>
           <input type="range" id="peep" min="0" max="24" step="1" value="5" />
         </div>
 
-        <div class="control-block">
+        <div class="control-block" id="vt-control">
           <label for="vt">Tidal volume <output id="vt-out"></output> <span class="control-unit">mL</span></label>
           <input type="range" id="vt" min="200" max="700" step="10" value="420" />
           <p class="sim-subnote" id="vt-per-kg"></p>
+        </div>
+
+        <div class="control-block" id="pc-control" hidden>
+          <label for="pc">Inspiratory pressure (above PEEP) <output id="pc-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <input type="range" id="pc" min="5" max="40" step="1" value="15" />
+          <p class="sim-subnote" id="pc-vt-readout"></p>
+        </div>
+
+        <div class="control-block" id="ps-control" hidden>
+          <label for="ps">Pressure support (above PEEP) <output id="ps-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <input type="range" id="ps" min="0" max="25" step="1" value="10" />
+          <p class="sim-subnote" id="ps-breath-readout"></p>
         </div>
 
         <div class="control-block">
@@ -87,12 +109,12 @@
           <input type="range" id="fio2" min="21" max="100" step="1" value="40" />
         </div>
 
-        <div class="control-block">
+        <div class="control-block" id="ie-control">
           <label for="ie">I:E ratio <output id="ie-out"></output></label>
           <input type="range" id="ie" min="0.3" max="5" step="0.1" value="2" />
         </div>
 
-        <div class="control-block">
+        <div class="control-block" id="rr-control">
           <label for="rr">Respiratory rate <output id="rr-out"></output> <span class="control-unit">/min</span></label>
           <input type="range" id="rr" min="5" max="40" step="1" value="16" />
         </div>
