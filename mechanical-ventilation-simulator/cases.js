@@ -25,8 +25,8 @@
           requireScenarioId: "ardsModerate",
           check: (ctx) => {
             const problems = [];
-            const vtPerKg = ctx.r.vt / ctx.pbw;
-            if (vtPerKg > 8) problems.push(`Tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW — above the lung-protective target.`);
+            const vtPerKg = ctx.r.vt / ctx.ibw;
+            if (vtPerKg > 8) problems.push(`Tidal volume is ${vtPerKg.toFixed(1)} mL/kg IBW — above the lung-protective target.`);
             if (ctx.r.plateauPressure > 30) problems.push(`Plateau pressure ${ctx.r.plateauPressure.toFixed(0)} cmH₂O exceeds 30.`);
             if (ctx.r.drivingPressure > 15) problems.push(`Driving pressure ${ctx.r.drivingPressure.toFixed(0)} cmH₂O exceeds 15.`);
             if (ctx.r.pao2 < 60) problems.push(`PaO₂ ${ctx.r.pao2.toFixed(0)} mmHg is still under 60 — consider more PEEP and/or FiO₂.`);
@@ -71,8 +71,8 @@
             const problems = [];
             if (ctx.state.rr > 16) problems.push(`Respiratory rate ${ctx.state.rr}/min is fairly high for an obstructive patient — a lower rate leaves more time to exhale.`);
             if (ctx.state.ratio < 2.5) problems.push(`I:E ratio is only 1:${ctx.state.ratio.toFixed(1)} — obstructive patients usually need 1:3 or longer.`);
-            const vtPerKg = ctx.r.vt / ctx.pbw;
-            if (vtPerKg > 8.5) problems.push(`Tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW — keep it modest to reduce the volume that has to be exhaled.`);
+            const vtPerKg = ctx.r.vt / ctx.ibw;
+            if (vtPerKg > 8.5) problems.push(`Tidal volume is ${vtPerKg.toFixed(1)} mL/kg IBW — keep it modest to reduce the volume that has to be exhaled.`);
             return problems;
           },
           passText: "Good — low rate, long expiratory time. Note: an elevated PaCO₂ here is expected and acceptable (permissive hypercapnia) as long as pH is tolerable; don't chase a normal PaCO₂ by raising the rate.",
@@ -112,8 +112,8 @@
           check: (ctx) => {
             const problems = [];
             if (ctx.state.peep < 8) problems.push(`PEEP is only ${ctx.state.peep} cmH₂O — this scenario usually benefits from ≥8 cmH₂O to recruit fluid-filled alveoli.`);
-            const vtPerKg = ctx.r.vt / ctx.pbw;
-            if (vtPerKg > 8) problems.push(`Tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW — keep it lung-protective.`);
+            const vtPerKg = ctx.r.vt / ctx.ibw;
+            if (vtPerKg > 8) problems.push(`Tidal volume is ${vtPerKg.toFixed(1)} mL/kg IBW — keep it lung-protective.`);
             if (ctx.r.pao2 < 60) problems.push(`PaO₂ ${ctx.r.pao2.toFixed(0)} mmHg is still under 60 — consider more PEEP and/or FiO₂.`);
             return problems;
           },

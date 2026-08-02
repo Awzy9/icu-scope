@@ -13,7 +13,7 @@
     normal: {
       label: "Normal lungs",
       description: "Healthy lungs, e.g. elective post-op ventilation.",
-      teaching: "Lung-protective volumes (~6 mL/kg PBW) are good practice even here — there's no reason to use large tidal volumes just because the lungs are healthy.",
+      teaching: "Lung-protective volumes (~6 mL/kg IBW) are good practice even here — there's no reason to use large tidal volumes just because the lungs are healthy.",
       crs: 50, raw: 8, shuntBase: 0.03, recruitableFrac: 0.3, deadSpaceFrac: 0.30,
       peepOpt: 5, overdistSensitivity: 0.010, paco2Ref: 40, hco3: 24, effortPressure: 12,
       defaults: { peep: 5, vtPerKg: 6, fio2: 30, ie: 2, rr: 14 },
@@ -32,7 +32,7 @@
     ardsMild: {
       label: "ARDS — mild (P/F 200–300)",
       description: "Berlin mild ARDS: diffuse alveolar damage with recruitable shunt.",
-      teaching: "Low tidal volume (6 mL/kg PBW) and moderate PEEP. Permissive hypercapnia is acceptable if pH is tolerable.",
+      teaching: "Low tidal volume (6 mL/kg IBW) and moderate PEEP. Permissive hypercapnia is acceptable if pH is tolerable.",
       crs: 40, raw: 10, shuntBase: 0.20, recruitableFrac: 0.5, deadSpaceFrac: 0.40,
       peepOpt: 9, overdistSensitivity: 0.010, paco2Ref: 42, hco3: 24, effortPressure: 11,
       defaults: { peep: 8, vtPerKg: 6, fio2: 40, ie: 1.5, rr: 18 },
@@ -308,7 +308,7 @@
   // Evidence citations attached to specific alerts/teaching points. Educational
   // pointers to primary literature and society guidance, not a full bibliography.
   const EVIDENCE = {
-    ardsnet: { name: "ARDSnet ARMA trial", detail: "NEJM 2000 — low tidal volume (6 mL/kg PBW) reduced mortality in ARDS." },
+    ardsnet: { name: "ARDSnet ARMA trial", detail: "NEJM 2000 — low tidal volume (6 mL/kg IBW) reduced mortality in ARDS." },
     amato: { name: "Amato et al.", detail: "NEJM 2015 — driving pressure was the ventilator variable most associated with survival." },
     proseva: { name: "PROSEVA trial", detail: "NEJM 2013 — prone positioning ≥16 h/day reduced mortality in severe ARDS." },
     express: { name: "EXPRESS trial", detail: "JAMA 2008 — higher PEEP titrated to a plateau-pressure target vs. a minimal-PEEP strategy." },
@@ -328,7 +328,7 @@
 
   function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
 
-  function computePBW(sex, heightCm) {
+  function computeIBW(sex, heightCm) {
     const base = sex === "female" ? 45.5 : 50;
     return Math.max(20, base + 0.905 * (heightCm - 152.4));
   }
@@ -435,7 +435,7 @@
   // run as separate <script> tags and read scenario data + helpers off this
   // namespace rather than duplicating it.
   window.MVSIM = {
-    SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant, stats,
+    SCENARIOS, EVIDENCE, clamp, computeIBW, co2Constant, stats,
     resistancePenalty, spontaneousVt, deriveVitals,
     recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, recordCaseStep, resetStats,
   };
@@ -822,7 +822,7 @@
     };
   }
 
-  function buildWarnings(state, results, pbw, scenario) {
+  function buildWarnings(state, results, ibw, scenario) {
     const warnings = [];
     const d = results.detail;
     // The volume that matters for lung protection isn't always the reported
@@ -833,7 +833,7 @@
     const vtLabel = d && d.kind === "simv" ? "Mandatory tidal volume"
       : d && d.kind === "aprv" ? "Release volume"
       : "Tidal volume";
-    const vtPerKg = protectiveVt / pbw;
+    const vtPerKg = protectiveVt / ibw;
 
     // The ARDSnet volume target describes a breath the clinician sets. In
     // fully spontaneous modes nobody is setting a volume, so citing ARDSnet
@@ -843,12 +843,12 @@
     const spontaneousMode = state.mode === "psv" || state.mode === "niv" || state.mode === "hfnc";
     if (!spontaneousMode) {
       if (vtPerKg > 8) {
-        warnings.push({ level: "danger", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — above the lung-protective target (~6, max 8 mL/kg).`, evidence: "ardsnet" });
+        warnings.push({ level: "danger", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg IBW — above the lung-protective target (~6, max 8 mL/kg).`, evidence: "ardsnet" });
       } else if (vtPerKg < 4) {
-        warnings.push({ level: "warn", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — quite low; watch for atelectasis and CO₂ retention.`, evidence: "ardsnet" });
+        warnings.push({ level: "warn", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg IBW — quite low; watch for atelectasis and CO₂ retention.`, evidence: "ardsnet" });
       }
     } else if (vtPerKg > 9.5) {
-      warnings.push({ level: "danger", text: `The patient's own tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW. Large spontaneous breaths generate high transpulmonary pressure that no ventilator display shows, and big tidal volumes on non-invasive support are associated with failure — this is the P-SILI mechanism, not a setting you can simply dial down.`, evidence: "florali" });
+      warnings.push({ level: "danger", text: `The patient's own tidal volume is ${vtPerKg.toFixed(1)} mL/kg IBW. Large spontaneous breaths generate high transpulmonary pressure that no ventilator display shows, and big tidal volumes on non-invasive support are associated with failure — this is the P-SILI mechanism, not a setting you can simply dial down.`, evidence: "florali" });
     }
 
     if (results.plateauPressure > 30) {
@@ -972,7 +972,7 @@
   // DOM wiring
   // ---------------------------------------------------------------------
   const els = {};
-  ["scenario", "sex", "height", "height-out-unit", "pbw-out",
+  ["scenario", "sex", "height", "height-out-unit", "ibw-out",
     "vent-mode", "mode-desc", "peep-cpap-tag",
     "peep", "peep-out", "vt-control", "vt", "vt-out", "vt-per-kg",
     "pc-control", "pc", "pc-out", "pc-vt-readout",
@@ -1004,9 +1004,9 @@
 
   function applyScenarioDefaults(id) {
     const scenario = SCENARIOS[id];
-    const pbw = computePBW(els.sex.value, Number(els.height.value));
+    const ibw = computeIBW(els.sex.value, Number(els.height.value));
     els.peep.value = scenario.defaults.peep;
-    els.vt.value = Math.round((scenario.defaults.vtPerKg * pbw) / 10) * 10;
+    els.vt.value = Math.round((scenario.defaults.vtPerKg * ibw) / 10) * 10;
     els.fio2.value = scenario.defaults.fio2;
     els.ie.value = scenario.defaults.ie;
     els.rr.value = scenario.defaults.rr;
@@ -1014,7 +1014,7 @@
     // Pressure-control default: whatever inspiratory pressure would deliver
     // the same protective Vt as the volume-control default, so switching
     // modes on the same scenario starts from a comparable breath.
-    els.pc.value = Math.round(clamp((scenario.defaults.vtPerKg * pbw) / scenario.crs, 5, 40));
+    els.pc.value = Math.round(clamp((scenario.defaults.vtPerKg * ibw) / scenario.crs, 5, 40));
     els.ps.value = 10;
     els.norad.value = scenario.clinical.noradrenaline;
 
@@ -1030,7 +1030,7 @@
     els.tlow.value = tLow;
     const exhaledFrac = 1 - Math.exp(-tLow / tau);
     els.phigh.value = Math.round(
-      clamp((scenario.defaults.vtPerKg * pbw) / (scenario.crs * exhaledFrac), 10, 40)
+      clamp((scenario.defaults.vtPerKg * ibw) / (scenario.crs * exhaledFrac), 10, 40)
     );
     render();
   }
@@ -1087,7 +1087,7 @@
 
   function render() {
     const scenario = SCENARIOS[els.scenario.value];
-    const pbw = computePBW(els.sex.value, Number(els.height.value));
+    const ibw = computeIBW(els.sex.value, Number(els.height.value));
 
     const state = {
       mode: els["vent-mode"].value,
@@ -1126,7 +1126,7 @@
     els["leak-out"].textContent = state.leak;
     els["flow-out"].textContent = state.flow;
     els["norad-out"].textContent = state.norad.toFixed(2);
-    els["pbw-out"].textContent = `${pbw.toFixed(0)} kg`;
+    els["ibw-out"].textContent = `${ibw.toFixed(0)} kg`;
     els["height-out-unit"].textContent = `${els.height.value} cm`;
     els["scenario-desc"].textContent = scenario.description;
     els["scenario-teaching"].textContent = scenario.teaching;
@@ -1136,13 +1136,13 @@
     // Vt/RR readouts: the slider-driven value in VC, the physiology
     // engine's derived value in PC/PSV (shown in their own sub-notes).
     els["vt-out"].textContent = r.vt.toFixed(0);
-    els["vt-per-kg"].textContent = `${(r.vt / pbw).toFixed(1)} mL/kg PBW (PBW ${pbw.toFixed(0)} kg)`;
-    els["pc-vt-readout"].textContent = `Delivered tidal volume ≈ ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW) at current compliance.`;
-    els["ps-breath-readout"].textContent = `Patient's own breathing (estimated): RR ≈ ${r.rr.toFixed(0)} /min, Vt ≈ ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW).`;
+    els["vt-per-kg"].textContent = `${(r.vt / ibw).toFixed(1)} mL/kg IBW (IBW ${ibw.toFixed(0)} kg)`;
+    els["pc-vt-readout"].textContent = `Delivered tidal volume ≈ ${r.vt.toFixed(0)} mL (${(r.vt / ibw).toFixed(1)} mL/kg IBW) at current compliance.`;
+    els["ps-breath-readout"].textContent = `Patient's own breathing (estimated): RR ≈ ${r.rr.toFixed(0)} /min, Vt ≈ ${r.vt.toFixed(0)} mL (${(r.vt / ibw).toFixed(1)} mL/kg IBW).`;
 
     if (r.detail && r.detail.kind === "simv") {
       const d = r.detail;
-      els["vt-per-kg"].textContent = `${(d.mandVt / pbw).toFixed(1)} mL/kg PBW per mandatory breath (PBW ${pbw.toFixed(0)} kg)`;
+      els["vt-per-kg"].textContent = `${(d.mandVt / ibw).toFixed(1)} mL/kg IBW per mandatory breath (IBW ${ibw.toFixed(0)} kg)`;
       els["simv-readout"].textContent =
         `Mandatory: ${d.mandRr}/min × ${d.mandVt.toFixed(0)} mL. ` +
         `Spontaneous (PS ${state.ps}): ≈${d.spontRr.toFixed(0)}/min × ${d.spontVt.toFixed(0)} mL. ` +
@@ -1152,7 +1152,7 @@
       const d = r.detail;
       els["niv-readout"].textContent =
         `Set support ${d.setSupport.toFixed(0)} cmH₂O (IPAP ${state.ipap} − EPAP ${state.epap}); after ${state.leak}% leak the patient effectively receives ${d.effectiveSupport.toFixed(1)} cmH₂O. ` +
-        `Resulting breathing: ≈${r.rr.toFixed(0)}/min × ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW), minute ventilation ${r.minuteVentilation.toFixed(1)} L/min.`;
+        `Resulting breathing: ≈${r.rr.toFixed(0)}/min × ${r.vt.toFixed(0)} mL (${(r.vt / ibw).toFixed(1)} mL/kg IBW), minute ventilation ${r.minuteVentilation.toFixed(1)} L/min.`;
     }
     if (r.detail && r.detail.kind === "hfnc") {
       const d = r.detail;
@@ -1165,7 +1165,7 @@
     if (r.detail && r.detail.kind === "aprv") {
       const d = r.detail;
       els["aprv-readout"].textContent =
-        `Release volume ≈ ${d.releaseVt.toFixed(0)} mL (${(d.releaseVt / pbw).toFixed(1)} mL/kg PBW) at ${d.releaseRr.toFixed(1)} releases/min. ` +
+        `Release volume ≈ ${d.releaseVt.toFixed(0)} mL (${(d.releaseVt / ibw).toFixed(1)} mL/kg IBW) at ${d.releaseRr.toFixed(1)} releases/min. ` +
         `Spontaneous breathing on top: ≈${d.spontRr.toFixed(0)}/min × ${d.spontVt.toFixed(0)} mL. ` +
         `End-expiratory pressure ${r.totalPeep.toFixed(1)} cmH₂O (P_low ${state.pLow} + ${r.autoPeep.toFixed(1)} intentional).`;
     }
@@ -1190,7 +1190,7 @@
     els["res-autopeep"].textContent = `${r.autoPeep.toFixed(1)} cmH₂O`;
     els["res-totalpeep"].textContent = `${r.totalPeep.toFixed(1)} cmH₂O`;
 
-    const warnings = buildWarnings(state, r, pbw, scenario);
+    const warnings = buildWarnings(state, r, ibw, scenario);
     els["warnings-list"].innerHTML = "";
     if (warnings.length === 0) {
       const li = document.createElement("li");
@@ -1227,10 +1227,10 @@
     renderWaveforms(state, scenario, r);
     renderLung(scenario, r);
     if (typeof window.renderWeaning === "function") {
-      window.renderWeaning(state, scenario, r, pbw);
+      window.renderWeaning(state, scenario, r, ibw);
     }
     if (typeof window.renderPatient === "function") {
-      window.renderPatient(state, scenario, r, pbw);
+      window.renderPatient(state, scenario, r, ibw);
     }
     if (typeof window.renderCXR === "function") {
       window.renderCXR(els.scenario.value, scenario, r, state);
@@ -1242,7 +1242,7 @@
     // Live snapshot for other modules (e.g. cases.js "check my settings"
     // steps) that need to read the main panel's current configuration
     // without simulator.js knowing anything about them.
-    window.MVSIM._lastRender = { state, scenario, r, pbw, scenarioId: els.scenario.value };
+    window.MVSIM._lastRender = { state, scenario, r, ibw, scenarioId: els.scenario.value };
     if (typeof window.onSimulatorRender === "function") window.onSimulatorRender();
 
     // Debounced: only tally once the user settles on a configuration,

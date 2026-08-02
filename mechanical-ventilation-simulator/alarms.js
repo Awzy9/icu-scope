@@ -227,7 +227,13 @@
   function drawStylizedTrace(canvas, points) {
     const rect = canvas.getBoundingClientRect();
     const w = Math.max(rect.width, 260);
-    const h = canvas.height || 130;
+    // canvas.height here is the scaled DRAWING BUFFER we set below, not
+    // the logical display height — reading it back would compound every
+    // call (a real bug on devicePixelRatio > 1: each redraw multiplied the
+    // already-scaled value again, ballooning the canvas within a handful of
+    // frames). clientHeight is the CSS-rendered box height instead, which
+    // stays fixed now that every canvas has an explicit CSS height.
+    const h = canvas.clientHeight || 130;
     const ratio = window.devicePixelRatio || 1;
     canvas.width = w * ratio;
     canvas.height = h * ratio;
@@ -260,7 +266,13 @@
   function drawAutoPeepFlow(canvas) {
     const rect = canvas.getBoundingClientRect();
     const w = Math.max(rect.width, 260);
-    const h = canvas.height || 130;
+    // canvas.height here is the scaled DRAWING BUFFER we set below, not
+    // the logical display height — reading it back would compound every
+    // call (a real bug on devicePixelRatio > 1: each redraw multiplied the
+    // already-scaled value again, ballooning the canvas within a handful of
+    // frames). clientHeight is the CSS-rendered box height instead, which
+    // stays fixed now that every canvas has an explicit CSS height.
+    const h = canvas.clientHeight || 130;
     const ratio = window.devicePixelRatio || 1;
     canvas.width = w * ratio;
     canvas.height = h * ratio;

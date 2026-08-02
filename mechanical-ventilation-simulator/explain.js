@@ -78,7 +78,7 @@
       vitals,
       scenarioId: live.scenarioId,
       scenario: live.scenario,
-      pbw: live.pbw,
+      ibw: live.ibw,
     };
   }
 

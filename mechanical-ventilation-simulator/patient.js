@@ -55,7 +55,7 @@
     return `<div class="abg-row abg-${level}"><span>${label}</span><strong>${value}</strong><small>${unit}</small></div>`;
   }
 
-  function render(state, scenario, r, pbw) {
+  function render(state, scenario, r, ibw) {
     if (!el("patient-panel")) return;
     const M = window.MVSIM;
     if (!M || !M.deriveVitals) return;
@@ -65,7 +65,7 @@
     // ---- Identity strip -------------------------------------------------
     el("pt-diagnosis").textContent = v.diagnosis;
     el("pt-day").textContent = `ICU day ${v.icuDay}`;
-    el("pt-pbw").textContent = `PBW ${pbw.toFixed(0)} kg`;
+    el("pt-ibw").textContent = `IBW ${ibw.toFixed(0)} kg`;
     el("pt-sedation").textContent = `RASS ${v.rass} — ${RASS[String(v.rass)] || ""}`;
 
     const airway = state.mode === "niv" ? "Non-invasive ventilation (mask)"

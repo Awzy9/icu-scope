@@ -19,7 +19,7 @@
 
   function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
 
-  function runSBT(scenario, pbw, mainState, mainResults) {
+  function runSBT(scenario, ibw, mainState, mainResults) {
     const M = window.MVSIM;
     const driveP = scenario.effortPressure + SBT_PS;
 
@@ -60,15 +60,15 @@
 
   let cuffLeakPresent = true;
 
-  function render(mainState, scenario, mainResults, pbw) {
+  function render(mainState, scenario, mainResults, ibw) {
     const panel = document.getElementById("weaning-panel");
     if (!panel) return;
 
-    const sbt = runSBT(scenario, pbw, mainState, mainResults);
+    const sbt = runSBT(scenario, ibw, mainState, mainResults);
     const band = rsbiBand(sbt.rsbi);
 
     document.getElementById("wean-rr").textContent = `${sbt.spontRR.toFixed(0)} /min`;
-    document.getElementById("wean-vt").textContent = `${sbt.spontVt.toFixed(0)} mL (${(sbt.spontVt / pbw).toFixed(1)} mL/kg PBW)`;
+    document.getElementById("wean-vt").textContent = `${sbt.spontVt.toFixed(0)} mL (${(sbt.spontVt / ibw).toFixed(1)} mL/kg IBW)`;
     const rsbiEl = document.getElementById("wean-rsbi");
     rsbiEl.textContent = sbt.rsbi.toFixed(0);
     rsbiEl.className = `wean-rsbi-value wean-${band.cls}`;
@@ -93,7 +93,7 @@
       leakBtn.textContent = cuffLeakPresent ? "Cuff leak: present ✓" : "Cuff leak: absent ✗";
     }
 
-    window.MVSIM._lastWeaning = { sbt, band, scenario, mainState, mainResults, pbw };
+    window.MVSIM._lastWeaning = { sbt, band, scenario, mainState, mainResults, ibw };
   }
 
   function renderDecision(outcome) {
@@ -135,8 +135,8 @@
       leakBtn.addEventListener("click", () => {
         cuffLeakPresent = !cuffLeakPresent;
         if (window.MVSIM._lastWeaning) {
-          const { mainState, scenario, mainResults, pbw } = window.MVSIM._lastWeaning;
-          render(mainState, scenario, mainResults, pbw);
+          const { mainState, scenario, mainResults, ibw } = window.MVSIM._lastWeaning;
+          render(mainState, scenario, mainResults, ibw);
         }
       });
     }

@@ -342,7 +342,7 @@ select:focus-visible {
   gap: 0.75rem 1rem;
 }
 
-.sim-patient-row .sim-pbw {
+.sim-patient-row .sim-ibw {
   grid-column: 1 / -1;
   font-size: 0.88rem;
 }
@@ -564,6 +564,19 @@ select:focus-visible {
   width: 100%;
   display: block;
 }
+
+/* Fixed CSS heights, matching each canvas's original HTML height attribute.
+   Without this, the canvas's rendered height is derived from its intrinsic
+   width/height (the drawing-buffer size) rather than from layout — and
+   since the JS below scales that buffer by devicePixelRatio on every
+   redraw, an unfixed height compounds on each call (canvas.height read
+   back, already scaled, then scaled again). On DPR=1 desktops this is
+   invisible; on any real phone or Retina display it explodes the canvas to
+   thousands of pixels tall within a few frames. Pinning height here breaks
+   the feedback loop regardless of what the JS does. */
+#wave-pressure, #wave-flow, #wave-volume { height: 110px; }
+#loop-pv, #loop-fv { height: 180px; }
+#alarm-waveform { height: 130px; }
 
 /* -------------------------------------------------------------- Weaning */
 
@@ -994,6 +1007,8 @@ select:focus-visible {
   display: block;
 }
 
+#cxr-canvas { height: 340px; }
+
 #cxr-photo { height: auto; }
 #cxr-canvas[hidden], #cxr-photo[hidden] { display: none; }
 
@@ -1056,6 +1071,7 @@ select:focus-visible {
 #us-canvas {
   width: 100%;
   display: block;
+  height: 260px;
 }
 
 .us-profile-tag {
