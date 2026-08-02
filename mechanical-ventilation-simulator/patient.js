@@ -60,7 +60,11 @@
     const M = window.MVSIM;
     if (!M || !M.deriveVitals) return;
 
-    const v = M.deriveVitals(scenario, r, state.norad);
+    // Labs drift with the clinical course, not just this instant — pass the
+    // current severityMultiplier so what's shown here matches the same
+    // trajectory the course panel and lab-trends sparklines are tracking.
+    const prog = M.getProgression ? M.getProgression() : null;
+    const v = M.deriveVitals(scenario, r, state.norad, prog ? prog.severityMultiplier : 1);
 
     // ---- Identity strip -------------------------------------------------
     el("pt-diagnosis").textContent = v.diagnosis;
@@ -117,12 +121,16 @@
       abgLine("FiO₂", r.deliveredFio2.toFixed(0), "%", band(r.deliveredFio2, 60, 80)),
     ].join("");
 
-    // ---- Labs (stable over this timescale) ------------------------------
+    // ---- Labs — move with the clinical course, not with a settings tweak
     el("pt-labs").innerHTML = [
       abgLine("Haemoglobin", v.hb.toFixed(1), "g/dL", band(v.hb, 9, 7.5, true)),
       abgLine("White cells", v.wbc.toFixed(1), "×10⁹/L", band(v.wbc, 15, 20)),
       abgLine("Platelets", v.platelets.toFixed(0), "×10⁹/L", band(v.platelets, 120, 80, true)),
       abgLine("Creatinine", v.creatinine.toFixed(1), "mg/dL", band(v.creatinine, 1.4, 2.0)),
+      abgLine("BUN", v.bun.toFixed(0), "mg/dL", band(v.bun, 25, 45)),
+      abgLine("Sodium", v.sodium.toFixed(0), "mEq/L", "good"),
+      abgLine("Potassium", v.potassium.toFixed(1), "mEq/L", (v.potassium > 5.5 || v.potassium < 3.3) ? "bad" : (v.potassium > 5.0 || v.potassium < 3.5) ? "warn" : "good"),
+      abgLine("Chloride", v.chloride.toFixed(0), "mEq/L", "good"),
     ].join("");
 
     // ---- The coupling note ---------------------------------------------

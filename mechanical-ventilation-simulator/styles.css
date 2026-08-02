@@ -259,7 +259,8 @@ html[data-difficulty="consultant"] .gated-note {
 .sim-ultrasound,
 .sim-cxr,
 .sim-explain,
-.sim-course {
+.sim-course,
+.sim-labtrends {
   grid-column: 1 / -1;
 }
 
@@ -949,6 +950,49 @@ html[data-difficulty="consultant"] .gated-note {
 .course-log-good { border-left-color: var(--ok-accent); }
 .course-log-bad { border-left-color: var(--danger-accent); }
 .course-log-neutral { border-left-color: var(--info-accent); }
+
+/* --------------------------------------------------- Laboratory trends */
+
+.sim-labtrends { border-left: 4px solid var(--accent-strong); }
+
+.labtrend-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.labtrend-cell {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem 0.7rem;
+  line-height: 1.1;
+}
+
+.labtrend-cell small {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  margin-bottom: 0.2rem;
+}
+
+.labtrend-cell span {
+  display: block;
+  font-weight: 700;
+  font-size: 1.05rem;
+  font-variant-numeric: tabular-nums;
+  margin-top: 0.2rem;
+}
+
+/* Same fixed-height rule as every other canvas in this app — without it,
+   any devicePixelRatio > 1 device compounds canvas.height on every redraw. */
+#trend-ph, #trend-pao2, #trend-paco2,
+#trend-lactate, #trend-wbc, #trend-creatinine {
+  width: 100%;
+  display: block;
+  height: 56px;
+}
 
 /* -------------------------------------------------- Collapsible panels */
 

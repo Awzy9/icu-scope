@@ -164,16 +164,16 @@ ventilator's alarms don't turn off for a more senior clinician. What changes:
   are replaced by the plain before/after P/F, and a failed clinical-cases step says only that it
   failed, not why.
 
-**Clinical course** — advance simulated time (+15 min / +1 h / +6 h / +24 h) to see whether the
-settings dialed in *right now* help or hurt this patient over hours, not just this instant. Only
-advancing time moves the trend; adjusting a control alone never does — matching the bedside fact
-that injury and recovery accrue over hours, not the moment a dial turns. Each advance scores the
-current settings mode-agnostically (plateau/driving pressure, Vt/IBW, oxygenation, acid-base, FiO₂,
-how close PEEP sits to this lung's estimated optimum, hemodynamic cost) and nudges the underlying
-shunt and compliance toward recovery or injury for that whole interval — 24 hours of lung-protective
-settings on a recruitable ARDS lung produces a dramatic, visible recovery (P/F 206 → 288, plateau
-25 → 20 cmH₂O in testing); the same 24 hours of a plateau/driving-pressure-violating pattern
-produces comparably dramatic deterioration (P/F 200 → 116, plateau 24 → 34 cmH₂O).
+**Clinical course** — advance simulated time (+30 min / +1 h / +6 h / +12 h / +24 h / +48 h) to see
+whether the settings dialed in *right now* help or hurt this patient over hours, not just this
+instant. Only advancing time moves the trend; adjusting a control alone never does — matching the
+bedside fact that injury and recovery accrue over hours, not the moment a dial turns. Each advance
+scores the current settings mode-agnostically (plateau/driving pressure, Vt/IBW, oxygenation,
+acid-base, FiO₂, how close PEEP sits to this lung's estimated optimum, hemodynamic cost) and nudges
+the underlying shunt and compliance toward recovery or injury for that whole interval — 24 hours of
+lung-protective settings on a recruitable ARDS lung produces a dramatic, visible recovery (P/F
+206 → 288, plateau 25 → 20 cmH₂O in testing); the same 24 hours of a plateau/driving-pressure-
+violating pattern produces comparably dramatic deterioration (P/F 200 → 116, plateau 24 → 34 cmH₂O).
 
 Because every other module already reads off the physiology engine's live results rather than the
 scenario's static presentation values, this one change propagates everywhere automatically: the CXR
@@ -181,6 +181,17 @@ infiltrate, the ultrasound B-line density, and the weaning SBT estimate all refl
 patient without any of those modules knowing progression exists. A sparkline tracks P/F over the
 course, and a running log narrates each advance from the actual measured before/after numbers —
 same "nothing canned" principle as the physiology explanation panel below.
+
+**Laboratory trends** — a single ABG or metabolic panel is a snapshot; this panel is the trend that
+snapshot sits on. Six sparklines (pH, PaO₂, PaCO₂, lactate, WBC, creatinine) plot every clinical-
+course time point against a shaded normal-range band, so a glance shows whether the trace is
+drifting into or out of range rather than requiring the reader to compare each number against a
+remembered threshold. Like the P/F sparkline above it, these move only when time is advanced, never
+from a settings tweak alone, and they read off the exact same `progression.history` snapshots — so
+a lactate/WBC/creatinine rise tracks the same underlying severity drift a worsening P/F or plateau
+pressure does, rather than being a second, independently-tuned model. The living-patient panel's
+labs gained four rows alongside them (BUN, sodium, potassium, chloride), with creatinine and WBC
+now drifting with illness severity rather than sitting fixed regardless of clinical trajectory.
 
 **Physiology explanation panel** — after each adjustment settles, a breakdown of what happened:
 the mechanism, the benefits, the potential risks, and the supporting evidence. Nothing here is
@@ -258,6 +269,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `patient.js` | Living virtual patient: monitor, ABG, labs, engine-derived vitals |
 | `explain.js` | Mechanism / benefit / risk / evidence breakdown from measured deltas |
 | `progression.js` | Clinical course: time advance, sparkline, course log |
+| `labtrends.js` | Laboratory trends: pH/PaO₂/PaCO₂/lactate/WBC/creatinine sparklines read from the clinical-course history |
 | `difficulty.js` | Four-level learner mode, gates guidance across every module |
 | `cxr.js` | Chest radiograph panel: schematic films, real-image support |
 | `cxr-images.js` | Attribution manifest for real radiographs (empty by default) |

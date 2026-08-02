@@ -97,7 +97,7 @@
         <div class="pt-result-block" id="pt-labs-block">
           <h3>Laboratory</h3>
           <div class="abg-grid" id="pt-labs"></div>
-          <p class="sim-subnote">Bloods are stable over the minutes this simulator models; they change with the scenario, not with a ventilator adjustment.</p>
+          <p class="sim-subnote">Labs track the clinical course, not an instant settings tweak — they only move when you advance time in the Clinical course panel below.</p>
         </div>
       </div>
     </section>
@@ -393,13 +393,57 @@
 
         <div class="course-controls">
           <button type="button" class="toolbar-btn" data-advance-hours="0.25">+15 min</button>
+          <button type="button" class="toolbar-btn" data-advance-hours="0.5">+30 min</button>
           <button type="button" class="toolbar-btn" data-advance-hours="1">+1 hour</button>
           <button type="button" class="toolbar-btn" data-advance-hours="6">+6 hours</button>
+          <button type="button" class="toolbar-btn" data-advance-hours="12">+12 hours</button>
           <button type="button" class="toolbar-btn" data-advance-hours="24">+24 hours</button>
+          <button type="button" class="toolbar-btn" data-advance-hours="48">+48 hours</button>
           <button type="button" class="toolbar-btn" id="course-reset-btn">↺ Reset course</button>
         </div>
 
         <ul class="course-log" id="course-log"></ul>
+      </section>
+
+      <section class="sim-panel sim-labtrends" id="labtrends-panel" aria-label="Laboratory trends">
+        <h2 class="sim-panel-title">📈 Laboratory trends</h2>
+        <p class="sim-subnote">
+          The same course-over-time principle applied to labs, not just oxygenation: these only move
+          when you advance time above, and drift with how well the current settings are managing this
+          patient. A single ABG or metabolic panel is a snapshot; this is the trend that snapshot sits on.
+        </p>
+        <div class="labtrend-grid" id="labtrend-grid">
+          <div class="labtrend-cell">
+            <small>pH</small>
+            <canvas id="trend-ph" height="56"></canvas>
+            <span id="trend-ph-value">–</span>
+          </div>
+          <div class="labtrend-cell">
+            <small>PaO₂ (mmHg)</small>
+            <canvas id="trend-pao2" height="56"></canvas>
+            <span id="trend-pao2-value">–</span>
+          </div>
+          <div class="labtrend-cell">
+            <small>PaCO₂ (mmHg)</small>
+            <canvas id="trend-paco2" height="56"></canvas>
+            <span id="trend-paco2-value">–</span>
+          </div>
+          <div class="labtrend-cell">
+            <small>Lactate (mmol/L)</small>
+            <canvas id="trend-lactate" height="56"></canvas>
+            <span id="trend-lactate-value">–</span>
+          </div>
+          <div class="labtrend-cell">
+            <small>WBC (×10⁹/L)</small>
+            <canvas id="trend-wbc" height="56"></canvas>
+            <span id="trend-wbc-value">–</span>
+          </div>
+          <div class="labtrend-cell">
+            <small>Creatinine (mg/dL)</small>
+            <canvas id="trend-creatinine" height="56"></canvas>
+            <span id="trend-creatinine-value">–</span>
+          </div>
+        </div>
       </section>
 
       <section class="sim-panel sim-lung" id="lung-panel" aria-label="Alveolar recruitment">
@@ -624,6 +668,7 @@
   <script src="patient.js?v=1"></script>
   <script src="explain.js?v=1"></script>
   <script src="progression.js?v=1"></script>
+  <script src="labtrends.js?v=1"></script>
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>

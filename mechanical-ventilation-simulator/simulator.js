@@ -468,33 +468,54 @@
   // repeated advances can't run away indefinitely.
   const PROGRESSION_RATE_PER_HOUR = 0.02;
 
+  // Snapshot everything a trend chart or narrative might want at one point
+  // in the course: the point-in-time physiology plus the derived labs, at
+  // whatever severityMultiplier was in effect when it was taken.
+  function courseSnapshot(t, quality, state, scenario, r, ibw) {
+    const vitals = deriveVitals(scenario, r, state.norad, progression.severityMultiplier);
+    return {
+      t, quality, severity: progression.severityMultiplier,
+      pf: r.pfRatio, ph: r.ph, pao2: r.pao2, paco2: r.paco2,
+      labs: {
+        lactate: vitals.lactate, wbc: vitals.wbc, creatinine: vitals.creatinine,
+        bun: vitals.bun, potassium: vitals.potassium, hb: vitals.hb, platelets: vitals.platelets,
+      },
+    };
+  }
+
   function advanceTime(hours) {
     const live = window.MVSIM && window.MVSIM._lastRender;
     if (!live) return null;
     const quality = assessManagementQuality(live.state, live.r, live.scenario, live.ibw);
     const before = { severityMultiplier: progression.severityMultiplier, pfRatio: live.r.pfRatio };
 
+    // On the very first advance, anchor every trend at the true starting
+    // point (t=0, the values the patient presented with) so the traces show
+    // the actual shape of the course rather than starting mid-story. This
+    // has to happen BEFORE severityMultiplier moves, using the state as it
+    // stood at presentation.
+    if (progression.history.length === 0) {
+      progression.history.push(courseSnapshot(0, 0, live.state, live.scenario, live.r, live.ibw));
+    }
+
     progression.severityMultiplier = clamp(
       progression.severityMultiplier - quality * PROGRESSION_RATE_PER_HOUR * hours,
       0.55, 1.9
     );
-    // On the very first advance, anchor the sparkline at the true starting
-    // point (t=0, the P/F the patient presented with) so the trace shows
-    // the actual shape of the course rather than starting mid-story.
-    if (progression.history.length === 0) {
-      progression.history.push({ t: 0, pf: before.pfRatio, severity: before.severityMultiplier, quality: 0 });
-    }
     progression.elapsedHours += hours;
-    progression.history.push({
-      t: progression.elapsedHours,
-      pf: live.r.pfRatio,
-      severity: progression.severityMultiplier,
-      quality,
-    });
-    if (progression.history.length > 60) progression.history.shift();
 
+    // Recompute against the NEW severityMultiplier before taking this
+    // interval's snapshot — otherwise the point stamped at the new
+    // timestamp would still show the pre-drift values, lagging the trace
+    // one step behind every trend it draws.
     render();
     const after = window.MVSIM._lastRender;
+    const snap = after
+      ? courseSnapshot(progression.elapsedHours, quality, after.state, after.scenario, after.r, after.ibw)
+      : courseSnapshot(progression.elapsedHours, quality, live.state, live.scenario, live.r, live.ibw);
+    progression.history.push(snap);
+    if (progression.history.length > 60) progression.history.shift();
+
     return { hours, quality, before, after: { severityMultiplier: progression.severityMultiplier, pfRatio: after ? after.r.pfRatio : null } };
   }
 
@@ -909,9 +930,10 @@
   // props the MAP back up WITHOUT removing the cause, which is exactly the
   // trap this panel is meant to make visible.
   // ---------------------------------------------------------------------
-  function deriveVitals(scenario, results, noradrenaline) {
+  function deriveVitals(scenario, results, noradrenaline, severityMultiplier) {
     const c = scenario.clinical;
     const dose = noradrenaline != null ? noradrenaline : c.noradrenaline;
+    const sevM = severityMultiplier != null ? severityMultiplier : 1;
 
     // Each 1% fall in venous return costs roughly 0.45 mmHg of MAP here.
     const ventPenalty = results.hemodynamicImpact * 0.45;
@@ -941,10 +963,42 @@
     // Standard base excess (approximation of the Siggaard-Andersen relation).
     const baseExcess = 0.93 * (results.hco3 - 24.4 + 14.8 * (results.ph - 7.4));
 
+    // The labs below move with the CLINICAL COURSE (severityMultiplier —
+    // the same accumulator that drifts shunt/compliance over advanced time
+    // in computeEffectiveScenario), not just this instant's physiology, so
+    // 24h of good management visibly turns them around and 24h of bad
+    // management visibly worsens them — the same trend the oxygenation
+    // numbers already show, extended to the labs a real clinician would
+    // also be watching. severityMultiplier > 1 = worse than presentation.
+    const illnessDrift = clamp(sevM - 1, -0.45, 0.9);
+    const creatinine = clamp(
+      c.creatinine * (1 + illnessDrift * 0.6) + Math.max(0, 65 - map) * 0.01,
+      0.3, 8
+    );
+    const wbc = clamp(c.wbc * (1 + illnessDrift * 0.5), 2, 40);
+
+    // BUN:creatinine ratio rises in prerenal azotemia (hypoperfusion) —
+    // tied to the same MAP deficit driving the falling urine output above.
+    const bunCrRatio = clamp(12 + Math.max(0, 65 - map) * 0.3, 10, 30);
+    const bun = clamp(creatinine * bunCrRatio, 5, 150);
+
+    // Electrolytes: potassium rises with acidemia (transcellular shift) and
+    // with renal impairment — the two most teachable drivers of hyperkalemia
+    // in a ventilated ICU patient. Chloride is derived from THIS patient's
+    // own bicarbonate via a fixed-anion-gap approximation, so it varies by
+    // scenario and course state without needing a hand-authored baseline.
+    const potassium = clamp(
+      4.0 + Math.max(0, 7.35 - results.ph) * 3 + Math.max(0, creatinine - 1.2) * 0.15,
+      2.5, 7.5
+    );
+    const sodium = 140;
+    const chloride = clamp(sodium - results.hco3 - 12, 85, 115);
+
     return {
       map, hr, urineOutput, lactate, baseExcess, noradrenaline: dose,
       ventPenalty, pressorSupport,
-      temp: c.temp, hb: c.hb, wbc: c.wbc, creatinine: c.creatinine, platelets: c.platelets,
+      temp: c.temp, hb: c.hb, wbc, creatinine, platelets: c.platelets,
+      bun, sodium, potassium, chloride,
       icuDay: c.icuDay, rass: c.rass, diagnosis: c.diagnosis,
     };
   }
@@ -1440,6 +1494,9 @@
     }
     if (typeof window.renderCourse === "function") {
       window.renderCourse(state, scenario, r, ibw);
+    }
+    if (typeof window.renderLabTrends === "function") {
+      window.renderLabTrends();
     }
 
     // Live snapshot for other modules (e.g. cases.js "check my settings"
