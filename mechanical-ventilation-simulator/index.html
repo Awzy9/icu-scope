@@ -94,11 +94,17 @@
         <div class="control-block">
           <label for="vent-mode">Ventilation mode</label>
           <select id="vent-mode" class="sim-select">
-            <option value="vc">Volume Control (AC/VC)</option>
-            <option value="pc">Pressure Control (AC/PC)</option>
-            <option value="psv">Pressure Support / CPAP (spontaneous)</option>
-            <option value="simv">SIMV + Pressure Support</option>
-            <option value="aprv">APRV / BiLevel</option>
+            <optgroup label="Invasive (intubated)">
+              <option value="vc">Volume Control (AC/VC)</option>
+              <option value="pc">Pressure Control (AC/PC)</option>
+              <option value="psv">Pressure Support / CPAP (spontaneous)</option>
+              <option value="simv">SIMV + Pressure Support</option>
+              <option value="aprv">APRV / BiLevel</option>
+            </optgroup>
+            <optgroup label="Non-invasive">
+              <option value="niv">NIV — bilevel (IPAP/EPAP)</option>
+              <option value="hfnc">High-flow nasal oxygen (HFNC)</option>
+            </optgroup>
           </select>
           <p class="sim-subnote" id="mode-desc"></p>
         </div>
@@ -160,8 +166,32 @@
           </div>
         </div>
 
+        <div id="niv-controls" hidden>
+          <div class="control-block">
+            <label for="ipap">IPAP <output id="ipap-out"></output> <span class="control-unit">cmH₂O</span></label>
+            <input type="range" id="ipap" min="6" max="30" step="1" value="14" />
+          </div>
+          <div class="control-block">
+            <label for="epap">EPAP <output id="epap-out"></output> <span class="control-unit">cmH₂O</span></label>
+            <input type="range" id="epap" min="2" max="16" step="1" value="5" />
+          </div>
+          <div class="control-block">
+            <label for="leak">Mask leak <output id="leak-out"></output> <span class="control-unit">%</span></label>
+            <input type="range" id="leak" min="0" max="50" step="1" value="10" />
+          </div>
+        </div>
+
+        <div id="hfnc-controls" hidden>
+          <div class="control-block">
+            <label for="flow">Gas flow <output id="flow-out"></output> <span class="control-unit">L/min</span></label>
+            <input type="range" id="flow" min="10" max="70" step="5" value="50" />
+          </div>
+        </div>
+
         <p class="sim-subnote sim-mode-readout" id="simv-readout" hidden></p>
         <p class="sim-subnote sim-mode-readout" id="aprv-readout" hidden></p>
+        <p class="sim-subnote sim-mode-readout" id="niv-readout" hidden></p>
+        <p class="sim-subnote sim-mode-readout" id="hfnc-readout" hidden></p>
 
         <div class="control-block">
           <label for="fio2">FiO₂ <output id="fio2-out"></output> <span class="control-unit">%</span></label>

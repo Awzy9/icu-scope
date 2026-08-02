@@ -25,10 +25,11 @@
 
     // Vt from the same compliance relationship used everywhere else
     // (Vt = drivingPressure * compliance), then penalized for airway
-    // resistance — a stiff/obstructed patient gets less volume for the
-    // same respiratory effort.
-    const resistancePenalty = clamp(1 - (scenario.raw - 8) * 0.006, 0.5, 1);
-    let spontVt = driveP * scenario.crs * resistancePenalty;
+    // resistance / dynamic hyperinflation — a stiff or obstructed patient
+    // gets less volume for the same respiratory effort. Shared with the
+    // main engine's spontaneous-breath model so the SBT estimate and the
+    // PSV/NIV/HFNC modes can't drift apart.
+    let spontVt = driveP * scenario.crs * M.resistancePenalty(scenario.raw);
     spontVt = clamp(spontVt, 100, 700);
 
     // RR needed to hit the scenario's target alveolar ventilation at this

@@ -21,7 +21,7 @@ anaesthetists, respiratory therapists, and critical care educators.
 
 ## Current features
 
-**Five ventilation modes** — Volume Control (AC/VC, tidal volume is the direct input), Pressure
+**Seven ventilation modes**, grouped into invasive and non-invasive — Volume Control (AC/VC, tidal volume is the direct input), Pressure
 Control (AC/PC, inspiratory pressure is the direct input and Vt is derived from compliance —
 watch delivered Vt, not just the set pressure), and Pressure Support/CPAP (patient-triggered and
 patient-cycled: only PEEP/CPAP and PS are set, rate and Vt emerge from the scenario's respiratory
@@ -43,6 +43,16 @@ so the pressure never reaches P_low and the residual is the intentional PEEP tha
 open. Lengthening T_low demonstrates the central trade-off directly: release volume and CO₂
 clearance improve while end-expiratory pressure collapses, driving pressure climbs into injurious
 territory, and the lung derecruits.
+
+*NIV (bilevel)* and *high-flow nasal oxygen* cover non-invasive support. On NIV the delivered
+support is IPAP − EPAP eroded by mask leak, so raising IPAP against a big leak is visibly futile;
+alerts reflect where the evidence actually points — strongly favourable in hypercapnic COPD and
+cardiogenic pulmonary edema, and explicitly cautionary in de novo hypoxemic failure, where NIV
+performs worst. High-flow is modeled through its three real mechanisms rather than as a
+low-pressure ventilator: nasopharyngeal dead-space washout, a small flow-generated pressure, and
+reliable FiO₂ **only when flow meets peak inspiratory demand** — set the flow too low and the
+patient entrains room air, so the delivered FiO₂ falls well below the dial. The ROX index
+(SpO₂/FiO₂ ÷ RR) is computed live as the high-flow analogue of RSBI.
 
 **Interactive ventilator controls** — PEEP, tidal volume or inspiratory pressure or pressure
 support (depending on mode), FiO₂, I:E ratio, respiratory rate, and bicarbonate (for the pH
@@ -123,6 +133,13 @@ mirroring RSBI's known unreliability in neuromuscular disease.
 - ART trial (JAMA 2017) — harm from aggressive recruitment / high PEEP
 - HOT-ICU / LOCO₂ (NEJM 2021 / 2020) — conservative oxygen targets
 - ATS/ESICM/SCCM clinical practice guideline (2017) — ARDS ventilation
+- Brochard (NEJM 1995) / Lightowler (BMJ 2003) — NIV in hypercapnic COPD
+- 3CPO (NEJM 2008) / Vital (Cochrane 2013) — NIV in cardiogenic pulmonary edema
+- FLORALI (NEJM 2015) — high-flow vs. NIV in de novo hypoxemic failure
+- LUNG SAFE (AJRCCM 2017) — NIV use and mortality in moderate–severe ARDS
+- ROX index (Roca, 2016 / 2019) — predicting high-flow failure
+- Brochard (AJRCCM 1994) / Esteban (NEJM 1995) — SIMV is inferior for weaning
+- Zhou (Intensive Care Med 2017) — APRV in ARDS
 
 ## Running it
 
@@ -156,7 +173,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 Planned, not yet built — several of these need a backend, which the current static setup does not have:
 
 - AI tutor explaining each intervention in context
-- Non-invasive support modes (NIV, HFNC) — VC/PC/PSV/SIMV/APRV are built
+- Additional invasive modes (PRVC, volume-guaranteed pressure modes)
 - Imaging, ultrasound and ECMO physiology modules
 
 ## Sources

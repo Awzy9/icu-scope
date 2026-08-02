@@ -141,7 +141,7 @@
       if (phase === "insp") {
         volume = vt * (tInPhase / ti);
         flow = peakFlowLpm;
-        pressure = state.peep + r.autoPeep + r.resistivePressure + r.drivingPressure * (tInPhase / ti);
+        pressure = r.setPeep + r.autoPeep + r.resistivePressure + r.drivingPressure * (tInPhase / ti);
       } else if (phase === "insp-hold") {
         volume = vt;
         flow = 0;
@@ -153,7 +153,7 @@
       } else { // exp
         volume = vt * Math.exp(-tInPhase / tau);
         flow = -(vt / tau / 1000) * Math.exp(-tInPhase / tau) * 60; // L/min, negative = expiratory
-        pressure = state.peep + (r.peakPressure - state.peep) * Math.exp(-tInPhase / Math.max(tau * 0.4, 0.05));
+        pressure = r.setPeep + (r.peakPressure - r.setPeep) * Math.exp(-tInPhase / Math.max(tau * 0.4, 0.05));
       }
 
       points.push({ t, phase, volume, flow, pressure });
@@ -297,7 +297,7 @@
       } else if (holdMode === "insp") {
         readout.textContent = `Inspiratory hold: plateau pressure ${r.plateauPressure.toFixed(1)} cmH₂O — this is the true alveolar distending pressure, with flow (and therefore resistive pressure) removed.`;
       } else if (holdMode === "exp") {
-        readout.textContent = `Expiratory hold: total PEEP ${r.totalPeep.toFixed(1)} cmH₂O (set PEEP ${state.peep} + auto-PEEP ${r.autoPeep.toFixed(1)}) — pausing at end-exhalation lets alveolar and circuit pressure equilibrate.`;
+        readout.textContent = `Expiratory hold: total PEEP ${r.totalPeep.toFixed(1)} cmH₂O (set PEEP ${r.setPeep.toFixed(1)} + auto-PEEP ${r.autoPeep.toFixed(1)}) — pausing at end-exhalation lets alveolar and circuit pressure equilibrate.`;
       } else {
         readout.textContent = "";
       }

@@ -152,6 +152,11 @@
     guidelines: { name: "ATS/ESICM/SCCM clinical practice guideline", detail: "Mechanical ventilation in adult ARDS (2017) — the basis for low-Vt, plateau/driving-pressure limits, and PEEP/FiO₂ titration recommended here." },
     simvWeaning: { name: "Brochard 1994 / Esteban 1995", detail: "AJRCCM 1994 and NEJM 1995 — weaning by progressively lowering the SIMV rate was SLOWER than pressure support or once-daily spontaneous breathing trials. SIMV is not a recommended weaning mode." },
     aprvEvidence: { name: "Zhou 2017 (and ATS/ESICM/SCCM guideline)", detail: "Intensive Care Med 2017 — a single-centre RCT found more ventilator-free days with early APRV in ARDS, but there is no demonstrated mortality benefit and larger trials are lacking. Major guidelines do not recommend APRV as routine first-line ARDS ventilation." },
+    nivCopd: { name: "Brochard 1995 / Lightowler 2003", detail: "NEJM 1995 and BMJ 2003 meta-analysis — NIV in acute hypercapnic COPD exacerbation reduces intubation rate, complications, length of stay and mortality. One of the strongest indications for NIV; ERS/ATS guidelines recommend it." },
+    nivEdema: { name: "3CPO trial / Vital 2013", detail: "NEJM 2008 and Cochrane 2013 — NIV (CPAP or bilevel) in acute cardiogenic pulmonary edema improves dyspnea and reduces intubation rate. 3CPO found no mortality difference vs. standard oxygen therapy, but intubation and physiological benefit are consistent." },
+    florali: { name: "FLORALI trial", detail: "NEJM 2015 (Frat et al.) — in de novo acute hypoxemic respiratory failure, high-flow nasal oxygen gave lower 90-day mortality than standard oxygen or NIV. The NIV arm did worse, and larger tidal volumes on NIV were associated with failure." },
+    nivFailure: { name: "LUNG SAFE (Bellani 2017)", detail: "AJRCCM 2017 — in an observational ARDS cohort, NIV use in moderate–severe ARDS (P/F <150) was associated with higher ICU mortality. NIV failure requiring delayed intubation is associated with worse outcomes." },
+    roxIndex: { name: "ROX index (Roca 2016 / 2019)", detail: "J Crit Care 2016 and AJRCCM 2019 — ROX = (SpO₂/FiO₂)/respiratory rate. A value ≥4.88 at 2–12 h of high-flow therapy predicts success; persistently low or falling values predict the need for intubation." },
   };
 
   function clamp(v, lo, hi) { return Math.min(hi, Math.max(lo, v)); }
@@ -264,14 +269,23 @@
   // namespace rather than duplicating it.
   window.MVSIM = {
     SCENARIOS, EVIDENCE, clamp, computePBW, co2Constant, stats,
+    resistancePenalty, spontaneousVt,
     recordSettingsCheck, recordWeaningDecision, recordAlarmAttempt, recordCaseStep, resetStats,
   };
 
   // How much a spontaneous breath's volume is penalized by airway resistance
   // for a given inspiratory effort — shared by pressure-support mode and the
   // weaning simulated SBT.
+  // How much a spontaneous breath's volume is limited in obstructive disease.
+  // This is not just airway resistance: a flow-limited, dynamically
+  // hyperinflated patient is already breathing near total lung capacity, on
+  // the flat top of the pressure-volume curve, so the effective compliance
+  // available for the next spontaneous breath is far below the passive
+  // compliance the ventilator measures. It is why severe obstruction produces
+  // a rapid, shallow pattern rather than the slow deep breaths a naive
+  // effort x compliance model predicts.
   function resistancePenalty(raw) {
-    return clamp(1 - (raw - 8) * 0.006, 0.5, 1);
+    return clamp(1 - (raw - 8) * 0.029, 0.35, 1);
   }
 
   // Derives the actual delivered {vt, rr, ratio} for the current ventilation
@@ -367,6 +381,65 @@
         detail: { kind: "aprv", releaseVt, releaseRr, spontVt, spontRr, exhaledFrac, tau },
       };
     }
+    if (state.mode === "niv") {
+      // Bilevel NIV: the patient breathes spontaneously, supported by
+      // (IPAP - EPAP). Mask leak is the defining practical problem — leaked
+      // volume never reaches the lung, so it directly erodes the support the
+      // patient actually receives.
+      const setSupport = Math.max(state.ipap - state.epap, 0);
+      const effectiveSupport = setSupport * (1 - state.leak / 100);
+      const vt = clamp(spontaneousVt(scenario, effectiveSupport), 60, 900);
+      const va = Math.max(vt * (1 - breathDeadSpaceFrac(scenario)), 20);
+      const rr = clamp((targetAlveolarMV(scenario) * 1000) / va, 8, 45);
+      const ttot = 60 / rr;
+      const ratio = clamp((ttot - 0.9) / 0.9, 0.3, 8);
+      return {
+        vt, rr, ratio,
+        detail: {
+          kind: "niv", setSupport, effectiveSupport, effectivePeep: state.epap,
+        },
+      };
+    }
+    if (state.mode === "hfnc") {
+      // High-flow nasal oxygen provides no inspiratory support at all — the
+      // tidal volume is entirely the patient's own effort. Its benefits come
+      // from three other places, all modeled below: reliable FiO2 delivery
+      // (only when flow meets inspiratory demand), nasopharyngeal dead-space
+      // washout, and a small flow-dependent positive pressure.
+      const vt = clamp(spontaneousVt(scenario, 0), 60, 900);
+
+      // Anatomical dead space is flushed by the high flow between breaths.
+      const deadSpaceMultiplier = 1 - 0.20 * clamp(state.flow / 60, 0, 1);
+      const dsf = clamp(breathDeadSpaceFrac(scenario) * deadSpaceMultiplier, 0, 0.9);
+      const va = Math.max(vt * (1 - dsf), 20);
+      const rr = clamp((targetAlveolarMV(scenario) * 1000) / va, 8, 45);
+
+      // If the delivered flow is below the patient's peak inspiratory demand,
+      // they entrain room air around the cannula and the FiO2 that actually
+      // reaches the alveoli is diluted — the single most common reason
+      // high-flow "isn't working" at a low flow setting.
+      const ttot = 60 / rr;
+      // Inspiratory time shortens as the patient's rate climbs, and PEAK
+      // inspiratory flow exceeds the mean by roughly pi/2 for a sinusoidal
+      // profile — it is the peak, not the average, that the device has to
+      // match to avoid room-air entrainment.
+      const ti = Math.min(0.9, ttot * 0.4);
+      const peakDemandLpm = (vt / 1000 / ti) * 60 * 1.57;
+      const deliveredFraction = clamp(state.flow / Math.max(peakDemandLpm, 1), 0, 1);
+      const effectiveFio2 = 21 + (state.fio2 - 21) * deliveredFraction;
+
+      // Modest, flow-dependent positive airway pressure (roughly 0.5 cmH2O
+      // per 10 L/min with the mouth closed; much less with it open).
+      const generatedPeep = state.flow * 0.05;
+      const ratio = clamp((ttot - ti) / ti, 0.3, 8);
+      return {
+        vt, rr, ratio,
+        detail: {
+          kind: "hfnc", effectiveFio2, deliveredFraction, peakDemandLpm,
+          generatedPeep, deadSpaceMultiplier, effectivePeep: generatedPeep,
+        },
+      };
+    }
     if (state.mode === "psv") {
       const vt = clamp(spontaneousVt(scenario, state.ps), 80, 900);
       const va = Math.max(vt * (1 - breathDeadSpaceFrac(scenario)), 20);
@@ -385,9 +458,15 @@
   // Core physiology model. All pressures in cmH2O, volumes in mL, flows in L/s,
   // gas partial pressures in mmHg. Simplified for teaching, not clinical use.
   function compute(state, scenario) {
-    const { peep, fio2, hco3 } = state;
+    const { fio2, hco3 } = state;
     const { vt, rr, ratio, detail } = deriveBreath(state, scenario);
-    const fio2Frac = fio2 / 100;
+
+    // Non-invasive modes set their baseline pressure by another name (EPAP)
+    // or generate it from gas flow rather than from a PEEP dial, and high-flow
+    // oxygen only delivers its set FiO2 when flow meets inspiratory demand.
+    const peep = detail && detail.effectivePeep != null ? detail.effectivePeep : state.peep;
+    const deliveredFio2 = detail && detail.effectiveFio2 != null ? detail.effectiveFio2 : fio2;
+    const fio2Frac = deliveredFio2 / 100;
 
     const ttot = 60 / rr;
     const ti = ttot / (1 + ratio);
@@ -488,9 +567,12 @@
     // Dead space grows a little with overdistension (West zone 1 creation),
     // and a bronchopleural fistula leak also behaves like added dead space —
     // volume that leaves the circuit without ever taking part in gas exchange.
+    // High-flow nasal oxygen flushes the nasopharynx between breaths, so a
+    // smaller share of each breath is wasted re-breathing dead-space gas.
     const leakFrac = scenario.leakFrac || 0;
+    const dsWashout = detail && detail.deadSpaceMultiplier != null ? detail.deadSpaceMultiplier : 1;
     const effectiveDeadSpaceFrac = clamp(
-      scenario.deadSpaceFrac + overdistExcess * 0.004 + leakFrac, 0, 0.9
+      scenario.deadSpaceFrac * dsWashout + overdistExcess * 0.004 + leakFrac, 0, 0.9
     );
     const vd = effectiveDeadSpaceFrac * vt;
     const va = Math.max(vt - vd, 20); // mL/breath alveolar ventilation
@@ -520,7 +602,7 @@
       vt, rr, ratio, ttot, ti, te, flow, tau, autoPeep, totalPeep, drivingPressure, resistivePressure,
       plateauPressure, peakPressure, meanAirwayPressure, effectiveShunt, recruitedFraction,
       overdistExcess, minuteVentilation, alveolarMinuteVentilation, paco2, pao2, pfRatio, spo2, ph,
-      hemodynamicImpact, leakFrac, detail,
+      hemodynamicImpact, leakFrac, detail, setPeep: peep, deliveredFio2,
     };
   }
 
@@ -537,10 +619,20 @@
       : "Tidal volume";
     const vtPerKg = protectiveVt / pbw;
 
-    if (vtPerKg > 8) {
-      warnings.push({ level: "danger", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — above the lung-protective target (~6, max 8 mL/kg).`, evidence: "ardsnet" });
-    } else if (vtPerKg < 4) {
-      warnings.push({ level: "warn", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — quite low; watch for atelectasis and CO₂ retention.`, evidence: "ardsnet" });
+    // The ARDSnet volume target describes a breath the clinician sets. In
+    // fully spontaneous modes nobody is setting a volume, so citing ARDSnet
+    // against the patient's own breath is a category error — a large one is a
+    // P-SILI concern (flagged per-mode below) and a small one is a clinical
+    // sign that RSBI/ROX already capture, not a ventilator misconfiguration.
+    const spontaneousMode = state.mode === "psv" || state.mode === "niv" || state.mode === "hfnc";
+    if (!spontaneousMode) {
+      if (vtPerKg > 8) {
+        warnings.push({ level: "danger", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — above the lung-protective target (~6, max 8 mL/kg).`, evidence: "ardsnet" });
+      } else if (vtPerKg < 4) {
+        warnings.push({ level: "warn", text: `${vtLabel} is ${vtPerKg.toFixed(1)} mL/kg PBW — quite low; watch for atelectasis and CO₂ retention.`, evidence: "ardsnet" });
+      }
+    } else if (vtPerKg > 9.5) {
+      warnings.push({ level: "danger", text: `The patient's own tidal volume is ${vtPerKg.toFixed(1)} mL/kg PBW. Large spontaneous breaths generate high transpulmonary pressure that no ventilator display shows, and big tidal volumes on non-invasive support are associated with failure — this is the P-SILI mechanism, not a setting you can simply dial down.`, evidence: "florali" });
     }
 
     if (results.plateauPressure > 30) {
@@ -598,6 +690,44 @@
       warnings.push({ level: "info", text: "APRV's evidence base is thin — one single-centre RCT found more ventilator-free days in ARDS, but no mortality benefit has been shown and major guidelines do not recommend it as routine first-line ventilation.", evidence: "aprvEvidence" });
     }
 
+    if (d && d.kind === "niv") {
+      const hypercapnicObstructive = scenario.paco2Ref >= 50 && scenario.raw >= 18;
+      if (hypercapnicObstructive) {
+        warnings.push({ level: "good", text: "Acute hypercapnic COPD exacerbation is one of the strongest indications for NIV — it reduces intubation rate, complications and mortality. Bilevel support (not CPAP alone) is what unloads the respiratory muscles here.", evidence: "nivCopd" });
+      }
+      if (scenario.label && /edema|CHF/i.test(scenario.label)) {
+        warnings.push({ level: "good", text: "Acute cardiogenic pulmonary edema is a well-supported NIV indication — it improves dyspnea and reduces intubation rate, on top of the preload/afterload benefit of the positive pressure itself.", evidence: "nivEdema" });
+      }
+      // De novo hypoxemic failure is where NIV is most often over-used.
+      if (results.pfRatio < 200 && !hypercapnicObstructive) {
+        warnings.push({ level: "danger", text: `P/F ${results.pfRatio.toFixed(0)} on NIV in de novo hypoxemic failure — this is the setting where NIV performs worst. NIV use in moderate–severe ARDS was associated with higher mortality, and failure requiring delayed intubation carries a worse outcome than early intubation. Set an explicit time limit and intubation trigger rather than persisting.`, evidence: "nivFailure" });
+        warnings.push({ level: "info", text: "In de novo acute hypoxemic respiratory failure specifically, high-flow nasal oxygen gave lower 90-day mortality than either standard oxygen or NIV — consider it rather than escalating NIV pressures.", evidence: "florali" });
+      }
+      if (state.leak > 25) {
+        warnings.push({ level: "warn", text: `Mask leak ${state.leak}% means the patient is receiving an effective ${d.effectiveSupport.toFixed(1)} cmH₂O of support instead of the set ${d.setSupport.toFixed(0)} cmH₂O. Refit the mask before dialing the pressure up — raising IPAP against a big leak mostly increases the leak.` });
+      }
+      if (results.drivingPressure > 15) {
+        warnings.push({ level: "danger", text: `Estimated transpulmonary driving pressure ${results.drivingPressure.toFixed(0)} cmH₂O. On NIV the ventilator cannot show you this — it is the patient's own vigorous effort plus the set support. Large tidal volumes on NIV are associated with failure, and this is the P-SILI mechanism.`, evidence: "florali" });
+      }
+      warnings.push({ level: "info", text: "NIV assumes an awake, cooperative patient who can protect their airway. Depressed consciousness, vomiting, haemodynamic instability, facial trauma or copious secretions all argue for intubation instead." });
+    }
+
+    if (d && d.kind === "hfnc") {
+      const roxIndex = (results.spo2 / (results.deliveredFio2 / 100)) / results.rr;
+      if (d.deliveredFraction < 0.95) {
+        warnings.push({ level: "warn", text: `Flow ${state.flow} L/min is below this patient's estimated peak inspiratory demand of ≈${d.peakDemandLpm.toFixed(0)} L/min, so they entrain room air around the cannula: set FiO₂ ${state.fio2}% is really delivering ≈${results.deliveredFio2.toFixed(0)}%. Raise the flow before raising the FiO₂.` });
+      }
+      if (roxIndex < 4.88) {
+        warnings.push({ level: "danger", text: `ROX index ${roxIndex.toFixed(2)} (SpO₂/FiO₂ ÷ RR) is below 4.88 — the threshold below which high-flow therapy is likely to fail. A persistently low or falling ROX should prompt intubation rather than further escalation.`, evidence: "roxIndex" });
+      } else {
+        warnings.push({ level: "good", text: `ROX index ${roxIndex.toFixed(2)} — at or above the 4.88 threshold associated with high-flow success. Recheck it serially; the trend matters more than a single value.`, evidence: "roxIndex" });
+      }
+      warnings.push({ level: "info", text: `High-flow gives no inspiratory support — the ${results.vt.toFixed(0)} mL tidal volume here is entirely the patient's own effort. Its benefits are dead-space washout (${((1 - d.deadSpaceMultiplier) * 100).toFixed(0)}% less wasted ventilation at this flow), reliable FiO₂, warmed humidified gas, and about ${d.generatedPeep.toFixed(1)} cmH₂O of flow-generated pressure — which is not a substitute for PEEP and disappears if the patient's mouth is open.` });
+      if (scenario.paco2Ref >= 50 && scenario.raw >= 18) {
+        warnings.push({ level: "warn", text: "This is a hypercapnic obstructive patient. High-flow can help, but bilevel NIV is the better-evidenced first-line choice for acute hypercapnic COPD exacerbation.", evidence: "nivCopd" });
+      }
+    }
+
     if (state.mode === "psv" && results.drivingPressure > 15) {
       warnings.push({ level: "warn", text: `In pressure support, the set pressure (PS ${state.ps} cmH₂O) alone doesn't reveal this — the ${results.drivingPressure.toFixed(0)} cmH₂O reflects PS plus the patient's own inspiratory effort, which the ventilator can't display. Vigorous spontaneous effort can injure the lung even when the dialed-in numbers look safe (patient self-inflicted lung injury, P-SILI).` });
     }
@@ -618,6 +748,8 @@
     psv: { desc: "Patient-triggered and patient-cycled: only PEEP/CPAP and pressure support are set. Rate and tidal volume emerge from the patient's own effort and lung mechanics — there is no backup rate." },
     simv: { desc: "A set number of mandatory volume-targeted breaths per minute, with the patient free to take pressure-supported breaths in between. Lower the SIMV rate and the patient picks up more of the work — but note SIMV is not a recommended weaning mode." },
     aprv: { desc: "Continuous high pressure (P_high) held for a long T_high, with brief timed releases to P_low. Oxygenation comes from the high mean airway pressure; T_low is kept deliberately short so the lung never fully empties, and the patient can breathe spontaneously throughout." },
+    niv: { desc: "Non-invasive bilevel support through a mask: the patient breathes spontaneously with IPAP on inspiration and EPAP as the baseline, so the support delivered is IPAP − EPAP. Mask leak directly erodes that support — no tube means no guaranteed delivery." },
+    hfnc: { desc: "High-flow nasal oxygen — heated, humidified gas at a set flow and FiO₂. It provides no inspiratory support at all: benefits come from dead-space washout, reliable FiO₂ delivery when flow meets inspiratory demand, and a small flow-generated pressure." },
   };
 
   // ---------------------------------------------------------------------
@@ -632,6 +764,8 @@
     "aprv-controls", "phigh", "phigh-out", "plow", "plow-out",
     "thigh", "thigh-out", "tlow", "tlow-out", "aprv-readout",
     "simv-readout",
+    "niv-controls", "ipap", "ipap-out", "epap", "epap-out", "leak", "leak-out", "niv-readout",
+    "hfnc-controls", "flow", "flow-out", "hfnc-readout",
     "fio2", "fio2-out", "ie-control", "ie", "ie-out", "rr-control", "rr", "rr-out",
     "hco3", "hco3-out", "reset-btn",
     "scenario-desc", "scenario-teaching", "scenario-evidence",
@@ -695,18 +829,30 @@
   function applyModeVisibility() {
     const mode = els["vent-mode"].value;
     const aprv = mode === "aprv";
+    const niv = mode === "niv";
+    const hfnc = mode === "hfnc";
+    const nonInvasive = niv || hfnc;
+
+    els["niv-controls"].hidden = !niv;
+    els["hfnc-controls"].hidden = !hfnc;
+    els["niv-readout"].hidden = !niv;
+    els["hfnc-readout"].hidden = !hfnc;
     // SIMV borrows the volume-control Vt slider (mandatory breath), the rate
     // slider (mandatory rate) and the PS slider (for spontaneous breaths).
     els["vt-control"].hidden = !(mode === "vc" || mode === "simv");
     els["pc-control"].hidden = mode !== "pc";
     els["ps-control"].hidden = !(mode === "psv" || mode === "simv");
-    els["ie-control"].hidden = mode === "psv" || aprv;
-    els["rr-control"].hidden = mode === "psv" || aprv;
+    // Rate and I:E are patient-determined in every spontaneous mode.
+    els["ie-control"].hidden = mode === "psv" || aprv || nonInvasive;
+    els["rr-control"].hidden = mode === "psv" || aprv || nonInvasive;
     els["aprv-controls"].hidden = !aprv;
     els["simv-readout"].hidden = mode !== "simv";
     els["aprv-readout"].hidden = !aprv;
-    // PEEP is meaningless in APRV — P_low plays that role instead.
-    els.peep.closest(".control-block").hidden = aprv;
+    // PEEP is meaningless in APRV (P_low plays that role), in NIV (EPAP does)
+    // and on high-flow (the small pressure is generated by the flow itself).
+    els.peep.closest(".control-block").hidden = aprv || nonInvasive;
+    // High-flow sets its own oxygen; NIV uses the shared FiO2 slider.
+    els.fio2.closest(".control-block").hidden = false;
     els["mode-desc"].textContent = MODE_INFO[mode].desc;
     els["peep-cpap-tag"].textContent = mode === "psv" ? "(= CPAP level)" : "";
 
@@ -739,6 +885,10 @@
       pLow: Number(els.plow.value),
       tHigh: Number(els.thigh.value),
       tLow: Number(els.tlow.value),
+      ipap: Number(els.ipap.value),
+      epap: Number(els.epap.value),
+      leak: Number(els.leak.value),
+      flow: Number(els.flow.value),
     };
 
     els["peep-out"].textContent = state.peep;
@@ -752,6 +902,10 @@
     els["plow-out"].textContent = state.pLow;
     els["thigh-out"].textContent = state.tHigh.toFixed(1);
     els["tlow-out"].textContent = state.tLow.toFixed(2);
+    els["ipap-out"].textContent = state.ipap;
+    els["epap-out"].textContent = state.epap;
+    els["leak-out"].textContent = state.leak;
+    els["flow-out"].textContent = state.flow;
     els["pbw-out"].textContent = `${pbw.toFixed(0)} kg`;
     els["height-out-unit"].textContent = `${els.height.value} cm`;
     els["scenario-desc"].textContent = scenario.description;
@@ -773,6 +927,20 @@
         `Mandatory: ${d.mandRr}/min × ${d.mandVt.toFixed(0)} mL. ` +
         `Spontaneous (PS ${state.ps}): ≈${d.spontRr.toFixed(0)}/min × ${d.spontVt.toFixed(0)} mL. ` +
         `Total RR ≈ ${r.rr.toFixed(0)}/min, total minute ventilation ${r.minuteVentilation.toFixed(1)} L/min.`;
+    }
+    if (r.detail && r.detail.kind === "niv") {
+      const d = r.detail;
+      els["niv-readout"].textContent =
+        `Set support ${d.setSupport.toFixed(0)} cmH₂O (IPAP ${state.ipap} − EPAP ${state.epap}); after ${state.leak}% leak the patient effectively receives ${d.effectiveSupport.toFixed(1)} cmH₂O. ` +
+        `Resulting breathing: ≈${r.rr.toFixed(0)}/min × ${r.vt.toFixed(0)} mL (${(r.vt / pbw).toFixed(1)} mL/kg PBW), minute ventilation ${r.minuteVentilation.toFixed(1)} L/min.`;
+    }
+    if (r.detail && r.detail.kind === "hfnc") {
+      const d = r.detail;
+      const rox = (r.spo2 / (r.deliveredFio2 / 100)) / r.rr;
+      els["hfnc-readout"].textContent =
+        `Flow ${state.flow} L/min vs. estimated peak inspiratory demand ≈${d.peakDemandLpm.toFixed(0)} L/min → delivered FiO₂ ≈${r.deliveredFio2.toFixed(0)}% (set ${state.fio2}%). ` +
+        `Dead-space washout ${((1 - d.deadSpaceMultiplier) * 100).toFixed(0)}%, flow-generated pressure ≈${d.generatedPeep.toFixed(1)} cmH₂O. ` +
+        `Patient's own breathing: ≈${r.rr.toFixed(0)}/min × ${r.vt.toFixed(0)} mL. ROX index ${rox.toFixed(2)}.`;
     }
     if (r.detail && r.detail.kind === "aprv") {
       const d = r.detail;
@@ -877,7 +1045,8 @@
     initTheme();
 
     ["peep", "vt", "pc", "ps", "fio2", "ie", "rr", "hco3", "height", "sex",
-      "phigh", "plow", "thigh", "tlow"].forEach((id) => {
+      "phigh", "plow", "thigh", "tlow",
+      "ipap", "epap", "leak", "flow"].forEach((id) => {
       els[id].addEventListener("input", render);
     });
     els.scenario.addEventListener("change", () => applyScenarioDefaults(els.scenario.value));
