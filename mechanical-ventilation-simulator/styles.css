@@ -205,7 +205,8 @@ select:focus-visible {
 .sim-weaning,
 .sim-alarms,
 .sim-cases,
-.sim-ultrasound {
+.sim-ultrasound,
+.sim-explain {
   grid-column: 1 / -1;
 }
 
@@ -729,6 +730,57 @@ select:focus-visible {
 
 .sim-mode-readout[hidden] { display: none; }
 
+/* ------------------------------------------------------- Explain */
+
+.sim-explain { border-left: 4px solid var(--info-accent); }
+
+.xp-change {
+  font-weight: 700;
+  font-size: 0.95rem;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  margin: 0 0 1rem;
+}
+
+.xp-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.9rem;
+  margin-bottom: 0.9rem;
+}
+
+.xp-block {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--border);
+  border-radius: 9px;
+  padding: 0.7rem 0.85rem;
+}
+
+.xp-block h3 {
+  margin: 0 0 0.45rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.xp-block ul {
+  margin: 0;
+  padding-left: 1.05rem;
+  font-size: 0.85rem;
+}
+
+.xp-block li { margin-bottom: 0.4rem; }
+.xp-block li:last-child { margin-bottom: 0; }
+.xp-block .xp-empty { list-style: none; margin-left: -1.05rem; color: var(--text-muted); font-style: italic; }
+
+.xp-mechanism { border-top-color: var(--info-accent); }
+.xp-benefit { border-top-color: var(--ok-accent); }
+.xp-risk { border-top-color: var(--danger-accent); }
+
 /* --------------------------------------------------------- Patient */
 
 .sim-patient {
@@ -998,6 +1050,7 @@ select:focus-visible {
   .us-layout { grid-template-columns: 1fr; }
   .vitals-strip { grid-template-columns: repeat(3, 1fr); }
   .pt-results { grid-template-columns: 1fr; }
+  .xp-grid { grid-template-columns: 1fr; }
 }
 
 @media (max-width: 520px) {

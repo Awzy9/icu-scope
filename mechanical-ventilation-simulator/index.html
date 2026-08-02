@@ -321,6 +321,29 @@
         </div>
       </section>
 
+      <section class="sim-panel sim-explain" id="explain-panel" aria-label="Physiology explanation" aria-live="polite">
+        <h2 class="sim-panel-title">🧠 What that change did</h2>
+        <p class="sim-subnote" id="xp-idle">Adjust a ventilator control to see the physiological consequences — mechanism, benefits, risks and the evidence behind them. Every statement is generated from the measured change in this patient, so it reflects what actually happened rather than a general rule.</p>
+        <div id="xp-body" hidden>
+          <p class="xp-change" id="xp-change"></p>
+          <div class="xp-grid">
+            <div class="xp-block xp-mechanism">
+              <h3>Mechanism</h3>
+              <ul id="xp-mechanism"></ul>
+            </div>
+            <div class="xp-block xp-benefit">
+              <h3>Benefits</h3>
+              <ul id="xp-benefits"></ul>
+            </div>
+            <div class="xp-block xp-risk">
+              <h3>Potential risks</h3>
+              <ul id="xp-risks"></ul>
+            </div>
+          </div>
+          <div class="evidence-row" id="xp-evidence"></div>
+        </div>
+      </section>
+
       <section class="sim-panel sim-lung" aria-label="Alveolar recruitment">
         <h2 class="sim-panel-title">🫁 Alveolar recruitment (illustrative)</h2>
         <svg id="lung-svg" class="lung-svg" role="img" aria-label="Grid of alveoli colored by collapsed, normal, or overdistended status"></svg>
@@ -510,6 +533,7 @@
 
   <script src="simulator.js?v=1"></script>
   <script src="patient.js?v=1"></script>
+  <script src="explain.js?v=1"></script>
   <script src="waveforms.js?v=1"></script>
   <script src="weaning.js?v=1"></script>
   <script src="alarms.js?v=1"></script>

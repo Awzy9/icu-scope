@@ -770,6 +770,7 @@
       plateauPressure, peakPressure, meanAirwayPressure, effectiveShunt, recruitedFraction,
       overdistExcess, minuteVentilation, alveolarMinuteVentilation, paco2, pao2, pfRatio, spo2, ph,
       hemodynamicImpact, leakFrac, detail, setPeep: peep, deliveredFio2, hco3,
+      effectiveDeadSpaceFrac,
     };
   }
 

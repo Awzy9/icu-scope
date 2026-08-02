@@ -122,6 +122,15 @@ multiple-choice decision points as the patient evolves. Non-blocking throughout:
 still lets you continue, with accurate feedback either way. Each case ends with a short summary,
 and outcomes feed the shared session dashboard.
 
+**Physiology explanation panel** — after each adjustment settles, a breakdown of what happened:
+the mechanism, the benefits, the potential risks, and the supporting evidence. Nothing here is
+canned. Every line is generated from a *measured* delta between two engine runs, so the panel can
+only claim a benefit that actually occurred and only warns about a risk the numbers actually show.
+The same adjustment produces different text in different lungs, because it produces different
+physiology: raising PEEP in recruitable ARDS reports recruitment and improved oxygenation, while
+the identical move in the fibrotic scenario reports no recruitment at all — just overdistension,
+rising dead space and a falling PaO₂.
+
 **Session dashboard** — a persistent (localStorage) summary tying the other sections together:
 what fraction of explored settings had no danger-level alerts, how many weaning decisions were
 reasonable given the modeled criteria, alarm-troubleshooting accuracy, and clinical-case step
@@ -187,6 +196,7 @@ To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a 
 | `weaning.js` | Simulated SBT, RSBI/NIF estimate, cuff leak, extubation decision feedback |
 | `alarms.js` | 8 DOPES/DOTTS alarm-troubleshooting vignettes with stylized waveforms |
 | `patient.js` | Living virtual patient: monitor, ABG, labs, engine-derived vitals |
+| `explain.js` | Mechanism / benefit / risk / evidence breakdown from measured deltas |
 | `cases.js` | Progressive multi-step clinical cases, evaluated against live simulator state |
 | `ultrasound.js` | BLUE-protocol lung ultrasound views with animated sliding and engine-driven B-lines |
 | `dashboard.js` | Session performance summary read from `window.MVSIM.stats` |
