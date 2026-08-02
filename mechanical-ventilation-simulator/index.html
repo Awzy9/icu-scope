@@ -3,14 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mechanical Ventilation Simulator — ICU Scope</title>
-  <meta name="description" content="Adjust PEEP, tidal volume, FiO2, I:E ratio, and respiratory rate to see predicted effects on oxygenation, CO2, plateau pressure, and driving pressure across common ICU disease scenarios." />
+  <title>Mechanical Ventilation Simulator</title>
+  <meta name="description" content="Interactive, evidence-based mechanical ventilation simulator. Adjust PEEP, tidal volume, FiO2, I:E ratio, and respiratory rate and see predicted effects on oxygenation, CO2, lung mechanics, waveforms, and hemodynamics across common ICU disease scenarios." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-  <link rel="stylesheet" href="style.css?v=28" />
-  <link rel="stylesheet" href="simulator.css?v=1" />
+  <link rel="stylesheet" href="styles.css?v=1" />
   <script>
     (function () {
-      var saved = localStorage.getItem("icu-scope-theme");
+      var saved = localStorage.getItem("mvsim-theme");
       if (saved === "light" || saved === "dark") {
         document.documentElement.setAttribute("data-theme", saved);
       }
@@ -25,15 +24,14 @@
       <div class="header-text">
         <div class="brand">
           <svg class="brand-icon" viewBox="0 0 32 32" aria-hidden="true">
-            <path d="M4 17 H10 L13 9 L18 24 L21 14 L23 17 H28"
+            <path d="M2 25 H8 L11 8 H19 L22 25 H30"
                   fill="none" stroke="currentColor" stroke-width="2.6"
                   stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-          <span class="brand-mark">ICU</span>
-          <span class="brand-name">Scope</span>
+          <span class="brand-mark">Mechanical Ventilation</span>
+          <span class="brand-name">Simulator</span>
         </div>
-        <p class="tagline">🫁 Mechanical Ventilation Simulator</p>
-        <p class="sim-back"><a href="index.html">← Back to literature feed</a></p>
+        <p class="tagline">Interactive respiratory physiology — see why each ventilator setting changes the patient</p>
       </div>
       <div class="header-actions">
         <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
@@ -47,7 +45,7 @@
     Never use this to guide actual ventilator settings.
   </div>
 
-  <main class="content sim-content" id="content">
+  <main class="sim-content" id="content">
     <div class="sim-layout">
       <section class="sim-panel sim-controls" aria-label="Ventilator settings">
         <h2 class="sim-panel-title">Scenario &amp; settings</h2>
@@ -213,11 +211,13 @@
 
   <footer class="site-footer">
     <p>
-      Simplified physiology model for teaching purposes — not validated for clinical use.
+      <strong>Educational use only.</strong> Simplified physiology model for teaching — not validated for clinical use
+      and not a substitute for bedside assessment, training, or institutional protocols.
+    </p>
+    <p>
       Alerts and scenario notes are anchored to major society guidance (ATS/ESICM/SCCM, Surviving Sepsis Campaign)
-      and landmark trials (ARDSnet, Amato 2015, PROSEVA, EXPRESS, ART, HOT-ICU/LOCO2) where cited inline —
+      and landmark trials (ARDSnet, Amato 2015, PROSEVA, EXPRESS, ART, HOT-ICU/LOCO₂) where cited inline —
       always verify against the primary literature before drawing clinical conclusions.
-      Part of <a href="index.html">ICU Scope</a>, an open-source ICU literature &amp; education site.
     </p>
   </footer>
 

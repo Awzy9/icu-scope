@@ -1,0 +1,115 @@
+# Mechanical Ventilation Simulator
+
+An interactive, evidence-based educational platform for critical care.
+
+Adjust ventilator settings and immediately see the predicted effects on respiratory mechanics,
+gas exchange, waveforms, and hemodynamics — with explanations anchored to major ICU guidelines
+and landmark clinical trials.
+
+> ⚠️ **Educational tool only — not for clinical decision-making.**
+> Physiology relationships are simplified for teaching and do not model any real patient.
+> Never use this to guide actual ventilator settings.
+
+## Why this exists
+
+Most ventilator simulators teach you **which buttons to press**. This one aims to teach **why the
+physiology changes** — so clinicians understand not just how to ventilate a patient, but why a given
+strategy improves or worsens outcomes.
+
+It is intended for medical students, residents, fellows, intensivists, emergency physicians,
+anaesthetists, respiratory therapists, and critical care educators.
+
+## Current features
+
+**Interactive ventilator controls** — PEEP, tidal volume (with predicted body weight), FiO₂,
+I:E ratio, respiratory rate, and bicarbonate (for the pH estimate). Every change recomputes the
+patient immediately.
+
+**Physiology engine** — an alveolar-gas / shunt / dead-space model producing:
+
+- *Oxygenation*: PaO₂, SpO₂, P/F ratio, effective shunt fraction
+- *Ventilation*: PaCO₂, pH, minute and alveolar minute ventilation, dead-space fraction
+- *Mechanics*: plateau, peak, mean airway and driving pressure, auto-PEEP, total PEEP
+- *Hemodynamics*: a simplified venous-return / cardiac-output impact estimate
+
+**15 disease scenarios**, each with its own compliance, resistance, recruitability, dead space and
+teaching note:
+
+| | |
+|---|---|
+| Normal lungs | ARDS — mild / moderate / severe (Berlin) |
+| COPD / asthma exacerbation | Cardiogenic pulmonary edema |
+| Severe pneumonia / consolidation | Pulmonary fibrosis |
+| Neuromuscular weakness | Obesity / raised intra-abdominal pressure |
+| COVID-19 ARDS | Massive / submassive pulmonary embolism |
+| Chest trauma / flail chest | Undrained pneumothorax |
+| Bronchopleural fistula (large air leak) | |
+
+**Ventilator waveforms** — pressure–time, flow–time and volume–time traces plus pressure–volume and
+flow–volume loops, generated from the same physiology values.
+
+**Hold maneuvers** — inspiratory hold reveals the true plateau pressure (flow, and therefore
+resistive pressure, removed); expiratory hold reveals total PEEP and the auto-PEEP component,
+mirroring the real bedside maneuvers.
+
+**Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
+overdistended lung units that updates live with the settings.
+
+**Evidence citations** — alerts and teaching notes carry inline references (hover for detail) to:
+
+- ARDSnet ARMA trial (NEJM 2000) — low tidal volume
+- Amato et al. (NEJM 2015) — driving pressure
+- PROSEVA (NEJM 2013) — prone positioning
+- EXPRESS (JAMA 2008) — PEEP titration
+- ART trial (JAMA 2017) — harm from aggressive recruitment / high PEEP
+- HOT-ICU / LOCO₂ (NEJM 2021 / 2020) — conservative oxygen targets
+- ATS/ESICM/SCCM clinical practice guideline (2017) — ARDS ventilation
+
+## Running it
+
+The site is fully static — no build step, no backend, no dependencies. Either:
+
+```bash
+# serve locally
+python3 -m http.server 8000
+# then open http://localhost:8000
+```
+
+…or open `index.html` directly in a browser.
+
+To publish with GitHub Pages: **Settings → Pages → Source → Deploy from a branch → `main` / `/ (root)`**.
+
+## Project layout
+
+| File | Purpose |
+|---|---|
+| `index.html` | Page structure and controls |
+| `simulator.js` | Disease scenarios, physiology engine, evidence map, DOM wiring |
+| `waveforms.js` | Waveform + loop rendering, hold maneuvers, alveolar recruitment view |
+| `styles.css` | Self-contained styling (light/dark themes) |
+
+## Roadmap
+
+Planned, not yet built — several of these need a backend, which the current static setup does not have:
+
+- AI tutor explaining each intervention in context
+- Weaning simulator (RSBI, NIF, cuff leak, spontaneous breathing trial, extubation decision)
+- Ventilator alarm troubleshooting scenarios
+- Progressive clinical cases that evolve with user management
+- Additional ventilation modes (SIMV, PSV, APRV, BiLevel, NIV, HFNC)
+- Performance dashboard and guideline-adherence scoring
+- Imaging, ultrasound and ECMO physiology modules
+
+## Sources
+
+The physiology and thresholds are drawn from standard references — West's *Respiratory Physiology:
+The Essentials*, Wilcox et al., *Mechanical Ventilation in Emergency Medicine*, Owens, *The
+Ventilator Book*, and the Puritan Bennett *Ventilator Waveforms* pocket guide — together with the
+guidelines and trials cited above. FOAMed resources (EMCrit, LITFL, Deranged Physiology, Open
+Critical Care) informed how concepts are explained, but the simulator's rules are based on textbooks
+and primary literature.
+
+## Contributing
+
+Issues and pull requests are welcome — particularly corrections to the physiology, better teaching
+explanations, and additional evidence citations. Please keep the educational-use-only framing intact.

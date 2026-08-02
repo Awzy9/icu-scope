@@ -421,7 +421,7 @@
   function initTheme() {
     const toggle = document.getElementById("theme-toggle");
     if (!toggle) return;
-    const saved = localStorage.getItem("icu-scope-theme");
+    const saved = localStorage.getItem("mvsim-theme");
     const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     const effective = saved || (prefersDark ? "dark" : "light");
     toggle.textContent = effective === "dark" ? "☀️" : "🌙";
@@ -430,7 +430,7 @@
         || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       const next = current === "dark" ? "light" : "dark";
       document.documentElement.setAttribute("data-theme", next);
-      localStorage.setItem("icu-scope-theme", next);
+      localStorage.setItem("mvsim-theme", next);
       toggle.textContent = next === "dark" ? "☀️" : "🌙";
     });
   }

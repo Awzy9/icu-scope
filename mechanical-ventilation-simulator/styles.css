@@ -1,0 +1,548 @@
+/* ===================================================================
+   Mechanical Ventilation Simulator — self-contained stylesheet.
+   No external dependencies: theme tokens, base layout, and component
+   styles all live here so the project can be served as a standalone
+   static site.
+   =================================================================== */
+
+:root {
+  --bg: #f6f5f1;
+  --surface: #ffffff;
+  --surface-soft: #fbfaf7;
+  --border: #e6e2d8;
+  --text: #2c2a26;
+  --text-muted: #756f63;
+  --accent: #2f7566;
+  --accent-strong: #1f5c4f;
+  --accent-soft: #e5f0ec;
+  --danger-bg: #fdecea;
+  --danger-border: #f2b8b5;
+  --danger-accent: #b3261e;
+  --warn-bg: #fdf6e8;
+  --warn-accent: #a5730c;
+  --info-bg: #eef3fb;
+  --info-accent: #2f5e9c;
+  --ok-accent: #2e7d32;
+  --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
+  --radius: 12px;
+}
+
+:root[data-theme="dark"] {
+  --bg: #1a1c19;
+  --surface: #232622;
+  --surface-soft: #262924;
+  --border: #34382f;
+  --text: #ece9e2;
+  --text-muted: #a6a190;
+  --accent: #4bbfa8;
+  --accent-strong: #6ed4bd;
+  --accent-soft: #1f342e;
+  --danger-bg: #33201d;
+  --danger-border: #522e2a;
+  --danger-accent: #e2857d;
+  --warn-bg: #2c2717;
+  --warn-accent: #e0b448;
+  --info-bg: #16202c;
+  --info-accent: #6fa8e0;
+  --ok-accent: #6fcf7a;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1a1c19;
+    --surface: #232622;
+    --surface-soft: #262924;
+    --border: #34382f;
+    --text: #ece9e2;
+    --text-muted: #a6a190;
+    --accent: #4bbfa8;
+    --accent-strong: #6ed4bd;
+    --accent-soft: #1f342e;
+    --danger-bg: #33201d;
+    --danger-border: #522e2a;
+    --danger-accent: #e2857d;
+    --warn-bg: #2c2717;
+    --warn-accent: #e0b448;
+    --info-bg: #16202c;
+    --info-accent: #6fa8e0;
+    --ok-accent: #6fcf7a;
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 17px;
+  line-height: 1.65;
+  transition: background 0.2s, color 0.2s;
+}
+
+a { color: var(--accent-strong); }
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  background: var(--accent-strong);
+  color: #fff;
+  padding: 0.6rem 1rem;
+  border-radius: 0 0 8px 0;
+}
+
+.skip-link:focus { left: 0; }
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 2px solid var(--accent-strong);
+  outline-offset: 2px;
+}
+
+/* ---------------------------------------------------------------- Header */
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  padding: 2rem 1.5rem 1.5rem;
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.header-text { flex: 1; min-width: 0; }
+
+.header-actions {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.brand-icon {
+  width: 1.8rem;
+  height: 1.8rem;
+  color: var(--accent-strong);
+  flex: none;
+}
+
+.brand-mark { color: var(--accent-strong); letter-spacing: 0.02em; }
+
+.tagline {
+  margin: 0.5rem 0 0;
+  color: var(--text-muted);
+  font-size: 1rem;
+}
+
+.theme-toggle {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  color: var(--text);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  font-size: 1.15rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-toggle:hover { border-color: var(--accent); }
+
+/* ------------------------------------------------------------ Disclaimer */
+
+.sim-disclaimer {
+  background: var(--danger-bg);
+  border-bottom: 1px solid var(--danger-border);
+  color: var(--danger-accent);
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* ---------------------------------------------------------------- Layout */
+
+.sim-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.sim-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 380px) 1fr;
+  gap: 1.5rem;
+}
+
+.sim-lung,
+.sim-waveforms {
+  grid-column: 1 / -1;
+}
+
+.sim-panel {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem;
+}
+
+.sim-panel-title {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+/* -------------------------------------------------------------- Controls */
+
+.toolbar-btn {
+  flex: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  padding: 0.5rem 0.85rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.toolbar-btn:hover { border-color: var(--accent); }
+
+.toolbar-btn[aria-pressed="true"] {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-color: var(--accent-strong);
+}
+
+.control-block { margin-bottom: 1.1rem; }
+
+.control-block label {
+  display: block;
+  font-weight: 600;
+  font-size: 0.92rem;
+  margin-bottom: 0.3rem;
+}
+
+.control-block output {
+  font-weight: 700;
+  color: var(--accent-strong);
+}
+
+.control-unit {
+  font-weight: 400;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.control-block input[type="range"] {
+  width: 100%;
+  accent-color: var(--accent);
+}
+
+.sim-select {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  color: var(--text);
+  font-size: 0.95rem;
+}
+
+.sim-scenario-desc {
+  margin: 0.4rem 0 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.sim-subnote {
+  margin: 0.3rem 0 0;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.sim-patient-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem 1rem;
+}
+
+.sim-patient-row .sim-pbw {
+  grid-column: 1 / -1;
+  font-size: 0.88rem;
+}
+
+.sim-advanced { margin-bottom: 1rem; }
+
+.sim-advanced summary {
+  cursor: pointer;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+}
+
+.sim-reset-btn { width: 100%; }
+
+/* --------------------------------------------------------------- Results */
+
+.sim-result-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.9rem;
+  margin-bottom: 1.1rem;
+}
+
+.sim-result-card {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem;
+}
+
+.sim-result-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 0.95rem;
+}
+
+.sim-result-values {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.sim-result-values span {
+  display: block;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.sim-result-values small {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+}
+
+.gauge {
+  height: 8px;
+  border-radius: 999px;
+  background: var(--border);
+  overflow: hidden;
+}
+
+.gauge-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.2s ease, background 0.2s ease;
+}
+
+.gauge-good { background: var(--ok-accent); }
+.gauge-warn { background: var(--warn-accent); }
+.gauge-bad { background: var(--danger-accent); }
+
+.sim-secondary {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.6rem;
+  margin-bottom: 1.1rem;
+}
+
+.sim-secondary div {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.sim-secondary small {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+}
+
+.sim-secondary span { font-weight: 700; }
+
+/* ---------------------------------------------------- Teaching + evidence */
+
+.sim-teaching-box {
+  background: var(--accent-soft);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 0.8rem;
+  margin-bottom: 1.1rem;
+  font-size: 0.9rem;
+}
+
+.sim-teaching-box p { margin: 0 0 0.5rem; }
+
+.evidence-row {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.evidence-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: var(--accent-strong);
+  background: var(--surface);
+  border: 1px solid var(--accent-strong);
+  border-radius: 999px;
+  padding: 0.1rem 0.55rem;
+  cursor: help;
+}
+
+/* -------------------------------------------------------------- Warnings */
+
+.warnings-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.warning-item {
+  border-left: 4px solid var(--border);
+  padding: 0.5rem 0.7rem;
+  border-radius: 6px;
+  font-size: 0.88rem;
+  background: var(--surface-soft);
+}
+
+.warning-danger { border-color: var(--danger-accent); background: var(--danger-bg); }
+.warning-warn { border-color: var(--warn-accent); background: var(--warn-bg); }
+.warning-info { border-color: var(--info-accent); background: var(--info-bg); }
+.warning-good { border-color: var(--ok-accent); }
+
+/* ------------------------------------------------------------ Lung view */
+
+.lung-svg {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.alveolus { transition: r 0.25s ease, fill 0.25s ease; }
+
+.lung-legend {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 0.75rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+}
+
+.legend-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  vertical-align: middle;
+}
+
+.legend-collapsed { background: var(--text-muted); }
+.legend-normal { background: var(--accent); }
+.legend-overdist { background: var(--danger-accent); }
+
+/* ------------------------------------------------------------ Waveforms */
+
+.wave-controls {
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.5rem;
+}
+
+.wave-canvas-row,
+.loop-canvas-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.loop-canvas-row { grid-template-columns: 1fr 1fr; }
+
+.wave-canvas-wrap {
+  background: var(--surface-soft);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.wave-label {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.wave-canvas-wrap canvas {
+  width: 100%;
+  display: block;
+}
+
+/* ---------------------------------------------------------------- Footer */
+
+.site-footer {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem;
+  color: var(--text-muted);
+  font-size: 0.82rem;
+  border-top: 1px solid var(--border);
+}
+
+.site-footer p { margin: 0 0 0.6rem; }
+
+/* ------------------------------------------------------------ Responsive */
+
+@media (max-width: 800px) {
+  .sim-layout { grid-template-columns: 1fr; }
+  .sim-patient-row { grid-template-columns: 1fr; }
+  .sim-result-grid { grid-template-columns: 1fr; }
+  .sim-secondary { grid-template-columns: repeat(2, 1fr); }
+  .wave-canvas-row,
+  .loop-canvas-row { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 520px) {
+  body { font-size: 16px; }
+  .site-header { padding: 1.5rem 1.1rem 1.1rem; }
+  .sim-content { padding: 1.1rem 1.2rem; }
+  /* Stop iOS Safari auto-zooming when a sub-16px control takes focus. */
+  .sim-select, .toolbar-btn { font-size: 16px; }
+}
