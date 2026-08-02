@@ -968,6 +968,11 @@
       overdistExcess, minuteVentilation, alveolarMinuteVentilation, paco2, pao2, pfRatio, spo2, ph,
       hemodynamicImpact, leakFrac, detail, setPeep: peep, deliveredFio2, hco3,
       effectiveDeadSpaceFrac,
+      // The drifted/event-perturbed shuntBase actually driving effectiveShunt
+      // above — distinct from the caller's own `scenario` reference, which
+      // stays the textbook original. The lung-recruitment visualization needs
+      // this to split effectiveShunt into its recruitable-vs-fixed origin.
+      effectiveShuntBase: scenario.shuntBase,
     };
   }
 

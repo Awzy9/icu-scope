@@ -311,9 +311,23 @@
   }
 
   // -----------------------------------------------------------------------
-  // Simple 2D alveoli grid: visualizes collapsed / normally-aerated /
-  // overdistended units as colored, differently-sized circles. Not a real
-  // spatial model — just a qualitative picture of recruitment status.
+  // 2D alveoli grid: a qualitative picture of recruitment status, not a real
+  // spatial model. Five states, derived entirely from numbers compute()
+  // already produces:
+  //
+  //   - Hyperinflated: the existing overdistension signal (r.overdistExcess).
+  //   - Of the remaining shunt (r.effectiveShuntBase), split by how much of
+  //     it is scenario.recruitableFrac (diseased-but-PEEP-responsive tissue,
+  //     e.g. ARDS atelectasis) vs. the rest (PEEP-proof — e.g. a pneumonic
+  //     consolidation, which stays airless and shunted no matter what the
+  //     ventilator does):
+  //       - Consolidated: the non-recruitable share — always shunted here.
+  //       - Recruited: the recruitable share currently OPEN, per
+  //         r.recruitedFraction — i.e. units this PEEP is actively holding
+  //         open, shown distinctly from tissue that was never diseased so a
+  //         PEEP change's effect is visible unit-by-unit, not just in shunt%.
+  //       - Atelectatic: the recruitable share still shut at this pressure.
+  //   - Normal: whatever's left.
   // -----------------------------------------------------------------------
   const LUNG_UNITS = 16;
 
@@ -321,32 +335,52 @@
     const svg = document.getElementById("lung-svg");
     if (!svg) return;
 
-    const collapsedCount = clampInt(Math.round(LUNG_UNITS * r.effectiveShunt), 0, LUNG_UNITS);
-    const overdistCount = clampInt(Math.round(LUNG_UNITS * Math.min(r.overdistExcess / 8, 0.35)), 0, LUNG_UNITS - collapsedCount);
-    const normalCount = LUNG_UNITS - collapsedCount - overdistCount;
+    const effShuntBase = r.effectiveShuntBase != null ? r.effectiveShuntBase : r.effectiveShunt;
+    const recruitableFrac = Math.max(0, Math.min(1, scenario.recruitableFrac || 0));
+    const recruitedFraction = Math.max(0, Math.min(1, r.recruitedFraction || 0));
+
+    const consolidatedFrac = effShuntBase * (1 - recruitableFrac);
+    const recruitedFrac = effShuntBase * recruitableFrac * recruitedFraction;
+    const atelectaticFrac = effShuntBase * recruitableFrac * (1 - recruitedFraction);
+
+    const hyperCount = clampInt(Math.round(LUNG_UNITS * Math.min(r.overdistExcess / 8, 0.35)), 0, LUNG_UNITS);
+    const consolidatedCount = clampInt(Math.round(LUNG_UNITS * consolidatedFrac), 0, LUNG_UNITS - hyperCount);
+    const recruitedCount = clampInt(Math.round(LUNG_UNITS * recruitedFrac), 0, LUNG_UNITS - hyperCount - consolidatedCount);
+    const atelectaticCount = clampInt(
+      Math.round(LUNG_UNITS * atelectaticFrac), 0, LUNG_UNITS - hyperCount - consolidatedCount - recruitedCount
+    );
+    const normalCount = LUNG_UNITS - hyperCount - consolidatedCount - recruitedCount - atelectaticCount;
 
     const roles = [];
-    for (let i = 0; i < collapsedCount; i++) roles.push("collapsed");
+    for (let i = 0; i < atelectaticCount; i++) roles.push("atelectatic");
+    for (let i = 0; i < consolidatedCount; i++) roles.push("consolidated");
     for (let i = 0; i < normalCount; i++) roles.push("normal");
-    for (let i = 0; i < overdistCount; i++) roles.push("overdist");
+    for (let i = 0; i < recruitedCount; i++) roles.push("recruited");
+    for (let i = 0; i < hyperCount; i++) roles.push("overdist");
 
     const cols = 4, rows = 4, cellW = 60, cellH = 60;
     svg.setAttribute("viewBox", `0 0 ${cols * cellW} ${rows * cellH}`);
     svg.innerHTML = "";
 
+    const STYLE = {
+      atelectatic: { radius: 8, fill: "var(--text-muted, #999)", opacity: "0.75" },
+      consolidated: { radius: 11, fill: "var(--warn-accent, #a5730c)", opacity: "0.85" },
+      normal: { radius: 18, fill: "var(--accent, #2f7566)", opacity: "0.55" },
+      recruited: { radius: 15, fill: "var(--info-accent, #2f5e9c)", opacity: "0.7" },
+      overdist: { radius: 26, fill: "var(--danger-accent, #b3261e)", opacity: "0.75" },
+    };
+
     roles.forEach((role, i) => {
       const col = i % cols, row = Math.floor(i / cols);
       const cx = col * cellW + cellW / 2;
       const cy = row * cellH + cellH / 2;
-      let radius = 18, fill = "var(--accent, #2f7566)", extra = "";
-      if (role === "collapsed") { radius = 8; fill = "var(--text-muted, #999)"; }
-      else if (role === "overdist") { radius = 26; fill = "var(--danger-accent, #b3261e)"; }
+      const style = STYLE[role];
       const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
       circle.setAttribute("cx", cx);
       circle.setAttribute("cy", cy);
-      circle.setAttribute("r", radius);
-      circle.setAttribute("fill", fill);
-      circle.setAttribute("fill-opacity", role === "normal" ? "0.55" : "0.75");
+      circle.setAttribute("r", style.radius);
+      circle.setAttribute("fill", style.fill);
+      circle.setAttribute("fill-opacity", style.opacity);
       circle.setAttribute("class", `alveolus alveolus-${role}`);
       svg.appendChild(circle);
     });

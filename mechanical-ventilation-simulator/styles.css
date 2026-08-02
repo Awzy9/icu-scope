@@ -577,8 +577,10 @@ html[data-difficulty="consultant"] .gated-note {
   vertical-align: middle;
 }
 
-.legend-collapsed { background: var(--text-muted); }
+.legend-atelectatic { background: var(--text-muted); }
+.legend-consolidated { background: var(--warn-accent); }
 .legend-normal { background: var(--accent); }
+.legend-recruited { background: var(--info-accent); }
 .legend-overdist { background: var(--danger-accent); }
 
 /* ------------------------------------------------------------ Waveforms */

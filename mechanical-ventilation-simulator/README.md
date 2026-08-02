@@ -102,8 +102,15 @@ flow–volume loops, generated from the same physiology values.
 resistive pressure, removed); expiratory hold reveals total PEEP and the auto-PEEP component,
 mirroring the real bedside maneuvers.
 
-**Alveolar recruitment view** — a simple 2D visualisation of collapsed, normally aerated and
-overdistended lung units that updates live with the settings.
+**Alveolar recruitment view** — a 2D grid of alveoli in five states, entirely derived from numbers
+`compute()` already produces rather than a separate model: hyperinflated (the existing overdistension
+signal); of the remaining shunt, the share attributable to `recruitableFrac` (diseased-but-PEEP-
+responsive tissue, e.g. ARDS atelectasis) split into *recruited* (currently held open by this PEEP,
+via `recruitedFraction`) vs. still *atelectatic*; the non-recruitable share of shunt shown as
+*consolidated* — a pneumonic consolidation that stays shunted no matter what the ventilator does, a
+distinction the earlier two-state (collapsed/normal) grid couldn't show. Raising PEEP on a
+recruitable ARDS lung visibly moves units from atelectatic to recruited while the consolidated count
+stays flat — the visualization is showing, unit by unit, what PEEP can and can't fix.
 
 **Collapsible panels** — every section (settings, results, patient labs, waveforms, ultrasound, etc.)
 has a toggle in its header to collapse it out of the way; the Patient panel's ABG and Laboratory

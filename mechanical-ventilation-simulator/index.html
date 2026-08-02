@@ -492,11 +492,17 @@
 
       <section class="sim-panel sim-lung" id="lung-panel" aria-label="Alveolar recruitment">
         <h2 class="sim-panel-title">🫁 Alveolar recruitment (illustrative)</h2>
-        <svg id="lung-svg" class="lung-svg" role="img" aria-label="Grid of alveoli colored by collapsed, normal, or overdistended status"></svg>
+        <p class="sim-subnote">
+          Not a spatial model — a qualitative picture of where this lung's shunt is coming from and
+          what your current PEEP is doing about it.
+        </p>
+        <svg id="lung-svg" class="lung-svg" role="img" aria-label="Grid of alveoli colored by atelectatic, consolidated, normal, recruited, or overdistended status"></svg>
         <div class="lung-legend">
-          <span><i class="legend-dot legend-collapsed"></i> Collapsed / shunt</span>
+          <span><i class="legend-dot legend-atelectatic"></i> Atelectatic — collapsed, but PEEP-responsive</span>
+          <span><i class="legend-dot legend-consolidated"></i> Consolidated — shunted regardless of PEEP</span>
           <span><i class="legend-dot legend-normal"></i> Normally aerated</span>
-          <span><i class="legend-dot legend-overdist"></i> Overdistended</span>
+          <span><i class="legend-dot legend-recruited"></i> Recruited — open because of the current PEEP</span>
+          <span><i class="legend-dot legend-overdist"></i> Hyperinflated / overdistended</span>
         </div>
       </section>
 
