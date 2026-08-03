@@ -247,7 +247,10 @@ html[data-difficulty="consultant"] .gated-note {
 
 .sim-layout {
   display: grid;
-  grid-template-columns: minmax(280px, 380px) 1fr;
+  /* Was a two-column track pairing settings with results; settings now
+     lives above this grid as its own full-width panel, so results (and
+     everything else in here) just gets the one column. */
+  grid-template-columns: 1fr;
   gap: 1.5rem;
 }
 
@@ -1387,7 +1390,6 @@ html[data-difficulty="consultant"] .gated-note {
 /* ------------------------------------------------------------ Responsive */
 
 @media (max-width: 800px) {
-  .sim-layout { grid-template-columns: 1fr; }
   .sim-patient-row { grid-template-columns: 1fr; }
   .sim-result-grid { grid-template-columns: 1fr; }
   .sim-secondary { grid-template-columns: repeat(2, 1fr); }

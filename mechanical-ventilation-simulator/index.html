@@ -64,6 +64,149 @@
   </div>
 
   <main class="sim-content" id="content">
+    <section class="sim-panel sim-controls" id="controls-panel" aria-label="Ventilator settings">
+      <h2 class="sim-panel-title">Scenario &amp; settings</h2>
+
+      <div class="control-block">
+        <label for="scenario">Disease scenario</label>
+        <select id="scenario" class="sim-select"></select>
+        <p class="sim-scenario-desc" id="scenario-desc"></p>
+      </div>
+
+      <div class="control-block">
+        <label for="vent-mode">Ventilation mode</label>
+        <select id="vent-mode" class="sim-select">
+          <optgroup label="Invasive (intubated)">
+            <option value="vc">Volume Control (AC/VC)</option>
+            <option value="pc">Pressure Control (AC/PC)</option>
+            <option value="psv">Pressure Support / CPAP (spontaneous)</option>
+            <option value="simv">SIMV + Pressure Support</option>
+            <option value="aprv">APRV / BiLevel</option>
+          </optgroup>
+          <optgroup label="Non-invasive">
+            <option value="niv">NIV — bilevel (IPAP/EPAP)</option>
+            <option value="hfnc">High-flow nasal oxygen (HFNC)</option>
+          </optgroup>
+        </select>
+        <p class="sim-subnote" id="mode-desc"></p>
+      </div>
+
+      <div class="control-block sim-patient-row">
+        <div>
+          <label for="sex">Sex</label>
+          <select id="sex" class="sim-select">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <div>
+          <label for="height">Height <span class="control-unit" id="height-out-unit">170 cm</span></label>
+          <input type="range" id="height" min="140" max="200" step="1" value="170" />
+        </div>
+        <div class="sim-ibw">Ideal body weight: <strong id="ibw-out">–</strong></div>
+      </div>
+
+      <div class="control-block">
+        <label for="peep">PEEP <span id="peep-cpap-tag"></span> <output id="peep-out"></output> <span class="control-unit">cmH₂O</span></label>
+        <input type="range" id="peep" min="0" max="24" step="1" value="5" />
+      </div>
+
+      <div class="control-block" id="vt-control">
+        <label for="vt">Tidal volume <output id="vt-out"></output> <span class="control-unit">mL</span></label>
+        <input type="range" id="vt" min="200" max="700" step="10" value="420" />
+        <p class="sim-subnote" id="vt-per-kg"></p>
+      </div>
+
+      <div class="control-block" id="pc-control" hidden>
+        <label for="pc">Inspiratory pressure (above PEEP) <output id="pc-out"></output> <span class="control-unit">cmH₂O</span></label>
+        <input type="range" id="pc" min="5" max="40" step="1" value="15" />
+        <p class="sim-subnote" id="pc-vt-readout"></p>
+      </div>
+
+      <div class="control-block" id="ps-control" hidden>
+        <label for="ps">Pressure support (above PEEP) <output id="ps-out"></output> <span class="control-unit">cmH₂O</span></label>
+        <input type="range" id="ps" min="0" max="25" step="1" value="10" />
+        <p class="sim-subnote" id="ps-breath-readout"></p>
+      </div>
+
+      <div id="aprv-controls" hidden>
+        <div class="control-block">
+          <label for="phigh">P<sub>high</sub> <output id="phigh-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <input type="range" id="phigh" min="10" max="40" step="1" value="25" />
+        </div>
+        <div class="control-block">
+          <label for="plow">P<sub>low</sub> <output id="plow-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <input type="range" id="plow" min="0" max="15" step="1" value="0" />
+        </div>
+        <div class="control-block">
+          <label for="thigh">T<sub>high</sub> <output id="thigh-out"></output> <span class="control-unit">s</span></label>
+          <input type="range" id="thigh" min="2" max="8" step="0.1" value="4.5" />
+        </div>
+        <div class="control-block">
+          <label for="tlow">T<sub>low</sub> <output id="tlow-out"></output> <span class="control-unit">s</span></label>
+          <input type="range" id="tlow" min="0.1" max="1.5" step="0.05" value="0.3" />
+        </div>
+      </div>
+
+      <div id="niv-controls" hidden>
+        <div class="control-block">
+          <label for="ipap">IPAP <output id="ipap-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <input type="range" id="ipap" min="6" max="30" step="1" value="14" />
+        </div>
+        <div class="control-block">
+          <label for="epap">EPAP <output id="epap-out"></output> <span class="control-unit">cmH₂O</span></label>
+          <input type="range" id="epap" min="2" max="16" step="1" value="5" />
+        </div>
+        <div class="control-block">
+          <label for="leak">Mask leak <output id="leak-out"></output> <span class="control-unit">%</span></label>
+          <input type="range" id="leak" min="0" max="50" step="1" value="10" />
+        </div>
+      </div>
+
+      <div id="hfnc-controls" hidden>
+        <div class="control-block">
+          <label for="flow">Gas flow <output id="flow-out"></output> <span class="control-unit">L/min</span></label>
+          <input type="range" id="flow" min="10" max="70" step="5" value="50" />
+        </div>
+      </div>
+
+      <p class="sim-subnote sim-mode-readout" id="simv-readout" hidden></p>
+      <p class="sim-subnote sim-mode-readout" id="aprv-readout" hidden></p>
+      <p class="sim-subnote sim-mode-readout" id="niv-readout" hidden></p>
+      <p class="sim-subnote sim-mode-readout" id="hfnc-readout" hidden></p>
+
+      <div class="control-block">
+        <label for="fio2">FiO₂ <output id="fio2-out"></output> <span class="control-unit">%</span></label>
+        <input type="range" id="fio2" min="21" max="100" step="1" value="40" />
+      </div>
+
+
+      <div class="control-block">
+        <label for="norad">Noradrenaline <output id="norad-out"></output> <span class="control-unit">mcg/kg/min</span></label>
+        <input type="range" id="norad" min="0" max="0.5" step="0.01" value="0" />
+        <p class="sim-subnote">Supports the blood pressure without altering what the ventilator is doing to venous return.</p>
+      </div>
+      <div class="control-block" id="ie-control">
+        <label for="ie">I:E ratio <output id="ie-out"></output></label>
+        <input type="range" id="ie" min="0.3" max="5" step="0.1" value="2" />
+      </div>
+
+      <div class="control-block" id="rr-control">
+        <label for="rr">Respiratory rate <output id="rr-out"></output> <span class="control-unit">/min</span></label>
+        <input type="range" id="rr" min="5" max="40" step="1" value="16" />
+      </div>
+
+      <details class="sim-advanced">
+        <summary>Advanced: bicarbonate (for pH estimate)</summary>
+        <div class="control-block">
+          <label for="hco3">HCO₃⁻ <output id="hco3-out"></output> <span class="control-unit">mEq/L</span></label>
+          <input type="range" id="hco3" min="15" max="40" step="1" value="24" />
+        </div>
+      </details>
+
+      <button type="button" id="reset-btn" class="toolbar-btn sim-reset-btn">↺ Reset to scenario defaults</button>
+    </section>
+
     <section class="sim-panel sim-patient" id="patient-panel" aria-label="Patient">
       <div class="pt-header">
         <div class="pt-identity">
@@ -144,149 +287,6 @@
     </section>
 
     <div class="sim-layout">
-      <section class="sim-panel sim-controls" id="controls-panel" aria-label="Ventilator settings">
-        <h2 class="sim-panel-title">Scenario &amp; settings</h2>
-
-        <div class="control-block">
-          <label for="scenario">Disease scenario</label>
-          <select id="scenario" class="sim-select"></select>
-          <p class="sim-scenario-desc" id="scenario-desc"></p>
-        </div>
-
-        <div class="control-block">
-          <label for="vent-mode">Ventilation mode</label>
-          <select id="vent-mode" class="sim-select">
-            <optgroup label="Invasive (intubated)">
-              <option value="vc">Volume Control (AC/VC)</option>
-              <option value="pc">Pressure Control (AC/PC)</option>
-              <option value="psv">Pressure Support / CPAP (spontaneous)</option>
-              <option value="simv">SIMV + Pressure Support</option>
-              <option value="aprv">APRV / BiLevel</option>
-            </optgroup>
-            <optgroup label="Non-invasive">
-              <option value="niv">NIV — bilevel (IPAP/EPAP)</option>
-              <option value="hfnc">High-flow nasal oxygen (HFNC)</option>
-            </optgroup>
-          </select>
-          <p class="sim-subnote" id="mode-desc"></p>
-        </div>
-
-        <div class="control-block sim-patient-row">
-          <div>
-            <label for="sex">Sex</label>
-            <select id="sex" class="sim-select">
-              <option value="male">Male</option>
-              <option value="female">Female</option>
-            </select>
-          </div>
-          <div>
-            <label for="height">Height <span class="control-unit" id="height-out-unit">170 cm</span></label>
-            <input type="range" id="height" min="140" max="200" step="1" value="170" />
-          </div>
-          <div class="sim-ibw">Ideal body weight: <strong id="ibw-out">–</strong></div>
-        </div>
-
-        <div class="control-block">
-          <label for="peep">PEEP <span id="peep-cpap-tag"></span> <output id="peep-out"></output> <span class="control-unit">cmH₂O</span></label>
-          <input type="range" id="peep" min="0" max="24" step="1" value="5" />
-        </div>
-
-        <div class="control-block" id="vt-control">
-          <label for="vt">Tidal volume <output id="vt-out"></output> <span class="control-unit">mL</span></label>
-          <input type="range" id="vt" min="200" max="700" step="10" value="420" />
-          <p class="sim-subnote" id="vt-per-kg"></p>
-        </div>
-
-        <div class="control-block" id="pc-control" hidden>
-          <label for="pc">Inspiratory pressure (above PEEP) <output id="pc-out"></output> <span class="control-unit">cmH₂O</span></label>
-          <input type="range" id="pc" min="5" max="40" step="1" value="15" />
-          <p class="sim-subnote" id="pc-vt-readout"></p>
-        </div>
-
-        <div class="control-block" id="ps-control" hidden>
-          <label for="ps">Pressure support (above PEEP) <output id="ps-out"></output> <span class="control-unit">cmH₂O</span></label>
-          <input type="range" id="ps" min="0" max="25" step="1" value="10" />
-          <p class="sim-subnote" id="ps-breath-readout"></p>
-        </div>
-
-        <div id="aprv-controls" hidden>
-          <div class="control-block">
-            <label for="phigh">P<sub>high</sub> <output id="phigh-out"></output> <span class="control-unit">cmH₂O</span></label>
-            <input type="range" id="phigh" min="10" max="40" step="1" value="25" />
-          </div>
-          <div class="control-block">
-            <label for="plow">P<sub>low</sub> <output id="plow-out"></output> <span class="control-unit">cmH₂O</span></label>
-            <input type="range" id="plow" min="0" max="15" step="1" value="0" />
-          </div>
-          <div class="control-block">
-            <label for="thigh">T<sub>high</sub> <output id="thigh-out"></output> <span class="control-unit">s</span></label>
-            <input type="range" id="thigh" min="2" max="8" step="0.1" value="4.5" />
-          </div>
-          <div class="control-block">
-            <label for="tlow">T<sub>low</sub> <output id="tlow-out"></output> <span class="control-unit">s</span></label>
-            <input type="range" id="tlow" min="0.1" max="1.5" step="0.05" value="0.3" />
-          </div>
-        </div>
-
-        <div id="niv-controls" hidden>
-          <div class="control-block">
-            <label for="ipap">IPAP <output id="ipap-out"></output> <span class="control-unit">cmH₂O</span></label>
-            <input type="range" id="ipap" min="6" max="30" step="1" value="14" />
-          </div>
-          <div class="control-block">
-            <label for="epap">EPAP <output id="epap-out"></output> <span class="control-unit">cmH₂O</span></label>
-            <input type="range" id="epap" min="2" max="16" step="1" value="5" />
-          </div>
-          <div class="control-block">
-            <label for="leak">Mask leak <output id="leak-out"></output> <span class="control-unit">%</span></label>
-            <input type="range" id="leak" min="0" max="50" step="1" value="10" />
-          </div>
-        </div>
-
-        <div id="hfnc-controls" hidden>
-          <div class="control-block">
-            <label for="flow">Gas flow <output id="flow-out"></output> <span class="control-unit">L/min</span></label>
-            <input type="range" id="flow" min="10" max="70" step="5" value="50" />
-          </div>
-        </div>
-
-        <p class="sim-subnote sim-mode-readout" id="simv-readout" hidden></p>
-        <p class="sim-subnote sim-mode-readout" id="aprv-readout" hidden></p>
-        <p class="sim-subnote sim-mode-readout" id="niv-readout" hidden></p>
-        <p class="sim-subnote sim-mode-readout" id="hfnc-readout" hidden></p>
-
-        <div class="control-block">
-          <label for="fio2">FiO₂ <output id="fio2-out"></output> <span class="control-unit">%</span></label>
-          <input type="range" id="fio2" min="21" max="100" step="1" value="40" />
-        </div>
-
-
-        <div class="control-block">
-          <label for="norad">Noradrenaline <output id="norad-out"></output> <span class="control-unit">mcg/kg/min</span></label>
-          <input type="range" id="norad" min="0" max="0.5" step="0.01" value="0" />
-          <p class="sim-subnote">Supports the blood pressure without altering what the ventilator is doing to venous return.</p>
-        </div>
-        <div class="control-block" id="ie-control">
-          <label for="ie">I:E ratio <output id="ie-out"></output></label>
-          <input type="range" id="ie" min="0.3" max="5" step="0.1" value="2" />
-        </div>
-
-        <div class="control-block" id="rr-control">
-          <label for="rr">Respiratory rate <output id="rr-out"></output> <span class="control-unit">/min</span></label>
-          <input type="range" id="rr" min="5" max="40" step="1" value="16" />
-        </div>
-
-        <details class="sim-advanced">
-          <summary>Advanced: bicarbonate (for pH estimate)</summary>
-          <div class="control-block">
-            <label for="hco3">HCO₃⁻ <output id="hco3-out"></output> <span class="control-unit">mEq/L</span></label>
-            <input type="range" id="hco3" min="15" max="40" step="1" value="24" />
-          </div>
-        </details>
-
-        <button type="button" id="reset-btn" class="toolbar-btn sim-reset-btn">↺ Reset to scenario defaults</button>
-      </section>
-
       <section class="sim-panel sim-results" id="results-panel" aria-label="Predicted effects">
         <h2 class="sim-panel-title">Predicted effects</h2>
 
