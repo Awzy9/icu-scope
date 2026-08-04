@@ -1,4 +1,10 @@
 {
+  "pmid:42377460": {
+    "key_stats": "",
+    "summary": "This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.",
+    "significance": "Understanding and addressing neurological complications in critical illness is crucial for improving patient outcomes and reducing long-term disability.",
+    "rounds_takeaway": "Consider standardized delirium screening and judicious sedative use in patients at risk for neurological complications."
+  },
   "pmid:42413523": {
     "clinical_question": "Is low-dose unfractionated heparin or low-molecular-weight heparin non-inferior to standard-dose unfractionated heparin in patients receiving extracorporeal life support?",
     "background": "In patients receiving extracorporeal membrane oxygenation (ECMO), standard practice is full-dose intravenous unfractionated heparin (UFH) targeting an activated partial thromboplastin time of 2·0-2·5 times baseline to reduce thrombotic risk, but this approach can increase bleeding without further reducing thrombosis compared with low-dose UFH.",
@@ -120,6 +126,21 @@
   "pmid:42495753": {
     "summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
     "significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients."
+  },
+  "pmid:42377463": {
+    "clinical_question": "Does a clinical metagenomics intervention improve clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock?",
+    "background": "Early pathogen detection is crucial in sepsis, and the authors hypothesized that metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs.",
+    "design": "randomized, controlled, interventional, open-label, multicenter trial",
+    "setting": "24 intensive care units across Germany",
+    "population": "patients with sepsis or septic shock",
+    "intervention": "metagenomic next-generation sequencing (mNGS) diagnostics in addition to standard-of-care microbiology",
+    "management_common_to_both_groups": "standard-of-care microbiology",
+    "intervention_fidelity": "",
+    "outcome": "DOOR/RADAR score not significantly improved at 28 days (p-value not reported); reduced duration of mechanical ventilation (6.6 ± 9.4 days vs 9.3 ± 10.6 days); faster shock resolution (6.9 ± 7.4 days vs 8.8 ± 8.5 days); improved health-related quality of life at 90 days (EQ-5D-5L)",
+    "author_conclusion": "The DOOR/RADAR score as primary endpoint was not significantly improved by mNGS. Exploratory secondary analyses revealed improvements in secondary endpoints.",
+    "strengths": "large sample size; multicenter design",
+    "weaknesses": "open-label design; primary endpoint not met",
+    "bottom_line": "mNGS may improve health-related quality of life and reduce duration of mechanical ventilation and shock resolution in patients with sepsis or septic shock, but its effect on DOOR/RADAR score is uncertain."
   },
   "pmid:42535902": {
     "key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
@@ -603,6 +624,30 @@
     "significance": "This study highlights the importance of addressing family members' emotional distress during ICU stays, but suggests that involving a communication facilitator may not be a sufficient intervention to reduce depressive symptoms. Clinicians should consider other strategies to support family members during this challenging time.",
     "rounds_takeaway": "Consider offering family-centered care and emotional support to family members of critically ill patients, but do not rely solely on communication facilitators to reduce depressive symptoms."
   },
+  "pmid:42469923": {
+    "key_stats": "n=4703, OR 1.93 (95% CI 1.57-2.37), p<0.01",
+    "summary": "This study compared the characteristics and outcomes of immunocompromised patients with viral severe acute respiratory infections (SARI) to those of immunocompetent patients in Australian ICUs. Immunocompromised patients were older, had more comorbidities, and received more treatment, but had nearly double the odds of in-hospital mortality. They accounted for about one-fifth of SARI patients.",
+    "significance": "This study highlights the need for targeted public health campaigns and improved treatment strategies for immunocompromised patients with viral SARI, who have a higher risk of in-hospital mortality.",
+    "rounds_takeaway": "Consider immunocompromised status in patients with viral SARI, as it may impact treatment decisions and outcomes."
+  },
+  "url:https://litfl.com/basic-fracture-treatment/": {
+    "key_stats": "",
+    "summary": "This is a customizable poster for treating fractures in the emergency department, featuring radiographs, splinting guidance, and fillable local follow-up pathways.",
+    "significance": "This resource can aid in standardizing fracture treatment in the emergency department, potentially improving patient outcomes.",
+    "rounds_takeaway": ""
+  },
+  "url:https://emcrit.org/emnerd/a-study-in-priors-part-2/": {
+    "key_stats": "",
+    "summary": "This study applied Bayesian analysis concepts to a meta-analysis comparing normal saline with balanced crystalloids in critically ill patients. The BEST-Living meta-analysis found a difference in outcomes between the two fluids. The study aimed to provide a nuanced understanding of the data.",
+    "significance": "This study's findings on fluid choice in critically ill patients can inform clinical decision-making and potentially improve patient outcomes. The use of Bayesian analysis provides a more comprehensive understanding of the data.",
+    "rounds_takeaway": "Consider using balanced crystalloids over normal saline in critically ill patients."
+  },
+  "url:https://rebelem.com/gamification/": {
+    "key_stats": "",
+    "summary": "This podcast episode introduces a gamified teaching tool called Rapid Sequence, aimed at improving clinician learning in critical care. The tool is part of a series focusing on productivity, provider performance, and team optimization. No specific study or data is presented.",
+    "significance": "This innovative teaching approach may enhance clinician learning and performance in high-pressure situations, but its effectiveness requires further evaluation. Its potential impact on team optimization and productivity is also noteworthy.",
+    "rounds_takeaway": ""
+  },
   "url:https://litfl.com/blunt-cerebrovascular-injury/": {
     "key_stats": "",
     "summary": "This article discusses the management of blunt cerebrovascular injury, including expanded Denver screening, CTA diagnosis, Biffl grading, antithrombotic treatment, and follow-up.",
@@ -803,6 +848,46 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT07669558": {
+    "summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
+    "significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06607003": {
+    "key_stats": "",
+    "summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
+    "significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07741851": {
+    "key_stats": "",
+    "summary": "This study evaluated the reliability of neuromuscular blockade monitoring in adult ICU patients. It aimed to determine if clinicians can accurately detect neuromuscular blockade and if monitoring is safe. The study found that monitoring was reliable and safe.",
+    "significance": "This study's findings are significant for ICU clinical practice as accurate neuromuscular blockade monitoring is crucial for patient safety and effective care.",
+    "rounds_takeaway": "Monitor neuromuscular blockade every 24 hours in adult ICU patients to ensure safety and detect potential issues."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06217562": {
+    "key_stats": "",
+    "summary": "This study will evaluate two different strategies for treating septic shock with vasopressors, focusing on when to add vasopressin. The trial aims to determine the optimal threshold for starting vasopressin in septic shock treatment. The study design is a pragmatic, cluster-randomized, cluster-crossover trial.",
+    "significance": "Understanding the optimal threshold for starting vasopressin in septic shock treatment can improve patient outcomes and guide clinical decision-making in the ICU.",
+    "rounds_takeaway": "Consider adding vasopressin in patients with septic shock who do not respond to first-line vasopressors."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06362356": {
+    "key_stats": "",
+    "summary": "This study explores the connection between diet, gut microbiota, and hypertensive disorders of pregnancy, a leading cause of maternal and neonatal morbidity.",
+    "significance": "Understanding the role of diet and gut microbiota in hypertensive disorders of pregnancy may lead to new preventive and therapeutic strategies.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07532577": {
+    "key_stats": "",
+    "summary": "This study explored the potential of intranasal insulin to prevent delirium in elderly ICU patients after complex cardiac surgery. The study aimed to assess the feasibility, tolerability, and efficacy of this treatment. No results were reported.",
+    "significance": "Preventing delirium in elderly ICU patients is crucial for improving their outcomes and quality of life. This study's findings could inform future research on delirium prevention in this high-risk population.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT02126332": {
+    "key_stats": "",
+    "summary": "The Epipan Study discusses acute pancreatitis (AP) management, noting that 80% of patients develop mild disease and 20% develop severe disease with local complications.",
+    "significance": "Understanding the management of AP is crucial for ICU clinicians to provide appropriate care for patients with this condition.",
+    "rounds_takeaway": "Consider conservative management for patients with mild acute pancreatitis."
+  },
   "url:https://clinicaltrials.gov/study/NCT06637332": {
     "key_stats": "",
     "summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
@@ -881,12 +966,6 @@
     "significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
     "rounds_takeaway": ""
   },
-  "url:https://clinicaltrials.gov/study/NCT06607003": {
-    "key_stats": "",
-    "summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
-    "significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
-    "rounds_takeaway": ""
-  },
   "url:https://clinicaltrials.gov/study/NCT06513949": {
     "summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
     "significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery."
@@ -952,10 +1031,6 @@
   "url:https://clinicaltrials.gov/study/NCT07729891": {
     "summary": "This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.",
     "significance": "Early detection of postoperative complications can improve patient outcomes and reduce morbidity and mortality. This study's findings can inform the use of wearable devices in surgical wards to enhance patient care."
-  },
-  "url:https://clinicaltrials.gov/study/NCT07669558": {
-    "summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
-    "significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes."
   },
   "url:https://clinicaltrials.gov/study/NCT06363149": {
     "key_stats": "",
