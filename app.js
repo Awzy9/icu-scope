@@ -49,6 +49,11 @@
   const spotlightSection = document.getElementById("spotlight-section");
   const spotlightBody = document.getElementById("spotlight-body");
   const spotlightWeek = document.getElementById("spotlight-week");
+  const thisWeekSection = document.getElementById("this-week-section");
+  const thisWeekBody = document.getElementById("this-week-body");
+  const thisWeekList = document.getElementById("this-week-list");
+  const thisWeekCount = document.getElementById("this-week-count");
+  const thisWeekWindow = document.getElementById("this-week-window");
   const savedSection = document.getElementById("saved-section");
   const savedBody = document.getElementById("saved-body");
   const savedList = document.getElementById("saved-list");
@@ -58,6 +63,7 @@
 
   const COLLAPSIBLE_SECTIONS = [
     { id: "spotlight", body: spotlightBody, toggle: document.getElementById("spotlight-collapse-toggle") },
+    { id: "this-week", body: thisWeekBody, toggle: document.getElementById("this-week-collapse-toggle") },
     { id: "saved", body: savedBody, toggle: document.getElementById("saved-collapse-toggle") },
     { id: "guideline", body: guidelineBody, toggle: document.getElementById("guideline-collapse-toggle") },
     { id: "ksa", body: ksaBody, toggle: document.getElementById("ksa-collapse-toggle") },
@@ -106,6 +112,7 @@
 
   const SECTION_JUMP_TARGETS = [
     { sectionId: "spotlight", label: "Article of the Week", icon: "📌" },
+    { sectionId: "this-week", label: "This Week's Articles", icon: "🗓️" },
     { sectionId: "saved", label: "Saved", icon: "🔖" },
     { sectionId: "guideline", label: "Guideline Watch", icon: "📋" },
     { sectionId: "ksa", label: "KSA Research", icon: "🇸🇦" },
@@ -551,6 +558,7 @@
     CLASSIC_TRIALS.forEach((a) => ids.add(articleId(a)));
     (data.guidelines && data.guidelines.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.ksa && data.ksa.articles || []).forEach((a) => ids.add(articleId(a)));
+    (data.this_week && data.this_week.articles || []).forEach((a) => ids.add(articleId(a)));
     (data.categories || []).forEach((c) => c.articles.forEach((a) => ids.add(articleId(a))));
     return ids;
   }
@@ -569,6 +577,7 @@
     CLASSIC_TRIALS.forEach(add);
     (data.guidelines && data.guidelines.articles || []).forEach(add);
     (data.ksa && data.ksa.articles || []).forEach(add);
+    (data.this_week && data.this_week.articles || []).forEach(add);
     (data.categories || []).forEach((c) => c.articles.forEach(add));
     return map;
   }
@@ -892,6 +901,16 @@
       lines.push(`📌 Article of the Week: ${data.spotlight.title}`);
       if (data.spotlight.why_selected) lines.push(`   ${data.spotlight.why_selected}`);
       lines.push(`   ${data.spotlight.url}`, "");
+    }
+
+    const thisWeek = ((data.this_week && data.this_week.articles) || []).slice(0, 5);
+    if (thisWeek.length) {
+      lines.push("🗓️ This Week's Articles:");
+      thisWeek.forEach((a) => {
+        lines.push(`- ${a.title} (${a.category_label || ""})`);
+        lines.push(`  ${a.url}`);
+      });
+      lines.push("");
     }
 
     const trending = ((data.trending && data.trending.articles) || []).slice(0, 5);
@@ -1292,6 +1311,7 @@
     (data.trending && data.trending.articles || []).forEach(consider);
     (data.guidelines && data.guidelines.articles || []).forEach(consider);
     ((data.preprints && data.preprints.articles) || []).map(preprintToArticle).forEach(consider);
+    (data.this_week && data.this_week.articles || []).forEach(consider);
     (data.categories || []).forEach((c) => c.articles.forEach(consider));
     return sortArticles("newest", result);
   }
@@ -1360,6 +1380,19 @@
     articles.forEach((article) => ksaList.appendChild(articleCard(article)));
   }
 
+  function renderThisWeek(thisWeek, term, days, studyType, year, journal, organId) {
+    const articles = filterList((thisWeek && thisWeek.articles) || [], term, days, studyType, year, journal, organId);
+    thisWeekWindow.textContent = thisWeek ? thisWeek.window_days : "";
+    if (!articles.length) {
+      thisWeekSection.hidden = true;
+      return;
+    }
+    thisWeekSection.hidden = false;
+    thisWeekCount.textContent = `${articles.length} article${articles.length === 1 ? "" : "s"}`;
+    thisWeekList.innerHTML = "";
+    articles.forEach((article) => thisWeekList.appendChild(articleCard(article)));
+  }
+
   function renderSpotlight(spotlight) {
     if (!spotlight || !spotlight.title) {
       spotlightSection.hidden = true;
@@ -1391,23 +1424,27 @@
     }
     dashboardStrip.hidden = false;
 
-    const cutoff = Date.now() - 7 * 86400000;
-    let newCount = 0;
+    // Recent articles now live in data.this_week (moved out of their
+    // category server-side, tagged with category_id/category_label) rather
+    // than staying in cat.articles, so count from there instead of
+    // re-deriving "recent" from pubdate here.
+    const thisWeekArticles = (data.this_week && data.this_week.articles) || [];
+    const countByCategory = {};
+    thisWeekArticles.forEach((a) => {
+      if (!a.category_id) return;
+      countByCategory[a.category_id] = (countByCategory[a.category_id] || 0) + 1;
+    });
     let topCategory = null;
     let topCategoryCount = -1;
     categories.forEach((cat) => {
-      const recent = cat.articles.filter((a) => {
-        const d = parsePubDate(a.pubdate);
-        return d && d.getTime() >= cutoff;
-      });
-      newCount += recent.length;
-      if (recent.length > topCategoryCount) {
-        topCategoryCount = recent.length;
+      const count = countByCategory[cat.id] || 0;
+      if (count > topCategoryCount) {
+        topCategoryCount = count;
         topCategory = cat;
       }
     });
 
-    dashNewCount.textContent = String(newCount);
+    dashNewCount.textContent = String(thisWeekArticles.length);
     dashTopCategory.textContent = topCategory && topCategoryCount > 0
       ? `${CATEGORY_ICONS[topCategory.id] || ""} ${topCategory.label}`
       : "–";
@@ -1448,6 +1485,7 @@
     all.push(...(((data.trials && data.trials.articles) || []).map(trialToArticle)));
     all.push(...((data.guidelines && data.guidelines.articles) || []));
     all.push(...((data.ksa && data.ksa.articles) || []));
+    all.push(...((data.this_week && data.this_week.articles) || []));
     (data.categories || []).forEach((c) => all.push(...c.articles));
     return all;
   }
@@ -1646,6 +1684,7 @@
 
     currentSessionIds = new Set();
     renderSpotlight(rawData.spotlight);
+    renderThisWeek(rawData.this_week, term, days, studyType, year, journal, organId);
     renderSaved(buildArticleIndex(rawData));
     renderGuidelines(rawData.guidelines, term, days, studyType, year, journal, organId);
     renderKsa(rawData.ksa, term, days, studyType, year, journal, organId);

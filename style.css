@@ -41,6 +41,9 @@
   --ksa-bg: #e6f4ec;
   --ksa-border: #bfe0cd;
   --ksa-accent: #0f6b3c;
+  --this-week-bg: #fdeee5;
+  --this-week-border: #f3c9a8;
+  --this-week-accent: #c1560c;
   --journal-saturation: 48%;
   --journal-lightness: 36%;
   --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
@@ -90,6 +93,9 @@
   --ksa-bg: #122b1c;
   --ksa-border: #1f4530;
   --ksa-accent: #5cd992;
+  --this-week-bg: #2c1c12;
+  --this-week-border: #4a3020;
+  --this-week-accent: #e0935c;
   --journal-saturation: 55%;
   --journal-lightness: 68%;
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -139,6 +145,9 @@
     --ksa-bg: #122b1c;
     --ksa-border: #1f4530;
     --ksa-accent: #5cd992;
+    --this-week-bg: #2c1c12;
+    --this-week-border: #4a3020;
+    --this-week-accent: #e0935c;
     --journal-saturation: 55%;
     --journal-lightness: 68%;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
@@ -1390,6 +1399,18 @@ mark {
 .ksa-heading h2 { color: var(--ksa-accent); }
 
 .ksa-section .article-card { background: var(--surface); }
+
+.this-week-section {
+  margin-bottom: 2.75rem;
+  background: var(--this-week-bg);
+  border: 1px solid var(--this-week-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.5rem 0.25rem;
+}
+
+.this-week-heading h2 { color: var(--this-week-accent); }
+
+.this-week-section .article-card { background: var(--surface); }
 
 .trial-section {
   margin-bottom: 2.75rem;
