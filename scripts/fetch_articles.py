@@ -114,6 +114,15 @@ GUIDELINE_MAX = int(os.environ.get("GUIDELINE_MAX", "10"))
 KSA_DAYS = int(os.environ.get("KSA_DAYS", "365"))
 KSA_MAX = int(os.environ.get("KSA_MAX", "25"))
 
+# "This Week's Articles" is a temporary holding shelf, not a permanent
+# category: an article shows up here (and only here, pulled out of its
+# organ-system category) for THIS_WEEK_DAYS based on its own pubdate, then
+# "graduates" into that category once it's no longer this recent. Purely a
+# reorganization of already-fetched data -- no extra PubMed query needed,
+# recomputed fresh every run so nothing needs to track when an article
+# last moved.
+THIS_WEEK_DAYS = int(os.environ.get("THIS_WEEK_DAYS", "7"))
+
 # Rotating link-liveness check: archives never shrink, so DOI/FOAMed/preprint
 # links can rot silently over time. Only a bounded number are (re-)checked
 # per run, oldest-checked-first, so the whole archive gets covered gradually
@@ -1208,7 +1217,7 @@ def xml_escape(text):
     )
 
 
-def build_rss_feed(categories_out, foamed_articles, preprint_articles=(), trial_articles=(), bottom_line_articles=()):
+def build_rss_feed(categories_out, foamed_articles, preprint_articles=(), trial_articles=(), bottom_line_articles=(), this_week_articles=()):
     items = []
     for cat in categories_out:
         for a in cat["articles"]:
@@ -1221,6 +1230,8 @@ def build_rss_feed(categories_out, foamed_articles, preprint_articles=(), trial_
         items.append((a, "Clinical Trial"))
     for a in bottom_line_articles:
         items.append((a, "The Bottom Line"))
+    for a in this_week_articles:
+        items.append((a, "This Week"))
 
     def sort_key(pair):
         return parsed_pubdate_for_sort(pair[0].get("pubdate", ""))
@@ -1267,6 +1278,18 @@ def parsed_pubdate_for_sort(pubdate_str):
         except ValueError:
             continue
     return datetime.min
+
+
+def is_recent(article, days):
+    parsed = parsed_pubdate_for_sort(article.get("pubdate", ""))
+    if parsed == datetime.min:
+        return False
+    # Some journals set pubdate to a future scheduled print issue (e.g. an
+    # "ahead of print" article dated for a later month) -- without the
+    # lower bound, a negative day-diff is always < days, so a future-dated
+    # article would never age out of "this week".
+    delta_days = (datetime.now() - parsed).days
+    return 0 <= delta_days < days
 
 
 ARCHIVE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "archive.json")
@@ -1532,6 +1555,27 @@ def main():
     except Exception as e:
         print(f"  warning: link check failed: {e}")
 
+    # Pull this week's articles out of their organ-system category into
+    # their own shelf. Recomputed fresh every run from each article's own
+    # pubdate, so this naturally "graduates" articles back into their
+    # category once they're no longer within the window -- nothing needs
+    # to track when an article last moved.
+    this_week_articles = []
+    for cat in categories_out:
+        remaining = []
+        for a in cat["articles"]:
+            if is_recent(a, THIS_WEEK_DAYS):
+                # Tagged with its origin category so the frontend dashboard
+                # can still compute "top category this week" even though
+                # the article no longer lives in that category's own list.
+                a["category_id"] = cat["id"]
+                a["category_label"] = cat["label"]
+                this_week_articles.append(a)
+            else:
+                remaining.append(a)
+        cat["articles"] = remaining
+    this_week_articles.sort(key=lambda a: parsed_pubdate_for_sort(a.get("pubdate", "")), reverse=True)
+
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "window_days": RELDATE_DAYS,
@@ -1555,6 +1599,10 @@ def main():
             "window_days": KSA_DAYS,
             "articles": ksa_articles,
         },
+        "this_week": {
+            "window_days": THIS_WEEK_DAYS,
+            "articles": this_week_articles,
+        },
         "preprints": {
             "window_days": PREPRINT_DAYS,
             "articles": preprint_articles,
@@ -1572,12 +1620,13 @@ def main():
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     try:
-        build_rss_feed(categories_out, foamed_articles, preprint_articles, trial_articles, bottom_line_articles)
+        build_rss_feed(categories_out, foamed_articles, preprint_articles, trial_articles, bottom_line_articles, this_week_articles)
     except Exception as e:
         print(f"  warning: RSS feed generation failed: {e}")
 
     total = sum(len(c["articles"]) for c in categories_out)
-    print(f"Wrote {total} articles across {len(categories_out)} categories, "
+    print(f"Wrote {total} articles across {len(categories_out)} categories "
+          f"({len(this_week_articles)} in This Week), "
           f"{len(trending_articles)} trending, {len(foamed_articles)} FOAMed posts, "
           f"{len(guideline_articles)} guidelines, {len(preprint_articles)} preprints, "
           f"{len(trial_articles)} trials, {len(bottom_line_articles)} Bottom Line posts, and "

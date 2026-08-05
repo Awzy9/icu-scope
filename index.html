@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=28" />
+  <link rel="stylesheet" href="style.css?v=30" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -112,6 +112,10 @@
   <nav class="category-nav" id="category-nav" aria-label="Categories">
     <!-- populated by app.js -->
   </nav>
+  <div class="hidden-categories-bar" id="hidden-categories-bar" hidden>
+    <span class="hidden-categories-label">🚫 Hidden:</span>
+    <div id="hidden-categories-list"></div>
+  </div>
   <div class="quick-filters" id="quick-filters">
     <button class="quick-filter-chip" type="button" data-study-type="Randomized Controlled Trial">RCT</button>
     <button class="quick-filter-chip" type="button" data-study-type="__trials__">Trials</button>
@@ -140,6 +144,17 @@
         <button class="print-btn" id="spotlight-print-btn" type="button">🖨️ Print handout</button>
       </div>
       <div id="spotlight-body" class="section-body"></div>
+    </section>
+    <section class="this-week-section" id="this-week-section" hidden>
+      <div class="trending-heading this-week-heading">
+        <button class="collapse-toggle" id="this-week-collapse-toggle" type="button" aria-expanded="false" aria-controls="this-week-body">▸</button>
+        <h2>🗓️ This Week's Articles</h2>
+        <span class="category-count" id="this-week-count"></span>
+      </div>
+      <div id="this-week-body" class="section-body">
+        <p class="foamed-note">Everything published in the last <span id="this-week-window"></span> days, pulled out of its organ-system category into one place — it moves back into that category once it's no longer this recent.</p>
+        <div id="this-week-list"></div>
+      </div>
     </section>
     <section class="saved-section" id="saved-section" hidden>
       <div class="trending-heading saved-heading">
@@ -299,6 +314,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=23"></script>
+  <script src="app.js?v=25"></script>
 </body>
 </html>
