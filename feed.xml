@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 04 Aug 2026 05:39:44 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 05:37:17 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -32,6 +32,27 @@
       <guid isPermaLink="false">https://litfl.com/basic-fracture-treatment/</guid>
       <category>LITFL</category>
       <description>This is a customizable poster for treating fractures in the emergency department, featuring radiographs, splinting guidance, and fillable local follow-up pathways.</description>
+    </item>
+    <item>
+      <title>Evaluation of Emergency Medicine Pharmacist Impact on Blood Culture Review Following Emergency Department Discharge</title>
+      <link>https://clinicaltrials.gov/study/NCT07486362</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07486362</guid>
+      <category>Clinical Trial</category>
+      <description>Emergency Medicine pharmacists reviewed blood cultures from patients discharged from the Emergency Department. They found that timely review of blood cultures by pharmacists improved the speed of notification for true positive cultures. This led to better patient outcomes.</description>
+    </item>
+    <item>
+      <title>Correlation of Memory CD8+ T Cells With Sepsis Severity and Mortality: a Single-center, Unblinded, Prospective, Non-interventional, Observational Study</title>
+      <link>https://clinicaltrials.gov/study/NCT05875740</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05875740</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.</description>
+    </item>
+    <item>
+      <title>Epidemiology and Overtime Genomic Evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex (ECC) in Stools of ICU's Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT07744321</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07744321</guid>
+      <category>Clinical Trial</category>
+      <description>This study explores the epidemiology and genomic evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex in ICU patients, highlighting the risk of infection and the emergence of multidrug-resistant isolates.</description>
     </item>
     <item>
       <title>A Study in Priors Part 2</title>
@@ -100,64 +121,50 @@
       <title>Burden of and risk factors for neurological complications in critical illness.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377460/</link>
       <guid isPermaLink="false">pmid:42377460</guid>
-      <category>Cardiovascular</category>
+      <category>This Week</category>
       <description>This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.</description>
     </item>
     <item>
       <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
       <guid isPermaLink="false">pmid:42377463</guid>
-      <category>Respiratory</category>
+      <category>This Week</category>
       <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
     </item>
     <item>
       <title>Burden of and risk factors for neurological complications in critical illness.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377460/</link>
       <guid isPermaLink="false">pmid:42377460</guid>
-      <category>Neurology</category>
+      <category>This Week</category>
       <description>This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.</description>
     </item>
     <item>
       <title>Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42467893/</link>
       <guid isPermaLink="false">pmid:42467893</guid>
-      <category>GI &amp; Nutrition</category>
+      <category>This Week</category>
       <description></description>
     </item>
     <item>
       <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
       <guid isPermaLink="false">pmid:42377463</guid>
-      <category>Infectious Disease &amp; Sepsis</category>
+      <category>This Week</category>
       <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
     </item>
     <item>
       <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
       <guid isPermaLink="false">pmid:42377463</guid>
-      <category>Hematology &amp; Coagulation</category>
+      <category>This Week</category>
       <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
     </item>
     <item>
       <title>Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42149702/</link>
       <guid isPermaLink="false">pmid:42149702</guid>
-      <category>Procedures &amp; POCUS</category>
+      <category>This Week</category>
       <description>Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.</description>
-    </item>
-    <item>
-      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
-      <guid isPermaLink="false">pmid:42535902</guid>
-      <category>Respiratory</category>
-      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
-    </item>
-    <item>
-      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
-      <guid isPermaLink="false">pmid:42535902</guid>
-      <category>Infectious Disease &amp; Sepsis</category>
-      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
     </item>
     <item>
       <title>Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia</title>
@@ -221,6 +228,20 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06701669</guid>
       <category>Clinical Trial</category>
       <description>This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.</description>
+    </item>
+    <item>
+      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
+      <guid isPermaLink="false">pmid:42535902</guid>
+      <category>This Week</category>
+      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
+    </item>
+    <item>
+      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
+      <guid isPermaLink="false">pmid:42535902</guid>
+      <category>This Week</category>
+      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
     </item>
     <item>
       <title>Housing Transitions QUERI</title>
@@ -403,27 +424,6 @@
       <guid isPermaLink="false">https://emcrit.org/emnerd/fgebm001/</guid>
       <category>EMCrit</category>
       <description>This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.</description>
-    </item>
-    <item>
-      <title>Development and validation of a nomogram for predicting subsyndromal delirium in critically ill patients in the emergency department.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42502154/</link>
-      <guid isPermaLink="false">pmid:42502154</guid>
-      <category>Neurology</category>
-      <description>Researchers developed a tool to predict the risk of subsyndromal delirium in critically ill patients in the emergency department, using six easily available clinical variables. The tool showed excellent accuracy and can help identify patients at risk early on. This can lead to targeted interventions to improve patient outcomes.</description>
-    </item>
-    <item>
-      <title>EMCrit 430 – Questions and Answers (Members Q&amp;A Episode 004) with Sara Crager</title>
-      <link>https://emcrit.org/emcrit/qa-004/</link>
-      <guid isPermaLink="false">https://emcrit.org/emcrit/qa-004/</guid>
-      <category>EMCrit</category>
-      <description>Dr. Sarah Crager discusses bedside shock management, moving beyond blood pressure targets to a dynamic approach. They address clinical dilemmas, including lactated Ringer's in lactic acidosis and albumin and diuretics in edematous patients. A real-world approach to fluid management is explored.</description>
-    </item>
-    <item>
-      <title>Standard-dose unfractionated heparin versus low-dose unfractionated heparin and low-molecular-weight heparin in extracorporeal life support (RATE): an open-label, randomised, non-inferiority trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42413523/</link>
-      <guid isPermaLink="false">pmid:42413523</guid>
-      <category>Cardiovascular</category>
-      <description>BACKGROUND: In patients receiving extracorporeal membrane oxygenation (ECMO), standard practice is full-dose intravenous unfractionated heparin (UFH) targeting an activated partial thromboplastin time of 2·0-2·5 times baseline to reduce thrombotic risk. This approach can increase bleeding without further reducing thrombosis compared with low-dose UFH. Robust evidence to guide anticoagulation targets is absent because anticoagulation targets in ECMO have never been assessed in a sufficiently powe</description>
     </item>
   </channel>
 </rss>

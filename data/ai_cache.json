@@ -20,26 +20,6 @@
     "weaknesses": "open-label design; non-inferiority trial",
     "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
   },
-  "pmid:42493813": {
-    "summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
-    "significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
-  },
-  "pmid:42506042": {
-    "summary": "This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.",
-    "significance": "Preventing dependency-related skin injuries is crucial in critical care, as they can lead to prolonged hospital stays, increased healthcare costs, and decreased patient quality of life. Identifying high-risk patients and implementing preventive measures can help mitigate this issue."
-  },
-  "pmid:42506109": {
-    "summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
-    "significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes."
-  },
-  "pmid:42506363": {
-    "summary": "This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.",
-    "significance": "These findings highlight the importance of early and accurate antibiotic therapy and infection source identification in septic shock, and suggest that vasopressor trajectories may be a useful tool for guiding clinical decision-making."
-  },
-  "pmid:42442528": {
-    "summary": "The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.",
-    "significance": "This study will facilitate phenotyping of critical illness syndromes, potentially leading to more targeted and effective treatments for ARDS, pneumonia, and sepsis in ICU patients."
-  },
   "pmid:42432793": {
     "summary": "This study evaluated the feasibility and prognostic value of echocardiographic parameters in a mixed ICU population. It found that impaired mitral annular plane systolic excursion (MAPSE) and global longitudinal strain (GLS) were associated with increased mortality. MAPSE was also the most feasible measurement.",
     "significance": "These findings suggest that incorporating MAPSE into routine ICU echocardiography may improve detection and risk stratification of left ventricular dysfunction in critical illness, potentially leading to better patient outcomes."
@@ -47,14 +27,6 @@
   "pmid:42432771": {
     "summary": "Researchers developed a new method using electrical impedance tomography (EIT) to quickly and non-invasively diagnose pulmonary embolism (PE) in critically ill patients. The method uses a frequency-domain band-pass filter to extract perfusion-related pulsatility and separate it from ventilation-related low-frequency components. The study found that the method can accurately diagnose PE and risk-stratify patients based on three key parameters.",
     "significance": "This study has significant implications for ICU clinical practice as it provides a novel, non-invasive method for diagnosing and risk-stratifying patients with pulmonary embolism, which is a major cause of morbidity and mortality in critical care."
-  },
-  "pmid:42418776": {
-    "summary": "Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.",
-    "significance": "This study informs ICU clinicians to adopt a restrictive nutrition approach, avoiding full-dose energy delivery and high-dose protein, to minimize complications and promote recovery in critically ill patients."
-  },
-  "pmid:42507507": {
-    "summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
-    "significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions."
   },
   "pmid:42507344": {
     "summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
@@ -64,25 +36,6 @@
     "summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
     "significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability."
   },
-  "pmid:42365349": {
-    "summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
-    "significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery."
-  },
-  "pmid:42150112": {
-    "clinical_question": "Does 4% tetrasodium EDTA locking fluid reduce central venous access device-associated infections, occlusions, and thrombolytic use in adults treated in an intensive care unit?",
-    "background": "Use of central venous access devices can result in catheter-associated bloodstream infection, catheter occlusion, and catheter-related venous thrombosis.",
-    "design": "pragmatic, triple-blind, multicenter, cluster-randomized crossover trial",
-    "setting": "6 Canadian hospitals (3 community hospitals and 3 academic centers) between March 22, 2022, and September 25, 2024",
-    "population": "patients older than 18 years in the ICU with a CVAD in place and at least 1 lumen not in use",
-    "intervention": "4% tetrasodium EDTA locking fluid vs control locking fluid (saline or 4% citrate for hemodialysis lines)",
-    "management_common_to_both_groups": "ICUs were randomized to use prefilled, identical, masked syringes for all trial participants",
-    "intervention_fidelity": "not reported",
-    "outcome": "primary outcome: composite incidence rate of CVAD-associated bloodstream infection, catheter occlusion requiring alteplase use, and/or catheter removal due to occlusion (13.1 per 1000 catheter-days in the t-EDTA group vs 19.9 per 1000 catheter-days in the control group)",
-    "author_conclusion": "Use of 4% t-EDTA locking solution for CVADs reduced the incidence of a composite outcome of CVAD-associated bloodstream infection, catheter occlusion requiring alteplase use, and catheter removal due to occlusion among adult patients in the ICU",
-    "strengths": "large sample size; cluster-randomized crossover design",
-    "weaknesses": "no information on intervention fidelity; secondary outcomes not reported in detail",
-    "bottom_line": "Use 4% tetrasodium EDTA locking fluid for central venous access devices to reduce the risk of infection, occlusion, and thrombolytic use in adult patients in the ICU"
-  },
   "pmid:42332804": {
     "summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
     "significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients."
@@ -91,19 +44,11 @@
     "summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
     "significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects."
   },
-  "pmid:42283370": {
-    "summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
-    "significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients."
-  },
   "pmid:42237139": {
     "key_stats": "",
     "summary": "Critically ill patients with sepsis and shock often have high lactate levels, but this doesn't always mean they're not getting enough oxygen. Lactate is a key metabolic intermediate that reflects the balance between production, utilization, and clearance. The kidneys play a significant role in lactate utilization and clearance, especially in patients with acute kidney injury.",
     "significance": "Understanding lactate biology in critical illness can help clinicians interpret lactate levels more accurately and develop more effective management strategies for septic acute kidney injury.",
     "rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function."
-  },
-  "pmid:42504332": {
-    "summary": "A 60-year-old woman with spondylodiscitis due to Staphylococcus aureus developed a life-threatening aortic fistula and mycotic pseudoaneurysm, leading to rapid deterioration and death. This case highlights the serious complications of spondylodiscitis and the importance of early multidisciplinary intervention. Contrast-enhanced MRI was crucial in diagnosing the condition.",
-    "significance": "This case emphasizes the need for prompt recognition and treatment of spondylodiscitis to prevent catastrophic vascular complications, and highlights the value of contrast-enhanced MRI in diagnosing such cases."
   },
   "pmid:42502537": {
     "summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
@@ -118,10 +63,6 @@
   "pmid:42188994": {
     "summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
     "significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU."
-  },
-  "pmid:42502493": {
-    "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
-    "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
   },
   "pmid:42495753": {
     "summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
@@ -186,6 +127,10 @@
     "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
     "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
   },
+  "pmid:42506109": {
+    "summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
+    "significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes."
+  },
   "pmid:42506369": {
     "summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
     "significance": "This research has implications for ICU clinical practice, as it suggests that vitamin C can be used as a pharmacological agent in critical illness, and that biomarkers can be used to guide treatment and improve patient outcomes."
@@ -193,6 +138,10 @@
   "pmid:42467246": {
     "summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
     "significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery."
+  },
+  "pmid:42442528": {
+    "summary": "The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.",
+    "significance": "This study will facilitate phenotyping of critical illness syndromes, potentially leading to more targeted and effective treatments for ARDS, pneumonia, and sepsis in ICU patients."
   },
   "pmid:42410654": {
     "summary": "This study reviews the current limitations in critical care research due to syndromic diagnoses and proposes a pathway-level framework to translate omics insights into clinical trial design and bedside decision-making.",
@@ -257,6 +206,10 @@
     "summary": "This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.",
     "significance": "This study's findings highlight the importance of monitoring fluid balance in ICU patients to prevent fluid accumulation and depletion, which can lead to worse outcomes. Clinicians can use these thresholds to guide fluid management and improve patient care."
   },
+  "pmid:42493813": {
+    "summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
+    "significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
+  },
   "pmid:42506343": {
     "summary": "This study reviewed nicotine withdrawal in ICU patients, finding that smoking-related status is linked to agitation and delirium, but evidence on nicotine withdrawal syndrome is limited. The study suggests that routine identification of nicotine dependence and monitoring of withdrawal symptoms could improve patient care. NRT may be beneficial but its effectiveness and safety are uncertain.",
     "significance": "Identifying nicotine dependence in ICU patients and monitoring withdrawal symptoms can help prevent complications like agitation and delirium. This information can inform clinical practice and improve patient outcomes."
@@ -264,6 +217,10 @@
   "pmid:42393760": {
     "summary": "Researchers used high-resolution monitoring to study light exposure in ICU patients over 14 million measurements. They found that light exposure is fragmented, with frequent short-duration light events at night, and limited sustained darkness. This may contribute to circadian dysregulation.",
     "significance": "Understanding light exposure patterns in ICUs is crucial for developing targeted interventions to prevent circadian dysregulation and its associated adverse outcomes in critically ill patients."
+  },
+  "pmid:42507507": {
+    "summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
+    "significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions."
   },
   "pmid:42502517": {
     "summary": "A critically ill patient developed endophthalmitis after a car accident, despite not showing symptoms due to sedation. Urgent treatment was attempted, but the disease progressed to corneal perforation requiring enucleation. Early lens dislocation was a poor prognostic feature.",
@@ -293,9 +250,17 @@
     "summary": "This study compared electrolyte measurements from arterial blood gas (ABG) analyzers to central laboratory analyzers in critically ill patients with acute kidney injury (AKI). The results showed relatively good agreement for sodium and potassium measurements, but clinically meaningful discrepancies occurred in a subset of measurements. The study suggests that ABG-derived electrolyte measurements can support rapid bedside assessment, but central laboratory measurements remain the reference standard.",
     "significance": "This study's findings are important for ICU clinicians as they inform the use of ABG-derived electrolyte measurements in critically ill patients with AKI, highlighting the need for careful interpretation of results and consideration of preanalytical factors that may affect measurement reliability."
   },
+  "pmid:42418776": {
+    "summary": "Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.",
+    "significance": "This study informs ICU clinicians to adopt a restrictive nutrition approach, avoiding full-dose energy delivery and high-dose protein, to minimize complications and promote recovery in critically ill patients."
+  },
   "pmid:42380983": {
     "summary": "Researchers studied how bacteria in an ICU can share genes that make them resistant to antibiotics. They found that these genes can be transferred between bacteria on surfaces and in patients, and that this transfer can happen in both directions. This can lead to the spread of antibiotic-resistant infections.",
     "significance": "Understanding how antibiotic-resistant genes are transmitted in the ICU is crucial for preventing the spread of infections and reducing the risk of antibiotic-resistant outbreaks."
+  },
+  "pmid:42365349": {
+    "summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
+    "significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery."
   },
   "pmid:42506220": {
     "summary": "This study looked at the kidney safety of liposomal amphotericin B in ICU patients with invasive pulmonary aspergillosis. It found that one-third of patients developed kidney impairment, but most cases were mild and reversible. The study also found that other nephrotoxic treatments increased the risk of kidney failure and death.",
@@ -308,6 +273,14 @@
   "pmid:42288929": {
     "summary": "Researchers reviewed the evidence on hemoadsorption in septic shock, finding that current guidelines are based on expert opinions rather than high-certainty evidence. Hemoadsorption involves removing inflammatory mediators from the blood, but its effectiveness and mechanisms of action are not well understood. More research is needed to determine its role in treating septic shock.",
     "significance": "This study highlights the need for more robust clinical trials to establish the effectiveness of hemoadsorption in septic shock, which could lead to more personalized and effective treatment approaches in the ICU."
+  },
+  "pmid:42283370": {
+    "summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
+    "significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients."
+  },
+  "pmid:42502493": {
+    "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
+    "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
   },
   "pmid:42486401": {
     "summary": "This review of 29 studies found that high-protein nutritional strategies and supplementation with β-hydroxy-β-methyl butyrate can help preserve muscle mass and strength in critically ill patients. However, physical function showed less responsiveness to interventions. Multimodal approaches may be needed for functional recovery.",
@@ -412,6 +385,10 @@
     "summary": "This study reviewed 48 studies on using fosfomycin to treat carbapenem-resistant Acinetobacter baumannii infections. Fosfomycin may help when combined with other antibiotics, especially sulbactam, imipenem, and colistin. However, its independent contribution to treatment outcomes is unclear.",
     "significance": "Fosfomycin may be a useful adjunctive agent in treating CRAB infections, particularly when combined with cefiderocol, but more research is needed to confirm its benefits and optimal use in clinical practice."
   },
+  "pmid:42506363": {
+    "summary": "This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.",
+    "significance": "These findings highlight the importance of early and accurate antibiotic therapy and infection source identification in septic shock, and suggest that vasopressor trajectories may be a useful tool for guiding clinical decision-making."
+  },
   "pmid:42399992": {
     "summary": "Researchers implemented a sustainable protocol for administering 4 common β-lactam antibiotics in ICU patients, using the highest stable concentration for continuous infusion. This reduced greenhouse gas emissions by 52%, plastic consumption by 48%, and treatment costs by 48%. The protocol also saved nursing time.",
     "significance": "This study highlights the potential for reducing the environmental impact of antibiotic administration in ICUs, which is crucial for sustainability and cost-effectiveness in critical care."
@@ -419,6 +396,25 @@
   "pmid:42365321": {
     "summary": "Researchers studied 492 ICU patients with candidemia and found three distinct phenotypes with different outcomes. Phenotype 1 had high mortality due to severe immunosuppression, Phenotype 2 had high mortality in elderly cirrhotic patients, and Phenotype 3 had lower mortality in younger patients with catheter-related candidemia.",
     "significance": "This study helps clinicians understand the heterogeneity of candidemia in ICU patients and identify patients at higher risk of mortality, allowing for more personalized treatment and care."
+  },
+  "pmid:42150112": {
+    "clinical_question": "Does 4% tetrasodium EDTA locking fluid reduce central venous access device-associated infections, occlusions, and thrombolytic use in adults treated in an intensive care unit?",
+    "background": "Use of central venous access devices can result in catheter-associated bloodstream infection, catheter occlusion, and catheter-related venous thrombosis.",
+    "design": "pragmatic, triple-blind, multicenter, cluster-randomized crossover trial",
+    "setting": "6 Canadian hospitals (3 community hospitals and 3 academic centers) between March 22, 2022, and September 25, 2024",
+    "population": "patients older than 18 years in the ICU with a CVAD in place and at least 1 lumen not in use",
+    "intervention": "4% tetrasodium EDTA locking fluid vs control locking fluid (saline or 4% citrate for hemodialysis lines)",
+    "management_common_to_both_groups": "ICUs were randomized to use prefilled, identical, masked syringes for all trial participants",
+    "intervention_fidelity": "not reported",
+    "outcome": "primary outcome: composite incidence rate of CVAD-associated bloodstream infection, catheter occlusion requiring alteplase use, and/or catheter removal due to occlusion (13.1 per 1000 catheter-days in the t-EDTA group vs 19.9 per 1000 catheter-days in the control group)",
+    "author_conclusion": "Use of 4% t-EDTA locking solution for CVADs reduced the incidence of a composite outcome of CVAD-associated bloodstream infection, catheter occlusion requiring alteplase use, and catheter removal due to occlusion among adult patients in the ICU",
+    "strengths": "large sample size; cluster-randomized crossover design",
+    "weaknesses": "no information on intervention fidelity; secondary outcomes not reported in detail",
+    "bottom_line": "Use 4% tetrasodium EDTA locking fluid for central venous access devices to reduce the risk of infection, occlusion, and thrombolytic use in adult patients in the ICU"
+  },
+  "pmid:42504332": {
+    "summary": "A 60-year-old woman with spondylodiscitis due to Staphylococcus aureus developed a life-threatening aortic fistula and mycotic pseudoaneurysm, leading to rapid deterioration and death. This case highlights the serious complications of spondylodiscitis and the importance of early multidisciplinary intervention. Contrast-enhanced MRI was crucial in diagnosing the condition.",
+    "significance": "This case emphasizes the need for prompt recognition and treatment of spondylodiscitis to prevent catastrophic vascular complications, and highlights the value of contrast-enhanced MRI in diagnosing such cases."
   },
   "pmid:41999287": {
     "clinical_question": "Does rapid antimicrobial susceptibility testing for gram-negative bacteremia improve clinical outcomes compared to standard testing?",
@@ -497,6 +493,10 @@
   "pmid:42507964": {
     "summary": "This study surveyed 298 Family Medicine physicians about their preparedness to deliver Role 2 care in combat settings. Most had little experience and felt unprepared, but those with more experience and training felt more confident. Factors associated with perceived preparedness included career Role 2 experience, recent training, and caring for critically ill patients.",
     "significance": "This study highlights the need for Family Medicine physicians to develop critical care skills in preparation for large-scale combat operations. Prioritizing Role 2 training and experience can improve their perceived preparedness and readiness to provide lifesaving care."
+  },
+  "pmid:42506042": {
+    "summary": "This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.",
+    "significance": "Preventing dependency-related skin injuries is crucial in critical care, as they can lead to prolonged hospital stays, increased healthcare costs, and decreased patient quality of life. Identifying high-risk patients and implementing preventive measures can help mitigate this issue."
   },
   "pmid:42316265": {
     "summary": "A nationwide study in Switzerland found that women were more likely than men to have treatment limitations at ICU admission, but not during their stay. This difference varied by diagnosis, with trauma and cardiovascular conditions showing the largest gap. Women were more likely to have ceiling-of-care decisions based on patient wishes.",
@@ -847,6 +847,24 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07486362": {
+    "key_stats": "",
+    "summary": "Emergency Medicine pharmacists reviewed blood cultures from patients discharged from the Emergency Department. They found that timely review of blood cultures by pharmacists improved the speed of notification for true positive cultures. This led to better patient outcomes.",
+    "significance": "This study highlights the importance of pharmacist involvement in the review of blood cultures, which can lead to earlier notification of patients with positive results and potentially prevent serious complications.",
+    "rounds_takeaway": "Consider involving Emergency Medicine pharmacists in the review of blood cultures for patients discharged from the Emergency Department."
+  },
+  "url:https://clinicaltrials.gov/study/NCT05875740": {
+    "key_stats": "",
+    "summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
+    "significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
+    "rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07744321": {
+    "key_stats": "",
+    "summary": "This study explores the epidemiology and genomic evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex in ICU patients, highlighting the risk of infection and the emergence of multidrug-resistant isolates.",
+    "significance": "Understanding the spread of these bacteria is crucial for developing effective infection control strategies in ICUs, where patients are at high risk of acquiring and dying from infections.",
+    "rounds_takeaway": "Consider implementing enhanced infection control measures, such as improved hand hygiene and environmental cleaning, to reduce the spread of multidrug-resistant bacteria in the ICU."
   },
   "url:https://clinicaltrials.gov/study/NCT07669558": {
     "summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
