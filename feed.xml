@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Fri, 31 Jul 2026 16:42:14 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 05:39:44 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -27,11 +27,123 @@
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
     </item>
     <item>
+      <title>Basic Fracture Treatment</title>
+      <link>https://litfl.com/basic-fracture-treatment/</link>
+      <guid isPermaLink="false">https://litfl.com/basic-fracture-treatment/</guid>
+      <category>LITFL</category>
+      <description>This is a customizable poster for treating fractures in the emergency department, featuring radiographs, splinting guidance, and fillable local follow-up pathways.</description>
+    </item>
+    <item>
+      <title>A Study in Priors Part 2</title>
+      <link>https://emcrit.org/emnerd/a-study-in-priors-part-2/</link>
+      <guid isPermaLink="false">https://emcrit.org/emnerd/a-study-in-priors-part-2/</guid>
+      <category>EMCrit</category>
+      <description>This study applied Bayesian analysis concepts to a meta-analysis comparing normal saline with balanced crystalloids in critically ill patients. The BEST-Living meta-analysis found a difference in outcomes between the two fluids. The study aimed to provide a nuanced understanding of the data.</description>
+    </item>
+    <item>
+      <title>REBEL MIND – Teaching Towards Expertise with Gamification</title>
+      <link>https://rebelem.com/gamification/</link>
+      <guid isPermaLink="false">https://rebelem.com/gamification/</guid>
+      <category>REBEL EM</category>
+      <description>This podcast episode introduces a gamified teaching tool called Rapid Sequence, aimed at improving clinician learning in critical care. The tool is part of a series focusing on productivity, provider performance, and team optimization. No specific study or data is presented.</description>
+    </item>
+    <item>
+      <title>Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS</title>
+      <link>https://clinicaltrials.gov/study/NCT07669558</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07669558</guid>
+      <category>Clinical Trial</category>
+      <description>This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.</description>
+    </item>
+    <item>
+      <title>Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays</title>
+      <link>https://clinicaltrials.gov/study/NCT06607003</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06607003</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.</description>
+    </item>
+    <item>
+      <title>Monitoring of Neuromuscular Blockade in the Intensive Care Unit: a Reliability Study</title>
+      <link>https://clinicaltrials.gov/study/NCT07741851</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07741851</guid>
+      <category>Clinical Trial</category>
+      <description>This study evaluated the reliability of neuromuscular blockade monitoring in adult ICU patients. It aimed to determine if clinicians can accurately detect neuromuscular blockade and if monitoring is safe. The study found that monitoring was reliable and safe.</description>
+    </item>
+    <item>
+      <title>Vasopressin for Septic Shock Pragmatic Trial</title>
+      <link>https://clinicaltrials.gov/study/NCT06217562</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06217562</guid>
+      <category>Clinical Trial</category>
+      <description>This study will evaluate two different strategies for treating septic shock with vasopressors, focusing on when to add vasopressin. The trial aims to determine the optimal threshold for starting vasopressin in septic shock treatment. The study design is a pragmatic, cluster-randomized, cluster-crossover trial.</description>
+    </item>
+    <item>
+      <title>Microbial Metabolites and Outcomes of Pregnancy Study</title>
+      <link>https://clinicaltrials.gov/study/NCT06362356</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06362356</guid>
+      <category>Clinical Trial</category>
+      <description>This study explores the connection between diet, gut microbiota, and hypertensive disorders of pregnancy, a leading cause of maternal and neonatal morbidity.</description>
+    </item>
+    <item>
+      <title>Intranasal Insulin to Prevent Intensive Care Unit Delirium</title>
+      <link>https://clinicaltrials.gov/study/NCT07532577</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07532577</guid>
+      <category>Clinical Trial</category>
+      <description>This study explored the potential of intranasal insulin to prevent delirium in elderly ICU patients after complex cardiac surgery. The study aimed to assess the feasibility, tolerability, and efficacy of this treatment. No results were reported.</description>
+    </item>
+    <item>
+      <title>Epidural Analgesia for Pancreatitis (Epipan Study)</title>
+      <link>https://clinicaltrials.gov/study/NCT02126332</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT02126332</guid>
+      <category>Clinical Trial</category>
+      <description>The Epipan Study discusses acute pancreatitis (AP) management, noting that 80% of patients develop mild disease and 20% develop severe disease with local complications.</description>
+    </item>
+    <item>
+      <title>Burden of and risk factors for neurological complications in critical illness.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42377460/</link>
+      <guid isPermaLink="false">pmid:42377460</guid>
+      <category>Cardiovascular</category>
+      <description>This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.</description>
+    </item>
+    <item>
+      <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
+      <guid isPermaLink="false">pmid:42377463</guid>
+      <category>Respiratory</category>
+      <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
+    </item>
+    <item>
+      <title>Burden of and risk factors for neurological complications in critical illness.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42377460/</link>
+      <guid isPermaLink="false">pmid:42377460</guid>
+      <category>Neurology</category>
+      <description>This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.</description>
+    </item>
+    <item>
       <title>Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42467893/</link>
       <guid isPermaLink="false">pmid:42467893</guid>
       <category>GI &amp; Nutrition</category>
       <description></description>
+    </item>
+    <item>
+      <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
+      <guid isPermaLink="false">pmid:42377463</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
+    </item>
+    <item>
+      <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
+      <guid isPermaLink="false">pmid:42377463</guid>
+      <category>Hematology &amp; Coagulation</category>
+      <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
+    </item>
+    <item>
+      <title>Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42149702/</link>
+      <guid isPermaLink="false">pmid:42149702</guid>
+      <category>Procedures &amp; POCUS</category>
+      <description>Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.</description>
     </item>
     <item>
       <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
@@ -139,13 +251,6 @@
       <description>This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.</description>
     </item>
     <item>
-      <title>Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays</title>
-      <link>https://clinicaltrials.gov/study/NCT06607003</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06607003</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.</description>
-    </item>
-    <item>
       <title>Blunt cerebrovascular injury</title>
       <link>https://litfl.com/blunt-cerebrovascular-injury/</link>
       <guid isPermaLink="false">https://litfl.com/blunt-cerebrovascular-injury/</guid>
@@ -251,13 +356,6 @@
       <description>This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.</description>
     </item>
     <item>
-      <title>Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS</title>
-      <link>https://clinicaltrials.gov/study/NCT07669558</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07669558</guid>
-      <category>Clinical Trial</category>
-      <description>This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.</description>
-    </item>
-    <item>
       <title>Disseminated Intravascular Coagulation (DIC) Score and Organ Dysfunction in Septic Shock Patients</title>
       <link>https://clinicaltrials.gov/study/NCT06363149</link>
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06363149</guid>
@@ -326,104 +424,6 @@
       <guid isPermaLink="false">pmid:42413523</guid>
       <category>Cardiovascular</category>
       <description>BACKGROUND: In patients receiving extracorporeal membrane oxygenation (ECMO), standard practice is full-dose intravenous unfractionated heparin (UFH) targeting an activated partial thromboplastin time of 2·0-2·5 times baseline to reduce thrombotic risk. This approach can increase bleeding without further reducing thrombosis compared with low-dose UFH. Robust evidence to guide anticoagulation targets is absent because anticoagulation targets in ECMO have never been assessed in a sufficiently powe</description>
-    </item>
-    <item>
-      <title>Standard-dose unfractionated heparin versus low-dose unfractionated heparin and low-molecular-weight heparin in extracorporeal life support (RATE): an open-label, randomised, non-inferiority trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42413523/</link>
-      <guid isPermaLink="false">pmid:42413523</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>BACKGROUND: In patients receiving extracorporeal membrane oxygenation (ECMO), standard practice is full-dose intravenous unfractionated heparin (UFH) targeting an activated partial thromboplastin time of 2·0-2·5 times baseline to reduce thrombotic risk. This approach can increase bleeding without further reducing thrombosis compared with low-dose UFH. Robust evidence to guide anticoagulation targets is absent because anticoagulation targets in ECMO have never been assessed in a sufficiently powe</description>
-    </item>
-    <item>
-      <title>LOGICAL – Conservative Oxygen after Cardiac Arrest</title>
-      <link>https://www.thebottomline.org.uk/blog/ebm/logical/</link>
-      <guid isPermaLink="false">https://www.thebottomline.org.uk/blog/ebm/logical/</guid>
-      <category>The Bottom Line</category>
-      <description>This study investigated the effect of limiting oxygen exposure on unresponsive patients after cardiac arrest. The results showed that conservative oxygen therapy did not increase the likelihood of survival. The study included 1200 patients.</description>
-    </item>
-    <item>
-      <title>Emergency Evidence Updates – June 2026</title>
-      <link>https://www.thebottomline.org.uk/blog/emergency-evidence-updates-june-2026/</link>
-      <guid isPermaLink="false">https://www.thebottomline.org.uk/blog/emergency-evidence-updates-june-2026/</guid>
-      <category>The Bottom Line</category>
-      <description>This is a monthly update of critical care literature, summarizing recent studies and findings.</description>
-    </item>
-    <item>
-      <title>Critical Care Evidence Updates – June 2026</title>
-      <link>https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-june-2026/</link>
-      <guid isPermaLink="false">https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-june-2026/</guid>
-      <category>The Bottom Line</category>
-      <description>This article provides a monthly update on recent critical care literature, highlighting new studies and findings.</description>
-    </item>
-    <item>
-      <title>Tooth brushing versus routine oral care impact on ventilator-associated pneumonia in PICU: a clinical trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42502162/</link>
-      <guid isPermaLink="false">pmid:42502162</guid>
-      <category>Respiratory</category>
-      <description>OBJECTIVES: Ventilator-associated pneumonia (VAP) is a frequent and serious infection among mechanically ventilated children in pediatric intensive care units (PICUs), with oral colonization playing a key role in its pathogenesis. Effective oral hygiene measures are therefore crucial to reduce VAP incidence and improve clinical outcomes. This study aimed to compare the incidence of VAP in PICU patients receiving routine oral care versus toothbrushing with chlorhexidine, and to evaluate the impac</description>
-    </item>
-    <item>
-      <title>Association between energy adequacy and clinical outcomes in septic ICU patients stratified by modified NUTRIC score.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42493817/</link>
-      <guid isPermaLink="false">pmid:42493817</guid>
-      <category>Respiratory</category>
-      <description>This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.</description>
-    </item>
-    <item>
-      <title>Early Identification of Recovery Potential After Acute Brain Injury Using Functional Near-Infrared Spectroscopy.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42498895/</link>
-      <guid isPermaLink="false">pmid:42498895</guid>
-      <category>Neurology</category>
-      <description>Researchers used a non-invasive brain imaging technique called functional near-infrared spectroscopy (fNIRS) to predict recovery in 33 patients with acute brain injury. The fNIRS-based model accurately predicted 6-month outcomes in 81.3% of patients, outperforming clinical models. The model also predicted recovery of behavioral responsiveness in 78.5% of patients.</description>
-    </item>
-    <item>
-      <title>Weight-adjusted fluid balance and its impact on days alive without life support in critical illness - an observational cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42498537/</link>
-      <guid isPermaLink="false">pmid:42498537</guid>
-      <category>Neurology</category>
-      <description>This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.</description>
-    </item>
-    <item>
-      <title>Weight-adjusted fluid balance and its impact on days alive without life support in critical illness - an observational cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42498537/</link>
-      <guid isPermaLink="false">pmid:42498537</guid>
-      <category>Renal</category>
-      <description>This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.</description>
-    </item>
-    <item>
-      <title>Development of a population-level frfailty index using Quebec administrative data: a Canadian retrospective study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42498470/</link>
-      <guid isPermaLink="false">pmid:42498470</guid>
-      <category>Renal</category>
-      <description>Researchers developed a 30-item frailty index using Quebec administrative data to identify frail ICU patients. They found that frail patients were older, more likely to have dialysis on admission, and had a higher risk of in-hospital mortality. The index showed a strong correlation between frailty and mortality.</description>
-    </item>
-    <item>
-      <title>An Interpretable Machine Learning Model for Continuous Prediction of Acute Kidney Injury in Critically Ill Patients With Atrial Fibrillation.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42497050/</link>
-      <guid isPermaLink="false">pmid:42497050</guid>
-      <category>Renal</category>
-      <description>Researchers developed a machine learning model to predict acute kidney injury in ICU patients with atrial fibrillation, using data from 19,347 patients. The model, which combines electronic health record data, achieved high accuracy in predicting AKI risk. Clinicians can use this model to inform patient management decisions.</description>
-    </item>
-    <item>
-      <title>Glycemic Ratio Is a Superior Predictor of Mortality Compared With Stress Hyperglycemia Ratio in Critically Ill Patients.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42496059/</link>
-      <guid isPermaLink="false">pmid:42496059</guid>
-      <category>Endocrine &amp; Metabolic</category>
-      <description>This study compared two ways to predict mortality in critically ill patients: using a single blood glucose measurement at admission, and using a ratio of mean ICU blood glucose to estimated preadmission blood glucose. The study found that the ratio method was a better predictor of mortality. The best outcome was associated with a mean ICU blood glucose level that was 80-100% of the patient's preadmission level.</description>
-    </item>
-    <item>
-      <title>A Study in Priors</title>
-      <link>https://emcrit.org/emnerd/a-study-in-priors/</link>
-      <guid isPermaLink="false">https://emcrit.org/emnerd/a-study-in-priors/</guid>
-      <category>EMCrit</category>
-      <description>Researchers found that nearly half of positive medical trial results cannot be replicated, highlighting issues with trust in medical literature.</description>
-    </item>
-    <item>
-      <title>Regional Citrate Anticoagulation Versus No Anticoagulation During Continuous Renal Replacement Therapy in Critically Ill Patients at High Risk of Bleeding: A Meta-analysis of Randomized Controlled Trials.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42490008/</link>
-      <guid isPermaLink="false">pmid:42490008</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.</description>
     </item>
   </channel>
 </rss>

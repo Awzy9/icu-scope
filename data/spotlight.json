@@ -1,15 +1,15 @@
 {
-  "pmid": "42496059",
-  "title": "Glycemic Ratio Is a Superior Predictor of Mortality Compared With Stress Hyperglycemia Ratio in Critically Ill Patients.",
-  "journal": "Journal of diabetes science and technology",
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42496059/",
-  "pubdate": "2026 Jul 24",
-  "why_selected": "This article is selected for its novel approach to predicting mortality in critically ill patients, providing a more accurate assessment of glycemic control compared to traditional methods.",
+  "pmid": "42410654",
+  "title": "The molecular ICU: a primer on omics, informatics and the future of precision critical care.",
+  "journal": "Critical care (London, England)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42410654/",
+  "pubdate": "2026 Jul 6",
+  "why_selected": "This paper is the most clinically significant this week as it highlights the limitations of current critical care research and the need for precision medicine, which is a crucial area of focus for ICU management.",
   "discussion_prompts": [
-    "How does the glycemic ratio compare to other prognostic indicators in critically ill patients?",
-    "What are the potential clinical implications of using the glycemic ratio in ICU decision-making?",
-    "Are there any limitations to the study's methodology that could impact the generalizability of the findings?"
+    "How can we apply the concept of precision medicine to our current ICU practices?",
+    "What are the potential implications of using syndromic diagnoses, such as sepsis, in critical care research?",
+    "What are some potential strategies for improving the detection of treatment-responsive patients in critical care?"
   ],
-  "week": "2026-07-25",
-  "generated_at": "2026-07-28T07:12:24+00:00"
+  "week": "2026-08-01",
+  "generated_at": "2026-08-01T05:46:06+00:00"
 }
