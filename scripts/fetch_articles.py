@@ -1134,6 +1134,34 @@ def save_spotlight(data):
         json.dump(data, f, indent=2, ensure_ascii=False)
 
 
+def impact_score(article):
+    """Mirrors app.js's impactScore() -- study type + journal tier +
+    citation count, not an AI judgment. Used to rank spotlight candidates
+    by how important the study TYPE is, rather than by citation count
+    alone (a brand-new landmark RCT hasn't had time to accumulate
+    citations yet, but its study type already marks it as high-impact).
+    """
+    study_type = (article.get("study_type") or "").lower()
+    notable = bool(article.get("is_top_journal")) or (article.get("citation_count") or 0) >= 10
+    if "landmark" in study_type:
+        return 5
+    if "guideline" in study_type:
+        return 5
+    if "meta-analysis" in study_type or "systematic review" in study_type:
+        return 5 if notable else 4
+    if "randomized" in study_type:
+        return 5 if notable else 4
+    if "trial" in study_type:
+        return 4 if notable else 3
+    if "multicenter" in study_type or "comparative" in study_type or "observational" in study_type:
+        return 3
+    if "case report" in study_type:
+        return 2
+    if "review" in study_type:
+        return 2
+    return 2
+
+
 def current_week_anchor():
     """Return the date (YYYY-MM-DD) of the most recent Saturday, UTC.
 
@@ -1148,7 +1176,7 @@ def current_week_anchor():
 
 def pick_spotlight(candidates):
     listing = "\n".join(
-        f"{i + 1}. [{c['pmid']}] {c['title']} — {(c.get('abstract') or '')[:400]}"
+        f"{i + 1}. [{c['pmid']}] ({c.get('study_type') or 'Study'}) {c['title']} — {(c.get('abstract') or '')[:400]}"
         for i, c in enumerate(candidates)
     )
     messages = [
@@ -1159,10 +1187,15 @@ def pick_spotlight(candidates):
         {
             "role": "user",
             "content": (
-                "Select the single most clinically significant paper this week for an ICU journal club, "
-                "from the numbered candidates below. Respond with STRICT JSON only, matching exactly this schema: "
+                "Select the single most important paper this week for an ICU journal club, from the numbered "
+                "candidates below. The candidates are already ranked by study type and evidence level (randomized "
+                "controlled trials, meta-analyses/systematic reviews, and practice guidelines are the highest tier; "
+                "observational/comparative studies are next; case reports and narrative reviews are lowest), so "
+                "prefer an earlier candidate over a later one unless a later one is clearly more clinically "
+                "important or practice-changing despite its type. Respond with STRICT JSON only, matching exactly "
+                "this schema: "
                 '{"pmid": "<the pmid of your chosen article, exactly as given in brackets>", '
-                '"why_selected": "1-2 sentences on why this is the most significant pick", '
+                '"why_selected": "1-2 sentences on why this is the most significant pick, mentioning its study type", '
                 '"discussion_prompts": ["question 1", "question 2", "question 3"]}.'
                 f"\n\nCandidates:\n{listing}"
             ),
@@ -1180,20 +1213,55 @@ def pick_spotlight(candidates):
         "journal": match.get("journal", ""),
         "url": match["url"],
         "pubdate": match.get("pubdate", ""),
+        "study_type": match.get("study_type", ""),
         "why_selected": (parsed.get("why_selected") or "").strip(),
         "discussion_prompts": prompts,
     }
 
 
-def build_spotlight(trending_articles):
+SPOTLIGHT_CANDIDATE_COUNT = int(os.environ.get("SPOTLIGHT_CANDIDATE_COUNT", "10"))
+
+
+def spotlight_candidates(trending_articles, categories_out):
+    """Rank this week's spotlight candidates by study type/evidence level
+    first, citation count second -- not by citations alone. Citation-only
+    ranking (what "Trending" uses) would never surface a landmark RCT
+    published days ago, since it hasn't had time to accumulate citations
+    yet; pulling in every RCT/meta-analysis/guideline from the organ-system
+    categories too (regardless of citation count) fixes that.
+    """
+    seen = set()
+    candidates = []
+
+    def consider(article):
+        pmid = article.get("pmid")
+        if not pmid or pmid in seen:
+            return
+        seen.add(pmid)
+        candidates.append(article)
+
+    for a in trending_articles:
+        consider(a)
+    high_impact_types = ("randomized", "meta-analysis", "systematic review", "guideline", "landmark")
+    for cat in categories_out:
+        for a in cat["articles"]:
+            if any(t in (a.get("study_type") or "").lower() for t in high_impact_types):
+                consider(a)
+
+    candidates.sort(key=lambda a: (impact_score(a), a.get("citation_count") or 0), reverse=True)
+    return candidates[:SPOTLIGHT_CANDIDATE_COUNT]
+
+
+def build_spotlight(trending_articles, categories_out):
     week = current_week_anchor()
     existing = load_spotlight()
     if existing and existing.get("week") == week:
         return existing
-    if not GROQ_API_KEY or not trending_articles:
+    candidates = spotlight_candidates(trending_articles, categories_out)
+    if not GROQ_API_KEY or not candidates:
         return existing
 
-    result = pick_spotlight(trending_articles[:8])
+    result = pick_spotlight(candidates)
     if not result:
         return existing
 
@@ -1510,7 +1578,7 @@ def main():
     # tokens-per-minute budget on Groq's free tier.
     print("Selecting article of the week...")
     try:
-        spotlight = build_spotlight(trending_articles)
+        spotlight = build_spotlight(trending_articles, categories_out)
     except Exception as e:
         print(f"  warning: spotlight selection failed: {e}")
         spotlight = load_spotlight()
