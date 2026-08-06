@@ -1,4 +1,19 @@
 {
+  "pmid:42267831": {
+    "clinical_question": "Does conservative oxygen therapy improve survival with a favorable functional outcome in unresponsive adults after cardiac arrest compared to liberal oxygen therapy?",
+    "background": "In patients who are unresponsive after resuscitation from cardiac arrest, limiting oxygen exposure may increase the likelihood of survival with a favorable functional outcome.",
+    "design": "multicentre, randomized, trial",
+    "setting": "53 ICUs in Australia, New Zealand, and Ireland",
+    "population": "unresponsive adults receiving mechanical ventilation in the ICU after cardiac arrest",
+    "intervention": "conservative oxygen therapy with a default lower limit of arterial oxygen saturation of 90% and an upper limit of 95%",
+    "management_common_to_both_groups": "mechanical ventilation in the ICU",
+    "intervention_fidelity": "",
+    "outcome": "survival with a favorable functional outcome at 180 days (GOS-E level of 5 or higher) - 38.2% in the conservative-oxygen group and 39.7% in the liberal-oxygen group (relative risk, 0.97; 95% confidence interval, 0.87 to 1.09; P = 0.65)",
+    "author_conclusion": "Among unresponsive adults undergoing mechanical ventilation in the ICU after a cardiac arrest, the percentage who survived with a favorable functional outcome was not higher with conservative oxygen therapy than with liberal oxygen therapy.",
+    "strengths": "large sample size; multicentre design",
+    "weaknesses": "no clear rationale for the chosen upper limit of arterial oxygen saturation in the liberal-oxygen group",
+    "bottom_line": "There is no evidence to support the use of conservative oxygen therapy over liberal oxygen therapy in unresponsive adults after cardiac arrest."
+  },
   "pmid:42377460": {
     "key_stats": "",
     "summary": "This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.",
@@ -301,6 +316,12 @@
   "pmid:42228011": {
     "summary": "A study reviewed current evidence on nutritional support in ICU patients, finding that low-calorie and low-protein strategies during the first week may improve recovery and reduce complications. Increasing protein delivery may be harmful, especially in patients with acute kidney injury. Optimal macronutrient targets remain limited.",
     "significance": "This study's findings have significant implications for ICU clinical practice, as they support a cautious, individualized approach to nutritional support, avoiding overfeeding and considering low-calorie, low-protein feeding strategies to improve patient outcomes."
+  },
+  "pmid:42218546": {
+    "key_stats": "n=8685, mean difference in AKI Rank -0.8 (95% CI -1.3 to -0.3), mean difference in stage 1 AKI -3.1 (95% CI -3.8 to -2.5), relative risk of 30-day mortality 1.20 (95% CI 1.09 to 1.33)",
+    "summary": "Researchers studied the effect of restrictive fluid management in critically ill patients with acute kidney injury (AKI). They found that this approach improved renal function in early AKI but potentially harmed patients with more advanced AKI. The study suggests that future trials should consider safety criteria for patients with advanced renal injury.",
+    "significance": "These findings have implications for ICU fluid management strategies, particularly for patients with AKI. Clinicians should carefully consider the stage of AKI when deciding on fluid management.",
+    "rounds_takeaway": "Consider conservative fluid management in patients with early AKI, but be cautious and monitor closely in those with more advanced AKI."
   },
   "pmid:42204563": {
     "summary": "This study of 433 ICU patients found that energy expenditure initially increased and then decreased over time during prolonged ICU stays. The pattern was consistent across different patient groups. Three distinct patterns of energy expenditure were also identified.",
@@ -618,17 +639,11 @@
     "summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
     "significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury."
   },
-  "pmid:42484383": {
-    "key_stats": "n=449, n=505, p=0.0162, p=0.0504, 95% CI -0.70 to 0.55",
-    "summary": "A randomized controlled trial tested whether involving a communication facilitator during and after an ICU stay could reduce depressive symptoms in family members of critically ill patients. The study found no significant difference in depressive symptoms between the intervention and control groups. Secondary outcomes, such as relationship with the healthcare team and goal concordance, showed small but expected improvements.",
-    "significance": "This study highlights the importance of addressing family members' emotional distress during ICU stays, but suggests that involving a communication facilitator may not be a sufficient intervention to reduce depressive symptoms. Clinicians should consider other strategies to support family members during this challenging time.",
-    "rounds_takeaway": "Consider offering family-centered care and emotional support to family members of critically ill patients, but do not rely solely on communication facilitators to reduce depressive symptoms."
-  },
-  "pmid:42469923": {
-    "key_stats": "n=4703, OR 1.93 (95% CI 1.57-2.37), p<0.01",
-    "summary": "This study compared the characteristics and outcomes of immunocompromised patients with viral severe acute respiratory infections (SARI) to those of immunocompetent patients in Australian ICUs. Immunocompromised patients were older, had more comorbidities, and received more treatment, but had nearly double the odds of in-hospital mortality. They accounted for about one-fifth of SARI patients.",
-    "significance": "This study highlights the need for targeted public health campaigns and improved treatment strategies for immunocompromised patients with viral SARI, who have a higher risk of in-hospital mortality.",
-    "rounds_takeaway": "Consider immunocompromised status in patients with viral SARI, as it may impact treatment decisions and outcomes."
+  "pmid:42554605": {
+    "key_stats": "n=568340, OR 0.997 (95% CI 0.995-0.998), p < 0.001",
+    "summary": "This study analyzed data from 568,340 ICU patients in Japan to see how hospital volume affects mortality rates. The researchers found that hospitals with more patients with severe illnesses (high SOFA scores) had lower mortality rates. The relationship between volume and mortality became stronger as the severity of illness increased.",
+    "significance": "This study's findings suggest that hospitals with more experience caring for critically ill patients may have better outcomes, which could inform hospital staffing and resource allocation decisions.",
+    "rounds_takeaway": "Consider transferring patients with high SOFA scores to hospitals with higher volumes of similar cases."
   },
   "url:https://litfl.com/basic-fracture-treatment/": {
     "key_stats": "",
@@ -847,6 +862,54 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07283588": {
+    "key_stats": "",
+    "summary": "This study aimed to determine the prevalence of sepsis and septic shock in adult intensive care units in Turkey. However, it appears to be a descriptive study without explicit findings on prevalence or other key statistics.",
+    "significance": "Robust epidemiological data on sepsis prevalence in low- and middle-income countries like Turkey are crucial for developing targeted interventions and improving patient outcomes.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06182995": {
+    "key_stats": "n=120, no effect measures reported",
+    "summary": "This pilot study will test the feasibility of a new intervention called ADAPT, which aims to support older adults after ICU discharge.",
+    "significance": "This study could inform the development of new interventions to improve outcomes for older adults after ICU discharge.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06714864": {
+    "key_stats": "",
+    "summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
+    "significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07300306": {
+    "key_stats": "",
+    "summary": "This study aimed to validate the SOFA-2 score in predicting mortality and determining sepsis prevalence in Turkish ICUs. Researchers compared the new SOFA-2 score to the existing SOFA-1 score. The study's results are not yet reported.",
+    "significance": "This study's findings could inform the use of the SOFA-2 score in predicting mortality and identifying sepsis in Turkish ICUs, potentially improving patient outcomes.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06014801": {
+    "key_stats": "",
+    "summary": "This clinical trial compared the effectiveness and safety of low-intensity versus medium-intensity continuous kidney replacement therapy in critically ill patients.",
+    "significance": "The results of this study could inform treatment decisions for critically ill patients requiring renal replacement therapy.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06389773": {
+    "key_stats": "",
+    "summary": "This ethnographic study observed how healthcare professionals work together in an ICU, exploring teamwork practices and challenges, and how they changed during the COVID-19 pandemic.",
+    "significance": "Understanding teamwork in ICUs is crucial for ensuring safe and effective care, and this study provides valuable insights into the dynamics of ICU staff interactions.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07305870": {
+    "key_stats": "",
+    "summary": "This study aimed to evaluate the effectiveness of sequential compression devices on distributive peripheral edema and hemodynamic stability in critical care patients. The study objectives were to assess the effectiveness of the device and explore relationships between its effectiveness, range of motion, and demographic characteristics. No specific outcomes were reported.",
+    "significance": "Understanding the effectiveness of sequential compression devices in critical care settings can inform strategies to improve patient outcomes, particularly in managing peripheral edema and maintaining hemodynamic stability.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06822426": {
+    "key_stats": "",
+    "summary": "This study compared the safety and efficacy of DefenCath to heparin in reducing central-line bloodstream infections in adults receiving total parenteral nutrition through a central venous catheter.",
+    "significance": "Reducing central-line bloodstream infections is crucial in ICU settings to prevent morbidity and mortality.",
+    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07486362": {
     "key_stats": "",
