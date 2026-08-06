@@ -1409,6 +1409,7 @@
         <div class="article-meta">
           <span class="journal" style="--journal-hue: ${journalHue(spotlight.journal)}">${escapeHtml(spotlight.journal || "")}</span> · ${escapeHtml(spotlight.pubdate || "")}
         </div>
+        ${spotlight.study_type ? `<span class="study-type-badge">${escapeHtml(evidenceTierDot(spotlight.study_type))} ${escapeHtml(spotlight.study_type)}</span>` : ""}
         ${spotlight.why_selected ? `<p class="ai-significance"><strong>Why this pick:</strong> ${escapeHtml(spotlight.why_selected)}</p>` : ""}
         ${prompts ? `<div class="discussion-prompts"><strong>Discussion prompts:</strong><ul>${prompts}</ul></div>` : ""}
         <div class="article-links"><a href="${spotlight.url}" target="_blank" rel="noopener">PubMed</a></div>
