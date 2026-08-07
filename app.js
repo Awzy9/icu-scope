@@ -8,6 +8,7 @@
   const nav = document.getElementById("category-nav");
   const content = document.getElementById("content");
   const updatedLine = document.getElementById("updated-line");
+  const filterStatus = document.getElementById("filter-status");
   const ksaSection = document.getElementById("ksa-section");
   const ksaBody = document.getElementById("ksa-body");
   const ksaList = document.getElementById("ksa-list");
@@ -39,6 +40,7 @@
   const trialList = document.getElementById("trial-list");
   const trialCount = document.getElementById("trial-count");
   const trialWindow = document.getElementById("trial-window");
+  const classicsSection = document.getElementById("classics-section");
   const classicsBody = document.getElementById("classics-body");
   const classicsList = document.getElementById("classics-list");
   const guidelineSection = document.getElementById("guideline-section");
@@ -83,13 +85,17 @@
   const organFilter = document.getElementById("organ-filter");
   const journalFilter = document.getElementById("journal-filter");
   const studyTypeFilter = document.getElementById("study-type-filter");
+  const clearFiltersBtn = document.getElementById("clear-filters-btn");
   const quickFilters = document.getElementById("quick-filters");
   const hiddenCategoriesBar = document.getElementById("hidden-categories-bar");
   const hiddenCategoriesList = document.getElementById("hidden-categories-list");
   const dashboardStrip = document.getElementById("dashboard-strip");
   const dashNewCount = document.getElementById("dash-new-count");
   const dashTopCategory = document.getElementById("dash-top-category");
+  const dashTopCategoryLink = document.getElementById("dash-top-category-link");
   const dashGuidelineCount = document.getElementById("dash-guideline-count");
+  const dashTrialCount = document.getElementById("dash-trial-count");
+  const dashOrganCount = document.getElementById("dash-organ-count");
   const dashSpotlightTile = document.getElementById("dash-spotlight-tile");
   const dashSpotlightTitle = document.getElementById("dash-spotlight-title");
   const densityToggle = document.getElementById("density-toggle");
@@ -333,18 +339,21 @@
   let embeddingsPromise = null;
   let embeddingsCache = null;
 
+  const SUN_ICON = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.4M12 19.1v2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+  const MOON_ICON = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.2A8.5 8.5 0 1 1 9.8 4a6.8 6.8 0 0 0 10.2 10.2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>';
+
   function initTheme() {
     const saved = localStorage.getItem("icu-scope-theme");
     const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     const effective = saved || (prefersDark ? "dark" : "light");
-    themeToggle.textContent = effective === "dark" ? "☀️" : "🌙";
+    themeToggle.innerHTML = effective === "dark" ? SUN_ICON : MOON_ICON;
     themeToggle.addEventListener("click", () => {
       const current = document.documentElement.getAttribute("data-theme")
         || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       const next = current === "dark" ? "light" : "dark";
       document.documentElement.setAttribute("data-theme", next);
       localStorage.setItem("icu-scope-theme", next);
-      themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
+      themeToggle.innerHTML = next === "dark" ? SUN_ICON : MOON_ICON;
     });
   }
 
@@ -477,6 +486,16 @@
       });
     }
     body.classList.toggle("collapsed", collapsed);
+    // Collapsed sections are already hidden visually (opacity: 0) and
+    // unclickable (pointer-events: none) via CSS, but without this a
+    // keyboard/screen-reader user could still tab into their links --
+    // with every section collapsed by default, that's hundreds of
+    // invisible stops before reaching real content. inert removes the
+    // whole subtree from the tab order and accessibility tree; setting
+    // it synchronously (not waiting for the collapse animation to
+    // finish) also means focus moves out immediately if it happened to
+    // be inside a section someone just collapsed via keyboard.
+    body.inert = collapsed;
     entry.toggle.setAttribute("aria-expanded", String(!collapsed));
     entry.toggle.textContent = collapsed ? "▸" : "▾";
   }
@@ -512,13 +531,21 @@
       current[sectionId] = false;
       saveCollapseState(current);
     }
-    sectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    sectionEl.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   }
 
   function closeSectionJumpMenu() {
+    const wasOpen = sectionJumpNav.classList.contains("open");
     sectionJumpNav.classList.remove("open");
     bottomNavBackdrop.hidden = true;
     bottomNavMore.setAttribute("aria-expanded", "false");
+    // Only steal focus back if the sheet was actually open (this also
+    // runs on desktop's non-modal sidebar via initSectionJump's button
+    // clicks, where yanking focus to the mobile-only "More" button would
+    // be jarring and pointless -- it's not even visible there).
+    if (wasOpen && sectionJumpNav.contains(document.activeElement)) {
+      bottomNavMore.focus();
+    }
   }
 
   function initSectionJump() {
@@ -527,6 +554,7 @@
       const btn = document.createElement("button");
       btn.className = "section-jump-btn";
       btn.type = "button";
+      btn.dataset.sectionId = target.sectionId;
       btn.innerHTML = `<span>${target.icon}</span><span>${escapeHtml(target.label)}</span>`;
       btn.addEventListener("click", () => {
         jumpToSection(target.sectionId);
@@ -534,6 +562,27 @@
       });
       sectionJumpNav.appendChild(btn);
     });
+    updateSectionJumpHeight();
+    updateSectionJumpAvailability();
+  }
+
+  // Some jump targets (Preprints, Trial Results, ICU Classics...) start
+  // hidden and only appear once their section has data to show -- before
+  // that, jumpToSection() silently no-ops for them. Dim + disable the
+  // button instead of leaving it looking clickable but doing nothing.
+  function updateSectionJumpAvailability() {
+    sectionJumpNav.querySelectorAll(".section-jump-btn").forEach((btn) => {
+      const sectionEl = document.getElementById(`${btn.dataset.sectionId}-section`);
+      btn.disabled = !sectionEl || sectionEl.hidden;
+    });
+  }
+
+  // Only measured at >=1100px, where #section-jump is the fixed desktop
+  // sidebar its offsetHeight is meaningful for. Below that it's a
+  // translateY(100%) bottom sheet, and measuring it there would poison
+  // --section-jump-height with a bogus value.
+  function updateSectionJumpHeight() {
+    if (!window.matchMedia("(min-width: 1100px)").matches) return;
     document.documentElement.style.setProperty("--section-jump-height", `${sectionJumpNav.offsetHeight}px`);
   }
 
@@ -703,7 +752,7 @@
   async function runSemanticSearch(query) {
     if (!WORKER_ENDPOINT || !rawData) return;
     semanticSection.hidden = false;
-    semanticSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    semanticSection.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
     semanticList.innerHTML = "";
     semanticCount.textContent = "Searching…";
     semanticSearchBtn.disabled = true;
@@ -773,6 +822,10 @@
       hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
     }
     return hash % 360;
+  }
+
+  function scrollBehavior() {
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
   }
 
   function escapeHtml(str) {
@@ -1037,12 +1090,13 @@
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
+      ${studyTypeBadge ? `<div class="article-eyebrow">${studyTypeBadge}</div>` : ""}
       <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${highlightMatch(article.title, currentSearchTerm)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
-      <div class="article-tags">${studyTypeBadge}${impactBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
+      <div class="article-tags">${impactBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
       ${aiBlock}
       ${abstractBlock}
       ${askBlock}
@@ -1052,7 +1106,10 @@
         ${doiLink}
         ${fullTextLink}
         <button class="cite-btn" type="button">Cite</button>
-        <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">${isBookmarked ? "🔖 Saved" : "🔖 Save"}</button>
+        <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">
+          <svg viewBox="0 0 24 24" fill="${isBookmarked ? "currentColor" : "none"}" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          ${isBookmarked ? "Saved" : "Save"}
+        </button>
       </div>
     `;
 
@@ -1073,6 +1130,22 @@
       aiToggle.addEventListener("click", () => {
         const expanded = aiSummaryEl.classList.toggle("expanded");
         aiToggle.textContent = expanded ? hideLabel : showLabel;
+        // max-height can't transition to/from "none" -- set a real
+        // pixel value so the CSS transition actually animates, same
+        // technique as setSectionCollapsed.
+        if (expanded) {
+          aiSummaryEl.style.maxHeight = `${aiSummaryEl.scrollHeight}px`;
+          aiSummaryEl.addEventListener("transitionend", function onEnd(e) {
+            if (e.propertyName === "max-height") {
+              aiSummaryEl.style.maxHeight = "none";
+              aiSummaryEl.removeEventListener("transitionend", onEnd);
+            }
+          });
+        } else {
+          aiSummaryEl.style.maxHeight = `${aiSummaryEl.scrollHeight}px`;
+          aiSummaryEl.offsetHeight; // force layout so the start height registers
+          aiSummaryEl.style.maxHeight = "0px";
+        }
       });
     }
 
@@ -1403,18 +1476,36 @@
       ? `Week of ${new Date(`${spotlight.week}T00:00:00Z`).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" })}`
       : "";
     const prompts = (spotlight.discussion_prompts || []).map((p) => `<li>${escapeHtml(p)}</li>`).join("");
+    const id = articleId(spotlight);
+    const isBookmarked = bookmarkedIds.has(id);
     spotlightBody.innerHTML = `
       <div class="article-card spotlight-card">
+        ${spotlight.study_type ? `<div class="article-eyebrow"><span class="study-type-badge">${escapeHtml(evidenceTierDot(spotlight.study_type))} ${escapeHtml(spotlight.study_type)}</span></div>` : ""}
         <h3 class="article-title"><a href="${spotlight.url}" target="_blank" rel="noopener">${escapeHtml(spotlight.title)}</a></h3>
         <div class="article-meta">
           <span class="journal" style="--journal-hue: ${journalHue(spotlight.journal)}">${escapeHtml(spotlight.journal || "")}</span> · ${escapeHtml(spotlight.pubdate || "")}
         </div>
-        ${spotlight.study_type ? `<span class="study-type-badge">${escapeHtml(evidenceTierDot(spotlight.study_type))} ${escapeHtml(spotlight.study_type)}</span>` : ""}
-        ${spotlight.why_selected ? `<p class="ai-significance"><strong>Why this pick:</strong> ${escapeHtml(spotlight.why_selected)}</p>` : ""}
+        ${spotlight.why_selected ? `<div class="ai-summary"><div class="ai-summary-label">✨ Why this pick</div><p class="ai-significance">${escapeHtml(spotlight.why_selected)}</p></div>` : ""}
         ${prompts ? `<div class="discussion-prompts"><strong>Discussion prompts:</strong><ul>${prompts}</ul></div>` : ""}
-        <div class="article-links"><a href="${spotlight.url}" target="_blank" rel="noopener">PubMed</a></div>
+        <div class="article-links">
+          <a href="${spotlight.url}" target="_blank" rel="noopener">PubMed</a>
+          <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">
+            <svg viewBox="0 0 24 24" fill="${isBookmarked ? "currentColor" : "none"}" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            ${isBookmarked ? "Saved" : "Save"}
+          </button>
+        </div>
       </div>
     `;
+    const bookmarkBtn = spotlightBody.querySelector(".bookmark-btn");
+    bookmarkBtn.addEventListener("click", () => {
+      if (bookmarkedIds.has(id)) {
+        bookmarkedIds.delete(id);
+      } else {
+        bookmarkedIds.add(id);
+      }
+      saveBookmarks();
+      applyFiltersAndRender();
+    });
   }
 
   function renderDashboard(data) {
@@ -1449,7 +1540,11 @@
     dashTopCategory.textContent = topCategory && topCategoryCount > 0
       ? `${CATEGORY_ICONS[topCategory.id] || ""} ${topCategory.label}`
       : "–";
+    dashTopCategoryLink.href = topCategory ? `#cat-${topCategory.id}` : "#";
+    dashTopCategoryLink.dataset.catId = topCategory ? topCategory.id : "";
     dashGuidelineCount.textContent = String((data.guidelines && data.guidelines.articles && data.guidelines.articles.length) || 0);
+    dashTrialCount.textContent = String(collectTrialResultArticles(data).length);
+    dashOrganCount.textContent = String(categories.length);
 
     if (data.spotlight && data.spotlight.title) {
       dashSpotlightTile.hidden = false;
@@ -1460,6 +1555,7 @@
   }
 
   function renderClassics() {
+    classicsSection.hidden = false;
     classicsList.innerHTML = "";
     CLASSIC_TRIALS.forEach((trial) => classicsList.appendChild(articleCard(trial)));
   }
@@ -1467,13 +1563,20 @@
   function renderSaved(articleIndex) {
     const saved = [...bookmarkedIds].map((id) => articleIndex.get(id)).filter(Boolean);
     savedCountBadge.textContent = String(saved.length);
-    if (!saved.length) {
-      savedSection.hidden = true;
-      return;
-    }
+    // Shown (not hidden) even when empty, with its own empty state --
+    // otherwise the "Saved" jump-to-section link would silently do nothing
+    // the first time someone clicks it before saving anything.
     savedSection.hidden = false;
     savedCount.textContent = `${saved.length} article${saved.length === 1 ? "" : "s"}`;
     savedList.innerHTML = "";
+    if (!saved.length) {
+      savedList.innerHTML = `<div class="empty-state">
+        <div class="empty-state-icon">🔖</div>
+        <div class="empty-state-title">No saved articles yet</div>
+        <div class="empty-state-text">Tap Save on any article to keep it here for later.</div>
+      </div>`;
+      return;
+    }
     saved.forEach((a) => savedList.appendChild(articleCard(a)));
   }
 
@@ -1545,7 +1648,9 @@
   }
 
   function renderCategories(categories, term, days, studyType, year, journal, organId) {
-    nav.innerHTML = "";
+    // Only the chips, not nav's whole innerHTML — preserves the static
+    // "Organ Systems" sidebar label that lives alongside them.
+    nav.querySelectorAll(".nav-chip").forEach((chip) => chip.remove());
     content.innerHTML = "";
 
     hiddenCategories = loadHiddenCategories();
@@ -1570,7 +1675,9 @@
       const bodyId = `cat-body-${cat.id}`;
       const chip = document.createElement("button");
       chip.className = "nav-chip" + (idx === 0 ? " active" : "");
-      chip.setAttribute("aria-pressed", idx === 0 ? "true" : "false");
+      // aria-current, not aria-pressed: these chips navigate/scroll to a
+      // category, they don't toggle a setting.
+      chip.setAttribute("aria-current", idx === 0 ? "true" : "false");
       chip.style.setProperty("--cat-accent", CATEGORY_COLORS[cat.id] || "");
       chip.textContent = `${icon} ${cat.abbr} (${cat.articles.length})`;
       chip.addEventListener("click", () => {
@@ -1578,7 +1685,7 @@
         if (body && body.classList.contains("collapsed")) {
           document.querySelector(`#cat-${cat.id} .collapse-toggle`).click();
         }
-        document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: "smooth", block: "start" });
+        document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: scrollBehavior(), block: "start" });
       });
       nav.appendChild(chip);
 
@@ -1591,7 +1698,7 @@
       heading.className = "category-heading";
       const mode = categorySort[cat.id] || "newest";
       heading.innerHTML = `
-        <button class="collapse-toggle" type="button" aria-controls="${bodyId}">▸</button>
+        <button class="collapse-toggle" type="button" aria-controls="${bodyId}" aria-label="${escapeHtml(cat.label)} section">▸</button>
         <h2>${icon} ${escapeHtml(cat.label)}</h2>
         <span class="category-count">${cat.articles.length} article${cat.articles.length === 1 ? "" : "s"}</span>
         <div class="sort-toggle">
@@ -1618,9 +1725,11 @@
       body.id = bodyId;
 
       if (!cat.articles.length) {
-        const empty = document.createElement("p");
-        empty.className = "empty";
-        empty.textContent = "No articles match the current filters.";
+        const empty = document.createElement("div");
+        empty.className = "empty-state";
+        empty.innerHTML = `<div class="empty-state-icon">🔍</div>
+          <div class="empty-state-title">No articles match the current filters</div>
+          <div class="empty-state-text">Try widening the time window or clearing a filter.</div>`;
         body.appendChild(empty);
       } else {
         cat.articles.forEach((article) => body.appendChild(articleCard(article)));
@@ -1662,7 +1771,7 @@
         [...nav.children].forEach((chip, idx) => {
           const active = filtered[idx] && filtered[idx].id === currentId;
           chip.classList.toggle("active", active);
-          chip.setAttribute("aria-pressed", active ? "true" : "false");
+          chip.setAttribute("aria-current", active ? "true" : "false");
         });
       };
       document.addEventListener("scroll", scrollHandler, { passive: true });
@@ -1683,6 +1792,10 @@
       chip.classList.toggle("active", chip.dataset.studyType === studyType);
     });
 
+    const filtersActive = !!term || windowFilter.value !== "all" || studyType !== "all"
+      || year !== "all" || journal !== "all" || organId !== "all";
+    clearFiltersBtn.hidden = !filtersActive;
+
     currentSessionIds = new Set();
     renderSpotlight(rawData.spotlight);
     renderThisWeek(rawData.this_week, term, days, studyType, year, journal, organId);
@@ -1696,6 +1809,44 @@
     renderTrialResults(rawData, term, days, studyType, year, journal, organId);
     renderTrials(rawData.trials, term, days, studyType, year, journal, organId);
     renderCategories(rawData.categories || [], term, days, studyType, year, journal, organId);
+
+    // clearFiltersBtn.hidden above can change the toolbar's wrapped height
+    // (e.g. it wraps to a second row on narrow screens), which the sticky
+    // category-nav's top offset depends on.
+    updateToolbarHeight();
+    scheduleFilterAnnouncement();
+    // Filtering can hide/show these same jump targets (e.g. a filter
+    // that excludes every preprint hides the Preprints section), so
+    // their jump buttons need to stay in sync on every render, not
+    // just at startup.
+    updateSectionJumpAvailability();
+  }
+
+  let filterAnnounceTimer = null;
+  // Debounced so typing in the search box doesn't fire a screen-reader
+  // announcement on every keystroke -- only once input settles.
+  function scheduleFilterAnnouncement() {
+    clearTimeout(filterAnnounceTimer);
+    filterAnnounceTimer = setTimeout(announceFilterResults, 400);
+  }
+
+  function announceFilterResults() {
+    const sections = document.querySelectorAll(
+      ".this-week-section, .guideline-section, .ksa-section, .trending-section, "
+      + ".foamed-section, .bottom-line-section, .preprint-section, "
+      + ".trial-results-section, .trial-section, .category-section"
+    );
+    let articleCount = 0;
+    let sectionCount = 0;
+    sections.forEach((section) => {
+      if (section.hidden) return;
+      const cards = section.querySelectorAll(".article-card").length;
+      if (cards > 0) {
+        articleCount += cards;
+        sectionCount += 1;
+      }
+    });
+    filterStatus.textContent = `${articleCount} article${articleCount === 1 ? "" : "s"} across ${sectionCount} section${sectionCount === 1 ? "" : "s"}`;
   }
 
   initTheme();
@@ -1704,9 +1855,10 @@
   initSectionJump();
   updateToolbarHeight();
   window.addEventListener("resize", updateToolbarHeight);
+  window.addEventListener("resize", updateSectionJumpHeight);
 
   backToTopBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: scrollBehavior() });
   });
   window.addEventListener("scroll", () => {
     backToTopBtn.hidden = window.scrollY < 600;
@@ -1716,7 +1868,7 @@
   bookmarkedIds = loadBookmarks();
 
   bottomNavTop.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: scrollBehavior() });
   });
   bottomNavTrending.addEventListener("click", () => jumpToSection("trending"));
   bottomNavSaved.addEventListener("click", () => jumpToSection("saved"));
@@ -1724,6 +1876,15 @@
     const isOpen = sectionJumpNav.classList.toggle("open");
     bottomNavBackdrop.hidden = !isOpen;
     bottomNavMore.setAttribute("aria-expanded", String(isOpen));
+    if (isOpen) {
+      const firstBtn = sectionJumpNav.querySelector(".section-jump-btn");
+      if (firstBtn) firstBtn.focus();
+    }
+  });
+  sectionJumpNav.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && sectionJumpNav.classList.contains("open")) {
+      closeSectionJumpMenu();
+    }
   });
   sectionJumpClose.addEventListener("click", closeSectionJumpMenu);
   bottomNavBackdrop.addEventListener("click", closeSectionJumpMenu);
@@ -1743,11 +1904,37 @@
   });
 
   searchInput.addEventListener("input", () => applyFiltersAndRender());
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && searchInput.value) {
+      searchInput.value = "";
+      applyFiltersAndRender();
+    }
+  });
+  // "/" focuses search from anywhere -- a daily-use tool is worth a
+  // quick keyboard path in, matching the convention most search-heavy
+  // sites already use. Ignored while typing in any other field so it
+  // doesn't hijack a literal "/" character.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+    const tag = document.activeElement?.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || document.activeElement?.isContentEditable) return;
+    e.preventDefault();
+    searchInput.focus();
+  });
   windowFilter.addEventListener("change", () => applyFiltersAndRender());
   studyTypeFilter.addEventListener("change", () => applyFiltersAndRender());
   yearFilter.addEventListener("change", () => applyFiltersAndRender());
   journalFilter.addEventListener("change", () => applyFiltersAndRender());
   organFilter.addEventListener("change", () => applyFiltersAndRender());
+  clearFiltersBtn.addEventListener("click", () => {
+    searchInput.value = "";
+    windowFilter.value = "all";
+    studyTypeFilter.value = "all";
+    yearFilter.value = "all";
+    journalFilter.value = "all";
+    organFilter.value = "all";
+    applyFiltersAndRender();
+  });
   quickFilters.querySelectorAll(".quick-filter-chip").forEach((chip) => {
     chip.addEventListener("click", () => {
       const type = chip.dataset.studyType;
@@ -1764,13 +1951,26 @@
       current.saved = false;
       saveCollapseState(current);
     }
-    savedSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    savedSection.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
+  });
+
+  dashTopCategoryLink.addEventListener("click", (e) => {
+    const catId = dashTopCategoryLink.dataset.catId;
+    if (!catId) { e.preventDefault(); return; }
+    e.preventDefault();
+    const body = document.getElementById(`cat-body-${catId}`);
+    if (body && body.classList.contains("collapsed")) {
+      document.querySelector(`#cat-${catId} .collapse-toggle`).click();
+    }
+    const section = document.getElementById(`cat-${catId}`);
+    if (section) section.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   });
 
   spotlightPrintBtn.addEventListener("click", () => {
     const spotlightEntry = COLLAPSIBLE_SECTIONS.find((e) => e.id === "spotlight");
     const wasCollapsed = spotlightBody.classList.contains("collapsed");
     spotlightBody.classList.remove("collapsed");
+    spotlightBody.inert = false;
     spotlightBody.style.maxHeight = "none";
     document.body.classList.add("printing-spotlight");
     const restore = () => {
@@ -1804,34 +2004,52 @@
     }
   });
 
-  Promise.all([
-    fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" }).then((res) => {
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return res.json();
-    }),
-    // Resolved before the first render so each card can synchronously know
-    // whether it has a "Similar articles" list to offer, instead of the
-    // button popping in/out after the fact.
-    loadEmbeddings(),
-  ])
-    .then(([data]) => {
-      rawData = data;
-      updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
-      populateFilterOptions(data);
-      renderDashboard(data);
-      applyFiltersAndRender();
-      // Deferred until after loadEmbeddings() resolves (same Promise.all
-      // above), so ICU Classics cards can also offer "Similar articles" —
-      // building them earlier left embeddingsCache still null at card-build
-      // time, permanently omitting the button for this section only.
-      renderClassics();
-      saveSeenIds(collectAllIds(data));
-      // Populating the filter <select>s can widen them enough to change how
-      // the toolbar wraps, which shifts its real height out from under the
-      // sticky category-nav's offset — recompute now that it's settled.
-      updateToolbarHeight();
-    })
-    .catch((err) => {
-      content.innerHTML = `<p class="empty">Couldn't load article data (${escapeHtml(err.message)}).</p>`;
-    });
+  function loadData() {
+    content.setAttribute("aria-busy", "true");
+    return Promise.all([
+      fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" }).then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      }),
+      // Resolved before the first render so each card can synchronously know
+      // whether it has a "Similar articles" list to offer, instead of the
+      // button popping in/out after the fact.
+      loadEmbeddings(),
+    ])
+      .then(([data]) => {
+        rawData = data;
+        updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
+        populateFilterOptions(data);
+        renderDashboard(data);
+        applyFiltersAndRender();
+        // Deferred until after loadEmbeddings() resolves (same Promise.all
+        // above), so ICU Classics cards can also offer "Similar articles" —
+        // building them earlier left embeddingsCache still null at card-build
+        // time, permanently omitting the button for this section only.
+        renderClassics();
+        // renderClassics() runs after applyFiltersAndRender()'s own call
+        // to this, so classics-section's hidden state wasn't settled yet
+        // when that ran -- check once more now that it is.
+        updateSectionJumpAvailability();
+        saveSeenIds(collectAllIds(data));
+        // Populating the filter <select>s can widen them enough to change how
+        // the toolbar wraps, which shifts its real height out from under the
+        // sticky category-nav's offset — recompute now that it's settled.
+        updateToolbarHeight();
+        content.removeAttribute("aria-busy");
+      })
+      .catch((err) => {
+        content.removeAttribute("aria-busy");
+        updatedLine.textContent = "Couldn't reach the data feed.";
+        content.innerHTML = `<div class="empty-state" role="alert">
+          <div class="empty-state-icon">⚠️</div>
+          <div class="empty-state-title">Couldn't load article data</div>
+          <div class="empty-state-text">${escapeHtml(err.message)}.</div>
+          <button class="empty-state-retry-btn" id="retry-load-btn" type="button">Retry</button>
+        </div>`;
+        document.getElementById("retry-load-btn").addEventListener("click", () => loadData(), { once: true });
+      });
+  }
+
+  loadData();
 })();

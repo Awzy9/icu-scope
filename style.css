@@ -1,175 +1,222 @@
+/* =========================================================================
+   ICU Scope — design tokens
+   A restrained clinical palette: one primary (teal) plus four semantic
+   accents (blue/guidelines, green/trials, purple/AI, amber/trending) and
+   red reserved strictly for warnings. Everything else — FOAMed, Bottom
+   Line, KSA Research, Preprints, Saved, This Week — uses neutral surfaces;
+   their identity comes from an icon + label, not a colored panel.
+   ========================================================================= */
 :root {
-  --bg: #f6f5f1;
+  color-scheme: light;
+  --bg: #f5f6f7;
   --surface: #ffffff;
-  --surface-soft: #fbfaf7;
-  --border: #e6e2d8;
-  --text: #2c2a26;
-  --text-muted: #756f63;
-  --accent: #2f7566;
-  --accent-strong: #1f5c4f;
-  --accent-soft: #e5f0ec;
-  --trending-bg: #fdf6e8;
-  --trending-border: #f0deac;
-  --trending-accent: #a5730c;
-  --foamed-bg: #eef3fb;
-  --foamed-border: #cddbee;
-  --foamed-accent: #2f5e9c;
-  --top-journal-bg: #efe9fb;
-  --top-journal-border: #d9cdf2;
-  --top-journal-accent: #6a4fb3;
-  --ai-bg: #fdeef6;
-  --ai-border: #f3cde3;
-  --ai-accent: #b23b82;
-  --guideline-bg: #eef0fb;
-  --guideline-border: #cfd4f0;
-  --guideline-accent: #4a4fb0;
-  --danger-bg: #fdecea;
-  --danger-border: #f2b8b5;
-  --danger-accent: #b3261e;
-  --trial-bg: #e8f6f3;
-  --trial-border: #bfe8e0;
-  --trial-accent: #1f7a68;
-  --classics-bg: #f7f0e6;
-  --classics-border: #e8d9bd;
-  --classics-accent: #8a6d1f;
-  --bottom-line-bg: #e6f7fa;
-  --bottom-line-border: #b3e3ec;
-  --bottom-line-accent: #0f7c92;
-  --trial-results-bg: #eaf7ea;
-  --trial-results-border: #c2e8c2;
-  --trial-results-accent: #2e7d32;
-  --ksa-bg: #e6f4ec;
-  --ksa-border: #bfe0cd;
-  --ksa-accent: #0f6b3c;
-  --this-week-bg: #fdeee5;
-  --this-week-border: #f3c9a8;
-  --this-week-accent: #c1560c;
-  --journal-saturation: 48%;
-  --journal-lightness: 36%;
-  --shadow: 0 1px 3px rgba(44, 42, 38, 0.06);
+  --surface-soft: #eef0f2;
+  --surface-sunken: #f0f2f4;
+  --border: #e1e4e8;
+  --border-strong: #c9ced4;
+  --text: #14181c;
+  --text-secondary: #454c53;
+  /* #5f666d, not the more muted #848b92 it replaced: that only cleared
+     ~3.45:1 on white, failing WCAG AA's 4.5:1 for normal-size text at
+     the ~13px this is typically used at (article-meta, hero-stat
+     labels, tagline, chip labels...). This clears 4.5:1+ even on the
+     slightly darker --surface-soft/--surface-sunken it also appears on. */
+  --text-muted: #5f666d;
+
+  --accent: #0f8a72;
+  --accent-strong: #0a6b58;
+  --accent-soft: #e6f5f1;
+
+  --blue: #2563eb;
+  --blue-strong: #1d4ed8;
+  --blue-soft: #eaf1fe;
+  --blue-border: #cfe0fc;
+
+  --green: #15803d;
+  --green-strong: #106b32;
+  --green-soft: #eaf7ee;
+  --green-border: #c8ead2;
+
+  --purple: #7c3aed;
+  --purple-strong: #6926d9;
+  --purple-soft: #f4eefe;
+  --purple-border: #e2d3fb;
+
+  --amber: #b45309;
+  --amber-strong: #92400a;
+  --amber-soft: #fdf2e3;
+  --amber-border: #f6ddb2;
+
+  --red: #c0261d;
+  --red-strong: #9c1e17;
+  --red-soft: #fdeceb;
+  --red-border: #f4c3bf;
+
+  --journal-saturation: 42%;
+  --journal-lightness: 38%;
+
+  --shadow-sm: 0 1px 2px rgba(20, 24, 28, 0.05);
+  --shadow-md: 0 4px 16px rgba(20, 24, 28, 0.08);
+  --shadow-lg: 0 12px 32px rgba(20, 24, 28, 0.12);
+  --radius-sm: 8px;
   --radius: 12px;
+  --radius-lg: 16px;
+
+  /* Typography scale (approximate px shown for reference):
+     hero 40 / article-title 19 / body 16 / meta 13. Section headings
+     (.trending-heading h2 etc.) are hardcoded at 1.2rem/19px rather than
+     drawing from a --text-section token -- there never was a distinct
+     "section" tier in practice, so no token pretends there is one. */
+  --text-hero: 2.5rem;
+  --text-article-title: 1.1875rem;
+  --text-body: 1rem;
+  --text-meta: 0.8125rem;
+
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+
+  --page-max: 1480px;
+  --sidebar-w: 232px;
 }
 
+/* Dark mode: deep charcoal, never pure black; cards a shade lighter than
+   the page so hierarchy reads even with everything desaturated. */
 :root[data-theme="dark"] {
-  --bg: #1a1c19;
-  --surface: #232622;
-  --surface-soft: #262924;
-  --border: #34382f;
-  --text: #ece9e2;
-  --text-muted: #a6a190;
-  --accent: #4bbfa8;
-  --accent-strong: #6ed4bd;
-  --accent-soft: #1f342e;
-  --trending-bg: #2c2717;
-  --trending-border: #4a3d1c;
-  --trending-accent: #e0b448;
-  --foamed-bg: #16202c;
-  --foamed-border: #24384e;
-  --foamed-accent: #6fa8e0;
-  --top-journal-bg: #241c33;
-  --top-journal-border: #3a2c52;
-  --top-journal-accent: #b79df0;
-  --ai-bg: #2c1a26;
-  --ai-border: #4a2c3e;
-  --ai-accent: #e28ac2;
-  --guideline-bg: #1c1e33;
-  --guideline-border: #2c2f52;
-  --guideline-accent: #8b90e0;
-  --danger-bg: #33201d;
-  --danger-border: #522e2a;
-  --danger-accent: #e2857d;
-  --trial-bg: #16302c;
-  --trial-border: #1f4a40;
-  --trial-accent: #5fcab0;
-  --classics-bg: #2e2617;
-  --classics-border: #4a3c22;
-  --classics-accent: #d9b45c;
-  --bottom-line-bg: #12262b;
-  --bottom-line-border: #1f3f47;
-  --bottom-line-accent: #4dc4d9;
-  --trial-results-bg: #16261a;
-  --trial-results-border: #234a2c;
-  --trial-results-accent: #6fcf7a;
-  --ksa-bg: #122b1c;
-  --ksa-border: #1f4530;
-  --ksa-accent: #5cd992;
-  --this-week-bg: #2c1c12;
-  --this-week-border: #4a3020;
-  --this-week-accent: #e0935c;
+  color-scheme: dark;
+  --bg: #14171a;
+  --surface: #1c2024;
+  --surface-soft: #23282d;
+  --surface-sunken: #191d21;
+  --border: #2e3439;
+  --border-strong: #3c434a;
+  --text: #eef0f2;
+  --text-secondary: #b7bec5;
+  --text-muted: #838b93;
+
+  --accent: #35b696;
+  --accent-strong: #5fcfb2;
+  --accent-soft: #16302a;
+
+  --blue: #6796ff;
+  --blue-strong: #8caeff;
+  --blue-soft: #16233d;
+  --blue-border: #28375c;
+
+  --green: #4ade80;
+  --green-strong: #74e8a3;
+  --green-soft: #142e1f;
+  --green-border: #234a33;
+
+  --purple: #b18bfa;
+  --purple-strong: #c6a9fc;
+  --purple-soft: #251c3d;
+  --purple-border: #3b2d5c;
+
+  --amber: #e0a339;
+  --amber-strong: #ecbc63;
+  --amber-soft: #2c2311;
+  --amber-border: #4a3a17;
+
+  --red: #f0847c;
+  --red-strong: #f5a49e;
+  --red-soft: #301917;
+  --red-border: #4e2925;
+
   --journal-saturation: 55%;
-  --journal-lightness: 68%;
-  --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+  --journal-lightness: 70%;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 18px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.45);
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #1a1c19;
-    --surface: #232622;
-    --surface-soft: #262924;
-    --border: #34382f;
-    --text: #ece9e2;
-    --text-muted: #a6a190;
-    --accent: #4bbfa8;
-    --accent-strong: #6ed4bd;
-    --accent-soft: #1f342e;
-    --trending-bg: #2c2717;
-    --trending-border: #4a3d1c;
-    --trending-accent: #e0b448;
-    --foamed-bg: #16202c;
-    --foamed-border: #24384e;
-    --foamed-accent: #6fa8e0;
-    --top-journal-bg: #241c33;
-    --top-journal-border: #3a2c52;
-    --top-journal-accent: #b79df0;
-    --ai-bg: #2c1a26;
-    --ai-border: #4a2c3e;
-    --ai-accent: #e28ac2;
-    --guideline-bg: #1c1e33;
-    --guideline-border: #2c2f52;
-    --guideline-accent: #8b90e0;
-    --danger-bg: #33201d;
-    --danger-border: #522e2a;
-    --danger-accent: #e2857d;
-    --trial-bg: #16302c;
-    --trial-border: #1f4a40;
-    --trial-accent: #5fcab0;
-    --classics-bg: #2e2617;
-    --classics-border: #4a3c22;
-    --classics-accent: #d9b45c;
-    --bottom-line-bg: #12262b;
-    --bottom-line-border: #1f3f47;
-    --bottom-line-accent: #4dc4d9;
-    --trial-results-bg: #16261a;
-    --trial-results-border: #234a2c;
-    --trial-results-accent: #6fcf7a;
-    --ksa-bg: #122b1c;
-    --ksa-border: #1f4530;
-    --ksa-accent: #5cd992;
-    --this-week-bg: #2c1c12;
-    --this-week-border: #4a3020;
-    --this-week-accent: #e0935c;
+    color-scheme: dark;
+    --bg: #14171a;
+    --surface: #1c2024;
+    --surface-soft: #23282d;
+    --surface-sunken: #191d21;
+    --border: #2e3439;
+    --border-strong: #3c434a;
+    --text: #eef0f2;
+    --text-secondary: #b7bec5;
+    --text-muted: #838b93;
+
+    --accent: #35b696;
+    --accent-strong: #5fcfb2;
+    --accent-soft: #16302a;
+
+    --blue: #6796ff;
+    --blue-strong: #8caeff;
+    --blue-soft: #16233d;
+    --blue-border: #28375c;
+
+    --green: #4ade80;
+    --green-strong: #74e8a3;
+    --green-soft: #142e1f;
+    --green-border: #234a33;
+
+    --purple: #b18bfa;
+    --purple-strong: #c6a9fc;
+    --purple-soft: #251c3d;
+    --purple-border: #3b2d5c;
+
+    --amber: #e0a339;
+    --amber-strong: #ecbc63;
+    --amber-soft: #2c2311;
+    --amber-border: #4a3a17;
+
+    --red: #f0847c;
+    --red-strong: #f5a49e;
+    --red-soft: #301917;
+    --red-border: #4e2925;
+
     --journal-saturation: 55%;
-    --journal-lightness: 68%;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+    --journal-lightness: 70%;
+
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --shadow-md: 0 4px 18px rgba(0, 0, 0, 0.35);
+    --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.45);
   }
 }
 
+/* =========================================================================
+   Base
+   ========================================================================= */
 * { box-sizing: border-box; }
+
+/* Several elements toggled via JS's el.hidden also carry their own
+   unconditional `display` (flex/inline-flex/grid) for their visible
+   state -- an author rule with equal specificity to the UA stylesheet's
+   [hidden]{display:none} silently wins over it, which would otherwise
+   leave e.g. the hero stats or a toolbar button rendered even while
+   "hidden". One defensive rule beats chasing each case individually. */
+[hidden] { display: none !important; }
 
 html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  /* No @font-face for "Inter" ships with this site, so it never actually
+     rendered -- every visitor already got system-ui/Segoe UI. Leading
+     with that honestly instead of a font that was never loaded. */
+  font-family: system-ui, -apple-system, "Segoe UI", BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
-  font-size: 17px;
-  line-height: 1.65;
+  font-size: var(--text-body);
+  line-height: 1.6;
   transition: background 0.2s, color 0.2s;
   padding-bottom: calc(3.8rem + env(safe-area-inset-bottom, 0px));
+  -webkit-font-smoothing: antialiased;
 }
 
 a { color: var(--accent-strong); }
+
+h1, h2, h3, h4 { font-weight: 700; letter-spacing: -0.01em; }
 
 .skip-link {
   position: absolute;
@@ -182,90 +229,107 @@ a { color: var(--accent-strong); }
   border-radius: 0 0 8px 0;
 }
 
-.skip-link:focus {
-  left: 0;
+.skip-link:focus { left: 0; }
+
+/* Visually hidden but still reachable by assistive tech -- for content
+   meant to be announced (a live region), not seen. Unlike [hidden]/
+   display:none, this keeps the element in the accessibility tree. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
-select:focus-visible {
-  outline: 2px solid var(--accent-strong);
+select:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
 .credit-bar {
   text-align: center;
-  background: var(--surface-soft);
+  background: var(--surface-sunken);
   border-bottom: 1px solid var(--border);
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
 }
 
 .credit-bar p {
-  margin: 0.1rem 0;
-  font-size: 0.78rem;
+  margin: 0.05rem 0;
+  font-size: 0.72rem;
   color: var(--text-muted);
 }
 
+/* =========================================================================
+   Header — compact, wordmark-forward
+   ========================================================================= */
 .site-header {
   border-bottom: 1px solid var(--border);
   background: var(--surface);
-  padding: 2.25rem 1.5rem 1.75rem;
+  padding: 1.1rem 0;
 }
 
 .header-inner {
-  max-width: 880px;
+  max-width: var(--page-max);
   margin: 0 auto;
+  padding: 0 var(--space-5);
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
+  align-items: center;
+  gap: var(--space-4);
 }
 
 .header-text { flex: 1; min-width: 0; }
 
-/* One flex item, not three: keeps the header's action buttons wrapping
-   as a single unit onto their own row on narrow screens, instead of each
-   sharing the text's row and squeezing the brand name into overflow. */
 .header-actions {
   flex: none;
   display: flex;
   align-items: center;
-  gap: 0.75rem;
+  gap: 0.5rem;
 }
 
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.45rem;
-  font-weight: 700;
-  font-size: 1.7rem;
+  gap: 0.4rem;
+  font-weight: 800;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
 }
 
 .brand-icon {
-  width: 1.6rem;
-  height: 1.6rem;
-  color: var(--accent-strong);
+  width: 1.45rem;
+  height: 1.45rem;
+  color: var(--accent);
   flex: none;
 }
 
-.brand-mark { color: var(--accent-strong); letter-spacing: 0.02em; }
+.brand-mark { color: var(--text); }
+.brand-name { color: var(--accent-strong); }
 
 .tagline {
-  margin: 0.5rem 0 0;
+  margin: 0.15rem 0 0;
   color: var(--text-muted);
-  font-size: 1.02rem;
+  font-size: 0.86rem;
 }
 
 .updated-line {
-  margin: 0.7rem 0 0;
-  font-size: 0.85rem;
+  margin: 0;
+  font-size: var(--text-meta);
   color: var(--text-muted);
 }
 
 .sources-line {
-  margin: 0.5rem 0 0;
-  font-size: 0.8rem;
+  margin: 0.3rem 0 0;
+  font-size: 0.76rem;
   color: var(--text-muted);
   line-height: 1.5;
 }
@@ -278,94 +342,191 @@ select:focus-visible {
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  padding: 0.2rem 0;
+  padding: 0.15rem 0;
 }
 
 .sources-line summary::-webkit-details-marker { display: none; }
 
 .sources-line summary::before {
-  content: "▸";
-  display: inline-block;
+  content: "";
+  width: 0.55em;
+  height: 0.55em;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(-45deg);
   transition: transform 0.15s;
 }
 
-.sources-line[open] summary::before {
-  transform: rotate(90deg);
+.sources-line[open] summary::before { transform: rotate(45deg); }
+
+.sources-line a { color: var(--text-muted); text-decoration: underline; }
+.sources-line a:hover { color: var(--accent-strong); }
+
+/* Compact icon buttons used throughout the header/toolbar. theme-toggle/
+   density-toggle/saved-toggle share this exact rule (previously a
+   verbatim copy-paste of it under their own selector) rather than
+   getting the shared class in the markup, so the JS/other CSS that
+   still targets them by their original class names keeps working. */
+.icon-btn, .theme-toggle, .density-toggle, .saved-toggle {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-secondary);
+  height: 2.25rem;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 
-.sources-line a {
-  color: var(--text-muted);
-  text-decoration: underline;
+.icon-btn:hover, .theme-toggle:hover, .density-toggle:hover, .saved-toggle:hover {
+  border-color: var(--border-strong);
+  color: var(--text);
 }
 
-.sources-line a:hover {
+.icon-btn.icon-only, .theme-toggle { width: 2.25rem; padding: 0; }
+
+.icon-btn svg { width: 1.05rem; height: 1.05rem; flex: none; }
+
+#saved-count-badge {
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-radius: 999px;
+  padding: 0.05rem 0.4rem;
+  min-width: 1.1rem;
+  text-align: center;
+}
+
+/* =========================================================================
+   Hero + "Today in Critical Care" stats
+   ========================================================================= */
+.hero {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: var(--space-6) 0 var(--space-5);
+}
+
+.hero-inner {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 var(--space-5);
+}
+
+.hero-eyebrow {
+  margin: 0 0 0.4rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
   color: var(--accent-strong);
 }
 
-.theme-toggle {
-  flex: none;
-  border: 1px solid var(--border);
-  background: var(--surface-soft);
-  color: var(--text);
-  width: 2.6rem;
-  height: 2.6rem;
-  border-radius: 50%;
-  font-size: 1.15rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.hero-title {
+  margin: 0;
+  font-size: var(--text-hero);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  max-width: 34ch;
 }
 
-.theme-toggle:hover { border-color: var(--accent); }
-
-.saved-toggle {
-  flex: none;
-  border: 1px solid var(--border);
-  background: var(--surface-soft);
-  color: var(--text);
-  height: 2.6rem;
-  padding: 0 0.9rem;
-  border-radius: 999px;
-  font-size: 0.95rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 0.35rem;
+.hero-sub {
+  margin: 0.6rem 0 0;
+  font-size: var(--text-meta);
+  color: var(--text-muted);
 }
 
-.saved-toggle:hover { border-color: var(--accent); }
-
-#saved-count-badge { font-size: 0.85rem; font-weight: 700; }
-
-.density-toggle {
-  flex: none;
-  border: 1px solid var(--border);
-  background: var(--surface-soft);
-  color: var(--text);
-  height: 2.6rem;
-  padding: 0 0.9rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  white-space: nowrap;
-  cursor: pointer;
-}
-
-.density-toggle:hover { border-color: var(--accent); }
-
-.category-nav {
-  background: var(--bg);
-  border-bottom: 1px solid var(--border);
+.hero-stats {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  padding: 0.85rem 1.5rem;
-  max-width: 880px;
-  margin: 0 auto;
+  align-items: stretch;
+  gap: 0;
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--border);
 }
 
-/* Section quick-jump: a mobile slide-up sheet by default, becomes a
-   fixed sidebar on wide viewports (see the >=1100px block below). */
+.hero-stat {
+  flex: 1 1 130px;
+  padding: 0 var(--space-5) 0 0;
+  margin-right: var(--space-5);
+  border-right: 1px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-stat:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+
+.hero-stat-value {
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.hero-stat-label {
+  margin-top: 0.25rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+a.hero-stat.hero-stat-link:hover .hero-stat-value { color: var(--accent-strong); }
+
+.hero-spotlight-link {
+  display: none;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: var(--space-4);
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-sm);
+  background: var(--amber-soft);
+  border: 1px solid var(--amber-border);
+  color: var(--amber-strong);
+  font-size: 0.86rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hero-spotlight-link:not([hidden]) { display: flex; }
+
+.hero-spotlight-link .hero-spotlight-title {
+  color: var(--text);
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .hero-title { font-size: 1.9rem; max-width: none; }
+  /* An explicit 2-column grid, not flex-wrap: 5 items at flex: 1 1 45%
+     wrapped 2/2/1, leaving the 5th ("Most active category") stranded
+     alone on its own row instead of using the space evenly. */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
+  .hero-stat {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .hero-stat-link { grid-column: 1 / -1; }
+}
+
+/* =========================================================================
+   Section jump + category nav → desktop sidebar
+   ========================================================================= */
 .section-jump {
   position: fixed;
   left: 0;
@@ -375,17 +536,15 @@ select:focus-visible {
   overflow-y: auto;
   background: var(--surface);
   border-top: 1px solid var(--border);
-  border-radius: 16px 16px 0 0;
-  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  box-shadow: var(--shadow-lg);
   padding: 0.5rem 1rem 1.25rem;
   transform: translateY(100%);
   transition: transform 0.25s ease;
   z-index: 90;
 }
 
-.section-jump.open {
-  transform: translateY(0);
-}
+.section-jump.open { transform: translateY(0); }
 
 .section-jump-header {
   display: flex;
@@ -394,9 +553,9 @@ select:focus-visible {
   font-weight: 700;
   padding: 0.6rem 0.25rem;
   color: var(--text-muted);
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   text-transform: uppercase;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.08em;
 }
 
 .section-jump-close {
@@ -415,22 +574,30 @@ select:focus-visible {
   width: 100%;
   border: none;
   background: none;
-  color: var(--text);
-  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
   text-align: left;
-  padding: 0.65rem 0.25rem;
+  padding: 0.55rem 0.5rem;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
 }
 
-.section-jump-btn:hover {
-  background: var(--surface-soft);
+.section-jump-btn:hover { background: var(--surface-soft); color: var(--text); }
+
+/* No data for this section right now (e.g. no preprints matched the
+   current filters) -- previously the button stayed fully clickable-
+   looking but jumpToSection() silently did nothing. */
+.section-jump-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
+
+.section-jump-btn:disabled:hover { background: none; color: var(--text-secondary); }
 
 .bottom-nav-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(0, 0, 0, 0.35);
+  background: rgba(10, 12, 14, 0.4);
   z-index: 85;
 }
 
@@ -455,10 +622,11 @@ select:focus-visible {
   flex-direction: column;
   align-items: center;
   gap: 0.15rem;
-  font-size: 0.7rem;
+  font-size: 0.68rem;
+  font-weight: 600;
   padding: 0.3rem 0.2rem;
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
 }
 
 .bottom-nav-btn:active, .bottom-nav-btn[aria-expanded="true"] {
@@ -466,116 +634,256 @@ select:focus-visible {
   color: var(--accent-strong);
 }
 
-.bottom-nav-icon {
-  font-size: 1.25rem;
-}
+.bottom-nav-icon { font-size: 1.2rem; }
 
 @media (min-width: 1100px) {
   .section-jump-header, .section-jump-close, .bottom-nav, .bottom-nav-backdrop {
     display: none;
   }
 
-  body {
-    padding-bottom: 0;
-  }
+  body { padding-bottom: 0; }
 
+  /* Both panels sit in the reserved left gutter outside the centered
+     content column — a fixed "sidebar" without needing to restructure
+     the document into a grid. */
   .section-jump {
     position: fixed;
-    left: max(1.25rem, calc((100vw - 880px) / 2 - 230px));
+    left: max(1.5rem, calc((100vw - var(--page-max)) / 2 + var(--space-5)));
     right: auto;
     bottom: auto;
-    top: 6.5rem;
-    width: 210px;
+    top: 6.75rem;
+    width: var(--sidebar-w);
     max-height: none;
     transform: none;
-    border-radius: 12px;
-    box-shadow: var(--shadow);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: none;
     padding: 0.5rem;
   }
 
   .category-nav {
     position: fixed;
-    left: max(1.25rem, calc((100vw - 880px) / 2 - 230px));
-    top: calc(6.5rem + var(--section-jump-height, 22rem) + 1rem);
+    left: max(1.5rem, calc((100vw - var(--page-max)) / 2 + var(--space-5)));
+    top: calc(6.75rem + var(--section-jump-height, 22rem) + 0.85rem);
     bottom: 1.5rem;
-    width: 210px;
+    width: var(--sidebar-w);
     max-width: none;
     flex-direction: column;
     flex-wrap: nowrap;
     overflow-y: auto;
-    border-bottom: none;
-    padding: 0.5rem;
-    border-radius: 12px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
     background: var(--surface);
-    box-shadow: var(--shadow);
+    box-shadow: none;
+    padding: 0.6rem;
   }
 
-  .nav-chip {
-    width: 100%;
-    text-align: left;
+  .sidebar-label {
+    display: block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    padding: 0.5rem 0.5rem 0.4rem;
   }
+
+  .nav-chip { width: 100%; text-align: left; }
 }
+
+.sidebar-label { display: none; }
 
 .nav-chip {
   flex: none;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  padding: 0.45rem 0.95rem;
-  border-radius: 999px;
-  font-size: 0.88rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid transparent;
+  background: var(--surface-soft);
+  color: var(--text-secondary);
+  padding: 0.5rem 0.85rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
   white-space: nowrap;
   transition: background 0.15s, color 0.15s, border-color 0.15s;
-  box-shadow: inset 0 -2.5px 0 0 var(--cat-accent, transparent);
+  box-shadow: inset 3px 0 0 0 var(--cat-accent, transparent);
 }
 
-.nav-chip:hover { border-color: var(--accent); }
+.nav-chip:hover { border-color: var(--border-strong); }
 
 .nav-chip.active {
   background: var(--accent);
-  border-color: var(--accent);
   color: #fff;
+  box-shadow: none;
+}
+
+/* =========================================================================
+   Toolbar / search / filters
+   ========================================================================= */
+.category-nav {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding: 0.75rem var(--space-5);
+  max-width: var(--page-max);
+  margin: 0 auto;
 }
 
 .toolbar {
   display: flex;
   gap: 0.6rem;
-  max-width: 880px;
+  max-width: var(--page-max);
   margin: 0 auto;
-  padding: 0.85rem 1.5rem;
+  padding: var(--space-4) var(--space-5);
   flex-wrap: wrap;
+  align-items: center;
   position: sticky;
   top: 0;
   z-index: 40;
   background: var(--bg);
   border-bottom: 1px solid transparent;
-  transition: border-color 0.2s, box-shadow 0.2s;
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
 }
 
 .toolbar.is-stuck {
+  background: var(--surface);
   border-bottom-color: var(--border);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: var(--shadow-sm);
 }
+
+.search-wrap {
+  position: relative;
+  flex: 1 1 320px;
+  min-width: 0;
+}
+
+.search-wrap svg {
+  position: absolute;
+  left: 0.9rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1.05rem;
+  height: 1.05rem;
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.65rem 0.9rem 0.65rem 2.5rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.95rem;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.search-input:focus, .window-filter:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
+}
+
+.window-filter {
+  /* Without a cap, a <select> sizes itself to its widest <option> — a
+     long journal name could stretch this well past the screen on mobile
+     and drag the whole page into horizontal overflow. */
+  flex: 1 1 128px;
+  min-width: 0;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.6rem 0.7rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+}
+
+.toolbar-btn {
+  flex: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-secondary);
+  padding: 0.6rem 0.85rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.toolbar-btn:hover { border-color: var(--border-strong); color: var(--text); }
+
+.toolbar-btn[aria-pressed="true"] {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border-color: var(--accent);
+}
+
+.clear-filters-btn {
+  color: var(--text-muted);
+  background: none;
+  border-color: transparent;
+}
+
+.clear-filters-btn:hover { color: var(--red); border-color: var(--red-border); background: var(--red-soft); }
+
+.hidden-categories-bar {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 0 var(--space-5) var(--space-3);
+  font-size: 0.8rem;
+}
+
+.hidden-categories-label { color: var(--text-muted); font-weight: 600; }
+
+#hidden-categories-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+
+.hidden-category-chip {
+  /* Dashed, not the shared solid border -- signals "removed" visually. */
+  border-style: dashed;
+  border-color: var(--border-strong);
+}
+
+.hidden-category-chip:hover { border-color: var(--accent); color: var(--text); }
 
 .quick-filters {
   display: flex;
   gap: 0.4rem;
   flex-wrap: wrap;
-  max-width: 880px;
+  max-width: var(--page-max);
   margin: 0 auto;
-  padding: 0 1.5rem 0.85rem;
+  padding: 0 var(--space-5) var(--space-4);
 }
 
 .quick-filter-chip {
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text-muted);
-  padding: 0.3rem 0.8rem;
+  padding: 0.32rem 0.8rem;
   border-radius: 999px;
-  font-size: 0.8rem;
+  font-size: 0.79rem;
+  font-weight: 600;
   cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
+
+.quick-filter-chip:hover { border-color: var(--border-strong); color: var(--text); }
 
 .quick-filter-chip.active {
   background: var(--accent);
@@ -583,125 +891,70 @@ select:focus-visible {
   color: #fff;
 }
 
-.dashboard-strip {
-  display: flex;
-  gap: 0.75rem;
-  flex-wrap: wrap;
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 1rem 1.5rem 0;
-}
-
-.dashboard-tile {
-  flex: 1 1 150px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 0.85rem 1rem;
-  text-align: center;
-  text-decoration: none;
-  color: inherit;
-}
-
-.dashboard-tile-spotlight {
-  text-align: left;
-  flex: 1 1 220px;
-}
-
-.dashboard-value {
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--accent-strong);
-}
-
-.dashboard-label {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  margin-top: 0.2rem;
-}
-
-.dashboard-spotlight-title {
-  font-size: 0.88rem;
-  font-weight: 600;
-  color: var(--text);
-  margin-top: 0.3rem;
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-.search-input {
-  flex: 1 1 240px;
-  min-width: 0;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  padding: 0.5rem 0.85rem;
-  border-radius: 999px;
-  font-size: 0.9rem;
-}
-
-.search-input:focus, .window-filter:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: 1px;
-}
-
-.window-filter {
-  /* Without a cap, a <select> sizes itself to its widest <option> — a
-     long journal name could stretch this well past the screen on mobile
-     and drag the whole page into horizontal overflow. */
-  flex: 1 1 130px;
-  min-width: 0;
-  max-width: 220px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  padding: 0.5rem 0.7rem;
-  border-radius: 999px;
-  font-size: 0.9rem;
-}
-
-.toolbar-btn {
-  flex: none;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text-muted);
-  padding: 0.5rem 0.85rem;
-  border-radius: 999px;
+/* =========================================================================
+   Buttons — one consistent system
+   ========================================================================= */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  height: 2.15rem;
+  padding: 0 0.95rem;
+  border-radius: var(--radius-sm);
   font-size: 0.85rem;
+  font-weight: 600;
   cursor: pointer;
+  border: 1px solid transparent;
+  text-decoration: none;
+  transition: background 0.15s, border-color 0.15s, color 0.15s, transform 0.1s;
+  white-space: nowrap;
 }
 
-.toolbar-btn[aria-pressed="true"] {
+.btn:active { transform: translateY(1px); }
+
+.btn-primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+}
+
+.btn-primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); color: #fff; }
+
+.btn-secondary {
+  background: var(--surface);
+  border-color: var(--border-strong);
+  color: var(--text);
+}
+
+.btn-secondary:hover { border-color: var(--accent); color: var(--accent-strong); }
+
+.btn-secondary.active {
   background: var(--accent-soft);
+  border-color: var(--accent);
   color: var(--accent-strong);
-  border-color: var(--accent-strong);
 }
 
-/* Layout density: Comfortable (default, no attribute) / Compact (tighter
-   spacing, ~15-20% less padding) / Ultra Compact (tightest, plus hides
-   the AI summary/abstract/tags for fast title-only scanning on rounds). */
-body[data-density="compact"] .article-card {
-  padding: 1.05rem 1.2rem;
-  margin-bottom: 0.75rem;
+.btn-tertiary {
+  background: none;
+  border-color: transparent;
+  color: var(--accent-strong);
+  padding: 0 0.3rem;
+  height: auto;
 }
 
-body[data-density="compact"] .article-meta {
-  margin-bottom: 0.5rem;
-}
+.btn-tertiary:hover { text-decoration: underline; }
 
-body[data-density="ultra"] .article-card {
-  padding: 0.65rem 1rem;
-  margin-bottom: 0.5rem;
-}
+.btn-sm { height: 1.85rem; padding: 0 0.7rem; font-size: 0.78rem; }
 
-body[data-density="ultra"] .article-meta {
-  margin-bottom: 0.3rem;
-}
+/* =========================================================================
+   Layout density (Comfortable default / Compact / Ultra Compact)
+   ========================================================================= */
+body[data-density="compact"] .article-card { padding: 1.1rem 1.25rem; margin-bottom: 0.75rem; }
+body[data-density="compact"] .article-meta { margin-bottom: 0.5rem; }
+
+body[data-density="ultra"] .article-card { padding: 0.75rem 1.05rem; margin-bottom: 0.5rem; }
+body[data-density="ultra"] .article-meta { margin-bottom: 0.3rem; }
 
 body[data-density="ultra"] .ai-summary,
 body[data-density="ultra"] .article-abstract,
@@ -711,28 +964,66 @@ body[data-density="ultra"] .article-tags {
   display: none;
 }
 
-body[data-density="compact"] .category-section { margin-bottom: 2rem; }
-body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
+body[data-density="compact"] .category-section { margin-bottom: var(--space-6); }
+body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
 
+/* =========================================================================
+   Main content column
+   ========================================================================= */
 .content {
-  max-width: 880px;
+  max-width: var(--page-max);
   margin: 0 auto;
-  padding: 1.75rem 1.5rem;
+  padding: var(--space-5);
 }
 
 .loading, .empty {
   color: var(--text-muted);
   text-align: center;
-  padding: 3rem 1rem;
+  padding: var(--space-7) var(--space-4);
 }
+
+.empty-state {
+  text-align: center;
+  padding: var(--space-7) var(--space-4);
+  color: var(--text-muted);
+}
+
+.empty-state-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.empty-state-title {
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 0.25rem;
+}
+
+.empty-state-text { font-size: 0.9rem; max-width: 32ch; margin: 0 auto; }
+
+.empty-state-retry-btn {
+  margin-top: var(--space-4);
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.empty-state-retry-btn:hover { border-color: var(--accent); color: var(--accent-strong); }
 
 .skeleton-card {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 1.1rem 1.25rem 1.3rem;
-  margin-bottom: 1.1rem;
+  box-shadow: var(--shadow-sm);
+  padding: 1.2rem 1.35rem 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .skeleton-line {
@@ -744,11 +1035,11 @@ body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
   animation: skeleton-shimmer 1.4s ease infinite;
 }
 
-.skeleton-title { height: 1.1rem; width: 85%; }
-.skeleton-title.short { width: 55%; }
-.skeleton-meta { width: 40%; height: 0.75rem; }
+.skeleton-title { height: 1.15rem; width: 78%; }
+.skeleton-title.short { width: 50%; }
+.skeleton-meta { width: 38%; height: 0.75rem; }
 .skeleton-text { width: 100%; }
-.skeleton-text.short { width: 70%; margin-bottom: 0; }
+.skeleton-text.short { width: 68%; margin-bottom: 0; }
 
 @keyframes skeleton-shimmer {
   0% { background-position: 100% 50%; }
@@ -759,8 +1050,20 @@ body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
   .skeleton-line { animation: none; }
 }
 
-.category-section {
-  margin-bottom: 3rem;
+/* =========================================================================
+   Section headings — one consistent pattern site-wide:
+   small eyebrow icon+label, then the H2 title, then an optional note.
+   ========================================================================= */
+.category-section { margin-bottom: var(--space-7); }
+
+/* Every jump-able section, not just organ categories -- the Explore
+   sidebar/bottom-nav "More" menu jump to Trending, Guidelines, Saved,
+   etc. just as much as the organ chips jump to a category, and all of
+   them land under the same sticky toolbar/chip row on the way there. */
+.category-section, .trending-section, .this-week-section, .saved-section,
+.guideline-section, .ksa-section, .foamed-section, .bottom-line-section,
+.trial-results-section, .preprint-section, .trial-section,
+.classics-section, .spotlight-section, .semantic-section {
   scroll-margin-top: 4.75rem;
 }
 
@@ -769,31 +1072,40 @@ body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
   align-items: center;
   flex-wrap: wrap;
   gap: 0.6rem;
-  margin: 0 0 1.1rem;
-  padding-bottom: 0.6rem;
-  border-bottom: 2px solid var(--cat-accent, var(--accent-soft));
+  margin: 0 0 var(--space-4);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px solid var(--border);
   cursor: pointer;
 }
 
-.category-heading h2 { margin: 0; font-size: 1.35rem; color: var(--cat-accent, inherit); }
-
-.category-count { color: var(--text-muted); font-size: 0.88rem; }
-
-.sort-toggle {
-  margin-left: auto;
-  display: flex;
-  gap: 0.35rem;
+.category-heading h2 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--cat-accent, var(--text));
 }
 
-.sort-btn {
+.category-count { color: var(--text-muted); font-size: var(--text-meta); }
+
+.sort-toggle { margin-left: auto; display: flex; gap: 0.35rem; }
+
+/* Small pill buttons -- sort-btn/hidden-category-chip/print-btn each
+   hand-rolled their own near-identical padding/font-size; converged
+   onto one shared size here. Color/border-style stays per-class where
+   it's carrying real meaning (dashed = "removed/hidden" on the chip). */
+.sort-btn, .hidden-category-chip, .print-btn {
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text-muted);
-  padding: 0.25rem 0.65rem;
+  padding: 0.28rem 0.7rem;
   border-radius: 999px;
-  font-size: 0.76rem;
+  font-size: 0.78rem;
+  font-weight: 600;
   cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
+
+.sort-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
 
 .hide-category-btn {
   flex: none;
@@ -808,483 +1120,32 @@ body[data-density="ultra"] .category-section { margin-bottom: 1.5rem; }
   cursor: pointer;
 }
 
-.hide-category-btn:hover {
-  color: var(--danger-accent);
-  border-color: var(--danger-accent);
-}
+.hide-category-btn:hover { color: var(--red); border-color: var(--red-border); }
 
-.hidden-categories-bar {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  max-width: 880px;
-  margin: 0 auto;
-  padding: 0 1.5rem 0.6rem;
-  font-size: 0.82rem;
-}
-
-.hidden-categories-label { color: var(--text-muted); }
-
-#hidden-categories-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-}
-
-.hidden-category-chip {
-  border: 1px dashed var(--border);
-  background: var(--surface);
-  color: var(--text-muted);
-  padding: 0.25rem 0.65rem;
-  border-radius: 999px;
-  font-size: 0.78rem;
-  cursor: pointer;
-}
-
-.hidden-category-chip:hover {
-  border-color: var(--accent);
-  color: var(--text);
-}
-
-.sort-btn.active {
-  background: var(--accent);
-  border-color: var(--accent);
-  color: #fff;
-}
-
-.article-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
-  padding: 1.35rem 1.5rem;
-  margin-bottom: 1rem;
-}
-
-.article-title {
-  margin: 0 0 0.45rem;
-  font-size: 1.08rem;
-  line-height: 1.45;
-}
-
-.article-title a { text-decoration: none; color: var(--text); }
-.article-title a:hover { color: var(--accent-strong); text-decoration: underline; }
-
-.article-meta {
-  font-size: 0.86rem;
-  color: var(--text-muted);
-  margin-bottom: 0.65rem;
-}
-
-.article-meta .journal {
-  font-style: italic;
-  font-weight: 600;
-  color: hsl(var(--journal-hue, 200), var(--journal-saturation), var(--journal-lightness));
-}
-
-.citation-badge, .top-journal-badge, .foamed-badge {
-  display: inline-block;
-  margin-left: 0.5rem;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  border: 1px solid transparent;
-}
-
-.citation-badge {
-  background: var(--trending-bg);
-  color: var(--trending-accent);
-  border-color: var(--trending-border);
-}
-
-.top-journal-badge {
-  background: var(--top-journal-bg);
-  color: var(--top-journal-accent);
-  border-color: var(--top-journal-border);
-}
-
-.foamed-badge {
-  background: var(--foamed-bg);
-  color: var(--foamed-accent);
-  border-color: var(--foamed-border);
-}
-
-.article-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  margin: -0.2rem 0 0.6rem;
-}
-
-.article-tags:empty {
-  display: none;
-  margin: 0;
-}
-
-.study-type-badge {
-  display: inline-block;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  background: var(--surface-soft);
-  color: var(--text-muted);
-  border: 1px solid var(--border);
-}
-
-.society-badge {
-  display: inline-block;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  background: var(--top-journal-bg);
-  color: var(--top-journal-accent);
-  border: 1px solid var(--top-journal-border);
-}
-
-.oa-badge {
-  display: inline-block;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  background: var(--foamed-bg);
-  color: var(--foamed-accent);
-  border: 1px solid var(--foamed-border);
-}
-
-.impact-score-badge {
-  display: inline-block;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  background: var(--top-journal-bg);
-  color: var(--top-journal-accent);
-  border: 1px solid var(--top-journal-border);
-  cursor: help;
-}
-
-.broken-link-badge {
-  display: inline-block;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 600;
-  background: var(--danger-bg);
-  color: var(--danger-accent);
-  border: 1px solid var(--danger-border);
-}
-
-.new-badge {
-  display: inline-block;
-  margin-left: 0.5rem;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 700;
-  background: var(--accent-soft);
-  color: var(--accent-strong);
-  border: 1px solid var(--accent-strong);
-}
-
-.similarity-badge {
-  display: inline-block;
-  margin-left: 0.5rem;
-  padding: 0.1rem 0.55rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  font-weight: 700;
-  background: var(--accent-soft);
-  color: var(--accent-strong);
-  border: 1px solid var(--accent-strong);
-  vertical-align: middle;
-}
-
-.article-card.is-new {
-  border-left: 3px solid var(--accent-strong);
-}
-
-.ai-summary {
-  margin: 0.75rem 0;
-  padding: 0.75rem 0.9rem;
-  border-radius: 8px;
-  background: var(--ai-bg);
-  border: 1px solid var(--ai-border);
-}
-
-.ai-summary-label {
-  font-size: 0.78rem;
-  font-weight: 700;
-  color: var(--ai-accent);
-  margin-bottom: 0.4rem;
-}
-
-.ai-summary-text {
-  margin: 0;
-  font-size: 0.92rem;
-  color: var(--text);
-  max-height: 0;
-  overflow: hidden;
-}
-
-.ai-summary-text.expanded {
-  max-height: none;
-  margin: 0 0 0.5rem;
-}
-
-.ai-summary-toggle {
-  background: none;
-  border: none;
-  color: var(--ai-accent);
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0 0 0.5rem;
-  display: block;
-}
-
-.ai-rounds-takeaway {
-  margin: 0 0 0.5rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--accent-strong);
-  background: var(--accent-soft);
-  border-radius: 6px;
-  padding: 0.4rem 0.6rem;
-}
-
-.ai-key-stats {
-  margin: 0 0 0.5rem;
-  font-size: 0.85rem;
-  font-weight: 600;
-  font-family: "SF Mono", "Consolas", "Menlo", monospace;
-  color: var(--ai-accent);
-  background: var(--surface);
-  border: 1px solid var(--ai-border);
-  border-radius: 6px;
-  padding: 0.35rem 0.6rem;
-  display: inline-block;
-}
-
-.ai-significance {
-  margin: 0 0 0.5rem;
-  font-size: 0.88rem;
-  color: var(--text);
-}
-
-.ai-disclaimer {
-  margin: 0;
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  font-style: italic;
-}
-
-.appraisal-fields {
-  margin: 0;
-}
-
-.appraisal-fields dt {
-  font-weight: 700;
-  font-size: 0.78rem;
-  color: var(--ai-accent);
-  margin: 0.6rem 0 0.15rem;
-}
-
-.appraisal-fields dt:first-child {
-  margin-top: 0;
-}
-
-.appraisal-fields dd {
-  margin: 0 0 0.3rem;
-  font-size: 0.9rem;
-  color: var(--text);
-}
-
-.ask-ai {
-  margin: 0.75rem 0 0;
-}
-
-.ask-toggle {
-  background: none;
-  border: 1px solid var(--ai-border);
-  color: var(--ai-accent);
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0.3rem 0.75rem;
-  border-radius: 999px;
-}
-
-.ask-panel {
-  margin-top: 0.6rem;
-  padding: 0.75rem 0.9rem;
-  border-radius: 8px;
-  background: var(--ai-bg);
-  border: 1px solid var(--ai-border);
-}
-
-.ask-input-row {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.ask-input {
-  flex: 1 1 auto;
-  min-width: 0;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text);
-  padding: 0.4rem 0.7rem;
-  border-radius: 999px;
-  font-size: 0.88rem;
-}
-
-.ask-submit {
-  flex: none;
-  border: 1px solid var(--ai-accent);
-  background: var(--ai-accent);
-  color: #fff;
-  padding: 0.4rem 0.9rem;
-  border-radius: 999px;
-  font-size: 0.85rem;
-  cursor: pointer;
-}
-
-.ask-submit:disabled, .ask-input:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-}
-
-.ask-answer {
-  margin: 0.6rem 0 0;
-  font-size: 0.9rem;
-  color: var(--text);
-}
-
-.similar-articles {
-  margin: 0.75rem 0 0;
-}
-
-.similar-toggle {
-  background: none;
-  border: none;
-  color: var(--accent-strong);
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0;
-}
-
-.similar-list {
-  margin-top: 0.5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
-}
-
-.similar-item {
-  display: block;
-  padding: 0.45rem 0.65rem;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  background: var(--surface-soft);
-  text-decoration: none;
-  color: var(--text);
-}
-
-.similar-item:hover {
-  border-color: var(--accent);
-}
-
-.similar-item-title {
-  display: block;
-  font-size: 0.86rem;
-  font-weight: 600;
-}
-
-.similar-item-journal {
-  display: block;
-  font-size: 0.76rem;
-  color: var(--text-muted);
-  margin-top: 0.15rem;
-}
-
-.article-abstract {
-  font-size: 0.95rem;
-  color: var(--text);
-  margin: 0.6rem 0 0;
-  max-height: 4.9em;
-  overflow: hidden;
-}
-
-mark {
-  background: var(--trending-bg);
-  color: var(--trending-accent);
-  border-radius: 3px;
-  padding: 0 0.15em;
-}
-
-.article-abstract.expanded { max-height: none; }
-
-.abstract-toggle {
-  background: none;
-  border: none;
-  color: var(--accent-strong);
-  font-size: 0.85rem;
-  cursor: pointer;
-  padding: 0.5rem 0 0;
-}
-
-.article-links {
-  margin-top: 0.7rem;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  font-size: 0.85rem;
-}
-
-.cite-btn, .bookmark-btn {
-  border: 1px solid var(--border);
-  background: none;
-  color: var(--accent-strong);
-  font-size: 0.82rem;
-  cursor: pointer;
-  padding: 0.15rem 0.6rem;
-  border-radius: 999px;
-}
-
-.bookmark-btn.active {
-  background: var(--accent-soft);
-  border-color: var(--accent-strong);
-  color: var(--accent-strong);
-  font-weight: 600;
-}
-
-.trending-section {
-  margin-bottom: 2.75rem;
-  background: var(--trending-bg);
-  border: 1px solid var(--trending-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
-}
-
+/* Every non-organ-system section (Trending/FOAMed/Guidelines/KSA/This
+   Week/Bottom Line/Trial Results/Trial Tracker/ICU Classics/Saved/
+   Spotlight) shares this shell, defined further down alongside its
+   color mapping. Neutral by default; a section only gets a semantic
+   accent when it maps to one of the four meanings (guidelines=blue,
+   trials=green, AI=purple, trending/important=amber) — everything else
+   stays neutral so color keeps meaning something instead of just
+   decorating every panel. */
 .trending-heading {
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  margin: 0 0 1rem;
+  margin: 0 0 var(--space-4);
   cursor: pointer;
 }
 
 .trending-heading h2 {
   margin: 0;
-  font-size: 1.3rem;
-  color: var(--trending-accent);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--section-accent, var(--text));
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
 }
 
 .trending-heading .category-count { color: var(--text-muted); }
@@ -1293,21 +1154,21 @@ mark {
   flex: none;
   border: 1px solid var(--border);
   background: var(--surface);
-  color: var(--text);
+  color: var(--text-secondary);
   width: 1.8rem;
   height: 1.8rem;
   border-radius: 50%;
-  font-size: 0.85rem;
+  font-size: 0.7rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.15s;
+  transition: transform 0.15s, border-color 0.15s;
 }
 
-.collapse-toggle[aria-expanded="true"] {
-  transform: rotate(90deg);
-}
+/* No rotation here: the ▸/▾ glyph itself already swaps direction in JS
+   (setSectionCollapsed), so rotating on top of that would double-encode
+   the state and point the expanded chevron left instead of down. */
 
 .section-body {
   overflow: hidden;
@@ -1321,221 +1182,629 @@ mark {
   transform: translateZ(0);
 }
 
-.section-body.collapsed {
-  opacity: 0;
-  pointer-events: none;
-}
+.section-body.collapsed { opacity: 0; pointer-events: none; }
 
 @media (prefers-reduced-motion: reduce) {
-  .section-body {
-    transition: none;
-  }
+  .section-body { transition: none; }
 }
-
-.trending-section .article-card { background: var(--surface); }
-
-.foamed-section {
-  margin-bottom: 2.75rem;
-  background: var(--foamed-bg);
-  border: 1px solid var(--foamed-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
-}
-
-.foamed-heading h2 { color: var(--foamed-accent); }
 
 .foamed-note {
-  margin: -0.4rem 0 1rem;
+  margin: -0.35rem 0 var(--space-4);
   font-size: 0.82rem;
   color: var(--text-muted);
 }
 
-.foamed-section .article-card { background: var(--surface); }
-
-.bottom-line-section {
-  margin-bottom: 2.75rem;
-  background: var(--bottom-line-bg);
-  border: 1px solid var(--bottom-line-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+/* Article grid inside each section shell: single column by default,
+   flows into two columns once there's genuinely enough width to spare —
+   pure CSS, no JS change needed since cards are just appended children. */
+.section-body > div[id$="-list"],
+.category-body {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  align-items: start;
 }
 
-.bottom-line-heading h2 { color: var(--bottom-line-accent); }
-
-.bottom-line-section .article-card { background: var(--surface); }
-
-.trial-results-section {
-  margin-bottom: 2.75rem;
-  background: var(--trial-results-bg);
-  border: 1px solid var(--trial-results-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+@media (min-width: 1500px) {
+  .section-body > div[id$="-list"],
+  .category-body {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-.trial-results-heading h2 { color: var(--trial-results-accent); }
+.article-card { margin-bottom: 0; }
 
-.trial-results-section .article-card { background: var(--surface); }
-
-.guideline-section {
-  margin-bottom: 2.75rem;
-  background: var(--guideline-bg);
-  border: 1px solid var(--guideline-border);
+/* =========================================================================
+   Article card
+   ========================================================================= */
+.article-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+  box-shadow: var(--shadow-sm);
+  padding: 1.35rem 1.5rem;
+  transition: box-shadow 0.15s, border-color 0.15s, transform 0.15s;
 }
 
-.guideline-heading h2 { color: var(--guideline-accent); }
-
-.guideline-section .article-card { background: var(--surface); }
-
-.ksa-section {
-  margin-bottom: 2.75rem;
-  background: var(--ksa-bg);
-  border: 1px solid var(--ksa-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+.article-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-strong);
+  transform: translateY(-1px);
 }
 
-.ksa-heading h2 { color: var(--ksa-accent); }
-
-.ksa-section .article-card { background: var(--surface); }
-
-.this-week-section {
-  margin-bottom: 2.75rem;
-  background: var(--this-week-bg);
-  border: 1px solid var(--this-week-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+@media (prefers-reduced-motion: reduce) {
+  .article-card { transition: none; }
+  .article-card:hover { transform: none; }
 }
 
-.this-week-heading h2 { color: var(--this-week-accent); }
-
-.this-week-section .article-card { background: var(--surface); }
-
-.trial-section {
-  margin-bottom: 2.75rem;
-  background: var(--trial-bg);
-  border: 1px solid var(--trial-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+.article-eyebrow {
+  margin: 0 0 0.4rem;
 }
 
-.trial-heading h2 { color: var(--trial-accent); }
-
-.trial-section .article-card { background: var(--surface); }
-
-.classics-section {
-  margin-bottom: 2.75rem;
-  background: var(--classics-bg);
-  border: 1px solid var(--classics-border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+.article-title {
+  margin: 0 0 0.4rem;
+  font-size: var(--text-article-title);
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: -0.005em;
 }
 
-.classics-heading h2 { color: var(--classics-accent); }
+.article-title a { text-decoration: none; color: var(--text); }
+.article-title a:hover { color: var(--accent-strong); text-decoration: underline; }
 
-.classics-section .article-card { background: var(--surface); }
+.article-meta {
+  font-size: var(--text-meta);
+  color: var(--text-muted);
+  margin-bottom: 0.65rem;
+}
+
+.article-meta .journal {
+  font-weight: 600;
+  color: hsl(var(--journal-hue, 200), var(--journal-saturation), var(--journal-lightness));
+}
+
+.citation-badge, .top-journal-badge, .foamed-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.08rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  border: 1px solid transparent;
+  vertical-align: middle;
+}
+
+.citation-badge {
+  background: var(--amber-soft);
+  color: var(--amber-strong);
+  border-color: var(--amber-border);
+}
+
+.top-journal-badge {
+  background: var(--surface-soft);
+  color: var(--text-secondary);
+  border-color: var(--border);
+}
+
+.foamed-badge {
+  background: var(--surface-soft);
+  color: var(--text-secondary);
+  border-color: var(--border);
+}
+
+.article-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: -0.2rem 0 0.65rem;
+}
+
+.article-tags:empty { display: none; margin: 0; }
+
+.study-type-badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--surface-soft);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+.society-badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--blue-soft);
+  color: var(--blue-strong);
+  border: 1px solid var(--blue-border);
+}
+
+.oa-badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--green-soft);
+  color: var(--green-strong);
+  border: 1px solid var(--green-border);
+}
+
+.impact-score-badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--surface-soft);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+  cursor: help;
+}
+
+.broken-link-badge {
+  display: inline-block;
+  padding: 0.12rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--red-soft);
+  color: var(--red-strong);
+  border: 1px solid var(--red-border);
+}
+
+.new-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.08rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border: 1px solid var(--accent);
+  vertical-align: middle;
+}
+
+.similarity-badge {
+  display: inline-block;
+  margin-left: 0.5rem;
+  padding: 0.08rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+  border: 1px solid var(--accent);
+  vertical-align: middle;
+}
+
+.article-card.is-new { box-shadow: inset 3px 0 0 0 var(--accent); }
+.article-card.is-new:hover { box-shadow: var(--shadow-md), inset 3px 0 0 0 var(--accent); }
+
+/* AI-generated content — the one place purple is used, consistently */
+.ai-summary {
+  margin: 0.85rem 0;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  background: var(--purple-soft);
+  border: 1px solid var(--purple-border);
+}
+
+.ai-summary-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 0.5rem;
+}
+
+.ai-summary-text {
+  margin: 0;
+  font-size: 0.92rem;
+  color: var(--text);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.ai-summary-text.expanded { margin: 0 0 0.5rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ai-summary-text { transition: none; }
+}
+
+/* Text-only "expand for more" toggles -- ai-summary-toggle/similar-toggle/
+   abstract-toggle previously each hand-rolled a near-identical rule with
+   slightly different font-size/weight for no real reason; converged onto
+   one shared base. Color stays per-class: purple marks AI-generated
+   content specifically, everywhere else uses the regular accent. Padding
+   also stays per-class -- each sits in a different spot in its card
+   (space below vs. above), which is a real layout difference, not debt. */
+.ai-summary-toggle, .similar-toggle, .abstract-toggle {
+  background: none;
+  border: none;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ai-summary-toggle {
+  color: var(--purple-strong);
+  padding: 0 0 0.3rem;
+  display: block;
+}
+
+.ai-rounds-takeaway {
+  margin: 0 0 0.55rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--accent-strong);
+  background: var(--accent-soft);
+  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.65rem;
+}
+
+.ai-key-stats {
+  margin: 0 0 0.55rem;
+  font-size: 0.83rem;
+  font-weight: 600;
+  font-family: "SF Mono", "Consolas", "Menlo", monospace;
+  color: var(--purple-strong);
+  background: var(--surface);
+  border: 1px solid var(--purple-border);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem 0.6rem;
+  display: inline-block;
+}
+
+.ai-significance {
+  margin: 0 0 0.4rem;
+  font-size: 0.88rem;
+  color: var(--text);
+  padding-left: 0.7rem;
+  border-left: 2px solid var(--purple-border);
+}
+
+.ai-disclaimer {
+  margin: 0;
+  font-size: 0.71rem;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.appraisal-fields { margin: 0; }
+
+.appraisal-fields dt {
+  font-weight: 700;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--purple-strong);
+  margin: 0.6rem 0 0.15rem;
+}
+
+.appraisal-fields dt:first-child { margin-top: 0; }
+
+.appraisal-fields dd {
+  margin: 0 0 0.3rem;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.ask-ai { margin: 0.85rem 0 0; }
+
+.ask-toggle {
+  background: none;
+  border: 1px solid var(--purple-border);
+  color: var(--purple-strong);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0.32rem 0.75rem;
+  border-radius: 999px;
+}
+
+.ask-toggle:hover { background: var(--purple-soft); }
+
+.ask-panel {
+  margin-top: 0.6rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  background: var(--purple-soft);
+  border: 1px solid var(--purple-border);
+}
+
+.ask-input-row { display: flex; gap: 0.5rem; }
+
+.ask-input {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 0.45rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+}
+
+.ask-submit {
+  flex: none;
+  border: 1px solid var(--purple);
+  background: var(--purple);
+  color: #fff;
+  padding: 0.45rem 0.95rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.ask-submit:disabled, .ask-input:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.ask-answer { margin: 0.6rem 0 0; font-size: 0.9rem; color: var(--text); }
+
+.similar-articles { margin: 0.85rem 0 0; }
+
+.similar-toggle {
+  color: var(--accent-strong);
+  padding: 0;
+}
+
+.similar-list { margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.4rem; }
+
+.similar-item {
+  display: block;
+  padding: 0.5rem 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  text-decoration: none;
+  color: var(--text);
+}
+
+.similar-item:hover { border-color: var(--accent); }
+
+.similar-item-title { display: block; font-size: 0.86rem; font-weight: 600; }
+
+.similar-item-journal { display: block; font-size: 0.76rem; color: var(--text-muted); margin-top: 0.15rem; }
+
+.article-abstract {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin: 0.65rem 0 0;
+  /* Line-clamp instead of a flat max-height: that clipped mid-glyph
+     wherever the 3-line mark happened to fall inside a line; this always
+     ends cleanly at a line boundary. */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  overflow: hidden;
+}
+
+mark { background: var(--amber-soft); color: var(--amber-strong); border-radius: 3px; padding: 0 0.15em; }
+
+.article-abstract.expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible;
+}
+
+.abstract-toggle {
+  color: var(--accent-strong);
+  padding: 0.5rem 0 0;
+}
+
+.article-links {
+  margin-top: 0.85rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+}
+
+/* First link in the row (Read paper/post/etc.) reads as the primary CTA;
+   everything after it (DOI, full text) stays a quiet text link. */
+.article-links > a:first-child {
+  display: inline-flex;
+  align-items: center;
+  height: 2.1rem;
+  padding: 0 0.9rem;
+  border-radius: var(--radius-sm);
+  background: var(--accent);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.article-links > a:first-child:hover { background: var(--accent-strong); text-decoration: none; }
+
+.article-links > a:not(:first-child) {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.article-links > a:not(:first-child):hover { color: var(--accent-strong); text-decoration: underline; }
+
+/* Same small outlined-pill geometry as .ask-toggle below -- shared here
+   via one padding value instead of two barely-different ones. */
+.cite-btn, .bookmark-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  border: 1px solid var(--border);
+  background: none;
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.32rem 0.75rem;
+  border-radius: 999px;
+}
+
+.bookmark-btn svg { width: 0.95rem; height: 0.95rem; }
+
+/* Push the trailing action(s) to the right edge of .article-links as one
+   group, not two separate ones -- cite-btn used to sit inline right
+   after the text links while bookmark-btn alone got margin-left: auto,
+   landing them at opposite ends of the row with a wide, pointless gap
+   between two clearly-related actions.
+   :first-of-type matches by tag (button), not class, so on regular
+   cards -- where cite-btn precedes bookmark-btn -- .bookmark-btn:first-
+   of-type does NOT match (cite-btn is the first button of that type);
+   cite-btn's own margin-left: auto does the pushing there instead, and
+   the adjacent-sibling rule cancels bookmark-btn's margin so it sits
+   right next to cite-btn (spaced only by .article-links' gap) rather
+   than claiming its own separate share of the leftover space. On the
+   spotlight card, where bookmark-btn is the only button, it IS that
+   first button and pushes itself right on its own. */
+.cite-btn, .bookmark-btn:first-of-type { margin-left: auto; }
+.cite-btn + .bookmark-btn { margin-left: 0; }
+.cite-btn:hover, .bookmark-btn:hover { border-color: var(--border-strong); color: var(--text); }
+
+.bookmark-btn.active {
+  background: var(--accent-soft);
+  border-color: var(--accent);
+  color: var(--accent-strong);
+}
+
+/* =========================================================================
+   Section-shell color mapping
+   ========================================================================= */
+.trending-section, .foamed-section, .bottom-line-section, .trial-results-section,
+.guideline-section, .ksa-section, .this-week-section, .trial-section,
+.classics-section, .saved-section, .spotlight-section, .preprint-section,
+.semantic-section {
+  margin-bottom: var(--space-7);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5) var(--space-5) 0.25rem;
+}
+
+.trending-section .article-card, .foamed-section .article-card,
+.bottom-line-section .article-card, .trial-results-section .article-card,
+.guideline-section .article-card, .ksa-section .article-card,
+.this-week-section .article-card, .trial-section .article-card,
+.classics-section .article-card, .saved-section .article-card,
+.preprint-section .article-card, .semantic-section .article-card {
+  background: var(--surface);
+}
+
+/* Trending & This Week: amber (trending/important) */
+.trending-section, .this-week-section { border-top: 3px solid var(--amber); }
+.trending-heading h2, .this-week-heading h2 { color: var(--amber-strong); }
+
+/* Guideline Watch: blue */
+.guideline-section { border-top: 3px solid var(--blue); }
+.guideline-heading h2 { color: var(--blue-strong); }
+
+/* Trial Results & Trial Tracker & ICU Classics: green (trials/evidence) */
+.trial-results-section, .trial-section, .classics-section { border-top: 3px solid var(--green); }
+.trial-results-heading h2, .trial-heading h2, .classics-heading h2 { color: var(--green-strong); }
+
+/* Everything else (FOAMed, Bottom Line, KSA, Saved, Preprints) stays
+   neutral — identity comes from the icon in the heading, not a colored
+   panel. Preprints in particular is deliberately not amber/green/etc:
+   "not yet peer-reviewed" isn't trending, evidence, or AI content, and
+   giving it a color would imply a meaning it doesn't have. */
+.foamed-heading h2, .bottom-line-heading h2, .ksa-heading h2, .saved-heading h2,
+.preprint-heading h2 { color: var(--text); }
+
+/* Semantic search: purple, the one place a color maps 1:1 with an
+   existing accent's meaning (AI-powered ranking) rather than adding a
+   new one. */
+.semantic-section { border-top: 3px solid var(--purple); }
+.semantic-heading h2 { color: var(--purple-strong); }
+/* Not collapsible (only a Close button) — .trending-heading's base
+   cursor: pointer would otherwise suggest it toggles like its siblings. */
+.semantic-heading { cursor: default; }
 
 .spotlight-section {
-  margin-bottom: 2.75rem;
-  background: var(--surface);
-  border: 2px solid var(--accent-strong);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+  border: 1px solid var(--accent);
+  box-shadow: 0 0 0 3px var(--accent-soft);
 }
 
 .spotlight-heading h2 { color: var(--accent-strong); }
 
-.spotlight-card {
-  border: none;
-  box-shadow: none;
-  padding: 0;
-}
+.spotlight-card { border: none; box-shadow: none; padding: 0; }
+.spotlight-card:hover { box-shadow: none; transform: none; }
+.spotlight-card .article-title { font-size: 1.55rem; }
 
-.discussion-prompts {
-  margin: 0.6rem 0;
-  font-size: 0.9rem;
-}
-
-.discussion-prompts ul {
-  margin: 0.4rem 0 0;
-  padding-left: 1.3rem;
-}
-
+.discussion-prompts { margin: 0.7rem 0; font-size: 0.9rem; }
+.discussion-prompts ul { margin: 0.4rem 0 0; padding-left: 1.3rem; }
 .discussion-prompts li { margin-bottom: 0.3rem; }
 
-.saved-section {
-  margin-bottom: 2.75rem;
-  background: var(--surface-soft);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1.5rem 1.5rem 0.25rem;
+.print-btn {
+  margin-left: auto;
+  background: none;
+  color: var(--text-secondary);
 }
 
-.saved-heading h2 { color: var(--text); }
-
-.saved-section .article-card { background: var(--surface); }
+.print-btn:hover { border-color: var(--border-strong); color: var(--text); }
 
 .site-footer {
-  max-width: 880px;
+  max-width: var(--page-max);
   margin: 0 auto;
-  padding: 1.75rem 1.5rem;
+  padding: var(--space-6) var(--space-5);
   color: var(--text-muted);
   font-size: 0.82rem;
   border-top: 1px solid var(--border);
 }
 
-@media (max-width: 520px) {
+@media (min-width: 1100px) {
+  .site-footer { padding-left: calc(var(--space-5) + var(--sidebar-w) + 1.5rem); }
+}
+
+/* =========================================================================
+   Mobile (<=720px)
+   ========================================================================= */
+@media (max-width: 720px) {
   body { font-size: 16px; }
-  .site-header { padding: 1.5rem 1.1rem 1.1rem; }
+  .site-header { padding: 0.9rem 0; }
+  .header-inner { padding: 0 var(--space-4); }
+  .hero { padding: var(--space-5) 0; }
+  .hero-inner { padding: 0 var(--space-4); }
 
-  /* A bit more horizontal breathing room around cards, but noticeably
-     less vertical padding, so more articles fit above the fold on a
-     phone without shrinking body text. */
-  .content { padding: 1.1rem 1.2rem; }
+  .content { padding: var(--space-4); }
 
-  /* Prevent iOS Safari's disorienting auto-zoom when an input under
-     16px gets focus. */
   .search-input, .window-filter, .toolbar-btn, .ask-input {
-    font-size: 16px;
+    font-size: 16px; /* prevents iOS Safari's disorienting auto-zoom on focus */
   }
 
-  .search-input { padding: 0.4rem 0.85rem; }
-
-  /* Headings ~8-10% smaller than desktop — still clearly a heading, just
-     not eating a full line of a small screen for a section label. */
-  .trending-heading h2 { font-size: 1.18rem; }
-  .category-heading h2 { font-size: 1.2rem; }
+  .trending-heading h2 { font-size: 1.05rem; }
+  .category-heading h2 { font-size: 1.05rem; }
   .article-title { font-size: 1rem; }
+  /* .spotlight-card .article-title's extra class outspecifies the plain
+     .article-title rule above at any width, so it needs its own explicit
+     mobile override rather than inheriting this one. */
+  .spotlight-card .article-title { font-size: 1.25rem; }
 
-  .article-card {
-    padding: 1rem 1.1rem;
-    margin-bottom: 0.8rem;
-  }
+  .article-card { padding: 1rem 1.1rem; }
+  .category-section { margin-bottom: var(--space-6); }
 
-  .category-section { margin-bottom: 2rem; }
-
-  body[data-density="compact"] .article-card {
-    padding: 0.8rem 0.9rem;
-    margin-bottom: 0.6rem;
-  }
-
-  body[data-density="ultra"] .article-card {
-    padding: 0.55rem 0.85rem;
-    margin-bottom: 0.45rem;
-  }
-
-  body[data-density="compact"] .category-section { margin-bottom: 1.5rem; }
+  body[data-density="compact"] .article-card { padding: 0.8rem 0.9rem; }
+  body[data-density="ultra"] .article-card { padding: 0.6rem 0.85rem; }
+  body[data-density="compact"] .category-section { margin-bottom: var(--space-5); }
   body[data-density="ultra"] .category-section { margin-bottom: 1.1rem; }
 
-  .density-toggle { height: 2.75rem; }
-
-  /* Scroll instead of wrap: 11 categories wrapped into 6 rows ate the
+  /* Scroll instead of wrap: 11 categories wrapped into many rows ate the
      whole first screen before any article was visible. Sticking it right
      under the toolbar (also sticky) keeps organ-system jump links in
      reach while scrolling, without costing more than one compact row. */
   .category-nav {
-    padding: 0.7rem 1.1rem;
+    padding: 0.65rem var(--space-4);
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -1545,82 +1814,82 @@ mark {
     z-index: 39;
   }
   .category-nav::-webkit-scrollbar { display: none; }
-  .nav-chip { min-height: 2.6rem; }
+  .nav-chip { min-height: 2.5rem; }
+
+  .toolbar { padding: var(--space-3) var(--space-4); gap: 0.5rem; }
+  .search-wrap { flex: 1 1 100%; }
+  .quick-filters { padding: 0 var(--space-4) var(--space-3); }
+  .hidden-categories-bar { padding: 0 var(--space-4) var(--space-3); }
 
   /* Bigger touch targets (Apple HIG recommends ~44px) for the small
      collapse-toggle circles, which were ~29px and hard to tap precisely. */
-  .collapse-toggle {
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 1rem;
-  }
+  .collapse-toggle { width: 2.5rem; height: 2.5rem; font-size: 1rem; }
+  .hide-category-btn { width: 2.5rem; height: 2.5rem; font-size: 0.95rem; }
+  .theme-toggle, .saved-toggle { height: 2.6rem; }
+  .theme-toggle { width: 2.6rem; }
 
-  .hide-category-btn {
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 0.95rem;
-  }
-
-  .theme-toggle, .saved-toggle {
-    width: 2.75rem;
-    height: 2.75rem;
-  }
-
-  /* header-text has min-width:0 (so its paragraphs can wrap instead of
-     overflowing), which also means flex-wrap's automatic line-breaking
-     never triggers — there's always room to keep shrinking it instead of
-     wrapping. Force the stack explicitly so the action buttons get their
-     own full-width row under the brand/tagline rather than squeezing
-     onto its line and pushing the brand text into overflow. */
-  .header-inner {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .header-actions {
-    justify-content: flex-end;
-  }
-
-  .toolbar { gap: 0.5rem; }
+  .header-inner { flex-direction: column; align-items: stretch; gap: 0.6rem; }
+  .header-actions { justify-content: flex-end; }
 
   .ask-input-row { flex-wrap: wrap; }
   .ask-submit { flex: 1 1 auto; }
 
-  .back-to-top {
-    right: 1rem;
-    bottom: calc(1rem + env(safe-area-inset-bottom, 0px));
-  }
+  /* The bottom nav's own "Top" button covers this below the sidebar
+     breakpoint, and its z-index sat under the bottom nav here anyway. */
+  .back-to-top { display: none !important; }
+
+  .article-links > a:first-child { width: 100%; justify-content: center; }
+  .bookmark-btn { margin-left: 0; }
 }
 
-.print-btn {
-  margin-left: auto;
-  border: 1px solid var(--border);
-  background: none;
-  color: var(--accent-strong);
-  font-size: 0.82rem;
-  cursor: pointer;
-  padding: 0.15rem 0.6rem;
-  border-radius: 999px;
-}
-
+/* =========================================================================
+   Print — a real stylesheet, not an afterthought. The site is a daily
+   clinical reference; printing a handout or the full feed should produce
+   readable paper, not chrome, empty collapsed boxes, and inverted colors.
+   ========================================================================= */
 @media print {
-  body.printing-spotlight * {
-    visibility: hidden;
-  }
-  body.printing-spotlight .spotlight-section,
-  body.printing-spotlight .spotlight-section * {
-    visibility: visible;
-  }
-  body.printing-spotlight .spotlight-section {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
-  body.printing-spotlight .collapse-toggle,
-  body.printing-spotlight .print-btn {
+  /* Every non-content chrome element: nothing here is useful on paper. */
+  .credit-bar, .header-actions, .sources-line,
+  .toolbar, .category-nav, .quick-filters, .hidden-categories-bar,
+  .section-jump, .bottom-nav, .bottom-nav-backdrop, .back-to-top, .skip-link,
+  .collapse-toggle, .hide-category-btn, .sort-btn, .cite-btn, .bookmark-btn,
+  .ask-ai, .similar-articles, .print-btn {
     display: none !important;
   }
+
+  /* Sections default to collapsed (max-height: 0) on screen; printing
+     that as-is produces a stack of headings over blank space. Force
+     every body open regardless of its on-screen collapsed state. */
+  .section-body {
+    max-height: none !important;
+    opacity: 1 !important;
+    overflow: visible !important;
+  }
+
+  * { box-shadow: none !important; text-shadow: none !important; }
+  body { background: #fff; }
+
+  .article-card { break-inside: avoid; border-color: #ccc; }
+  h1, h2, h3, .trending-heading, .category-heading { break-after: avoid; }
+
+  /* A printed page can't be clicked -- spell out the URL next to the
+     one primary link on each card/spotlight so a paper handout is still
+     traceable back to the source. */
+  .article-links > a:first-child::after,
+  .spotlight-card .article-links > a:first-child::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    font-weight: 400;
+    color: #555;
+  }
+
+  /* Article-of-the-Week handout flow: hide everything except the
+     spotlight card, laid out standalone at the top of the page. Layered
+     after the general rules above so it wins for that narrower case. */
+  body.printing-spotlight * { visibility: hidden; }
+  body.printing-spotlight .spotlight-section,
+  body.printing-spotlight .spotlight-section * { visibility: visible; }
+  body.printing-spotlight .spotlight-section { position: absolute; top: 0; left: 0; width: 100%; }
 }
 
 .back-to-top {
@@ -1633,27 +1902,88 @@ mark {
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--accent-strong);
-  font-size: 1.3rem;
   cursor: pointer;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow-md);
   display: flex;
   align-items: center;
   justify-content: center;
   z-index: 50;
-  transition: opacity 0.2s, transform 0.2s;
+  transition: opacity 0.2s, transform 0.2s, border-color 0.2s;
 }
 
-.back-to-top:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
+.back-to-top svg { width: 1.2rem; height: 1.2rem; }
+
+.back-to-top:hover { border-color: var(--accent); transform: translateY(-2px); }
+
+.back-to-top[hidden] { display: none; }
+
+/* =========================================================================
+   Desktop sidebar space reservation — kept last on purpose. Several
+   full-bleed rows above (.toolbar, .quick-filters, .hidden-categories-bar)
+   set their own "padding" shorthand later in this file than the sidebar
+   media query used to live at, which silently reset padding-left back to
+   the base value; a shorthand always wins over an earlier longhand at
+   equal specificity. Living at the very end of the cascade is what makes
+   this win reliably instead of being a source-order coin flip.
+   ========================================================================= */
+@media (min-width: 1100px) {
+  .header-inner, .hero-inner, .toolbar, .quick-filters, .hidden-categories-bar, .content {
+    padding-left: calc(var(--space-5) + var(--sidebar-w) + 1.5rem) !important;
+  }
 }
 
-.back-to-top[hidden] {
-  display: none;
-}
-
+/* Print, continued (kept last for the same cascade reason as the sidebar
+   reservation above: these need to win regardless of source-order
+   accidents elsewhere, and to override that very rule). */
 @media print {
-  .back-to-top {
-    display: none !important;
+  /* No fixed sidebar exists on paper -- the reserved gutter would just
+     be a wide blank left margin otherwise. */
+  .header-inner, .hero-inner, .toolbar, .quick-filters, .hidden-categories-bar, .content {
+    padding-left: 0 !important;
+  }
+
+  /* Printed pages always use the light/paper palette, regardless of
+     which theme was active on screen -- dark backgrounds waste ink and
+     most printers render them as solid gray blocks anyway. */
+  :root[data-theme="dark"],
+  :root:not([data-theme="light"]) {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-soft: #eef0f2;
+    --surface-sunken: #f0f2f4;
+    --border: #d5d9dd;
+    --border-strong: #b6bcc2;
+    --text: #14181c;
+    --text-secondary: #454c53;
+    --text-muted: #5f666d;
+
+    --accent: #0f8a72;
+    --accent-strong: #0a6b58;
+    --accent-soft: #e6f5f1;
+
+    --blue: #2563eb;
+    --blue-strong: #1d4ed8;
+    --blue-soft: #eaf1fe;
+    --blue-border: #cfe0fc;
+
+    --green: #15803d;
+    --green-strong: #106b32;
+    --green-soft: #eaf7ee;
+    --green-border: #c8ead2;
+
+    --purple: #7c3aed;
+    --purple-strong: #6926d9;
+    --purple-soft: #f4eefe;
+    --purple-border: #e2d3fb;
+
+    --amber: #b45309;
+    --amber-strong: #92400a;
+    --amber-soft: #fdf2e3;
+    --amber-border: #f6ddb2;
+
+    --red: #c0261d;
+    --red-strong: #9c1e17;
+    --red-soft: #fdeceb;
+    --red-border: #f4c3bf;
   }
 }

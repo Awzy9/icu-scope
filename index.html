@@ -6,8 +6,28 @@
   <title>ICU Scope — Latest Critical Care Literature</title>
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <!-- Matches --surface in style.css (light #ffffff / dark #1c2024) so the
+       browser UI chrome (address bar, PWA title bar) doesn't clash with
+       the page background in either theme. -->
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#1c2024" media="(prefers-color-scheme: dark)" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=30" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="ICU Scope" />
+  <meta property="og:title" content="ICU Scope — Latest Critical Care Literature" />
+  <meta property="og:description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
+  <meta property="og:image" content="og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ICU Scope — Latest Critical Care Literature" />
+  <meta name="twitter:description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
+  <meta name="twitter:image" content="og-image.png" />
+
+  <link rel="stylesheet" href="style.css?v=34" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -18,11 +38,10 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#content">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <div class="credit-bar">
-    <p>Conducted by: Fawaz Alanazi-MNGHA</p>
-    <p>This website updates daily at 6:00 AM KSA time (03:00 UTC)</p>
+    <p>Conducted by: Fawaz Alanazi-MNGHA · updates daily at 6:00 AM KSA time (03:00 UTC)</p>
   </div>
 
   <header class="site-header">
@@ -49,12 +68,14 @@
           · <a href="https://www.medrxiv.org/" target="_blank" rel="noopener">medRxiv</a>
           · <a href="https://clinicaltrials.gov/" target="_blank" rel="noopener">ClinicalTrials.gov</a>
         </details>
-        <p class="updated-line" id="updated-line">Loading update time…</p>
       </div>
       <div class="header-actions">
-        <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">🔖 <span id="saved-count-badge">0</span></button>
+        <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          <span id="saved-count-badge">0</span>
+        </button>
         <button class="density-toggle" id="density-toggle" type="button" aria-label="Change layout density">☰ Comfortable</button>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme"></button>
       </div>
     </div>
   </header>
@@ -64,30 +85,50 @@
       <span>Jump to</span>
       <button class="section-jump-close" id="section-jump-close" type="button" aria-label="Close menu">✕</button>
     </div>
-    <!-- populated by app.js -->
+    <div class="sidebar-label">Explore</div>
+    <!-- section-jump-btn elements populated by app.js -->
   </nav>
 
-  <section class="dashboard-strip" id="dashboard-strip" aria-label="This week at a glance" hidden>
-    <div class="dashboard-tile">
-      <div class="dashboard-value" id="dash-new-count">–</div>
-      <div class="dashboard-label">New this week</div>
-    </div>
-    <div class="dashboard-tile">
-      <div class="dashboard-value" id="dash-top-category">–</div>
-      <div class="dashboard-label">Most active category</div>
-    </div>
-    <a class="dashboard-tile dashboard-tile-spotlight" id="dash-spotlight-tile" href="#spotlight-section" hidden>
-      <div class="dashboard-label">📌 Article of the Week</div>
-      <div class="dashboard-spotlight-title" id="dash-spotlight-title"></div>
-    </a>
-    <div class="dashboard-tile">
-      <div class="dashboard-value" id="dash-guideline-count">–</div>
-      <div class="dashboard-label">Guidelines tracked</div>
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">ICU Scope</p>
+      <h1 class="hero-title">The latest critical-care evidence, curated daily.</h1>
+      <p class="hero-sub" id="updated-line">Loading update time…</p>
+      <section class="hero-stats" id="dashboard-strip" aria-label="Today in critical care" hidden>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-new-count">–</div>
+          <div class="hero-stat-label">New this week</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-guideline-count">–</div>
+          <div class="hero-stat-label">Guidelines</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-trial-count">–</div>
+          <div class="hero-stat-label">Clinical trials</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-organ-count">–</div>
+          <div class="hero-stat-label">Organ systems</div>
+        </div>
+        <a class="hero-stat hero-stat-link" href="#" id="dash-top-category-link">
+          <div class="hero-stat-value" id="dash-top-category">–</div>
+          <div class="hero-stat-label">Most active category</div>
+        </a>
+      </section>
+      <a class="hero-spotlight-link" id="dash-spotlight-tile" href="#spotlight-section" hidden>
+        <span>📌 Article of the Week:</span>
+        <span class="hero-spotlight-title" id="dash-spotlight-title"></span>
+      </a>
     </div>
   </section>
 
   <div class="toolbar" id="toolbar">
-    <input type="search" id="search-input" class="search-input" placeholder="Search titles, journals, abstracts…" aria-label="Search articles" />
+    <div id="filter-status" class="sr-only" role="status" aria-live="polite"></div>
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="search-input" class="search-input" placeholder="Search literature, journals, topics, authors…" aria-label="Search articles" />
+    </div>
     <select id="window-filter" class="window-filter" aria-label="Time window">
       <option value="all">All time</option>
       <option value="1">Last 24 hours</option>
@@ -106,11 +147,13 @@
     <select id="study-type-filter" class="window-filter" aria-label="Study type">
       <option value="all">All study types</option>
     </select>
+    <button id="clear-filters-btn" class="toolbar-btn clear-filters-btn" type="button" hidden>Clear filters</button>
     <button id="digest-btn" class="toolbar-btn" type="button">📋 Copy weekly digest</button>
     <button id="semantic-search-btn" class="toolbar-btn" type="button" hidden>🧠 Semantic search</button>
   </div>
   <nav class="category-nav" id="category-nav" aria-label="Categories">
-    <!-- populated by app.js -->
+    <div class="sidebar-label">Organ Systems</div>
+    <!-- nav-chip elements populated by app.js -->
   </nav>
   <div class="hidden-categories-bar" id="hidden-categories-bar" hidden>
     <span class="hidden-categories-label">🚫 Hidden:</span>
@@ -124,7 +167,7 @@
     <button class="quick-filter-chip" type="button" data-study-type="Practice Guideline">Guideline</button>
   </div>
 
-  <main class="content">
+  <main class="content" id="main">
     <section class="semantic-section" id="semantic-section" hidden>
       <div class="trending-heading semantic-heading">
         <h2>🧠 Semantic search results</h2>
@@ -138,7 +181,7 @@
     </section>
     <section class="spotlight-section" id="spotlight-section" hidden>
       <div class="trending-heading spotlight-heading">
-        <button class="collapse-toggle" id="spotlight-collapse-toggle" type="button" aria-expanded="false" aria-controls="spotlight-body">▸</button>
+        <button class="collapse-toggle" id="spotlight-collapse-toggle" type="button" aria-expanded="false" aria-controls="spotlight-body" aria-label="Article of the Week section">▸</button>
         <h2>📌 Article of the Week</h2>
         <span class="category-count" id="spotlight-week"></span>
         <button class="print-btn" id="spotlight-print-btn" type="button">🖨️ Print handout</button>
@@ -147,7 +190,7 @@
     </section>
     <section class="this-week-section" id="this-week-section" hidden>
       <div class="trending-heading this-week-heading">
-        <button class="collapse-toggle" id="this-week-collapse-toggle" type="button" aria-expanded="false" aria-controls="this-week-body">▸</button>
+        <button class="collapse-toggle" id="this-week-collapse-toggle" type="button" aria-expanded="false" aria-controls="this-week-body" aria-label="This Week's Articles section">▸</button>
         <h2>🗓️ This Week's Articles</h2>
         <span class="category-count" id="this-week-count"></span>
       </div>
@@ -158,7 +201,7 @@
     </section>
     <section class="saved-section" id="saved-section" hidden>
       <div class="trending-heading saved-heading">
-        <button class="collapse-toggle" id="saved-collapse-toggle" type="button" aria-expanded="false" aria-controls="saved-body">▸</button>
+        <button class="collapse-toggle" id="saved-collapse-toggle" type="button" aria-expanded="false" aria-controls="saved-body" aria-label="Saved articles section">▸</button>
         <h2>🔖 Saved</h2>
         <span class="category-count" id="saved-count"></span>
       </div>
@@ -168,7 +211,7 @@
     </section>
     <section class="guideline-section" id="guideline-section" hidden>
       <div class="trending-heading guideline-heading">
-        <button class="collapse-toggle" id="guideline-collapse-toggle" type="button" aria-expanded="false" aria-controls="guideline-body">▸</button>
+        <button class="collapse-toggle" id="guideline-collapse-toggle" type="button" aria-expanded="false" aria-controls="guideline-body" aria-label="Guideline Watch section">▸</button>
         <h2>📋 Guideline Watch</h2>
         <span class="category-count" id="guideline-count"></span>
       </div>
@@ -179,7 +222,7 @@
     </section>
     <section class="ksa-section" id="ksa-section" hidden>
       <div class="trending-heading ksa-heading">
-        <button class="collapse-toggle" id="ksa-collapse-toggle" type="button" aria-expanded="false" aria-controls="ksa-body">▸</button>
+        <button class="collapse-toggle" id="ksa-collapse-toggle" type="button" aria-expanded="false" aria-controls="ksa-body" aria-label="KSA Research section">▸</button>
         <h2>🇸🇦 KSA Research</h2>
         <span class="category-count" id="ksa-count"></span>
       </div>
@@ -190,7 +233,7 @@
     </section>
     <section class="trending-section" id="trending-section" hidden>
       <div class="trending-heading">
-        <button class="collapse-toggle" id="trending-collapse-toggle" type="button" aria-expanded="false" aria-controls="trending-body">▸</button>
+        <button class="collapse-toggle" id="trending-collapse-toggle" type="button" aria-expanded="false" aria-controls="trending-body" aria-label="Trending this month section">▸</button>
         <h2>🔥 Trending this month</h2>
         <span class="category-count" id="trending-count"></span>
       </div>
@@ -200,7 +243,7 @@
     </section>
     <section class="foamed-section" id="foamed-section" hidden>
       <div class="trending-heading foamed-heading">
-        <button class="collapse-toggle" id="foamed-collapse-toggle" type="button" aria-expanded="false" aria-controls="foamed-body">▸</button>
+        <button class="collapse-toggle" id="foamed-collapse-toggle" type="button" aria-expanded="false" aria-controls="foamed-body" aria-label="FOAMed & Blogs section">▸</button>
         <h2>📚 FOAMed &amp; Blogs</h2>
         <span class="category-count" id="foamed-count"></span>
       </div>
@@ -211,7 +254,7 @@
     </section>
     <section class="bottom-line-section" id="bottom-line-section" hidden>
       <div class="trending-heading bottom-line-heading">
-        <button class="collapse-toggle" id="bottom-line-collapse-toggle" type="button" aria-expanded="false" aria-controls="bottom-line-body">▸</button>
+        <button class="collapse-toggle" id="bottom-line-collapse-toggle" type="button" aria-expanded="false" aria-controls="bottom-line-body" aria-label="The Bottom Line section">▸</button>
         <h2>🎯 The Bottom Line</h2>
         <span class="category-count" id="bottom-line-count"></span>
       </div>
@@ -222,7 +265,7 @@
     </section>
     <section class="preprint-section" id="preprint-section" hidden>
       <div class="trending-heading preprint-heading">
-        <button class="collapse-toggle" id="preprint-collapse-toggle" type="button" aria-expanded="false" aria-controls="preprint-body">▸</button>
+        <button class="collapse-toggle" id="preprint-collapse-toggle" type="button" aria-expanded="false" aria-controls="preprint-body" aria-label="Preprints section">▸</button>
         <h2>🧪 Preprints</h2>
         <span class="category-count" id="preprint-count"></span>
       </div>
@@ -233,7 +276,7 @@
     </section>
     <section class="trial-results-section" id="trial-results-section" hidden>
       <div class="trending-heading trial-results-heading">
-        <button class="collapse-toggle" id="trial-results-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-results-body">▸</button>
+        <button class="collapse-toggle" id="trial-results-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-results-body" aria-label="Trial Results section">▸</button>
         <h2>✅ Trial Results</h2>
         <span class="category-count" id="trial-results-count"></span>
       </div>
@@ -244,7 +287,7 @@
     </section>
     <section class="trial-section" id="trial-section" hidden>
       <div class="trending-heading trial-heading">
-        <button class="collapse-toggle" id="trial-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-body">▸</button>
+        <button class="collapse-toggle" id="trial-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-body" aria-label="Trial Tracker section">▸</button>
         <h2>🔬 Trial Tracker</h2>
         <span class="category-count" id="trial-count"></span>
       </div>
@@ -253,9 +296,9 @@
         <div id="trial-list"></div>
       </div>
     </section>
-    <section class="classics-section" id="classics-section">
+    <section class="classics-section" id="classics-section" hidden>
       <div class="trending-heading classics-heading">
-        <button class="collapse-toggle" id="classics-collapse-toggle" type="button" aria-expanded="false" aria-controls="classics-body">▸</button>
+        <button class="collapse-toggle" id="classics-collapse-toggle" type="button" aria-expanded="false" aria-controls="classics-body" aria-label="ICU Classics section">▸</button>
         <h2>🏛️ ICU Classics</h2>
         <span class="category-count">Landmark trials every intensivist should know</span>
       </div>
@@ -296,7 +339,9 @@
     <p><a href="feed.xml">📡 Subscribe via RSS</a></p>
   </footer>
 
-  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M12 5l-6 6M12 5l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
 
   <nav class="bottom-nav" id="bottom-nav" aria-label="Mobile navigation">
     <button class="bottom-nav-btn" id="bottom-nav-top" type="button">
@@ -314,6 +359,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=26"></script>
+  <script src="app.js?v=29"></script>
 </body>
 </html>
