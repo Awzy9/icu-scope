@@ -245,6 +245,10 @@
     "summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
     "significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population."
   },
+  "pmid:42294965": {
+    "summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
+    "significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care."
+  },
   "pmid:42508300": {
     "summary": "Australian critical care nurses were surveyed about their postinsertion care practices for non-tunnelled dialysis catheters. The survey found variability in practices, with common methods including inspecting insertion sites, using chlorhexidine gluconate-impregnated dressings, and securing catheters with sutures. Troubleshooting methods also varied.",
     "significance": "This study highlights the need for evidence-based guidelines on postinsertion care for dialysis catheters, which could improve patient outcomes and reduce complications in intensive care units."
@@ -281,10 +285,6 @@
     "summary": "This study looked at the kidney safety of liposomal amphotericin B in ICU patients with invasive pulmonary aspergillosis. It found that one-third of patients developed kidney impairment, but most cases were mild and reversible. The study also found that other nephrotoxic treatments increased the risk of kidney failure and death.",
     "significance": "This study is important for ICU clinicians because it highlights the risk of kidney impairment in patients treated with liposomal amphotericin B, and the need to carefully consider the use of other nephrotoxic treatments in this population."
   },
-  "pmid:42294965": {
-    "summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
-    "significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care."
-  },
   "pmid:42288929": {
     "summary": "Researchers reviewed the evidence on hemoadsorption in septic shock, finding that current guidelines are based on expert opinions rather than high-certainty evidence. Hemoadsorption involves removing inflammatory mediators from the blood, but its effectiveness and mechanisms of action are not well understood. More research is needed to determine its role in treating septic shock.",
     "significance": "This study highlights the need for more robust clinical trials to establish the effectiveness of hemoadsorption in septic shock, which could lead to more personalized and effective treatment approaches in the ICU."
@@ -296,6 +296,10 @@
   "pmid:42502493": {
     "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
     "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
+  },
+  "pmid:42223327": {
+    "summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
+    "significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact."
   },
   "pmid:42486401": {
     "summary": "This review of 29 studies found that high-protein nutritional strategies and supplementation with β-hydroxy-β-methyl butyrate can help preserve muscle mass and strength in critically ill patients. However, physical function showed less responsiveness to interventions. Multimodal approaches may be needed for functional recovery.",
@@ -358,6 +362,10 @@
     "summary": "This study analyzed 1,380 publications on nutritional support for pressure injury patients, finding a growing trend in research output and identifying key themes and emerging hotspots. The research focused on acute or critically ill patient populations, with a need for personalized, evidence-based protocols. Future studies should emphasize multidisciplinary collaboration and translational research to optimize outcomes.",
     "significance": "Understanding research trends in nutritional support for pressure injury patients is crucial for developing effective prevention and treatment strategies, particularly for high-risk populations in ICU settings."
   },
+  "pmid:42171427": {
+    "summary": "This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.",
+    "significance": "This study's findings suggest that sodium bicarbonate may be a useful treatment for critically ill patients with acute metabolic acidosis, but more research is needed to confirm its effects on mortality."
+  },
   "pmid:42496059": {
     "summary": "This study compared two ways to predict mortality in critically ill patients: using a single blood glucose measurement at admission, and using a ratio of mean ICU blood glucose to estimated preadmission blood glucose. The study found that the ratio method was a better predictor of mortality. The best outcome was associated with a mean ICU blood glucose level that was 80-100% of the patient's preadmission level.",
     "significance": "This study's findings may improve blood glucose management strategies in the ICU and inform the design of future clinical trials."
@@ -373,10 +381,6 @@
   "pmid:41887245": {
     "summary": "Researchers identified two subtypes of acute respiratory failure (ARDS) using a bedside test: hyperinflammatory and hypoinflammatory. They found that patients with the hyperinflammatory subtype had a higher risk of death within 60 days. This could help doctors tailor treatment to the specific subtype of ARDS.",
     "significance": "This study's findings could lead to more personalized treatment for patients with ARDS, potentially improving outcomes and reducing mortality."
-  },
-  "pmid:42171427": {
-    "summary": "This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.",
-    "significance": "This study's findings suggest that sodium bicarbonate may be a useful treatment for critically ill patients with acute metabolic acidosis, but more research is needed to confirm its effects on mortality."
   },
   "pmid:42500117": {
     "summary": "Researchers studied 120 critically ill patients in Tanzania and found that 23.3% had Non-Thyroidal Illness Syndrome (NTIS), which was strongly linked to higher mortality and longer hospital stays. NTIS is a common condition in ICU patients and may be a useful marker for predicting poor outcomes. Patients with NTIS had a much higher risk of death compared to those without NTIS.",
@@ -535,10 +539,6 @@
     "summary": "This study compared the updated SOFA-2 score with the previous SOFA-1 score for predicting 30-day mortality in ICU patients. SOFA-2 showed modestly better performance on day 1, but both scores had similar predictive validity by day 7. The study found that the scores' performance varied across different patient subgroups.",
     "significance": "This study's findings highlight the importance of considering the context and patient characteristics when using organ dysfunction scores like SOFA-2 for predicting mortality in ICU patients."
   },
-  "pmid:42223327": {
-    "summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
-    "significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact."
-  },
   "pmid:42494451": {
     "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
     "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
@@ -546,6 +546,12 @@
   "pmid:42149702": {
     "summary": "Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.",
     "significance": "This study's findings suggest that using a higher dose of rocuronium may improve intubation success rates in the ICU, but more research is needed to confirm this and to understand the potential benefits and risks."
+  },
+  "pmid:42233727": {
+    "key_stats": "n=11,176 (development cohort), n=1,127 (temporal validation cohort), AUROC 0.856-0.960, AUPRC 0.302-0.786, p-values not reported",
+    "summary": "Researchers developed and validated a machine learning system that generates hourly predictions for ICU outcomes, such as mortality and discharge. The system was integrated into the electronic medical record and showed strong performance in a single-center study. The system was maintained with automated updates and visualizations.",
+    "significance": "This study demonstrates the feasibility of embedding real-time predictions into ICU workflow, which could improve patient care and outcomes. Further studies are needed to assess the system's transportability and clinical impact.",
+    "rounds_takeaway": "Consider using real-time predictions from an EMR-integrated system to inform ICU decision-making, especially for high-risk patients."
   },
   "pmid:42243987": {
     "summary": "Researchers compared outcomes of 1,077 ICU patients with acute respiratory distress syndrome (ARDS) who developed ARDS after surgery (postoperative ARDS) to those who developed ARDS due to medical reasons. They found that postoperative ARDS had a more favorable early trajectory and lower 90-day mortality. The study suggests that postoperative ARDS is a distinct clinical subtype driven by extrapulmonary and surgery-related factors.",
@@ -597,6 +603,21 @@
     "summary": "This study highlights the challenges of ventilating ICU patients with obesity, including altered respiratory mechanics and increased susceptibility to hypoxemia and ventilator-induced lung injury. Tailored ventilatory strategies, such as lung-protective ventilation and higher positive end-expiratory pressure, are recommended. Adjunctive monitoring tools and therapies, such as prone positioning and non-invasive ventilation, may also improve outcomes.",
     "significance": "Understanding and addressing the unique physiology of critically ill patients with obesity is crucial to improving their outcomes, and dedicated clinical trials are needed to define optimal ventilatory strategies."
   },
+  "pmid:42206929": {
+    "clinical_question": "Does a novel device reduce physical restraint in ICU patients compared to traditional wrist restraints?",
+    "background": "Physical restraints are often used in ICU settings to prevent patient harm, but they can have negative consequences. A novel device was developed as an alternative to traditional wrist restraints.",
+    "design": "Within-patient crossover phase II randomized trial",
+    "setting": "Four U.S. academic medical centers",
+    "population": "ICU patients who were verbally responsive with a provider order for wrist restraints and expected stay greater than or equal to 2 days",
+    "intervention": "Alternating use of novel device vs. traditional restraint during 4-hour assessment periods over 2 days",
+    "management_common_to_both_groups": "None explicitly stated",
+    "intervention_fidelity": "None reported",
+    "outcome": "Upper extremity activity (mean activity counts per 4-hour session): 0.93 (95% CI, 0.76-1.13; p = 0.45)",
+    "author_conclusion": "No differences in upper extremity activity, delirium, sedation, or agitation were demonstrated between the novel device and traditional wrist restraints.",
+    "strengths": "Within-patient crossover design; randomization; multiple secondary outcomes",
+    "weaknesses": "Small sample size; short duration of assessment periods",
+    "bottom_line": "A novel device may be a safe alternative to traditional wrist restraints in ICU settings, with moderate patient and clinician satisfaction."
+  },
   "pmid:41989178": {
     "summary": "This study found that delirium detection tools were less accurate for Spanish-speaking ICU patients compared to English-speaking patients. Using a tool administered by caregivers improved delirium detection in Spanish-speaking patients. These findings highlight the need for language-sensitive delirium detection methods to ensure equitable care.",
     "significance": "Language-sensitive delirium detection methods are crucial for providing equitable care to diverse ICU populations, as disparities in delirium detection can lead to delayed or inadequate treatment and worsened patient outcomes."
@@ -639,11 +660,23 @@
     "summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
     "significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury."
   },
+  "pmid:42556561": {
+    "key_stats": "n=361, first-attempt success 90.0%, mean number of venipuncture attempts 1.1, CRBSI 4.9%, mechanical complications 4.1%, secondary malposition 2.7%",
+    "summary": "Researchers studied the safety and feasibility of using ultrasound to guide central line placement in newborns. They found that this approach was successful and had low complication rates in three Italian NICUs. The study supports using ultrasound-guided central line placement as an effective option for newborns.",
+    "significance": "This study provides evidence for a safer and more effective approach to central line placement in newborns, which can reduce complications and improve patient outcomes.",
+    "rounds_takeaway": "Consider using ultrasound-guided supraclavicular BCV catheterization for central line placement in newborns."
+  },
   "pmid:42554605": {
     "key_stats": "n=568340, OR 0.997 (95% CI 0.995-0.998), p < 0.001",
     "summary": "This study analyzed data from 568,340 ICU patients in Japan to see how hospital volume affects mortality rates. The researchers found that hospitals with more patients with severe illnesses (high SOFA scores) had lower mortality rates. The relationship between volume and mortality became stronger as the severity of illness increased.",
     "significance": "This study's findings suggest that hospitals with more experience caring for critically ill patients may have better outcomes, which could inform hospital staffing and resource allocation decisions.",
     "rounds_takeaway": "Consider transferring patients with high SOFA scores to hospitals with higher volumes of similar cases."
+  },
+  "url:https://emcrit.org/pulmcrit/habui/": {
+    "key_stats": "",
+    "summary": "The author advocates for hyperangulated videolaryngoscopy as the primary method for intubating critically ill patients, citing several reasons for this recommendation.",
+    "significance": "This shift in practice could improve intubation success rates and reduce complications in ICU patients.",
+    "rounds_takeaway": "Consider using hyperangulated videolaryngoscopy as the primary method for intubation in critically ill patients."
   },
   "url:https://litfl.com/basic-fracture-treatment/": {
     "key_stats": "",
@@ -855,6 +888,12 @@
     "significance": "Early identification and management of AKI are crucial in cardiac surgery patients to reduce mortality and improve outcomes.",
     "rounds_takeaway": "Consider AKI risk stratification and early intervention in cardiac surgery patients with elevated serum creatinine or decreased urine output."
   },
+  "pmid:42559086": {
+    "key_stats": "",
+    "summary": "A 76-year-old woman developed Aeromonas hydrophila sepsis after undergoing ERCP and laparoscopic cholecystectomy. The patient was treated with the 1 hour sepsis bundle and targeted antimicrobial therapy, resulting in favorable recovery. This is the first reported case of Aeromonas hydrophila sepsis after combined ERCP and laparoscopic cholecystectomy.",
+    "significance": "This case highlights the importance of personalized early intervention and strict adherence to endoscope reprocessing protocols to minimize procedure-related infection risks in high-risk critically ill patients.",
+    "rounds_takeaway": "Consider strict adherence to endoscope reprocessing protocols in patients undergoing ERCP and laparoscopic cholecystectomy."
+  },
   "pmid:42415882": {
     "summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
     "significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care."
@@ -862,6 +901,30 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07749508": {
+    "key_stats": "",
+    "summary": "This study aimed to develop a predictive model for mortality in critically ill patients with multidrug-resistant Gram-negative bacteria. It also investigated the characteristics of patients who acquire colonization during ICU stay and the infectious complications they develop.",
+    "significance": "Understanding the predictors of mortality in patients with MDR-GNB can help clinicians identify high-risk patients and tailor their care accordingly.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06832306": {
+    "key_stats": "",
+    "summary": "This was a feasibility trial to test the safety and practicality of using diaphragm neurostimulation-assisted ventilation in patients on mechanical ventilation for acute hypoxemic respiratory failure with lung injury.",
+    "significance": "This study lays the groundwork for further investigation into the potential benefits of diaphragm neurostimulation-assisted ventilation in critically ill patients.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07222852": {
+    "key_stats": "",
+    "summary": "This study aimed to assess the willingness of postpartum women to be randomized to different blood pressure medications and their effect on blood pressure in women with hypertensive disorders of pregnancy. However, it did not find any participants willing to be randomized.",
+    "significance": "This study highlights the challenges of recruiting participants for clinical trials in postpartum women with hypertensive disorders of pregnancy, which may impact the development of new treatments for this population.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07750119": {
+    "key_stats": "",
+    "summary": "This study evaluated cardiac arrest care provided by emergency medical services in Switzerland, focusing on factors that influence return of spontaneous circulation (ROSC). The study aimed to identify predictors of ROSC in out-of-hospital cardiac arrests. No specific outcomes or effect measures were reported.",
+    "significance": "Understanding predictors of ROSC can inform emergency medical services' strategies to improve cardiac arrest outcomes. However, this study did not provide specific findings or recommendations.",
+    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07283588": {
     "key_stats": "",

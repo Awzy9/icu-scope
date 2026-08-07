@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-06T05:40:19+00:00",
+  "generated_at": "2026-08-07T04:48:31+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -338,6 +338,39 @@
         "ai_rounds_takeaway": ""
       },
       {
+        "pmid": "42556561",
+        "title": "Safety and Feasibility of Ultrasound-Guided Brachiocephalic Venipuncture for Centrally Inserted Central Catheters in Newborns: A Multicenter Observational Study.",
+        "journal": "Chest",
+        "pubdate": "2026 Aug 5",
+        "authors": [
+          "Prontera G",
+          "Cerreti M",
+          "D'Andrea V",
+          "Monachini C",
+          "Tota F",
+          "Ancora G",
+          "Vento G",
+          "Barone G"
+        ],
+        "doi": "10.1016/j.chest.2026.07.5221",
+        "abstract": "BACKGROUND: Ultrasound-guided supraclavicular cannulation of the brachiocephalic vein (BCV) is a promising approach for neonatal central venous access, but multicenter data on feasibility, safety, and reproducibility remain limited. RESEARCH QUESTION: In critically ill neonates requiring centrally inserted central catheters (CICCs), is ultrasound-guided supraclavicular BCV access feasible across centers and associated with low procedural and catheter-related complication rates? STUDY DESIGN AND METHODS: We conducted a retrospective multicenter observational study in three level III NICUs in Italy, including 361 BCV venipunctures for CICC placement from January 2022 to December 2025. We collected demographic, procedural, and outcome data from electronic and paper records. Primary outcomes were immediate procedural complications, venipuncture attempts, first-attempt success, and catheter dwell time; secondary outcomes included catheter-related bloodstream infection (CRBSI), mechanical complications, and secondary malposition. Analyses were descriptive. RESULTS: Median weight at insertion was 2500 g and median age was 16 days; median catheter dwell time was 20 days, yielding 10,575 catheter-days of follow-up. All 361 CICCs were successfully placed. First-attempt success occurred in 325 procedures (90.0%), and the mean number of venipuncture attempts was 1.1 per patient. No immediate major complications occurred, including arterial puncture, pneumothorax, or hemothorax. CRBSI occurred in 18 catheters (4.9%; 1.7 per 1000 catheter-days), mechanical complications in 15 (4.1%), and secondary malposition in 10 (2.7%). INTERPRETATION: Ultrasound-guided supraclavicular BCV catheterization was feasible, reproducible, and associated with low immediate complication rates across three NICUs. These findings support this technique as an effective option for neonatal central venous access when performed within a standardized ultrasound-guided protocol.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42556561/",
+        "ai_key_stats": "n=361, first-attempt success 90.0%, mean number of venipuncture attempts 1.1, CRBSI 4.9%, mechanical complications 4.1%, secondary malposition 2.7%",
+        "ai_summary": "Researchers studied the safety and feasibility of using ultrasound to guide central line placement in newborns. They found that this approach was successful and had low complication rates in three Italian NICUs. The study supports using ultrasound-guided central line placement as an effective option for newborns.",
+        "ai_significance": "This study provides evidence for a safer and more effective approach to central line placement in newborns, which can reduce complications and improve patient outcomes.",
+        "ai_rounds_takeaway": "Consider using ultrasound-guided supraclavicular BCV catheterization for central line placement in newborns.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42554605",
         "title": "Association Between In-Hospital Mortality and ICU Patient Volume at the Facility-Level Stratified by Severity.",
         "journal": "Critical care medicine",
@@ -365,65 +398,29 @@
         "ai_key_stats": "n=568340, OR 0.997 (95% CI 0.995-0.998), p < 0.001",
         "ai_summary": "This study analyzed data from 568,340 ICU patients in Japan to see how hospital volume affects mortality rates. The researchers found that hospitals with more patients with severe illnesses (high SOFA scores) had lower mortality rates. The relationship between volume and mortality became stronger as the severity of illness increased.",
         "ai_significance": "This study's findings suggest that hospitals with more experience caring for critically ill patients may have better outcomes, which could inform hospital staffing and resource allocation decisions.",
-        "ai_rounds_takeaway": "Consider transferring patients with high SOFA scores to hospitals with higher volumes of similar cases.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
-      },
-      {
-        "pmid": "42535902",
-        "title": "Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.",
-        "journal": "American journal of respiratory and critical care medicine",
-        "pubdate": "2026 Jul 31",
-        "authors": [
-          "Taenaka H",
-          "Evrard B",
-          "Maishan M",
-          "Watanabe R",
-          "Alipanah-Lechner N",
-          "Carrillo SA",
-          "Sarma A",
-          "Spottiswoode N",
-          "Sullivan KM",
-          "Weingart MF",
-          "Zhuo H",
-          "Ringor A",
-          "Leroux C",
-          "Chao O",
-          "Lin C",
-          "Schmiege E",
-          "Hariharan T",
-          "Magee L",
-          "Willmore A",
-          "Chak S",
-          "Lee D",
-          "Bardillon K",
-          "Hendrickson C",
-          "Gotts JE",
-          "Langelier CR",
-          "Calfee CS",
-          "Matthay MA"
-        ],
-        "doi": "10.1093/ajrccm/aamag402",
-        "abstract": "RATIONALE: Hyperinflammatory and hypoinflammatory phenotypes previously identified in sepsis and ARDS may enable precision therapies, but their clinical relevance and translational modeling in severe pneumonia remain incompletely characterized. OBJECTIVES: To examine biomarker-defined hyperinflammatory and hypoinflammatory phenotypes in critically ill patients with pneumonia (pulmonary sepsis), test whether the biomarkers that define these phenotypes identify subgroups and outcomes in a mouse model of bacterial pneumonia, and determine whether the mouse phenotypes respond differently to therapeutic interventions. METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier models. We developed a mouse model of pneumococcal pneumonia which recapitulates key aspects of these phenotypes and tested responses to dexamethasone and IL-6 receptor blockade. MEASUREMENTS AND MAIN RESULTS: Two phenotypes were identified in patients with pulmonary sepsis: a hyperinflammatory phenotype with more lung injury and increased mortality, and a hypoinflammatory phenotype with more favorable outcomes. Despite uniform pathogen exposure and baseline conditions, LCA identified two phenotypes in the mice with divergent trajectories (lung injury and mortality). Therapeutic benefit from anti-inflammatory interventions was observed exclusively in the more inflamed mice. CONCLUSIONS: By integrating clinical data from human studies and experimental findings in a clinically relevant mouse model, this study provides a translational framework for developing phenotype-targeted therapies for critical illness, with the goal of improving patient outcomes.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42535902/",
-        "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
-        "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
-        "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-        "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
+        "ai_rounds_takeaway": "Consider transferring patients with high SOFA scores to hospitals with higher volumes of similar cases."
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "PulmCrit Wee: Four reasons that hyperangulated videolaryngoscopy should be the mainstay of ICU intubations",
+        "url": "https://emcrit.org/pulmcrit/habui/",
+        "source": "PulmCrit",
+        "author": "Josh Farkas",
+        "pubdate": "2026-08-05",
+        "summary": "As glorious as direct laryngoscopy was, it's time to transition to hyperangulated videolaryngoscopy as the mainstay of intubation among critically ill patients. There are a few reasons for this. [#1/4] People don't do videolaryngoscopy with a MAC blade correctly When videolargynosocopy with a MAC blade came out (hereafter referred to as MAC-VL), it seemed like […] EMCrit Project by Josh Farkas .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "ai_key_stats": "",
+        "ai_summary": "The author advocates for hyperangulated videolaryngoscopy as the primary method for intubating critically ill patients, citing several reasons for this recommendation.",
+        "ai_significance": "This shift in practice could improve intubation success rates and reduce complications in ICU patients.",
+        "ai_rounds_takeaway": "Consider using hyperangulated videolaryngoscopy as the primary method for intubation in critically ill patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "Basic Fracture Treatment",
         "url": "https://litfl.com/basic-fracture-treatment/",
@@ -436,9 +433,7 @@
         "ai_key_stats": "",
         "ai_summary": "This is a customizable poster for treating fractures in the emergency department, featuring radiographs, splinting guidance, and fillable local follow-up pathways.",
         "ai_significance": "This resource can aid in standardizing fracture treatment in the emergency department, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Study in Priors Part 2",
@@ -452,9 +447,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study applied Bayesian analysis concepts to a meta-analysis comparing normal saline with balanced crystalloids in critically ill patients. The BEST-Living meta-analysis found a difference in outcomes between the two fluids. The study aimed to provide a nuanced understanding of the data.",
         "ai_significance": "This study's findings on fluid choice in critically ill patients can inform clinical decision-making and potentially improve patient outcomes. The use of Bayesian analysis provides a more comprehensive understanding of the data.",
-        "ai_rounds_takeaway": "Consider using balanced crystalloids over normal saline in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using balanced crystalloids over normal saline in critically ill patients."
       },
       {
         "title": "REBEL MIND – Teaching Towards Expertise with Gamification",
@@ -468,9 +461,7 @@
         "ai_key_stats": "",
         "ai_summary": "This podcast episode introduces a gamified teaching tool called Rapid Sequence, aimed at improving clinician learning in critical care. The tool is part of a series focusing on productivity, provider performance, and team optimization. No specific study or data is presented.",
         "ai_significance": "This innovative teaching approach may enhance clinician learning and performance in high-pressure situations, but its effectiveness requires further evaluation. Its potential impact on team optimization and productivity is also noteworthy.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Blunt cerebrovascular injury",
@@ -484,9 +475,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article discusses the management of blunt cerebrovascular injury, including expanded Denver screening, CTA diagnosis, Biffl grading, antithrombotic treatment, and follow-up.",
         "ai_significance": "Accurate diagnosis and management of blunt cerebrovascular injury are crucial for preventing long-term neurological damage and improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Field Guide to Evidence Based Medicine Podcast – Episode 1",
@@ -500,9 +489,7 @@
         "ai_key_stats": "",
         "ai_summary": "This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.",
         "ai_significance": "Understanding evidence-based medicine is crucial for ICU clinicians to provide high-quality patient care, and this podcast aims to educate and guide them in this area.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "EMCrit 430 – Questions and Answers (Members Q&A Episode 004) with Sara Crager",
@@ -516,9 +503,7 @@
         "ai_key_stats": "",
         "ai_summary": "Dr. Sarah Crager discusses bedside shock management, moving beyond blood pressure targets to a dynamic approach. They address clinical dilemmas, including lactated Ringer's in lactic acidosis and albumin and diuretics in edematous patients. A real-world approach to fluid management is explored.",
         "ai_significance": "This episode provides ICU clinicians with practical guidance on fluid management in shock, helping them make informed decisions in high-pressure situations.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Study in Priors",
@@ -532,9 +517,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers found that nearly half of positive medical trial results cannot be replicated, highlighting issues with trust in medical literature.",
         "ai_significance": "This has significant implications for ICU clinical practice, as it may lead to the adoption of ineffective treatments and delay the discovery of effective ones.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "HFNC vs. NIV in Acute Cardiogenic Pulmonary Edema: Go with the Flow?",
@@ -548,9 +531,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared high-flow nasal cannula (HFNC) to non-invasive ventilation (NIV) in patients with acute cardiogenic pulmonary edema. It found that HFNC may be as effective as NIV in reducing respiratory rate and improving respiratory distress within 2 hours. The study aimed to determine if HFNC is a viable alternative to NIV in this setting.",
         "ai_significance": "This study's findings could help clinicians choose between HFNC and NIV for patients with acute cardiogenic pulmonary edema, potentially improving patient outcomes and reducing the need for invasive ventilation.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "ECG criteria for left ventricular hypertrophy",
@@ -564,9 +545,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviews the ECG criteria for diagnosing left ventricular hypertrophy, including their historical development, diagnostic performance, and limitations. It aims to provide a comprehensive overview of these criteria for clinicians. The study covers the principal ECG criteria used to diagnose left ventricular hypertrophy.",
         "ai_significance": "Understanding ECG criteria for left ventricular hypertrophy is crucial for accurate diagnosis and management of cardiac conditions in ICU patients, allowing for timely interventions and improved patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "The Case of the Malignant Cohort",
@@ -580,9 +559,7 @@
         "ai_key_stats": "",
         "ai_summary": "The YEARS protocol was tested to see if it can safely identify low-risk patients with suspected pulmonary embolism. The study aimed to determine if this approach can be applied to patients with malignancy. Results were not provided.",
         "ai_significance": "This study's findings could impact ICU clinical practice by helping clinicians determine which patients with malignancy and suspected PE can safely use a lower D-dimer threshold.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "EMCrit RACC-Lit Review – 2026 July",
@@ -596,9 +573,7 @@
         "ai_key_stats": "",
         "ai_summary": "This is a literature review on various topics in critical care, including prehospital whole blood transfusions, defibrillator damage from DSD, and adenosine dosing for supraventricular tachycardia.",
         "ai_significance": "Understanding these topics can help ICU clinicians make informed decisions and improve patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Can’t Intubate Can’t Oxygenate (CICO)",
@@ -612,7 +587,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study discusses the management of Can't Intubate Can't Oxygenate (CICO) situations in ICU, where standard airway rescue techniques fail. CICO is recognized, and the patient is prepared for Front of Neck Access (FONA). FONA is then transitioned to for oxygen delivery.",
         "ai_significance": "CICO management is crucial for ICU clinicians to prevent hypoxia and cardiac arrest in critically ill patients. Effective recognition and transition to FONA can improve patient outcomes in life-threatening situations.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "Adult Intubation Checklist",
@@ -626,7 +603,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed a checklist for adult intubation in emergency situations, covering preparation, pause before intubation, backup plans, and post-intubation care. The checklist aims to standardize and improve the intubation process. It may reduce errors and improve patient outcomes.",
         "ai_significance": "This checklist can be a valuable tool for ICU clinicians to improve their intubation skills and patient safety, especially in high-pressure emergency situations.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "EMCrit 429 – RUSH 2.0 – The I-RUSH and CRUSH Exams",
@@ -640,7 +619,9 @@
         "ai_key_stats": "",
         "ai_summary": "This episode introduces the updated RUSH Exam 2.0, also known as the iRUSH, which provides a standardized map for comprehensive bedside hemodynamic assessment. It combines clinical findings with advanced ultrasound modalities to phenotype shock. This updated protocol moves beyond its original role for the crashing patient.",
         "ai_significance": "This matters for ICU clinical practice as it provides a standardized approach to bedside hemodynamic assessment, potentially improving patient outcomes by accurately phenotyping shock.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Anatomy for bronchoscopy",
@@ -654,7 +635,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviews airway anatomy to help clinicians understand the basics of bronchoscopy and airway management, highlighting normal variations and potential abnormalities.",
         "ai_significance": "Understanding airway anatomy is crucial for successful bronchoscopy and airway management in ICU patients, which can impact patient outcomes and survival.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "Patient preparation for ICU bronchoscopy",
@@ -668,7 +651,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers identified key considerations for preparing ICU patients for bronchoscopy, including time out, consent, and patient positioning. They also highlighted the importance of awake versus intubated & sedated bronchoscopy and effective teamwork. The study aimed to improve safety during ICU bronchoscopy.",
         "ai_significance": "This study's findings are crucial for ICU clinicians to ensure safe and effective bronchoscopy procedures, which can impact patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "MDCalc Wars: Massive Transfusion in Trauma – ABC vs. TASH",
@@ -682,7 +667,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers compared two tools for deciding massive transfusions in trauma patients: the ABC Score, which uses 4 variables at the bedside, and TASH, which uses labs and imaging for a more precise estimate.",
         "ai_significance": "Understanding which tool is most accurate can help ICU clinicians make better decisions about massive transfusions, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       }
     ]
   },
@@ -1540,9 +1527,7 @@
         "ai_key_stats": "",
         "ai_summary": "A modified Delphi study developed a consensus-based framework for assessing ICU capacity and capability in South Korea, prioritizing functional capabilities over structural metrics. The framework includes 29 indicators across four domains. It provides a foundation for a capability-oriented classification system.",
         "ai_significance": "This study is significant for ICU clinical practice in South Korea as it establishes a standardized framework for assessing ICU capacity and capability, potentially improving patient safety and resource allocation.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41773929",
@@ -1586,9 +1571,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed guidelines for using neuromuscular blocking agents in adults with acute respiratory distress syndrome (ARDS). The guidelines recommend using these agents in patients with a specific oxygen level, but do not make recommendations for other situations due to a lack of evidence. The guidelines aim to help clinicians make informed decisions about using these agents.",
         "ai_significance": "These guidelines are important for ICU clinicians because they provide evidence-based recommendations for using neuromuscular blocking agents in ARDS patients, which can help improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41773927",
@@ -1630,9 +1613,7 @@
         "ai_key_stats": "",
         "ai_summary": "These guidelines were developed to provide evidence-based recommendations for triaging critically ill patients during ICU capacity shortages. A multidisciplinary panel used the GRADE methodology to analyze evidence and formulate recommendations. The panel generated one conditional recommendation and five no recommendation statements.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions during crisis-level shortages, ensuring efficient distribution of critical care resources and saving lives.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41700745",
@@ -1660,9 +1641,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study updated the guidelines for managing penetrating traumatic brain injury (pTBI) based on new literature and expert consensus. The guidelines cover resuscitation, imaging, critical care, surgery, and prognosis. A summary of the recommendations and seven treatment algorithms are provided.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions about the care of patients with pTBI, potentially improving outcomes and reducing complications.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41655594",
@@ -1711,9 +1690,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed a regionally adapted clinical practice guideline for stress ulcer prophylaxis in critically ill adults in Saudi Arabia, Kuwait, and Nordic countries. The guideline provides evidence-based recommendations for SUP use, including who should receive it, which medications to use, and when to discontinue. The recommendations were developed using the GRADE-ADOLOPMENT methodology and took into account local epidemiology, drug access, and health system variables.",
         "ai_significance": "These recommendations can help ICU clinicians make informed decisions about stress ulcer prophylaxis in critically ill adults, taking into account regional variations in healthcare systems and patient populations.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42417792",
@@ -1741,9 +1718,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviewed Brazilian ICU design standards and found they conflict with decades of evidence on environment's impact on patient healing and staff performance. Current standards are associated with negative outcomes for patients, staff, and families. Updating these standards is necessary to improve critical care outcomes.",
         "ai_significance": "This study highlights the need for evidence-based ICU design standards to improve patient and staff outcomes, emphasizing the importance of policy updates to prioritize patient-centered care and staff well-being.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42245967",
@@ -1805,9 +1780,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the simplified Radiographic Assessment of Lung Edema (RALE) score's ability to predict mortality in critically ill patients with Delta-variant COVID-19 using chest X-rays. The RALE score performed comparably to other scoring systems and remained an independent predictor of mortality. The study suggests that the RALE score could be a useful tool for risk stratification in critically ill patients with COVID-19, particularly in resource-limited settings.",
         "ai_significance": "This study's findings support the use of the simplified RALE score as a practical tool for guiding treatment decisions in critically ill patients with COVID-19, which could lead to improved outcomes and resource allocation in high-burden settings.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42518782",
@@ -1846,9 +1819,7 @@
         "ai_key_stats": "n=455, OR 19.44 (95% CI 2.57-146.5), p=0.004, OR 4.3 (95% CI 1.61-11.41), p=0.003, OR 3.93 (95% CI 1.34-11.47), p=0.012",
         "ai_summary": "This study evaluated the NephroCheck score, a urine test using biomarkers IGFBP7 and TIMP-2, to predict acute kidney injury (AKI) in ICU patients. The test showed some ability to identify AKI risk and need for renal replacement therapy, but its performance was inconsistent for differentiating transient from persistent AKI.",
         "ai_significance": "Early detection of AKI is critical for guiding timely interventions and improving outcomes in critically ill patients, making this study's findings relevant for ICU clinical practice.",
-        "ai_rounds_takeaway": "Consider using the NephroCheck score to identify patients at high risk for AKI and renal replacement therapy in the ICU.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using the NephroCheck score to identify patients at high risk for AKI and renal replacement therapy in the ICU."
       },
       {
         "pmid": "42484242",
@@ -1879,7 +1850,43 @@
         "ai_key_stats": "n=189, OR 20.8 (95% CI 3.8-114) for stage 2 AKI, OR 93.6 (95% CI 23.4-375) for stage 3 AKI, p < 0.001",
         "ai_summary": "This study looked at cardiac surgery patients in a single healthcare system and found that 16.7% developed acute kidney injury (AKI). Patients with AKI had higher mortality, longer hospital stays, and reduced renal recovery compared to those without AKI.",
         "ai_significance": "Early identification and management of AKI are crucial in cardiac surgery patients to reduce mortality and improve outcomes.",
-        "ai_rounds_takeaway": "Consider AKI risk stratification and early intervention in cardiac surgery patients with elevated serum creatinine or decreased urine output.",
+        "ai_rounds_takeaway": "Consider AKI risk stratification and early intervention in cardiac surgery patients with elevated serum creatinine or decreased urine output."
+      },
+      {
+        "pmid": "42559086",
+        "title": "Aeromonas hydrophila sepsis after ERCP and laparoscopic cholecystectomy: a case report.",
+        "journal": "Frontiers in medicine",
+        "pubdate": "2026",
+        "authors": [
+          "Liu J",
+          "Yao M",
+          "Liang C",
+          "Dai X",
+          "Deng C",
+          "An Y",
+          "Yu M",
+          "Peng Z",
+          "Zhang X",
+          "Wang Y",
+          "Sheng B",
+          "Luo H"
+        ],
+        "doi": "10.3389/fmed.2026.1883706",
+        "abstract": "Endoscopic retrograde cholangiopancreatography is crucial for treating pancreaticobiliary diseases with biliary stones, but it can lead to serious complications, including severe systemic sepsis. Sepsis is a life-threatening critical condition. The 1 h bundle recommended by the Surviving Sepsis Campaign remains the core strategy for early management. Although the 2021 and 2026 Surviving Sepsis Campaign guidelines have adopted a stratified approach to antibiotic timing in non-shock patients, personalized early intervention is crucial for high-risk critically ill individuals. We present a 76-year-old female with cholecystolithiasis complicated by choledocholithiasis who developed Aeromonas hydrophila sepsis following Endoscopic Retrograde Cholangiopancreatography stone extraction and laparoscopic cholecystectomy. Within a span of 10 h, the patient's white blood cell count experienced a significant decline, accompanied by increased levels of inflammatory biomarkers and a Sequential Organ Failure Assessment score of 2. The 1 h sepsis bundle was promptly implemented, including blood culture, lactate measurement, intravenous fluid resuscitation, and empirical meropenem. Blood culture identified Aeromonas hydrophila infection, and targeted antimicrobial therapy was administered. The patient achieved favorable recovery with no recurrence at 2-month follow-up. To our knowledge, this is the first reported case of Aeromonas hydrophila sepsis after combined endoscopic retrograde cholangiopancreatography and laparoscopic cholecystectomy. Personalized 1 h bundle implementation is vital to optimize prognosis in high-risk patients. This case also highlights the importance of strict adherence to endoscope reprocessing protocols, routine quality monitoring, and water quality management to minimize procedure-related infection risks.",
+        "citation_count": 17,
+        "is_top_journal": false,
+        "study_type": "Case Reports",
+        "volume": "13",
+        "issue": "",
+        "pages": "1883706",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13439414/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42559086/",
+        "society": "Surviving Sepsis Campaign",
+        "ai_key_stats": "",
+        "ai_summary": "A 76-year-old woman developed Aeromonas hydrophila sepsis after undergoing ERCP and laparoscopic cholecystectomy. The patient was treated with the 1 hour sepsis bundle and targeted antimicrobial therapy, resulting in favorable recovery. This is the first reported case of Aeromonas hydrophila sepsis after combined ERCP and laparoscopic cholecystectomy.",
+        "ai_significance": "This case highlights the importance of personalized early intervention and strict adherence to endoscope reprocessing protocols to minimize procedure-related infection risks in high-risk critically ill patients.",
+        "ai_rounds_takeaway": "Consider strict adherence to endoscope reprocessing protocols in patients undergoing ERCP and laparoscopic cholecystectomy.",
         "link_broken": false,
         "link_broken_kind": "doi"
       },
@@ -1936,9 +1943,7 @@
         "ai_key_stats": "",
         "ai_summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
         "ai_significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       }
     ]
   },
@@ -2906,8 +2911,6 @@
           "weaknesses": "no clear rationale for the chosen upper limit of arterial oxygen saturation in the liberal-oxygen group",
           "bottom_line": "There is no evidence to support the use of conservative oxygen therapy over liberal oxygen therapy in unresponsive adults after cardiac arrest."
         },
-        "link_broken": true,
-        "link_broken_kind": "doi",
         "category_id": "cardiovascular",
         "category_label": "Cardiovascular"
       },
@@ -2977,8 +2980,6 @@
           "weaknesses": "no clear rationale for the chosen upper limit of arterial oxygen saturation in the liberal-oxygen group",
           "bottom_line": "There is no evidence to support the use of conservative oxygen therapy over liberal oxygen therapy in unresponsive adults after cardiac arrest."
         },
-        "link_broken": true,
-        "link_broken_kind": "doi",
         "category_id": "trauma-surgical",
         "category_label": "Trauma & Surgical"
       },
@@ -3123,6 +3124,49 @@
         "category_label": "Neurology"
       },
       {
+        "pmid": "42294965",
+        "title": "Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 1",
+        "authors": [
+          "Safavynia SA",
+          "Barra ME",
+          "Der Nigoghossian C",
+          "Shinnick D",
+          "Waldrop G",
+          "Choi JM",
+          "Ganglberger W",
+          "Shen Q",
+          "Doyle K",
+          "Walline MC",
+          "Westover MB",
+          "Brown EN",
+          "Fins JJ",
+          "Victor J",
+          "Edlow BL",
+          "Claassen J",
+          "Schiff ND",
+          "Thaweethai T"
+        ],
+        "doi": "10.1097/CCM.0000000000007205",
+        "abstract": "OBJECTIVES: Prolonged disorders of consciousness are common in critically ill patients receiving mechanical ventilation and are often attributed to prolonged sedative exposure in the setting of decreased drug clearance and/or reduced metabolism. Here, in a large sample of critically ill COVID patients obtained over a short period, we tested the assumption that prolonged unconsciousness following benzodiazepine and/or propofol sedation can be attributed to residual exposure. Further, we examine associations between clinical variables on time to recovery of consciousness (RoC) as a framework for the broader critically ill population. DESIGN: Retrospective cohort study. SETTING: Massachusetts General Hospital, Weill Cornell Medicine, Columbia University Irving Medical Center. PATIENTS: Seven hundred eighty-four patients with COVID-19 critical illness in Spring-Summer 2020. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We estimated the latest expected RoC (LERoC) using models of sedation exposure that account for sedative-specific pharmacokinetics and critical illness. Our primary exposure variable was a time-weighted dose of analgosedative agents at benzodiazepine and/or propofol cessation; our primary outcome was time to RoC. We estimated relative risks for late RoC (i.e., after LERoC) via multinomial logistic regression. Among individuals with late RoC, we fit a multivariate subdistribution hazard model for time to RoC. Seventy-three percent of patients had RoC before hospital discharge, yet 34% of patients achieving RoC did not do so within pharmacologically plausible sedative elimination times. Patients with late RoC were older and exhibited hypoxemia and acute kidney injury. Patients with dexmedetomidine as an adjunct sedative had a disproportionately larger incidence of early recovery. Patients with early vs. late RoC did not have significantly different discharge dispositions. CONCLUSIONS: In our cohort, the time to RoC was commonly prolonged beyond that expected from sedation exposures alone. These data may aid clinicians and families with expectations of RoC and warrant investigation of alternative determinants of delayed RoC in this population.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "54",
+        "issue": "8",
+        "pages": "2076-2089",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42294965/",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
+        "ai_significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care.",
+        "ai_rounds_takeaway": "",
+        "category_id": "renal",
+        "category_label": "Renal"
+      },
+      {
         "pmid": "42467893",
         "title": "Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.",
         "journal": "Hepatology (Baltimore, Md.)",
@@ -3149,6 +3193,76 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42467893/",
         "category_id": "gi-nutrition",
         "category_label": "GI & Nutrition"
+      },
+      {
+        "pmid": "42223327",
+        "title": "Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 1",
+        "authors": [
+          "Nguyen CD",
+          "Panganiban HP",
+          "Karahalios A",
+          "Fazio T",
+          "Ankravs MJ",
+          "Fitzpatrick P",
+          "Richardson M",
+          "McAlister S",
+          "Tran-Duy A",
+          "MacIsaac CM",
+          "Ricciardone S",
+          "Rechnitzer T",
+          "Ali Abdelhamid Y",
+          "Deane AM"
+        ],
+        "doi": "10.1097/CCM.0000000000007174",
+        "abstract": "OBJECTIVES: Enteral magnesium replacement may be as effective as IV replacement while being a cheaper and more environmentally sustainable intervention. The primary objective was to evaluate whether enteral magnesium is noninferior to IV administration in correcting hypomagnesemia. DESIGN: Prospective, open-label, parallel-group, electronic medical record-embedded, randomized, noninferiority trial. SETTING: Single-center mixed medical-surgical-trauma ICU. PATIENTS: Patients with serum magnesium concentration between 0.35 and 0.7 mmol/L. INTERVENTIONS: Enteral or IV magnesium replacement. MEASUREMENTS AND MAIN RESULTS: The primary outcome was serum magnesium concentration at 24 hours after enrollment, with a noninferiority margin of 0.1 mmol/L. Secondary outcomes included dose of administered magnesium, urine magnesium excretion, costs of intervention delivery, waste, bloodstream infections, new atrial fibrillation, duration of admission, and mortality. Between June 2023 and May 2024, 360 patients were included. Baseline magnesium concentrations were comparable. At 24 hours, mean ( sd ) magnesium concentrations were 0.80 mmol/L (0.19 mmol/L) in the enteral arm and 0.92 mmol/L (0.23 mmol/L) in the IV arm, with a mean difference of -0.12 mmol/L (95% CI, -0.16 to -0.07 mmol/L) indicating inconclusive results about noninferiority. Enteral replacement substantially decreased urine magnesium concentrations compared with IV replacement (median difference of area under the curve, -46.2 mmol·hr/L), cost (median difference, -6.48 Australian dollars; 95% CI, -7.40 to -5.56 Australian dollars), waste (median difference, -55 grams; 95% CI, -58 to -51 grams), C o2 footprint (median difference, -946 grams; 95% CI, -996 to -896 grams), and additional IV fluid administration (median, -100 mL; interquartile range, -200 to -100 mL). There were no between group differences for other outcomes. CONCLUSIONS: Enteral magnesium replacement for mild-to-moderate hypomagnesemia did not establish noninferiority to IV replacement at a margin of 0.1 mmol/L but it reduced urinary concentration of magnesium, cost, environmental waste, carbon emissions, and IV fluid administration.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "54",
+        "issue": "8",
+        "pages": "1954-1964",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42223327/",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
+        "ai_significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact.",
+        "ai_rounds_takeaway": "",
+        "category_id": "gi-nutrition",
+        "category_label": "GI & Nutrition"
+      },
+      {
+        "pmid": "42171427",
+        "title": "Sodium Bicarbonate for Acute Metabolic Acidosis in Critically Ill Adults: A Meta-Analysis of Randomized Clinical Trials.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 1",
+        "authors": [
+          "Chen JJ",
+          "Lee TH",
+          "Chang CH",
+          "Lai PC",
+          "Tu YK",
+          "Huang YT"
+        ],
+        "doi": "10.1097/CCM.0000000000007179",
+        "abstract": "OBJECTIVES: Acute metabolic acidosis is frequent in critical illness and may be managed with volume replacement therapy, sodium bicarbonate, and renal replacement therapy (RRT). BICARICU-1 and BICARICU-2 trials provided new evidence on bicarbonate therapy. We aimed to systematically evaluate the effects of sodium bicarbonate in critically ill patients. DATA SOURCES: We systematically searched PubMed, Embase, Medline, and the Cochrane Library for randomized controlled trials (RCTs) evaluating sodium bicarbonate vs. placebo in critically ill adults with acute metabolic acidosis. STUDY SELECTION: Only RCTs were selected. DATA EXTRACTION: Primary outcome was RRT; secondary outcomes were mortality, ICU length of stay, ventilator-free days, and vasopressor-free days. DATA SYNTHESIS: We performed Hartung-Knapp random-effects meta-analyses and trial sequential analysis (TSA) for primary outcomes. Bayesian random-effects meta-analyses with noninformative and weakly informative priors were used for sensitivity analysis. Four trials enrolling 1,111 patients were included. Sodium bicarbonate showed a nonsignificant trend toward lower mortality (risk ratio [RR], 0.84; 95% CI, 0.55-1.30); TSA indicated that the cumulative sample size remained far below the required information size, and the mortality effect is inconclusive. Sodium bicarbonate significantly reduced RRT use (RR, 0.69; 95% CI, 0.61-0.78), and TSA supported firm evidence of benefit. Bayesian analyses estimated posterior probabilities of any mortality reduction (RR < 1) and reduced RRT use of 90.4% and 94.6%, respectively. Secondary outcomes remained imprecise, with a trend of toward more vasopressor-free days. CONCLUSIONS: In critically ill adults with acute metabolic acidosis, sodium bicarbonate significantly reduces RRT requirement, with Bayesian analyses suggesting a possibility of mortality benefit, although current evidence remains inconclusive. Larger RCTs or high-quality real-world studies are needed to confirm efficacy of sodium bicarbonate for mortality.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Meta-Analysis",
+        "volume": "54",
+        "issue": "8",
+        "pages": "1870-1877",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42171427/",
+        "ai_key_stats": "",
+        "ai_summary": "This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.",
+        "ai_significance": "This study's findings suggest that sodium bicarbonate may be a useful treatment for critically ill patients with acute metabolic acidosis, but more research is needed to confirm its effects on mortality.",
+        "ai_rounds_takeaway": "",
+        "category_id": "endocrine-metabolic",
+        "category_label": "Endocrine & Metabolic"
       },
       {
         "pmid": "42377463",
@@ -3275,6 +3389,45 @@
         "category_label": "Hematology & Coagulation"
       },
       {
+        "pmid": "42223327",
+        "title": "Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 1",
+        "authors": [
+          "Nguyen CD",
+          "Panganiban HP",
+          "Karahalios A",
+          "Fazio T",
+          "Ankravs MJ",
+          "Fitzpatrick P",
+          "Richardson M",
+          "McAlister S",
+          "Tran-Duy A",
+          "MacIsaac CM",
+          "Ricciardone S",
+          "Rechnitzer T",
+          "Ali Abdelhamid Y",
+          "Deane AM"
+        ],
+        "doi": "10.1097/CCM.0000000000007174",
+        "abstract": "OBJECTIVES: Enteral magnesium replacement may be as effective as IV replacement while being a cheaper and more environmentally sustainable intervention. The primary objective was to evaluate whether enteral magnesium is noninferior to IV administration in correcting hypomagnesemia. DESIGN: Prospective, open-label, parallel-group, electronic medical record-embedded, randomized, noninferiority trial. SETTING: Single-center mixed medical-surgical-trauma ICU. PATIENTS: Patients with serum magnesium concentration between 0.35 and 0.7 mmol/L. INTERVENTIONS: Enteral or IV magnesium replacement. MEASUREMENTS AND MAIN RESULTS: The primary outcome was serum magnesium concentration at 24 hours after enrollment, with a noninferiority margin of 0.1 mmol/L. Secondary outcomes included dose of administered magnesium, urine magnesium excretion, costs of intervention delivery, waste, bloodstream infections, new atrial fibrillation, duration of admission, and mortality. Between June 2023 and May 2024, 360 patients were included. Baseline magnesium concentrations were comparable. At 24 hours, mean ( sd ) magnesium concentrations were 0.80 mmol/L (0.19 mmol/L) in the enteral arm and 0.92 mmol/L (0.23 mmol/L) in the IV arm, with a mean difference of -0.12 mmol/L (95% CI, -0.16 to -0.07 mmol/L) indicating inconclusive results about noninferiority. Enteral replacement substantially decreased urine magnesium concentrations compared with IV replacement (median difference of area under the curve, -46.2 mmol·hr/L), cost (median difference, -6.48 Australian dollars; 95% CI, -7.40 to -5.56 Australian dollars), waste (median difference, -55 grams; 95% CI, -58 to -51 grams), C o2 footprint (median difference, -946 grams; 95% CI, -996 to -896 grams), and additional IV fluid administration (median, -100 mL; interquartile range, -200 to -100 mL). There were no between group differences for other outcomes. CONCLUSIONS: Enteral magnesium replacement for mild-to-moderate hypomagnesemia did not establish noninferiority to IV replacement at a margin of 0.1 mmol/L but it reduced urinary concentration of magnesium, cost, environmental waste, carbon emissions, and IV fluid administration.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "54",
+        "issue": "8",
+        "pages": "1954-1964",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42223327/",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
+        "ai_significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact.",
+        "ai_rounds_takeaway": "",
+        "category_id": "trauma-surgical",
+        "category_label": "Trauma & Surgical"
+      },
+      {
         "pmid": "42149702",
         "title": "Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.",
         "journal": "American journal of respiratory and critical care medicine",
@@ -3338,108 +3491,138 @@
         "category_label": "Procedures & POCUS"
       },
       {
-        "pmid": "42535902",
-        "title": "Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.",
-        "journal": "American journal of respiratory and critical care medicine",
-        "pubdate": "2026 Jul 31",
+        "pmid": "42233727",
+        "title": "Operational Integration and Temporal Validation of a Continuously Deployed ICU Prediction Model.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 1",
         "authors": [
-          "Taenaka H",
-          "Evrard B",
-          "Maishan M",
-          "Watanabe R",
-          "Alipanah-Lechner N",
-          "Carrillo SA",
-          "Sarma A",
-          "Spottiswoode N",
-          "Sullivan KM",
-          "Weingart MF",
-          "Zhuo H",
-          "Ringor A",
-          "Leroux C",
-          "Chao O",
-          "Lin C",
-          "Schmiege E",
-          "Hariharan T",
-          "Magee L",
-          "Willmore A",
-          "Chak S",
-          "Lee D",
-          "Bardillon K",
-          "Hendrickson C",
-          "Gotts JE",
-          "Langelier CR",
-          "Calfee CS",
-          "Matthay MA"
+          "Nishiyama S",
+          "Uchino S",
+          "Saito T",
+          "Fukano K",
+          "Ono S",
+          "Kamio T",
+          "Katayama S"
         ],
-        "doi": "10.1093/ajrccm/aamag402",
-        "abstract": "RATIONALE: Hyperinflammatory and hypoinflammatory phenotypes previously identified in sepsis and ARDS may enable precision therapies, but their clinical relevance and translational modeling in severe pneumonia remain incompletely characterized. OBJECTIVES: To examine biomarker-defined hyperinflammatory and hypoinflammatory phenotypes in critically ill patients with pneumonia (pulmonary sepsis), test whether the biomarkers that define these phenotypes identify subgroups and outcomes in a mouse model of bacterial pneumonia, and determine whether the mouse phenotypes respond differently to therapeutic interventions. METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier models. We developed a mouse model of pneumococcal pneumonia which recapitulates key aspects of these phenotypes and tested responses to dexamethasone and IL-6 receptor blockade. MEASUREMENTS AND MAIN RESULTS: Two phenotypes were identified in patients with pulmonary sepsis: a hyperinflammatory phenotype with more lung injury and increased mortality, and a hypoinflammatory phenotype with more favorable outcomes. Despite uniform pathogen exposure and baseline conditions, LCA identified two phenotypes in the mice with divergent trajectories (lung injury and mortality). Therapeutic benefit from anti-inflammatory interventions was observed exclusively in the more inflamed mice. CONCLUSIONS: By integrating clinical data from human studies and experimental findings in a clinically relevant mouse model, this study provides a translational framework for developing phenotype-targeted therapies for critical illness, with the goal of improving patient outcomes.",
+        "doi": "10.1097/CCM.0000000000007181",
+        "abstract": "OBJECTIVES: To operationalize and temporally validate an electronic medical record (EMR)-integrated machine learning system (Big data-driven Evaluation of Survival and Treatment in Acute Illness [BEST-AI]) that generates hourly predictions for multiple ICU outcomes, with emphasis on discrimination, calibration, and workflow integration. DESIGN: Single-center hybrid study with stepwise clinical deployment and forward-in-time temporal validation. SETTING: Thirty-bed tertiary mixed medical-surgical ICU in Japan. PATIENTS: All ICU admissions from August 2017 to March 2025. Exclusions: age younger than 16 years or ICU stay less than 4 hours. Development cohort ( n = 11,176; from August 2017 to July 2024) and temporal validation cohort ( n = 1,127; from August 2024 to March 2025). INTERVENTIONS: EMR-integrated deployment of BEST-AI providing hourly probabilistic predictions to clinicians within the EMR; no protocolized clinical interventions were mandated. MEASUREMENTS AND MAIN RESULTS: Six prediction tasks (in-hospital mortality, ICU mortality, ICU discharge ≤ 72 hr, intubation ≤ 72 hr, extubation ≤ 72 hr, tracheostomy at ICU discharge) were evaluated. In temporal validation, the area under the receiver operating characteristic curves ranged from 0.856 to 0.960, and the area under the precision-recall curves from 0.302 to 0.786. Decile-based calibration showed overall good agreement; hospital mortality was slightly overestimated at higher predicted probabilities, whereas ICU mortality remained well aligned. The intubation task had comparatively lower discrimination and greater deviation from perfect calibration, consistent with low event counts and heterogeneous timing. A 24-hour landmark sensitivity analysis (one prediction per patient at 24 hr after ICU admission) preserved discrimination and calibration relative to the main analysis, supporting robustness beyond repeated-measures evaluation. The system was successfully maintained with automated hourly updates and EMR-embedded patient- and unit-level visualizations, without prescriptive alerts. CONCLUSIONS: A continuously deployed, EMR-integrated ICU prediction system achieved strong temporal discrimination and generally good calibration. Embedding real-time predictions into routine workflow was feasible, and the system was maintained with automated hourly updates. Prospective multicenter studies are warranted to assess transportability and clinical impact.",
         "citation_count": 0,
         "is_top_journal": true,
         "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
+        "volume": "54",
+        "issue": "8",
+        "pages": "2000-2010",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42535902/",
-        "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
-        "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
-        "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-        "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype.",
-        "category_id": "respiratory",
-        "category_label": "Respiratory"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42233727/",
+        "ai_key_stats": "n=11,176 (development cohort), n=1,127 (temporal validation cohort), AUROC 0.856-0.960, AUPRC 0.302-0.786, p-values not reported",
+        "ai_summary": "Researchers developed and validated a machine learning system that generates hourly predictions for ICU outcomes, such as mortality and discharge. The system was integrated into the electronic medical record and showed strong performance in a single-center study. The system was maintained with automated updates and visualizations.",
+        "ai_significance": "This study demonstrates the feasibility of embedding real-time predictions into ICU workflow, which could improve patient care and outcomes. Further studies are needed to assess the system's transportability and clinical impact.",
+        "ai_rounds_takeaway": "Consider using real-time predictions from an EMR-integrated system to inform ICU decision-making, especially for high-risk patients.",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "procedures-pocus",
+        "category_label": "Procedures & POCUS"
       },
       {
-        "pmid": "42535902",
-        "title": "Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.",
-        "journal": "American journal of respiratory and critical care medicine",
-        "pubdate": "2026 Jul 31",
+        "pmid": "42294965",
+        "title": "Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 1",
         "authors": [
-          "Taenaka H",
-          "Evrard B",
-          "Maishan M",
-          "Watanabe R",
-          "Alipanah-Lechner N",
-          "Carrillo SA",
-          "Sarma A",
-          "Spottiswoode N",
-          "Sullivan KM",
-          "Weingart MF",
-          "Zhuo H",
-          "Ringor A",
-          "Leroux C",
-          "Chao O",
-          "Lin C",
-          "Schmiege E",
-          "Hariharan T",
-          "Magee L",
-          "Willmore A",
-          "Chak S",
-          "Lee D",
-          "Bardillon K",
-          "Hendrickson C",
-          "Gotts JE",
-          "Langelier CR",
-          "Calfee CS",
-          "Matthay MA"
+          "Safavynia SA",
+          "Barra ME",
+          "Der Nigoghossian C",
+          "Shinnick D",
+          "Waldrop G",
+          "Choi JM",
+          "Ganglberger W",
+          "Shen Q",
+          "Doyle K",
+          "Walline MC",
+          "Westover MB",
+          "Brown EN",
+          "Fins JJ",
+          "Victor J",
+          "Edlow BL",
+          "Claassen J",
+          "Schiff ND",
+          "Thaweethai T"
         ],
-        "doi": "10.1093/ajrccm/aamag402",
-        "abstract": "RATIONALE: Hyperinflammatory and hypoinflammatory phenotypes previously identified in sepsis and ARDS may enable precision therapies, but their clinical relevance and translational modeling in severe pneumonia remain incompletely characterized. OBJECTIVES: To examine biomarker-defined hyperinflammatory and hypoinflammatory phenotypes in critically ill patients with pneumonia (pulmonary sepsis), test whether the biomarkers that define these phenotypes identify subgroups and outcomes in a mouse model of bacterial pneumonia, and determine whether the mouse phenotypes respond differently to therapeutic interventions. METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier models. We developed a mouse model of pneumococcal pneumonia which recapitulates key aspects of these phenotypes and tested responses to dexamethasone and IL-6 receptor blockade. MEASUREMENTS AND MAIN RESULTS: Two phenotypes were identified in patients with pulmonary sepsis: a hyperinflammatory phenotype with more lung injury and increased mortality, and a hypoinflammatory phenotype with more favorable outcomes. Despite uniform pathogen exposure and baseline conditions, LCA identified two phenotypes in the mice with divergent trajectories (lung injury and mortality). Therapeutic benefit from anti-inflammatory interventions was observed exclusively in the more inflamed mice. CONCLUSIONS: By integrating clinical data from human studies and experimental findings in a clinically relevant mouse model, this study provides a translational framework for developing phenotype-targeted therapies for critical illness, with the goal of improving patient outcomes.",
+        "doi": "10.1097/CCM.0000000000007205",
+        "abstract": "OBJECTIVES: Prolonged disorders of consciousness are common in critically ill patients receiving mechanical ventilation and are often attributed to prolonged sedative exposure in the setting of decreased drug clearance and/or reduced metabolism. Here, in a large sample of critically ill COVID patients obtained over a short period, we tested the assumption that prolonged unconsciousness following benzodiazepine and/or propofol sedation can be attributed to residual exposure. Further, we examine associations between clinical variables on time to recovery of consciousness (RoC) as a framework for the broader critically ill population. DESIGN: Retrospective cohort study. SETTING: Massachusetts General Hospital, Weill Cornell Medicine, Columbia University Irving Medical Center. PATIENTS: Seven hundred eighty-four patients with COVID-19 critical illness in Spring-Summer 2020. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We estimated the latest expected RoC (LERoC) using models of sedation exposure that account for sedative-specific pharmacokinetics and critical illness. Our primary exposure variable was a time-weighted dose of analgosedative agents at benzodiazepine and/or propofol cessation; our primary outcome was time to RoC. We estimated relative risks for late RoC (i.e., after LERoC) via multinomial logistic regression. Among individuals with late RoC, we fit a multivariate subdistribution hazard model for time to RoC. Seventy-three percent of patients had RoC before hospital discharge, yet 34% of patients achieving RoC did not do so within pharmacologically plausible sedative elimination times. Patients with late RoC were older and exhibited hypoxemia and acute kidney injury. Patients with dexmedetomidine as an adjunct sedative had a disproportionately larger incidence of early recovery. Patients with early vs. late RoC did not have significantly different discharge dispositions. CONCLUSIONS: In our cohort, the time to RoC was commonly prolonged beyond that expected from sedation exposures alone. These data may aid clinicians and families with expectations of RoC and warrant investigation of alternative determinants of delayed RoC in this population.",
         "citation_count": 0,
         "is_top_journal": true,
         "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
+        "volume": "54",
+        "issue": "8",
+        "pages": "2076-2089",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42535902/",
-        "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
-        "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
-        "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-        "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype.",
-        "category_id": "infectious-sepsis",
-        "category_label": "Infectious Disease & Sepsis"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42294965/",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
+        "ai_significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care.",
+        "ai_rounds_takeaway": "",
+        "category_id": "pharmacology",
+        "category_label": "Pharmacology"
+      },
+      {
+        "pmid": "42206929",
+        "title": "Reducing Physical Restraint in the ICU: Multicenter Phase II Randomized Trial of a Novel Device Versus Traditional Wrist Restraints.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 1",
+        "authors": [
+          "Stapleton RD",
+          "Kamdar BB",
+          "Colantuoni EA",
+          "Pandian V",
+          "Friedman LA",
+          "Bates JHT",
+          "Ardren SS",
+          "Burns S",
+          "Fatima A",
+          "Fine JM",
+          "Kalva T",
+          "Mahmoud MA",
+          "Roberts D",
+          "Ventrone S",
+          "Viana J",
+          "McGinnis RS",
+          "Pavini MT",
+          "Needham DM",
+          "FREEDOM Study Team"
+        ],
+        "doi": "10.1097/CCM.0000000000007172",
+        "abstract": "OBJECTIVES: To evaluate a novel device, developed under a National Institutes of Health Small Business Technology Transfer program grant, designed as an alternative to traditional wrist restraints. DESIGN: Within-patient crossover phase II randomized trial. SETTING: Four U.S. academic medical centers. PATIENTS: ICU patients ( n = 54) who were verbally responsive with a provider order for wrist restraints and expected stay greater than or equal to 2 days. INTERVENTIONS: Alternating use of novel device vs. traditional restraint during 4-hour assessment periods over 2 days (four assessment periods), with randomization of initial allocation to novel device vs. restraint. MEASUREMENTS AND MAIN RESULTS: Upper extremity activity (measured via wrist actigraphy) was the primary outcome, with safety, sedation, delirium, satisfaction (via Quebec User Evaluation of Satisfaction with Assistive Technology [QUEST] survey), and qualitative analyses of survey data as secondary outcomes. Analysis of actigraphy data demonstrated similar mean activity counts per 4-hour session for the novel device vs. traditional restraints, with a range of mean activity across the four sessions of 2930-4395 vs. 3898-4910, respectively, with relative mean total activity count per session of 0.93 (95% CI, 0.76-1.13; p = 0.45). Across 98 sessions using the novel device, 2 (2%) potential safety events were reported. No statistically significant differences were observed in sedation/agitation, or delirium status and severity. Of the QUEST satisfaction surveys completed by patient/family ( n = 25) and clinicians ( n = 79), 58% and 51%, respectively, indicated high satisfaction with qualitative analyses demonstrating four positive and six constructive themes. CONCLUSIONS: No differences in upper extremity activity, delirium, sedation, or agitation were demonstrated between the novel device and traditional wrist restraints. The novel device had overall moderate patient/family and clinician satisfaction, and qualitative analyses provide important insights for advancing the development of novel restraint alternative devices.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "54",
+        "issue": "8",
+        "pages": "1859-1869",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42206929/",
+        "ai_appraisal": {
+          "clinical_question": "Does a novel device reduce physical restraint in ICU patients compared to traditional wrist restraints?",
+          "background": "Physical restraints are often used in ICU settings to prevent patient harm, but they can have negative consequences. A novel device was developed as an alternative to traditional wrist restraints.",
+          "design": "Within-patient crossover phase II randomized trial",
+          "setting": "Four U.S. academic medical centers",
+          "population": "ICU patients who were verbally responsive with a provider order for wrist restraints and expected stay greater than or equal to 2 days",
+          "intervention": "Alternating use of novel device vs. traditional restraint during 4-hour assessment periods over 2 days",
+          "management_common_to_both_groups": "None explicitly stated",
+          "intervention_fidelity": "None reported",
+          "outcome": "Upper extremity activity (mean activity counts per 4-hour session): 0.93 (95% CI, 0.76-1.13; p = 0.45)",
+          "author_conclusion": "No differences in upper extremity activity, delirium, sedation, or agitation were demonstrated between the novel device and traditional wrist restraints.",
+          "strengths": "Within-patient crossover design; randomization; multiple secondary outcomes",
+          "weaknesses": "Small sample size; short duration of assessment periods",
+          "bottom_line": "A novel device may be a safe alternative to traditional wrist restraints in ICU settings, with moderate patient and clinician satisfaction."
+        },
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "pharmacology",
+        "category_label": "Pharmacology"
       }
     ]
   },
@@ -3459,13 +3642,87 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
         "ai_significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "url"
       }
     ]
   },
   "trials": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "GRAM NEGATIVES STUDY",
+        "url": "https://clinicaltrials.gov/study/NCT07749508",
+        "source": "Fundacion SEIMC-GESIDA",
+        "author": "",
+        "pubdate": "2026-08-06",
+        "summary": "This is a prospective, observational, multicenter study whose main objective is to develop a predictive model of mortality in critically ill patients colonized by multidrug-resistant Gram-negative bacteria (MDR-GNB). Secondary objectives include: determining the characteristics of patients colonized by MRGB who require admission or acquire colonization during their stay in an intensive care unit (ICU); studying the infectious complications they develop, their etiology, clinical impact, and progn",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07749508",
+        "ai_key_stats": "",
+        "ai_summary": "This study aimed to develop a predictive model for mortality in critically ill patients with multidrug-resistant Gram-negative bacteria. It also investigated the characteristics of patients who acquire colonization during ICU stay and the infectious complications they develop.",
+        "ai_significance": "Understanding the predictors of mortality in patients with MDR-GNB can help clinicians identify high-risk patients and tailor their care accordingly.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "STimulation to Activate RespIration",
+        "url": "https://clinicaltrials.gov/study/NCT06832306",
+        "source": "Lungpacer Medical Inc.",
+        "author": "",
+        "pubdate": "2026-08-06",
+        "summary": "Multi-center, randomized, controlled, open-label Phase 2 feasibility trial. Subjects on mechanical ventilation (MV) for acute hypoxemic respiratory failure (AHRF) with lung injury (including subjects who meet criteria for acute respiratory distress syndrome (ARDS)) will be randomized 2:1 to diaphragm neurostimulation-assisted ventilation (DNAV) using the AeroNova System plus lung-protective ventilation (Treatment) vs. lung-protective ventilation alone (Control).",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06832306",
+        "ai_key_stats": "",
+        "ai_summary": "This was a feasibility trial to test the safety and practicality of using diaphragm neurostimulation-assisted ventilation in patients on mechanical ventilation for acute hypoxemic respiratory failure with lung injury.",
+        "ai_significance": "This study lays the groundwork for further investigation into the potential benefits of diaphragm neurostimulation-assisted ventilation in critically ill patients.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Cardiovascular Protection After Preeclampsia With Enalapril",
+        "url": "https://clinicaltrials.gov/study/NCT07222852",
+        "source": "Women and Infants Hospital of Rhode Island",
+        "author": "",
+        "pubdate": "2026-08-06",
+        "summary": "The purpose of this study is to learn if postpartum women are willing to be randomized to different blood pressure medicines after delivery and how that affects blood pressure in women with hypertensive disorders of pregnancy.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07222852",
+        "ai_key_stats": "",
+        "ai_summary": "This study aimed to assess the willingness of postpartum women to be randomized to different blood pressure medications and their effect on blood pressure in women with hypertensive disorders of pregnancy. However, it did not find any participants willing to be randomized.",
+        "ai_significance": "This study highlights the challenges of recruiting participants for clinical trials in postpartum women with hypertensive disorders of pregnancy, which may impact the development of new treatments for this population.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "RESTORE-ZG: Return of Effective Spontaneous Circulation Resuscitation Evaluation Canton of Zug",
+        "url": "https://clinicaltrials.gov/study/NCT07750119",
+        "source": "Felix Brinkmann",
+        "author": "",
+        "pubdate": "2026-08-06",
+        "summary": "This study looked at cardiac arrest that happens outside a hospital. Cardiac arrest means the heart suddenly stops pumping blood. When this happens, a person collapses and needs help right away. The study looked at care given by the emergency medical service of the Canton of Zug in Switzerland. The main goal was to learn what makes it more likely that the heart starts to pump blood again on its own. Doctors call this return of spontaneous circulation (ROSC). The researchers also wanted to descri",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07750119",
+        "ai_key_stats": "",
+        "ai_summary": "This study evaluated cardiac arrest care provided by emergency medical services in Switzerland, focusing on factors that influence return of spontaneous circulation (ROSC). The study aimed to identify predictors of ROSC in out-of-hospital cardiac arrests. No specific outcomes or effect measures were reported.",
+        "ai_significance": "Understanding predictors of ROSC can inform emergency medical services' strategies to improve cardiac arrest outcomes. However, this study did not provide specific findings or recommendations.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "İntensive Care Sepsis Prevelance in Turkey (INSEP-TURK)",
         "url": "https://clinicaltrials.gov/study/NCT07283588",
@@ -3480,7 +3737,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to determine the prevalence of sepsis and septic shock in adult intensive care units in Turkey. However, it appears to be a descriptive study without explicit findings on prevalence or other key statistics.",
         "ai_significance": "Robust epidemiological data on sepsis prevalence in low- and middle-income countries like Turkey are crucial for developing targeted interventions and improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Anticipating Decline and Providing Therapy",
@@ -3496,7 +3755,9 @@
         "ai_key_stats": "n=120, no effect measures reported",
         "ai_summary": "This pilot study will test the feasibility of a new intervention called ADAPT, which aims to support older adults after ICU discharge.",
         "ai_significance": "This study could inform the development of new interventions to improve outcomes for older adults after ICU discharge.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Open-Label Study to Assess Safety and Time to Catheter-related Bloodstream Infections (CRBSI) in Subjects From Birth to < 18 Years of Age",
@@ -3512,7 +3773,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
         "ai_significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Validation of SOFA-2 for Mortality and Sepsis-3 Prevalence in Turkey",
@@ -3528,7 +3791,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to validate the SOFA-2 score in predicting mortality and determining sepsis prevalence in Turkish ICUs. Researchers compared the new SOFA-2 score to the existing SOFA-1 score. The study's results are not yet reported.",
         "ai_significance": "This study's findings could inform the use of the SOFA-2 score in predicting mortality and identifying sepsis in Turkish ICUs, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Low-intensity Versus Medium-intensity Continuous Kidney Replacement Therapy for Critically Ill Patients",
@@ -3544,7 +3809,9 @@
         "ai_key_stats": "",
         "ai_summary": "This clinical trial compared the effectiveness and safety of low-intensity versus medium-intensity continuous kidney replacement therapy in critically ill patients.",
         "ai_significance": "The results of this study could inform treatment decisions for critically ill patients requiring renal replacement therapy.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Teamwork for Resilient Staff and Safe Care in ICU",
@@ -3560,7 +3827,9 @@
         "ai_key_stats": "",
         "ai_summary": "This ethnographic study observed how healthcare professionals work together in an ICU, exploring teamwork practices and challenges, and how they changed during the COVID-19 pandemic.",
         "ai_significance": "Understanding teamwork in ICUs is crucial for ensuring safe and effective care, and this study provides valuable insights into the dynamics of ICU staff interactions.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Sequential Compression Device in Distributive Peripheral Edema and Hemodynamic Stability Among Patients in Critical Care Units",
@@ -3576,7 +3845,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to evaluate the effectiveness of sequential compression devices on distributive peripheral edema and hemodynamic stability in critical care patients. The study objectives were to assess the effectiveness of the device and explore relationships between its effectiveness, range of motion, and demographic characteristics. No specific outcomes were reported.",
         "ai_significance": "Understanding the effectiveness of sequential compression devices in critical care settings can inform strategies to improve patient outcomes, particularly in managing peripheral edema and maintaining hemodynamic stability.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparing The Safety And Efficacy Of DEFENCATH® In Reducing Central-Line Bloodstream Infections (CLABSIs) In Adults Receiving Total Parenteral Nutrition Through A Central Venous Catheter (CVC)",
@@ -3592,7 +3863,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared the safety and efficacy of DefenCath to heparin in reducing central-line bloodstream infections in adults receiving total parenteral nutrition through a central venous catheter.",
         "ai_significance": "Reducing central-line bloodstream infections is crucial in ICU settings to prevent morbidity and mortality.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of Emergency Medicine Pharmacist Impact on Blood Culture Review Following Emergency Department Discharge",
@@ -3608,7 +3881,9 @@
         "ai_key_stats": "",
         "ai_summary": "Emergency Medicine pharmacists reviewed blood cultures from patients discharged from the Emergency Department. They found that timely review of blood cultures by pharmacists improved the speed of notification for true positive cultures. This led to better patient outcomes.",
         "ai_significance": "This study highlights the importance of pharmacist involvement in the review of blood cultures, which can lead to earlier notification of patients with positive results and potentially prevent serious complications.",
-        "ai_rounds_takeaway": "Consider involving Emergency Medicine pharmacists in the review of blood cultures for patients discharged from the Emergency Department."
+        "ai_rounds_takeaway": "Consider involving Emergency Medicine pharmacists in the review of blood cultures for patients discharged from the Emergency Department.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Correlation of Memory CD8+ T Cells With Sepsis Severity and Mortality: a Single-center, Unblinded, Prospective, Non-interventional, Observational Study",
@@ -4619,6 +4894,56 @@
           "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
           "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
           "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42535902",
+          "title": "Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Jul 31",
+          "authors": [
+            "Taenaka H",
+            "Evrard B",
+            "Maishan M",
+            "Watanabe R",
+            "Alipanah-Lechner N",
+            "Carrillo SA",
+            "Sarma A",
+            "Spottiswoode N",
+            "Sullivan KM",
+            "Weingart MF",
+            "Zhuo H",
+            "Ringor A",
+            "Leroux C",
+            "Chao O",
+            "Lin C",
+            "Schmiege E",
+            "Hariharan T",
+            "Magee L",
+            "Willmore A",
+            "Chak S",
+            "Lee D",
+            "Bardillon K",
+            "Hendrickson C",
+            "Gotts JE",
+            "Langelier CR",
+            "Calfee CS",
+            "Matthay MA"
+          ],
+          "doi": "10.1093/ajrccm/aamag402",
+          "abstract": "RATIONALE: Hyperinflammatory and hypoinflammatory phenotypes previously identified in sepsis and ARDS may enable precision therapies, but their clinical relevance and translational modeling in severe pneumonia remain incompletely characterized. OBJECTIVES: To examine biomarker-defined hyperinflammatory and hypoinflammatory phenotypes in critically ill patients with pneumonia (pulmonary sepsis), test whether the biomarkers that define these phenotypes identify subgroups and outcomes in a mouse model of bacterial pneumonia, and determine whether the mouse phenotypes respond differently to therapeutic interventions. METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier models. We developed a mouse model of pneumococcal pneumonia which recapitulates key aspects of these phenotypes and tested responses to dexamethasone and IL-6 receptor blockade. MEASUREMENTS AND MAIN RESULTS: Two phenotypes were identified in patients with pulmonary sepsis: a hyperinflammatory phenotype with more lung injury and increased mortality, and a hypoinflammatory phenotype with more favorable outcomes. Despite uniform pathogen exposure and baseline conditions, LCA identified two phenotypes in the mice with divergent trajectories (lung injury and mortality). Therapeutic benefit from anti-inflammatory interventions was observed exclusively in the more inflamed mice. CONCLUSIONS: By integrating clinical data from human studies and experimental findings in a clinically relevant mouse model, this study provides a translational framework for developing phenotype-targeted therapies for critical illness, with the goal of improving patient outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42535902/",
+          "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
+          "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
+          "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
         },
         {
           "pmid": "42502162",
@@ -6282,47 +6607,6 @@
           "ai_rounds_takeaway": ""
         },
         {
-          "pmid": "42294965",
-          "title": "Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.",
-          "journal": "Critical care medicine",
-          "pubdate": "2026 Jun 15",
-          "authors": [
-            "Safavynia SA",
-            "Barra ME",
-            "Der Nigoghossian C",
-            "Shinnick D",
-            "Waldrop G",
-            "Choi JM",
-            "Ganglberger W",
-            "Shen Q",
-            "Doyle K",
-            "Walline MC",
-            "Westover MB",
-            "Brown EN",
-            "Fins JJ",
-            "Victor J",
-            "Edlow BL",
-            "Claassen J",
-            "Schiff ND",
-            "Thaweethai T"
-          ],
-          "doi": "10.1097/CCM.0000000000007205",
-          "abstract": "OBJECTIVES: Prolonged disorders of consciousness are common in critically ill patients receiving mechanical ventilation and are often attributed to prolonged sedative exposure in the setting of decreased drug clearance and/or reduced metabolism. Here, in a large sample of critically ill COVID patients obtained over a short period, we tested the assumption that prolonged unconsciousness following benzodiazepine and/or propofol sedation can be attributed to residual exposure. Further, we examine associations between clinical variables on time to recovery of consciousness (RoC) as a framework for the broader critically ill population. DESIGN: Retrospective cohort study. SETTING: Massachusetts General Hospital, Weill Cornell Medicine, Columbia University Irving Medical Center. PATIENTS: Seven hundred eighty-four patients with COVID-19 critical illness in Spring-Summer 2020. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We estimated the latest expected RoC (LERoC) using models of sedation exposure that account for sedative-specific pharmacokinetics and critical illness. Our primary exposure variable was a time-weighted dose of analgosedative agents at benzodiazepine and/or propofol cessation; our primary outcome was time to RoC. We estimated relative risks for late RoC (i.e., after LERoC) via multinomial logistic regression. Among individuals with late RoC, we fit a multivariate subdistribution hazard model for time to RoC. Seventy-three percent of patients had RoC before hospital discharge, yet 34% of patients achieving RoC did not do so within pharmacologically plausible sedative elimination times. Patients with late RoC were older and exhibited hypoxemia and acute kidney injury. Patients with dexmedetomidine as an adjunct sedative had a disproportionately larger incidence of early recovery. Patients with early vs. late RoC did not have significantly different discharge dispositions. CONCLUSIONS: In our cohort, the time to RoC was commonly prolonged beyond that expected from sedation exposures alone. These data may aid clinicians and families with expectations of RoC and warrant investigation of alternative determinants of delayed RoC in this population.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42294965/",
-          "ai_key_stats": "",
-          "ai_summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
-          "ai_significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care.",
-          "ai_rounds_takeaway": ""
-        },
-        {
           "pmid": "42288929",
           "title": "The role of hemoadsorption in septic shock: toward a personalized approach.",
           "journal": "Critical care (London, England)",
@@ -6700,21 +6984,19 @@
           ],
           "doi": "10.1186/s13054-026-06094-7",
           "abstract": "PURPOSE: To estimate the effect of restrictive fluid management on renal function and mortality in critically ill patients with acute kidney injury (AKI) at high risk of developing positive fluid balance. METHODS: We conducted a target trial emulation using data from 12 intensive care units in Queensland, Australia (2015-2021). Adults with AKI within 72 h of intensive care unit (ICU) admission and an AKI-Fluid Balance Risk Score ≥ 32 were included. The intervention comprised conservative crystalloid administration, restricted nutritional fluid intake, and diuretic use for 72 h. We estimated per-protocol effects using a sequential doubly robust estimator for longitudinal modified treatment policies. The primary outcome was AKI Rank at day 7; secondary outcomes included 30-day mortality. RESULTS: Among 8,685 patients, the intervention was associated with substantial reduction in fluid balance (- 2,304 mL at 72 h; 95% CI, - 2,465 to - 2,144) and modest improvement in AKI Rank (mean difference - 0.8; 95% confidence interval (CI), - 1.3 to - 0.3). Heterogeneity by AKI stage was observed: the intervention was associated with improved renal function in stage 1 AKI (mean difference - 3.1; 95% CI, - 3.8 to - 2.5) but worse outcomes in stage 2 AKI (mean difference 4.5; 95% CI, 3.8 to 5.1) and stage 3 AKI (mean difference 6.3; 95% CI, 4.7 to 7.9) with increased 30-day mortality (relative risk 1.20; 95% CI, 1.09 to 1.33). Effective sample sizes were limited (7-16%), indicating reliance on extrapolation. CONCLUSIONS: Restrictive fluid management was associated with improved renal function in early AKI but potentially harmful effects in stages 2 and 3 AKI. These hypothesis-generating findings suggest any future trial should incorporate safety criteria for patients with advanced renal injury.",
-          "citation_count": 0,
+          "citation_count": 35,
           "is_top_journal": true,
           "study_type": "Study",
           "volume": "30",
           "issue": "1",
           "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13439791/",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42218546/",
           "ai_key_stats": "n=8685, mean difference in AKI Rank -0.8 (95% CI -1.3 to -0.3), mean difference in stage 1 AKI -3.1 (95% CI -3.8 to -2.5), relative risk of 30-day mortality 1.20 (95% CI 1.09 to 1.33)",
           "ai_summary": "Researchers studied the effect of restrictive fluid management in critically ill patients with acute kidney injury (AKI). They found that this approach improved renal function in early AKI but potentially harmed patients with more advanced AKI. The study suggests that future trials should consider safety criteria for patients with advanced renal injury.",
           "ai_significance": "These findings have implications for ICU fluid management strategies, particularly for patients with AKI. Clinicians should carefully consider the stage of AKI when deciding on fluid management.",
-          "ai_rounds_takeaway": "Consider conservative fluid management in patients with early AKI, but be cautious and monitor closely in those with more advanced AKI.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider conservative fluid management in patients with early AKI, but be cautious and monitor closely in those with more advanced AKI."
         },
         {
           "pmid": "42204563",
@@ -7170,35 +7452,6 @@
           "ai_rounds_takeaway": ""
         },
         {
-          "pmid": "42171427",
-          "title": "Sodium Bicarbonate for Acute Metabolic Acidosis in Critically Ill Adults: A Meta-Analysis of Randomized Clinical Trials.",
-          "journal": "Critical care medicine",
-          "pubdate": "2026 May 22",
-          "authors": [
-            "Chen JJ",
-            "Lee TH",
-            "Chang CH",
-            "Lai PC",
-            "Tu YK",
-            "Huang YT"
-          ],
-          "doi": "10.1097/CCM.0000000000007179",
-          "abstract": "OBJECTIVES: Acute metabolic acidosis is frequent in critical illness and may be managed with volume replacement therapy, sodium bicarbonate, and renal replacement therapy (RRT). BICARICU-1 and BICARICU-2 trials provided new evidence on bicarbonate therapy. We aimed to systematically evaluate the effects of sodium bicarbonate in critically ill patients. DATA SOURCES: We systematically searched PubMed, Embase, Medline, and the Cochrane Library for randomized controlled trials (RCTs) evaluating sodium bicarbonate vs. placebo in critically ill adults with acute metabolic acidosis. STUDY SELECTION: Only RCTs were selected. DATA EXTRACTION: Primary outcome was RRT; secondary outcomes were mortality, ICU length of stay, ventilator-free days, and vasopressor-free days. DATA SYNTHESIS: We performed Hartung-Knapp random-effects meta-analyses and trial sequential analysis (TSA) for primary outcomes. Bayesian random-effects meta-analyses with noninformative and weakly informative priors were used for sensitivity analysis. Four trials enrolling 1,111 patients were included. Sodium bicarbonate showed a nonsignificant trend toward lower mortality (risk ratio [RR], 0.84; 95% CI, 0.55-1.30); TSA indicated that the cumulative sample size remained far below the required information size, and the mortality effect is inconclusive. Sodium bicarbonate significantly reduced RRT use (RR, 0.69; 95% CI, 0.61-0.78), and TSA supported firm evidence of benefit. Bayesian analyses estimated posterior probabilities of any mortality reduction (RR < 1) and reduced RRT use of 90.4% and 94.6%, respectively. Secondary outcomes remained imprecise, with a trend of toward more vasopressor-free days. CONCLUSIONS: In critically ill adults with acute metabolic acidosis, sodium bicarbonate significantly reduces RRT requirement, with Bayesian analyses suggesting a possibility of mortality benefit, although current evidence remains inconclusive. Larger RCTs or high-quality real-world studies are needed to confirm efficacy of sodium bicarbonate for mortality.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42171427/",
-          "ai_key_stats": "",
-          "ai_summary": "This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.",
-          "ai_significance": "This study's findings suggest that sodium bicarbonate may be a useful treatment for critically ill patients with acute metabolic acidosis, but more research is needed to confirm its effects on mortality.",
-          "ai_rounds_takeaway": ""
-        },
-        {
           "pmid": "42500117",
           "title": "Predictors and Mortality Determinants of Non-Thyroidal Illness Syndrome Among Patients in the Medical Intensive Care Unit in Northeastern Tanzania.",
           "journal": "Clinical medicine insights. Endocrinology and diabetes",
@@ -7358,6 +7611,56 @@
       "label": "Infectious Disease & Sepsis",
       "abbr": "ID/Sepsis",
       "articles": [
+        {
+          "pmid": "42535902",
+          "title": "Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Jul 31",
+          "authors": [
+            "Taenaka H",
+            "Evrard B",
+            "Maishan M",
+            "Watanabe R",
+            "Alipanah-Lechner N",
+            "Carrillo SA",
+            "Sarma A",
+            "Spottiswoode N",
+            "Sullivan KM",
+            "Weingart MF",
+            "Zhuo H",
+            "Ringor A",
+            "Leroux C",
+            "Chao O",
+            "Lin C",
+            "Schmiege E",
+            "Hariharan T",
+            "Magee L",
+            "Willmore A",
+            "Chak S",
+            "Lee D",
+            "Bardillon K",
+            "Hendrickson C",
+            "Gotts JE",
+            "Langelier CR",
+            "Calfee CS",
+            "Matthay MA"
+          ],
+          "doi": "10.1093/ajrccm/aamag402",
+          "abstract": "RATIONALE: Hyperinflammatory and hypoinflammatory phenotypes previously identified in sepsis and ARDS may enable precision therapies, but their clinical relevance and translational modeling in severe pneumonia remain incompletely characterized. OBJECTIVES: To examine biomarker-defined hyperinflammatory and hypoinflammatory phenotypes in critically ill patients with pneumonia (pulmonary sepsis), test whether the biomarkers that define these phenotypes identify subgroups and outcomes in a mouse model of bacterial pneumonia, and determine whether the mouse phenotypes respond differently to therapeutic interventions. METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier models. We developed a mouse model of pneumococcal pneumonia which recapitulates key aspects of these phenotypes and tested responses to dexamethasone and IL-6 receptor blockade. MEASUREMENTS AND MAIN RESULTS: Two phenotypes were identified in patients with pulmonary sepsis: a hyperinflammatory phenotype with more lung injury and increased mortality, and a hypoinflammatory phenotype with more favorable outcomes. Despite uniform pathogen exposure and baseline conditions, LCA identified two phenotypes in the mice with divergent trajectories (lung injury and mortality). Therapeutic benefit from anti-inflammatory interventions was observed exclusively in the more inflamed mice. CONCLUSIONS: By integrating clinical data from human studies and experimental findings in a clinically relevant mouse model, this study provides a translational framework for developing phenotype-targeted therapies for critical illness, with the goal of improving patient outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42535902/",
+          "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
+          "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
+          "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
+        },
         {
           "pmid": "42508689",
           "title": "Risk Factors and Development of a Clinical Prediction Model for Carbapenem-Resistant Enterobacterales Bacteremia: A Retrospective Cohort Study.",
@@ -8938,43 +9241,6 @@
           "ai_rounds_takeaway": ""
         },
         {
-          "pmid": "42223327",
-          "title": "Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.",
-          "journal": "Critical care medicine",
-          "pubdate": "2026 Jun 1",
-          "authors": [
-            "Nguyen CD",
-            "Panganiban HP",
-            "Karahalios A",
-            "Fazio T",
-            "Ankravs MJ",
-            "Fitzpatrick P",
-            "Richardson M",
-            "McAlister S",
-            "Tran-Duy A",
-            "MacIsaac CM",
-            "Ricciardone S",
-            "Rechnitzer T",
-            "Ali Abdelhamid Y",
-            "Deane AM"
-          ],
-          "doi": "10.1097/CCM.0000000000007174",
-          "abstract": "OBJECTIVES: Enteral magnesium replacement may be as effective as IV replacement while being a cheaper and more environmentally sustainable intervention. The primary objective was to evaluate whether enteral magnesium is noninferior to IV administration in correcting hypomagnesemia. DESIGN: Prospective, open-label, parallel-group, electronic medical record-embedded, randomized, noninferiority trial. SETTING: Single-center mixed medical-surgical-trauma ICU. PATIENTS: Patients with serum magnesium concentration between 0.35 and 0.7 mmol/L. INTERVENTIONS: Enteral or IV magnesium replacement. MEASUREMENTS AND MAIN RESULTS: The primary outcome was serum magnesium concentration at 24 hours after enrollment, with a noninferiority margin of 0.1 mmol/L. Secondary outcomes included dose of administered magnesium, urine magnesium excretion, costs of intervention delivery, waste, bloodstream infections, new atrial fibrillation, duration of admission, and mortality. Between June 2023 and May 2024, 360 patients were included. Baseline magnesium concentrations were comparable. At 24 hours, mean (sd) magnesium concentrations were 0.80 mmol/L (0.19 mmol/L) in the enteral arm and 0.92 mmol/L (0.23 mmol/L) in the IV arm, with a mean difference of -0.12 mmol/L (95% CI, -0.16 to -0.07 mmol/L) indicating inconclusive results about noninferiority. Enteral replacement substantially decreased urine magnesium concentrations compared with IV replacement (median difference of area under the curve, -46.2 mmol·hr/L), cost (median difference, -6.48 Australian dollars; 95% CI, -7.40 to -5.56 Australian dollars), waste (median difference, -55 grams; 95% CI, -58 to -51 grams), Co2 footprint (median difference, -946 grams; 95% CI, -996 to -896 grams), and additional IV fluid administration (median, -100 mL; interquartile range, -200 to -100 mL). There were no between group differences for other outcomes. CONCLUSIONS: Enteral magnesium replacement for mild-to-moderate hypomagnesemia did not establish noninferiority to IV replacement at a margin of 0.1 mmol/L but it reduced urinary concentration of magnesium, cost, environmental waste, carbon emissions, and IV fluid administration.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42223327/",
-          "ai_key_stats": "",
-          "ai_summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
-          "ai_significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact.",
-          "ai_rounds_takeaway": ""
-        },
-        {
           "pmid": "42206945",
           "title": "Interaction Between Admission Hemoglobin and Sex on ICU Mortality in Patients With Moderate-to-Severe Traumatic Brain Injury: A Retrospective Bicentric Cohort Study.",
           "journal": "Critical care medicine",
@@ -9427,47 +9693,6 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how Molecular Adsorbent Recirculating System (MARS) therapy affects piperacillin levels in critically ill patients with liver failure. They found that MARS therapy reduces piperacillin levels by about one-third per session. This is important because it can lead to sub-therapeutic piperacillin levels in some patients.",
           "ai_significance": "This study highlights the need for close monitoring of piperacillin levels in patients receiving MARS therapy, as it may require individualized antibiotic dose adjustments to maintain effective treatment.",
-          "ai_rounds_takeaway": ""
-        },
-        {
-          "pmid": "42294965",
-          "title": "Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.",
-          "journal": "Critical care medicine",
-          "pubdate": "2026 Jun 15",
-          "authors": [
-            "Safavynia SA",
-            "Barra ME",
-            "Der Nigoghossian C",
-            "Shinnick D",
-            "Waldrop G",
-            "Choi JM",
-            "Ganglberger W",
-            "Shen Q",
-            "Doyle K",
-            "Walline MC",
-            "Westover MB",
-            "Brown EN",
-            "Fins JJ",
-            "Victor J",
-            "Edlow BL",
-            "Claassen J",
-            "Schiff ND",
-            "Thaweethai T"
-          ],
-          "doi": "10.1097/CCM.0000000000007205",
-          "abstract": "OBJECTIVES: Prolonged disorders of consciousness are common in critically ill patients receiving mechanical ventilation and are often attributed to prolonged sedative exposure in the setting of decreased drug clearance and/or reduced metabolism. Here, in a large sample of critically ill COVID patients obtained over a short period, we tested the assumption that prolonged unconsciousness following benzodiazepine and/or propofol sedation can be attributed to residual exposure. Further, we examine associations between clinical variables on time to recovery of consciousness (RoC) as a framework for the broader critically ill population. DESIGN: Retrospective cohort study. SETTING: Massachusetts General Hospital, Weill Cornell Medicine, Columbia University Irving Medical Center. PATIENTS: Seven hundred eighty-four patients with COVID-19 critical illness in Spring-Summer 2020. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We estimated the latest expected RoC (LERoC) using models of sedation exposure that account for sedative-specific pharmacokinetics and critical illness. Our primary exposure variable was a time-weighted dose of analgosedative agents at benzodiazepine and/or propofol cessation; our primary outcome was time to RoC. We estimated relative risks for late RoC (i.e., after LERoC) via multinomial logistic regression. Among individuals with late RoC, we fit a multivariate subdistribution hazard model for time to RoC. Seventy-three percent of patients had RoC before hospital discharge, yet 34% of patients achieving RoC did not do so within pharmacologically plausible sedative elimination times. Patients with late RoC were older and exhibited hypoxemia and acute kidney injury. Patients with dexmedetomidine as an adjunct sedative had a disproportionately larger incidence of early recovery. Patients with early vs. late RoC did not have significantly different discharge dispositions. CONCLUSIONS: In our cohort, the time to RoC was commonly prolonged beyond that expected from sedation exposures alone. These data may aid clinicians and families with expectations of RoC and warrant investigation of alternative determinants of delayed RoC in this population.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42294965/",
-          "ai_key_stats": "",
-          "ai_summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
-          "ai_significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care.",
           "ai_rounds_takeaway": ""
         },
         {
