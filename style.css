@@ -63,24 +63,22 @@
   --radius-lg: 16px;
 
   /* Typography scale (approximate px shown for reference):
-     hero 40 / section 26 / article-title 19 / body 16 / meta 13 */
+     hero 40 / article-title 19 / body 16 / meta 13. Section headings
+     (.trending-heading h2 etc.) are hardcoded at 1.2rem/19px rather than
+     drawing from a --text-section token -- there never was a distinct
+     "section" tier in practice, so no token pretends there is one. */
   --text-hero: 2.5rem;
-  --text-section: 1.625rem;
   --text-article-title: 1.1875rem;
   --text-body: 1rem;
   --text-meta: 0.8125rem;
 
-  --space-1: 0.25rem;
-  --space-2: 0.5rem;
   --space-3: 0.75rem;
   --space-4: 1rem;
   --space-5: 1.5rem;
   --space-6: 2rem;
   --space-7: 3rem;
-  --space-8: 4rem;
 
   --page-max: 1480px;
-  --content-max: 920px;
   --sidebar-w: 232px;
 }
 
@@ -203,7 +201,10 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   margin: 0;
-  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
+  /* No @font-face for "Inter" ships with this site, so it never actually
+     rendered -- every visitor already got system-ui/Segoe UI. Leading
+     with that honestly instead of a font that was never loaded. */
+  font-family: system-ui, -apple-system, "Segoe UI", BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
   background: var(--bg);
   color: var(--text);
   font-size: var(--text-body);
@@ -361,8 +362,12 @@ summary:focus-visible {
 .sources-line a { color: var(--text-muted); text-decoration: underline; }
 .sources-line a:hover { color: var(--accent-strong); }
 
-/* Compact icon buttons used throughout the header/toolbar */
-.icon-btn {
+/* Compact icon buttons used throughout the header/toolbar. theme-toggle/
+   density-toggle/saved-toggle share this exact rule (previously a
+   verbatim copy-paste of it under their own selector) rather than
+   getting the shared class in the markup, so the JS/other CSS that
+   still targets them by their original class names keeps working. */
+.icon-btn, .theme-toggle, .density-toggle, .saved-toggle {
   flex: none;
   display: inline-flex;
   align-items: center;
@@ -380,36 +385,14 @@ summary:focus-visible {
   transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 
-.icon-btn:hover { border-color: var(--border-strong); color: var(--text); }
-
-.icon-btn.icon-only { width: 2.25rem; padding: 0; }
-
-.icon-btn svg { width: 1.05rem; height: 1.05rem; flex: none; }
-
-.theme-toggle, .density-toggle, .saved-toggle {
-  flex: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.4rem;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--text-secondary);
-  height: 2.25rem;
-  padding: 0 0.7rem;
-  border-radius: 999px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: border-color 0.15s, color 0.15s, background 0.15s;
-}
-
-.theme-toggle:hover, .density-toggle:hover, .saved-toggle:hover {
+.icon-btn:hover, .theme-toggle:hover, .density-toggle:hover, .saved-toggle:hover {
   border-color: var(--border-strong);
   color: var(--text);
 }
 
-.theme-toggle { width: 2.25rem; padding: 0; }
+.icon-btn.icon-only, .theme-toggle { width: 2.25rem; padding: 0; }
+
+.icon-btn svg { width: 1.05rem; height: 1.05rem; flex: none; }
 
 #saved-count-badge {
   font-size: 0.72rem;
@@ -856,13 +839,9 @@ a.hero-stat.hero-stat-link:hover .hero-stat-value { color: var(--accent-strong);
 #hidden-categories-list { display: flex; flex-wrap: wrap; gap: 0.4rem; }
 
 .hidden-category-chip {
-  border: 1px dashed var(--border-strong);
-  background: var(--surface);
-  color: var(--text-muted);
-  padding: 0.25rem 0.65rem;
-  border-radius: 999px;
-  font-size: 0.76rem;
-  cursor: pointer;
+  /* Dashed, not the shared solid border -- signals "removed" visually. */
+  border-style: dashed;
+  border-color: var(--border-strong);
 }
 
 .hidden-category-chip:hover { border-color: var(--accent); color: var(--text); }
@@ -1094,15 +1073,20 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
 
 .sort-toggle { margin-left: auto; display: flex; gap: 0.35rem; }
 
-.sort-btn {
+/* Small pill buttons -- sort-btn/hidden-category-chip/print-btn each
+   hand-rolled their own near-identical padding/font-size; converged
+   onto one shared size here. Color/border-style stays per-class where
+   it's carrying real meaning (dashed = "removed/hidden" on the chip). */
+.sort-btn, .hidden-category-chip, .print-btn {
   border: 1px solid var(--border);
   background: var(--surface);
   color: var(--text-muted);
-  padding: 0.25rem 0.65rem;
+  padding: 0.28rem 0.7rem;
   border-radius: 999px;
-  font-size: 0.76rem;
+  font-size: 0.78rem;
   font-weight: 600;
   cursor: pointer;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
 }
 
 .sort-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
@@ -1414,13 +1398,23 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
 
 .ai-summary-text.expanded { max-height: none; margin: 0 0 0.5rem; }
 
-.ai-summary-toggle {
+/* Text-only "expand for more" toggles -- ai-summary-toggle/similar-toggle/
+   abstract-toggle previously each hand-rolled a near-identical rule with
+   slightly different font-size/weight for no real reason; converged onto
+   one shared base. Color stays per-class: purple marks AI-generated
+   content specifically, everywhere else uses the regular accent. Padding
+   also stays per-class -- each sits in a different spot in its card
+   (space below vs. above), which is a real layout difference, not debt. */
+.ai-summary-toggle, .similar-toggle, .abstract-toggle {
   background: none;
   border: none;
-  color: var(--purple-strong);
-  font-size: 0.8rem;
+  font-size: 0.84rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+.ai-summary-toggle {
+  color: var(--purple-strong);
   padding: 0 0 0.3rem;
   display: block;
 }
@@ -1491,7 +1485,7 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
   font-size: 0.8rem;
   font-weight: 700;
   cursor: pointer;
-  padding: 0.32rem 0.8rem;
+  padding: 0.32rem 0.75rem;
   border-radius: 999px;
 }
 
@@ -1537,12 +1531,7 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
 .similar-articles { margin: 0.85rem 0 0; }
 
 .similar-toggle {
-  background: none;
-  border: none;
   color: var(--accent-strong);
-  font-size: 0.84rem;
-  font-weight: 700;
-  cursor: pointer;
   padding: 0;
 }
 
@@ -1577,12 +1566,7 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
 .article-abstract.expanded { max-height: none; }
 
 .abstract-toggle {
-  background: none;
-  border: none;
   color: var(--accent-strong);
-  font-size: 0.84rem;
-  font-weight: 600;
-  cursor: pointer;
   padding: 0.5rem 0 0;
 }
 
@@ -1621,6 +1605,8 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
 
 .article-links > a:not(:first-child):hover { color: var(--accent-strong); text-decoration: underline; }
 
+/* Same small outlined-pill geometry as .ask-toggle below -- shared here
+   via one padding value instead of two barely-different ones. */
 .cite-btn, .bookmark-btn {
   display: inline-flex;
   align-items: center;
@@ -1631,7 +1617,7 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
   font-size: 0.8rem;
   font-weight: 600;
   cursor: pointer;
-  padding: 0.3rem 0.7rem;
+  padding: 0.32rem 0.75rem;
   border-radius: 999px;
   margin-left: auto;
 }
@@ -1716,14 +1702,8 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
 
 .print-btn {
   margin-left: auto;
-  border: 1px solid var(--border);
   background: none;
   color: var(--text-secondary);
-  font-size: 0.8rem;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0.2rem 0.65rem;
-  border-radius: 999px;
 }
 
 .print-btn:hover { border-color: var(--border-strong); color: var(--text); }
