@@ -8,6 +8,7 @@
   const nav = document.getElementById("category-nav");
   const content = document.getElementById("content");
   const updatedLine = document.getElementById("updated-line");
+  const filterStatus = document.getElementById("filter-status");
   const ksaSection = document.getElementById("ksa-section");
   const ksaBody = document.getElementById("ksa-body");
   const ksaList = document.getElementById("ksa-list");
@@ -485,6 +486,16 @@
       });
     }
     body.classList.toggle("collapsed", collapsed);
+    // Collapsed sections are already hidden visually (opacity: 0) and
+    // unclickable (pointer-events: none) via CSS, but without this a
+    // keyboard/screen-reader user could still tab into their links --
+    // with every section collapsed by default, that's hundreds of
+    // invisible stops before reaching real content. inert removes the
+    // whole subtree from the tab order and accessibility tree; setting
+    // it synchronously (not waiting for the collapse animation to
+    // finish) also means focus moves out immediately if it happened to
+    // be inside a section someone just collapsed via keyboard.
+    body.inert = collapsed;
     entry.toggle.setAttribute("aria-expanded", String(!collapsed));
     entry.toggle.textContent = collapsed ? "▸" : "▾";
   }
@@ -520,13 +531,21 @@
       current[sectionId] = false;
       saveCollapseState(current);
     }
-    sectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    sectionEl.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   }
 
   function closeSectionJumpMenu() {
+    const wasOpen = sectionJumpNav.classList.contains("open");
     sectionJumpNav.classList.remove("open");
     bottomNavBackdrop.hidden = true;
     bottomNavMore.setAttribute("aria-expanded", "false");
+    // Only steal focus back if the sheet was actually open (this also
+    // runs on desktop's non-modal sidebar via initSectionJump's button
+    // clicks, where yanking focus to the mobile-only "More" button would
+    // be jarring and pointless -- it's not even visible there).
+    if (wasOpen && sectionJumpNav.contains(document.activeElement)) {
+      bottomNavMore.focus();
+    }
   }
 
   function initSectionJump() {
@@ -720,7 +739,7 @@
   async function runSemanticSearch(query) {
     if (!WORKER_ENDPOINT || !rawData) return;
     semanticSection.hidden = false;
-    semanticSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    semanticSection.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
     semanticList.innerHTML = "";
     semanticCount.textContent = "Searching…";
     semanticSearchBtn.disabled = true;
@@ -790,6 +809,10 @@
       hash = (hash * 31 + str.charCodeAt(i)) >>> 0;
     }
     return hash % 360;
+  }
+
+  function scrollBehavior() {
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
   }
 
   function escapeHtml(str) {
@@ -1623,7 +1646,9 @@
       const bodyId = `cat-body-${cat.id}`;
       const chip = document.createElement("button");
       chip.className = "nav-chip" + (idx === 0 ? " active" : "");
-      chip.setAttribute("aria-pressed", idx === 0 ? "true" : "false");
+      // aria-current, not aria-pressed: these chips navigate/scroll to a
+      // category, they don't toggle a setting.
+      chip.setAttribute("aria-current", idx === 0 ? "true" : "false");
       chip.style.setProperty("--cat-accent", CATEGORY_COLORS[cat.id] || "");
       chip.textContent = `${icon} ${cat.abbr} (${cat.articles.length})`;
       chip.addEventListener("click", () => {
@@ -1631,7 +1656,7 @@
         if (body && body.classList.contains("collapsed")) {
           document.querySelector(`#cat-${cat.id} .collapse-toggle`).click();
         }
-        document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: "smooth", block: "start" });
+        document.getElementById(`cat-${cat.id}`).scrollIntoView({ behavior: scrollBehavior(), block: "start" });
       });
       nav.appendChild(chip);
 
@@ -1644,7 +1669,7 @@
       heading.className = "category-heading";
       const mode = categorySort[cat.id] || "newest";
       heading.innerHTML = `
-        <button class="collapse-toggle" type="button" aria-controls="${bodyId}">▸</button>
+        <button class="collapse-toggle" type="button" aria-controls="${bodyId}" aria-label="${escapeHtml(cat.label)} section">▸</button>
         <h2>${icon} ${escapeHtml(cat.label)}</h2>
         <span class="category-count">${cat.articles.length} article${cat.articles.length === 1 ? "" : "s"}</span>
         <div class="sort-toggle">
@@ -1717,7 +1742,7 @@
         [...nav.children].forEach((chip, idx) => {
           const active = filtered[idx] && filtered[idx].id === currentId;
           chip.classList.toggle("active", active);
-          chip.setAttribute("aria-pressed", active ? "true" : "false");
+          chip.setAttribute("aria-current", active ? "true" : "false");
         });
       };
       document.addEventListener("scroll", scrollHandler, { passive: true });
@@ -1760,6 +1785,34 @@
     // (e.g. it wraps to a second row on narrow screens), which the sticky
     // category-nav's top offset depends on.
     updateToolbarHeight();
+    scheduleFilterAnnouncement();
+  }
+
+  let filterAnnounceTimer = null;
+  // Debounced so typing in the search box doesn't fire a screen-reader
+  // announcement on every keystroke -- only once input settles.
+  function scheduleFilterAnnouncement() {
+    clearTimeout(filterAnnounceTimer);
+    filterAnnounceTimer = setTimeout(announceFilterResults, 400);
+  }
+
+  function announceFilterResults() {
+    const sections = document.querySelectorAll(
+      ".this-week-section, .guideline-section, .ksa-section, .trending-section, "
+      + ".foamed-section, .bottom-line-section, .preprint-section, "
+      + ".trial-results-section, .trial-section, .category-section"
+    );
+    let articleCount = 0;
+    let sectionCount = 0;
+    sections.forEach((section) => {
+      if (section.hidden) return;
+      const cards = section.querySelectorAll(".article-card").length;
+      if (cards > 0) {
+        articleCount += cards;
+        sectionCount += 1;
+      }
+    });
+    filterStatus.textContent = `${articleCount} article${articleCount === 1 ? "" : "s"} across ${sectionCount} section${sectionCount === 1 ? "" : "s"}`;
   }
 
   initTheme();
@@ -1771,7 +1824,7 @@
   window.addEventListener("resize", updateSectionJumpHeight);
 
   backToTopBtn.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: scrollBehavior() });
   });
   window.addEventListener("scroll", () => {
     backToTopBtn.hidden = window.scrollY < 600;
@@ -1781,7 +1834,7 @@
   bookmarkedIds = loadBookmarks();
 
   bottomNavTop.addEventListener("click", () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: scrollBehavior() });
   });
   bottomNavTrending.addEventListener("click", () => jumpToSection("trending"));
   bottomNavSaved.addEventListener("click", () => jumpToSection("saved"));
@@ -1789,6 +1842,15 @@
     const isOpen = sectionJumpNav.classList.toggle("open");
     bottomNavBackdrop.hidden = !isOpen;
     bottomNavMore.setAttribute("aria-expanded", String(isOpen));
+    if (isOpen) {
+      const firstBtn = sectionJumpNav.querySelector(".section-jump-btn");
+      if (firstBtn) firstBtn.focus();
+    }
+  });
+  sectionJumpNav.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && sectionJumpNav.classList.contains("open")) {
+      closeSectionJumpMenu();
+    }
   });
   sectionJumpClose.addEventListener("click", closeSectionJumpMenu);
   bottomNavBackdrop.addEventListener("click", closeSectionJumpMenu);
@@ -1838,7 +1900,7 @@
       current.saved = false;
       saveCollapseState(current);
     }
-    savedSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    savedSection.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   });
 
   dashTopCategoryLink.addEventListener("click", (e) => {
@@ -1850,13 +1912,14 @@
       document.querySelector(`#cat-${catId} .collapse-toggle`).click();
     }
     const section = document.getElementById(`cat-${catId}`);
-    if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (section) section.scrollIntoView({ behavior: scrollBehavior(), block: "start" });
   });
 
   spotlightPrintBtn.addEventListener("click", () => {
     const spotlightEntry = COLLAPSIBLE_SECTIONS.find((e) => e.id === "spotlight");
     const wasCollapsed = spotlightBody.classList.contains("collapsed");
     spotlightBody.classList.remove("collapsed");
+    spotlightBody.inert = false;
     spotlightBody.style.maxHeight = "none";
     document.body.classList.add("printing-spotlight");
     const restore = () => {

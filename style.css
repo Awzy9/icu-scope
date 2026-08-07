@@ -16,7 +16,12 @@
   --border-strong: #c9ced4;
   --text: #14181c;
   --text-secondary: #454c53;
-  --text-muted: #848b92;
+  /* #5f666d, not the more muted #848b92 it replaced: that only cleared
+     ~3.45:1 on white, failing WCAG AA's 4.5:1 for normal-size text at
+     the ~13px this is typically used at (article-meta, hero-stat
+     labels, tagline, chip labels...). This clears 4.5:1+ even on the
+     slightly darker --surface-soft/--surface-sunken it also appears on. */
+  --text-muted: #5f666d;
 
   --accent: #0f8a72;
   --accent-strong: #0a6b58;
@@ -225,10 +230,26 @@ h1, h2, h3, h4 { font-weight: 700; letter-spacing: -0.01em; }
 
 .skip-link:focus { left: 0; }
 
+/* Visually hidden but still reachable by assistive tech -- for content
+   meant to be announced (a live region), not seen. Unlike [hidden]/
+   display:none, this keeps the element in the accessibility tree. */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
-select:focus-visible {
+select:focus-visible,
+summary:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
@@ -1038,7 +1059,18 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
    Section headings — one consistent pattern site-wide:
    small eyebrow icon+label, then the H2 title, then an optional note.
    ========================================================================= */
-.category-section { margin-bottom: var(--space-7); scroll-margin-top: 4.75rem; }
+.category-section { margin-bottom: var(--space-7); }
+
+/* Every jump-able section, not just organ categories -- the Explore
+   sidebar/bottom-nav "More" menu jump to Trending, Guidelines, Saved,
+   etc. just as much as the organ chips jump to a category, and all of
+   them land under the same sticky toolbar/chip row on the way there. */
+.category-section, .trending-section, .this-week-section, .saved-section,
+.guideline-section, .ksa-section, .foamed-section, .bottom-line-section,
+.trial-results-section, .preprint-section, .trial-section,
+.classics-section, .spotlight-section, .semantic-section {
+  scroll-margin-top: 4.75rem;
+}
 
 .category-heading {
   display: flex;

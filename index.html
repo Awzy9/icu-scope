@@ -18,7 +18,7 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#content">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to content</a>
 
   <div class="credit-bar">
     <p>Conducted by: Fawaz Alanazi-MNGHA</p>
@@ -105,6 +105,7 @@
   </section>
 
   <div class="toolbar" id="toolbar">
+    <div id="filter-status" class="sr-only" role="status" aria-live="polite"></div>
     <div class="search-wrap">
       <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       <input type="search" id="search-input" class="search-input" placeholder="Search literature, journals, topics, authors…" aria-label="Search articles" />
@@ -147,7 +148,7 @@
     <button class="quick-filter-chip" type="button" data-study-type="Practice Guideline">Guideline</button>
   </div>
 
-  <main class="content">
+  <main class="content" id="main">
     <section class="semantic-section" id="semantic-section" hidden>
       <div class="trending-heading semantic-heading">
         <h2>🧠 Semantic search results</h2>
@@ -161,7 +162,7 @@
     </section>
     <section class="spotlight-section" id="spotlight-section" hidden>
       <div class="trending-heading spotlight-heading">
-        <button class="collapse-toggle" id="spotlight-collapse-toggle" type="button" aria-expanded="false" aria-controls="spotlight-body">▸</button>
+        <button class="collapse-toggle" id="spotlight-collapse-toggle" type="button" aria-expanded="false" aria-controls="spotlight-body" aria-label="Article of the Week section">▸</button>
         <h2>📌 Article of the Week</h2>
         <span class="category-count" id="spotlight-week"></span>
         <button class="print-btn" id="spotlight-print-btn" type="button">🖨️ Print handout</button>
@@ -170,7 +171,7 @@
     </section>
     <section class="this-week-section" id="this-week-section" hidden>
       <div class="trending-heading this-week-heading">
-        <button class="collapse-toggle" id="this-week-collapse-toggle" type="button" aria-expanded="false" aria-controls="this-week-body">▸</button>
+        <button class="collapse-toggle" id="this-week-collapse-toggle" type="button" aria-expanded="false" aria-controls="this-week-body" aria-label="This Week's Articles section">▸</button>
         <h2>🗓️ This Week's Articles</h2>
         <span class="category-count" id="this-week-count"></span>
       </div>
@@ -181,7 +182,7 @@
     </section>
     <section class="saved-section" id="saved-section" hidden>
       <div class="trending-heading saved-heading">
-        <button class="collapse-toggle" id="saved-collapse-toggle" type="button" aria-expanded="false" aria-controls="saved-body">▸</button>
+        <button class="collapse-toggle" id="saved-collapse-toggle" type="button" aria-expanded="false" aria-controls="saved-body" aria-label="Saved articles section">▸</button>
         <h2>🔖 Saved</h2>
         <span class="category-count" id="saved-count"></span>
       </div>
@@ -191,7 +192,7 @@
     </section>
     <section class="guideline-section" id="guideline-section" hidden>
       <div class="trending-heading guideline-heading">
-        <button class="collapse-toggle" id="guideline-collapse-toggle" type="button" aria-expanded="false" aria-controls="guideline-body">▸</button>
+        <button class="collapse-toggle" id="guideline-collapse-toggle" type="button" aria-expanded="false" aria-controls="guideline-body" aria-label="Guideline Watch section">▸</button>
         <h2>📋 Guideline Watch</h2>
         <span class="category-count" id="guideline-count"></span>
       </div>
@@ -202,7 +203,7 @@
     </section>
     <section class="ksa-section" id="ksa-section" hidden>
       <div class="trending-heading ksa-heading">
-        <button class="collapse-toggle" id="ksa-collapse-toggle" type="button" aria-expanded="false" aria-controls="ksa-body">▸</button>
+        <button class="collapse-toggle" id="ksa-collapse-toggle" type="button" aria-expanded="false" aria-controls="ksa-body" aria-label="KSA Research section">▸</button>
         <h2>🇸🇦 KSA Research</h2>
         <span class="category-count" id="ksa-count"></span>
       </div>
@@ -213,7 +214,7 @@
     </section>
     <section class="trending-section" id="trending-section" hidden>
       <div class="trending-heading">
-        <button class="collapse-toggle" id="trending-collapse-toggle" type="button" aria-expanded="false" aria-controls="trending-body">▸</button>
+        <button class="collapse-toggle" id="trending-collapse-toggle" type="button" aria-expanded="false" aria-controls="trending-body" aria-label="Trending this month section">▸</button>
         <h2>🔥 Trending this month</h2>
         <span class="category-count" id="trending-count"></span>
       </div>
@@ -223,7 +224,7 @@
     </section>
     <section class="foamed-section" id="foamed-section" hidden>
       <div class="trending-heading foamed-heading">
-        <button class="collapse-toggle" id="foamed-collapse-toggle" type="button" aria-expanded="false" aria-controls="foamed-body">▸</button>
+        <button class="collapse-toggle" id="foamed-collapse-toggle" type="button" aria-expanded="false" aria-controls="foamed-body" aria-label="FOAMed & Blogs section">▸</button>
         <h2>📚 FOAMed &amp; Blogs</h2>
         <span class="category-count" id="foamed-count"></span>
       </div>
@@ -234,7 +235,7 @@
     </section>
     <section class="bottom-line-section" id="bottom-line-section" hidden>
       <div class="trending-heading bottom-line-heading">
-        <button class="collapse-toggle" id="bottom-line-collapse-toggle" type="button" aria-expanded="false" aria-controls="bottom-line-body">▸</button>
+        <button class="collapse-toggle" id="bottom-line-collapse-toggle" type="button" aria-expanded="false" aria-controls="bottom-line-body" aria-label="The Bottom Line section">▸</button>
         <h2>🎯 The Bottom Line</h2>
         <span class="category-count" id="bottom-line-count"></span>
       </div>
@@ -245,7 +246,7 @@
     </section>
     <section class="preprint-section" id="preprint-section" hidden>
       <div class="trending-heading preprint-heading">
-        <button class="collapse-toggle" id="preprint-collapse-toggle" type="button" aria-expanded="false" aria-controls="preprint-body">▸</button>
+        <button class="collapse-toggle" id="preprint-collapse-toggle" type="button" aria-expanded="false" aria-controls="preprint-body" aria-label="Preprints section">▸</button>
         <h2>🧪 Preprints</h2>
         <span class="category-count" id="preprint-count"></span>
       </div>
@@ -256,7 +257,7 @@
     </section>
     <section class="trial-results-section" id="trial-results-section" hidden>
       <div class="trending-heading trial-results-heading">
-        <button class="collapse-toggle" id="trial-results-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-results-body">▸</button>
+        <button class="collapse-toggle" id="trial-results-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-results-body" aria-label="Trial Results section">▸</button>
         <h2>✅ Trial Results</h2>
         <span class="category-count" id="trial-results-count"></span>
       </div>
@@ -267,7 +268,7 @@
     </section>
     <section class="trial-section" id="trial-section" hidden>
       <div class="trending-heading trial-heading">
-        <button class="collapse-toggle" id="trial-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-body">▸</button>
+        <button class="collapse-toggle" id="trial-collapse-toggle" type="button" aria-expanded="false" aria-controls="trial-body" aria-label="Trial Tracker section">▸</button>
         <h2>🔬 Trial Tracker</h2>
         <span class="category-count" id="trial-count"></span>
       </div>
@@ -278,7 +279,7 @@
     </section>
     <section class="classics-section" id="classics-section" hidden>
       <div class="trending-heading classics-heading">
-        <button class="collapse-toggle" id="classics-collapse-toggle" type="button" aria-expanded="false" aria-controls="classics-body">▸</button>
+        <button class="collapse-toggle" id="classics-collapse-toggle" type="button" aria-expanded="false" aria-controls="classics-body" aria-label="ICU Classics section">▸</button>
         <h2>🏛️ ICU Classics</h2>
         <span class="category-count">Landmark trials every intensivist should know</span>
       </div>
