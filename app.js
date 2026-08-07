@@ -554,6 +554,7 @@
       const btn = document.createElement("button");
       btn.className = "section-jump-btn";
       btn.type = "button";
+      btn.dataset.sectionId = target.sectionId;
       btn.innerHTML = `<span>${target.icon}</span><span>${escapeHtml(target.label)}</span>`;
       btn.addEventListener("click", () => {
         jumpToSection(target.sectionId);
@@ -562,6 +563,18 @@
       sectionJumpNav.appendChild(btn);
     });
     updateSectionJumpHeight();
+    updateSectionJumpAvailability();
+  }
+
+  // Some jump targets (Preprints, Trial Results, ICU Classics...) start
+  // hidden and only appear once their section has data to show -- before
+  // that, jumpToSection() silently no-ops for them. Dim + disable the
+  // button instead of leaving it looking clickable but doing nothing.
+  function updateSectionJumpAvailability() {
+    sectionJumpNav.querySelectorAll(".section-jump-btn").forEach((btn) => {
+      const sectionEl = document.getElementById(`${btn.dataset.sectionId}-section`);
+      btn.disabled = !sectionEl || sectionEl.hidden;
+    });
   }
 
   // Only measured at >=1100px, where #section-jump is the fixed desktop
@@ -1117,6 +1130,22 @@
       aiToggle.addEventListener("click", () => {
         const expanded = aiSummaryEl.classList.toggle("expanded");
         aiToggle.textContent = expanded ? hideLabel : showLabel;
+        // max-height can't transition to/from "none" -- set a real
+        // pixel value so the CSS transition actually animates, same
+        // technique as setSectionCollapsed.
+        if (expanded) {
+          aiSummaryEl.style.maxHeight = `${aiSummaryEl.scrollHeight}px`;
+          aiSummaryEl.addEventListener("transitionend", function onEnd(e) {
+            if (e.propertyName === "max-height") {
+              aiSummaryEl.style.maxHeight = "none";
+              aiSummaryEl.removeEventListener("transitionend", onEnd);
+            }
+          });
+        } else {
+          aiSummaryEl.style.maxHeight = `${aiSummaryEl.scrollHeight}px`;
+          aiSummaryEl.offsetHeight; // force layout so the start height registers
+          aiSummaryEl.style.maxHeight = "0px";
+        }
       });
     }
 
@@ -1786,6 +1815,11 @@
     // category-nav's top offset depends on.
     updateToolbarHeight();
     scheduleFilterAnnouncement();
+    // Filtering can hide/show these same jump targets (e.g. a filter
+    // that excludes every preprint hides the Preprints section), so
+    // their jump buttons need to stay in sync on every render, not
+    // just at startup.
+    updateSectionJumpAvailability();
   }
 
   let filterAnnounceTimer = null;
@@ -1870,6 +1904,23 @@
   });
 
   searchInput.addEventListener("input", () => applyFiltersAndRender());
+  searchInput.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && searchInput.value) {
+      searchInput.value = "";
+      applyFiltersAndRender();
+    }
+  });
+  // "/" focuses search from anywhere -- a daily-use tool is worth a
+  // quick keyboard path in, matching the convention most search-heavy
+  // sites already use. Ignored while typing in any other field so it
+  // doesn't hijack a literal "/" character.
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "/" || e.ctrlKey || e.metaKey || e.altKey) return;
+    const tag = document.activeElement?.tagName;
+    if (tag === "INPUT" || tag === "TEXTAREA" || tag === "SELECT" || document.activeElement?.isContentEditable) return;
+    e.preventDefault();
+    searchInput.focus();
+  });
   windowFilter.addEventListener("change", () => applyFiltersAndRender());
   studyTypeFilter.addEventListener("change", () => applyFiltersAndRender());
   yearFilter.addEventListener("change", () => applyFiltersAndRender());
@@ -1976,6 +2027,10 @@
         // building them earlier left embeddingsCache still null at card-build
         // time, permanently omitting the button for this section only.
         renderClassics();
+        // renderClassics() runs after applyFiltersAndRender()'s own call
+        // to this, so classics-section's hidden state wasn't settled yet
+        // when that ran -- check once more now that it is.
+        updateSectionJumpAvailability();
         saveSeenIds(collectAllIds(data));
         // Populating the filter <select>s can widen them enough to change how
         // the toolbar wraps, which shifts its real height out from under the

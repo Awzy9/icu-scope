@@ -508,14 +508,20 @@ a.hero-stat.hero-stat-link:hover .hero-stat-value { color: var(--accent-strong);
 
 @media (max-width: 720px) {
   .hero-title { font-size: 1.9rem; max-width: none; }
-  .hero-stats { gap: var(--space-4) 0; }
+  /* An explicit 2-column grid, not flex-wrap: 5 items at flex: 1 1 45%
+     wrapped 2/2/1, leaving the 5th ("Most active category") stranded
+     alone on its own row instead of using the space evenly. */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-4);
+  }
   .hero-stat {
-    flex: 1 1 45%;
-    min-width: 45%;
     border-right: none;
     margin-right: 0;
     padding-right: 0;
   }
+  .hero-stat-link { grid-column: 1 / -1; }
 }
 
 /* =========================================================================
@@ -577,6 +583,16 @@ a.hero-stat.hero-stat-link:hover .hero-stat-value { color: var(--accent-strong);
 }
 
 .section-jump-btn:hover { background: var(--surface-soft); color: var(--text); }
+
+/* No data for this section right now (e.g. no preprints matched the
+   current filters) -- previously the button stayed fully clickable-
+   looking but jumpToSection() silently did nothing. */
+.section-jump-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.section-jump-btn:disabled:hover { background: none; color: var(--text-secondary); }
 
 .bottom-nav-backdrop {
   position: fixed;
@@ -1394,9 +1410,14 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
   color: var(--text);
   max-height: 0;
   overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 
-.ai-summary-text.expanded { max-height: none; margin: 0 0 0.5rem; }
+.ai-summary-text.expanded { margin: 0 0 0.5rem; }
+
+@media (prefers-reduced-motion: reduce) {
+  .ai-summary-text { transition: none; }
+}
 
 /* Text-only "expand for more" toggles -- ai-summary-toggle/similar-toggle/
    abstract-toggle previously each hand-rolled a near-identical rule with
@@ -1557,13 +1578,24 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
   font-size: 0.95rem;
   color: var(--text-secondary);
   margin: 0.65rem 0 0;
-  max-height: 4.9em;
+  /* Line-clamp instead of a flat max-height: that clipped mid-glyph
+     wherever the 3-line mark happened to fall inside a line; this always
+     ends cleanly at a line boundary. */
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
   overflow: hidden;
 }
 
 mark { background: var(--amber-soft); color: var(--amber-strong); border-radius: 3px; padding: 0 0.15em; }
 
-.article-abstract.expanded { max-height: none; }
+.article-abstract.expanded {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible;
+}
 
 .abstract-toggle {
   color: var(--accent-strong);
@@ -1619,12 +1651,26 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
   cursor: pointer;
   padding: 0.32rem 0.75rem;
   border-radius: 999px;
-  margin-left: auto;
 }
 
 .bookmark-btn svg { width: 0.95rem; height: 0.95rem; }
 
-.cite-btn { margin-left: 0; }
+/* Push the trailing action(s) to the right edge of .article-links as one
+   group, not two separate ones -- cite-btn used to sit inline right
+   after the text links while bookmark-btn alone got margin-left: auto,
+   landing them at opposite ends of the row with a wide, pointless gap
+   between two clearly-related actions.
+   :first-of-type matches by tag (button), not class, so on regular
+   cards -- where cite-btn precedes bookmark-btn -- .bookmark-btn:first-
+   of-type does NOT match (cite-btn is the first button of that type);
+   cite-btn's own margin-left: auto does the pushing there instead, and
+   the adjacent-sibling rule cancels bookmark-btn's margin so it sits
+   right next to cite-btn (spaced only by .article-links' gap) rather
+   than claiming its own separate share of the leftover space. On the
+   spotlight card, where bookmark-btn is the only button, it IS that
+   first button and pushes itself right on its own. */
+.cite-btn, .bookmark-btn:first-of-type { margin-left: auto; }
+.cite-btn + .bookmark-btn { margin-left: 0; }
 .cite-btn:hover, .bookmark-btn:hover { border-color: var(--border-strong); color: var(--text); }
 
 .bookmark-btn.active {
@@ -1740,6 +1786,10 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
   .trending-heading h2 { font-size: 1.05rem; }
   .category-heading h2 { font-size: 1.05rem; }
   .article-title { font-size: 1rem; }
+  /* .spotlight-card .article-title's extra class outspecifies the plain
+     .article-title rule above at any width, so it needs its own explicit
+     mobile override rather than inheriting this one. */
+  .spotlight-card .article-title { font-size: 1.25rem; }
 
   .article-card { padding: 1rem 1.1rem; }
   .category-section { margin-bottom: var(--space-6); }
