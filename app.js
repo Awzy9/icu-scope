@@ -83,13 +83,17 @@
   const organFilter = document.getElementById("organ-filter");
   const journalFilter = document.getElementById("journal-filter");
   const studyTypeFilter = document.getElementById("study-type-filter");
+  const clearFiltersBtn = document.getElementById("clear-filters-btn");
   const quickFilters = document.getElementById("quick-filters");
   const hiddenCategoriesBar = document.getElementById("hidden-categories-bar");
   const hiddenCategoriesList = document.getElementById("hidden-categories-list");
   const dashboardStrip = document.getElementById("dashboard-strip");
   const dashNewCount = document.getElementById("dash-new-count");
   const dashTopCategory = document.getElementById("dash-top-category");
+  const dashTopCategoryLink = document.getElementById("dash-top-category-link");
   const dashGuidelineCount = document.getElementById("dash-guideline-count");
+  const dashTrialCount = document.getElementById("dash-trial-count");
+  const dashOrganCount = document.getElementById("dash-organ-count");
   const dashSpotlightTile = document.getElementById("dash-spotlight-tile");
   const dashSpotlightTitle = document.getElementById("dash-spotlight-title");
   const densityToggle = document.getElementById("density-toggle");
@@ -333,18 +337,21 @@
   let embeddingsPromise = null;
   let embeddingsCache = null;
 
+  const SUN_ICON = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/><path d="M12 2.5v2.4M12 19.1v2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+  const MOON_ICON = '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 14.2A8.5 8.5 0 1 1 9.8 4a6.8 6.8 0 0 0 10.2 10.2Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>';
+
   function initTheme() {
     const saved = localStorage.getItem("icu-scope-theme");
     const prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
     const effective = saved || (prefersDark ? "dark" : "light");
-    themeToggle.textContent = effective === "dark" ? "☀️" : "🌙";
+    themeToggle.innerHTML = effective === "dark" ? SUN_ICON : MOON_ICON;
     themeToggle.addEventListener("click", () => {
       const current = document.documentElement.getAttribute("data-theme")
         || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
       const next = current === "dark" ? "light" : "dark";
       document.documentElement.setAttribute("data-theme", next);
       localStorage.setItem("icu-scope-theme", next);
-      themeToggle.textContent = next === "dark" ? "☀️" : "🌙";
+      themeToggle.innerHTML = next === "dark" ? SUN_ICON : MOON_ICON;
     });
   }
 
@@ -1037,12 +1044,13 @@
     const card = document.createElement("article");
     card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
+      ${studyTypeBadge ? `<div class="article-eyebrow">${studyTypeBadge}</div>` : ""}
       <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${highlightMatch(article.title, currentSearchTerm)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
-      <div class="article-tags">${studyTypeBadge}${impactBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
+      <div class="article-tags">${impactBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
       ${aiBlock}
       ${abstractBlock}
       ${askBlock}
@@ -1052,7 +1060,10 @@
         ${doiLink}
         ${fullTextLink}
         <button class="cite-btn" type="button">Cite</button>
-        <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">${isBookmarked ? "🔖 Saved" : "🔖 Save"}</button>
+        <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">
+          <svg viewBox="0 0 24 24" fill="${isBookmarked ? "currentColor" : "none"}" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          ${isBookmarked ? "Saved" : "Save"}
+        </button>
       </div>
     `;
 
@@ -1403,18 +1414,36 @@
       ? `Week of ${new Date(`${spotlight.week}T00:00:00Z`).toLocaleDateString(undefined, { month: "long", day: "numeric", year: "numeric" })}`
       : "";
     const prompts = (spotlight.discussion_prompts || []).map((p) => `<li>${escapeHtml(p)}</li>`).join("");
+    const id = articleId(spotlight);
+    const isBookmarked = bookmarkedIds.has(id);
     spotlightBody.innerHTML = `
       <div class="article-card spotlight-card">
+        ${spotlight.study_type ? `<div class="article-eyebrow"><span class="study-type-badge">${escapeHtml(evidenceTierDot(spotlight.study_type))} ${escapeHtml(spotlight.study_type)}</span></div>` : ""}
         <h3 class="article-title"><a href="${spotlight.url}" target="_blank" rel="noopener">${escapeHtml(spotlight.title)}</a></h3>
         <div class="article-meta">
           <span class="journal" style="--journal-hue: ${journalHue(spotlight.journal)}">${escapeHtml(spotlight.journal || "")}</span> · ${escapeHtml(spotlight.pubdate || "")}
         </div>
-        ${spotlight.study_type ? `<span class="study-type-badge">${escapeHtml(evidenceTierDot(spotlight.study_type))} ${escapeHtml(spotlight.study_type)}</span>` : ""}
-        ${spotlight.why_selected ? `<p class="ai-significance"><strong>Why this pick:</strong> ${escapeHtml(spotlight.why_selected)}</p>` : ""}
+        ${spotlight.why_selected ? `<div class="ai-summary"><div class="ai-summary-label">✨ Why this pick</div><p class="ai-significance">${escapeHtml(spotlight.why_selected)}</p></div>` : ""}
         ${prompts ? `<div class="discussion-prompts"><strong>Discussion prompts:</strong><ul>${prompts}</ul></div>` : ""}
-        <div class="article-links"><a href="${spotlight.url}" target="_blank" rel="noopener">PubMed</a></div>
+        <div class="article-links">
+          <a href="${spotlight.url}" target="_blank" rel="noopener">PubMed</a>
+          <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">
+            <svg viewBox="0 0 24 24" fill="${isBookmarked ? "currentColor" : "none"}" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+            ${isBookmarked ? "Saved" : "Save"}
+          </button>
+        </div>
       </div>
     `;
+    const bookmarkBtn = spotlightBody.querySelector(".bookmark-btn");
+    bookmarkBtn.addEventListener("click", () => {
+      if (bookmarkedIds.has(id)) {
+        bookmarkedIds.delete(id);
+      } else {
+        bookmarkedIds.add(id);
+      }
+      saveBookmarks();
+      applyFiltersAndRender();
+    });
   }
 
   function renderDashboard(data) {
@@ -1449,7 +1478,11 @@
     dashTopCategory.textContent = topCategory && topCategoryCount > 0
       ? `${CATEGORY_ICONS[topCategory.id] || ""} ${topCategory.label}`
       : "–";
+    dashTopCategoryLink.href = topCategory ? `#cat-${topCategory.id}` : "#";
+    dashTopCategoryLink.dataset.catId = topCategory ? topCategory.id : "";
     dashGuidelineCount.textContent = String((data.guidelines && data.guidelines.articles && data.guidelines.articles.length) || 0);
+    dashTrialCount.textContent = String(collectTrialResultArticles(data).length);
+    dashOrganCount.textContent = String(categories.length);
 
     if (data.spotlight && data.spotlight.title) {
       dashSpotlightTile.hidden = false;
@@ -1467,13 +1500,20 @@
   function renderSaved(articleIndex) {
     const saved = [...bookmarkedIds].map((id) => articleIndex.get(id)).filter(Boolean);
     savedCountBadge.textContent = String(saved.length);
-    if (!saved.length) {
-      savedSection.hidden = true;
-      return;
-    }
+    // Shown (not hidden) even when empty, with its own empty state --
+    // otherwise the "Saved" jump-to-section link would silently do nothing
+    // the first time someone clicks it before saving anything.
     savedSection.hidden = false;
     savedCount.textContent = `${saved.length} article${saved.length === 1 ? "" : "s"}`;
     savedList.innerHTML = "";
+    if (!saved.length) {
+      savedList.innerHTML = `<div class="empty-state">
+        <div class="empty-state-icon">🔖</div>
+        <div class="empty-state-title">No saved articles yet</div>
+        <div class="empty-state-text">Tap Save on any article to keep it here for later.</div>
+      </div>`;
+      return;
+    }
     saved.forEach((a) => savedList.appendChild(articleCard(a)));
   }
 
@@ -1545,7 +1585,9 @@
   }
 
   function renderCategories(categories, term, days, studyType, year, journal, organId) {
-    nav.innerHTML = "";
+    // Only the chips, not nav's whole innerHTML — preserves the static
+    // "Organ Systems" sidebar label that lives alongside them.
+    nav.querySelectorAll(".nav-chip").forEach((chip) => chip.remove());
     content.innerHTML = "";
 
     hiddenCategories = loadHiddenCategories();
@@ -1618,9 +1660,11 @@
       body.id = bodyId;
 
       if (!cat.articles.length) {
-        const empty = document.createElement("p");
-        empty.className = "empty";
-        empty.textContent = "No articles match the current filters.";
+        const empty = document.createElement("div");
+        empty.className = "empty-state";
+        empty.innerHTML = `<div class="empty-state-icon">🔍</div>
+          <div class="empty-state-title">No articles match the current filters</div>
+          <div class="empty-state-text">Try widening the time window or clearing a filter.</div>`;
         body.appendChild(empty);
       } else {
         cat.articles.forEach((article) => body.appendChild(articleCard(article)));
@@ -1682,6 +1726,10 @@
     quickFilters.querySelectorAll(".quick-filter-chip").forEach((chip) => {
       chip.classList.toggle("active", chip.dataset.studyType === studyType);
     });
+
+    const filtersActive = !!term || windowFilter.value !== "all" || studyType !== "all"
+      || year !== "all" || journal !== "all" || organId !== "all";
+    clearFiltersBtn.hidden = !filtersActive;
 
     currentSessionIds = new Set();
     renderSpotlight(rawData.spotlight);
@@ -1748,6 +1796,15 @@
   yearFilter.addEventListener("change", () => applyFiltersAndRender());
   journalFilter.addEventListener("change", () => applyFiltersAndRender());
   organFilter.addEventListener("change", () => applyFiltersAndRender());
+  clearFiltersBtn.addEventListener("click", () => {
+    searchInput.value = "";
+    windowFilter.value = "all";
+    studyTypeFilter.value = "all";
+    yearFilter.value = "all";
+    journalFilter.value = "all";
+    organFilter.value = "all";
+    applyFiltersAndRender();
+  });
   quickFilters.querySelectorAll(".quick-filter-chip").forEach((chip) => {
     chip.addEventListener("click", () => {
       const type = chip.dataset.studyType;
@@ -1765,6 +1822,18 @@
       saveCollapseState(current);
     }
     savedSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+
+  dashTopCategoryLink.addEventListener("click", (e) => {
+    const catId = dashTopCategoryLink.dataset.catId;
+    if (!catId) { e.preventDefault(); return; }
+    e.preventDefault();
+    const body = document.getElementById(`cat-body-${catId}`);
+    if (body && body.classList.contains("collapsed")) {
+      document.querySelector(`#cat-${catId} .collapse-toggle`).click();
+    }
+    const section = document.getElementById(`cat-${catId}`);
+    if (section) section.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   spotlightPrintBtn.addEventListener("click", () => {
@@ -1832,6 +1901,10 @@
       updateToolbarHeight();
     })
     .catch((err) => {
-      content.innerHTML = `<p class="empty">Couldn't load article data (${escapeHtml(err.message)}).</p>`;
+      content.innerHTML = `<div class="empty-state">
+        <div class="empty-state-icon">⚠️</div>
+        <div class="empty-state-title">Couldn't load article data</div>
+        <div class="empty-state-text">${escapeHtml(err.message)}. Try refreshing the page.</div>
+      </div>`;
     });
 })();

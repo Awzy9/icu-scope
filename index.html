@@ -7,7 +7,7 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="alternate" type="application/rss+xml" title="ICU Scope RSS Feed" href="feed.xml" />
-  <link rel="stylesheet" href="style.css?v=30" />
+  <link rel="stylesheet" href="style.css?v=31" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -52,9 +52,12 @@
         <p class="updated-line" id="updated-line">Loading update time…</p>
       </div>
       <div class="header-actions">
-        <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">🔖 <span id="saved-count-badge">0</span></button>
+        <button class="saved-toggle" id="saved-toggle" type="button" aria-label="Jump to saved articles">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          <span id="saved-count-badge">0</span>
+        </button>
         <button class="density-toggle" id="density-toggle" type="button" aria-label="Change layout density">☰ Comfortable</button>
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme">🌙</button>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme"></button>
       </div>
     </div>
   </header>
@@ -64,30 +67,49 @@
       <span>Jump to</span>
       <button class="section-jump-close" id="section-jump-close" type="button" aria-label="Close menu">✕</button>
     </div>
-    <!-- populated by app.js -->
+    <div class="sidebar-label">Explore</div>
+    <!-- section-jump-btn elements populated by app.js -->
   </nav>
 
-  <section class="dashboard-strip" id="dashboard-strip" aria-label="This week at a glance" hidden>
-    <div class="dashboard-tile">
-      <div class="dashboard-value" id="dash-new-count">–</div>
-      <div class="dashboard-label">New this week</div>
-    </div>
-    <div class="dashboard-tile">
-      <div class="dashboard-value" id="dash-top-category">–</div>
-      <div class="dashboard-label">Most active category</div>
-    </div>
-    <a class="dashboard-tile dashboard-tile-spotlight" id="dash-spotlight-tile" href="#spotlight-section" hidden>
-      <div class="dashboard-label">📌 Article of the Week</div>
-      <div class="dashboard-spotlight-title" id="dash-spotlight-title"></div>
-    </a>
-    <div class="dashboard-tile">
-      <div class="dashboard-value" id="dash-guideline-count">–</div>
-      <div class="dashboard-label">Guidelines tracked</div>
+  <section class="hero">
+    <div class="hero-inner">
+      <p class="hero-eyebrow">ICU Scope</p>
+      <h1 class="hero-title">The latest critical-care evidence, curated daily.</h1>
+      <p class="hero-sub" id="updated-line">Loading update time…</p>
+      <section class="hero-stats" id="dashboard-strip" aria-label="Today in critical care" hidden>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-new-count">–</div>
+          <div class="hero-stat-label">New this week</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-guideline-count">–</div>
+          <div class="hero-stat-label">Guidelines</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-trial-count">–</div>
+          <div class="hero-stat-label">Clinical trials</div>
+        </div>
+        <div class="hero-stat">
+          <div class="hero-stat-value" id="dash-organ-count">–</div>
+          <div class="hero-stat-label">Organ systems</div>
+        </div>
+        <a class="hero-stat hero-stat-link" href="#" id="dash-top-category-link">
+          <div class="hero-stat-value" id="dash-top-category">–</div>
+          <div class="hero-stat-label">Most active category</div>
+        </a>
+      </section>
+      <a class="hero-spotlight-link" id="dash-spotlight-tile" href="#spotlight-section" hidden>
+        <span>📌 Article of the Week:</span>
+        <span class="hero-spotlight-title" id="dash-spotlight-title"></span>
+      </a>
     </div>
   </section>
 
   <div class="toolbar" id="toolbar">
-    <input type="search" id="search-input" class="search-input" placeholder="Search titles, journals, abstracts…" aria-label="Search articles" />
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8"/><path d="M20 20l-3.5-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      <input type="search" id="search-input" class="search-input" placeholder="Search literature, journals, topics, authors…" aria-label="Search articles" />
+    </div>
     <select id="window-filter" class="window-filter" aria-label="Time window">
       <option value="all">All time</option>
       <option value="1">Last 24 hours</option>
@@ -106,11 +128,13 @@
     <select id="study-type-filter" class="window-filter" aria-label="Study type">
       <option value="all">All study types</option>
     </select>
+    <button id="clear-filters-btn" class="toolbar-btn clear-filters-btn" type="button" hidden>Clear filters</button>
     <button id="digest-btn" class="toolbar-btn" type="button">📋 Copy weekly digest</button>
     <button id="semantic-search-btn" class="toolbar-btn" type="button" hidden>🧠 Semantic search</button>
   </div>
   <nav class="category-nav" id="category-nav" aria-label="Categories">
-    <!-- populated by app.js -->
+    <div class="sidebar-label">Organ Systems</div>
+    <!-- nav-chip elements populated by app.js -->
   </nav>
   <div class="hidden-categories-bar" id="hidden-categories-bar" hidden>
     <span class="hidden-categories-label">🚫 Hidden:</span>
@@ -296,7 +320,9 @@
     <p><a href="feed.xml">📡 Subscribe via RSS</a></p>
   </footer>
 
-  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>↑</button>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M12 5l-6 6M12 5l6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
 
   <nav class="bottom-nav" id="bottom-nav" aria-label="Mobile navigation">
     <button class="bottom-nav-btn" id="bottom-nav-top" type="button">
@@ -314,6 +340,6 @@
   </nav>
   <div class="bottom-nav-backdrop" id="bottom-nav-backdrop" hidden></div>
 
-  <script src="app.js?v=26"></script>
+  <script src="app.js?v=27"></script>
 </body>
 </html>
