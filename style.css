@@ -7,6 +7,7 @@
    their identity comes from an icon + label, not a colored panel.
    ========================================================================= */
 :root {
+  color-scheme: light;
   --bg: #f5f6f7;
   --surface: #ffffff;
   --surface-soft: #eef0f2;
@@ -81,6 +82,7 @@
 /* Dark mode: deep charcoal, never pure black; cards a shade lighter than
    the page so hierarchy reads even with everything desaturated. */
 :root[data-theme="dark"] {
+  color-scheme: dark;
   --bg: #14171a;
   --surface: #1c2024;
   --surface-soft: #23282d;
@@ -130,6 +132,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
+    color-scheme: dark;
     --bg: #14171a;
     --surface: #1c2024;
     --surface-soft: #23282d;
@@ -1116,7 +1119,9 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
   transition: transform 0.15s, border-color 0.15s;
 }
 
-.collapse-toggle[aria-expanded="true"] { transform: rotate(90deg); }
+/* No rotation here: the ▸/▾ glyph itself already swaps direction in JS
+   (setSectionCollapsed), so rotating on top of that would double-encode
+   the state and point the expanded chevron left instead of down. */
 
 .section-body {
   overflow: hidden;
@@ -1332,6 +1337,7 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
 }
 
 .article-card.is-new { box-shadow: inset 3px 0 0 0 var(--accent); }
+.article-card.is-new:hover { box-shadow: var(--shadow-md), inset 3px 0 0 0 var(--accent); }
 
 /* AI-generated content — the one place purple is used, consistently */
 .ai-summary {
@@ -1599,7 +1605,8 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
    ========================================================================= */
 .trending-section, .foamed-section, .bottom-line-section, .trial-results-section,
 .guideline-section, .ksa-section, .this-week-section, .trial-section,
-.classics-section, .saved-section, .spotlight-section {
+.classics-section, .saved-section, .spotlight-section, .preprint-section,
+.semantic-section {
   margin-bottom: var(--space-7);
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1611,7 +1618,8 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
 .bottom-line-section .article-card, .trial-results-section .article-card,
 .guideline-section .article-card, .ksa-section .article-card,
 .this-week-section .article-card, .trial-section .article-card,
-.classics-section .article-card, .saved-section .article-card {
+.classics-section .article-card, .saved-section .article-card,
+.preprint-section .article-card, .semantic-section .article-card {
   background: var(--surface);
 }
 
@@ -1627,9 +1635,22 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
 .trial-results-section, .trial-section, .classics-section { border-top: 3px solid var(--green); }
 .trial-results-heading h2, .trial-heading h2, .classics-heading h2 { color: var(--green-strong); }
 
-/* Everything else (FOAMed, Bottom Line, KSA, Saved) stays neutral —
-   identity comes from the icon in the heading, not a colored panel. */
-.foamed-heading h2, .bottom-line-heading h2, .ksa-heading h2, .saved-heading h2 { color: var(--text); }
+/* Everything else (FOAMed, Bottom Line, KSA, Saved, Preprints) stays
+   neutral — identity comes from the icon in the heading, not a colored
+   panel. Preprints in particular is deliberately not amber/green/etc:
+   "not yet peer-reviewed" isn't trending, evidence, or AI content, and
+   giving it a color would imply a meaning it doesn't have. */
+.foamed-heading h2, .bottom-line-heading h2, .ksa-heading h2, .saved-heading h2,
+.preprint-heading h2 { color: var(--text); }
+
+/* Semantic search: purple, the one place a color maps 1:1 with an
+   existing accent's meaning (AI-powered ranking) rather than adding a
+   new one. */
+.semantic-section { border-top: 3px solid var(--purple); }
+.semantic-heading h2 { color: var(--purple-strong); }
+/* Not collapsible (only a Close button) — .trending-heading's base
+   cursor: pointer would otherwise suggest it toggles like its siblings. */
+.semantic-heading { cursor: default; }
 
 .spotlight-section {
   border: 1px solid var(--accent);
@@ -1736,7 +1757,9 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
   .ask-input-row { flex-wrap: wrap; }
   .ask-submit { flex: 1 1 auto; }
 
-  .back-to-top { right: 1rem; bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); }
+  /* The bottom nav's own "Top" button covers this below the sidebar
+     breakpoint, and its z-index sat under the bottom nav here anyway. */
+  .back-to-top { display: none !important; }
 
   .article-links > a:first-child { width: 100%; justify-content: center; }
   .bookmark-btn { margin-left: 0; }

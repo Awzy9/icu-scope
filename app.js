@@ -541,6 +541,15 @@
       });
       sectionJumpNav.appendChild(btn);
     });
+    updateSectionJumpHeight();
+  }
+
+  // Only measured at >=1100px, where #section-jump is the fixed desktop
+  // sidebar its offsetHeight is meaningful for. Below that it's a
+  // translateY(100%) bottom sheet, and measuring it there would poison
+  // --section-jump-height with a bogus value.
+  function updateSectionJumpHeight() {
+    if (!window.matchMedia("(min-width: 1100px)").matches) return;
     document.documentElement.style.setProperty("--section-jump-height", `${sectionJumpNav.offsetHeight}px`);
   }
 
@@ -1744,6 +1753,11 @@
     renderTrialResults(rawData, term, days, studyType, year, journal, organId);
     renderTrials(rawData.trials, term, days, studyType, year, journal, organId);
     renderCategories(rawData.categories || [], term, days, studyType, year, journal, organId);
+
+    // clearFiltersBtn.hidden above can change the toolbar's wrapped height
+    // (e.g. it wraps to a second row on narrow screens), which the sticky
+    // category-nav's top offset depends on.
+    updateToolbarHeight();
   }
 
   initTheme();
@@ -1752,6 +1766,7 @@
   initSectionJump();
   updateToolbarHeight();
   window.addEventListener("resize", updateToolbarHeight);
+  window.addEventListener("resize", updateSectionJumpHeight);
 
   backToTopBtn.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
