@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Thu, 06 Aug 2026 05:40:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 04:48:31 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -27,6 +27,34 @@
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
     </item>
     <item>
+      <title>GRAM NEGATIVES STUDY</title>
+      <link>https://clinicaltrials.gov/study/NCT07749508</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07749508</guid>
+      <category>Clinical Trial</category>
+      <description>This study aimed to develop a predictive model for mortality in critically ill patients with multidrug-resistant Gram-negative bacteria. It also investigated the characteristics of patients who acquire colonization during ICU stay and the infectious complications they develop.</description>
+    </item>
+    <item>
+      <title>STimulation to Activate RespIration</title>
+      <link>https://clinicaltrials.gov/study/NCT06832306</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06832306</guid>
+      <category>Clinical Trial</category>
+      <description>This was a feasibility trial to test the safety and practicality of using diaphragm neurostimulation-assisted ventilation in patients on mechanical ventilation for acute hypoxemic respiratory failure with lung injury.</description>
+    </item>
+    <item>
+      <title>Cardiovascular Protection After Preeclampsia With Enalapril</title>
+      <link>https://clinicaltrials.gov/study/NCT07222852</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07222852</guid>
+      <category>Clinical Trial</category>
+      <description>This study aimed to assess the willingness of postpartum women to be randomized to different blood pressure medications and their effect on blood pressure in women with hypertensive disorders of pregnancy. However, it did not find any participants willing to be randomized.</description>
+    </item>
+    <item>
+      <title>RESTORE-ZG: Return of Effective Spontaneous Circulation Resuscitation Evaluation Canton of Zug</title>
+      <link>https://clinicaltrials.gov/study/NCT07750119</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07750119</guid>
+      <category>Clinical Trial</category>
+      <description>This study evaluated cardiac arrest care provided by emergency medical services in Switzerland, focusing on factors that influence return of spontaneous circulation (ROSC). The study aimed to identify predictors of ROSC in out-of-hospital cardiac arrests. No specific outcomes or effect measures were reported.</description>
+    </item>
+    <item>
       <title>Conservative Oxygen for Unresponsive Patients after Cardiac Arrest.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42267831/</link>
       <guid isPermaLink="false">pmid:42267831</guid>
@@ -39,6 +67,13 @@
       <guid isPermaLink="false">pmid:42267831</guid>
       <category>This Week</category>
       <description>BACKGROUND: In patients who are unresponsive after resuscitation from cardiac arrest, limiting oxygen exposure to that necessary to achieve acceptable oxygenation may increase the likelihood of survival with a favorable functional outcome. METHODS: We randomly assigned unresponsive adults receiving mechanical ventilation in the intensive care unit (ICU) after cardiac arrest to conservative or liberal oxygen therapy. In the two groups, the default lower limit of arterial oxygen saturation as meas</description>
+    </item>
+    <item>
+      <title>PulmCrit Wee: Four reasons that hyperangulated videolaryngoscopy should be the mainstay of ICU intubations</title>
+      <link>https://emcrit.org/pulmcrit/habui/</link>
+      <guid isPermaLink="false">https://emcrit.org/pulmcrit/habui/</guid>
+      <category>PulmCrit</category>
+      <description>The author advocates for hyperangulated videolaryngoscopy as the primary method for intubating critically ill patients, citing several reasons for this recommendation.</description>
     </item>
     <item>
       <title>İntensive Care Sepsis Prevelance in Turkey (INSEP-TURK)</title>
@@ -209,6 +244,13 @@
       <description>This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.</description>
     </item>
     <item>
+      <title>Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42294965/</link>
+      <guid isPermaLink="false">pmid:42294965</guid>
+      <category>This Week</category>
+      <description>Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.</description>
+    </item>
+    <item>
       <title>Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42467893/</link>
       <guid isPermaLink="false">pmid:42467893</guid>
@@ -216,6 +258,20 @@
       <description></description>
     </item>
     <item>
+      <title>Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42223327/</link>
+      <guid isPermaLink="false">pmid:42223327</guid>
+      <category>This Week</category>
+      <description>Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.</description>
+    </item>
+    <item>
+      <title>Sodium Bicarbonate for Acute Metabolic Acidosis in Critically Ill Adults: A Meta-Analysis of Randomized Clinical Trials.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42171427/</link>
+      <guid isPermaLink="false">pmid:42171427</guid>
+      <category>This Week</category>
+      <description>This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.</description>
+    </item>
+    <item>
       <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
       <guid isPermaLink="false">pmid:42377463</guid>
@@ -228,6 +284,13 @@
       <guid isPermaLink="false">pmid:42377463</guid>
       <category>This Week</category>
       <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
+    </item>
+    <item>
+      <title>Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42223327/</link>
+      <guid isPermaLink="false">pmid:42223327</guid>
+      <category>This Week</category>
+      <description>Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.</description>
     </item>
     <item>
       <title>Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.</title>
@@ -235,6 +298,41 @@
       <guid isPermaLink="false">pmid:42149702</guid>
       <category>This Week</category>
       <description>Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.</description>
+    </item>
+    <item>
+      <title>Operational Integration and Temporal Validation of a Continuously Deployed ICU Prediction Model.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42233727/</link>
+      <guid isPermaLink="false">pmid:42233727</guid>
+      <category>This Week</category>
+      <description>Researchers developed and validated a machine learning system that generates hourly predictions for ICU outcomes, such as mortality and discharge. The system was integrated into the electronic medical record and showed strong performance in a single-center study. The system was maintained with automated updates and visualizations.</description>
+    </item>
+    <item>
+      <title>Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42294965/</link>
+      <guid isPermaLink="false">pmid:42294965</guid>
+      <category>This Week</category>
+      <description>Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.</description>
+    </item>
+    <item>
+      <title>Reducing Physical Restraint in the ICU: Multicenter Phase II Randomized Trial of a Novel Device Versus Traditional Wrist Restraints.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42206929/</link>
+      <guid isPermaLink="false">pmid:42206929</guid>
+      <category>This Week</category>
+      <description>OBJECTIVES: To evaluate a novel device, developed under a National Institutes of Health Small Business Technology Transfer program grant, designed as an alternative to traditional wrist restraints. DESIGN: Within-patient crossover phase II randomized trial. SETTING: Four U.S. academic medical centers. PATIENTS: ICU patients ( n = 54) who were verbally responsive with a provider order for wrist restraints and expected stay greater than or equal to 2 days. INTERVENTIONS: Alternating use of novel d</description>
+    </item>
+    <item>
+      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
+      <guid isPermaLink="false">pmid:42535902</guid>
+      <category>Respiratory</category>
+      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
+    </item>
+    <item>
+      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
+      <guid isPermaLink="false">pmid:42535902</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
     </item>
     <item>
       <title>Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia</title>
@@ -300,20 +398,6 @@
       <description>This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.</description>
     </item>
     <item>
-      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
-      <guid isPermaLink="false">pmid:42535902</guid>
-      <category>This Week</category>
-      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
-    </item>
-    <item>
-      <title>Inflammatory Phenotypes In Severe Pneumonia: Clinical Evidence To Mouse Models For Precision Therapeutics.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42535902/</link>
-      <guid isPermaLink="false">pmid:42535902</guid>
-      <category>This Week</category>
-      <description>Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.</description>
-    </item>
-    <item>
       <title>Housing Transitions QUERI</title>
       <link>https://clinicaltrials.gov/study/NCT05312229</link>
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05312229</guid>
@@ -340,90 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07215702</guid>
       <category>Clinical Trial</category>
       <description>This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.</description>
-    </item>
-    <item>
-      <title>Blunt cerebrovascular injury</title>
-      <link>https://litfl.com/blunt-cerebrovascular-injury/</link>
-      <guid isPermaLink="false">https://litfl.com/blunt-cerebrovascular-injury/</guid>
-      <category>LITFL</category>
-      <description>This article discusses the management of blunt cerebrovascular injury, including expanded Denver screening, CTA diagnosis, Biffl grading, antithrombotic treatment, and follow-up.</description>
-    </item>
-    <item>
-      <title>Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT06513949</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06513949</guid>
-      <category>Clinical Trial</category>
-      <description>Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.</description>
-    </item>
-    <item>
-      <title>Phase 2b Study to Investigate the Safety and Efficacy of TIN816 in Sepsis-associated Acute Kidney Injury (CLEAR-AKI)</title>
-      <link>https://clinicaltrials.gov/study/NCT05996835</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05996835</guid>
-      <category>Clinical Trial</category>
-      <description>This Phase 2b study investigated the safety and efficacy of TIN816 in patients with sepsis-associated acute kidney injury (SA-AKI). Three different single doses of TIN816 were evaluated in hospitalized adult participants in an intensive care setting. The study aimed to characterize the dose-response relationship.</description>
-    </item>
-    <item>
-      <title>Microbiome and Enteric Signatures in Sepsis-associated Hepatorenal Injury</title>
-      <link>https://clinicaltrials.gov/study/NCT07735182</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07735182</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers investigated the relationship between gut microbiome and enteric signatures in patients with sepsis-associated hepatorenal injury. They found that altered gut microbial diversity and microbial metabolites may contribute to hepato-renal injury during sepsis. However, prospective longitudinal evidence in patients with sepsis-associated liver injury and acute kidney injury remains limited.</description>
-    </item>
-    <item>
-      <title>Ultrasound vs. Nasofibroscopy for Evaluating Dysphagia After Extubation in the ICU</title>
-      <link>https://clinicaltrials.gov/study/NCT07734298</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07734298</guid>
-      <category>Clinical Trial</category>
-      <description>This observational study compared the diagnostic performance of bedside cervical ultrasonography to nasofibroscopy (FEES) for detecting post-extubation dysphagia in critically ill adult patients. The study aimed to evaluate the degree of diagnostic concordance between the two methods. No significant results were reported.</description>
-    </item>
-    <item>
-      <title>SEPSIS EARLY WARNING: NEWS2 VS MACHINE LEARNING</title>
-      <link>https://clinicaltrials.gov/study/NCT07734480</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07734480</guid>
-      <category>Clinical Trial</category>
-      <description>This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.</description>
-    </item>
-    <item>
-      <title>Fecal Lactate and Resuscitation Outcomes in Critical Illness</title>
-      <link>https://clinicaltrials.gov/study/NCT07658001</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07658001</guid>
-      <category>Clinical Trial</category>
-      <description>This study investigated the use of fecal lactate as an early biomarker of tissue hypoperfusion in critically ill patients. Fecal lactate levels were measured within the first 12-24 hours to predict poor response to resuscitation at 24 hours. The study found that fecal lactate levels were associated with resuscitation outcomes.</description>
-    </item>
-    <item>
-      <title>Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT07170527</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07170527</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.</description>
-    </item>
-    <item>
-      <title>Ultrasound Detection of Body Composition in Critical Care</title>
-      <link>https://clinicaltrials.gov/study/NCT06728722</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06728722</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.</description>
-    </item>
-    <item>
-      <title>Risk Factors for Adverse Outcomes in Sepsis</title>
-      <link>https://clinicaltrials.gov/study/NCT06541600</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06541600</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.</description>
-    </item>
-    <item>
-      <title>Role of the Kallikrein-kinin System in Septic Cardiomyopathy</title>
-      <link>https://clinicaltrials.gov/study/NCT06080282</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06080282</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers studied the kallikrein-kinin system in septic cardiomyopathy to see if certain molecules are differently expressed and how they are regulated.</description>
-    </item>
-    <item>
-      <title>Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial</title>
-      <link>https://clinicaltrials.gov/study/NCT06174649</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06174649</guid>
-      <category>Clinical Trial</category>
-      <description>This study compared standard antibiotic testing to a faster testing method for patients with Gram-negative bacteria in their blood. Patients were randomly assigned to receive either standard testing or faster testing, in addition to standard testing. The faster testing method did not improve clinical outcomes.</description>
     </item>
   </channel>
 </rss>
