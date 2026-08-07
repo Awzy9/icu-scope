@@ -39,6 +39,7 @@
   const trialList = document.getElementById("trial-list");
   const trialCount = document.getElementById("trial-count");
   const trialWindow = document.getElementById("trial-window");
+  const classicsSection = document.getElementById("classics-section");
   const classicsBody = document.getElementById("classics-body");
   const classicsList = document.getElementById("classics-list");
   const guidelineSection = document.getElementById("guideline-section");
@@ -1502,6 +1503,7 @@
   }
 
   function renderClassics() {
+    classicsSection.hidden = false;
     classicsList.innerHTML = "";
     CLASSIC_TRIALS.forEach((trial) => classicsList.appendChild(articleCard(trial)));
   }
@@ -1888,38 +1890,48 @@
     }
   });
 
-  Promise.all([
-    fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" }).then((res) => {
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return res.json();
-    }),
-    // Resolved before the first render so each card can synchronously know
-    // whether it has a "Similar articles" list to offer, instead of the
-    // button popping in/out after the fact.
-    loadEmbeddings(),
-  ])
-    .then(([data]) => {
-      rawData = data;
-      updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
-      populateFilterOptions(data);
-      renderDashboard(data);
-      applyFiltersAndRender();
-      // Deferred until after loadEmbeddings() resolves (same Promise.all
-      // above), so ICU Classics cards can also offer "Similar articles" —
-      // building them earlier left embeddingsCache still null at card-build
-      // time, permanently omitting the button for this section only.
-      renderClassics();
-      saveSeenIds(collectAllIds(data));
-      // Populating the filter <select>s can widen them enough to change how
-      // the toolbar wraps, which shifts its real height out from under the
-      // sticky category-nav's offset — recompute now that it's settled.
-      updateToolbarHeight();
-    })
-    .catch((err) => {
-      content.innerHTML = `<div class="empty-state">
-        <div class="empty-state-icon">⚠️</div>
-        <div class="empty-state-title">Couldn't load article data</div>
-        <div class="empty-state-text">${escapeHtml(err.message)}. Try refreshing the page.</div>
-      </div>`;
-    });
+  function loadData() {
+    content.setAttribute("aria-busy", "true");
+    return Promise.all([
+      fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" }).then((res) => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      }),
+      // Resolved before the first render so each card can synchronously know
+      // whether it has a "Similar articles" list to offer, instead of the
+      // button popping in/out after the fact.
+      loadEmbeddings(),
+    ])
+      .then(([data]) => {
+        rawData = data;
+        updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
+        populateFilterOptions(data);
+        renderDashboard(data);
+        applyFiltersAndRender();
+        // Deferred until after loadEmbeddings() resolves (same Promise.all
+        // above), so ICU Classics cards can also offer "Similar articles" —
+        // building them earlier left embeddingsCache still null at card-build
+        // time, permanently omitting the button for this section only.
+        renderClassics();
+        saveSeenIds(collectAllIds(data));
+        // Populating the filter <select>s can widen them enough to change how
+        // the toolbar wraps, which shifts its real height out from under the
+        // sticky category-nav's offset — recompute now that it's settled.
+        updateToolbarHeight();
+        content.removeAttribute("aria-busy");
+      })
+      .catch((err) => {
+        content.removeAttribute("aria-busy");
+        updatedLine.textContent = "Couldn't reach the data feed.";
+        content.innerHTML = `<div class="empty-state" role="alert">
+          <div class="empty-state-icon">⚠️</div>
+          <div class="empty-state-title">Couldn't load article data</div>
+          <div class="empty-state-text">${escapeHtml(err.message)}.</div>
+          <button class="empty-state-retry-btn" id="retry-load-btn" type="button">Retry</button>
+        </div>`;
+        document.getElementById("retry-load-btn").addEventListener("click", () => loadData(), { once: true });
+      });
+  }
+
+  loadData();
 })();

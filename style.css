@@ -986,6 +986,21 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
 
 .empty-state-text { font-size: 0.9rem; max-width: 32ch; margin: 0 auto; }
 
+.empty-state-retry-btn {
+  margin-top: var(--space-4);
+  padding: 0.55rem 1.1rem;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+
+.empty-state-retry-btn:hover { border-color: var(--accent); color: var(--accent-strong); }
+
 .skeleton-card {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -1765,14 +1780,54 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
   .bookmark-btn { margin-left: 0; }
 }
 
+/* =========================================================================
+   Print — a real stylesheet, not an afterthought. The site is a daily
+   clinical reference; printing a handout or the full feed should produce
+   readable paper, not chrome, empty collapsed boxes, and inverted colors.
+   ========================================================================= */
 @media print {
+  /* Every non-content chrome element: nothing here is useful on paper. */
+  .credit-bar, .header-actions, .sources-line,
+  .toolbar, .category-nav, .quick-filters, .hidden-categories-bar,
+  .section-jump, .bottom-nav, .bottom-nav-backdrop, .back-to-top, .skip-link,
+  .collapse-toggle, .hide-category-btn, .sort-btn, .cite-btn, .bookmark-btn,
+  .ask-ai, .similar-articles, .print-btn {
+    display: none !important;
+  }
+
+  /* Sections default to collapsed (max-height: 0) on screen; printing
+     that as-is produces a stack of headings over blank space. Force
+     every body open regardless of its on-screen collapsed state. */
+  .section-body {
+    max-height: none !important;
+    opacity: 1 !important;
+    overflow: visible !important;
+  }
+
+  * { box-shadow: none !important; text-shadow: none !important; }
+  body { background: #fff; }
+
+  .article-card { break-inside: avoid; border-color: #ccc; }
+  h1, h2, h3, .trending-heading, .category-heading { break-after: avoid; }
+
+  /* A printed page can't be clicked -- spell out the URL next to the
+     one primary link on each card/spotlight so a paper handout is still
+     traceable back to the source. */
+  .article-links > a:first-child::after,
+  .spotlight-card .article-links > a:first-child::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    font-weight: 400;
+    color: #555;
+  }
+
+  /* Article-of-the-Week handout flow: hide everything except the
+     spotlight card, laid out standalone at the top of the page. Layered
+     after the general rules above so it wins for that narrower case. */
   body.printing-spotlight * { visibility: hidden; }
   body.printing-spotlight .spotlight-section,
   body.printing-spotlight .spotlight-section * { visibility: visible; }
   body.printing-spotlight .spotlight-section { position: absolute; top: 0; left: 0; width: 100%; }
-  body.printing-spotlight .collapse-toggle,
-  body.printing-spotlight .print-btn { display: none !important; }
-  .back-to-top { display: none !important; }
 }
 
 .back-to-top {
@@ -1812,5 +1867,61 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
 @media (min-width: 1100px) {
   .header-inner, .hero-inner, .toolbar, .quick-filters, .hidden-categories-bar, .content {
     padding-left: calc(var(--space-5) + var(--sidebar-w) + 1.5rem) !important;
+  }
+}
+
+/* Print, continued (kept last for the same cascade reason as the sidebar
+   reservation above: these need to win regardless of source-order
+   accidents elsewhere, and to override that very rule). */
+@media print {
+  /* No fixed sidebar exists on paper -- the reserved gutter would just
+     be a wide blank left margin otherwise. */
+  .header-inner, .hero-inner, .toolbar, .quick-filters, .hidden-categories-bar, .content {
+    padding-left: 0 !important;
+  }
+
+  /* Printed pages always use the light/paper palette, regardless of
+     which theme was active on screen -- dark backgrounds waste ink and
+     most printers render them as solid gray blocks anyway. */
+  :root[data-theme="dark"],
+  :root:not([data-theme="light"]) {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --surface-soft: #eef0f2;
+    --surface-sunken: #f0f2f4;
+    --border: #d5d9dd;
+    --border-strong: #b6bcc2;
+    --text: #14181c;
+    --text-secondary: #454c53;
+    --text-muted: #5f666d;
+
+    --accent: #0f8a72;
+    --accent-strong: #0a6b58;
+    --accent-soft: #e6f5f1;
+
+    --blue: #2563eb;
+    --blue-strong: #1d4ed8;
+    --blue-soft: #eaf1fe;
+    --blue-border: #cfe0fc;
+
+    --green: #15803d;
+    --green-strong: #106b32;
+    --green-soft: #eaf7ee;
+    --green-border: #c8ead2;
+
+    --purple: #7c3aed;
+    --purple-strong: #6926d9;
+    --purple-soft: #f4eefe;
+    --purple-border: #e2d3fb;
+
+    --amber: #b45309;
+    --amber-strong: #92400a;
+    --amber-soft: #fdf2e3;
+    --amber-border: #f6ddb2;
+
+    --red: #c0261d;
+    --red-strong: #9c1e17;
+    --red-soft: #fdeceb;
+    --red-border: #f4c3bf;
   }
 }
