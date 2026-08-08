@@ -660,17 +660,29 @@
     "summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
     "significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury."
   },
+  "pmid:42565664": {
+    "key_stats": "n=not reported, aOR 1.21 (95% CI 1.03-1.43), aOR 1.33 (95% CI 1.04-1.70), aOR 0.39 (95% CI 0.26-0.58), aOR 0.70 (95% CI 0.57-0.86), aOR 0.58 (95% CI 0.48-0.71), aOR 0.70 (95% CI 0.55-0.89), aOR 0.59 (95% CI 0.47-0.73)",
+    "summary": "This study examined billing practices for telemedicine critical care services among Medicare beneficiaries before, during, and after the COVID-19 pandemic. Billing for these services increased during the pandemic but remained low as a proportion of all critical care bills. There was variability in utilization across different types of hospitals.",
+    "significance": "This study highlights the need for further research on the clinical and economic consequences of increased telemedicine critical care billing, particularly in rural and critical access hospitals.",
+    "rounds_takeaway": "Consider using telemedicine critical care services for critically ill patients at minor teaching hospitals and safety-net hospitals."
+  },
   "pmid:42556561": {
     "key_stats": "n=361, first-attempt success 90.0%, mean number of venipuncture attempts 1.1, CRBSI 4.9%, mechanical complications 4.1%, secondary malposition 2.7%",
     "summary": "Researchers studied the safety and feasibility of using ultrasound to guide central line placement in newborns. They found that this approach was successful and had low complication rates in three Italian NICUs. The study supports using ultrasound-guided central line placement as an effective option for newborns.",
     "significance": "This study provides evidence for a safer and more effective approach to central line placement in newborns, which can reduce complications and improve patient outcomes.",
     "rounds_takeaway": "Consider using ultrasound-guided supraclavicular BCV catheterization for central line placement in newborns."
   },
-  "pmid:42554605": {
-    "key_stats": "n=568340, OR 0.997 (95% CI 0.995-0.998), p < 0.001",
-    "summary": "This study analyzed data from 568,340 ICU patients in Japan to see how hospital volume affects mortality rates. The researchers found that hospitals with more patients with severe illnesses (high SOFA scores) had lower mortality rates. The relationship between volume and mortality became stronger as the severity of illness increased.",
-    "significance": "This study's findings suggest that hospitals with more experience caring for critically ill patients may have better outcomes, which could inform hospital staffing and resource allocation decisions.",
-    "rounds_takeaway": "Consider transferring patients with high SOFA scores to hospitals with higher volumes of similar cases."
+  "url:https://emcrit.org/emcrit/post-partum-hemorrhage/": {
+    "key_stats": "",
+    "summary": "Dr. Cho Espinosa discusses how to manage life-threatening post-partum hemorrhage with a focus on uterotonic administration, physical compression techniques, and coagulopathy management.",
+    "significance": "This matters for ICU clinical practice as it provides a practical approach to managing a common and potentially catastrophic obstetric emergency.",
+    "rounds_takeaway": "Consider aggressive coagulopathy management in patients with severe post-partum hemorrhage."
+  },
+  "url:https://emcrit.org/emnerd/a-slow-retreat/": {
+    "key_stats": "",
+    "summary": "The standard of care for post-cardiac arrest management, targeted temperature management (TTM), may be based on a flawed premise. The evidence supporting TTM has been questioned. The foundation of TTM is being reevaluated.",
+    "significance": "This challenges the current standard of care for post-cardiac arrest patients, potentially leading to a reevaluation of treatment protocols. The implications for patient care are significant.",
+    "rounds_takeaway": ""
   },
   "url:https://emcrit.org/pulmcrit/habui/": {
     "key_stats": "",
@@ -894,6 +906,12 @@
     "significance": "This case highlights the importance of personalized early intervention and strict adherence to endoscope reprocessing protocols to minimize procedure-related infection risks in high-risk critically ill patients.",
     "rounds_takeaway": "Consider strict adherence to endoscope reprocessing protocols in patients undergoing ERCP and laparoscopic cholecystectomy."
   },
+  "pmid:42565116": {
+    "key_stats": "n=not reported, OR 1.24 (95% CI 1.07-1.43), p<0.01",
+    "summary": "Researchers studied the use of two urinary biomarkers, TIMP-2 and IGFBP7, to predict sepsis-related acute kidney injury (AKI) in patients admitted to the emergency department. They found that higher levels of these biomarkers were associated with the development of AKI, but the markers had only moderate overall discrimination. The biomarkers may help rule out or indicate a high risk of AKI.",
+    "significance": "This study provides a potential tool for clinicians to quickly identify patients at risk of sepsis-related AKI, which could improve patient outcomes and reduce the need for unnecessary interventions.",
+    "rounds_takeaway": "Consider measuring urinary TIMP-2 and IGFBP7 levels in patients with suspected sepsis to help rule out AKI risk."
+  },
   "pmid:42415882": {
     "summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
     "significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care."
@@ -901,6 +919,36 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07751237": {
+    "key_stats": "n=120, RR not reported, ARR not reported, NNT not reported, p=0.01",
+    "summary": "Researchers used ultrasound to assess diaphragmatic and extradiaphragmatic muscles in patients with difficult weaning from mechanical ventilation. They found that diaphragmatic ultrasonography can help determine the readiness of patients for weaning. The study suggests that this method may improve the success rate of weaning.",
+    "significance": "This study provides a non-invasive tool to assess muscle readiness for weaning, which can improve patient outcomes and reduce the duration of mechanical ventilation.",
+    "rounds_takeaway": "Consider using diaphragmatic ultrasonography to assess readiness for weaning in patients who have failed the first spontaneous breathing trial."
+  },
+  "url:https://clinicaltrials.gov/study/NCT01270295": {
+    "key_stats": "",
+    "summary": "Researchers studied soluble forms and ligands of RAGE in patients with Acute Lung Injury (ALI) and Acute Respiratory Distress Syndrome (ARDS). They found elevated levels of soluble RAGE in plasma and pulmonary edema fluid from these patients. This may be a novel marker of alveolar epithelial type I cell injury.",
+    "significance": "This study identifies a potential new marker for alveolar epithelial type I cell injury in ALI/ARDS, which could aid in diagnosis and treatment.",
+    "rounds_takeaway": "Consider checking soluble RAGE levels in patients with suspected ALI/ARDS to aid in diagnosis."
+  },
+  "url:https://clinicaltrials.gov/study/NCT04371016": {
+    "key_stats": "",
+    "summary": "This study investigated the effects of bed verticalization on patients with acute respiratory distress syndrome (ARDS). The study found no reported pulmonary and ventilatory effects of bed verticalization in patients with ARDS. No specific outcomes were reported.",
+    "significance": "Understanding the effects of bed verticalization in ARDS patients is crucial for optimizing intensive care unit (ICU) management and improving patient outcomes. This study's findings contribute to the existing knowledge on ARDS management.",
+    "rounds_takeaway": "No change to current practice — bed verticalization does not appear to have a significant impact on ARDS patients."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07751575": {
+    "key_stats": "",
+    "summary": "This study compares two blood culture collection strategies in adults with suspected sepsis. The goal is to evaluate their diagnostic performance and potential impact on patient discomfort and contamination risk.",
+    "significance": "Accurate diagnosis of bloodstream infections is crucial for sepsis management, and optimizing blood culture collection strategies can improve patient outcomes and reduce healthcare-associated complications.",
+    "rounds_takeaway": "Consider using a single, larger blood culture collection in patients with suspected sepsis to minimize venipunctures and potential contamination risk."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07397689": {
+    "key_stats": "",
+    "summary": "Researchers developed an early recognition tool for sepsis in children based on the Phoenix definition. They also investigated how to implement this tool in clinical practice. The study aimed to address the need for evidence-based approaches to identifying sepsis in diverse healthcare settings in Asia.",
+    "significance": "This study is significant for ICU clinical practice as it aims to improve sepsis identification in children, which can lead to better outcomes. Developing evidence-based approaches to sepsis recognition is crucial in diverse healthcare settings.",
+    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07749508": {
     "key_stats": "",

@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Fri, 07 Aug 2026 04:48:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 04:05:34 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -25,6 +25,55 @@
       <guid isPermaLink="false">pmid:42498336</guid>
       <category>Renal</category>
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
+      <title>EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza</title>
+      <link>https://emcrit.org/emcrit/post-partum-hemorrhage/</link>
+      <guid isPermaLink="false">https://emcrit.org/emcrit/post-partum-hemorrhage/</guid>
+      <category>EMCrit</category>
+      <description>Dr. Cho Espinosa discusses how to manage life-threatening post-partum hemorrhage with a focus on uterotonic administration, physical compression techniques, and coagulopathy management.</description>
+    </item>
+    <item>
+      <title>A Slow Retreat</title>
+      <link>https://emcrit.org/emnerd/a-slow-retreat/</link>
+      <guid isPermaLink="false">https://emcrit.org/emnerd/a-slow-retreat/</guid>
+      <category>EMCrit</category>
+      <description>The standard of care for post-cardiac arrest management, targeted temperature management (TTM), may be based on a flawed premise. The evidence supporting TTM has been questioned. The foundation of TTM is being reevaluated.</description>
+    </item>
+    <item>
+      <title>Diaphragmatic Ultrasonography in Difficult Weaning</title>
+      <link>https://clinicaltrials.gov/study/NCT07751237</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07751237</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers used ultrasound to assess diaphragmatic and extradiaphragmatic muscles in patients with difficult weaning from mechanical ventilation. They found that diaphragmatic ultrasonography can help determine the readiness of patients for weaning. The study suggests that this method may improve the success rate of weaning.</description>
+    </item>
+    <item>
+      <title>Soluble Forms and Ligands of RAGE in ALI/ARDS (SoLiRAGE).</title>
+      <link>https://clinicaltrials.gov/study/NCT01270295</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT01270295</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers studied soluble forms and ligands of RAGE in patients with Acute Lung Injury (ALI) and Acute Respiratory Distress Syndrome (ARDS). They found elevated levels of soluble RAGE in plasma and pulmonary edema fluid from these patients. This may be a novel marker of alveolar epithelial type I cell injury.</description>
+    </item>
+    <item>
+      <title>Pulmonary and Ventilatory Effects of Bed Verticalization in Patients With Acute Respiratory Distress Syndrome</title>
+      <link>https://clinicaltrials.gov/study/NCT04371016</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT04371016</guid>
+      <category>Clinical Trial</category>
+      <description>This study investigated the effects of bed verticalization on patients with acute respiratory distress syndrome (ARDS). The study found no reported pulmonary and ventilatory effects of bed verticalization in patients with ARDS. No specific outcomes were reported.</description>
+    </item>
+    <item>
+      <title>Blood Culture Collection Strategies for Suspected Bloodstream Infection</title>
+      <link>https://clinicaltrials.gov/study/NCT07751575</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07751575</guid>
+      <category>Clinical Trial</category>
+      <description>This study compares two blood culture collection strategies in adults with suspected sepsis. The goal is to evaluate their diagnostic performance and potential impact on patient discomfort and contamination risk.</description>
+    </item>
+    <item>
+      <title>Early Sepsis Recognition Tool</title>
+      <link>https://clinicaltrials.gov/study/NCT07397689</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07397689</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers developed an early recognition tool for sepsis in children based on the Phoenix definition. They also investigated how to implement this tool in clinical practice. The study aimed to address the need for evidence-based approaches to identifying sepsis in diverse healthcare settings in Asia.</description>
     </item>
     <item>
       <title>GRAM NEGATIVES STUDY</title>
@@ -226,98 +275,98 @@
       <title>Burden of and risk factors for neurological complications in critical illness.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377460/</link>
       <guid isPermaLink="false">pmid:42377460</guid>
-      <category>This Week</category>
+      <category>Cardiovascular</category>
       <description>This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.</description>
     </item>
     <item>
       <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
       <guid isPermaLink="false">pmid:42377463</guid>
-      <category>This Week</category>
+      <category>Respiratory</category>
       <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
     </item>
     <item>
       <title>Burden of and risk factors for neurological complications in critical illness.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377460/</link>
       <guid isPermaLink="false">pmid:42377460</guid>
-      <category>This Week</category>
+      <category>Neurology</category>
       <description>This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.</description>
     </item>
     <item>
       <title>Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42294965/</link>
       <guid isPermaLink="false">pmid:42294965</guid>
-      <category>This Week</category>
+      <category>Renal</category>
       <description>Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.</description>
     </item>
     <item>
       <title>Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42467893/</link>
       <guid isPermaLink="false">pmid:42467893</guid>
-      <category>This Week</category>
+      <category>GI &amp; Nutrition</category>
       <description></description>
     </item>
     <item>
       <title>Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42223327/</link>
       <guid isPermaLink="false">pmid:42223327</guid>
-      <category>This Week</category>
+      <category>GI &amp; Nutrition</category>
       <description>Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.</description>
     </item>
     <item>
       <title>Sodium Bicarbonate for Acute Metabolic Acidosis in Critically Ill Adults: A Meta-Analysis of Randomized Clinical Trials.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42171427/</link>
       <guid isPermaLink="false">pmid:42171427</guid>
-      <category>This Week</category>
+      <category>Endocrine &amp; Metabolic</category>
       <description>This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.</description>
     </item>
     <item>
       <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
       <guid isPermaLink="false">pmid:42377463</guid>
-      <category>This Week</category>
+      <category>Infectious Disease &amp; Sepsis</category>
       <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
     </item>
     <item>
       <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
       <guid isPermaLink="false">pmid:42377463</guid>
-      <category>This Week</category>
+      <category>Hematology &amp; Coagulation</category>
       <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
     </item>
     <item>
       <title>Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42223327/</link>
       <guid isPermaLink="false">pmid:42223327</guid>
-      <category>This Week</category>
+      <category>Trauma &amp; Surgical</category>
       <description>Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.</description>
     </item>
     <item>
       <title>Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42149702/</link>
       <guid isPermaLink="false">pmid:42149702</guid>
-      <category>This Week</category>
+      <category>Procedures &amp; POCUS</category>
       <description>Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.</description>
     </item>
     <item>
       <title>Operational Integration and Temporal Validation of a Continuously Deployed ICU Prediction Model.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42233727/</link>
       <guid isPermaLink="false">pmid:42233727</guid>
-      <category>This Week</category>
+      <category>Procedures &amp; POCUS</category>
       <description>Researchers developed and validated a machine learning system that generates hourly predictions for ICU outcomes, such as mortality and discharge. The system was integrated into the electronic medical record and showed strong performance in a single-center study. The system was maintained with automated updates and visualizations.</description>
     </item>
     <item>
       <title>Determinants of Delayed Recovery of Consciousness After Analgosedation Discontinuation in the ICU: Insights From Patients With COVID-19 Hypoxemic Respiratory Failure.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42294965/</link>
       <guid isPermaLink="false">pmid:42294965</guid>
-      <category>This Week</category>
+      <category>Pharmacology</category>
       <description>Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.</description>
     </item>
     <item>
       <title>Reducing Physical Restraint in the ICU: Multicenter Phase II Randomized Trial of a Novel Device Versus Traditional Wrist Restraints.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42206929/</link>
       <guid isPermaLink="false">pmid:42206929</guid>
-      <category>This Week</category>
+      <category>Pharmacology</category>
       <description>OBJECTIVES: To evaluate a novel device, developed under a National Institutes of Health Small Business Technology Transfer program grant, designed as an alternative to traditional wrist restraints. DESIGN: Within-patient crossover phase II randomized trial. SETTING: Four U.S. academic medical centers. PATIENTS: ICU patients ( n = 54) who were verbally responsive with a provider order for wrist restraints and expected stay greater than or equal to 2 days. INTERVENTIONS: Alternating use of novel d</description>
     </item>
     <item>
@@ -375,55 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06701682</guid>
       <category>Clinical Trial</category>
       <description>This study is evaluating the safety and efficacy of vilobelimab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are being randomized to receive either a placebo or vilobelimab. The study aims to assess the benefits of host-directed therapeutics in ARDS patients.</description>
-    </item>
-    <item>
-      <title>Mobile-based Obstetric Monitoring for Pregnancies Complicated by Hypertension and/or Diabetes (MOM-HD)</title>
-      <link>https://clinicaltrials.gov/study/NCT07243886</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07243886</guid>
-      <category>Clinical Trial</category>
-      <description>The study discusses the potential of mobile-based obstetric monitoring for pregnancies complicated by hypertension and/or diabetes. Effective management of these conditions relies on regular monitoring of blood pressure and blood glucose. Telemonitoring is proposed as a cost-effective alternative.</description>
-    </item>
-    <item>
-      <title>Oxygen Extraction-guided Transfusion</title>
-      <link>https://clinicaltrials.gov/study/NCT06102590</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06102590</guid>
-      <category>Clinical Trial</category>
-      <description>This study evaluated the use of oxygen extraction ratio (O2ER) to guide red blood cells transfusion (RBCT) in critically ill patients. The previous study showed that O2ER can help identify the correct timing for RBCT, which may affect 90-day mortality. The current study aimed to further investigate this relationship.</description>
-    </item>
-    <item>
-      <title>JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort B: Paridiprubart</title>
-      <link>https://clinicaltrials.gov/study/NCT06701669</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06701669</guid>
-      <category>Clinical Trial</category>
-      <description>This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.</description>
-    </item>
-    <item>
-      <title>Housing Transitions QUERI</title>
-      <link>https://clinicaltrials.gov/study/NCT05312229</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05312229</guid>
-      <category>Clinical Trial</category>
-      <description>The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.</description>
-    </item>
-    <item>
-      <title>Predictive Validity of the Chelsea Critical Care Physical Assessment Tool (CPAx) for Regaining Autonomy Three Months After ICU Discharge</title>
-      <link>https://clinicaltrials.gov/study/NCT07167121</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07167121</guid>
-      <category>Clinical Trial</category>
-      <description>This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.</description>
-    </item>
-    <item>
-      <title>Effect of Structured Education for Family Members of Intensive Care Patients Undergoing Tracheostomy</title>
-      <link>https://clinicaltrials.gov/study/NCT07737353</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07737353</guid>
-      <category>Clinical Trial</category>
-      <description>This study evaluated the effect of structured education for family members of ICU patients undergoing tracheostomy on their anxiety, well-being, and satisfaction with care. Participants were randomly assigned to either an intervention or control group. The study aimed to assess the impact of this education on family members' emotional and psychological state.</description>
-    </item>
-    <item>
-      <title>A Study to Investigate the Efficacy, Safety, and Tolerability of AZD4144in Participants With Sepsis-associated Acute Kidney Injury.</title>
-      <link>https://clinicaltrials.gov/study/NCT07215702</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07215702</guid>
-      <category>Clinical Trial</category>
-      <description>This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.</description>
     </item>
   </channel>
 </rss>

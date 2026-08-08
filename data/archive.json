@@ -5436,6 +5436,26 @@
       "summary": "As glorious as direct laryngoscopy was, it's time to transition to hyperangulated videolaryngoscopy as the mainstay of intubation among critically ill patients. There are a few reasons for this. [#1/4] People don't do videolaryngoscopy with a MAC blade correctly When videolargynosocopy with a MAC blade came out (hereafter referred to as MAC-VL), it seemed like […] EMCrit Project by Josh Farkas .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emcrit/post-partum-hemorrhage/": {
+      "title": "EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza",
+      "url": "https://emcrit.org/emcrit/post-partum-hemorrhage/",
+      "source": "EMCrit",
+      "author": "Scott Weingart, MD FCCM",
+      "pubdate": "2026-08-07",
+      "summary": "Dr. Cho Espinosa—surgical intensivist, OB-GYN, and flight doc—joins me to overhaul how we handle catastrophic post-partum hemorrhage. Moving past standard ivory-tower guidelines, Sho dives deep into high-yield uterotonic administration, physical compression techniques, and aggressive coagulopathy management. Learn how to temporize severe obstetric exsanguination when you are the only resuscitation",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
+    },
+    "https://emcrit.org/emnerd/a-slow-retreat/": {
+      "title": "A Slow Retreat",
+      "url": "https://emcrit.org/emnerd/a-slow-retreat/",
+      "source": "EMCrit",
+      "author": "Rory Spiegel",
+      "pubdate": "2026-08-07",
+      "summary": "Imagine, for a moment, that targeted temperature management (TTM), the standard of care in post cardiac arrest management for more than two decades, was built on a false premise from the very beginning. Not a hypothesis gradually refined by better evidence, but one whose foundation was fundamentally flawed. The evidentiary basis for TTM rests on […] EMCrit Project by Rory Spiegel .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -6460,6 +6480,53 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13439414/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42559086/",
       "society": "Surviving Sepsis Campaign"
+    },
+    "42565116": {
+      "pmid": "42565116",
+      "title": "Use of [TIMP-2] • [IGFBP7] to identify sepsis-related acute kidney injury in the emergency department.",
+      "journal": "Annals of intensive care",
+      "pubdate": "2026",
+      "authors": [
+        "Cisteró B",
+        "Monforte V",
+        "Navas A",
+        "Tomasa-Irriguible TM",
+        "Camprubí-Rimblas M",
+        "Areny-Balagueró A",
+        "Campaña-Duel E",
+        "Martin I",
+        "Tomas A",
+        "Miñarro I",
+        "Vila M",
+        "Cuevas M",
+        "Teles T",
+        "Savone M",
+        "Stable C",
+        "Salom P",
+        "Guijarro C",
+        "Tajan J",
+        "Goma G",
+        "Diaz E",
+        "Blanch L",
+        "Gene E",
+        "Ostermann M",
+        "Kellum JA",
+        "Honore PM",
+        "Artigas A",
+        "Ceccato A"
+      ],
+      "doi": "10.1016/j.aicoj.2026.100119",
+      "abstract": "Acute kidney injury (AKI) is a common and harmful syndrome associated with sepsis. It is difficult to predict and has an adverse impact on both short- and long-term prognosis. Two urinary biomarkers, tissue inhibitor of metalloproteinases-2 (TIMP-2), and insulin-like growth factor-binding protein 7 (IGFBP7) have been validated for predicting moderate and severe AKI and improving the recognition of organ failure in critically ill patients with sepsis. We aimed to evaluate the performance of these markers for predicting sepsis-related AKI and its evolution in a cohort of patients admitted to the Emergency Department with infectious disease and high risk of sepsis. This single-centre, prospective, observational study included adult patients presenting to the Emergency Department (ED) with suspected infection. Patients were included in the study if they had a National Early Warning Score 2 (NEWS 2) of 3 or higher. Three blood samples were drawn during the first 24 h, and we defined AKI according to the Kidney Disease: Improving Global Outcomes (KDIGO) definition. The first urine sample during ED stay was collected for urinary [TIMP-2]•[ IGFBP7] determination. Higher admission levels of urinary [TIMP-2]•[IGFBP7] were associated with the development of AKI moderate-severe within 24 h (adjusted Odds Ratio 1.24; 95% Confidence Interval 1.07-1.43; p < 0.01). The biomarker showed only modest overall discrimination (AUC 0.67). Still, predefined cut-offs revealed complementary diagnostic roles: low values (<0.3) may help exclude AKI with a negative predictive value of 0.86, whereas the highest values (>2.0) increase its likelihood. Creatinine trajectories and inflammatory profiles were largely similar across groups, except for elevations in IL-10 and IL-1RN in high-risk patients. In conclusion, urinary [TIMP-2]•[IGFBP7] measured on presentation to the ED had only moderate discrimination for sepsis-associated AKI. However, values (<0.3 units) could help to rule out the risk of developing AKI, while values >2.0 indicated high risk.",
+      "citation_count": 40,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "16",
+      "issue": "",
+      "pages": "100119",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13446339/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42565116/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -7075,6 +7142,66 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07750119"
+    },
+    "NCT07751237": {
+      "title": "Diaphragmatic Ultrasonography in Difficult Weaning",
+      "url": "https://clinicaltrials.gov/study/NCT07751237",
+      "source": "Hospital de Clinicas de Porto Alegre",
+      "author": "",
+      "pubdate": "2026-08-07",
+      "summary": "Weaning from mechanical ventilation (MV) is a gradual process that includes several steps until the complete withdrawal of ventilatory support. Difficult weaning is defined as weaning completed only after the first attempt to withdraw the patient from ventilatory support, that is, a patient who failed the first spontaneous breathing trial (SBT). The use of ultrasound (US) to assess diaphragmatic and extradiaphragmatic muscles, such as the parasternal muscles, has been employed to determine diaph",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07751237"
+    },
+    "NCT01270295": {
+      "title": "Soluble Forms and Ligands of RAGE in ALI/ARDS (SoLiRAGE).",
+      "url": "https://clinicaltrials.gov/study/NCT01270295",
+      "source": "University Hospital, Clermont-Ferrand",
+      "author": "",
+      "pubdate": "2026-08-07",
+      "summary": "RAGE, the receptor for advanced glycation end products, is a novel marker of alveolar epithelial type I cell injury. Soluble RAGE (sRAGE) is elevated in the plasma and in the pulmonary edema fluid from patients with ALI/ARDS, but one should acknowledge that the RAGE/NF-B axis is also involved in the pathophysiology of various other conditions. Few data are available about the levels of soluble forms and ligands of RAGE in the setting of ALI/ARDS. The purpose of this observational prospective stu",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT01270295"
+    },
+    "NCT04371016": {
+      "title": "Pulmonary and Ventilatory Effects of Bed Verticalization in Patients With Acute Respiratory Distress Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT04371016",
+      "source": "University Hospital, Clermont-Ferrand",
+      "author": "",
+      "pubdate": "2026-08-07",
+      "summary": "Acute respiratory distress syndrome (ARDS) is defined using the clinical criteria of bilateral pulmonary opacities on a chest radiograph, arterial hypoxemia (partial pressure of arterial oxygen \\[PaO2\\] to fraction of inspired oxygen \\[FiO2\\] ratio ≤ 300 mmHg with positive end-expiratory pressure \\[PEEP\\] ≥ 5 cmH2O) within one week of a clinical insult or new or worsening respiratory symptoms, and the exclusion of cardiac failure as the primary cause. ARDS is a fatal condition for intensive care",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04371016"
+    },
+    "NCT07751575": {
+      "title": "Blood Culture Collection Strategies for Suspected Bloodstream Infection",
+      "url": "https://clinicaltrials.gov/study/NCT07751575",
+      "source": "Izola General Hospital",
+      "author": "",
+      "pubdate": "2026-08-07",
+      "summary": "Blood cultures are the reference standard for diagnosing bloodstream infections and are essential for the management of patients with suspected sepsis. Their diagnostic performance depends strongly on the total volume of blood collected, while each additional venipuncture may increase patient discomfort, staff workload, and the opportunity for contamination. This prospective diagnostic study will evaluate two blood culture collection strategies within the same adult participant. Consecutive pati",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07751575"
+    },
+    "NCT07397689": {
+      "title": "Early Sepsis Recognition Tool",
+      "url": "https://clinicaltrials.gov/study/NCT07397689",
+      "source": "KK Women's and Children's Hospital",
+      "author": "",
+      "pubdate": "2026-08-07",
+      "summary": "This study seeks to develop early recognition tools specially designed for children meeting the Phoenix definition and explore implementation science aspects by investigating facilitators and barriers to adopting Phoenix sepsis criteria in clinical practice. This addresses the critical need for systemic, evidence-based approaches to paediatric sepsis identification across diverse healthcare settings in Asia.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07397689"
     }
   },
   "bottom_line": {
