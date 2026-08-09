@@ -1151,6 +1151,33 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13433414/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42377463/"
+      },
+      "42568095": {
+        "pmid": "42568095",
+        "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 7",
+        "authors": [
+          "Adam MF",
+          "Grunow JJ",
+          "Edel A",
+          "Steinecke K",
+          "Schuster FS",
+          "Spies CD",
+          "Weiss B",
+          "Paul N"
+        ],
+        "doi": "10.1186/s13054-026-06234-z",
+        "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/"
       }
     },
     "neurology": {
@@ -3724,6 +3751,33 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13433414/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42377463/"
+      },
+      "42568095": {
+        "pmid": "42568095",
+        "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 7",
+        "authors": [
+          "Adam MF",
+          "Grunow JJ",
+          "Edel A",
+          "Steinecke K",
+          "Schuster FS",
+          "Spies CD",
+          "Weiss B",
+          "Paul N"
+        ],
+        "doi": "10.1186/s13054-026-06234-z",
+        "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/"
       }
     },
     "hematology-coag": {

@@ -83,6 +83,21 @@
     "summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
     "significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients."
   },
+  "pmid:42568095": {
+    "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
+    "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
+    "design": "stepped-wedge cluster-randomized controlled trial",
+    "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
+    "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
+    "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
+    "management_common_to_both_groups": "not stated",
+    "intervention_fidelity": "not reported",
+    "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
+    "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
+    "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
+    "weaknesses": "small sample size; limited generalizability to other ICUs",
+    "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
+  },
   "pmid:42377463": {
     "clinical_question": "Does a clinical metagenomics intervention improve clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock?",
     "background": "Early pathogen detection is crucial in sepsis, and the authors hypothesized that metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs.",
@@ -665,12 +680,6 @@
     "summary": "This study examined billing practices for telemedicine critical care services among Medicare beneficiaries before, during, and after the COVID-19 pandemic. Billing for these services increased during the pandemic but remained low as a proportion of all critical care bills. There was variability in utilization across different types of hospitals.",
     "significance": "This study highlights the need for further research on the clinical and economic consequences of increased telemedicine critical care billing, particularly in rural and critical access hospitals.",
     "rounds_takeaway": "Consider using telemedicine critical care services for critically ill patients at minor teaching hospitals and safety-net hospitals."
-  },
-  "pmid:42556561": {
-    "key_stats": "n=361, first-attempt success 90.0%, mean number of venipuncture attempts 1.1, CRBSI 4.9%, mechanical complications 4.1%, secondary malposition 2.7%",
-    "summary": "Researchers studied the safety and feasibility of using ultrasound to guide central line placement in newborns. They found that this approach was successful and had low complication rates in three Italian NICUs. The study supports using ultrasound-guided central line placement as an effective option for newborns.",
-    "significance": "This study provides evidence for a safer and more effective approach to central line placement in newborns, which can reduce complications and improve patient outcomes.",
-    "rounds_takeaway": "Consider using ultrasound-guided supraclavicular BCV catheterization for central line placement in newborns."
   },
   "url:https://emcrit.org/emcrit/post-partum-hemorrhage/": {
     "key_stats": "",

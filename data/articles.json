@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T04:05:34+00:00",
+  "generated_at": "2026-08-09T04:10:22+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -338,6 +338,50 @@
         "ai_rounds_takeaway": ""
       },
       {
+        "pmid": "42568095",
+        "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 7",
+        "authors": [
+          "Adam MF",
+          "Grunow JJ",
+          "Edel A",
+          "Steinecke K",
+          "Schuster FS",
+          "Spies CD",
+          "Weiss B",
+          "Paul N"
+        ],
+        "doi": "10.1186/s13054-026-06234-z",
+        "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
+        "ai_appraisal": {
+          "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
+          "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
+          "design": "stepped-wedge cluster-randomized controlled trial",
+          "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
+          "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
+          "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
+          "management_common_to_both_groups": "not stated",
+          "intervention_fidelity": "not reported",
+          "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
+          "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
+          "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
+          "weaknesses": "small sample size; limited generalizability to other ICUs",
+          "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
+        },
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42565664",
         "title": "Telemedicine Critical Care Billing For Hospitalized Medicare Fee-For-Service Beneficiaries, 2018-2024.",
         "journal": "Critical care medicine",
@@ -367,40 +411,7 @@
         "ai_key_stats": "n=not reported, aOR 1.21 (95% CI 1.03-1.43), aOR 1.33 (95% CI 1.04-1.70), aOR 0.39 (95% CI 0.26-0.58), aOR 0.70 (95% CI 0.57-0.86), aOR 0.58 (95% CI 0.48-0.71), aOR 0.70 (95% CI 0.55-0.89), aOR 0.59 (95% CI 0.47-0.73)",
         "ai_summary": "This study examined billing practices for telemedicine critical care services among Medicare beneficiaries before, during, and after the COVID-19 pandemic. Billing for these services increased during the pandemic but remained low as a proportion of all critical care bills. There was variability in utilization across different types of hospitals.",
         "ai_significance": "This study highlights the need for further research on the clinical and economic consequences of increased telemedicine critical care billing, particularly in rural and critical access hospitals.",
-        "ai_rounds_takeaway": "Consider using telemedicine critical care services for critically ill patients at minor teaching hospitals and safety-net hospitals.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
-      },
-      {
-        "pmid": "42556561",
-        "title": "Safety and Feasibility of Ultrasound-Guided Brachiocephalic Venipuncture for Centrally Inserted Central Catheters in Newborns: A Multicenter Observational Study.",
-        "journal": "Chest",
-        "pubdate": "2026 Aug 5",
-        "authors": [
-          "Prontera G",
-          "Cerreti M",
-          "D'Andrea V",
-          "Monachini C",
-          "Tota F",
-          "Ancora G",
-          "Vento G",
-          "Barone G"
-        ],
-        "doi": "10.1016/j.chest.2026.07.5221",
-        "abstract": "BACKGROUND: Ultrasound-guided supraclavicular cannulation of the brachiocephalic vein (BCV) is a promising approach for neonatal central venous access, but multicenter data on feasibility, safety, and reproducibility remain limited. RESEARCH QUESTION: In critically ill neonates requiring centrally inserted central catheters (CICCs), is ultrasound-guided supraclavicular BCV access feasible across centers and associated with low procedural and catheter-related complication rates? STUDY DESIGN AND METHODS: We conducted a retrospective multicenter observational study in three level III NICUs in Italy, including 361 BCV venipunctures for CICC placement from January 2022 to December 2025. We collected demographic, procedural, and outcome data from electronic and paper records. Primary outcomes were immediate procedural complications, venipuncture attempts, first-attempt success, and catheter dwell time; secondary outcomes included catheter-related bloodstream infection (CRBSI), mechanical complications, and secondary malposition. Analyses were descriptive. RESULTS: Median weight at insertion was 2500 g and median age was 16 days; median catheter dwell time was 20 days, yielding 10,575 catheter-days of follow-up. All 361 CICCs were successfully placed. First-attempt success occurred in 325 procedures (90.0%), and the mean number of venipuncture attempts was 1.1 per patient. No immediate major complications occurred, including arterial puncture, pneumothorax, or hemothorax. CRBSI occurred in 18 catheters (4.9%; 1.7 per 1000 catheter-days), mechanical complications in 15 (4.1%), and secondary malposition in 10 (2.7%). INTERPRETATION: Ultrasound-guided supraclavicular BCV catheterization was feasible, reproducible, and associated with low immediate complication rates across three NICUs. These findings support this technique as an effective option for neonatal central venous access when performed within a standardized ultrasound-guided protocol.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42556561/",
-        "ai_key_stats": "n=361, first-attempt success 90.0%, mean number of venipuncture attempts 1.1, CRBSI 4.9%, mechanical complications 4.1%, secondary malposition 2.7%",
-        "ai_summary": "Researchers studied the safety and feasibility of using ultrasound to guide central line placement in newborns. They found that this approach was successful and had low complication rates in three Italian NICUs. The study supports using ultrasound-guided central line placement as an effective option for newborns.",
-        "ai_significance": "This study provides evidence for a safer and more effective approach to central line placement in newborns, which can reduce complications and improve patient outcomes.",
-        "ai_rounds_takeaway": "Consider using ultrasound-guided supraclavicular BCV catheterization for central line placement in newborns."
+        "ai_rounds_takeaway": "Consider using telemedicine critical care services for critically ill patients at minor teaching hospitals and safety-net hospitals."
       }
     ]
   },
@@ -419,9 +430,7 @@
         "ai_key_stats": "",
         "ai_summary": "Dr. Cho Espinosa discusses how to manage life-threatening post-partum hemorrhage with a focus on uterotonic administration, physical compression techniques, and coagulopathy management.",
         "ai_significance": "This matters for ICU clinical practice as it provides a practical approach to managing a common and potentially catastrophic obstetric emergency.",
-        "ai_rounds_takeaway": "Consider aggressive coagulopathy management in patients with severe post-partum hemorrhage.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider aggressive coagulopathy management in patients with severe post-partum hemorrhage."
       },
       {
         "title": "A Slow Retreat",
@@ -435,9 +444,7 @@
         "ai_key_stats": "",
         "ai_summary": "The standard of care for post-cardiac arrest management, targeted temperature management (TTM), may be based on a flawed premise. The evidence supporting TTM has been questioned. The foundation of TTM is being reevaluated.",
         "ai_significance": "This challenges the current standard of care for post-cardiac arrest patients, potentially leading to a reevaluation of treatment protocols. The implications for patient care are significant.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "PulmCrit Wee: Four reasons that hyperangulated videolaryngoscopy should be the mainstay of ICU intubations",
@@ -709,7 +716,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effect of limiting oxygen exposure on unresponsive patients after cardiac arrest. The results showed that conservative oxygen therapy did not increase the likelihood of survival. The study included 1200 patients.",
         "ai_significance": "This study's findings have implications for ICU practice, as they suggest that conservative oxygen therapy may not be necessary for unresponsive patients after cardiac arrest. This could lead to changes in oxygenation strategies.",
-        "ai_rounds_takeaway": "Consider avoiding aggressive oxygen therapy in unresponsive patients after cardiac arrest unless there is a clear indication for it."
+        "ai_rounds_takeaway": "Consider avoiding aggressive oxygen therapy in unresponsive patients after cardiac arrest unless there is a clear indication for it.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Emergency Evidence Updates – June 2026",
@@ -1957,9 +1966,7 @@
         "ai_key_stats": "n=not reported, OR 1.24 (95% CI 1.07-1.43), p<0.01",
         "ai_summary": "Researchers studied the use of two urinary biomarkers, TIMP-2 and IGFBP7, to predict sepsis-related acute kidney injury (AKI) in patients admitted to the emergency department. They found that higher levels of these biomarkers were associated with the development of AKI, but the markers had only moderate overall discrimination. The biomarkers may help rule out or indicate a high risk of AKI.",
         "ai_significance": "This study provides a potential tool for clinicians to quickly identify patients at risk of sepsis-related AKI, which could improve patient outcomes and reduce the need for unnecessary interventions.",
-        "ai_rounds_takeaway": "Consider measuring urinary TIMP-2 and IGFBP7 levels in patients with suspected sepsis to help rule out AKI risk.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider measuring urinary TIMP-2 and IGFBP7 levels in patients with suspected sepsis to help rule out AKI risk."
       },
       {
         "pmid": "42415882",
@@ -2917,6 +2924,98 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42568095",
+        "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 7",
+        "authors": [
+          "Adam MF",
+          "Grunow JJ",
+          "Edel A",
+          "Steinecke K",
+          "Schuster FS",
+          "Spies CD",
+          "Weiss B",
+          "Paul N"
+        ],
+        "doi": "10.1186/s13054-026-06234-z",
+        "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
+        "ai_appraisal": {
+          "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
+          "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
+          "design": "stepped-wedge cluster-randomized controlled trial",
+          "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
+          "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
+          "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
+          "management_common_to_both_groups": "not stated",
+          "intervention_fidelity": "not reported",
+          "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
+          "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
+          "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
+          "weaknesses": "small sample size; limited generalizability to other ICUs",
+          "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
+        },
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory"
+      },
+      {
+        "pmid": "42568095",
+        "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 7",
+        "authors": [
+          "Adam MF",
+          "Grunow JJ",
+          "Edel A",
+          "Steinecke K",
+          "Schuster FS",
+          "Spies CD",
+          "Weiss B",
+          "Paul N"
+        ],
+        "doi": "10.1186/s13054-026-06234-z",
+        "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
+        "ai_appraisal": {
+          "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
+          "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
+          "design": "stepped-wedge cluster-randomized controlled trial",
+          "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
+          "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
+          "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
+          "management_common_to_both_groups": "not stated",
+          "intervention_fidelity": "not reported",
+          "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
+          "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
+          "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
+          "weaknesses": "small sample size; limited generalizability to other ICUs",
+          "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
+        },
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "infectious-sepsis",
+        "category_label": "Infectious Disease & Sepsis"
+      },
+      {
         "pmid": "42267831",
         "title": "Conservative Oxygen for Unresponsive Patients after Cardiac Arrest.",
         "journal": "The New England journal of medicine",
@@ -3093,9 +3192,7 @@
         "ai_key_stats": "n=120, RR not reported, ARR not reported, NNT not reported, p=0.01",
         "ai_summary": "Researchers used ultrasound to assess diaphragmatic and extradiaphragmatic muscles in patients with difficult weaning from mechanical ventilation. They found that diaphragmatic ultrasonography can help determine the readiness of patients for weaning. The study suggests that this method may improve the success rate of weaning.",
         "ai_significance": "This study provides a non-invasive tool to assess muscle readiness for weaning, which can improve patient outcomes and reduce the duration of mechanical ventilation.",
-        "ai_rounds_takeaway": "Consider using diaphragmatic ultrasonography to assess readiness for weaning in patients who have failed the first spontaneous breathing trial.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using diaphragmatic ultrasonography to assess readiness for weaning in patients who have failed the first spontaneous breathing trial."
       },
       {
         "title": "Soluble Forms and Ligands of RAGE in ALI/ARDS (SoLiRAGE).",
@@ -3111,9 +3208,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied soluble forms and ligands of RAGE in patients with Acute Lung Injury (ALI) and Acute Respiratory Distress Syndrome (ARDS). They found elevated levels of soluble RAGE in plasma and pulmonary edema fluid from these patients. This may be a novel marker of alveolar epithelial type I cell injury.",
         "ai_significance": "This study identifies a potential new marker for alveolar epithelial type I cell injury in ALI/ARDS, which could aid in diagnosis and treatment.",
-        "ai_rounds_takeaway": "Consider checking soluble RAGE levels in patients with suspected ALI/ARDS to aid in diagnosis.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider checking soluble RAGE levels in patients with suspected ALI/ARDS to aid in diagnosis."
       },
       {
         "title": "Pulmonary and Ventilatory Effects of Bed Verticalization in Patients With Acute Respiratory Distress Syndrome",
@@ -3129,9 +3224,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effects of bed verticalization on patients with acute respiratory distress syndrome (ARDS). The study found no reported pulmonary and ventilatory effects of bed verticalization in patients with ARDS. No specific outcomes were reported.",
         "ai_significance": "Understanding the effects of bed verticalization in ARDS patients is crucial for optimizing intensive care unit (ICU) management and improving patient outcomes. This study's findings contribute to the existing knowledge on ARDS management.",
-        "ai_rounds_takeaway": "No change to current practice — bed verticalization does not appear to have a significant impact on ARDS patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "No change to current practice — bed verticalization does not appear to have a significant impact on ARDS patients."
       },
       {
         "title": "Blood Culture Collection Strategies for Suspected Bloodstream Infection",
@@ -3147,9 +3240,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares two blood culture collection strategies in adults with suspected sepsis. The goal is to evaluate their diagnostic performance and potential impact on patient discomfort and contamination risk.",
         "ai_significance": "Accurate diagnosis of bloodstream infections is crucial for sepsis management, and optimizing blood culture collection strategies can improve patient outcomes and reduce healthcare-associated complications.",
-        "ai_rounds_takeaway": "Consider using a single, larger blood culture collection in patients with suspected sepsis to minimize venipunctures and potential contamination risk.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a single, larger blood culture collection in patients with suspected sepsis to minimize venipunctures and potential contamination risk."
       },
       {
         "title": "Early Sepsis Recognition Tool",
@@ -3165,9 +3256,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed an early recognition tool for sepsis in children based on the Phoenix definition. They also investigated how to implement this tool in clinical practice. The study aimed to address the need for evidence-based approaches to identifying sepsis in diverse healthcare settings in Asia.",
         "ai_significance": "This study is significant for ICU clinical practice as it aims to improve sepsis identification in children, which can lead to better outcomes. Developing evidence-based approaches to sepsis recognition is crucial in diverse healthcare settings.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "GRAM NEGATIVES STUDY",
@@ -3391,9 +3480,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
         "ai_significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
-        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment."
       },
       {
         "title": "Epidemiology and Overtime Genomic Evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex (ECC) in Stools of ICU's Patients",
@@ -3409,9 +3496,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explores the epidemiology and genomic evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex in ICU patients, highlighting the risk of infection and the emergence of multidrug-resistant isolates.",
         "ai_significance": "Understanding the spread of these bacteria is crucial for developing effective infection control strategies in ICUs, where patients are at high risk of acquiring and dying from infections.",
-        "ai_rounds_takeaway": "Consider implementing enhanced infection control measures, such as improved hand hygiene and environmental cleaning, to reduce the spread of multidrug-resistant bacteria in the ICU.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider implementing enhanced infection control measures, such as improved hand hygiene and environmental cleaning, to reduce the spread of multidrug-resistant bacteria in the ICU."
       },
       {
         "title": "Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS",
@@ -3427,9 +3512,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
         "ai_significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
@@ -3445,9 +3528,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
         "ai_significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Monitoring of Neuromuscular Blockade in the Intensive Care Unit: a Reliability Study",
@@ -3463,9 +3544,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the reliability of neuromuscular blockade monitoring in adult ICU patients. It aimed to determine if clinicians can accurately detect neuromuscular blockade and if monitoring is safe. The study found that monitoring was reliable and safe.",
         "ai_significance": "This study's findings are significant for ICU clinical practice as accurate neuromuscular blockade monitoring is crucial for patient safety and effective care.",
-        "ai_rounds_takeaway": "Monitor neuromuscular blockade every 24 hours in adult ICU patients to ensure safety and detect potential issues.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Monitor neuromuscular blockade every 24 hours in adult ICU patients to ensure safety and detect potential issues."
       },
       {
         "title": "Vasopressin for Septic Shock Pragmatic Trial",
@@ -3481,9 +3560,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study will evaluate two different strategies for treating septic shock with vasopressors, focusing on when to add vasopressin. The trial aims to determine the optimal threshold for starting vasopressin in septic shock treatment. The study design is a pragmatic, cluster-randomized, cluster-crossover trial.",
         "ai_significance": "Understanding the optimal threshold for starting vasopressin in septic shock treatment can improve patient outcomes and guide clinical decision-making in the ICU.",
-        "ai_rounds_takeaway": "Consider adding vasopressin in patients with septic shock who do not respond to first-line vasopressors.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider adding vasopressin in patients with septic shock who do not respond to first-line vasopressors."
       },
       {
         "title": "Microbial Metabolites and Outcomes of Pregnancy Study",
@@ -3499,9 +3576,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explores the connection between diet, gut microbiota, and hypertensive disorders of pregnancy, a leading cause of maternal and neonatal morbidity.",
         "ai_significance": "Understanding the role of diet and gut microbiota in hypertensive disorders of pregnancy may lead to new preventive and therapeutic strategies.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Intranasal Insulin to Prevent Intensive Care Unit Delirium",
@@ -3517,9 +3592,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explored the potential of intranasal insulin to prevent delirium in elderly ICU patients after complex cardiac surgery. The study aimed to assess the feasibility, tolerability, and efficacy of this treatment. No results were reported.",
         "ai_significance": "Preventing delirium in elderly ICU patients is crucial for improving their outcomes and quality of life. This study's findings could inform future research on delirium prevention in this high-risk population.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Epidural Analgesia for Pancreatitis (Epipan Study)",
@@ -3535,9 +3608,7 @@
         "ai_key_stats": "",
         "ai_summary": "The Epipan Study discusses acute pancreatitis (AP) management, noting that 80% of patients develop mild disease and 20% develop severe disease with local complications.",
         "ai_significance": "Understanding the management of AP is crucial for ICU clinicians to provide appropriate care for patients with this condition.",
-        "ai_rounds_takeaway": "Consider conservative management for patients with mild acute pancreatitis.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider conservative management for patients with mild acute pancreatitis."
       },
       {
         "title": "Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia",
@@ -3553,9 +3624,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
         "ai_significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Optimization of Beta-lactam Dosing in Critically Ill Patients With Cystatin C (OPTIMIZE-GNI)",
@@ -3571,9 +3640,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares the accuracy of two methods (Cystatin C and eGFR equations) for estimating kidney function in critically ill patients with suspected or documented AMR Gram-negative infections. The study aims to optimize beta-lactam dosing in these patients. The study will involve up to 200 adult patients in an ICU.",
         "ai_significance": "Optimizing beta-lactam dosing in critically ill patients with kidney dysfunction is crucial for effective treatment of AMR Gram-negative infections.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS (Master Record)",
@@ -3589,9 +3656,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study is a Phase 2 trial evaluating the safety and efficacy of host-directed therapeutics in adults with Acute Respiratory Distress Syndrome (ARDS). The trial uses a platform trial design and will randomize participants to receive either a placebo or an active treatment. The study aims to assess the safety and efficacy of these innovative therapies.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires effective management in the ICU. The findings could inform the development of novel therapeutic strategies for this condition.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort C: Bevacizumab",
@@ -3607,9 +3672,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates the safety and efficacy of bevacizumab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are randomized to receive either a placebo or bevacizumab. The study is a Phase 2 multicenter, randomized, double-blinded, placebo-controlled trial.",
         "ai_significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment. The results could lead to improved patient outcomes and survival rates.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
@@ -3625,9 +3688,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
         "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
-        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort A: Vilobelimab",
@@ -3643,9 +3704,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study is evaluating the safety and efficacy of vilobelimab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are being randomized to receive either a placebo or vilobelimab. The study aims to assess the benefits of host-directed therapeutics in ARDS patients.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires innovative therapies. The findings could lead to improved patient outcomes and better management of ARDS in ICU settings.",
-        "ai_rounds_takeaway": "Consider vilobelimab as a potential treatment option for patients with ARDS who are not responding to standard therapies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider vilobelimab as a potential treatment option for patients with ARDS who are not responding to standard therapies."
       },
       {
         "title": "Mobile-based Obstetric Monitoring for Pregnancies Complicated by Hypertension and/or Diabetes (MOM-HD)",
@@ -3661,9 +3720,7 @@
         "ai_key_stats": "",
         "ai_summary": "The study discusses the potential of mobile-based obstetric monitoring for pregnancies complicated by hypertension and/or diabetes. Effective management of these conditions relies on regular monitoring of blood pressure and blood glucose. Telemonitoring is proposed as a cost-effective alternative.",
         "ai_significance": "This study highlights the importance of remote monitoring in managing high-risk pregnancies, which could improve maternal and fetal outcomes worldwide.",
-        "ai_rounds_takeaway": "Consider using mobile-based telemonitoring for pregnant patients with hypertension and/or diabetes to enhance blood pressure and blood glucose control.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using mobile-based telemonitoring for pregnant patients with hypertension and/or diabetes to enhance blood pressure and blood glucose control."
       },
       {
         "title": "Oxygen Extraction-guided Transfusion",
@@ -3679,7 +3736,9 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study evaluated the use of oxygen extraction ratio (O2ER) to guide red blood cells transfusion (RBCT) in critically ill patients. The previous study showed that O2ER can help identify the correct timing for RBCT, which may affect 90-day mortality. The current study aimed to further investigate this relationship.",
         "ai_significance": "Optimizing red blood cells transfusion strategies in ICU settings can significantly impact patient outcomes, and this study contributes to the ongoing debate on the best approach.",
-        "ai_rounds_takeaway": "Consider using oxygen extraction ratio to guide red blood cells transfusion in critically ill patients with hemoglobin levels < 7.0 g/dL."
+        "ai_rounds_takeaway": "Consider using oxygen extraction ratio to guide red blood cells transfusion in critically ill patients with hemoglobin levels < 7.0 g/dL.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort B: Paridiprubart",
@@ -3695,7 +3754,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.",
         "ai_significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Housing Transitions QUERI",
@@ -3711,7 +3772,9 @@
         "ai_key_stats": "",
         "ai_summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
         "ai_significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Predictive Validity of the Chelsea Critical Care Physical Assessment Tool (CPAx) for Regaining Autonomy Three Months After ICU Discharge",
@@ -3727,7 +3790,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
         "ai_significance": "Understanding the predictive validity of the CPAx score can help clinicians identify patients at risk of poor functional outcomes after ICU discharge, allowing for targeted interventions.",
-        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge."
+        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of Structured Education for Family Members of Intensive Care Patients Undergoing Tracheostomy",
@@ -3743,7 +3808,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the effect of structured education for family members of ICU patients undergoing tracheostomy on their anxiety, well-being, and satisfaction with care. Participants were randomly assigned to either an intervention or control group. The study aimed to assess the impact of this education on family members' emotional and psychological state.",
         "ai_significance": "This study highlights the importance of supporting family members of ICU patients undergoing tracheostomy, as their emotional well-being can significantly impact patient outcomes. Structured education may be a valuable tool in addressing their concerns and improving care satisfaction.",
-        "ai_rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care."
+        "ai_rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Investigate the Efficacy, Safety, and Tolerability of AZD4144in Participants With Sepsis-associated Acute Kidney Injury.",
@@ -3759,7 +3826,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients",
@@ -3775,7 +3844,9 @@
         "ai_key_stats": "",
         "ai_summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
         "ai_significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Phase 2b Study to Investigate the Safety and Efficacy of TIN816 in Sepsis-associated Acute Kidney Injury (CLEAR-AKI)",
@@ -3791,7 +3862,9 @@
         "ai_key_stats": "",
         "ai_summary": "This Phase 2b study investigated the safety and efficacy of TIN816 in patients with sepsis-associated acute kidney injury (SA-AKI). Three different single doses of TIN816 were evaluated in hospitalized adult participants in an intensive care setting. The study aimed to characterize the dose-response relationship.",
         "ai_significance": "This study is significant for ICU clinical practice as it aims to find a treatment for sepsis-associated acute kidney injury, a serious complication in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Microbiome and Enteric Signatures in Sepsis-associated Hepatorenal Injury",
@@ -3807,7 +3880,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated the relationship between gut microbiome and enteric signatures in patients with sepsis-associated hepatorenal injury. They found that altered gut microbial diversity and microbial metabolites may contribute to hepato-renal injury during sepsis. However, prospective longitudinal evidence in patients with sepsis-associated liver injury and acute kidney injury remains limited.",
         "ai_significance": "This study highlights the need for further research into the gut microbiome's role in sepsis-associated complications, which could lead to new therapeutic targets for improving patient outcomes.",
-        "ai_rounds_takeaway": "Consider evaluating gut microbiome in patients with sepsis-associated liver injury and acute kidney injury to inform potential targeted interventions."
+        "ai_rounds_takeaway": "Consider evaluating gut microbiome in patients with sepsis-associated liver injury and acute kidney injury to inform potential targeted interventions.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ultrasound vs. Nasofibroscopy for Evaluating Dysphagia After Extubation in the ICU",
@@ -3823,7 +3898,9 @@
         "ai_key_stats": "n=120, Kappa index not reported, p not reported",
         "ai_summary": "This observational study compared the diagnostic performance of bedside cervical ultrasonography to nasofibroscopy (FEES) for detecting post-extubation dysphagia in critically ill adult patients. The study aimed to evaluate the degree of diagnostic concordance between the two methods. No significant results were reported.",
         "ai_significance": "Accurate diagnosis of post-extubation dysphagia is crucial for preventing aspiration and improving patient outcomes in the ICU. This study's findings can inform the choice of diagnostic tool for critically ill patients.",
-        "ai_rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients"
+        "ai_rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "SEPSIS EARLY WARNING: NEWS2 VS MACHINE LEARNING",
@@ -3839,7 +3916,9 @@
         "ai_key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
         "ai_summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
         "ai_significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
-        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
+        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Fecal Lactate and Resuscitation Outcomes in Critical Illness",
@@ -3855,7 +3934,9 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study investigated the use of fecal lactate as an early biomarker of tissue hypoperfusion in critically ill patients. Fecal lactate levels were measured within the first 12-24 hours to predict poor response to resuscitation at 24 hours. The study found that fecal lactate levels were associated with resuscitation outcomes.",
         "ai_significance": "This study provides valuable information for clinicians to identify critically ill patients at risk of poor response to resuscitation, allowing for timely intervention.",
-        "ai_rounds_takeaway": "Consider fecal lactate levels in patients with suspected tissue hypoperfusion to guide resuscitation efforts."
+        "ai_rounds_takeaway": "Consider fecal lactate levels in patients with suspected tissue hypoperfusion to guide resuscitation efforts.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients",
@@ -3871,7 +3952,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.",
         "ai_significance": "Understanding the determinants of long-term recovery in ICU patients is crucial for improving functional outcomes and reducing the burden of post-intensive care syndrome.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ultrasound Detection of Body Composition in Critical Care",
@@ -3887,7 +3970,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
         "ai_significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Risk Factors for Adverse Outcomes in Sepsis",
@@ -3903,7 +3988,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
         "ai_significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Role of the Kallikrein-kinin System in Septic Cardiomyopathy",
@@ -3919,7 +4006,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied the kallikrein-kinin system in septic cardiomyopathy to see if certain molecules are differently expressed and how they are regulated.",
         "ai_significance": "Understanding the kallikrein-kinin system could help develop new treatments for septic cardiomyopathy, a serious complication of sepsis.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial",
@@ -3935,7 +4024,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared standard antibiotic testing to a faster testing method for patients with Gram-negative bacteria in their blood. Patients were randomly assigned to receive either standard testing or faster testing, in addition to standard testing. The faster testing method did not improve clinical outcomes.",
         "ai_significance": "This study's findings are important for ICU clinicians as they inform the use of rapid antibiotic susceptibility testing in patients with Gram-negative bacteremia, which can guide treatment decisions and potentially improve patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Wireless MicroPremVitals Button Sensor in the NICU",
@@ -3951,7 +4042,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed a small, wireless sensor to monitor vital signs in extremely preterm babies, including heart rate, oxygen levels, and body temperature.",
         "ai_significance": "This technology could improve monitoring and care for vulnerable newborns, potentially reducing complications and improving outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Adrenal Function in Critical Illness",
@@ -3967,7 +4060,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
         "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Real-time Evaluation and Continuous Observation of Vital Signs for Enhanced Recovery: a Study for the Early Identification of Complications in the Surgical Ward Following Surgery in Patients Not Eligible for Intensive Care Admission.",
@@ -3983,7 +4078,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.",
         "ai_significance": "Early detection of postoperative complications can improve patient outcomes and reduce morbidity and mortality. This study's findings can inform the use of wearable devices in surgical wards to enhance patient care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Disseminated Intravascular Coagulation (DIC) Score and Organ Dysfunction in Septic Shock Patients",
@@ -3999,7 +4096,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the relationship between Disseminated Intravascular Coagulation (DIC) score and organ dysfunction in septic shock patients. DIC is a common condition in patients with sepsis and septic shock, and its coexistence with septic shock increases mortality and morbidity. The study aimed to understand the impact of DIC on organ dysfunction in septic shock patients.",
         "ai_significance": "Understanding the relationship between DIC and organ dysfunction in septic shock patients is crucial for developing targeted interventions to improve outcomes in critically ill patients.",
-        "ai_rounds_takeaway": "Assess DIC score in septic shock patients to identify those at higher risk of organ dysfunction."
+        "ai_rounds_takeaway": "Assess DIC score in septic shock patients to identify those at higher risk of organ dysfunction.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       }
     ]
   },
