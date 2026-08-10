@@ -681,6 +681,18 @@
     "significance": "This study highlights the need for further research on the clinical and economic consequences of increased telemedicine critical care billing, particularly in rural and critical access hospitals.",
     "rounds_takeaway": "Consider using telemedicine critical care services for critically ill patients at minor teaching hospitals and safety-net hospitals."
   },
+  "pmid:42556561": {
+    "key_stats": "n=361, first-attempt success 90.0%, mean number of venipuncture attempts 1.1, catheter-related bloodstream infection 4.9%, mechanical complications 4.1%, secondary malposition 2.7%",
+    "summary": "Researchers conducted a multicenter study to evaluate the safety and feasibility of using ultrasound-guided brachiocephalic venipuncture for central catheter placement in newborns. They found that this approach was successful in 90% of attempts and had low complication rates. The study supports the use of this technique for neonatal central venous access.",
+    "significance": "This study provides evidence for the use of ultrasound-guided brachiocephalic venipuncture as a safe and effective approach for central catheter placement in newborns, which can improve patient outcomes and reduce complications.",
+    "rounds_takeaway": "Consider using ultrasound-guided brachiocephalic venipuncture for central catheter placement in newborns when feasible."
+  },
+  "pmid:42554605": {
+    "key_stats": "n=568340, OR 0.997 (95% CI 0.995-0.998), p < 0.001",
+    "summary": "This study looked at how the volume of ICU patients affects mortality rates. They found that hospitals with more patients with severe illnesses (high SOFA scores) had lower mortality rates. The relationship between volume and mortality became stronger as the severity of illness increased.",
+    "significance": "This study's findings suggest that hospitals with more experience in treating critically ill patients may have better outcomes, which could inform staffing and resource allocation decisions.",
+    "rounds_takeaway": "Consider transferring patients with high SOFA scores to high-volume ICUs for better outcomes."
+  },
   "url:https://emcrit.org/emcrit/post-partum-hemorrhage/": {
     "key_stats": "",
     "summary": "Dr. Cho Espinosa discusses how to manage life-threatening post-partum hemorrhage with a focus on uterotonic administration, physical compression techniques, and coagulopathy management.",
@@ -920,6 +932,12 @@
     "summary": "Researchers studied the use of two urinary biomarkers, TIMP-2 and IGFBP7, to predict sepsis-related acute kidney injury (AKI) in patients admitted to the emergency department. They found that higher levels of these biomarkers were associated with the development of AKI, but the markers had only moderate overall discrimination. The biomarkers may help rule out or indicate a high risk of AKI.",
     "significance": "This study provides a potential tool for clinicians to quickly identify patients at risk of sepsis-related AKI, which could improve patient outcomes and reduce the need for unnecessary interventions.",
     "rounds_takeaway": "Consider measuring urinary TIMP-2 and IGFBP7 levels in patients with suspected sepsis to help rule out AKI risk."
+  },
+  "pmid:42571343": {
+    "key_stats": "n=1436, 43.2% developed AKI, 40.9% successfully liberated from KRT, 24.3% failed, 90% specificity for liberation failure with PENK cut-off ≥250 pmol/L",
+    "summary": "This study evaluated the use of proenkephalin A (PENK) to assess kidney integrity and guide kidney replacement therapy (KRT) decisions in critically ill patients. PENK levels were found to be a strong predictor of KRT liberation failure and may aid in the assessment of residual kidney function during KRT. The study suggests that PENK may be a useful biomarker for guiding KRT decisions.",
+    "significance": "This study has significant implications for ICU clinical practice as it provides a potential new biomarker for assessing kidney function and guiding KRT decisions, which may lead to improved patient outcomes.",
+    "rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients."
   },
   "pmid:42415882": {
     "summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
