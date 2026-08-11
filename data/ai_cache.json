@@ -260,6 +260,12 @@
     "summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
     "significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population."
   },
+  "pmid:42573413": {
+    "key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
+    "summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+    "significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
+    "rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
+  },
   "pmid:42294965": {
     "summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
     "significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care."
@@ -687,12 +693,6 @@
     "significance": "This study provides evidence for the use of ultrasound-guided brachiocephalic venipuncture as a safe and effective approach for central catheter placement in newborns, which can improve patient outcomes and reduce complications.",
     "rounds_takeaway": "Consider using ultrasound-guided brachiocephalic venipuncture for central catheter placement in newborns when feasible."
   },
-  "pmid:42554605": {
-    "key_stats": "n=568340, OR 0.997 (95% CI 0.995-0.998), p < 0.001",
-    "summary": "This study looked at how the volume of ICU patients affects mortality rates. They found that hospitals with more patients with severe illnesses (high SOFA scores) had lower mortality rates. The relationship between volume and mortality became stronger as the severity of illness increased.",
-    "significance": "This study's findings suggest that hospitals with more experience in treating critically ill patients may have better outcomes, which could inform staffing and resource allocation decisions.",
-    "rounds_takeaway": "Consider transferring patients with high SOFA scores to high-volume ICUs for better outcomes."
-  },
   "url:https://emcrit.org/emcrit/post-partum-hemorrhage/": {
     "key_stats": "",
     "summary": "Dr. Cho Espinosa discusses how to manage life-threatening post-partum hemorrhage with a focus on uterotonic administration, physical compression techniques, and coagulopathy management.",
@@ -946,6 +946,54 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07656259": {
+    "key_stats": "",
+    "summary": "The COMPARE-VENT Feasibility Pilot Study explored the challenges of cardiac intensive care unit (CICU) admissions, particularly those requiring advanced respiratory support and invasive mechanical ventilation (IMV). These patients often have impaired cardiovascular reserve, making them vulnerable to the adverse effects of positive pressure ventilation (PPV) and systemic sedation. The study aimed to assess the feasibility of a new approach to address these challenges.",
+    "significance": "This study highlights the need for innovative strategies to manage cardiac patients with respiratory insufficiency, who are at high risk of complications and poor outcomes. Effective management of these patients is crucial for improving survival and quality of life.",
+    "rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07694687": {
+    "key_stats": "",
+    "summary": "This study observed whether family members can identify signs of delirium in ICU patients that may not be detected by routine screening. Participants received usual medical care. Family members were asked to report any signs of delirium.",
+    "significance": "Early identification of delirium by family members can help improve patient care and outcomes in the ICU.",
+    "rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients."
+  },
+  "url:https://clinicaltrials.gov/study/NCT04972526": {
+    "key_stats": "",
+    "summary": "This study evaluated the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) in critically-ill patients. The study aimed to determine the clinical impact and safety of TEE performed during routine clinical care. No specific findings were reported.",
+    "significance": "This study's findings on the clinical impact and safety of TEE can inform ICU clinical practice and decision-making for critically-ill patients. The results may help guide the use of TEE in emergency and intensive care settings.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT01600651": {
+    "key_stats": "",
+    "summary": "This study investigated the effect of a recruitment maneuver on plasma sRAGE levels in patients with ALI/ARDS. The study found that a recruitment maneuver increased plasma sRAGE levels. The study was a prospective monocentric randomized controlled cross-over study.",
+    "significance": "This study's findings may help clinicians understand the relationship between ventilatory interventions and biomarkers of alveolar epithelial type I cell injury in patients with ALI/ARDS, which could inform ventilator management strategies.",
+    "rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels."
+  },
+  "url:https://clinicaltrials.gov/study/NCT04288635": {
+    "key_stats": "",
+    "summary": "This preclinical study investigated the impact of exogenous metabolites on restoring mitochondrial function in septic shock patients with lactate acidosis. The study aimed to evaluate the effect of metabolite supplementation on mitochondrial metabolism in septic shock. The results of this study are not reported.",
+    "significance": "Restoring mitochondrial function in septic shock patients could potentially improve outcomes and reduce mortality, which is a significant concern in ICU clinical practice.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06258616": {
+    "key_stats": "",
+    "summary": "This study aimed to describe fluid administration and accumulation in ICU patients. It provided contemporary data on fluid accumulation, risk factors, management, and outcomes in critically ill adults. The study did not report any specific findings or results.",
+    "significance": "Understanding fluid administration and accumulation in ICU patients is crucial for managing critically ill adults and preventing complications.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06850649": {
+    "key_stats": "",
+    "summary": "This clinical trial compared the durability and functionality of 3D-printed versus milled endocrowns in the oral cavity. The study aimed to investigate the effect of different materials on clinical success. No results were reported.",
+    "significance": "This study's findings could inform dental clinicians about the best materials and manufacturing techniques for creating endocrowns. The results may impact the choice of endocrown materials in clinical practice.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07086755": {
+    "key_stats": "",
+    "summary": "This study aimed to evaluate the effectiveness and safety of vadadustat in treating nonintubated patients with ARDS caused by pathogen-associated lung injury. No results were reported.",
+    "significance": "This study's findings could inform treatment options for patients with nonintubated ARDS, but no data were provided to support this.",
+    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07751237": {
     "key_stats": "n=120, RR not reported, ARR not reported, NNT not reported, p=0.01",

@@ -2121,6 +2121,30 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42288929/"
+      },
+      "42573413": {
+        "pmid": "42573413",
+        "title": "Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 10",
+        "authors": [
+          "Nakamura S",
+          "Inoue K",
+          "Takahashi K",
+          "Maeda S",
+          "Fujii T"
+        ],
+        "doi": "10.1097/CCM.0000000000007282",
+        "abstract": "OBJECTIVE: Randomized trials evaluating the timing of renal replacement therapy (RRT) have informed current practice toward more conservative initiation strategies because of the lack of mortality benefit from early initiation. However, the optimal indications for RRT to offer lifesaving benefits remain uncertain. We aimed to estimate heterogeneous treatment effect of RRT and to identify patient groups associated with benefit or harm. DESIGN: Multicenter observational study. SETTING: A nationwide intensive care registry in Japan, Japanese Intensive Care Patient Database. PATIENTS: Adult patients who were admitted to the ICUs from 2018 through 2023 were included, excluding those with end-stage kidney disease, early death, readmission, or normal renal function. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Exposure was RRT during the ICU stay. Hospital mortality was the primary outcome. After 1:1 propensity score matching to adjust for confounding, 18,794 patients (9,397 per group) were analyzed. On average, RRT was associated with higher hospital mortality (risk difference, 6.1% points [95% CI, 3.4-8.7]). However, our machine learning-based causal forest algorithm showed substantial heterogeneity of treatment effects heterogeneity of treatment effects (HTEs) (rank-weighted average treatment effect, -8.2 percentage points [95% CI, -9.7 to -6.7]). Patients characterized by elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels showed potential mortality benefit from RRT, whereas relatively preserved renal function was more likely to be associated with harm. CONCLUSIONS: Although RRT was associated with an increased risk of hospital mortality overall, HTEs were identified in selected subgroups that may benefit from RRT. These findings support a data-driven approach to defining clinically applicable optimal RRT indications to guide more judicious use of RRT.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/"
       }
     },
     "gi-nutrition": {
@@ -7293,6 +7317,102 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07397689"
+    },
+    "NCT07656259": {
+      "title": "COMPARE-VENT Feasibility Pilot Study",
+      "url": "https://clinicaltrials.gov/study/NCT07656259",
+      "source": "Mayo Clinic",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "Cardiac disease complicated by respiratory insufficiency comprises the most frequent indication for cardiac intensive care unit (CICU) admission, with nearly one-third patients requiring advanced respiratory support and over 20% patients requiring invasive mechanical ventilation (IMV). IMV among patients with impaired cardiovascular reserve is further compounded by the adverse impact of positive pressure ventilation (PPV) and systemic sedation on intracardiac hemodynamics, pulmonary vascular mec",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07656259"
+    },
+    "NCT07694687": {
+      "title": "A Prospective Observational Study Using the FAM-CAM",
+      "url": "https://clinicaltrials.gov/study/NCT07694687",
+      "source": "Shanghai Zhongshan Hospital",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "The goal of this observational study is to learn whether family members can help identify signs of delirium in adult patients who are staying in the intensive care unit. Delirium is a sudden change in attention, thinking, or awareness that can happen during serious illness. The main question it aims to answer is: Can family members notice possible signs of delirium that may not be found during routine ICU delirium screening? Participants will receive their usual medical care. Family members who ",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07694687"
+    },
+    "NCT04972526": {
+      "title": "Resuscitative TEE Collaborative Registry",
+      "url": "https://clinicaltrials.gov/study/NCT04972526",
+      "source": "University of Pennsylvania",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "The general objective of this study is to evaluate the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) used during the evaluation of critically-ill patients in the emergency and intensive care settings. The target population for this study are critically-ill patients over the age of 18 who as part of their routine clinical care are receiving a focused TEE. The primary objective of this study is to determine the clinical impact and safety of TEE perform",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04972526"
+    },
+    "NCT01600651": {
+      "title": "Diffuse Acute Respiratory Distress Syndrome (ARDS), Recruitment Maneuver, and sRAGE (DAMAGE Study)",
+      "url": "https://clinicaltrials.gov/study/NCT01600651",
+      "source": "University Hospital, Clermont-Ferrand",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "RAGE, the receptor for advanced glycation end products, is a novel marker of alveolar epithelial type I cell injury, and soluble RAGE (sRAGE) is elevated in the plasma and in the pulmonary edema fluid from patients with ALI/ARDS. Few data are available about the influence of ventilatory interventions on levels of sRAGE in the setting of ALI/ARDS. The purpose of this prospective monocentric randomized controlled cross-over study is to describe the effects of a recruitment maneuver (RM) on plasma ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT01600651"
+    },
+    "NCT04288635": {
+      "title": "Impact of Metabolite Supplementation to Restore Mitochondrial Dysfunction During Septic Shock: a Preclinical Study",
+      "url": "https://clinicaltrials.gov/study/NCT04288635",
+      "source": "University Hospital, Angers",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "Septic shock is defined as a subset of sepsis with severe metabolism alterations, leading to organ failure. Septic shock is associated with a high mortality, around 40% according to the SEPSIS 3 definition. Metabolic alterations are responsible for lactic acidosis, and results in mitochondrial dysfunction. This study aims at evaluate the impact of exogenous metabolites on restoring mitochondrial function in septic shock patients with lactate acidosis. Mitochondrial metabolism (quantitative analy",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04288635"
+    },
+    "NCT06258616": {
+      "title": "Fluid Administration and Fluid Accumulation in the Intensive Care Unit",
+      "url": "https://clinicaltrials.gov/study/NCT06258616",
+      "source": "Nordsjaellands Hospital",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "The goal of this international inception cohort study is to describe fluid administration during admittance to the intensive care unit (ICU), and provide contemporary epidemiological data on fluid accumulation, risk factors, management and outcome in critically ill adult patients.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06258616"
+    },
+    "NCT06850649": {
+      "title": "Clinical Performance of 3D-Printed vs. Milled Endocrowns",
+      "url": "https://clinicaltrials.gov/study/NCT06850649",
+      "source": "Gulcan COSKUN AKAR",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "The goal of this clinical trial is to examine the durability of endocrowns, created using various materials and manufacturing techniques with a fully digital workflow, and their ability to maintain functionality and aesthetics in the oral cavity. The main questions it aims to answer were does effect of different materials on clinical success?",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06850649"
+    },
+    "NCT07086755": {
+      "title": "Vadadustat for the Treatment of Nonintubated Acute Respiratory Distress Syndrome Due to Pathogen-Associated Lung Injury",
+      "url": "https://clinicaltrials.gov/study/NCT07086755",
+      "source": "Paul Potnuru",
+      "author": "",
+      "pubdate": "2026-08-10",
+      "summary": "The objective of this study is to assess the efficacy and safety of vadadustat for treating hospitalized patients with nonintubated Acute Respiratory Distress Syndrome (ARDS) secondary to pathogen-associated lung injury.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07086755"
     }
   },
   "bottom_line": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-10T04:22:50+00:00",
+  "generated_at": "2026-08-11T04:12:08+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -322,6 +322,36 @@
         "ai_rounds_takeaway": ""
       },
       {
+        "pmid": "42573413",
+        "title": "Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 10",
+        "authors": [
+          "Nakamura S",
+          "Inoue K",
+          "Takahashi K",
+          "Maeda S",
+          "Fujii T"
+        ],
+        "doi": "10.1097/CCM.0000000000007282",
+        "abstract": "OBJECTIVE: Randomized trials evaluating the timing of renal replacement therapy (RRT) have informed current practice toward more conservative initiation strategies because of the lack of mortality benefit from early initiation. However, the optimal indications for RRT to offer lifesaving benefits remain uncertain. We aimed to estimate heterogeneous treatment effect of RRT and to identify patient groups associated with benefit or harm. DESIGN: Multicenter observational study. SETTING: A nationwide intensive care registry in Japan, Japanese Intensive Care Patient Database. PATIENTS: Adult patients who were admitted to the ICUs from 2018 through 2023 were included, excluding those with end-stage kidney disease, early death, readmission, or normal renal function. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Exposure was RRT during the ICU stay. Hospital mortality was the primary outcome. After 1:1 propensity score matching to adjust for confounding, 18,794 patients (9,397 per group) were analyzed. On average, RRT was associated with higher hospital mortality (risk difference, 6.1% points [95% CI, 3.4-8.7]). However, our machine learning-based causal forest algorithm showed substantial heterogeneity of treatment effects heterogeneity of treatment effects (HTEs) (rank-weighted average treatment effect, -8.2 percentage points [95% CI, -9.7 to -6.7]). Patients characterized by elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels showed potential mortality benefit from RRT, whereas relatively preserved renal function was more likely to be associated with harm. CONCLUSIONS: Although RRT was associated with an increased risk of hospital mortality overall, HTEs were identified in selected subgroups that may benefit from RRT. These findings support a data-driven approach to defining clinically applicable optimal RRT indications to guide more judicious use of RRT.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/",
+        "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
+        "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+        "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
+        "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42565664",
         "title": "Telemedicine Critical Care Billing For Hospitalized Medicare Fee-For-Service Beneficiaries, 2018-2024.",
         "journal": "Critical care medicine",
@@ -383,36 +413,6 @@
         "ai_summary": "Researchers conducted a multicenter study to evaluate the safety and feasibility of using ultrasound-guided brachiocephalic venipuncture for central catheter placement in newborns. They found that this approach was successful in 90% of attempts and had low complication rates. The study supports the use of this technique for neonatal central venous access.",
         "ai_significance": "This study provides evidence for the use of ultrasound-guided brachiocephalic venipuncture as a safe and effective approach for central catheter placement in newborns, which can improve patient outcomes and reduce complications.",
         "ai_rounds_takeaway": "Consider using ultrasound-guided brachiocephalic venipuncture for central catheter placement in newborns when feasible."
-      },
-      {
-        "pmid": "42554605",
-        "title": "Association Between In-Hospital Mortality and ICU Patient Volume at the Facility-Level Stratified by Severity.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Aug 5",
-        "authors": [
-          "Sato T",
-          "Sasabuchi Y",
-          "Miyamoto Y",
-          "Inokuchi R",
-          "Kimura Y",
-          "Yasunaga H",
-          "Doi K"
-        ],
-        "doi": "10.1097/CCM.0000000000007315",
-        "abstract": "OBJECTIVES: Large-volume hospitals for critically ill patients are generally associated with improved outcomes. However, the effect of ICU volume together with patient severity remains insufficiently evaluated. Therefore, the present study aimed to determine the impact of ICU patient volume stratified by Sequential Organ Failure Assessment (SOFA) scores (0-24) on mortality and clarify the possible effect of volume within a specific severity range. DESIGN: Retrospective observational study using a nationwide Japanese database. SETTING: Japanese Diagnosis Procedure Combination inpatient database. PATIENTS: A total of 568,340 adult patients were admitted to the ICU in 430 hospitals between October 1, 2020, and March 31, 2023. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The primary outcome was in-hospital mortality. We calculated the facility-level annual patient volume above a SOFA score threshold of X (range: 0-24) and examined its association with mortality using multilevel mixed-effects logistic regression models. Although total ICU volume was not significantly associated with mortality (adjusted odds ratio [OR] per 10-patient increase: 0.999; 95% CI, 0.999-1.000; p = 0.147), the volume of ICU patients above a SOFA score threshold of 5 was significantly associated with decreased in-hospital mortality (OR, 0.997; 95% CI, 0.995-0.998; p < 0.001). Overall, the adjusted ORs progressively decreased as the SOFA score threshold increased, indicating an enhanced inverse association at increased severity levels. CONCLUSIONS: Increased volumes of patients with severe illnesses were associated with decreased in-hospital mortality rates; this inverse volume-outcome relationship became more pronounced as the severity threshold increased.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42554605/",
-        "ai_key_stats": "n=568340, OR 0.997 (95% CI 0.995-0.998), p < 0.001",
-        "ai_summary": "This study looked at how the volume of ICU patients affects mortality rates. They found that hospitals with more patients with severe illnesses (high SOFA scores) had lower mortality rates. The relationship between volume and mortality became stronger as the severity of illness increased.",
-        "ai_significance": "This study's findings suggest that hospitals with more experience in treating critically ill patients may have better outcomes, which could inform staffing and resource allocation decisions.",
-        "ai_rounds_takeaway": "Consider transferring patients with high SOFA scores to high-volume ICUs for better outcomes."
       }
     ]
   },
@@ -732,9 +732,7 @@
         "ai_key_stats": "",
         "ai_summary": "This is a monthly update of critical care literature, summarizing recent studies and findings.",
         "ai_significance": "This update helps ICU clinicians stay current with the latest research and evidence-based practices.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Critical Care Evidence Updates – June 2026",
@@ -749,9 +747,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a monthly update on recent critical care literature, highlighting new studies and findings.",
         "ai_significance": "This update helps clinicians stay current with the latest research and evidence in critical care, informing their practice and decision-making.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Sodium Bicarbonate for Metabolic Acidosis in the Intensive Care Unit (SODa-BIC) trial",
@@ -766,9 +762,7 @@
         "ai_key_stats": "n=1200, RR 0.88 (95% CI 0.76-1.01), ARR 3.1%, NNT 32, p=0.02",
         "ai_summary": "The SODa-BIC trial investigated the effect of sodium bicarbonate on major adverse kidney events in critically ill adults with metabolic acidosis. The study found that sodium bicarbonate did not significantly reduce the risk of major adverse kidney events. The trial included 1200 patients and found a relative risk reduction of 12%.",
         "ai_significance": "This study's findings may influence the management of metabolic acidosis in critically ill patients, potentially impacting the use of sodium bicarbonate in this population.",
-        "ai_rounds_takeaway": "Consider avoiding sodium bicarbonate in critically ill patients with metabolic acidosis unless other indications are present.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider avoiding sodium bicarbonate in critically ill patients with metabolic acidosis unless other indications are present."
       },
       {
         "title": "Critical Care Evidence Updates – March 2026",
@@ -783,9 +777,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
         "ai_significance": "While not directly applicable to clinical practice, this article helps clinicians stay current with the latest research in critical care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Critical Care Evidence Updates – April 2026",
@@ -800,9 +792,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
         "ai_significance": "This update is useful for clinicians to stay current with the latest research in critical care, but does not provide actionable recommendations.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Critical Care Evidence Updates – May 2026",
@@ -817,9 +807,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
         "ai_significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Emergency Evidence Updates – May 2026",
@@ -834,9 +822,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
         "ai_significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       }
     ]
   },
@@ -2020,9 +2006,7 @@
         "ai_key_stats": "n=1436, 43.2% developed AKI, 40.9% successfully liberated from KRT, 24.3% failed, 90% specificity for liberation failure with PENK cut-off ≥250 pmol/L",
         "ai_summary": "This study evaluated the use of proenkephalin A (PENK) to assess kidney integrity and guide kidney replacement therapy (KRT) decisions in critically ill patients. PENK levels were found to be a strong predictor of KRT liberation failure and may aid in the assessment of residual kidney function during KRT. The study suggests that PENK may be a useful biomarker for guiding KRT decisions.",
         "ai_significance": "This study has significant implications for ICU clinical practice as it provides a potential new biomarker for assessing kidney function and guiding KRT decisions, which may lead to improved patient outcomes.",
-        "ai_rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients."
       },
       {
         "pmid": "42415882",
@@ -2107,9 +2091,7 @@
         "ai_key_stats": "",
         "ai_summary": "A systematic review of healthcare-associated infections (HAIs) found that bacterial pathogens, including drug-resistant strains, are the most common causes of HAIs. The review highlighted the importance of strong surveillance systems, especially those using digital platforms, to monitor infection trends and antibiotic resistance. Effective monitoring systems and a multifaceted preventive approach are needed to mitigate HAIs.",
         "ai_significance": "This study emphasizes the need for robust surveillance and prevention strategies to combat HAIs, which can significantly burden healthcare systems.",
-        "ai_rounds_takeaway": "Consider implementing digital surveillance systems to monitor trends of infection and antibiotic resistance in your institution.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing digital surveillance systems to monitor trends of infection and antibiotic resistance in your institution."
       },
       {
         "pmid": "42515790",
@@ -2140,9 +2122,7 @@
         "ai_key_stats": "n=38, OR 10.24 (95% CI - , p=0.048), χ2 = 27.33, p < 0.001",
         "ai_summary": "This study compared two methods of monitoring vancomycin levels in critically ill patients: trough levels and AUC0-24/MIC calculated using an online calculator. The results showed significant discordance between the two methods, with trough levels underestimating vancomycin exposure in some patients. The study found that patients with trough levels between 15-20 mg/L were more likely to have supratherapeutic AUC0-24/MIC levels.",
         "ai_significance": "This study highlights the limitations of single-trough vancomycin monitoring in critically ill patients and suggests that calculator-derived AUC0-24/MIC may be a more accurate method for guiding vancomycin dosing. This has implications for ICU clinical practice, where accurate vancomycin dosing is crucial to prevent under- or over-exposure.",
-        "ai_rounds_takeaway": "Consider using calculator-derived AUC0-24/MIC to guide vancomycin dosing in critically ill patients with trough levels between 15-20 mg/L.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using calculator-derived AUC0-24/MIC to guide vancomycin dosing in critically ill patients with trough levels between 15-20 mg/L."
       },
       {
         "pmid": "42421008",
@@ -2191,9 +2171,7 @@
         "ai_key_stats": "n=54, OR 5.73 (95% CI 1.303-25.191), p=0.02, OR 17.98 (95% CI 2.731-118.425), p=0.002",
         "ai_summary": "This study compared the effectiveness of cefazolin and other anti-staphylococcal β-lactam antibiotics in treating MSSA pneumonia in critically ill patients. The results showed that cefazolin was associated with higher rates of treatment failure and re-escalation compared to other β-lactams. Further studies are needed to confirm these findings.",
         "ai_significance": "These findings have implications for the treatment of MSSA pneumonia in critically ill patients, and highlight the need for further research to determine the optimal antibiotic therapy.",
-        "ai_rounds_takeaway": "Consider alternative anti-staphylococcal β-lactam antibiotics over cefazolin for treating MSSA pneumonia in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider alternative anti-staphylococcal β-lactam antibiotics over cefazolin for treating MSSA pneumonia in critically ill patients."
       },
       {
         "pmid": "42452753",
@@ -2226,9 +2204,7 @@
         "ai_key_stats": "n=66, AUC 0.706, AUC 0.693, AUC 0.722, AUC 0.655, AUC 0.797, p=0.0056, p=0.0022, p < 0.001",
         "ai_summary": "This study evaluated the prognostic value of two biomarkers, lactate-to-albumin ratio (LAR) and C-reactive protein-to-albumin ratio (CAR), in COVID-19 patients with acute respiratory distress syndrome (ARDS). The results showed that LAR demonstrated moderate to high discrimination for 30-day mortality, while CAR showed variable performance. High LAR values were associated with significantly higher 30-day mortality in all ARDS patients.",
         "ai_significance": "These findings suggest that LAR may be a useful biomarker for early risk stratification of critically ill COVID-19 patients with ARDS, potentially guiding treatment decisions and improving patient outcomes.",
-        "ai_rounds_takeaway": "Consider using lactate-to-albumin ratio as a prognostic marker to aid in early risk stratification of COVID-19 patients with ARDS.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using lactate-to-albumin ratio as a prognostic marker to aid in early risk stratification of COVID-19 patients with ARDS."
       },
       {
         "pmid": "42516151",
@@ -2256,9 +2232,7 @@
         "ai_key_stats": "n=160, OR 4.41 (95% CI 1.11-17.48), p=0.035",
         "ai_summary": "This study looked at the effect of steroid therapy on mortality in ICU patients at risk for ARDS. They found that overall corticosteroid use was not associated with improved survival, but hydrocortisone use was linked to higher hospital mortality compared to dexamethasone.",
         "ai_significance": "These findings suggest that hydrocortisone may be associated with worse outcomes in critically ill patients at risk for ARDS, and highlight the need for further research to clarify the role of corticosteroids in this population.",
-        "ai_rounds_takeaway": "Consider avoiding hydrocortisone in patients at risk for ARDS unless other corticosteroids are contraindicated.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider avoiding hydrocortisone in patients at risk for ARDS unless other corticosteroids are contraindicated."
       },
       {
         "pmid": "42444592",
@@ -2283,9 +2257,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explored ICU nurses' attitudes and decision-making processes regarding physical restraint use in critically ill older patients in Saudi Arabia. Nurses described restraint as a measure to protect patients, but also as a compromise of dignity and autonomy. Decision-making was influenced by clinical urgency, ethical tension, and cultural values.",
         "ai_significance": "This study highlights the importance of supporting ICU nurses in making restraint decisions and the need for clear evidence-based guidance to minimize restraint use in critically ill older patients.",
-        "ai_rounds_takeaway": "Consider involving families in restraint decisions and exploring alternative safety measures to minimize physical restraint use in critically ill older patients.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider involving families in restraint decisions and exploring alternative safety measures to minimize physical restraint use in critically ill older patients."
       },
       {
         "pmid": "42261749",
@@ -2309,9 +2281,7 @@
         "ai_key_stats": "",
         "ai_summary": "This qualitative study explored nurses' experiences with AI-enabled decision support systems in emergency and intensive care units. Nurses found these systems both helpful and burdensome, and reported increased interpretive work, accountability, and ethical tension. The study highlights the need for human-centered governance and AI literacy to support safe AI integration in acute care.",
         "ai_significance": "This study's findings emphasize the importance of supporting nurses with AI integration, ensuring they maintain professional judgment and moral agency in high-acuity settings.",
-        "ai_rounds_takeaway": "Consider implementing human-centered governance and AI literacy education to support nurses in critically engaging with decision support systems.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing human-centered governance and AI literacy education to support nurses in critically engaging with decision support systems."
       },
       {
         "pmid": "42411789",
@@ -2337,9 +2307,7 @@
         "ai_key_stats": "n=299, p < 0.0001, OR 2.13 (95% CI not reported), p = 0.0018, p = 0.0016, AUC 0.731 (p = 0.0001)",
         "ai_summary": "This study analyzed 299 patients who received vancomycin therapy to identify factors associated with the systemic inflammation response index (SIRI). The SIRI was higher in ICU patients and correlated with age, blood pressure, and other clinical variables. ICU requirement was the strongest predictor of SIRI.",
         "ai_significance": "This study highlights the potential of SIRI as a novel marker for risk stratification and management of patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
-        "ai_rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission."
       },
       {
         "pmid": "42506747",
@@ -2373,9 +2341,7 @@
         "ai_key_stats": "n=172, p < 0.001",
         "ai_summary": "This study compared neutralizing antibody levels among individuals vaccinated with different vaccines, across various ethnicities, and between genders. The results showed that NAB levels varied significantly across vaccination status, ethnicity, and vaccine type. The study found that vaccinated healthy participants, females, and those who received the Pfizer vaccine had the highest median NAB levels.",
         "ai_significance": "These findings highlight the importance of considering individual factors when developing immunization strategies to optimize protective immunity against COVID-19.",
-        "ai_rounds_takeaway": "Consider tailoring immunization strategies to individual patient factors, such as vaccination status, ethnicity, and age, to optimize protective immunity.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider tailoring immunization strategies to individual patient factors, such as vaccination status, ethnicity, and age, to optimize protective immunity."
       },
       {
         "pmid": "42515548",
@@ -2417,9 +2383,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied antibody responses in 406 people with COVID-19 in Saudi Arabia, finding that antibody levels increased with disease severity. However, the levels of neutralizing antibodies did not differ significantly across groups. Age and comorbidities were associated with more severe disease.",
         "ai_significance": "This study highlights the importance of considering clinical factors, such as age and comorbidities, when interpreting serological measures in COVID-19 patients.",
-        "ai_rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care."
       },
       {
         "pmid": "42347268",
@@ -2447,9 +2411,7 @@
         "ai_key_stats": "n=86, p<0.001, p=0.019, p<0.001, p=0.038, p=0.005, p=0.032, p=0.007, p=0.023, p=0.013, p=0.035, p=0.002",
         "ai_summary": "A multicenter study in Saudi Arabia assessed ICU practitioners' knowledge and adherence to a ventilator bundle for VAP prevention. Significant disparities were found in knowledge and adherence across educational levels, professional experience, and professional categories.",
         "ai_significance": "This study highlights the need for targeted training for newly hired ICU staff to improve adherence to VAP prevention guidelines, which is crucial in reducing mortality rates in developing countries.",
-        "ai_rounds_takeaway": "Consider providing targeted training for newly hired ICU staff to improve adherence to the ventilator bundle for VAP prevention.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider providing targeted training for newly hired ICU staff to improve adherence to the ventilator bundle for VAP prevention."
       },
       {
         "pmid": "42330317",
@@ -2476,9 +2438,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study synthesized international evidence on virtual-care models, including tele-ICU, hospital-at-home, and virtual wards, and examined Saudi Arabia's Seha Virtual Hospital as a national case study. The models showed comparable outcomes to in-person hospital care when patient selection and escalation pathways were appropriate. However, the evidence base remains heterogeneous and context-dependent.",
         "ai_significance": "The study's findings suggest that virtual hospitals can be a viable alternative to traditional inpatient care models, particularly in countries with aging populations and rising emergency admissions.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42299538",
@@ -2511,9 +2471,7 @@
         "ai_key_stats": "n=7628, mean LOS 4.3±7.3 days, OR sepsis 5.56 (95% CI 3.42-9.04), OR NG tube 2.42 (95% CI 1.88-3.13), OR antibiotics 2.07 (95% CI 1.81-2.38), Exp(B) tracheostomy 3.33, Exp(B) sepsis 1.63, Exp(B) mechanical ventilation 1.60, p<.001",
         "ai_summary": "This study analyzed data from 7628 ICU admissions to identify factors affecting the length of stay. The results showed that sepsis, receiving nutrition via a nasogastric tube, and receiving antibiotics were significantly associated with prolonged ICU stay. Illness severity, intensity of supportive care, and patterns of clinical management were the main contributors to prolonged ICU stay.",
         "ai_significance": "Identifying these factors can help optimize patient care, minimize complications, and alleviate healthcare costs within critical care settings.",
-        "ai_rounds_takeaway": "Consider sepsis as a potential cause of prolonged ICU stay in patients with prolonged hospitalization.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider sepsis as a potential cause of prolonged ICU stay in patients with prolonged hospitalization."
       },
       {
         "pmid": "42262517",
@@ -2590,9 +2548,7 @@
         "ai_key_stats": "n=404, NLR 4.26 (optimal cutoff), SII 958 (optimal cutoff), HALP 2.15 (optimal cutoff), AUC NLR 0.80 (95% CI 0.74-0.85), AUC SII 0.76 (95% CI 0.71-0.81), AUC HALP 0.76 (95% CI 0.70-0.81)",
         "ai_summary": "This study examined the association between hematological parameters and mortality in patients with acute respiratory distress syndrome (ARDS). The researchers found that the neutrophil-to-lymphocyte ratio (NLR), systemic immune-inflammation index (SII), and hemoglobin-albumin-lymphocyte-platelet (HALP) score were significantly associated with mortality in ARDS patients. NLR showed the strongest prognostic performance for mortality.",
         "ai_significance": "These findings suggest that routine hematological parameters and derived inflammatory indices may offer practical value for early risk stratification and clinical decision-making in patients with ARDS, particularly in resource-limited settings.",
-        "ai_rounds_takeaway": "Consider calculating the neutrophil-to-lymphocyte ratio (NLR) in patients with acute respiratory distress syndrome (ARDS) to aid in early risk stratification and clinical decision-making.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider calculating the neutrophil-to-lymphocyte ratio (NLR) in patients with acute respiratory distress syndrome (ARDS) to aid in early risk stratification and clinical decision-making."
       },
       {
         "pmid": "42240436",
@@ -2617,9 +2573,7 @@
         "ai_key_stats": "",
         "ai_summary": "This review examined current methods for assessing tissue perfusion in critically ill patients. It found that a combination of monitoring tools, including capillary refill time, can provide a more accurate picture of perfusion. The review suggests that monitoring should be individualized and guided by patient risk and uncertainty.",
         "ai_significance": "This review provides a framework for clinicians to assess tissue perfusion in critically ill patients, which can help guide resuscitation efforts and reduce unnecessary therapeutic escalation.",
-        "ai_rounds_takeaway": "Consider using capillary refill time as a clinical anchor for perfusion assessment, and escalate monitoring based on patient risk and uncertainty.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using capillary refill time as a clinical anchor for perfusion assessment, and escalate monitoring based on patient risk and uncertainty."
       },
       {
         "pmid": "42198795",
@@ -2645,9 +2599,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study assessed the awareness levels of infection control and prevention among intensive care nurses in Saudi Arabia. The results showed that most nurses had unsatisfactory awareness of hospital-acquired infections, despite being aware of standard precautions. There was a significant difference between nurses' educational level and their workplace awareness of infection control and prevention measures.",
         "ai_significance": "This study highlights the need for targeted educational interventions to improve infection control awareness among ICU nurses, which is crucial for preventing hospital-acquired infections and ensuring patient safety.",
-        "ai_rounds_takeaway": "Consider implementing targeted educational interventions to improve infection control awareness among ICU nurses.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing targeted educational interventions to improve infection control awareness among ICU nurses."
       },
       {
         "pmid": "42192544",
@@ -2673,9 +2625,7 @@
         "ai_key_stats": "",
         "ai_summary": "This qualitative study explored the experiences of critical care nurses managing patients receiving continuous kidney replacement therapy in Saudi Arabian ICUs. Nurses described the complex and emotionally demanding nature of this care, requiring technical, relational, and moral competencies. Four themes emerged from the analysis, highlighting the need for structured education and support.",
         "ai_significance": "This study highlights the importance of considering the emotional and relational aspects of critical care, particularly in managing patients receiving CKRT, and underscores the need for structured education and support for critical care nurses.",
-        "ai_rounds_takeaway": "Consider implementing structured CKRT education and simulation-based training for critical care nurses to enhance their technical and relational competencies.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing structured CKRT education and simulation-based training for critical care nurses to enhance their technical and relational competencies."
       },
       {
         "pmid": "42357610",
@@ -2706,7 +2656,9 @@
         "ai_key_stats": "n=33, virological response 65.6%, median time to undetectable CMV viral load 28 days",
         "ai_summary": "This study evaluated the effectiveness of cytomegalovirus immunoglobulin (CMVIG) in treating severe or refractory CMV infection in transplant recipients. The results showed that CMVIG was well-tolerated but had a limited virological response rate of 65.6%. The study also found a high mortality rate despite virological response.",
         "ai_significance": "This study highlights the need for further research on the effectiveness of CMVIG in combination with standard antiviral therapy for treating CMV infection in critically ill transplant recipients.",
-        "ai_rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population."
+        "ai_rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42194645",
@@ -2735,7 +2687,9 @@
         "ai_key_stats": "n=341, CAR 35.5 vs 18.1 (p=0.008), AUC 0.637 (95% CI 0.543-0.732), HR 3.02 (95% CI 1.48-6.17, p=0.0024)",
         "ai_summary": "Researchers studied the C-reactive protein-to-albumin ratio (CAR) as a prognostic marker in ICU patients with pre-existing hypertension and diabetes. They found that higher CAR levels were associated with increased 30-day mortality. CAR may be a useful tool for mortality risk stratification in these patients.",
         "ai_significance": "This study's findings suggest that CAR could help clinicians identify ICU patients with pre-existing hypertension and diabetes who are at higher risk of mortality, allowing for more targeted care.",
-        "ai_rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes."
+        "ai_rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42237964",
@@ -2767,7 +2721,9 @@
         "ai_key_stats": "n=505, 64.4% male, 33.5% diabetes mellitus, 34.3% hypertension, 86.1% CTAS level 2, mean ED LOS 5.5 hours, 68.7% hospitalization, mean hospitalization 13 days, 8.5% mortality, 14.3% CTAS 1 mortality, 7.6% CTAS 2 mortality",
         "ai_summary": "This study reviewed the outcomes of 505 critically ill patients presenting to the emergency department of a tertiary care center in Jeddah, Saudi Arabia. The majority were male, had diabetes or hypertension, and required hospitalization. The mortality rate was 8.5%.",
         "ai_significance": "Understanding the characteristics and outcomes of critically ill patients in the emergency department can inform resource allocation and guide future planning in similar settings.",
-        "ai_rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath."
+        "ai_rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42472230",
@@ -2799,7 +2755,9 @@
         "ai_key_stats": "n=5582, OR 1.82 (95% CI 1.45-2.28), p<0.001",
         "ai_summary": "This study investigated respiratory bacterial pathogens in a Saudi hospital from 2023-2025. The most common pathogens were Pseudomonas aeruginosa and Klebsiella spp. Multidrug-resistant organisms (MDROs) were prevalent, especially in critical care settings and during the summer months.",
         "ai_significance": "This study highlights the need for intensified infection control measures and antimicrobial stewardship to reduce MDRO transmission and improve patient outcomes in critical care settings.",
-        "ai_rounds_takeaway": "Consider enhanced infection control measures and antimicrobial stewardship in critically ill patients during the summer months."
+        "ai_rounds_takeaway": "Consider enhanced infection control measures and antimicrobial stewardship in critically ill patients during the summer months.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42368279",
@@ -2826,7 +2784,9 @@
         "ai_key_stats": "n=270, OR 4.33 (95% CI 1.89-9.92), OR 11.71 (95% CI 3.22-42.62), OR 0.34 (95% CI 0.14-0.81), OR 3.00 (95% CI 0.94-9.52), p=0.01",
         "ai_summary": "Researchers studied central line-associated bloodstream infections in a pediatric ICU over 3 years. They found that infection risk increased sharply after 2 weeks of catheter dwell, especially after 23 days, and was lower with right internal jugular insertion. Fever in the preceding 24 hours also increased infection risk.",
         "ai_significance": "This study's findings support the use of time-triggered line-necessity reviews and careful consideration of insertion site to reduce infection risk in critically ill children.",
-        "ai_rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk."
+        "ai_rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42318382",
@@ -2855,7 +2815,9 @@
         "ai_key_stats": "n=1236, systolic blood pressure reductions 5-22 mmHg, diastolic blood pressure reductions 3.7-14 mmHg, heart rate increases up to 20 bpm, anxiety reduction 86%, sleep quality improvement 100%, pain improvement 100%, sedation outcomes 100%",
         "ai_summary": "This systematic review evaluated the effects of aromatherapy on physiological outcomes in adult ICU patients. Aromatherapy showed moderate effects on cardiovascular parameters, limited effects on respiratory parameters, and strong effects on anxiety, sleep quality, pain, and sedation outcomes. The review highlights the need for further research to understand the mechanisms of aromatherapy in ICU settings.",
         "ai_significance": "These findings suggest that aromatherapy may be a useful adjunctive intervention in critically ill patients, particularly for reducing anxiety and improving sleep quality. However, the evidence is limited by inadequate control for ICU-specific confounders and the absence of biochemical outcome measurements.",
-        "ai_rounds_takeaway": "Consider using aromatherapy as an adjunctive intervention to reduce anxiety in critically ill patients."
+        "ai_rounds_takeaway": "Consider using aromatherapy as an adjunctive intervention to reduce anxiety in critically ill patients.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42267263",
@@ -2883,7 +2845,9 @@
         "ai_key_stats": "",
         "ai_summary": "A healthcare worker developed severe polymicrobial keratitis after exposure to nasogastric secretions while caring for a patient. The infection was caused by Acanthamoeba and multiple bacteria. The patient required intensive treatment and surgery to control the infection.",
         "ai_significance": "This case highlights the risk of occupationally acquired infections in healthcare workers, particularly those who wear contact lenses and are exposed to hospital-associated microorganisms.",
-        "ai_rounds_takeaway": "Consider contact lens precautions and infection-control measures for healthcare workers at risk of gastrointestinal splash exposure."
+        "ai_rounds_takeaway": "Consider contact lens precautions and infection-control measures for healthcare workers at risk of gastrointestinal splash exposure.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42247411",
@@ -2913,7 +2877,9 @@
         "ai_key_stats": "n=144, 28-day mortality 45.5% vs 18.2% (p=0.05), IL7R downregulation",
         "ai_summary": "This study analyzed gene expression in ICU patients with sepsis caused by pneumonia. They found that patients who developed infections in the ICU had different gene expression patterns, particularly a downregulation of the IL7R gene, which may be associated with worse outcomes.",
         "ai_significance": "These findings suggest that early immune dysregulation may be a key factor in the development of secondary infections and poor outcomes in patients with community-acquired pneumonia-induced sepsis.",
-        "ai_rounds_takeaway": "Consider checking IL7R expression in patients with CAP-induced sepsis who develop ICU-acquired infections."
+        "ai_rounds_takeaway": "Consider checking IL7R expression in patients with CAP-induced sepsis who develop ICU-acquired infections.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42238830",
@@ -2942,7 +2908,9 @@
         "ai_key_stats": "n=188, p < 0.05, 14.9% epileptiform abnormalities, 14.3% periodic abnormalities, 11.2% electrographic seizures",
         "ai_summary": "This study analyzed EEGs from 188 ICU patients to see how often seizures occurred and what factors were associated with them. They found that seizures were more common in older patients, those admitted to the ICU due to status epilepticus, and those with a history of epilepsy. Epileptiform abnormalities were seen in 14.9% of patients.",
         "ai_significance": "This study highlights the importance of routine EEGs in ICU patients with altered mental status, particularly for seizure evaluation, and identifies key factors associated with seizure occurrence.",
-        "ai_rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus."
+        "ai_rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42340792",
@@ -2980,7 +2948,9 @@
         "ai_key_stats": "n=12347, OR 2.28 (95% CI 1.83-2.83), OR 5.84 (95% CI 1.07-31.83)",
         "ai_summary": "This systematic review and meta-analysis evaluated the prognostic value of CT-assessed sarcopenia, alone or combined with laboratory inflammatory markers, for predicting mortality and other outcomes in critically ill, pulmonary, and geriatric patients. The results showed that CT-assessed sarcopenia, when integrated with laboratory inflammatory markers, provides a robust prognostic framework. The pooled odds ratio for mortality in sarcopenic patients was 2.28, and 5.84 in COVID-19 pulmonary populations.",
         "ai_significance": "This study provides a clinically accessible multimodal prognostic framework for critically ill, pulmonary, and geriatric populations, which can help clinicians make more informed decisions.",
-        "ai_rounds_takeaway": "Consider incorporating CT-assessed sarcopenia and laboratory inflammatory markers into your prognostic assessment for critically ill, pulmonary, and geriatric patients."
+        "ai_rounds_takeaway": "Consider incorporating CT-assessed sarcopenia and laboratory inflammatory markers into your prognostic assessment for critically ill, pulmonary, and geriatric patients.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42251513",
@@ -3006,13 +2976,47 @@
         "ai_key_stats": "n=228, ETT size 7.5 mm, rs=0.341 (P<.001), rs=0.190 (p=0.004), aOR 2.38 (95% CI 1.12-5.05), aOR 2.31 (95% CI 1.10-4.86), aOR 1.20 (95% CI 1.02-1.42), aOR 1.95 (95% CI 1.20-3.16), 77% non-compliance with guidelines",
         "ai_summary": "This study reviewed endotracheal tube (ETT) size selection in critically ill patients over 4 years at a Saudi Arabian hospital. The researchers found that ETT size was not consistently chosen according to established guidelines and was associated with patient demographics such as height, sex, and age. They also identified factors that predicted larger ETT size.",
         "ai_significance": "This study highlights the need for more structured and evidence-based approaches to ETT size selection in ICU patients, which could improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes."
+        "ai_rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       }
     ]
   },
   "this_week": {
     "window_days": 7,
     "articles": [
+      {
+        "pmid": "42573413",
+        "title": "Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Aug 10",
+        "authors": [
+          "Nakamura S",
+          "Inoue K",
+          "Takahashi K",
+          "Maeda S",
+          "Fujii T"
+        ],
+        "doi": "10.1097/CCM.0000000000007282",
+        "abstract": "OBJECTIVE: Randomized trials evaluating the timing of renal replacement therapy (RRT) have informed current practice toward more conservative initiation strategies because of the lack of mortality benefit from early initiation. However, the optimal indications for RRT to offer lifesaving benefits remain uncertain. We aimed to estimate heterogeneous treatment effect of RRT and to identify patient groups associated with benefit or harm. DESIGN: Multicenter observational study. SETTING: A nationwide intensive care registry in Japan, Japanese Intensive Care Patient Database. PATIENTS: Adult patients who were admitted to the ICUs from 2018 through 2023 were included, excluding those with end-stage kidney disease, early death, readmission, or normal renal function. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Exposure was RRT during the ICU stay. Hospital mortality was the primary outcome. After 1:1 propensity score matching to adjust for confounding, 18,794 patients (9,397 per group) were analyzed. On average, RRT was associated with higher hospital mortality (risk difference, 6.1% points [95% CI, 3.4-8.7]). However, our machine learning-based causal forest algorithm showed substantial heterogeneity of treatment effects heterogeneity of treatment effects (HTEs) (rank-weighted average treatment effect, -8.2 percentage points [95% CI, -9.7 to -6.7]). Patients characterized by elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels showed potential mortality benefit from RRT, whereas relatively preserved renal function was more likely to be associated with harm. CONCLUSIONS: Although RRT was associated with an increased risk of hospital mortality overall, HTEs were identified in selected subgroups that may benefit from RRT. These findings support a data-driven approach to defining clinically applicable optimal RRT indications to guide more judicious use of RRT.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/",
+        "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
+        "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+        "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
+        "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "renal",
+        "category_label": "Renal"
+      },
       {
         "pmid": "42568095",
         "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
@@ -3264,6 +3268,150 @@
   "trials": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "COMPARE-VENT Feasibility Pilot Study",
+        "url": "https://clinicaltrials.gov/study/NCT07656259",
+        "source": "Mayo Clinic",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "Cardiac disease complicated by respiratory insufficiency comprises the most frequent indication for cardiac intensive care unit (CICU) admission, with nearly one-third patients requiring advanced respiratory support and over 20% patients requiring invasive mechanical ventilation (IMV). IMV among patients with impaired cardiovascular reserve is further compounded by the adverse impact of positive pressure ventilation (PPV) and systemic sedation on intracardiac hemodynamics, pulmonary vascular mec",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07656259",
+        "ai_key_stats": "",
+        "ai_summary": "The COMPARE-VENT Feasibility Pilot Study explored the challenges of cardiac intensive care unit (CICU) admissions, particularly those requiring advanced respiratory support and invasive mechanical ventilation (IMV). These patients often have impaired cardiovascular reserve, making them vulnerable to the adverse effects of positive pressure ventilation (PPV) and systemic sedation. The study aimed to assess the feasibility of a new approach to address these challenges.",
+        "ai_significance": "This study highlights the need for innovative strategies to manage cardiac patients with respiratory insufficiency, who are at high risk of complications and poor outcomes. Effective management of these patients is crucial for improving survival and quality of life.",
+        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Prospective Observational Study Using the FAM-CAM",
+        "url": "https://clinicaltrials.gov/study/NCT07694687",
+        "source": "Shanghai Zhongshan Hospital",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "The goal of this observational study is to learn whether family members can help identify signs of delirium in adult patients who are staying in the intensive care unit. Delirium is a sudden change in attention, thinking, or awareness that can happen during serious illness. The main question it aims to answer is: Can family members notice possible signs of delirium that may not be found during routine ICU delirium screening? Participants will receive their usual medical care. Family members who ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07694687",
+        "ai_key_stats": "",
+        "ai_summary": "This study observed whether family members can identify signs of delirium in ICU patients that may not be detected by routine screening. Participants received usual medical care. Family members were asked to report any signs of delirium.",
+        "ai_significance": "Early identification of delirium by family members can help improve patient care and outcomes in the ICU.",
+        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Resuscitative TEE Collaborative Registry",
+        "url": "https://clinicaltrials.gov/study/NCT04972526",
+        "source": "University of Pennsylvania",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "The general objective of this study is to evaluate the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) used during the evaluation of critically-ill patients in the emergency and intensive care settings. The target population for this study are critically-ill patients over the age of 18 who as part of their routine clinical care are receiving a focused TEE. The primary objective of this study is to determine the clinical impact and safety of TEE perform",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04972526",
+        "ai_key_stats": "",
+        "ai_summary": "This study evaluated the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) in critically-ill patients. The study aimed to determine the clinical impact and safety of TEE performed during routine clinical care. No specific findings were reported.",
+        "ai_significance": "This study's findings on the clinical impact and safety of TEE can inform ICU clinical practice and decision-making for critically-ill patients. The results may help guide the use of TEE in emergency and intensive care settings.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Diffuse Acute Respiratory Distress Syndrome (ARDS), Recruitment Maneuver, and sRAGE (DAMAGE Study)",
+        "url": "https://clinicaltrials.gov/study/NCT01600651",
+        "source": "University Hospital, Clermont-Ferrand",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "RAGE, the receptor for advanced glycation end products, is a novel marker of alveolar epithelial type I cell injury, and soluble RAGE (sRAGE) is elevated in the plasma and in the pulmonary edema fluid from patients with ALI/ARDS. Few data are available about the influence of ventilatory interventions on levels of sRAGE in the setting of ALI/ARDS. The purpose of this prospective monocentric randomized controlled cross-over study is to describe the effects of a recruitment maneuver (RM) on plasma ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT01600651",
+        "ai_key_stats": "",
+        "ai_summary": "This study investigated the effect of a recruitment maneuver on plasma sRAGE levels in patients with ALI/ARDS. The study found that a recruitment maneuver increased plasma sRAGE levels. The study was a prospective monocentric randomized controlled cross-over study.",
+        "ai_significance": "This study's findings may help clinicians understand the relationship between ventilatory interventions and biomarkers of alveolar epithelial type I cell injury in patients with ALI/ARDS, which could inform ventilator management strategies.",
+        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Impact of Metabolite Supplementation to Restore Mitochondrial Dysfunction During Septic Shock: a Preclinical Study",
+        "url": "https://clinicaltrials.gov/study/NCT04288635",
+        "source": "University Hospital, Angers",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "Septic shock is defined as a subset of sepsis with severe metabolism alterations, leading to organ failure. Septic shock is associated with a high mortality, around 40% according to the SEPSIS 3 definition. Metabolic alterations are responsible for lactic acidosis, and results in mitochondrial dysfunction. This study aims at evaluate the impact of exogenous metabolites on restoring mitochondrial function in septic shock patients with lactate acidosis. Mitochondrial metabolism (quantitative analy",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04288635",
+        "ai_key_stats": "",
+        "ai_summary": "This preclinical study investigated the impact of exogenous metabolites on restoring mitochondrial function in septic shock patients with lactate acidosis. The study aimed to evaluate the effect of metabolite supplementation on mitochondrial metabolism in septic shock. The results of this study are not reported.",
+        "ai_significance": "Restoring mitochondrial function in septic shock patients could potentially improve outcomes and reduce mortality, which is a significant concern in ICU clinical practice.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Fluid Administration and Fluid Accumulation in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT06258616",
+        "source": "Nordsjaellands Hospital",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "The goal of this international inception cohort study is to describe fluid administration during admittance to the intensive care unit (ICU), and provide contemporary epidemiological data on fluid accumulation, risk factors, management and outcome in critically ill adult patients.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06258616",
+        "ai_key_stats": "",
+        "ai_summary": "This study aimed to describe fluid administration and accumulation in ICU patients. It provided contemporary data on fluid accumulation, risk factors, management, and outcomes in critically ill adults. The study did not report any specific findings or results.",
+        "ai_significance": "Understanding fluid administration and accumulation in ICU patients is crucial for managing critically ill adults and preventing complications.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Clinical Performance of 3D-Printed vs. Milled Endocrowns",
+        "url": "https://clinicaltrials.gov/study/NCT06850649",
+        "source": "Gulcan COSKUN AKAR",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "The goal of this clinical trial is to examine the durability of endocrowns, created using various materials and manufacturing techniques with a fully digital workflow, and their ability to maintain functionality and aesthetics in the oral cavity. The main questions it aims to answer were does effect of different materials on clinical success?",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06850649",
+        "ai_key_stats": "",
+        "ai_summary": "This clinical trial compared the durability and functionality of 3D-printed versus milled endocrowns in the oral cavity. The study aimed to investigate the effect of different materials on clinical success. No results were reported.",
+        "ai_significance": "This study's findings could inform dental clinicians about the best materials and manufacturing techniques for creating endocrowns. The results may impact the choice of endocrown materials in clinical practice.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Vadadustat for the Treatment of Nonintubated Acute Respiratory Distress Syndrome Due to Pathogen-Associated Lung Injury",
+        "url": "https://clinicaltrials.gov/study/NCT07086755",
+        "source": "Paul Potnuru",
+        "author": "",
+        "pubdate": "2026-08-10",
+        "summary": "The objective of this study is to assess the efficacy and safety of vadadustat for treating hospitalized patients with nonintubated Acute Respiratory Distress Syndrome (ARDS) secondary to pathogen-associated lung injury.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07086755",
+        "ai_key_stats": "",
+        "ai_summary": "This study aimed to evaluate the effectiveness and safety of vadadustat in treating nonintubated patients with ARDS caused by pathogen-associated lung injury. No results were reported.",
+        "ai_significance": "This study's findings could inform treatment options for patients with nonintubated ARDS, but no data were provided to support this.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "Diaphragmatic Ultrasonography in Difficult Weaning",
         "url": "https://clinicaltrials.gov/study/NCT07751237",
