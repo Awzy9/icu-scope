@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 11 Aug 2026 04:12:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 04:41:11 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -25,6 +25,34 @@
       <guid isPermaLink="false">pmid:42498336</guid>
       <category>Renal</category>
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
+      <title>Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT07672106</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07672106</guid>
+      <category>Clinical Trial</category>
+      <description>This study evaluates the risk of reintubation in postoperative ICU patients using multiple parameters. The study aims to identify factors associated with reintubation after extubation. The study will include adult patients who are extubated in the operating room and admitted to the ICU.</description>
+    </item>
+    <item>
+      <title>Candida PCR Diagnosis Strategy in Patients From Intensive Care Units</title>
+      <link>https://clinicaltrials.gov/study/NCT04874441</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT04874441</guid>
+      <category>Clinical Trial</category>
+      <description>Researchers evaluated a new PCR technique for diagnosing invasive candidiasis in ICU patients. The goal was to see if this method could provide faster results, allowing for earlier antifungal treatment. This could help prevent resistance and reduce healthcare costs.</description>
+    </item>
+    <item>
+      <title>Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV</title>
+      <link>https://clinicaltrials.gov/study/NCT06999928</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06999928</guid>
+      <category>Clinical Trial</category>
+      <description>This study will test an enhanced mentor mother strategy that uses differentiated service delivery to support pregnant and postpartum women living with HIV in resource-limited settings.</description>
+    </item>
+    <item>
+      <title>Impact of Procalcitonin-guided Algorithm on Early Discontinuation of Antibiotic Therapy</title>
+      <link>https://clinicaltrials.gov/study/NCT05350813</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05350813</guid>
+      <category>Clinical Trial</category>
+      <description>This study tested a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children. Patients were randomly assigned to either a PCT-guided group or a standard-of-care group. The study found that the PCT-guided algorithm was used to discontinue antibiotic treatment.</description>
     </item>
     <item>
       <title>COMPARE-VENT Feasibility Pilot Study</title>
@@ -396,34 +424,6 @@
       <guid isPermaLink="false">pmid:42171427</guid>
       <category>Endocrine &amp; Metabolic</category>
       <description>This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.</description>
-    </item>
-    <item>
-      <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
-      <guid isPermaLink="false">pmid:42377463</guid>
-      <category>Infectious Disease &amp; Sepsis</category>
-      <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
-    </item>
-    <item>
-      <title>Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42377463/</link>
-      <guid isPermaLink="false">pmid:42377463</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>PURPOSE: Early pathogen detection is crucial in sepsis. We hypothesized that detection of microbial circulating cell-free DNA by metagenomic next-generation sequencing (mNGS) improves clinical outcomes and health-related quality of life without increasing healthcare costs. METHODS: This randomized, controlled, interventional, open-label, multicenter trial was conducted in 24 intensive care units across Germany. The intervention group (n = 200) received mNGS diagnostics in addition to standard-of</description>
-    </item>
-    <item>
-      <title>Enteral When Compared With IV Magnesium Replacement in the Critically Ill: A Noninferiority Randomized Clinical Trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42223327/</link>
-      <guid isPermaLink="false">pmid:42223327</guid>
-      <category>Trauma &amp; Surgical</category>
-      <description>Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.</description>
-    </item>
-    <item>
-      <title>Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42149702/</link>
-      <guid isPermaLink="false">pmid:42149702</guid>
-      <category>Procedures &amp; POCUS</category>
-      <description>Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.</description>
     </item>
   </channel>
 </rss>

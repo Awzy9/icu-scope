@@ -1967,10 +1967,10 @@
         "journal": "Critical care (London, England)",
         "pubdate": "2026 Jul 1",
         "authors": [
-          "Cuevas CIK",
+          "Kennedy Cuevas CI",
           "Stefenon VM",
-          "Sanabria GME",
-          "González FJF",
+          "Estigarribia Sanabria GM",
+          "Florentín González FJ",
           "Rinflerch AR"
         ],
         "doi": "10.1186/s13054-026-06162-y",
@@ -3516,10 +3516,10 @@
         "journal": "Critical care (London, England)",
         "pubdate": "2026 Jul 1",
         "authors": [
-          "Cuevas CIK",
+          "Kennedy Cuevas CI",
           "Stefenon VM",
-          "Sanabria GME",
-          "González FJF",
+          "Estigarribia Sanabria GM",
+          "Florentín González FJ",
           "Rinflerch AR"
         ],
         "doi": "10.1186/s13054-026-06162-y",
@@ -5511,7 +5511,7 @@
       "source": "PulmCrit",
       "author": "Josh Farkas",
       "pubdate": "2026-08-05",
-      "summary": "As glorious as direct laryngoscopy was, it's time to transition to hyperangulated videolaryngoscopy as the mainstay of intubation among critically ill patients. There are a few reasons for this. [#1/4] People don't do videolaryngoscopy with a MAC blade correctly When videolargynosocopy with a MAC blade came out (hereafter referred to as MAC-VL), it seemed like […] EMCrit Project by Josh Farkas .",
+      "summary": "As glorious as direct laryngoscopy was, it’s time to transition to hyperangulated videolaryngoscopy as the mainstay of intubation among critically ill patients. There are a few reasons for this. [#1/4] People don’t do videolaryngoscopy with a MAC blade correctly When videolargynosocopy with a MAC blade came out (hereafter referred to as MAC-VL), it seemed like […] EMCrit Project by Josh Farkas .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
     },
@@ -7413,6 +7413,54 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07086755"
+    },
+    "NCT07672106": {
+      "title": "Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07672106",
+      "source": "Prof. Dr. Cemil Tascıoglu Education and Research Hospital Organization",
+      "author": "",
+      "pubdate": "2026-08-11",
+      "summary": "This prospective, non-interventional observational study will evaluate the risk of reintubation in adult postoperative patients admitted to the intensive care unit after major surgery. Reintubation after extubation is an important clinical problem because it may increase complications, prolong mechanical ventilation, and extend intensive care and hospital stay. The study will include adult patients who are extubated in the operating room and admitted to the intensive care unit with spontaneous b",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07672106"
+    },
+    "NCT04874441": {
+      "title": "Candida PCR Diagnosis Strategy in Patients From Intensive Care Units",
+      "url": "https://clinicaltrials.gov/study/NCT04874441",
+      "source": "University Hospital, Toulouse",
+      "author": "",
+      "pubdate": "2026-08-11",
+      "summary": "The aim of this study is to evaluate the implementation of a new technique for invasive candidiasis diagnosis by PCR. The main objective will be to evaluate the effect of this strategy on the time required to obtain results in patients from intensive care units with suspected systemic invasive candidiasis. This PCR method could allow an antifungal switch to be made earlier, limiting the appearance of resistance and reducing the cost of antifungals for healthcare facilities.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04874441"
+    },
+    "NCT06999928": {
+      "title": "Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV",
+      "url": "https://clinicaltrials.gov/study/NCT06999928",
+      "source": "Indiana University",
+      "author": "",
+      "pubdate": "2026-08-11",
+      "summary": "Mentor Mothers (MMs) are peer supporters who help pregnant and postpartum women living with HIV (WLHIV) as they receive prevention of mother-to-child transmission of HIV (PMTCT) services in resource-limited settings like Kenya. Differentiated service delivery (DSD) is a care model that tailors services based on clients' needs, helping to improve both the quality and efficiency of care. This hybrid implementation-effectiveness study will test whether an enhanced MM strategy that uses DSD can be s",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06999928"
+    },
+    "NCT05350813": {
+      "title": "Impact of Procalcitonin-guided Algorithm on Early Discontinuation of Antibiotic Therapy",
+      "url": "https://clinicaltrials.gov/study/NCT05350813",
+      "source": "University Hospital, Toulouse",
+      "author": "",
+      "pubdate": "2026-08-11",
+      "summary": "In this randomized controlled open-label trial, conducted in 7 French Pediatric and Neonatal Intensive Care Units (ICUs), investigator team hypothesize that the use of a procalcitonin (PCT)-guided algorithm to discontinue antibiotic treatment will decrease antibiotic duration in critically ill children treated for a suspected or proven bacterial infection. Two hundred and ninety-six eligible patients will be randomly assigned in two groups: either PCT-guided or standard-of-care antibiotic discon",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05350813"
     }
   },
   "bottom_line": {

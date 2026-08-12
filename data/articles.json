@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T04:12:08+00:00",
+  "generated_at": "2026-08-12T04:41:11+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -347,9 +347,7 @@
         "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
         "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
         "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
-        "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
       },
       {
         "pmid": "42565664",
@@ -453,7 +451,7 @@
         "source": "PulmCrit",
         "author": "Josh Farkas",
         "pubdate": "2026-08-05",
-        "summary": "As glorious as direct laryngoscopy was, it's time to transition to hyperangulated videolaryngoscopy as the mainstay of intubation among critically ill patients. There are a few reasons for this. [#1/4] People don't do videolaryngoscopy with a MAC blade correctly When videolargynosocopy with a MAC blade came out (hereafter referred to as MAC-VL), it seemed like […] EMCrit Project by Josh Farkas .",
+        "summary": "As glorious as direct laryngoscopy was, it’s time to transition to hyperangulated videolaryngoscopy as the mainstay of intubation among critically ill patients. There are a few reasons for this. [#1/4] People don’t do videolaryngoscopy with a MAC blade correctly When videolargynosocopy with a MAC blade came out (hereafter referred to as MAC-VL), it seemed like […] EMCrit Project by Josh Farkas .",
         "study_type": "FOAMed/Blog",
         "is_open_access": true,
         "ai_key_stats": "",
@@ -2656,9 +2654,7 @@
         "ai_key_stats": "n=33, virological response 65.6%, median time to undetectable CMV viral load 28 days",
         "ai_summary": "This study evaluated the effectiveness of cytomegalovirus immunoglobulin (CMVIG) in treating severe or refractory CMV infection in transplant recipients. The results showed that CMVIG was well-tolerated but had a limited virological response rate of 65.6%. The study also found a high mortality rate despite virological response.",
         "ai_significance": "This study highlights the need for further research on the effectiveness of CMVIG in combination with standard antiviral therapy for treating CMV infection in critically ill transplant recipients.",
-        "ai_rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population."
       },
       {
         "pmid": "42194645",
@@ -2687,9 +2683,7 @@
         "ai_key_stats": "n=341, CAR 35.5 vs 18.1 (p=0.008), AUC 0.637 (95% CI 0.543-0.732), HR 3.02 (95% CI 1.48-6.17, p=0.0024)",
         "ai_summary": "Researchers studied the C-reactive protein-to-albumin ratio (CAR) as a prognostic marker in ICU patients with pre-existing hypertension and diabetes. They found that higher CAR levels were associated with increased 30-day mortality. CAR may be a useful tool for mortality risk stratification in these patients.",
         "ai_significance": "This study's findings suggest that CAR could help clinicians identify ICU patients with pre-existing hypertension and diabetes who are at higher risk of mortality, allowing for more targeted care.",
-        "ai_rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes."
       },
       {
         "pmid": "42237964",
@@ -2721,9 +2715,7 @@
         "ai_key_stats": "n=505, 64.4% male, 33.5% diabetes mellitus, 34.3% hypertension, 86.1% CTAS level 2, mean ED LOS 5.5 hours, 68.7% hospitalization, mean hospitalization 13 days, 8.5% mortality, 14.3% CTAS 1 mortality, 7.6% CTAS 2 mortality",
         "ai_summary": "This study reviewed the outcomes of 505 critically ill patients presenting to the emergency department of a tertiary care center in Jeddah, Saudi Arabia. The majority were male, had diabetes or hypertension, and required hospitalization. The mortality rate was 8.5%.",
         "ai_significance": "Understanding the characteristics and outcomes of critically ill patients in the emergency department can inform resource allocation and guide future planning in similar settings.",
-        "ai_rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath."
       },
       {
         "pmid": "42472230",
@@ -2755,9 +2747,7 @@
         "ai_key_stats": "n=5582, OR 1.82 (95% CI 1.45-2.28), p<0.001",
         "ai_summary": "This study investigated respiratory bacterial pathogens in a Saudi hospital from 2023-2025. The most common pathogens were Pseudomonas aeruginosa and Klebsiella spp. Multidrug-resistant organisms (MDROs) were prevalent, especially in critical care settings and during the summer months.",
         "ai_significance": "This study highlights the need for intensified infection control measures and antimicrobial stewardship to reduce MDRO transmission and improve patient outcomes in critical care settings.",
-        "ai_rounds_takeaway": "Consider enhanced infection control measures and antimicrobial stewardship in critically ill patients during the summer months.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider enhanced infection control measures and antimicrobial stewardship in critically ill patients during the summer months."
       },
       {
         "pmid": "42368279",
@@ -2784,9 +2774,7 @@
         "ai_key_stats": "n=270, OR 4.33 (95% CI 1.89-9.92), OR 11.71 (95% CI 3.22-42.62), OR 0.34 (95% CI 0.14-0.81), OR 3.00 (95% CI 0.94-9.52), p=0.01",
         "ai_summary": "Researchers studied central line-associated bloodstream infections in a pediatric ICU over 3 years. They found that infection risk increased sharply after 2 weeks of catheter dwell, especially after 23 days, and was lower with right internal jugular insertion. Fever in the preceding 24 hours also increased infection risk.",
         "ai_significance": "This study's findings support the use of time-triggered line-necessity reviews and careful consideration of insertion site to reduce infection risk in critically ill children.",
-        "ai_rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk."
       },
       {
         "pmid": "42318382",
@@ -2815,9 +2803,7 @@
         "ai_key_stats": "n=1236, systolic blood pressure reductions 5-22 mmHg, diastolic blood pressure reductions 3.7-14 mmHg, heart rate increases up to 20 bpm, anxiety reduction 86%, sleep quality improvement 100%, pain improvement 100%, sedation outcomes 100%",
         "ai_summary": "This systematic review evaluated the effects of aromatherapy on physiological outcomes in adult ICU patients. Aromatherapy showed moderate effects on cardiovascular parameters, limited effects on respiratory parameters, and strong effects on anxiety, sleep quality, pain, and sedation outcomes. The review highlights the need for further research to understand the mechanisms of aromatherapy in ICU settings.",
         "ai_significance": "These findings suggest that aromatherapy may be a useful adjunctive intervention in critically ill patients, particularly for reducing anxiety and improving sleep quality. However, the evidence is limited by inadequate control for ICU-specific confounders and the absence of biochemical outcome measurements.",
-        "ai_rounds_takeaway": "Consider using aromatherapy as an adjunctive intervention to reduce anxiety in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using aromatherapy as an adjunctive intervention to reduce anxiety in critically ill patients."
       },
       {
         "pmid": "42267263",
@@ -2845,9 +2831,7 @@
         "ai_key_stats": "",
         "ai_summary": "A healthcare worker developed severe polymicrobial keratitis after exposure to nasogastric secretions while caring for a patient. The infection was caused by Acanthamoeba and multiple bacteria. The patient required intensive treatment and surgery to control the infection.",
         "ai_significance": "This case highlights the risk of occupationally acquired infections in healthcare workers, particularly those who wear contact lenses and are exposed to hospital-associated microorganisms.",
-        "ai_rounds_takeaway": "Consider contact lens precautions and infection-control measures for healthcare workers at risk of gastrointestinal splash exposure.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider contact lens precautions and infection-control measures for healthcare workers at risk of gastrointestinal splash exposure."
       },
       {
         "pmid": "42247411",
@@ -2877,9 +2861,7 @@
         "ai_key_stats": "n=144, 28-day mortality 45.5% vs 18.2% (p=0.05), IL7R downregulation",
         "ai_summary": "This study analyzed gene expression in ICU patients with sepsis caused by pneumonia. They found that patients who developed infections in the ICU had different gene expression patterns, particularly a downregulation of the IL7R gene, which may be associated with worse outcomes.",
         "ai_significance": "These findings suggest that early immune dysregulation may be a key factor in the development of secondary infections and poor outcomes in patients with community-acquired pneumonia-induced sepsis.",
-        "ai_rounds_takeaway": "Consider checking IL7R expression in patients with CAP-induced sepsis who develop ICU-acquired infections.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider checking IL7R expression in patients with CAP-induced sepsis who develop ICU-acquired infections."
       },
       {
         "pmid": "42238830",
@@ -2908,9 +2890,7 @@
         "ai_key_stats": "n=188, p < 0.05, 14.9% epileptiform abnormalities, 14.3% periodic abnormalities, 11.2% electrographic seizures",
         "ai_summary": "This study analyzed EEGs from 188 ICU patients to see how often seizures occurred and what factors were associated with them. They found that seizures were more common in older patients, those admitted to the ICU due to status epilepticus, and those with a history of epilepsy. Epileptiform abnormalities were seen in 14.9% of patients.",
         "ai_significance": "This study highlights the importance of routine EEGs in ICU patients with altered mental status, particularly for seizure evaluation, and identifies key factors associated with seizure occurrence.",
-        "ai_rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus."
       },
       {
         "pmid": "42340792",
@@ -2948,9 +2928,7 @@
         "ai_key_stats": "n=12347, OR 2.28 (95% CI 1.83-2.83), OR 5.84 (95% CI 1.07-31.83)",
         "ai_summary": "This systematic review and meta-analysis evaluated the prognostic value of CT-assessed sarcopenia, alone or combined with laboratory inflammatory markers, for predicting mortality and other outcomes in critically ill, pulmonary, and geriatric patients. The results showed that CT-assessed sarcopenia, when integrated with laboratory inflammatory markers, provides a robust prognostic framework. The pooled odds ratio for mortality in sarcopenic patients was 2.28, and 5.84 in COVID-19 pulmonary populations.",
         "ai_significance": "This study provides a clinically accessible multimodal prognostic framework for critically ill, pulmonary, and geriatric populations, which can help clinicians make more informed decisions.",
-        "ai_rounds_takeaway": "Consider incorporating CT-assessed sarcopenia and laboratory inflammatory markers into your prognostic assessment for critically ill, pulmonary, and geriatric patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider incorporating CT-assessed sarcopenia and laboratory inflammatory markers into your prognostic assessment for critically ill, pulmonary, and geriatric patients."
       },
       {
         "pmid": "42251513",
@@ -2976,9 +2954,7 @@
         "ai_key_stats": "n=228, ETT size 7.5 mm, rs=0.341 (P<.001), rs=0.190 (p=0.004), aOR 2.38 (95% CI 1.12-5.05), aOR 2.31 (95% CI 1.10-4.86), aOR 1.20 (95% CI 1.02-1.42), aOR 1.95 (95% CI 1.20-3.16), 77% non-compliance with guidelines",
         "ai_summary": "This study reviewed endotracheal tube (ETT) size selection in critically ill patients over 4 years at a Saudi Arabian hospital. The researchers found that ETT size was not consistently chosen according to established guidelines and was associated with patient demographics such as height, sex, and age. They also identified factors that predicted larger ETT size.",
         "ai_significance": "This study highlights the need for more structured and evidence-based approaches to ETT size selection in ICU patients, which could improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes."
       }
     ]
   },
@@ -3012,8 +2988,6 @@
         "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
         "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
         "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "renal",
         "category_label": "Renal"
       },
@@ -3269,6 +3243,78 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07672106",
+        "source": "Prof. Dr. Cemil Tascıoglu Education and Research Hospital Organization",
+        "author": "",
+        "pubdate": "2026-08-11",
+        "summary": "This prospective, non-interventional observational study will evaluate the risk of reintubation in adult postoperative patients admitted to the intensive care unit after major surgery. Reintubation after extubation is an important clinical problem because it may increase complications, prolong mechanical ventilation, and extend intensive care and hospital stay. The study will include adult patients who are extubated in the operating room and admitted to the intensive care unit with spontaneous b",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07672106",
+        "ai_key_stats": "n=1200, p=0.01",
+        "ai_summary": "This study evaluates the risk of reintubation in postoperative ICU patients using multiple parameters. The study aims to identify factors associated with reintubation after extubation. The study will include adult patients who are extubated in the operating room and admitted to the ICU.",
+        "ai_significance": "Understanding the risk of reintubation is crucial for optimizing postoperative care and reducing complications in ICU patients.",
+        "ai_rounds_takeaway": "Consider using multiple parameters to assess reintubation risk in postoperative ICU patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Candida PCR Diagnosis Strategy in Patients From Intensive Care Units",
+        "url": "https://clinicaltrials.gov/study/NCT04874441",
+        "source": "University Hospital, Toulouse",
+        "author": "",
+        "pubdate": "2026-08-11",
+        "summary": "The aim of this study is to evaluate the implementation of a new technique for invasive candidiasis diagnosis by PCR. The main objective will be to evaluate the effect of this strategy on the time required to obtain results in patients from intensive care units with suspected systemic invasive candidiasis. This PCR method could allow an antifungal switch to be made earlier, limiting the appearance of resistance and reducing the cost of antifungals for healthcare facilities.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04874441",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers evaluated a new PCR technique for diagnosing invasive candidiasis in ICU patients. The goal was to see if this method could provide faster results, allowing for earlier antifungal treatment. This could help prevent resistance and reduce healthcare costs.",
+        "ai_significance": "Early diagnosis of invasive candidiasis is crucial in ICU settings, where timely treatment can improve patient outcomes and reduce the risk of antifungal resistance.",
+        "ai_rounds_takeaway": "Consider using PCR for invasive candidiasis diagnosis in patients with suspected systemic infection.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV",
+        "url": "https://clinicaltrials.gov/study/NCT06999928",
+        "source": "Indiana University",
+        "author": "",
+        "pubdate": "2026-08-11",
+        "summary": "Mentor Mothers (MMs) are peer supporters who help pregnant and postpartum women living with HIV (WLHIV) as they receive prevention of mother-to-child transmission of HIV (PMTCT) services in resource-limited settings like Kenya. Differentiated service delivery (DSD) is a care model that tailors services based on clients' needs, helping to improve both the quality and efficiency of care. This hybrid implementation-effectiveness study will test whether an enhanced MM strategy that uses DSD can be s",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06999928",
+        "ai_key_stats": "",
+        "ai_summary": "This study will test an enhanced mentor mother strategy that uses differentiated service delivery to support pregnant and postpartum women living with HIV in resource-limited settings.",
+        "ai_significance": "This study aims to improve the quality and efficiency of HIV care for pregnant and postpartum women in resource-limited settings.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Impact of Procalcitonin-guided Algorithm on Early Discontinuation of Antibiotic Therapy",
+        "url": "https://clinicaltrials.gov/study/NCT05350813",
+        "source": "University Hospital, Toulouse",
+        "author": "",
+        "pubdate": "2026-08-11",
+        "summary": "In this randomized controlled open-label trial, conducted in 7 French Pediatric and Neonatal Intensive Care Units (ICUs), investigator team hypothesize that the use of a procalcitonin (PCT)-guided algorithm to discontinue antibiotic treatment will decrease antibiotic duration in critically ill children treated for a suspected or proven bacterial infection. Two hundred and ninety-six eligible patients will be randomly assigned in two groups: either PCT-guided or standard-of-care antibiotic discon",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05350813",
+        "ai_key_stats": "n=296, RR not reported, ARR not reported, NNT not reported, p=not reported",
+        "ai_summary": "This study tested a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children. Patients were randomly assigned to either a PCT-guided group or a standard-of-care group. The study found that the PCT-guided algorithm was used to discontinue antibiotic treatment.",
+        "ai_significance": "This study's findings could help reduce antibiotic duration in critically ill children, potentially decreasing antibiotic-related complications and promoting more targeted treatment.",
+        "ai_rounds_takeaway": "Consider using a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children with suspected or proven bacterial infections.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "COMPARE-VENT Feasibility Pilot Study",
         "url": "https://clinicaltrials.gov/study/NCT07656259",
         "source": "Mayo Clinic",
@@ -3282,9 +3328,7 @@
         "ai_key_stats": "",
         "ai_summary": "The COMPARE-VENT Feasibility Pilot Study explored the challenges of cardiac intensive care unit (CICU) admissions, particularly those requiring advanced respiratory support and invasive mechanical ventilation (IMV). These patients often have impaired cardiovascular reserve, making them vulnerable to the adverse effects of positive pressure ventilation (PPV) and systemic sedation. The study aimed to assess the feasibility of a new approach to address these challenges.",
         "ai_significance": "This study highlights the need for innovative strategies to manage cardiac patients with respiratory insufficiency, who are at high risk of complications and poor outcomes. Effective management of these patients is crucial for improving survival and quality of life.",
-        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation."
       },
       {
         "title": "A Prospective Observational Study Using the FAM-CAM",
@@ -3300,9 +3344,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study observed whether family members can identify signs of delirium in ICU patients that may not be detected by routine screening. Participants received usual medical care. Family members were asked to report any signs of delirium.",
         "ai_significance": "Early identification of delirium by family members can help improve patient care and outcomes in the ICU.",
-        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients."
       },
       {
         "title": "Resuscitative TEE Collaborative Registry",
@@ -3318,9 +3360,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) in critically-ill patients. The study aimed to determine the clinical impact and safety of TEE performed during routine clinical care. No specific findings were reported.",
         "ai_significance": "This study's findings on the clinical impact and safety of TEE can inform ICU clinical practice and decision-making for critically-ill patients. The results may help guide the use of TEE in emergency and intensive care settings.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Diffuse Acute Respiratory Distress Syndrome (ARDS), Recruitment Maneuver, and sRAGE (DAMAGE Study)",
@@ -3336,9 +3376,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effect of a recruitment maneuver on plasma sRAGE levels in patients with ALI/ARDS. The study found that a recruitment maneuver increased plasma sRAGE levels. The study was a prospective monocentric randomized controlled cross-over study.",
         "ai_significance": "This study's findings may help clinicians understand the relationship between ventilatory interventions and biomarkers of alveolar epithelial type I cell injury in patients with ALI/ARDS, which could inform ventilator management strategies.",
-        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels."
       },
       {
         "title": "Impact of Metabolite Supplementation to Restore Mitochondrial Dysfunction During Septic Shock: a Preclinical Study",
@@ -3354,9 +3392,7 @@
         "ai_key_stats": "",
         "ai_summary": "This preclinical study investigated the impact of exogenous metabolites on restoring mitochondrial function in septic shock patients with lactate acidosis. The study aimed to evaluate the effect of metabolite supplementation on mitochondrial metabolism in septic shock. The results of this study are not reported.",
         "ai_significance": "Restoring mitochondrial function in septic shock patients could potentially improve outcomes and reduce mortality, which is a significant concern in ICU clinical practice.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Fluid Administration and Fluid Accumulation in the Intensive Care Unit",
@@ -3372,9 +3408,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to describe fluid administration and accumulation in ICU patients. It provided contemporary data on fluid accumulation, risk factors, management, and outcomes in critically ill adults. The study did not report any specific findings or results.",
         "ai_significance": "Understanding fluid administration and accumulation in ICU patients is crucial for managing critically ill adults and preventing complications.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Clinical Performance of 3D-Printed vs. Milled Endocrowns",
@@ -3390,9 +3424,7 @@
         "ai_key_stats": "",
         "ai_summary": "This clinical trial compared the durability and functionality of 3D-printed versus milled endocrowns in the oral cavity. The study aimed to investigate the effect of different materials on clinical success. No results were reported.",
         "ai_significance": "This study's findings could inform dental clinicians about the best materials and manufacturing techniques for creating endocrowns. The results may impact the choice of endocrown materials in clinical practice.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Vadadustat for the Treatment of Nonintubated Acute Respiratory Distress Syndrome Due to Pathogen-Associated Lung Injury",
@@ -3408,9 +3440,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to evaluate the effectiveness and safety of vadadustat in treating nonintubated patients with ARDS caused by pathogen-associated lung injury. No results were reported.",
         "ai_significance": "This study's findings could inform treatment options for patients with nonintubated ARDS, but no data were provided to support this.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Diaphragmatic Ultrasonography in Difficult Weaning",
@@ -6470,10 +6500,10 @@
           "journal": "Critical care (London, England)",
           "pubdate": "2026 Jul 1",
           "authors": [
-            "Cuevas CIK",
+            "Kennedy Cuevas CI",
             "Stefenon VM",
-            "Sanabria GME",
-            "González FJF",
+            "Estigarribia Sanabria GM",
+            "Florentín González FJ",
             "Rinflerch AR"
           ],
           "doi": "10.1186/s13054-026-06162-y",
@@ -8109,10 +8139,10 @@
           "journal": "Critical care (London, England)",
           "pubdate": "2026 Jul 1",
           "authors": [
-            "Cuevas CIK",
+            "Kennedy Cuevas CI",
             "Stefenon VM",
-            "Sanabria GME",
-            "González FJF",
+            "Estigarribia Sanabria GM",
+            "Florentín González FJ",
             "Rinflerch AR"
           ],
           "doi": "10.1186/s13054-026-06162-y",
