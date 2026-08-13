@@ -260,6 +260,12 @@
     "summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
     "significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population."
   },
+  "pmid:42584203": {
+    "key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
+    "summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
+    "significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
+    "rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
+  },
   "pmid:42573413": {
     "key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
     "summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
@@ -681,17 +687,11 @@
     "summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
     "significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury."
   },
-  "pmid:42565664": {
-    "key_stats": "n=not reported, aOR 1.21 (95% CI 1.03-1.43), aOR 1.33 (95% CI 1.04-1.70), aOR 0.39 (95% CI 0.26-0.58), aOR 0.70 (95% CI 0.57-0.86), aOR 0.58 (95% CI 0.48-0.71), aOR 0.70 (95% CI 0.55-0.89), aOR 0.59 (95% CI 0.47-0.73)",
-    "summary": "This study examined billing practices for telemedicine critical care services among Medicare beneficiaries before, during, and after the COVID-19 pandemic. Billing for these services increased during the pandemic but remained low as a proportion of all critical care bills. There was variability in utilization across different types of hospitals.",
-    "significance": "This study highlights the need for further research on the clinical and economic consequences of increased telemedicine critical care billing, particularly in rural and critical access hospitals.",
-    "rounds_takeaway": "Consider using telemedicine critical care services for critically ill patients at minor teaching hospitals and safety-net hospitals."
-  },
-  "pmid:42556561": {
-    "key_stats": "n=361, first-attempt success 90.0%, mean number of venipuncture attempts 1.1, catheter-related bloodstream infection 4.9%, mechanical complications 4.1%, secondary malposition 2.7%",
-    "summary": "Researchers conducted a multicenter study to evaluate the safety and feasibility of using ultrasound-guided brachiocephalic venipuncture for central catheter placement in newborns. They found that this approach was successful in 90% of attempts and had low complication rates. The study supports the use of this technique for neonatal central venous access.",
-    "significance": "This study provides evidence for the use of ultrasound-guided brachiocephalic venipuncture as a safe and effective approach for central catheter placement in newborns, which can improve patient outcomes and reduce complications.",
-    "rounds_takeaway": "Consider using ultrasound-guided brachiocephalic venipuncture for central catheter placement in newborns when feasible."
+  "url:https://emcrit.org/emnerd/the-case-of-the-redacted-ledger/": {
+    "key_stats": "",
+    "summary": "This commentary discusses the lack of randomized controlled trials examining the efficacy of oseltamivir, citing past instances of Roche hiding borderline efficacy results for profit.",
+    "significance": "This matters for ICU clinical practice as it highlights the importance of critically evaluating pharmaceutical efficacy and the need for transparent clinical trials.",
+    "rounds_takeaway": ""
   },
   "url:https://emcrit.org/emcrit/post-partum-hemorrhage/": {
     "key_stats": "",
@@ -847,6 +847,12 @@
     "summary": "Clinical pharmacists are increasingly involved in acute stroke care, but their role is inconsistently defined. A consensus statement recommends their involvement in managing acute ischemic and hemorrhagic stroke in emergency departments.",
     "significance": "This matters for ICU clinical practice because optimizing the clinical pharmacist role can improve time-sensitive treatment and equity in care delivery for stroke patients."
   },
+  "pmid:42583469": {
+    "key_stats": "",
+    "summary": "This study conducted a critical analysis of pain assessment tools in the context of the 2020 IASP definitional update and the 2017 nociplastic mechanistic descriptor. A structured narrative review of 79 studies was performed, evaluating the psychometric properties of various pain assessment instruments. The results highlighted the limitations of neuropathic screening scales and the need for optimal selection based on clinical context and patient characteristics.",
+    "significance": "This study's findings have significant implications for ICU clinical practice, as they highlight the importance of selecting the most appropriate pain assessment tool based on the patient's specific needs and context.",
+    "rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience."
+  },
   "pmid:42262517": {
     "summary": "This study compared intensive and conventional blood glucose targets in critically ill adults. It found that intensive targets may slightly improve some outcomes like infections and length of stay, but increase the risk of severe hypoglycemia. No difference was seen in mortality.",
     "significance": "These findings are important for ICU clinicians as they suggest that intensive blood glucose targets may not be worth the increased risk of hypoglycemia, and conventional targets may be a safer choice. However, in select centers with optimized protocols, a lower target may be considered acceptable."
@@ -943,9 +949,69 @@
     "summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
     "significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care."
   },
+  "url:https://doi.org/10.64898/2026.07.28.26359155": {
+    "key_stats": "",
+    "summary": "Researchers developed machine learning models to predict 30-day mortality in ICU trauma patients within the first 24 hours after admission. They trained and tested these models using data from two different ICU databases. The models showed promise in predicting mortality risk.",
+    "significance": "This study contributes to the development of tools that can help ICU clinicians identify patients at high risk of mortality, potentially guiding resource allocation and monitoring.",
+    "rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission."
+  },
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07761364": {
+    "key_stats": "",
+    "summary": "This study examined the effect of physical contact with primary caregivers on adult ICU patients' physiological responses. The trial was a randomized controlled study. No significant physiological changes were found.",
+    "significance": "Understanding the impact of caregiver contact on ICU patients' physiological responses can inform strategies to improve patient comfort and well-being. However, this study found no significant changes.",
+    "rounds_takeaway": "No change to current practice — physical contact with caregivers does not appear to have a significant effect on ICU patients' physiological responses."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07407868": {
+    "key_stats": "",
+    "summary": "Sepsis is a life-threatening condition caused by a host response to infection, with high mortality rates in sub-Saharan Africa. Children under 5 years hospitalized with sepsis have high mortality rates within the first 6 months of discharge. Various populations in sub-Saharan Africa experience high mortality rates due to sepsis.",
+    "significance": "This highlights the need for improved sepsis management and care in sub-Saharan Africa to reduce mortality rates.",
+    "rounds_takeaway": "Consider early recognition and aggressive management of sepsis in high-risk populations in sub-Saharan Africa."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07759310": {
+    "key_stats": "",
+    "summary": "A study was conducted to evaluate the effectiveness of a delirium playbook training for ICU nurses. The training aimed to improve delirium recognition and management. However, no specific results were reported.",
+    "significance": "Early recognition and management of delirium are crucial for improving patient outcomes in the ICU, and this study highlights the need for effective training programs for ICU nurses.",
+    "rounds_takeaway": "Consider implementing a delirium recognition and management training program for ICU nurses to improve patient care."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07490925": {
+    "key_stats": "",
+    "summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
+    "significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07761481": {
+    "key_stats": "",
+    "summary": "This observational study evaluated the relationship between sarcopenia and muscle quality impairment in critically ill cancer patients and their risk of 28-day mortality. The study used computed tomography to assess muscle quality and found an association between lower muscle quality and increased mortality. The study aimed to answer whether lower psoas muscle quality is associated with increased mortality in critically ill cancer patients.",
+    "significance": "This study highlights the importance of sarcopenia and muscle quality in critically ill cancer patients, which can inform ICU management and potentially improve outcomes.",
+    "rounds_takeaway": "Assess muscle quality using CT scans in critically ill cancer patients to identify those at higher risk of mortality."
+  },
+  "url:https://clinicaltrials.gov/study/NCT02897466": {
+    "key_stats": "",
+    "summary": "The study discusses the impact of direct antimicrobial susceptibility testing on respiratory samples of ICU patients with suspected ventilator-associated pneumonia (VAP). Current guidelines recommend using broad-spectrum antibiotics, but this may promote antibiotic resistance. The study aims to explore the benefits of direct AST in reducing inappropriate antibiotic therapy.",
+    "significance": "This study has implications for ICU clinical practice as inappropriate antibiotic therapy is associated with increased mortality in VAP patients. Direct AST may help reduce antibiotic resistance and improve patient outcomes.",
+    "rounds_takeaway": "Consider using direct antimicrobial susceptibility testing in patients with suspected VAP to guide antibiotic therapy and reduce the risk of antibiotic resistance."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07632131": {
+    "key_stats": "",
+    "summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
+    "significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
+    "rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07761234": {
+    "key_stats": "",
+    "summary": "This study evaluated the effectiveness of an app-based delirium education program for ICU nurses. The program aimed to enhance nurses' knowledge, learning self-efficacy, and clinical reasoning regarding delirium. The study found that the app intervention had a positive impact on nurses' knowledge and learning self-efficacy.",
+    "significance": "This study highlights the potential of app-based education to improve ICU nurses' knowledge and skills in delirium management, which is crucial for providing high-quality patient care.",
+    "rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07761832": {
+    "key_stats": "",
+    "summary": "This observational study examined if early hemoglobin decline in critically ill patients can predict longer ICU stays and in-hospital mortality. The study found that early hemoglobin decline is associated with these outcomes. The study aims to answer two main questions about the relationship between hemoglobin decline and patient outcomes.",
+    "significance": "This study's findings have implications for ICU management and may help clinicians identify patients at higher risk of prolonged ICU stays and in-hospital mortality.",
+    "rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality."
   },
   "url:https://clinicaltrials.gov/study/NCT07672106": {
     "key_stats": "n=1200, p=0.01",
