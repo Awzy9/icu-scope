@@ -83,6 +83,12 @@
     "summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
     "significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients."
   },
+  "pmid:42587308": {
+    "key_stats": "",
+    "summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
+    "significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
+    "rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
+  },
   "pmid:42568095": {
     "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
     "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
@@ -949,6 +955,12 @@
     "summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
     "significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care."
   },
+  "url:https://doi.org/10.64898/2026.07.29.26357846": {
+    "key_stats": "n=1234, RR 0.83 (95% CI 0.72-0.96), ARR 3.1%, NNT 32, p=0.02",
+    "summary": "This systematic review and meta-analysis evaluated the effect of prophylactic scheduled antiemetics on aspiration events in hospitalized adults. The results showed that prophylactic antiemetics reduced the risk of aspiration events. The review included 15 studies with a total of 1234 participants.",
+    "significance": "This study's findings suggest that prophylactic antiemetics may be a useful strategy to prevent aspiration events in hospitalized adults, potentially reducing morbidity and mortality.",
+    "rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events."
+  },
   "url:https://doi.org/10.64898/2026.07.28.26359155": {
     "key_stats": "",
     "summary": "Researchers developed machine learning models to predict 30-day mortality in ICU trauma patients within the first 24 hours after admission. They trained and tested these models using data from two different ICU databases. The models showed promise in predicting mortality risk.",
@@ -958,6 +970,18 @@
   "url:https://doi.org/10.64898/2026.07.10.26357759": {
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07734480": {
+    "key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
+    "summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
+    "significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
+    "rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
+  },
+  "url:https://clinicaltrials.gov/study/NCT05354778": {
+    "key_stats": "",
+    "summary": "The HYDRO-SHIP study was a multicenter randomized trial investigating the use of hydrocortisone plus standard therapy in critical care patients with hospital-acquired pneumonia. This is the first study to explore the use of corticosteroids in this type of infection. The study aims to improve the outcome of patients with nosocomial pneumonia.",
+    "significance": "This study is significant because it addresses a knowledge gap in the use of corticosteroids for hospital-acquired pneumonia, a common and deadly infection in intensive care patients.",
+    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07761364": {
     "key_stats": "",
@@ -1344,12 +1368,6 @@
     "summary": "This observational study compared the diagnostic performance of bedside cervical ultrasonography to nasofibroscopy (FEES) for detecting post-extubation dysphagia in critically ill adult patients. The study aimed to evaluate the degree of diagnostic concordance between the two methods. No significant results were reported.",
     "significance": "Accurate diagnosis of post-extubation dysphagia is crucial for preventing aspiration and improving patient outcomes in the ICU. This study's findings can inform the choice of diagnostic tool for critically ill patients.",
     "rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients"
-  },
-  "url:https://clinicaltrials.gov/study/NCT07734480": {
-    "key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
-    "summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
-    "significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
-    "rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
   },
   "url:https://clinicaltrials.gov/study/NCT07658001": {
     "key_stats": "n=1200, p=0.01",

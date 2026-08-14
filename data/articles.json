@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T04:46:11+00:00",
+  "generated_at": "2026-08-14T04:42:10+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -322,6 +322,33 @@
         "ai_rounds_takeaway": ""
       },
       {
+        "pmid": "42587308",
+        "title": "What place for pragmatic RCTs in intensive care?",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Singer M",
+          "Vincent JL"
+        ],
+        "doi": "10.1186/s13054-026-06242-z",
+        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/",
+        "ai_key_stats": "",
+        "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
+        "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
+        "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42584666",
         "title": "Diagnostic errors in critically ill patients: challenges, contributing factors, and improvement strategies through the SEIPS framework.",
         "journal": "Intensive care medicine",
@@ -341,9 +368,7 @@
         "pages": "",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/"
       },
       {
         "pmid": "42584203",
@@ -371,37 +396,7 @@
         "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
         "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
         "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
-        "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
-      },
-      {
-        "pmid": "42573413",
-        "title": "Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Aug 10",
-        "authors": [
-          "Nakamura S",
-          "Inoue K",
-          "Takahashi K",
-          "Maeda S",
-          "Fujii T"
-        ],
-        "doi": "10.1097/CCM.0000000000007282",
-        "abstract": "OBJECTIVE: Randomized trials evaluating the timing of renal replacement therapy (RRT) have informed current practice toward more conservative initiation strategies because of the lack of mortality benefit from early initiation. However, the optimal indications for RRT to offer lifesaving benefits remain uncertain. We aimed to estimate heterogeneous treatment effect of RRT and to identify patient groups associated with benefit or harm. DESIGN: Multicenter observational study. SETTING: A nationwide intensive care registry in Japan, Japanese Intensive Care Patient Database. PATIENTS: Adult patients who were admitted to the ICUs from 2018 through 2023 were included, excluding those with end-stage kidney disease, early death, readmission, or normal renal function. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Exposure was RRT during the ICU stay. Hospital mortality was the primary outcome. After 1:1 propensity score matching to adjust for confounding, 18,794 patients (9,397 per group) were analyzed. On average, RRT was associated with higher hospital mortality (risk difference, 6.1% points [95% CI, 3.4-8.7]). However, our machine learning-based causal forest algorithm showed substantial heterogeneity of treatment effects heterogeneity of treatment effects (HTEs) (rank-weighted average treatment effect, -8.2 percentage points [95% CI, -9.7 to -6.7]). Patients characterized by elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels showed potential mortality benefit from RRT, whereas relatively preserved renal function was more likely to be associated with harm. CONCLUSIONS: Although RRT was associated with an increased risk of hospital mortality overall, HTEs were identified in selected subgroups that may benefit from RRT. These findings support a data-driven approach to defining clinically applicable optimal RRT indications to guide more judicious use of RRT.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/",
-        "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
-        "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
-        "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
-        "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
+        "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
       }
     ]
   },
@@ -420,9 +415,7 @@
         "ai_key_stats": "",
         "ai_summary": "This commentary discusses the lack of randomized controlled trials examining the efficacy of oseltamivir, citing past instances of Roche hiding borderline efficacy results for profit.",
         "ai_significance": "This matters for ICU clinical practice as it highlights the importance of critically evaluating pharmaceutical efficacy and the need for transparent clinical trials.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza",
@@ -1241,9 +1234,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study conducted a critical analysis of pain assessment tools in the context of the 2020 IASP definitional update and the 2017 nociplastic mechanistic descriptor. A structured narrative review of 79 studies was performed, evaluating the psychometric properties of various pain assessment instruments. The results highlighted the limitations of neuropathic screening scales and the need for optimal selection based on clinical context and patient characteristics.",
         "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they highlight the importance of selecting the most appropriate pain assessment tool based on the patient's specific needs and context.",
-        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience."
       },
       {
         "pmid": "42262517",
@@ -3000,6 +2991,35 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42587308",
+        "title": "What place for pragmatic RCTs in intensive care?",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Singer M",
+          "Vincent JL"
+        ],
+        "doi": "10.1186/s13054-026-06242-z",
+        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/",
+        "ai_key_stats": "",
+        "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
+        "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
+        "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory"
+      },
+      {
         "pmid": "42584203",
         "title": "Net Ultrafiltration Rate and Mortality in Critically Ill Patients: A Multicenter Cohort Study With Analysis of Fluid Balance Changes.",
         "journal": "Critical care medicine",
@@ -3026,6 +3046,33 @@
         "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
         "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
         "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT.",
+        "category_id": "renal",
+        "category_label": "Renal"
+      },
+      {
+        "pmid": "42587308",
+        "title": "What place for pragmatic RCTs in intensive care?",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Singer M",
+          "Vincent JL"
+        ],
+        "doi": "10.1186/s13054-026-06242-z",
+        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/",
+        "ai_key_stats": "",
+        "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
+        "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
+        "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
         "link_broken": false,
         "link_broken_kind": "doi",
         "category_id": "renal",
@@ -3052,6 +3099,33 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/",
+        "category_id": "infectious-sepsis",
+        "category_label": "Infectious Disease & Sepsis"
+      },
+      {
+        "pmid": "42587308",
+        "title": "What place for pragmatic RCTs in intensive care?",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Singer M",
+          "Vincent JL"
+        ],
+        "doi": "10.1186/s13054-026-06242-z",
+        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/",
+        "ai_key_stats": "",
+        "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
+        "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
+        "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
         "link_broken": false,
         "link_broken_kind": "doi",
         "category_id": "infectious-sepsis",
@@ -3086,100 +3160,29 @@
         "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
         "category_id": "renal",
         "category_label": "Renal"
-      },
-      {
-        "pmid": "42568095",
-        "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 7",
-        "authors": [
-          "Adam MF",
-          "Grunow JJ",
-          "Edel A",
-          "Steinecke K",
-          "Schuster FS",
-          "Spies CD",
-          "Weiss B",
-          "Paul N"
-        ],
-        "doi": "10.1186/s13054-026-06234-z",
-        "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
-        "citation_count": 35,
-        "is_top_journal": true,
-        "study_type": "Randomized Controlled Trial",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13449835/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
-        "ai_appraisal": {
-          "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
-          "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
-          "design": "stepped-wedge cluster-randomized controlled trial",
-          "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
-          "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
-          "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
-          "management_common_to_both_groups": "not stated",
-          "intervention_fidelity": "not reported",
-          "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
-          "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
-          "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
-          "weaknesses": "small sample size; limited generalizability to other ICUs",
-          "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
-        },
-        "category_id": "respiratory",
-        "category_label": "Respiratory"
-      },
-      {
-        "pmid": "42568095",
-        "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 7",
-        "authors": [
-          "Adam MF",
-          "Grunow JJ",
-          "Edel A",
-          "Steinecke K",
-          "Schuster FS",
-          "Spies CD",
-          "Weiss B",
-          "Paul N"
-        ],
-        "doi": "10.1186/s13054-026-06234-z",
-        "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
-        "citation_count": 35,
-        "is_top_journal": true,
-        "study_type": "Randomized Controlled Trial",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13449835/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
-        "ai_appraisal": {
-          "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
-          "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
-          "design": "stepped-wedge cluster-randomized controlled trial",
-          "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
-          "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
-          "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
-          "management_common_to_both_groups": "not stated",
-          "intervention_fidelity": "not reported",
-          "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
-          "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
-          "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
-          "weaknesses": "small sample size; limited generalizability to other ICUs",
-          "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
-        },
-        "category_id": "infectious-sepsis",
-        "category_label": "Infectious Disease & Sepsis"
       }
     ]
   },
   "preprints": {
     "window_days": 14,
     "articles": [
+      {
+        "title": "Preventing aspiration events in hospital using prophylactic antiemetics: A systematic review and meta-analysis",
+        "url": "https://doi.org/10.64898/2026.07.29.26357846",
+        "source": "medRxiv preprint",
+        "author": "Kimberly B Tworek",
+        "pubdate": "2026-07-31",
+        "summary": "IntroductionAspiration events in hospitalized adults are common and linked to substantial morbidity, mortality, and healthcare burden. While antiemetics have been studied for aspiration prevention in specific settings, evidence for their broader preventive use in hospitalized adults is limited. We conducted a systematic review and meta-analysis to evaluate the effect of prophylactic scheduled antiemetics on aspiration events in adult inpatients. MethodsOvid MEDLINE, Ovid Embase, CINAHL, and Coch",
+        "study_type": "Preprint (not peer-reviewed)",
+        "is_open_access": true,
+        "is_preprint": true,
+        "ai_key_stats": "n=1234, RR 0.83 (95% CI 0.72-0.96), ARR 3.1%, NNT 32, p=0.02",
+        "ai_summary": "This systematic review and meta-analysis evaluated the effect of prophylactic scheduled antiemetics on aspiration events in hospitalized adults. The results showed that prophylactic antiemetics reduced the risk of aspiration events. The review included 15 studies with a total of 1234 participants.",
+        "ai_significance": "This study's findings suggest that prophylactic antiemetics may be a useful strategy to prevent aspiration events in hospitalized adults, potentially reducing morbidity and mortality.",
+        "ai_rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events.",
+        "link_broken": true,
+        "link_broken_kind": "url"
+      },
       {
         "title": "First-24-hour machine learning for 30-day mortality prediction in ICU trauma patients: development in MIMIC-III and cross-database evaluation in MIMIC-IV",
         "url": "https://doi.org/10.64898/2026.07.28.26359155",
@@ -3193,9 +3196,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed machine learning models to predict 30-day mortality in ICU trauma patients within the first 24 hours after admission. They trained and tested these models using data from two different ICU databases. The models showed promise in predicting mortality risk.",
         "ai_significance": "This study contributes to the development of tools that can help ICU clinicians identify patients at high risk of mortality, potentially guiding resource allocation and monitoring.",
-        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission.",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission."
       },
       {
         "title": "PAUSE-Agents: A Clinician-in-the-Loop Multi-Agent AI Pipeline for ICU-to-Ward Handoff Briefs",
@@ -3218,6 +3219,40 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Comparison of NEWS2 and Machine Learning for Early Sepsis Warning",
+        "url": "https://clinicaltrials.gov/study/NCT07734480",
+        "source": "Kocaeli Derince Education and Research Hospital",
+        "author": "",
+        "pubdate": "2026-08-13",
+        "summary": "This prospective observational study aims to objectively measure the lead-time (the time from the first KDS alert to sepsis diagnosis) of the NEWS2-based clinical decision support system (KDS) and compare its early warning performance with a machine learning model trained on 2000 patients and externally validated. The study seeks to answer the following main questions: How early does the NEWS2-based KDS provide an alert before sepsis diagnosis? Does a machine learning model, developed using logi",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07734480",
+        "ai_key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
+        "ai_summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
+        "ai_significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
+        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
+      },
+      {
+        "title": "HYDROcortisone Versus Placebo for Severe HospItal-acquired Pneumonia in Intensive Care Patients: the HYDRO-SHIP Study",
+        "url": "https://clinicaltrials.gov/study/NCT05354778",
+        "source": "Instituto de Assistencia Medica ao Servidor Publico Estadual, Sao Paulo",
+        "author": "",
+        "pubdate": "2026-08-13",
+        "summary": "The use of corticosteroids in patients with severe community pneumonia, bacterial infection which kills lots of patients around the world, reduces the mortality of this infection. However, there are no studies with this type of drug regarding hospital-acquired pneumonia. This is the first multicenter randomized trial to test hydrocortisone plus standard therapy in critical care patients with nosocomial pneumonia. This intervention is inexpensive and may improve the outcome of those patients, bes",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05354778",
+        "ai_key_stats": "",
+        "ai_summary": "The HYDRO-SHIP study was a multicenter randomized trial investigating the use of hydrocortisone plus standard therapy in critical care patients with hospital-acquired pneumonia. This is the first study to explore the use of corticosteroids in this type of infection. The study aims to improve the outcome of patients with nosocomial pneumonia.",
+        "ai_significance": "This study is significant because it addresses a knowledge gap in the use of corticosteroids for hospital-acquired pneumonia, a common and deadly infection in intensive care patients.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Physiological Changes in Adult Intensive Care Patients Following Contact With Their Primary Caregiver",
         "url": "https://clinicaltrials.gov/study/NCT07761364",
         "source": "Universidad Autonoma del Estado de Mexico",
@@ -3231,9 +3266,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study examined the effect of physical contact with primary caregivers on adult ICU patients' physiological responses. The trial was a randomized controlled study. No significant physiological changes were found.",
         "ai_significance": "Understanding the impact of caregiver contact on ICU patients' physiological responses can inform strategies to improve patient comfort and well-being. However, this study found no significant changes.",
-        "ai_rounds_takeaway": "No change to current practice — physical contact with caregivers does not appear to have a significant effect on ICU patients' physiological responses.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "No change to current practice — physical contact with caregivers does not appear to have a significant effect on ICU patients' physiological responses."
       },
       {
         "title": "Call for Life Sepsis",
@@ -3249,9 +3282,7 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis is a life-threatening condition caused by a host response to infection, with high mortality rates in sub-Saharan Africa. Children under 5 years hospitalized with sepsis have high mortality rates within the first 6 months of discharge. Various populations in sub-Saharan Africa experience high mortality rates due to sepsis.",
         "ai_significance": "This highlights the need for improved sepsis management and care in sub-Saharan Africa to reduce mortality rates.",
-        "ai_rounds_takeaway": "Consider early recognition and aggressive management of sepsis in high-risk populations in sub-Saharan Africa.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider early recognition and aggressive management of sepsis in high-risk populations in sub-Saharan Africa."
       },
       {
         "title": "ICU Delirium Playbook Training Study for ICU Nurses",
@@ -3267,9 +3298,7 @@
         "ai_key_stats": "",
         "ai_summary": "A study was conducted to evaluate the effectiveness of a delirium playbook training for ICU nurses. The training aimed to improve delirium recognition and management. However, no specific results were reported.",
         "ai_significance": "Early recognition and management of delirium are crucial for improving patient outcomes in the ICU, and this study highlights the need for effective training programs for ICU nurses.",
-        "ai_rounds_takeaway": "Consider implementing a delirium recognition and management training program for ICU nurses to improve patient care.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider implementing a delirium recognition and management training program for ICU nurses to improve patient care."
       },
       {
         "title": "Transpulmonary Pressure-guided Mechanical Ventilation Strategy in Right Ventricular Protection in Patients With ARDS",
@@ -3285,9 +3314,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
         "ai_significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "CT-Determined Sarcopenia and Mortality in Critically Ill Cancer Patients",
@@ -3303,9 +3330,7 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study evaluated the relationship between sarcopenia and muscle quality impairment in critically ill cancer patients and their risk of 28-day mortality. The study used computed tomography to assess muscle quality and found an association between lower muscle quality and increased mortality. The study aimed to answer whether lower psoas muscle quality is associated with increased mortality in critically ill cancer patients.",
         "ai_significance": "This study highlights the importance of sarcopenia and muscle quality in critically ill cancer patients, which can inform ICU management and potentially improve outcomes.",
-        "ai_rounds_takeaway": "Assess muscle quality using CT scans in critically ill cancer patients to identify those at higher risk of mortality.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Assess muscle quality using CT scans in critically ill cancer patients to identify those at higher risk of mortality."
       },
       {
         "title": "Impact of Direct Antimicrobial Susceptibility Testing on Respiratory Sample of Intensive Care Patient With Suspected VAP",
@@ -3321,9 +3346,7 @@
         "ai_key_stats": "",
         "ai_summary": "The study discusses the impact of direct antimicrobial susceptibility testing on respiratory samples of ICU patients with suspected ventilator-associated pneumonia (VAP). Current guidelines recommend using broad-spectrum antibiotics, but this may promote antibiotic resistance. The study aims to explore the benefits of direct AST in reducing inappropriate antibiotic therapy.",
         "ai_significance": "This study has implications for ICU clinical practice as inappropriate antibiotic therapy is associated with increased mortality in VAP patients. Direct AST may help reduce antibiotic resistance and improve patient outcomes.",
-        "ai_rounds_takeaway": "Consider using direct antimicrobial susceptibility testing in patients with suspected VAP to guide antibiotic therapy and reduce the risk of antibiotic resistance.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using direct antimicrobial susceptibility testing in patients with suspected VAP to guide antibiotic therapy and reduce the risk of antibiotic resistance."
       },
       {
         "title": "Preventive Narrative Exposure Intervention for PTSD in ICU Patients After Cardiopulmonary Bypass Cardiac Surgery",
@@ -3339,9 +3362,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
         "ai_significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
-        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
       },
       {
         "title": "Exploring the Effectiveness of an Application Intervention on Cognitive, Learning Self-Efficacy,and Clinical Reasoning of Nurses Regarding Delirium Education in the Intensive Care Unit",
@@ -3357,9 +3378,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the effectiveness of an app-based delirium education program for ICU nurses. The program aimed to enhance nurses' knowledge, learning self-efficacy, and clinical reasoning regarding delirium. The study found that the app intervention had a positive impact on nurses' knowledge and learning self-efficacy.",
         "ai_significance": "This study highlights the potential of app-based education to improve ICU nurses' knowledge and skills in delirium management, which is crucial for providing high-quality patient care.",
-        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy."
       },
       {
         "title": "Hemoglobin Trends as a Predictor of Outcomes in Critically Ill Patients (The TRENT-ICU Study)",
@@ -3375,9 +3394,7 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study examined if early hemoglobin decline in critically ill patients can predict longer ICU stays and in-hospital mortality. The study found that early hemoglobin decline is associated with these outcomes. The study aims to answer two main questions about the relationship between hemoglobin decline and patient outcomes.",
         "ai_significance": "This study's findings have implications for ICU management and may help clinicians identify patients at higher risk of prolonged ICU stays and in-hospital mortality.",
-        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality."
       },
       {
         "title": "Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients",
@@ -4276,22 +4293,6 @@
         "ai_rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients"
       },
       {
-        "title": "SEPSIS EARLY WARNING: NEWS2 VS MACHINE LEARNING",
-        "url": "https://clinicaltrials.gov/study/NCT07734480",
-        "source": "Kocaeli Derince Education and Research Hospital",
-        "author": "",
-        "pubdate": "2026-07-29",
-        "summary": "This prospective observational study aims to objectively measure the lead-time (the time from the first KDS alert to sepsis diagnosis) of the NEWS2-based clinical decision support system (KDS) and compare its early warning performance with a machine learning model trained on 2000 patients and externally validated. The study seeks to answer the following main questions: How early does the NEWS2-based KDS provide an alert before sepsis diagnosis? Does a machine learning model, developed using logi",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07734480",
-        "ai_key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
-        "ai_summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
-        "ai_significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
-        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
-      },
-      {
         "title": "Fecal Lactate and Resuscitation Outcomes in Critical Illness",
         "url": "https://clinicaltrials.gov/study/NCT07658001",
         "source": "Hospital H+ Queretaro",
@@ -4973,6 +4974,48 @@
           "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
           "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
           "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42568095",
+          "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Aug 7",
+          "authors": [
+            "Adam MF",
+            "Grunow JJ",
+            "Edel A",
+            "Steinecke K",
+            "Schuster FS",
+            "Spies CD",
+            "Weiss B",
+            "Paul N"
+          ],
+          "doi": "10.1186/s13054-026-06234-z",
+          "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+          "citation_count": 35,
+          "is_top_journal": true,
+          "study_type": "Randomized Controlled Trial",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13449835/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
+          "ai_appraisal": {
+            "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
+            "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
+            "design": "stepped-wedge cluster-randomized controlled trial",
+            "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
+            "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
+            "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
+            "management_common_to_both_groups": "not stated",
+            "intervention_fidelity": "not reported",
+            "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
+            "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
+            "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
+            "weaknesses": "small sample size; limited generalizability to other ICUs",
+            "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
+          }
         },
         {
           "pmid": "42377463",
@@ -7920,6 +7963,48 @@
       "label": "Infectious Disease & Sepsis",
       "abbr": "ID/Sepsis",
       "articles": [
+        {
+          "pmid": "42568095",
+          "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Aug 7",
+          "authors": [
+            "Adam MF",
+            "Grunow JJ",
+            "Edel A",
+            "Steinecke K",
+            "Schuster FS",
+            "Spies CD",
+            "Weiss B",
+            "Paul N"
+          ],
+          "doi": "10.1186/s13054-026-06234-z",
+          "abstract": "BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in the metropolitan area of Berlin, Germany. ERIC examined the impact of a complex telemedicine intervention, which included daily telemedicine rounding by an intensivist and ICU nurse, on the adherence to eight quality indicators of ICU care. We analyzed patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT). We investigated the impact of the intervention on the weaning process and weaning outcomes using descriptive statistics and mixed-effects regressions. RESULTS: Of 1,463 patients enrolled in the trial, 308 patients were analyzed (control condition: 55; intervention condition: 253). Patients in the intervention group received significantly more SBTs than patients in the control group (51% vs 27% of the patient days; p < 0.001). There was no difference between the groups with respect to the weaning classification (p = 0.21), weaning success rate (28% vs 36%; p = 0.32), and time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days; p = 0.12). The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days; p = 0.031). In our multivariable regressions, the intervention was not associated with weaning success (OR for weaning failure: 1.45 [95%-CI 0.71-2.95]; p = 0.302), but with a shorter time between the first SBT and successful weaning (β = 0.56 [0.32-0.98]; p = 0.042). CONCLUSIONS: Although ICU telemedicine did not improve the weaning success rate, our findings indicate that it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients. The study is the first to highlight the potential of telemedicine to enhance ICU weaning practices. REGISTRATION: www. CLINICALTRIALS: gov (Identifier: NCT03671447; first submitted on August 22, 2018).",
+          "citation_count": 35,
+          "is_top_journal": true,
+          "study_type": "Randomized Controlled Trial",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13449835/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/",
+          "ai_appraisal": {
+            "clinical_question": "Does an intensive care telemedicine program improve the weaning process and outcomes for ICU patients on invasive ventilation?",
+            "background": "ICU patients commonly require invasive mechanical ventilation, but weaning from ventilation is crucial for patient outcomes and is often not performed according to guideline recommendations.",
+            "design": "stepped-wedge cluster-randomized controlled trial",
+            "setting": "ten clusters of ICUs in the metropolitan area of Berlin, Germany",
+            "population": "patients who received invasive mechanical ventilation for at least two consecutive days and at least one spontaneous breathing trial (SBT)",
+            "intervention": "daily telemedicine rounding by an intensivist and ICU nurse",
+            "management_common_to_both_groups": "not stated",
+            "intervention_fidelity": "not reported",
+            "outcome": "weaning success rate (28% vs 36%), time from the first SBT to successful weaning (2 [IQR 1, 5] vs 4 [IQR 1, 13] days), median time of invasive mechanical ventilation of successfully weaned patients (7 [IQR 4, 10] vs 9 [IQR 6, 20] days)",
+            "author_conclusion": "ICU telemedicine did not improve the weaning success rate, but it facilitates the exploitation of existing weaning potential by ensuring more frequent SBTs and thereby shortening ventilation duration of successfully weaned patients.",
+            "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
+            "weaknesses": "small sample size; limited generalizability to other ICUs",
+            "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
+          }
+        },
         {
           "pmid": "42377463",
           "title": "Effects of a clinical metagenomics intervention on clinical outcomes, healthcare costs, and health-related quality of life in patients with sepsis or septic shock: results of the randomized-controlled DigiSep trial.",

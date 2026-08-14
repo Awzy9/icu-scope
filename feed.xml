@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Thu, 13 Aug 2026 04:46:11 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 04:42:11 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -25,6 +25,20 @@
       <guid isPermaLink="false">pmid:42498336</guid>
       <category>Renal</category>
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
+      <title>Comparison of NEWS2 and Machine Learning for Early Sepsis Warning</title>
+      <link>https://clinicaltrials.gov/study/NCT07734480</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07734480</guid>
+      <category>Clinical Trial</category>
+      <description>This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.</description>
+    </item>
+    <item>
+      <title>HYDROcortisone Versus Placebo for Severe HospItal-acquired Pneumonia in Intensive Care Patients: the HYDRO-SHIP Study</title>
+      <link>https://clinicaltrials.gov/study/NCT05354778</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05354778</guid>
+      <category>Clinical Trial</category>
+      <description>The HYDRO-SHIP study was a multicenter randomized trial investigating the use of hydrocortisone plus standard therapy in critical care patients with hospital-acquired pneumonia. This is the first study to explore the use of corticosteroids in this type of infection. The study aims to improve the outcome of patients with nosocomial pneumonia.</description>
     </item>
     <item>
       <title>The Case of the Redacted Ledger</title>
@@ -97,6 +111,13 @@
       <description>This observational study examined if early hemoglobin decline in critically ill patients can predict longer ICU stays and in-hospital mortality. The study found that early hemoglobin decline is associated with these outcomes. The study aims to answer two main questions about the relationship between hemoglobin decline and patient outcomes.</description>
     </item>
     <item>
+      <title>What place for pragmatic RCTs in intensive care?</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42587308/</link>
+      <guid isPermaLink="false">pmid:42587308</guid>
+      <category>This Week</category>
+      <description>This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.</description>
+    </item>
+    <item>
       <title>Net Ultrafiltration Rate and Mortality in Critically Ill Patients: A Multicenter Cohort Study With Analysis of Fluid Balance Changes.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42584203/</link>
       <guid isPermaLink="false">pmid:42584203</guid>
@@ -104,11 +125,25 @@
       <description>This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.</description>
     </item>
     <item>
+      <title>What place for pragmatic RCTs in intensive care?</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42587308/</link>
+      <guid isPermaLink="false">pmid:42587308</guid>
+      <category>This Week</category>
+      <description>This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.</description>
+    </item>
+    <item>
       <title>Diagnostic errors in critically ill patients: challenges, contributing factors, and improvement strategies through the SEIPS framework.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42584666/</link>
       <guid isPermaLink="false">pmid:42584666</guid>
       <category>This Week</category>
       <description></description>
+    </item>
+    <item>
+      <title>What place for pragmatic RCTs in intensive care?</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42587308/</link>
+      <guid isPermaLink="false">pmid:42587308</guid>
+      <category>This Week</category>
+      <description>This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.</description>
     </item>
     <item>
       <title>Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients</title>
@@ -202,6 +237,20 @@
       <description>This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.</description>
     </item>
     <item>
+      <title>The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42568095/</link>
+      <guid isPermaLink="false">pmid:42568095</guid>
+      <category>Respiratory</category>
+      <description>BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in</description>
+    </item>
+    <item>
+      <title>The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42568095/</link>
+      <guid isPermaLink="false">pmid:42568095</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in</description>
+    </item>
+    <item>
       <title>EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza</title>
       <link>https://emcrit.org/emcrit/post-partum-hemorrhage/</link>
       <guid isPermaLink="false">https://emcrit.org/emcrit/post-partum-hemorrhage/</guid>
@@ -249,20 +298,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07397689</guid>
       <category>Clinical Trial</category>
       <description>Researchers developed an early recognition tool for sepsis in children based on the Phoenix definition. They also investigated how to implement this tool in clinical practice. The study aimed to address the need for evidence-based approaches to identifying sepsis in diverse healthcare settings in Asia.</description>
-    </item>
-    <item>
-      <title>The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42568095/</link>
-      <guid isPermaLink="false">pmid:42568095</guid>
-      <category>This Week</category>
-      <description>BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in</description>
-    </item>
-    <item>
-      <title>The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42568095/</link>
-      <guid isPermaLink="false">pmid:42568095</guid>
-      <category>This Week</category>
-      <description>BACKGROUND: ICU patients commonly require invasive mechanical ventilation. Although weaning from ventilation is crucial for patient outcomes, it is commonly not performed according to guideline recommendations. We investigated if a complex telemedicine intervention improves the weaning process and outcomes. METHODS: This is a secondary analysis of the stepped-wedge cluster-randomized controlled Enhanced Recovery after Intensive Care (ERIC) trial, which was conducted among ten clusters of ICUs in</description>
     </item>
     <item>
       <title>Conservative Oxygen for Unresponsive Patients after Cardiac Arrest.</title>
@@ -389,41 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05875740</guid>
       <category>Clinical Trial</category>
       <description>Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.</description>
-    </item>
-    <item>
-      <title>Epidemiology and Overtime Genomic Evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex (ECC) in Stools of ICU's Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT07744321</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07744321</guid>
-      <category>Clinical Trial</category>
-      <description>This study explores the epidemiology and genomic evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex in ICU patients, highlighting the risk of infection and the emergence of multidrug-resistant isolates.</description>
-    </item>
-    <item>
-      <title>A Study in Priors Part 2</title>
-      <link>https://emcrit.org/emnerd/a-study-in-priors-part-2/</link>
-      <guid isPermaLink="false">https://emcrit.org/emnerd/a-study-in-priors-part-2/</guid>
-      <category>EMCrit</category>
-      <description>This study applied Bayesian analysis concepts to a meta-analysis comparing normal saline with balanced crystalloids in critically ill patients. The BEST-Living meta-analysis found a difference in outcomes between the two fluids. The study aimed to provide a nuanced understanding of the data.</description>
-    </item>
-    <item>
-      <title>REBEL MIND – Teaching Towards Expertise with Gamification</title>
-      <link>https://rebelem.com/gamification/</link>
-      <guid isPermaLink="false">https://rebelem.com/gamification/</guid>
-      <category>REBEL EM</category>
-      <description>This podcast episode introduces a gamified teaching tool called Rapid Sequence, aimed at improving clinician learning in critical care. The tool is part of a series focusing on productivity, provider performance, and team optimization. No specific study or data is presented.</description>
-    </item>
-    <item>
-      <title>Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS</title>
-      <link>https://clinicaltrials.gov/study/NCT07669558</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07669558</guid>
-      <category>Clinical Trial</category>
-      <description>This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.</description>
-    </item>
-    <item>
-      <title>Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays</title>
-      <link>https://clinicaltrials.gov/study/NCT06607003</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06607003</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.</description>
     </item>
   </channel>
 </rss>

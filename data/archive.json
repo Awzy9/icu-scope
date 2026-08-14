@@ -1178,6 +1178,27 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13449835/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42568095/"
+      },
+      "42587308": {
+        "pmid": "42587308",
+        "title": "What place for pragmatic RCTs in intensive care?",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Singer M",
+          "Vincent JL"
+        ],
+        "doi": "10.1186/s13054-026-06242-z",
+        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/"
       }
     },
     "neurology": {
@@ -2169,6 +2190,27 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42584203/"
+      },
+      "42587308": {
+        "pmid": "42587308",
+        "title": "What place for pragmatic RCTs in intensive care?",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Singer M",
+          "Vincent JL"
+        ],
+        "doi": "10.1186/s13054-026-06242-z",
+        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/"
       }
     },
     "gi-nutrition": {
@@ -3848,6 +3890,27 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/"
+      },
+      "42587308": {
+        "pmid": "42587308",
+        "title": "What place for pragmatic RCTs in intensive care?",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Singer M",
+          "Vincent JL"
+        ],
+        "doi": "10.1186/s13054-026-06242-z",
+        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/"
       }
     },
     "hematology-coag": {
@@ -6747,6 +6810,17 @@
       "study_type": "Preprint (not peer-reviewed)",
       "is_open_access": true,
       "is_preprint": true
+    },
+    "https://doi.org/10.64898/2026.07.29.26357846": {
+      "title": "Preventing aspiration events in hospital using prophylactic antiemetics: A systematic review and meta-analysis",
+      "url": "https://doi.org/10.64898/2026.07.29.26357846",
+      "source": "medRxiv preprint",
+      "author": "Kimberly B Tworek",
+      "pubdate": "2026-07-31",
+      "summary": "IntroductionAspiration events in hospitalized adults are common and linked to substantial morbidity, mortality, and healthcare burden. While antiemetics have been studied for aspiration prevention in specific settings, evidence for their broader preventive use in hospitalized adults is limited. We conducted a systematic review and meta-analysis to evaluate the effect of prophylactic scheduled antiemetics on aspiration events in adult inpatients. MethodsOvid MEDLINE, Ovid Embase, CINAHL, and Coch",
+      "study_type": "Preprint (not peer-reviewed)",
+      "is_open_access": true,
+      "is_preprint": true
     }
   },
   "trials": {
@@ -6907,13 +6981,13 @@
       "nct_id": "NCT07734298"
     },
     "NCT07734480": {
-      "title": "SEPSIS EARLY WARNING: NEWS2 VS MACHINE LEARNING",
+      "title": "Comparison of NEWS2 and Machine Learning for Early Sepsis Warning",
       "url": "https://clinicaltrials.gov/study/NCT07734480",
       "source": "Kocaeli Derince Education and Research Hospital",
       "author": "",
-      "pubdate": "2026-07-29",
+      "pubdate": "2026-08-13",
       "summary": "This prospective observational study aims to objectively measure the lead-time (the time from the first KDS alert to sepsis diagnosis) of the NEWS2-based clinical decision support system (KDS) and compare its early warning performance with a machine learning model trained on 2000 patients and externally validated. The study seeks to answer the following main questions: How early does the NEWS2-based KDS provide an alert before sepsis diagnosis? Does a machine learning model, developed using logi",
-      "study_type": "Clinical Trial (Recruiting)",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07734480"
@@ -7661,6 +7735,18 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07761832"
+    },
+    "NCT05354778": {
+      "title": "HYDROcortisone Versus Placebo for Severe HospItal-acquired Pneumonia in Intensive Care Patients: the HYDRO-SHIP Study",
+      "url": "https://clinicaltrials.gov/study/NCT05354778",
+      "source": "Instituto de Assistencia Medica ao Servidor Publico Estadual, Sao Paulo",
+      "author": "",
+      "pubdate": "2026-08-13",
+      "summary": "The use of corticosteroids in patients with severe community pneumonia, bacterial infection which kills lots of patients around the world, reduces the mortality of this infection. However, there are no studies with this type of drug regarding hospital-acquired pneumonia. This is the first multicenter randomized trial to test hydrocortisone plus standard therapy in critical care patients with nosocomial pneumonia. This intervention is inexpensive and may improve the outcome of those patients, bes",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05354778"
     }
   },
   "bottom_line": {
