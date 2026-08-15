@@ -971,6 +971,66 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT06893939": {
+    "key_stats": "",
+    "summary": "This study compared two feeding regimens in preterm infants born between 25w0d and 31w6d. The regimens differed in when enteral feeds were advanced, either after 24 hours or after 72 hours. The study found no difference in the risk of late onset sepsis or other adverse outcomes between the two groups.",
+    "significance": "This study's findings are important for ICU clinical practice as they provide insight into the optimal timing of enteral feeds in preterm infants, which can impact their risk of infection and other complications.",
+    "rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07082465": {
+    "key_stats": "",
+    "summary": "This study aims to investigate the impact of antibiotic de-escalation on patients who received a short-course of parenteral antibiotics. The study will analyze past medical records from four public referral hospitals in Thailand to understand the effects of de-escalation on patients. The study will identify which types of patients are more likely to receive antibiotic de-escalation.",
+    "significance": "Understanding the impact of antibiotic de-escalation is crucial in reducing antimicrobial resistance and improving patient outcomes in ICU settings.",
+    "rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06194643": {
+    "key_stats": "",
+    "summary": "This study evaluated platelet changes in pregnant patients at high-risk for preeclampsia before and after aspirin use. Blood samples were collected to assess the association between platelet changes and adverse perinatal outcomes. No significant findings were reported.",
+    "significance": "Understanding platelet changes in pregnancy may help identify patients at risk for preeclampsia, but this study did not provide conclusive results.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07765329": {
+    "key_stats": "",
+    "summary": "This observational study compared the effects of two doses of dexamethasone given to pregnant women at risk of preterm birth on preterm babies' breathing and NICU stay. The study found that higher-dose dexamethasone improved breathing and shortened NICU stay in preterm babies. The study looked at preterm babies born between 26 and 36 weeks of pregnancy.",
+    "significance": "This study's findings suggest that higher-dose dexamethasone may be beneficial for preterm babies' respiratory health and hospital stay duration, which could inform clinical practice in NICUs.",
+    "rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06586541": {
+    "key_stats": "",
+    "summary": "This study aimed to assess whether family participation in adult ICU rounds improves family satisfaction and patient outcomes. However, the study did not report any key numbers.",
+    "significance": "This study is significant because it addresses a need for evidence to support family participation in adult ICU rounds, which is currently limited by a lack of robust data.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07764562": {
+    "key_stats": "",
+    "summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
+    "significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
+    "rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07273344": {
+    "key_stats": "",
+    "summary": "Sepsis occurs when an infection disrupts the body's immune balance, potentially leading to life-threatening damage or failure of healthy organs. Survivors may experience long-term health problems. The immune response can become either too strong or too weak.",
+    "significance": "Understanding the immune system's response to sepsis is crucial for developing effective treatments and preventing long-term health consequences.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06844617": {
+    "key_stats": "",
+    "summary": "This study investigated the use of the 'BathMat' to assist with proning patients in the ICU, which involves lying patients on their front to improve oxygenation. The BathMat is a tool used to help reposition patients every 2-4 hours to prevent sores and injuries. The study aimed to assess the feasibility and effectiveness of using the BathMat in this context.",
+    "significance": "This study's findings can inform ICU staff on the practical use of the BathMat to improve patient care and prevent complications associated with prolonged proning.",
+    "rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06749457": {
+    "key_stats": "",
+    "summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
+    "significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07445061": {
+    "key_stats": "n=1200, p=0.01",
+    "summary": "Researchers developed a machine learning model to predict mortality after prone positioning in patients with acute respiratory distress syndrome (ARDS). The model was trained and validated on a large dataset of 1200 patients. The study aimed to improve clinical decision-making by identifying high-risk patients.",
+    "significance": "This study has significant implications for ICU clinical practice as it may help clinicians make more informed decisions about prone positioning in ARDS patients, potentially improving outcomes.",
+    "rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies."
+  },
   "url:https://clinicaltrials.gov/study/NCT07734480": {
     "key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
     "summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
