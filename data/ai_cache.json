@@ -1521,6 +1521,12 @@
     "significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
     "rounds_takeaway": ""
   },
+  "pmid:42603304": {
+    "key_stats": "",
+    "summary": "This review examined the clinical impact of Stenotrophomonas maltophilia infections, which are often resistant to multiple antibiotics and can form biofilms that make them harder to treat. The review found that biofilm formation and resistance mechanisms contribute to persistent infections and therapeutic failure. Emerging treatment strategies, such as novel antibiotics and anti-biofilm agents, show promise but require further clinical evidence.",
+    "significance": "Understanding the clinical impact of S. maltophilia infections and emerging treatment strategies is crucial for optimizing the management of these infections and reducing the risk of hospital outbreaks.",
+    "rounds_takeaway": "Consider using environmental surveillance and infection control measures to prevent hospital outbreaks of S. maltophilia infections."
+  },
   "pmid:42445747": {
     "key_stats": "",
     "summary": "A systematic review of healthcare-associated infections (HAIs) found that bacterial pathogens, including drug-resistant strains, are the most common causes of HAIs. The review highlighted the importance of strong surveillance systems, especially those using digital platforms, to monitor infection trends and antibiotic resistance. Effective monitoring systems and a multifaceted preventive approach are needed to mitigate HAIs.",
@@ -1676,6 +1682,18 @@
     "summary": "This study analyzed EEGs from 188 ICU patients to see how often seizures occurred and what factors were associated with them. They found that seizures were more common in older patients, those admitted to the ICU due to status epilepticus, and those with a history of epilepsy. Epileptiform abnormalities were seen in 14.9% of patients.",
     "significance": "This study highlights the importance of routine EEGs in ICU patients with altered mental status, particularly for seizure evaluation, and identifies key factors associated with seizure occurrence.",
     "rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus."
+  },
+  "pmid:42602891": {
+    "key_stats": "",
+    "summary": "A young woman with severe burns developed a rare fungal infection of the pericardium, leading to cardiac tamponade. Despite treatment, she progressed to refractory shock and multiorgan failure. This case highlights the challenges of diagnosing and treating fungal pericarditis in critically ill patients.",
+    "significance": "This case emphasizes the importance of maintaining a high index of suspicion for fungal infections in burn patients with multisite colonization and prolonged antibiotic exposure, as they can lead to severe complications.",
+    "rounds_takeaway": "Consider fungal pericarditis in burn patients with multisite Candida colonization and prolonged antibiotic exposure."
+  },
+  "pmid:42602351": {
+    "key_stats": "n=456, aOR 0.87 (95% CI 0.81-0.94), p=0.0002",
+    "summary": "This study looked at whether giving oseltamivir to critically ill patients with severe acute respiratory illness (SARI) affected their outcomes. Researchers found that patients who received oseltamivir had lower mortality rates compared to those who did not. The benefits of oseltamivir were seen in patients over 70 years old and those without confirmed influenza.",
+    "significance": "These findings suggest that oseltamivir may be beneficial in managing critically ill patients with SARI, and clinicians may consider its use in high-risk patients.",
+    "rounds_takeaway": "Consider empirical oseltamivir treatment in critically ill patients with SARI, especially those over 70 years old or without confirmed influenza."
   },
   "pmid:42340792": {
     "key_stats": "n=12347, OR 2.28 (95% CI 1.83-2.83), OR 5.84 (95% CI 1.07-31.83)",

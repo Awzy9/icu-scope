@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T03:31:17+00:00",
+  "generated_at": "2026-08-16T03:39:21+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -347,6 +347,30 @@
         "ai_rounds_takeaway": ""
       },
       {
+        "pmid": "42601631",
+        "title": "Trough concentrations of 10-15 mg/L of vancomycin are generally sufficient to achieve pharmacodynamic targets, whereas higher troughs can result in unnecessary nephrotoxicity: we respectfully disagree.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 14",
+        "authors": [
+          "Honoré PM",
+          "Benkaddour Y",
+          "Muscato CY"
+        ],
+        "doi": "10.1186/s13054-026-06267-4",
+        "abstract": "",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42584666",
         "title": "Diagnostic errors in critically ill patients: challenges, contributing factors, and improvement strategies through the SEIPS framework.",
         "journal": "Intensive care medicine",
@@ -367,34 +391,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/"
-      },
-      {
-        "pmid": "42584203",
-        "title": "Net Ultrafiltration Rate and Mortality in Critically Ill Patients: A Multicenter Cohort Study With Analysis of Fluid Balance Changes.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Aug 12",
-        "authors": [
-          "Monai NC",
-          "Pfortmueller CA",
-          "Schefold JC",
-          "Cioccari L",
-          "Faltys M"
-        ],
-        "doi": "10.1097/CCM.0000000000007289",
-        "abstract": "OBJECTIVES: To investigate the association between net ultrafiltration (NUF) rate and fluid balance changes with 28-day mortality in critically ill patients receiving continuous renal replacement therapy (CRRT). DESIGN: Multicenter retrospective observational study. SETTING: Data from two European mixed medical-surgical ICUs: University Hospital Bern, Switzerland, and Amsterdam University Medical Center, the Netherlands. PATIENTS: Adult critically ill patients receiving CRRT for at least 24 hours. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We studied 973 critically ill adults undergoing a total of 6914 days of CRRT. NUF rates and fluid balance changes were calculated from hourly data and categorized into four predefined groups. NUF rates were classified as no NUF, low (< 1.01 mL/kg/h), moderate (1.01-1.75 mL/kg/h), or high (> 1.75 mL/kg/h). Fluid balance change was stratified as negative (< -1.5 L/day), moderate negative (-1.5 to -0.5 L/day), neutral (-0.5 to 0.5 L/day), or positive (> 0.5 L/day). Using multivariable regression, random forest modeling, and mediation analysis, we observed no independent association between NUF rate and 28-day mortality after accounting for fluid balance. Mediation analysis suggested that the apparent survival advantage observed among patients with higher NUF rates was largely mediated through achievement of a more negative fluid balance, rather than a direct effect of NUF rate itself. In contrast, more positive fluid balance changes were linked to adverse clinical outcomes including 28-day mortality. CONCLUSIONS: In this two-center cohort of CRRT patients, NUF rate was not independently associated with mortality. Instead, the key determinant of outcome was fluid balance change. These findings suggest clinicians should not make NUF decisions in isolation, but rather should be using NUF as a means to achieve patient-specific fluid balance targets.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42584203/",
-        "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
-        "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
-        "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
-        "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
       }
     ]
   },
@@ -2094,6 +2090,50 @@
     "window_days": 365,
     "articles": [
       {
+        "pmid": "42603304",
+        "title": "Stenotrophomonas maltophilia infections - Biofilm-mediated virulence, multidrug resistance, clinical impact, and emerging treatment strategies: A review.",
+        "journal": "Biomolecules & biomedicine",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Juma NA",
+          "Bukhari AG",
+          "Alharthi TM",
+          "Abu I",
+          "Ahmed K",
+          "Albar MH",
+          "Allehebi ZO",
+          "Asiri T",
+          "Agabawi S",
+          "Almuhayya S",
+          "Alkuwaity K",
+          "Attallah D",
+          "Mokhtar JA",
+          "Ekhmimi T",
+          "Alfadil A",
+          "Saleh BH",
+          "Alqarni M",
+          "Daffa N",
+          "Ibrahem K"
+        ],
+        "doi": "10.17305/bb.2026.14293",
+        "abstract": "Stenotrophomonas maltophilia is an opportunistic, multidrug-resistant (MDR), Gram-negative bacterium that has emerged as an important cause of hospital- and community-acquired infections, particularly in immunocompromised, critically ill, and hospitalized patients. Its increasing clinical relevance is driven by extensive virulence determinants, biofilm formation, intrinsic and acquired antimicrobial resistance, and persistence within healthcare-associated environmental reservoirs. This narrative review summarizes current evidence on the epidemiology, pathogenic mechanisms, antimicrobial resistance, and therapeutic management of S. maltophilia, with a particular focus on emerging treatment strategies. A literature search of PubMed, Scopus, Web of Science, and Google Scholar was performed to identify relevant studies published between 1997 and 2026. The available evidence demonstrates that biofilm formation, quorum sensing, adhesion factors, secretion of extracellular enzymes, and multiple resistance mechanisms-including β-lactamases, multidrug efflux pumps, and horizontally acquired resistance genes-substantially contribute to persistent infections and therapeutic failure. Hospital outbreaks are frequently associated with contaminated water systems, sinks, and medical devices, emphasizing the importance of environmental surveillance and infection control. Trimethoprim-sulfamethoxazole (TMP-SMX) remains the recommended first-line therapy, whereas minocycline, tigecycline, fluoroquinolones, and cefiderocol represent important alternatives for selected patients. Emerging approaches, including novel tetracyclines, bacteriophages, bacteriocins, ceragenins, anti-biofilm agents, and plant-derived compounds, have demonstrated promising preclinical activity against MDR and biofilm-associated infections, although robust clinical evidence remains limited. Continued surveillance, antimicrobial stewardship, pharmacokinetic/pharmacodynamic-guided therapy, and well-designed prospective clinical studies are essential to optimize the management of S. maltophilia infections and facilitate the translation of emerging therapeutic strategies into clinical practice.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42603304/",
+        "ai_key_stats": "",
+        "ai_summary": "This review examined the clinical impact of Stenotrophomonas maltophilia infections, which are often resistant to multiple antibiotics and can form biofilms that make them harder to treat. The review found that biofilm formation and resistance mechanisms contribute to persistent infections and therapeutic failure. Emerging treatment strategies, such as novel antibiotics and anti-biofilm agents, show promise but require further clinical evidence.",
+        "ai_significance": "Understanding the clinical impact of S. maltophilia infections and emerging treatment strategies is crucial for optimizing the management of these infections and reducing the risk of hospital outbreaks.",
+        "ai_rounds_takeaway": "Consider using environmental surveillance and infection control measures to prevent hospital outbreaks of S. maltophilia infections.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42445747",
         "title": "Healthcare-Associated Infection Causes and Mitigation Strategies: A Systematic Review.",
         "journal": "Saudi medical journal",
@@ -2920,6 +2960,78 @@
         "ai_rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus."
       },
       {
+        "pmid": "42602891",
+        "title": "Candida Albicans Purulent Pericarditis Complicated by Cardiac Tamponade in a Critically Ill Burn Patient: A Case Report.",
+        "journal": "Journal of the Saudi Heart Association",
+        "pubdate": "2026",
+        "authors": [
+          "Althobaiti M",
+          "Alqahtani A",
+          "Alanazi F",
+          "Alotaibi MS",
+          "Bahabri I",
+          "Alsuwaid S",
+          "Almutairi T",
+          "Almutairi F"
+        ],
+        "doi": "10.37616/2212-5043.1515",
+        "abstract": "Candida pericarditis is a rare, life-threatening complication of invasive candidiasis, associated with high mortality. We report this case of a young woman with 60% body surface area burn, multidrug-resistant polymicrobial sepsis, and multiorgan failure who developed Candida albicans pericarditis complicated by cardiac tamponade. Despite urgent pericardiocentesis and escalation of antifungal therapy, she ultimately progressed to refractory shock and multiorgan failure. This case illustrates the diagnostic challenge and therapeutic limitations of fungal pericarditis in critically ill host, and underscores the importance of maintaining a high index of suspicion in burn patients with multisite Candida colonization and prolonged antibiotic exposure.",
+        "citation_count": 11,
+        "is_top_journal": false,
+        "study_type": "Case Reports",
+        "volume": "38",
+        "issue": "3",
+        "pages": "2",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13475365/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42602891/",
+        "ai_key_stats": "",
+        "ai_summary": "A young woman with severe burns developed a rare fungal infection of the pericardium, leading to cardiac tamponade. Despite treatment, she progressed to refractory shock and multiorgan failure. This case highlights the challenges of diagnosing and treating fungal pericarditis in critically ill patients.",
+        "ai_significance": "This case emphasizes the importance of maintaining a high index of suspicion for fungal infections in burn patients with multisite colonization and prolonged antibiotic exposure, as they can lead to severe complications.",
+        "ai_rounds_takeaway": "Consider fungal pericarditis in burn patients with multisite Candida colonization and prolonged antibiotic exposure.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
+        "pmid": "42602351",
+        "title": "The association of empirical treatment with oseltamivir with the outcome of critically ill patients admitted with severe acute respiratory illness (SARI).",
+        "journal": "SAGE open medicine",
+        "pubdate": "2026",
+        "authors": [
+          "Khan RM",
+          "AlMarashi LM",
+          "Temsah MH",
+          "Al Ghamdi GAA",
+          "Sadat M",
+          "Bin Humaid F",
+          "Jose J",
+          "Al-Hameed F",
+          "Al Khatib K",
+          "AlObaidi M",
+          "Alanezi MS",
+          "Al-Basseet FF",
+          "Alanazi R",
+          "Arabi Y"
+        ],
+        "doi": "10.1177/20503121261478401",
+        "abstract": "OBJECTIVE: Neuraminidase inhibitors (NAIs) are widely used empirically in critically ill patients with suspected influenza; however, their effect on mortality remains uncertain. This multicenter study evaluates the association between empirical treatment with oseltamivir and the outcome of critically ill patients with Severe Acute Respiratory Infection (SARI) admitted to the Intensive Care Unit (ICU). METHODS: This was a retrospective cohort study conducted in the ICUs of four hospitals in Saudi Arabia, involving adult patients with SARI from September 2012 to December 2018. Data collected were: demographics, comorbidities, clinical presentation, and outcomes among patients treated with oseltamivir and those who were not. The primary outcome was 90-day mortality. The association of oseltamivir and mortality was evaluated adjusting for propensity score. RESULTS: During the study period, 456 patients with SARI were included in the study, 301 were treated with empirical oseltamivir within a median of 1 day from presentation (interquartile range, 0-1 day) and a median of 4 days after symptom onset, while 155 patients were not. No significant differences were observed in baseline characteristics between the two groups. Of the included patients, 334 (73%) were tested for influenza using PCR, and 87 (26%) had a confirmed diagnosis of influenza. Patients on oseltamivir were less likely to require rescue oxygen therapy (22.9% vs. 34.8%, p=0.007), and had shorter hospital stay (20 days vs. 27 days, p=0.01). Patients treated with oseltamivir had significantly reduced 90-day mortality on adjusted analyses (aOR: 0.87, 95% CI: 0.81-0.94, p=0.0002). Subgroup analysis revealed that the association with reduced mortality extends to patients >70 years old (aOR: 0.94, 95% CI: 0.89-0.99, p=0.02) and those with negative influenza tests (aOR: 0.81, 95% CI: 0.79, 0.84, p<0.0001). CONCLUSION: Among critically ill patients with SARI, empirical treatment with oseltamivir was associated with lower mortality. These results add to the body of evidence suggesting clinical benefits of oseltamivir in managing critically ill patients with influenza-like illnesses.",
+        "citation_count": 43,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "14",
+        "issue": "",
+        "pages": "20503121261478401",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13473781/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42602351/",
+        "ai_key_stats": "n=456, aOR 0.87 (95% CI 0.81-0.94), p=0.0002",
+        "ai_summary": "This study looked at whether giving oseltamivir to critically ill patients with severe acute respiratory illness (SARI) affected their outcomes. Researchers found that patients who received oseltamivir had lower mortality rates compared to those who did not. The benefits of oseltamivir were seen in patients over 70 years old and those without confirmed influenza.",
+        "ai_significance": "These findings suggest that oseltamivir may be beneficial in managing critically ill patients with SARI, and clinicians may consider its use in high-risk patients.",
+        "ai_rounds_takeaway": "Consider empirical oseltamivir treatment in critically ill patients with SARI, especially those over 70 years old or without confirmed influenza.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42340792",
         "title": "CT-Assessed Sarcopenia Combined with Laboratory Inflammatory Markers for Outcome Prediction in Critically Ill, Pulmonary, and Geriatric Patients: A Systematic Review and Meta-Analysis.",
         "journal": "La Clinica terapeutica",
@@ -3222,9 +3334,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared two feeding regimens in preterm infants born between 25w0d and 31w6d. The regimens differed in when enteral feeds were advanced, either after 24 hours or after 72 hours. The study found no difference in the risk of late onset sepsis or other adverse outcomes between the two groups.",
         "ai_significance": "This study's findings are important for ICU clinical practice as they provide insight into the optimal timing of enteral feeds in preterm infants, which can impact their risk of infection and other complications.",
-        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes."
       },
       {
         "title": "Epidemiology of Antimicrobial-use and Antimicrobial-resistant Infections in Four Hospitals in Thailand",
@@ -3240,9 +3350,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aims to investigate the impact of antibiotic de-escalation on patients who received a short-course of parenteral antibiotics. The study will analyze past medical records from four public referral hospitals in Thailand to understand the effects of de-escalation on patients. The study will identify which types of patients are more likely to receive antibiotic de-escalation.",
         "ai_significance": "Understanding the impact of antibiotic de-escalation is crucial in reducing antimicrobial resistance and improving patient outcomes in ICU settings.",
-        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics."
       },
       {
         "title": "Platelets in Pregnancy",
@@ -3258,9 +3366,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated platelet changes in pregnant patients at high-risk for preeclampsia before and after aspirin use. Blood samples were collected to assess the association between platelet changes and adverse perinatal outcomes. No significant findings were reported.",
         "ai_significance": "Understanding platelet changes in pregnancy may help identify patients at risk for preeclampsia, but this study did not provide conclusive results.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Higher-Dose Dexamethasone Improves Breathing and Shortens NICU Stay in Preterm Babies",
@@ -3276,9 +3382,7 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study compared the effects of two doses of dexamethasone given to pregnant women at risk of preterm birth on preterm babies' breathing and NICU stay. The study found that higher-dose dexamethasone improved breathing and shortened NICU stay in preterm babies. The study looked at preterm babies born between 26 and 36 weeks of pregnancy.",
         "ai_significance": "This study's findings suggest that higher-dose dexamethasone may be beneficial for preterm babies' respiratory health and hospital stay duration, which could inform clinical practice in NICUs.",
-        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies."
       },
       {
         "title": "The Family-ICU Trial",
@@ -3294,9 +3398,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to assess whether family participation in adult ICU rounds improves family satisfaction and patient outcomes. However, the study did not report any key numbers.",
         "ai_significance": "This study is significant because it addresses a need for evidence to support family participation in adult ICU rounds, which is currently limited by a lack of robust data.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Development and Validation of an Ultrasound-Based Difficult Cannulation Risk Score for Pre-procedural Internal Jugular Vein Catheterization in Critically Ill Patients: A Prospective Observational Cohort Study",
@@ -3312,9 +3414,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
         "ai_significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
-        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
       },
       {
         "title": "A Study on How the Immune System Responds to Sepsis and Its Long-term Effects",
@@ -3330,9 +3430,7 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis occurs when an infection disrupts the body's immune balance, potentially leading to life-threatening damage or failure of healthy organs. Survivors may experience long-term health problems. The immune response can become either too strong or too weak.",
         "ai_significance": "Understanding the immune system's response to sepsis is crucial for developing effective treatments and preventing long-term health consequences.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Trial of Staff Time With Proned Patients in the ICU Using the 'BathMat'",
@@ -3348,9 +3446,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the use of the 'BathMat' to assist with proning patients in the ICU, which involves lying patients on their front to improve oxygenation. The BathMat is a tool used to help reposition patients every 2-4 hours to prevent sores and injuries. The study aimed to assess the feasibility and effectiveness of using the BathMat in this context.",
         "ai_significance": "This study's findings can inform ICU staff on the practical use of the BathMat to improve patient care and prevent complications associated with prolonged proning.",
-        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries."
       },
       {
         "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
@@ -3366,9 +3462,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
         "ai_significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Machine Learning Prediction of Mortality After Prone Positioning in ARDS",
@@ -3384,9 +3478,7 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "Researchers developed a machine learning model to predict mortality after prone positioning in patients with acute respiratory distress syndrome (ARDS). The model was trained and validated on a large dataset of 1200 patients. The study aimed to improve clinical decision-making by identifying high-risk patients.",
         "ai_significance": "This study has significant implications for ICU clinical practice as it may help clinicians make more informed decisions about prone positioning in ARDS patients, potentially improving outcomes.",
-        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies."
       },
       {
         "title": "Comparison of NEWS2 and Machine Learning for Early Sepsis Warning",
