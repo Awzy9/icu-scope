@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T03:39:21+00:00",
+  "generated_at": "2026-08-17T03:40:36+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -358,17 +358,15 @@
         ],
         "doi": "10.1186/s13054-026-06267-4",
         "abstract": "",
-        "citation_count": 0,
+        "citation_count": 5,
         "is_top_journal": true,
         "study_type": "Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13476939/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/"
       },
       {
         "pmid": "42584666",
@@ -2129,9 +2127,7 @@
         "ai_key_stats": "",
         "ai_summary": "This review examined the clinical impact of Stenotrophomonas maltophilia infections, which are often resistant to multiple antibiotics and can form biofilms that make them harder to treat. The review found that biofilm formation and resistance mechanisms contribute to persistent infections and therapeutic failure. Emerging treatment strategies, such as novel antibiotics and anti-biofilm agents, show promise but require further clinical evidence.",
         "ai_significance": "Understanding the clinical impact of S. maltophilia infections and emerging treatment strategies is crucial for optimizing the management of these infections and reducing the risk of hospital outbreaks.",
-        "ai_rounds_takeaway": "Consider using environmental surveillance and infection control measures to prevent hospital outbreaks of S. maltophilia infections.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using environmental surveillance and infection control measures to prevent hospital outbreaks of S. maltophilia infections."
       },
       {
         "pmid": "42445747",
@@ -2988,9 +2984,7 @@
         "ai_key_stats": "",
         "ai_summary": "A young woman with severe burns developed a rare fungal infection of the pericardium, leading to cardiac tamponade. Despite treatment, she progressed to refractory shock and multiorgan failure. This case highlights the challenges of diagnosing and treating fungal pericarditis in critically ill patients.",
         "ai_significance": "This case emphasizes the importance of maintaining a high index of suspicion for fungal infections in burn patients with multisite colonization and prolonged antibiotic exposure, as they can lead to severe complications.",
-        "ai_rounds_takeaway": "Consider fungal pericarditis in burn patients with multisite Candida colonization and prolonged antibiotic exposure.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider fungal pericarditis in burn patients with multisite Candida colonization and prolonged antibiotic exposure."
       },
       {
         "pmid": "42602351",
@@ -3027,9 +3021,7 @@
         "ai_key_stats": "n=456, aOR 0.87 (95% CI 0.81-0.94), p=0.0002",
         "ai_summary": "This study looked at whether giving oseltamivir to critically ill patients with severe acute respiratory illness (SARI) affected their outcomes. Researchers found that patients who received oseltamivir had lower mortality rates compared to those who did not. The benefits of oseltamivir were seen in patients over 70 years old and those without confirmed influenza.",
         "ai_significance": "These findings suggest that oseltamivir may be beneficial in managing critically ill patients with SARI, and clinicians may consider its use in high-risk patients.",
-        "ai_rounds_takeaway": "Consider empirical oseltamivir treatment in critically ill patients with SARI, especially those over 70 years old or without confirmed influenza.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider empirical oseltamivir treatment in critically ill patients with SARI, especially those over 70 years old or without confirmed influenza."
       },
       {
         "pmid": "42340792",
@@ -3234,36 +3226,6 @@
         "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
         "category_id": "infectious-sepsis",
         "category_label": "Infectious Disease & Sepsis"
-      },
-      {
-        "pmid": "42573413",
-        "title": "Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Aug 10",
-        "authors": [
-          "Nakamura S",
-          "Inoue K",
-          "Takahashi K",
-          "Maeda S",
-          "Fujii T"
-        ],
-        "doi": "10.1097/CCM.0000000000007282",
-        "abstract": "OBJECTIVE: Randomized trials evaluating the timing of renal replacement therapy (RRT) have informed current practice toward more conservative initiation strategies because of the lack of mortality benefit from early initiation. However, the optimal indications for RRT to offer lifesaving benefits remain uncertain. We aimed to estimate heterogeneous treatment effect of RRT and to identify patient groups associated with benefit or harm. DESIGN: Multicenter observational study. SETTING: A nationwide intensive care registry in Japan, Japanese Intensive Care Patient Database. PATIENTS: Adult patients who were admitted to the ICUs from 2018 through 2023 were included, excluding those with end-stage kidney disease, early death, readmission, or normal renal function. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Exposure was RRT during the ICU stay. Hospital mortality was the primary outcome. After 1:1 propensity score matching to adjust for confounding, 18,794 patients (9,397 per group) were analyzed. On average, RRT was associated with higher hospital mortality (risk difference, 6.1% points [95% CI, 3.4-8.7]). However, our machine learning-based causal forest algorithm showed substantial heterogeneity of treatment effects heterogeneity of treatment effects (HTEs) (rank-weighted average treatment effect, -8.2 percentage points [95% CI, -9.7 to -6.7]). Patients characterized by elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels showed potential mortality benefit from RRT, whereas relatively preserved renal function was more likely to be associated with harm. CONCLUSIONS: Although RRT was associated with an increased risk of hospital mortality overall, HTEs were identified in selected subgroups that may benefit from RRT. These findings support a data-driven approach to defining clinically applicable optimal RRT indications to guide more judicious use of RRT.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/",
-        "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
-        "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
-        "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
-        "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
-        "category_id": "renal",
-        "category_label": "Renal"
       }
     ]
   },
@@ -6747,6 +6709,34 @@
           "ai_summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
           "ai_significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population.",
           "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42573413",
+          "title": "Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Aug 10",
+          "authors": [
+            "Nakamura S",
+            "Inoue K",
+            "Takahashi K",
+            "Maeda S",
+            "Fujii T"
+          ],
+          "doi": "10.1097/CCM.0000000000007282",
+          "abstract": "OBJECTIVE: Randomized trials evaluating the timing of renal replacement therapy (RRT) have informed current practice toward more conservative initiation strategies because of the lack of mortality benefit from early initiation. However, the optimal indications for RRT to offer lifesaving benefits remain uncertain. We aimed to estimate heterogeneous treatment effect of RRT and to identify patient groups associated with benefit or harm. DESIGN: Multicenter observational study. SETTING: A nationwide intensive care registry in Japan, Japanese Intensive Care Patient Database. PATIENTS: Adult patients who were admitted to the ICUs from 2018 through 2023 were included, excluding those with end-stage kidney disease, early death, readmission, or normal renal function. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Exposure was RRT during the ICU stay. Hospital mortality was the primary outcome. After 1:1 propensity score matching to adjust for confounding, 18,794 patients (9,397 per group) were analyzed. On average, RRT was associated with higher hospital mortality (risk difference, 6.1% points [95% CI, 3.4-8.7]). However, our machine learning-based causal forest algorithm showed substantial heterogeneity of treatment effects heterogeneity of treatment effects (HTEs) (rank-weighted average treatment effect, -8.2 percentage points [95% CI, -9.7 to -6.7]). Patients characterized by elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels showed potential mortality benefit from RRT, whereas relatively preserved renal function was more likely to be associated with harm. CONCLUSIONS: Although RRT was associated with an increased risk of hospital mortality overall, HTEs were identified in selected subgroups that may benefit from RRT. These findings support a data-driven approach to defining clinically applicable optimal RRT indications to guide more judicious use of RRT.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42573413/",
+          "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
+          "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+          "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
+          "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
         },
         {
           "pmid": "42294965",

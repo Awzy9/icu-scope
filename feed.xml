@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sun, 16 Aug 2026 03:39:21 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 03:40:36 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -244,6 +244,13 @@
       <description>This study tested a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children. Patients were randomly assigned to either a PCT-guided group or a standard-of-care group. The study found that the PCT-guided algorithm was used to discontinue antibiotic treatment.</description>
     </item>
     <item>
+      <title>Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42573413/</link>
+      <guid isPermaLink="false">pmid:42573413</guid>
+      <category>Renal</category>
+      <description>This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.</description>
+    </item>
+    <item>
       <title>COMPARE-VENT Feasibility Pilot Study</title>
       <link>https://clinicaltrials.gov/study/NCT07656259</link>
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07656259</guid>
@@ -298,13 +305,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07086755</guid>
       <category>Clinical Trial</category>
       <description>This study aimed to evaluate the effectiveness and safety of vadadustat in treating nonintubated patients with ARDS caused by pathogen-associated lung injury. No results were reported.</description>
-    </item>
-    <item>
-      <title>Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42573413/</link>
-      <guid isPermaLink="false">pmid:42573413</guid>
-      <category>This Week</category>
-      <description>This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.</description>
     </item>
     <item>
       <title>The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.</title>
