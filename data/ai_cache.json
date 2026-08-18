@@ -971,6 +971,12 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT07300306": {
+    "key_stats": "",
+    "summary": "This study aimed to validate the SOFA-2 score in predicting mortality and determining sepsis prevalence in Turkish ICUs. Researchers compared the new SOFA-2 score to the existing SOFA-1 score. The study's results are not yet reported.",
+    "significance": "This study's findings could inform the use of the SOFA-2 score in predicting mortality and identifying sepsis in Turkish ICUs, potentially improving patient outcomes.",
+    "rounds_takeaway": ""
+  },
   "url:https://clinicaltrials.gov/study/NCT06893939": {
     "key_stats": "",
     "summary": "This study compared two feeding regimens in preterm infants born between 25w0d and 31w6d. The regimens differed in when enteral feeds were advanced, either after 24 hours or after 72 hours. The study found no difference in the risk of late onset sepsis or other adverse outcomes between the two groups.",
@@ -1239,12 +1245,6 @@
     "key_stats": "",
     "summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
     "significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
-    "rounds_takeaway": ""
-  },
-  "url:https://clinicaltrials.gov/study/NCT07300306": {
-    "key_stats": "",
-    "summary": "This study aimed to validate the SOFA-2 score in predicting mortality and determining sepsis prevalence in Turkish ICUs. Researchers compared the new SOFA-2 score to the existing SOFA-1 score. The study's results are not yet reported.",
-    "significance": "This study's findings could inform the use of the SOFA-2 score in predicting mortality and identifying sepsis in Turkish ICUs, potentially improving patient outcomes.",
     "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT06014801": {
