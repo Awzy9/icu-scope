@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-19T03:38:00+00:00",
+  "generated_at": "2026-08-20T03:38:16+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -126,6 +126,32 @@
         "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
       },
       {
+        "pmid": "42608719",
+        "title": "Patient-level reclassification and discordance between SOFA and SOFA-2: a multicenter ICU study.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 11",
+        "authors": [
+          "Ono S",
+          "Uchino S",
+          "Kumaido Y",
+          "Yawata S",
+          "Katayama S"
+        ],
+        "doi": "10.1186/s13054-026-06241-0",
+        "abstract": "BACKGROUND: The Sequential Organ Failure Assessment (SOFA) score is widely used to quantify organ dysfunction in critically ill patients. A revised version, SOFA-2, was proposed to better reflect contemporary intensive care practice, but patient-level reclassification and the implications of differences between SOFA and SOFA-2 remain unclear. METHODS: We conducted a retrospective multicenter cohort study using the OneICU database, a Japanese ICU registry including 15 hospitals. Adult ICU admissions between April 2012 and December 2025 were analyzed. Day-1 SOFA and SOFA-2 scores were calculated. Reclassification patterns were visualized using Sankey diagrams, and mortality patterns were assessed using heat maps. Score discordance was defined as SOFA deviation (dSOFA = SOFA-2 - SOFA) and categorized as Negative ( ≤ - 2), Minimal ( > - 2 and < 2), or Positive (≥ 2). Two primary exact-matching analyses were performed across dSOFA categories, separately matching patients on Day-1 SOFA-2 and conventional SOFA total scores. RESULTS: Among 134,528 ICU admissions, SOFA-2 resulted in systematic patient-level reclassification. Upward shifts were most frequent in the brain, cardiovascular, and respiratory subscores, whereas the kidney subscore showed bidirectional changes. Mortality increased with higher SOFA-2 subscores at fixed SOFA and with higher SOFA subscores at fixed SOFA-2. After exact matching on SOFA-2, mortality was highest in the Negative dSOFA group, in which SOFA was higher than SOFA-2. Conversely, after exact matching on conventional SOFA, mortality was highest in the Positive dSOFA group, in which SOFA-2 was higher than SOFA. CONCLUSIONS: SOFA-2 introduces systematic reclassification at the patient level. Reciprocal exact-matching analyses demonstrated that patients assigned the same severity by one scoring system remained heterogeneous in mortality according to the other scoring system. SOFA and SOFA-2 may therefore provide overlapping but complementary information for assessing organ dysfunction severity.",
+        "citation_count": 36,
+        "is_top_journal": true,
+        "study_type": "Multicenter Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13483513/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42608719/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42568095",
         "title": "The impact of an intensive care telemedicine program on weaning from invasive ventilation: a secondary analysis of the ERIC trial.",
         "journal": "Critical care (London, England)",
@@ -166,39 +192,6 @@
           "weaknesses": "small sample size; limited generalizability to other ICUs",
           "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
         }
-      },
-      {
-        "pmid": "42472834",
-        "title": "Sodium bicarbonate therapy in severe metabolic acidemia: an individual patient data meta-analysis of the BICAR-ICU and BICAR-ICU2 trials.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Jul 19",
-        "authors": [
-          "Fosset M",
-          "Pensier J",
-          "Jabaudon M",
-          "Bitker L",
-          "De Jong A",
-          "Chanques G",
-          "Huguet H",
-          "Molinari N",
-          "Jaber S",
-          "Jung B"
-        ],
-        "doi": "10.1186/s13054-026-06206-3",
-        "abstract": "BACKGROUND: Two randomized trials (BICAR-ICU and BICAR-ICU2) evaluated intravenous sodium bicarbonate therapy in patients with severe metabolic acidemia but yielded inconclusive results. We performed an individual patient data meta-analysis to assess its effects on 90-day mortality and renal replacement therapy (RRT) use, and search for heterogeneity of treatment effects across prespecified subgroups. METHODS: We performed an individual patient data meta-analysis of the BICAR-ICU and BICAR-ICU2 trials, including adults with severe metabolic acidemia (pH ≤ 7.20). Patients were randomized to receive intravenous sodium bicarbonate titrated to a pH ≥ 7.30 or no sodium bicarbonate. The primary outcome was 90-day mortality. Secondary outcomes included RRT initiation and dialysis-free days. Prespecified subgroup analyses explored treatment-effect heterogeneity by acidemia depth (pH ≤ 7.10 vs. > 7.10), severe acute kidney injury (AKI) status, and serum lactate (< 2mmol/L vs. ≥2mmol/L). RESULTS: A total of 1,016 patients was included (509 sodium bicarbonate, 507 control). Sodium bicarbonate therapy did not significantly reduce 90-day mortality compared to control (58.3% vs. 60.6%; risk ratio [RR], 0.96; 95%CI, 0.86-1.07; p = 0.51). However, it significantly reduced RRT initiation (34.8% vs. 50.7%; RR, 0.69; 95%CI, 0.60-0.79; p < 0.001, number needed to treat: 6.3) and increased dialysis-free days (incidence rate ratio, 1.10; 95%CI, 1.06-1.14; p < 0.001). A significant interaction was observed with acidemia depth (p-for-interaction = 0.006): in patients with pH ≤ 7.10, sodium bicarbonate reduced 90-day mortality (RR, 0.80; 95%CI, 0.68-0.93; p = 0.004); no benefit was seen with pH > 7.10 (RR, 1.05; 95%CI, 0.92-1.21; p = 0.47). No significant interactions were observed for severe AKI status (p-for-interaction = 0.11) nor serum lactate (p-for-interaction = 0.22). CONCLUSIONS: Sodium bicarbonate therapy did not reduce overall 90-day mortality but decreased RRT use and suggested a mortality benefit in patients with the most profound acidemia (pH ≤ 7.10). These findings invite a reconsideration of current paradigms, suggesting timely correction of severe metabolic acidemia to avoid RRT in some patients.",
-        "citation_count": 34,
-        "is_top_journal": true,
-        "study_type": "Meta-Analysis",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13393698/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42472834/",
-        "ai_key_stats": "",
-        "ai_summary": "This study combined data from two previous trials to assess the effect of sodium bicarbonate therapy on patients with severe metabolic acidemia. It found that while sodium bicarbonate did not reduce overall mortality, it did decrease the need for renal replacement therapy and may benefit patients with the most severe acidemia.",
-        "ai_significance": "These findings suggest that timely correction of severe metabolic acidemia may help avoid the need for renal replacement therapy in some patients, and may change current clinical practice paradigms.",
-        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42377463",
@@ -369,39 +362,25 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/"
       },
       {
-        "pmid": "42612901",
-        "title": "Induction Agents for Tracheal Intubation of Critically Ill Patients: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
-        "journal": "Chest",
+        "pmid": "42613623",
+        "title": "Critical care readiness in conflict and disaster-affected Somalia: mass-casualty response, emergency referral, and continuity of life-saving care special collection: critical care in war and disaster areas.",
+        "journal": "Critical care (London, England)",
         "pubdate": "2026 Aug 18",
         "authors": [
-          "McDougall G",
-          "Forestell B",
-          "Sadeghirad B",
-          "Kuriyama A",
-          "Sivananathajothy P",
-          "Flindall H",
-          "Choi J",
-          "Centofanti J",
-          "Myatra SN",
-          "Prakash J",
-          "Casey JD",
-          "Semler MW",
-          "Sklar M",
-          "Tejpal A",
-          "Sharif S",
-          "Rochwerg B"
+          "Siyad AO",
+          "Hassan AM"
         ],
-        "doi": "10.1016/j.chest.2026.07.5239",
-        "abstract": "BACKGROUND: Tracheal intubation is a common yet high risk procedure in the critically ill with as many as half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: We aimed to evaluate the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of the critically ill patient in the emergency department, intensive care unit, operating room, and pre-hospital setting. STUDY DESIGN & METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception to December 10, 2025 for Randomized controlled trials (RCTs) comparing two or more sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, intensive care unit and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across Intensive Care Unit, Emergency Department, Operating Room, and pre-hospital settings. Compared with etomidate, there is probably more hemodynamic instability during intubation with ketamine (RR 1.31, 95% CI 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR 0.44, 95% CI 0.27-0.72; low certainty) and ketamine (RR 0.34, 95% CI 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of post-intubation continuous infusion vasopressors (RR 0.80, 95% CI 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: When considering sedation agents for endotracheal intubation of the critically ill, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of post-intubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine though the available evidence is too limited and uncertain to support firm conclusions and further randomized trials are needed.",
+        "doi": "10.1186/s13054-026-06258-5",
+        "abstract": "Critical care readiness during war and disasters is often judged by intensive care unit capacity, yet preventable mortality in fragile health systems may occur before, during, or after ICU-level care. In Somalia, recurrent mass-casualty events, emergency referral constraints, limited oxygen and blood readiness, constrained operative access, and weak post-resuscitation monitoring expose a critical gap between first contact and sustained life-saving care. This Comment addresses that gap by reframing critical care readiness in conflict and disaster-affected Somalia as a pathway problem rather than an ICU-capacity problem alone. Its novelty lies in integrating domains often treated separately-mass-casualty response, emergency referral, essential emergency and critical care inputs, ethical triage, and non-punitive system learning-into one practical readiness agenda for fragile health systems. The article argues that training and hospital preparedness are necessary but insufficient unless supported by referral communication, command structures, oxygen systems, blood readiness, ward monitoring, and clear escalation criteria. Strengthening this emergency-to-critical-care pathway can improve continuity of life-saving care, support fair resource allocation, and enhance accountability in health systems exposed to conflict and disasters.",
         "citation_count": 0,
         "is_top_journal": true,
         "study_type": "Study",
-        "volume": "",
-        "issue": "",
+        "volume": "30",
+        "issue": "1",
         "pages": "",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42613623/",
         "link_broken": false,
         "link_broken_kind": "doi"
       }
@@ -418,9 +397,7 @@
         "pubdate": "2026-08-18",
         "summary": "This particular story has a familiar shape. A small, methodologically flawed study finds a striking benefit. The p-value is impressively low. The paper lands in a major journal. And within a few years, its flaws, its obvious sources of bias, and its undeniable susceptibility to chance findings are forgotten. All that remains is its statistical […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients?",
@@ -2065,6 +2042,35 @@
         "ai_rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients."
       },
       {
+        "pmid": "42614272",
+        "title": "Acute kidney injury and length of ICU stay in diabetic ketoacidosis: a retrospective cohort study.",
+        "journal": "Frontiers in endocrinology",
+        "pubdate": "2026",
+        "authors": [
+          "Al-Azzam N",
+          "Al-Azzam S",
+          "Karasneh R",
+          "AlNajjar M",
+          "Alzubi M",
+          "Abu Sarieh A",
+          "Al-Azzam Y"
+        ],
+        "doi": "10.3389/fendo.2026.1872959",
+        "abstract": "AIMS: Diabetic ketoacidosis (DKA) is a major acute complication of diabetes mellitus and a leading cause of diabetes-related morbidity. Acute kidney injury (AKI) further compounds this burden, yet data on AKI and prolonged intensive care unit (ICU) stay in DKA from the Middle East remain scarce. We aimed to evaluate AKI prevalence and identify predictors of AKI and prolonged ICU stay among adults admitted to the ICU with DKA at a Jordanian tertiary hospital. METHODS: This retrospective cohort study included 183 adults admitted to the ICU with DKA (2012-2024) at King Abdullah University Hospital, Jordan. AKI was defined by Kidney Disease: Improving Global Outcomes (KDIGO) creatinine criteria; prolonged ICU stay was defined as a total ICU length of stay of ≥3 days. Multivariable logistic regression identified independent predictors. RESULTS: AKI occurred in 15.9% of patients and 28.7% had prolonged ICU stay. Ninety-day mortality was 4.4%. Elevated admission glucose independently predicted AKI [adjusted odds ratio (aOR) 1.05 per mmol/L; 95% confidence interval (CI) 1.00-1.10; p = 0.034]. Predictors of prolonged ICU stay were AKI (aOR 4.88; 95% CI 1.73-13.77; p = 0.003), infection (aOR 4.00; 95% CI 1.83-8.76; p < 0.001), elevated sodium (aOR 1.07; 95% CI 1.00-1.14; p = 0.039), and lower potassium (aOR 0.52, 95% CI 0.28-0.97, p = 0.040). Higher sodium levels, AKI incidence, and infection were robust across the ≥2-day threshold, infection was robust also at the ≥4-day threshold, while potassium was significant only at the ≥3-day definition. CONCLUSIONS: Among ICU-admitted patients with DKA, AKI affected one in six and was a strong independent predictor of extended hospitalization. Admission hyperglycemia, infection, and hypernatremia are accessible markers that may support early risk stratification, though these exploratory associations warrant prospective validation.",
+        "citation_count": 48,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "17",
+        "issue": "",
+        "pages": "1872959",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13481273/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42614272/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42415882",
         "title": "Practice Pattern of Critical Care UltraSonography in India (POCUS India): A Multicenter Cross-sectional Survey.",
         "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
@@ -3163,8 +3169,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "cardiovascular",
         "category_label": "Cardiovascular"
       },
@@ -3202,8 +3206,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "neurology",
         "category_label": "Neurology"
       },
@@ -3241,8 +3243,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "endocrine-metabolic",
         "category_label": "Endocrine & Metabolic"
       },
@@ -3280,8 +3280,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "procedures-pocus",
         "category_label": "Procedures & POCUS"
       },
@@ -3319,8 +3317,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "pharmacology",
         "category_label": "Pharmacology"
       }
@@ -3391,6 +3387,104 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Discordance Between Capillary Refill Time and Oxygen Extraction Ratio in Septic Shock",
+        "url": "https://clinicaltrials.gov/study/NCT07774962",
+        "source": "Istanbul University - Cerrahpasa",
+        "author": "",
+        "pubdate": "2026-08-19",
+        "summary": "In septic shock, restoring large-vessel (macrocirculatory) perfusion-reflected by a normal capillary refill time (CRT)-does not always mean that oxygen use at the tissue level has recovered. This mismatch, sometimes called loss of hemodynamic coherence, may be detectable by comparing CRT with the oxygen extraction ratio (O₂ER), a marker of how much oxygen the tissues are extracting from the blood. Patients whose CRT has normalized but whose O₂ER remains abnormal-either too high (suggesting oxyge",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07774962",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Development and Effectiveness Evaluation of a Clustered Care Guideline Within Individualized Developmental Care: RCT",
+        "url": "https://clinicaltrials.gov/study/NCT07052786",
+        "source": "KTO Karatay University",
+        "author": "",
+        "pubdate": "2026-08-19",
+        "summary": "The Individualized Developmental Care (IDC) model was developed to minimize the negative impact of the neonatal intensive care environment and to support infants' physiological stability. It supports the practice of clustered care, which refers to grouping routine medical and nursing procedures into a single care time period to reduce handling and allow the infant uninterrupted rest and maintenance of the sleep-wake cycle. This study aims to develop a clustered care practice guideline and evalua",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07052786",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "ICCA-Based ICU Physiological State Space Monitor",
+        "url": "https://clinicaltrials.gov/study/NCT07773571",
+        "source": "Shanghai Zhongshan Hospital",
+        "author": "",
+        "pubdate": "2026-08-19",
+        "summary": "Critically ill patients can deteriorate rapidly across multiple organ systems. Most intensive care unit (ICU) risk tools rely on measurements collected at a single time point and may not fully capture how physiology evolves or how quickly a patient recovers from disturbance. This single-center retrospective observational study will use routinely collected data from the ICCA reporting database at Zhongshan Hospital, Fudan University to develop and internally validate a research prototype called t",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07773571",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Utilization of Lung Ultrasound Score in Decision for Minimally Invasive Surfactant Administration",
+        "url": "https://clinicaltrials.gov/study/NCT07442669",
+        "source": "Hackensack Meridian Health",
+        "author": "",
+        "pubdate": "2026-08-19",
+        "summary": "This prospective randomized controlled study aims to determine if using a lung ultrasound score can lead to a faster diagnosis of severe respiratory distress syndrome and quicker administration of surfactant in moderately and late-preterm infants. The research will involve 100 infants, with 67 in the prospective group and 33 serving as controls. The primary goal is to shorten the time to treatment for these vulnerable newborns. The study will also assess whether this ultrasound-guided approach i",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07442669",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Dexamethasone for Treating Severe Hospital-acquired Pneumonia in Critically Ill Patients With a Proinflammatory Phenotype",
+        "url": "https://clinicaltrials.gov/study/NCT06269900",
+        "source": "Nantes University Hospital",
+        "author": "",
+        "pubdate": "2026-08-19",
+        "summary": "Determine the efficacy of dexamethasone plus standard of care (SOC) as compared to placebo plus SOC for treating severe hospital-acquired pneumonia in critically ill patients with a proinflammatory phenotype; It's an international phase III, double-blind, placebo-controlled, randomized trial.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06269900",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Dysfunctional Myelopoiesis and Myeloid-Derived Suppressor Cells in Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT05110937",
+        "source": "University of Florida",
+        "author": "",
+        "pubdate": "2026-08-19",
+        "summary": "Adverse outcomes in surgical sepsis patients are secondary to dysregulated emergency myelopoiesis, and expansion of myeloid-derived suppressor cells. Here we propose to determine the underlying mechanisms behind the increased expansion of these leukocyte populations and the underlying mechanisms that drive inflammation and immune suppression.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05110937",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Multicenter Symphony IL-6 Monitoring Sepsis ICU Validation Study",
+        "url": "https://clinicaltrials.gov/study/NCT06654895",
+        "source": "Bluejay Diagnostics, Inc.",
+        "author": "",
+        "pubdate": "2026-08-19",
+        "summary": "The primary objective of this study is to validate a pre-defined IL-6 concentration cutoff that predicts 28-day mortality in patients who are admitted or are intended to be admitted to the ICU diagnosed with sepsis or septic shock.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06654895",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Nutritional Intake in Patients on Noninvasive Ventilation: a Prospective Observational Study",
         "url": "https://clinicaltrials.gov/study/NCT06740981",
         "source": "Università degli Studi del Piemonte Orientale Amedeo Avogadro",
@@ -3400,9 +3494,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06740981",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06740981"
       },
       {
         "title": "AI Based Muscular Ultrasound to Assess Intensive Care Unit-acquired Weakness",
@@ -3414,9 +3506,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06765551",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06765551"
       },
       {
         "title": "Vascular ARDS Recruitment After Inhaled Nitric Oxide",
@@ -3428,9 +3518,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05801224",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05801224"
       },
       {
         "title": "Peripheral pULSe Assessment and Arterial pRessure (PULSAR)",
@@ -3442,9 +3530,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07609095",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07609095"
       },
       {
         "title": "Inflammation Indıces and Mortality in Adult Crush Syndrome",
@@ -3456,9 +3542,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07433127",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07433127"
       },
       {
         "title": "Can a Pain Monitor Predict When Postoperative Intensive Care Unit Patients Are Ready to Breathe on Their Own? A Pilot Study",
@@ -3470,9 +3554,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07771101",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07771101"
       },
       {
         "title": "Prospective Validation of AKI Prediction",
@@ -3484,9 +3566,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06804200",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06804200"
       },
       {
         "title": "The Vancomycin Piperacillin/Tazobactam (VPT) Patient Safety Trial (VPS)",
@@ -3498,9 +3578,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07556107",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07556107"
       },
       {
         "title": "A Study to Evaluate the Safety and Pharmacokinetics of AZD7760 in Healthy Japanese Adults",
@@ -3512,9 +3590,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07612813",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07612813"
       },
       {
         "title": "Comparative Study of Clinical Diagnoses and Autopsy Findings in Intensive Care",
@@ -3526,9 +3602,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07769801",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07769801"
       },
       {
         "title": "Validation of SOFA-2 for Mortality and Sepsis-3 Prevalence in Turkey",
@@ -5175,6 +5249,47 @@
             "weaknesses": "open-label design; non-inferiority trial",
             "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
           }
+        },
+        {
+          "pmid": "42469838",
+          "title": "Assessing fluid responsiveness in mechanically ventilated patients with intra-abdominal hypertension: a two-center, prospective, observational study.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Jul 17",
+          "authors": [
+            "Si X",
+            "Song W",
+            "Cao D",
+            "Zhu W",
+            "Lu Y",
+            "Peng H",
+            "Yuan H",
+            "Liang L",
+            "Jiang J",
+            "Yang T",
+            "Ma X",
+            "Guo J",
+            "Liu Z",
+            "Liu Y",
+            "Chen M",
+            "Chen R",
+            "Guan X",
+            "Wu J",
+            "Shi R",
+            "Monnet X"
+          ],
+          "doi": "10.1186/s13054-026-06191-7",
+          "abstract": "BACKGROUND: Intra-abdominal hypertension (IAH) may reduce the diagnostic accuracy of the passive leg raising (PLR) test for predicting fluid responsiveness, with unclear mechanisms. The reliability of the end-expiratory occlusion (EEO) test and mini-fluid challenge in IAH remains unknown. This study explored the mechanisms underlying PLR impairment and assessed the accuracy of EEO and mini-fluid challenge in detecting fluid responsiveness in patients with and without IAH. METHODS: In this prospective study in two intensive care units (ICUs), we included ventilated patients with IAH (\"IAH + \"; intra-abdominal pressure [IAP] ≥ 12 mmHg) and without (\"IAH-\"), all monitored via transpulmonary thermodilution and receiving a 500-mL fluid challenge. Patients consecutively underwent a 1‑minute PLR, a 15‑second EEO, and a 1‑minute mini-fluid challenge of 100 mL, with cardiac index (CI) changes recorded during each maneuver. Following the mini-fluid challenge, the remaining 400 mL were infused over 14 min, and a ≥ 15% increase in CI was used to define fluid responders. The transmural pressure of the inferior vena cava was estimated by the central venous pressure (CVP) - IAP gradient. RESULTS: We included 88 patients, 44 IAH- (25 fluid responders and 19 non-responders) and 44 IAH + (22 responders and 22 non-responders). Baseline IAP was 9 ± 2 mmHg in IAH- and 17 ± 3 mmHg in IAH + (p < 0.001). In IAH- responders, CI increased by 19 ± 11% during PLR and 31 ± 17% after volume expansion, with PLR positive in 24/25 responders. In IAH + responders, CI increased by 6 ± 7% during PLR (p < 0.001 vs. IAH-) and 30 ± 18% after volume expansion (p = 0.907 vs. IAH-). The AUROC of the PLR for detecting fluid responsiveness was 0.96 (0.87-1.00) in IAH- and 0.71 (0.56-0.87) in IAH + (p = 0.009 vs. IAH-). Among IAH + , there were 16 false negatives and 6 true positives for PLR, both with negative baseline CVP-IAP gradients. During PLR, the gradient reversed in true-positives (from -2.4 ± 4.0 to + 2.2 ± 2.7 mmHg, p = 0.014), whereas it remained negative in false-negatives (from -6.3 ± 3.7 to -1.4 ± 3.4 mmHg, p < 0.001). AUROC between IAH- and IAH + was similar for either the EEO test (0.95 [0.87-1.00] vs. 0.89 [0.80-0.97], p = 0.332) or mini-fluid challenge (0.94 [0.87-1.00] vs. 0.90 [0.79-1.00], p = 0.514). CONCLUSION: In patients with IAH, the limited diagnostic value of PLR for fluid responsiveness may be related to persistently negative CVP-IAP gradients in false-negative cases, whereas EEO and mini-fluid challenge remain reliable alternatives.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Multicenter Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432793",
@@ -8954,6 +9069,47 @@
           "ai_summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
           "ai_significance": "This research has implications for ICU clinical practice, as it suggests that vitamin C can be used as a pharmacological agent in critical illness, and that biomarkers can be used to guide treatment and improve patient outcomes.",
           "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42469838",
+          "title": "Assessing fluid responsiveness in mechanically ventilated patients with intra-abdominal hypertension: a two-center, prospective, observational study.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Jul 17",
+          "authors": [
+            "Si X",
+            "Song W",
+            "Cao D",
+            "Zhu W",
+            "Lu Y",
+            "Peng H",
+            "Yuan H",
+            "Liang L",
+            "Jiang J",
+            "Yang T",
+            "Ma X",
+            "Guo J",
+            "Liu Z",
+            "Liu Y",
+            "Chen M",
+            "Chen R",
+            "Guan X",
+            "Wu J",
+            "Shi R",
+            "Monnet X"
+          ],
+          "doi": "10.1186/s13054-026-06191-7",
+          "abstract": "BACKGROUND: Intra-abdominal hypertension (IAH) may reduce the diagnostic accuracy of the passive leg raising (PLR) test for predicting fluid responsiveness, with unclear mechanisms. The reliability of the end-expiratory occlusion (EEO) test and mini-fluid challenge in IAH remains unknown. This study explored the mechanisms underlying PLR impairment and assessed the accuracy of EEO and mini-fluid challenge in detecting fluid responsiveness in patients with and without IAH. METHODS: In this prospective study in two intensive care units (ICUs), we included ventilated patients with IAH (\"IAH + \"; intra-abdominal pressure [IAP] ≥ 12 mmHg) and without (\"IAH-\"), all monitored via transpulmonary thermodilution and receiving a 500-mL fluid challenge. Patients consecutively underwent a 1‑minute PLR, a 15‑second EEO, and a 1‑minute mini-fluid challenge of 100 mL, with cardiac index (CI) changes recorded during each maneuver. Following the mini-fluid challenge, the remaining 400 mL were infused over 14 min, and a ≥ 15% increase in CI was used to define fluid responders. The transmural pressure of the inferior vena cava was estimated by the central venous pressure (CVP) - IAP gradient. RESULTS: We included 88 patients, 44 IAH- (25 fluid responders and 19 non-responders) and 44 IAH + (22 responders and 22 non-responders). Baseline IAP was 9 ± 2 mmHg in IAH- and 17 ± 3 mmHg in IAH + (p < 0.001). In IAH- responders, CI increased by 19 ± 11% during PLR and 31 ± 17% after volume expansion, with PLR positive in 24/25 responders. In IAH + responders, CI increased by 6 ± 7% during PLR (p < 0.001 vs. IAH-) and 30 ± 18% after volume expansion (p = 0.907 vs. IAH-). The AUROC of the PLR for detecting fluid responsiveness was 0.96 (0.87-1.00) in IAH- and 0.71 (0.56-0.87) in IAH + (p = 0.009 vs. IAH-). Among IAH + , there were 16 false negatives and 6 true positives for PLR, both with negative baseline CVP-IAP gradients. During PLR, the gradient reversed in true-positives (from -2.4 ± 4.0 to + 2.2 ± 2.7 mmHg, p = 0.014), whereas it remained negative in false-negatives (from -6.3 ± 3.7 to -1.4 ± 3.4 mmHg, p < 0.001). AUROC between IAH- and IAH + was similar for either the EEO test (0.95 [0.87-1.00] vs. 0.89 [0.80-0.97], p = 0.332) or mini-fluid challenge (0.94 [0.87-1.00] vs. 0.90 [0.79-1.00], p = 0.514). CONCLUSION: In patients with IAH, the limited diagnostic value of PLR for fluid responsiveness may be related to persistently negative CVP-IAP gradients in false-negative cases, whereas EEO and mini-fluid challenge remain reliable alternatives.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Multicenter Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506363",

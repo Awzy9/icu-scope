@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Wed, 19 Aug 2026 03:38:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 03:38:16 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -25,6 +25,55 @@
       <guid isPermaLink="false">pmid:42498336</guid>
       <category>Renal</category>
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
+      <title>Discordance Between Capillary Refill Time and Oxygen Extraction Ratio in Septic Shock</title>
+      <link>https://clinicaltrials.gov/study/NCT07774962</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07774962</guid>
+      <category>Clinical Trial</category>
+      <description>In septic shock, restoring large-vessel (macrocirculatory) perfusion-reflected by a normal capillary refill time (CRT)-does not always mean that oxygen use at the tissue level has recovered. This mismatch, sometimes called loss of hemodynamic coherence, may be detectable by comparing CRT with the oxygen extraction ratio (O₂ER), a marker of how much oxygen the tissues are extracting from the blood. Patients whose CRT has normalized but whose O₂ER remains abnormal-either too high (suggesting oxyge</description>
+    </item>
+    <item>
+      <title>Development and Effectiveness Evaluation of a Clustered Care Guideline Within Individualized Developmental Care: RCT</title>
+      <link>https://clinicaltrials.gov/study/NCT07052786</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07052786</guid>
+      <category>Clinical Trial</category>
+      <description>The Individualized Developmental Care (IDC) model was developed to minimize the negative impact of the neonatal intensive care environment and to support infants' physiological stability. It supports the practice of clustered care, which refers to grouping routine medical and nursing procedures into a single care time period to reduce handling and allow the infant uninterrupted rest and maintenance of the sleep-wake cycle. This study aims to develop a clustered care practice guideline and evalua</description>
+    </item>
+    <item>
+      <title>ICCA-Based ICU Physiological State Space Monitor</title>
+      <link>https://clinicaltrials.gov/study/NCT07773571</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07773571</guid>
+      <category>Clinical Trial</category>
+      <description>Critically ill patients can deteriorate rapidly across multiple organ systems. Most intensive care unit (ICU) risk tools rely on measurements collected at a single time point and may not fully capture how physiology evolves or how quickly a patient recovers from disturbance. This single-center retrospective observational study will use routinely collected data from the ICCA reporting database at Zhongshan Hospital, Fudan University to develop and internally validate a research prototype called t</description>
+    </item>
+    <item>
+      <title>Utilization of Lung Ultrasound Score in Decision for Minimally Invasive Surfactant Administration</title>
+      <link>https://clinicaltrials.gov/study/NCT07442669</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07442669</guid>
+      <category>Clinical Trial</category>
+      <description>This prospective randomized controlled study aims to determine if using a lung ultrasound score can lead to a faster diagnosis of severe respiratory distress syndrome and quicker administration of surfactant in moderately and late-preterm infants. The research will involve 100 infants, with 67 in the prospective group and 33 serving as controls. The primary goal is to shorten the time to treatment for these vulnerable newborns. The study will also assess whether this ultrasound-guided approach i</description>
+    </item>
+    <item>
+      <title>Dexamethasone for Treating Severe Hospital-acquired Pneumonia in Critically Ill Patients With a Proinflammatory Phenotype</title>
+      <link>https://clinicaltrials.gov/study/NCT06269900</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06269900</guid>
+      <category>Clinical Trial</category>
+      <description>Determine the efficacy of dexamethasone plus standard of care (SOC) as compared to placebo plus SOC for treating severe hospital-acquired pneumonia in critically ill patients with a proinflammatory phenotype; It's an international phase III, double-blind, placebo-controlled, randomized trial.</description>
+    </item>
+    <item>
+      <title>Dysfunctional Myelopoiesis and Myeloid-Derived Suppressor Cells in Sepsis</title>
+      <link>https://clinicaltrials.gov/study/NCT05110937</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05110937</guid>
+      <category>Clinical Trial</category>
+      <description>Adverse outcomes in surgical sepsis patients are secondary to dysregulated emergency myelopoiesis, and expansion of myeloid-derived suppressor cells. Here we propose to determine the underlying mechanisms behind the increased expansion of these leukocyte populations and the underlying mechanisms that drive inflammation and immune suppression.</description>
+    </item>
+    <item>
+      <title>Multicenter Symphony IL-6 Monitoring Sepsis ICU Validation Study</title>
+      <link>https://clinicaltrials.gov/study/NCT06654895</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06654895</guid>
+      <category>Clinical Trial</category>
+      <description>The primary objective of this study is to validate a pre-defined IL-6 concentration cutoff that predicts 28-day mortality in patients who are admitted or are intended to be admitted to the ICU diagnosed with sepsis or septic shock.</description>
     </item>
     <item>
       <title>The Case of the Neutral Documents Part 2</title>
@@ -375,55 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07761234</guid>
       <category>Clinical Trial</category>
       <description>This study evaluated the effectiveness of an app-based delirium education program for ICU nurses. The program aimed to enhance nurses' knowledge, learning self-efficacy, and clinical reasoning regarding delirium. The study found that the app intervention had a positive impact on nurses' knowledge and learning self-efficacy.</description>
-    </item>
-    <item>
-      <title>Hemoglobin Trends as a Predictor of Outcomes in Critically Ill Patients (The TRENT-ICU Study)</title>
-      <link>https://clinicaltrials.gov/study/NCT07761832</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07761832</guid>
-      <category>Clinical Trial</category>
-      <description>This observational study examined if early hemoglobin decline in critically ill patients can predict longer ICU stays and in-hospital mortality. The study found that early hemoglobin decline is associated with these outcomes. The study aims to answer two main questions about the relationship between hemoglobin decline and patient outcomes.</description>
-    </item>
-    <item>
-      <title>Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT07672106</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07672106</guid>
-      <category>Clinical Trial</category>
-      <description>This study evaluates the risk of reintubation in postoperative ICU patients using multiple parameters. The study aims to identify factors associated with reintubation after extubation. The study will include adult patients who are extubated in the operating room and admitted to the ICU.</description>
-    </item>
-    <item>
-      <title>Candida PCR Diagnosis Strategy in Patients From Intensive Care Units</title>
-      <link>https://clinicaltrials.gov/study/NCT04874441</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT04874441</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers evaluated a new PCR technique for diagnosing invasive candidiasis in ICU patients. The goal was to see if this method could provide faster results, allowing for earlier antifungal treatment. This could help prevent resistance and reduce healthcare costs.</description>
-    </item>
-    <item>
-      <title>Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV</title>
-      <link>https://clinicaltrials.gov/study/NCT06999928</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06999928</guid>
-      <category>Clinical Trial</category>
-      <description>This study will test an enhanced mentor mother strategy that uses differentiated service delivery to support pregnant and postpartum women living with HIV in resource-limited settings.</description>
-    </item>
-    <item>
-      <title>Impact of Procalcitonin-guided Algorithm on Early Discontinuation of Antibiotic Therapy</title>
-      <link>https://clinicaltrials.gov/study/NCT05350813</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05350813</guid>
-      <category>Clinical Trial</category>
-      <description>This study tested a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children. Patients were randomly assigned to either a PCT-guided group or a standard-of-care group. The study found that the PCT-guided algorithm was used to discontinue antibiotic treatment.</description>
-    </item>
-    <item>
-      <title>Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42573413/</link>
-      <guid isPermaLink="false">pmid:42573413</guid>
-      <category>Renal</category>
-      <description>This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.</description>
-    </item>
-    <item>
-      <title>COMPARE-VENT Feasibility Pilot Study</title>
-      <link>https://clinicaltrials.gov/study/NCT07656259</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07656259</guid>
-      <category>Clinical Trial</category>
-      <description>The COMPARE-VENT Feasibility Pilot Study explored the challenges of cardiac intensive care unit (CICU) admissions, particularly those requiring advanced respiratory support and invasive mechanical ventilation (IMV). These patients often have impaired cardiovascular reserve, making them vulnerable to the adverse effects of positive pressure ventilation (PPV) and systemic sedation. The study aimed to assess the feasibility of a new approach to address these challenges.</description>
     </item>
   </channel>
 </rss>
