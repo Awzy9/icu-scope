@@ -4130,6 +4130,29 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488188/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/"
+      },
+      "42625192": {
+        "pmid": "42625192",
+        "title": "Dynamic flow-perfusion coupling assessed by hands-free radial artery Doppler ultrasound and capillary refill time in septic shock.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 20",
+        "authors": [
+          "Zhao M",
+          "Huang B",
+          "Zhou M",
+          "Chen J"
+        ],
+        "doi": "10.1186/s13054-026-06264-7",
+        "abstract": "",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
       }
     },
     "hematology-coag": {
@@ -8544,7 +8567,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07776184",
       "source": "Tel Aviv Medical Center",
       "author": "",
-      "pubdate": "2026-08-20",
+      "pubdate": "2026-08-21",
       "summary": "The goal of this randomized controlled clinical trial is to learn whether a structured delirium prevention protocol can reduce the occurrence of delirium in older adults admitted to the cardiac intensive care unit (CICU). The study will include participants aged 70 years and older who are hospitalized in the CICU with acute cardiac conditions. The main questions it aims to answer are: Does a structured non-pharmacologic delirium prevention protocol lower the incidence of delirium compared with u",
       "study_type": "Clinical Trial (Active Not Recruiting)",
       "is_open_access": true,
@@ -8610,6 +8633,90 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07775911"
+    },
+    "NCT05327881": {
+      "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
+      "url": "https://clinicaltrials.gov/study/NCT05327881",
+      "source": "Assiut University",
+      "author": "",
+      "pubdate": "2026-08-21",
+      "summary": "Whole blood lactate concentration is widely used in shock states to assess perfusion. We aimed to determine if the change in plasma renin concentration over time would be superior to the change in lactate concentration for predicting in-hospital mortality in septic shock patients.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05327881"
+    },
+    "NCT04045210": {
+      "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
+      "url": "https://clinicaltrials.gov/study/NCT04045210",
+      "source": "Mayo Clinic",
+      "author": "",
+      "pubdate": "2026-08-21",
+      "summary": "The Researchers are trying to evaluate efficacy of a psychotherapeutic approach that can be applied to those who are critically ill. The daily approach in the Intensive Care Unit (ICU) is designed to provide patients with psychological support, reassurance, and explanations of where they are and what is happening to them.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04045210"
+    },
+    "NCT07780617": {
+      "title": "Comparison of Simplified Acute Physiology Score (SAPS II) , Sequential Organ Failure Assessment (SOFA) and Acute Physiology and Chronic Health Evaluation) APACHE II Scoring Systems for Predicting Mortality of Critically Ill Patients Admitted in a Tertiary Hospital Intensive Care Unit.",
+      "url": "https://clinicaltrials.gov/study/NCT07780617",
+      "source": "Tribhuvan University Teaching Hospital, Institute Of Medicine.",
+      "author": "",
+      "pubdate": "2026-08-21",
+      "summary": "This is a descriptive analytical prospective study to compare the performance of SOFA score, SAPSII score and APACHE II score in ICU mortality prediction.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07780617"
+    },
+    "NCT07240077": {
+      "title": "Beta-lactam Plus Levofloxacin to Enhance Therapy in Streptococcal Septicemia",
+      "url": "https://clinicaltrials.gov/study/NCT07240077",
+      "source": "Mahidol University",
+      "author": "",
+      "pubdate": "2026-08-21",
+      "summary": "A double-blind randomized controlled trial comparing beta-lactam plus levofloxacin versus beta-lactam monotherapy for the treatment of Streptococcal bacteremia",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07240077"
+    },
+    "NCT07780526": {
+      "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
+      "url": "https://clinicaltrials.gov/study/NCT07780526",
+      "source": "Van Training and Research Hospital",
+      "author": "",
+      "pubdate": "2026-08-21",
+      "summary": "This prospective observational pilot study will evaluate how accurately anesthesiologists can predict, before a procedure, whether an adult patient will require admission to an intensive care unit (ICU) after surgery or an endoscopic procedure. Before each procedure, the anesthesiologist will record whether postoperative ICU care is expected and the clinical factors influencing this assessment. No changes will be made to the patient's usual medical care. After the procedure, the researchers will",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07780526"
+    },
+    "NCT05911451": {
+      "title": "Optimizing Access Surgery In Senior Hemodialysis Patients",
+      "url": "https://clinicaltrials.gov/study/NCT05911451",
+      "source": "Maastricht University Medical Center",
+      "author": "",
+      "pubdate": "2026-08-21",
+      "summary": "The number of elderly hemodialysis patients is growing. Vascular access complications are a major determinant of the quality of life and health care costs for these vulnerable patients. The three different types of vascular access, i.e. autologous arteriovenous fistulas, arteriovenous grafts, and central venous catheters, have never been compared in randomized controlled trials. This project will deliver the much-needed evidence to determine the optimal strategy for vascular access creation in e",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05911451"
+    },
+    "NCT07779720": {
+      "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
+      "url": "https://clinicaltrials.gov/study/NCT07779720",
+      "source": "Intermountain Health Care, Inc.",
+      "author": "",
+      "pubdate": "2026-08-21",
+      "summary": "The goal of this pilot clinical trial is to learn if a fluid assessment using non-invasive cardiac output monitoring (NICOM) is helpful for patients with sepsis who have low blood pressure in the Emergency Department (ED). The study will measure whether the NICOM assessment changes fluid resuscitation practices and is feasible in the ED setting. All patients will receive standard medical care. Patients assigned to the NICOM group will receive a one-time, non-invasive bedside fluid assessment usi",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07779720"
     }
   },
   "bottom_line": {
@@ -9574,6 +9681,35 @@
       "is_open_access": true,
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13473781/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42602351/"
+    },
+    "42625928": {
+      "pmid": "42625928",
+      "title": "Blood Stream Infections due to Candida Species: Prevalence, Risk Factors, Mortality, and Susceptibility Profile Over 3-Year Period: A Single Center Study.",
+      "journal": "International journal of microbiology",
+      "pubdate": "2026",
+      "authors": [
+        "Alduwayrij AF",
+        "AlArfaj A",
+        "Alarbash M",
+        "Parvez M",
+        "Albanyan OA",
+        "Alquhays IA",
+        "Alshanqiti AAM",
+        "Albaarrak YA",
+        "Eldirdiri S",
+        "Absar M"
+      ],
+      "doi": "10.1155/ijm/6422952",
+      "abstract": "BACKGROUND: Candida is one of the most common causes of bloodstream infections in critically ill and immunocompromised patients. Understanding the distribution and antifungal resistance patterns of Candida species and the associated mortality rates is critical for tailoring therapeutic measures. OBJECTIVES: The aim of this study is to analyze the epidemiology, antifungal resistance trends, and risk factors influencing mortality associated with candidemia in a tertiary healthcare center of Saudi Arabia. PATIENT AND METHODS: The study included all cases of bloodstream infections caused by Candida species from December 2021 to January 2023. The antifungal susceptibility and identification of species were done via standard protocols. Univariate and multivariate statistical analyses were conducted to determine the predictors of 14-day mortality (death within 14 days of the first positive blood culture) and overall (in-hospital) mortality (death during the index hospitalization). RESULTS: Fifty patients were included in the study with a median age of 71 years, with 58% being females. C. albicans accounted for 21.3% of candidemia cases, with a declining trend over time. Candidozyma auris (formerly Candida auris) was the most frequently identified non-albicans Candida species (25%). Fluctuating trends in antifungal susceptibility of non-albicans Candida were observed, with increasing resistance to azoles, while increasing susceptibility to micafungin. The 14-day mortality and overall (in-hospital) mortality rates were 23.4% and 55.3%, respectively. Multivariate analysis revealed older age, cardiac and respiratory disorders, ICU as site of diagnosis, treatment duration of > 48 h, and Candida colonization to be independent predictors of overall (in-hospital) mortality (p < 0.05). CONCLUSION: The continuous rise of antifungal resistance and spread of non-albicans Candida species highlight the need for implementing rigorous control measures in healthcare facilities. Improving candidemia outcomes requires prompt identification of high-risk patients and targeted therapies.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "2026",
+      "issue": "",
+      "pages": "6422952",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13490827/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/"
     }
   }
 }

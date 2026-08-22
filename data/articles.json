@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T03:42:23+00:00",
+  "generated_at": "2026-08-22T03:34:28+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -40,65 +40,6 @@
         "ai_summary": "This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.",
         "ai_significance": "Understanding and addressing neurological complications in critical illness is crucial for improving patient outcomes and reducing long-term disability.",
         "ai_rounds_takeaway": "Consider standardized delirium screening and judicious sedative use in patients at risk for neurological complications."
-      },
-      {
-        "pmid": "42150121",
-        "title": "Remote Multicomponent Rehabilitation in Intensive Care Unit Survivors: A Randomized Clinical Trial.",
-        "journal": "JAMA",
-        "pubdate": "2026 Jul 21",
-        "authors": [
-          "O'Neill B",
-          "Bradley JM",
-          "Connolly B",
-          "Bruce J",
-          "Ratna M",
-          "Lall R",
-          "Underwood M",
-          "Ji C",
-          "Costley J",
-          "Clarke R",
-          "Dark P",
-          "Duffy O",
-          "Firshman P",
-          "Hart ND",
-          "Henderson A",
-          "Jones K",
-          "Kenyon R",
-          "Madan J",
-          "Murphy D",
-          "Perkins GD",
-          "Raynes K",
-          "Terblanche E",
-          "Zanganeh M",
-          "McAuley DF",
-          "iRehab Trial Investigators"
-        ],
-        "doi": "10.1001/jama.2026.7401",
-        "abstract": "IMPORTANCE: Evidence for remote multicomponent rehabilitation among critical care survivors is sparse. OBJECTIVE: To investigate the effects of a 6-week, remote, multicomponent rehabilitation intervention in survivors of critical illness following discharge from the hospital after an intensive care unit (ICU) admission compared with standard care on health-related quality of life at 8 weeks. DESIGN, SETTING, AND PARTICIPANTS: Pragmatic, multicenter, assessor-blinded, randomized clinical trial conducted from December 2022 to November 2025 at 52 National Health Service hospitals in the UK. Participants were adults who had been discharged from the hospital within the last 12 weeks with an ICU admission (required mechanical ventilation for ≥48 hours during ICU stay). INTERVENTIONS: Individuals were randomized to a 6-week, remote, multicomponent, individualized, rehabilitation intervention incorporating weekly symptom management; targeted exercise; psychological support; and peer support and information commenced within 12 weeks of hospital discharge (n = 231) or standard care (n = 198). MAIN OUTCOMES AND MEASURES: The primary outcome was health-related quality of life at 8 weeks measured by the EuroQoL 5-dimension 5-level questionnaire (EQ-5D-5L) utility score (from -0.285 [worst/worse than dead] to 1 [best health]; minimum clinically important difference: 0.08) and analyzed using linear regression (adjusted for baseline covariates). The secondary outcomes included leg strength and exercise capacity; self-reported perception of fatigue, anxiety, or depression; illness perception; acceptability of the intervention; and any adverse events. RESULTS: Of the 3705 screened patients, 429 (12%) were randomized (mean age, 55.4 [SD, 13.9] years; 184 female [42.9%]; 245 male [57.1%]; and had median Acute Physiology and Chronic Health Evaluation II score of 18 [IQR, 14 to 22]). The mean EQ-5D-5L utility score at 8 weeks was 0.69 (SD, 0.26) in the intervention group compared with 0.67 (SD, 0.27) in the standard care group (adjusted mean difference, 0.04 [95% CI, -0.001 to 0.09]; P = .05). The intervention improved 4 of the 6 secondary outcomes, including leg strength and exercise capacity, fatigue, anxiety, and acceptability of the intervention; there was no change in perception of depression or illness. Four adverse events were related to the intervention; no serious events were attributed to the intervention. CONCLUSIONS AND RELEVANCE: A 6-week, multicomponent, rehabilitation program did not improve health-related quality of life at 8 weeks after discharge in ICU survivors who required mechanical ventilation. TRIAL REGISTRATION: isrctn.org Identifier: ISRCTN11266403.",
-        "citation_count": 67,
-        "is_top_journal": true,
-        "study_type": "Randomized Controlled Trial",
-        "volume": "336",
-        "issue": "3",
-        "pages": "236-247",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13184783/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42150121/",
-        "ai_appraisal": {
-          "clinical_question": "Does a 6-week, remote, multicomponent rehabilitation intervention improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation?",
-          "background": "Evidence for remote multicomponent rehabilitation among critical care survivors is sparse.",
-          "design": "Pragmatic, multicenter, assessor-blinded, randomized clinical trial",
-          "setting": "52 National Health Service hospitals in the UK, from December 2022 to November 2025",
-          "population": "Adults discharged from hospital within the last 12 weeks with an ICU admission (required mechanical ventilation for ≥48 hours during ICU stay)",
-          "intervention": "6-week, remote, multicomponent, individualized, rehabilitation intervention incorporating weekly symptom management; targeted exercise; psychological support; and peer support and information",
-          "management_common_to_both_groups": "Standard care",
-          "intervention_fidelity": "",
-          "outcome": "Mean EQ-5D-5L utility score at 8 weeks: 0.69 (SD, 0.26) in the intervention group, 0.67 (SD, 0.27) in the standard care group (adjusted mean difference, 0.04 [95% CI, -0.001 to 0.09]; P = .05)",
-          "author_conclusion": "A 6-week, multicomponent, rehabilitation program did not improve health-related quality of life at 8 weeks after discharge in ICU survivors who required mechanical ventilation.",
-          "strengths": "Large sample size; pragmatic design; assessor-blinded",
-          "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
-          "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
-        }
       },
       {
         "pmid": "42587308",
@@ -338,6 +279,49 @@
         "ai_rounds_takeaway": ""
       },
       {
+        "pmid": "42618936",
+        "title": "When supply chains fail: rethinking resilience in intensive care.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 12",
+        "authors": [
+          "Del Prete C",
+          "Carenzo L",
+          "Caviglia M"
+        ],
+        "doi": "10.1186/s13054-026-06257-6",
+        "abstract": "Intensive care units (ICUs) are designed to support critically ill patients through life-threatening organ dysfunction, relying on highly optimized processes and specialized resources. Yet they are increasingly exposed to systemic shocks of geopolitical, environmental, and technological origin. These act not only on infrastructure and workforce but, more insidiously, through the supply chains on which bedside care depends, rendering ICU autonomy largely illusory: the production of active pharmaceutical ingredients is highly concentrated geographically, while some critical products depend on a single manufacturing site worldwide; consequently, a disruption at a single node can propagate rapidly to the bedside. We trace this cascade, from shock to the depletion of just-in-time buffers and the distorting effect of phantom demand, to the rationing, substitution, and improvisation that increase workload, variability, and clinical risk. This fragility is not incidental but the product of decades of efficiency-driven reform that has systematically reduced organizational slack: the inventory, redundant capacity, and workforce flexibility that enable adaptation under stress. The relationship between efficiency and resilience should be understood as a structural tension rather than a fixed trade-off. Targeted organisational strategies can strengthen ICU resilience, including regionalized ICU networks governed by formal agreements, diversification and strategic stockpiling of high-risk medications, and pre-emptive protocols for drug and fluid conservation. Scalable digital infrastructure and in-situ simulation can further support these strategies. Resilience should therefore be understood as a design principle, not an emergent property of crisis response.",
+        "citation_count": 27,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13491594/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42618936/"
+      },
+      {
+        "pmid": "42613623",
+        "title": "Critical care readiness in conflict and disaster-affected Somalia: mass-casualty response, emergency referral, and continuity of life-saving care special collection: critical care in war and disaster areas.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 18",
+        "authors": [
+          "Siyad AO",
+          "Hassan AM"
+        ],
+        "doi": "10.1186/s13054-026-06258-5",
+        "abstract": "Critical care readiness during war and disasters is often judged by intensive care unit capacity, yet preventable mortality in fragile health systems may occur before, during, or after ICU-level care. In Somalia, recurrent mass-casualty events, emergency referral constraints, limited oxygen and blood readiness, constrained operative access, and weak post-resuscitation monitoring expose a critical gap between first contact and sustained life-saving care. This Comment addresses that gap by reframing critical care readiness in conflict and disaster-affected Somalia as a pathway problem rather than an ICU-capacity problem alone. Its novelty lies in integrating domains often treated separately-mass-casualty response, emergency referral, essential emergency and critical care inputs, ethical triage, and non-punitive system learning-into one practical readiness agenda for fragile health systems. The article argues that training and hospital preparedness are necessary but insufficient unless supported by referral communication, command structures, oxygen systems, blood readiness, ward monitoring, and clear escalation criteria. Strengthening this emergency-to-critical-care pathway can improve continuity of life-saving care, support fair resource allocation, and enhance accountability in health systems exposed to conflict and disasters.",
+        "citation_count": 13,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13483584/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42613623/"
+      },
+      {
         "pmid": "42601631",
         "title": "Trough concentrations of 10-15 mg/L of vancomycin are generally sufficient to achieve pharmacodynamic targets, whereas higher troughs can result in unnecessary nephrotoxicity: we respectfully disagree.",
         "journal": "Critical care (London, England)",
@@ -358,30 +342,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13476939/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/"
-      },
-      {
-        "pmid": "42618936",
-        "title": "When supply chains fail: rethinking resilience in intensive care.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 12",
-        "authors": [
-          "Del Prete C",
-          "Carenzo L",
-          "Caviglia M"
-        ],
-        "doi": "10.1186/s13054-026-06257-6",
-        "abstract": "Intensive care units (ICUs) are designed to support critically ill patients through life-threatening organ dysfunction, relying on highly optimized processes and specialized resources. Yet they are increasingly exposed to systemic shocks of geopolitical, environmental, and technological origin. These act not only on infrastructure and workforce but, more insidiously, through the supply chains on which bedside care depends, rendering ICU autonomy largely illusory: the production of active pharmaceutical ingredients is highly concentrated geographically, while some critical products depend on a single manufacturing site worldwide; consequently, a disruption at a single node can propagate rapidly to the bedside. We trace this cascade, from shock to the depletion of just-in-time buffers and the distorting effect of phantom demand, to the rationing, substitution, and improvisation that increase workload, variability, and clinical risk. This fragility is not incidental but the product of decades of efficiency-driven reform that has systematically reduced organizational slack: the inventory, redundant capacity, and workforce flexibility that enable adaptation under stress. The relationship between efficiency and resilience should be understood as a structural tension rather than a fixed trade-off. Targeted organisational strategies can strengthen ICU resilience, including regionalized ICU networks governed by formal agreements, diversification and strategic stockpiling of high-risk medications, and pre-emptive protocols for drug and fluid conservation. Scalable digital infrastructure and in-situ simulation can further support these strategies. Resilience should therefore be understood as a design principle, not an emergent property of crisis response.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42618936/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
       }
     ]
   },
@@ -3064,6 +3024,37 @@
         "ai_rounds_takeaway": "Consider empirical oseltamivir treatment in critically ill patients with SARI, especially those over 70 years old or without confirmed influenza."
       },
       {
+        "pmid": "42625928",
+        "title": "Blood Stream Infections due to Candida Species: Prevalence, Risk Factors, Mortality, and Susceptibility Profile Over 3-Year Period: A Single Center Study.",
+        "journal": "International journal of microbiology",
+        "pubdate": "2026",
+        "authors": [
+          "Alduwayrij AF",
+          "AlArfaj A",
+          "Alarbash M",
+          "Parvez M",
+          "Albanyan OA",
+          "Alquhays IA",
+          "Alshanqiti AAM",
+          "Albaarrak YA",
+          "Eldirdiri S",
+          "Absar M"
+        ],
+        "doi": "10.1155/ijm/6422952",
+        "abstract": "BACKGROUND: Candida is one of the most common causes of bloodstream infections in critically ill and immunocompromised patients. Understanding the distribution and antifungal resistance patterns of Candida species and the associated mortality rates is critical for tailoring therapeutic measures. OBJECTIVES: The aim of this study is to analyze the epidemiology, antifungal resistance trends, and risk factors influencing mortality associated with candidemia in a tertiary healthcare center of Saudi Arabia. PATIENT AND METHODS: The study included all cases of bloodstream infections caused by Candida species from December 2021 to January 2023. The antifungal susceptibility and identification of species were done via standard protocols. Univariate and multivariate statistical analyses were conducted to determine the predictors of 14-day mortality (death within 14 days of the first positive blood culture) and overall (in-hospital) mortality (death during the index hospitalization). RESULTS: Fifty patients were included in the study with a median age of 71 years, with 58% being females. C. albicans accounted for 21.3% of candidemia cases, with a declining trend over time. Candidozyma auris (formerly Candida auris) was the most frequently identified non-albicans Candida species (25%). Fluctuating trends in antifungal susceptibility of non-albicans Candida were observed, with increasing resistance to azoles, while increasing susceptibility to micafungin. The 14-day mortality and overall (in-hospital) mortality rates were 23.4% and 55.3%, respectively. Multivariate analysis revealed older age, cardiac and respiratory disorders, ICU as site of diagnosis, treatment duration of > 48 h, and Candida colonization to be independent predictors of overall (in-hospital) mortality (p < 0.05). CONCLUSION: The continuous rise of antifungal resistance and spread of non-albicans Candida species highlight the need for implementing rigorous control measures in healthcare facilities. Improving candidemia outcomes requires prompt identification of high-risk patients and targeted therapies.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "2026",
+        "issue": "",
+        "pages": "6422952",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13490827/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/",
+        "link_broken": true,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42340792",
         "title": "CT-Assessed Sarcopenia Combined with Laboratory Inflammatory Markers for Outcome Prediction in Critically Ill, Pulmonary, and Geriatric Patients: A Systematic Review and Meta-Analysis.",
         "journal": "La Clinica terapeutica",
@@ -3132,6 +3123,33 @@
   "this_week": {
     "window_days": 7,
     "articles": [
+      {
+        "pmid": "42625192",
+        "title": "Dynamic flow-perfusion coupling assessed by hands-free radial artery Doppler ultrasound and capillary refill time in septic shock.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 20",
+        "authors": [
+          "Zhao M",
+          "Huang B",
+          "Zhou M",
+          "Chen J"
+        ],
+        "doi": "10.1186/s13054-026-06264-7",
+        "abstract": "",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "infectious-sepsis",
+        "category_label": "Infectious Disease & Sepsis"
+      },
       {
         "pmid": "42612901",
         "title": "Induction Agents for Tracheal Intubation of Critically Ill Patients: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
@@ -3384,6 +3402,116 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07776184",
+        "source": "Tel Aviv Medical Center",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "The goal of this randomized controlled clinical trial is to learn whether a structured delirium prevention protocol can reduce the occurrence of delirium in older adults admitted to the cardiac intensive care unit (CICU). The study will include participants aged 70 years and older who are hospitalized in the CICU with acute cardiac conditions. The main questions it aims to answer are: Does a structured non-pharmacologic delirium prevention protocol lower the incidence of delirium compared with u",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07776184"
+      },
+      {
+        "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
+        "url": "https://clinicaltrials.gov/study/NCT05327881",
+        "source": "Assiut University",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "Whole blood lactate concentration is widely used in shock states to assess perfusion. We aimed to determine if the change in plasma renin concentration over time would be superior to the change in lactate concentration for predicting in-hospital mortality in septic shock patients.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05327881",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
+        "url": "https://clinicaltrials.gov/study/NCT04045210",
+        "source": "Mayo Clinic",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "The Researchers are trying to evaluate efficacy of a psychotherapeutic approach that can be applied to those who are critically ill. The daily approach in the Intensive Care Unit (ICU) is designed to provide patients with psychological support, reassurance, and explanations of where they are and what is happening to them.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04045210",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Comparison of Simplified Acute Physiology Score (SAPS II) , Sequential Organ Failure Assessment (SOFA) and Acute Physiology and Chronic Health Evaluation) APACHE II Scoring Systems for Predicting Mortality of Critically Ill Patients Admitted in a Tertiary Hospital Intensive Care Unit.",
+        "url": "https://clinicaltrials.gov/study/NCT07780617",
+        "source": "Tribhuvan University Teaching Hospital, Institute Of Medicine.",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "This is a descriptive analytical prospective study to compare the performance of SOFA score, SAPSII score and APACHE II score in ICU mortality prediction.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07780617",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Beta-lactam Plus Levofloxacin to Enhance Therapy in Streptococcal Septicemia",
+        "url": "https://clinicaltrials.gov/study/NCT07240077",
+        "source": "Mahidol University",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "A double-blind randomized controlled trial comparing beta-lactam plus levofloxacin versus beta-lactam monotherapy for the treatment of Streptococcal bacteremia",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07240077",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
+        "url": "https://clinicaltrials.gov/study/NCT07780526",
+        "source": "Van Training and Research Hospital",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "This prospective observational pilot study will evaluate how accurately anesthesiologists can predict, before a procedure, whether an adult patient will require admission to an intensive care unit (ICU) after surgery or an endoscopic procedure. Before each procedure, the anesthesiologist will record whether postoperative ICU care is expected and the clinical factors influencing this assessment. No changes will be made to the patient's usual medical care. After the procedure, the researchers will",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07780526",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Optimizing Access Surgery In Senior Hemodialysis Patients",
+        "url": "https://clinicaltrials.gov/study/NCT05911451",
+        "source": "Maastricht University Medical Center",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "The number of elderly hemodialysis patients is growing. Vascular access complications are a major determinant of the quality of life and health care costs for these vulnerable patients. The three different types of vascular access, i.e. autologous arteriovenous fistulas, arteriovenous grafts, and central venous catheters, have never been compared in randomized controlled trials. This project will deliver the much-needed evidence to determine the optimal strategy for vascular access creation in e",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05911451",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
+        "url": "https://clinicaltrials.gov/study/NCT07779720",
+        "source": "Intermountain Health Care, Inc.",
+        "author": "",
+        "pubdate": "2026-08-21",
+        "summary": "The goal of this pilot clinical trial is to learn if a fluid assessment using non-invasive cardiac output monitoring (NICOM) is helpful for patients with sepsis who have low blood pressure in the Emergency Department (ED). The study will measure whether the NICOM assessment changes fluid resuscitation practices and is feasible in the ED setting. All patients will receive standard medical care. Patients assigned to the NICOM group will receive a one-time, non-invasive bedside fluid assessment usi",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07779720",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Endogenous Energy Production in Critically Ill Patients",
         "url": "https://clinicaltrials.gov/study/NCT07059988",
         "source": "Karolinska University Hospital",
@@ -3393,23 +3521,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07059988",
-        "link_broken": false,
-        "link_broken_kind": "url"
-      },
-      {
-        "title": "Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients",
-        "url": "https://clinicaltrials.gov/study/NCT07776184",
-        "source": "Tel Aviv Medical Center",
-        "author": "",
-        "pubdate": "2026-08-20",
-        "summary": "The goal of this randomized controlled clinical trial is to learn whether a structured delirium prevention protocol can reduce the occurrence of delirium in older adults admitted to the cardiac intensive care unit (CICU). The study will include participants aged 70 years and older who are hospitalized in the CICU with acute cardiac conditions. The main questions it aims to answer are: Does a structured non-pharmacologic delirium prevention protocol lower the incidence of delirium compared with u",
-        "study_type": "Clinical Trial (Active Not Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07776184",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07059988"
       },
       {
         "title": "Ethnic and Gender Based Admittance Patterns in the ICU",
@@ -3421,9 +3533,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05513456",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05513456"
       },
       {
         "title": "Eduction in ImmunoSuppressive Regimen Among Kidney Transplant Recipients Patients Admitted to the Intensive Care Unit for Septic Shock and/or Acute Respiratory Failure",
@@ -3435,9 +3545,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06881927",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06881927"
       },
       {
         "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
@@ -3449,9 +3557,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06854640",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06854640"
       },
       {
         "title": "Inhaled Dornase Alpha to Reduce Respiratory Failure After Severe Trauma",
@@ -3463,9 +3569,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03368092",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03368092"
       },
       {
         "title": "RDW:MCHC as a Pragmatic Adjunct to SOFA Score in ICU Mortality Assessment",
@@ -3477,9 +3581,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07775911",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07775911"
       },
       {
         "title": "Discordance Between Capillary Refill Time and Oxygen Extraction Ratio in Septic Shock",
