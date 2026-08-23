@@ -1834,6 +1834,31 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+      },
+      "42629591": {
+        "pmid": "42629591",
+        "title": "Psychosocial coping with intensive care delirium: a mixed-methods systematic review of patient and family perspectives.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 21",
+        "authors": [
+          "Oh E",
+          "Marx-Rosenberg G",
+          "Schimböck F",
+          "Groth N",
+          "Nydahl P",
+          "Gallinat J"
+        ],
+        "doi": "10.1186/s13054-026-06232-1",
+        "abstract": "OBJECTIVE: This review aims to identify, synthesize, and critically appraise evidence on psychosocial coping strategies employed by intensive care unit (ICU) patients and their family caregivers during an episode of ICU delirium, organized within the transactional model of stress and coping. DESIGN: Mixed-methods systematic review (MMSR) following the Joanna Briggs Institute (JBI). INFORMATION SOURCES: A systematic search was conducted in MEDLINE (PubMed), CINAHL, PsycINFO, and PSYNDEX. The literature search concluded on the 6th of November 2025. METHODS: Following JBI methodology for mixed-methods systematic reviews, qualitative findings were analyzed using the JBI meta-aggregation approach. Methodological quality was assessed using the Mixed-Methods Appraisal Tool (MMAT). The transactional model of stress and coping served as the theoretical framework. Reporting followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. RESULTS: Ten qualitative studies were included, originating from seven countries, published between 1999 and 2025. No quantitative studies meeting the eligibility criteria were identified, representing a significant gap in literature. Patients employed problem-focused coping strategies (active sense-making, reality orientation, proactive avoidance of delirium triggers), emotion-focused strategies (social connection, distancing, self-control), and meaning-based strategies (positive reappraisal, identity restoration). Families directed coping efforts both at supporting the patient through emotional presence, active reorientation, cognitive stimulation, and collaboration with the healthcare team, and at managing their own distress through information-seeking, avoidance, and positive reappraisal. CONCLUSIONS: Both ICU patients and their families actively employ a broad range of coping strategies in response to delirium, consistent with the transactional model of stress and coping. Family caregivers emerge as a primary coping resource for patients while simultaneously managing their own psychological burden. These findings suggest that coping strategies may directly influence the trajectory of delirium-related psychological distress, and provide an evidence base for developing patient- and family-centered, coping-informed psychosocial interventions in ICU delirium care.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Systematic Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/"
       }
     },
     "renal": {
@@ -4144,14 +4169,14 @@
         ],
         "doi": "10.1186/s13054-026-06264-7",
         "abstract": "",
-        "citation_count": 0,
+        "citation_count": 5,
         "is_top_journal": true,
         "study_type": "Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
       }
     },
@@ -7181,6 +7206,35 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13481273/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42614272/",
       "society": "KDIGO"
+    },
+    "42632433": {
+      "pmid": "42632433",
+      "title": "Triglyceride-glucose frailty index, metabolic-frailty phenotypes, and mortality in critically ill patients with acute kidney injury: Derivation, interpretation, and external validation.",
+      "journal": "Experimental gerontology",
+      "pubdate": "2026 Aug 22",
+      "authors": [
+        "Wang X",
+        "Liu Y",
+        "Zhang Q",
+        "Xin Y",
+        "Shen L",
+        "Xiao Y",
+        "Song Y",
+        "Zhang J",
+        "Wang C"
+      ],
+      "doi": "10.1016/j.exger.2026.113291",
+      "abstract": "BACKGROUND: Prognosis remains heterogeneous among critically ill patients with acute kidney injury (AKI). We evaluated the triglyceride-glucose frailty index (TyG-FI), a composite of metabolic burden and laboratory-based frailty, for mortality risk characterization, phenotype identification, prediction, and external validation. METHODS: We included 2230 adults with KDIGO-defined AKI from MIMIC-IV. Associations between TyG-FI and ICU, in-hospital, 28-day, 90-day, and 365-day mortality were assessed using multivariable logistic and Cox regression, restricted cubic splines, subgroup analyses, and sensitivity analyses. Consensus clustering identified metabolic-frailty phenotypes. Twelve prediction algorithms were evaluated using a 7:3 development-test split, with SHAP and LIME for interpretation. Double machine learning was used as an exploratory robustness analysis. External model validation was performed in 1831 eICU patients, and phenotype reproducibility was assessed using independent clustering and transport of locked MIMIC-IV centroids. RESULTS: Higher TyG-FI was independently associated with ICU mortality (OR, 1.524; 95% CI, 1.377-1.686) and 28-day mortality (HR, 1.234; 95% CI, 1.146-1.330), with consistent associations for in-hospital, 90-day, and 365-day mortality. The primary K = 2 solution identified lower-burden and high frailty-organ dysfunction phenotypes, with 28-day mortality rates of 14.4% and 31.5%. In the held-out test set, logistic regression and CatBoost achieved AUROCs of 0.764 and 0.769, respectively. In eICU, the corresponding AUROCs were 0.694 and 0.667. Independently derived eICU phenotypes had 28-day mortality rates of 11.0% and 25.5%, while transported phenotypes had rates of 10.7% and 26.2%, with 95.4% agreement. Double-machine-learning estimates remained positive across sensitivity analyses. CONCLUSIONS: TyG-FI was consistently associated with mortality and delineated a reproducible lower-burden versus high frailty-organ dysfunction phenotype structure. It may support multidimensional risk characterization in ICU-AKI, although its incremental predictive advantage over FI-Lab alone or additive formulations was limited.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "",
+      "issue": "",
+      "pages": "113291",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42632433/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -9701,7 +9755,7 @@
       ],
       "doi": "10.1155/ijm/6422952",
       "abstract": "BACKGROUND: Candida is one of the most common causes of bloodstream infections in critically ill and immunocompromised patients. Understanding the distribution and antifungal resistance patterns of Candida species and the associated mortality rates is critical for tailoring therapeutic measures. OBJECTIVES: The aim of this study is to analyze the epidemiology, antifungal resistance trends, and risk factors influencing mortality associated with candidemia in a tertiary healthcare center of Saudi Arabia. PATIENT AND METHODS: The study included all cases of bloodstream infections caused by Candida species from December 2021 to January 2023. The antifungal susceptibility and identification of species were done via standard protocols. Univariate and multivariate statistical analyses were conducted to determine the predictors of 14-day mortality (death within 14 days of the first positive blood culture) and overall (in-hospital) mortality (death during the index hospitalization). RESULTS: Fifty patients were included in the study with a median age of 71 years, with 58% being females. C. albicans accounted for 21.3% of candidemia cases, with a declining trend over time. Candidozyma auris (formerly Candida auris) was the most frequently identified non-albicans Candida species (25%). Fluctuating trends in antifungal susceptibility of non-albicans Candida were observed, with increasing resistance to azoles, while increasing susceptibility to micafungin. The 14-day mortality and overall (in-hospital) mortality rates were 23.4% and 55.3%, respectively. Multivariate analysis revealed older age, cardiac and respiratory disorders, ICU as site of diagnosis, treatment duration of > 48 h, and Candida colonization to be independent predictors of overall (in-hospital) mortality (p < 0.05). CONCLUSION: The continuous rise of antifungal resistance and spread of non-albicans Candida species highlight the need for implementing rigorous control measures in healthcare facilities. Improving candidemia outcomes requires prompt identification of high-risk patients and targeted therapies.",
-      "citation_count": 0,
+      "citation_count": 67,
       "is_top_journal": false,
       "study_type": "Study",
       "volume": "2026",

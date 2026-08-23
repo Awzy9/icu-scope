@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T03:34:28+00:00",
+  "generated_at": "2026-08-23T03:42:06+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -254,29 +254,45 @@
         "ai_rounds_takeaway": ""
       },
       {
-        "pmid": "42493813",
-        "title": "Pressure-targeted neurocritical care at the bedside: the emerging role of transcranial doppler.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Jul 22",
+        "pmid": "41933608",
+        "title": "Association Between Admission Eosinophil Count and Hospital Resource Use in Community-Acquired Pneumonia: A Prospective Multicenter Study.",
+        "journal": "Chest",
+        "pubdate": "2026 Aug",
         "authors": [
-          "Melo RH",
-          "Robba C"
+          "Weckler BC",
+          "Wu Q",
+          "Bertrams W",
+          "Kutzinski M",
+          "Reiter R",
+          "Khan SA",
+          "Ahnert P",
+          "Suttorp N",
+          "Witzenrath M",
+          "Wildberg C",
+          "Pletz MW",
+          "Rupp J",
+          "Zissler UM",
+          "Greulich T",
+          "Brenner T",
+          "Alter P",
+          "Rohde G",
+          "Vogelmeier CF",
+          "Mayr A",
+          "Schmeck B"
         ],
-        "doi": "10.1186/s13054-026-06167-7",
-        "abstract": "Management of acute brain injury (ABI) focuses on maintaining cerebral perfusion pressure through systemic blood pressure optimization. However, traditional approaches relying on fixed pressure thresholds may not fully capture the complex interaction between systemic hemodynamics, cerebrovascular resistance, and cerebral autoregulation. Transcranial Doppler (TCD) ultrasonography offers a noninvasive bedside method to assess cerebral blood flow velocity patterns and their response to hemodynamic interventions. Doppler-derived parameters such as diastolic flow velocity (FVd) and pulsatility index (PI) provide physiological information that may help interpret the relationship between systemic arterial pressure and cerebral circulation. Observing how these signals change during controlled adjustments of mean arterial pressure may allow clinicians to identify pressure ranges in which cerebral perfusion appears more favorable for an individual patient. Importantly, TCD findings should not be interpreted in isolation but integrated with systemic hemodynamic assessment, including cardiac output, fluid responsiveness, and the underlying mechanism of hypotension. When used within a multimodal monitoring strategy, TCD may serve as a practical physiological tool to complement traditional neurocritical care monitoring. This viewpoint discusses the physiological rationale, potential clinical applications, and current limitations of Doppler-guided blood pressure targeting in patients with ABI.",
-        "citation_count": 33,
+        "doi": "10.1016/j.chest.2026.03.018",
+        "abstract": "BACKGROUND: Eosinopenia has been associated with adverse outcomes in community-acquired pneumonia (CAP). However, its relationship with hospital resource use remains unclear. RESEARCH QUESTION: What is the association between admission eosinophil counts and hospital resource use among adults with CAP? STUDY DESIGN AND METHODS: This prospective multicenter cohort study (Community-Acquired Pneumonia Network of Competence [CAPNETZ]; Identifier: 2024-07-11-CHV6) has enrolled patients ≥ 18 years of age with CAP in university hospitals in Germany since 2017. Associations between admission blood eosinophil counts and hospital resource use-ICU admission, mechanical ventilation, and length of stay-were assessed using multivariable regression models. The optimal eosinophil count threshold for stratifying patients by ICU admission and mechanical ventilation rates was identified, and outcomes were compared between patients above and below this threshold. RESULTS: Lower eosinophil counts at admission were associated with increased ICU admission (n = 1,639; P < .001), including among patients treated with systemic glucocorticoids (P = .002) and those not receiving glucocorticoids (P = .047). Lower eosinophil counts also were associated with higher rates of mechanical ventilation (P = .014) and longer hospital stays (P = .024). An eosinophil count threshold of 10 cells/μL was identified as the cutoff that best distinguished patients with higher vs lower risk of ICU admission and mechanical ventilation. Patients with eosinopenia (≤ 10 cells/μL) showed higher ICU admission rates (14.2% vs 8.5%; P < .001; adjusted OR, 1.78), increased mechanical ventilation rates (9.1% vs 5.2%; P = .003; adjusted OR, 1.82), and longer hospitalization (mean, 10.2 days vs 9.0 days; P = .013). INTERPRETATION: Our results show that admission eosinopenia (≤ 10 cells/μL) was associated with greater hospital resource use and may serve as a practical biomarker for health care resource planning. CLINICAL TRIAL REGISTRATION: German Clinical Trials Register; No.: DRKS00005274; URL: https://drks.de/.",
+        "citation_count": 29,
         "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
+        "study_type": "Multicenter Study",
+        "volume": "170",
+        "issue": "2",
+        "pages": "353-364",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13393723/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42493813/",
-        "ai_key_stats": "",
-        "ai_summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
-        "ai_significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes.",
-        "ai_rounds_takeaway": ""
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13494433/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41933608/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42618936",
@@ -322,16 +338,17 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42613623/"
       },
       {
-        "pmid": "42601631",
-        "title": "Trough concentrations of 10-15 mg/L of vancomycin are generally sufficient to achieve pharmacodynamic targets, whereas higher troughs can result in unnecessary nephrotoxicity: we respectfully disagree.",
+        "pmid": "42625192",
+        "title": "Dynamic flow-perfusion coupling assessed by hands-free radial artery Doppler ultrasound and capillary refill time in septic shock.",
         "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 14",
+        "pubdate": "2026 Aug 20",
         "authors": [
-          "Honoré PM",
-          "Benkaddour Y",
-          "Muscato CY"
+          "Zhao M",
+          "Huang B",
+          "Zhou M",
+          "Chen J"
         ],
-        "doi": "10.1186/s13054-026-06267-4",
+        "doi": "10.1186/s13054-026-06264-7",
         "abstract": "",
         "citation_count": 5,
         "is_top_journal": true,
@@ -340,8 +357,8 @@
         "issue": "1",
         "pages": "",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13476939/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/"
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
       }
     ]
   },
@@ -854,6 +871,37 @@
         "ai_summary": "Researchers studied 2935 critically ill adults in a Brazilian ICU to identify risk factors for acute kidney injury (AKI). They found that several factors, including age, chronic liver disease, and high lactate levels, were associated with AKI. The proportion of AKI cases classified as KDIGO stage 3 increased after day 7.",
         "ai_significance": "These findings highlight the importance of early recognition of risk factors for AKI in critically ill patients, supporting the implementation of kidney-protective care strategies in the ICU.",
         "ai_rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels."
+      },
+      {
+        "pmid": "42632433",
+        "title": "Triglyceride-glucose frailty index, metabolic-frailty phenotypes, and mortality in critically ill patients with acute kidney injury: Derivation, interpretation, and external validation.",
+        "journal": "Experimental gerontology",
+        "pubdate": "2026 Aug 22",
+        "authors": [
+          "Wang X",
+          "Liu Y",
+          "Zhang Q",
+          "Xin Y",
+          "Shen L",
+          "Xiao Y",
+          "Song Y",
+          "Zhang J",
+          "Wang C"
+        ],
+        "doi": "10.1016/j.exger.2026.113291",
+        "abstract": "BACKGROUND: Prognosis remains heterogeneous among critically ill patients with acute kidney injury (AKI). We evaluated the triglyceride-glucose frailty index (TyG-FI), a composite of metabolic burden and laboratory-based frailty, for mortality risk characterization, phenotype identification, prediction, and external validation. METHODS: We included 2230 adults with KDIGO-defined AKI from MIMIC-IV. Associations between TyG-FI and ICU, in-hospital, 28-day, 90-day, and 365-day mortality were assessed using multivariable logistic and Cox regression, restricted cubic splines, subgroup analyses, and sensitivity analyses. Consensus clustering identified metabolic-frailty phenotypes. Twelve prediction algorithms were evaluated using a 7:3 development-test split, with SHAP and LIME for interpretation. Double machine learning was used as an exploratory robustness analysis. External model validation was performed in 1831 eICU patients, and phenotype reproducibility was assessed using independent clustering and transport of locked MIMIC-IV centroids. RESULTS: Higher TyG-FI was independently associated with ICU mortality (OR, 1.524; 95% CI, 1.377-1.686) and 28-day mortality (HR, 1.234; 95% CI, 1.146-1.330), with consistent associations for in-hospital, 90-day, and 365-day mortality. The primary K = 2 solution identified lower-burden and high frailty-organ dysfunction phenotypes, with 28-day mortality rates of 14.4% and 31.5%. In the held-out test set, logistic regression and CatBoost achieved AUROCs of 0.764 and 0.769, respectively. In eICU, the corresponding AUROCs were 0.694 and 0.667. Independently derived eICU phenotypes had 28-day mortality rates of 11.0% and 25.5%, while transported phenotypes had rates of 10.7% and 26.2%, with 95.4% agreement. Double-machine-learning estimates remained positive across sensitivity analyses. CONCLUSIONS: TyG-FI was consistently associated with mortality and delineated a reproducible lower-burden versus high frailty-organ dysfunction phenotype structure. It may support multidimensional risk characterization in ICU-AKI, although its incremental predictive advantage over FI-Lab alone or additive formulations was limited.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "113291",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42632433/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42087034",
@@ -3042,7 +3090,7 @@
         ],
         "doi": "10.1155/ijm/6422952",
         "abstract": "BACKGROUND: Candida is one of the most common causes of bloodstream infections in critically ill and immunocompromised patients. Understanding the distribution and antifungal resistance patterns of Candida species and the associated mortality rates is critical for tailoring therapeutic measures. OBJECTIVES: The aim of this study is to analyze the epidemiology, antifungal resistance trends, and risk factors influencing mortality associated with candidemia in a tertiary healthcare center of Saudi Arabia. PATIENT AND METHODS: The study included all cases of bloodstream infections caused by Candida species from December 2021 to January 2023. The antifungal susceptibility and identification of species were done via standard protocols. Univariate and multivariate statistical analyses were conducted to determine the predictors of 14-day mortality (death within 14 days of the first positive blood culture) and overall (in-hospital) mortality (death during the index hospitalization). RESULTS: Fifty patients were included in the study with a median age of 71 years, with 58% being females. C. albicans accounted for 21.3% of candidemia cases, with a declining trend over time. Candidozyma auris (formerly Candida auris) was the most frequently identified non-albicans Candida species (25%). Fluctuating trends in antifungal susceptibility of non-albicans Candida were observed, with increasing resistance to azoles, while increasing susceptibility to micafungin. The 14-day mortality and overall (in-hospital) mortality rates were 23.4% and 55.3%, respectively. Multivariate analysis revealed older age, cardiac and respiratory disorders, ICU as site of diagnosis, treatment duration of > 48 h, and Candida colonization to be independent predictors of overall (in-hospital) mortality (p < 0.05). CONCLUSION: The continuous rise of antifungal resistance and spread of non-albicans Candida species highlight the need for implementing rigorous control measures in healthcare facilities. Improving candidemia outcomes requires prompt identification of high-risk patients and targeted therapies.",
-        "citation_count": 0,
+        "citation_count": 67,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "2026",
@@ -3050,9 +3098,7 @@
         "pages": "6422952",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13490827/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/"
       },
       {
         "pmid": "42340792",
@@ -3124,6 +3170,35 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42629591",
+        "title": "Psychosocial coping with intensive care delirium: a mixed-methods systematic review of patient and family perspectives.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 21",
+        "authors": [
+          "Oh E",
+          "Marx-Rosenberg G",
+          "Schimböck F",
+          "Groth N",
+          "Nydahl P",
+          "Gallinat J"
+        ],
+        "doi": "10.1186/s13054-026-06232-1",
+        "abstract": "OBJECTIVE: This review aims to identify, synthesize, and critically appraise evidence on psychosocial coping strategies employed by intensive care unit (ICU) patients and their family caregivers during an episode of ICU delirium, organized within the transactional model of stress and coping. DESIGN: Mixed-methods systematic review (MMSR) following the Joanna Briggs Institute (JBI). INFORMATION SOURCES: A systematic search was conducted in MEDLINE (PubMed), CINAHL, PsycINFO, and PSYNDEX. The literature search concluded on the 6th of November 2025. METHODS: Following JBI methodology for mixed-methods systematic reviews, qualitative findings were analyzed using the JBI meta-aggregation approach. Methodological quality was assessed using the Mixed-Methods Appraisal Tool (MMAT). The transactional model of stress and coping served as the theoretical framework. Reporting followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. RESULTS: Ten qualitative studies were included, originating from seven countries, published between 1999 and 2025. No quantitative studies meeting the eligibility criteria were identified, representing a significant gap in literature. Patients employed problem-focused coping strategies (active sense-making, reality orientation, proactive avoidance of delirium triggers), emotion-focused strategies (social connection, distancing, self-control), and meaning-based strategies (positive reappraisal, identity restoration). Families directed coping efforts both at supporting the patient through emotional presence, active reorientation, cognitive stimulation, and collaboration with the healthcare team, and at managing their own distress through information-seeking, avoidance, and positive reappraisal. CONCLUSIONS: Both ICU patients and their families actively employ a broad range of coping strategies in response to delirium, consistent with the transactional model of stress and coping. Family caregivers emerge as a primary coping resource for patients while simultaneously managing their own psychological burden. These findings suggest that coping strategies may directly influence the trajectory of delirium-related psychological distress, and provide an evidence base for developing patient- and family-centered, coping-informed psychosocial interventions in ICU delirium care.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Systematic Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "neurology",
+        "category_label": "Neurology"
+      },
+      {
         "pmid": "42625192",
         "title": "Dynamic flow-perfusion coupling assessed by hands-free radial artery Doppler ultrasound and capillary refill time in septic shock.",
         "journal": "Critical care (London, England)",
@@ -3136,17 +3211,15 @@
         ],
         "doi": "10.1186/s13054-026-06264-7",
         "abstract": "",
-        "citation_count": 0,
+        "citation_count": 5,
         "is_top_journal": true,
         "study_type": "Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "infectious-sepsis",
         "category_label": "Infectious Disease & Sepsis"
       },
@@ -3423,9 +3496,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05327881",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05327881"
       },
       {
         "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
@@ -3437,9 +3508,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04045210",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04045210"
       },
       {
         "title": "Comparison of Simplified Acute Physiology Score (SAPS II) , Sequential Organ Failure Assessment (SOFA) and Acute Physiology and Chronic Health Evaluation) APACHE II Scoring Systems for Predicting Mortality of Critically Ill Patients Admitted in a Tertiary Hospital Intensive Care Unit.",
@@ -3451,9 +3520,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780617",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07780617"
       },
       {
         "title": "Beta-lactam Plus Levofloxacin to Enhance Therapy in Streptococcal Septicemia",
@@ -3465,9 +3532,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07240077",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07240077"
       },
       {
         "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
@@ -3479,9 +3544,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780526",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07780526"
       },
       {
         "title": "Optimizing Access Surgery In Senior Hemodialysis Patients",
@@ -3493,9 +3556,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05911451",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05911451"
       },
       {
         "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
@@ -3507,9 +3568,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07779720",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07779720"
       },
       {
         "title": "Endogenous Energy Production in Critically Ill Patients",

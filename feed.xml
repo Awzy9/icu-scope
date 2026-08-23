@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sat, 22 Aug 2026 03:34:28 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 03:42:06 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -81,6 +81,13 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07779720</guid>
       <category>Clinical Trial</category>
       <description>The goal of this pilot clinical trial is to learn if a fluid assessment using non-invasive cardiac output monitoring (NICOM) is helpful for patients with sepsis who have low blood pressure in the Emergency Department (ED). The study will measure whether the NICOM assessment changes fluid resuscitation practices and is feasible in the ED setting. All patients will receive standard medical care. Patients assigned to the NICOM group will receive a one-time, non-invasive bedside fluid assessment usi</description>
+    </item>
+    <item>
+      <title>Psychosocial coping with intensive care delirium: a mixed-methods systematic review of patient and family perspectives.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42629591/</link>
+      <guid isPermaLink="false">pmid:42629591</guid>
+      <category>This Week</category>
+      <description>OBJECTIVE: This review aims to identify, synthesize, and critically appraise evidence on psychosocial coping strategies employed by intensive care unit (ICU) patients and their family caregivers during an episode of ICU delirium, organized within the transactional model of stress and coping. DESIGN: Mixed-methods systematic review (MMSR) following the Joanna Briggs Institute (JBI). INFORMATION SOURCES: A systematic search was conducted in MEDLINE (PubMed), CINAHL, PsycINFO, and PSYNDEX. The lite</description>
     </item>
     <item>
       <title>Endogenous Energy Production in Critically Ill Patients</title>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07445061</guid>
       <category>Clinical Trial</category>
       <description>Researchers developed a machine learning model to predict mortality after prone positioning in patients with acute respiratory distress syndrome (ARDS). The model was trained and validated on a large dataset of 1200 patients. The study aimed to improve clinical decision-making by identifying high-risk patients.</description>
-    </item>
-    <item>
-      <title>Comparison of NEWS2 and Machine Learning for Early Sepsis Warning</title>
-      <link>https://clinicaltrials.gov/study/NCT07734480</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07734480</guid>
-      <category>Clinical Trial</category>
-      <description>This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.</description>
     </item>
   </channel>
 </rss>
