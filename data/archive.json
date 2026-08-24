@@ -1850,14 +1850,14 @@
         ],
         "doi": "10.1186/s13054-026-06232-1",
         "abstract": "OBJECTIVE: This review aims to identify, synthesize, and critically appraise evidence on psychosocial coping strategies employed by intensive care unit (ICU) patients and their family caregivers during an episode of ICU delirium, organized within the transactional model of stress and coping. DESIGN: Mixed-methods systematic review (MMSR) following the Joanna Briggs Institute (JBI). INFORMATION SOURCES: A systematic search was conducted in MEDLINE (PubMed), CINAHL, PsycINFO, and PSYNDEX. The literature search concluded on the 6th of November 2025. METHODS: Following JBI methodology for mixed-methods systematic reviews, qualitative findings were analyzed using the JBI meta-aggregation approach. Methodological quality was assessed using the Mixed-Methods Appraisal Tool (MMAT). The transactional model of stress and coping served as the theoretical framework. Reporting followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. RESULTS: Ten qualitative studies were included, originating from seven countries, published between 1999 and 2025. No quantitative studies meeting the eligibility criteria were identified, representing a significant gap in literature. Patients employed problem-focused coping strategies (active sense-making, reality orientation, proactive avoidance of delirium triggers), emotion-focused strategies (social connection, distancing, self-control), and meaning-based strategies (positive reappraisal, identity restoration). Families directed coping efforts both at supporting the patient through emotional presence, active reorientation, cognitive stimulation, and collaboration with the healthcare team, and at managing their own distress through information-seeking, avoidance, and positive reappraisal. CONCLUSIONS: Both ICU patients and their families actively employ a broad range of coping strategies in response to delirium, consistent with the transactional model of stress and coping. Family caregivers emerge as a primary coping resource for patients while simultaneously managing their own psychological burden. These findings suggest that coping strategies may directly influence the trajectory of delirium-related psychological distress, and provide an evidence base for developing patient- and family-centered, coping-informed psychosocial interventions in ICU delirium care.",
-        "citation_count": 0,
+        "citation_count": 47,
         "is_top_journal": true,
         "study_type": "Systematic Review",
         "volume": "30",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495211/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/"
       }
     },
@@ -6044,6 +6044,16 @@
       "author": "Rory Spiegel",
       "pubdate": "2026-08-18",
       "summary": "This particular story has a familiar shape. A small, methodologically flawed study finds a striking benefit. The p-value is impressively low. The paper lands in a major journal. And within a few years, its flaws, its obvious sources of bias, and its undeniable susceptibility to chance findings are forgotten. All that remains is its statistical […] EMCrit Project by Rory Spiegel .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
+    },
+    "https://emcrit.org/emcrit/emcrit-432-members-airway-cases-and-qa/": {
+      "title": "EMCrit 432 – Members’ Airway Cases and Q&A",
+      "url": "https://emcrit.org/emcrit/emcrit-432-members-airway-cases-and-qa/",
+      "source": "EMCrit",
+      "author": "Scott Weingart, MD FCCM",
+      "pubdate": "2026-08-23",
+      "summary": "I dive deep into member-submitted airway nightmares, breaking down how to manage petrified \"airway concrete\" and high-risk hypoxemia. Learn how to apply the CHOP criteria, avoid physiological arrest during induction in cardiogenic shock, and handle extreme metabolic acidosis. EMCrit Project by Scott Weingart, MD FCCM .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
     }

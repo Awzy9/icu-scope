@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sun, 23 Aug 2026 03:42:06 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 03:45:01 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -25,6 +25,13 @@
       <guid isPermaLink="false">pmid:42498336</guid>
       <category>Renal</category>
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
+      <title>EMCrit 432 – Members’ Airway Cases and Q&amp;A</title>
+      <link>https://emcrit.org/emcrit/emcrit-432-members-airway-cases-and-qa/</link>
+      <guid isPermaLink="false">https://emcrit.org/emcrit/emcrit-432-members-airway-cases-and-qa/</guid>
+      <category>EMCrit</category>
+      <description>I dive deep into member-submitted airway nightmares, breaking down how to manage petrified &quot;airway concrete&quot; and high-risk hypoxemia. Learn how to apply the CHOP criteria, avoid physiological arrest during induction in cardiogenic shock, and handle extreme metabolic acidosis. EMCrit Project by Scott Weingart, MD FCCM .</description>
     </item>
     <item>
       <title>Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients</title>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06749457</guid>
       <category>Clinical Trial</category>
       <description>This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.</description>
-    </item>
-    <item>
-      <title>Machine Learning Prediction of Mortality After Prone Positioning in ARDS</title>
-      <link>https://clinicaltrials.gov/study/NCT07445061</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07445061</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers developed a machine learning model to predict mortality after prone positioning in patients with acute respiratory distress syndrome (ARDS). The model was trained and validated on a large dataset of 1200 patients. The study aimed to improve clinical decision-making by identifying high-risk patients.</description>
     </item>
   </channel>
 </rss>
