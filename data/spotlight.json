@@ -5,12 +5,12 @@
   "url": "https://pubmed.ncbi.nlm.nih.gov/42150121/",
   "pubdate": "2026 Jul 21",
   "study_type": "Randomized Controlled Trial",
-  "why_selected": "This study is selected because it's a randomized controlled trial, which is the highest tier of evidence, and it investigates the effects of a 6-week, remote, multicomponent rehabilitation intervention in survivors of critical illness, which is a significant area of interest in ICU care.",
+  "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Randomized Controlled Trial, prioritized by evidence level and citation impact.",
   "discussion_prompts": [
-    "What are the potential benefits and limitations of remote multicomponent rehabilitation in ICU survivors?",
-    "How can this study's findings be applied to clinical practice?",
-    "What are the next steps in researching remote rehabilitation in ICU survivors?"
+    "What is the main clinical question and does the study design answer it well?",
+    "Which ICU patients are most likely to benefit from these findings, and who may not?",
+    "Would these results change current bedside practice or require further validation?"
   ],
-  "week": "2026-08-15",
-  "generated_at": "2026-08-15T03:30:33+00:00"
+  "week": "2026-08-22",
+  "generated_at": "2026-08-25T07:48:07+00:00"
 }

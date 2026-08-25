@@ -1252,16 +1252,54 @@ def spotlight_candidates(trending_articles, categories_out):
     return candidates[:SPOTLIGHT_CANDIDATE_COUNT]
 
 
+def _fallback_spotlight(candidates):
+    """Pick a weekly spotlight without requiring an AI API key.
+
+    The candidate list is already deterministically ranked by evidence level
+    and citation count, so the first item is a sensible default. This keeps
+    the Saturday rotation working even when Groq is not configured, is rate
+    limited, or temporarily fails.
+    """
+    if not candidates:
+        return None
+    match = candidates[0]
+    study_type = (match.get("study_type") or "high-impact ICU study").strip()
+    title = (match.get("title") or "this paper").strip()
+    return {
+        "pmid": match.get("pmid", ""),
+        "title": title,
+        "journal": match.get("journal", ""),
+        "url": match.get("url", ""),
+        "pubdate": match.get("pubdate", ""),
+        "study_type": study_type,
+        "why_selected": (
+            f"Selected from this week's highest-ranked ICU evidence. It is a {study_type}, "
+            "prioritized by evidence level and citation impact."
+        ),
+        "discussion_prompts": [
+            "What is the main clinical question and does the study design answer it well?",
+            "Which ICU patients are most likely to benefit from these findings, and who may not?",
+            "Would these results change current bedside practice or require further validation?",
+        ],
+    }
+
+
 def build_spotlight(trending_articles, categories_out):
     week = current_week_anchor()
     existing = load_spotlight()
     if existing and existing.get("week") == week:
         return existing
+
     candidates = spotlight_candidates(trending_articles, categories_out)
-    if not GROQ_API_KEY or not candidates:
+    if not candidates:
         return existing
 
-    result = pick_spotlight(candidates)
+    # AI selection is optional. The weekly refresh itself must never depend
+    # on an API key: if Groq is absent or fails, use the top deterministic
+    # candidate so the spotlight still rotates every Saturday.
+    result = pick_spotlight(candidates) if GROQ_API_KEY else None
+    if not result:
+        result = _fallback_spotlight(candidates)
     if not result:
         return existing
 
