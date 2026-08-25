@@ -6056,6 +6056,26 @@
       "summary": "I dive deep into member-submitted airway nightmares, breaking down how to manage petrified \"airway concrete\" and high-risk hypoxemia. Learn how to apply the CHOP criteria, avoid physiological arrest during induction in cardiogenic shock, and handle extreme metabolic acidosis. EMCrit Project by Scott Weingart, MD FCCM .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emnerd/fgebm-002/": {
+      "title": "A Field Guide to Evidence Based Medicine – Episode 2 – Chloride Continued…",
+      "url": "https://emcrit.org/emnerd/fgebm-002/",
+      "source": "EMCrit",
+      "author": "Rory Spiegel",
+      "pubdate": "2026-08-24",
+      "summary": "The chloride saga continues... EMCrit Project by Rory Spiegel .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
+    },
+    "https://rebelem.com/sep1/": {
+      "title": "Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality",
+      "url": "https://rebelem.com/sep1/",
+      "source": "REBEL EM",
+      "author": "Melissa Smith, MD, RN and Maren Leibowitz, MD",
+      "pubdate": "2026-08-24",
+      "summary": "Is there any moderate or high-level evidence that SEP-1 compliance and/or implementation is associated with improvement in sepsis mortality? The post Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality appeared first on REBEL EM - Emergency Medicine Blog .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -7383,7 +7403,7 @@
       "url": "https://clinicaltrials.gov/study/NCT00156767",
       "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
       "author": "",
-      "pubdate": "2026-07-28",
+      "pubdate": "2026-08-24",
       "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
       "study_type": "Clinical Trial (Completed)",
       "is_open_access": true,
@@ -8781,6 +8801,102 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07779720"
+    },
+    "NCT07782216": {
+      "title": "Critical Hyperacute Assessment Research On Neurobiomarker Kinetics in Acute Brain Injury",
+      "url": "https://clinicaltrials.gov/study/NCT07782216",
+      "source": "University of Pecs",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "Traumatic brain injury (TBI) and other conditions that reduce blood flow to the brain - such as cardiac arrest (CA) - are life-threatening medical emergencies. When brain cells are damaged, they release specific proteins into the bloodstream. These proteins, called neurobiomarkers, can be measured in blood samples and may help doctors assess the severity of brain injury, guide treatment, and predict patient outcomes. A major gap in current knowledge is how these neurobiomarkers behave during the",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07782216"
+    },
+    "NCT07781540": {
+      "title": "Iron Deficiency at ICU Discharge",
+      "url": "https://clinicaltrials.gov/study/NCT07781540",
+      "source": "Università degli Studi di Ferrara",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "IRON-RECOVERY is a prospective, multicenter, observational cohort study designed to determine the prevalence of iron deficiency at intensive care unit (ICU) discharge and to evaluate its association with post-ICU clinical recovery. Anemia is highly prevalent in critically ill patients and frequently persists after ICU discharge. Although inflammation-induced iron dysregulation is considered one of the main mechanisms underlying persistent anemia, iron deficiency remains largely under-recognized ",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07781540"
+    },
+    "NCT07783334": {
+      "title": "AI Assisted Preoperative Assessment for ASA Classification and ICU Admission",
+      "url": "https://clinicaltrials.gov/study/NCT07783334",
+      "source": "Bakirkoy Dr. Sadi Konuk Research and Training Hospital",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "This prospective observational study evaluates the performance of artificial intelligence (AI) models in preoperative anesthesia assessment. Preoperative clinical data from adult patients undergoing elective surgery are independently evaluated by clinicians and AI models (ChatGPT and Gemini). The study compares their assessments of American Society of Anesthesiologists (ASA) physical status classification and the predicted need for intensive care unit (ICU) admission within the first 24 hours af",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07783334"
+    },
+    "NCT06501118": {
+      "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
+      "url": "https://clinicaltrials.gov/study/NCT06501118",
+      "source": "University of Colorado, Denver",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "A multimodal educational intervention to target an oxygen saturation target range (SpO2 90-96%) will reduce ventilator length of stay and reduce occult hypoxemia by increased awareness and adherence to a designated oxygen saturation target range.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06501118"
+    },
+    "NCT02473263": {
+      "title": "Samu Save Sepsis: Early Goal Directed Therapy in Pre Hospital Care of Patients With Severe Sepsis and/or Septic Shock",
+      "url": "https://clinicaltrials.gov/study/NCT02473263",
+      "source": "Assistance Publique - Hôpitaux de Paris",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "The purpose of this study is to determine whether an aggressive strategy of severe sepsis patients since pre hospital care, including early antibiotics administration, hemodynamic optimization, and opotherapy when indicated, could reduce mortality",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT02473263"
+    },
+    "NCT05725837": {
+      "title": "Effects of Paroxetine on Cardiovascular Function in Septic Patients",
+      "url": "https://clinicaltrials.gov/study/NCT05725837",
+      "source": "Universidade do Extremo Sul Catarinense - Unidade Academica de Ciecias da Saude",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "It is known that septic shock is characterized by arterial hypotension, decreased peripheral vascular resistance and hyporeactivity to vasoconstrictor agents, with NO being an important mediator of this organ dysfunction. Data in the literature have shown that hyporeactivity to catecholamines is associated with a decrease in the density of α and ß receptors in the aorta and heart, respectively, as well as an increase in GRK2 levels and that NO contributes to the increase of this kinase in sepsis",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05725837"
+    },
+    "NCT07364162": {
+      "title": "Exogenous Ketone Supplementation in ICU Delirium",
+      "url": "https://clinicaltrials.gov/study/NCT07364162",
+      "source": "Vanderbilt University Medical Center",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "Delirium is a common syndrome in intensive care unit (ICU) patients. Those experiencing delirium may suddenly feel confused, have trouble thinking clearly, struggle to pay attention, or see and hear things that are not real. Delirium is associated with worse long-term outcomes such as cognitive impairment, depression, and PTSD (post-traumatic stress disorder). This study examines whether an investigational medical-grade ketone supplement drink (ketone monoester \\[brand name: Ultrapure Ketone Mon",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07364162"
+    },
+    "NCT06817408": {
+      "title": "Dynamics of Organ Damage and Immune Exhaustion During Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT06817408",
+      "source": "Mayo Clinic",
+      "author": "",
+      "pubdate": "2026-08-24",
+      "summary": "This is a prospective, non-randomized study investigating if organ damage and immune changes can be measured by liquid biopsy NGS through advanced analytical methods.",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06817408"
     }
   },
   "bottom_line": {

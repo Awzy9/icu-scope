@@ -971,6 +971,10 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT00156767": {
+    "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+    "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
+  },
   "url:https://clinicaltrials.gov/study/NCT07300306": {
     "key_stats": "",
     "summary": "This study aimed to validate the SOFA-2 score in predicting mortality and determining sepsis prevalence in Turkish ICUs. Researchers compared the new SOFA-2 score to the existing SOFA-1 score. The study's results are not yet reported.",
@@ -1458,10 +1462,6 @@
   "url:https://clinicaltrials.gov/study/NCT07732257": {
     "summary": "Researchers developed a small, wireless sensor to monitor vital signs in extremely preterm babies, including heart rate, oxygen levels, and body temperature.",
     "significance": "This technology could improve monitoring and care for vulnerable newborns, potentially reducing complications and improving outcomes."
-  },
-  "url:https://clinicaltrials.gov/study/NCT00156767": {
-    "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
-    "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
   },
   "url:https://clinicaltrials.gov/study/NCT07729891": {
     "summary": "This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.",
