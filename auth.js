@@ -3,7 +3,7 @@
   let client=null,user=null,profile=null,config=null,modal=null;
   const esc=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
   async function getProfile(){ if(!client||!user)return null; const {data}=await client.from("profiles").select("*").eq("id",user.id).maybeSingle(); return data||null; }
-  async function refresh(session){ user=session?.user||null; profile=user?await getProfile():null; render(); }
+  async function refresh(session){ user=session?.user||null; profile=user?await getProfile():null; if(user)window.ICUAnalytics?.identify(user.id); else window.ICUAnalytics?.reset(); render(); }
   function render(){
     const host=document.getElementById("icu-auth"); if(!host)return;
     if(!config?.configured){
