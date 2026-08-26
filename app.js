@@ -809,10 +809,32 @@
   }
 
   function formatUpdatedAt(iso, windowDays) {
-    if (!iso) return "";
+    if (!iso) {
+      updatedLine?.classList.remove("is-fresh", "is-delayed", "is-stale");
+      return "Literature update status unavailable";
+    }
+
     const d = new Date(iso);
+    const ageMs = Date.now() - d.getTime();
+    const ageHours = Math.max(0, ageMs / 36e5);
     const formatted = d.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" });
-    return `Last updated ${formatted} · new articles pulled from the last ${windowDays} day${windowDays === 1 ? "" : "s"}`;
+
+    updatedLine?.classList.remove("is-fresh", "is-delayed", "is-stale");
+    let health = "Daily refresh healthy";
+    if (ageHours > 72) {
+      health = "Update stale — daily refresh needs attention";
+      updatedLine?.classList.add("is-stale");
+    } else if (ageHours > 36) {
+      health = "Refresh delayed";
+      updatedLine?.classList.add("is-delayed");
+    } else {
+      updatedLine?.classList.add("is-fresh");
+    }
+
+    const windowText = Number.isFinite(Number(windowDays))
+      ? ` · scanning the last ${windowDays} day${Number(windowDays) === 1 ? "" : "s"}`
+      : "";
+    return `Literature updated ${formatted} · ${health}${windowText}`;
   }
 
   function journalHue(name) {

@@ -327,6 +327,10 @@ summary:focus-visible {
   color: var(--text-muted);
 }
 
+.updated-line.is-fresh { color: var(--accent-strong); }
+.updated-line.is-delayed { color: #d49a32; }
+.updated-line.is-stale { color: #ef6b73; font-weight: 650; }
+
 .sources-line {
   margin: 0.3rem 0 0;
   font-size: 0.76rem;
@@ -1171,21 +1175,15 @@ body[data-density="ultra"] .category-section { margin-bottom: var(--space-5); }
    the state and point the expanded chevron left instead of down. */
 
 .section-body {
-  overflow: hidden;
   opacity: 1;
-  transition: max-height 0.35s ease, opacity 0.25s ease;
-  /* iOS Safari sometimes leaves a stale blank area below a collapsing
-     section — the layout is actually correct underneath (content shifts
-     up immediately), it just doesn't repaint until something forces it,
-     like a scroll. Promoting this element to its own compositing layer
-     avoids that stale-paint bug. */
-  transform: translateZ(0);
 }
 
-.section-body.collapsed { opacity: 0; pointer-events: none; }
-
-@media (prefers-reduced-motion: reduce) {
-  .section-body { transition: none; }
+/* A collapsed section hides only its own body. Explicit display:none is
+   important because category bodies also have display:grid later in this
+   stylesheet, which can otherwise override the browser's [hidden] rule. */
+.section-body[hidden],
+.section-body.collapsed {
+  display: none !important;
 }
 
 .foamed-note {

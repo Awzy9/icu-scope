@@ -8,17 +8,24 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: icu-literature-refresh
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Fetch latest articles
+      - name: Fetch latest articles (retry transient failures)
         env:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
           RELDATE_DAYS: "120"
@@ -36,7 +43,51 @@ jobs:
           GUIDELINE_MAX: "10"
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
           EMBEDDING_MAX_PER_RUN: "60"
-        run: python scripts/fetch_articles.py
+        run: |
+          set -e
+          for attempt in 1 2 3; do
+            echo "Literature refresh attempt $attempt/3"
+            if python scripts/fetch_articles.py; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then
+              sleep $((attempt * 20))
+            fi
+          done
+          echo "Literature refresh failed after 3 attempts."
+          exit 1
+
+      - name: Validate generated feed
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          p = Path("data/articles.json")
+          if not p.exists():
+              raise SystemExit("data/articles.json was not generated")
+
+          data = json.loads(p.read_text(encoding="utf-8"))
+          stamp = data.get("generated_at")
+          if not stamp:
+              raise SystemExit("generated_at is missing")
+
+          generated = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
+          age_hours = (datetime.now(timezone.utc) - generated.astimezone(timezone.utc)).total_seconds() / 3600
+          if age_hours > 2:
+              raise SystemExit(f"generated_at is unexpectedly old ({age_hours:.1f} hours)")
+
+          categories = data.get("categories")
+          if not isinstance(categories, list) or not categories:
+              raise SystemExit("categories is empty or invalid")
+
+          article_count = sum(len(c.get("articles", [])) for c in categories if isinstance(c, dict))
+          if article_count == 0:
+              raise SystemExit("feed contains zero category articles")
+
+          print(f"Validated feed: {article_count} category articles; generated {age_hours:.2f}h ago")
+          PY
 
       - name: Commit and push if changed
         run: |
@@ -47,5 +98,6 @@ jobs:
           else
             git add data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml
             git commit -m "Update ICU literature feed"
-            git push
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
           fi
