@@ -1226,7 +1226,7 @@
             related.forEach((related_article) => {
               const item = document.createElement("a");
               item.className = "similar-item";
-              item.href = related_article.url;
+              item.href = safeExternalUrl(related_article.url);
               item.target = "_blank";
               item.rel = "noopener";
               item.innerHTML = `<span class="similar-item-title">${escapeHtml(related_article.title)}</span><span class="similar-item-journal">${escapeHtml(related_article.journal || "")}</span>`;
