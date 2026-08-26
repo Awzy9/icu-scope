@@ -594,7 +594,7 @@
   }
 
   function articleId(article) {
-    return article.pmid ? `pmid:${article.pmid}` : `url:${article.url}`;
+    return article.pmid ? `pmid:${article.pmid}` : `url:${safeExternalUrl(article.url)}`;
   }
 
   function collectAllIds(data) {
@@ -834,6 +834,17 @@
     }[c]));
   }
 
+
+  function safeExternalUrl(value) {
+    try {
+      const url = new URL(String(value || ""), window.location.origin);
+      if (url.protocol !== "https:" && url.protocol !== "http:") return "#";
+      return url.href;
+    } catch (_) {
+      return "#";
+    }
+  }
+
   function highlightMatch(str, term) {
     const escaped = escapeHtml(str);
     if (!term) return escaped;
@@ -932,7 +943,7 @@
   function formatCitation(article) {
     if (article.is_foamed) {
       const author = (article.authors && article.authors[0]) || article.journal || "Unknown author";
-      return `${author}. ${article.title} [Internet]. ${article.journal || ""}; ${article.pubdate || ""}. Available from: ${article.url}`;
+      return `${author}. ${article.title} [Internet]. ${article.journal || ""}; ${article.pubdate || ""}. Available from: ${safeExternalUrl(article.url)}`;
     }
     const authors = article.authors && article.authors.length ? article.authors.join(", ") : "[Author unavailable]";
     const yearMatch = (article.pubdate || "").match(/\d{4}/);
@@ -1064,7 +1075,7 @@
         : `<span class="broken-link-badge" title="This link may no longer resolve">⚠ Link may be broken</span>`
       : "";
     const fullTextLink = article.pmc_url
-      ? `<a href="${article.pmc_url}" target="_blank" rel="noopener">Free full text</a>`
+      ? `<a href="${safeExternalUrl(article.pmc_url)}" target="_blank" rel="noopener">Free full text</a>`
       : "";
     const readLabel = article.is_foamed
       ? "Read post"
@@ -1091,7 +1102,7 @@
     card.className = "article-card" + (isNew ? " is-new" : "");
     card.innerHTML = `
       ${studyTypeBadge ? `<div class="article-eyebrow">${studyTypeBadge}</div>` : ""}
-      <h3 class="article-title"><a href="${article.url}" target="_blank" rel="noopener">${highlightMatch(article.title, currentSearchTerm)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
+      <h3 class="article-title"><a href="${safeExternalUrl(article.url)}" target="_blank" rel="noopener">${highlightMatch(article.title, currentSearchTerm)}</a>${newBadge}${topJournalBadge}${foamedBadge}${citationBadge}</h3>
       <div class="article-meta">
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
@@ -1102,7 +1113,7 @@
       ${askBlock}
       ${similarBlock}
       <div class="article-links">
-        <a href="${article.url}" target="_blank" rel="noopener">${readLabel}</a>
+        <a href="${safeExternalUrl(article.url)}" target="_blank" rel="noopener">${readLabel}</a>
         ${doiLink}
         ${fullTextLink}
         <button class="cite-btn" type="button">Cite</button>
@@ -1481,14 +1492,14 @@
     spotlightBody.innerHTML = `
       <div class="article-card spotlight-card">
         ${spotlight.study_type ? `<div class="article-eyebrow"><span class="study-type-badge">${escapeHtml(evidenceTierDot(spotlight.study_type))} ${escapeHtml(spotlight.study_type)}</span></div>` : ""}
-        <h3 class="article-title"><a href="${spotlight.url}" target="_blank" rel="noopener">${escapeHtml(spotlight.title)}</a></h3>
+        <h3 class="article-title"><a href="${safeExternalUrl(spotlight.url)}" target="_blank" rel="noopener">${escapeHtml(spotlight.title)}</a></h3>
         <div class="article-meta">
           <span class="journal" style="--journal-hue: ${journalHue(spotlight.journal)}">${escapeHtml(spotlight.journal || "")}</span> · ${escapeHtml(spotlight.pubdate || "")}
         </div>
         ${spotlight.why_selected ? `<div class="ai-summary"><div class="ai-summary-label">✨ Why this pick</div><p class="ai-significance">${escapeHtml(spotlight.why_selected)}</p></div>` : ""}
         ${prompts ? `<div class="discussion-prompts"><strong>Discussion prompts:</strong><ul>${prompts}</ul></div>` : ""}
         <div class="article-links">
-          <a href="${spotlight.url}" target="_blank" rel="noopener">PubMed</a>
+          <a href="${safeExternalUrl(spotlight.url)}" target="_blank" rel="noopener">PubMed</a>
           <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">
             <svg viewBox="0 0 24 24" fill="${isBookmarked ? "currentColor" : "none"}" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
             ${isBookmarked ? "Saved" : "Save"}
