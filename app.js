@@ -1000,6 +1000,18 @@
     return lines.join("\n").trim();
   }
 
+  function knowledgeMapLink(article) {
+    const text=((article.title||"")+" "+(article.abstract||"")).toLowerCase();
+    const rules=[
+      [/ards|acute respiratory distress/,"ards"],[/mechanical ventilation|ventilator|intubat/,"mechanical-ventilation"],
+      [/sepsis|septic shock/,"sepsis"],[/cardiac arrest|post-arrest/,"cardiac-arrest-post-arrest"],
+      [/pneumonia/,"pneumonia"],[/pulmonary embol/,"pulmonary-embolism"],[/acute kidney|renal replacement|crrt/,"aki"],
+      [/cirrhosis|acute-on-chronic liver/,"decompensated-cirrhosis-aclf"],[/status epileptic|seizure/,"status-epilepticus"]
+    ];
+    const hit=rules.find(([re])=>re.test(text));
+    return hit ? `https://icu-knowledge-map.vercel.app/topics/${hit[1]}` : "https://icu-knowledge-map.vercel.app/topics";
+  }
+
   function articleCard(article) {
     const id = articleId(article);
     const isNew = !isFirstVisit && !previousSeenIds.has(id);
@@ -1116,6 +1128,7 @@
         <a href="${safeExternalUrl(article.url)}" target="_blank" rel="noopener">${readLabel}</a>
         ${doiLink}
         ${fullTextLink}
+        <a class="knowledge-bridge" href="${knowledgeMapLink(article)}" target="_blank" rel="noopener">Study topic</a>
         <button class="cite-btn" type="button">Cite</button>
         <button class="bookmark-btn${isBookmarked ? " active" : ""}" type="button" aria-pressed="${isBookmarked}" aria-label="${isBookmarked ? "Remove from saved" : "Save article"}">
           <svg viewBox="0 0 24 24" fill="${isBookmarked ? "currentColor" : "none"}" aria-hidden="true"><path d="M6 4a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v17l-6-4-6 4V4Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
