@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 25 Aug 2026 03:40:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 03:44:40 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -25,6 +25,34 @@
       <guid isPermaLink="false">pmid:42498336</guid>
       <category>Renal</category>
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
+      <title>The Five Laws of Medical Robotics</title>
+      <link>https://emcrit.org/emnerd/the-five-laws-of-medical-robotics/</link>
+      <guid isPermaLink="false">https://emcrit.org/emnerd/the-five-laws-of-medical-robotics/</guid>
+      <category>EMCrit</category>
+      <description>The Five Laws of Medical Robotics JAMA recently published a Perspective titled “Will Autonomous AI Exceed AI-Aided Physicians as the Best Medical Care?” by Ezekiel Emanuel, Abe Baker-Butler, Neal Khosla, and Vinod Khosla.1 Their thesis stated plainly, physician-AI hybrids, the model every major medical society currently endorses, will be replaced by autonomous AI, operating independently […] EMCri</description>
+    </item>
+    <item>
+      <title>Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial</title>
+      <link>https://clinicaltrials.gov/study/NCT07779720</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07779720</guid>
+      <category>Clinical Trial</category>
+      <description>The goal of this pilot clinical trial is to learn if a fluid assessment using non-invasive cardiac output monitoring (NICOM) is helpful for patients with sepsis who have low blood pressure in the Emergency Department (ED). The study will measure whether the NICOM assessment changes fluid resuscitation practices and is feasible in the ED setting. All patients will receive standard medical care. Patients assigned to the NICOM group will receive a one-time, non-invasive bedside fluid assessment usi</description>
+    </item>
+    <item>
+      <title>Post-Intensive Care Syndrome - Multicentre Prospective Registry Database of the DACH Region</title>
+      <link>https://clinicaltrials.gov/study/NCT07290712</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07290712</guid>
+      <category>Clinical Trial</category>
+      <description>Post-Intensive Care Syndrome (PICS) refers to long-term cognitive, physical, and psychological impairments that can arise after intensive care treatment. These symptoms may begin within 24 hours of ICU admission and persist for years. Affected patients and their families (PICS-F) face significant burdens, with up to 94% of relatives impacted. Given its high prevalence and socioeconomic impact, this prospective registry study aims to identify risk factors and long-term consequences of PICS and PI</description>
+    </item>
+    <item>
+      <title>Association of Microcirculation, Vexus Score and Femoral Vein Doppler in Patients on the ICU After Non-emergency Cardiac Surgery</title>
+      <link>https://clinicaltrials.gov/study/NCT07052461</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07052461</guid>
+      <category>Clinical Trial</category>
+      <description>The aim of the VeMic study is to explore if venous congestion is linked with microcirculatory impairment in elective cardiac surgery patients in the postoperative ICU stay.</description>
     </item>
     <item>
       <title>A Field Guide to Evidence Based Medicine – Episode 2 – Chloride Continued…</title>
@@ -158,13 +186,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05911451</guid>
       <category>Clinical Trial</category>
       <description>The number of elderly hemodialysis patients is growing. Vascular access complications are a major determinant of the quality of life and health care costs for these vulnerable patients. The three different types of vascular access, i.e. autologous arteriovenous fistulas, arteriovenous grafts, and central venous catheters, have never been compared in randomized controlled trials. This project will deliver the much-needed evidence to determine the optimal strategy for vascular access creation in e</description>
-    </item>
-    <item>
-      <title>Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial</title>
-      <link>https://clinicaltrials.gov/study/NCT07779720</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07779720</guid>
-      <category>Clinical Trial</category>
-      <description>The goal of this pilot clinical trial is to learn if a fluid assessment using non-invasive cardiac output monitoring (NICOM) is helpful for patients with sepsis who have low blood pressure in the Emergency Department (ED). The study will measure whether the NICOM assessment changes fluid resuscitation practices and is feasible in the ED setting. All patients will receive standard medical care. Patients assigned to the NICOM group will receive a one-time, non-invasive bedside fluid assessment usi</description>
     </item>
     <item>
       <title>Psychosocial coping with intensive care delirium: a mixed-methods systematic review of patient and family perspectives.</title>
@@ -403,27 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06893939</guid>
       <category>Clinical Trial</category>
       <description>This study compared two feeding regimens in preterm infants born between 25w0d and 31w6d. The regimens differed in when enteral feeds were advanced, either after 24 hours or after 72 hours. The study found no difference in the risk of late onset sepsis or other adverse outcomes between the two groups.</description>
-    </item>
-    <item>
-      <title>Multisensory and Cognitive Interventions in the ICU: Effects on Health and Recovery</title>
-      <link>https://clinicaltrials.gov/study/NCT07116941</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07116941</guid>
-      <category>Clinical Trial</category>
-      <description>The goal of this clinical trial is to examine the effects of sensory and cognitive stimulation on physiological, psychological, and functional recovery in adult patients after cardiac surgery who are treated in the intensive care unit (ICU). The main questions it aims to answer are: * Does sensory and/or cognitive stimulation reduce anxiety and improve hemodynamic stability in ICU patients? * Does it enhance physical function and independence during early rehabilitation in the ICU? Researchers w</description>
-    </item>
-    <item>
-      <title>Progesterone Preeclampsia</title>
-      <link>https://clinicaltrials.gov/study/NCT07448597</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07448597</guid>
-      <category>Clinical Trial</category>
-      <description>This randomized controlled trial evaluates whether nightly vaginal micronized progesterone (400 mg) initiated before 12 weeks' gestation reduces the incidence of preeclampsia in low-risk pregnant individuals. Participants will be randomly assigned (1:1) to receive either vaginal progesterone through 16 weeks' gestation or routine prenatal care without progesterone. Maternal and neonatal outcomes-including development of preeclampsia, obstetric complications, gestational diabetes, preterm birth, </description>
-    </item>
-    <item>
-      <title>Digital Early Warning System for Acute Lung Injury in Liver Surgery</title>
-      <link>https://clinicaltrials.gov/study/NCT07070362</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07070362</guid>
-      <category>Clinical Trial</category>
-      <description>This study aims to develop an explainable machine learning model that takes into account the characteristics of cardiopulmonary interactions. This model will enable early prediction of acute lung injury (ALI) in patients undergoing major liver surgery. The research will create a digital early-warning system for ALI, thereby supporting clinical diagnosis and treatment decisions. This, in turn, should help reduce the incidence and mortality rates associated with ALI.</description>
     </item>
   </channel>
 </rss>

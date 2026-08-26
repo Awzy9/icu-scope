@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T03:40:24+00:00",
+  "generated_at": "2026-08-26T03:44:40+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -366,6 +366,18 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "The Five Laws of Medical Robotics",
+        "url": "https://emcrit.org/emnerd/the-five-laws-of-medical-robotics/",
+        "source": "EMCrit",
+        "author": "Rory Spiegel",
+        "pubdate": "2026-08-25",
+        "summary": "The Five Laws of Medical Robotics JAMA recently published a Perspective titled “Will Autonomous AI Exceed AI-Aided Physicians as the Best Medical Care?” by Ezekiel Emanuel, Abe Baker-Butler, Neal Khosla, and Vinod Khosla.1 Their thesis stated plainly, physician-AI hybrids, the model every major medical society currently endorses, will be replaced by autonomous AI, operating independently […] EMCri",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "A Field Guide to Evidence Based Medicine – Episode 2 – Chloride Continued…",
         "url": "https://emcrit.org/emnerd/fgebm-002/",
         "source": "EMCrit",
@@ -373,9 +385,7 @@
         "pubdate": "2026-08-24",
         "summary": "The chloride saga continues... EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality",
@@ -385,9 +395,7 @@
         "pubdate": "2026-08-24",
         "summary": "Is there any moderate or high-level evidence that SEP-1 compliance and/or implementation is associated with improvement in sepsis mortality? The post Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit 432 – Members’ Airway Cases and Q&A",
@@ -905,6 +913,53 @@
         "ai_summary": "Researchers studied 2935 critically ill adults in a Brazilian ICU to identify risk factors for acute kidney injury (AKI). They found that several factors, including age, chronic liver disease, and high lactate levels, were associated with AKI. The proportion of AKI cases classified as KDIGO stage 3 increased after day 7.",
         "ai_significance": "These findings highlight the importance of early recognition of risk factors for AKI in critically ill patients, supporting the implementation of kidney-protective care strategies in the ICU.",
         "ai_rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels."
+      },
+      {
+        "pmid": "42640090",
+        "title": "IDSA/ACEP/ASM/PIDS/SCCM/SHEA/SHM/SIDP Multisociety Position Paper: Hospital Strategies to Improve Sepsis Outcomes.",
+        "journal": "Clinical infectious diseases : an official publication of the Infectious Diseases Society of America",
+        "pubdate": "2026 Aug 25",
+        "authors": [
+          "Rhee C",
+          "Masur H",
+          "Klompas M",
+          "Bell T",
+          "Busch LM",
+          "Chiotos K",
+          "Classen D",
+          "Gilbert D",
+          "Heil EL",
+          "Hou C",
+          "Kadri SS",
+          "Kalil AC",
+          "Palavecino EL",
+          "Patel SJ",
+          "Septimus EJ",
+          "Sevransky J",
+          "Simpson SQ",
+          "Strich JR",
+          "Sweeney DA",
+          "Talari P",
+          "Taylor SP",
+          "Winslow D",
+          "Yealy DM",
+          "Griffin FA",
+          "Cosgrove SE"
+        ],
+        "doi": "10.1093/cid/ciag438",
+        "abstract": "Sepsis remains a leading cause of morbidity and mortality in US hospitals despite extensive efforts to improve early recognition and treatment, particularly through implementation of the Centers for Medicare & Medicaid Services (CMS) SEP-1 quality measure. Recognizing the need for broader approaches to sepsis improvement, CMS and the Centers for Disease Control and Prevention are advancing new sepsis quality measures focused on outcomes and hospital programmatic capacity, while the Surviving Sepsis Campaign guidelines continue to provide evidence-based recommendations for bedside clinical management. However, there remains a need for practical, actionable guidance that complements existing guidelines and quality frameworks by addressing hospital-based strategies across the continuum of sepsis care. To address this gap, the Infectious Diseases Society of America convened a multidisciplinary, multisociety expert panel to develop a consensus-based position paper outlining evidence-informed recommendations for hospital-based sepsis improvement. The recommendations focus on infection-related aspects of sepsis management and span 6 domains: diagnostic testing and pathogen detection, antimicrobial management and delivery, surveillance and performance metrics, adjunctive therapy, program infrastructure and organizational support, and infection prevention. Examples include implementing multiplex nucleic acid amplification tests for positive blood cultures paired with active stewardship support; optimizing workflows for timely antibiotic delivery in septic shock; using clinical decision support to prioritize β-lactam administration before vancomycin when both are ordered; defaulting antipseudomonal β-lactams to prolonged infusion in critically ill patients; adopting EHR-based sepsis surveillance; tracking rates of inadequate empiric therapy, unnecessarily broad empiric therapy, antibiotic de-escalation, and timeliness of source control; establishing protocols for appropriate corticosteroid use in severe community-acquired pneumonia; and standardizing daily tooth brushing to prevent hospital-acquired pneumonia. The panel also highlights emerging approaches, particularly novel diagnostic strategies, that show promise but require further validation before widespread adoption. Collectively, these recommendations provide a pragmatic framework for hospitals to strengthen infection-related sepsis management and improve patient outcomes.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42640090/",
+        "society": "Surviving Sepsis Campaign",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42632433",
@@ -3320,6 +3375,46 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
+        "url": "https://clinicaltrials.gov/study/NCT07779720",
+        "source": "Intermountain Health Care, Inc.",
+        "author": "",
+        "pubdate": "2026-08-25",
+        "summary": "The goal of this pilot clinical trial is to learn if a fluid assessment using non-invasive cardiac output monitoring (NICOM) is helpful for patients with sepsis who have low blood pressure in the Emergency Department (ED). The study will measure whether the NICOM assessment changes fluid resuscitation practices and is feasible in the ED setting. All patients will receive standard medical care. Patients assigned to the NICOM group will receive a one-time, non-invasive bedside fluid assessment usi",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07779720"
+      },
+      {
+        "title": "Post-Intensive Care Syndrome - Multicentre Prospective Registry Database of the DACH Region",
+        "url": "https://clinicaltrials.gov/study/NCT07290712",
+        "source": "Medical University of Vienna",
+        "author": "",
+        "pubdate": "2026-08-25",
+        "summary": "Post-Intensive Care Syndrome (PICS) refers to long-term cognitive, physical, and psychological impairments that can arise after intensive care treatment. These symptoms may begin within 24 hours of ICU admission and persist for years. Affected patients and their families (PICS-F) face significant burdens, with up to 94% of relatives impacted. Given its high prevalence and socioeconomic impact, this prospective registry study aims to identify risk factors and long-term consequences of PICS and PI",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07290712",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Association of Microcirculation, Vexus Score and Femoral Vein Doppler in Patients on the ICU After Non-emergency Cardiac Surgery",
+        "url": "https://clinicaltrials.gov/study/NCT07052461",
+        "source": "University Hospital, Basel, Switzerland",
+        "author": "",
+        "pubdate": "2026-08-25",
+        "summary": "The aim of the VeMic study is to explore if venous congestion is linked with microcirculatory impairment in elective cardiac surgery patients in the postoperative ICU stay.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07052461",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Adrenal Function in Critical Illness",
         "url": "https://clinicaltrials.gov/study/NCT00156767",
         "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -3345,9 +3440,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07782216",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07782216"
       },
       {
         "title": "Iron Deficiency at ICU Discharge",
@@ -3359,9 +3452,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07781540",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07781540"
       },
       {
         "title": "AI Assisted Preoperative Assessment for ASA Classification and ICU Admission",
@@ -3373,9 +3464,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07783334",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07783334"
       },
       {
         "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
@@ -3387,9 +3476,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06501118",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06501118"
       },
       {
         "title": "Samu Save Sepsis: Early Goal Directed Therapy in Pre Hospital Care of Patients With Severe Sepsis and/or Septic Shock",
@@ -3401,9 +3488,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02473263",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02473263"
       },
       {
         "title": "Effects of Paroxetine on Cardiovascular Function in Septic Patients",
@@ -3415,9 +3500,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05725837",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05725837"
       },
       {
         "title": "Exogenous Ketone Supplementation in ICU Delirium",
@@ -3429,9 +3512,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07364162",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07364162"
       },
       {
         "title": "Dynamics of Organ Damage and Immune Exhaustion During Sepsis",
@@ -3443,9 +3524,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06817408",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06817408"
       },
       {
         "title": "Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients",
@@ -3530,18 +3609,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT05911451"
-      },
-      {
-        "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
-        "url": "https://clinicaltrials.gov/study/NCT07779720",
-        "source": "Intermountain Health Care, Inc.",
-        "author": "",
-        "pubdate": "2026-08-21",
-        "summary": "The goal of this pilot clinical trial is to learn if a fluid assessment using non-invasive cardiac output monitoring (NICOM) is helpful for patients with sepsis who have low blood pressure in the Emergency Department (ED). The study will measure whether the NICOM assessment changes fluid resuscitation practices and is feasible in the ED setting. All patients will receive standard medical care. Patients assigned to the NICOM group will receive a one-time, non-invasive bedside fluid assessment usi",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07779720"
       },
       {
         "title": "Endogenous Energy Production in Critically Ill Patients",
@@ -6138,6 +6205,47 @@
           "ai_summary": "This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that early nutritional supplementation may not be beneficial for all critically ill patients with sepsis, and further research is needed to determine the optimal nutritional strategy for this population.",
           "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42638131",
+          "title": "ICU-specific virtual reality for mental health after critical illness: an international three-arm randomized clinical trial.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Jul 24",
+          "authors": [
+            "Drop DLQ",
+            "Vlake JH",
+            "van Bommel J",
+            "Wils EJ",
+            "Hilling DE",
+            "Korevaar TIM",
+            "Taccone FS",
+            "Devroey M",
+            "So RKL",
+            "den Uil CA",
+            "Schut AFC",
+            "Raben AMTJ",
+            "Elderman JH",
+            "Achterberg S",
+            "Festen B",
+            "Dijkstra A",
+            "van Mol MMC",
+            "Jung C",
+            "Gommers D",
+            "van Genderen ME"
+          ],
+          "doi": "10.1186/s13054-026-06186-4",
+          "abstract": "BACKGROUND: Survivors of critical illness frequently experience symptoms of post-intensive care syndrome (PICS), including post-traumatic stress disorder (PTSD), anxiety, and depression, with downstream impact on health-related quality of life (HRQoL). We evaluated whether an intensive care unit-specific virtual reality (ICU-VR) video improves mental health outcomes and whether timing (early vs. late) matters. METHODS: We conducted an international, three-arm, multicentre randomized clinical trial across eleven hospitals. Adults (≥ 18 years) with ICU stay ≥ 72 h and mechanical ventilation ≥ 24 h were randomized 1:1:1 to (1) standard care, (2) early ICU-VR (within 7-15 days post-ICU), or (3) late ICU-VR (≈ 3 months, during aftercare). The primary endpoint was PTSD symptom severity at six months (T3) measured by the Impact of Event Scale-Revised (range 0-88). Secondary endpoints included anxiety/depression severity and prevalence, and HRQoL. RESULTS: We randomized 344 participants (median age 61 years; 62% male); follow-up among survivors at six months (T3) was 80%. At six months, PTSD symptom severity did not differ between early ICU-VR and control (β = 0.32; 95% CI -3.38 to 4.02; p = 0.87) nor late ICU-VR and control (-0.82; 95% CI -4.62 to 2.97; p = 0.67). No between-group differences were observed for anxiety, depression, or HRQoL (all adjusted p > 0.05). Patients rated ICU-VR highly for improving understanding of the ICU experience and overall satisfaction (median 8/10). CONCLUSIONS: In this multicentre randomized clinical trial, a single ICU-VR video did not improve PTSD, anxiety, depression, or HRQoL at six months versus standard care. Findings should not be generalized to multi-session, therapist-guided, or personalized VR interventions. Future trials should target high-risk patients, make multi-session mandatory, and personalize ICU-VR. TRIAL REGISTRATION: This study was prospectively registered Netherlands: Trial Register/International Clinical Trials Registry Platform, NL9812, October 21, 2021.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Randomized Controlled Trial",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42638131/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506467",
