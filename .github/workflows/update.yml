@@ -91,8 +91,8 @@ jobs:
 
       - name: Commit and push if changed
         run: |
-          git config user.name "icu-scope-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.name "Awzy9"
+          git config user.email "291288073+Awzy9@users.noreply.github.com"
           if git diff --quiet -- data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml; then
             echo "No changes to commit."
           else
