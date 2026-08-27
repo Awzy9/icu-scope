@@ -468,9 +468,14 @@
 
   function setSectionCollapsed(entry, collapsed) {
     if (!entry || !entry.body || !entry.toggle) return;
+    const body = entry.body;
+
     body.hidden = collapsed;
     body.classList.toggle("collapsed", collapsed);
     body.inert = collapsed;
+    // Explicit fallback so dashboard/grid CSS can never force a collapsed
+    // section body to remain visible.
+    body.style.display = collapsed ? "none" : "";
     body.style.maxHeight = "";
     body.style.opacity = "";
 
@@ -478,25 +483,38 @@
     entry.toggle.textContent = collapsed ? "▸" : "▾";
   }
 
+  function toggleCollapsibleSection(entry) {
+    if (!entry || !entry.body || !entry.toggle) return;
+    const nowCollapsed = !entry.body.classList.contains("collapsed");
+    setSectionCollapsed(entry, nowCollapsed);
+    const current = loadCollapseState();
+    current[entry.id] = nowCollapsed;
+    saveCollapseState(current);
+  }
+
   function initCollapsibleSections() {
     const state = loadCollapseState();
     const DEFAULT_OPEN_SECTIONS = new Set(["spotlight", "this-week", "trending", "bottom-line"]);
     COLLAPSIBLE_SECTIONS.forEach((entry) => {
+      if (!entry || !entry.body || !entry.toggle) return;
       const collapsed = state[entry.id] === undefined ? !DEFAULT_OPEN_SECTIONS.has(entry.id) : state[entry.id];
       setSectionCollapsed(entry, collapsed);
-      // Whole heading is clickable, not just the small toggle circle — but
-      // other buttons living in the same heading (print, close, etc.) must
-      // keep their own behavior instead of also toggling the section.
-      const heading = entry.toggle.closest(".trending-heading");
-      heading.addEventListener("click", (e) => {
-        const btn = e.target.closest("button");
-        if (btn && btn !== entry.toggle) return;
-        const nowCollapsed = !entry.body.classList.contains("collapsed");
-        setSectionCollapsed(entry, nowCollapsed);
-        const current = loadCollapseState();
-        current[entry.id] = nowCollapsed;
-        saveCollapseState(current);
+
+      // Give the arrow its own handler and stop bubbling so one click can
+      // never toggle twice through the parent heading.
+      entry.toggle.addEventListener("click", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        toggleCollapsibleSection(entry);
       });
+
+      const heading = entry.toggle.closest(".trending-heading");
+      if (heading) {
+        heading.addEventListener("click", (e) => {
+          if (e.target.closest("button, a, input, select, textarea, label")) return;
+          toggleCollapsibleSection(entry);
+        });
+      }
     });
   }
 
