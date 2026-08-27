@@ -468,13 +468,6 @@
 
   function setSectionCollapsed(entry, collapsed) {
     if (!entry || !entry.body || !entry.toggle) return;
-    const body = entry.body;
-
-    // Keep each accordion section completely independent. Using max-height
-    // animations here could leave a parent/sibling paint layer clipped in
-    // some browsers, which made sections below a collapsed category appear
-    // to disappear. The hidden attribute changes only this section's body
-    // and cannot clip any following category.
     body.hidden = collapsed;
     body.classList.toggle("collapsed", collapsed);
     body.inert = collapsed;
@@ -487,8 +480,9 @@
 
   function initCollapsibleSections() {
     const state = loadCollapseState();
+    const DEFAULT_OPEN_SECTIONS = new Set(["spotlight", "this-week", "trending", "bottom-line"]);
     COLLAPSIBLE_SECTIONS.forEach((entry) => {
-      const collapsed = state[entry.id] === undefined ? true : state[entry.id];
+      const collapsed = state[entry.id] === undefined ? !DEFAULT_OPEN_SECTIONS.has(entry.id) : state[entry.id];
       setSectionCollapsed(entry, collapsed);
       // Whole heading is clickable, not just the small toggle circle — but
       // other buttons living in the same heading (print, close, etc.) must
