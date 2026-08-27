@@ -2005,42 +2005,56 @@
     }
   });
 
+  function commitData(data) {
+    if (!data || !Array.isArray(data.categories)) throw new Error("Invalid article data");
+    rawData = data;
+    updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
+    populateFilterOptions(data);
+    renderDashboard(data);
+    applyFiltersAndRender();
+    renderClassics();
+    updateSectionJumpAvailability();
+    saveSeenIds(collectAllIds(data));
+    updateToolbarHeight();
+    content.removeAttribute("aria-busy");
+  }
+
   function loadData() {
     content.setAttribute("aria-busy", "true");
-    return Promise.all([
-      fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" }).then((res) => {
+
+    // Render a bundled snapshot immediately. This prevents the dashboard from
+    // getting stranded on skeleton cards if a CDN, browser cache, or static
+    // JSON request is delayed. The live JSON feed is still fetched below and
+    // replaces this snapshot as soon as it arrives.
+    const bootstrap = window.__ICU_SCOPE_BOOTSTRAP__;
+    let renderedFallback = false;
+    if (bootstrap) {
+      try {
+        commitData(bootstrap);
+        renderedFallback = true;
+      } catch (_) {
+        // Continue to the live feed.
+      }
+    }
+
+    // Embeddings are an enhancement only. Never block the first article render
+    // on them.
+    loadEmbeddings().catch(() => ({}));
+
+    return fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" })
+      .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
-      }),
-      // Resolved before the first render so each card can synchronously know
-      // whether it has a "Similar articles" list to offer, instead of the
-      // button popping in/out after the fact.
-      loadEmbeddings(),
-    ])
-      .then(([data]) => {
-        rawData = data;
-        updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
-        populateFilterOptions(data);
-        renderDashboard(data);
-        applyFiltersAndRender();
-        // Deferred until after loadEmbeddings() resolves (same Promise.all
-        // above), so ICU Classics cards can also offer "Similar articles" —
-        // building them earlier left embeddingsCache still null at card-build
-        // time, permanently omitting the button for this section only.
-        renderClassics();
-        // renderClassics() runs after applyFiltersAndRender()'s own call
-        // to this, so classics-section's hidden state wasn't settled yet
-        // when that ran -- check once more now that it is.
-        updateSectionJumpAvailability();
-        saveSeenIds(collectAllIds(data));
-        // Populating the filter <select>s can widen them enough to change how
-        // the toolbar wraps, which shifts its real height out from under the
-        // sticky category-nav's offset — recompute now that it's settled.
-        updateToolbarHeight();
-        content.removeAttribute("aria-busy");
+      })
+      .then((data) => {
+        commitData(data);
       })
       .catch((err) => {
         content.removeAttribute("aria-busy");
+        if (renderedFallback) {
+          updatedLine.textContent += " · Offline snapshot";
+          return;
+        }
         updatedLine.textContent = "Couldn't reach the data feed.";
         content.innerHTML = `<div class="empty-state" role="alert">
           <div class="empty-state-icon">⚠️</div>
@@ -2048,7 +2062,8 @@
           <div class="empty-state-text">${escapeHtml(err.message)}.</div>
           <button class="empty-state-retry-btn" id="retry-load-btn" type="button">Retry</button>
         </div>`;
-        document.getElementById("retry-load-btn").addEventListener("click", () => loadData(), { once: true });
+        const retry = document.getElementById("retry-load-btn");
+        if (retry) retry.addEventListener("click", () => loadData(), { once: true });
       });
   }
 
