@@ -831,7 +831,7 @@
     const windowText = Number.isFinite(Number(windowDays))
       ? ` · scanning the last ${windowDays} day${Number(windowDays) === 1 ? "" : "s"}`
       : "";
-    return `Literature updated ${formatted} · ${health}${windowText}`;
+    return `Last literature refresh: ${formatted} · ${health}${windowText}`;
   }
 
   function journalHue(name) {
