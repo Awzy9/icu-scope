@@ -1850,11 +1850,13 @@
     filterStatus.textContent = `${articleCount} article${articleCount === 1 ? "" : "s"} across ${sectionCount} section${sectionCount === 1 ? "" : "s"}`;
   }
 
-  initTheme();
-  initDensity();
-  initCollapsibleSections();
-  initSectionJump();
-  updateToolbarHeight();
+  // Keep first paint resilient: a non-essential UI initializer must never
+  // prevent the article feed from loading.
+  try { initTheme(); } catch (e) { console.error("ICU Scope theme init failed", e); }
+  try { initDensity(); } catch (e) { console.error("ICU Scope density init failed", e); }
+  try { initCollapsibleSections(); } catch (e) { console.error("ICU Scope section init failed", e); }
+  try { initSectionJump(); } catch (e) { console.error("ICU Scope jump-nav init failed", e); }
+  try { updateToolbarHeight(); } catch (e) { console.error("ICU Scope toolbar init failed", e); }
   window.addEventListener("resize", updateToolbarHeight);
   window.addEventListener("resize", updateSectionJumpHeight);
 
@@ -2022,25 +2024,8 @@
   function loadData() {
     content.setAttribute("aria-busy", "true");
 
-    // Render a bundled snapshot immediately. This prevents the dashboard from
-    // getting stranded on skeleton cards if a CDN, browser cache, or static
-    // JSON request is delayed. The live JSON feed is still fetched below and
-    // replaces this snapshot as soon as it arrives.
-    const bootstrap = window.__ICU_SCOPE_BOOTSTRAP__;
-    let renderedFallback = false;
-    if (bootstrap) {
-      try {
-        commitData(bootstrap);
-        renderedFallback = true;
-      } catch (_) {
-        // Continue to the live feed.
-      }
-    }
-
-    // Embeddings are an enhancement only. Never block the first article render
-    // on them.
-    loadEmbeddings().catch(() => ({}));
-
+    // Article rendering must never wait for the optional semantic-search
+    // embedding file. Fetch and paint the clinical literature first.
     return fetch(`data/articles.json?t=${Date.now()}`, { cache: "no-store" })
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -2048,13 +2033,11 @@
       })
       .then((data) => {
         commitData(data);
+        // Embeddings are an enhancement only. Load them after first paint.
+        loadEmbeddings().catch(() => ({}));
       })
       .catch((err) => {
         content.removeAttribute("aria-busy");
-        if (renderedFallback) {
-          updatedLine.textContent += " · Offline snapshot";
-          return;
-        }
         updatedLine.textContent = "Couldn't reach the data feed.";
         content.innerHTML = `<div class="empty-state" role="alert">
           <div class="empty-state-icon">⚠️</div>
