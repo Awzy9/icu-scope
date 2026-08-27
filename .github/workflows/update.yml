@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 3 * * *" # 06:00 AST (KSA, UTC+3) daily
   workflow_dispatch: {}
+  push:
+    paths:
+      - ".github/workflows/update.yml"
 
 permissions:
   contents: write
@@ -20,6 +23,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          ref: main
+
+      - name: Sync latest main before refresh
+        run: |
+          git fetch origin main
+          git checkout main
+          git reset --hard origin/main
 
       - uses: actions/setup-python@v5
         with:
@@ -98,6 +108,5 @@ jobs:
           else
             git add data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml
             git commit -m "Update ICU literature feed"
-            git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin "HEAD:${GITHUB_REF_NAME}"
+            git push origin "HEAD:main"
           fi
