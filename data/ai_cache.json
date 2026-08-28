@@ -572,6 +572,10 @@
     "summary": "This study compared the updated SOFA-2 score with the previous SOFA-1 score for predicting 30-day mortality in ICU patients. SOFA-2 showed modestly better performance on day 1, but both scores had similar predictive validity by day 7. The study found that the scores' performance varied across different patient subgroups.",
     "significance": "This study's findings highlight the importance of considering the context and patient characteristics when using organ dysfunction scores like SOFA-2 for predicting mortality in ICU patients."
   },
+  "pmid:42152115": {
+    "summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
+    "significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients."
+  },
   "pmid:42494451": {
     "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
     "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
@@ -669,10 +673,6 @@
     "strengths": "feasible, reliable deep sedation, stable ICP and CPP",
     "weaknesses": "open-label design, pilot trial, limited sample size",
     "bottom_line": "Isoflurane sedation may be a safe and effective alternative to propofol in invasively monitored neurocritical patients without intracranial hypertension, but larger studies are needed to confirm these findings."
-  },
-  "pmid:42152115": {
-    "summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
-    "significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients."
   },
   "pmid:42129898": {
     "clinical_question": "Does standard dosing of ceftolozane/tazobactam or ceftazidime/avibactam administered by continuous infusion achieve adequate intrapulmonary penetration and pharmacokinetic/pharmacodynamic target attainment in critically ill patients with nosocomial pneumonia?",

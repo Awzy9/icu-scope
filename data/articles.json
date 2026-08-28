@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T16:28:49+00:00",
+  "generated_at": "2026-08-28T14:42:23+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -60,9 +60,7 @@
         "pages": "",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13508364/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/"
       },
       {
         "pmid": "42629591",
@@ -375,9 +373,7 @@
         "pubdate": "2026-08-25",
         "summary": "The Five Laws of Medical Robotics JAMA recently published a Perspective titled “Will Autonomous AI Exceed AI-Aided Physicians as the Best Medical Care?” by Ezekiel Emanuel, Abe Baker-Butler, Neal Khosla, and Vinod Khosla.1 Their thesis stated plainly, physician-AI hybrids, the model every major medical society currently endorses, will be replaced by autonomous AI, operating independently […] EMCri",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "A Field Guide to Evidence Based Medicine – Episode 2 – Chloride Continued…",
@@ -959,9 +955,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42640090/",
-        "society": "Surviving Sepsis Campaign",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "Surviving Sepsis Campaign"
       },
       {
         "pmid": "42632433",
@@ -2189,9 +2183,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13503594/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42643465/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42415882",
@@ -2253,6 +2245,30 @@
   "ksa": {
     "window_days": 365,
     "articles": [
+      {
+        "pmid": "42659642",
+        "title": "Vancomycin pharmacokinetics and dosing in critically ill adult patients on continuous renal replacement therapy: A scoping review.",
+        "journal": "American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists",
+        "pubdate": "2026 Aug 27",
+        "authors": [
+          "Assadoon MS",
+          "Pearson JC",
+          "Alzaidi SH"
+        ],
+        "doi": "10.1093/ajhp/zxag257",
+        "abstract": "PURPOSE: Acute kidney injury is common in critically ill patients, frequently requiring the use of continuous renal replacement therapy (CRRT). Both critical illness and CRRT significantly alter vancomycin pharmacokinetics, affecting dosing and therapeutic drug monitoring. This scoping review aimed to evaluate vancomycin pharmacokinetics and dosing in critically ill adults receiving CRRT. SUMMARY: A systematic scoping review was conducted using PRISMA-ScR guidelines. Studies published through April 2026 were identified using a comprehensive search of Ovid MEDLINE via PubMed, the Cochrane Central Register of Controlled Trials, and ClinicalTrials.gov. Included studies were in English, involved critically ill adult patients on CRRT, and assessed vancomycin pharmacokinetics and dosing using single- or multiple-dose population pharmacokinetics. Authors screened studies using a standard form, and disagreements were resolved through consensus. The searches retrieved 114 studies, and 24 were included. Vancomycin total clearance (CL) ranged from 1.5 to 4.8 L/h and was consistently influenced by CRRT. CRRT accounted for at least 50% of total CL, with CRRT modality and intensity being key determinants. Vancomycin's volume of distribution varied within a range of 0.4 to 1.4 L/kg. Population pharmacokinetic studies showed high interindividual variability, and dose simulation studies supported model-informed precision dosing. Simulation studies reported loading and maintenance dose ranges of 15-30 mg/kg and 5-20 mg/kg daily, respectively. CONCLUSION: Vancomycin dosing in patients on CRRT is highly variable due to significant pharmacokinetic alterations, emphasizing the need for individualized dosing, therapeutic drug monitoring, and model-informed approaches. Future studies should focus on validating personalized dosing strategies and linking pharmacokinetic/pharmacodynamic targets with clinical outcomes in this population.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42659642/",
+        "link_broken": true,
+        "link_broken_kind": "doi"
+      },
       {
         "pmid": "42603304",
         "title": "Stenotrophomonas maltophilia infections - Biofilm-mediated virulence, multidrug resistance, clinical impact, and emerging treatment strategies: A review.",
@@ -3288,6 +3304,78 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42658259",
+        "title": "Balancing lung and brain: physiological strategies for ARDS management in acute brain injury.",
+        "journal": "Intensive care medicine",
+        "pubdate": "2026 Aug 27",
+        "authors": [
+          "Robba C",
+          "Romero-García N",
+          "Taran S",
+          "Badenes R",
+          "Camporota L",
+          "Rocco PRM",
+          "Pellegrini M",
+          "Piquilloud L",
+          "Roquilly A",
+          "Schmidt M",
+          "Taccone FS",
+          "Wahlster S",
+          "Patroniti NA"
+        ],
+        "doi": "10.1007/s00134-026-08595-z",
+        "abstract": "Acute respiratory distress syndrome (ARDS) is a common and clinically significant complication in patients with acute brain injury (ABI), affecting up to one-third of critically ill individuals and contributing to increased mortality, prolonged mechanical ventilation, and worse neurological outcomes. The coexistence of ARDS and ABI creates a fundamental therapeutic dilemma: strategies that protect the lung may adversely affect cerebral physiology, whilst neuroprotective targets may compromise respiratory management. This narrative review examined the pathophysiological interactions between the injured lung and brain, highlighting the competing effects of key ventilatory variables. Lung-protective ventilation, including low tidal volume and higher positive end-expiratory pressure (PEEP), reduces ventilator-induced lung injury but may increase arterial carbon dioxide (PaCO2), resulting in intracranial hypertension and impaired cerebral perfusion. Conversely, strict control of PaCO₂ and optimisation of cerebral perfusion may necessitate deviations from conventional ARDS strategies. Oxygenation targets further illustrate this tension, as both hypoxaemia and hyperoxaemia can exacerbate secondary brain injury. We synthesised current evidence on respiratory support, including non-invasive strategies, invasive mechanical ventilation, rescue therapies such as prone positioning and extracorporeal support, and pharmacological interventions, with emphasis on their differential effects on pulmonary and cerebral physiology. Attention was also given to the role of multimodal neuromonitoring, including intracranial pressure and brain tissue oxygenation, as tools to individualise ventilatory management and reconcile competing organ priorities. Overall, available data support a shift from protocolised approaches towards physiology-driven, patient-specific strategies that integrate lung mechanics, gas exchange and cerebral haemodynamics in patients with concomitant ARDS and ABI. Future studies should incorporate combined lung and brain endpoints to define strategies that simultaneously minimise ventilator-induced lung injury and secondary brain injury.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory"
+      },
+      {
+        "pmid": "42658259",
+        "title": "Balancing lung and brain: physiological strategies for ARDS management in acute brain injury.",
+        "journal": "Intensive care medicine",
+        "pubdate": "2026 Aug 27",
+        "authors": [
+          "Robba C",
+          "Romero-García N",
+          "Taran S",
+          "Badenes R",
+          "Camporota L",
+          "Rocco PRM",
+          "Pellegrini M",
+          "Piquilloud L",
+          "Roquilly A",
+          "Schmidt M",
+          "Taccone FS",
+          "Wahlster S",
+          "Patroniti NA"
+        ],
+        "doi": "10.1007/s00134-026-08595-z",
+        "abstract": "Acute respiratory distress syndrome (ARDS) is a common and clinically significant complication in patients with acute brain injury (ABI), affecting up to one-third of critically ill individuals and contributing to increased mortality, prolonged mechanical ventilation, and worse neurological outcomes. The coexistence of ARDS and ABI creates a fundamental therapeutic dilemma: strategies that protect the lung may adversely affect cerebral physiology, whilst neuroprotective targets may compromise respiratory management. This narrative review examined the pathophysiological interactions between the injured lung and brain, highlighting the competing effects of key ventilatory variables. Lung-protective ventilation, including low tidal volume and higher positive end-expiratory pressure (PEEP), reduces ventilator-induced lung injury but may increase arterial carbon dioxide (PaCO2), resulting in intracranial hypertension and impaired cerebral perfusion. Conversely, strict control of PaCO₂ and optimisation of cerebral perfusion may necessitate deviations from conventional ARDS strategies. Oxygenation targets further illustrate this tension, as both hypoxaemia and hyperoxaemia can exacerbate secondary brain injury. We synthesised current evidence on respiratory support, including non-invasive strategies, invasive mechanical ventilation, rescue therapies such as prone positioning and extracorporeal support, and pharmacological interventions, with emphasis on their differential effects on pulmonary and cerebral physiology. Attention was also given to the role of multimodal neuromonitoring, including intracranial pressure and brain tissue oxygenation, as tools to individualise ventilatory management and reconcile competing organ priorities. Overall, available data support a shift from protocolised approaches towards physiology-driven, patient-specific strategies that integrate lung mechanics, gas exchange and cerebral haemodynamics in patients with concomitant ARDS and ABI. Future studies should incorporate combined lung and brain endpoints to define strategies that simultaneously minimise ventilator-induced lung injury and secondary brain injury.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "neurology",
+        "category_label": "Neurology"
+      },
+      {
         "pmid": "42645558",
         "title": "State-of-the-art review: ß-blockade in critical illness.",
         "journal": "Intensive care medicine",
@@ -3321,8 +3409,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "cardiovascular",
         "category_label": "Cardiovascular"
       },
@@ -3360,8 +3446,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "neurology",
         "category_label": "Neurology"
       },
@@ -3399,8 +3483,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "endocrine-metabolic",
         "category_label": "Endocrine & Metabolic"
       },
@@ -3438,8 +3520,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "infectious-sepsis",
         "category_label": "Infectious Disease & Sepsis"
       },
@@ -3473,8 +3553,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "infectious-sepsis",
         "category_label": "Infectious Disease & Sepsis"
       },
@@ -3508,8 +3586,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "trauma-surgical",
         "category_label": "Trauma & Surgical"
       },
@@ -3533,37 +3609,8 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13508364/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "gi-nutrition",
         "category_label": "GI & Nutrition"
-      },
-      {
-        "pmid": "42629591",
-        "title": "Psychosocial coping with intensive care delirium: a mixed-methods systematic review of patient and family perspectives.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 21",
-        "authors": [
-          "Oh E",
-          "Marx-Rosenberg G",
-          "Schimböck F",
-          "Groth N",
-          "Nydahl P",
-          "Gallinat J"
-        ],
-        "doi": "10.1186/s13054-026-06232-1",
-        "abstract": "OBJECTIVE: This review aims to identify, synthesize, and critically appraise evidence on psychosocial coping strategies employed by intensive care unit (ICU) patients and their family caregivers during an episode of ICU delirium, organized within the transactional model of stress and coping. DESIGN: Mixed-methods systematic review (MMSR) following the Joanna Briggs Institute (JBI). INFORMATION SOURCES: A systematic search was conducted in MEDLINE (PubMed), CINAHL, PsycINFO, and PSYNDEX. The literature search concluded on the 6th of November 2025. METHODS: Following JBI methodology for mixed-methods systematic reviews, qualitative findings were analyzed using the JBI meta-aggregation approach. Methodological quality was assessed using the Mixed-Methods Appraisal Tool (MMAT). The transactional model of stress and coping served as the theoretical framework. Reporting followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. RESULTS: Ten qualitative studies were included, originating from seven countries, published between 1999 and 2025. No quantitative studies meeting the eligibility criteria were identified, representing a significant gap in literature. Patients employed problem-focused coping strategies (active sense-making, reality orientation, proactive avoidance of delirium triggers), emotion-focused strategies (social connection, distancing, self-control), and meaning-based strategies (positive reappraisal, identity restoration). Families directed coping efforts both at supporting the patient through emotional presence, active reorientation, cognitive stimulation, and collaboration with the healthcare team, and at managing their own distress through information-seeking, avoidance, and positive reappraisal. CONCLUSIONS: Both ICU patients and their families actively employ a broad range of coping strategies in response to delirium, consistent with the transactional model of stress and coping. Family caregivers emerge as a primary coping resource for patients while simultaneously managing their own psychological burden. These findings suggest that coping strategies may directly influence the trajectory of delirium-related psychological distress, and provide an evidence base for developing patient- and family-centered, coping-informed psychosocial interventions in ICU delirium care.",
-        "citation_count": 47,
-        "is_top_journal": true,
-        "study_type": "Systematic Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495211/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
-        "category_id": "neurology",
-        "category_label": "Neurology"
       }
     ]
   },
@@ -3632,6 +3679,118 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
+        "url": "https://clinicaltrials.gov/study/NCT05421858",
+        "source": "Basilea Pharmaceutica",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "The purpose of this clinical trial is to learn about the safety and effects of the study medicine (called Fosmanogepix) for the potential treatment of candidemia and/or invasive candidiasis, a life-threatening fungal infection caused by several species of yeast called Candida. The study is seeking patients who have a diagnosis of candidemia and/or invasive candidiasis. Two-thirds of all patients will receive the study medication fosmanogepix Intravenous (IV) infusion followed by optional fosmano",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05421858",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Predict Arrhythmia Risk Using Intelligent Software",
+        "url": "https://clinicaltrials.gov/study/NCT07792694",
+        "source": "Catharina Ziekenhuis Eindhoven",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "Cardiac arrhythmias frequently occur in patients admitted to the Coronary Care Unit (CCU). The majority of these patients are treated for an acute myocardial infarction, which carries an increased risk of life-threatening arrhythmias such as ventricular tachycardia (VT) or ventricular fibrillation (VF). This risk is one of the reasons these patients are monitored for 48 hours after a myocardial infarction, in accordance with the guidelines of the European Society of Cardiology (ESC) for acute co",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07792694",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Assessment of the PEEP Responsiveness to Titrate End-expiratory Pressure and of the Need for Muscle Relaxation During Prone Positioning in Moderate-to-severe Acute Respiratory Distress Syndrome: A Master Protocol",
+        "url": "https://clinicaltrials.gov/study/NCT06849570",
+        "source": "Assistance Publique - Hôpitaux de Paris",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "Despite best supportive care, mortality of the Acute Respiratory Distress Syndrom (ARDS) remains high. In the absence of specific treatments, providing safe and efficient mechanical ventilation (MV) is key to survival. The use of low tidal volumes (VT) and plateau pressures (PPLAT) improves survival in randomized controlled trials (RCTs), but the safest VT to be applied for each patient remains unknown. Whether targeting low ∆P instead of a 6 mL/kg VT improves outcome has not been tested prospec",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06849570",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Development of Context-Adapted Quality Indicators for Early Sepsis Care in Sub-Saharan Africa - A Modified Delphi Consensus Procedure",
+        "url": "https://clinicaltrials.gov/study/NCT07711535",
+        "source": "Charite University, Berlin, Germany",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "The research project is an anonymous, prospective, non-interventional consensus study in the form of a modified Delphi method, consisting of three online surveys and structured feedback meetings without recording. The goal is the structured evaluation and consolidation of expert assessments to develop context-adapted quality indicators and operationalize them for early sepsis care in Sub-Saharan Africa.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07711535",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "The Impact of the Family Room App on Caregivers",
+        "url": "https://clinicaltrials.gov/study/NCT06463158",
+        "source": "University of Nebraska",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "Engaging families in patient care during serious illness can enhance care quality, reduce social isolation, boost satisfaction, and lower healthcare costs. However, active involvement of family caregivers remains limited because there are no evidence-based tools to guide clinicians on how to include them effectively. This study will test and refine previously developed point-of-care application, Family Room, and determine its effectiveness by comparison with a control group. A series of surveys ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06463158",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "PRophylaxis Against Early VENTilator-associated Infections in Acute Brain Injury",
+        "url": "https://clinicaltrials.gov/study/NCT06819592",
+        "source": "The George Institute",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "This research is about whether treatment with a commonly used antibiotic can prevent infections in airway and lungs and improves the chance of surviving, if it is given soon after patients commence mechanical ventilation when they have been admitted to hospital with an acute severe brain injury. An acute severe brain injury can occur as a result of a stroke, a traumatic injury or due to lack of oxygen to the brain that happens as a result of a cardiac arrest. Patients who are unconscious after a",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06819592",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Efficacy and Safety of Tozorakimab in Patients Hospitalised for Viral Lung Infection Requiring Supplemental Oxygen",
+        "url": "https://clinicaltrials.gov/study/NCT05624450",
+        "source": "AstraZeneca",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "The purpose of this study is to evaluate the effect of tozorakimab, as an add-on to SoC in patients with viral lung infection requiring supplemental oxygen, on the prevention of death or progression to IMV/ECMO.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05624450",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Trial of Tegileridine Fumarate Lnjection for Prolonged Mechanical Ventilation Abirritation in the Intensive Care Unit (ICU)",
+        "url": "https://clinicaltrials.gov/study/NCT07372924",
+        "source": "Jiangsu HengRui Medicine Co., Ltd.",
+        "author": "",
+        "pubdate": "2026-08-28",
+        "summary": "The purpose of this study is to evaluate the efficacy and safety of Tegileridine Fumarate lnjection for prolonged abirritation(48h to 72h) during mechanical ventilation in the ICU.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07372924",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Adrenal Function in Critical Illness",
         "url": "https://clinicaltrials.gov/study/NCT00156767",
         "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -3669,9 +3828,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07025421",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07025421"
       },
       {
         "title": "Diagnostic and Prognostic Roles of Procalcitonin and Highly Sensitive C-Reactive Protein in Early Detection of Burn Sepsis",
@@ -3683,9 +3840,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07791030",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07791030"
       },
       {
         "title": "Effect of Benson Relaxation Technique on Pain Level, Insomnia, Nausea, Vomiting, and Retching in Oncology Patients",
@@ -3697,9 +3852,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06661239",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06661239"
       },
       {
         "title": "Differential Clinical Phenotypes Of Early CD4+ And CD8+ T-Cell Recovery And Association With 28-Day Mortality In Sepsis Patients",
@@ -3711,9 +3864,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07787780",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07787780"
       },
       {
         "title": "Nursing Interventions on Prevention Medical Device Related Pressure Injury (MDRPI)",
@@ -3725,9 +3876,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06513936",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06513936"
       },
       {
         "title": "Effect of HeartMath Intervention on Stress, Emotional Vitality and Sense of Coherence",
@@ -3739,9 +3888,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06849388",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06849388"
       },
       {
         "title": "Post Intensive Care Accelerometery to Study and Support Recovery Outcomes",
@@ -3753,9 +3900,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07466446",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07466446"
       },
       {
         "title": "Delayed Against Rapid Sequence Induction in Adults With Medical Diseases Undergoing Emergency Endotracheal Intubation.",
@@ -3767,9 +3912,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06940219",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06940219"
       },
       {
         "title": "Critical Hyperacute Assessment Research On Neurobiomarker Kinetics in Acute Brain Injury",
@@ -6584,9 +6727,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13505176/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42638131/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42638131/"
         },
         {
           "pmid": "42506467",
@@ -7286,6 +7427,31 @@
       "label": "Neurology",
       "abbr": "Neuro",
       "articles": [
+        {
+          "pmid": "42629591",
+          "title": "Psychosocial coping with intensive care delirium: a mixed-methods systematic review of patient and family perspectives.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Aug 21",
+          "authors": [
+            "Oh E",
+            "Marx-Rosenberg G",
+            "Schimböck F",
+            "Groth N",
+            "Nydahl P",
+            "Gallinat J"
+          ],
+          "doi": "10.1186/s13054-026-06232-1",
+          "abstract": "OBJECTIVE: This review aims to identify, synthesize, and critically appraise evidence on psychosocial coping strategies employed by intensive care unit (ICU) patients and their family caregivers during an episode of ICU delirium, organized within the transactional model of stress and coping. DESIGN: Mixed-methods systematic review (MMSR) following the Joanna Briggs Institute (JBI). INFORMATION SOURCES: A systematic search was conducted in MEDLINE (PubMed), CINAHL, PsycINFO, and PSYNDEX. The literature search concluded on the 6th of November 2025. METHODS: Following JBI methodology for mixed-methods systematic reviews, qualitative findings were analyzed using the JBI meta-aggregation approach. Methodological quality was assessed using the Mixed-Methods Appraisal Tool (MMAT). The transactional model of stress and coping served as the theoretical framework. Reporting followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. RESULTS: Ten qualitative studies were included, originating from seven countries, published between 1999 and 2025. No quantitative studies meeting the eligibility criteria were identified, representing a significant gap in literature. Patients employed problem-focused coping strategies (active sense-making, reality orientation, proactive avoidance of delirium triggers), emotion-focused strategies (social connection, distancing, self-control), and meaning-based strategies (positive reappraisal, identity restoration). Families directed coping efforts both at supporting the patient through emotional presence, active reorientation, cognitive stimulation, and collaboration with the healthcare team, and at managing their own distress through information-seeking, avoidance, and positive reappraisal. CONCLUSIONS: Both ICU patients and their families actively employ a broad range of coping strategies in response to delirium, consistent with the transactional model of stress and coping. Family caregivers emerge as a primary coping resource for patients while simultaneously managing their own psychological burden. These findings suggest that coping strategies may directly influence the trajectory of delirium-related psychological distress, and provide an evidence base for developing patient- and family-centered, coping-informed psychosocial interventions in ICU delirium care.",
+          "citation_count": 47,
+          "is_top_journal": true,
+          "study_type": "Systematic Review",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495211/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/"
+        },
         {
           "pmid": "42612901",
           "title": "Induction Agents for Tracheal Intubation of Critically Ill Patients: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
@@ -11582,6 +11748,43 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
           "ai_significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay.",
+          "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42152115",
+          "title": "Impact of extracorporeal membrane oxygenation on antimicrobial exposure in critically ill patients: a prospective observational study.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 May 18",
+          "authors": [
+            "Escolà-Rodríguez A",
+            "Sandoval E",
+            "Rigo-Bonnin R",
+            "Téllez Santoyo A",
+            "Herrera S",
+            "Hernández Meneses M",
+            "Carramiñana A",
+            "Sainz de Medrano JI",
+            "Brunet Serra M",
+            "Moisés J",
+            "Roca C",
+            "Castro P",
+            "Soy Muner D",
+            "Bastida C"
+          ],
+          "doi": "10.1186/s13054-026-06076-9",
+          "abstract": "BACKGROUND: Antimicrobial pharmacokinetics (PK) in patients receiving extracorporeal membrane oxygenation (ECMO) remains poorly defined. Drug sequestration within the ECMO circuit has been reported; however, existing evidence is primarily based on ex vivo studies and small clinical series, resulting in conflicting findings with limited clinical applicability. This study aimed to characterize antimicrobial sequestration within different ECMO circuit components and to describe the PK of meropenem, piperacillin/tazobactam, linezolid, and ceftaroline in critically ill patients receiving ECMO support. METHODS: We conducted a prospective, single-center observational study in critically ill patients receiving ECMO (veno-venous (VV) or veno-arterial (VA)) and treated with meropenem, piperacillin/tazobactam, linezolid, or ceftaroline. Serial blood samples were collected simultaneously from the patient's arterial line and from pre- and post-membrane oxygenator sampling sites. Non-compartmental analysis was used to derive PK measures, and concentration differences across sampling sites were analyzed to estimate circuit-related drug sequestration. Antimicrobial target attainment was assessed according to established PKPD targets. RESULTS: A total of 237 samples from 8 patients (4 VV, 4 VA) were analyzed. Limited, component-specific sequestration was observed in the membrane oxygenator for meropenem (9.28% ± 21.6%, p = 0.046) and ceftaroline (14.6% ± 17.5%, p = 0.010), for linezolid it was also identified (10.1% ± 12.3%, p = 0.005), but in tubing and connectors. Piperacillin/tazobactam showed negligible retention. However, when considering the ECMO circuit as a whole, no statistically significant reductions in systemic concentrations were observed for any antimicrobial. PK measures were generally consistent across sampling sites. In 20% of treatments, predefined PKPD efficacy targets were not achieved. CONCLUSIONS: Antimicrobial sequestration within the ECMO circuit is detectable and drug- and component-specific. However, overall impact on systemic antimicrobial exposure appears limited. Inadequate PKPD target attainment in a subset of antimicrobial treatments likely reflects the marked PK variability of critical illness rather than ECMO-related drug loss alone. These exploratory results support the use of therapeutic drug monitoring to individualize antimicrobial therapy in ECMO-supported patients and the need to conduct further population PK studies to better characterize determinants of antimicrobial exposure and to clarify the clinical relevance of circuit-related drug sequestration.",
+          "citation_count": 43,
+          "is_top_journal": true,
+          "study_type": "Observational Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13361821/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42152115/",
+          "ai_key_stats": "",
+          "ai_summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
+          "ai_significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients.",
           "ai_rounds_takeaway": ""
         },
         {
