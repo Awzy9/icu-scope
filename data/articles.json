@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T14:42:23+00:00",
+  "generated_at": "2026-08-29T09:32:26+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -2265,9 +2265,7 @@
         "pages": "",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42659642/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42659642/"
       },
       {
         "pmid": "42603304",
@@ -3297,6 +3295,31 @@
         "ai_summary": "This study reviewed endotracheal tube (ETT) size selection in critically ill patients over 4 years at a Saudi Arabian hospital. The researchers found that ETT size was not consistently chosen according to established guidelines and was associated with patient demographics such as height, sex, and age. They also identified factors that predicted larger ETT size.",
         "ai_significance": "This study highlights the need for more structured and evidence-based approaches to ETT size selection in ICU patients, which could improve patient outcomes and reduce complications.",
         "ai_rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes."
+      },
+      {
+        "pmid": "42659654",
+        "title": "Effects of Integration Sedation Interruption With Early Mobility on Patient Outcomes and Prevention of Intensive Care Unit-Acquired Weakness in Critically Ill Ventilated Patients.",
+        "journal": "Critical care nursing quarterly",
+        "pubdate": "2026 Oct-Dec 01",
+        "authors": [
+          "Aysha ZM",
+          "Abdelmalik MAA",
+          "Mohamed SA",
+          "Abdallah MAB"
+        ],
+        "doi": "10.1097/CNQ.0000000000000626",
+        "abstract": "BACKGROUND: Early mobilization and sedation reduction are critical strategies for improving patient outcomes. AIM: This study assessed the effects of integrating daily sedation interruptions with an early progressive mobility strategy on outcomes in critically ill, ventilated patients. STUDY DESIGN: A quasi-experimental research with a control group was conducted on a sample of 60 mechanically ventilated adult patients who met the inclusion criteria. We randomly divided the patients into 30 groups, with each representing the control and study groups. Data were gathered using 4 tools. RESULTS: The intervention group showed significant improvements (P < .001) in Medical Research Council strength scores, progressive mobility milestones, and functional assessment. Moreover, the intervention group showed significant improvements in clinical outcomes (P < .001), including shorter hospital stays, fewer adverse events, improved discharge status, and better weaning outcomes. CONCLUSIONS: The protocol for integrating sedation interruptions with early progressive mobility is associated with improved outcomes of critically ill ventilated patients. Further randomized controlled trial studies are suggested to improve patients' clinical outcomes.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "49",
+        "issue": "4",
+        "pages": "342-358",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42659654/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       }
     ]
   },
@@ -3334,8 +3357,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "respiratory",
         "category_label": "Respiratory"
       },
@@ -3370,8 +3391,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "neurology",
         "category_label": "Neurology"
       },
@@ -3588,29 +3607,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/",
         "category_id": "trauma-surgical",
         "category_label": "Trauma & Surgical"
-      },
-      {
-        "pmid": "42642764",
-        "title": "Assessment of the effectiveness of protein in critical illness: the role of statistical shortcomings in explaining discrepancies between observational studies and randomized controlled trials.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 22",
-        "authors": [
-          "Neuberger M",
-          "Hartl WH"
-        ],
-        "doi": "10.1186/s13054-026-06273-6",
-        "abstract": "BACKGROUND: Until 2023, recommendations for prescribing protein to critically ill patients were largely based on observational studies and non-randomized interventions. Several large, multicentre non-randomized studies of intervention conducted between 2009 and 2017 consistently reported that higher protein intake during the acute phase of critical illness was associated with lower mortality. However, major randomized controlled trials published in recent years (the EFFORT Protein trial in 2023, the PRECISe trial in 2024, and the TARGET Protein trial in 2025) have found no clinical benefit of increased protein administration. The reasons for these conflicting results are unclear, but they may be related to statistical shortcomings in observational studies. MAIN BODY: The authors identified numerous types of statistical bias in observational nutrition research. These include violations of the time axis, confounding by indication, failure to account for a wash-in period, inappropriate methods for variable selection and modelling of numerical confounder variables, transfer bias, sample-size bias, competing-risk bias, bias by data not missing at random, immortal time bias, and collider bias. To improve reliability, modern observational studies should emulate the design of randomized controlled trials. Advanced statistical approaches, including competing-risk models, time-varying analyses, nonlinear modelling and lag-time adjustments, can better account for the complexity of nutrition therapy in critical illness. CONCLUSIONS: Numerous types of bias may have exaggerated the apparent benefits of higher protein intake in older observational studies possibly explaining discrepancies to newer randomized trials. Rigorous statistical planning, transparent analysis protocols, use of advanced statistical approaches and expert statistical review are required to ensure that observational nutrition research produces valid, clinically meaningful evidence.",
-        "citation_count": 49,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13508364/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/",
-        "category_id": "gi-nutrition",
-        "category_label": "GI & Nutrition"
       }
     ]
   },
@@ -3688,9 +3684,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05421858",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05421858"
       },
       {
         "title": "Predict Arrhythmia Risk Using Intelligent Software",
@@ -3702,9 +3696,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07792694",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07792694"
       },
       {
         "title": "Assessment of the PEEP Responsiveness to Titrate End-expiratory Pressure and of the Need for Muscle Relaxation During Prone Positioning in Moderate-to-severe Acute Respiratory Distress Syndrome: A Master Protocol",
@@ -3716,9 +3708,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06849570",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06849570"
       },
       {
         "title": "Development of Context-Adapted Quality Indicators for Early Sepsis Care in Sub-Saharan Africa - A Modified Delphi Consensus Procedure",
@@ -3730,9 +3720,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07711535",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07711535"
       },
       {
         "title": "The Impact of the Family Room App on Caregivers",
@@ -3744,9 +3732,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06463158",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06463158"
       },
       {
         "title": "PRophylaxis Against Early VENTilator-associated Infections in Acute Brain Injury",
@@ -3758,9 +3744,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06819592",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06819592"
       },
       {
         "title": "Efficacy and Safety of Tozorakimab in Patients Hospitalised for Viral Lung Infection Requiring Supplemental Oxygen",
@@ -3772,9 +3756,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05624450",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05624450"
       },
       {
         "title": "A Trial of Tegileridine Fumarate Lnjection for Prolonged Mechanical Ventilation Abirritation in the Intensive Care Unit (ICU)",
@@ -3786,9 +3768,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07372924",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07372924"
       },
       {
         "title": "Adrenal Function in Critical Illness",
@@ -5833,8 +5813,8 @@
       "Which ICU patients are most likely to benefit from these findings, and who may not?",
       "Would these results change current bedside practice or require further validation?"
     ],
-    "week": "2026-08-22",
-    "generated_at": "2026-08-25T07:48:07+00:00"
+    "week": "2026-08-29",
+    "generated_at": "2026-08-29T09:31:58+00:00"
   },
   "categories": [
     {
@@ -8668,6 +8648,27 @@
       "label": "GI & Nutrition",
       "abbr": "GI",
       "articles": [
+        {
+          "pmid": "42642764",
+          "title": "Assessment of the effectiveness of protein in critical illness: the role of statistical shortcomings in explaining discrepancies between observational studies and randomized controlled trials.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Aug 22",
+          "authors": [
+            "Neuberger M",
+            "Hartl WH"
+          ],
+          "doi": "10.1186/s13054-026-06273-6",
+          "abstract": "BACKGROUND: Until 2023, recommendations for prescribing protein to critically ill patients were largely based on observational studies and non-randomized interventions. Several large, multicentre non-randomized studies of intervention conducted between 2009 and 2017 consistently reported that higher protein intake during the acute phase of critical illness was associated with lower mortality. However, major randomized controlled trials published in recent years (the EFFORT Protein trial in 2023, the PRECISe trial in 2024, and the TARGET Protein trial in 2025) have found no clinical benefit of increased protein administration. The reasons for these conflicting results are unclear, but they may be related to statistical shortcomings in observational studies. MAIN BODY: The authors identified numerous types of statistical bias in observational nutrition research. These include violations of the time axis, confounding by indication, failure to account for a wash-in period, inappropriate methods for variable selection and modelling of numerical confounder variables, transfer bias, sample-size bias, competing-risk bias, bias by data not missing at random, immortal time bias, and collider bias. To improve reliability, modern observational studies should emulate the design of randomized controlled trials. Advanced statistical approaches, including competing-risk models, time-varying analyses, nonlinear modelling and lag-time adjustments, can better account for the complexity of nutrition therapy in critical illness. CONCLUSIONS: Numerous types of bias may have exaggerated the apparent benefits of higher protein intake in older observational studies possibly explaining discrepancies to newer randomized trials. Rigorous statistical planning, transparent analysis protocols, use of advanced statistical approaches and expert statistical review are required to ensure that observational nutrition research produces valid, clinically meaningful evidence.",
+          "citation_count": 49,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13508364/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/"
+        },
         {
           "pmid": "42467893",
           "title": "Erratum: AASLD Practice Guidance on Acute-on-chronic liver failure and the management of critically ill patients with cirrhosis.",
