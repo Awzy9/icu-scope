@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T08:39:40+00:00",
+  "generated_at": "2026-08-31T09:02:52+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -2183,6 +2183,33 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13503594/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42643465/",
+        "society": "KDIGO"
+      },
+      {
+        "pmid": "42668743",
+        "title": "Association between time-of-day plasma lipid measurements and acute kidney injury in critically ill patients: A retrospective cohort study.",
+        "journal": "SAGE open medicine",
+        "pubdate": "2026",
+        "authors": [
+          "Yang C",
+          "Zhou XF",
+          "Wei SX",
+          "He XF",
+          "Jiang XD",
+          "Chen Y",
+          "Chen H"
+        ],
+        "doi": "10.1177/20503121261484432",
+        "abstract": "BACKGROUND: This study aimed to evaluate the association between time-of-day differences in blood lipids and acute kidney injury (AKI) in critically ill patients. METHODS: This study enrolled 3,227 ICU patients. AKI was defined according to the KDIGO 2012 criteria. Cox regression, restricted cubic splines, Kaplan-Meier analysis, and stratified interaction analysis were used to assess the association between daytime/nighttime levels of high-density lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), triglycerides and AKI. RESULTS: Each 1 mg/dL increase in HDL-C was associated with a 0.5% decrease in AKI risk [HR 0.995, 95% CI 0.993-0.998, P < 0.001]. Each 1 mg/dL increase in triglyceride was associated with a 0.1% increase in AKI risk [HR 1.001, 95% CI 1.000-1.001, P = 0.004]. LDL-C exhibited an L-shaped nonlinear relationship with AKI. At or below 47 mg/dL (daytime), 58 mg/dL (nighttime), and 48 mg/dL (overall), lower LDL-C was associated with higher AKI risk, whereas above these thresholds, LDL-C was no longer associated with AKI risk [daytime: HR 0.977, 95% CI 0.964-0.991, P < 0.001; nighttime: HR 0.992, 95% CI 0.985-0.998, P = 0.009; overall: HR 0.987, 95% CI 0.980-0.994, P < 0.001]. CONCLUSION: Higher HDL-C levels were consistently associated with lower AKI incidence within 28 days after ICU admission. Higher nighttime and overall triglyceride levels were associated with higher AKI incidence. An L-shaped nonlinear relationship was observed between LDL-C and AKI risk, with thresholds at 47 mg/dL (daytime), 58 mg/dL (nighttime), and 48 mg/dL (overall). These findings highlight a complex relationship between lipid metabolism and renal outcomes in critically ill patients and warrant confirmation through prospective studies.",
+        "citation_count": 52,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "14",
+        "issue": "",
+        "pages": "20503121261484432",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13525298/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42668743/",
         "society": "KDIGO"
       },
       {
@@ -6011,7 +6038,9 @@
             "strengths": "large sample size; 6-month follow-up data; intention-to-treat principle",
             "weaknesses": "open-label design; non-inferiority trial",
             "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42469838",
@@ -6077,7 +6106,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study evaluated the feasibility and prognostic value of echocardiographic parameters in a mixed ICU population. It found that impaired mitral annular plane systolic excursion (MAPSE) and global longitudinal strain (GLS) were associated with increased mortality. MAPSE was also the most feasible measurement.",
           "ai_significance": "These findings suggest that incorporating MAPSE into routine ICU echocardiography may improve detection and risk stratification of left ventricular dysfunction in critical illness, potentially leading to better patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432771",
@@ -6108,7 +6139,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a new method using electrical impedance tomography (EIT) to quickly and non-invasively diagnose pulmonary embolism (PE) in critically ill patients. The method uses a frequency-domain band-pass filter to extract perfusion-related pulsatility and separate it from ventilation-related low-frequency components. The study found that the method can accurately diagnose PE and risk-stratify patients based on three key parameters.",
           "ai_significance": "This study has significant implications for ICU clinical practice as it provides a novel, non-invasive method for diagnosing and risk-stratifying patients with pulmonary embolism, which is a major cause of morbidity and mortality in critical care.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42507344",
@@ -6139,7 +6172,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
           "ai_significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42315625",
@@ -6171,7 +6206,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
           "ai_significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42332804",
@@ -6203,7 +6240,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
           "ai_significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42320025",
@@ -6238,7 +6277,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
           "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42271417",
@@ -6300,7 +6341,9 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill patients with sepsis and shock often have high lactate levels, but this doesn't always mean they're not getting enough oxygen. Lactate is a key metabolic intermediate that reflects the balance between production, utilization, and clearance. The kidneys play a significant role in lactate utilization and clearance, especially in patients with acute kidney injury.",
           "ai_significance": "Understanding lactate biology in critical illness can help clinicians interpret lactate levels more accurately and develop more effective management strategies for septic acute kidney injury.",
-          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function."
+          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502537",
@@ -6330,7 +6373,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
           "ai_significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42216195",
@@ -6359,7 +6404,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses the challenges of diagnosing and managing Triple M overlap syndrome, a severe and lethal immune-related adverse event in critically ill patients. It highlights key diagnostic pitfalls and proposes a structured ICU-oriented approach to improve outcomes. Early recognition and parallel evaluation for infection and immune-mediated disease are essential.",
           "ai_significance": "Early recognition and management of Triple M overlap syndrome are crucial to improving outcomes in critically ill patients, as delays in treatment can lead to increased mortality.",
-          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease."
+          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42188994",
@@ -6392,7 +6439,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
           "ai_significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         }
       ]
     },
@@ -6427,7 +6476,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
           "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42587308",
@@ -6604,7 +6655,9 @@
           "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
           "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
           "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype.",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502162",
@@ -6641,7 +6694,9 @@
             "strengths": "randomized controlled trial design; large sample size (n = 118)",
             "weaknesses": "lack of statistical significance for primary outcome measures; retrospective registration of trial",
             "bottom_line": "Toothbrushing with chlorhexidine mouth rinse may have a potential benefit in reducing ventilator-associated pneumonia incidence and improving clinical outcomes in PICU patients, but further larger multicenter studies are needed to confirm its effect."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42493817",
@@ -6666,7 +6721,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that early nutritional supplementation may not be beneficial for all critically ill patients with sepsis, and further research is needed to determine the optimal nutritional strategy for this population.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42638131",
@@ -6733,7 +6790,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
           "ai_significance": "These results have implications for the development of personalized treatment strategies and outcome prediction tools in critically ill patients, potentially improving patient care and outcomes in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42150121",
@@ -6790,7 +6849,9 @@
             "strengths": "Large sample size; pragmatic design; assessor-blinded",
             "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
             "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
-          }
+          },
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506109",
@@ -6821,7 +6882,9 @@
           "ai_key_stats": "",
           "ai_summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
           "ai_significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506369",
@@ -6852,7 +6915,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
           "ai_significance": "This research has implications for ICU clinical practice, as it suggests that vitamin C can be used as a pharmacological agent in critical illness, and that biomarkers can be used to guide treatment and improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42467246",
@@ -6888,7 +6953,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
           "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42442528",
@@ -6994,7 +7061,9 @@
           "ai_key_stats": "",
           "ai_summary": "The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.",
           "ai_significance": "This study will facilitate phenotyping of critical illness syndromes, potentially leading to more targeted and effective treatments for ARDS, pneumonia, and sepsis in ICU patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42410654",
@@ -7022,7 +7091,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviews the current limitations in critical care research due to syndromic diagnoses and proposes a pathway-level framework to translate omics insights into clinical trial design and bedside decision-making.",
           "ai_significance": "This framework has the potential to improve patient outcomes by enabling personalized treatment and more effective use of existing therapies in critical care settings.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42496477",
@@ -7048,7 +7119,9 @@
           "ai_key_stats": "",
           "ai_summary": "A 31-year-old woman experienced multiple cutaneous burns from a lightning strike, leading to three extubation failures and ultimately requiring a tracheostomy. Direct airway injury and inflammation likely contributed to her inability to breathe independently. Bronchoscopic assessment and conservative extubation protocols may help prevent similar complications.",
           "ai_significance": "This case highlights the importance of considering airway injury in lightning strike victims with neck or thoracic burns, and the need for early and conservative management to prevent extubation failure.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506332",
@@ -7077,7 +7150,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how neutrophil-to-lymphocyte ratio and mean platelet volume affected critically ill COVID-19 patients at different altitudes. Researchers found that higher levels of these markers were associated with increased risk of death in ICU patients. These findings suggest that altitude may impact the prognostic value of these markers.",
           "ai_significance": "This study's findings may help clinicians tailor their treatment approaches to critically ill COVID-19 patients based on their altitude and laboratory values, potentially improving outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42337809",
@@ -7114,7 +7189,9 @@
           "ai_key_stats": "",
           "ai_summary": "This randomized controlled trial tested the sleep-promoting effects of suvorexant in patients recovering from cardiac surgery. Suvorexant did not improve sleep architecture or reduce delirium in these patients. The study found no significant differences in sleep quality, delirium incidence, or rescue medication use between suvorexant and placebo groups.",
           "ai_significance": "This study's findings are significant for ICU clinicians as they suggest that suvorexant may not be an effective treatment for improving sleep or reducing delirium in patients recovering from cardiac surgery.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42332775",

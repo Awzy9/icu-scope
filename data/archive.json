@@ -7706,6 +7706,33 @@
       "pmc_url": null,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42640090/",
       "society": "Surviving Sepsis Campaign"
+    },
+    "42668743": {
+      "pmid": "42668743",
+      "title": "Association between time-of-day plasma lipid measurements and acute kidney injury in critically ill patients: A retrospective cohort study.",
+      "journal": "SAGE open medicine",
+      "pubdate": "2026",
+      "authors": [
+        "Yang C",
+        "Zhou XF",
+        "Wei SX",
+        "He XF",
+        "Jiang XD",
+        "Chen Y",
+        "Chen H"
+      ],
+      "doi": "10.1177/20503121261484432",
+      "abstract": "BACKGROUND: This study aimed to evaluate the association between time-of-day differences in blood lipids and acute kidney injury (AKI) in critically ill patients. METHODS: This study enrolled 3,227 ICU patients. AKI was defined according to the KDIGO 2012 criteria. Cox regression, restricted cubic splines, Kaplan-Meier analysis, and stratified interaction analysis were used to assess the association between daytime/nighttime levels of high-density lipoprotein cholesterol (HDL-C), low-density lipoprotein cholesterol (LDL-C), triglycerides and AKI. RESULTS: Each 1 mg/dL increase in HDL-C was associated with a 0.5% decrease in AKI risk [HR 0.995, 95% CI 0.993-0.998, P < 0.001]. Each 1 mg/dL increase in triglyceride was associated with a 0.1% increase in AKI risk [HR 1.001, 95% CI 1.000-1.001, P = 0.004]. LDL-C exhibited an L-shaped nonlinear relationship with AKI. At or below 47 mg/dL (daytime), 58 mg/dL (nighttime), and 48 mg/dL (overall), lower LDL-C was associated with higher AKI risk, whereas above these thresholds, LDL-C was no longer associated with AKI risk [daytime: HR 0.977, 95% CI 0.964-0.991, P < 0.001; nighttime: HR 0.992, 95% CI 0.985-0.998, P = 0.009; overall: HR 0.987, 95% CI 0.980-0.994, P < 0.001]. CONCLUSION: Higher HDL-C levels were consistently associated with lower AKI incidence within 28 days after ICU admission. Higher nighttime and overall triglyceride levels were associated with higher AKI incidence. An L-shaped nonlinear relationship was observed between LDL-C and AKI risk, with thresholds at 47 mg/dL (daytime), 58 mg/dL (nighttime), and 48 mg/dL (overall). These findings highlight a complex relationship between lipid metabolism and renal outcomes in critically ill patients and warrant confirmation through prospective studies.",
+      "citation_count": 52,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "14",
+      "issue": "",
+      "pages": "20503121261484432",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13525298/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42668743/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
