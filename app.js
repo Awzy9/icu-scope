@@ -594,6 +594,49 @@
     return article.pmid ? `pmid:${article.pmid}` : `url:${article.url}`;
   }
 
+  // The same PubMed record can legitimately match more than one organ-system
+  // query. The backend normally collapses those matches for the shared
+  // “This Week” shelf, but keep a frontend guard as well so stale/cached data
+  // can never render duplicate cards. Prefer stable identifiers, then fall
+  // back to a normalized title/journal key for records without PMID/DOI/URL.
+  function articleDedupeKey(article) {
+    const pmid = String(article && article.pmid || "").trim();
+    if (pmid) return `pmid:${pmid}`;
+
+    const doi = String(article && article.doi || "")
+      .trim()
+      .toLowerCase()
+      .replace(/^https?:\/\/(?:dx\.)?doi\.org\//, "");
+    if (doi) return `doi:${doi}`;
+
+    const url = String(article && article.url || "")
+      .trim()
+      .toLowerCase()
+      .replace(/#.*$/, "")
+      .replace(/\/$/, "");
+    if (url) return `url:${url}`;
+
+    const title = String(article && article.title || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+    const journal = String(article && article.journal || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+    return `title:${title}|journal:${journal}`;
+  }
+
+  function dedupeArticles(articles) {
+    const seen = new Set();
+    return (articles || []).filter((article) => {
+      const key = articleDedupeKey(article);
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    });
+  }
+
   function collectAllIds(data) {
     const ids = new Set();
     (data.trending && data.trending.articles || []).forEach((a) => ids.add(articleId(a)));
@@ -914,6 +957,14 @@
 
   function matchesOrgan(article, organId) {
     if (!organId || organId === "all") return true;
+    // ``this_week`` records can belong to several source categories after
+    // backend de-duplication. Use those explicit memberships first instead
+    // of relying only on keyword heuristics.
+    const categoryIds = Array.isArray(article.category_ids)
+      ? article.category_ids
+      : (article.category_id ? [article.category_id] : []);
+    if (categoryIds.includes(organId)) return true;
+
     const keywords = ORGAN_KEYWORDS[organId];
     if (!keywords) return true;
     const hay = `${article.title || ""} ${article.abstract || ""} ${article.summary || ""}`.toLowerCase();
@@ -1473,7 +1524,8 @@
   }
 
   function renderThisWeek(thisWeek, term, days, studyType, year, journal, organId) {
-    const articles = filterList((thisWeek && thisWeek.articles) || [], term, days, studyType, year, journal, organId);
+    const uniqueArticles = dedupeArticles((thisWeek && thisWeek.articles) || []);
+    const articles = filterList(uniqueArticles, term, days, studyType, year, journal, organId);
     thisWeekWindow.textContent = thisWeek ? thisWeek.window_days : "";
     if (!articles.length) {
       thisWeekSection.hidden = true;
@@ -1539,11 +1591,15 @@
     // category server-side, tagged with category_id/category_label) rather
     // than staying in cat.articles, so count from there instead of
     // re-deriving "recent" from pubdate here.
-    const thisWeekArticles = (data.this_week && data.this_week.articles) || [];
+    const thisWeekArticles = dedupeArticles((data.this_week && data.this_week.articles) || []);
     const countByCategory = {};
     thisWeekArticles.forEach((a) => {
-      if (!a.category_id) return;
-      countByCategory[a.category_id] = (countByCategory[a.category_id] || 0) + 1;
+      const categoryIds = Array.isArray(a.category_ids) && a.category_ids.length
+        ? a.category_ids
+        : (a.category_id ? [a.category_id] : []);
+      categoryIds.forEach((categoryId) => {
+        countByCategory[categoryId] = (countByCategory[categoryId] || 0) + 1;
+      });
     });
     let topCategory = null;
     let topCategoryCount = -1;
@@ -2027,6 +2083,14 @@
 
   function commitData(data) {
     if (!data || !Array.isArray(data.categories)) throw new Error("Invalid article data");
+
+    // Normalize the shared recent shelf immediately. This fixes duplicate
+    // cards even if a deployment is temporarily serving an articles.json
+    // produced by an older workflow version.
+    if (data.this_week && Array.isArray(data.this_week.articles)) {
+      data.this_week.articles = dedupeArticles(data.this_week.articles);
+    }
+
     rawData = data;
     updatedLine.textContent = formatUpdatedAt(data.generated_at, data.window_days);
     populateFilterOptions(data);

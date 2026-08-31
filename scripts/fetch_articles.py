@@ -1508,6 +1508,32 @@ def is_pediatric(article):
     return any(kw in title for kw in PEDIATRIC_TITLE_KEYWORDS)
 
 
+def article_identity(article):
+    """Return a stable cross-category identity for one literature record.
+
+    PubMed queries for different organ systems can return the same paper.
+    Category buckets are intentionally independent, so de-duplicate only when
+    those buckets are combined into a shared shelf such as ``this_week``.
+    """
+    pmid = str(article.get("pmid") or "").strip()
+    if pmid:
+        return f"pmid:{pmid}"
+
+    doi = str(article.get("doi") or "").strip().lower()
+    doi = re.sub(r"^https?://(?:dx\.)?doi\.org/", "", doi)
+    if doi:
+        return f"doi:{doi}"
+
+    url = str(article.get("url") or "").strip().lower()
+    url = re.sub(r"#.*$", "", url).rstrip("/")
+    if url:
+        return f"url:{url}"
+
+    title = re.sub(r"[^a-z0-9]+", " ", str(article.get("title") or "").lower()).strip()
+    journal = re.sub(r"[^a-z0-9]+", " ", str(article.get("journal") or "").lower()).strip()
+    return f"title:{title}|journal:{journal}"
+
+
 def merge_into_bucket(bucket, fresh_articles, id_fn):
     """Add/update fresh_articles into bucket (keyed dict, mutated in place).
 
@@ -1667,16 +1693,28 @@ def main():
     # category once they're no longer within the window -- nothing needs
     # to track when an article last moved.
     this_week_articles = []
+    this_week_by_id = {}
     for cat in categories_out:
         remaining = []
         for a in cat["articles"]:
             if is_recent(a, THIS_WEEK_DAYS):
-                # Tagged with its origin category so the frontend dashboard
-                # can still compute "top category this week" even though
-                # the article no longer lives in that category's own list.
-                a["category_id"] = cat["id"]
-                a["category_label"] = cat["label"]
-                this_week_articles.append(a)
+                # The same paper may match multiple organ-system queries.
+                # Keep one card on the shared shelf, while preserving every
+                # matching category for dashboard/filter bookkeeping.
+                identity = article_identity(a)
+                existing = this_week_by_id.get(identity)
+                if existing is None:
+                    a["category_id"] = cat["id"]
+                    a["category_label"] = cat["label"]
+                    a["category_ids"] = [cat["id"]]
+                    a["category_labels"] = [cat["label"]]
+                    this_week_by_id[identity] = a
+                    this_week_articles.append(a)
+                else:
+                    if cat["id"] not in existing.setdefault("category_ids", []):
+                        existing["category_ids"].append(cat["id"])
+                    if cat["label"] not in existing.setdefault("category_labels", []):
+                        existing["category_labels"].append(cat["label"])
             else:
                 remaining.append(a)
         cat["articles"] = remaining
