@@ -1,4 +1,8 @@
 {
+  "pmid:42320025": {
+    "summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
+    "significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects."
+  },
   "pmid:42267831": {
     "clinical_question": "Does conservative oxygen therapy improve survival with a favorable functional outcome in unresponsive adults after cardiac arrest compared to liberal oxygen therapy?",
     "background": "In patients who are unresponsive after resuscitation from cardiac arrest, limiting oxygen exposure may increase the likelihood of survival with a favorable functional outcome.",
@@ -54,10 +58,6 @@
   "pmid:42332804": {
     "summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
     "significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients."
-  },
-  "pmid:42320025": {
-    "summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
-    "significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects."
   },
   "pmid:42237139": {
     "key_stats": "",

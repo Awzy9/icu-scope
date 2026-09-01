@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Mon, 31 Aug 2026 09:02:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:06:03 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
@@ -13,18 +13,102 @@
       <description>This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.</description>
     </item>
     <item>
+      <title>Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42320025/</link>
+      <guid isPermaLink="false">pmid:42320025</guid>
+      <category>This Week</category>
+      <description>This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.</description>
+    </item>
+    <item>
       <title>Mechanisms and therapeutic strategies of pyroptosis in sepsis‑induced acute lung injury (Review).</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42495753/</link>
       <guid isPermaLink="false">pmid:42495753</guid>
-      <category>Respiratory</category>
+      <category>This Week</category>
       <description>This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.</description>
     </item>
     <item>
       <title>Fluid and Electrolyte Management in Critically Ill Patients with Infections.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42498336/</link>
       <guid isPermaLink="false">pmid:42498336</guid>
-      <category>Renal</category>
+      <category>This Week</category>
       <description>Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.</description>
+    </item>
+    <item>
+      <title>CV-EMCrit Wee – Q&amp;A 1</title>
+      <link>https://emcrit.org/emcrit/cv-emcrit-wee-qa-1/</link>
+      <guid isPermaLink="false">https://emcrit.org/emcrit/cv-emcrit-wee-qa-1/</guid>
+      <category>EMCrit</category>
+      <description>Today, Trina &amp; I take listener CV-EMCrit ?s EMCrit Project by Scott Weingart, MD FCCM .</description>
+    </item>
+    <item>
+      <title>PulmCrit Hot Take: PRAGUE-26 RCT on catheter-directed thrombolysis for intermediate-high risk PE</title>
+      <link>https://emcrit.org/pulmcrit/kroupa/</link>
+      <guid isPermaLink="false">https://emcrit.org/pulmcrit/kroupa/</guid>
+      <category>PulmCrit</category>
+      <description>Another MC-RCT just dropped on catheter-directed tPA for intermediate-high risk PE patients. It’s overall pretty similar to the HI-PEITHO trial (previously discussed here). I doubt it will change much, because most people are already pretty dug in on their positions on intermediate-high risk PE. Nonetheless, this is a large MC-RCT, and it deserves some discussion. […] EMCrit Project by Josh Farkas</description>
+    </item>
+    <item>
+      <title>Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission</title>
+      <link>https://clinicaltrials.gov/study/NCT07780526</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07780526</guid>
+      <category>Clinical Trial</category>
+      <description>This prospective observational pilot study will evaluate how accurately anesthesiologists can predict, before a procedure, whether an adult patient will require admission to an intensive care unit (İCU) after surgery or an endoscopic procedure. Before each procedure, the anesthesiologist will record whether postoperative intensive care unit (İCU) care is expected and the clinical factors influencing this assessment. No changes will be made to the patient's usual medical care. After the procedure</description>
+    </item>
+    <item>
+      <title>Comparison of the Impact of Three Programs of Inspiratory Muscles.</title>
+      <link>https://clinicaltrials.gov/study/NCT02855619</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT02855619</guid>
+      <category>Clinical Trial</category>
+      <description>Ventilator-induced diaphragmatic dysfunction appears to contribute to slow weaning from mechanical ventilation. Several trials of inspiratory muscle training to facilitate weaning in intensive care have been performed, with inconsistent results, utilizing different methods of IMT in different populations. In this study, the investigators want to compare the incidence of 3 inspiratory muscle training programs on inspiratory strength, on difficult to wean patients in intensive care unit. This is a</description>
+    </item>
+    <item>
+      <title>Early Versus Late Adjunctive Vasopressin in Septic Shock</title>
+      <link>https://clinicaltrials.gov/study/NCT06709573</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06709573</guid>
+      <category>Clinical Trial</category>
+      <description>The goal of the CASPER-Pilot study is to develop clinical decision support (CDS) technology within Epic to randomize patients with septic shock to early versus standard of care vasopressin initiation. The primary aim of this study will be to test the hypothesis that CDS technology can be utilized to create two distinct cohorts of patients reflecting different times of vasopressin initiation based on norepinephrine dose requirements. Secondarily, this study will evaluate the proportion of patient</description>
+    </item>
+    <item>
+      <title>NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)</title>
+      <link>https://clinicaltrials.gov/study/NCT05189925</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05189925</guid>
+      <category>Clinical Trial</category>
+      <description>Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge</description>
+    </item>
+    <item>
+      <title>Family Videos and Virtual Reality in Intensive Care Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT07794696</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07794696</guid>
+      <category>Clinical Trial</category>
+      <description>This randomized controlled trial was conducted to evaluate the effects of family videos and virtual reality-based nature videos on anxiety, agitation, pain, and vital signs in adult intensive care unit patients. A total of 72 participants were randomly assigned to three parallel groups: a family video group (n=24), a family video plus virtual reality-based nature video group (n=24), and a standard care control group (n=24). Anxiety, agitation, pain, and vital signs were assessed before and after</description>
+    </item>
+    <item>
+      <title>Ultrasound of the Quadriceps Femoris Compared With the Clinical Frailty Scale</title>
+      <link>https://clinicaltrials.gov/study/NCT06523348</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06523348</guid>
+      <category>Clinical Trial</category>
+      <description>This is a single-centre prospective diagnostic study. When a patient is admitted to the inclusion centre, the clinician responsible for the patient checks the inclusion and exclusion criteria. The no objection from the patient (or their trusted support person or, failing that, a close if the patient is unable to give consent) is sought.The CFS scale is completed and recorded by the clinician in the observation observation notebook.The clinician performs a quadricipital muscle ultrasound, specifi</description>
+    </item>
+    <item>
+      <title>Clinical Validation of a Pre-trained and Fine-tuned Model for Analyzing Time-Series Electronic Health Records in Critical Care</title>
+      <link>https://clinicaltrials.gov/study/NCT07795450</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07795450</guid>
+      <category>Clinical Trial</category>
+      <description>The goal of this observational study is to validate the generalization capability and predictive performance of the &quot;Time-Series Electronic Health Record Foundation Model (EHR Foundation Model)&quot;, which was pre-trained on a large-scale critical care dataset, within the real-world clinical environment of the Intensive Care Unit (ICU) at Peking University People's Hospital. The main question it aims to answer is: · Based on the &quot;pre-training + fine-tuning&quot; paradigm, whether the EHR foundation model</description>
+    </item>
+    <item>
+      <title>Dynamic Infection Kinetics for Early Diagnosis, Monitoring, and Prognostication of Sepsis in Adult Oncology Patients: A Prospective Observational Cohort Study Evaluating Serial Infection Biomarkers, Blood Culture Kinetics, Treatment Response, Disease Severity, and Clinical Outcomes</title>
+      <link>https://clinicaltrials.gov/study/NCT07795502</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07795502</guid>
+      <category>Clinical Trial</category>
+      <description>Dynamic Infection Kinetics as an Early Diagnostic and Monitoring Tool for Sepsis in Oncology Patients This study aims to evaluate whether changes over time in infection-related biomarkers and blood culture findings can help detect sepsis earlier and monitor the response to treatment in adult patients with cancer. Cancer patients are at increased risk of developing serious infections and sepsis because of their underlying disease and its treatment. Early diagnosis and monitoring can be challengin</description>
+    </item>
+    <item>
+      <title>MID-STEP (MIDodrine for Sepsis Treatment and Early vasoPressor Weaning) Trial</title>
+      <link>https://clinicaltrials.gov/study/NCT06319248</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06319248</guid>
+      <category>Clinical Trial</category>
+      <description>This study is being done to determine if early administration of Midodrine can improve outcomes by maintaining a higher mean blood pressure off of intravenous medications. Researchers want to see if Midodrine can help people with sepsis need fewer vasopressors, which could mean shorter hospital stays, less time with uncomfortable tubes, and a smoother recovery overall.</description>
     </item>
     <item>
       <title>A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.</title>
@@ -118,13 +202,6 @@
       <description>Acute respiratory distress syndrome (ARDS) is a common and clinically significant complication in patients with acute brain injury (ABI), affecting up to one-third of critically ill individuals and contributing to increased mortality, prolonged mechanical ventilation, and worse neurological outcomes. The coexistence of ARDS and ABI creates a fundamental therapeutic dilemma: strategies that protect the lung may adversely affect cerebral physiology, whilst neuroprotective targets may compromise re</description>
     </item>
     <item>
-      <title>Balancing lung and brain: physiological strategies for ARDS management in acute brain injury.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42658259/</link>
-      <guid isPermaLink="false">pmid:42658259</guid>
-      <category>This Week</category>
-      <description>Acute respiratory distress syndrome (ARDS) is a common and clinically significant complication in patients with acute brain injury (ABI), affecting up to one-third of critically ill individuals and contributing to increased mortality, prolonged mechanical ventilation, and worse neurological outcomes. The coexistence of ARDS and ABI creates a fundamental therapeutic dilemma: strategies that protect the lung may adversely affect cerebral physiology, whilst neuroprotective targets may compromise re</description>
-    </item>
-    <item>
       <title>Effect of Benson Relaxation Technique on Pain Level, Insomnia, Nausea, Vomiting, and Retching in Oncology Patients</title>
       <link>https://clinicaltrials.gov/study/NCT06661239</link>
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06661239</guid>
@@ -172,34 +249,6 @@
       <guid isPermaLink="false">pmid:42645558</guid>
       <category>This Week</category>
       <description>Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract t</description>
-    </item>
-    <item>
-      <title>State-of-the-art review: ß-blockade in critical illness.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42645558/</link>
-      <guid isPermaLink="false">pmid:42645558</guid>
-      <category>This Week</category>
-      <description>Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract t</description>
-    </item>
-    <item>
-      <title>State-of-the-art review: ß-blockade in critical illness.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42645558/</link>
-      <guid isPermaLink="false">pmid:42645558</guid>
-      <category>This Week</category>
-      <description>Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract t</description>
-    </item>
-    <item>
-      <title>State-of-the-art review: ß-blockade in critical illness.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42645558/</link>
-      <guid isPermaLink="false">pmid:42645558</guid>
-      <category>This Week</category>
-      <description>Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract t</description>
-    </item>
-    <item>
-      <title>The Microbiome in Critical Illness.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42644690/</link>
-      <guid isPermaLink="false">pmid:42644690</guid>
-      <category>This Week</category>
-      <description>OBJECTIVES: To review how the human microbiome impacts management of the critically ill or injured patient. DATA SOURCES: English-language manuscripts were sourced from PubMed and OVID from inception to August 2025. STUDY SELECTION: Manuscripts addressing the mammalian microbiome, microbiome characterization, microbiome derangement, microbiome restoration, critical care interventions, the ICU, and organ system outcomes related to the human microbiome. Gray literature was excluded. DATA EXTRACTIO</description>
     </item>
     <item>
       <title>The Microbiome in Critical Illness.</title>
@@ -342,13 +391,6 @@
       <description>A double-blind randomized controlled trial comparing beta-lactam plus levofloxacin versus beta-lactam monotherapy for the treatment of Streptococcal bacteremia</description>
     </item>
     <item>
-      <title>Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission</title>
-      <link>https://clinicaltrials.gov/study/NCT07780526</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07780526</guid>
-      <category>Clinical Trial</category>
-      <description>This prospective observational pilot study will evaluate how accurately anesthesiologists can predict, before a procedure, whether an adult patient will require admission to an intensive care unit (ICU) after surgery or an endoscopic procedure. Before each procedure, the anesthesiologist will record whether postoperative ICU care is expected and the clinical factors influencing this assessment. No changes will be made to the patient's usual medical care. After the procedure, the researchers will</description>
-    </item>
-    <item>
       <title>Optimizing Access Surgery In Senior Hemodialysis Patients</title>
       <link>https://clinicaltrials.gov/study/NCT05911451</link>
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05911451</guid>
@@ -382,48 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05513456</guid>
       <category>Clinical Trial</category>
       <description>The dominating proportion of patients in the ICU are men. Studies indicate that men receive more mechanical ventilation, vasoactive drugs, renal replacement therapy, invasive monitoring and have longer length of stay in the ICU. These differences do not unambiguously translate into a survival benefit for men; if survival would be altered if women were admitted to ICU in the same extent is unknown. Factors affecting ICU admission include age, co-morbidities, physiological parameters (indicating s</description>
-    </item>
-    <item>
-      <title>Eduction in ImmunoSuppressive Regimen Among Kidney Transplant Recipients Patients Admitted to the Intensive Care Unit for Septic Shock and/or Acute Respiratory Failure</title>
-      <link>https://clinicaltrials.gov/study/NCT06881927</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06881927</guid>
-      <category>Clinical Trial</category>
-      <description>Kidney transplantation is the treatment of choice for end-stage chronic kidney disease. Kidney transplantation is at the first rank of solid organ transplantation in France, with 3,376 grafts performed in 2022. Immunosuppressive therapy, required to prevent graft rejection, exposes graft recipients to complications related to decreased immunity, including opportunistic infections and neoplastic complications. After the earlt post-transplantation period, up to 10% of kidney transplant recipients </description>
-    </item>
-    <item>
-      <title>A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy</title>
-      <link>https://clinicaltrials.gov/study/NCT06854640</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06854640</guid>
-      <category>Clinical Trial</category>
-      <description>Researchers are looking for a better way to treat people who have sepsis induced coagulopathy. Sepsis happens when bacteria and their toxins spread in the blood, causing an infection. To overcome the infection the body responds activating the immune system, sometimes this immune response is too active and causes uncontrolled blood clot formation, also called sepsis-induced coagulopathy. Sepsis coagulopathy damages blood vessels and organs and leads to low platelet levels in the body. In severe c</description>
-    </item>
-    <item>
-      <title>Inhaled Dornase Alpha to Reduce Respiratory Failure After Severe Trauma</title>
-      <link>https://clinicaltrials.gov/study/NCT03368092</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT03368092</guid>
-      <category>Clinical Trial</category>
-      <description>Severe hypoxemia following trauma may happen in many circumstances (aspiration, ventilation-associated pneumonia, lung contusion...), most of which are not exclusively associated with a direct injury to the lungs. Severe trauma and associated musculoskeletal injuries result in the acute release of Damage-Associated Molecular Patterns (DAMPs) in plasma, many of which are made of nucleic acids. DAMPs then bind leukocytes and trigger NETosis (Neutrophil Extracellular Traps), the release of nuclear </description>
-    </item>
-    <item>
-      <title>RDW:MCHC as a Pragmatic Adjunct to SOFA Score in ICU Mortality Assessment</title>
-      <link>https://clinicaltrials.gov/study/NCT07775911</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07775911</guid>
-      <category>Clinical Trial</category>
-      <description>Critical illness represents a complex pathophysiological state characterized by systemic inflammation, oxidative stress, immune dysregulation, and progressive multiorgan dysfunction. In the Intensive Care Unit (ICU) setting, accurate and timely risk stratification remains paramount for optimizing patient outcomes, guiding therapeutic decision-making, and ensuring appropriate allocation of limited healthcare resources .Red cell distribution width (RDW), a quantitative measure of anisocytosis, has</description>
-    </item>
-    <item>
-      <title>Discordance Between Capillary Refill Time and Oxygen Extraction Ratio in Septic Shock</title>
-      <link>https://clinicaltrials.gov/study/NCT07774962</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07774962</guid>
-      <category>Clinical Trial</category>
-      <description>In septic shock, restoring large-vessel (macrocirculatory) perfusion-reflected by a normal capillary refill time (CRT)-does not always mean that oxygen use at the tissue level has recovered. This mismatch, sometimes called loss of hemodynamic coherence, may be detectable by comparing CRT with the oxygen extraction ratio (O₂ER), a marker of how much oxygen the tissues are extracting from the blood. Patients whose CRT has normalized but whose O₂ER remains abnormal-either too high (suggesting oxyge</description>
-    </item>
-    <item>
-      <title>Development and Effectiveness Evaluation of a Clustered Care Guideline Within Individualized Developmental Care: RCT</title>
-      <link>https://clinicaltrials.gov/study/NCT07052786</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07052786</guid>
-      <category>Clinical Trial</category>
-      <description>The Individualized Developmental Care (IDC) model was developed to minimize the negative impact of the neonatal intensive care environment and to support infants' physiological stability. It supports the practice of clustered care, which refers to grouping routine medical and nursing procedures into a single care time period to reduce handling and allow the infant uninterrupted rest and maintenance of the sleep-wake cycle. This study aims to develop a clustered care practice guideline and evalua</description>
     </item>
   </channel>
 </rss>
