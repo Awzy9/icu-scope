@@ -6496,6 +6496,16 @@
       "summary": "Another MC-RCT just dropped on catheter-directed tPA for intermediate-high risk PE patients. It’s overall pretty similar to the HI-PEITHO trial (previously discussed here). I doubt it will change much, because most people are already pretty dug in on their positions on intermediate-high risk PE. Nonetheless, this is a large MC-RCT, and it deserves some discussion. […] EMCrit Project by Josh Farkas",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emnerd/the-case-of-the-arbitrary-boundary/": {
+      "title": "The Case of the Arbitrary Boundary",
+      "url": "https://emcrit.org/emnerd/the-case-of-the-arbitrary-boundary/",
+      "source": "EMCrit",
+      "author": "Rory Spiegel",
+      "pubdate": "2026-09-01",
+      "summary": "Just when I thought I was out, they pull me back in. -Michael Corleone A new meta-analysis by Liu et al. was just published in Frontiers in Medicine, comparing balanced crystalloids with normal saline in patients with sepsis.¹ The authors pooled seven randomized trials, with a total of 6,861 patients with sepsis, and reported that […] EMCrit Project by Rory Spiegel .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -9665,7 +9675,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05189925",
       "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
       "author": "",
-      "pubdate": "2026-08-31",
+      "pubdate": "2026-09-01",
       "summary": "Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -9677,7 +9687,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07794696",
       "source": "Sennur Kula Şahin",
       "author": "",
-      "pubdate": "2026-08-31",
+      "pubdate": "2026-09-01",
       "summary": "This randomized controlled trial was conducted to evaluate the effects of family videos and virtual reality-based nature videos on anxiety, agitation, pain, and vital signs in adult intensive care unit patients. A total of 72 participants were randomly assigned to three parallel groups: a family video group (n=24), a family video plus virtual reality-based nature video group (n=24), and a standard care control group (n=24). Anxiety, agitation, pain, and vital signs were assessed before and after",
       "study_type": "Clinical Trial (Completed)",
       "is_open_access": true,
@@ -9709,11 +9719,11 @@
       "nct_id": "NCT07795450"
     },
     "NCT07795502": {
-      "title": "Dynamic Infection Kinetics for Early Diagnosis, Monitoring, and Prognostication of Sepsis in Adult Oncology Patients: A Prospective Observational Cohort Study Evaluating Serial Infection Biomarkers, Blood Culture Kinetics, Treatment Response, Disease Severity, and Clinical Outcomes",
+      "title": "Dynamic Infection Kinetics for Early Diagnosis, Monitoring, and Prognostication of Sepsis in Adult Oncology Patients: Evaluating Serial Infection Biomarkers, Blood Culture Kinetics, Treatment Response, Disease Severity, and Clinical Outcomes",
       "url": "https://clinicaltrials.gov/study/NCT07795502",
       "source": "Sohag University",
       "author": "",
-      "pubdate": "2026-08-31",
+      "pubdate": "2026-09-01",
       "summary": "Dynamic Infection Kinetics as an Early Diagnostic and Monitoring Tool for Sepsis in Oncology Patients This study aims to evaluate whether changes over time in infection-related biomarkers and blood culture findings can help detect sepsis earlier and monitor the response to treatment in adult patients with cancer. Cancer patients are at increased risk of developing serious infections and sepsis because of their underlying disease and its treatment. Early diagnosis and monitoring can be challengin",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -9731,6 +9741,66 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT06319248"
+    },
+    "NCT07796945": {
+      "title": "Human Neutrophil Lipocalin as an Aid in the Diagnosis of Bacterial Infection in the Emergency Department",
+      "url": "https://clinicaltrials.gov/study/NCT07796945",
+      "source": "University Hospital, Basel, Switzerland",
+      "author": "",
+      "pubdate": "2026-09-01",
+      "summary": "The aim of this study is to improve the medical care of patients with infections for which the cause cannot be clearly identified as bacterial or viral. To achieve this, we are investigating a new inflammatory marker in the blood that may help identify severe bacterial infections more quickly. Early detection is important to prevent complications and ensure that patients receive the most appropriate treatment as soon as possible. This is an observational study. The knowledge gained from this stu",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07796945"
+    },
+    "NCT06496997": {
+      "title": "A Comparative Study of Glucocorticoids Efficacy in Acute Respiratory Distress Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT06496997",
+      "source": "Fayoum University",
+      "author": "",
+      "pubdate": "2026-09-01",
+      "summary": "The aim of the work is to compare the efficacy of equivalent doses of methylprednisolone, dexamethasone and hydrocortisone in patients with ARDS",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06496997"
+    },
+    "NCT07069959": {
+      "title": "Early Assessment of Quadriceps Muscle Recovery by Dynamometry and 3D Ultrasound in Intensive Care Patients Under Invasive Mechanical Ventilation",
+      "url": "https://clinicaltrials.gov/study/NCT07069959",
+      "source": "Nantes University Hospital",
+      "author": "",
+      "pubdate": "2026-09-01",
+      "summary": "Patients in intensive care often develop acquired muscle weakness (ICUAW or Intensive Care Unit Acquired Weakness) due to immobilization and muscle atrophy. Early mobilization can help reduce weakness and improve functional recovery, but practices vary. Muscle strength assessment, particularly using the MRC (Medical Research Council) score, is crucial, though it has precision limitations. Additional methods, such as manual dynamometry and functional scales, are needed to better track muscle reco",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07069959"
+    },
+    "NCT07555041": {
+      "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07555041",
+      "source": "Hospices Civils de Lyon",
+      "author": "",
+      "pubdate": "2026-09-01",
+      "summary": "Assessment of capillary refill time (CRT) is a cornerstone of tissue perfusion monitoring in critically ill patients. CRT measurement is performed by applying brief and gentle pressure (for a few seconds) to a small area of skin until blanching occurs. CRT is defined as the time, in seconds, required for the skin surface to return to its initial color after release of pressure. Although CRT is a monitoring tool used on a daily basis in emergency departments and critical care units, its practical",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07555041"
+    },
+    "NCT05758246": {
+      "title": "Senolytics To slOw Progression of Sepsis (STOP-Sepsis) Trial",
+      "url": "https://clinicaltrials.gov/study/NCT05758246",
+      "source": "University of Minnesota",
+      "author": "",
+      "pubdate": "2026-09-01",
+      "summary": "The long-term goal is to test the clinical efficacy of senolytic therapies to reduce progression to and severity of sepsis in older patients. The central hypothesis is that a threshold burden of SnCs predisposes to a SASP mediated dysfunctional response to PAMPs, contributing to a disproportionate burden of sepsis in older patients. The study hypothesizes timely treatment with fisetin will interrupt this pathway. A multicenter, randomized, adaptive allocation clinical trial to identify the most ",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05758246"
     }
   },
   "bottom_line": {
@@ -10822,14 +10892,14 @@
       ],
       "doi": "10.1186/s12882-026-05132-4",
       "abstract": "BACKGROUND: The optimal timing for initiating renal replacement therapy (RRT) in sepsis-associated acute kidney injury (AKI) patients remains controversial. Early RRT initiation offers benefits by preventing metabolic complications and fluid overload, while delayed initiation avoids unnecessary procedures and conserves resources. This systematic review and meta-analysis aimed to compare early versus delayed RRT strategies in adult patients with sepsis-associated AKI. METHODS: We conducted a comprehensive search on PubMed, Scopus, Web of Science, and Cochrane CENTRAL from inception to February 2026. We included randomized controlled trials (RCTs) and observational cohorts comparing early versus delayed RRT initiation in patients with sepsis-associated AKI. Outcomes included 28-day and 90-day mortality, multi-organ dysfunction score (MODS), and intensive care unit (ICU) and hospital length of stay. Data were pooled using random-effects models. RESULTS: Fifteen studies (4 RCTs, 11 retrospective cohorts) comprising 6,289 patients were included. Early RRT was associated with significant reduction in 28-day mortality compared to delayed RRT (RR 0.81, 95% CI: 0.68-0.95, p = 0.01; I²=31.38%). However, trim-and-fill analysis suggested potential publication bias, with adjusted estimates showing non-significance (RR 0.88, 95% CI: 0.75-1.04). No significant differences were observed for 90-day mortality (RR 0.85, 95% CI: 0.69-1.04, p = 0.12), MODS (MD 0.24, 95% CI: -0.94-1.42, p = 0.69), ICU length of stay (MD -1.76, 95% CI: -4.18-0.66, p = 0.15), or hospital length of stay (MD 0.34, 95% CI: -3.24-3.92, p = 0.85). CONCLUSION: Early RRT initiation in sepsis-associated AKI was associated with reduction in 28-day mortality rates but did not result in any differences of 90-days mortality rates, and was not associated with improvements in MODS, suggesting that timing alone may not substantially alter long-term outcomes in this high-risk population. These findings are driven from mixed study designs with heterogeneity among the included patients, underscoring the need for more individualized approaches to RRT initiation in the future trials. TRIAL REGISTRATION: Not applicable.",
-      "citation_count": 0,
+      "citation_count": 34,
       "is_top_journal": false,
       "study_type": "Meta-Analysis",
       "volume": "27",
       "issue": "1",
       "pages": "",
-      "is_open_access": false,
-      "pmc_url": null,
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13528064/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42316052/"
     }
   }
