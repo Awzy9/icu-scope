@@ -971,6 +971,24 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT07167121": {
+    "key_stats": "",
+    "summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
+    "significance": "Understanding the predictive validity of the CPAx score can help clinicians identify patients at risk of poor functional outcomes after ICU discharge, allowing for targeted interventions.",
+    "rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07215702": {
+    "key_stats": "",
+    "summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
+    "significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07764562": {
+    "key_stats": "",
+    "summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
+    "significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
+    "rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
+  },
   "url:https://clinicaltrials.gov/study/NCT00156767": {
     "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
     "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
@@ -1010,12 +1028,6 @@
     "summary": "This study aimed to assess whether family participation in adult ICU rounds improves family satisfaction and patient outcomes. However, the study did not report any key numbers.",
     "significance": "This study is significant because it addresses a need for evidence to support family participation in adult ICU rounds, which is currently limited by a lack of robust data.",
     "rounds_takeaway": ""
-  },
-  "url:https://clinicaltrials.gov/study/NCT07764562": {
-    "key_stats": "",
-    "summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
-    "significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
-    "rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
   },
   "url:https://clinicaltrials.gov/study/NCT07273344": {
     "key_stats": "",
@@ -1393,23 +1405,11 @@
     "significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
     "rounds_takeaway": ""
   },
-  "url:https://clinicaltrials.gov/study/NCT07167121": {
-    "key_stats": "",
-    "summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
-    "significance": "Understanding the predictive validity of the CPAx score can help clinicians identify patients at risk of poor functional outcomes after ICU discharge, allowing for targeted interventions.",
-    "rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge."
-  },
   "url:https://clinicaltrials.gov/study/NCT07737353": {
     "key_stats": "",
     "summary": "This study evaluated the effect of structured education for family members of ICU patients undergoing tracheostomy on their anxiety, well-being, and satisfaction with care. Participants were randomly assigned to either an intervention or control group. The study aimed to assess the impact of this education on family members' emotional and psychological state.",
     "significance": "This study highlights the importance of supporting family members of ICU patients undergoing tracheostomy, as their emotional well-being can significantly impact patient outcomes. Structured education may be a valuable tool in addressing their concerns and improving care satisfaction.",
     "rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care."
-  },
-  "url:https://clinicaltrials.gov/study/NCT07215702": {
-    "key_stats": "",
-    "summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
-    "significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
-    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT06513949": {
     "summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
