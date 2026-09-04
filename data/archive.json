@@ -3104,6 +3104,28 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42320025/"
+      },
+      "42332775": {
+        "pmid": "42332775",
+        "title": "Body composition-guided protein dosing in critically ill patients: a before-and-after study (PROGRESS-ICU).",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Jun 22",
+        "authors": [
+          "Paulus MC",
+          "Hajeer F",
+          "van Zanten ARH"
+        ],
+        "doi": "10.1186/s13054-026-06107-5",
+        "abstract": "BACKGROUND: To compare whether fat-free mass (FFM)-adjusted protein dosing is associated with different clinical and metabolic outcomes compared with total body weight (TBW)-based dosing in critically ill patients in the intensive care unit (ICU). METHODS: Adult ICU patients (April 2020-October 2025) with serial bioelectrical impedance analysis were included in the PROGRESS-ICU observational cohort study. Patients received either TBW-based protein dosing (1.5 g/kg/day; April 2020-June 2023) or FFM-based dosing after protocol revision (1.85 g/kg/day dry FFM, corrected for fluid overload; July 2023 onward). The primary outcome was 90-day all-cause mortality. Secondary outcomes included 30-day mortality, ICU and hospital length of stay, invasive mechanical ventilation (IMV) duration, and longitudinal changes in FFM and urea-to-creatinine ratio (UCR). Survival was analysed using multivariable Cox regression and inverse probability of treatment weighting; longitudinal outcomes were assessed using mixed-effects models. RESULTS: Among 620 patients (310 per cohort), median age was 69 years, and ~ 60% were male. Notable baseline differences included a higher proportion of COVID-19 admissions in the TBW cohort (40% vs. 1%), which may have influenced outcomes. Ninety-day mortality did not differ significantly between groups (adjusted hazard ratio [HR] 0.78, 95% CI 0.56-1.09). FFM-based dosing was associated with shorter ICU stay (HR 0.79, 95% CI 0.69-0.91) and fewer IMV days (HR 0.79, 95% CI 0.65-0.96); hospital length of stay was similar (HR 0.86, 95% CI 0.67-1.10). TBW-based dosing was associated with higher UCR trajectories and greater FFM loss. These associations should be interpreted cautiously due to the observational design, substantial baseline imbalances, and potential residual confounding. CONCLUSIONS: In this observational before-after study, FFM-based protein dosing was not associated with differences in mortality compared with TBW-based dosing. Associations with ICU stay, IMV duration, and metabolic markers were observed but may reflect residual confounding and temporal changes. The study was underpowered to detect modest differences in mortality, and confidence intervals include the possibility of clinically relevant benefit or harm. These findings are exploratory and require confirmation in adequately powered randomised controlled trials. TRIAL REGISTRATION: The study was approved by the local ethics committee (protocol number 2403-017; 11 April 2024) and registered prior to data analysis on ClinicalTrials.gov (NCT07312708; 5 December 2025), the Open Science Framework ( https://doi.org/10.17605/OSF.IO/3SU49 ; 4 December 2025), and the Dutch Central Committee on Research Involving Human Subjects (NL-010953; 26 October 2025). Patients admitted before ethics approval were retrospectively included under a waiver of informed consent, and from April 2024 an opt-out consent procedure was implemented for all new admissions. Data were collected as part of routine clinical care. The study protocol, including prespecified analyses, was finalised and registered before the research team accessed the data.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Observational Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42332775/"
       }
     },
     "endocrine-metabolic": {
@@ -7821,6 +7843,60 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13474301/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42598847/",
       "society": "SCCM"
+    },
+    "42689869": {
+      "pmid": "42689869",
+      "title": "Early Creatinine-Defined Acute Kidney Injury and 1-Year Mortality in Critically Ill AMI-Coded Patients Meeting Premature-Age Criteria: A MIMIC-IV Retrospective Cohort Study.",
+      "journal": "Turk Kardiyoloji Dernegi arsivi : Turk Kardiyoloji Derneginin yayin organidir",
+      "pubdate": "2026 Sep 3",
+      "authors": [
+        "İşleyen HB",
+        "Bulut S",
+        "Kızkapan F",
+        "Alioğlu C",
+        "Sözen AA",
+        "Khanmohammadi M",
+        "Tuğrul Yavuz S",
+        "Okuyan E"
+      ],
+      "doi": "10.5543/tkda.2026.95875",
+      "abstract": "OBJECTIVE: Acute kidney injury may complicate acute myocardial infarction and has prognostic significance in broad acute coronary syndrome cohorts. However, the timing of early kidney injury and the prognostic differentiation among acute kidney injury phenotypes remain insufficiently characterized in critically ill patients with acute myocardial infarction who meet premature-age criteria and require intensive care. METHOD: This retrospective cohort study used MIMIC-IV, a deidentified, single-center critical care database from an academic health system in the United States. The study cohort should be interpreted as ICU-admitted patients with AMI codes who met prespecified sex-specific premature-age criteria rather than as a general young or angiographically adjudicated premature myocardial infarction population. Premature myocardial infarction was prespecified as age younger than 55 years in men and younger than 65 years in women. The primary exposure was early creatinine-defined acute kidney injury reconstructed according to the KDIGO serum creatinine relative and absolute change criteria, with the first qualifying creatinine-based onset occurring within 0-48 hours after ICU admission. Urine-output and renal-replacement-therapy variables were derived separately for phenotype analyses and were not incorporated into the primary exposure. The primary outcome was 1-year all-cause mortality. The main analysis used a time-dependent Cox model, with landmark phenotype analyses performed as supportive analyses. RESULTS: The cohort included 1261 patients, of whom 363 (28.8%) developed early creatinine-defined acute kidney injury. Within 1 year, 275 patients died (21.8%), including 151 deaths during the index hospitalization (12.0%). Early creatinine-defined acute kidney injury was associated with higher mortality in the primary time-dependent Cox model (hazard ratio 1.37, 95% confidence interval 1.06-1.79; P=0.018). The association was also maintained in the supportive parsimonious multivariable Cox model (hazard ratio 1.63, 95% confidence interval 1.23-2.16; P<0.001). The expanded complete-case model and prespecified multiple-imputation sensitivity analysis also supported an association in the same direction. In the 24-hour landmark analysis, the urine-output-only acute kidney injury phenotype did not retain an independent association with mortality, whereas the creatinine- or renal-replacement-therapy-positive phenotype remained directionally associated with higher risk. CONCLUSION: Early creatinine-defined acute kidney injury may serve as a marker of increased risk among ICU-admitted, AMI-coded patients who meet sex-specific premature-age criteria. The findings should not be generalized to all young or premature myocardial infarction patients and should be interpreted cautiously in view of ICU-only selection, coding-based disease definitions, incomplete etiologic profiling, and residual confounding.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42689869/",
+      "society": "KDIGO"
+    },
+    "42636654": {
+      "pmid": "42636654",
+      "title": "From predictive signal to deployable value: EHR measurement-process features in ICU AKI prediction.",
+      "journal": "International journal of medical informatics",
+      "pubdate": "2026 Nov 15",
+      "authors": [
+        "Zou J",
+        "Wang H",
+        "Xin Z",
+        "Zhou Q",
+        "Chen J",
+        "Huang J"
+      ],
+      "doi": "10.1016/j.ijmedinf.2026.106668",
+      "abstract": "OBJECTIVE: Electronic health record (EHR)-based clinical prediction systems increasingly use features that reflect how care is delivered and recorded. We evaluated whether creatinine measurement-process features add incremental, operational, and transportable value for dynamic ICU acute kidney injury (AKI) prediction beyond clinical creatinine trajectories. METHODS: We performed a retrospective cross-database study using MIMIC-IV for development and temporal testing and eICU-CRD for external validation. Repeated 6-hour landmarks began 24 hours after ICU admission. Predictors were derived from the preceding 24 hours, and the outcome was observed creatinine-defined KDIGO stage 2-3 AKI during the subsequent 24 hours. Clinical creatinine trajectory features were separated from measurement-process features, including count, recency, spacing, density, gaps, and calendar timing. Logistic regression models compared clinical-only, clinical-plus-process, and process-only feature sets. MIMIC-trained preprocessing and coefficients were frozen for eICU validation. The primary metric was patient-equal-weighted Brier score; secondary analyses assessed discrimination, calibration, fixed-burden alerts, redundancy, hospital heterogeneity, and model-class sensitivity. RESULTS: MIMIC-IV included 4571 ICU stays and 41,600 prediction windows; the eICU dynamic validation subset included 23,058 stays and 206,532 windows. Process-only AUROC was 0.560 in MIMIC-IV and 0.681 in eICU, indicating site-dependent marginal signal. Adding process features changed patient-weighted Brier score by + 0.00010 in MIMIC-IV and -0.000136 in eICU. At a fixed 5% alert burden, detection gains were modest. Process features explained 0.16% of residual Brier-loss variance, and conditional permutation changed AUROC by 0.0018. CONCLUSION: Creatinine measurement-process features captured workflow-related signals but added limited deployable value once clinical creatinine trajectories were represented. EHR process-derived features should be evaluated for incremental performance, calibration, alert burden, redundancy, and transportability before implementation.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "221",
+      "issue": "",
+      "pages": "106668",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -9873,6 +9949,126 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT05952648"
+    },
+    "NCT06554327": {
+      "title": "Ventilator Associated Pneumonia Multiplex PCR for Anti-Infective Regimens",
+      "url": "https://clinicaltrials.gov/study/NCT06554327",
+      "source": "CHU de Reims",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "Ventilator-associated pneumonia (VAP) remains one of the main nosocomial infections acquired in the intensive care unit (ICU). VAP is pneumonia occurring 48 hours after intubation. Today, bronchoalveolar lavage (BAL) is used for microbiological diagnosis, with bacterial culture and antibiotic susceptibility results within 48 to 72 hours. Multiplex PCR can detect DNA of a number of bacteriae, as well as the presence of resistance genes. However, its clinical value in the ICU remains to be demonst",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06554327"
+    },
+    "NCT07178626": {
+      "title": "Association of Biomarkers and Gastric Antral Motility Index With Feeding Intolerance in Critically Ill Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07178626",
+      "source": "The First Hospital of Jilin University",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "When the subjects are admitted to the department, the researchers will monitor potential biomarkers of gastrointestinal injury before administering enteral nutrition (a small amount of blood is drawn, serum is separated by centrifugation, and the serum sample is frozen for final centralized biomarker detection), and measure the antral movement index under ultrasound (300ml of warm water is injected into the stomach before measurement, and then the antral movement is observed for 6 minutes) Then,",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07178626"
+    },
+    "NCT04031573": {
+      "title": "Ivabradine for Heart Rate Control In Septic Shock",
+      "url": "https://clinicaltrials.gov/study/NCT04031573",
+      "source": "Assistance Publique - Hôpitaux de Paris",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "Septic shock is a major health problem, with several million cases annually worldwide and a mortality approaching 45%. Tachycardia is associated with excess mortality during septic shock. This pejorative effect could be related to the increase in cardiac metabolic demand, impaired cardiac diastolic function, and/or poorer tolerance of administered exogenous catecholamines. Recent studies suggest that controlling the heart rate with the use of beta blockers has beneficial effects on the morbidity",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04031573"
+    },
+    "NCT07691541": {
+      "title": "Implementation Models for Blood Pressure Monitoring in Pregnancy and Postpartum: Connected MOM Plus",
+      "url": "https://clinicaltrials.gov/study/NCT07691541",
+      "source": "Tulane University",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "Quality improvement (QI) initiative to improve uptake and utilization of Connected MOM, particularly among those with limited access to health care",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07691541"
+    },
+    "NCT06827275": {
+      "title": "mNEED: a Multicentre, Cluster-randomized, Controlled Trial",
+      "url": "https://clinicaltrials.gov/study/NCT06827275",
+      "source": "The First Hospital of Jilin University",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "Project Name: Improved Feeding Regimen for Critically Ill Patients (mNEED) Based on Feeding Intolerance Prediction Model Solution version number and version date: Version 5.0; 2024.12.16 Informed consent version number and version date: Version 1.0; 2023.10.19 Dear Patient, Recently, the department participated in a nationwide study to develop nutrition protocols for critically ill patients. Participation in a \"Modified Feeding Regimen for Critically Ill Patients Based on a Predictive Model of F",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06827275"
+    },
+    "NCT07504731": {
+      "title": "Trunk Inclination, Positive End-expiratory Pressure, and Lung Recruitability",
+      "url": "https://clinicaltrials.gov/study/NCT07504731",
+      "source": "Zhongda Hospital",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "This multicenter, physiological, observational study hypothesizes that in moderate to severe ARDS, trunk inclination unloads the chest wall, but its impact on lung mechanics depends on PEEP levels and lung recruitability.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07504731"
+    },
+    "NCT06430554": {
+      "title": "Personalized Ventilation Based on Ventilation-perfusion Mismatch and Lung Recruitability",
+      "url": "https://clinicaltrials.gov/study/NCT06430554",
+      "source": "Zhongda Hospital",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "This observational study will explore the effects of PEEP and position on regional lung ventilation-perfusion mismatch by electrical impedance tomography (EIT) in moderate-to-severe ARDS patients with different lung recruitability.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06430554"
+    },
+    "NCT07801092": {
+      "title": "Triple Sleep-Promotion Protocol for Delirium Prevention in Intensive Care Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07801092",
+      "source": "Naile ALANKAYA",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "Delirium is a common complication in intensive care units (ICUs) and may be associated with sleep disruption and frequent nighttime disturbances. This randomized controlled trial will evaluate whether a multicomponent nighttime sleep-promotion intervention, called the Triple Sleep-Promotion Protocol, can reduce the occurrence of new-onset delirium in adult ICU patients. The study is being conducted in four ICUs in Türkiye. Eligible patients who do not have delirium at the beginning of the study ",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07801092"
+    },
+    "NCT07803614": {
+      "title": "Pressure Release Ventilation Compared to Lung Protective Ventilation in Moderate and Severe ARDS",
+      "url": "https://clinicaltrials.gov/study/NCT07803614",
+      "source": "Koot Ahmad",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "This study compares two different ways of providing mechanical ventilation to patients with moderate to severe acute respiratory distress syndrome (ARDS), a serious condition in which the lungs become inflamed and make it difficult to breathe and maintain normal oxygen levels. Patients are randomly assigned to receive either airway pressure release ventilation (APRV) or conventional low-tidal-volume ventilation (LTV). The study compares the two ventilation strategies in terms of successful remov",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07803614"
+    },
+    "NCT07802379": {
+      "title": "Gastric Emptying and Enteral Nutrition Tolerance According to Vasopressor Dose in ICU Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07802379",
+      "source": "Başakşehir Çam & Sakura City Hospital",
+      "author": "",
+      "pubdate": "2026-09-03",
+      "summary": "This study investigates whether the dose of vasopressor medications (drugs that maintain blood pressure in shock) affects gastric emptying during tube feeding in the intensive care unit (ICU). Critically ill patients receiving vasopressors often develop impaired gastric motility, which reduces the effectiveness of enteral nutrition and increases the risk of aspiration. Gastric emptying will be objectively measured using bedside point-of-care ultrasound - a safe, painless imaging method - at thre",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07802379"
     }
   },
   "bottom_line": {
@@ -10973,6 +11169,39 @@
       "is_open_access": true,
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13528064/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42316052/"
+    },
+    "42690848": {
+      "pmid": "42690848",
+      "title": "Acinetobacter baumannii resistance trends in an ICU from Saudi Arabia over 12 years.",
+      "journal": "The Indian journal of medical research",
+      "pubdate": "2026 Sep",
+      "authors": [
+        "Shabi Y",
+        "Algarni A",
+        "Binkhamis K",
+        "Somily A",
+        "Bshabshe AA",
+        "Alshahrani A",
+        "Alazraqi T",
+        "Mohammed SA",
+        "Habbash S",
+        "Alqahtani AJ",
+        "Abdelrahim IM",
+        "Hassanin ES",
+        "Bawazeer AO",
+        "Siddiq A"
+      ],
+      "doi": "10.25259/IJMR_71_2026",
+      "abstract": "Background and objectives Acinetobacter baumannii is a major intensive care unit (ICU)-associated pathogen due to associated extensive drug resistance. Regional data from southern Saudi Arabia remain limited. This study aimed to describe overall and temporal resistance patterns of ICU-associated A. baumannii. Methods We conducted a 12-y retrospective study (August 2012- August 2024) at Aseer Central Hospital, Saudi Arabia, analysing Acinetobacter spp. clinical isolates from ICU and non-ICU settings. Species identification and antimicrobial susceptibility testing (AST) were performed using the VITEK® 2 system, with susceptibility interpreted per CLSI M100 guidelines. Carbapenem-resistant A. baumannii (CRAB) and difficult-to-treat resistance phenotypes were defined. Temporal trends were assessed via logistic regression. Results Of 3,935 isolates, 96.6% were A. baumannii. ICU-derived isolates (48.5%) showed significantly higher resistance rates across nearly all antibiotic classes compared to non-ICU isolates (P<0.001). Carbapenem resistance rates remained above 90% throughout the study period, while difficult to treat resistance ranged between 65.2 to 96.1%. Logistic regression revealed significant temporal declines in resistance to cefepime, ceftazidime, aminoglycosides, and fluoroquinolones (P<0.001). Interpretation and conclusions Acinetobacter baumannii isolates from ICU settings in southern Saudi Arabia exhibit persistently high resistance, including carbapenem resistance and difficult-to-treat resistance. We observed significant temporal declines in resistance to selected agents, particularly cefepime, aminoglycosides, and fluoroquinolones. These findings highlight the critical role of ICU-focused antimicrobial stewardship, enhanced infection control strategies, and regional molecular surveillance to limit further spread.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "164",
+      "issue": "3",
+      "pages": "453-460",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42690848/"
     }
   }
 }
