@@ -3117,14 +3117,14 @@
         ],
         "doi": "10.1186/s13054-026-06107-5",
         "abstract": "BACKGROUND: To compare whether fat-free mass (FFM)-adjusted protein dosing is associated with different clinical and metabolic outcomes compared with total body weight (TBW)-based dosing in critically ill patients in the intensive care unit (ICU). METHODS: Adult ICU patients (April 2020-October 2025) with serial bioelectrical impedance analysis were included in the PROGRESS-ICU observational cohort study. Patients received either TBW-based protein dosing (1.5 g/kg/day; April 2020-June 2023) or FFM-based dosing after protocol revision (1.85 g/kg/day dry FFM, corrected for fluid overload; July 2023 onward). The primary outcome was 90-day all-cause mortality. Secondary outcomes included 30-day mortality, ICU and hospital length of stay, invasive mechanical ventilation (IMV) duration, and longitudinal changes in FFM and urea-to-creatinine ratio (UCR). Survival was analysed using multivariable Cox regression and inverse probability of treatment weighting; longitudinal outcomes were assessed using mixed-effects models. RESULTS: Among 620 patients (310 per cohort), median age was 69 years, and ~ 60% were male. Notable baseline differences included a higher proportion of COVID-19 admissions in the TBW cohort (40% vs. 1%), which may have influenced outcomes. Ninety-day mortality did not differ significantly between groups (adjusted hazard ratio [HR] 0.78, 95% CI 0.56-1.09). FFM-based dosing was associated with shorter ICU stay (HR 0.79, 95% CI 0.69-0.91) and fewer IMV days (HR 0.79, 95% CI 0.65-0.96); hospital length of stay was similar (HR 0.86, 95% CI 0.67-1.10). TBW-based dosing was associated with higher UCR trajectories and greater FFM loss. These associations should be interpreted cautiously due to the observational design, substantial baseline imbalances, and potential residual confounding. CONCLUSIONS: In this observational before-after study, FFM-based protein dosing was not associated with differences in mortality compared with TBW-based dosing. Associations with ICU stay, IMV duration, and metabolic markers were observed but may reflect residual confounding and temporal changes. The study was underpowered to detect modest differences in mortality, and confidence intervals include the possibility of clinically relevant benefit or harm. These findings are exploratory and require confirmation in adequately powered randomised controlled trials. TRIAL REGISTRATION: The study was approved by the local ethics committee (protocol number 2403-017; 11 April 2024) and registered prior to data analysis on ClinicalTrials.gov (NCT07312708; 5 December 2025), the Open Science Framework ( https://doi.org/10.17605/OSF.IO/3SU49 ; 4 December 2025), and the Dutch Central Committee on Research Involving Human Subjects (NL-010953; 26 October 2025). Patients admitted before ethics approval were retrospectively included under a waiver of informed consent, and from April 2024 an opt-out consent procedure was implemented for all new admissions. Data were collected as part of routine clinical care. The study protocol, including prespecified analyses, was finalised and registered before the research team accessed the data.",
-        "citation_count": 0,
+        "citation_count": 25,
         "is_top_journal": true,
         "study_type": "Observational Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13540939/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42332775/"
       }
     },
@@ -7897,6 +7897,31 @@
       "pmc_url": null,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
       "society": "KDIGO"
+    },
+    "42693971": {
+      "pmid": "42693971",
+      "title": "[Clinical characteristics and impact on prognosis of acute kidney injury in neurocritical patients in high-altitude areas].",
+      "journal": "Zhonghua wei zhong bing ji jiu yi xue",
+      "pubdate": "2026 Aug",
+      "authors": [
+        "Danzeng Q",
+        "Cai X",
+        "Lin Z",
+        "Lin G",
+        "Li N"
+      ],
+      "doi": "10.3760/cma.j.cn121430-20260209-00082",
+      "abstract": "OBJECTIVE: To investigate the incidence and severity of acute kidney injury (AKI) in neurocritical patients at high altitude and its impact on prognosis. METHODS: A retrospective analysis was conducted. The clinical data of adult critically ill neurological patients admitted to the critical care medicine of People's Hospital of Xizang Autonomous Region from January 1, 2022, to February 29, 2024 were enrolled. AKI was diagnosed according to the Kidney Disease: Improving Global Outcomes (KDIGO) serum creatinine criteria. The incidence, underdiagnosis rate and severity of AKI within 7 days after intensive care unit (ICU) admission were analyzed. The primary endpoint was in-hospital adverse outcome, defined as death or withdrawal of treatment during hospitalization. The secondary endpoint included persistent deterioration of renal function at discharge, length of ICU stay, total hospital stay and hospitalization costs. Univariate and multivariate Logistic regression analyses were performed to examine the relationship between AKI and adverse outcomes in patients with neurocritical illness. RESULTS: Among the 390 critically ill neurological patients at high altitude, the incidence of AKI was 21.3% (83/390), with an underdiagnosis rate of 50.6% (42/83). Among the 83 patients with AKI, 42 (50.6%) had stage 1 AKI, 21 (25.3%) stage 2, and 20 (24.1%) stage 3; moderate to severe AKI (stage 2-3) accounted for 49.4% (41/83). In addition, most AKI cases (83.1%) developed within 3 days after ICU admission. During hospitalization, 102 patients experienced adverse outcomes, including 65 deaths and 37 cases of treatment withdrawal. The prevalence of AKI was significantly higher in patients with in-hospital adverse outcome than that in patients with favorable prognosis (40.2% vs. 14.6%, P<0.05). Multivariate Logistic regression analysis demonstrated that AKI was an independent risk factor for in-hospital adverse outcome in neurocritical patients at high altitude [odds ratio (OR)=3.037, 95% confidence interval (95%CI) was 1.724-5.351, P<0.001]. After multivariate adjustment, the risk of adverse outcomes increased with the severity of AKI (stage 1 AKI: OR=2.734, 95%CI was 1.313-5.693, P=0.007; stage 2-3 AKI: OR=3.408, 95%CI was 1.609-7.218, P=0.001). The incidence of adverse outcome increased progressively with the aggravation of AKI severity, which was 42.9% (18/42) in stage 1, 47.6% (10/21) in stage 2, and 65.0% (13/20) in stage 3. In addition, compared with non-AKI patients, AKI patients had longer length of ICU stay [days: 14 (8, 22) vs. 11 (5, 16)], higher hospitalization costs [ten thousand yuan: 14.85 (8.88, 23.41) vs. 11.94 (7.03, 16.91)], and a higher rate of persistent renal function deterioration at discharge (27.7% vs. 2.3%), with all differences being statistically significant (all P<0.05). CONCLUSIONS: AKI exhibits a high incidence and common underdiagnosis in patients with high-altitude critical neurological illness. It mainly occurs at the early stage of ICU admission, with a high proportion of stage 2-3 cases. AKI is an independent risk factor for in-hospital adverse outcomes in such patients, and the risk of adverse outcomes increases with the severity of AKI stage.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "38",
+      "issue": "8",
+      "pages": "744-750",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42693971/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -7963,7 +7988,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06728722",
       "source": "Ain Shams University",
       "author": "",
-      "pubdate": "2026-07-28",
+      "pubdate": "2026-09-04",
       "summary": "Objective assessment of the Changes in body composition of critically ill patients is very valuable. Ultrasound stands as a solution due to its portability, bedside availability, and radiation-free technology. Those criteria are crucial for critically ill obstetrics and gynecological cases.",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -8935,9 +8960,9 @@
       "url": "https://clinicaltrials.gov/study/NCT07764562",
       "source": "Antalya Health Sciences University",
       "author": "",
-      "pubdate": "2026-09-02",
+      "pubdate": "2026-09-04",
       "summary": "Ultrasound-guided internal jugular vein (IJV) catheterization is widely used in critically ill patients. Despite ultrasound guidance, difficult catheterization and first-pass failure remain clinically important and may increase the risk of mechanical complications. Pre-procedural characteristics of the IJV, its anatomical relationship with the common carotid artery (CCA), head rotation, and operator experience may influence procedural success. The ROTATE-ICU study is a prospective observational ",
-      "study_type": "Clinical Trial (Recruiting)",
+      "study_type": "Clinical Trial (Completed)",
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07764562"
@@ -9751,7 +9776,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05189925",
       "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
       "author": "",
-      "pubdate": "2026-09-01",
+      "pubdate": "2026-09-04",
       "summary": "Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -10069,6 +10094,90 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07802379"
+    },
+    "NCT01802099": {
+      "title": "Impact of Early Enteral vs. Parenteral Nutrition on Mortality in Patients Requiring Mechanical Ventilation and Catecholamines",
+      "url": "https://clinicaltrials.gov/study/NCT01802099",
+      "source": "Centre Hospitalier Departemental Vendee",
+      "author": "",
+      "pubdate": "2026-09-04",
+      "summary": "The purpose of this study is to assess the hypothesis that, as compared to early intravenous feeding, early nutrition via the enteral route is associated with reduced Day 28-mortality in critically ill patients treated with mechanical ventilation and vasoactive drug.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT01802099"
+    },
+    "NCT06537609": {
+      "title": "A Platform Trial for Gram Negative Bloodstream Infections",
+      "url": "https://clinicaltrials.gov/study/NCT06537609",
+      "source": "Sunnybrook Health Sciences Centre",
+      "author": "",
+      "pubdate": "2026-09-04",
+      "summary": "BALANCE+ is a perpetual multiple domain randomized controlled platform trial to evaluate various treatment strategies for Gram-negative bloodstream infections (GN BSIs). Each domain addresses critical questions in the management of GN BSIs, aiming to refine treatment strategies, enhance patient outcomes, and reduce antimicrobial resistance. The initial vanguard pilot RCT (NCT05893147) started on 29 August 2023 and has successfully completed the pilot phase on 24-Apr-2024. All patients enrolled i",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06537609"
+    },
+    "NCT07464431": {
+      "title": "Sodium Bicarbonate for Critically Ill Patients With Metabolic Acidosis and Acute Kidney Injury",
+      "url": "https://clinicaltrials.gov/study/NCT07464431",
+      "source": "Universität Münster",
+      "author": "",
+      "pubdate": "2026-09-04",
+      "summary": "The study investigates whether sodium bicarbonate is able to reduce the occurrence of major adverse kidney events on day 90 (MAKE90) in critically ill patients with metabolic acidosis and acute kidney injury (AKI). While its efficacy in this context has been suggested in a subgroup analysis of the BICAR-ICU trial it has not been confirmed in a double-blinded randomized controlled trial to date.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07464431"
+    },
+    "NCT07804992": {
+      "title": "Early Versus Deferred De-escalation From Controlled Ventilation After a 48-Hour Landmark of Physiological Stability",
+      "url": "https://clinicaltrials.gov/study/NCT07804992",
+      "source": "Ruijin Hospital",
+      "author": "",
+      "pubdate": "2026-09-04",
+      "summary": "This retrospective target trial emulation evaluates the optimal timing of de-escalation from controlled to assisted mechanical ventilation in critically ill adults. Using the clone-censor-weight (CCW) estimator with stabilised inverse-probability-of-censoring weights, we compare two strategies over a 24-hour grace window following a 48-hour landmark: early de-escalation (step-down in ventilatory support mode or successful extubation) versus deferred de-escalation (support maintained or increased",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07804992"
+    },
+    "NCT05864300": {
+      "title": "Impact of Neurochecks on Sleep in Critically Ill Adults",
+      "url": "https://clinicaltrials.gov/study/NCT05864300",
+      "source": "University of California, San Diego",
+      "author": "",
+      "pubdate": "2026-09-04",
+      "summary": "Background: Following acute brain injury (ABI), patients are monitored in the intensive care unit (ICU) where providers rely on frequent neurological examinations (\"neurochecks\") to assess for neurodeterioration. Serial neurochecks are part of guideline recommendations, but there is equipoise between hourly (Q1) and every-other-hour (Q2) evaluation. In the ICU, care-related awakenings occur frequently, but it is unclear if differential neurocheck frequencies result in differential sleep, providi",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05864300"
+    },
+    "NCT06592586": {
+      "title": "A Follow-up Trial of GBS-NN/NN2 Vaccine in Healthy Pregnant Women",
+      "url": "https://clinicaltrials.gov/study/NCT06592586",
+      "source": "Minervax ApS",
+      "author": "",
+      "pubdate": "2026-09-04",
+      "summary": "The main objective of the study is to evaluate the persistence of the immunoglobulin G (IgG) antibody responses, specific to Alpha-like protein CN (AlpCN), Ribosomal Protein N (RibN), Alpha-like protein 1N (Alp1N), and Alpha-like protein 2 and 3 (Alp2-3N), after a primary vaccination with GBS-NN/NN2 in all participants.",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06592586"
+    },
+    "NCT05950425": {
+      "title": "Aspiration Training Given With Different Methods",
+      "url": "https://clinicaltrials.gov/study/NCT05950425",
+      "source": "Necmettin Erbakan University",
+      "author": "",
+      "pubdate": "2026-09-04",
+      "summary": "Parents whose children are in intensive care have to cope with many stressors in terms of psychological, physical, economic and social aspects. Especially during the discharge process, many reasons such as the fact that their children have a chronic disease, need for care, parents do not know how to provide the care their children need, the lack of professional health care teams provided by home care in our country, and therefore the care of the children is covered by the families, increase the ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05950425"
     }
   },
   "bottom_line": {
@@ -11193,15 +11302,36 @@
       ],
       "doi": "10.25259/IJMR_71_2026",
       "abstract": "Background and objectives Acinetobacter baumannii is a major intensive care unit (ICU)-associated pathogen due to associated extensive drug resistance. Regional data from southern Saudi Arabia remain limited. This study aimed to describe overall and temporal resistance patterns of ICU-associated A. baumannii. Methods We conducted a 12-y retrospective study (August 2012- August 2024) at Aseer Central Hospital, Saudi Arabia, analysing Acinetobacter spp. clinical isolates from ICU and non-ICU settings. Species identification and antimicrobial susceptibility testing (AST) were performed using the VITEK® 2 system, with susceptibility interpreted per CLSI M100 guidelines. Carbapenem-resistant A. baumannii (CRAB) and difficult-to-treat resistance phenotypes were defined. Temporal trends were assessed via logistic regression. Results Of 3,935 isolates, 96.6% were A. baumannii. ICU-derived isolates (48.5%) showed significantly higher resistance rates across nearly all antibiotic classes compared to non-ICU isolates (P<0.001). Carbapenem resistance rates remained above 90% throughout the study period, while difficult to treat resistance ranged between 65.2 to 96.1%. Logistic regression revealed significant temporal declines in resistance to cefepime, ceftazidime, aminoglycosides, and fluoroquinolones (P<0.001). Interpretation and conclusions Acinetobacter baumannii isolates from ICU settings in southern Saudi Arabia exhibit persistently high resistance, including carbapenem resistance and difficult-to-treat resistance. We observed significant temporal declines in resistance to selected agents, particularly cefepime, aminoglycosides, and fluoroquinolones. These findings highlight the critical role of ICU-focused antimicrobial stewardship, enhanced infection control strategies, and regional molecular surveillance to limit further spread.",
-      "citation_count": 0,
+      "citation_count": 12,
       "is_top_journal": false,
       "study_type": "Study",
       "volume": "164",
       "issue": "3",
       "pages": "453-460",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13541129/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42690848/"
+    },
+    "42693541": {
+      "pmid": "42693541",
+      "title": "Wearable Sleep and Circadian Monitoring in Intensive Care Nursing: A Scoping Review.",
+      "journal": "Nursing in critical care",
+      "pubdate": "2026 Sep",
+      "authors": [
+        "Badawy W",
+        "Shaban M"
+      ],
+      "doi": "10.1111/nicc.70671",
+      "abstract": "BACKGROUND: Sleep and circadian disruption are common in critical illness, yet bedside assessment remains difficult. Wearables are unobtrusive and extend observation across 24 h, but their measurement performance in critical illness requires appraisal. AIMS: To map wearable sleep and circadian monitoring during intensive care, its measurement performance, clinical applications and nursing implications. STUDY DESIGN: A scoping review followed JBI and PRISMA-ScR guidance. PubMed, Europe PMC and OpenAlex were searched from inception to 22 July 2026, with citation searching. Eligible primary reports used a body-worn sensor during intensive care to estimate sleep or circadian/rest-activity outcomes at any age. Conventional polysomnography/electroencephalography without an eligible wearable, non-contact systems, staff studies and post-ICU-only monitoring were excluded. No risk-of-bias appraisal was undertaken. RESULTS: Sixty-one reports (43 adult; 18 paediatric/neonatal; 1996-2026) were included. Actigraphy dominated; commercial trackers, smartwatches and one respiratory-belt/heart-rate-variability system were less common. Monitoring was feasible, but performance varied by device, patient state and age group: wake specificity was often poor in ventilated, sedated or immobile patients and agreement with patient or nurse reports was weak to modest. Records showed fragmented and daytime sleep, weak day-night consolidation and attenuated circadian rhythmicity. Nursing bundles, massage, positioning, light and chronotype-informed care changed selected outcomes, but effects were heterogeneous. CONCLUSIONS: Wearables usefully describe rest-activity patterns and support nursing assessment, but agreement with physiological sleep varied by device, patient state and age; movement-derived estimates need clinical context and are not a stand-alone sleep measure. RELEVANCE TO CLINICAL PRACTICE: Nurses should combine wearable trends with patient report, sedation and mobility, delirium screening and care-interaction records; escalation thresholds require prospective validation.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Review",
+      "volume": "31",
+      "issue": "5",
+      "pages": "e70671",
       "is_open_access": false,
       "pmc_url": null,
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42690848/"
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42693541/"
     }
   }
 }

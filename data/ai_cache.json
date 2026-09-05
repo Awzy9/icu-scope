@@ -971,6 +971,16 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT06728722": {
+    "summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
+    "significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases."
+  },
+  "url:https://clinicaltrials.gov/study/NCT07764562": {
+    "key_stats": "",
+    "summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
+    "significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
+    "rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
+  },
   "url:https://clinicaltrials.gov/study/NCT07167121": {
     "key_stats": "",
     "summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
@@ -982,12 +992,6 @@
     "summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
     "significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
     "rounds_takeaway": ""
-  },
-  "url:https://clinicaltrials.gov/study/NCT07764562": {
-    "key_stats": "",
-    "summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
-    "significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
-    "rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
   },
   "url:https://clinicaltrials.gov/study/NCT00156767": {
     "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
@@ -1442,10 +1446,6 @@
   "url:https://clinicaltrials.gov/study/NCT07170527": {
     "summary": "Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.",
     "significance": "Understanding the determinants of long-term recovery in ICU patients is crucial for improving functional outcomes and reducing the burden of post-intensive care syndrome."
-  },
-  "url:https://clinicaltrials.gov/study/NCT06728722": {
-    "summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
-    "significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases."
   },
   "url:https://clinicaltrials.gov/study/NCT06541600": {
     "summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
