@@ -6528,6 +6528,16 @@
       "summary": "Just when I thought I was out, they pull me back in. -Michael Corleone A new meta-analysis by Liu et al. was just published in Frontiers in Medicine, comparing balanced crystalloids with normal saline in patients with sepsis.¹ The authors pooled seven randomized trials, with a total of 6,861 patients with sepsis, and reported that […] EMCrit Project by Rory Spiegel .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emcrit/halo/": {
+      "title": "EMCrit 433 – HALO (High Acuity, Low Occurrence) Procedural Philosophy",
+      "url": "https://emcrit.org/emcrit/halo/",
+      "source": "EMCrit",
+      "author": "Scott Weingart, MD FCCM",
+      "pubdate": "2026-09-05",
+      "summary": "I break down the distinction between institutional competence and operator-level systems competence for High-Acuity, Low-Occurrence (HALO) emergency procedures. The episode discusses recent literature on system vs. operator failure modes, introduces the \"Recipe Method\" for procedural self-mastery, and outlines a comprehensive 12-month HALO curriculum for resuscitationists. EMCrit Project by Scott ",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -7922,6 +7932,32 @@
       "pmc_url": null,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42693971/",
       "society": "KDIGO"
+    },
+    "42700418": {
+      "pmid": "42700418",
+      "title": "Sustained Low-Efficiency Dialysis Versus Intermittent Hemodialysis in Critically Ill Patients with Severe Acute Kidney Injury.",
+      "journal": "Medical principles and practice : international journal of the Kuwait University, Health Science Centre",
+      "pubdate": "2026 Sep 5",
+      "authors": [
+        "Wang X",
+        "Li J",
+        "Sun X",
+        "Zhu J",
+        "Yuan Z",
+        "Zhang X"
+      ],
+      "doi": "10.1159/mpp/adpag017",
+      "abstract": "OBJECTIVE: The objectives of the study were to compare clinical efficacy, hemodynamic stability, and 90-day renal outcomes between Sustained low-efficiency dialysis (SLED) and Intermittent hemodialysis (IHD) in Medical intensive care unit (MICU) patients with severe Acute kidney injury (AKI). METHODS: This observational cohort study evaluated 300 patients with KDIGO Stage-2 or 3 AKI (SLED: n = 160; IHD: n = 140). Outcomes included MICU mortality, discharge renal recovery, stay duration, intradialytic complications, and 90-day renal preservation. RESULTS: Baseline characteristics were comparable. No significant differences emerged between SLED and IHD regarding MICU mortality (33% vs. 39%, p = 0.272) or renal recovery at discharge (61% vs. 54%, p = 0.223). However, SLED demonstrated superior safety, significantly lowering intradialytic hypotension (21% vs. 41%, p < 0.001) and the need for new vasopressors (11% vs. 22%, p = 0.011), while minimizing mean arterial pressure drops (12.12 ± 3.9 vs. 19 ± 6.36 mmHg, p < 0.001). SLED achieved shorter median MICU stays (14 vs. 16 days, p < 0.001). At 90-day, SLED survivors exhibited significantly lower Renal replacement therapy (RRT) dependence (11% vs. 24%, p = 0.014), reduced chronic kidney disease progression (26% vs. 34%, p = 0.044), and higher glomerular filtration rate (eGFR) (55.93 ± 7.69 vs. 45.86 ± 9.29 mL/min/1.73m2, p < 0.001). CONCLUSIONS: While short-term mortality is similar, SLED dramatically mitigates intradialytic hemodynamic instability compared to IHD. By minimizing circulatory insults, SLED significantly improves 90-day parenchymal renal recovery and minimizes long-term dialysis dependence among AKI survivors.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "",
+      "issue": "",
+      "pages": "1",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42700418/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -7965,6 +8001,17 @@
       "author": "Peiyao Li",
       "pubdate": "2026-08-04",
       "summary": "ObjectiveTo develop an intelligent predictive indicator system for determining weaning and extubation timing in mechanically ventilated patients, providing a theoretical foundation for clinical decision support systems and intelligent assessment in critical care nursing. MethodsA literature review was conducted to identify and extract factors influencing weaning and extubation timing in mechanically ventilated patients, forming the initial item pool for the indicator system. A Delphi expert cons",
+      "study_type": "Preprint (not peer-reviewed)",
+      "is_open_access": true,
+      "is_preprint": true
+    },
+    "https://doi.org/10.1101/2025.07.31.25332174": {
+      "title": "The LIBERATE Internal Randomized Controlled Pilot Trial: Adjunctive midodrine therapy for early liberation from vasopressor support in critically ill patients",
+      "url": "https://doi.org/10.1101/2025.07.31.25332174",
+      "source": "medRxiv preprint",
+      "author": "Oleksa G Rewa",
+      "pubdate": "2026-08-23",
+      "summary": "BackgroundIntravenous (IV) vasopressors are the mainstay of hemodynamic physiological support for critically ill patients. However, the role of oral vasopressors in the management of IV vasopressor-dependent shock remains unclear. The LIBERATE body of work aims to examine the role of midodrine as an IV vasopressor sparing agent for critically ill patients with IV vasopressor dependent shock. The objective of the LIBERATE internal randomized controlled trial was to evaluate the implementation of ",
       "study_type": "Preprint (not peer-reviewed)",
       "is_open_access": true,
       "is_preprint": true
@@ -11323,14 +11370,14 @@
       ],
       "doi": "10.1111/nicc.70671",
       "abstract": "BACKGROUND: Sleep and circadian disruption are common in critical illness, yet bedside assessment remains difficult. Wearables are unobtrusive and extend observation across 24 h, but their measurement performance in critical illness requires appraisal. AIMS: To map wearable sleep and circadian monitoring during intensive care, its measurement performance, clinical applications and nursing implications. STUDY DESIGN: A scoping review followed JBI and PRISMA-ScR guidance. PubMed, Europe PMC and OpenAlex were searched from inception to 22 July 2026, with citation searching. Eligible primary reports used a body-worn sensor during intensive care to estimate sleep or circadian/rest-activity outcomes at any age. Conventional polysomnography/electroencephalography without an eligible wearable, non-contact systems, staff studies and post-ICU-only monitoring were excluded. No risk-of-bias appraisal was undertaken. RESULTS: Sixty-one reports (43 adult; 18 paediatric/neonatal; 1996-2026) were included. Actigraphy dominated; commercial trackers, smartwatches and one respiratory-belt/heart-rate-variability system were less common. Monitoring was feasible, but performance varied by device, patient state and age group: wake specificity was often poor in ventilated, sedated or immobile patients and agreement with patient or nurse reports was weak to modest. Records showed fragmented and daytime sleep, weak day-night consolidation and attenuated circadian rhythmicity. Nursing bundles, massage, positioning, light and chronotype-informed care changed selected outcomes, but effects were heterogeneous. CONCLUSIONS: Wearables usefully describe rest-activity patterns and support nursing assessment, but agreement with physiological sleep varied by device, patient state and age; movement-derived estimates need clinical context and are not a stand-alone sleep measure. RELEVANCE TO CLINICAL PRACTICE: Nurses should combine wearable trends with patient report, sedation and mobility, delirium screening and care-interaction records; escalation thresholds require prospective validation.",
-      "citation_count": 0,
+      "citation_count": 91,
       "is_top_journal": false,
       "study_type": "Review",
       "volume": "31",
       "issue": "5",
       "pages": "e70671",
-      "is_open_access": false,
-      "pmc_url": null,
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13542315/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42693541/"
     }
   }

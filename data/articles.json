@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T07:12:43+00:00",
+  "generated_at": "2026-09-06T07:25:10+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -248,15 +248,25 @@
         "pages": "",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13523429/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/"
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "EMCrit 433 – HALO (High Acuity, Low Occurrence) Procedural Philosophy",
+        "url": "https://emcrit.org/emcrit/halo/",
+        "source": "EMCrit",
+        "author": "Scott Weingart, MD FCCM",
+        "pubdate": "2026-09-05",
+        "summary": "I break down the distinction between institutional competence and operator-level systems competence for High-Acuity, Low-Occurrence (HALO) emergency procedures. The episode discusses recent literature on system vs. operator failure modes, introduces the \"Recipe Method\" for procedural self-mastery, and outlines a comprehensive 12-month HALO curriculum for resuscitationists. EMCrit Project by Scott ",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "The Case of the Arbitrary Boundary",
         "url": "https://emcrit.org/emnerd/the-case-of-the-arbitrary-boundary/",
@@ -265,7 +275,9 @@
         "pubdate": "2026-09-01",
         "summary": "Just when I thought I was out, they pull me back in. -Michael Corleone A new meta-analysis by Liu et al. was just published in Frontiers in Medicine, comparing balanced crystalloids with normal saline in patients with sepsis.¹ The authors pooled seven randomized trials, with a total of 6,861 patients with sepsis, and reported that […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "CV-EMCrit Wee – Q&A 1",
@@ -275,7 +287,9 @@
         "pubdate": "2026-08-31",
         "summary": "Today, Trina & I take listener CV-EMCrit ?s EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "PulmCrit Hot Take: PRAGUE-26 RCT on catheter-directed thrombolysis for intermediate-high risk PE",
@@ -285,7 +299,9 @@
         "pubdate": "2026-08-31",
         "summary": "Another MC-RCT just dropped on catheter-directed tPA for intermediate-high risk PE patients. It’s overall pretty similar to the HI-PEITHO trial (previously discussed here). I doubt it will change much, because most people are already pretty dug in on their positions on intermediate-high risk PE. Nonetheless, this is a large MC-RCT, and it deserves some discussion. […] EMCrit Project by Josh Farkas",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Five Laws of Medical Robotics",
@@ -802,9 +818,7 @@
         "ai_key_stats": "n=210, 52.4% developed AKI stages 2-3, moderate-to-severe AKI independently associated with 30-day mortality, VA-ECMO modality and norepinephrine use increased AKI risk, high fibrinogen level and CVD provided protection",
         "ai_summary": "This study looked at how acute kidney injury (AKI) affects patients on ECMO and found that AKI is a major complication that affects mortality and long-term renal function. The study identified risk factors for AKI in ECMO patients, including the type of ECMO used and the use of certain medications. The study also found that severe AKI is a strong predictor of 30-day mortality in ECMO patients.",
         "ai_significance": "Understanding risk factors for AKI in ECMO patients can help clinicians take steps to prevent or mitigate this serious complication, which can improve patient outcomes and reduce mortality.",
-        "ai_rounds_takeaway": "Consider using VA-ECMO modality with caution in patients with a history of cardiovascular disease and avoid norepinephrine use when possible.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using VA-ECMO modality with caution in patients with a history of cardiovascular disease and avoid norepinephrine use when possible."
       },
       {
         "pmid": "42410341",
@@ -834,9 +848,7 @@
         "ai_key_stats": "n=2935, sHR 1.05 (95% CI 1.01-1.10), 1.95 (95% CI 1.11-3.43), 1.93 (95% CI 1.29-2.87), 1.26 (95% CI 1.06-1.50), 1.33 (95% CI 1.05-1.69), 1.50 (95% CI 1.19-1.90), 1.06 (per 1 mmol/L), 1.02 (per 10,000 cells/µL), p=not reported",
         "ai_summary": "Researchers studied 2935 critically ill adults in a Brazilian ICU to identify risk factors for acute kidney injury (AKI). They found that several factors, including age, chronic liver disease, and high lactate levels, were associated with AKI. The proportion of AKI cases classified as KDIGO stage 3 increased after day 7.",
         "ai_significance": "These findings highlight the importance of early recognition of risk factors for AKI in critically ill patients, supporting the implementation of kidney-protective care strategies in the ICU.",
-        "ai_rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels."
       },
       {
         "pmid": "42636654",
@@ -862,6 +874,32 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
+        "society": "KDIGO"
+      },
+      {
+        "pmid": "42700418",
+        "title": "Sustained Low-Efficiency Dialysis Versus Intermittent Hemodialysis in Critically Ill Patients with Severe Acute Kidney Injury.",
+        "journal": "Medical principles and practice : international journal of the Kuwait University, Health Science Centre",
+        "pubdate": "2026 Sep 5",
+        "authors": [
+          "Wang X",
+          "Li J",
+          "Sun X",
+          "Zhu J",
+          "Yuan Z",
+          "Zhang X"
+        ],
+        "doi": "10.1159/mpp/adpag017",
+        "abstract": "OBJECTIVE: The objectives of the study were to compare clinical efficacy, hemodynamic stability, and 90-day renal outcomes between Sustained low-efficiency dialysis (SLED) and Intermittent hemodialysis (IHD) in Medical intensive care unit (MICU) patients with severe Acute kidney injury (AKI). METHODS: This observational cohort study evaluated 300 patients with KDIGO Stage-2 or 3 AKI (SLED: n = 160; IHD: n = 140). Outcomes included MICU mortality, discharge renal recovery, stay duration, intradialytic complications, and 90-day renal preservation. RESULTS: Baseline characteristics were comparable. No significant differences emerged between SLED and IHD regarding MICU mortality (33% vs. 39%, p = 0.272) or renal recovery at discharge (61% vs. 54%, p = 0.223). However, SLED demonstrated superior safety, significantly lowering intradialytic hypotension (21% vs. 41%, p < 0.001) and the need for new vasopressors (11% vs. 22%, p = 0.011), while minimizing mean arterial pressure drops (12.12 ± 3.9 vs. 19 ± 6.36 mmHg, p < 0.001). SLED achieved shorter median MICU stays (14 vs. 16 days, p < 0.001). At 90-day, SLED survivors exhibited significantly lower Renal replacement therapy (RRT) dependence (11% vs. 24%, p = 0.014), reduced chronic kidney disease progression (26% vs. 34%, p = 0.044), and higher glomerular filtration rate (eGFR) (55.93 ± 7.69 vs. 45.86 ± 9.29 mL/min/1.73m2, p < 0.001). CONCLUSIONS: While short-term mortality is similar, SLED dramatically mitigates intradialytic hemodynamic instability compared to IHD. By minimizing circulatory insults, SLED significantly improves 90-day parenchymal renal recovery and minimizes long-term dialysis dependence among AKI survivors.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "1",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42700418/",
         "society": "KDIGO",
         "link_broken": false,
         "link_broken_kind": "doi"
@@ -892,9 +930,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42689869/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42598847",
@@ -921,9 +957,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13474301/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42598847/",
-        "society": "SCCM",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "SCCM"
       },
       {
         "pmid": "42640090",
@@ -1028,9 +1062,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviewed the use of seizure medications in patients after brain surgery. The results suggest that using seizure medications may help prevent early seizures, but the benefits are uncertain. Levetiracetam may be a better choice than phenytoin for seizure prevention.",
         "ai_significance": "This study's findings inform ICU clinicians about the use of seizure medications in patients after brain surgery, helping them make more informed decisions about patient care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41916807",
@@ -1075,9 +1107,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
         "ai_significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42522393",
@@ -1113,9 +1143,7 @@
         "ai_key_stats": "",
         "ai_summary": "A consensus document was developed by 12 panelists from 3 Spanish scientific societies to provide a comprehensive care framework for accidental hypothermia. The document is based on a systematic search of 281 articles and a 2-round Delphi process. It provides 37 recommendations across 8 application domains.",
         "ai_significance": "This consensus document can help standardize care for accidental hypothermia, potentially improving patient outcomes and reducing its significant impact on public health.",
-        "ai_rounds_takeaway": "Consider implementing the standardized protocols outlined in this consensus document for patients with suspected accidental hypothermia.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing the standardized protocols outlined in this consensus document for patients with suspected accidental hypothermia."
       },
       {
         "pmid": "42494313",
@@ -1146,9 +1174,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the quality of clinical guidelines for nutritional risk screening in critically ill adults. The guidelines showed satisfactory methodological quality, but limitations were found in recommendation credibility, applicability, and evidence quality. Most original studies supporting recommendations had a high risk of bias.",
         "ai_significance": "These findings emphasize the need for high-quality evidence and transparent risk-of-bias assessment in clinical guidelines to ensure accurate and effective nutritional care for critically ill patients.",
-        "ai_rounds_takeaway": "Consider critically evaluating the credibility and applicability of nutritional risk screening recommendations in clinical guidelines for critically ill patients.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider critically evaluating the credibility and applicability of nutritional risk screening recommendations in clinical guidelines for critically ill patients."
       },
       {
         "pmid": "42538736",
@@ -1177,9 +1203,7 @@
         "ai_key_stats": "",
         "ai_summary": "The Society of Critical Care Medicine Guidelines on Adult End-of-Life Care in the ICU were applied to the setting of donation after circulatory death (DCD). The guidelines' recommendations for end-of-life care were found to be applicable to patients being evaluated for or undergoing DCD. High-quality end-of-life care should be delivered to organ donors.",
         "ai_significance": "This study highlights the importance of providing high-quality end-of-life care to patients undergoing donation after circulatory death, which is crucial for maintaining public trust and ensuring patient dignity.",
-        "ai_rounds_takeaway": "Consider implementing and auditing protocols to guarantee dignity and symptom control for patients undergoing donation after circulatory death.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing and auditing protocols to guarantee dignity and symptom control for patients undergoing donation after circulatory death."
       },
       {
         "pmid": "42693971",
@@ -1204,9 +1228,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42693971/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42481936",
@@ -1240,9 +1262,7 @@
         "ai_key_stats": "n=5721, HR 1.52 (95% CI 1.29-1.79), HR 1.41 (95% CI 1.20-1.65), HR 1.34, HR 1.14, OR 1.87, OR 1.51, p<0.001",
         "ai_summary": "Researchers analyzed data from 5721 older ICU patients to identify comorbidity patterns associated with acute kidney injury (AKI). They found five distinct comorbidity phenotypes, with those including atrial fibrillation and ischemic heart failure having the highest risk of AKI. These phenotypes were also associated with more severe AKI.",
         "ai_significance": "This study highlights the importance of considering comorbidities when evaluating older critically ill patients for AKI risk, and suggests that targeted renal surveillance and individualized hemodynamic management may be beneficial for high-risk patients.",
-        "ai_rounds_takeaway": "Consider targeted renal surveillance and individualized hemodynamic management in older critically ill patients with comorbidities including atrial fibrillation and ischemic heart failure.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider targeted renal surveillance and individualized hemodynamic management in older critically ill patients with comorbidities including atrial fibrillation and ischemic heart failure."
       },
       {
         "pmid": "42425561",
@@ -1281,9 +1301,7 @@
         "ai_key_stats": "n=10642, primary endpoint: AKI occurrence and maximum severity within 7 days of ICU admission",
         "ai_summary": "This study aims to describe the occurrence and outcomes of acute kidney injury (AKI) in critically ill patients worldwide. It is a prospective, observational study of 10,642 patients admitted to the ICU. The study will collect data on AKI occurrence, severity, duration, and outcomes, as well as long-term kidney and patient outcomes in selected centers.",
         "ai_significance": "This study will provide valuable data on the epidemiology and outcomes of AKI in critically ill patients, which can inform future research and clinical practice in critical care nephrology.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42418363",
@@ -1312,9 +1330,7 @@
         "ai_key_stats": "n=202, moderate-to-severe AKI 9.1% vs 11.7%, nephrotoxic drug administration lower in postimplementation period, hypotensive episodes lower in postimplementation period",
         "ai_summary": "This study evaluated the impact of an artificial intelligence-powered clinical decision support system on acute kidney injury prevention in the ICU. The system, called U-Care Renal Platform, was integrated into ICU workflows and provided actionable recommendations. The study found lower rates of moderate-to-severe AKI, nephrotoxic drug administration, and hypotensive episodes among patients with AKI after implementation.",
         "ai_significance": "This study suggests that the integration of artificial intelligence-powered clinical decision support systems may be a useful tool for preventing acute kidney injury in the ICU, which is a serious and costly complication.",
-        "ai_rounds_takeaway": "Consider implementing AI-powered clinical decision support systems to reduce the risk of AKI in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing AI-powered clinical decision support systems to reduce the risk of AKI in critically ill patients."
       },
       {
         "pmid": "42409761",
@@ -1357,9 +1373,7 @@
         "ai_key_stats": "",
         "ai_summary": "Clinical pharmacists are increasingly involved in acute stroke care, but their role is inconsistently defined. A consensus statement recommends their involvement in managing acute ischemic and hemorrhagic stroke in emergency departments.",
         "ai_significance": "This matters for ICU clinical practice because optimizing the clinical pharmacist role can improve time-sensitive treatment and equity in care delivery for stroke patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42583469",
@@ -1433,9 +1447,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared intensive and conventional blood glucose targets in critically ill adults. It found that intensive targets may slightly improve some outcomes like infections and length of stay, but increase the risk of severe hypoglycemia. No difference was seen in mortality.",
         "ai_significance": "These findings are important for ICU clinicians as they suggest that intensive blood glucose targets may not be worth the increased risk of hypoglycemia, and conventional targets may be a safer choice. However, in select centers with optimized protocols, a lower target may be considered acceptable.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41942818",
@@ -1475,9 +1487,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed guidelines for predicting outcomes in critically ill adults with acute ischemic stroke, including avoiding premature predictions and using multimodal assessments. It found that early neurological improvement within 24 hours of revascularization is a moderately reliable predictor of good functional outcome. No other individual predictor was considered reliable for predicting mortality or functional outcome.",
         "ai_significance": "These guidelines are important for ICU clinicians as they provide a framework for counseling patients and their surrogates about outcomes, helping to set realistic expectations and guide treatment decisions.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41690564",
@@ -1502,9 +1512,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers created a standardized guideline for using propofol to manage refractory symptoms in end-of-life care by developing a flow diagram and defining parameters for its use.",
         "ai_significance": "This guideline can help reduce confusion and improve decision-making for ICU clinicians when using propofol to manage refractory symptoms in end-of-life care, ensuring patient comfort and preventing suffering.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42260906",
@@ -1540,7 +1548,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study surveyed ICU clinicians and leaders to identify barriers and facilitators to implementing the ICU Liberation bundle, which aims to improve outcomes for critically ill patients. Results showed that clinicians were more familiar with the bundle and prioritized it, but compliance was lower post-pandemic. Workflow integration and aligning the bundle with healthcare goals facilitated compliance.",
         "ai_significance": "Understanding the barriers to ICU Liberation bundle implementation is crucial for improving patient outcomes, as it has been shown to reduce delirium, immobility, and other complications in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42164574",
@@ -1563,7 +1573,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13184491/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42164574/",
-        "society": "ESICM"
+        "society": "ESICM",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42523687",
@@ -1605,7 +1617,9 @@
         "ai_key_stats": "",
         "ai_summary": "The Indian Society of Critical Care Medicine developed guidelines for treating carbapenem-resistant Enterobacterales, Acinetobacter baumannii, and Pseudomonas aeruginosa in critically ill patients. The guidelines recommend non-polymyxin therapy for CRE and CRPA, and sulbactam-based therapy for CRAB. These recommendations are based on a systematic review and meta-analysis of 52 studies.",
         "ai_significance": "These guidelines are significant for ICU clinical practice as they provide evidence-based recommendations for managing carbapenem-resistant gram-negative infections, which are major antimicrobial resistance threats in Indian ICUs.",
-        "ai_rounds_takeaway": "Consider non-polymyxin therapy for patients with CRE or CRPA infections."
+        "ai_rounds_takeaway": "Consider non-polymyxin therapy for patients with CRE or CRPA infections.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42203644",
@@ -1630,7 +1644,9 @@
         "ai_key_stats": "",
         "ai_summary": "This 2026 clinical practice guideline for renal replacement therapy in critically ill patients with acute kidney injury was developed by a Chinese expert panel using the GRADE approach. It provides 34 evidence-based recommendations on topics such as RRT initiation, anticoagulation, and weaning. The guideline aims to standardize RRT management in adult critically ill patients with AKI.",
         "ai_significance": "This guideline is crucial for ICU clinicians in China as it provides a unified framework for RRT management, potentially improving patient outcomes and reducing variability in care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42246225",
@@ -1669,7 +1685,9 @@
         "ai_key_stats": "",
         "ai_summary": "These guidelines provide evidence-based recommendations for central venous cannulation in critically ill patients. They aim to standardize the approach, increase effectiveness, and minimize complications. The guidelines cover pre-procedural ultrasound assessment, optimal vascular access site selection, and catheter position confirmation.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to standardize and improve central venous cannulation procedures, potentially reducing complications and improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41860322",
@@ -1712,7 +1730,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed evidence-based guidelines for caring for older adults in the ICU, recommending a geriatric model of care and avoiding antipsychotic medications for preventing delirium. The guidelines were developed using a systematic review and expert consensus. The recommendations aim to improve outcomes for older ICU patients.",
         "ai_significance": "These guidelines are crucial for ICU clinicians as they provide evidence-based recommendations for caring for older adults, who are a growing proportion of the ICU population. By following these guidelines, clinicians can improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42272209",
@@ -1742,7 +1762,9 @@
         "ai_key_stats": "",
         "ai_summary": "A modified Delphi study developed a consensus-based framework for assessing ICU capacity and capability in South Korea, prioritizing functional capabilities over structural metrics. The framework includes 29 indicators across four domains. It provides a foundation for a capability-oriented classification system.",
         "ai_significance": "This study is significant for ICU clinical practice in South Korea as it establishes a standardized framework for assessing ICU capacity and capability, potentially improving patient safety and resource allocation.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41773929",
@@ -1786,7 +1808,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed guidelines for using neuromuscular blocking agents in adults with acute respiratory distress syndrome (ARDS). The guidelines recommend using these agents in patients with a specific oxygen level, but do not make recommendations for other situations due to a lack of evidence. The guidelines aim to help clinicians make informed decisions about using these agents.",
         "ai_significance": "These guidelines are important for ICU clinicians because they provide evidence-based recommendations for using neuromuscular blocking agents in ARDS patients, which can help improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41773927",
@@ -1828,7 +1852,9 @@
         "ai_key_stats": "",
         "ai_summary": "These guidelines were developed to provide evidence-based recommendations for triaging critically ill patients during ICU capacity shortages. A multidisciplinary panel used the GRADE methodology to analyze evidence and formulate recommendations. The panel generated one conditional recommendation and five no recommendation statements.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions during crisis-level shortages, ensuring efficient distribution of critical care resources and saving lives.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41700745",
@@ -1856,7 +1882,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study updated the guidelines for managing penetrating traumatic brain injury (pTBI) based on new literature and expert consensus. The guidelines cover resuscitation, imaging, critical care, surgery, and prognosis. A summary of the recommendations and seven treatment algorithms are provided.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions about the care of patients with pTBI, potentially improving outcomes and reducing complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41655594",
@@ -1905,7 +1933,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed a regionally adapted clinical practice guideline for stress ulcer prophylaxis in critically ill adults in Saudi Arabia, Kuwait, and Nordic countries. The guideline provides evidence-based recommendations for SUP use, including who should receive it, which medications to use, and when to discontinue. The recommendations were developed using the GRADE-ADOLOPMENT methodology and took into account local epidemiology, drug access, and health system variables.",
         "ai_significance": "These recommendations can help ICU clinicians make informed decisions about stress ulcer prophylaxis in critically ill adults, taking into account regional variations in healthcare systems and patient populations.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42417792",
@@ -1933,7 +1963,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviewed Brazilian ICU design standards and found they conflict with decades of evidence on environment's impact on patient healing and staff performance. Current standards are associated with negative outcomes for patients, staff, and families. Updating these standards is necessary to improve critical care outcomes.",
         "ai_significance": "This study highlights the need for evidence-based ICU design standards to improve patient and staff outcomes, emphasizing the importance of policy updates to prioritize patient-centered care and staff well-being.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42245967",
@@ -1995,7 +2027,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the simplified Radiographic Assessment of Lung Edema (RALE) score's ability to predict mortality in critically ill patients with Delta-variant COVID-19 using chest X-rays. The RALE score performed comparably to other scoring systems and remained an independent predictor of mortality. The study suggests that the RALE score could be a useful tool for risk stratification in critically ill patients with COVID-19, particularly in resource-limited settings.",
         "ai_significance": "This study's findings support the use of the simplified RALE score as a practical tool for guiding treatment decisions in critically ill patients with COVID-19, which could lead to improved outcomes and resource allocation in high-burden settings.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42518782",
@@ -2034,7 +2068,9 @@
         "ai_key_stats": "n=455, OR 19.44 (95% CI 2.57-146.5), p=0.004, OR 4.3 (95% CI 1.61-11.41), p=0.003, OR 3.93 (95% CI 1.34-11.47), p=0.012",
         "ai_summary": "This study evaluated the NephroCheck score, a urine test using biomarkers IGFBP7 and TIMP-2, to predict acute kidney injury (AKI) in ICU patients. The test showed some ability to identify AKI risk and need for renal replacement therapy, but its performance was inconsistent for differentiating transient from persistent AKI.",
         "ai_significance": "Early detection of AKI is critical for guiding timely interventions and improving outcomes in critically ill patients, making this study's findings relevant for ICU clinical practice.",
-        "ai_rounds_takeaway": "Consider using the NephroCheck score to identify patients at high risk for AKI and renal replacement therapy in the ICU."
+        "ai_rounds_takeaway": "Consider using the NephroCheck score to identify patients at high risk for AKI and renal replacement therapy in the ICU.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42484242",
@@ -2065,7 +2101,9 @@
         "ai_key_stats": "n=189, OR 20.8 (95% CI 3.8-114) for stage 2 AKI, OR 93.6 (95% CI 23.4-375) for stage 3 AKI, p < 0.001",
         "ai_summary": "This study looked at cardiac surgery patients in a single healthcare system and found that 16.7% developed acute kidney injury (AKI). Patients with AKI had higher mortality, longer hospital stays, and reduced renal recovery compared to those without AKI.",
         "ai_significance": "Early identification and management of AKI are crucial in cardiac surgery patients to reduce mortality and improve outcomes.",
-        "ai_rounds_takeaway": "Consider AKI risk stratification and early intervention in cardiac surgery patients with elevated serum creatinine or decreased urine output."
+        "ai_rounds_takeaway": "Consider AKI risk stratification and early intervention in cardiac surgery patients with elevated serum creatinine or decreased urine output.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42559086",
@@ -2101,7 +2139,9 @@
         "ai_key_stats": "",
         "ai_summary": "A 76-year-old woman developed Aeromonas hydrophila sepsis after undergoing ERCP and laparoscopic cholecystectomy. The patient was treated with the 1 hour sepsis bundle and targeted antimicrobial therapy, resulting in favorable recovery. This is the first reported case of Aeromonas hydrophila sepsis after combined ERCP and laparoscopic cholecystectomy.",
         "ai_significance": "This case highlights the importance of personalized early intervention and strict adherence to endoscope reprocessing protocols to minimize procedure-related infection risks in high-risk critically ill patients.",
-        "ai_rounds_takeaway": "Consider strict adherence to endoscope reprocessing protocols in patients undergoing ERCP and laparoscopic cholecystectomy."
+        "ai_rounds_takeaway": "Consider strict adherence to endoscope reprocessing protocols in patients undergoing ERCP and laparoscopic cholecystectomy.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42565116",
@@ -2274,7 +2314,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13525298/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42668743/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42415882",
@@ -2329,7 +2371,9 @@
         "ai_key_stats": "",
         "ai_summary": "A multicenter survey in Indian ICUs found that 67.4% of respondents were specialists in critical care medicine and 67.2% had received POCUS training. Most used POCUS for lung assessments, volume status, and cardiac evaluations, with key barriers including inadequate training and limited machines.",
         "ai_significance": "This study highlights the increasing adoption of POCUS in Indian ICUs and emphasizes the need for essential training for intensivists to improve patient care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       }
     ]
   },
@@ -2410,14 +2454,14 @@
         ],
         "doi": "10.1111/nicc.70671",
         "abstract": "BACKGROUND: Sleep and circadian disruption are common in critical illness, yet bedside assessment remains difficult. Wearables are unobtrusive and extend observation across 24 h, but their measurement performance in critical illness requires appraisal. AIMS: To map wearable sleep and circadian monitoring during intensive care, its measurement performance, clinical applications and nursing implications. STUDY DESIGN: A scoping review followed JBI and PRISMA-ScR guidance. PubMed, Europe PMC and OpenAlex were searched from inception to 22 July 2026, with citation searching. Eligible primary reports used a body-worn sensor during intensive care to estimate sleep or circadian/rest-activity outcomes at any age. Conventional polysomnography/electroencephalography without an eligible wearable, non-contact systems, staff studies and post-ICU-only monitoring were excluded. No risk-of-bias appraisal was undertaken. RESULTS: Sixty-one reports (43 adult; 18 paediatric/neonatal; 1996-2026) were included. Actigraphy dominated; commercial trackers, smartwatches and one respiratory-belt/heart-rate-variability system were less common. Monitoring was feasible, but performance varied by device, patient state and age group: wake specificity was often poor in ventilated, sedated or immobile patients and agreement with patient or nurse reports was weak to modest. Records showed fragmented and daytime sleep, weak day-night consolidation and attenuated circadian rhythmicity. Nursing bundles, massage, positioning, light and chronotype-informed care changed selected outcomes, but effects were heterogeneous. CONCLUSIONS: Wearables usefully describe rest-activity patterns and support nursing assessment, but agreement with physiological sleep varied by device, patient state and age; movement-derived estimates need clinical context and are not a stand-alone sleep measure. RELEVANCE TO CLINICAL PRACTICE: Nurses should combine wearable trends with patient report, sedation and mobility, delirium screening and care-interaction records; escalation thresholds require prospective validation.",
-        "citation_count": 0,
+        "citation_count": 91,
         "is_top_journal": false,
         "study_type": "Review",
         "volume": "31",
         "issue": "5",
         "pages": "e70671",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13542315/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42693541/"
       },
       {
@@ -3650,6 +3694,17 @@
   "preprints": {
     "window_days": 14,
     "articles": [
+      {
+        "title": "The LIBERATE Internal Randomized Controlled Pilot Trial: Adjunctive midodrine therapy for early liberation from vasopressor support in critically ill patients",
+        "url": "https://doi.org/10.1101/2025.07.31.25332174",
+        "source": "medRxiv preprint",
+        "author": "Oleksa G Rewa",
+        "pubdate": "2026-08-23",
+        "summary": "BackgroundIntravenous (IV) vasopressors are the mainstay of hemodynamic physiological support for critically ill patients. However, the role of oral vasopressors in the management of IV vasopressor-dependent shock remains unclear. The LIBERATE body of work aims to examine the role of midodrine as an IV vasopressor sparing agent for critically ill patients with IV vasopressor dependent shock. The objective of the LIBERATE internal randomized controlled trial was to evaluate the implementation of ",
+        "study_type": "Preprint (not peer-reviewed)",
+        "is_open_access": true,
+        "is_preprint": true
+      },
       {
         "title": "Development of an Intelligent Predictive Indicator System for Weaning and Extubation Timing in Mechanically Ventilated Patients Based on the Delphi Method",
         "url": "https://doi.org/10.64898/2026.08.02.26359537",
@@ -6426,9 +6481,7 @@
             "strengths": "large sample size; multicentre design",
             "weaknesses": "no clear rationale for the chosen upper limit of arterial oxygen saturation in the liberal-oxygen group",
             "bottom_line": "There is no evidence to support the use of conservative oxygen therapy over liberal oxygen therapy in unresponsive adults after cardiac arrest."
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42377460",
@@ -9546,9 +9599,7 @@
           "ai_key_stats": "n=8685, mean difference in AKI Rank -0.8 (95% CI -1.3 to -0.3), mean difference in stage 1 AKI -3.1 (95% CI -3.8 to -2.5), relative risk of 30-day mortality 1.20 (95% CI 1.09 to 1.33)",
           "ai_summary": "Researchers studied the effect of restrictive fluid management in critically ill patients with acute kidney injury (AKI). They found that this approach improved renal function in early AKI but potentially harmed patients with more advanced AKI. The study suggests that future trials should consider safety criteria for patients with advanced renal injury.",
           "ai_significance": "These findings have implications for ICU fluid management strategies, particularly for patients with AKI. Clinicians should carefully consider the stage of AKI when deciding on fluid management.",
-          "ai_rounds_takeaway": "Consider conservative fluid management in patients with early AKI, but be cautious and monitor closely in those with more advanced AKI.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider conservative fluid management in patients with early AKI, but be cautious and monitor closely in those with more advanced AKI."
         },
         {
           "pmid": "42204563",
@@ -12020,9 +12071,7 @@
             "strengths": "large sample size; multicentre design",
             "weaknesses": "no clear rationale for the chosen upper limit of arterial oxygen saturation in the liberal-oxygen group",
             "bottom_line": "There is no evidence to support the use of conservative oxygen therapy over liberal oxygen therapy in unresponsive adults after cardiac arrest."
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42223327",
@@ -12595,7 +12644,9 @@
           "ai_key_stats": "n=11,176 (development cohort), n=1,127 (temporal validation cohort), AUROC 0.856-0.960, AUPRC 0.302-0.786, p-values not reported",
           "ai_summary": "Researchers developed and validated a machine learning system that generates hourly predictions for ICU outcomes, such as mortality and discharge. The system was integrated into the electronic medical record and showed strong performance in a single-center study. The system was maintained with automated updates and visualizations.",
           "ai_significance": "This study demonstrates the feasibility of embedding real-time predictions into ICU workflow, which could improve patient care and outcomes. Further studies are needed to assess the system's transportability and clinical impact.",
-          "ai_rounds_takeaway": "Consider using real-time predictions from an EMR-integrated system to inform ICU decision-making, especially for high-risk patients."
+          "ai_rounds_takeaway": "Consider using real-time predictions from an EMR-integrated system to inform ICU decision-making, especially for high-risk patients.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42283370",
@@ -13042,7 +13093,9 @@
             "strengths": "Within-patient crossover design; randomization; multiple secondary outcomes",
             "weaknesses": "Small sample size; short duration of assessment periods",
             "bottom_line": "A novel device may be a safe alternative to traditional wrist restraints in ICU settings, with moderate patient and clinician satisfaction."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42467246",
@@ -13183,9 +13236,7 @@
             "strengths": "feasible, reliable deep sedation, stable ICP and CPP",
             "weaknesses": "open-label design, pilot trial, limited sample size",
             "bottom_line": "Isoflurane sedation may be a safe and effective alternative to propofol in invasively monitored neurocritical patients without intracranial hypertension, but larger studies are needed to confirm these findings."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42152115",
@@ -13272,9 +13323,7 @@
             "strengths": "Standard dosing achieved adequate target attainment for both combinations; simulations showed high ELF target attainment for all CAZ/AVI regimens under conservative inhibitor threshold assumptions",
             "weaknesses": "Interindividual variability and the risk of plasma overexposure support individualized dosing and consideration of therapeutic drug monitoring",
             "bottom_line": "Standard dosing of ceftolozane/tazobactam or ceftazidime/avibactam administered by continuous infusion is likely adequate for critically ill patients with nosocomial pneumonia, but individualized dosing may be necessary due to interindividual variability and the risk of plasma overexposure."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "41998735",
@@ -13303,9 +13352,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
           "ai_significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         }
       ]
     }

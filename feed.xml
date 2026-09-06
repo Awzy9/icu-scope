@@ -4,13 +4,20 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sat, 05 Sep 2026 07:12:43 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 07:25:10 +0000</lastBuildDate>
     <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
       <guid isPermaLink="false">pmid:42496126</guid>
       <category>Trauma &amp; Surgical</category>
       <description>This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.</description>
+    </item>
+    <item>
+      <title>EMCrit 433 – HALO (High Acuity, Low Occurrence) Procedural Philosophy</title>
+      <link>https://emcrit.org/emcrit/halo/</link>
+      <guid isPermaLink="false">https://emcrit.org/emcrit/halo/</guid>
+      <category>EMCrit</category>
+      <description>I break down the distinction between institutional competence and operator-level systems competence for High-Acuity, Low-Occurrence (HALO) emergency procedures. The episode discusses recent literature on system vs. operator failure modes, introduces the &quot;Recipe Method&quot; for procedural self-mastery, and outlines a comprehensive 12-month HALO curriculum for resuscitationists. EMCrit Project by Scott </description>
     </item>
     <item>
       <title>Ultrasound Detection of Body Composition in Critical Care</title>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT00156767</guid>
       <category>Clinical Trial</category>
       <description>This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.</description>
-    </item>
-    <item>
-      <title>EXtubation Related Complications - the EXTUBE Study (EXTUBE)</title>
-      <link>https://clinicaltrials.gov/study/NCT06442930</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06442930</guid>
-      <category>Clinical Trial</category>
-      <description>EXTUBE is an international, multicentre, prospective cohort study evaluating the incidence, risk factors, and outcomes of extubation-related complications and describing clinical practices related to extubation after general anesthesia or after critical illness in the operating room (OR), out of OR anesthesia location or intensive care unit (ICU).</description>
     </item>
   </channel>
 </rss>
