@@ -6538,6 +6538,16 @@
       "summary": "I break down the distinction between institutional competence and operator-level systems competence for High-Acuity, Low-Occurrence (HALO) emergency procedures. The episode discusses recent literature on system vs. operator failure modes, introduces the \"Recipe Method\" for procedural self-mastery, and outlines a comprehensive 12-month HALO curriculum for resuscitationists. EMCrit Project by Scott ",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emnerd/the-tall-tale-heart/": {
+      "title": "The Tall-Tale Heart",
+      "url": "https://emcrit.org/emnerd/the-tall-tale-heart/",
+      "source": "EMCrit",
+      "author": "Rory Spiegel",
+      "pubdate": "2026-09-07",
+      "summary": "It seems like every few years, someone tests whether further risk stratification in patients following a negative workup for acute coronary syndrome (ACS) provides a clinically meaningful benefit, and the answer has been remarkably consistent. Every few years, the answer is no. On this occasion, the TARGET-CTCA trial1, just published in the New England Journal […] EMCrit Project by Rory Spiegel .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -7957,6 +7967,64 @@
       "is_open_access": false,
       "pmc_url": null,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42700418/",
+      "society": "KDIGO"
+    },
+    "42705151": {
+      "pmid": "42705151",
+      "title": "Acute kidney injury in critically ill patients with hypertensive disorders of pregnancy: a prospective cohort study.",
+      "journal": "Pregnancy hypertension",
+      "pubdate": "2026 Sep 7",
+      "authors": [
+        "Giannoni R",
+        "Rubatto Birri PN",
+        "Anton AM",
+        "Arce Gallardo MG",
+        "Gavicola RO",
+        "Giannoni FF",
+        "Masevicius FD"
+      ],
+      "doi": "10.1016/j.preghy.2026.101516",
+      "abstract": "OBJECTIVES: To identify clinical and biochemical factors associated with the development of acute kidney injury (AKI) in critically ill patients with severe hypertensive disorders of pregnancy (HDP) and to evaluate associated maternal and fetal outcomes. STUDY DESIGN: A prospective single-center cohort study was conducted in an Argentinian intensive care unit (ICU) between November 2017 and July 2022, including 179 women with severe HDP. MAIN OUTCOME MEASURES: The primary outcome was the development of AKI, defined by either a pregnancy-adjusted admission serum creatinine threshold (>0.87 mg/dL) or fulfillment of Kidney Disease Improving Global Outcomes (KDIGO) criteria. Secondary outcomes included maternal and fetal mortality. RESULTS: Out of 179 patients, AKI was diagnosed in 119 patients (66.3%) and was associated with higher illness severity scores and increased fetal mortality (18% vs. 5%; p = 0.022), In the final multivariable analysis, independent predictors of AKI included the corrected Sequential Organ Failure Assessment (SOFA) score (OR 1.37; 95% CI 1.04-1.81), serum uric acid (OR 1.03; 95% CI 1.01-1.05), lactate dehydrogenase (OR 1.01; 95% CI 1.00-1.01), and base excess (OR 0.87; 95% CI 0.78-0.96). HELLP syndrome represented the most severe phenotype, carrying the highest risk for advanced AKI and the need for renal replacement therapy. CONCLUSIONS: AKI is highly prevalent in critically ill patients with severe HDP and serves as a key determinant of adverse maternal and fetal prognosis, Simple biochemical markers and organ dysfunction scores enable early risk stratification, the limited specificity of standard criteria highlights the necessity for pregnancy-adapted diagnostic approaches.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "46",
+      "issue": "",
+      "pages": "101516",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42705151/",
+      "society": "KDIGO"
+    },
+    "42704056": {
+      "pmid": "42704056",
+      "title": "Early renal perfusion phenotypes and renal recovery in critically ill patients with or at risk for acute kidney injury: a prospective multicenter cohort study.",
+      "journal": "Shock (Augusta, Ga.)",
+      "pubdate": "2026 Sep 7",
+      "authors": [
+        "Fu Y",
+        "Ke L",
+        "Lv C",
+        "Wang Y",
+        "Zhang S",
+        "Yan J",
+        "Zhang X",
+        "Liu W",
+        "Hu Y",
+        "Zhang D",
+        "Li H"
+      ],
+      "doi": "10.1097/SHK.0000000000002936",
+      "abstract": "BACKGROUND: Acute kidney injury (AKI) in critical illness is heterogeneous, and conventional Kidney Disease: Improving Global Outcomes (KDIGO) classification may not capture early physiologic differences relevant to renal recovery. METHODS: Critically ill adults with or at risk for AKI were enrolled within 24 h of intensive care unit admission in a prospective multicenter cohort from six ICUs in China. Doppler ultrasound-derived semi-quantitative renal perfusion (SQP) and renal resistive index (RRI) were measured at admission, 24 h, and 48 h. Group-based trajectory modeling identified perfusion phenotypes, and associations with renal outcomes were evaluated using multivariable models. RESULTS: Among 456 patients, 216 (47.4%) had AKI at ICU admission and 253 (55.5%) met AKI criteria within 72 h. Two SQP phenotypes were identified: sustained-high perfusion (n = 224, 49.1%) and sustained-low perfusion (n = 232, 50.9%). Sustained-high SQP was associated with lower odds of persistent AKI in the primary model (adjusted odds ratio, 0.56; 95% CI, 0.35-0.89; P = 0.015), although this association was attenuated in expanded sensitivity models. Sustained-high SQP was also associated with less renal non-recovery within 7 days, faster recovery among patients with AKI at admission, and less RRT use on day 3 and day 7. RRI trajectories did not discriminate renal outcomes. CONCLUSIONS: Serial SQP phenotyping identified persistent low- and high-perfusion strata associated with kidney-specific recovery outcomes and may provide complementary bedside physiologic information, but external validation is required.Trial registration: ClinicalTrials.gov NCT05866250.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42704056/",
       "society": "KDIGO"
     }
   },

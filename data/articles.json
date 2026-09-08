@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T07:40:45+00:00",
+  "generated_at": "2026-09-08T07:32:48+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -227,15 +227,25 @@
         "pages": "",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42696428/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42696428/"
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "The Tall-Tale Heart",
+        "url": "https://emcrit.org/emnerd/the-tall-tale-heart/",
+        "source": "EMCrit",
+        "author": "Rory Spiegel",
+        "pubdate": "2026-09-07",
+        "summary": "It seems like every few years, someone tests whether further risk stratification in patients following a negative workup for acute coronary syndrome (ACS) provides a clinically meaningful benefit, and the answer has been remarkably consistent. Every few years, the answer is no. On this occasion, the TARGET-CTCA trial1, just published in the New England Journal […] EMCrit Project by Rory Spiegel .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "EMCrit 433 – HALO (High Acuity, Low Occurrence) Procedural Philosophy",
         "url": "https://emcrit.org/emcrit/halo/",
@@ -362,9 +372,7 @@
         "ai_key_stats": "",
         "ai_summary": "Dr. Cho Espinosa discusses how to manage life-threatening post-partum hemorrhage with a focus on uterotonic administration, physical compression techniques, and coagulopathy management.",
         "ai_significance": "This matters for ICU clinical practice as it provides a practical approach to managing a common and potentially catastrophic obstetric emergency.",
-        "ai_rounds_takeaway": "Consider aggressive coagulopathy management in patients with severe post-partum hemorrhage.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider aggressive coagulopathy management in patients with severe post-partum hemorrhage."
       },
       {
         "title": "A Slow Retreat",
@@ -378,9 +386,7 @@
         "ai_key_stats": "",
         "ai_summary": "The standard of care for post-cardiac arrest management, targeted temperature management (TTM), may be based on a flawed premise. The evidence supporting TTM has been questioned. The foundation of TTM is being reevaluated.",
         "ai_significance": "This challenges the current standard of care for post-cardiac arrest patients, potentially leading to a reevaluation of treatment protocols. The implications for patient care are significant.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "PulmCrit Wee: Four reasons that hyperangulated videolaryngoscopy should be the mainstay of ICU intubations",
@@ -394,9 +400,7 @@
         "ai_key_stats": "",
         "ai_summary": "The author advocates for hyperangulated videolaryngoscopy as the primary method for intubating critically ill patients, citing several reasons for this recommendation.",
         "ai_significance": "This shift in practice could improve intubation success rates and reduce complications in ICU patients.",
-        "ai_rounds_takeaway": "Consider using hyperangulated videolaryngoscopy as the primary method for intubation in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using hyperangulated videolaryngoscopy as the primary method for intubation in critically ill patients."
       },
       {
         "title": "Basic Fracture Treatment",
@@ -410,9 +414,7 @@
         "ai_key_stats": "",
         "ai_summary": "This is a customizable poster for treating fractures in the emergency department, featuring radiographs, splinting guidance, and fillable local follow-up pathways.",
         "ai_significance": "This resource can aid in standardizing fracture treatment in the emergency department, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Study in Priors Part 2",
@@ -426,9 +428,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study applied Bayesian analysis concepts to a meta-analysis comparing normal saline with balanced crystalloids in critically ill patients. The BEST-Living meta-analysis found a difference in outcomes between the two fluids. The study aimed to provide a nuanced understanding of the data.",
         "ai_significance": "This study's findings on fluid choice in critically ill patients can inform clinical decision-making and potentially improve patient outcomes. The use of Bayesian analysis provides a more comprehensive understanding of the data.",
-        "ai_rounds_takeaway": "Consider using balanced crystalloids over normal saline in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using balanced crystalloids over normal saline in critically ill patients."
       },
       {
         "title": "REBEL MIND – Teaching Towards Expertise with Gamification",
@@ -442,9 +442,7 @@
         "ai_key_stats": "",
         "ai_summary": "This podcast episode introduces a gamified teaching tool called Rapid Sequence, aimed at improving clinician learning in critical care. The tool is part of a series focusing on productivity, provider performance, and team optimization. No specific study or data is presented.",
         "ai_significance": "This innovative teaching approach may enhance clinician learning and performance in high-pressure situations, but its effectiveness requires further evaluation. Its potential impact on team optimization and productivity is also noteworthy.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Blunt cerebrovascular injury",
@@ -458,9 +456,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article discusses the management of blunt cerebrovascular injury, including expanded Denver screening, CTA diagnosis, Biffl grading, antithrombotic treatment, and follow-up.",
         "ai_significance": "Accurate diagnosis and management of blunt cerebrovascular injury are crucial for preventing long-term neurological damage and improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Field Guide to Evidence Based Medicine Podcast – Episode 1",
@@ -474,9 +470,7 @@
         "ai_key_stats": "",
         "ai_summary": "This podcast is the first episode of a new series on evidence-based medicine in emergency medicine, hosted by Rory and Jerry Hoffman.",
         "ai_significance": "Understanding evidence-based medicine is crucial for ICU clinicians to provide high-quality patient care, and this podcast aims to educate and guide them in this area.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "EMCrit 430 – Questions and Answers (Members Q&A Episode 004) with Sara Crager",
@@ -490,9 +484,7 @@
         "ai_key_stats": "",
         "ai_summary": "Dr. Sarah Crager discusses bedside shock management, moving beyond blood pressure targets to a dynamic approach. They address clinical dilemmas, including lactated Ringer's in lactic acidosis and albumin and diuretics in edematous patients. A real-world approach to fluid management is explored.",
         "ai_significance": "This episode provides ICU clinicians with practical guidance on fluid management in shock, helping them make informed decisions in high-pressure situations.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Study in Priors",
@@ -506,9 +498,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers found that nearly half of positive medical trial results cannot be replicated, highlighting issues with trust in medical literature.",
         "ai_significance": "This has significant implications for ICU clinical practice, as it may lead to the adoption of ineffective treatments and delay the discovery of effective ones.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "HFNC vs. NIV in Acute Cardiogenic Pulmonary Edema: Go with the Flow?",
@@ -522,9 +512,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared high-flow nasal cannula (HFNC) to non-invasive ventilation (NIV) in patients with acute cardiogenic pulmonary edema. It found that HFNC may be as effective as NIV in reducing respiratory rate and improving respiratory distress within 2 hours. The study aimed to determine if HFNC is a viable alternative to NIV in this setting.",
         "ai_significance": "This study's findings could help clinicians choose between HFNC and NIV for patients with acute cardiogenic pulmonary edema, potentially improving patient outcomes and reducing the need for invasive ventilation.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "ECG criteria for left ventricular hypertrophy",
@@ -538,9 +526,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviews the ECG criteria for diagnosing left ventricular hypertrophy, including their historical development, diagnostic performance, and limitations. It aims to provide a comprehensive overview of these criteria for clinicians. The study covers the principal ECG criteria used to diagnose left ventricular hypertrophy.",
         "ai_significance": "Understanding ECG criteria for left ventricular hypertrophy is crucial for accurate diagnosis and management of cardiac conditions in ICU patients, allowing for timely interventions and improved patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "The Case of the Malignant Cohort",
@@ -554,9 +540,7 @@
         "ai_key_stats": "",
         "ai_summary": "The YEARS protocol was tested to see if it can safely identify low-risk patients with suspected pulmonary embolism. The study aimed to determine if this approach can be applied to patients with malignancy. Results were not provided.",
         "ai_significance": "This study's findings could impact ICU clinical practice by helping clinicians determine which patients with malignancy and suspected PE can safely use a lower D-dimer threshold.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "EMCrit RACC-Lit Review – 2026 July",
@@ -570,9 +554,7 @@
         "ai_key_stats": "",
         "ai_summary": "This is a literature review on various topics in critical care, including prehospital whole blood transfusions, defibrillator damage from DSD, and adenosine dosing for supraventricular tachycardia.",
         "ai_significance": "Understanding these topics can help ICU clinicians make informed decisions and improve patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Can’t Intubate Can’t Oxygenate (CICO)",
@@ -586,9 +568,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study discusses the management of Can't Intubate Can't Oxygenate (CICO) situations in ICU, where standard airway rescue techniques fail. CICO is recognized, and the patient is prepared for Front of Neck Access (FONA). FONA is then transitioned to for oxygen delivery.",
         "ai_significance": "CICO management is crucial for ICU clinicians to prevent hypoxia and cardiac arrest in critically ill patients. Effective recognition and transition to FONA can improve patient outcomes in life-threatening situations.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Adult Intubation Checklist",
@@ -602,9 +582,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed a checklist for adult intubation in emergency situations, covering preparation, pause before intubation, backup plans, and post-intubation care. The checklist aims to standardize and improve the intubation process. It may reduce errors and improve patient outcomes.",
         "ai_significance": "This checklist can be a valuable tool for ICU clinicians to improve their intubation skills and patient safety, especially in high-pressure emergency situations.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "EMCrit 429 – RUSH 2.0 – The I-RUSH and CRUSH Exams",
@@ -618,9 +596,7 @@
         "ai_key_stats": "",
         "ai_summary": "This episode introduces the updated RUSH Exam 2.0, also known as the iRUSH, which provides a standardized map for comprehensive bedside hemodynamic assessment. It combines clinical findings with advanced ultrasound modalities to phenotype shock. This updated protocol moves beyond its original role for the crashing patient.",
         "ai_significance": "This matters for ICU clinical practice as it provides a standardized approach to bedside hemodynamic assessment, potentially improving patient outcomes by accurately phenotyping shock.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Anatomy for bronchoscopy",
@@ -634,9 +610,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviews airway anatomy to help clinicians understand the basics of bronchoscopy and airway management, highlighting normal variations and potential abnormalities.",
         "ai_significance": "Understanding airway anatomy is crucial for successful bronchoscopy and airway management in ICU patients, which can impact patient outcomes and survival.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Patient preparation for ICU bronchoscopy",
@@ -650,9 +624,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers identified key considerations for preparing ICU patients for bronchoscopy, including time out, consent, and patient positioning. They also highlighted the importance of awake versus intubated & sedated bronchoscopy and effective teamwork. The study aimed to improve safety during ICU bronchoscopy.",
         "ai_significance": "This study's findings are crucial for ICU clinicians to ensure safe and effective bronchoscopy procedures, which can impact patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "MDCalc Wars: Massive Transfusion in Trauma – ABC vs. TASH",
@@ -666,9 +638,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers compared two tools for deciding massive transfusions in trauma patients: the ABC Score, which uses 4 variables at the bedside, and TASH, which uses labs and imaging for a more precise estimate.",
         "ai_significance": "Understanding which tool is most accurate can help ICU clinicians make better decisions about massive transfusions, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       }
     ]
   },
@@ -899,6 +869,68 @@
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
         "society": "KDIGO"
+      },
+      {
+        "pmid": "42705151",
+        "title": "Acute kidney injury in critically ill patients with hypertensive disorders of pregnancy: a prospective cohort study.",
+        "journal": "Pregnancy hypertension",
+        "pubdate": "2026 Sep 7",
+        "authors": [
+          "Giannoni R",
+          "Rubatto Birri PN",
+          "Anton AM",
+          "Arce Gallardo MG",
+          "Gavicola RO",
+          "Giannoni FF",
+          "Masevicius FD"
+        ],
+        "doi": "10.1016/j.preghy.2026.101516",
+        "abstract": "OBJECTIVES: To identify clinical and biochemical factors associated with the development of acute kidney injury (AKI) in critically ill patients with severe hypertensive disorders of pregnancy (HDP) and to evaluate associated maternal and fetal outcomes. STUDY DESIGN: A prospective single-center cohort study was conducted in an Argentinian intensive care unit (ICU) between November 2017 and July 2022, including 179 women with severe HDP. MAIN OUTCOME MEASURES: The primary outcome was the development of AKI, defined by either a pregnancy-adjusted admission serum creatinine threshold (>0.87 mg/dL) or fulfillment of Kidney Disease Improving Global Outcomes (KDIGO) criteria. Secondary outcomes included maternal and fetal mortality. RESULTS: Out of 179 patients, AKI was diagnosed in 119 patients (66.3%) and was associated with higher illness severity scores and increased fetal mortality (18% vs. 5%; p = 0.022), In the final multivariable analysis, independent predictors of AKI included the corrected Sequential Organ Failure Assessment (SOFA) score (OR 1.37; 95% CI 1.04-1.81), serum uric acid (OR 1.03; 95% CI 1.01-1.05), lactate dehydrogenase (OR 1.01; 95% CI 1.00-1.01), and base excess (OR 0.87; 95% CI 0.78-0.96). HELLP syndrome represented the most severe phenotype, carrying the highest risk for advanced AKI and the need for renal replacement therapy. CONCLUSIONS: AKI is highly prevalent in critically ill patients with severe HDP and serves as a key determinant of adverse maternal and fetal prognosis, Simple biochemical markers and organ dysfunction scores enable early risk stratification, the limited specificity of standard criteria highlights the necessity for pregnancy-adapted diagnostic approaches.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "46",
+        "issue": "",
+        "pages": "101516",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42705151/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
+        "pmid": "42704056",
+        "title": "Early renal perfusion phenotypes and renal recovery in critically ill patients with or at risk for acute kidney injury: a prospective multicenter cohort study.",
+        "journal": "Shock (Augusta, Ga.)",
+        "pubdate": "2026 Sep 7",
+        "authors": [
+          "Fu Y",
+          "Ke L",
+          "Lv C",
+          "Wang Y",
+          "Zhang S",
+          "Yan J",
+          "Zhang X",
+          "Liu W",
+          "Hu Y",
+          "Zhang D",
+          "Li H"
+        ],
+        "doi": "10.1097/SHK.0000000000002936",
+        "abstract": "BACKGROUND: Acute kidney injury (AKI) in critical illness is heterogeneous, and conventional Kidney Disease: Improving Global Outcomes (KDIGO) classification may not capture early physiologic differences relevant to renal recovery. METHODS: Critically ill adults with or at risk for AKI were enrolled within 24 h of intensive care unit admission in a prospective multicenter cohort from six ICUs in China. Doppler ultrasound-derived semi-quantitative renal perfusion (SQP) and renal resistive index (RRI) were measured at admission, 24 h, and 48 h. Group-based trajectory modeling identified perfusion phenotypes, and associations with renal outcomes were evaluated using multivariable models. RESULTS: Among 456 patients, 216 (47.4%) had AKI at ICU admission and 253 (55.5%) met AKI criteria within 72 h. Two SQP phenotypes were identified: sustained-high perfusion (n = 224, 49.1%) and sustained-low perfusion (n = 232, 50.9%). Sustained-high SQP was associated with lower odds of persistent AKI in the primary model (adjusted odds ratio, 0.56; 95% CI, 0.35-0.89; P = 0.015), although this association was attenuated in expanded sensitivity models. Sustained-high SQP was also associated with less renal non-recovery within 7 days, faster recovery among patients with AKI at admission, and less RRT use on day 3 and day 7. RRI trajectories did not discriminate renal outcomes. CONCLUSIONS: Serial SQP phenotyping identified persistent low- and high-perfusion strata associated with kidney-specific recovery outcomes and may provide complementary bedside physiologic information, but external validation is required.Trial registration: ClinicalTrials.gov NCT05866250.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42704056/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42700418",
@@ -2182,9 +2214,7 @@
         "ai_key_stats": "n=not reported, OR 1.24 (95% CI 1.07-1.43), p<0.01",
         "ai_summary": "Researchers studied the use of two urinary biomarkers, TIMP-2 and IGFBP7, to predict sepsis-related acute kidney injury (AKI) in patients admitted to the emergency department. They found that higher levels of these biomarkers were associated with the development of AKI, but the markers had only moderate overall discrimination. The biomarkers may help rule out or indicate a high risk of AKI.",
         "ai_significance": "This study provides a potential tool for clinicians to quickly identify patients at risk of sepsis-related AKI, which could improve patient outcomes and reduce the need for unnecessary interventions.",
-        "ai_rounds_takeaway": "Consider measuring urinary TIMP-2 and IGFBP7 levels in patients with suspected sepsis to help rule out AKI risk.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider measuring urinary TIMP-2 and IGFBP7 levels in patients with suspected sepsis to help rule out AKI risk."
       },
       {
         "pmid": "42571343",
@@ -3562,122 +3592,7 @@
   },
   "this_week": {
     "window_days": 7,
-    "articles": [
-      {
-        "pmid": "42320025",
-        "title": "Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.",
-        "journal": "American journal of respiratory and critical care medicine",
-        "pubdate": "2026 Sep 1",
-        "authors": [
-          "Zochios V",
-          "Brewer JM",
-          "Antonini MV",
-          "Brodie D",
-          "Peek GJ",
-          "Schmidt M",
-          "Camporota L",
-          "Doyle J",
-          "Tschernko E",
-          "Schultz MJ",
-          "Yusuff H",
-          "Endorsing Societies of College of Intensive Care Medicine (CICM) UK; Pulmonary Vascular Research Institute (PVRI); Protective Ventilation Network (PROVE Network); Association for Cardiothoracic Anaesthesia and Critical Care (ACTACC); Society of Mechanical Ventilation (SMV); Protecting the Right Ventricle Network (PRORVnet)"
-        ],
-        "doi": "10.1093/ajrccm/aamag321",
-        "abstract": "Extracorporeal life support provides temporary cardiorespiratory support for patients with severe, potentially reversible cardiac and/or respiratory failure refractory to conventional measures. Its application has broadened across a wide spectrum of critical illness, yet the mechanistic basis of its physiologic benefit remains incompletely defined. This review explores the mechanisms through which extracorporeal life support may confer benefit in respiratory and cardiac failure. These include restoration of gas exchange, optimization of circulatory dynamics, and mitigation of secondary organ injuries, creating conditions that facilitate tissue repair, enable adjunctive therapies, and, in selected cases, provide a bridge to transplantation. In isolated respiratory failure, respiratory extracorporeal life support stabilizes gas exchange and modulates respiratory drive, enabling lung-protective ventilation and potentially attenuating ventilator- and patient self-inflicted lung injury. In cardiogenic shock, cardiac extracorporeal life support restores systemic perfusion and may reduce myocardial oxygen demand, while during cardiac arrest, it may confer neuroprotective effects. In combined cardiorespiratory failure, advanced extracorporeal support modalities may augment both systemic and pulmonary circulation, supporting gas exchange and maintaining end-organ perfusion. Mechanistically, these interventions interrupt the cascade of hypoxemia- and/or hypercapnia- induced pulmonary vasoconstriction, right ventricular overload, and systemic hypoperfusion, facilitating multiorgan recovery. Optimizing patient selection, timing for extracorporeal life support initiation, and use of adjunctive therapies require a nuanced understanding of the interplay between these physiologic pathways alongside careful considerations of key limitations, including device-related complications, hematologic and inflammatory perturbations, and physiologic trade-offs. This State-of-the-Art review synthesizes the current literature on the mechanistic basis of extracorporeal life support in adults.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "212",
-        "issue": "9",
-        "pages": "2159-2174",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42320025/",
-        "ai_key_stats": "",
-        "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
-        "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
-        "ai_rounds_takeaway": "",
-        "category_id": "cardiovascular",
-        "category_label": "Cardiovascular",
-        "category_ids": [
-          "cardiovascular",
-          "gi-nutrition",
-          "trauma-surgical"
-        ],
-        "category_labels": [
-          "Cardiovascular",
-          "GI & Nutrition",
-          "Trauma & Surgical"
-        ]
-      },
-      {
-        "pmid": "42495753",
-        "title": "Mechanisms and therapeutic strategies of pyroptosis in sepsis‑induced acute lung injury (Review).",
-        "journal": "International journal of molecular medicine",
-        "pubdate": "2026 Sep",
-        "authors": [
-          "Wu W",
-          "Li N",
-          "Deng G",
-          "Yang S",
-          "Zeng R",
-          "Chen R",
-          "Li J"
-        ],
-        "doi": "10.3892/ijmm.2026.5935",
-        "abstract": "Sepsis‑induced acute lung injury (S‑ALI) is a leading cause of respiratory failure and mortality in intensive care units, characterized by profound biological and clinical heterogeneity that explains the repeated failure of uniform anti‑inflammatory therapies. This variability underscores the urgent need for mechanism‑based patient stratification and precision medicine approaches. Pyroptosis, a regulated inflammatory cell death program driven by gasdermin‑mediated membrane pore formation, has emerged as a critical driver of alveolar‑capillary barrier disruption and cytokine amplification in S‑ALI. The activation of canonical and non‑canonical inflammasome pathways, together with molecular crosstalk within the integrated PANoptosome network, promotes context‑dependent pyroptotic responses across pulmonary endothelial, epithelial and immune cells. Notably, recent insights into lineage plasticity and transcriptional heterogeneity further elucidate the dynamic cellular orchestration of these pathways. Pyroptotic effectors, such as circulating gasdermin D fragments and mature IL‑1β/IL‑18, are detectable in patients with sepsis and acute respiratory distress syndrome, being associated with hyperinflammatory endotypes, disease severity and clinical trajectories. By integrating preclinical mechanistic insights with emerging human biomarker and trial data, the present review positions pyroptosis as a clinically actionable, stratification‑relevant target. The present review highlights current advances in pathway‑specific inhibitors and discusses their potential to enable biomarker‑guided, personalized interventions in critically ill patients.",
-        "citation_count": 0,
-        "is_top_journal": false,
-        "study_type": "Review",
-        "volume": "58",
-        "issue": "3",
-        "pages": "",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42495753/",
-        "ai_key_stats": "",
-        "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
-        "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
-        "ai_rounds_takeaway": "",
-        "category_id": "respiratory",
-        "category_label": "Respiratory",
-        "category_ids": [
-          "respiratory"
-        ],
-        "category_labels": [
-          "Respiratory"
-        ]
-      },
-      {
-        "pmid": "42498336",
-        "title": "Fluid and Electrolyte Management in Critically Ill Patients with Infections.",
-        "journal": "Critical care nursing clinics of North America",
-        "pubdate": "2026 Sep",
-        "authors": [
-          "Wuertz KC",
-          "Holdridge A"
-        ],
-        "doi": "10.1016/j.cnc.2026.04.007",
-        "abstract": "Fluid and electrolyte management is a crucial component of care in critically ill patients with severe infections. Patients with sepsis, septic shock, or multiorgan dysfunction syndrome struggle to maintain fluid balance due to increased capillary permeability, inflammation, vasodilation, and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Fluid management is complex because sepsis disrupts vascular permeability, tissue perfusion, and cellular function. Infectious disease care is further challenged by antimicrobial resistance, drug stewardship, and infection control. Skilled nursing, advanced monitoring, and continuous education are essential to optimize outcomes and ensure high-quality management in this vulnerable population.",
-        "citation_count": 0,
-        "is_top_journal": false,
-        "study_type": "Review",
-        "volume": "38",
-        "issue": "3",
-        "pages": "379-394",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42498336/",
-        "ai_key_stats": "",
-        "ai_summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
-        "ai_significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population.",
-        "ai_rounds_takeaway": "",
-        "category_id": "renal",
-        "category_label": "Renal",
-        "category_ids": [
-          "renal"
-        ],
-        "category_labels": [
-          "Renal"
-        ]
-      }
-    ]
+    "articles": []
   },
   "preprints": {
     "window_days": 14,
@@ -3691,9 +3606,7 @@
         "summary": "BackgroundIntravenous (IV) vasopressors are the mainstay of hemodynamic physiological support for critically ill patients. However, the role of oral vasopressors in the management of IV vasopressor-dependent shock remains unclear. The LIBERATE body of work aims to examine the role of midodrine as an IV vasopressor sparing agent for critically ill patients with IV vasopressor dependent shock. The objective of the LIBERATE internal randomized controlled trial was to evaluate the implementation of ",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Development of an Intelligent Predictive Indicator System for Weaning and Extubation Timing in Mechanically Ventilated Patients Based on the Delphi Method",
@@ -3749,9 +3662,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
         "ai_significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       }
     ]
   },
@@ -3772,7 +3683,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
         "ai_significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Development and Validation of an Ultrasound-Based Difficult Cannulation Risk Score",
@@ -3800,9 +3713,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05189925",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05189925"
       },
       {
         "title": "Impact of Early Enteral vs. Parenteral Nutrition on Mortality in Patients Requiring Mechanical Ventilation and Catecholamines",
@@ -3814,7 +3725,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT01802099"
+        "nct_id": "NCT01802099",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Platform Trial for Gram Negative Bloodstream Infections",
@@ -3826,7 +3739,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06537609"
+        "nct_id": "NCT06537609",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Sodium Bicarbonate for Critically Ill Patients With Metabolic Acidosis and Acute Kidney Injury",
@@ -3838,7 +3753,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07464431"
+        "nct_id": "NCT07464431",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Versus Deferred De-escalation From Controlled Ventilation After a 48-Hour Landmark of Physiological Stability",
@@ -3850,7 +3767,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07804992"
+        "nct_id": "NCT07804992",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Neurochecks on Sleep in Critically Ill Adults",
@@ -3862,7 +3781,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05864300"
+        "nct_id": "NCT05864300",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Follow-up Trial of GBS-NN/NN2 Vaccine in Healthy Pregnant Women",
@@ -3874,7 +3795,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06592586"
+        "nct_id": "NCT06592586",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Aspiration Training Given With Different Methods",
@@ -3886,7 +3809,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05950425"
+        "nct_id": "NCT05950425",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ventilator Associated Pneumonia Multiplex PCR for Anti-Infective Regimens",
@@ -3898,7 +3823,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06554327"
+        "nct_id": "NCT06554327",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Association of Biomarkers and Gastric Antral Motility Index With Feeding Intolerance in Critically Ill Patients",
@@ -3910,7 +3837,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07178626"
+        "nct_id": "NCT07178626",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ivabradine for Heart Rate Control In Septic Shock",
@@ -3922,7 +3851,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04031573"
+        "nct_id": "NCT04031573",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Implementation Models for Blood Pressure Monitoring in Pregnancy and Postpartum: Connected MOM Plus",
@@ -3934,7 +3865,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07691541"
+        "nct_id": "NCT07691541",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "mNEED: a Multicentre, Cluster-randomized, Controlled Trial",
@@ -3946,7 +3879,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06827275"
+        "nct_id": "NCT06827275",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Trunk Inclination, Positive End-expiratory Pressure, and Lung Recruitability",
@@ -3958,7 +3893,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07504731"
+        "nct_id": "NCT07504731",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Personalized Ventilation Based on Ventilation-perfusion Mismatch and Lung Recruitability",
@@ -3970,7 +3907,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06430554"
+        "nct_id": "NCT06430554",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Triple Sleep-Promotion Protocol for Delirium Prevention in Intensive Care Patients",
@@ -3982,7 +3921,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07801092"
+        "nct_id": "NCT07801092",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Pressure Release Ventilation Compared to Lung Protective Ventilation in Moderate and Severe ARDS",
@@ -3994,7 +3935,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07803614"
+        "nct_id": "NCT07803614",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Gastric Emptying and Enteral Nutrition Tolerance According to Vasopressor Dose in ICU Patients",
@@ -4006,7 +3949,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07802379"
+        "nct_id": "NCT07802379",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Predictive Validity of the Chelsea Critical Care Physical Assessment Tool (CPAx) for Regaining Autonomy Three Months After ICU Discharge",
@@ -4022,7 +3967,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
         "ai_significance": "Understanding the predictive validity of the CPAx score can help clinicians identify patients at risk of poor functional outcomes after ICU discharge, allowing for targeted interventions.",
-        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge."
+        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Investigate the Efficacy, Safety, and Tolerability of AZD4144in Participants With Sepsis-associated Acute Kidney Injury.",
@@ -4038,7 +3985,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
@@ -6341,6 +6290,41 @@
       "abbr": "CVS",
       "articles": [
         {
+          "pmid": "42320025",
+          "title": "Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Sep 1",
+          "authors": [
+            "Zochios V",
+            "Brewer JM",
+            "Antonini MV",
+            "Brodie D",
+            "Peek GJ",
+            "Schmidt M",
+            "Camporota L",
+            "Doyle J",
+            "Tschernko E",
+            "Schultz MJ",
+            "Yusuff H",
+            "Endorsing Societies of College of Intensive Care Medicine (CICM) UK; Pulmonary Vascular Research Institute (PVRI); Protective Ventilation Network (PROVE Network); Association for Cardiothoracic Anaesthesia and Critical Care (ACTACC); Society of Mechanical Ventilation (SMV); Protecting the Right Ventricle Network (PRORVnet)"
+          ],
+          "doi": "10.1093/ajrccm/aamag321",
+          "abstract": "Extracorporeal life support provides temporary cardiorespiratory support for patients with severe, potentially reversible cardiac and/or respiratory failure refractory to conventional measures. Its application has broadened across a wide spectrum of critical illness, yet the mechanistic basis of its physiologic benefit remains incompletely defined. This review explores the mechanisms through which extracorporeal life support may confer benefit in respiratory and cardiac failure. These include restoration of gas exchange, optimization of circulatory dynamics, and mitigation of secondary organ injuries, creating conditions that facilitate tissue repair, enable adjunctive therapies, and, in selected cases, provide a bridge to transplantation. In isolated respiratory failure, respiratory extracorporeal life support stabilizes gas exchange and modulates respiratory drive, enabling lung-protective ventilation and potentially attenuating ventilator- and patient self-inflicted lung injury. In cardiogenic shock, cardiac extracorporeal life support restores systemic perfusion and may reduce myocardial oxygen demand, while during cardiac arrest, it may confer neuroprotective effects. In combined cardiorespiratory failure, advanced extracorporeal support modalities may augment both systemic and pulmonary circulation, supporting gas exchange and maintaining end-organ perfusion. Mechanistically, these interventions interrupt the cascade of hypoxemia- and/or hypercapnia- induced pulmonary vasoconstriction, right ventricular overload, and systemic hypoperfusion, facilitating multiorgan recovery. Optimizing patient selection, timing for extracorporeal life support initiation, and use of adjunctive therapies require a nuanced understanding of the interplay between these physiologic pathways alongside careful considerations of key limitations, including device-related complications, hematologic and inflammatory perturbations, and physiologic trade-offs. This State-of-the-Art review synthesizes the current literature on the mechanistic basis of extracorporeal life support in adults.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "212",
+          "issue": "9",
+          "pages": "2159-2174",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42320025/",
+          "ai_key_stats": "",
+          "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
+          "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
+          "ai_rounds_takeaway": ""
+        },
+        {
           "pmid": "42645558",
           "title": "State-of-the-art review: ß-blockade in critical illness.",
           "journal": "Intensive care medicine",
@@ -6922,6 +6906,34 @@
       "abbr": "Resp",
       "articles": [
         {
+          "pmid": "42495753",
+          "title": "Mechanisms and therapeutic strategies of pyroptosis in sepsis‑induced acute lung injury (Review).",
+          "journal": "International journal of molecular medicine",
+          "pubdate": "2026 Sep",
+          "authors": [
+            "Wu W",
+            "Li N",
+            "Deng G",
+            "Yang S",
+            "Zeng R",
+            "Chen R",
+            "Li J"
+          ],
+          "doi": "10.3892/ijmm.2026.5935",
+          "abstract": "Sepsis‑induced acute lung injury (S‑ALI) is a leading cause of respiratory failure and mortality in intensive care units, characterized by profound biological and clinical heterogeneity that explains the repeated failure of uniform anti‑inflammatory therapies. This variability underscores the urgent need for mechanism‑based patient stratification and precision medicine approaches. Pyroptosis, a regulated inflammatory cell death program driven by gasdermin‑mediated membrane pore formation, has emerged as a critical driver of alveolar‑capillary barrier disruption and cytokine amplification in S‑ALI. The activation of canonical and non‑canonical inflammasome pathways, together with molecular crosstalk within the integrated PANoptosome network, promotes context‑dependent pyroptotic responses across pulmonary endothelial, epithelial and immune cells. Notably, recent insights into lineage plasticity and transcriptional heterogeneity further elucidate the dynamic cellular orchestration of these pathways. Pyroptotic effectors, such as circulating gasdermin D fragments and mature IL‑1β/IL‑18, are detectable in patients with sepsis and acute respiratory distress syndrome, being associated with hyperinflammatory endotypes, disease severity and clinical trajectories. By integrating preclinical mechanistic insights with emerging human biomarker and trial data, the present review positions pyroptosis as a clinically actionable, stratification‑relevant target. The present review highlights current advances in pathway‑specific inhibitors and discusses their potential to enable biomarker‑guided, personalized interventions in critically ill patients.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Review",
+          "volume": "58",
+          "issue": "3",
+          "pages": "",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42495753/",
+          "ai_key_stats": "",
+          "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
+          "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
+          "ai_rounds_takeaway": ""
+        },
+        {
           "pmid": "42658259",
           "title": "Balancing lung and brain: physiological strategies for ARDS management in acute brain injury.",
           "journal": "Intensive care medicine",
@@ -7018,7 +7030,9 @@
             "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
             "weaknesses": "small sample size; limited generalizability to other ICUs",
             "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42377463",
@@ -8635,6 +8649,29 @@
       "abbr": "Renal",
       "articles": [
         {
+          "pmid": "42498336",
+          "title": "Fluid and Electrolyte Management in Critically Ill Patients with Infections.",
+          "journal": "Critical care nursing clinics of North America",
+          "pubdate": "2026 Sep",
+          "authors": [
+            "Wuertz KC",
+            "Holdridge A"
+          ],
+          "doi": "10.1016/j.cnc.2026.04.007",
+          "abstract": "Fluid and electrolyte management is a crucial component of care in critically ill patients with severe infections. Patients with sepsis, septic shock, or multiorgan dysfunction syndrome struggle to maintain fluid balance due to increased capillary permeability, inflammation, vasodilation, and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Fluid management is complex because sepsis disrupts vascular permeability, tissue perfusion, and cellular function. Infectious disease care is further challenged by antimicrobial resistance, drug stewardship, and infection control. Skilled nursing, advanced monitoring, and continuous education are essential to optimize outcomes and ensure high-quality management in this vulnerable population.",
+          "citation_count": 0,
+          "is_top_journal": false,
+          "study_type": "Review",
+          "volume": "38",
+          "issue": "3",
+          "pages": "379-394",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42498336/",
+          "ai_key_stats": "",
+          "ai_summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
+          "ai_significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population.",
+          "ai_rounds_takeaway": ""
+        },
+        {
           "pmid": "42584203",
           "title": "Net Ultrafiltration Rate and Mortality in Critically Ill Patients: A Multicenter Cohort Study With Analysis of Fluid Balance Changes.",
           "journal": "Critical care medicine",
@@ -9214,6 +9251,41 @@
       "label": "GI & Nutrition",
       "abbr": "GI",
       "articles": [
+        {
+          "pmid": "42320025",
+          "title": "Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Sep 1",
+          "authors": [
+            "Zochios V",
+            "Brewer JM",
+            "Antonini MV",
+            "Brodie D",
+            "Peek GJ",
+            "Schmidt M",
+            "Camporota L",
+            "Doyle J",
+            "Tschernko E",
+            "Schultz MJ",
+            "Yusuff H",
+            "Endorsing Societies of College of Intensive Care Medicine (CICM) UK; Pulmonary Vascular Research Institute (PVRI); Protective Ventilation Network (PROVE Network); Association for Cardiothoracic Anaesthesia and Critical Care (ACTACC); Society of Mechanical Ventilation (SMV); Protecting the Right Ventricle Network (PRORVnet)"
+          ],
+          "doi": "10.1093/ajrccm/aamag321",
+          "abstract": "Extracorporeal life support provides temporary cardiorespiratory support for patients with severe, potentially reversible cardiac and/or respiratory failure refractory to conventional measures. Its application has broadened across a wide spectrum of critical illness, yet the mechanistic basis of its physiologic benefit remains incompletely defined. This review explores the mechanisms through which extracorporeal life support may confer benefit in respiratory and cardiac failure. These include restoration of gas exchange, optimization of circulatory dynamics, and mitigation of secondary organ injuries, creating conditions that facilitate tissue repair, enable adjunctive therapies, and, in selected cases, provide a bridge to transplantation. In isolated respiratory failure, respiratory extracorporeal life support stabilizes gas exchange and modulates respiratory drive, enabling lung-protective ventilation and potentially attenuating ventilator- and patient self-inflicted lung injury. In cardiogenic shock, cardiac extracorporeal life support restores systemic perfusion and may reduce myocardial oxygen demand, while during cardiac arrest, it may confer neuroprotective effects. In combined cardiorespiratory failure, advanced extracorporeal support modalities may augment both systemic and pulmonary circulation, supporting gas exchange and maintaining end-organ perfusion. Mechanistically, these interventions interrupt the cascade of hypoxemia- and/or hypercapnia- induced pulmonary vasoconstriction, right ventricular overload, and systemic hypoperfusion, facilitating multiorgan recovery. Optimizing patient selection, timing for extracorporeal life support initiation, and use of adjunctive therapies require a nuanced understanding of the interplay between these physiologic pathways alongside careful considerations of key limitations, including device-related complications, hematologic and inflammatory perturbations, and physiologic trade-offs. This State-of-the-Art review synthesizes the current literature on the mechanistic basis of extracorporeal life support in adults.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "212",
+          "issue": "9",
+          "pages": "2159-2174",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42320025/",
+          "ai_key_stats": "",
+          "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
+          "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
+          "ai_rounds_takeaway": ""
+        },
         {
           "pmid": "42642764",
           "title": "Assessment of the effectiveness of protein in critical illness: the role of statistical shortcomings in explaining discrepancies between observational studies and randomized controlled trials.",
@@ -10483,7 +10555,9 @@
             "strengths": "stepped-wedge cluster-randomized controlled trial design; analysis of patients who received invasive mechanical ventilation for at least two consecutive days and at least one SBT",
             "weaknesses": "small sample size; limited generalizability to other ICUs",
             "bottom_line": "ICU telemedicine may not improve weaning success rates, but it can help shorten ventilation duration for patients who are successfully weaned by ensuring more frequent SBTs."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42377463",
@@ -11967,6 +12041,41 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.",
           "ai_significance": "These findings are relevant for ICU clinical practice as they highlight the importance of organisational resources and staff appreciation in mitigating burnout among healthcare workers, particularly during high-stress situations like the COVID-19 pandemic.",
+          "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42320025",
+          "title": "Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Sep 1",
+          "authors": [
+            "Zochios V",
+            "Brewer JM",
+            "Antonini MV",
+            "Brodie D",
+            "Peek GJ",
+            "Schmidt M",
+            "Camporota L",
+            "Doyle J",
+            "Tschernko E",
+            "Schultz MJ",
+            "Yusuff H",
+            "Endorsing Societies of College of Intensive Care Medicine (CICM) UK; Pulmonary Vascular Research Institute (PVRI); Protective Ventilation Network (PROVE Network); Association for Cardiothoracic Anaesthesia and Critical Care (ACTACC); Society of Mechanical Ventilation (SMV); Protecting the Right Ventricle Network (PRORVnet)"
+          ],
+          "doi": "10.1093/ajrccm/aamag321",
+          "abstract": "Extracorporeal life support provides temporary cardiorespiratory support for patients with severe, potentially reversible cardiac and/or respiratory failure refractory to conventional measures. Its application has broadened across a wide spectrum of critical illness, yet the mechanistic basis of its physiologic benefit remains incompletely defined. This review explores the mechanisms through which extracorporeal life support may confer benefit in respiratory and cardiac failure. These include restoration of gas exchange, optimization of circulatory dynamics, and mitigation of secondary organ injuries, creating conditions that facilitate tissue repair, enable adjunctive therapies, and, in selected cases, provide a bridge to transplantation. In isolated respiratory failure, respiratory extracorporeal life support stabilizes gas exchange and modulates respiratory drive, enabling lung-protective ventilation and potentially attenuating ventilator- and patient self-inflicted lung injury. In cardiogenic shock, cardiac extracorporeal life support restores systemic perfusion and may reduce myocardial oxygen demand, while during cardiac arrest, it may confer neuroprotective effects. In combined cardiorespiratory failure, advanced extracorporeal support modalities may augment both systemic and pulmonary circulation, supporting gas exchange and maintaining end-organ perfusion. Mechanistically, these interventions interrupt the cascade of hypoxemia- and/or hypercapnia- induced pulmonary vasoconstriction, right ventricular overload, and systemic hypoperfusion, facilitating multiorgan recovery. Optimizing patient selection, timing for extracorporeal life support initiation, and use of adjunctive therapies require a nuanced understanding of the interplay between these physiologic pathways alongside careful considerations of key limitations, including device-related complications, hematologic and inflammatory perturbations, and physiologic trade-offs. This State-of-the-Art review synthesizes the current literature on the mechanistic basis of extracorporeal life support in adults.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "212",
+          "issue": "9",
+          "pages": "2159-2174",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42320025/",
+          "ai_key_stats": "",
+          "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
+          "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
           "ai_rounds_takeaway": ""
         },
         {
