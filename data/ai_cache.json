@@ -330,6 +330,10 @@
     "summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
     "significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes."
   },
+  "pmid:42301229": {
+    "summary": "Researchers studied how Molecular Adsorbent Recirculating System (MARS) therapy affects piperacillin levels in critically ill patients with liver failure. They found that MARS therapy reduces piperacillin levels by about one-third per session. This is important because it can lead to sub-therapeutic piperacillin levels in some patients.",
+    "significance": "This study highlights the need for close monitoring of piperacillin levels in patients receiving MARS therapy, as it may require individualized antibiotic dose adjustments to maintain effective treatment."
+  },
   "pmid:42223327": {
     "summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
     "significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact."
@@ -341,10 +345,6 @@
   "pmid:42506102": {
     "summary": "This study reviewed existing methods for assessing gastrointestinal function in ICU patients and proposed algorithms for enteral feeding decisions using gastrointestinal ultrasound. It found that certain sonographic parameters, like gastric antral cross-sectional area, are clinically relevant. The study suggests that GIUS-based algorithms may improve enteral nutrition management but more research is needed.",
     "significance": "Accurate assessment of gastrointestinal function is crucial for effective enteral nutrition in ICU patients. This study's findings have the potential to improve patient outcomes by providing a more individualized approach to nutritional management."
-  },
-  "pmid:42301229": {
-    "summary": "Researchers studied how Molecular Adsorbent Recirculating System (MARS) therapy affects piperacillin levels in critically ill patients with liver failure. They found that MARS therapy reduces piperacillin levels by about one-third per session. This is important because it can lead to sub-therapeutic piperacillin levels in some patients.",
-    "significance": "This study highlights the need for close monitoring of piperacillin levels in patients receiving MARS therapy, as it may require individualized antibiotic dose adjustments to maintain effective treatment."
   },
   "pmid:42277907": {
     "summary": "This review of current concepts in nutrition therapy for critically ill patients emphasizes the need for individualized, phase-specific nutrition. Experts discuss how inflammation, disease severity, and metabolic changes influence nutritional responsiveness, and propose personalized strategies for tailoring therapy. They also highlight the importance of micronutrient management and macronutrient adaptation throughout the continuum of critical illness and recovery.",
