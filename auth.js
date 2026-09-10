@@ -1,9 +1,44 @@
 (function(){
   "use strict";
-  let client=null,user=null,profile=null,config=null,modal=null;
+  let client=null,user=null,profile=null,config=null,modal=null,sessionGuard=null,currentSession=null;
   const esc=s=>String(s||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-  async function getProfile(){ if(!client||!user)return null; const {data}=await client.from("profiles").select("*").eq("id",user.id).maybeSingle(); return data||null; }
-  async function refresh(session){ user=session?.user||null; profile=user?await getProfile():null; if(user)window.ICUAnalytics?.identify(user.id); else window.ICUAnalytics?.reset(); render(); }
+
+  async function getProfile(){
+    if(!client||!user)return null;
+    const {data}=await client.from("profiles").select("*").eq("id",user.id).maybeSingle();
+    return data||null;
+  }
+
+  async function refresh(session){
+    currentSession=session||null;
+    user=session?.user||null;
+    profile=user?await getProfile():null;
+    if(user)window.ICUAnalytics?.identify(user.id); else window.ICUAnalytics?.reset();
+    render();
+  }
+
+  async function activateSession(session,revokeOthers=false){
+    if(!session?.user)return false;
+    currentSession=session;
+    const claimed=sessionGuard?await sessionGuard.claim(session):true;
+    if(!claimed)return false;
+    if(revokeOthers){
+      try{await client.auth.signOut({scope:"others"});}catch(e){console.warn("[ICU Scope auth] Could not revoke older sessions",e);}
+    }
+    await refresh(session);
+    return true;
+  }
+
+  async function logout(){
+    try{
+      if(sessionGuard?.isActive())await sessionGuard.release(currentSession);
+      await client?.auth?.signOut({scope:"local"});
+    }finally{
+      sessionGuard?.destroy();
+      await refresh(null);
+    }
+  }
+
   function render(){
     const host=document.getElementById("icu-auth"); if(!host)return;
     if(!config?.configured){
@@ -12,16 +47,59 @@
       document.getElementById("icu-register").onclick=()=>open("signup");
       return;
     }
-    if(user){ const name=profile?.display_name||user.user_metadata?.display_name||user.email?.split("@")[0]||"Account"; host.innerHTML=`<details class="icu-account"><summary class="account-btn">👤 <span>${esc(name)}</span> ▾</summary><div class="account-menu"><div class="account-name">ICU Learning Platform</div><div class="account-email">${esc(user.email)}</div><a href="${esc(config.knowledgeMapUrl)}" target="_blank" rel="noopener">ICU Knowledge Map ↗</a>${config.mvSimulatorUrl?`<a href="${esc(config.mvSimulatorUrl)}" target="_blank" rel="noopener">MV Simulator ↗</a>`:""}<button id="icu-signout">Sign out</button></div></details>`; document.getElementById("icu-signout").onclick=()=>client.auth.signOut();
-    } else {host.innerHTML=`<button class="account-btn" id="icu-signin">Sign in</button><button class="account-btn account-primary" id="icu-register">Create account</button>`; document.getElementById("icu-signin").onclick=()=>open("login"); document.getElementById("icu-register").onclick=()=>open("signup");}
+    if(user){
+      const name=profile?.display_name||user.user_metadata?.display_name||user.email?.split("@")[0]||"Account";
+      host.innerHTML=`<details class="icu-account"><summary class="account-btn">👤 <span>${esc(name)}</span> ▾</summary><div class="account-menu"><div class="account-name">ICU Learning Platform</div><div class="account-email">${esc(user.email)}</div><a href="${esc(config.knowledgeMapUrl)}" target="_blank" rel="noopener">ICU Knowledge Map ↗</a>${config.mvSimulatorUrl?`<a href="${esc(config.mvSimulatorUrl)}" target="_blank" rel="noopener">MV Simulator ↗</a>`:""}<button id="icu-signout">Sign out</button></div></details>`;
+      document.getElementById("icu-signout").onclick=logout;
+    }else{
+      host.innerHTML=`<button class="account-btn" id="icu-signin">Sign in</button><button class="account-btn account-primary" id="icu-register">Create account</button>`;
+      document.getElementById("icu-signin").onclick=()=>open("login");
+      document.getElementById("icu-register").onclick=()=>open("signup");
+    }
   }
-  function ensureModal(){if(modal)return; modal=document.createElement("div");modal.className="auth-overlay";modal.innerHTML=`<div class="auth-dialog" role="dialog" aria-modal="true"><button class="auth-close" aria-label="Close">×</button><div class="auth-brand">ICU SCOPE</div><h2>ICU Learning Platform Account</h2><p class="auth-sub">One account for ICU Scope, ICU Knowledge Map and MV Simulator.</p><div class="auth-tabs"><button data-tab="login">Sign in</button><button data-tab="signup">Create account</button><button data-tab="reset">Reset password</button></div><div class="auth-msg"></div><form data-form="login"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Password<input type="password" name="password" required autocomplete="current-password"></label><button class="auth-submit">Sign in</button></form><form data-form="signup"><label>Display name<input name="name" required autocomplete="name"></label><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Password<input type="password" name="password" minlength="10" required autocomplete="new-password"></label><button class="auth-submit">Create account</button></form><form data-form="reset"><label>Email<input type="email" name="email" required autocomplete="email"></label><button class="auth-submit">Send reset link</button></form></div>`;document.body.appendChild(modal);modal.querySelector(".auth-close").onclick=close;modal.onclick=e=>{if(e.target===modal)close()};modal.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>tab(b.dataset.tab));modal.querySelector('[data-form="login"]').onsubmit=login;modal.querySelector('[data-form="signup"]').onsubmit=signup;modal.querySelector('[data-form="reset"]').onsubmit=reset;}
+
+  function ensureModal(){
+    if(modal)return;
+    modal=document.createElement("div");
+    modal.className="auth-overlay";
+    modal.innerHTML=`<div class="auth-dialog" role="dialog" aria-modal="true"><button class="auth-close" aria-label="Close">×</button><div class="auth-brand">ICU SCOPE</div><h2>ICU Learning Platform Account</h2><p class="auth-sub">One account for ICU Scope, ICU Knowledge Map and MV Simulator.</p><div class="auth-tabs"><button data-tab="login">Sign in</button><button data-tab="signup">Create account</button><button data-tab="reset">Reset password</button></div><div class="auth-msg"></div><form data-form="login"><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Password<input type="password" name="password" required autocomplete="current-password"></label><button class="auth-submit">Sign in</button></form><form data-form="signup"><label>Display name<input name="name" required autocomplete="name"></label><label>Email<input type="email" name="email" required autocomplete="email"></label><label>Password<input type="password" name="password" minlength="10" required autocomplete="new-password"></label><button class="auth-submit">Create account</button></form><form data-form="reset"><label>Email<input type="email" name="email" required autocomplete="email"></label><button class="auth-submit">Send reset link</button></form></div>`;
+    document.body.appendChild(modal);
+    modal.querySelector(".auth-close").onclick=close;
+    modal.onclick=e=>{if(e.target===modal)close()};
+    modal.querySelectorAll("[data-tab]").forEach(b=>b.onclick=()=>tab(b.dataset.tab));
+    modal.querySelector('[data-form="login"]').onsubmit=login;
+    modal.querySelector('[data-form="signup"]').onsubmit=signup;
+    modal.querySelector('[data-form="reset"]').onsubmit=reset;
+  }
+
   function msg(t,bad=false){const e=modal.querySelector(".auth-msg");e.textContent=t;e.className="auth-msg "+(bad?"bad":"good");}
   function tab(t){modal.querySelectorAll("[data-form]").forEach(f=>f.hidden=f.dataset.form!==t);modal.querySelectorAll("[data-tab]").forEach(b=>b.classList.toggle("active",b.dataset.tab===t));msg("");}
   function open(t){ensureModal();tab(t);if(!config?.configured){msg("Shared account is not configured on this ICU Scope deployment. Add NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY in Vercel, then redeploy.",true);modal.querySelectorAll("form input, form button.auth-submit").forEach(el=>el.disabled=true);}else{modal.querySelectorAll("form input, form button.auth-submit").forEach(el=>el.disabled=false);}modal.classList.add("open");}
   function close(){modal?.classList.remove("open");}
-  async function login(e){e.preventDefault();try{const f=new FormData(e.currentTarget);const {error}=await client.auth.signInWithPassword({email:f.get("email"),password:f.get("password")});if(error)throw error;close();}catch(x){msg(x.message||"Sign in failed",true)}}
-  async function signup(e){e.preventDefault();try{const f=new FormData(e.currentTarget);const {data,error}=await client.auth.signUp({email:f.get("email"),password:f.get("password"),options:{data:{display_name:f.get("name")}}});if(error)throw error;msg(data.session?"Account created and signed in.":"Account created. Check your email to confirm it.");if(data.session)setTimeout(close,800);}catch(x){msg(x.message||"Registration failed",true)}}
+
+  async function login(e){
+    e.preventDefault();
+    try{
+      const f=new FormData(e.currentTarget);
+      const {data,error}=await client.auth.signInWithPassword({email:f.get("email"),password:f.get("password")});
+      if(error)throw error;
+      if(data?.session&&!(await activateSession(data.session,true)))throw new Error("Unable to activate this account session.");
+      close();
+    }catch(x){msg(x.message||"Sign in failed",true)}
+  }
+
+  async function signup(e){
+    e.preventDefault();
+    try{
+      const f=new FormData(e.currentTarget);
+      const {data,error}=await client.auth.signUp({email:f.get("email"),password:f.get("password"),options:{data:{display_name:f.get("name")}}});
+      if(error)throw error;
+      if(data.session)await activateSession(data.session,true);
+      msg(data.session?"Account created and signed in.":"Account created. Check your email to confirm it.");
+      if(data.session)setTimeout(close,800);
+    }catch(x){msg(x.message||"Registration failed",true)}
+  }
+
   async function reset(e){e.preventDefault();try{const f=new FormData(e.currentTarget);const {error}=await client.auth.resetPasswordForEmail(f.get("email"),{redirectTo:location.origin});if(error)throw error;msg("Password reset email sent.");}catch(x){msg(x.message||"Reset failed",true)}}
 
   async function consumeSsoHandoff(){
@@ -30,12 +108,32 @@
     url.searchParams.delete("sso"); window.history.replaceState({},document.title,url.pathname+url.search+url.hash);
     try{
       const res=await fetch("/api/sso-consume",{method:"POST",headers:{"Content-Type":"application/json"},cache:"no-store",body:JSON.stringify({token})});
-      const data=await res.json(); if(!res.ok||!data.accessToken||!data.refreshToken) return false;
-      const {error}=await client.auth.setSession({access_token:data.accessToken,refresh_token:data.refreshToken});
-      if(error) throw error; return true;
+      const data=await res.json(); if(!res.ok||!data.accessToken||!data.refreshToken)return false;
+      const {data:setData,error}=await client.auth.setSession({access_token:data.accessToken,refresh_token:data.refreshToken});
+      if(error)throw error;
+      if(setData?.session)await activateSession(setData.session,false);
+      return true;
     }catch(e){console.warn("[ICU Scope SSO]",e);return false;}
   }
 
-  async function init(){try{config=await fetch("/api/auth-config",{cache:"no-store"}).then(r=>r.json());if(!config.configured)return render();await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm").then(m=>{client=m.createClient(config.supabaseUrl,config.supabaseAnonKey)});await consumeSsoHandoff();const {data}=await client.auth.getSession();await refresh(data.session);client.auth.onAuthStateChange((_e,s)=>setTimeout(()=>refresh(s),0));}catch(e){console.warn("[ICU Scope auth]",e)}}
+  async function init(){
+    try{
+      config=await fetch("/api/auth-config",{cache:"no-store"}).then(r=>r.json());
+      if(!config.configured)return render();
+      await import("https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm").then(m=>{client=m.createClient(config.supabaseUrl,config.supabaseAnonKey)});
+      const {createSingleActiveSessionGuard}=await import("/single-active-session.js");
+      sessionGuard=createSingleActiveSessionGuard({supabase:client,appId:"icu-scope"});
+      await consumeSsoHandoff();
+      const {data}=await client.auth.getSession();
+      if(data.session)await activateSession(data.session,false); else await refresh(null);
+      client.auth.onAuthStateChange((event,s)=>setTimeout(async()=>{
+        if(event==="SIGNED_OUT"||!s){sessionGuard?.destroy();await refresh(null);return;}
+        currentSession=s;
+        if(event==="TOKEN_REFRESHED")await sessionGuard?.validate(s);
+        await refresh(s);
+      },0));
+    }catch(e){console.warn("[ICU Scope auth]",e)}
+  }
+
   document.readyState==="loading"?document.addEventListener("DOMContentLoaded",init):init();
 })();
