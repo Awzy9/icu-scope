@@ -971,6 +971,12 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT06637332": {
+    "key_stats": "",
+    "summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
+    "significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
+    "rounds_takeaway": ""
+  },
   "url:https://clinicaltrials.gov/study/NCT06728722": {
     "summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
     "significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases."
@@ -1348,12 +1354,6 @@
     "summary": "The Epipan Study discusses acute pancreatitis (AP) management, noting that 80% of patients develop mild disease and 20% develop severe disease with local complications.",
     "significance": "Understanding the management of AP is crucial for ICU clinicians to provide appropriate care for patients with this condition.",
     "rounds_takeaway": "Consider conservative management for patients with mild acute pancreatitis."
-  },
-  "url:https://clinicaltrials.gov/study/NCT06637332": {
-    "key_stats": "",
-    "summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
-    "significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
-    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT06709521": {
     "key_stats": "",

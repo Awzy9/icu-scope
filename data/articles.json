@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T07:40:20+00:00",
+  "generated_at": "2026-09-10T07:36:51+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -75,9 +75,7 @@
         "pages": "2419-2429",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533470/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42262338/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42262338/"
       },
       {
         "pmid": "42587308",
@@ -162,9 +160,7 @@
         "pages": "2191-2200",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533466/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42267876/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42267876/"
       },
       {
         "pmid": "42312687",
@@ -204,9 +200,7 @@
         "pages": "2201-2211",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533471/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/"
       },
       {
         "pmid": "42289099",
@@ -234,9 +228,7 @@
         "pages": "2279-2289",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533464/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42289099/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42289099/"
       },
       {
         "pmid": "42618936",
@@ -2301,9 +2293,7 @@
         "ai_key_stats": "n=1436, 43.2% developed AKI, 40.9% successfully liberated from KRT, 24.3% failed, 90% specificity for liberation failure with PENK cut-off ≥250 pmol/L",
         "ai_summary": "This study evaluated the use of proenkephalin A (PENK) to assess kidney integrity and guide kidney replacement therapy (KRT) decisions in critically ill patients. PENK levels were found to be a strong predictor of KRT liberation failure and may aid in the assessment of residual kidney function during KRT. The study suggests that PENK may be a useful biomarker for guiding KRT decisions.",
         "ai_significance": "This study has significant implications for ICU clinical practice as it provides a potential new biomarker for assessing kidney function and guiding KRT decisions, which may lead to improved patient outcomes.",
-        "ai_rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients."
       },
       {
         "pmid": "42614272",
@@ -2522,13 +2512,39 @@
         "abstract": "BACKGROUND: Sleep and circadian disruption are common in critical illness, yet bedside assessment remains difficult. Wearables are unobtrusive and extend observation across 24 h, but their measurement performance in critical illness requires appraisal. AIMS: To map wearable sleep and circadian monitoring during intensive care, its measurement performance, clinical applications and nursing implications. STUDY DESIGN: A scoping review followed JBI and PRISMA-ScR guidance. PubMed, Europe PMC and OpenAlex were searched from inception to 22 July 2026, with citation searching. Eligible primary reports used a body-worn sensor during intensive care to estimate sleep or circadian/rest-activity outcomes at any age. Conventional polysomnography/electroencephalography without an eligible wearable, non-contact systems, staff studies and post-ICU-only monitoring were excluded. No risk-of-bias appraisal was undertaken. RESULTS: Sixty-one reports (43 adult; 18 paediatric/neonatal; 1996-2026) were included. Actigraphy dominated; commercial trackers, smartwatches and one respiratory-belt/heart-rate-variability system were less common. Monitoring was feasible, but performance varied by device, patient state and age group: wake specificity was often poor in ventilated, sedated or immobile patients and agreement with patient or nurse reports was weak to modest. Records showed fragmented and daytime sleep, weak day-night consolidation and attenuated circadian rhythmicity. Nursing bundles, massage, positioning, light and chronotype-informed care changed selected outcomes, but effects were heterogeneous. CONCLUSIONS: Wearables usefully describe rest-activity patterns and support nursing assessment, but agreement with physiological sleep varied by device, patient state and age; movement-derived estimates need clinical context and are not a stand-alone sleep measure. RELEVANCE TO CLINICAL PRACTICE: Nurses should combine wearable trends with patient report, sedation and mobility, delirium screening and care-interaction records; escalation thresholds require prospective validation.",
         "citation_count": 91,
         "is_top_journal": false,
-        "study_type": "Review",
+        "study_type": "Study",
         "volume": "31",
         "issue": "5",
         "pages": "e70671",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13542315/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42693541/"
+      },
+      {
+        "pmid": "42712088",
+        "title": "Immersive Virtual Reality for Procedural Pain and Anxiety During Postoperative Wound Dressing in Cardiac Surgery ICU Patients: A Quasi-Experimental Study.",
+        "journal": "Nursing in critical care",
+        "pubdate": "2026 Sep",
+        "authors": [
+          "Algendy AA",
+          "Mohamed MG",
+          "Allam ZA",
+          "El Nagar RI",
+          "Mohammed MAA",
+          "Pazhanivelu V",
+          "Bahgat ZF"
+        ],
+        "doi": "10.1111/nicc.70642",
+        "abstract": "BACKGROUND: Postoperative wound dressing procedures are a common source of pain and anxiety among intensive care unit (ICU) patients following cardiac surgery. Virtual Reality Distraction Therapy (VRDT) has emerged as a promising non-pharmacological intervention for symptom management; however, evidence regarding its use during postoperative wound care in critically ill cardiac surgery patients remains limited. AIM: To evaluate the effect of Virtual Reality Distraction Therapy on physiological parameters, pain intensity, anxiety levels and patient satisfaction during wound dressing procedures among ICU patients following cardiac surgery. STUDY DESIGN: A one-group pretest-posttest quasi-experimental study was conducted among 50 adult patients admitted to the Cardiothoracic Intensive Care Unit at Tanta University Hospital. Participants received routine postoperative care in addition to VRDT during three consecutive wound dressing sessions. Physiological parameters, pain intensity and anxiety levels were assessed before the intervention, immediately after dressing and 15 min post-dressing. Patient satisfaction with the VR experience was evaluated on the final dressing day. Data were analysed using repeated-measures analysis of variance, paired-samples t-tests, Friedman tests and Pearson correlation coefficients, with a significance level of p < 0.05. RESULTS: Among the 50 enrolled participants who completed the study, VRDT significantly reduced pain intensity (mean difference = -2.44, 95% CI -2.72 to -2.16) and anxiety scores (mean difference = -17.76, 95% CI -18.84 to -16.68) during dressing procedures. Improvements were also observed in selected physiological parameters, particularly respiratory rate and oxygen saturation, while cardiovascular parameters remained stable throughout the intervention period. Most participants reported high levels of satisfaction with the VR experience and expressed willingness to reuse and recommend the intervention. Significant positive correlations were identified between pain intensity and anxiety levels across assessment periods. CONCLUSION: The findings suggest that VRDT may be a feasible and acceptable non-pharmacological adjunct for reducing pain and anxiety during postoperative wound dressing procedures among ICU patients following cardiac surgery. The intervention demonstrated potential benefits in enhancing patient comfort and procedural experiences. Further randomized controlled trials with larger multicentre samples are recommended to confirm these findings and establish the effectiveness of VRDT in critical care practice. RELEVANCE TO CLINICAL PRACTICE: Virtual Reality Distraction Therapy (VRDT) may provide a feasible and acceptable non-pharmacological adjunct to routine postoperative wound care for cardiac surgery patients in intensive care units. Integrating VRDT into nursing practice has the potential to reduce procedural pain and anxiety, improve patient comfort and satisfaction and support more patient-centred care during painful dressing procedures.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "31",
+        "issue": "5",
+        "pages": "e70642",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42712088/"
       },
       {
         "pmid": "42659642",
@@ -3746,6 +3762,130 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia",
+        "url": "https://clinicaltrials.gov/study/NCT06637332",
+        "source": "Todd C. Lee MD MPH FIDSA",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "This is an open label randomized controlled trial for patients with methicillin resistant S. aureus (MRSA) bloodstream infection which will directly compare the two most commonly used therapies, vancomycin and daptomycin. This study is an approved sub-study of The Staphylococcus aureus Network Adaptive Platform (SNAP) trial (NCT05137119)",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06637332",
+        "ai_key_stats": "",
+        "ai_summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
+        "ai_significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Development of Context-Adapted Quality Indicators for Early Sepsis Care in Sub-Saharan Africa - A Modified Delphi Consensus Procedure",
+        "url": "https://clinicaltrials.gov/study/NCT07711535",
+        "source": "Charite University, Berlin, Germany",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "The research project is an anonymous, prospective, non-interventional consensus study in the form of a modified Delphi method, consisting of three online surveys and structured feedback meetings without recording. The goal is the structured evaluation and consolidation of expert assessments to develop context-adapted quality indicators and operationalize them for early sepsis care in Sub-Saharan Africa.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07711535"
+      },
+      {
+        "title": "Triple Sleep-promotion Protocol for Delirium Prevention in Intensive Care Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07801092",
+        "source": "Naile ALANKAYA",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "Delirium is a common complication in intensive care units (ICUs) and may be associated with sleep disruption and frequent nighttime disturbances. This randomized controlled trial will evaluate whether a multicomponent nighttime sleep-promotion intervention, called the Triple Sleep-Promotion Protocol, can reduce the occurrence of new-onset delirium in adult ICU patients. The study is being conducted in four ICUs in Türkiye. Eligible patients who do not have delirium at the beginning of the study ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07801092"
+      },
+      {
+        "title": "HERMES: International Survey and Portable External Power Evaluation During Respiratory Support Transport",
+        "url": "https://clinicaltrials.gov/study/NCT07807189",
+        "source": "Medipol University",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "The HERMES Phase I-II study was a two-phase observational investigation designed to characterize contemporary practices and safety-related challenges associated with the transport of patients requiring advanced respiratory support and to assess the operational feasibility of portable external electrical power during ambulance transport. Phase I consisted of an international electronic cross-sectional survey of healthcare professionals involved in noninvasive ventilation (NIV) management or patie",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07807189"
+      },
+      {
+        "title": "Study of Cord Blood Derived Mesenchymal Stem Cells for Treatment of Moderate, Severe or Critical Pneumonia",
+        "url": "https://clinicaltrials.gov/study/NCT04565665",
+        "source": "M.D. Anderson Cancer Center",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "This is a phase I trial followed by a phase II randomized trial. The purpose of phase I study is the feasibility of treating patients with acute respiratory distress syndrome (ARDS) related to COVID-19 infection (COVID-19) with cord blood-derived mesenchymal stem cells (MSC). The purpose of the phase II trial is to compare the effect of MSC with standard of care in these patients. MSCs are a type of stem cells that can be taken from umbilical cord blood and grown into many different cell types t",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04565665",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Trial of Therapeutic Hypothermia in Patients With ARDS",
+        "url": "https://clinicaltrials.gov/study/NCT04545424",
+        "source": "University of Maryland, Baltimore",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "Acute Respiratory Distress Syndrome (ARDS) is a serious condition that occurs as a complication of medical and surgical diseases, has a mortality of \\~40%, and has no known treatment other than optimization of support. Data from basic research, animal models, and retrospective studies, case series, and small prospective studies suggest that therapeutic hypothermia (TH) similar to that used for cardiac arrest may be lung protective in patients with ARDS; however, shivering is a major complication",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04545424",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Early Empiric Anti-Mycobacterium Tuberculosis Therapy for Sepsis in Sub-Saharan Africa",
+        "url": "https://clinicaltrials.gov/study/NCT04618198",
+        "source": "University of Virginia",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "In sub-Saharan Africa, tuberculosis (TB) is the etiology of 25-50% of bloodstream infections (BSIs) and the leading cause of sepsis among people living with HIV. TB BSI is associated with 20-50% mortality, and 20-25% of deaths occur within five days of admission. TB BSI is difficult to identify clinically and microbiologically. Given that the high prevalence of TB BSI is under-recognized, most patients with sepsis in sub-Saharan Africa do not receive early anti-TB therapy. The hypothesis of this",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04618198",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "PICS: Subtitle Cardiac Dysfunction in Older Sepsis Survivors",
+        "url": "https://clinicaltrials.gov/study/NCT02276417",
+        "source": "University of Florida",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "The purpose of this study is to define the natural history and causes of chronic critical illness (CCI) in surgical intensive care patients who have had sepsis. The investigator also wants to define the long-term physical and cognitive outcomes of this disease. The investigator will be looking at many clinical variables to try to define CCI.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT02276417",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Incremental Dead Space Versus Capping Trial Before Tracheostomy Decannulation",
+        "url": "https://clinicaltrials.gov/study/NCT07810166",
+        "source": "Pontificia Universidad Catolica de Chile",
+        "author": "",
+        "pubdate": "2026-09-09",
+        "summary": "Some critically ill patients need a breathing tube placed directly into the windpipe (tracheostomy) because they require long-term help from a breathing machine. Before this tube can be safely removed (decannulation), medical team need to confirm the patient is ready to breathe on their own through the nose and mouth again. The most common way to check this is a \"capping trial,\" in which the tube is blocked so air must pass through the upper airway, similar to normal breathing. However, because ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07810166",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
         "url": "https://clinicaltrials.gov/study/NCT06442930",
         "source": "University Health Network, Toronto",
@@ -3767,9 +3907,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06370338",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06370338"
       },
       {
         "title": "Virtual Reality-based Sensory Stimulation for Delirium Prevention in Intensive Care Units",
@@ -3781,9 +3919,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07806422",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07806422"
       },
       {
         "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
@@ -3795,9 +3931,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807709",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07807709"
       },
       {
         "title": "Early Endotoxin Burden Reduction With oXiris in Septic Shock Patients Requiring CRRT",
@@ -3809,23 +3943,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807410",
-        "link_broken": false,
-        "link_broken_kind": "url"
-      },
-      {
-        "title": "HERMES: International Survey and Portable External Power Evaluation During Respiratory Support Transport",
-        "url": "https://clinicaltrials.gov/study/NCT07807189",
-        "source": "Medipol University",
-        "author": "",
-        "pubdate": "2026-09-08",
-        "summary": "The HERMES Phase I-II study was a two-phase observational investigation designed to characterize contemporary practices and safety-related challenges associated with the transport of patients requiring advanced respiratory support and to assess the operational feasibility of portable external electrical power during ambulance transport. Phase I consisted of an international electronic cross-sectional survey of healthcare professionals involved in noninvasive ventilation (NIV) management or patie",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07807189",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07807410"
       },
       {
         "title": "Reexamining Her Cardiovascular Risk - Ottawa WomeN's Longitudinal Cohort Study",
@@ -3837,9 +3955,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05632601",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05632601"
       },
       {
         "title": "TwichView-guided Atricurium Dose Adjustment Trial",
@@ -3851,9 +3967,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807046",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07807046"
       },
       {
         "title": "Ultrasound Detection of Body Composition in Critical Care",
@@ -4068,18 +4182,6 @@
         "nct_id": "NCT06430554"
       },
       {
-        "title": "Triple Sleep-Promotion Protocol for Delirium Prevention in Intensive Care Patients",
-        "url": "https://clinicaltrials.gov/study/NCT07801092",
-        "source": "Naile ALANKAYA",
-        "author": "",
-        "pubdate": "2026-09-03",
-        "summary": "Delirium is a common complication in intensive care units (ICUs) and may be associated with sleep disruption and frequent nighttime disturbances. This randomized controlled trial will evaluate whether a multicomponent nighttime sleep-promotion intervention, called the Triple Sleep-Promotion Protocol, can reduce the occurrence of new-onset delirium in adult ICU patients. The study is being conducted in four ICUs in Türkiye. Eligible patients who do not have delirium at the beginning of the study ",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07801092"
-      },
-      {
         "title": "Pressure Release Ventilation Compared to Lung Protective Ventilation in Moderate and Severe ARDS",
         "url": "https://clinicaltrials.gov/study/NCT07803614",
         "source": "Koot Ahmad",
@@ -4145,9 +4247,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07555041",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07555041"
       },
       {
         "title": "Prevention of Pressure Sores in the Prone Position in ARDS Patients",
@@ -4159,9 +4259,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03125421",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03125421"
       },
       {
         "title": "Dexamethasone Treatment for Sepsis-associated Acute Respiratory Distress Syndrome: a Multicenter, Randomised, Double-blinded, Controlled Trial",
@@ -4173,9 +4271,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07576660",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07576660"
       },
       {
         "title": "Effect of a Constructivist Educational Program on Preventing Ventilator-Associated Pneumonia in Intensive Care Units",
@@ -4187,9 +4283,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07102407",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07102407"
       },
       {
         "title": "CPB and Aortic Cross-Clamp Durations and ICU Length of Stay After CABG Retrospective Observational Cohort Study",
@@ -4201,9 +4295,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07711951",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07711951"
       },
       {
         "title": "Subanesthetic Ketamine Infusions for Depressive Symptoms in Intensive Care Unit Patients",
@@ -4215,9 +4307,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07639359",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07639359"
       },
       {
         "title": "HAP/VAP Diagnosis in Critically Ill Septic Patients Using a Multiplex PCR Array",
@@ -4229,9 +4319,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05952648",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05952648"
       },
       {
         "title": "Family Videos and Virtual Reality in Intensive Care Patients",
@@ -4243,7 +4331,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07794696"
+        "nct_id": "NCT07794696",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dynamic Infection Kinetics for Early Diagnosis, Monitoring, and Prognostication of Sepsis in Adult Oncology Patients: Evaluating Serial Infection Biomarkers, Blood Culture Kinetics, Treatment Response, Disease Severity, and Clinical Outcomes",
@@ -4255,7 +4345,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07795502"
+        "nct_id": "NCT07795502",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Human Neutrophil Lipocalin as an Aid in the Diagnosis of Bacterial Infection in the Emergency Department",
@@ -4267,7 +4359,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07796945"
+        "nct_id": "NCT07796945",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Comparative Study of Glucocorticoids Efficacy in Acute Respiratory Distress Syndrome",
@@ -4279,7 +4373,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06496997"
+        "nct_id": "NCT06496997",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Assessment of Quadriceps Muscle Recovery by Dynamometry and 3D Ultrasound in Intensive Care Patients Under Invasive Mechanical Ventilation",
@@ -4291,7 +4387,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07069959"
+        "nct_id": "NCT07069959",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Senolytics To slOw Progression of Sepsis (STOP-Sepsis) Trial",
@@ -4303,7 +4401,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05758246"
+        "nct_id": "NCT05758246",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
@@ -4327,7 +4427,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02855619"
+        "nct_id": "NCT02855619",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Versus Late Adjunctive Vasopressin in Septic Shock",
@@ -4339,7 +4441,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06709573"
+        "nct_id": "NCT06709573",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ultrasound of the Quadriceps Femoris Compared With the Clinical Frailty Scale",
@@ -4351,7 +4455,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06523348"
+        "nct_id": "NCT06523348",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Validation of a Pre-trained and Fine-tuned Model for Analyzing Time-Series Electronic Health Records in Critical Care",
@@ -4363,7 +4469,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07795450"
+        "nct_id": "NCT07795450",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "MID-STEP (MIDodrine for Sepsis Treatment and Early vasoPressor Weaning) Trial",
@@ -4375,7 +4483,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06319248"
+        "nct_id": "NCT06319248",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
@@ -4412,18 +4522,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06849570"
-      },
-      {
-        "title": "Development of Context-Adapted Quality Indicators for Early Sepsis Care in Sub-Saharan Africa - A Modified Delphi Consensus Procedure",
-        "url": "https://clinicaltrials.gov/study/NCT07711535",
-        "source": "Charite University, Berlin, Germany",
-        "author": "",
-        "pubdate": "2026-08-28",
-        "summary": "The research project is an anonymous, prospective, non-interventional consensus study in the form of a modified Delphi method, consisting of three online surveys and structured feedback meetings without recording. The goal is the structured evaluation and consolidation of expert assessments to develop context-adapted quality indicators and operationalize them for early sepsis care in Sub-Saharan Africa.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07711535"
       },
       {
         "title": "The Impact of the Family Room App on Caregivers",
@@ -4487,7 +4585,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
         "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The ARISE Study - Use of Vertical Positioning",
@@ -5055,7 +5155,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to validate the SOFA-2 score in predicting mortality and determining sepsis prevalence in Turkish ICUs. Researchers compared the new SOFA-2 score to the existing SOFA-1 score. The study's results are not yet reported.",
         "ai_significance": "This study's findings could inform the use of the SOFA-2 score in predicting mortality and identifying sepsis in Turkish ICUs, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Limited Versus Extended Trophic Feeding (LET-FEED) Trial",
@@ -5275,7 +5377,9 @@
         "ai_key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
         "ai_summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
         "ai_significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
-        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
+        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "HYDROcortisone Versus Placebo for Severe HospItal-acquired Pneumonia in Intensive Care Patients: the HYDRO-SHIP Study",
@@ -5515,7 +5619,9 @@
         "ai_key_stats": "",
         "ai_summary": "The COMPARE-VENT Feasibility Pilot Study explored the challenges of cardiac intensive care unit (CICU) admissions, particularly those requiring advanced respiratory support and invasive mechanical ventilation (IMV). These patients often have impaired cardiovascular reserve, making them vulnerable to the adverse effects of positive pressure ventilation (PPV) and systemic sedation. The study aimed to assess the feasibility of a new approach to address these challenges.",
         "ai_significance": "This study highlights the need for innovative strategies to manage cardiac patients with respiratory insufficiency, who are at high risk of complications and poor outcomes. Effective management of these patients is crucial for improving survival and quality of life.",
-        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation."
+        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Prospective Observational Study Using the FAM-CAM",
@@ -5531,7 +5637,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study observed whether family members can identify signs of delirium in ICU patients that may not be detected by routine screening. Participants received usual medical care. Family members were asked to report any signs of delirium.",
         "ai_significance": "Early identification of delirium by family members can help improve patient care and outcomes in the ICU.",
-        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients."
+        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Resuscitative TEE Collaborative Registry",
@@ -5547,7 +5655,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) in critically-ill patients. The study aimed to determine the clinical impact and safety of TEE performed during routine clinical care. No specific findings were reported.",
         "ai_significance": "This study's findings on the clinical impact and safety of TEE can inform ICU clinical practice and decision-making for critically-ill patients. The results may help guide the use of TEE in emergency and intensive care settings.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Diffuse Acute Respiratory Distress Syndrome (ARDS), Recruitment Maneuver, and sRAGE (DAMAGE Study)",
@@ -5563,7 +5673,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effect of a recruitment maneuver on plasma sRAGE levels in patients with ALI/ARDS. The study found that a recruitment maneuver increased plasma sRAGE levels. The study was a prospective monocentric randomized controlled cross-over study.",
         "ai_significance": "This study's findings may help clinicians understand the relationship between ventilatory interventions and biomarkers of alveolar epithelial type I cell injury in patients with ALI/ARDS, which could inform ventilator management strategies.",
-        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels."
+        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Metabolite Supplementation to Restore Mitochondrial Dysfunction During Septic Shock: a Preclinical Study",
@@ -6044,22 +6156,6 @@
         "ai_summary": "The Epipan Study discusses acute pancreatitis (AP) management, noting that 80% of patients develop mild disease and 20% develop severe disease with local complications.",
         "ai_significance": "Understanding the management of AP is crucial for ICU clinicians to provide appropriate care for patients with this condition.",
         "ai_rounds_takeaway": "Consider conservative management for patients with mild acute pancreatitis."
-      },
-      {
-        "title": "Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia",
-        "url": "https://clinicaltrials.gov/study/NCT06637332",
-        "source": "Todd C. Lee MD MPH FIDSA",
-        "author": "",
-        "pubdate": "2026-07-31",
-        "summary": "This is an open label randomized controlled trial for patients with methicillin resistant S. aureus (MRSA) bloodstream infection which will directly compare the two most commonly used therapies, vancomycin and daptomycin. This study is an approved sub-study of The Staphylococcus aureus Network Adaptive Platform (SNAP) trial (NCT05137119)",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06637332",
-        "ai_key_stats": "",
-        "ai_summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
-        "ai_significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
-        "ai_rounds_takeaway": ""
       },
       {
         "title": "Optimization of Beta-lactam Dosing in Critically Ill Patients With Cystatin C (OPTIMIZE-GNI)",
@@ -8896,7 +8992,9 @@
           "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
           "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
           "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
-          "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
+          "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42706573",
@@ -8972,17 +9070,15 @@
           ],
           "doi": "10.1186/s13054-026-06226-z",
           "abstract": "BACKGROUND: Optimal dosing of vancomycin in critically ill patients receiving renal replacement therapy (RRT) is uncertain due to high pharmacokinetic variability. We aimed to develop individualised vancomycin dosing recommendations that optimise efficacy while minimising toxicity. METHODS: Prospective, international, pharmacokinetic study enrolling critically ill patients treated with vancomycin and various RRT modalities. A population pharmacokinetic model was developed, externally validated and applied to perform Monte Carlo dosing simulations. We calculated the probability of each dosing regimen to achieve the efficacy target against methicillin-resistant Staphylococcus aureus (ratio of the area under the concentration-time curve to the minimum inhibitory concentration (AUC0-24 h/MIC) ≥ 400) without exceeding the toxicity threshold (AUC0-24 h ≥ 700 mg.h/L). RESULTS: We enrolled 65 critically ill patients from 6 countries receiving continuous RRT (50.8%) or sustained low-efficiency dialysis (49.2%). The model was developed using 1318 pre- and post-filter plasma and effluent concentrations and validated with a new dataset (19 critically ill patients, 124 pre-filter plasma concentrations), with 47.4% patients concomitantly treated with extracorporeal membrane oxygenation. Predictive performance was high (median prediction error =-13.4%). Simulations showed that dosing requirements were dependent on actual body weight and RRT intensity and duration (p < 0.05). An optimised dosing nomogram was subsequently developed considering these clinical characteristics. CONCLUSIONS: Actual body weight and RRT intensity and duration are the main determinants of vancomycin dosing requirements in critically ill patients treated with RRT. Efficacious, non-toxic dosing may be guided by the optimised nomogram.",
-          "citation_count": 0,
+          "citation_count": 36,
           "is_top_journal": true,
           "study_type": "Study",
           "volume": "30",
           "issue": "1",
           "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13551861/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/"
         },
         {
           "pmid": "42294965",
@@ -10863,17 +10959,15 @@
           ],
           "doi": "10.1186/s13054-026-06226-z",
           "abstract": "BACKGROUND: Optimal dosing of vancomycin in critically ill patients receiving renal replacement therapy (RRT) is uncertain due to high pharmacokinetic variability. We aimed to develop individualised vancomycin dosing recommendations that optimise efficacy while minimising toxicity. METHODS: Prospective, international, pharmacokinetic study enrolling critically ill patients treated with vancomycin and various RRT modalities. A population pharmacokinetic model was developed, externally validated and applied to perform Monte Carlo dosing simulations. We calculated the probability of each dosing regimen to achieve the efficacy target against methicillin-resistant Staphylococcus aureus (ratio of the area under the concentration-time curve to the minimum inhibitory concentration (AUC0-24 h/MIC) ≥ 400) without exceeding the toxicity threshold (AUC0-24 h ≥ 700 mg.h/L). RESULTS: We enrolled 65 critically ill patients from 6 countries receiving continuous RRT (50.8%) or sustained low-efficiency dialysis (49.2%). The model was developed using 1318 pre- and post-filter plasma and effluent concentrations and validated with a new dataset (19 critically ill patients, 124 pre-filter plasma concentrations), with 47.4% patients concomitantly treated with extracorporeal membrane oxygenation. Predictive performance was high (median prediction error =-13.4%). Simulations showed that dosing requirements were dependent on actual body weight and RRT intensity and duration (p < 0.05). An optimised dosing nomogram was subsequently developed considering these clinical characteristics. CONCLUSIONS: Actual body weight and RRT intensity and duration are the main determinants of vancomycin dosing requirements in critically ill patients treated with RRT. Efficacious, non-toxic dosing may be guided by the optimised nomogram.",
-          "citation_count": 0,
+          "citation_count": 36,
           "is_top_journal": true,
           "study_type": "Study",
           "volume": "30",
           "issue": "1",
           "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13551861/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/"
         },
         {
           "pmid": "42377463",
@@ -11779,9 +11873,7 @@
           "pages": "2335-2349",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42267870/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42267870/"
         },
         {
           "pmid": "42377463",
@@ -12461,9 +12553,7 @@
           "pages": "2201-2211",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533471/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/"
         },
         {
           "pmid": "42307255",
@@ -12500,9 +12590,7 @@
           "pages": "2245-2255",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42307255/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42307255/"
         },
         {
           "pmid": "42644690",
@@ -12676,17 +12764,15 @@
           ],
           "doi": "10.1186/s13054-026-06226-z",
           "abstract": "BACKGROUND: Optimal dosing of vancomycin in critically ill patients receiving renal replacement therapy (RRT) is uncertain due to high pharmacokinetic variability. We aimed to develop individualised vancomycin dosing recommendations that optimise efficacy while minimising toxicity. METHODS: Prospective, international, pharmacokinetic study enrolling critically ill patients treated with vancomycin and various RRT modalities. A population pharmacokinetic model was developed, externally validated and applied to perform Monte Carlo dosing simulations. We calculated the probability of each dosing regimen to achieve the efficacy target against methicillin-resistant Staphylococcus aureus (ratio of the area under the concentration-time curve to the minimum inhibitory concentration (AUC0-24 h/MIC) ≥ 400) without exceeding the toxicity threshold (AUC0-24 h ≥ 700 mg.h/L). RESULTS: We enrolled 65 critically ill patients from 6 countries receiving continuous RRT (50.8%) or sustained low-efficiency dialysis (49.2%). The model was developed using 1318 pre- and post-filter plasma and effluent concentrations and validated with a new dataset (19 critically ill patients, 124 pre-filter plasma concentrations), with 47.4% patients concomitantly treated with extracorporeal membrane oxygenation. Predictive performance was high (median prediction error =-13.4%). Simulations showed that dosing requirements were dependent on actual body weight and RRT intensity and duration (p < 0.05). An optimised dosing nomogram was subsequently developed considering these clinical characteristics. CONCLUSIONS: Actual body weight and RRT intensity and duration are the main determinants of vancomycin dosing requirements in critically ill patients treated with RRT. Efficacious, non-toxic dosing may be guided by the optimised nomogram.",
-          "citation_count": 0,
+          "citation_count": 36,
           "is_top_journal": true,
           "study_type": "Study",
           "volume": "30",
           "issue": "1",
           "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13551861/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/"
         },
         {
           "pmid": "42223327",
