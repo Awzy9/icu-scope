@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T07:35:04+00:00",
+  "generated_at": "2026-09-12T07:26:44+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -76,31 +76,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533470/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42262338/"
-      },
-      {
-        "pmid": "42587308",
-        "title": "What place for pragmatic RCTs in intensive care?",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 12",
-        "authors": [
-          "Singer M",
-          "Vincent JL"
-        ],
-        "doi": "10.1186/s13054-026-06242-z",
-        "abstract": "Pragmatic trials test the effectiveness of an intervention within real-life clinical practice, prioritising applicability and generalisability. By contrast, explanatory trials evaluate the efficacy of an intervention under optimal conditions and in well-defined populations, aiming to minimise bias and confounding and to maximise the treatment effect. The majority of large-scale, multicentre academic ICU studies are overall pragmatic in nature but have repeatedly failed to demonstrate outcome differences against control populations. This relates in part to the marked heterogeneity of ICU populations, often with enrolment based on syndromic categories such as sepsis, acute respiratory distress syndrome, shock and acute kidney injury with significant inter-individual biological variability. Any beneficial treatment effects in specific, often unidentified, subsets are diluted or cancelled out by no effect or even harm in others. A second important factor underlying the lack of intervention effect is suboptimal performance of the trials, particularly poor protocol adherence, which undermines the likelihood of showing benefit, particularly when reliant on intention-to-treat analyses. In this article we discuss these issues and provide some suggestions for improvement.",
-        "citation_count": 39,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13464313/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42587308/",
-        "ai_key_stats": "",
-        "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
-        "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-        "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
       },
       {
         "pmid": "42267876",
@@ -207,28 +182,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42289099/"
       },
       {
-        "pmid": "42618936",
-        "title": "When supply chains fail: rethinking resilience in intensive care.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 12",
-        "authors": [
-          "Del Prete C",
-          "Carenzo L",
-          "Caviglia M"
-        ],
-        "doi": "10.1186/s13054-026-06257-6",
-        "abstract": "Intensive care units (ICUs) are designed to support critically ill patients through life-threatening organ dysfunction, relying on highly optimized processes and specialized resources. Yet they are increasingly exposed to systemic shocks of geopolitical, environmental, and technological origin. These act not only on infrastructure and workforce but, more insidiously, through the supply chains on which bedside care depends, rendering ICU autonomy largely illusory: the production of active pharmaceutical ingredients is highly concentrated geographically, while some critical products depend on a single manufacturing site worldwide; consequently, a disruption at a single node can propagate rapidly to the bedside. We trace this cascade, from shock to the depletion of just-in-time buffers and the distorting effect of phantom demand, to the rationing, substitution, and improvisation that increase workload, variability, and clinical risk. This fragility is not incidental but the product of decades of efficiency-driven reform that has systematically reduced organizational slack: the inventory, redundant capacity, and workforce flexibility that enable adaptation under stress. The relationship between efficiency and resilience should be understood as a structural tension rather than a fixed trade-off. Targeted organisational strategies can strengthen ICU resilience, including regionalized ICU networks governed by formal agreements, diversification and strategic stockpiling of high-risk medications, and pre-emptive protocols for drug and fluid conservation. Scalable digital infrastructure and in-situ simulation can further support these strategies. Resilience should therefore be understood as a design principle, not an emergent property of crisis response.",
-        "citation_count": 27,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13491594/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42618936/"
-      },
-      {
         "pmid": "42613623",
         "title": "Critical care readiness in conflict and disaster-affected Somalia: mass-casualty response, emergency referral, and continuity of life-saving care special collection: critical care in war and disaster areas.",
         "journal": "Critical care (London, England)",
@@ -271,6 +224,49 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
+      },
+      {
+        "pmid": "42601631",
+        "title": "Trough concentrations of 10-15 mg/L of vancomycin are generally sufficient to achieve pharmacodynamic targets, whereas higher troughs can result in unnecessary nephrotoxicity: we respectfully disagree.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 14",
+        "authors": [
+          "Honoré PM",
+          "Benkaddour Y",
+          "Muscato CY"
+        ],
+        "doi": "10.1186/s13054-026-06267-4",
+        "abstract": "",
+        "citation_count": 5,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13476939/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/"
+      },
+      {
+        "pmid": "42665838",
+        "title": "\"Decoding candidemia in critically ill patients: unsupervised clustering identifies three unique phenotypes\": algorithmic tautology and feature selection bias.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 28",
+        "authors": [
+          "Yang Z",
+          "Zhang Y"
+        ],
+        "doi": "10.1186/s13054-026-06277-2",
+        "abstract": "",
+        "citation_count": 4,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13523429/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/"
       }
     ]
   },
@@ -399,7 +395,9 @@
         "ai_key_stats": "",
         "ai_summary": "This commentary discusses the lack of randomized controlled trials examining the efficacy of oseltamivir, citing past instances of Roche hiding borderline efficacy results for profit.",
         "ai_significance": "This matters for ICU clinical practice as it highlights the importance of critically evaluating pharmaceutical efficacy and the need for transparent clinical trials.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza",
@@ -1322,6 +1320,64 @@
         "society": "KDIGO"
       },
       {
+        "pmid": "42723449",
+        "title": "Korean clinical practice guidelines for rehabilitation in critically ill patients and post-intensive care syndrome.",
+        "journal": "Acute and critical care",
+        "pubdate": "2026 Aug",
+        "authors": [
+          "Chung CR",
+          "Yeo HJ",
+          "Do JG",
+          "Na Y",
+          "Choi E",
+          "Kang J",
+          "Kwon JY",
+          "Kim HJ",
+          "Park J",
+          "Lee HJ",
+          "Jang MH",
+          "Kang ST",
+          "Koo KH",
+          "Kim YS",
+          "Kim W",
+          "Kim TY",
+          "Park J",
+          "Beom J",
+          "Seo KC",
+          "Sun HW",
+          "Son W",
+          "Shin MJ",
+          "Ahn SY",
+          "Lee SI",
+          "Rhee MH",
+          "Won YH",
+          "Yoo M",
+          "Im YJ",
+          "Chang SJ",
+          "Chang YR",
+          "Jeon MK",
+          "Jung JH",
+          "Ha Y",
+          "Hyun SE",
+          "Hong SK",
+          "Suh GY"
+        ],
+        "doi": "10.4266/acc.006630",
+        "abstract": "BACKGROUND: Survivors of critical illness commonly experience persistent physical, cognitive, and psychological impairments, collectively known as post-intensive care syndrome. Although intensive care unit (ICU) rehabilitation is now recognized as an important part of recovery after critical illness, rehabilitation practices remain inconsistent, and clinical practice guidelines adapted to the Korean healthcare context have not been available. METHODS: These clinical practice guidelines were developed de novo by a multidisciplinary panel comprising critical care physicians, rehabilitation specialists, nurses, and allied health professionals. The panel prioritized 15 key clinical questions addressing adult, pediatric, and neonatal ICU (NICU) rehabilitation. Systematic literature searches were conducted in Medline via PubMed, Embase, the Cochrane Library, and KoreaMed, and the final searches for all 15 questions were completed by November 30, 2024. The certainty of evidence and strength of recommendations were assessed using the Grading of Recommendations Assessment, Development and Evaluation framework. Final recommendations were approved through a structured consensus process requiring at least 70% panel agreement. RESULTS: The panel issued 15 recommendations across major rehabilitation domains, including early structured rehabilitation, criteria for withholding or discontinuing therapy, adjunctive modalities, rehabilitation frequency, inspiratory muscle training, swallowing rehabilitation, cognitive and occupational therapy, nutritional support, neonatal and pediatric ICU rehabilitation, and post-ICU follow-up care. Thirteen recommendations were conditional, whereas two were strong, mainly because they addressed patient safety. CONCLUSIONS: These guidelines provide evidence-informed recommendations for rehabilitation in critically ill patients across adult, pediatric, and NICUs in Korea. They are designed to standardize practice, improve patient safety, support patient-centered functional recovery beyond survival, and identify priorities for future research.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Guideline",
+        "volume": "41",
+        "issue": "3",
+        "pages": "439-465",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42723449/",
+        "society": null,
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42481936",
         "title": "Comorbidity phenotypes and the incidence and severity of acute kidney injury in older critically ill patients: a retrospective cohort study.",
         "journal": "BMC geriatrics",
@@ -1493,7 +1549,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study conducted a critical analysis of pain assessment tools in the context of the 2020 IASP definitional update and the 2017 nociplastic mechanistic descriptor. A structured narrative review of 79 studies was performed, evaluating the psychometric properties of various pain assessment instruments. The results highlighted the limitations of neuropathic screening scales and the need for optimal selection based on clinical context and patient characteristics.",
         "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they highlight the importance of selecting the most appropriate pain assessment tool based on the patient's specific needs and context.",
-        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience."
+        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42262517",
@@ -3683,7 +3741,46 @@
   },
   "this_week": {
     "window_days": 7,
-    "articles": []
+    "articles": [
+      {
+        "pmid": "42725835",
+        "title": "Landscape of Biomarker Use in Critically Ill Patients: Systematic Evidence Map of Acute Kidney Injury and Implications for Practice.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Sep 11",
+        "authors": [
+          "Kane-Gill SL",
+          "Boyer KM",
+          "Akcan Arikan A",
+          "Barreto EF",
+          "Belcher JM",
+          "Lumlertgul N",
+          "Kellum JA"
+        ],
+        "doi": "10.1097/CCM.0000000000007362",
+        "abstract": "OBJECTIVES: Create systematic evidence maps of novel biomarkers of kidney injury from a mapping review to guide future implementation in patient care. DATA SOURCES: PubMed/MEDLINE and Embase. STUDY SELECTION: Systematic evidence maps included clinical trials and observational studies in critically ill patients, investigating novel kidney biomarkers for acute kidney injury (AKI). DATA EXTRACTION: Six thousand eight hundred five records were screened, and 1116 studies were included that related to one or more novel biomarkers and AKI. DATA SYNTHESIS: Adult populations accounted for 78.6% of the studies, and 93.3% used a cohort design to investigate AKI biomarkers. Mixed critically ill populations, cardiac surgery, and sepsis were identified as the most frequently studied clinical contexts in 69.5% of the studies. Systematic evidence maps were synthesized for biomarker studies to predict AKI (n = 944), prognosticate clinical outcomes (n = 647), diagnose AKI etiology (n = 109), enrich clinical trials (n = 6), and manage AKI (n = 12). Implementation strategies for patient care included surveilling patients at risk of AKI, including patients undergoing surgery and those exposed to multiple nephrotoxic drugs. CONCLUSIONS: Substantial clinical evidence assessing the accuracy of biomarkers compared with diagnosis of AKI exists, with fewer practical trials in clinical use. Still, guidance on implementation approaches can be gleaned from evaluations using biomarkers for the management of critically ill patients, particularly in surgical and nephrotoxin-exposed populations where evidence is available. This review identifies the landscape of current evidence and highlights priorities for future management and enrichment trials needed to bridge the gap between predictive accuracy and clinical decision-making.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "renal",
+        "category_label": "Renal",
+        "category_ids": [
+          "renal",
+          "infectious-sepsis"
+        ],
+        "category_labels": [
+          "Renal",
+          "Infectious Disease & Sepsis"
+        ]
+      }
+    ]
   },
   "preprints": {
     "window_days": 14,
@@ -3738,7 +3835,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed machine learning models to predict 30-day mortality in ICU trauma patients within the first 24 hours after admission. They trained and tested these models using data from two different ICU databases. The models showed promise in predicting mortality risk.",
         "ai_significance": "This study contributes to the development of tools that can help ICU clinicians identify patients at high risk of mortality, potentially guiding resource allocation and monitoring.",
-        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission."
+        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission.",
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "PAUSE-Agents: A Clinician-in-the-Loop Multi-Agent AI Pipeline for ICU-to-Ward Handoff Briefs",
@@ -3761,6 +3860,142 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
+        "url": "https://clinicaltrials.gov/study/NCT06442930",
+        "source": "University Health Network, Toronto",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "EXTUBE is an international, multicentre, prospective cohort study evaluating the incidence, risk factors, and outcomes of extubation-related complications and describing clinical practices related to extubation after general anesthesia or after critical illness in the operating room (OR), out of OR anesthesia location or intensive care unit (ICU).",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06442930"
+      },
+      {
+        "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
+        "url": "https://clinicaltrials.gov/study/NCT07807709",
+        "source": "Gaziosmanpasa Research and Education Hospital",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "Assessment of intravascular volume status is an important component of hemodynamic management in critically ill patients. Several noninvasive and minimally invasive parameters, including the pleth variability index (PVI), pulse pressure variation (PPV), stroke volume variation (SVV), and ultrasonographic measurements of venous diameter variation, can be used for this purpose. Although the inferior vena cava distensibility index (IVC-DI) is commonly evaluated using ultrasonography, visualization ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07807709"
+      },
+      {
+        "title": "Efficacy and Safety of Cytokine Adsorption and Plasma Exchange in Patients With ACLF and Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT06562803",
+        "source": "Third Affiliated Hospital, Sun Yat-Sen University",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "This study aims to evaluate the efficacy and safety of the double plasma cytokine adsorption system with sequential low-dose plasma exchange (DPCAS+LPE) in patients with acute-on-chronic liver failure (ACLF) complicated by sepsis. The focus is on assessing the impact of the cytokine adsorption column(CA280,Jafron Biomedical Co., Ltd., Zhuhai, China) on survival rates, inflammation markers, and organ function to determine its potential value in clinical practice. The primary research questions ar",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06562803",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Combination Cefazolin With Ertapenem for Methicillin-susceptible Staphylococcus Aureus Bacteremia",
+        "url": "https://clinicaltrials.gov/study/NCT04886284",
+        "source": "Todd C. Lee MD MPH FIDSA",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "There is a variety of in vitro, in vivo (animal model), and human case series data which suggests that the addition of ertapenem to cefazolin could improve outcomes in methicillin-susceptible S. aureus bacteremia. No randomized controlled trial has been performed. This study is an approved sub-study of The Staphylococcus aureus Network Adaptive Platform (SNAP) trial (NCT05137119)",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04886284",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Combination of Cytokine Hemosorption and High-volume Hemofiltration in Acute Pancreatitis",
+        "url": "https://clinicaltrials.gov/study/NCT05694988",
+        "source": "Efferon JSC",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "Mortality from severe acute pancreatitis reaches 42%. The prognosis of acute pancreatitis is associated with the development of acute inflammatory response syndrome (SIRS) and multiple organ failure (MOF). Due to the lack of etiological therapy, the treatment of acute pancreatitis is predominantly symptomatic. Severity and mortality are associated with early systemic inflammatory response syndrome (SIRS) and septic complications in the later stages of the disease. In connection with a pronounced",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05694988",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "VoiceLove: An App-Based COMMunication Tool Designed to Address DeliriUm and Improve Family ENgagement and PatIent/Family SatisfaCtion in CriticAlly Ill PaTiEnts (COMMUNICATE)",
+        "url": "https://clinicaltrials.gov/study/NCT06923462",
+        "source": "Vanderbilt University Medical Center",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "VoiceLove is a phone application allowing family and patients to share information in a secure platform. This project will compare the VoiceLove app to usual care to learn about whether VoiceLove improves patient-family communication, family engagement, and ICU delirium.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06923462",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "RSV, Influenza, and SARS-CoV-2 Outcomes in Severely Immunosuppressed Adults",
+        "url": "https://clinicaltrials.gov/study/NCT07816471",
+        "source": "Hospital Italiano de Buenos Aires",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "Respiratory syncytial virus (RSV), influenza, and SARS-CoV-2 are common respiratory viruses. In healthy adults they usually cause mild, cold-like illness, but in people whose immune system is severely weakened - such as people who have had a bone marrow, stem cell, or organ transplant, people being treated for cancer or blood disorders, or people taking medicines that suppress the immune system - these infections can be much more serious, sometimes spreading from the nose and throat down into th",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07816471",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Beta-lactam Intermittent Versus Continuous Infusion and Combination Antibiotic Therapy in Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT05681442",
+        "source": "Assistance Publique - Hôpitaux de Paris",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "Patients hospitalized in ICU with sepsis (infection with life-threatening organ dysfunction according to sepsis 3.0 definitions) or septic shock presumably due to MDR-GNB (multidrug resistant Gram-negative bacteria). The study will be a prospective multicentre, randomized, open-label comparative continuous vs. intermittent pivotal βL (Beta Lactamine) antibiotic infusion strategies and combination vs. monotherapy trial conducted with a 2X2 factorial design.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05681442",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Prevalence and Kinetics of Diaphragmatic Dysfunction in Elderly Patients With Acute Respiratory Distress",
+        "url": "https://clinicaltrials.gov/study/NCT04520815",
+        "source": "Centre Hospitalier Universitaire de la Réunion",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "Acute respiratory distress (ARD) is one of the most frequent reasons for consultation and hospitalization in emergency medicine. The use of ultrasound methods as a diagnostic and clinical assessment tool in emergency medicine is increasingly important. As such, ultrasound is a simple, non-invasive means of assessing diaphragmatic function in the patient's bed. Several methods of ultrasound assessment of diaphragm function have been described. Among these different methods, the diaphragmatic excu",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04520815",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "VENtilation Modalities During Transport of PostoperatIve CRITically Ill Patients to the ICU",
+        "url": "https://clinicaltrials.gov/study/NCT07646249",
+        "source": "Societa Italiana Anestesia Analgesia Rianimazione e Terapia Intensiva",
+        "author": "",
+        "pubdate": "2026-09-11",
+        "summary": "Patients undergoing major non-cardiac surgery may require postoperative mechanical ventilation and transfer from the operating room to the intensive care unit (ICU). This intra-hospital transport phase is critical, as patients may experience changes in respiratory and hemodynamic status, including alterations in oxygenation, ventilation, blood pressure, and heart rate. During transport, ventilatory support may be provided using different strategies, including manual ventilation with a bag-valve ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07646249",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Transpulmonary Pressure-guided Mechanical Ventilation Strategy in Right Ventricular Protection in Patients With ARDS",
         "url": "https://clinicaltrials.gov/study/NCT07490925",
         "source": "Beijing Chao Yang Hospital",
@@ -3774,7 +4009,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
         "ai_significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Human Neutrophil Lipocalin as an Aid in the Diagnosis of Bacterial Infection in the Emergency Department",
@@ -3798,9 +4035,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05413343",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05413343"
       },
       {
         "title": "Impact of the Choice of Gastric Tube Placement Sites on the Incidence of Ventilator Associated Pneumonia",
@@ -3812,9 +4047,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05915663",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05915663"
       },
       {
         "title": "Burnout Syndrome in the Intensive Care Unit Before and During a Palliative Care Trial",
@@ -3826,9 +4059,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07069010",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07069010"
       },
       {
         "title": "Perpetual Observational Study - Ventilator Associated Pneumonia",
@@ -3840,9 +4071,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05719259",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05719259"
       },
       {
         "title": "Diagnostic Accuracy of Hepatic Vein SFF Compared With TAPSE for Assessment of RV Systolic Function in Mechanically Ventilated Patients",
@@ -3854,9 +4083,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07732114",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07732114"
       },
       {
         "title": "Yoghurt Supplementation In Critically Ill Adults",
@@ -3868,9 +4095,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07812415",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07812415"
       },
       {
         "title": "Clinical Effects of Ringers Lactate Versus Sterofundin/ Plasmalyte Solution in Patients With Sepsis",
@@ -3882,9 +4107,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07239713",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07239713"
       },
       {
         "title": "Incidence and Determinants of Joint Contractures in Mechanically Ventilated ICU Patients",
@@ -3896,9 +4119,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07339397",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07339397"
       },
       {
         "title": "Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia",
@@ -4013,18 +4234,6 @@
         "nct_id": "NCT07810166"
       },
       {
-        "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
-        "url": "https://clinicaltrials.gov/study/NCT06442930",
-        "source": "University Health Network, Toronto",
-        "author": "",
-        "pubdate": "2026-09-08",
-        "summary": "EXTUBE is an international, multicentre, prospective cohort study evaluating the incidence, risk factors, and outcomes of extubation-related complications and describing clinical practices related to extubation after general anesthesia or after critical illness in the operating room (OR), out of OR anesthesia location or intensive care unit (ICU).",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06442930"
-      },
-      {
         "title": "Cardiothoracic Critical Care as Subspecialty and Its Core Competencies",
         "url": "https://clinicaltrials.gov/study/NCT06370338",
         "source": "Ohio State University",
@@ -4047,18 +4256,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07806422"
-      },
-      {
-        "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
-        "url": "https://clinicaltrials.gov/study/NCT07807709",
-        "source": "Gaziosmanpasa Research and Education Hospital",
-        "author": "",
-        "pubdate": "2026-09-08",
-        "summary": "Assessment of intravascular volume status is an important component of hemodynamic management in critically ill patients. Several noninvasive and minimally invasive parameters, including the pleth variability index (PVI), pulse pressure variation (PPV), stroke volume variation (SVV), and ultrasonographic measurements of venous diameter variation, can be used for this purpose. Although the inferior vena cava distensibility index (IVC-DI) is commonly evaluated using ultrasonography, visualization ",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07807709"
       },
       {
         "title": "Early Endotoxin Burden Reduction With oXiris in Septic Shock Patients Requiring CRRT",
@@ -5498,7 +5695,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study examined the effect of physical contact with primary caregivers on adult ICU patients' physiological responses. The trial was a randomized controlled study. No significant physiological changes were found.",
         "ai_significance": "Understanding the impact of caregiver contact on ICU patients' physiological responses can inform strategies to improve patient comfort and well-being. However, this study found no significant changes.",
-        "ai_rounds_takeaway": "No change to current practice — physical contact with caregivers does not appear to have a significant effect on ICU patients' physiological responses."
+        "ai_rounds_takeaway": "No change to current practice — physical contact with caregivers does not appear to have a significant effect on ICU patients' physiological responses.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Call for Life Sepsis",
@@ -5514,7 +5713,9 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis is a life-threatening condition caused by a host response to infection, with high mortality rates in sub-Saharan Africa. Children under 5 years hospitalized with sepsis have high mortality rates within the first 6 months of discharge. Various populations in sub-Saharan Africa experience high mortality rates due to sepsis.",
         "ai_significance": "This highlights the need for improved sepsis management and care in sub-Saharan Africa to reduce mortality rates.",
-        "ai_rounds_takeaway": "Consider early recognition and aggressive management of sepsis in high-risk populations in sub-Saharan Africa."
+        "ai_rounds_takeaway": "Consider early recognition and aggressive management of sepsis in high-risk populations in sub-Saharan Africa.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "ICU Delirium Playbook Training Study for ICU Nurses",
@@ -5530,7 +5731,9 @@
         "ai_key_stats": "",
         "ai_summary": "A study was conducted to evaluate the effectiveness of a delirium playbook training for ICU nurses. The training aimed to improve delirium recognition and management. However, no specific results were reported.",
         "ai_significance": "Early recognition and management of delirium are crucial for improving patient outcomes in the ICU, and this study highlights the need for effective training programs for ICU nurses.",
-        "ai_rounds_takeaway": "Consider implementing a delirium recognition and management training program for ICU nurses to improve patient care."
+        "ai_rounds_takeaway": "Consider implementing a delirium recognition and management training program for ICU nurses to improve patient care.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "CT-Determined Sarcopenia and Mortality in Critically Ill Cancer Patients",
@@ -5546,7 +5749,9 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study evaluated the relationship between sarcopenia and muscle quality impairment in critically ill cancer patients and their risk of 28-day mortality. The study used computed tomography to assess muscle quality and found an association between lower muscle quality and increased mortality. The study aimed to answer whether lower psoas muscle quality is associated with increased mortality in critically ill cancer patients.",
         "ai_significance": "This study highlights the importance of sarcopenia and muscle quality in critically ill cancer patients, which can inform ICU management and potentially improve outcomes.",
-        "ai_rounds_takeaway": "Assess muscle quality using CT scans in critically ill cancer patients to identify those at higher risk of mortality."
+        "ai_rounds_takeaway": "Assess muscle quality using CT scans in critically ill cancer patients to identify those at higher risk of mortality.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Direct Antimicrobial Susceptibility Testing on Respiratory Sample of Intensive Care Patient With Suspected VAP",
@@ -5562,7 +5767,9 @@
         "ai_key_stats": "",
         "ai_summary": "The study discusses the impact of direct antimicrobial susceptibility testing on respiratory samples of ICU patients with suspected ventilator-associated pneumonia (VAP). Current guidelines recommend using broad-spectrum antibiotics, but this may promote antibiotic resistance. The study aims to explore the benefits of direct AST in reducing inappropriate antibiotic therapy.",
         "ai_significance": "This study has implications for ICU clinical practice as inappropriate antibiotic therapy is associated with increased mortality in VAP patients. Direct AST may help reduce antibiotic resistance and improve patient outcomes.",
-        "ai_rounds_takeaway": "Consider using direct antimicrobial susceptibility testing in patients with suspected VAP to guide antibiotic therapy and reduce the risk of antibiotic resistance."
+        "ai_rounds_takeaway": "Consider using direct antimicrobial susceptibility testing in patients with suspected VAP to guide antibiotic therapy and reduce the risk of antibiotic resistance.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Preventive Narrative Exposure Intervention for PTSD in ICU Patients After Cardiopulmonary Bypass Cardiac Surgery",
@@ -5578,7 +5785,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
         "ai_significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
-        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
+        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Exploring the Effectiveness of an Application Intervention on Cognitive, Learning Self-Efficacy,and Clinical Reasoning of Nurses Regarding Delirium Education in the Intensive Care Unit",
@@ -5594,7 +5803,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the effectiveness of an app-based delirium education program for ICU nurses. The program aimed to enhance nurses' knowledge, learning self-efficacy, and clinical reasoning regarding delirium. The study found that the app intervention had a positive impact on nurses' knowledge and learning self-efficacy.",
         "ai_significance": "This study highlights the potential of app-based education to improve ICU nurses' knowledge and skills in delirium management, which is crucial for providing high-quality patient care.",
-        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy."
+        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Hemoglobin Trends as a Predictor of Outcomes in Critically Ill Patients (The TRENT-ICU Study)",
@@ -5610,7 +5821,9 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study examined if early hemoglobin decline in critically ill patients can predict longer ICU stays and in-hospital mortality. The study found that early hemoglobin decline is associated with these outcomes. The study aims to answer two main questions about the relationship between hemoglobin decline and patient outcomes.",
         "ai_significance": "This study's findings have implications for ICU management and may help clinicians identify patients at higher risk of prolonged ICU stays and in-hospital mortality.",
-        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality."
+        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients",
@@ -5626,9 +5839,7 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study evaluates the risk of reintubation in postoperative ICU patients using multiple parameters. The study aims to identify factors associated with reintubation after extubation. The study will include adult patients who are extubated in the operating room and admitted to the ICU.",
         "ai_significance": "Understanding the risk of reintubation is crucial for optimizing postoperative care and reducing complications in ICU patients.",
-        "ai_rounds_takeaway": "Consider using multiple parameters to assess reintubation risk in postoperative ICU patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using multiple parameters to assess reintubation risk in postoperative ICU patients."
       },
       {
         "title": "Candida PCR Diagnosis Strategy in Patients From Intensive Care Units",
@@ -5644,9 +5855,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers evaluated a new PCR technique for diagnosing invasive candidiasis in ICU patients. The goal was to see if this method could provide faster results, allowing for earlier antifungal treatment. This could help prevent resistance and reduce healthcare costs.",
         "ai_significance": "Early diagnosis of invasive candidiasis is crucial in ICU settings, where timely treatment can improve patient outcomes and reduce the risk of antifungal resistance.",
-        "ai_rounds_takeaway": "Consider using PCR for invasive candidiasis diagnosis in patients with suspected systemic infection.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using PCR for invasive candidiasis diagnosis in patients with suspected systemic infection."
       },
       {
         "title": "Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV",
@@ -5662,9 +5871,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study will test an enhanced mentor mother strategy that uses differentiated service delivery to support pregnant and postpartum women living with HIV in resource-limited settings.",
         "ai_significance": "This study aims to improve the quality and efficiency of HIV care for pregnant and postpartum women in resource-limited settings.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Impact of Procalcitonin-guided Algorithm on Early Discontinuation of Antibiotic Therapy",
@@ -5680,9 +5887,7 @@
         "ai_key_stats": "n=296, RR not reported, ARR not reported, NNT not reported, p=not reported",
         "ai_summary": "This study tested a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children. Patients were randomly assigned to either a PCT-guided group or a standard-of-care group. The study found that the PCT-guided algorithm was used to discontinue antibiotic treatment.",
         "ai_significance": "This study's findings could help reduce antibiotic duration in critically ill children, potentially decreasing antibiotic-related complications and promoting more targeted treatment.",
-        "ai_rounds_takeaway": "Consider using a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children with suspected or proven bacterial infections.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children with suspected or proven bacterial infections."
       },
       {
         "title": "COMPARE-VENT Feasibility Pilot Study",
@@ -5762,9 +5967,7 @@
         "ai_key_stats": "",
         "ai_summary": "This preclinical study investigated the impact of exogenous metabolites on restoring mitochondrial function in septic shock patients with lactate acidosis. The study aimed to evaluate the effect of metabolite supplementation on mitochondrial metabolism in septic shock. The results of this study are not reported.",
         "ai_significance": "Restoring mitochondrial function in septic shock patients could potentially improve outcomes and reduce mortality, which is a significant concern in ICU clinical practice.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Fluid Administration and Fluid Accumulation in the Intensive Care Unit",
@@ -5780,9 +5983,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to describe fluid administration and accumulation in ICU patients. It provided contemporary data on fluid accumulation, risk factors, management, and outcomes in critically ill adults. The study did not report any specific findings or results.",
         "ai_significance": "Understanding fluid administration and accumulation in ICU patients is crucial for managing critically ill adults and preventing complications.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Clinical Performance of 3D-Printed vs. Milled Endocrowns",
@@ -5798,9 +5999,7 @@
         "ai_key_stats": "",
         "ai_summary": "This clinical trial compared the durability and functionality of 3D-printed versus milled endocrowns in the oral cavity. The study aimed to investigate the effect of different materials on clinical success. No results were reported.",
         "ai_significance": "This study's findings could inform dental clinicians about the best materials and manufacturing techniques for creating endocrowns. The results may impact the choice of endocrown materials in clinical practice.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Vadadustat for the Treatment of Nonintubated Acute Respiratory Distress Syndrome Due to Pathogen-Associated Lung Injury",
@@ -5816,9 +6015,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to evaluate the effectiveness and safety of vadadustat in treating nonintubated patients with ARDS caused by pathogen-associated lung injury. No results were reported.",
         "ai_significance": "This study's findings could inform treatment options for patients with nonintubated ARDS, but no data were provided to support this.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Diaphragmatic Ultrasonography in Difficult Weaning",
@@ -5834,9 +6031,7 @@
         "ai_key_stats": "n=120, RR not reported, ARR not reported, NNT not reported, p=0.01",
         "ai_summary": "Researchers used ultrasound to assess diaphragmatic and extradiaphragmatic muscles in patients with difficult weaning from mechanical ventilation. They found that diaphragmatic ultrasonography can help determine the readiness of patients for weaning. The study suggests that this method may improve the success rate of weaning.",
         "ai_significance": "This study provides a non-invasive tool to assess muscle readiness for weaning, which can improve patient outcomes and reduce the duration of mechanical ventilation.",
-        "ai_rounds_takeaway": "Consider using diaphragmatic ultrasonography to assess readiness for weaning in patients who have failed the first spontaneous breathing trial.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using diaphragmatic ultrasonography to assess readiness for weaning in patients who have failed the first spontaneous breathing trial."
       },
       {
         "title": "Soluble Forms and Ligands of RAGE in ALI/ARDS (SoLiRAGE).",
@@ -5852,9 +6047,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied soluble forms and ligands of RAGE in patients with Acute Lung Injury (ALI) and Acute Respiratory Distress Syndrome (ARDS). They found elevated levels of soluble RAGE in plasma and pulmonary edema fluid from these patients. This may be a novel marker of alveolar epithelial type I cell injury.",
         "ai_significance": "This study identifies a potential new marker for alveolar epithelial type I cell injury in ALI/ARDS, which could aid in diagnosis and treatment.",
-        "ai_rounds_takeaway": "Consider checking soluble RAGE levels in patients with suspected ALI/ARDS to aid in diagnosis.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider checking soluble RAGE levels in patients with suspected ALI/ARDS to aid in diagnosis."
       },
       {
         "title": "Pulmonary and Ventilatory Effects of Bed Verticalization in Patients With Acute Respiratory Distress Syndrome",
@@ -5870,9 +6063,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effects of bed verticalization on patients with acute respiratory distress syndrome (ARDS). The study found no reported pulmonary and ventilatory effects of bed verticalization in patients with ARDS. No specific outcomes were reported.",
         "ai_significance": "Understanding the effects of bed verticalization in ARDS patients is crucial for optimizing intensive care unit (ICU) management and improving patient outcomes. This study's findings contribute to the existing knowledge on ARDS management.",
-        "ai_rounds_takeaway": "No change to current practice — bed verticalization does not appear to have a significant impact on ARDS patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "No change to current practice — bed verticalization does not appear to have a significant impact on ARDS patients."
       },
       {
         "title": "Blood Culture Collection Strategies for Suspected Bloodstream Infection",
@@ -5888,9 +6079,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares two blood culture collection strategies in adults with suspected sepsis. The goal is to evaluate their diagnostic performance and potential impact on patient discomfort and contamination risk.",
         "ai_significance": "Accurate diagnosis of bloodstream infections is crucial for sepsis management, and optimizing blood culture collection strategies can improve patient outcomes and reduce healthcare-associated complications.",
-        "ai_rounds_takeaway": "Consider using a single, larger blood culture collection in patients with suspected sepsis to minimize venipunctures and potential contamination risk.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a single, larger blood culture collection in patients with suspected sepsis to minimize venipunctures and potential contamination risk."
       },
       {
         "title": "Early Sepsis Recognition Tool",
@@ -5906,9 +6095,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed an early recognition tool for sepsis in children based on the Phoenix definition. They also investigated how to implement this tool in clinical practice. The study aimed to address the need for evidence-based approaches to identifying sepsis in diverse healthcare settings in Asia.",
         "ai_significance": "This study is significant for ICU clinical practice as it aims to improve sepsis identification in children, which can lead to better outcomes. Developing evidence-based approaches to sepsis recognition is crucial in diverse healthcare settings.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "GRAM NEGATIVES STUDY",
@@ -5924,9 +6111,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to develop a predictive model for mortality in critically ill patients with multidrug-resistant Gram-negative bacteria. It also investigated the characteristics of patients who acquire colonization during ICU stay and the infectious complications they develop.",
         "ai_significance": "Understanding the predictors of mortality in patients with MDR-GNB can help clinicians identify high-risk patients and tailor their care accordingly.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "STimulation to Activate RespIration",
@@ -5942,9 +6127,7 @@
         "ai_key_stats": "",
         "ai_summary": "This was a feasibility trial to test the safety and practicality of using diaphragm neurostimulation-assisted ventilation in patients on mechanical ventilation for acute hypoxemic respiratory failure with lung injury.",
         "ai_significance": "This study lays the groundwork for further investigation into the potential benefits of diaphragm neurostimulation-assisted ventilation in critically ill patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Cardiovascular Protection After Preeclampsia With Enalapril",
@@ -5960,9 +6143,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to assess the willingness of postpartum women to be randomized to different blood pressure medications and their effect on blood pressure in women with hypertensive disorders of pregnancy. However, it did not find any participants willing to be randomized.",
         "ai_significance": "This study highlights the challenges of recruiting participants for clinical trials in postpartum women with hypertensive disorders of pregnancy, which may impact the development of new treatments for this population.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "RESTORE-ZG: Return of Effective Spontaneous Circulation Resuscitation Evaluation Canton of Zug",
@@ -5978,9 +6159,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated cardiac arrest care provided by emergency medical services in Switzerland, focusing on factors that influence return of spontaneous circulation (ROSC). The study aimed to identify predictors of ROSC in out-of-hospital cardiac arrests. No specific outcomes or effect measures were reported.",
         "ai_significance": "Understanding predictors of ROSC can inform emergency medical services' strategies to improve cardiac arrest outcomes. However, this study did not provide specific findings or recommendations.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "İntensive Care Sepsis Prevelance in Turkey (INSEP-TURK)",
@@ -6621,8 +6800,8 @@
       "Which ICU patients are most likely to benefit from these findings, and who may not?",
       "Would these results change current bedside practice or require further validation?"
     ],
-    "week": "2026-09-05",
-    "generated_at": "2026-09-05T07:11:55+00:00"
+    "week": "2026-09-12",
+    "generated_at": "2026-09-12T07:26:04+00:00"
   },
   "categories": [
     {
@@ -9036,7 +9215,9 @@
           "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
           "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
           "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
-          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
+          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42587308",
@@ -10911,7 +11092,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42587308",
