@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T07:45:47+00:00",
+  "generated_at": "2026-09-14T08:16:02+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -258,26 +258,25 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
       },
       {
-        "pmid": "42601631",
-        "title": "Trough concentrations of 10-15 mg/L of vancomycin are generally sufficient to achieve pharmacodynamic targets, whereas higher troughs can result in unnecessary nephrotoxicity: we respectfully disagree.",
+        "pmid": "42665838",
+        "title": "\"Decoding candidemia in critically ill patients: unsupervised clustering identifies three unique phenotypes\": algorithmic tautology and feature selection bias.",
         "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 14",
+        "pubdate": "2026 Aug 28",
         "authors": [
-          "Honoré PM",
-          "Benkaddour Y",
-          "Muscato CY"
+          "Yang Z",
+          "Zhang Y"
         ],
-        "doi": "10.1186/s13054-026-06267-4",
+        "doi": "10.1186/s13054-026-06277-2",
         "abstract": "",
-        "citation_count": 5,
+        "citation_count": 4,
         "is_top_journal": true,
         "study_type": "Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13476939/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42601631/"
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13523429/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/"
       }
     ]
   },
@@ -292,9 +291,7 @@
         "pubdate": "2026-09-12",
         "summary": "All the literature goodness for September 2026 EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Tall-Tale Heart",
@@ -951,9 +948,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42730762/",
-        "society": "ESICM",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "ESICM"
       },
       {
         "pmid": "42705151",
@@ -2488,7 +2483,7 @@
         ],
         "doi": "10.3389/fmed.2026.1887689",
         "abstract": "BACKGROUND: Ventilator-associated pneumonia (VAP) is a frequent complication of mechanical ventilation that increases mortality and strains healthcare resources. The blood urea nitrogen-to-creatinine ratio (UCR) is a readily available marker of renal function and hydration status. We investigated the association between UCR and short-term mortality in critically ill patients with VAP. METHODS: This retrospective cohort study used data from the MIMIC-IV database and included 2,037 patients with VAP admitted to the intensive care unit (ICU). Patients were categorized into three groups according to tertiles of the blood urea nitrogen-to-creatinine ratio (UCR; T1-T3). Baseline characteristics, laboratory findings, comorbidities, and clinical outcomes were collected within the first 24 h after ICU admission. The primary outcomes were all-cause mortality at 30 and 60 days post-admission. Kaplan-Meier survival analysis and multivariable Cox regression were used to assess the relationship between UCR and mortality, and a restricted cubic spline analysis was performed to explore non-linear associations. RESULTS: The median UCR among the 2,037 patients was 22.09. Kaplan-Meier analysis showed significant differences in survival across UCR tertiles (log-rank p < 0.05), with the highest mortality in the highest tertile (T3). In multivariable Cox regression, after full adjustment the highest tertile (T3) remained independently associated with increased 30-day mortality (HR 1.63, 95% CI 1.14-2.33) relative to the middle tertile (T2); the risk for the lowest tertile (T1) was significant after adjustment for demographics and comorbidities (HR 1.41, 95% CI 1.03-1.94). Restricted cubic spline analysis revealed a non-linear, U-shaped association between UCR and mortality, suggesting a threshold effect. CONCLUSION: In the primary cohort, the highest UCR tertile remained associated with higher 30-day mortality after full adjustment, whereas the lowest tertile did not. In the sensitivity model additionally conditioning on first-24-h KDIGO stage and non-renal SOFA, T3 remained associated with mortality (HR 1.68, 95% CI 1.28-2.22), while T1 did not (HR 1.18, 95% CI 0.87-1.60). Adding UCR did not significantly improve cross-validated discrimination beyond SOFA (ΔAUC 0.021, 95% CI -0.004 to 0.045) or SAPS II (ΔAUC -0.001, 95% CI -0.015 to 0.014). UCR should therefore be interpreted as an associative risk marker rather than a causal or treatment target.",
-        "citation_count": 0,
+        "citation_count": 35,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "13",
@@ -2497,9 +2492,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562014/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42729399/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42415882",
@@ -2661,14 +2654,14 @@
         ],
         "doi": "10.1111/nicc.70642",
         "abstract": "BACKGROUND: Postoperative wound dressing procedures are a common source of pain and anxiety among intensive care unit (ICU) patients following cardiac surgery. Virtual Reality Distraction Therapy (VRDT) has emerged as a promising non-pharmacological intervention for symptom management; however, evidence regarding its use during postoperative wound care in critically ill cardiac surgery patients remains limited. AIM: To evaluate the effect of Virtual Reality Distraction Therapy on physiological parameters, pain intensity, anxiety levels and patient satisfaction during wound dressing procedures among ICU patients following cardiac surgery. STUDY DESIGN: A one-group pretest-posttest quasi-experimental study was conducted among 50 adult patients admitted to the Cardiothoracic Intensive Care Unit at Tanta University Hospital. Participants received routine postoperative care in addition to VRDT during three consecutive wound dressing sessions. Physiological parameters, pain intensity and anxiety levels were assessed before the intervention, immediately after dressing and 15 min post-dressing. Patient satisfaction with the VR experience was evaluated on the final dressing day. Data were analysed using repeated-measures analysis of variance, paired-samples t-tests, Friedman tests and Pearson correlation coefficients, with a significance level of p < 0.05. RESULTS: Among the 50 enrolled participants who completed the study, VRDT significantly reduced pain intensity (mean difference = -2.44, 95% CI -2.72 to -2.16) and anxiety scores (mean difference = -17.76, 95% CI -18.84 to -16.68) during dressing procedures. Improvements were also observed in selected physiological parameters, particularly respiratory rate and oxygen saturation, while cardiovascular parameters remained stable throughout the intervention period. Most participants reported high levels of satisfaction with the VR experience and expressed willingness to reuse and recommend the intervention. Significant positive correlations were identified between pain intensity and anxiety levels across assessment periods. CONCLUSION: The findings suggest that VRDT may be a feasible and acceptable non-pharmacological adjunct for reducing pain and anxiety during postoperative wound dressing procedures among ICU patients following cardiac surgery. The intervention demonstrated potential benefits in enhancing patient comfort and procedural experiences. Further randomized controlled trials with larger multicentre samples are recommended to confirm these findings and establish the effectiveness of VRDT in critical care practice. RELEVANCE TO CLINICAL PRACTICE: Virtual Reality Distraction Therapy (VRDT) may provide a feasible and acceptable non-pharmacological adjunct to routine postoperative wound care for cardiac surgery patients in intensive care units. Integrating VRDT into nursing practice has the potential to reduce procedural pain and anxiety, improve patient comfort and satisfaction and support more patient-centred care during painful dressing procedures.",
-        "citation_count": 0,
+        "citation_count": 37,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "31",
         "issue": "5",
         "pages": "e70642",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13555104/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42712088/"
       },
       {
@@ -3886,9 +3879,7 @@
         "ai_key_stats": "n=1234, RR 0.83 (95% CI 0.72-0.96), ARR 3.1%, NNT 32, p=0.02",
         "ai_summary": "This systematic review and meta-analysis evaluated the effect of prophylactic scheduled antiemetics on aspiration events in hospitalized adults. The results showed that prophylactic antiemetics reduced the risk of aspiration events. The review included 15 studies with a total of 1234 participants.",
         "ai_significance": "This study's findings suggest that prophylactic antiemetics may be a useful strategy to prevent aspiration events in hospitalized adults, potentially reducing morbidity and mortality.",
-        "ai_rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events.",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events."
       },
       {
         "title": "First-24-hour machine learning for 30-day mortality prediction in ICU trauma patients: development in MIMIC-III and cross-database evaluation in MIMIC-IV",
@@ -4371,7 +4362,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
         "ai_significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
-        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
+        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
@@ -5507,7 +5500,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared two feeding regimens in preterm infants born between 25w0d and 31w6d. The regimens differed in when enteral feeds were advanced, either after 24 hours or after 72 hours. The study found no difference in the risk of late onset sepsis or other adverse outcomes between the two groups.",
         "ai_significance": "This study's findings are important for ICU clinical practice as they provide insight into the optimal timing of enteral feeds in preterm infants, which can impact their risk of infection and other complications.",
-        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes."
+        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Multisensory and Cognitive Interventions in the ICU: Effects on Health and Recovery",
@@ -5583,7 +5578,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aims to investigate the impact of antibiotic de-escalation on patients who received a short-course of parenteral antibiotics. The study will analyze past medical records from four public referral hospitals in Thailand to understand the effects of de-escalation on patients. The study will identify which types of patients are more likely to receive antibiotic de-escalation.",
         "ai_significance": "Understanding the impact of antibiotic de-escalation is crucial in reducing antimicrobial resistance and improving patient outcomes in ICU settings.",
-        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics."
+        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Platelets in Pregnancy",
@@ -5599,7 +5596,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated platelet changes in pregnant patients at high-risk for preeclampsia before and after aspirin use. Blood samples were collected to assess the association between platelet changes and adverse perinatal outcomes. No significant findings were reported.",
         "ai_significance": "Understanding platelet changes in pregnancy may help identify patients at risk for preeclampsia, but this study did not provide conclusive results.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Higher-Dose Dexamethasone Improves Breathing and Shortens NICU Stay in Preterm Babies",
@@ -5615,7 +5614,9 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study compared the effects of two doses of dexamethasone given to pregnant women at risk of preterm birth on preterm babies' breathing and NICU stay. The study found that higher-dose dexamethasone improved breathing and shortened NICU stay in preterm babies. The study looked at preterm babies born between 26 and 36 weeks of pregnancy.",
         "ai_significance": "This study's findings suggest that higher-dose dexamethasone may be beneficial for preterm babies' respiratory health and hospital stay duration, which could inform clinical practice in NICUs.",
-        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies."
+        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Family-ICU Trial",
@@ -5631,7 +5632,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to assess whether family participation in adult ICU rounds improves family satisfaction and patient outcomes. However, the study did not report any key numbers.",
         "ai_significance": "This study is significant because it addresses a need for evidence to support family participation in adult ICU rounds, which is currently limited by a lack of robust data.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study on How the Immune System Responds to Sepsis and Its Long-term Effects",
@@ -5647,7 +5650,9 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis occurs when an infection disrupts the body's immune balance, potentially leading to life-threatening damage or failure of healthy organs. Survivors may experience long-term health problems. The immune response can become either too strong or too weak.",
         "ai_significance": "Understanding the immune system's response to sepsis is crucial for developing effective treatments and preventing long-term health consequences.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Trial of Staff Time With Proned Patients in the ICU Using the 'BathMat'",
@@ -5663,7 +5668,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the use of the 'BathMat' to assist with proning patients in the ICU, which involves lying patients on their front to improve oxygenation. The BathMat is a tool used to help reposition patients every 2-4 hours to prevent sores and injuries. The study aimed to assess the feasibility and effectiveness of using the BathMat in this context.",
         "ai_significance": "This study's findings can inform ICU staff on the practical use of the BathMat to improve patient care and prevent complications associated with prolonged proning.",
-        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries."
+        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
@@ -5679,7 +5686,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
         "ai_significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Machine Learning Prediction of Mortality After Prone Positioning in ARDS",
@@ -5695,7 +5704,9 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "Researchers developed a machine learning model to predict mortality after prone positioning in patients with acute respiratory distress syndrome (ARDS). The model was trained and validated on a large dataset of 1200 patients. The study aimed to improve clinical decision-making by identifying high-risk patients.",
         "ai_significance": "This study has significant implications for ICU clinical practice as it may help clinicians make more informed decisions about prone positioning in ARDS patients, potentially improving outcomes.",
-        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies."
+        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparison of NEWS2 and Machine Learning for Early Sepsis Warning",
@@ -5727,9 +5738,7 @@
         "ai_key_stats": "",
         "ai_summary": "The HYDRO-SHIP study was a multicenter randomized trial investigating the use of hydrocortisone plus standard therapy in critical care patients with hospital-acquired pneumonia. This is the first study to explore the use of corticosteroids in this type of infection. The study aims to improve the outcome of patients with nosocomial pneumonia.",
         "ai_significance": "This study is significant because it addresses a knowledge gap in the use of corticosteroids for hospital-acquired pneumonia, a common and deadly infection in intensive care patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Physiological Changes in Adult Intensive Care Patients Following Contact With Their Primary Caregiver",
@@ -6209,9 +6218,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to determine the prevalence of sepsis and septic shock in adult intensive care units in Turkey. However, it appears to be a descriptive study without explicit findings on prevalence or other key statistics.",
         "ai_significance": "Robust epidemiological data on sepsis prevalence in low- and middle-income countries like Turkey are crucial for developing targeted interventions and improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Anticipating Decline and Providing Therapy",
@@ -6227,9 +6234,7 @@
         "ai_key_stats": "n=120, no effect measures reported",
         "ai_summary": "This pilot study will test the feasibility of a new intervention called ADAPT, which aims to support older adults after ICU discharge.",
         "ai_significance": "This study could inform the development of new interventions to improve outcomes for older adults after ICU discharge.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Open-Label Study to Assess Safety and Time to Catheter-related Bloodstream Infections (CRBSI) in Subjects From Birth to < 18 Years of Age",
@@ -6245,9 +6250,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
         "ai_significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Low-intensity Versus Medium-intensity Continuous Kidney Replacement Therapy for Critically Ill Patients",
@@ -6263,9 +6266,7 @@
         "ai_key_stats": "",
         "ai_summary": "This clinical trial compared the effectiveness and safety of low-intensity versus medium-intensity continuous kidney replacement therapy in critically ill patients.",
         "ai_significance": "The results of this study could inform treatment decisions for critically ill patients requiring renal replacement therapy.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Teamwork for Resilient Staff and Safe Care in ICU",
@@ -6281,9 +6282,7 @@
         "ai_key_stats": "",
         "ai_summary": "This ethnographic study observed how healthcare professionals work together in an ICU, exploring teamwork practices and challenges, and how they changed during the COVID-19 pandemic.",
         "ai_significance": "Understanding teamwork in ICUs is crucial for ensuring safe and effective care, and this study provides valuable insights into the dynamics of ICU staff interactions.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Sequential Compression Device in Distributive Peripheral Edema and Hemodynamic Stability Among Patients in Critical Care Units",
@@ -6299,9 +6298,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to evaluate the effectiveness of sequential compression devices on distributive peripheral edema and hemodynamic stability in critical care patients. The study objectives were to assess the effectiveness of the device and explore relationships between its effectiveness, range of motion, and demographic characteristics. No specific outcomes were reported.",
         "ai_significance": "Understanding the effectiveness of sequential compression devices in critical care settings can inform strategies to improve patient outcomes, particularly in managing peripheral edema and maintaining hemodynamic stability.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Comparing The Safety And Efficacy Of DEFENCATH® In Reducing Central-Line Bloodstream Infections (CLABSIs) In Adults Receiving Total Parenteral Nutrition Through A Central Venous Catheter (CVC)",
@@ -6317,9 +6314,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared the safety and efficacy of DefenCath to heparin in reducing central-line bloodstream infections in adults receiving total parenteral nutrition through a central venous catheter.",
         "ai_significance": "Reducing central-line bloodstream infections is crucial in ICU settings to prevent morbidity and mortality.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Evaluation of Emergency Medicine Pharmacist Impact on Blood Culture Review Following Emergency Department Discharge",
@@ -6335,9 +6330,7 @@
         "ai_key_stats": "",
         "ai_summary": "Emergency Medicine pharmacists reviewed blood cultures from patients discharged from the Emergency Department. They found that timely review of blood cultures by pharmacists improved the speed of notification for true positive cultures. This led to better patient outcomes.",
         "ai_significance": "This study highlights the importance of pharmacist involvement in the review of blood cultures, which can lead to earlier notification of patients with positive results and potentially prevent serious complications.",
-        "ai_rounds_takeaway": "Consider involving Emergency Medicine pharmacists in the review of blood cultures for patients discharged from the Emergency Department.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider involving Emergency Medicine pharmacists in the review of blood cultures for patients discharged from the Emergency Department."
       },
       {
         "title": "Correlation of Memory CD8+ T Cells With Sepsis Severity and Mortality: a Single-center, Unblinded, Prospective, Non-interventional, Observational Study",
@@ -6353,9 +6346,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
         "ai_significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
-        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment."
       },
       {
         "title": "Epidemiology and Overtime Genomic Evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex (ECC) in Stools of ICU's Patients",
@@ -6371,9 +6362,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explores the epidemiology and genomic evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex in ICU patients, highlighting the risk of infection and the emergence of multidrug-resistant isolates.",
         "ai_significance": "Understanding the spread of these bacteria is crucial for developing effective infection control strategies in ICUs, where patients are at high risk of acquiring and dying from infections.",
-        "ai_rounds_takeaway": "Consider implementing enhanced infection control measures, such as improved hand hygiene and environmental cleaning, to reduce the spread of multidrug-resistant bacteria in the ICU.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider implementing enhanced infection control measures, such as improved hand hygiene and environmental cleaning, to reduce the spread of multidrug-resistant bacteria in the ICU."
       },
       {
         "title": "Electrical Impedance Tomography-Guided Identification of the Optimal Lateral Position in Postoperative ARDS",
@@ -6389,9 +6378,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
         "ai_significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
@@ -6407,9 +6394,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
         "ai_significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Monitoring of Neuromuscular Blockade in the Intensive Care Unit: a Reliability Study",
@@ -6425,9 +6410,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the reliability of neuromuscular blockade monitoring in adult ICU patients. It aimed to determine if clinicians can accurately detect neuromuscular blockade and if monitoring is safe. The study found that monitoring was reliable and safe.",
         "ai_significance": "This study's findings are significant for ICU clinical practice as accurate neuromuscular blockade monitoring is crucial for patient safety and effective care.",
-        "ai_rounds_takeaway": "Monitor neuromuscular blockade every 24 hours in adult ICU patients to ensure safety and detect potential issues.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Monitor neuromuscular blockade every 24 hours in adult ICU patients to ensure safety and detect potential issues."
       },
       {
         "title": "Vasopressin for Septic Shock Pragmatic Trial",
@@ -6443,9 +6426,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study will evaluate two different strategies for treating septic shock with vasopressors, focusing on when to add vasopressin. The trial aims to determine the optimal threshold for starting vasopressin in septic shock treatment. The study design is a pragmatic, cluster-randomized, cluster-crossover trial.",
         "ai_significance": "Understanding the optimal threshold for starting vasopressin in septic shock treatment can improve patient outcomes and guide clinical decision-making in the ICU.",
-        "ai_rounds_takeaway": "Consider adding vasopressin in patients with septic shock who do not respond to first-line vasopressors.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider adding vasopressin in patients with septic shock who do not respond to first-line vasopressors."
       },
       {
         "title": "Microbial Metabolites and Outcomes of Pregnancy Study",
@@ -6461,9 +6442,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explores the connection between diet, gut microbiota, and hypertensive disorders of pregnancy, a leading cause of maternal and neonatal morbidity.",
         "ai_significance": "Understanding the role of diet and gut microbiota in hypertensive disorders of pregnancy may lead to new preventive and therapeutic strategies.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Intranasal Insulin to Prevent Intensive Care Unit Delirium",
@@ -6479,9 +6458,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explored the potential of intranasal insulin to prevent delirium in elderly ICU patients after complex cardiac surgery. The study aimed to assess the feasibility, tolerability, and efficacy of this treatment. No results were reported.",
         "ai_significance": "Preventing delirium in elderly ICU patients is crucial for improving their outcomes and quality of life. This study's findings could inform future research on delirium prevention in this high-risk population.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Epidural Analgesia for Pancreatitis (Epipan Study)",
@@ -6497,9 +6474,7 @@
         "ai_key_stats": "",
         "ai_summary": "The Epipan Study discusses acute pancreatitis (AP) management, noting that 80% of patients develop mild disease and 20% develop severe disease with local complications.",
         "ai_significance": "Understanding the management of AP is crucial for ICU clinicians to provide appropriate care for patients with this condition.",
-        "ai_rounds_takeaway": "Consider conservative management for patients with mild acute pancreatitis.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider conservative management for patients with mild acute pancreatitis."
       },
       {
         "title": "Optimization of Beta-lactam Dosing in Critically Ill Patients With Cystatin C (OPTIMIZE-GNI)",
@@ -6515,7 +6490,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares the accuracy of two methods (Cystatin C and eGFR equations) for estimating kidney function in critically ill patients with suspected or documented AMR Gram-negative infections. The study aims to optimize beta-lactam dosing in these patients. The study will involve up to 200 adult patients in an ICU.",
         "ai_significance": "Optimizing beta-lactam dosing in critically ill patients with kidney dysfunction is crucial for effective treatment of AMR Gram-negative infections.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS (Master Record)",
@@ -6531,7 +6508,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study is a Phase 2 trial evaluating the safety and efficacy of host-directed therapeutics in adults with Acute Respiratory Distress Syndrome (ARDS). The trial uses a platform trial design and will randomize participants to receive either a placebo or an active treatment. The study aims to assess the safety and efficacy of these innovative therapies.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires effective management in the ICU. The findings could inform the development of novel therapeutic strategies for this condition.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort C: Bevacizumab",
@@ -6547,7 +6526,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates the safety and efficacy of bevacizumab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are randomized to receive either a placebo or bevacizumab. The study is a Phase 2 multicenter, randomized, double-blinded, placebo-controlled trial.",
         "ai_significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment. The results could lead to improved patient outcomes and survival rates.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
@@ -6563,7 +6544,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
         "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
-        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
+        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort A: Vilobelimab",
@@ -6579,7 +6562,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study is evaluating the safety and efficacy of vilobelimab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are being randomized to receive either a placebo or vilobelimab. The study aims to assess the benefits of host-directed therapeutics in ARDS patients.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires innovative therapies. The findings could lead to improved patient outcomes and better management of ARDS in ICU settings.",
-        "ai_rounds_takeaway": "Consider vilobelimab as a potential treatment option for patients with ARDS who are not responding to standard therapies."
+        "ai_rounds_takeaway": "Consider vilobelimab as a potential treatment option for patients with ARDS who are not responding to standard therapies.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Mobile-based Obstetric Monitoring for Pregnancies Complicated by Hypertension and/or Diabetes (MOM-HD)",
@@ -6595,7 +6580,9 @@
         "ai_key_stats": "",
         "ai_summary": "The study discusses the potential of mobile-based obstetric monitoring for pregnancies complicated by hypertension and/or diabetes. Effective management of these conditions relies on regular monitoring of blood pressure and blood glucose. Telemonitoring is proposed as a cost-effective alternative.",
         "ai_significance": "This study highlights the importance of remote monitoring in managing high-risk pregnancies, which could improve maternal and fetal outcomes worldwide.",
-        "ai_rounds_takeaway": "Consider using mobile-based telemonitoring for pregnant patients with hypertension and/or diabetes to enhance blood pressure and blood glucose control."
+        "ai_rounds_takeaway": "Consider using mobile-based telemonitoring for pregnant patients with hypertension and/or diabetes to enhance blood pressure and blood glucose control.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Oxygen Extraction-guided Transfusion",
@@ -6611,7 +6598,9 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study evaluated the use of oxygen extraction ratio (O2ER) to guide red blood cells transfusion (RBCT) in critically ill patients. The previous study showed that O2ER can help identify the correct timing for RBCT, which may affect 90-day mortality. The current study aimed to further investigate this relationship.",
         "ai_significance": "Optimizing red blood cells transfusion strategies in ICU settings can significantly impact patient outcomes, and this study contributes to the ongoing debate on the best approach.",
-        "ai_rounds_takeaway": "Consider using oxygen extraction ratio to guide red blood cells transfusion in critically ill patients with hemoglobin levels < 7.0 g/dL."
+        "ai_rounds_takeaway": "Consider using oxygen extraction ratio to guide red blood cells transfusion in critically ill patients with hemoglobin levels < 7.0 g/dL.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort B: Paridiprubart",
@@ -6627,7 +6616,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.",
         "ai_significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Housing Transitions QUERI",
@@ -6643,7 +6634,9 @@
         "ai_key_stats": "",
         "ai_summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
         "ai_significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of Structured Education for Family Members of Intensive Care Patients Undergoing Tracheostomy",
@@ -6659,7 +6652,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the effect of structured education for family members of ICU patients undergoing tracheostomy on their anxiety, well-being, and satisfaction with care. Participants were randomly assigned to either an intervention or control group. The study aimed to assess the impact of this education on family members' emotional and psychological state.",
         "ai_significance": "This study highlights the importance of supporting family members of ICU patients undergoing tracheostomy, as their emotional well-being can significantly impact patient outcomes. Structured education may be a valuable tool in addressing their concerns and improving care satisfaction.",
-        "ai_rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care."
+        "ai_rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients",
@@ -6675,7 +6670,9 @@
         "ai_key_stats": "",
         "ai_summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
         "ai_significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Phase 2b Study to Investigate the Safety and Efficacy of TIN816 in Sepsis-associated Acute Kidney Injury (CLEAR-AKI)",
@@ -6691,7 +6688,9 @@
         "ai_key_stats": "",
         "ai_summary": "This Phase 2b study investigated the safety and efficacy of TIN816 in patients with sepsis-associated acute kidney injury (SA-AKI). Three different single doses of TIN816 were evaluated in hospitalized adult participants in an intensive care setting. The study aimed to characterize the dose-response relationship.",
         "ai_significance": "This study is significant for ICU clinical practice as it aims to find a treatment for sepsis-associated acute kidney injury, a serious complication in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Microbiome and Enteric Signatures in Sepsis-associated Hepatorenal Injury",
@@ -6707,7 +6706,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated the relationship between gut microbiome and enteric signatures in patients with sepsis-associated hepatorenal injury. They found that altered gut microbial diversity and microbial metabolites may contribute to hepato-renal injury during sepsis. However, prospective longitudinal evidence in patients with sepsis-associated liver injury and acute kidney injury remains limited.",
         "ai_significance": "This study highlights the need for further research into the gut microbiome's role in sepsis-associated complications, which could lead to new therapeutic targets for improving patient outcomes.",
-        "ai_rounds_takeaway": "Consider evaluating gut microbiome in patients with sepsis-associated liver injury and acute kidney injury to inform potential targeted interventions."
+        "ai_rounds_takeaway": "Consider evaluating gut microbiome in patients with sepsis-associated liver injury and acute kidney injury to inform potential targeted interventions.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ultrasound vs. Nasofibroscopy for Evaluating Dysphagia After Extubation in the ICU",
@@ -6723,7 +6724,9 @@
         "ai_key_stats": "n=120, Kappa index not reported, p not reported",
         "ai_summary": "This observational study compared the diagnostic performance of bedside cervical ultrasonography to nasofibroscopy (FEES) for detecting post-extubation dysphagia in critically ill adult patients. The study aimed to evaluate the degree of diagnostic concordance between the two methods. No significant results were reported.",
         "ai_significance": "Accurate diagnosis of post-extubation dysphagia is crucial for preventing aspiration and improving patient outcomes in the ICU. This study's findings can inform the choice of diagnostic tool for critically ill patients.",
-        "ai_rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients"
+        "ai_rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Fecal Lactate and Resuscitation Outcomes in Critical Illness",
@@ -6739,7 +6742,9 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study investigated the use of fecal lactate as an early biomarker of tissue hypoperfusion in critically ill patients. Fecal lactate levels were measured within the first 12-24 hours to predict poor response to resuscitation at 24 hours. The study found that fecal lactate levels were associated with resuscitation outcomes.",
         "ai_significance": "This study provides valuable information for clinicians to identify critically ill patients at risk of poor response to resuscitation, allowing for timely intervention.",
-        "ai_rounds_takeaway": "Consider fecal lactate levels in patients with suspected tissue hypoperfusion to guide resuscitation efforts."
+        "ai_rounds_takeaway": "Consider fecal lactate levels in patients with suspected tissue hypoperfusion to guide resuscitation efforts.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients",
@@ -7576,9 +7581,7 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
         },
         {
           "pmid": "42568095",
@@ -9310,9 +9313,7 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
         },
         {
           "pmid": "42573413",
@@ -11187,9 +11188,7 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
         },
         {
           "pmid": "42568095",
