@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T08:16:02+00:00",
+  "generated_at": "2026-09-15T08:08:20+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -703,6 +703,58 @@
     "window_days": 60,
     "articles": [
       {
+        "title": "Emergency Evidence Updates – August 2026",
+        "url": "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-august-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-09-15",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Critical Care Evidence Updates – August 2026",
+        "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-august-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-09-15",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Emergency Evidence Updates – July 2026",
+        "url": "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-july-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-09-15",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Critical Care Evidence Updates – July 2026",
+        "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-july-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-09-15",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "BIHCA – Sodium Bicarbonate for In-Hospital Cardiac Arrest",
         "url": "https://www.thebottomline.org.uk/uncategorized/bihca-sodium-bicarbonate-for-in-hospital-cardiac-arrest/",
         "source": "The Bottom Line",
@@ -711,7 +763,9 @@
         "summary": "Sodium Bicarbonate for In-Hospital Cardiac Arrest Granfeldt A. JAMA 2026; doi:10.1001/jama.2026.10628 Clinical Question In adults with in-hospital cardiac arrest, does sodium bicarbonate administration during arrest, improve return of spontaneous circulation, compared with placebo? Background Inpatient cardiac arrest is relatively common and outcomes are poor despite the rapid provision of hospita",
         "study_type": "EBM Summary",
         "is_open_access": true,
-        "is_bottom_line": true
+        "is_bottom_line": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "LOGICAL – Conservative Oxygen after Cardiac Arrest",
@@ -726,7 +780,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effect of limiting oxygen exposure on unresponsive patients after cardiac arrest. The results showed that conservative oxygen therapy did not increase the likelihood of survival. The study included 1200 patients.",
         "ai_significance": "This study's findings have implications for ICU practice, as they suggest that conservative oxygen therapy may not be necessary for unresponsive patients after cardiac arrest. This could lead to changes in oxygenation strategies.",
-        "ai_rounds_takeaway": "Consider avoiding aggressive oxygen therapy in unresponsive patients after cardiac arrest unless there is a clear indication for it."
+        "ai_rounds_takeaway": "Consider avoiding aggressive oxygen therapy in unresponsive patients after cardiac arrest unless there is a clear indication for it.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Emergency Evidence Updates – June 2026",
@@ -741,7 +797,9 @@
         "ai_key_stats": "",
         "ai_summary": "This is a monthly update of critical care literature, summarizing recent studies and findings.",
         "ai_significance": "This update helps ICU clinicians stay current with the latest research and evidence-based practices.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Critical Care Evidence Updates – June 2026",
@@ -756,7 +814,9 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a monthly update on recent critical care literature, highlighting new studies and findings.",
         "ai_significance": "This update helps clinicians stay current with the latest research and evidence in critical care, informing their practice and decision-making.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Sodium Bicarbonate for Metabolic Acidosis in the Intensive Care Unit (SODa-BIC) trial",
@@ -771,7 +831,9 @@
         "ai_key_stats": "n=1200, RR 0.88 (95% CI 0.76-1.01), ARR 3.1%, NNT 32, p=0.02",
         "ai_summary": "The SODa-BIC trial investigated the effect of sodium bicarbonate on major adverse kidney events in critically ill adults with metabolic acidosis. The study found that sodium bicarbonate did not significantly reduce the risk of major adverse kidney events. The trial included 1200 patients and found a relative risk reduction of 12%.",
         "ai_significance": "This study's findings may influence the management of metabolic acidosis in critically ill patients, potentially impacting the use of sodium bicarbonate in this population.",
-        "ai_rounds_takeaway": "Consider avoiding sodium bicarbonate in critically ill patients with metabolic acidosis unless other indications are present."
+        "ai_rounds_takeaway": "Consider avoiding sodium bicarbonate in critically ill patients with metabolic acidosis unless other indications are present.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Critical Care Evidence Updates – March 2026",
@@ -786,7 +848,9 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
         "ai_significance": "While not directly applicable to clinical practice, this article helps clinicians stay current with the latest research in critical care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Critical Care Evidence Updates – April 2026",
@@ -801,7 +865,9 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
         "ai_significance": "This update is useful for clinicians to stay current with the latest research in critical care, but does not provide actionable recommendations.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Critical Care Evidence Updates – May 2026",
@@ -816,7 +882,9 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a summary of recent critical care literature updates, but does not present any original research findings.",
         "ai_significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Emergency Evidence Updates – May 2026",
@@ -3917,6 +3985,130 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Transpulmonary Pressure-guided Mechanical Ventilation Strategy in Right Ventricular Protection in Patients With ARDS",
+        "url": "https://clinicaltrials.gov/study/NCT07490925",
+        "source": "Beijing Chao Yang Hospital",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "To verify whether the transpulmonary pressure-guided mechanical ventilation strategy can reduce right ventricular involvement, especially the incidence of acute cor pulmonale (ACP), in patients with moderate to severe ARDS induced by pneumonia compared with the currently widely used right ventricular protective mechanical ventilation strategy.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07490925",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
+        "ai_significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
+        "url": "https://clinicaltrials.gov/study/NCT05421858",
+        "source": "Basilea Pharmaceutica",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "The purpose of this clinical trial is to learn about the safety and effects of the study medicine (called Fosmanogepix) for the potential treatment of candidemia and/or invasive candidiasis, a life-threatening fungal infection caused by several species of yeast called Candida. The study is seeking patients who have a diagnosis of candidemia and/or invasive candidiasis. Two-thirds of all patients will receive the study medication fosmanogepix Intravenous (IV) infusion followed by optional fosmano",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05421858"
+      },
+      {
+        "title": "Effect of a Constructivist Educational Program on Preventing Ventilator-Associated Pneumonia in Intensive Care Units",
+        "url": "https://clinicaltrials.gov/study/NCT07102407",
+        "source": "Karaman Training and Research Hospital",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "This study is designed to investigate the impact of a constructivist education program on nurses and cleaning personnel regarding the preventive care bundle for the prevention of ventilator-associated pneumonia in the intensive care unit.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07102407"
+      },
+      {
+        "title": "Impact of Rational Control of Fluid Balance in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT02345681",
+        "source": "Nantes University Hospital",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "Patients admitted in the Intensive Care Unit (ICU) frequently display and excessive fluid balance over a very short period of time. This positive fluid balance is the consequence of different organ failures (pulmonary, cardio-vascular, kidney…) or aggressive fluid resuscitation, which is mandatory in the early phase of ICU course. However recent data strongly suggest that an excessive fluid balance could be detrimental per se (increase of ICU morbidity or even mortality). There are controversies",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT02345681",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Impact of Early Low-Calorie Low-Protein Versus Standard Feeding on Outcomes of Ventilated Adults With Shock",
+        "url": "https://clinicaltrials.gov/study/NCT03573739",
+        "source": "Nantes University Hospital",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "Among critically ill patients requiring mechanical ventilation and catecholamines for shock, nearly 40% to 50% die, and functional recovery is often delayed in survivors. International guidelines include early nutritional support (≤48 h after admission), 20-25 kcal/kg/d at the acute phase, and 1.2-2 g/kg/d protein. These targets are rarely achieved in patients with severe critically illnesses. Recent data challenge the wisdom of providing standard amounts of calories and protein during the acute",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03573739",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Medical Device Clinical Trial Without CE Marking to Evidence Safety and Performance of the INBENTUS VERSATILE Ventilator in Patients Requiring Assisted/Controlled Mechanical Ventilation and Weaning.",
+        "url": "https://clinicaltrials.gov/study/NCT07432191",
+        "source": "Iconic Solutions By Murcia SL",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "Pre-market clinical trial on 81 aldults participants to evidence safety and performance of the non-CE-marked medical device INBENTUS VERSATILE ventilator. The 81 aldult participants are ventilated between 3 and 48 hours with invasive mechanical ventilation (IMV) in assisted/controlled mode and weaning under partial pressure support or volume support, followed by monitoring period until ICU discharge, hospital discharge or 30 days. The study design differentiates between a Validation Cohort (up t",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07432191",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Therapeutic Hypothermia in \"Expanded Criteria\" Brain-dead Donors and Kidney-graft Function",
+        "url": "https://clinicaltrials.gov/study/NCT03098706",
+        "source": "Nantes University Hospital",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "Each year, only one third of patients registered on the waiting list receive a kidney transplant. Numerous paths are being explored with the aim of reversing this shortage. The first is to increase the number of organs by developing harvesting from donors in a state of brain-death (BD) termed \"expanded criteria donors\" or from patients deceased from circulatory arrest. Another fundamental factor is to insure the success of the transplant by limiting the dysfunction of donor kidneys, marked by a ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03098706",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Comparison of Two Strategies for Endotracheal Tube Cuff Underinflation Prevention During Invasive Mechanical Ventilation",
+        "url": "https://clinicaltrials.gov/study/NCT03330379",
+        "source": "Nantes University Hospital",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "During invasive mechanical ventilation, maintaining endotracheal tube cuff pressure (Pcuff) around 25 cmH2O is recommended for sealing the upper airways. The continuous control of Pcuff with a simple mechanical device, the Tracoe Smart CuffmanagerTM, has never been assessed. The investigators hypothesize that the Tracoe Smart CuffmanagerTM would allow a reduction of the incidence of underinflation episodes, as compared with the intermittent strategy of Pcuff control.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03330379",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Phase 1b/2a Trial to Evaluate Invobenitug Also Known as Procizumab (PCZ; AK1967) in Critical Cardiovascular Care.",
+        "url": "https://clinicaltrials.gov/study/NCT06832722",
+        "source": "4TEEN4 Pharmaceuticals GmbH",
+        "author": "",
+        "pubdate": "2026-09-14",
+        "summary": "The objective of this Phase 1b/2a trial is to evaluate the safety, tolerability, and exploratory efficacy of invobenitug (also known as procizumab), a monoclonal antibody under development for the treatment of cardiogenic shock (CS). CS is a life-threatening hypoperfusion of vital organs that frequently results in death. In addition to safety and tolerability, pharmacokinetics and pharmacodynamics of invobenitug are evaluated to define the optimum phase 2 dose (P2D) of invobenitug.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06832722",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
         "url": "https://clinicaltrials.gov/study/NCT06442930",
         "source": "University Health Network, Toronto",
@@ -4035,22 +4227,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07646249"
-      },
-      {
-        "title": "Transpulmonary Pressure-guided Mechanical Ventilation Strategy in Right Ventricular Protection in Patients With ARDS",
-        "url": "https://clinicaltrials.gov/study/NCT07490925",
-        "source": "Beijing Chao Yang Hospital",
-        "author": "",
-        "pubdate": "2026-09-10",
-        "summary": "To verify whether the transpulmonary pressure-guided mechanical ventilation strategy can reduce right ventricular involvement, especially the incidence of acute cor pulmonale (ACP), in patients with moderate to severe ARDS induced by pneumonia compared with the currently widely used right ventricular protective mechanical ventilation strategy.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07490925",
-        "ai_key_stats": "",
-        "ai_summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
-        "ai_significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
-        "ai_rounds_takeaway": ""
       },
       {
         "title": "Human Neutrophil Lipocalin as an Aid in the Diagnosis of Bacterial Infection in the Emergency Department",
@@ -4362,9 +4538,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
         "ai_significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
-        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
       },
       {
         "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
@@ -4639,18 +4813,6 @@
         "nct_id": "NCT07576660"
       },
       {
-        "title": "Effect of a Constructivist Educational Program on Preventing Ventilator-Associated Pneumonia in Intensive Care Units",
-        "url": "https://clinicaltrials.gov/study/NCT07102407",
-        "source": "Karaman Training and Research Hospital",
-        "author": "",
-        "pubdate": "2026-09-02",
-        "summary": "This study is designed to investigate the impact of a constructivist education program on nurses and cleaning personnel regarding the preventive care bundle for the prevention of ventilator-associated pneumonia in the intensive care unit.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07102407"
-      },
-      {
         "title": "CPB and Aortic Cross-Clamp Durations and ICU Length of Stay After CABG Retrospective Observational Cohort Study",
         "url": "https://clinicaltrials.gov/study/NCT07711951",
         "source": "Saglik Bilimleri Universitesi Gazi Yasargil Training and Research Hospital",
@@ -4817,18 +4979,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06319248"
-      },
-      {
-        "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
-        "url": "https://clinicaltrials.gov/study/NCT05421858",
-        "source": "Basilea Pharmaceutica",
-        "author": "",
-        "pubdate": "2026-08-28",
-        "summary": "The purpose of this clinical trial is to learn about the safety and effects of the study medicine (called Fosmanogepix) for the potential treatment of candidemia and/or invasive candidiasis, a life-threatening fungal infection caused by several species of yeast called Candida. The study is seeking patients who have a diagnosis of candidemia and/or invasive candidiasis. Two-thirds of all patients will receive the study medication fosmanogepix Intravenous (IV) infusion followed by optional fosmano",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05421858"
       },
       {
         "title": "Predict Arrhythmia Risk Using Intelligent Software",
@@ -5500,9 +5650,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared two feeding regimens in preterm infants born between 25w0d and 31w6d. The regimens differed in when enteral feeds were advanced, either after 24 hours or after 72 hours. The study found no difference in the risk of late onset sepsis or other adverse outcomes between the two groups.",
         "ai_significance": "This study's findings are important for ICU clinical practice as they provide insight into the optimal timing of enteral feeds in preterm infants, which can impact their risk of infection and other complications.",
-        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes."
       },
       {
         "title": "Multisensory and Cognitive Interventions in the ICU: Effects on Health and Recovery",
@@ -5578,9 +5726,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aims to investigate the impact of antibiotic de-escalation on patients who received a short-course of parenteral antibiotics. The study will analyze past medical records from four public referral hospitals in Thailand to understand the effects of de-escalation on patients. The study will identify which types of patients are more likely to receive antibiotic de-escalation.",
         "ai_significance": "Understanding the impact of antibiotic de-escalation is crucial in reducing antimicrobial resistance and improving patient outcomes in ICU settings.",
-        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics."
       },
       {
         "title": "Platelets in Pregnancy",
@@ -5596,9 +5742,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated platelet changes in pregnant patients at high-risk for preeclampsia before and after aspirin use. Blood samples were collected to assess the association between platelet changes and adverse perinatal outcomes. No significant findings were reported.",
         "ai_significance": "Understanding platelet changes in pregnancy may help identify patients at risk for preeclampsia, but this study did not provide conclusive results.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Higher-Dose Dexamethasone Improves Breathing and Shortens NICU Stay in Preterm Babies",
@@ -5614,9 +5758,7 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study compared the effects of two doses of dexamethasone given to pregnant women at risk of preterm birth on preterm babies' breathing and NICU stay. The study found that higher-dose dexamethasone improved breathing and shortened NICU stay in preterm babies. The study looked at preterm babies born between 26 and 36 weeks of pregnancy.",
         "ai_significance": "This study's findings suggest that higher-dose dexamethasone may be beneficial for preterm babies' respiratory health and hospital stay duration, which could inform clinical practice in NICUs.",
-        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies."
       },
       {
         "title": "The Family-ICU Trial",
@@ -5632,9 +5774,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to assess whether family participation in adult ICU rounds improves family satisfaction and patient outcomes. However, the study did not report any key numbers.",
         "ai_significance": "This study is significant because it addresses a need for evidence to support family participation in adult ICU rounds, which is currently limited by a lack of robust data.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Study on How the Immune System Responds to Sepsis and Its Long-term Effects",
@@ -5650,9 +5790,7 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis occurs when an infection disrupts the body's immune balance, potentially leading to life-threatening damage or failure of healthy organs. Survivors may experience long-term health problems. The immune response can become either too strong or too weak.",
         "ai_significance": "Understanding the immune system's response to sepsis is crucial for developing effective treatments and preventing long-term health consequences.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Trial of Staff Time With Proned Patients in the ICU Using the 'BathMat'",
@@ -5668,9 +5806,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the use of the 'BathMat' to assist with proning patients in the ICU, which involves lying patients on their front to improve oxygenation. The BathMat is a tool used to help reposition patients every 2-4 hours to prevent sores and injuries. The study aimed to assess the feasibility and effectiveness of using the BathMat in this context.",
         "ai_significance": "This study's findings can inform ICU staff on the practical use of the BathMat to improve patient care and prevent complications associated with prolonged proning.",
-        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries."
       },
       {
         "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
@@ -5686,9 +5822,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
         "ai_significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Machine Learning Prediction of Mortality After Prone Positioning in ARDS",
@@ -5704,9 +5838,7 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "Researchers developed a machine learning model to predict mortality after prone positioning in patients with acute respiratory distress syndrome (ARDS). The model was trained and validated on a large dataset of 1200 patients. The study aimed to improve clinical decision-making by identifying high-risk patients.",
         "ai_significance": "This study has significant implications for ICU clinical practice as it may help clinicians make more informed decisions about prone positioning in ARDS patients, potentially improving outcomes.",
-        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies."
       },
       {
         "title": "Comparison of NEWS2 and Machine Learning for Early Sepsis Warning",
@@ -6490,9 +6622,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares the accuracy of two methods (Cystatin C and eGFR equations) for estimating kidney function in critically ill patients with suspected or documented AMR Gram-negative infections. The study aims to optimize beta-lactam dosing in these patients. The study will involve up to 200 adult patients in an ICU.",
         "ai_significance": "Optimizing beta-lactam dosing in critically ill patients with kidney dysfunction is crucial for effective treatment of AMR Gram-negative infections.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS (Master Record)",
@@ -6508,9 +6638,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study is a Phase 2 trial evaluating the safety and efficacy of host-directed therapeutics in adults with Acute Respiratory Distress Syndrome (ARDS). The trial uses a platform trial design and will randomize participants to receive either a placebo or an active treatment. The study aims to assess the safety and efficacy of these innovative therapies.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires effective management in the ICU. The findings could inform the development of novel therapeutic strategies for this condition.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort C: Bevacizumab",
@@ -6526,9 +6654,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates the safety and efficacy of bevacizumab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are randomized to receive either a placebo or bevacizumab. The study is a Phase 2 multicenter, randomized, double-blinded, placebo-controlled trial.",
         "ai_significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment. The results could lead to improved patient outcomes and survival rates.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
@@ -6544,9 +6670,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
         "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
-        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort A: Vilobelimab",
@@ -6562,9 +6686,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study is evaluating the safety and efficacy of vilobelimab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are being randomized to receive either a placebo or vilobelimab. The study aims to assess the benefits of host-directed therapeutics in ARDS patients.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of ARDS, a life-threatening condition that requires innovative therapies. The findings could lead to improved patient outcomes and better management of ARDS in ICU settings.",
-        "ai_rounds_takeaway": "Consider vilobelimab as a potential treatment option for patients with ARDS who are not responding to standard therapies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider vilobelimab as a potential treatment option for patients with ARDS who are not responding to standard therapies."
       },
       {
         "title": "Mobile-based Obstetric Monitoring for Pregnancies Complicated by Hypertension and/or Diabetes (MOM-HD)",
@@ -6580,9 +6702,7 @@
         "ai_key_stats": "",
         "ai_summary": "The study discusses the potential of mobile-based obstetric monitoring for pregnancies complicated by hypertension and/or diabetes. Effective management of these conditions relies on regular monitoring of blood pressure and blood glucose. Telemonitoring is proposed as a cost-effective alternative.",
         "ai_significance": "This study highlights the importance of remote monitoring in managing high-risk pregnancies, which could improve maternal and fetal outcomes worldwide.",
-        "ai_rounds_takeaway": "Consider using mobile-based telemonitoring for pregnant patients with hypertension and/or diabetes to enhance blood pressure and blood glucose control.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using mobile-based telemonitoring for pregnant patients with hypertension and/or diabetes to enhance blood pressure and blood glucose control."
       },
       {
         "title": "Oxygen Extraction-guided Transfusion",
@@ -6598,9 +6718,7 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study evaluated the use of oxygen extraction ratio (O2ER) to guide red blood cells transfusion (RBCT) in critically ill patients. The previous study showed that O2ER can help identify the correct timing for RBCT, which may affect 90-day mortality. The current study aimed to further investigate this relationship.",
         "ai_significance": "Optimizing red blood cells transfusion strategies in ICU settings can significantly impact patient outcomes, and this study contributes to the ongoing debate on the best approach.",
-        "ai_rounds_takeaway": "Consider using oxygen extraction ratio to guide red blood cells transfusion in critically ill patients with hemoglobin levels < 7.0 g/dL.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using oxygen extraction ratio to guide red blood cells transfusion in critically ill patients with hemoglobin levels < 7.0 g/dL."
       },
       {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort B: Paridiprubart",
@@ -6616,9 +6734,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.",
         "ai_significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Housing Transitions QUERI",
@@ -6634,9 +6750,7 @@
         "ai_key_stats": "",
         "ai_summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
         "ai_significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Effect of Structured Education for Family Members of Intensive Care Patients Undergoing Tracheostomy",
@@ -6652,9 +6766,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the effect of structured education for family members of ICU patients undergoing tracheostomy on their anxiety, well-being, and satisfaction with care. Participants were randomly assigned to either an intervention or control group. The study aimed to assess the impact of this education on family members' emotional and psychological state.",
         "ai_significance": "This study highlights the importance of supporting family members of ICU patients undergoing tracheostomy, as their emotional well-being can significantly impact patient outcomes. Structured education may be a valuable tool in addressing their concerns and improving care satisfaction.",
-        "ai_rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider offering structured education to family members of ICU patients undergoing tracheostomy to improve their emotional well-being and satisfaction with care."
       },
       {
         "title": "Anti-CD14 Treatment With IC14 in Hospitalized ARDS Patients",
@@ -6670,9 +6782,7 @@
         "ai_key_stats": "",
         "ai_summary": "Patients with ARDS were given a treatment targeting CD14 or a placebo. The treatment's effect on oxygen levels was measured over 28 days. The goal was to see if the treatment improved oxygenation by day 4.",
         "ai_significance": "This study could help us understand if targeting CD14 can improve oxygen levels in ARDS patients, which is crucial for their survival and recovery.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Phase 2b Study to Investigate the Safety and Efficacy of TIN816 in Sepsis-associated Acute Kidney Injury (CLEAR-AKI)",
@@ -6688,9 +6798,7 @@
         "ai_key_stats": "",
         "ai_summary": "This Phase 2b study investigated the safety and efficacy of TIN816 in patients with sepsis-associated acute kidney injury (SA-AKI). Three different single doses of TIN816 were evaluated in hospitalized adult participants in an intensive care setting. The study aimed to characterize the dose-response relationship.",
         "ai_significance": "This study is significant for ICU clinical practice as it aims to find a treatment for sepsis-associated acute kidney injury, a serious complication in critically ill patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Microbiome and Enteric Signatures in Sepsis-associated Hepatorenal Injury",
@@ -6706,9 +6814,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated the relationship between gut microbiome and enteric signatures in patients with sepsis-associated hepatorenal injury. They found that altered gut microbial diversity and microbial metabolites may contribute to hepato-renal injury during sepsis. However, prospective longitudinal evidence in patients with sepsis-associated liver injury and acute kidney injury remains limited.",
         "ai_significance": "This study highlights the need for further research into the gut microbiome's role in sepsis-associated complications, which could lead to new therapeutic targets for improving patient outcomes.",
-        "ai_rounds_takeaway": "Consider evaluating gut microbiome in patients with sepsis-associated liver injury and acute kidney injury to inform potential targeted interventions.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider evaluating gut microbiome in patients with sepsis-associated liver injury and acute kidney injury to inform potential targeted interventions."
       },
       {
         "title": "Ultrasound vs. Nasofibroscopy for Evaluating Dysphagia After Extubation in the ICU",
@@ -6724,9 +6830,7 @@
         "ai_key_stats": "n=120, Kappa index not reported, p not reported",
         "ai_summary": "This observational study compared the diagnostic performance of bedside cervical ultrasonography to nasofibroscopy (FEES) for detecting post-extubation dysphagia in critically ill adult patients. The study aimed to evaluate the degree of diagnostic concordance between the two methods. No significant results were reported.",
         "ai_significance": "Accurate diagnosis of post-extubation dysphagia is crucial for preventing aspiration and improving patient outcomes in the ICU. This study's findings can inform the choice of diagnostic tool for critically ill patients.",
-        "ai_rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using bedside cervical ultrasonography as a potential alternative to nasofibroscopy for evaluating dysphagia in critically ill patients"
       },
       {
         "title": "Fecal Lactate and Resuscitation Outcomes in Critical Illness",
@@ -6742,9 +6846,7 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study investigated the use of fecal lactate as an early biomarker of tissue hypoperfusion in critically ill patients. Fecal lactate levels were measured within the first 12-24 hours to predict poor response to resuscitation at 24 hours. The study found that fecal lactate levels were associated with resuscitation outcomes.",
         "ai_significance": "This study provides valuable information for clinicians to identify critically ill patients at risk of poor response to resuscitation, allowing for timely intervention.",
-        "ai_rounds_takeaway": "Consider fecal lactate levels in patients with suspected tissue hypoperfusion to guide resuscitation efforts.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider fecal lactate levels in patients with suspected tissue hypoperfusion to guide resuscitation efforts."
       },
       {
         "title": "Long-Term Outcomes and Post-Intensive Care Syndrome: Investigating the Associations Between Metabolic Signatures and Physical Functioning in Critically Ill Patients",
@@ -6760,7 +6862,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied metabolic signatures in young, healthy ICU patients to understand why some experience poor functional recovery despite being physically fit. They found that non-modifiable factors like age and pre-existing disease only explain part of the variation in recovery. The study aims to identify other underlying factors contributing to long-term recovery.",
         "ai_significance": "Understanding the determinants of long-term recovery in ICU patients is crucial for improving functional outcomes and reducing the burden of post-intensive care syndrome.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Risk Factors for Adverse Outcomes in Sepsis",
@@ -6776,7 +6880,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
         "ai_significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Role of the Kallikrein-kinin System in Septic Cardiomyopathy",
@@ -6792,7 +6898,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied the kallikrein-kinin system in septic cardiomyopathy to see if certain molecules are differently expressed and how they are regulated.",
         "ai_significance": "Understanding the kallikrein-kinin system could help develop new treatments for septic cardiomyopathy, a serious complication of sepsis.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Fast Antibiotic Susceptibility Testing for Gram Negative Bacteremia Trial",
@@ -6808,7 +6916,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared standard antibiotic testing to a faster testing method for patients with Gram-negative bacteria in their blood. Patients were randomly assigned to receive either standard testing or faster testing, in addition to standard testing. The faster testing method did not improve clinical outcomes.",
         "ai_significance": "This study's findings are important for ICU clinicians as they inform the use of rapid antibiotic susceptibility testing in patients with Gram-negative bacteremia, which can guide treatment decisions and potentially improve patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Wireless MicroPremVitals Button Sensor in the NICU",
@@ -6824,7 +6934,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed a small, wireless sensor to monitor vital signs in extremely preterm babies, including heart rate, oxygen levels, and body temperature.",
         "ai_significance": "This technology could improve monitoring and care for vulnerable newborns, potentially reducing complications and improving outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Real-time Evaluation and Continuous Observation of Vital Signs for Enhanced Recovery: a Study for the Early Identification of Complications in the Surgical Ward Following Surgery in Patients Not Eligible for Intensive Care Admission.",
@@ -6840,7 +6952,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study used wearable devices to monitor vital signs in surgical patients not eligible for ICU admission, aiming to detect postoperative complications earlier than standard hospital monitoring. The devices, Portrait Mobile, were tested in patients after major urologic surgery. The study observed the devices' ability to detect early signs of complications.",
         "ai_significance": "Early detection of postoperative complications can improve patient outcomes and reduce morbidity and mortality. This study's findings can inform the use of wearable devices in surgical wards to enhance patient care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Disseminated Intravascular Coagulation (DIC) Score and Organ Dysfunction in Septic Shock Patients",
@@ -6856,7 +6970,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the relationship between Disseminated Intravascular Coagulation (DIC) score and organ dysfunction in septic shock patients. DIC is a common condition in patients with sepsis and septic shock, and its coexistence with septic shock increases mortality and morbidity. The study aimed to understand the impact of DIC on organ dysfunction in septic shock patients.",
         "ai_significance": "Understanding the relationship between DIC and organ dysfunction in septic shock patients is crucial for developing targeted interventions to improve outcomes in critically ill patients.",
-        "ai_rounds_takeaway": "Assess DIC score in septic shock patients to identify those at higher risk of organ dysfunction."
+        "ai_rounds_takeaway": "Assess DIC score in septic shock patients to identify those at higher risk of organ dysfunction.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       }
     ]
   },
