@@ -6665,6 +6665,34 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+      },
+      "41823503": {
+        "pmid": "41823503",
+        "title": "Sex Disparities in the Clinical Management and Outcomes of Critically Ill Adults Undergoing Electroencephalography Monitoring.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Jun 1",
+        "authors": [
+          "Urbano V",
+          "Alvarez V",
+          "Schindler K",
+          "Rüegg S",
+          "Hahn CD",
+          "Beuchat I",
+          "Benghanem S",
+          "Novy J",
+          "Rossetti AO"
+        ],
+        "doi": "10.1097/CCM.0000000000007113",
+        "abstract": "BACKGROUND: Sex-related discrepancies concerning the treatment of patients in intensive care are increasingly described. However, information about management and outcome of critically ill patients undergoing electroencephalography is scarce. OBJECTIVES: This study explores sex-related disparities in management and clinical outcomes in critically ill patients needing electroencephalography for clinical purposes. DESIGN, SETTING, PATIENTS, AND INTERVENTIONS: In this post hoc analysis of the multicenter Continuous Electroencephalography Randomized Trial in Adults (CERTA), which included patients with impaired consciousness requiring electroencephalography, we explored correlations between sex and the timing of electroencephalography, detection of electroencephalography abnormalities, mechanical ventilation, sedation, antiseizure therapy, mortality, and favorable functional outcome (Cerebral Performance Category [CPC] 1-2) at 6 months, using univariable and multivariable analyses. MEASUREMENTS AND MAIN RESULTS: Among 364 patients (33.8% women), women showed a higher prevalence of intracranial hemorrhage (women 30.9%, men 19.5%; p = 0.015) and epileptiform electroencephalography discharges (women 27.6%, men 21.2%; p = 0.008), but use of sedation, antiseizure medication and mechanical ventilation was similar between sexes. Although mortality was similar (adjusted odds ratio [OR], 0.70; 95% CI, 0.39-1.28), women were less likely to reach CPC 1-2 (adjusted OR, 0.50; 95% CI, 0.28-0.90). CONCLUSIONS: Critically ill women and men requiring electroencephalography appear to receive similar clinical management and have comparable mortality, although long-term functional outcome in surviving women is worse. These findings warrant further investigation to identify modifiable factors contributing to sex-related outcome differences.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "54",
+        "issue": "6",
+        "pages": "1489-1494",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/41823503/"
       }
     }
   },
@@ -11254,6 +11282,126 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT06832722"
+    },
+    "NCT05150483": {
+      "title": "EndotyPIng PreHospitAl de Novo Acute hYpoxemic Respiratory Failure",
+      "url": "https://clinicaltrials.gov/study/NCT05150483",
+      "source": "Evangelismos Hospital",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "We attempt to perform dynamic endotyping of critically ill patients presenting in the emergency department with de novo acute hypoxemic respiratory failure (AHRF). We also attempt to identify what clinical, radiological, physiological and biological variables collected early in the course of AHRF correlate with subsequent mortality and/or persistent severe hypoxemia.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05150483"
+    },
+    "NCT07449572": {
+      "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
+      "url": "https://clinicaltrials.gov/study/NCT07449572",
+      "source": "HTIC, Inc",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "This Phase 1/2A, randomized, double-blind study will evaluate the safety, tolerability, and pharmacokinetics (PK) of HT31-1 (hCitH3-mAb) in healthy adult volunteers and in patients with mild-to-moderate acute respiratory distress syndrome (ARDS) due to an infectious source. The current trial (Part A) focuses on single ascending doses (SAD) in healthy volunteers to characterize the safety profile, PK parameters, and immunogenicity of HT31-1. Emerging data from this phase will inform dose selectio",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07449572"
+    },
+    "NCT07352202": {
+      "title": "Ultrasound Assessment of Gastric Emptying in Mechanically Ventilated ICU Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07352202",
+      "source": "Sehit Prof. Dr. Ilhan Varank Sancaktepe Training and Research Hospital",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "This prospective observational study aims to evaluate dynamic changes in gastric volume and gastric emptying time using bedside gastric ultrasound in mechanically ventilated intensive care unit patients. The study compares gastric emptying patterns among patients receiving different types of enteral nutrition solutions as part of routine clinical care.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07352202"
+    },
+    "NCT07820319": {
+      "title": "The Use of Single-Beat TE-e' in Evaluation of Left Atrial Pressure in Critically Ill Patients: The TELAP-ICU Trial",
+      "url": "https://clinicaltrials.gov/study/NCT07820319",
+      "source": "Queen Mary Hospital, Hong Kong",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "This study evaluates a new single-beat echocardiographic technique (TE-e', the time difference between the onset of the mitral inflow E wave and the septal e' wave on tissue Doppler imaging) for estimating left atrial pressure (LAP) in critically ill patients, comparing it against the standard two-beat method. The goal is to determine whether the faster, single-beat method gives results as reliable as the conventional method, and whether it can help identify patients with elevated left atrial pr",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07820319"
+    },
+    "NCT04261543": {
+      "title": "The Effect of High Protein and Early Resistance Exercise Versus Usual Care in Critically Ill Patients",
+      "url": "https://clinicaltrials.gov/study/NCT04261543",
+      "source": "University of Malaya",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "This is a 2-arm, parallel-group, randomized controlled trial that investigates the effect of combined high protein and early resistance exercise versus usual care on muscle mass, quality and strength, clinical outcomes, functional outcomes and quality of life in mechanically ventilated critically ill patients",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04261543"
+    },
+    "NCT07819708": {
+      "title": "Comparing Blood-Based Ratios for Predicting Outcomes in Sepsis and Septic Shock",
+      "url": "https://clinicaltrials.gov/study/NCT07819708",
+      "source": "Benha University",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "Sepsis and septic shock are serious conditions associated with a high risk of organ dysfunction and death. Simple laboratory-based markers may help identify critically ill patients who are at greater risk of poor outcomes. This prospective observational cohort study compared the prognostic value of the neutrophil-to-lymphocyte ratio and the lactate-to-albumin ratio in adult patients with sepsis or septic shock admitted to the Surgical Intensive Care Unit at Benha University Hospital. A total of ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07819708"
+    },
+    "NCT07312708": {
+      "title": "Protein Dosing Strategies in Critically Ill Patients: Comparing Actual Body Weight and Fat-Free Mass Approaches in an Observational Cohort Study",
+      "url": "https://clinicaltrials.gov/study/NCT07312708",
+      "source": "Gelderse Vallei Hospital",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "This study investigates how different methods of calculating protein intake affect recovery and muscle preservation in critically ill patients in the Intensive Care Unit (ICU). Protein is essential for maintaining muscle strength, supporting healing, and improving recovery during critical illness. At Hospital Gelderse Vallei, patients admitted to the ICU received protein based on actual body weight until 2023; more recently, protein prescriptions have been based on fat-free mass. Bioelectrical i",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07312708"
+    },
+    "NCT04849624": {
+      "title": "Body Composition Study in Critically Ill Patients-Extended to COVID-19",
+      "url": "https://clinicaltrials.gov/study/NCT04849624",
+      "source": "University of Malaya",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "Muscle loss (ultrasound quadricep muscle) and muscle strength (handgrip and knee extension strength) will be compared between COVID-19 and non COVID-19 critically ill patients.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04849624"
+    },
+    "NCT07035951": {
+      "title": "The VIP3 (Very Old Intensive Care Patients) Study: Family Involvement in Treatment Decisions for Old ICU Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07035951",
+      "source": "St George's, University of London",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "The demographics of the global population is changing with increasing numbers of elderly and co-morbid patients. As a result, more elderly patients will be admitted to the Intensive Care Unit (ICU), which will bring several ethical challenges. It is for this reason the investigators have chosen to focus on this historically neglected and important patient population. Little is known about how family meetings are implemented in ICUs in Europe and other parts of the world. However, these meetings ",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07035951"
+    },
+    "NCT07093125": {
+      "title": "Rehabilitation Practices in Critically Ill Patients Receiving Invasive Mechanical Ventilation in the Intensive Care Unit.",
+      "url": "https://clinicaltrials.gov/study/NCT07093125",
+      "source": "Universita degli Studi di Genova",
+      "author": "",
+      "pubdate": "2026-09-15",
+      "summary": "This international, multicenter, observational study aims to describe rehabilitation practices in Intensive Care Units (ICUs) worldwide. The primary objective is to provide an overview of current rehabilitation strategies used in ICUs globally. Secondary objectives include assessing the relationship between rehabilitation and key ICU outcomes such as ICU and hospital mortality, length of stay, duration of invasive ventilation, extubation failures, and long-term outcomes including quality of life",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07093125"
     }
   },
   "bottom_line": {
