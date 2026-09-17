@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T08:02:25+00:00",
+  "generated_at": "2026-09-17T08:08:40+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -35,6 +35,33 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
+      },
+      {
+        "pmid": "42745269",
+        "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 9",
+        "authors": [
+          "Gunst J",
+          "Krinsley JS",
+          "Lanspa MJ",
+          "Preiser JC",
+          "Singer M",
+          "Van den Berghe G"
+        ],
+        "doi": "10.1186/s13054-026-06288-z",
+        "abstract": "Many intensive care unit patients develop hyperglycaemia, and this is associated with an increased risk of adverse outcomes. Landmark randomised controlled trials (RCTs) suggest the impact of lowering blood glucose to the healthy, age-adjusted fasting range, hereafter called tight glucose control, depends on the accuracy of the glucose control protocol and the nutritional strategy. In the context of early parenteral nutrition, a condition that induces severe, iatrogenic hyperglycaemia, tight glucose control significantly reduced morbidity and mortality compared to tolerating severe hyperglycaemia. In the absence of early parenteral nutrition, hyperglycaemia was less severe; tight glucose control, applied with a computerised protocol that avoided severe hypoglycaemia, did not impact mortality nor the duration of ICU dependency as primary endpoint in a large multicentre RCT, but was associated with a less pronounced benefit on selected morbidity outcomes. Conversely, tight glucose control, using a protocol that considerably increased the risk of severe hypoglycaemic events, concomitantly increased mortality; nevertheless, the cause of excess mortality in this trial remains unproven and other mechanisms may have contributed as well. Altogether, evidence suggests that severe and iatrogenic hyperglycaemia and hypoglycaemia should both be avoided. From a pathophysiologic point of view, tight glucose control may be superior in selected settings if it can be applied with a validated protocol that avoids severe hypoglycaemia. In the absence of such a protocol, the increased risk of severe hypoglycaemia may offset any benefit of preventing hyperglycaemia, and tolerating intermediate blood glucose targets is likely the default setting. In the paper, we suggest specific blood glucose targets that differ according to the clinical context. Future research should aim at strategies that further optimise the quality of blood glucose control and study whether these improve patient-centred outcomes, and investigate whether specific patient populations benefit from individualised targets.",
+        "citation_count": 86,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42642764",
@@ -168,9 +195,7 @@
         "pages": "939-949",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13254807/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42268591/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42268591/"
       },
       {
         "pmid": "42267876",
@@ -296,29 +321,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13483584/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42613623/"
-      },
-      {
-        "pmid": "42625192",
-        "title": "Dynamic flow-perfusion coupling assessed by hands-free radial artery Doppler ultrasound and capillary refill time in septic shock.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 20",
-        "authors": [
-          "Zhao M",
-          "Huang B",
-          "Zhou M",
-          "Chen J"
-        ],
-        "doi": "10.1186/s13054-026-06264-7",
-        "abstract": "",
-        "citation_count": 5,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
       }
     ]
   },
@@ -443,7 +445,9 @@
         "pubdate": "2026-08-17",
         "summary": "Is HFNC as effective as NIV in reducing respiratory rate and improving respiratory distress within 2 hours in ACPE? The post SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients? appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Case of the Redacted Ledger",
@@ -917,9 +921,7 @@
         "ai_key_stats": "",
         "ai_summary": "This article provides a monthly update on recent critical care literature, but does not present any specific study findings.",
         "ai_significance": "This update is important for ICU clinicians to stay current with the latest research and guidelines in critical care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       }
     ]
   },
@@ -2670,9 +2672,7 @@
         "pages": "e70606",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13448097/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42563433/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42563433/"
       },
       {
         "pmid": "42690848",
@@ -2705,9 +2705,7 @@
         "pages": "453-460",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13541129/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42690848/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42690848/"
       },
       {
         "pmid": "42693541",
@@ -2728,9 +2726,7 @@
         "pages": "e70671",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13542315/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42693541/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42693541/"
       },
       {
         "pmid": "42712088",
@@ -2756,9 +2752,7 @@
         "pages": "e70642",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13555104/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42712088/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42712088/"
       },
       {
         "pmid": "42659642",
@@ -2822,9 +2816,7 @@
         "ai_key_stats": "",
         "ai_summary": "This review examined the clinical impact of Stenotrophomonas maltophilia infections, which are often resistant to multiple antibiotics and can form biofilms that make them harder to treat. The review found that biofilm formation and resistance mechanisms contribute to persistent infections and therapeutic failure. Emerging treatment strategies, such as novel antibiotics and anti-biofilm agents, show promise but require further clinical evidence.",
         "ai_significance": "Understanding the clinical impact of S. maltophilia infections and emerging treatment strategies is crucial for optimizing the management of these infections and reducing the risk of hospital outbreaks.",
-        "ai_rounds_takeaway": "Consider using environmental surveillance and infection control measures to prevent hospital outbreaks of S. maltophilia infections.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using environmental surveillance and infection control measures to prevent hospital outbreaks of S. maltophilia infections."
       },
       {
         "pmid": "42445747",
@@ -2849,9 +2841,7 @@
         "ai_key_stats": "",
         "ai_summary": "A systematic review of healthcare-associated infections (HAIs) found that bacterial pathogens, including drug-resistant strains, are the most common causes of HAIs. The review highlighted the importance of strong surveillance systems, especially those using digital platforms, to monitor infection trends and antibiotic resistance. Effective monitoring systems and a multifaceted preventive approach are needed to mitigate HAIs.",
         "ai_significance": "This study emphasizes the need for robust surveillance and prevention strategies to combat HAIs, which can significantly burden healthcare systems.",
-        "ai_rounds_takeaway": "Consider implementing digital surveillance systems to monitor trends of infection and antibiotic resistance in your institution.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing digital surveillance systems to monitor trends of infection and antibiotic resistance in your institution."
       },
       {
         "pmid": "42515790",
@@ -2882,9 +2872,7 @@
         "ai_key_stats": "n=38, OR 10.24 (95% CI - , p=0.048), χ2 = 27.33, p < 0.001",
         "ai_summary": "This study compared two methods of monitoring vancomycin levels in critically ill patients: trough levels and AUC0-24/MIC calculated using an online calculator. The results showed significant discordance between the two methods, with trough levels underestimating vancomycin exposure in some patients. The study found that patients with trough levels between 15-20 mg/L were more likely to have supratherapeutic AUC0-24/MIC levels.",
         "ai_significance": "This study highlights the limitations of single-trough vancomycin monitoring in critically ill patients and suggests that calculator-derived AUC0-24/MIC may be a more accurate method for guiding vancomycin dosing. This has implications for ICU clinical practice, where accurate vancomycin dosing is crucial to prevent under- or over-exposure.",
-        "ai_rounds_takeaway": "Consider using calculator-derived AUC0-24/MIC to guide vancomycin dosing in critically ill patients with trough levels between 15-20 mg/L.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using calculator-derived AUC0-24/MIC to guide vancomycin dosing in critically ill patients with trough levels between 15-20 mg/L."
       },
       {
         "pmid": "42421008",
@@ -2933,9 +2921,7 @@
         "ai_key_stats": "n=54, OR 5.73 (95% CI 1.303-25.191), p=0.02, OR 17.98 (95% CI 2.731-118.425), p=0.002",
         "ai_summary": "This study compared the effectiveness of cefazolin and other anti-staphylococcal β-lactam antibiotics in treating MSSA pneumonia in critically ill patients. The results showed that cefazolin was associated with higher rates of treatment failure and re-escalation compared to other β-lactams. Further studies are needed to confirm these findings.",
         "ai_significance": "These findings have implications for the treatment of MSSA pneumonia in critically ill patients, and highlight the need for further research to determine the optimal antibiotic therapy.",
-        "ai_rounds_takeaway": "Consider alternative anti-staphylococcal β-lactam antibiotics over cefazolin for treating MSSA pneumonia in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider alternative anti-staphylococcal β-lactam antibiotics over cefazolin for treating MSSA pneumonia in critically ill patients."
       },
       {
         "pmid": "42452753",
@@ -2968,9 +2954,7 @@
         "ai_key_stats": "n=66, AUC 0.706, AUC 0.693, AUC 0.722, AUC 0.655, AUC 0.797, p=0.0056, p=0.0022, p < 0.001",
         "ai_summary": "This study evaluated the prognostic value of two biomarkers, lactate-to-albumin ratio (LAR) and C-reactive protein-to-albumin ratio (CAR), in COVID-19 patients with acute respiratory distress syndrome (ARDS). The results showed that LAR demonstrated moderate to high discrimination for 30-day mortality, while CAR showed variable performance. High LAR values were associated with significantly higher 30-day mortality in all ARDS patients.",
         "ai_significance": "These findings suggest that LAR may be a useful biomarker for early risk stratification of critically ill COVID-19 patients with ARDS, potentially guiding treatment decisions and improving patient outcomes.",
-        "ai_rounds_takeaway": "Consider using lactate-to-albumin ratio as a prognostic marker to aid in early risk stratification of COVID-19 patients with ARDS.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using lactate-to-albumin ratio as a prognostic marker to aid in early risk stratification of COVID-19 patients with ARDS."
       },
       {
         "pmid": "42516151",
@@ -2998,9 +2982,7 @@
         "ai_key_stats": "n=160, OR 4.41 (95% CI 1.11-17.48), p=0.035",
         "ai_summary": "This study looked at the effect of steroid therapy on mortality in ICU patients at risk for ARDS. They found that overall corticosteroid use was not associated with improved survival, but hydrocortisone use was linked to higher hospital mortality compared to dexamethasone.",
         "ai_significance": "These findings suggest that hydrocortisone may be associated with worse outcomes in critically ill patients at risk for ARDS, and highlight the need for further research to clarify the role of corticosteroids in this population.",
-        "ai_rounds_takeaway": "Consider avoiding hydrocortisone in patients at risk for ARDS unless other corticosteroids are contraindicated.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider avoiding hydrocortisone in patients at risk for ARDS unless other corticosteroids are contraindicated."
       },
       {
         "pmid": "42444592",
@@ -3025,9 +3007,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study explored ICU nurses' attitudes and decision-making processes regarding physical restraint use in critically ill older patients in Saudi Arabia. Nurses described restraint as a measure to protect patients, but also as a compromise of dignity and autonomy. Decision-making was influenced by clinical urgency, ethical tension, and cultural values.",
         "ai_significance": "This study highlights the importance of supporting ICU nurses in making restraint decisions and the need for clear evidence-based guidance to minimize restraint use in critically ill older patients.",
-        "ai_rounds_takeaway": "Consider involving families in restraint decisions and exploring alternative safety measures to minimize physical restraint use in critically ill older patients.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider involving families in restraint decisions and exploring alternative safety measures to minimize physical restraint use in critically ill older patients."
       },
       {
         "pmid": "42261749",
@@ -3051,9 +3031,7 @@
         "ai_key_stats": "",
         "ai_summary": "This qualitative study explored nurses' experiences with AI-enabled decision support systems in emergency and intensive care units. Nurses found these systems both helpful and burdensome, and reported increased interpretive work, accountability, and ethical tension. The study highlights the need for human-centered governance and AI literacy to support safe AI integration in acute care.",
         "ai_significance": "This study's findings emphasize the importance of supporting nurses with AI integration, ensuring they maintain professional judgment and moral agency in high-acuity settings.",
-        "ai_rounds_takeaway": "Consider implementing human-centered governance and AI literacy education to support nurses in critically engaging with decision support systems.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing human-centered governance and AI literacy education to support nurses in critically engaging with decision support systems."
       },
       {
         "pmid": "42411789",
@@ -3079,7 +3057,9 @@
         "ai_key_stats": "n=299, p < 0.0001, OR 2.13 (95% CI not reported), p = 0.0018, p = 0.0016, AUC 0.731 (p = 0.0001)",
         "ai_summary": "This study analyzed 299 patients who received vancomycin therapy to identify factors associated with the systemic inflammation response index (SIRI). The SIRI was higher in ICU patients and correlated with age, blood pressure, and other clinical variables. ICU requirement was the strongest predictor of SIRI.",
         "ai_significance": "This study highlights the potential of SIRI as a novel marker for risk stratification and management of patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
-        "ai_rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission."
+        "ai_rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42506747",
@@ -3113,7 +3093,9 @@
         "ai_key_stats": "n=172, p < 0.001",
         "ai_summary": "This study compared neutralizing antibody levels among individuals vaccinated with different vaccines, across various ethnicities, and between genders. The results showed that NAB levels varied significantly across vaccination status, ethnicity, and vaccine type. The study found that vaccinated healthy participants, females, and those who received the Pfizer vaccine had the highest median NAB levels.",
         "ai_significance": "These findings highlight the importance of considering individual factors when developing immunization strategies to optimize protective immunity against COVID-19.",
-        "ai_rounds_takeaway": "Consider tailoring immunization strategies to individual patient factors, such as vaccination status, ethnicity, and age, to optimize protective immunity."
+        "ai_rounds_takeaway": "Consider tailoring immunization strategies to individual patient factors, such as vaccination status, ethnicity, and age, to optimize protective immunity.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42515548",
@@ -3155,7 +3137,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied antibody responses in 406 people with COVID-19 in Saudi Arabia, finding that antibody levels increased with disease severity. However, the levels of neutralizing antibodies did not differ significantly across groups. Age and comorbidities were associated with more severe disease.",
         "ai_significance": "This study highlights the importance of considering clinical factors, such as age and comorbidities, when interpreting serological measures in COVID-19 patients.",
-        "ai_rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care."
+        "ai_rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42347268",
@@ -3183,7 +3167,9 @@
         "ai_key_stats": "n=86, p<0.001, p=0.019, p<0.001, p=0.038, p=0.005, p=0.032, p=0.007, p=0.023, p=0.013, p=0.035, p=0.002",
         "ai_summary": "A multicenter study in Saudi Arabia assessed ICU practitioners' knowledge and adherence to a ventilator bundle for VAP prevention. Significant disparities were found in knowledge and adherence across educational levels, professional experience, and professional categories.",
         "ai_significance": "This study highlights the need for targeted training for newly hired ICU staff to improve adherence to VAP prevention guidelines, which is crucial in reducing mortality rates in developing countries.",
-        "ai_rounds_takeaway": "Consider providing targeted training for newly hired ICU staff to improve adherence to the ventilator bundle for VAP prevention."
+        "ai_rounds_takeaway": "Consider providing targeted training for newly hired ICU staff to improve adherence to the ventilator bundle for VAP prevention.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42330317",
@@ -3916,6 +3902,68 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42283370",
+        "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
+        "journal": "The New England journal of medicine",
+        "pubdate": "2026 Sep 17",
+        "authors": [
+          "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
+          "Serpa Neto A",
+          "McNamara M",
+          "White K",
+          "Cooper DJ",
+          "Fujii T",
+          "Higgins AM",
+          "Hodgson CL",
+          "Navarra L",
+          "Nichol A",
+          "Peake S",
+          "Réa-Neto A",
+          "Secombe P",
+          "Osborne F",
+          "Burrill H",
+          "See E",
+          "Young M",
+          "Zampieri FG",
+          "Plummer M",
+          "Christie C",
+          "Nunnink L",
+          "Mackay J",
+          "McGuinness S",
+          "Marmol J",
+          "Tiruvoipati R",
+          "Bailey M",
+          "Young PJ",
+          "Bellomo R",
+          "Udy A"
+        ],
+        "doi": "10.1056/NEJMoa2600526",
+        "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "395",
+        "issue": "11",
+        "pages": "1062-1074",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
+        "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
+        "ai_rounds_takeaway": "",
+        "category_id": "endocrine-metabolic",
+        "category_label": "Endocrine & Metabolic",
+        "category_ids": [
+          "endocrine-metabolic",
+          "procedures-pocus"
+        ],
+        "category_labels": [
+          "Endocrine & Metabolic",
+          "Procedures & POCUS"
+        ]
+      },
+      {
         "pmid": "42725835",
         "title": "Landscape of Biomarker Use in Critically Ill Patients: Systematic Evidence Map of Acute Kidney Injury and Implications for Practice.",
         "journal": "Critical care medicine",
@@ -3957,6 +4005,19 @@
     "window_days": 14,
     "articles": [
       {
+        "title": "Serial neoGFAP outperforms total GFAP for monitoring and 6-month outcome discrimination after moderate to severe traumatic brain injury: an exploratory single-site cohort study",
+        "url": "https://doi.org/10.64898/2026.09.01.26361862",
+        "source": "medRxiv preprint",
+        "author": "William E. Haskins",
+        "pubdate": "2026-09-03",
+        "summary": "BackgroundSerial glial fibrillary acidic protein (GFAP) trajectories have become an important framework for contextualizing evolving secondary-injury pathophysiology after moderate-to-severe traumatic brain injury (msTBI). However, total GFAP pools release and clearance signals that may be less useful for longitudinal bedside decisions than a proteoform-resolved assay. We compared total GFAP with neoGFAP, defined here as calpain-generated GFAP proteoforms intended to index active astroglial prot",
+        "study_type": "Preprint (not peer-reviewed)",
+        "is_open_access": true,
+        "is_preprint": true,
+        "link_broken": true,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "The LIBERATE Internal Randomized Controlled Pilot Trial: Adjunctive midodrine therapy for early liberation from vasopressor support in critically ill patients",
         "url": "https://doi.org/10.1101/2025.07.31.25332174",
         "source": "medRxiv preprint",
@@ -3976,7 +4037,9 @@
         "summary": "ObjectiveTo develop an intelligent predictive indicator system for determining weaning and extubation timing in mechanically ventilated patients, providing a theoretical foundation for clinical decision support systems and intelligent assessment in critical care nursing. MethodsA literature review was conducted to identify and extract factors influencing weaning and extubation timing in mechanically ventilated patients, forming the initial item pool for the indicator system. A Delphi expert cons",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true
+        "is_preprint": true,
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "Preventing aspiration events in hospital using prophylactic antiemetics: A systematic review and meta-analysis",
@@ -4029,6 +4092,128 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06501118",
+        "source": "University of Colorado, Denver",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "A multimodal educational intervention to target an oxygen saturation target range (SpO2 90-96%) will reduce ventilator length of stay and reduce occult hypoxemia by increased awareness and adherence to a designated oxygen saturation target range.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06501118"
+      },
+      {
+        "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
+        "url": "https://clinicaltrials.gov/study/NCT07449572",
+        "source": "HTIC, Inc",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "This Phase 1/2A, randomized, double-blind study will evaluate the safety, tolerability, and pharmacokinetics (PK) of HT31-1 (hCitH3-mAb) in healthy adult volunteers and in patients with mild-to-moderate acute respiratory distress syndrome (ARDS) due to an infectious source. The current trial (Part A) focuses on single ascending doses (SAD) in healthy volunteers to characterize the safety profile, PK parameters, and immunogenicity of HT31-1. Emerging data from this phase will inform dose selectio",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07449572"
+      },
+      {
+        "title": "Reverse Trigger Phenotypification and Response to Ventilatory Adjustments",
+        "url": "https://clinicaltrials.gov/study/NCT06148467",
+        "source": "Hospital Civil de Guadalajara",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "The goal of this prospective observational study is to describe the incidence of reverse trigger (RT) in mechanically ventilated patients with diagnosis of acute respiratory distress syndrome (ARDS). The main questions it aims to answer are: * Real incidence of RT based on continuous monitoring * The response to mechanical ventilatiory adjustments Participants will be included as soon as neuromuscular blockers (NMB)/sedation is stopped or in case of spontaneous respiratory efforts detection, wha",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06148467",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Study of the Efficacy and Safety of Extracorporeal Carbon Dioxide Removal Using PrismaLung+",
+        "url": "https://clinicaltrials.gov/study/NCT07326215",
+        "source": "Vantive Health LLC",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "PrismaLung+ is a sterile, single-use medical device aimed at performing partial removal of carbon dioxide (CO2) from the patient's venous blood via diffusion through a membrane. The goal of this prospective, open label, randomized controlled study is to evaluate the efficacy and safety of PrismaLung+ on extracorporeal carbon dioxide removal (ECCO2R) in critically ill patients under invasive mechanical ventilation (IMV). Patients will be randomized to receive either IMV combined with ECCO2R (usin",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07326215",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Impact of BacT/Alert® VIRTUO®, BioFire® Blood Culture Identification 2-BCID2 and REVEAL® (bioMérieux) on the Optimization of Antibiotic Therapy for Gram-negative Bacteremia in the ICU",
+        "url": "https://clinicaltrials.gov/study/NCT05741424",
+        "source": "Centre Hospitalier Universitaire de Nīmes",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "Bacteremia is a frequent infection in intensive care units. It is associated with a high mortality rate and the rapid implementation of appropriate antibiotic therapy is strongly correlated to patient clinical outcomes. Innovative technologies have emerged to shorten the turnaround time of blood culture samples by obtaining susceptibility testing of the incriminated pathogen at an early stage, and therefore to rapidly adjust the antibiotic therapy of patients with Gram-negative Bacilli bacteremi",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05741424",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Angiotensin II Stress Test. Renin Kinetics During Treatment of Vasoplegic Shock With Angiotensin II.",
+        "url": "https://clinicaltrials.gov/study/NCT06539234",
+        "source": "University Medical Centre Maribor",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "Shock is a life-threatening condition which can cause multiple organ failure and even death. One characteristic of shock is low blood pressure which is managed with drugs called vasopressors. Most frequently used vasopressors are noradrenaline, vasopressin and recently also angiotensin II. Angiotensin II is present in the body and has a physiological role in maintaining blood pressure in healthy persons. Renin is an enzyme and a key factor in angiotensin II production in the body. In patients wi",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06539234",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Impact of an On-site Simulation-based Training Programme on Adherence to Standard Precautions and Healthcare-associated Infections in Adult Intensive Care",
+        "url": "https://clinicaltrials.gov/study/NCT07822971",
+        "source": "Centre Hospitalier Régional Metz-Thionville",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "This is a prospective, single-centre, quasi-experimental before-and-after study conducted over 18 months in an adult ICU. The study includes a 6-month pre-intervention period, a 6-month intervention period during which healthcare professionals participate in repeated in situ simulation sessions, and a 6-month post-intervention period.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07822971",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Intra-Abdominal Pressure Changes During Continuous Renal Replacement Therapy in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07823387",
+        "source": "Bursa Yuksek Ihtisas Training and Research Hospital",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "This prospective observational study will evaluate changes in intra-abdominal pressure in critically ill adult patients receiving continuous renal replacement therapy in the intensive care unit. Intra-abdominal pressure will be measured through the urinary bladder at predefined time points during therapy. The study will also assess the relationship between intra-abdominal pressure changes and clinical variables, including fluid balance, hemodynamic parameters, vasopressor requirement, urine outp",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07823387",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Individualized Multiplex Pathophysiological Treatment of Severe Acute Infections: N-Acetylcysteine",
+        "url": "https://clinicaltrials.gov/study/NCT07273071",
+        "source": "Theis S. Itenov",
+        "author": "",
+        "pubdate": "2026-09-16",
+        "summary": "The primary objective of the IMPACT-NAC trial is to assess the effects of N-acetylcysteine on survival and hospital length of stay in adults admitted to the emergency department with acute infection or sepsis and evidence of liver dysfunction. The main question it aims to answer is: does N-acetylcysteine increase the number of days alive and out of the hospital within the first 14 days after enrolment in the trial? To answer this question, we will conduct a randomized, double-blinded controlled ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07273071",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "EndotyPIng PreHospitAl de Novo Acute hYpoxemic Respiratory Failure",
         "url": "https://clinicaltrials.gov/study/NCT05150483",
         "source": "Evangelismos Hospital",
@@ -4038,23 +4223,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05150483",
-        "link_broken": false,
-        "link_broken_kind": "url"
-      },
-      {
-        "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
-        "url": "https://clinicaltrials.gov/study/NCT07449572",
-        "source": "HTIC, Inc",
-        "author": "",
-        "pubdate": "2026-09-15",
-        "summary": "This Phase 1/2A, randomized, double-blind study will evaluate the safety, tolerability, and pharmacokinetics (PK) of HT31-1 (hCitH3-mAb) in healthy adult volunteers and in patients with mild-to-moderate acute respiratory distress syndrome (ARDS) due to an infectious source. The current trial (Part A) focuses on single ascending doses (SAD) in healthy volunteers to characterize the safety profile, PK parameters, and immunogenicity of HT31-1. Emerging data from this phase will inform dose selectio",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07449572",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05150483"
       },
       {
         "title": "Ultrasound Assessment of Gastric Emptying in Mechanically Ventilated ICU Patients",
@@ -4066,9 +4235,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07352202",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07352202"
       },
       {
         "title": "The Use of Single-Beat TE-e' in Evaluation of Left Atrial Pressure in Critically Ill Patients: The TELAP-ICU Trial",
@@ -4080,9 +4247,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07820319",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07820319"
       },
       {
         "title": "The Effect of High Protein and Early Resistance Exercise Versus Usual Care in Critically Ill Patients",
@@ -4094,9 +4259,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04261543",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04261543"
       },
       {
         "title": "Comparing Blood-Based Ratios for Predicting Outcomes in Sepsis and Septic Shock",
@@ -4108,9 +4271,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07819708",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07819708"
       },
       {
         "title": "Protein Dosing Strategies in Critically Ill Patients: Comparing Actual Body Weight and Fat-Free Mass Approaches in an Observational Cohort Study",
@@ -4122,9 +4283,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07312708",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07312708"
       },
       {
         "title": "Body Composition Study in Critically Ill Patients-Extended to COVID-19",
@@ -4136,9 +4295,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04849624",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04849624"
       },
       {
         "title": "The VIP3 (Very Old Intensive Care Patients) Study: Family Involvement in Treatment Decisions for Old ICU Patients",
@@ -4150,9 +4307,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07035951",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07035951"
       },
       {
         "title": "Rehabilitation Practices in Critically Ill Patients Receiving Invasive Mechanical Ventilation in the Intensive Care Unit.",
@@ -4164,9 +4319,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07093125",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07093125"
       },
       {
         "title": "Transpulmonary Pressure-guided Mechanical Ventilation Strategy in Right Ventricular Protection in Patients With ARDS",
@@ -4290,7 +4443,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06442930"
+        "nct_id": "NCT06442930",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
@@ -5373,18 +5528,6 @@
         "nct_id": "NCT07783334"
       },
       {
-        "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
-        "url": "https://clinicaltrials.gov/study/NCT06501118",
-        "source": "University of Colorado, Denver",
-        "author": "",
-        "pubdate": "2026-08-24",
-        "summary": "A multimodal educational intervention to target an oxygen saturation target range (SpO2 90-96%) will reduce ventilator length of stay and reduce occult hypoxemia by increased awareness and adherence to a designated oxygen saturation target range.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06501118"
-      },
-      {
         "title": "Samu Save Sepsis: Early Goal Directed Therapy in Pre Hospital Care of Patients With Severe Sepsis and/or Septic Shock",
         "url": "https://clinicaltrials.gov/study/NCT02473263",
         "source": "Assistance Publique - Hôpitaux de Paris",
@@ -5834,7 +5977,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07116941"
+        "nct_id": "NCT07116941",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Progesterone Preeclampsia",
@@ -5846,7 +5991,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07448597"
+        "nct_id": "NCT07448597",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Digital Early Warning System for Acute Lung Injury in Liver Surgery",
@@ -5858,7 +6005,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07070362"
+        "nct_id": "NCT07070362",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Effect of Albumin Supplementation on the Inflammatory and Oxidative Stress Markers in Septic Patients",
@@ -5870,7 +6019,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03950778"
+        "nct_id": "NCT03950778",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Learn About the Study Medicine - Zavicefta in Patients With Sepsis or Loss of Kidney Function in Japan",
@@ -5882,7 +6033,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06864585"
+        "nct_id": "NCT06864585",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Epidemiology of Antimicrobial-use and Antimicrobial-resistant Infections in Four Hospitals in Thailand",
@@ -7645,7 +7798,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13480029/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42237139",
@@ -10201,6 +10356,33 @@
       "abbr": "GI",
       "articles": [
         {
+          "pmid": "42745269",
+          "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Sep 9",
+          "authors": [
+            "Gunst J",
+            "Krinsley JS",
+            "Lanspa MJ",
+            "Preiser JC",
+            "Singer M",
+            "Van den Berghe G"
+          ],
+          "doi": "10.1186/s13054-026-06288-z",
+          "abstract": "Many intensive care unit patients develop hyperglycaemia, and this is associated with an increased risk of adverse outcomes. Landmark randomised controlled trials (RCTs) suggest the impact of lowering blood glucose to the healthy, age-adjusted fasting range, hereafter called tight glucose control, depends on the accuracy of the glucose control protocol and the nutritional strategy. In the context of early parenteral nutrition, a condition that induces severe, iatrogenic hyperglycaemia, tight glucose control significantly reduced morbidity and mortality compared to tolerating severe hyperglycaemia. In the absence of early parenteral nutrition, hyperglycaemia was less severe; tight glucose control, applied with a computerised protocol that avoided severe hypoglycaemia, did not impact mortality nor the duration of ICU dependency as primary endpoint in a large multicentre RCT, but was associated with a less pronounced benefit on selected morbidity outcomes. Conversely, tight glucose control, using a protocol that considerably increased the risk of severe hypoglycaemic events, concomitantly increased mortality; nevertheless, the cause of excess mortality in this trial remains unproven and other mechanisms may have contributed as well. Altogether, evidence suggests that severe and iatrogenic hyperglycaemia and hypoglycaemia should both be avoided. From a pathophysiologic point of view, tight glucose control may be superior in selected settings if it can be applied with a validated protocol that avoids severe hypoglycaemia. In the absence of such a protocol, the increased risk of severe hypoglycaemia may offset any benefit of preventing hyperglycaemia, and tolerating intermediate blood glucose targets is likely the default setting. In the paper, we suggest specific blood glucose targets that differ according to the clinical context. Future research should aim at strategies that further optimise the quality of blood glucose control and study whether these improve patient-centred outcomes, and investigate whether specific patient populations benefit from individualised targets.",
+          "citation_count": 86,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
           "pmid": "42301229",
           "title": "Impact of Molecular Adsorbent Recirculating System Therapy on Piperacillin Concentration in Critically Ill Patients: An Observational Cohort Study.",
           "journal": "Critical care medicine",
@@ -10821,6 +11003,33 @@
       "abbr": "Endo",
       "articles": [
         {
+          "pmid": "42745269",
+          "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Sep 9",
+          "authors": [
+            "Gunst J",
+            "Krinsley JS",
+            "Lanspa MJ",
+            "Preiser JC",
+            "Singer M",
+            "Van den Berghe G"
+          ],
+          "doi": "10.1186/s13054-026-06288-z",
+          "abstract": "Many intensive care unit patients develop hyperglycaemia, and this is associated with an increased risk of adverse outcomes. Landmark randomised controlled trials (RCTs) suggest the impact of lowering blood glucose to the healthy, age-adjusted fasting range, hereafter called tight glucose control, depends on the accuracy of the glucose control protocol and the nutritional strategy. In the context of early parenteral nutrition, a condition that induces severe, iatrogenic hyperglycaemia, tight glucose control significantly reduced morbidity and mortality compared to tolerating severe hyperglycaemia. In the absence of early parenteral nutrition, hyperglycaemia was less severe; tight glucose control, applied with a computerised protocol that avoided severe hypoglycaemia, did not impact mortality nor the duration of ICU dependency as primary endpoint in a large multicentre RCT, but was associated with a less pronounced benefit on selected morbidity outcomes. Conversely, tight glucose control, using a protocol that considerably increased the risk of severe hypoglycaemic events, concomitantly increased mortality; nevertheless, the cause of excess mortality in this trial remains unproven and other mechanisms may have contributed as well. Altogether, evidence suggests that severe and iatrogenic hyperglycaemia and hypoglycaemia should both be avoided. From a pathophysiologic point of view, tight glucose control may be superior in selected settings if it can be applied with a validated protocol that avoids severe hypoglycaemia. In the absence of such a protocol, the increased risk of severe hypoglycaemia may offset any benefit of preventing hyperglycaemia, and tolerating intermediate blood glucose targets is likely the default setting. In the paper, we suggest specific blood glucose targets that differ according to the clinical context. Future research should aim at strategies that further optimise the quality of blood glucose control and study whether these improve patient-centred outcomes, and investigate whether specific patient populations benefit from individualised targets.",
+          "citation_count": 86,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
           "pmid": "42645558",
           "title": "State-of-the-art review: ß-blockade in critical illness.",
           "journal": "Intensive care medicine",
@@ -11114,58 +11323,6 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how well a kidney protection strategy was implemented in critically ill patients with acute kidney injury. They found that about a third of patients received the full strategy, and those who did had a higher rate of kidney recovery. The study also found a link between the number of strategy components implemented and better kidney outcomes.",
           "ai_significance": "This study is important for ICU clinicians because it highlights the need to implement a kidney protection strategy in critically ill patients with acute kidney injury to improve kidney recovery rates.",
-          "ai_rounds_takeaway": ""
-        },
-        {
-          "pmid": "42283370",
-          "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
-          "journal": "The New England journal of medicine",
-          "pubdate": "2026 Jun 12",
-          "authors": [
-            "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
-            "Serpa Neto A",
-            "McNamara M",
-            "White K",
-            "Cooper DJ",
-            "Fujii T",
-            "Higgins AM",
-            "Hodgson CL",
-            "Navarra L",
-            "Nichol A",
-            "Peake S",
-            "Réa-Neto A",
-            "Secombe P",
-            "Osborne F",
-            "Burrill H",
-            "See E",
-            "Young M",
-            "Zampieri FG",
-            "Plummer M",
-            "Christie C",
-            "Nunnink L",
-            "Mackay J",
-            "McGuinness S",
-            "Marmol J",
-            "Tiruvoipati R",
-            "Bailey M",
-            "Young PJ",
-            "Bellomo R",
-            "Udy A"
-          ],
-          "doi": "10.1056/NEJMoa2600526",
-          "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/",
-          "ai_key_stats": "",
-          "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
-          "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
           "ai_rounds_takeaway": ""
         },
         {
@@ -12971,7 +13128,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13480029/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42257882",
@@ -14001,58 +14160,6 @@
           "ai_rounds_takeaway": "Consider using real-time predictions from an EMR-integrated system to inform ICU decision-making, especially for high-risk patients."
         },
         {
-          "pmid": "42283370",
-          "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
-          "journal": "The New England journal of medicine",
-          "pubdate": "2026 Jun 12",
-          "authors": [
-            "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
-            "Serpa Neto A",
-            "McNamara M",
-            "White K",
-            "Cooper DJ",
-            "Fujii T",
-            "Higgins AM",
-            "Hodgson CL",
-            "Navarra L",
-            "Nichol A",
-            "Peake S",
-            "Réa-Neto A",
-            "Secombe P",
-            "Osborne F",
-            "Burrill H",
-            "See E",
-            "Young M",
-            "Zampieri FG",
-            "Plummer M",
-            "Christie C",
-            "Nunnink L",
-            "Mackay J",
-            "McGuinness S",
-            "Marmol J",
-            "Tiruvoipati R",
-            "Bailey M",
-            "Young PJ",
-            "Bellomo R",
-            "Udy A"
-          ],
-          "doi": "10.1056/NEJMoa2600526",
-          "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/",
-          "ai_key_stats": "",
-          "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
-          "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
-          "ai_rounds_takeaway": ""
-        },
-        {
           "pmid": "42243987",
           "title": "Is postoperative ARDS different from medical ARDS?",
           "journal": "Critical care (London, England)",
@@ -14572,9 +14679,7 @@
           "pages": "1489-1494",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41823503/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41823503/"
         },
         {
           "pmid": "42210338",

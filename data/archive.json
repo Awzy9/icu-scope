@@ -3236,6 +3236,31 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13540939/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42332775/"
+      },
+      "42745269": {
+        "pmid": "42745269",
+        "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 9",
+        "authors": [
+          "Gunst J",
+          "Krinsley JS",
+          "Lanspa MJ",
+          "Preiser JC",
+          "Singer M",
+          "Van den Berghe G"
+        ],
+        "doi": "10.1186/s13054-026-06288-z",
+        "abstract": "Many intensive care unit patients develop hyperglycaemia, and this is associated with an increased risk of adverse outcomes. Landmark randomised controlled trials (RCTs) suggest the impact of lowering blood glucose to the healthy, age-adjusted fasting range, hereafter called tight glucose control, depends on the accuracy of the glucose control protocol and the nutritional strategy. In the context of early parenteral nutrition, a condition that induces severe, iatrogenic hyperglycaemia, tight glucose control significantly reduced morbidity and mortality compared to tolerating severe hyperglycaemia. In the absence of early parenteral nutrition, hyperglycaemia was less severe; tight glucose control, applied with a computerised protocol that avoided severe hypoglycaemia, did not impact mortality nor the duration of ICU dependency as primary endpoint in a large multicentre RCT, but was associated with a less pronounced benefit on selected morbidity outcomes. Conversely, tight glucose control, using a protocol that considerably increased the risk of severe hypoglycaemic events, concomitantly increased mortality; nevertheless, the cause of excess mortality in this trial remains unproven and other mechanisms may have contributed as well. Altogether, evidence suggests that severe and iatrogenic hyperglycaemia and hypoglycaemia should both be avoided. From a pathophysiologic point of view, tight glucose control may be superior in selected settings if it can be applied with a validated protocol that avoids severe hypoglycaemia. In the absence of such a protocol, the increased risk of severe hypoglycaemia may offset any benefit of preventing hyperglycaemia, and tolerating intermediate blood glucose targets is likely the default setting. In the paper, we suggest specific blood glucose targets that differ according to the clinical context. Future research should aim at strategies that further optimise the quality of blood glucose control and study whether these improve patient-centred outcomes, and investigate whether specific patient populations benefit from individualised targets.",
+        "citation_count": 86,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
       }
     },
     "endocrine-metabolic": {
@@ -3418,7 +3443,7 @@
         "pmid": "42283370",
         "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
         "journal": "The New England journal of medicine",
-        "pubdate": "2026 Jun 12",
+        "pubdate": "2026 Sep 17",
         "authors": [
           "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
           "Serpa Neto A",
@@ -3454,10 +3479,10 @@
         "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
         "citation_count": 0,
         "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
+        "study_type": "Randomized Controlled Trial",
+        "volume": "395",
+        "issue": "11",
+        "pages": "1062-1074",
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/"
@@ -3727,6 +3752,31 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
+      },
+      "42745269": {
+        "pmid": "42745269",
+        "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 9",
+        "authors": [
+          "Gunst J",
+          "Krinsley JS",
+          "Lanspa MJ",
+          "Preiser JC",
+          "Singer M",
+          "Van den Berghe G"
+        ],
+        "doi": "10.1186/s13054-026-06288-z",
+        "abstract": "Many intensive care unit patients develop hyperglycaemia, and this is associated with an increased risk of adverse outcomes. Landmark randomised controlled trials (RCTs) suggest the impact of lowering blood glucose to the healthy, age-adjusted fasting range, hereafter called tight glucose control, depends on the accuracy of the glucose control protocol and the nutritional strategy. In the context of early parenteral nutrition, a condition that induces severe, iatrogenic hyperglycaemia, tight glucose control significantly reduced morbidity and mortality compared to tolerating severe hyperglycaemia. In the absence of early parenteral nutrition, hyperglycaemia was less severe; tight glucose control, applied with a computerised protocol that avoided severe hypoglycaemia, did not impact mortality nor the duration of ICU dependency as primary endpoint in a large multicentre RCT, but was associated with a less pronounced benefit on selected morbidity outcomes. Conversely, tight glucose control, using a protocol that considerably increased the risk of severe hypoglycaemic events, concomitantly increased mortality; nevertheless, the cause of excess mortality in this trial remains unproven and other mechanisms may have contributed as well. Altogether, evidence suggests that severe and iatrogenic hyperglycaemia and hypoglycaemia should both be avoided. From a pathophysiologic point of view, tight glucose control may be superior in selected settings if it can be applied with a validated protocol that avoids severe hypoglycaemia. In the absence of such a protocol, the increased risk of severe hypoglycaemia may offset any benefit of preventing hyperglycaemia, and tolerating intermediate blood glucose targets is likely the default setting. In the paper, we suggest specific blood glucose targets that differ according to the clinical context. Future research should aim at strategies that further optimise the quality of blood glucose control and study whether these improve patient-centred outcomes, and investigate whether specific patient populations benefit from individualised targets.",
+        "citation_count": 86,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
       }
     },
     "infectious-sepsis": {
@@ -5976,7 +6026,7 @@
         "pmid": "42283370",
         "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
         "journal": "The New England journal of medicine",
-        "pubdate": "2026 Jun 12",
+        "pubdate": "2026 Sep 17",
         "authors": [
           "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
           "Serpa Neto A",
@@ -6012,10 +6062,10 @@
         "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
         "citation_count": 0,
         "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
+        "study_type": "Randomized Controlled Trial",
+        "volume": "395",
+        "issue": "11",
+        "pages": "1062-1074",
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/"
@@ -8664,6 +8714,17 @@
       "study_type": "Preprint (not peer-reviewed)",
       "is_open_access": true,
       "is_preprint": true
+    },
+    "https://doi.org/10.64898/2026.09.01.26361862": {
+      "title": "Serial neoGFAP outperforms total GFAP for monitoring and 6-month outcome discrimination after moderate to severe traumatic brain injury: an exploratory single-site cohort study",
+      "url": "https://doi.org/10.64898/2026.09.01.26361862",
+      "source": "medRxiv preprint",
+      "author": "William E. Haskins",
+      "pubdate": "2026-09-03",
+      "summary": "BackgroundSerial glial fibrillary acidic protein (GFAP) trajectories have become an important framework for contextualizing evolving secondary-injury pathophysiology after moderate-to-severe traumatic brain injury (msTBI). However, total GFAP pools release and clearance signals that may be less useful for longitudinal bedside decisions than a proteoform-resolved assay. We compared total GFAP with neoGFAP, defined here as calpain-generated GFAP proteoforms intended to index active astroglial prot",
+      "study_type": "Preprint (not peer-reviewed)",
+      "is_open_access": true,
+      "is_preprint": true
     }
   },
   "trials": {
@@ -10196,9 +10257,9 @@
       "url": "https://clinicaltrials.gov/study/NCT06501118",
       "source": "University of Colorado, Denver",
       "author": "",
-      "pubdate": "2026-08-24",
+      "pubdate": "2026-09-16",
       "summary": "A multimodal educational intervention to target an oxygen saturation target range (SpO2 90-96%) will reduce ventilator length of stay and reduce occult hypoxemia by increased awareness and adherence to a designated oxygen saturation target range.",
-      "study_type": "Clinical Trial (Recruiting)",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT06501118"
@@ -11300,7 +11361,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07449572",
       "source": "HTIC, Inc",
       "author": "",
-      "pubdate": "2026-09-15",
+      "pubdate": "2026-09-16",
       "summary": "This Phase 1/2A, randomized, double-blind study will evaluate the safety, tolerability, and pharmacokinetics (PK) of HT31-1 (hCitH3-mAb) in healthy adult volunteers and in patients with mild-to-moderate acute respiratory distress syndrome (ARDS) due to an infectious source. The current trial (Part A) focuses on single ascending doses (SAD) in healthy volunteers to characterize the safety profile, PK parameters, and immunogenicity of HT31-1. Emerging data from this phase will inform dose selectio",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -11402,6 +11463,90 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07093125"
+    },
+    "NCT06148467": {
+      "title": "Reverse Trigger Phenotypification and Response to Ventilatory Adjustments",
+      "url": "https://clinicaltrials.gov/study/NCT06148467",
+      "source": "Hospital Civil de Guadalajara",
+      "author": "",
+      "pubdate": "2026-09-16",
+      "summary": "The goal of this prospective observational study is to describe the incidence of reverse trigger (RT) in mechanically ventilated patients with diagnosis of acute respiratory distress syndrome (ARDS). The main questions it aims to answer are: * Real incidence of RT based on continuous monitoring * The response to mechanical ventilatiory adjustments Participants will be included as soon as neuromuscular blockers (NMB)/sedation is stopped or in case of spontaneous respiratory efforts detection, wha",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06148467"
+    },
+    "NCT07326215": {
+      "title": "A Study of the Efficacy and Safety of Extracorporeal Carbon Dioxide Removal Using PrismaLung+",
+      "url": "https://clinicaltrials.gov/study/NCT07326215",
+      "source": "Vantive Health LLC",
+      "author": "",
+      "pubdate": "2026-09-16",
+      "summary": "PrismaLung+ is a sterile, single-use medical device aimed at performing partial removal of carbon dioxide (CO2) from the patient's venous blood via diffusion through a membrane. The goal of this prospective, open label, randomized controlled study is to evaluate the efficacy and safety of PrismaLung+ on extracorporeal carbon dioxide removal (ECCO2R) in critically ill patients under invasive mechanical ventilation (IMV). Patients will be randomized to receive either IMV combined with ECCO2R (usin",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07326215"
+    },
+    "NCT05741424": {
+      "title": "Impact of BacT/Alert® VIRTUO®, BioFire® Blood Culture Identification 2-BCID2 and REVEAL® (bioMérieux) on the Optimization of Antibiotic Therapy for Gram-negative Bacteremia in the ICU",
+      "url": "https://clinicaltrials.gov/study/NCT05741424",
+      "source": "Centre Hospitalier Universitaire de Nīmes",
+      "author": "",
+      "pubdate": "2026-09-16",
+      "summary": "Bacteremia is a frequent infection in intensive care units. It is associated with a high mortality rate and the rapid implementation of appropriate antibiotic therapy is strongly correlated to patient clinical outcomes. Innovative technologies have emerged to shorten the turnaround time of blood culture samples by obtaining susceptibility testing of the incriminated pathogen at an early stage, and therefore to rapidly adjust the antibiotic therapy of patients with Gram-negative Bacilli bacteremi",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05741424"
+    },
+    "NCT06539234": {
+      "title": "Angiotensin II Stress Test. Renin Kinetics During Treatment of Vasoplegic Shock With Angiotensin II.",
+      "url": "https://clinicaltrials.gov/study/NCT06539234",
+      "source": "University Medical Centre Maribor",
+      "author": "",
+      "pubdate": "2026-09-16",
+      "summary": "Shock is a life-threatening condition which can cause multiple organ failure and even death. One characteristic of shock is low blood pressure which is managed with drugs called vasopressors. Most frequently used vasopressors are noradrenaline, vasopressin and recently also angiotensin II. Angiotensin II is present in the body and has a physiological role in maintaining blood pressure in healthy persons. Renin is an enzyme and a key factor in angiotensin II production in the body. In patients wi",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06539234"
+    },
+    "NCT07822971": {
+      "title": "Impact of an On-site Simulation-based Training Programme on Adherence to Standard Precautions and Healthcare-associated Infections in Adult Intensive Care",
+      "url": "https://clinicaltrials.gov/study/NCT07822971",
+      "source": "Centre Hospitalier Régional Metz-Thionville",
+      "author": "",
+      "pubdate": "2026-09-16",
+      "summary": "This is a prospective, single-centre, quasi-experimental before-and-after study conducted over 18 months in an adult ICU. The study includes a 6-month pre-intervention period, a 6-month intervention period during which healthcare professionals participate in repeated in situ simulation sessions, and a 6-month post-intervention period.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07822971"
+    },
+    "NCT07823387": {
+      "title": "Intra-Abdominal Pressure Changes During Continuous Renal Replacement Therapy in Critically Ill Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07823387",
+      "source": "Bursa Yuksek Ihtisas Training and Research Hospital",
+      "author": "",
+      "pubdate": "2026-09-16",
+      "summary": "This prospective observational study will evaluate changes in intra-abdominal pressure in critically ill adult patients receiving continuous renal replacement therapy in the intensive care unit. Intra-abdominal pressure will be measured through the urinary bladder at predefined time points during therapy. The study will also assess the relationship between intra-abdominal pressure changes and clinical variables, including fluid balance, hemodynamic parameters, vasopressor requirement, urine outp",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07823387"
+    },
+    "NCT07273071": {
+      "title": "Individualized Multiplex Pathophysiological Treatment of Severe Acute Infections: N-Acetylcysteine",
+      "url": "https://clinicaltrials.gov/study/NCT07273071",
+      "source": "Theis S. Itenov",
+      "author": "",
+      "pubdate": "2026-09-16",
+      "summary": "The primary objective of the IMPACT-NAC trial is to assess the effects of N-acetylcysteine on survival and hospital length of stay in adults admitted to the emergency department with acute infection or sepsis and evidence of liver dysfunction. The main question it aims to answer is: does N-acetylcysteine increase the number of days alive and out of the hospital within the first 14 days after enrolment in the trial? To answer this question, we will conduct a randomized, double-blinded controlled ",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07273071"
     }
   },
   "bottom_line": {
