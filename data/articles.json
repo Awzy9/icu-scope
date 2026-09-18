@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T08:08:40+00:00",
+  "generated_at": "2026-09-18T07:44:05+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -59,9 +59,7 @@
         "pages": "",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
       },
       {
         "pmid": "42642764",
@@ -234,6 +232,36 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42267876/"
       },
       {
+        "pmid": "42750044",
+        "title": "Nurse-led respiratory care bundle and pneumonia prevention in critically ill patients with abdominal sepsis: a multicenter before-and-after controlled study.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 14",
+        "authors": [
+          "Xu Y",
+          "Zheng Y",
+          "Huang L",
+          "Li W",
+          "Wang H",
+          "Chang Z",
+          "Wang Y",
+          "Lv L",
+          "Cui N"
+        ],
+        "doi": "10.1186/s13054-026-06304-2",
+        "abstract": "BACKGROUND: Patients with abdominal sepsis face an increased risk of pneumonia due to systemic inflammation, prolonged bed rest, impaired cough reflex, and respiratory muscle dysfunction. Pneumonia increases mortality, delays recovery, and prolongs hospital stays, underscoring the value of pulmonary care. This study evaluates the association between a nurse-led respiratory care bundle and pneumonia incidence and early prognosis in patients with abdominal sepsis. METHODS: A comparative study of patients with abdominal sepsis in two stages was conducted from January 1, 2021, to June 30, 2023 (control group, which received traditional respiratory care at a single institution), and August 1, 2023, to January 31, 2026 (intervention group, which received a nurse-led respiratory care bundle across five medical centers). Multivariable logistic regression was employed to adjust for confounding factors, and sensitivity analyses were conducted using propensity score matching, inverse probability of treatment weighting, generalized estimating equations, mixed-effects models, and Bootstrap resampling. RESULTS: A total of 869 patients (control, 263; intervention, 606) were included. The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia (42.2% versus 25.6%; P < 0.001) and remained an independent protective factor after multivariable adjustment (odds ratio [OR] = 0.39; 95% confidence interval [CI], 0.28-0.54; P < 0.001). The intervention group had a shorter hospital stay (incidence rate ratio = 0.80; 95% CI, 0.71-0.90; P < 0.001) and lower 28-day mortality (22.8% versus 18.3%; OR = 0.66; 95% CI, 0.45-0.95; P = 0.025). All five sensitivity analyses were consistent, with no heterogeneity among centers. CONCLUSIONS: The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia, shorter hospital stays, and lower 28-day mortality in patients with abdominal sepsis.",
+        "citation_count": 30,
+        "is_top_journal": true,
+        "study_type": "Multicenter Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42312687",
         "title": "Association Between Emergency Department-to-ICU Transfer Time and Hospital Mortality Across ICU Admission Diagnoses: A Post Hoc Subgroup Analysis.",
         "journal": "Critical care medicine",
@@ -300,27 +328,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533464/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42289099/"
-      },
-      {
-        "pmid": "42613623",
-        "title": "Critical care readiness in conflict and disaster-affected Somalia: mass-casualty response, emergency referral, and continuity of life-saving care special collection: critical care in war and disaster areas.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 18",
-        "authors": [
-          "Siyad AO",
-          "Hassan AM"
-        ],
-        "doi": "10.1186/s13054-026-06258-5",
-        "abstract": "Critical care readiness during war and disasters is often judged by intensive care unit capacity, yet preventable mortality in fragile health systems may occur before, during, or after ICU-level care. In Somalia, recurrent mass-casualty events, emergency referral constraints, limited oxygen and blood readiness, constrained operative access, and weak post-resuscitation monitoring expose a critical gap between first contact and sustained life-saving care. This Comment addresses that gap by reframing critical care readiness in conflict and disaster-affected Somalia as a pathway problem rather than an ICU-capacity problem alone. Its novelty lies in integrating domains often treated separately-mass-casualty response, emergency referral, essential emergency and critical care inputs, ethical triage, and non-punitive system learning-into one practical readiness agenda for fragile health systems. The article argues that training and hospital preparedness are necessary but insufficient unless supported by referral communication, command structures, oxygen systems, blood readiness, ward monitoring, and clear escalation criteria. Strengthening this emergency-to-critical-care pathway can improve continuity of life-saving care, support fair resource allocation, and enhance accountability in health systems exposed to conflict and disasters.",
-        "citation_count": 13,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13483584/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42613623/"
       }
     ]
   },
@@ -435,7 +442,9 @@
         "pubdate": "2026-08-18",
         "summary": "This particular story has a familiar shape. A small, methodologically flawed study finds a striking benefit. The p-value is impressively low. The paper lands in a major journal. And within a few years, its flaws, its obvious sources of bias, and its undeniable susceptibility to chance findings are forgotten. All that remains is its statistical […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients?",
@@ -445,9 +454,7 @@
         "pubdate": "2026-08-17",
         "summary": "Is HFNC as effective as NIV in reducing respiratory rate and improving respiratory distress within 2 hours in ACPE? The post SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients? appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Case of the Redacted Ledger",
@@ -1495,14 +1502,14 @@
         ],
         "doi": "10.4266/acc.006630",
         "abstract": "BACKGROUND: Survivors of critical illness commonly experience persistent physical, cognitive, and psychological impairments, collectively known as post-intensive care syndrome. Although intensive care unit (ICU) rehabilitation is now recognized as an important part of recovery after critical illness, rehabilitation practices remain inconsistent, and clinical practice guidelines adapted to the Korean healthcare context have not been available. METHODS: These clinical practice guidelines were developed de novo by a multidisciplinary panel comprising critical care physicians, rehabilitation specialists, nurses, and allied health professionals. The panel prioritized 15 key clinical questions addressing adult, pediatric, and neonatal ICU (NICU) rehabilitation. Systematic literature searches were conducted in Medline via PubMed, Embase, the Cochrane Library, and KoreaMed, and the final searches for all 15 questions were completed by November 30, 2024. The certainty of evidence and strength of recommendations were assessed using the Grading of Recommendations Assessment, Development and Evaluation framework. Final recommendations were approved through a structured consensus process requiring at least 70% panel agreement. RESULTS: The panel issued 15 recommendations across major rehabilitation domains, including early structured rehabilitation, criteria for withholding or discontinuing therapy, adjunctive modalities, rehabilitation frequency, inspiratory muscle training, swallowing rehabilitation, cognitive and occupational therapy, nutritional support, neonatal and pediatric ICU rehabilitation, and post-ICU follow-up care. Thirteen recommendations were conditional, whereas two were strong, mainly because they addressed patient safety. CONCLUSIONS: These guidelines provide evidence-informed recommendations for rehabilitation in critically ill patients across adult, pediatric, and NICUs in Korea. They are designed to standardize practice, improve patient safety, support patient-centered functional recovery beyond survival, and identify priorities for future research.",
-        "citation_count": 0,
+        "citation_count": 227,
         "is_top_journal": false,
         "study_type": "Guideline",
         "volume": "41",
         "issue": "3",
         "pages": "439-465",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13579131/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42723449/",
         "society": null
       },
@@ -3057,9 +3064,7 @@
         "ai_key_stats": "n=299, p < 0.0001, OR 2.13 (95% CI not reported), p = 0.0018, p = 0.0016, AUC 0.731 (p = 0.0001)",
         "ai_summary": "This study analyzed 299 patients who received vancomycin therapy to identify factors associated with the systemic inflammation response index (SIRI). The SIRI was higher in ICU patients and correlated with age, blood pressure, and other clinical variables. ICU requirement was the strongest predictor of SIRI.",
         "ai_significance": "This study highlights the potential of SIRI as a novel marker for risk stratification and management of patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
-        "ai_rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider SIRI as a potential marker for risk stratification in patients receiving vancomycin therapy, particularly those at risk for ICU admission."
       },
       {
         "pmid": "42506747",
@@ -3093,9 +3098,7 @@
         "ai_key_stats": "n=172, p < 0.001",
         "ai_summary": "This study compared neutralizing antibody levels among individuals vaccinated with different vaccines, across various ethnicities, and between genders. The results showed that NAB levels varied significantly across vaccination status, ethnicity, and vaccine type. The study found that vaccinated healthy participants, females, and those who received the Pfizer vaccine had the highest median NAB levels.",
         "ai_significance": "These findings highlight the importance of considering individual factors when developing immunization strategies to optimize protective immunity against COVID-19.",
-        "ai_rounds_takeaway": "Consider tailoring immunization strategies to individual patient factors, such as vaccination status, ethnicity, and age, to optimize protective immunity.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider tailoring immunization strategies to individual patient factors, such as vaccination status, ethnicity, and age, to optimize protective immunity."
       },
       {
         "pmid": "42515548",
@@ -3137,9 +3140,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied antibody responses in 406 people with COVID-19 in Saudi Arabia, finding that antibody levels increased with disease severity. However, the levels of neutralizing antibodies did not differ significantly across groups. Age and comorbidities were associated with more severe disease.",
         "ai_significance": "This study highlights the importance of considering clinical factors, such as age and comorbidities, when interpreting serological measures in COVID-19 patients.",
-        "ai_rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider the patient's age and comorbidities when assessing the severity of COVID-19 and planning care."
       },
       {
         "pmid": "42347268",
@@ -3167,9 +3168,7 @@
         "ai_key_stats": "n=86, p<0.001, p=0.019, p<0.001, p=0.038, p=0.005, p=0.032, p=0.007, p=0.023, p=0.013, p=0.035, p=0.002",
         "ai_summary": "A multicenter study in Saudi Arabia assessed ICU practitioners' knowledge and adherence to a ventilator bundle for VAP prevention. Significant disparities were found in knowledge and adherence across educational levels, professional experience, and professional categories.",
         "ai_significance": "This study highlights the need for targeted training for newly hired ICU staff to improve adherence to VAP prevention guidelines, which is crucial in reducing mortality rates in developing countries.",
-        "ai_rounds_takeaway": "Consider providing targeted training for newly hired ICU staff to improve adherence to the ventilator bundle for VAP prevention.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider providing targeted training for newly hired ICU staff to improve adherence to the ventilator bundle for VAP prevention."
       },
       {
         "pmid": "42330317",
@@ -3902,6 +3901,58 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42752385",
+        "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Sep 17",
+        "authors": [
+          "Karvellas CJ",
+          "Lambert J",
+          "Ouyang T",
+          "Bagshaw SM",
+          "Cullaro G",
+          "Fricker Z",
+          "Frederick T",
+          "Goldstein SL",
+          "House AA",
+          "Juncos LA",
+          "Heung M",
+          "Patidar KR",
+          "Rewa OG",
+          "Robinson JE",
+          "Teixeira JP",
+          "Wadei H",
+          "Neyra JA",
+          "Allegretti AS",
+          "CRRTnet and HRS-HARMONY Consortia"
+        ],
+        "doi": "10.1097/CCM.0000000000007363",
+        "abstract": "OBJECTIVES: Describe the epidemiology of patients with cirrhosis/acute-on-chronic liver failure (ACLF) receiving continuous renal replacement therapy (CRRT) pertaining to process factors including renal replacement dose, modality, and circuit anticoagulation. SETTING: Academic tertiary care hospitals in the United States and Canada. DESIGN AND PATIENTS: We performed a parallel study of contemporaneous data from the HARMONY and CRRT network (CRRTnet) databases to describe the epidemiology and process of CRRT care of cirrhosis/ACLF patients receiving CRRT in the ICU. We evaluated clinical and CRRT process factors (dialysis dose, anticoagulation) with the primary outcome of in-hospital mortality. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The HARMONY cohort (n = 245; median age, 57 yr; 41% female) and CRRTnet cohort (n = 206; 58 yr; 39% female) demonstrated similar overall survival to hospital discharge (HARMONY, 34%; CRRTnet, 30%). In HARMONY, the two most common causes of acute kidney injury (AKI) requiring CRRT were acute tubular necrosis (73%) and hepatorenal syndrome-AKI (13%), with no significant difference between survivors and nonsurvivors (p = 0.24). In HARMONY, higher chronic liver failure-C ACLF scores (hazard ratio, 1.03 [95% CI, 1.01-1.05]; p < 0.001) were independently associated with increased in-hospital mortality. In CRRTnet, the most common CRRT modality was continuous venovenous hemodiafiltration (83.8%), and the most common anticoagulation strategy was regional citrate anticoagulation (58.0%) or no anticoagulation (35.8%). CRRT prescribed dose greater than 30 mL/kg/hr was independently associated with higher in-hospital mortality (multivariable regression; odds ratio, 2.69; 95% CI, 1.3-5.64; p = 0.01). Of survivors in CRRTnet, 64% were transitioned to intermittent hemodialysis (IHD) before hospital discharge. CONCLUSIONS: Critically ill cirrhosis/ACLF patients initiated on CRRT in the absence of liver transplantation had high in-hospital mortality. These patients were prescribed higher initial CRRT doses (median total effluent > 30 mL/kg/hr), with higher CRRT dose independently associated with increased in-hospital mortality. Of ICU survivors, 64% were transitioned to IHD at ICU discharge. Despite concerns for citrate toxicity, citrate regional anticoagulation was commonly employed in these patients.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "renal",
+        "category_label": "Renal",
+        "category_ids": [
+          "renal",
+          "gi-nutrition",
+          "hematology-coag"
+        ],
+        "category_labels": [
+          "Renal",
+          "GI & Nutrition",
+          "Hematology & Coagulation"
+        ]
+      },
+      {
         "pmid": "42283370",
         "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
         "journal": "The New England journal of medicine",
@@ -3964,38 +4015,40 @@
         ]
       },
       {
-        "pmid": "42725835",
-        "title": "Landscape of Biomarker Use in Critically Ill Patients: Systematic Evidence Map of Acute Kidney Injury and Implications for Practice.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Sep 11",
+        "pmid": "42750044",
+        "title": "Nurse-led respiratory care bundle and pneumonia prevention in critically ill patients with abdominal sepsis: a multicenter before-and-after controlled study.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 14",
         "authors": [
-          "Kane-Gill SL",
-          "Boyer KM",
-          "Akcan Arikan A",
-          "Barreto EF",
-          "Belcher JM",
-          "Lumlertgul N",
-          "Kellum JA"
+          "Xu Y",
+          "Zheng Y",
+          "Huang L",
+          "Li W",
+          "Wang H",
+          "Chang Z",
+          "Wang Y",
+          "Lv L",
+          "Cui N"
         ],
-        "doi": "10.1097/CCM.0000000000007362",
-        "abstract": "OBJECTIVES: Create systematic evidence maps of novel biomarkers of kidney injury from a mapping review to guide future implementation in patient care. DATA SOURCES: PubMed/MEDLINE and Embase. STUDY SELECTION: Systematic evidence maps included clinical trials and observational studies in critically ill patients, investigating novel kidney biomarkers for acute kidney injury (AKI). DATA EXTRACTION: Six thousand eight hundred five records were screened, and 1116 studies were included that related to one or more novel biomarkers and AKI. DATA SYNTHESIS: Adult populations accounted for 78.6% of the studies, and 93.3% used a cohort design to investigate AKI biomarkers. Mixed critically ill populations, cardiac surgery, and sepsis were identified as the most frequently studied clinical contexts in 69.5% of the studies. Systematic evidence maps were synthesized for biomarker studies to predict AKI (n = 944), prognosticate clinical outcomes (n = 647), diagnose AKI etiology (n = 109), enrich clinical trials (n = 6), and manage AKI (n = 12). Implementation strategies for patient care included surveilling patients at risk of AKI, including patients undergoing surgery and those exposed to multiple nephrotoxic drugs. CONCLUSIONS: Substantial clinical evidence assessing the accuracy of biomarkers compared with diagnosis of AKI exists, with fewer practical trials in clinical use. Still, guidance on implementation approaches can be gleaned from evaluations using biomarkers for the management of critically ill patients, particularly in surgical and nephrotoxin-exposed populations where evidence is available. This review identifies the landscape of current evidence and highlights priorities for future management and enrichment trials needed to bridge the gap between predictive accuracy and clinical decision-making.",
-        "citation_count": 0,
+        "doi": "10.1186/s13054-026-06304-2",
+        "abstract": "BACKGROUND: Patients with abdominal sepsis face an increased risk of pneumonia due to systemic inflammation, prolonged bed rest, impaired cough reflex, and respiratory muscle dysfunction. Pneumonia increases mortality, delays recovery, and prolongs hospital stays, underscoring the value of pulmonary care. This study evaluates the association between a nurse-led respiratory care bundle and pneumonia incidence and early prognosis in patients with abdominal sepsis. METHODS: A comparative study of patients with abdominal sepsis in two stages was conducted from January 1, 2021, to June 30, 2023 (control group, which received traditional respiratory care at a single institution), and August 1, 2023, to January 31, 2026 (intervention group, which received a nurse-led respiratory care bundle across five medical centers). Multivariable logistic regression was employed to adjust for confounding factors, and sensitivity analyses were conducted using propensity score matching, inverse probability of treatment weighting, generalized estimating equations, mixed-effects models, and Bootstrap resampling. RESULTS: A total of 869 patients (control, 263; intervention, 606) were included. The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia (42.2% versus 25.6%; P < 0.001) and remained an independent protective factor after multivariable adjustment (odds ratio [OR] = 0.39; 95% confidence interval [CI], 0.28-0.54; P < 0.001). The intervention group had a shorter hospital stay (incidence rate ratio = 0.80; 95% CI, 0.71-0.90; P < 0.001) and lower 28-day mortality (22.8% versus 18.3%; OR = 0.66; 95% CI, 0.45-0.95; P = 0.025). All five sensitivity analyses were consistent, with no heterogeneity among centers. CONCLUSIONS: The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia, shorter hospital stays, and lower 28-day mortality in patients with abdominal sepsis.",
+        "citation_count": 30,
         "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
+        "study_type": "Multicenter Study",
+        "volume": "30",
+        "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/",
-        "category_id": "renal",
-        "category_label": "Renal",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "infectious-sepsis",
+        "category_label": "Infectious Disease & Sepsis",
         "category_ids": [
-          "renal",
           "infectious-sepsis"
         ],
         "category_labels": [
-          "Renal",
           "Infectious Disease & Sepsis"
         ]
       }
@@ -4013,9 +4066,7 @@
         "summary": "BackgroundSerial glial fibrillary acidic protein (GFAP) trajectories have become an important framework for contextualizing evolving secondary-injury pathophysiology after moderate-to-severe traumatic brain injury (msTBI). However, total GFAP pools release and clearance signals that may be less useful for longitudinal bedside decisions than a proteoform-resolved assay. We compared total GFAP with neoGFAP, defined here as calpain-generated GFAP proteoforms intended to index active astroglial prot",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "The LIBERATE Internal Randomized Controlled Pilot Trial: Adjunctive midodrine therapy for early liberation from vasopressor support in critically ill patients",
@@ -4037,9 +4088,7 @@
         "summary": "ObjectiveTo develop an intelligent predictive indicator system for determining weaning and extubation timing in mechanically ventilated patients, providing a theoretical foundation for clinical decision support systems and intelligent assessment in critical care nursing. MethodsA literature review was conducted to identify and extract factors influencing weaning and extubation timing in mechanically ventilated patients, forming the initial item pool for the indicator system. A Delphi expert cons",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Preventing aspiration events in hospital using prophylactic antiemetics: A systematic review and meta-analysis",
@@ -4092,6 +4141,134 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
+        "url": "https://clinicaltrials.gov/study/NCT06607003",
+        "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "Background: Malaria is a disease caused by parasites transmitted to people by mosquitoes. Around the world, there were 241 million cases and 627,000 deaths from malaria in 2020. Researchers are working to develop vaccines and treatments for this disease. Objective: To learn how malaria develops in people; how the body's immune system reacts to malaria; and how malaria spreads from people to mosquitoes. Eligibility: Healthy people in the Washington DC area, aged 18 to 54 years. They cannot live a",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06607003",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
+        "ai_significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "Early Use of Airway Pressure Release Ventilation (APRV) in ARDS",
+        "url": "https://clinicaltrials.gov/study/NCT04221737",
+        "source": "Hospital Civil de Guadalajara",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "Airway pressure release ventilation (APRV) is a time-cycled, pressure controlled, intermittent mandatory ventilation mode with extreme inverse I:E ratios. Currently it is considered as a non-conventional ventilatory mode. The investigators aim to compare APRV with conventional mechanical ventilation (MV) in patients with acute respiratory distress syndrome (ARDS).",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04221737",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Metabolic and Functional Study of γδ T Cells in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07680816",
+        "source": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "This prospective observational cohort study investigates the subset-specific metabolic adaptation and functional remodeling of cytotoxic γδT cells in critically ill patients with and without sepsis. Emerging evidence indicates that γδT cells, as a bridge between innate and adaptive immunity, play a critical role in early anti-infection defense during sepsis. However, the functional status and underlying regulatory mechanisms of cytotoxic γδT cells in septic patients remain incompletely understoo",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07680816",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Association of ICU Admission Time, Age Stratification, and Clinical Frailty Scale With 30-Day Mortality in Geriatric Oncology Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07825090",
+        "source": "Dr Abdurrahman Yurtaslan Ankara Oncology Training and Research Hospital",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "Geriatric oncology patients frequently require intensive care admission and are at increased risk of adverse outcomes due to advanced age, frailty, and critical illness. Delays in admission from the emergency department to the intensive care unit (ICU) may further contribute to poor prognosis. This retrospective cohort study aims to evaluate the association of ICU admission time, age stratification, and Clinical Frailty Scale (CFS) score with 30-day mortality among geriatric cancer patients admi",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07825090",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "The Prevalence of the Aortic to Radial Pressure Gradient in States of Shock, Outside the Context of Cardiac Surgery, a Prospective Study",
+        "url": "https://clinicaltrials.gov/study/NCT06460519",
+        "source": "Hospices Civils de Lyon",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "First described in cardiac surgery, the aortic to radial pressure gradient (ATRAP) is the cause of an underestimation of the aortic pressure with a measure assumed with a radial catheter, and he can concert 1 of 3rd patients. The risks factor well known are small height, previous hypertension, long and difficult surgery, radial artery diameter less than 1.8mm. The ATRAP definition is a pressure difference between radial and femoral (same of the aortic pressure) pressure of 25mmHg on the systolic",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06460519",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Evaluation of Pressure Injury Risks in Hemofiltration",
+        "url": "https://clinicaltrials.gov/study/NCT07825727",
+        "source": "Ogr. Uyesi Naile",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "Purpose: Patients treated in intensive care units are at high risk of developing pressure injuries due to their critical illnesses as well as many risk factors such as immobility, changes in level of consciousness, hemodynamic instability, mechanical ventilation, sedative and vasoactive drug use, nutritional deficiencies and long-term hospitalization. In patients receiving hemofiltration treatment, the long duration of treatment, exposure to medical devices, limitation of movement and the severi",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07825727",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Post Acute Sequelae of COVID-19",
+        "url": "https://clinicaltrials.gov/study/NCT04964115",
+        "source": "Vanderbilt University Medical Center",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "COVID-19, a novel coronavirus, has caused widespread mortality and morbidity since it emerged in 2019. There is ongoing research and growing literature describing severe acute respiratory syndrome (SARS-COV-2). There is a growing population of individuals who have recovered from acute SARS-COV-2 infection. The long-term effects of COVID-19 are unknown. There are growing reports of sequelae after acute SARS-CoV-2 not limited to fatigue, dyspnea, reactive airway disease, organizing pneumonia, pulm",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04964115",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Comparative Efficacy and Safety of Propofol-Ketamine Combination Versus Propofol Monotherapy in Geriatric Patients Under Invasive Ventilation",
+        "url": "https://clinicaltrials.gov/study/NCT07530146",
+        "source": "Helwan University",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "The study is a prospective randomized controlled trial comparing the efficacy and safety of propofol-ketamine (\"Ketofol\") versus propofol monotherapy in geriatric ICU patients. Eligible participants are critically ill elderly patients with a history of cardiac disease who require endotracheal intubation and have not yet received sedation. The investigators focus on a specific population in which geriatric patients have different pharmacokinetics and pharmacodynamics and are more prone to side ef",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07530146",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Curcumin in Critically Ill Patients With Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT07436130",
+        "source": "Hospital Civil de Guadalajara",
+        "author": "",
+        "pubdate": "2026-09-17",
+        "summary": "Sepsis is a life-threatening condition that occurs when the body's response to an infection becomes overwhelming and damages its own organs. It is one of the leading causes of death in critically ill (very sick) patients worldwide. Despite advances in antibiotics, intensive care, and life-support technologies, sepsis remains difficult to treat because much of the harm comes not only from the infection itself, but from an exaggerated and uncontrolled inflammatory response in the body. When a pers",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07436130",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
         "url": "https://clinicaltrials.gov/study/NCT06501118",
         "source": "University of Colorado, Denver",
@@ -4125,9 +4302,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06148467",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06148467"
       },
       {
         "title": "A Study of the Efficacy and Safety of Extracorporeal Carbon Dioxide Removal Using PrismaLung+",
@@ -4139,9 +4314,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07326215",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07326215"
       },
       {
         "title": "Impact of BacT/Alert® VIRTUO®, BioFire® Blood Culture Identification 2-BCID2 and REVEAL® (bioMérieux) on the Optimization of Antibiotic Therapy for Gram-negative Bacteremia in the ICU",
@@ -4153,9 +4326,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05741424",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05741424"
       },
       {
         "title": "Angiotensin II Stress Test. Renin Kinetics During Treatment of Vasoplegic Shock With Angiotensin II.",
@@ -4167,9 +4338,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06539234",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06539234"
       },
       {
         "title": "Impact of an On-site Simulation-based Training Programme on Adherence to Standard Precautions and Healthcare-associated Infections in Adult Intensive Care",
@@ -4181,9 +4350,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07822971",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07822971"
       },
       {
         "title": "Intra-Abdominal Pressure Changes During Continuous Renal Replacement Therapy in Critically Ill Patients",
@@ -4195,9 +4362,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07823387",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07823387"
       },
       {
         "title": "Individualized Multiplex Pathophysiological Treatment of Severe Acute Infections: N-Acetylcysteine",
@@ -4209,9 +4374,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07273071",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07273071"
       },
       {
         "title": "EndotyPIng PreHospitAl de Novo Acute hYpoxemic Respiratory Failure",
@@ -4443,9 +4606,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06442930",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06442930"
       },
       {
         "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
@@ -5825,7 +5986,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06740981"
+        "nct_id": "NCT06740981",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "AI Based Muscular Ultrasound to Assess Intensive Care Unit-acquired Weakness",
@@ -5837,7 +6000,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06765551"
+        "nct_id": "NCT06765551",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Vascular ARDS Recruitment After Inhaled Nitric Oxide",
@@ -5849,7 +6014,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05801224"
+        "nct_id": "NCT05801224",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Peripheral pULSe Assessment and Arterial pRessure (PULSAR)",
@@ -5861,7 +6028,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07609095"
+        "nct_id": "NCT07609095",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Inflammation Indıces and Mortality in Adult Crush Syndrome",
@@ -5873,7 +6042,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07433127"
+        "nct_id": "NCT07433127",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Can a Pain Monitor Predict When Postoperative Intensive Care Unit Patients Are Ready to Breathe on Their Own? A Pilot Study",
@@ -5885,7 +6056,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07771101"
+        "nct_id": "NCT07771101",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Prospective Validation of AKI Prediction",
@@ -5977,9 +6150,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07116941",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07116941"
       },
       {
         "title": "Progesterone Preeclampsia",
@@ -5991,9 +6162,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07448597",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07448597"
       },
       {
         "title": "Digital Early Warning System for Acute Lung Injury in Liver Surgery",
@@ -6005,9 +6174,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07070362",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07070362"
       },
       {
         "title": "The Effect of Albumin Supplementation on the Inflammatory and Oxidative Stress Markers in Septic Patients",
@@ -6019,9 +6186,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03950778",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03950778"
       },
       {
         "title": "A Study to Learn About the Study Medicine - Zavicefta in Patients With Sepsis or Loss of Kidney Function in Japan",
@@ -6033,9 +6198,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06864585",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06864585"
       },
       {
         "title": "Epidemiology of Antimicrobial-use and Antimicrobial-resistant Infections in Four Hospitals in Thailand",
@@ -6838,22 +7001,6 @@
         "ai_rounds_takeaway": ""
       },
       {
-        "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
-        "url": "https://clinicaltrials.gov/study/NCT06607003",
-        "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
-        "author": "",
-        "pubdate": "2026-08-03",
-        "summary": "Background: Malaria is a disease caused by parasites transmitted to people by mosquitoes. Around the world, there were 241 million cases and 627,000 deaths from malaria in 2020. Researchers are working to develop vaccines and treatments for this disease. Objective: To learn how malaria develops in people; how the body's immune system reacts to malaria; and how malaria spreads from people to mosquitoes. Eligibility: Healthy people in the Washington DC area, aged 18 to 54 years. They cannot live a",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06607003",
-        "ai_key_stats": "",
-        "ai_summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
-        "ai_significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
-        "ai_rounds_takeaway": ""
-      },
-      {
         "title": "Monitoring of Neuromuscular Blockade in the Intensive Care Unit: a Reliability Study",
         "url": "https://clinicaltrials.gov/study/NCT07741851",
         "source": "Centre Hospitalier Intercommunal Aix-Pertuis",
@@ -7412,7 +7559,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42267831",
@@ -7798,9 +7947,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13480029/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/"
         },
         {
           "pmid": "42237139",
@@ -9088,7 +9235,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42377460",
@@ -9668,6 +9817,32 @@
       "label": "Renal",
       "abbr": "Renal",
       "articles": [
+        {
+          "pmid": "42725835",
+          "title": "Landscape of Biomarker Use in Critically Ill Patients: Systematic Evidence Map of Acute Kidney Injury and Implications for Practice.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Sep 11",
+          "authors": [
+            "Kane-Gill SL",
+            "Boyer KM",
+            "Akcan Arikan A",
+            "Barreto EF",
+            "Belcher JM",
+            "Lumlertgul N",
+            "Kellum JA"
+          ],
+          "doi": "10.1097/CCM.0000000000007362",
+          "abstract": "OBJECTIVES: Create systematic evidence maps of novel biomarkers of kidney injury from a mapping review to guide future implementation in patient care. DATA SOURCES: PubMed/MEDLINE and Embase. STUDY SELECTION: Systematic evidence maps included clinical trials and observational studies in critically ill patients, investigating novel kidney biomarkers for acute kidney injury (AKI). DATA EXTRACTION: Six thousand eight hundred five records were screened, and 1116 studies were included that related to one or more novel biomarkers and AKI. DATA SYNTHESIS: Adult populations accounted for 78.6% of the studies, and 93.3% used a cohort design to investigate AKI biomarkers. Mixed critically ill populations, cardiac surgery, and sepsis were identified as the most frequently studied clinical contexts in 69.5% of the studies. Systematic evidence maps were synthesized for biomarker studies to predict AKI (n = 944), prognosticate clinical outcomes (n = 647), diagnose AKI etiology (n = 109), enrich clinical trials (n = 6), and manage AKI (n = 12). Implementation strategies for patient care included surveilling patients at risk of AKI, including patients undergoing surgery and those exposed to multiple nephrotoxic drugs. CONCLUSIONS: Substantial clinical evidence assessing the accuracy of biomarkers compared with diagnosis of AKI exists, with fewer practical trials in clinical use. Still, guidance on implementation approaches can be gleaned from evaluations using biomarkers for the management of critically ill patients, particularly in surgical and nephrotoxin-exposed populations where evidence is available. This review identifies the landscape of current evidence and highlights priorities for future management and enrichment trials needed to bridge the gap between predictive accuracy and clinical decision-making.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
+        },
         {
           "pmid": "42498336",
           "title": "Fluid and Electrolyte Management in Critically Ill Patients with Infections.",
@@ -10378,9 +10553,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
         },
         {
           "pmid": "42301229",
@@ -11025,9 +11198,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
         },
         {
           "pmid": "42645558",
@@ -11097,7 +11268,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42171427",
@@ -11485,6 +11658,32 @@
       "label": "Infectious Disease & Sepsis",
       "abbr": "ID/Sepsis",
       "articles": [
+        {
+          "pmid": "42725835",
+          "title": "Landscape of Biomarker Use in Critically Ill Patients: Systematic Evidence Map of Acute Kidney Injury and Implications for Practice.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Sep 11",
+          "authors": [
+            "Kane-Gill SL",
+            "Boyer KM",
+            "Akcan Arikan A",
+            "Barreto EF",
+            "Belcher JM",
+            "Lumlertgul N",
+            "Kellum JA"
+          ],
+          "doi": "10.1097/CCM.0000000000007362",
+          "abstract": "OBJECTIVES: Create systematic evidence maps of novel biomarkers of kidney injury from a mapping review to guide future implementation in patient care. DATA SOURCES: PubMed/MEDLINE and Embase. STUDY SELECTION: Systematic evidence maps included clinical trials and observational studies in critically ill patients, investigating novel kidney biomarkers for acute kidney injury (AKI). DATA EXTRACTION: Six thousand eight hundred five records were screened, and 1116 studies were included that related to one or more novel biomarkers and AKI. DATA SYNTHESIS: Adult populations accounted for 78.6% of the studies, and 93.3% used a cohort design to investigate AKI biomarkers. Mixed critically ill populations, cardiac surgery, and sepsis were identified as the most frequently studied clinical contexts in 69.5% of the studies. Systematic evidence maps were synthesized for biomarker studies to predict AKI (n = 944), prognosticate clinical outcomes (n = 647), diagnose AKI etiology (n = 109), enrich clinical trials (n = 6), and manage AKI (n = 12). Implementation strategies for patient care included surveilling patients at risk of AKI, including patients undergoing surgery and those exposed to multiple nephrotoxic drugs. CONCLUSIONS: Substantial clinical evidence assessing the accuracy of biomarkers compared with diagnosis of AKI exists, with fewer practical trials in clinical use. Still, guidance on implementation approaches can be gleaned from evaluations using biomarkers for the management of critically ill patients, particularly in surgical and nephrotoxin-exposed populations where evidence is available. This review identifies the landscape of current evidence and highlights priorities for future management and enrichment trials needed to bridge the gap between predictive accuracy and clinical decision-making.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
+        },
         {
           "pmid": "42645558",
           "title": "State-of-the-art review: ß-blockade in critical illness.",
@@ -13128,9 +13327,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13480029/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/"
         },
         {
           "pmid": "42257882",
@@ -14066,7 +14263,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42149702",
@@ -14491,7 +14690,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42294965",

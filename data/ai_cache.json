@@ -971,6 +971,12 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT06607003": {
+    "key_stats": "",
+    "summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
+    "significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
+    "rounds_takeaway": ""
+  },
   "url:https://clinicaltrials.gov/study/NCT07490925": {
     "key_stats": "",
     "summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
@@ -1318,12 +1324,6 @@
   "url:https://clinicaltrials.gov/study/NCT07669558": {
     "summary": "This study used a new imaging technique to find the best position for patients with lung problems after surgery. They compared lying on the left or right side versus lying flat, and found that one position worked better than the others. The best position helped improve how well oxygen was delivered to the lungs.",
     "significance": "Understanding the best position for patients with ARDS can help clinicians improve oxygen delivery and reduce complications. This study's findings can inform ICU practice and potentially improve patient outcomes."
-  },
-  "url:https://clinicaltrials.gov/study/NCT06607003": {
-    "key_stats": "",
-    "summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
-    "significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
-    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07741851": {
     "key_stats": "",
