@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T07:44:05+00:00",
+  "generated_at": "2026-09-19T07:38:55+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -257,9 +257,7 @@
         "pages": "",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/"
       },
       {
         "pmid": "42312687",
@@ -442,9 +440,7 @@
         "pubdate": "2026-08-18",
         "summary": "This particular story has a familiar shape. A small, methodologically flawed study finds a striking benefit. The p-value is impressively low. The paper lands in a major journal. And within a few years, its flaws, its obvious sources of bias, and its undeniable susceptibility to chance findings are forgotten. All that remains is its statistical […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients?",
@@ -2511,7 +2507,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13481273/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42614272/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42643465",
@@ -3195,7 +3193,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study synthesized international evidence on virtual-care models, including tele-ICU, hospital-at-home, and virtual wards, and examined Saudi Arabia's Seha Virtual Hospital as a national case study. The models showed comparable outcomes to in-person hospital care when patient selection and escalation pathways were appropriate. However, the evidence base remains heterogeneous and context-dependent.",
         "ai_significance": "The study's findings suggest that virtual hospitals can be a viable alternative to traditional inpatient care models, particularly in countries with aging populations and rising emergency admissions.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42316052",
@@ -3227,7 +3227,9 @@
         "pages": "",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13528064/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42316052/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42316052/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42299538",
@@ -3260,7 +3262,9 @@
         "ai_key_stats": "n=7628, mean LOS 4.3±7.3 days, OR sepsis 5.56 (95% CI 3.42-9.04), OR NG tube 2.42 (95% CI 1.88-3.13), OR antibiotics 2.07 (95% CI 1.81-2.38), Exp(B) tracheostomy 3.33, Exp(B) sepsis 1.63, Exp(B) mechanical ventilation 1.60, p<.001",
         "ai_summary": "This study analyzed data from 7628 ICU admissions to identify factors affecting the length of stay. The results showed that sepsis, receiving nutrition via a nasogastric tube, and receiving antibiotics were significantly associated with prolonged ICU stay. Illness severity, intensity of supportive care, and patterns of clinical management were the main contributors to prolonged ICU stay.",
         "ai_significance": "Identifying these factors can help optimize patient care, minimize complications, and alleviate healthcare costs within critical care settings.",
-        "ai_rounds_takeaway": "Consider sepsis as a potential cause of prolonged ICU stay in patients with prolonged hospitalization."
+        "ai_rounds_takeaway": "Consider sepsis as a potential cause of prolonged ICU stay in patients with prolonged hospitalization.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42262517",
@@ -3337,7 +3341,9 @@
         "ai_key_stats": "n=404, NLR 4.26 (optimal cutoff), SII 958 (optimal cutoff), HALP 2.15 (optimal cutoff), AUC NLR 0.80 (95% CI 0.74-0.85), AUC SII 0.76 (95% CI 0.71-0.81), AUC HALP 0.76 (95% CI 0.70-0.81)",
         "ai_summary": "This study examined the association between hematological parameters and mortality in patients with acute respiratory distress syndrome (ARDS). The researchers found that the neutrophil-to-lymphocyte ratio (NLR), systemic immune-inflammation index (SII), and hemoglobin-albumin-lymphocyte-platelet (HALP) score were significantly associated with mortality in ARDS patients. NLR showed the strongest prognostic performance for mortality.",
         "ai_significance": "These findings suggest that routine hematological parameters and derived inflammatory indices may offer practical value for early risk stratification and clinical decision-making in patients with ARDS, particularly in resource-limited settings.",
-        "ai_rounds_takeaway": "Consider calculating the neutrophil-to-lymphocyte ratio (NLR) in patients with acute respiratory distress syndrome (ARDS) to aid in early risk stratification and clinical decision-making."
+        "ai_rounds_takeaway": "Consider calculating the neutrophil-to-lymphocyte ratio (NLR) in patients with acute respiratory distress syndrome (ARDS) to aid in early risk stratification and clinical decision-making.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42240436",
@@ -3362,7 +3368,9 @@
         "ai_key_stats": "",
         "ai_summary": "This review examined current methods for assessing tissue perfusion in critically ill patients. It found that a combination of monitoring tools, including capillary refill time, can provide a more accurate picture of perfusion. The review suggests that monitoring should be individualized and guided by patient risk and uncertainty.",
         "ai_significance": "This review provides a framework for clinicians to assess tissue perfusion in critically ill patients, which can help guide resuscitation efforts and reduce unnecessary therapeutic escalation.",
-        "ai_rounds_takeaway": "Consider using capillary refill time as a clinical anchor for perfusion assessment, and escalate monitoring based on patient risk and uncertainty."
+        "ai_rounds_takeaway": "Consider using capillary refill time as a clinical anchor for perfusion assessment, and escalate monitoring based on patient risk and uncertainty.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42198795",
@@ -3937,8 +3945,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "renal",
         "category_label": "Renal",
         "category_ids": [
@@ -4041,8 +4047,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "infectious-sepsis",
         "category_label": "Infectious Disease & Sepsis",
         "category_ids": [
@@ -4141,6 +4145,90 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Protocolized Reduction of Non-resuscitation Fluids Versus Usual Care in Septic Shock Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06140147",
+        "source": "Region Skane",
+        "author": "",
+        "pubdate": "2026-09-18",
+        "summary": "The objective of this trial is to assess the beneficial and harmful effects of a restrictive strategy for administration of non-resuscitation fluids in adult patients with septic shock.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06140147",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Efficacy of DEXamethasone in Patients With Acute Hypoxemic REspiratory Failure Caused by INfEctions",
+        "url": "https://clinicaltrials.gov/study/NCT04545242",
+        "source": "Hospital Universitario de Gran Canaria Doctor Negrín",
+        "author": "",
+        "pubdate": "2026-09-18",
+        "summary": "Background: There are no proven therapies specific for pulmonary dysfunction in patients with acute hypoxemic respiratory failure (AHRF) caused by infections (including Covid-19). The full spectrum of AHRF ranges from mild respiratory tract illness to severe pneumonia, acute respiratory distress syndrome (ARDS), multiorgan failure, and death. The efficacy of corticosteroids in AHRF and ARDS caused by infections remains controversial. Methods: This is a multicenter, randomized, controlled, open-l",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04545242",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Cell Therapy With Treg Cells Obtained From Thymic Tissue (thyTreg) to Control the Immune Hyperactivation Associated With COVID-19 and/or Acute Respiratory Distress Syndrome (THYTECH2)",
+        "url": "https://clinicaltrials.gov/study/NCT06052436",
+        "source": "Hospital General Universitario Gregorio Marañon",
+        "author": "",
+        "pubdate": "2026-09-18",
+        "summary": "The investigators developed a GMP protocol to isolate Treg cells from thymic tissue (thyTreg). The thyTreg cells are being evaluated in a Phase I/II clinical trial to evaluate the safety and efficacy of the adoptive transfer of autologous thyTreg to prevent rejection in heart transplant children (NCT04924491), with preliminary results indicating the feasibility and safety of the therapy. In addition, thyTreg cells have shown low immunogenicity in the pre-clinical setting, indicating that allogen",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06052436",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Post-ICU Syndrome and Social Determinants of Healths",
+        "url": "https://clinicaltrials.gov/study/NCT07828301",
+        "source": "Pontificia Universidad Catolica de Chile",
+        "author": "",
+        "pubdate": "2026-09-18",
+        "summary": "Medical intensive care has improved dramatically, and today, 70% to 80% of critically ill patients survive. However, several survivors face long-term psychological, cognitive, and/or physical sequelae after discharge and challenges in resuming their lives. These conditions are known as Post-Intensive Care Syndrome (PICS). PICS is a multifaceted disorder that affects many patients who survive critical illness and receive treatment in the ICU. 'It can persist for weeks, months, and years after dis",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07828301",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Heart Rate Variability for Practitioner Stimulated Reflection and Decision-making Optimisation",
+        "url": "https://clinicaltrials.gov/study/NCT07709364",
+        "source": "Papworth Hospital NHS Foundation Trust",
+        "author": "",
+        "pubdate": "2026-09-18",
+        "summary": "At the heart of healthcare is the interaction between healthcare practitioners and patients. It is believed that optimisation of this interaction can improve patient relevant outcomes, safety and patient experience. Through utilisation of practitioner physiological data, heart rate variability (HRV), to help practitioners make better decisions and optimise practice, it is considered possible to improve decision making around patient care and improve outcomes and safety. The modern intensive care",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07709364",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Prognostic Value of Novel Biomarkers on Adverse Renal Outcomes in High-Risk Cardiac Surgery Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07418242",
+        "source": "Guowei Tu",
+        "author": "",
+        "pubdate": "2026-09-18",
+        "summary": "This project aims to detect novel biomarkers from preoperative and early postoperative serum and urine samples of patients to screen and analyze the risk factors for predicting adverse postoperative renal outcomes in high-risk patients in cardiac surgery.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07418242",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
         "url": "https://clinicaltrials.gov/study/NCT06607003",
         "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
@@ -4166,9 +4254,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04221737",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04221737"
       },
       {
         "title": "Metabolic and Functional Study of γδ T Cells in Critically Ill Patients",
@@ -4180,9 +4266,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07680816",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07680816"
       },
       {
         "title": "Association of ICU Admission Time, Age Stratification, and Clinical Frailty Scale With 30-Day Mortality in Geriatric Oncology Patients",
@@ -4194,9 +4278,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07825090",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07825090"
       },
       {
         "title": "The Prevalence of the Aortic to Radial Pressure Gradient in States of Shock, Outside the Context of Cardiac Surgery, a Prospective Study",
@@ -4208,9 +4290,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06460519",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06460519"
       },
       {
         "title": "Evaluation of Pressure Injury Risks in Hemofiltration",
@@ -4222,9 +4302,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07825727",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07825727"
       },
       {
         "title": "Post Acute Sequelae of COVID-19",
@@ -4236,9 +4314,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04964115",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04964115"
       },
       {
         "title": "Comparative Efficacy and Safety of Propofol-Ketamine Combination Versus Propofol Monotherapy in Geriatric Patients Under Invasive Ventilation",
@@ -4250,9 +4326,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07530146",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07530146"
       },
       {
         "title": "Curcumin in Critically Ill Patients With Sepsis",
@@ -4264,9 +4338,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07436130",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07436130"
       },
       {
         "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
@@ -5902,7 +5974,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07774962"
+        "nct_id": "NCT07774962",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Development and Effectiveness Evaluation of a Clustered Care Guideline Within Individualized Developmental Care: RCT",
@@ -5914,7 +5988,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07052786"
+        "nct_id": "NCT07052786",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "ICCA-Based ICU Physiological State Space Monitor",
@@ -5926,7 +6002,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07773571"
+        "nct_id": "NCT07773571",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Utilization of Lung Ultrasound Score in Decision for Minimally Invasive Surfactant Administration",
@@ -5938,7 +6016,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07442669"
+        "nct_id": "NCT07442669",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dexamethasone for Treating Severe Hospital-acquired Pneumonia in Critically Ill Patients With a Proinflammatory Phenotype",
@@ -5950,7 +6030,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06269900"
+        "nct_id": "NCT06269900",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dysfunctional Myelopoiesis and Myeloid-Derived Suppressor Cells in Sepsis",
@@ -5962,7 +6044,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05110937"
+        "nct_id": "NCT05110937",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Multicenter Symphony IL-6 Monitoring Sepsis ICU Validation Study",
@@ -5974,7 +6058,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06654895"
+        "nct_id": "NCT06654895",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Nutritional Intake in Patients on Noninvasive Ventilation: a Prospective Observational Study",
@@ -5986,9 +6072,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06740981",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06740981"
       },
       {
         "title": "AI Based Muscular Ultrasound to Assess Intensive Care Unit-acquired Weakness",
@@ -6000,9 +6084,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06765551",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06765551"
       },
       {
         "title": "Vascular ARDS Recruitment After Inhaled Nitric Oxide",
@@ -6014,9 +6096,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05801224",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05801224"
       },
       {
         "title": "Peripheral pULSe Assessment and Arterial pRessure (PULSAR)",
@@ -6028,9 +6108,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07609095",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07609095"
       },
       {
         "title": "Inflammation Indıces and Mortality in Adult Crush Syndrome",
@@ -6042,9 +6120,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07433127",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07433127"
       },
       {
         "title": "Can a Pain Monitor Predict When Postoperative Intensive Care Unit Patients Are Ready to Breathe on Their Own? A Pilot Study",
@@ -6056,9 +6132,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07771101",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07771101"
       },
       {
         "title": "Prospective Validation of AKI Prediction",
@@ -6070,7 +6144,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06804200"
+        "nct_id": "NCT06804200",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Vancomycin Piperacillin/Tazobactam (VPT) Patient Safety Trial (VPS)",
@@ -6082,7 +6158,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07556107"
+        "nct_id": "NCT07556107",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Evaluate the Safety and Pharmacokinetics of AZD7760 in Healthy Japanese Adults",
@@ -6094,7 +6172,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07612813"
+        "nct_id": "NCT07612813",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparative Study of Clinical Diagnoses and Autopsy Findings in Intensive Care",
@@ -6106,7 +6186,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07769801"
+        "nct_id": "NCT07769801",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Validation of SOFA-2 for Mortality and Sepsis-3 Prevalence in Turkey",
@@ -7447,8 +7529,8 @@
       "Which ICU patients are most likely to benefit from these findings, and who may not?",
       "Would these results change current bedside practice or require further validation?"
     ],
-    "week": "2026-09-12",
-    "generated_at": "2026-09-12T07:26:04+00:00"
+    "week": "2026-09-19",
+    "generated_at": "2026-09-19T07:38:15+00:00"
   },
   "categories": [
     {
@@ -7550,7 +7632,7 @@
             "Rochwerg B"
           ],
           "doi": "10.1016/j.chest.2026.07.5239",
-          "abstract": "BACKGROUND: Tracheal intubation is a common yet high risk procedure in the critically ill with as many as half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: We aimed to evaluate the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of the critically ill patient in the emergency department, intensive care unit, operating room, and pre-hospital setting. STUDY DESIGN & METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception to December 10, 2025 for Randomized controlled trials (RCTs) comparing two or more sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, intensive care unit and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across Intensive Care Unit, Emergency Department, Operating Room, and pre-hospital settings. Compared with etomidate, there is probably more hemodynamic instability during intubation with ketamine (RR 1.31, 95% CI 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR 0.44, 95% CI 0.27-0.72; low certainty) and ketamine (RR 0.34, 95% CI 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of post-intubation continuous infusion vasopressors (RR 0.80, 95% CI 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: When considering sedation agents for endotracheal intubation of the critically ill, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of post-intubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine though the available evidence is too limited and uncertain to support firm conclusions and further randomized trials are needed.",
+          "abstract": "BACKGROUND: Tracheal intubation is a common yet high-risk procedure in critically ill patients, with as many as one-half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: What is the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of critically ill patients in the emergency department (ED), ICU, operating room, and prehospital setting? STUDY DESIGN AND METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception through December 10, 2025, for randomized controlled trials (RCTs) comparing ≥ 2 sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, ICU and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across ICU, ED, operating room, and prehospital settings. Compared with etomidate, more hemodynamic instability exists during intubation with ketamine (relative risk [RR], 1.31; 95% CI, 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR, 0.44; 95% CI, 0.27-0.72; low certainty) and ketamine (RR, 0.34; 95% CI, 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of postintubation continuous infusion vasopressors (RR, 0.80; 95% CI, 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: Our results show that when considering sedation agents for endotracheal intubation of critically ill patients, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of postintubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine, although the available evidence is too limited and uncertain to support firm conclusions, and further randomized trials are needed. CLINICAL TRIAL REGISTRATION: International Prospective Register of Systematic Reviews; No.: CRD42024600739; URL: https://www.crd.york.ac.uk/prospero/.",
           "citation_count": 0,
           "is_top_journal": true,
           "study_type": "Study",
@@ -7559,9 +7641,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42267831",
@@ -7758,7 +7838,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488188/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432793",
@@ -9226,7 +9308,7 @@
             "Rochwerg B"
           ],
           "doi": "10.1016/j.chest.2026.07.5239",
-          "abstract": "BACKGROUND: Tracheal intubation is a common yet high risk procedure in the critically ill with as many as half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: We aimed to evaluate the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of the critically ill patient in the emergency department, intensive care unit, operating room, and pre-hospital setting. STUDY DESIGN & METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception to December 10, 2025 for Randomized controlled trials (RCTs) comparing two or more sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, intensive care unit and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across Intensive Care Unit, Emergency Department, Operating Room, and pre-hospital settings. Compared with etomidate, there is probably more hemodynamic instability during intubation with ketamine (RR 1.31, 95% CI 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR 0.44, 95% CI 0.27-0.72; low certainty) and ketamine (RR 0.34, 95% CI 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of post-intubation continuous infusion vasopressors (RR 0.80, 95% CI 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: When considering sedation agents for endotracheal intubation of the critically ill, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of post-intubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine though the available evidence is too limited and uncertain to support firm conclusions and further randomized trials are needed.",
+          "abstract": "BACKGROUND: Tracheal intubation is a common yet high-risk procedure in critically ill patients, with as many as one-half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: What is the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of critically ill patients in the emergency department (ED), ICU, operating room, and prehospital setting? STUDY DESIGN AND METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception through December 10, 2025, for randomized controlled trials (RCTs) comparing ≥ 2 sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, ICU and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across ICU, ED, operating room, and prehospital settings. Compared with etomidate, more hemodynamic instability exists during intubation with ketamine (relative risk [RR], 1.31; 95% CI, 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR, 0.44; 95% CI, 0.27-0.72; low certainty) and ketamine (RR, 0.34; 95% CI, 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of postintubation continuous infusion vasopressors (RR, 0.80; 95% CI, 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: Our results show that when considering sedation agents for endotracheal intubation of critically ill patients, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of postintubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine, although the available evidence is too limited and uncertain to support firm conclusions, and further randomized trials are needed. CLINICAL TRIAL REGISTRATION: International Prospective Register of Systematic Reviews; No.: CRD42024600739; URL: https://www.crd.york.ac.uk/prospero/.",
           "citation_count": 0,
           "is_top_journal": true,
           "study_type": "Study",
@@ -9235,9 +9317,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42377460",
@@ -11259,7 +11339,7 @@
             "Rochwerg B"
           ],
           "doi": "10.1016/j.chest.2026.07.5239",
-          "abstract": "BACKGROUND: Tracheal intubation is a common yet high risk procedure in the critically ill with as many as half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: We aimed to evaluate the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of the critically ill patient in the emergency department, intensive care unit, operating room, and pre-hospital setting. STUDY DESIGN & METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception to December 10, 2025 for Randomized controlled trials (RCTs) comparing two or more sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, intensive care unit and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across Intensive Care Unit, Emergency Department, Operating Room, and pre-hospital settings. Compared with etomidate, there is probably more hemodynamic instability during intubation with ketamine (RR 1.31, 95% CI 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR 0.44, 95% CI 0.27-0.72; low certainty) and ketamine (RR 0.34, 95% CI 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of post-intubation continuous infusion vasopressors (RR 0.80, 95% CI 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: When considering sedation agents for endotracheal intubation of the critically ill, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of post-intubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine though the available evidence is too limited and uncertain to support firm conclusions and further randomized trials are needed.",
+          "abstract": "BACKGROUND: Tracheal intubation is a common yet high-risk procedure in critically ill patients, with as many as one-half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: What is the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of critically ill patients in the emergency department (ED), ICU, operating room, and prehospital setting? STUDY DESIGN AND METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception through December 10, 2025, for randomized controlled trials (RCTs) comparing ≥ 2 sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, ICU and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across ICU, ED, operating room, and prehospital settings. Compared with etomidate, more hemodynamic instability exists during intubation with ketamine (relative risk [RR], 1.31; 95% CI, 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR, 0.44; 95% CI, 0.27-0.72; low certainty) and ketamine (RR, 0.34; 95% CI, 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of postintubation continuous infusion vasopressors (RR, 0.80; 95% CI, 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: Our results show that when considering sedation agents for endotracheal intubation of critically ill patients, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of postintubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine, although the available evidence is too limited and uncertain to support firm conclusions, and further randomized trials are needed. CLINICAL TRIAL REGISTRATION: International Prospective Register of Systematic Reviews; No.: CRD42024600739; URL: https://www.crd.york.ac.uk/prospero/.",
           "citation_count": 0,
           "is_top_journal": true,
           "study_type": "Study",
@@ -11268,9 +11348,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42171427",
@@ -12202,7 +12280,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488188/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506363",
@@ -14254,7 +14334,7 @@
             "Rochwerg B"
           ],
           "doi": "10.1016/j.chest.2026.07.5239",
-          "abstract": "BACKGROUND: Tracheal intubation is a common yet high risk procedure in the critically ill with as many as half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: We aimed to evaluate the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of the critically ill patient in the emergency department, intensive care unit, operating room, and pre-hospital setting. STUDY DESIGN & METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception to December 10, 2025 for Randomized controlled trials (RCTs) comparing two or more sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, intensive care unit and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across Intensive Care Unit, Emergency Department, Operating Room, and pre-hospital settings. Compared with etomidate, there is probably more hemodynamic instability during intubation with ketamine (RR 1.31, 95% CI 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR 0.44, 95% CI 0.27-0.72; low certainty) and ketamine (RR 0.34, 95% CI 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of post-intubation continuous infusion vasopressors (RR 0.80, 95% CI 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: When considering sedation agents for endotracheal intubation of the critically ill, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of post-intubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine though the available evidence is too limited and uncertain to support firm conclusions and further randomized trials are needed.",
+          "abstract": "BACKGROUND: Tracheal intubation is a common yet high-risk procedure in critically ill patients, with as many as one-half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: What is the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of critically ill patients in the emergency department (ED), ICU, operating room, and prehospital setting? STUDY DESIGN AND METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception through December 10, 2025, for randomized controlled trials (RCTs) comparing ≥ 2 sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, ICU and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across ICU, ED, operating room, and prehospital settings. Compared with etomidate, more hemodynamic instability exists during intubation with ketamine (relative risk [RR], 1.31; 95% CI, 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR, 0.44; 95% CI, 0.27-0.72; low certainty) and ketamine (RR, 0.34; 95% CI, 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of postintubation continuous infusion vasopressors (RR, 0.80; 95% CI, 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: Our results show that when considering sedation agents for endotracheal intubation of critically ill patients, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of postintubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine, although the available evidence is too limited and uncertain to support firm conclusions, and further randomized trials are needed. CLINICAL TRIAL REGISTRATION: International Prospective Register of Systematic Reviews; No.: CRD42024600739; URL: https://www.crd.york.ac.uk/prospero/.",
           "citation_count": 0,
           "is_top_journal": true,
           "study_type": "Study",
@@ -14263,9 +14343,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42149702",
@@ -14681,7 +14759,7 @@
             "Rochwerg B"
           ],
           "doi": "10.1016/j.chest.2026.07.5239",
-          "abstract": "BACKGROUND: Tracheal intubation is a common yet high risk procedure in the critically ill with as many as half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: We aimed to evaluate the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of the critically ill patient in the emergency department, intensive care unit, operating room, and pre-hospital setting. STUDY DESIGN & METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception to December 10, 2025 for Randomized controlled trials (RCTs) comparing two or more sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, intensive care unit and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation (GRADE) approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across Intensive Care Unit, Emergency Department, Operating Room, and pre-hospital settings. Compared with etomidate, there is probably more hemodynamic instability during intubation with ketamine (RR 1.31, 95% CI 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR 0.44, 95% CI 0.27-0.72; low certainty) and ketamine (RR 0.34, 95% CI 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of post-intubation continuous infusion vasopressors (RR 0.80, 95% CI 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: When considering sedation agents for endotracheal intubation of the critically ill, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of post-intubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine though the available evidence is too limited and uncertain to support firm conclusions and further randomized trials are needed.",
+          "abstract": "BACKGROUND: Tracheal intubation is a common yet high-risk procedure in critically ill patients, with as many as one-half experiencing peri-intubation adverse outcomes. RESEARCH QUESTION: What is the comparative effectiveness and safety of various sedative agents used for endotracheal intubation of critically ill patients in the emergency department (ED), ICU, operating room, and prehospital setting? STUDY DESIGN AND METHODS: We conducted a network meta-analysis and systematic review of randomized controlled trials. We searched MEDLINE, EMBASE, PubMed, Cochrane, and trial registries from inception through December 10, 2025, for randomized controlled trials (RCTs) comparing ≥ 2 sedative agents in critically ill adults or children undergoing endotracheal intubation. Outcomes of interest were hemodynamic instability during intubation, hypoxemia, cardiac arrest, mortality, ICU and hospital length of stay, vasopressor use, adrenal insufficiency, and first-pass success. Reviewers screened, extracted data, and assessed risk of bias using the Cochrane RoB 2 tool independently and in duplicate. We performed frequentist random-effects model network meta-analysis and used the Grading of Recommendations, Assessment, Development, and Evaluation approach to rate certainty in estimates. RESULTS: We included 21 RCTs enrolling 6,031 patients across ICU, ED, operating room, and prehospital settings. Compared with etomidate, more hemodynamic instability exists during intubation with ketamine (relative risk [RR], 1.31; 95% CI, 1.15-1.48; moderate certainty). Ketamine-propofol may decrease hemodynamic instability during intubation compared with etomidate (RR, 0.44; 95% CI, 0.27-0.72; low certainty) and ketamine (RR, 0.34; 95% CI, 0.21-0.56; low certainty). Compared with etomidate, ketamine may decrease the need for the initiation of postintubation continuous infusion vasopressors (RR, 0.80; 95% CI, 0.50-1.28; low certainty). Etomidate caused increased adrenal suppression compared with other agents. INTERPRETATION: Our results show that when considering sedation agents for endotracheal intubation of critically ill patients, etomidate probably causes less hemodynamic instability during intubation when compared with ketamine. However, etomidate may increase the need for the initiation of postintubation continuous infusion vasopressors when compared with ketamine and increases adrenal suppression. The clinical importance of these competing effects remains uncertain. Ketamine-propofol may decrease hemodynamic instability during intubation when compared with etomidate and ketamine, although the available evidence is too limited and uncertain to support firm conclusions, and further randomized trials are needed. CLINICAL TRIAL REGISTRATION: International Prospective Register of Systematic Reviews; No.: CRD42024600739; URL: https://www.crd.york.ac.uk/prospero/.",
           "citation_count": 0,
           "is_top_journal": true,
           "study_type": "Study",
@@ -14690,9 +14768,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42294965",
