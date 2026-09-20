@@ -8867,6 +8867,17 @@
       "study_type": "Preprint (not peer-reviewed)",
       "is_open_access": true,
       "is_preprint": true
+    },
+    "https://doi.org/10.64898/2026.09.03.26361736": {
+      "title": "Optical compression of multimodal clinical data into a unified visual memory for generative trajectory forecasting",
+      "url": "https://doi.org/10.64898/2026.09.03.26361736",
+      "source": "medRxiv preprint",
+      "author": "Xuefeng B Ling",
+      "pubdate": "2026-09-07",
+      "summary": "ImportanceCurrent clinical artificial intelligence is bottlenecked by highly specialized, fragmented models that reduce complex, multimodal data into isolated scalar predictions. By reframing multimodal perception as a pure vision problem, optical compression into a universal visual operating system can resolve internal data interaction bottlenecks and shift the paradigm toward continuous, generative clinical forecasting. ObjectiveTo develop and internally validate Clinical Visual Memory, a gene",
+      "study_type": "Preprint (not peer-reviewed)",
+      "is_open_access": true,
+      "is_preprint": true
     }
   },
   "trials": {
