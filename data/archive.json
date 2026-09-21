@@ -8799,6 +8799,30 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562014/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42729399/",
       "society": "KDIGO"
+    },
+    "42763706": {
+      "pmid": "42763706",
+      "title": "Machine Learning Prediction and Causal Forest Analysis of Severe Acute Kidney Injury in ICU Patients with COPD: A MIMIC-IV Study.",
+      "journal": "International journal of chronic obstructive pulmonary disease",
+      "pubdate": "2026",
+      "authors": [
+        "Fang L",
+        "Wang F",
+        "Chen J",
+        "Zheng Y"
+      ],
+      "doi": "10.2147/COPD.S611985",
+      "abstract": "BACKGROUND: Severe acute kidney injury (AKI) is frequent in critically ill patients with chronic obstructive pulmonary disease (COPD), but predictive importance does not establish causality. OBJECTIVE: To model severe AKI (KDIGO stage 3), evaluate temporal robustness at a 24-hour ICU landmark, and explore adjusted exposure-effect estimates. METHODS: This retrospective MIMIC-IV v3.1 cohort included 4,705 adults with COPD. The original modeling dataset was split into training (n = 3,294) and testing (n = 1,411) sets. Consensus features from LASSO, Boruta, and random-forest importance informed 15 classifiers; the highest observed test-set AUC was interpreted with SHAP. A 24-hour landmark analysis excluded earlier stage 3 AKI and used pre-landmark predictors for incident stage 3 AKI thereafter. CausalForestDML estimated exploratory adjusted effects of the most recent valid creatinine within 365 days before ICU admission. RESULTS: Severe AKI occurred in 1,085 patients (23.06%). The original six-feature CatBoost model included total ICU length of stay and had an AUC of 0.848 (95% CI, 0.825-0.872); it is interpreted as a retrospective trajectory model. The landmark cohort included 4,171 patients and 841 events. The temporal five-feature AUC was 0.679 (95% CI, 0.641-0.717); without pre-ICU creatinine it was 0.686 (95% CI, 0.648-0.724; paired difference, -0.0067; P = 0.293). The adjusted creatinine risk difference was 0.0547 per 1 mg/dL (95% CI, -0.0021 to 0.1115) and 0.0705 (95% CI, 0.0022-0.1387) after 1st-99th percentile trimming. CONCLUSION: This study establishes a COPD-specific benchmark showing that a parsimonious model can characterize severe-AKI trajectories and that temporal separation materially changes performance and interpretation. Integrating model comparison, SHAP, adjusted-effect estimation, and landmark validation provides a rigorous framework for distinguishing prognostic importance from causal relevance and defines priorities for external validation.",
+      "citation_count": 48,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "21",
+      "issue": "",
+      "pages": "611985",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13589527/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42763706/",
+      "society": "KDIGO"
     }
   },
   "preprints": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T08:02:14+00:00",
+  "generated_at": "2026-09-21T08:21:19+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -81,31 +81,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13508364/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/"
-      },
-      {
-        "pmid": "42629591",
-        "title": "Psychosocial coping with intensive care delirium: a mixed-methods systematic review of patient and family perspectives.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 21",
-        "authors": [
-          "Oh E",
-          "Marx-Rosenberg G",
-          "Schimböck F",
-          "Groth N",
-          "Nydahl P",
-          "Gallinat J"
-        ],
-        "doi": "10.1186/s13054-026-06232-1",
-        "abstract": "OBJECTIVE: This review aims to identify, synthesize, and critically appraise evidence on psychosocial coping strategies employed by intensive care unit (ICU) patients and their family caregivers during an episode of ICU delirium, organized within the transactional model of stress and coping. DESIGN: Mixed-methods systematic review (MMSR) following the Joanna Briggs Institute (JBI). INFORMATION SOURCES: A systematic search was conducted in MEDLINE (PubMed), CINAHL, PsycINFO, and PSYNDEX. The literature search concluded on the 6th of November 2025. METHODS: Following JBI methodology for mixed-methods systematic reviews, qualitative findings were analyzed using the JBI meta-aggregation approach. Methodological quality was assessed using the Mixed-Methods Appraisal Tool (MMAT). The transactional model of stress and coping served as the theoretical framework. Reporting followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 statement. RESULTS: Ten qualitative studies were included, originating from seven countries, published between 1999 and 2025. No quantitative studies meeting the eligibility criteria were identified, representing a significant gap in literature. Patients employed problem-focused coping strategies (active sense-making, reality orientation, proactive avoidance of delirium triggers), emotion-focused strategies (social connection, distancing, self-control), and meaning-based strategies (positive reappraisal, identity restoration). Families directed coping efforts both at supporting the patient through emotional presence, active reorientation, cognitive stimulation, and collaboration with the healthcare team, and at managing their own distress through information-seeking, avoidance, and positive reappraisal. CONCLUSIONS: Both ICU patients and their families actively employ a broad range of coping strategies in response to delirium, consistent with the transactional model of stress and coping. Family caregivers emerge as a primary coping resource for patients while simultaneously managing their own psychological burden. These findings suggest that coping strategies may directly influence the trajectory of delirium-related psychological distress, and provide an evidence base for developing patient- and family-centered, coping-informed psychosocial interventions in ICU delirium care.",
-        "citation_count": 47,
-        "is_top_journal": true,
-        "study_type": "Systematic Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495211/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/"
       },
       {
         "pmid": "42262338",
@@ -326,6 +301,27 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533464/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42289099/"
+      },
+      {
+        "pmid": "42665838",
+        "title": "\"Decoding candidemia in critically ill patients: unsupervised clustering identifies three unique phenotypes\": algorithmic tautology and feature selection bias.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Aug 28",
+        "authors": [
+          "Yang Z",
+          "Zhang Y"
+        ],
+        "doi": "10.1186/s13054-026-06277-2",
+        "abstract": "",
+        "citation_count": 4,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13523429/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/"
       }
     ]
   },
@@ -2588,6 +2584,32 @@
         "society": "KDIGO"
       },
       {
+        "pmid": "42763706",
+        "title": "Machine Learning Prediction and Causal Forest Analysis of Severe Acute Kidney Injury in ICU Patients with COPD: A MIMIC-IV Study.",
+        "journal": "International journal of chronic obstructive pulmonary disease",
+        "pubdate": "2026",
+        "authors": [
+          "Fang L",
+          "Wang F",
+          "Chen J",
+          "Zheng Y"
+        ],
+        "doi": "10.2147/COPD.S611985",
+        "abstract": "BACKGROUND: Severe acute kidney injury (AKI) is frequent in critically ill patients with chronic obstructive pulmonary disease (COPD), but predictive importance does not establish causality. OBJECTIVE: To model severe AKI (KDIGO stage 3), evaluate temporal robustness at a 24-hour ICU landmark, and explore adjusted exposure-effect estimates. METHODS: This retrospective MIMIC-IV v3.1 cohort included 4,705 adults with COPD. The original modeling dataset was split into training (n = 3,294) and testing (n = 1,411) sets. Consensus features from LASSO, Boruta, and random-forest importance informed 15 classifiers; the highest observed test-set AUC was interpreted with SHAP. A 24-hour landmark analysis excluded earlier stage 3 AKI and used pre-landmark predictors for incident stage 3 AKI thereafter. CausalForestDML estimated exploratory adjusted effects of the most recent valid creatinine within 365 days before ICU admission. RESULTS: Severe AKI occurred in 1,085 patients (23.06%). The original six-feature CatBoost model included total ICU length of stay and had an AUC of 0.848 (95% CI, 0.825-0.872); it is interpreted as a retrospective trajectory model. The landmark cohort included 4,171 patients and 841 events. The temporal five-feature AUC was 0.679 (95% CI, 0.641-0.717); without pre-ICU creatinine it was 0.686 (95% CI, 0.648-0.724; paired difference, -0.0067; P = 0.293). The adjusted creatinine risk difference was 0.0547 per 1 mg/dL (95% CI, -0.0021 to 0.1115) and 0.0705 (95% CI, 0.0022-0.1387) after 1st-99th percentile trimming. CONCLUSION: This study establishes a COPD-specific benchmark showing that a parsimonious model can characterize severe-AKI trajectories and that temporal separation materially changes performance and interpretation. Integrating model comparison, SHAP, adjusted-effect estimation, and landmark validation provides a rigorous framework for distinguishing prognostic importance from causal relevance and defines priorities for external validation.",
+        "citation_count": 48,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "21",
+        "issue": "",
+        "pages": "611985",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13589527/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42763706/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42415882",
         "title": "Practice Pattern of Critical Care UltraSonography in India (POCUS India): A Multicenter Cross-sectional Survey.",
         "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
@@ -3384,9 +3406,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study assessed the awareness levels of infection control and prevention among intensive care nurses in Saudi Arabia. The results showed that most nurses had unsatisfactory awareness of hospital-acquired infections, despite being aware of standard precautions. There was a significant difference between nurses' educational level and their workplace awareness of infection control and prevention measures.",
         "ai_significance": "This study highlights the need for targeted educational interventions to improve infection control awareness among ICU nurses, which is crucial for preventing hospital-acquired infections and ensuring patient safety.",
-        "ai_rounds_takeaway": "Consider implementing targeted educational interventions to improve infection control awareness among ICU nurses.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing targeted educational interventions to improve infection control awareness among ICU nurses."
       },
       {
         "pmid": "42192544",
@@ -3412,9 +3432,7 @@
         "ai_key_stats": "",
         "ai_summary": "This qualitative study explored the experiences of critical care nurses managing patients receiving continuous kidney replacement therapy in Saudi Arabian ICUs. Nurses described the complex and emotionally demanding nature of this care, requiring technical, relational, and moral competencies. Four themes emerged from the analysis, highlighting the need for structured education and support.",
         "ai_significance": "This study highlights the importance of considering the emotional and relational aspects of critical care, particularly in managing patients receiving CKRT, and underscores the need for structured education and support for critical care nurses.",
-        "ai_rounds_takeaway": "Consider implementing structured CKRT education and simulation-based training for critical care nurses to enhance their technical and relational competencies.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing structured CKRT education and simulation-based training for critical care nurses to enhance their technical and relational competencies."
       },
       {
         "pmid": "42357610",
@@ -3445,9 +3463,7 @@
         "ai_key_stats": "n=33, virological response 65.6%, median time to undetectable CMV viral load 28 days",
         "ai_summary": "This study evaluated the effectiveness of cytomegalovirus immunoglobulin (CMVIG) in treating severe or refractory CMV infection in transplant recipients. The results showed that CMVIG was well-tolerated but had a limited virological response rate of 65.6%. The study also found a high mortality rate despite virological response.",
         "ai_significance": "This study highlights the need for further research on the effectiveness of CMVIG in combination with standard antiviral therapy for treating CMV infection in critically ill transplant recipients.",
-        "ai_rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using CMVIG as adjunct therapy in patients with severe or refractory CMV infection, but be aware of the high mortality rate in this population."
       },
       {
         "pmid": "42194645",
@@ -3476,9 +3492,7 @@
         "ai_key_stats": "n=341, CAR 35.5 vs 18.1 (p=0.008), AUC 0.637 (95% CI 0.543-0.732), HR 3.02 (95% CI 1.48-6.17, p=0.0024)",
         "ai_summary": "Researchers studied the C-reactive protein-to-albumin ratio (CAR) as a prognostic marker in ICU patients with pre-existing hypertension and diabetes. They found that higher CAR levels were associated with increased 30-day mortality. CAR may be a useful tool for mortality risk stratification in these patients.",
         "ai_significance": "This study's findings suggest that CAR could help clinicians identify ICU patients with pre-existing hypertension and diabetes who are at higher risk of mortality, allowing for more targeted care.",
-        "ai_rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using the C-reactive protein-to-albumin ratio as a tool to risk-stratify ICU patients with pre-existing hypertension and diabetes."
       },
       {
         "pmid": "42237964",
@@ -3510,9 +3524,7 @@
         "ai_key_stats": "n=505, 64.4% male, 33.5% diabetes mellitus, 34.3% hypertension, 86.1% CTAS level 2, mean ED LOS 5.5 hours, 68.7% hospitalization, mean hospitalization 13 days, 8.5% mortality, 14.3% CTAS 1 mortality, 7.6% CTAS 2 mortality",
         "ai_summary": "This study reviewed the outcomes of 505 critically ill patients presenting to the emergency department of a tertiary care center in Jeddah, Saudi Arabia. The majority were male, had diabetes or hypertension, and required hospitalization. The mortality rate was 8.5%.",
         "ai_significance": "Understanding the characteristics and outcomes of critically ill patients in the emergency department can inform resource allocation and guide future planning in similar settings.",
-        "ai_rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider a higher index of suspicion for cardiac issues in male patients presenting with shortness of breath."
       },
       {
         "pmid": "42472230",
@@ -3544,9 +3556,7 @@
         "ai_key_stats": "n=5582, OR 1.82 (95% CI 1.45-2.28), p<0.001",
         "ai_summary": "This study investigated respiratory bacterial pathogens in a Saudi hospital from 2023-2025. The most common pathogens were Pseudomonas aeruginosa and Klebsiella spp. Multidrug-resistant organisms (MDROs) were prevalent, especially in critical care settings and during the summer months.",
         "ai_significance": "This study highlights the need for intensified infection control measures and antimicrobial stewardship to reduce MDRO transmission and improve patient outcomes in critical care settings.",
-        "ai_rounds_takeaway": "Consider enhanced infection control measures and antimicrobial stewardship in critically ill patients during the summer months.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider enhanced infection control measures and antimicrobial stewardship in critically ill patients during the summer months."
       },
       {
         "pmid": "42368279",
@@ -3573,9 +3583,7 @@
         "ai_key_stats": "n=270, OR 4.33 (95% CI 1.89-9.92), OR 11.71 (95% CI 3.22-42.62), OR 0.34 (95% CI 0.14-0.81), OR 3.00 (95% CI 0.94-9.52), p=0.01",
         "ai_summary": "Researchers studied central line-associated bloodstream infections in a pediatric ICU over 3 years. They found that infection risk increased sharply after 2 weeks of catheter dwell, especially after 23 days, and was lower with right internal jugular insertion. Fever in the preceding 24 hours also increased infection risk.",
         "ai_significance": "This study's findings support the use of time-triggered line-necessity reviews and careful consideration of insertion site to reduce infection risk in critically ill children.",
-        "ai_rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider removing central lines after 2 weeks of dwell time, especially if fever is present, to reduce infection risk."
       },
       {
         "pmid": "42318382",
@@ -3604,9 +3612,7 @@
         "ai_key_stats": "n=1236, systolic blood pressure reductions 5-22 mmHg, diastolic blood pressure reductions 3.7-14 mmHg, heart rate increases up to 20 bpm, anxiety reduction 86%, sleep quality improvement 100%, pain improvement 100%, sedation outcomes 100%",
         "ai_summary": "This systematic review evaluated the effects of aromatherapy on physiological outcomes in adult ICU patients. Aromatherapy showed moderate effects on cardiovascular parameters, limited effects on respiratory parameters, and strong effects on anxiety, sleep quality, pain, and sedation outcomes. The review highlights the need for further research to understand the mechanisms of aromatherapy in ICU settings.",
         "ai_significance": "These findings suggest that aromatherapy may be a useful adjunctive intervention in critically ill patients, particularly for reducing anxiety and improving sleep quality. However, the evidence is limited by inadequate control for ICU-specific confounders and the absence of biochemical outcome measurements.",
-        "ai_rounds_takeaway": "Consider using aromatherapy as an adjunctive intervention to reduce anxiety in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using aromatherapy as an adjunctive intervention to reduce anxiety in critically ill patients."
       },
       {
         "pmid": "42267263",
@@ -3634,9 +3640,7 @@
         "ai_key_stats": "",
         "ai_summary": "A healthcare worker developed severe polymicrobial keratitis after exposure to nasogastric secretions while caring for a patient. The infection was caused by Acanthamoeba and multiple bacteria. The patient required intensive treatment and surgery to control the infection.",
         "ai_significance": "This case highlights the risk of occupationally acquired infections in healthcare workers, particularly those who wear contact lenses and are exposed to hospital-associated microorganisms.",
-        "ai_rounds_takeaway": "Consider contact lens precautions and infection-control measures for healthcare workers at risk of gastrointestinal splash exposure.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider contact lens precautions and infection-control measures for healthcare workers at risk of gastrointestinal splash exposure."
       },
       {
         "pmid": "42247411",
@@ -3666,9 +3670,7 @@
         "ai_key_stats": "n=144, 28-day mortality 45.5% vs 18.2% (p=0.05), IL7R downregulation",
         "ai_summary": "This study analyzed gene expression in ICU patients with sepsis caused by pneumonia. They found that patients who developed infections in the ICU had different gene expression patterns, particularly a downregulation of the IL7R gene, which may be associated with worse outcomes.",
         "ai_significance": "These findings suggest that early immune dysregulation may be a key factor in the development of secondary infections and poor outcomes in patients with community-acquired pneumonia-induced sepsis.",
-        "ai_rounds_takeaway": "Consider checking IL7R expression in patients with CAP-induced sepsis who develop ICU-acquired infections.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider checking IL7R expression in patients with CAP-induced sepsis who develop ICU-acquired infections."
       },
       {
         "pmid": "42238830",
@@ -3697,9 +3699,7 @@
         "ai_key_stats": "n=188, p < 0.05, 14.9% epileptiform abnormalities, 14.3% periodic abnormalities, 11.2% electrographic seizures",
         "ai_summary": "This study analyzed EEGs from 188 ICU patients to see how often seizures occurred and what factors were associated with them. They found that seizures were more common in older patients, those admitted to the ICU due to status epilepticus, and those with a history of epilepsy. Epileptiform abnormalities were seen in 14.9% of patients.",
         "ai_significance": "This study highlights the importance of routine EEGs in ICU patients with altered mental status, particularly for seizure evaluation, and identifies key factors associated with seizure occurrence.",
-        "ai_rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider routine EEG in ICU patients with altered mental status, particularly those with a history of epilepsy or status epilepticus."
       },
       {
         "pmid": "42602891",
@@ -3730,9 +3730,7 @@
         "ai_key_stats": "",
         "ai_summary": "A young woman with severe burns developed a rare fungal infection of the pericardium, leading to cardiac tamponade. Despite treatment, she progressed to refractory shock and multiorgan failure. This case highlights the challenges of diagnosing and treating fungal pericarditis in critically ill patients.",
         "ai_significance": "This case emphasizes the importance of maintaining a high index of suspicion for fungal infections in burn patients with multisite colonization and prolonged antibiotic exposure, as they can lead to severe complications.",
-        "ai_rounds_takeaway": "Consider fungal pericarditis in burn patients with multisite Candida colonization and prolonged antibiotic exposure.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider fungal pericarditis in burn patients with multisite Candida colonization and prolonged antibiotic exposure."
       },
       {
         "pmid": "42602351",
@@ -3769,9 +3767,7 @@
         "ai_key_stats": "n=456, aOR 0.87 (95% CI 0.81-0.94), p=0.0002",
         "ai_summary": "This study looked at whether giving oseltamivir to critically ill patients with severe acute respiratory illness (SARI) affected their outcomes. Researchers found that patients who received oseltamivir had lower mortality rates compared to those who did not. The benefits of oseltamivir were seen in patients over 70 years old and those without confirmed influenza.",
         "ai_significance": "These findings suggest that oseltamivir may be beneficial in managing critically ill patients with SARI, and clinicians may consider its use in high-risk patients.",
-        "ai_rounds_takeaway": "Consider empirical oseltamivir treatment in critically ill patients with SARI, especially those over 70 years old or without confirmed influenza.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider empirical oseltamivir treatment in critically ill patients with SARI, especially those over 70 years old or without confirmed influenza."
       },
       {
         "pmid": "42625928",
@@ -3800,7 +3796,9 @@
         "pages": "6422952",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13490827/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42707926",
@@ -3828,9 +3826,7 @@
         "pages": "9969987",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13548414/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42707926/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42707926/"
       },
       {
         "pmid": "42340792",
@@ -3868,9 +3864,7 @@
         "ai_key_stats": "n=12347, OR 2.28 (95% CI 1.83-2.83), OR 5.84 (95% CI 1.07-31.83)",
         "ai_summary": "This systematic review and meta-analysis evaluated the prognostic value of CT-assessed sarcopenia, alone or combined with laboratory inflammatory markers, for predicting mortality and other outcomes in critically ill, pulmonary, and geriatric patients. The results showed that CT-assessed sarcopenia, when integrated with laboratory inflammatory markers, provides a robust prognostic framework. The pooled odds ratio for mortality in sarcopenic patients was 2.28, and 5.84 in COVID-19 pulmonary populations.",
         "ai_significance": "This study provides a clinically accessible multimodal prognostic framework for critically ill, pulmonary, and geriatric populations, which can help clinicians make more informed decisions.",
-        "ai_rounds_takeaway": "Consider incorporating CT-assessed sarcopenia and laboratory inflammatory markers into your prognostic assessment for critically ill, pulmonary, and geriatric patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider incorporating CT-assessed sarcopenia and laboratory inflammatory markers into your prognostic assessment for critically ill, pulmonary, and geriatric patients."
       },
       {
         "pmid": "42251513",
@@ -3896,9 +3890,7 @@
         "ai_key_stats": "n=228, ETT size 7.5 mm, rs=0.341 (P<.001), rs=0.190 (p=0.004), aOR 2.38 (95% CI 1.12-5.05), aOR 2.31 (95% CI 1.10-4.86), aOR 1.20 (95% CI 1.02-1.42), aOR 1.95 (95% CI 1.20-3.16), 77% non-compliance with guidelines",
         "ai_summary": "This study reviewed endotracheal tube (ETT) size selection in critically ill patients over 4 years at a Saudi Arabian hospital. The researchers found that ETT size was not consistently chosen according to established guidelines and was associated with patient demographics such as height, sex, and age. They also identified factors that predicted larger ETT size.",
         "ai_significance": "This study highlights the need for more structured and evidence-based approaches to ETT size selection in ICU patients, which could improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using height-based guidelines for ETT size selection in adult ICU patients to improve compliance and patient outcomes."
       },
       {
         "pmid": "42659654",
@@ -4039,42 +4031,6 @@
           "Endocrine & Metabolic",
           "Procedures & POCUS"
         ]
-      },
-      {
-        "pmid": "42750044",
-        "title": "Nurse-led respiratory care bundle and pneumonia prevention in critically ill patients with abdominal sepsis: a multicenter before-and-after controlled study.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Sep 14",
-        "authors": [
-          "Xu Y",
-          "Zheng Y",
-          "Huang L",
-          "Li W",
-          "Wang H",
-          "Chang Z",
-          "Wang Y",
-          "Lv L",
-          "Cui N"
-        ],
-        "doi": "10.1186/s13054-026-06304-2",
-        "abstract": "BACKGROUND: Patients with abdominal sepsis face an increased risk of pneumonia due to systemic inflammation, prolonged bed rest, impaired cough reflex, and respiratory muscle dysfunction. Pneumonia increases mortality, delays recovery, and prolongs hospital stays, underscoring the value of pulmonary care. This study evaluates the association between a nurse-led respiratory care bundle and pneumonia incidence and early prognosis in patients with abdominal sepsis. METHODS: A comparative study of patients with abdominal sepsis in two stages was conducted from January 1, 2021, to June 30, 2023 (control group, which received traditional respiratory care at a single institution), and August 1, 2023, to January 31, 2026 (intervention group, which received a nurse-led respiratory care bundle across five medical centers). Multivariable logistic regression was employed to adjust for confounding factors, and sensitivity analyses were conducted using propensity score matching, inverse probability of treatment weighting, generalized estimating equations, mixed-effects models, and Bootstrap resampling. RESULTS: A total of 869 patients (control, 263; intervention, 606) were included. The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia (42.2% versus 25.6%; P < 0.001) and remained an independent protective factor after multivariable adjustment (odds ratio [OR] = 0.39; 95% confidence interval [CI], 0.28-0.54; P < 0.001). The intervention group had a shorter hospital stay (incidence rate ratio = 0.80; 95% CI, 0.71-0.90; P < 0.001) and lower 28-day mortality (22.8% versus 18.3%; OR = 0.66; 95% CI, 0.45-0.95; P = 0.025). All five sensitivity analyses were consistent, with no heterogeneity among centers. CONCLUSIONS: The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia, shorter hospital stays, and lower 28-day mortality in patients with abdominal sepsis.",
-        "citation_count": 30,
-        "is_top_journal": true,
-        "study_type": "Multicenter Study",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
-        "category_id": "infectious-sepsis",
-        "category_label": "Infectious Disease & Sepsis",
-        "category_ids": [
-          "infectious-sepsis"
-        ],
-        "category_labels": [
-          "Infectious Disease & Sepsis"
-        ]
       }
     ]
   },
@@ -4090,9 +4046,7 @@
         "summary": "ImportanceCurrent clinical artificial intelligence is bottlenecked by highly specialized, fragmented models that reduce complex, multimodal data into isolated scalar predictions. By reframing multimodal perception as a pure vision problem, optical compression into a universal visual operating system can resolve internal data interaction bottlenecks and shift the paradigm toward continuous, generative clinical forecasting. ObjectiveTo develop and internally validate Clinical Visual Memory, a gene",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Serial neoGFAP outperforms total GFAP for monitoring and 6-month outcome discrimination after moderate to severe traumatic brain injury: an exploratory single-site cohort study",
@@ -5499,7 +5453,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780526"
+        "nct_id": "NCT07780526",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparison of the Impact of Three Programs of Inspiratory Muscles.",
@@ -5839,9 +5795,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07776184",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07776184"
       },
       {
         "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
@@ -5853,7 +5807,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05327881"
+        "nct_id": "NCT05327881",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
@@ -5865,7 +5821,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04045210"
+        "nct_id": "NCT04045210",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparison of Simplified Acute Physiology Score (SAPS II) , Sequential Organ Failure Assessment (SOFA) and Acute Physiology and Chronic Health Evaluation) APACHE II Scoring Systems for Predicting Mortality of Critically Ill Patients Admitted in a Tertiary Hospital Intensive Care Unit.",
@@ -5877,7 +5835,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780617"
+        "nct_id": "NCT07780617",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Beta-lactam Plus Levofloxacin to Enhance Therapy in Streptococcal Septicemia",
@@ -5889,7 +5849,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07240077"
+        "nct_id": "NCT07240077",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Optimizing Access Surgery In Senior Hemodialysis Patients",
@@ -5901,7 +5863,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05911451"
+        "nct_id": "NCT05911451",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
@@ -5913,7 +5877,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07779720"
+        "nct_id": "NCT07779720",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Endogenous Energy Production in Critically Ill Patients",
@@ -5925,9 +5891,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07059988",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07059988"
       },
       {
         "title": "Ethnic and Gender Based Admittance Patterns in the ICU",
@@ -5939,9 +5903,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05513456",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05513456"
       },
       {
         "title": "Eduction in ImmunoSuppressive Regimen Among Kidney Transplant Recipients Patients Admitted to the Intensive Care Unit for Septic Shock and/or Acute Respiratory Failure",
@@ -5953,9 +5915,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06881927",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06881927"
       },
       {
         "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
@@ -5967,9 +5927,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06854640",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06854640"
       },
       {
         "title": "Inhaled Dornase Alpha to Reduce Respiratory Failure After Severe Trauma",
@@ -5981,9 +5939,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03368092",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03368092"
       },
       {
         "title": "RDW:MCHC as a Pragmatic Adjunct to SOFA Score in ICU Mortality Assessment",
@@ -5995,9 +5951,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07775911",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07775911"
       },
       {
         "title": "Discordance Between Capillary Refill Time and Oxygen Extraction Ratio in Septic Shock",
@@ -11748,6 +11702,34 @@
       "abbr": "ID/Sepsis",
       "articles": [
         {
+          "pmid": "42750044",
+          "title": "Nurse-led respiratory care bundle and pneumonia prevention in critically ill patients with abdominal sepsis: a multicenter before-and-after controlled study.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Sep 14",
+          "authors": [
+            "Xu Y",
+            "Zheng Y",
+            "Huang L",
+            "Li W",
+            "Wang H",
+            "Chang Z",
+            "Wang Y",
+            "Lv L",
+            "Cui N"
+          ],
+          "doi": "10.1186/s13054-026-06304-2",
+          "abstract": "BACKGROUND: Patients with abdominal sepsis face an increased risk of pneumonia due to systemic inflammation, prolonged bed rest, impaired cough reflex, and respiratory muscle dysfunction. Pneumonia increases mortality, delays recovery, and prolongs hospital stays, underscoring the value of pulmonary care. This study evaluates the association between a nurse-led respiratory care bundle and pneumonia incidence and early prognosis in patients with abdominal sepsis. METHODS: A comparative study of patients with abdominal sepsis in two stages was conducted from January 1, 2021, to June 30, 2023 (control group, which received traditional respiratory care at a single institution), and August 1, 2023, to January 31, 2026 (intervention group, which received a nurse-led respiratory care bundle across five medical centers). Multivariable logistic regression was employed to adjust for confounding factors, and sensitivity analyses were conducted using propensity score matching, inverse probability of treatment weighting, generalized estimating equations, mixed-effects models, and Bootstrap resampling. RESULTS: A total of 869 patients (control, 263; intervention, 606) were included. The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia (42.2% versus 25.6%; P < 0.001) and remained an independent protective factor after multivariable adjustment (odds ratio [OR] = 0.39; 95% confidence interval [CI], 0.28-0.54; P < 0.001). The intervention group had a shorter hospital stay (incidence rate ratio = 0.80; 95% CI, 0.71-0.90; P < 0.001) and lower 28-day mortality (22.8% versus 18.3%; OR = 0.66; 95% CI, 0.45-0.95; P = 0.025). All five sensitivity analyses were consistent, with no heterogeneity among centers. CONCLUSIONS: The nurse-led respiratory care bundle was associated with a lower incidence of pneumonia, shorter hospital stays, and lower 28-day mortality in patients with abdominal sepsis.",
+          "citation_count": 30,
+          "is_top_journal": true,
+          "study_type": "Multicenter Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/"
+        },
+        {
           "pmid": "42725835",
           "title": "Landscape of Biomarker Use in Critically Ill Patients: Systematic Evidence Map of Acute Kidney Injury and Implications for Practice.",
           "journal": "Critical care medicine",
@@ -11860,7 +11842,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42584666",
