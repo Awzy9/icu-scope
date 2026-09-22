@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T08:21:19+00:00",
+  "generated_at": "2026-09-22T08:03:25+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -60,27 +60,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
-      },
-      {
-        "pmid": "42642764",
-        "title": "Assessment of the effectiveness of protein in critical illness: the role of statistical shortcomings in explaining discrepancies between observational studies and randomized controlled trials.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 22",
-        "authors": [
-          "Neuberger M",
-          "Hartl WH"
-        ],
-        "doi": "10.1186/s13054-026-06273-6",
-        "abstract": "BACKGROUND: Until 2023, recommendations for prescribing protein to critically ill patients were largely based on observational studies and non-randomized interventions. Several large, multicentre non-randomized studies of intervention conducted between 2009 and 2017 consistently reported that higher protein intake during the acute phase of critical illness was associated with lower mortality. However, major randomized controlled trials published in recent years (the EFFORT Protein trial in 2023, the PRECISe trial in 2024, and the TARGET Protein trial in 2025) have found no clinical benefit of increased protein administration. The reasons for these conflicting results are unclear, but they may be related to statistical shortcomings in observational studies. MAIN BODY: The authors identified numerous types of statistical bias in observational nutrition research. These include violations of the time axis, confounding by indication, failure to account for a wash-in period, inappropriate methods for variable selection and modelling of numerical confounder variables, transfer bias, sample-size bias, competing-risk bias, bias by data not missing at random, immortal time bias, and collider bias. To improve reliability, modern observational studies should emulate the design of randomized controlled trials. Advanced statistical approaches, including competing-risk models, time-varying analyses, nonlinear modelling and lag-time adjustments, can better account for the complexity of nutrition therapy in critical illness. CONCLUSIONS: Numerous types of bias may have exaggerated the apparent benefits of higher protein intake in older observational studies possibly explaining discrepancies to newer randomized trials. Rigorous statistical planning, transparent analysis protocols, use of advanced statistical approaches and expert statistical review are required to ensure that observational nutrition research produces valid, clinically meaningful evidence.",
-        "citation_count": 49,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13508364/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/"
       },
       {
         "pmid": "42262338",
@@ -322,12 +301,66 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13523429/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/"
+      },
+      {
+        "pmid": "42765454",
+        "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
+        "journal": "The Cochrane database of systematic reviews",
+        "pubdate": "2026 Sep 21",
+        "authors": [
+          "Jiang W",
+          "Chen Y",
+          "Li X",
+          "Li Z",
+          "Dong T",
+          "Yuan Q",
+          "Tang X",
+          "Yang Z",
+          "Wang L"
+        ],
+        "doi": "10.1002/14651858.CD009946.pub3",
+        "abstract": "RATIONALE: Ventilator-associated pneumonia (VAP) is associated with increased mortality, hospital stay, and healthcare costs in critically ill patients. Although guidelines recommend a semi-recumbent position for VAP prevention, the evidence remains uncertain due to limitations in prior reviews. This update revises the 2016 review. OBJECTIVES: To assess the effectiveness and safety of semi-recumbent versus supine or another positioning, and different degrees or types of semi-recumbent positioning in mechanically ventilated intensive care unit (ICU) patients. SEARCH METHODS: We searched CENTRAL, MEDLINE, Embase, CINAHL, PsycINFO, AMED, three Chinese databases, and two trial registries up to 3 October 2025, and screened reference lists. ELIGIBILITY CRITERIA: We included randomised controlled trials (RCTs) comparing semi-recumbent versus supine or another positioning, or different degrees or types of semi-recumbent positioning in mechanically ventilated adult ICU patients. OUTCOMES: Outcomes include clinically suspected or microbiologically confirmed VAP, ICU or hospital mortality, length of ICU or hospital stay, duration of ventilation, and pressure ulcers. RISK OF BIAS: We assessed the risk of bias using Cochrane's RoB 1 tool. SYNTHESIS METHODS: Paired review authors independently screened studies, assessed risk of bias, and extracted data. We performed random-effects meta-analyses using mean difference (MD) for continuous and risk ratio (RR) for binary outcomes with 95% confidence intervals (CI). We evaluated evidence certainty using GRADE. INCLUDED STUDIES: This update includes 38 new RCTs, making a total of 48 included studies (7955 participants). SYNTHESIS OF RESULTS: 1. Semi-recumbent position versus supine position: 17 studies, 2640 participants A semi-recumbent position, versus a supine position, reduces clinically suspected VAP (RR 0.42, 95% CI 0.33 to 0.52; 14 studies, 2411 participants; high-certainty evidence), but may result in little to no difference in microbiologically confirmed VAP (RR 0.57, 95% CI 0.25 to 1.27; 5 studies, 555 participants; low-certainty evidence), and probably results in little to no difference in ICU or hospital mortality (RR 0.80, 95% CI 0.59 to 1.08; 3 studies, 430 participants; RR 0.86, 95% CI 0.67 to 1.12; 5 studies, 570 participants; both moderate-certainty evidence). Due to very low-certainty evidence, we do not know the effects on ICU or hospital length of stay (MD -3.25 days, 95% CI -7.14 to 0.63; 5 studies, 466 participants; MD -8.17 days, 95% CI -40.10 to 23.76; 3 studies, 320 participants). It may reduce the duration of ventilation (MD -3.26 days, 95% CI -6.02 to -0.51; 7 studies, 688 participants; low-certainty evidence). We do not know the effect on pressure ulcers (RR 0.69, 95% CI 0.30 to 1.56; 4 studies, 840 participants; very low-certainty evidence). 2. Semi-recumbent position 30° to 45° versus < 30°: 11 studies, 1153 participants A semi-recumbent position at 30° to 45°, versus < 30°, reduces clinically suspected VAP (RR 0.48, 95% CI 0.39 to 0.59; 8 studies, 810 participants; high-certainty evidence). It may result in little to no difference in microbiologically confirmed VAP (RR 0.53, 95% CI 0.28 to 1.02; 5 studies, 451 participants), ICU or hospital mortality (RR 0.69, 95% CI 0.20 to 2.29; 3 studies, 271 participants; RR 0.66, 0.37 to 1.17; 2 studies, 145 participants), or duration of ventilation (MD -0.62 days, 95% CI -4.17 to 2.93; 1 study, 87 participants) (all low-certainty evidence). There is no evidence for ICU or hospital stay. It probably increases pressure ulcers (RR 2.79, 95% CI 1.28 to 6.11; 6 studies, 712 participants; moderate-certainty evidence). 3. Semi-recumbent position 40° to 45° versus 30°: 14 studies, 1374 participants A semi-recumbent position at 40° to 45°, versus 30°, probably results in little to no difference in clinically suspected VAP (RR 0.91, 95% CI 0.62 to 1.33; 10 studies, 1026 participants; moderate-certainty evidence), but may reduce microbiologically confirmed VAP (RR 0.53, 95% CI 0.28 to 0.99; 4 studies, 218 participants; low-certainty evidence). There were no deaths in ICU (1 study, 46 participants; low-certainty evidence). Due to very low-certainty evidence, we do not know the effects on hospital mortality (RR 1.21, 95% CI 0.27 to 5.50; 2 studies, 221 participants), length of ICU stay (MD -1.28 days, 95% CI -6.69 to 4.12; 2 studies, 221 participants), or duration of ventilation (MD -1.09 days, 95% CI -4.60 to 2.43; 2 studies, 206 participants). There is no evidence for hospital stay. It probably increases pressure ulcers (RR 2.42, 95% CI 1.16 to 5.06; 10 studies, 943 participants; moderate-certainty evidence). 4. Semi-recumbent position versus semi-recumbent lateral or lateral rotation position: 7 studies, 708 participants A semi-recumbent position, versus semi-recumbent lateral or lateral rotation, probably increases clinically suspected and microbiologically confirmed VAP (RR 1.99, 95% CI 1.48 to 2.70; 6 studies, 608 participants; RR 5.14, 95% CI 2.53 to 10.44; 1 study, 100 participants; both moderate-certainty evidence), but may result in little to no difference in hospital mortality (RR 2.50, 95% CI 0.53 to 11.89; 1 study, 60 participants; low-certainty evidence). There is no evidence on ICU mortality. It probably prolongs the length of ICU or hospital stay and the duration of ventilation (days: MD 5.69, 95% CI 5.44 to 5.94; 2 studies, 120 participants; MD 6.25, 95% CI 4.09 to 8.41; 2 studies, 240 participants; MD 5.99, 95% CI 1.60 to 10.38; 4 studies, 400 participants; all moderate-certainty evidence). There is no evidence for pressure ulcers. Evidence was limited on the semi-recumbent position at 60° versus 45°, or versus other positions (e.g. semi-recumbent rotation, lateral Trendelenburg, or prone position). AUTHORS' CONCLUSIONS: Compared with supine positioning, semi-recumbent positioning reduces VAP, and may shorten the duration of ventilation. Higher head-of-bed angles (≥ 30° or 40° to 45°) probably reduce VAP, but increase pressure ulcers, with other comparisons remaining uncertain. Compared with fixed-angled semi-recumbent positioning, semi-recumbent lateral or lateral rotation positioning probably reduces VAP and shortens the duration of ventilation, and length of ICU and hospital stay. Evidence on adverse events and comparisons with alternative positions remains inconclusive. LIMITATIONS: evidence certainty was limited by risk of bias, imprecision due to small sample sizes, and inconsistency across studies. Inadequate reporting of actual head-of-bed angle for semi-recumbent positioning and variation in VAP definitions may influence our findings. FUNDING: No funding. REGISTRATION: Protocol (2012) DOI: 10.1002/14651858.CD009946 Original review (2016) DOI: 10.1002/14651858.CD009946.pub2.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Meta-Analysis",
+        "volume": "9",
+        "issue": "",
+        "pages": "CD009946",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42765454/",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "EMCrit 434 – Temporary Hemodialysis (HD) Catheters",
+        "url": "https://emcrit.org/emcrit/hd-caths/",
+        "source": "EMCrit",
+        "author": "Scott Weingart, MD FCCM",
+        "pubdate": "2026-09-21",
+        "summary": "Waiting for outside teams to place emergent dialysis lines directly harms critically ill patients requiring immediate RRT or exchange transfusions. In this episode, I break down the essential skill set for non-tunneled hemodialysis catheter insertion, covering line selection, site physiology, pre-dilation confirmation, and key procedural microskills. Learn how to prevent catastrophic vascular comp",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "The A2B Trial: Are Alpha-2 Agonists Better than Propofol for ICU Sedation?",
+        "url": "https://rebelem.com/a2b-trial/",
+        "source": "REBEL EM",
+        "author": "Dorian Alexander, MD",
+        "pubdate": "2026-09-21",
+        "summary": "Does primary sedation with dexmedetomidine or clonidine reduce the time to successful extubation in mechanically ventilated critically ill patients compared to propofol-based sedation? The post The A2B Trial: Are Alpha-2 Agonists Better than Propofol for ICU Sedation? appeared first on REBEL EM - Emergency Medicine Blog .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "EMCrit RACC Lit Review – September 2026",
         "url": "https://emcrit.org/emcrit/racc-lit-september-2026/",
@@ -1017,6 +1050,35 @@
         "society": "KDIGO"
       },
       {
+        "pmid": "42767105",
+        "title": "The 2026 Surviving Sepsis Campaign Guidelines: The dissenting opinion.",
+        "journal": "The American journal of emergency medicine",
+        "pubdate": "2026 Sep 15",
+        "authors": [
+          "Spiegel R",
+          "Haycock K",
+          "Miller A",
+          "Weingart S",
+          "Farkas J",
+          "Ajmo I",
+          "Rola P"
+        ],
+        "doi": "10.1016/j.ajem.2026.09.025",
+        "abstract": "The Surviving Sepsis Campaign (SSC) Guidelines once represented what was considered the pinnacle of care for patients with sepsis and septic shock. Unfortunately, over the past decade, successive iterations of the guidelines have drifted from what is now considered optimal care for critically ill patients with sepsis and septic shock. Moreover, the guidelines have shifted from recommendations intended to guide and support physicians based on the best available evidence, to mandated \"bundles\" which exert substantial influence over what is considered \"standard of care\" in sepsis management. This. Document is intended to serve as a refutation of sorts. A rebuttal to the most controversial and influential recommendations in the Surviving Sepsis Campaign Guidelines, while also offering guidance on how clinicians might move beyond the protocolized, metric-based care that has become the current standard promoted by the SSC and similar organizations.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Review",
+        "volume": "110",
+        "issue": "",
+        "pages": "411-415",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42767105/",
+        "society": "Surviving Sepsis Campaign",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42730762",
         "title": "Practices and barriers in PET/CT use for critically ill patients: an international survey.",
         "journal": "European journal of nuclear medicine and molecular imaging",
@@ -1250,7 +1312,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42632433/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42087034",
@@ -2605,9 +2669,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13589527/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42763706/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42415882",
@@ -3796,9 +3858,7 @@
         "pages": "6422952",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13490827/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42625928/"
       },
       {
         "pmid": "42707926",
@@ -3920,6 +3980,44 @@
   "this_week": {
     "window_days": 7,
     "articles": [
+      {
+        "pmid": "42765454",
+        "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
+        "journal": "The Cochrane database of systematic reviews",
+        "pubdate": "2026 Sep 21",
+        "authors": [
+          "Jiang W",
+          "Chen Y",
+          "Li X",
+          "Li Z",
+          "Dong T",
+          "Yuan Q",
+          "Tang X",
+          "Yang Z",
+          "Wang L"
+        ],
+        "doi": "10.1002/14651858.CD009946.pub3",
+        "abstract": "RATIONALE: Ventilator-associated pneumonia (VAP) is associated with increased mortality, hospital stay, and healthcare costs in critically ill patients. Although guidelines recommend a semi-recumbent position for VAP prevention, the evidence remains uncertain due to limitations in prior reviews. This update revises the 2016 review. OBJECTIVES: To assess the effectiveness and safety of semi-recumbent versus supine or another positioning, and different degrees or types of semi-recumbent positioning in mechanically ventilated intensive care unit (ICU) patients. SEARCH METHODS: We searched CENTRAL, MEDLINE, Embase, CINAHL, PsycINFO, AMED, three Chinese databases, and two trial registries up to 3 October 2025, and screened reference lists. ELIGIBILITY CRITERIA: We included randomised controlled trials (RCTs) comparing semi-recumbent versus supine or another positioning, or different degrees or types of semi-recumbent positioning in mechanically ventilated adult ICU patients. OUTCOMES: Outcomes include clinically suspected or microbiologically confirmed VAP, ICU or hospital mortality, length of ICU or hospital stay, duration of ventilation, and pressure ulcers. RISK OF BIAS: We assessed the risk of bias using Cochrane's RoB 1 tool. SYNTHESIS METHODS: Paired review authors independently screened studies, assessed risk of bias, and extracted data. We performed random-effects meta-analyses using mean difference (MD) for continuous and risk ratio (RR) for binary outcomes with 95% confidence intervals (CI). We evaluated evidence certainty using GRADE. INCLUDED STUDIES: This update includes 38 new RCTs, making a total of 48 included studies (7955 participants). SYNTHESIS OF RESULTS: 1. Semi-recumbent position versus supine position: 17 studies, 2640 participants A semi-recumbent position, versus a supine position, reduces clinically suspected VAP (RR 0.42, 95% CI 0.33 to 0.52; 14 studies, 2411 participants; high-certainty evidence), but may result in little to no difference in microbiologically confirmed VAP (RR 0.57, 95% CI 0.25 to 1.27; 5 studies, 555 participants; low-certainty evidence), and probably results in little to no difference in ICU or hospital mortality (RR 0.80, 95% CI 0.59 to 1.08; 3 studies, 430 participants; RR 0.86, 95% CI 0.67 to 1.12; 5 studies, 570 participants; both moderate-certainty evidence). Due to very low-certainty evidence, we do not know the effects on ICU or hospital length of stay (MD -3.25 days, 95% CI -7.14 to 0.63; 5 studies, 466 participants; MD -8.17 days, 95% CI -40.10 to 23.76; 3 studies, 320 participants). It may reduce the duration of ventilation (MD -3.26 days, 95% CI -6.02 to -0.51; 7 studies, 688 participants; low-certainty evidence). We do not know the effect on pressure ulcers (RR 0.69, 95% CI 0.30 to 1.56; 4 studies, 840 participants; very low-certainty evidence). 2. Semi-recumbent position 30° to 45° versus < 30°: 11 studies, 1153 participants A semi-recumbent position at 30° to 45°, versus < 30°, reduces clinically suspected VAP (RR 0.48, 95% CI 0.39 to 0.59; 8 studies, 810 participants; high-certainty evidence). It may result in little to no difference in microbiologically confirmed VAP (RR 0.53, 95% CI 0.28 to 1.02; 5 studies, 451 participants), ICU or hospital mortality (RR 0.69, 95% CI 0.20 to 2.29; 3 studies, 271 participants; RR 0.66, 0.37 to 1.17; 2 studies, 145 participants), or duration of ventilation (MD -0.62 days, 95% CI -4.17 to 2.93; 1 study, 87 participants) (all low-certainty evidence). There is no evidence for ICU or hospital stay. It probably increases pressure ulcers (RR 2.79, 95% CI 1.28 to 6.11; 6 studies, 712 participants; moderate-certainty evidence). 3. Semi-recumbent position 40° to 45° versus 30°: 14 studies, 1374 participants A semi-recumbent position at 40° to 45°, versus 30°, probably results in little to no difference in clinically suspected VAP (RR 0.91, 95% CI 0.62 to 1.33; 10 studies, 1026 participants; moderate-certainty evidence), but may reduce microbiologically confirmed VAP (RR 0.53, 95% CI 0.28 to 0.99; 4 studies, 218 participants; low-certainty evidence). There were no deaths in ICU (1 study, 46 participants; low-certainty evidence). Due to very low-certainty evidence, we do not know the effects on hospital mortality (RR 1.21, 95% CI 0.27 to 5.50; 2 studies, 221 participants), length of ICU stay (MD -1.28 days, 95% CI -6.69 to 4.12; 2 studies, 221 participants), or duration of ventilation (MD -1.09 days, 95% CI -4.60 to 2.43; 2 studies, 206 participants). There is no evidence for hospital stay. It probably increases pressure ulcers (RR 2.42, 95% CI 1.16 to 5.06; 10 studies, 943 participants; moderate-certainty evidence). 4. Semi-recumbent position versus semi-recumbent lateral or lateral rotation position: 7 studies, 708 participants A semi-recumbent position, versus semi-recumbent lateral or lateral rotation, probably increases clinically suspected and microbiologically confirmed VAP (RR 1.99, 95% CI 1.48 to 2.70; 6 studies, 608 participants; RR 5.14, 95% CI 2.53 to 10.44; 1 study, 100 participants; both moderate-certainty evidence), but may result in little to no difference in hospital mortality (RR 2.50, 95% CI 0.53 to 11.89; 1 study, 60 participants; low-certainty evidence). There is no evidence on ICU mortality. It probably prolongs the length of ICU or hospital stay and the duration of ventilation (days: MD 5.69, 95% CI 5.44 to 5.94; 2 studies, 120 participants; MD 6.25, 95% CI 4.09 to 8.41; 2 studies, 240 participants; MD 5.99, 95% CI 1.60 to 10.38; 4 studies, 400 participants; all moderate-certainty evidence). There is no evidence for pressure ulcers. Evidence was limited on the semi-recumbent position at 60° versus 45°, or versus other positions (e.g. semi-recumbent rotation, lateral Trendelenburg, or prone position). AUTHORS' CONCLUSIONS: Compared with supine positioning, semi-recumbent positioning reduces VAP, and may shorten the duration of ventilation. Higher head-of-bed angles (≥ 30° or 40° to 45°) probably reduce VAP, but increase pressure ulcers, with other comparisons remaining uncertain. Compared with fixed-angled semi-recumbent positioning, semi-recumbent lateral or lateral rotation positioning probably reduces VAP and shortens the duration of ventilation, and length of ICU and hospital stay. Evidence on adverse events and comparisons with alternative positions remains inconclusive. LIMITATIONS: evidence certainty was limited by risk of bias, imprecision due to small sample sizes, and inconsistency across studies. Inadequate reporting of actual head-of-bed angle for semi-recumbent positioning and variation in VAP definitions may influence our findings. FUNDING: No funding. REGISTRATION: Protocol (2012) DOI: 10.1002/14651858.CD009946 Original review (2016) DOI: 10.1002/14651858.CD009946.pub2.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Meta-Analysis",
+        "volume": "9",
+        "issue": "",
+        "pages": "CD009946",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42765454/",
+        "link_broken": true,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory",
+        "category_ids": [
+          "respiratory"
+        ],
+        "category_labels": [
+          "Respiratory"
+        ]
+      },
       {
         "pmid": "42752385",
         "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
@@ -4131,6 +4229,144 @@
   "trials": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
+        "url": "https://clinicaltrials.gov/study/NCT06442930",
+        "source": "University Health Network, Toronto",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "EXTUBE is an international, multicentre, prospective cohort study evaluating the incidence, risk factors, and outcomes of extubation-related complications and describing clinical practices related to extubation after general anesthesia or after critical illness in the operating room (OR), out of OR anesthesia location or intensive care unit (ICU).",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06442930"
+      },
+      {
+        "title": "Impact of Diagnostic and Therapeutic Upper and Lower Gastrointestinal Endoscopic Management on Critically Ill Patients in Fayoum University Hospitals",
+        "url": "https://clinicaltrials.gov/study/NCT07829978",
+        "source": "Fayoum University",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "Prospective study to evaluate the diagnostic and prognostic value of upper and lower gastrointestinal endoscopy in ICU",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07829978",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "pEEG Monitoring Effect on Delirium, Ventilator Days, and PICS",
+        "url": "https://clinicaltrials.gov/study/NCT06019078",
+        "source": "Fraser Health",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "The goal of this multi-site observational study is to compare delirium rates, days on mechanical ventilation, and Post Intensive Care Syndrome (PICS) rates in adult Intensive Care Unit (ICU) patients. The study will examine patients whose sedation and analgesia infusion titration is managed with both Richmond Agitation and Sedation Scale (RASS) and Processed Electroencephalography (pEEG) monitoring vs patients who receive RASS monitoring alone. The main questions are: * Compared to RASS monitori",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06019078",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Viscoelastic Coagulation for Early Sepsis Detection",
+        "url": "https://clinicaltrials.gov/study/NCT07073456",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "The goal of this observational study is to investigate whether selected variables of coagulation measured by Viscoelastic Coagulation Monitoring (VCM) can serve as early predictors of progression to sepsis in adult patients presenting to the emergency department (ED) with suspected infection. The main questions it aims to answer are: Can any of the eight VCM-derived coagulation parameters predict early progression into sepsis? Is there a specific VCM profile associated with higher sepsis risk at",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07073456",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Clopidogrel vs. Aspirin for Cardiovascular Risk Reduction in Patients With S. Aureus Bacteremia",
+        "url": "https://clinicaltrials.gov/study/NCT06650488",
+        "source": "Todd C. Lee MD MPH FIDSA",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "This is an open-label randomized controlled trial which will enroll patients with S. aureus bacteremia who are already taking aspirin for secondary prevention of cardiovascular events. We will randomize patients to continue their aspirin or change clopidogrel which is also approved for secondary prevention. Unlike aspirin, clopidogrel may have activity against S. aureus. We wish to determine if changing to clopidogrel will improve outcomes in S. aureus bacteremia in people who otherwise would ha",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06650488",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Fever Control Using External Cooling in Mechanically Ventilated Patients With Septic Shock",
+        "url": "https://clinicaltrials.gov/study/NCT04494074",
+        "source": "Centre Hospitalier Intercommunal Creteil",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "The best strategy for managing fever in patients with septic shock remains unknown. In a pilot study, the investigators showed that fever control at normothermia allowed a better control of shock and evolution of organ failures. In this second trial the investigators will conduct a multicentre, open-label, randomized controlled, superiority trial in which two strategies will be compared: 1. Respect of fever 2. Fever control at normothermia using external cooling The primary end point will be d-6",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04494074",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Change in MAPSE During Treatment of Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT05634733",
+        "source": "University of Maryland, Baltimore",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "Patients with bloodstream infections (sepsis) have been found in prior studies to have infection-related heart dysfunction, even if they did not have preexisting heart problems. Factors related to the infection may cause the heart to not pump as well as it should, causing critical illness in the form of low blood pressure (shock) and heart failure. Ultrasound is frequently used in the emergency department to evaluate why a patient might have low blood pressure. Part of that evaluation may includ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05634733",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Professional Oral Care and Staff Education in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07831564",
+        "source": "Semmelweis University",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "This study evaluated oral health in critically ill patients admitted to two intensive care units in Budapest, Hungary, and examined whether professional oral care and education of intensive care staff could improve oral hygiene. A total of 161 adult patients were included. Dentate patients in the first phase were randomly assigned to receive either professional oral care provided by dentists or standard oral care provided by ICU nursing staff. Total edentulous patients were included in a separat",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07831564",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "High-Tech Rehabilitation Pathway for Acute Adult Neuromuscular Diseases - Fit4MedRob-Acute MND Project",
+        "url": "https://clinicaltrials.gov/study/NCT06822231",
+        "source": "Istituti Clinici Scientifici Maugeri SpA",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "The goal of this study is determine if a high-tech rehabilitation circuit is more effective than usual rehabilitation methods in improving functional outcome, particularly balance control, for patients with acute neuromuscolar diseases. The main question it aims to answer is: Are high-tech rehabilitation interventions, including robotic systems, virtual reality, and stabilometric platforms, more effective than traditional rehabilitation methods in improving balance, motor function, fatigue level",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06822231",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Impact on Prognosis of Increased Sleep Quality Obtained by Personalized Night-time Nursing Care in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07606495",
+        "source": "Poitiers University Hospital",
+        "author": "",
+        "pubdate": "2026-09-21",
+        "summary": "Sleep disturbances are common among intensive care unit (ICU) patients and have been associated with difficult weaning from invasive mechanical ventilation, with an increased risk of endotracheal intubation. Other studies have reported associations between sleep disturbances and prolonged ICU length of stay or the occurrence of delirium. Among the factors contributing to sleep impairment, nighttime care interventions have been identified as a major cause. The management of sleep disorders in the",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07606495",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "Protocolized Reduction of Non-resuscitation Fluids Versus Usual Care in Septic Shock Patients",
         "url": "https://clinicaltrials.gov/study/NCT06140147",
@@ -4642,18 +4878,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06832722"
-      },
-      {
-        "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
-        "url": "https://clinicaltrials.gov/study/NCT06442930",
-        "source": "University Health Network, Toronto",
-        "author": "",
-        "pubdate": "2026-09-11",
-        "summary": "EXTUBE is an international, multicentre, prospective cohort study evaluating the incidence, risk factors, and outcomes of extubation-related complications and describing clinical practices related to extubation after general anesthesia or after critical illness in the operating room (OR), out of OR anesthesia location or intensive care unit (ICU).",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06442930"
       },
       {
         "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
@@ -5453,9 +5677,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780526",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07780526"
       },
       {
         "title": "Comparison of the Impact of Three Programs of Inspiratory Muscles.",
@@ -5807,9 +6029,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05327881",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05327881"
       },
       {
         "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
@@ -5821,9 +6041,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04045210",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04045210"
       },
       {
         "title": "Comparison of Simplified Acute Physiology Score (SAPS II) , Sequential Organ Failure Assessment (SOFA) and Acute Physiology and Chronic Health Evaluation) APACHE II Scoring Systems for Predicting Mortality of Critically Ill Patients Admitted in a Tertiary Hospital Intensive Care Unit.",
@@ -5835,9 +6053,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780617",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07780617"
       },
       {
         "title": "Beta-lactam Plus Levofloxacin to Enhance Therapy in Streptococcal Septicemia",
@@ -5849,9 +6065,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07240077",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07240077"
       },
       {
         "title": "Optimizing Access Surgery In Senior Hemodialysis Patients",
@@ -5863,9 +6077,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05911451",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05911451"
       },
       {
         "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
@@ -5877,9 +6089,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07779720",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07779720"
       },
       {
         "title": "Endogenous Energy Production in Critically Ill Patients",
@@ -9247,7 +9457,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495211/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42612901",
@@ -11842,9 +12054,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
         },
         {
           "pmid": "42584666",
