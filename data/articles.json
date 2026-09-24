@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T08:05:42+00:00",
+  "generated_at": "2026-09-24T07:56:22+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -310,15 +310,18 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42289099/"
       },
       {
-        "pmid": "42665838",
-        "title": "\"Decoding candidemia in critically ill patients: unsupervised clustering identifies three unique phenotypes\": algorithmic tautology and feature selection bias.",
+        "pmid": "42773480",
+        "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
         "journal": "Critical care (London, England)",
-        "pubdate": "2026 Aug 28",
+        "pubdate": "2026 Sep 22",
         "authors": [
-          "Yang Z",
-          "Zhang Y"
+          "Zhou J",
+          "Lei H",
+          "Li R",
+          "Liu X",
+          "Chen G"
         ],
-        "doi": "10.1186/s13054-026-06277-2",
+        "doi": "10.1186/s13054-026-06322-0",
         "abstract": "",
         "citation_count": 4,
         "is_top_journal": true,
@@ -327,14 +330,28 @@
         "issue": "1",
         "pages": "",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13523429/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42665838/"
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "PulmCrit: Myth-busting pulse dose steroid for non-CNS indications",
+        "url": "https://emcrit.org/pulmcrit/pulse/",
+        "source": "PulmCrit",
+        "author": "Josh Farkas",
+        "pubdate": "2026-09-23",
+        "summary": "Pulse-dose methylprednisolone is common across many medical fields (defined here as giving ≧500 mg methylprednisolone daily for ≧3 days). However, providing such a high dose of steroids may increase the risk of steroid-related complications (especially invasive fungal infections). What is the evidence behind this practice? I searched the medical literature for RCTs meeting the following […] EMCrit",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "The Case of the Obscured Bias",
         "url": "https://emcrit.org/emnerd/the-case-of-the-obscured-bias/",
@@ -343,9 +360,7 @@
         "pubdate": "2026-09-22",
         "summary": "SCCM recently published updated guidelines on neuromuscular blockade in ARDS. The authors present five recommendations, the first being the most potentially influential on practice. “Paralyze patients with ARDS when their P/F ratio drops below 150 and they are persistently hypoxemic or fighting the ventilator.”[1] The panel based this recommendation on a 2020 systematic review by […] EMCrit Projec",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit 434 – Temporary Hemodialysis (HD) Catheters",
@@ -445,7 +460,9 @@
         "pubdate": "2026-08-24",
         "summary": "The chloride saga continues... EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality",
@@ -455,7 +472,9 @@
         "pubdate": "2026-08-24",
         "summary": "Is there any moderate or high-level evidence that SEP-1 compliance and/or implementation is associated with improvement in sepsis mortality? The post Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "EMCrit 432 – Members’ Airway Cases and Q&A",
@@ -465,9 +484,7 @@
         "pubdate": "2026-08-23",
         "summary": "I dive deep into member-submitted airway nightmares, breaking down how to manage petrified \"airway concrete\" and high-risk hypoxemia. Learn how to apply the CHOP criteria, avoid physiological arrest during induction in cardiogenic shock, and handle extreme metabolic acidosis. EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Case of the Neutral Documents Part 2",
@@ -1056,6 +1073,32 @@
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
         "society": "KDIGO"
+      },
+      {
+        "pmid": "42776136",
+        "title": "Postoperative Acute Kidney Injury in Cardiovascular Surgery Patients with Prolonged Intensive Care Unit Stay: Impact on Mortality and Outcomes.",
+        "journal": "Brazilian journal of cardiovascular surgery",
+        "pubdate": "2026 Sep 21",
+        "authors": [
+          "Balkan B",
+          "Turan EI",
+          "Dündar AS",
+          "Yalçın L"
+        ],
+        "doi": "10.21470/1678-9741-2025-0271",
+        "abstract": "OBJECTIVE: To evaluate the association between postoperative acute kidney injury (AKI) and outcomes in adults undergoing cardiovascular surgery who required a prolonged intensive care unit (ICU) stay. METHODS: We conducted a retrospective cohort study of consecutive cardiovascular surgery patients with ICU stay ≥ 72 hours. AKI was defined and staged using creatinine-based Kidney Disease: Improving Global Outcomes (KDIGO) criteria. The primary outcome was in-hospital mortality. Secondary outcomes were time to extubation, ICU days until ward transfer, and perioperative transfusion exposure (red blood cells/fresh frozen plasma/platelet/apheresis); initiation of renal replacement therapy was assessed exploratorily. Multivariable logistic regression examined the association between AKI and mortality, adjusting for age, sex, baseline renal function/chronic kidney disease (estimated glomerular filtration rate category), hypertension, diabetes, chronic obstructive pulmonary disease, ejection fraction (or Age Creatinine Ejection Fraction score), procedure type (coronary artery bypass grafting/valve/combined), cardiopulmonary bypass and cross-clamping times, transfusions, and post-cardiopulmonary bypass vasoactive/inotropic use where available. RESULTS: AKI was frequent after cardiovascular surgery and was independently associated with higher in-hospital mortality in adjusted analyses. Patients with AKI also had longer time to extubation, greater transfusion requirements, and prolonged ICU stay, with a stepwise worsening across KDIGO stages. Findings were consistent in sensitivity analyses. Incomplete urine-output data were acknowledged as a limitation, as oliguria forms part of KDIGO definitions. CONCLUSION: Among cardiovascular surgery patients with prolonged ICU stay, postoperative AKI is a strong predictor of in-hospital mortality and adverse resource-related outcomes. Emphasis on prevention, early detection, and optimized perioperative management may improve prognosis in this high-risk population.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "41",
+        "issue": "3",
+        "pages": "e20250271",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42776136/",
+        "society": "KDIGO",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42767105",
@@ -3985,6 +4028,40 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42773480",
+        "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 22",
+        "authors": [
+          "Zhou J",
+          "Lei H",
+          "Li R",
+          "Liu X",
+          "Chen G"
+        ],
+        "doi": "10.1186/s13054-026-06322-0",
+        "abstract": "",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "renal",
+        "category_label": "Renal",
+        "category_ids": [
+          "renal"
+        ],
+        "category_labels": [
+          "Renal"
+        ]
+      },
+      {
         "pmid": "42765454",
         "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
         "journal": "The Cochrane database of systematic reviews",
@@ -4019,118 +4096,6 @@
         "category_labels": [
           "Respiratory"
         ]
-      },
-      {
-        "pmid": "42752385",
-        "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Sep 17",
-        "authors": [
-          "Karvellas CJ",
-          "Lambert J",
-          "Ouyang T",
-          "Bagshaw SM",
-          "Cullaro G",
-          "Fricker Z",
-          "Frederick T",
-          "Goldstein SL",
-          "House AA",
-          "Juncos LA",
-          "Heung M",
-          "Patidar KR",
-          "Rewa OG",
-          "Robinson JE",
-          "Teixeira JP",
-          "Wadei H",
-          "Neyra JA",
-          "Allegretti AS",
-          "CRRTnet and HRS-HARMONY Consortia"
-        ],
-        "doi": "10.1097/CCM.0000000000007363",
-        "abstract": "OBJECTIVES: Describe the epidemiology of patients with cirrhosis/acute-on-chronic liver failure (ACLF) receiving continuous renal replacement therapy (CRRT) pertaining to process factors including renal replacement dose, modality, and circuit anticoagulation. SETTING: Academic tertiary care hospitals in the United States and Canada. DESIGN AND PATIENTS: We performed a parallel study of contemporaneous data from the HARMONY and CRRT network (CRRTnet) databases to describe the epidemiology and process of CRRT care of cirrhosis/ACLF patients receiving CRRT in the ICU. We evaluated clinical and CRRT process factors (dialysis dose, anticoagulation) with the primary outcome of in-hospital mortality. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The HARMONY cohort (n = 245; median age, 57 yr; 41% female) and CRRTnet cohort (n = 206; 58 yr; 39% female) demonstrated similar overall survival to hospital discharge (HARMONY, 34%; CRRTnet, 30%). In HARMONY, the two most common causes of acute kidney injury (AKI) requiring CRRT were acute tubular necrosis (73%) and hepatorenal syndrome-AKI (13%), with no significant difference between survivors and nonsurvivors (p = 0.24). In HARMONY, higher chronic liver failure-C ACLF scores (hazard ratio, 1.03 [95% CI, 1.01-1.05]; p < 0.001) were independently associated with increased in-hospital mortality. In CRRTnet, the most common CRRT modality was continuous venovenous hemodiafiltration (83.8%), and the most common anticoagulation strategy was regional citrate anticoagulation (58.0%) or no anticoagulation (35.8%). CRRT prescribed dose greater than 30 mL/kg/hr was independently associated with higher in-hospital mortality (multivariable regression; odds ratio, 2.69; 95% CI, 1.3-5.64; p = 0.01). Of survivors in CRRTnet, 64% were transitioned to intermittent hemodialysis (IHD) before hospital discharge. CONCLUSIONS: Critically ill cirrhosis/ACLF patients initiated on CRRT in the absence of liver transplantation had high in-hospital mortality. These patients were prescribed higher initial CRRT doses (median total effluent > 30 mL/kg/hr), with higher CRRT dose independently associated with increased in-hospital mortality. Of ICU survivors, 64% were transitioned to IHD at ICU discharge. Despite concerns for citrate toxicity, citrate regional anticoagulation was commonly employed in these patients.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
-        "category_id": "renal",
-        "category_label": "Renal",
-        "category_ids": [
-          "renal",
-          "gi-nutrition",
-          "hematology-coag"
-        ],
-        "category_labels": [
-          "Renal",
-          "GI & Nutrition",
-          "Hematology & Coagulation"
-        ]
-      },
-      {
-        "pmid": "42283370",
-        "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
-        "journal": "The New England journal of medicine",
-        "pubdate": "2026 Sep 17",
-        "authors": [
-          "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
-          "Serpa Neto A",
-          "McNamara M",
-          "White K",
-          "Cooper DJ",
-          "Fujii T",
-          "Higgins AM",
-          "Hodgson CL",
-          "Navarra L",
-          "Nichol A",
-          "Peake S",
-          "Réa-Neto A",
-          "Secombe P",
-          "Osborne F",
-          "Burrill H",
-          "See E",
-          "Young M",
-          "Zampieri FG",
-          "Plummer M",
-          "Christie C",
-          "Nunnink L",
-          "Mackay J",
-          "McGuinness S",
-          "Marmol J",
-          "Tiruvoipati R",
-          "Bailey M",
-          "Young PJ",
-          "Bellomo R",
-          "Udy A"
-        ],
-        "doi": "10.1056/NEJMoa2600526",
-        "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Randomized Controlled Trial",
-        "volume": "395",
-        "issue": "11",
-        "pages": "1062-1074",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/",
-        "ai_key_stats": "",
-        "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
-        "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
-        "ai_rounds_takeaway": "",
-        "category_id": "endocrine-metabolic",
-        "category_label": "Endocrine & Metabolic",
-        "category_ids": [
-          "endocrine-metabolic",
-          "procedures-pocus"
-        ],
-        "category_labels": [
-          "Endocrine & Metabolic",
-          "Procedures & POCUS"
-        ]
       }
     ]
   },
@@ -4146,9 +4111,7 @@
         "summary": "Background/ObjectivesEarly lactate is widely used to risk-stratify septic shock, yet clinically actionable cut-offs for 28-day mortality remain uncertain. MethodsIn a single-centre study conducted across two intensive care units, we analysed 84 adults with septic shock identified within 24 hours of intensive care unit admission. The primary endpoint was 28-day mortality. Four lactate metrics obtained during the first 24 hours were evaluated: first (admission) lactate, last lactate, peak lactate,",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Optical compression of multimodal clinical data into a unified visual memory for generative trajectory forecasting",
@@ -4245,6 +4208,114 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
+        "url": "https://clinicaltrials.gov/study/NCT06854640",
+        "source": "Bayer",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "Researchers are looking for a better way to treat people who have sepsis induced coagulopathy. Sepsis happens when bacteria and their toxins spread in the blood, causing an infection. To overcome the infection the body responds activating the immune system, sometimes this immune response is too active and causes uncontrolled blood clot formation, also called sepsis-induced coagulopathy. Sepsis coagulopathy damages blood vessels and organs and leads to low platelet levels in the body. In severe c",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06854640"
+      },
+      {
+        "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
+        "url": "https://clinicaltrials.gov/study/NCT05327881",
+        "source": "Assiut University",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "Whole blood lactate concentration is widely used in shock states to assess perfusion. We aimed to determine if the change in plasma renin concentration over time would be superior to the change in lactate concentration for predicting 28-day mortality in septic shock patients.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05327881"
+      },
+      {
+        "title": "Evaluation of the Clinical Impact of Adjunctive L-carnitine Therapy in Critically Ill Hepatic Patients Admitted to Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT07642076",
+        "source": "Beni-Suef University",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "This study aims to evaluate the possible efficacy of l-carnitine in critically ill hepatic patients admitted to intensive care unit.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07642076",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Immune Responses to Dengue and Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT07040202",
+        "source": "Institut Pasteur du Cambodge",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "The goal of this research study is to help the investigators better understand serious dengue disease. The investigators will collect clinical information and up to four blood samples from participants with dengue, influenza, sepsis, or healthy people. The investigators will perform multiple analyses on the blood samples and compare results between dengue patients and those with influenza or sepsis and healthy people.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07040202",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Assessing Immune Dysfunction in Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT07154615",
+        "source": "University of Minnesota",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "Sepsis leads to sustained immune system dysfunction resulting in increased susceptibility to secondary infection while in the hospital or after discharge. Consequently, many of the \\~2 million Americans that develop sepsis every year will end up back in the ICU, weeks and months later. The objective of this study is to define the cellular and molecular mechanisms driving the dysfunction and reprogramming of T cells and B cells that mediate cellular and humoral immunity using a combination of phe",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07154615",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "PERMISSive Lung-protective Ventilation RCT",
+        "url": "https://clinicaltrials.gov/study/NCT07837128",
+        "source": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "The goal of this clinical trial is to investigate the impact of a ventilation strategy with a lower respiratory rate (RR) (permissive lung-protective ventilation) on clinical outcomes in adult critically ill patients receiving invasive ventilation. The main question it aims to answer is: Is a permissive lung-protective ventilation, defined as a strategy that reduces ventilatory intensity by stepwise lowering RR to the lowest level permitted by predefined safety limits, superior to conventional l",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07837128",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Clinical Efficacy of Ulinastatin for Treatment of Sepsis With Systemic Inflammatory Response Syndrome",
+        "url": "https://clinicaltrials.gov/study/NCT05391789",
+        "source": "Huashan Hospital",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "Sepsis is a life-threatening organ dysfunction caused by the maladjusted response of the host to infection. It is a clinical syndrome with high mortality. Studies have confirmed that many cytokines play a vital role in the pathogenesis of sepsis. Ulinastatin (UTI) is a glycoprotein that exists in human blood and can be isolated and purified from human urine. It is a broad-spectrum protease inhibitor. Previous studies have shown that Ulinastatin may have the effect of treating sepsis. 120 septic ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05391789",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Korean Point Prevalence Study of Acute Rehabilitation for Kids in the PICU (PARK-PICU)",
+        "url": "https://clinicaltrials.gov/study/NCT07629297",
+        "source": "Samsung Medical Center",
+        "author": "",
+        "pubdate": "2026-09-23",
+        "summary": "This study investigates the prevalence of acute rehabilitation practices among children in pediatric intensive care units (PICUs).",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07629297",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Preventive Narrative Exposure Intervention for PTSD in ICU Patients After Cardiopulmonary Bypass Cardiac Surgery",
         "url": "https://clinicaltrials.gov/study/NCT07632131",
         "source": "First Affiliated Hospital of Fujian Medical University",
@@ -4282,9 +4353,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06281665",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06281665"
       },
       {
         "title": "Management of Hypokalemia in Intensive Care Patients",
@@ -4296,9 +4365,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07833722",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07833722"
       },
       {
         "title": "Tracheostomy Practices in Adult Intensive Care Units: A Multicenter Point-Prevalence Study in Izmir (IZ-TRACH)",
@@ -4310,9 +4377,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07404592",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07404592"
       },
       {
         "title": "Canadian Critical Care Comparative Effectiveness Platform",
@@ -4324,9 +4389,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06605144",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06605144"
       },
       {
         "title": "Analysis of the Evolution of Mortality in an Intensive Care Unit",
@@ -4338,9 +4401,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05261607",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05261607"
       },
       {
         "title": "Use of Procalcitonin, a Blood Test to Guide Antibiotic Therapy for Sepsis in Adults",
@@ -4352,9 +4413,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05955612",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05955612"
       },
       {
         "title": "Effects of Stellate Ganglion Block on Delirium and Circadian Rhythm in Geriatric Intensive Care Patients",
@@ -4366,9 +4425,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07558642",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07558642"
       },
       {
         "title": "Prognostic Power of the VEXUS Score in Septic Shock: Effectiveness in Mortality Prediction",
@@ -4380,9 +4437,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07124741",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07124741"
       },
       {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
@@ -4698,7 +4753,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06501118"
+        "nct_id": "NCT06501118",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
@@ -6058,7 +6115,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07782216"
+        "nct_id": "NCT07782216",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Iron Deficiency at ICU Discharge",
@@ -6070,7 +6129,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07781540"
+        "nct_id": "NCT07781540",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "AI Assisted Preoperative Assessment for ASA Classification and ICU Admission",
@@ -6082,7 +6143,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07783334"
+        "nct_id": "NCT07783334",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Samu Save Sepsis: Early Goal Directed Therapy in Pre Hospital Care of Patients With Severe Sepsis and/or Septic Shock",
@@ -6094,7 +6157,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02473263"
+        "nct_id": "NCT02473263",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effects of Paroxetine on Cardiovascular Function in Septic Patients",
@@ -6106,7 +6171,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05725837"
+        "nct_id": "NCT05725837",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Exogenous Ketone Supplementation in ICU Delirium",
@@ -6118,7 +6185,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07364162"
+        "nct_id": "NCT07364162",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dynamics of Organ Damage and Immune Exhaustion During Sepsis",
@@ -6130,7 +6199,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06817408"
+        "nct_id": "NCT06817408",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients",
@@ -6143,18 +6214,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07776184"
-      },
-      {
-        "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
-        "url": "https://clinicaltrials.gov/study/NCT05327881",
-        "source": "Assiut University",
-        "author": "",
-        "pubdate": "2026-08-21",
-        "summary": "Whole blood lactate concentration is widely used in shock states to assess perfusion. We aimed to determine if the change in plasma renin concentration over time would be superior to the change in lactate concentration for predicting in-hospital mortality in septic shock patients.",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05327881"
       },
       {
         "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
@@ -6251,18 +6310,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06881927"
-      },
-      {
-        "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
-        "url": "https://clinicaltrials.gov/study/NCT06854640",
-        "source": "Bayer",
-        "author": "",
-        "pubdate": "2026-08-20",
-        "summary": "Researchers are looking for a better way to treat people who have sepsis induced coagulopathy. Sepsis happens when bacteria and their toxins spread in the blood, causing an infection. To overcome the infection the body responds activating the immune system, sometimes this immune response is too active and causes uncontrolled blood clot formation, also called sepsis-induced coagulopathy. Sepsis coagulopathy damages blood vessels and organs and leads to low platelet levels in the body. In severe c",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06854640"
       },
       {
         "title": "Inhaled Dornase Alpha to Reduce Respiratory Failure After Severe Trauma",
@@ -10182,6 +10229,44 @@
       "abbr": "Renal",
       "articles": [
         {
+          "pmid": "42752385",
+          "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Sep 17",
+          "authors": [
+            "Karvellas CJ",
+            "Lambert J",
+            "Ouyang T",
+            "Bagshaw SM",
+            "Cullaro G",
+            "Fricker Z",
+            "Frederick T",
+            "Goldstein SL",
+            "House AA",
+            "Juncos LA",
+            "Heung M",
+            "Patidar KR",
+            "Rewa OG",
+            "Robinson JE",
+            "Teixeira JP",
+            "Wadei H",
+            "Neyra JA",
+            "Allegretti AS",
+            "CRRTnet and HRS-HARMONY Consortia"
+          ],
+          "doi": "10.1097/CCM.0000000000007363",
+          "abstract": "OBJECTIVES: Describe the epidemiology of patients with cirrhosis/acute-on-chronic liver failure (ACLF) receiving continuous renal replacement therapy (CRRT) pertaining to process factors including renal replacement dose, modality, and circuit anticoagulation. SETTING: Academic tertiary care hospitals in the United States and Canada. DESIGN AND PATIENTS: We performed a parallel study of contemporaneous data from the HARMONY and CRRT network (CRRTnet) databases to describe the epidemiology and process of CRRT care of cirrhosis/ACLF patients receiving CRRT in the ICU. We evaluated clinical and CRRT process factors (dialysis dose, anticoagulation) with the primary outcome of in-hospital mortality. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The HARMONY cohort (n = 245; median age, 57 yr; 41% female) and CRRTnet cohort (n = 206; 58 yr; 39% female) demonstrated similar overall survival to hospital discharge (HARMONY, 34%; CRRTnet, 30%). In HARMONY, the two most common causes of acute kidney injury (AKI) requiring CRRT were acute tubular necrosis (73%) and hepatorenal syndrome-AKI (13%), with no significant difference between survivors and nonsurvivors (p = 0.24). In HARMONY, higher chronic liver failure-C ACLF scores (hazard ratio, 1.03 [95% CI, 1.01-1.05]; p < 0.001) were independently associated with increased in-hospital mortality. In CRRTnet, the most common CRRT modality was continuous venovenous hemodiafiltration (83.8%), and the most common anticoagulation strategy was regional citrate anticoagulation (58.0%) or no anticoagulation (35.8%). CRRT prescribed dose greater than 30 mL/kg/hr was independently associated with higher in-hospital mortality (multivariable regression; odds ratio, 2.69; 95% CI, 1.3-5.64; p = 0.01). Of survivors in CRRTnet, 64% were transitioned to intermittent hemodialysis (IHD) before hospital discharge. CONCLUSIONS: Critically ill cirrhosis/ACLF patients initiated on CRRT in the absence of liver transplantation had high in-hospital mortality. These patients were prescribed higher initial CRRT doses (median total effluent > 30 mL/kg/hr), with higher CRRT dose independently associated with increased in-hospital mortality. Of ICU survivors, 64% were transitioned to IHD at ICU discharge. Despite concerns for citrate toxicity, citrate regional anticoagulation was commonly employed in these patients.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+        },
+        {
           "pmid": "42725835",
           "title": "Landscape of Biomarker Use in Critically Ill Patients: Systematic Evidence Map of Acute Kidney Injury and Implications for Practice.",
           "journal": "Critical care medicine",
@@ -10895,6 +10980,44 @@
       "abbr": "GI",
       "articles": [
         {
+          "pmid": "42752385",
+          "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Sep 17",
+          "authors": [
+            "Karvellas CJ",
+            "Lambert J",
+            "Ouyang T",
+            "Bagshaw SM",
+            "Cullaro G",
+            "Fricker Z",
+            "Frederick T",
+            "Goldstein SL",
+            "House AA",
+            "Juncos LA",
+            "Heung M",
+            "Patidar KR",
+            "Rewa OG",
+            "Robinson JE",
+            "Teixeira JP",
+            "Wadei H",
+            "Neyra JA",
+            "Allegretti AS",
+            "CRRTnet and HRS-HARMONY Consortia"
+          ],
+          "doi": "10.1097/CCM.0000000000007363",
+          "abstract": "OBJECTIVES: Describe the epidemiology of patients with cirrhosis/acute-on-chronic liver failure (ACLF) receiving continuous renal replacement therapy (CRRT) pertaining to process factors including renal replacement dose, modality, and circuit anticoagulation. SETTING: Academic tertiary care hospitals in the United States and Canada. DESIGN AND PATIENTS: We performed a parallel study of contemporaneous data from the HARMONY and CRRT network (CRRTnet) databases to describe the epidemiology and process of CRRT care of cirrhosis/ACLF patients receiving CRRT in the ICU. We evaluated clinical and CRRT process factors (dialysis dose, anticoagulation) with the primary outcome of in-hospital mortality. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The HARMONY cohort (n = 245; median age, 57 yr; 41% female) and CRRTnet cohort (n = 206; 58 yr; 39% female) demonstrated similar overall survival to hospital discharge (HARMONY, 34%; CRRTnet, 30%). In HARMONY, the two most common causes of acute kidney injury (AKI) requiring CRRT were acute tubular necrosis (73%) and hepatorenal syndrome-AKI (13%), with no significant difference between survivors and nonsurvivors (p = 0.24). In HARMONY, higher chronic liver failure-C ACLF scores (hazard ratio, 1.03 [95% CI, 1.01-1.05]; p < 0.001) were independently associated with increased in-hospital mortality. In CRRTnet, the most common CRRT modality was continuous venovenous hemodiafiltration (83.8%), and the most common anticoagulation strategy was regional citrate anticoagulation (58.0%) or no anticoagulation (35.8%). CRRT prescribed dose greater than 30 mL/kg/hr was independently associated with higher in-hospital mortality (multivariable regression; odds ratio, 2.69; 95% CI, 1.3-5.64; p = 0.01). Of survivors in CRRTnet, 64% were transitioned to intermittent hemodialysis (IHD) before hospital discharge. CONCLUSIONS: Critically ill cirrhosis/ACLF patients initiated on CRRT in the absence of liver transplantation had high in-hospital mortality. These patients were prescribed higher initial CRRT doses (median total effluent > 30 mL/kg/hr), with higher CRRT dose independently associated with increased in-hospital mortality. Of ICU survivors, 64% were transitioned to IHD at ICU discharge. Despite concerns for citrate toxicity, citrate regional anticoagulation was commonly employed in these patients.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+        },
+        {
           "pmid": "42745269",
           "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
           "journal": "Critical care (London, England)",
@@ -11539,6 +11662,58 @@
       "label": "Endocrine & Metabolic",
       "abbr": "Endo",
       "articles": [
+        {
+          "pmid": "42283370",
+          "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
+          "journal": "The New England journal of medicine",
+          "pubdate": "2026 Sep 17",
+          "authors": [
+            "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
+            "Serpa Neto A",
+            "McNamara M",
+            "White K",
+            "Cooper DJ",
+            "Fujii T",
+            "Higgins AM",
+            "Hodgson CL",
+            "Navarra L",
+            "Nichol A",
+            "Peake S",
+            "Réa-Neto A",
+            "Secombe P",
+            "Osborne F",
+            "Burrill H",
+            "See E",
+            "Young M",
+            "Zampieri FG",
+            "Plummer M",
+            "Christie C",
+            "Nunnink L",
+            "Mackay J",
+            "McGuinness S",
+            "Marmol J",
+            "Tiruvoipati R",
+            "Bailey M",
+            "Young PJ",
+            "Bellomo R",
+            "Udy A"
+          ],
+          "doi": "10.1056/NEJMoa2600526",
+          "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Randomized Controlled Trial",
+          "volume": "395",
+          "issue": "11",
+          "pages": "1062-1074",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/",
+          "ai_key_stats": "",
+          "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
+          "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
+          "ai_rounds_takeaway": ""
+        },
         {
           "pmid": "42745269",
           "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
@@ -13216,6 +13391,44 @@
       "abbr": "Heme",
       "articles": [
         {
+          "pmid": "42752385",
+          "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Sep 17",
+          "authors": [
+            "Karvellas CJ",
+            "Lambert J",
+            "Ouyang T",
+            "Bagshaw SM",
+            "Cullaro G",
+            "Fricker Z",
+            "Frederick T",
+            "Goldstein SL",
+            "House AA",
+            "Juncos LA",
+            "Heung M",
+            "Patidar KR",
+            "Rewa OG",
+            "Robinson JE",
+            "Teixeira JP",
+            "Wadei H",
+            "Neyra JA",
+            "Allegretti AS",
+            "CRRTnet and HRS-HARMONY Consortia"
+          ],
+          "doi": "10.1097/CCM.0000000000007363",
+          "abstract": "OBJECTIVES: Describe the epidemiology of patients with cirrhosis/acute-on-chronic liver failure (ACLF) receiving continuous renal replacement therapy (CRRT) pertaining to process factors including renal replacement dose, modality, and circuit anticoagulation. SETTING: Academic tertiary care hospitals in the United States and Canada. DESIGN AND PATIENTS: We performed a parallel study of contemporaneous data from the HARMONY and CRRT network (CRRTnet) databases to describe the epidemiology and process of CRRT care of cirrhosis/ACLF patients receiving CRRT in the ICU. We evaluated clinical and CRRT process factors (dialysis dose, anticoagulation) with the primary outcome of in-hospital mortality. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The HARMONY cohort (n = 245; median age, 57 yr; 41% female) and CRRTnet cohort (n = 206; 58 yr; 39% female) demonstrated similar overall survival to hospital discharge (HARMONY, 34%; CRRTnet, 30%). In HARMONY, the two most common causes of acute kidney injury (AKI) requiring CRRT were acute tubular necrosis (73%) and hepatorenal syndrome-AKI (13%), with no significant difference between survivors and nonsurvivors (p = 0.24). In HARMONY, higher chronic liver failure-C ACLF scores (hazard ratio, 1.03 [95% CI, 1.01-1.05]; p < 0.001) were independently associated with increased in-hospital mortality. In CRRTnet, the most common CRRT modality was continuous venovenous hemodiafiltration (83.8%), and the most common anticoagulation strategy was regional citrate anticoagulation (58.0%) or no anticoagulation (35.8%). CRRT prescribed dose greater than 30 mL/kg/hr was independently associated with higher in-hospital mortality (multivariable regression; odds ratio, 2.69; 95% CI, 1.3-5.64; p = 0.01). Of survivors in CRRTnet, 64% were transitioned to intermittent hemodialysis (IHD) before hospital discharge. CONCLUSIONS: Critically ill cirrhosis/ACLF patients initiated on CRRT in the absence of liver transplantation had high in-hospital mortality. These patients were prescribed higher initial CRRT doses (median total effluent > 30 mL/kg/hr), with higher CRRT dose independently associated with increased in-hospital mortality. Of ICU survivors, 64% were transitioned to IHD at ICU discharge. Despite concerns for citrate toxicity, citrate regional anticoagulation was commonly employed in these patients.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+        },
+        {
           "pmid": "42267870",
           "title": "International Validation of Temperature-Trajectory Sepsis Subphenotypes With Longitudinal Immune and Coagulation Patterns and Its Implications for Immunoglobulin Therapy.",
           "journal": "Critical care medicine",
@@ -14620,6 +14833,58 @@
       "label": "Procedures & POCUS",
       "abbr": "Procedures",
       "articles": [
+        {
+          "pmid": "42283370",
+          "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
+          "journal": "The New England journal of medicine",
+          "pubdate": "2026 Sep 17",
+          "authors": [
+            "SODa-BIC Investigators and the Australian and New Zealand Intensive Care Society Clinical Trials Group",
+            "Serpa Neto A",
+            "McNamara M",
+            "White K",
+            "Cooper DJ",
+            "Fujii T",
+            "Higgins AM",
+            "Hodgson CL",
+            "Navarra L",
+            "Nichol A",
+            "Peake S",
+            "Réa-Neto A",
+            "Secombe P",
+            "Osborne F",
+            "Burrill H",
+            "See E",
+            "Young M",
+            "Zampieri FG",
+            "Plummer M",
+            "Christie C",
+            "Nunnink L",
+            "Mackay J",
+            "McGuinness S",
+            "Marmol J",
+            "Tiruvoipati R",
+            "Bailey M",
+            "Young PJ",
+            "Bellomo R",
+            "Udy A"
+          ],
+          "doi": "10.1056/NEJMoa2600526",
+          "abstract": "BACKGROUND: Metabolic acidosis is common in critically ill patients and is associated with organ dysfunction and death. Sodium bicarbonate is used to correct acidemia, but its benefit in patients with metabolic acidosis who are receiving vasopressors remains uncertain. METHODS: In this pragmatic, adaptive, double-blind, randomized trial, we assigned adults with metabolic acidosis (pH, <7.30; base excess, no more than -4 mmol per liter; and partial pressure of arterial carbon dioxide, ≤45 mm Hg without intubation or ≤50 mm Hg with intubation) who were receiving vasopressors in the intensive care unit (ICU) to receive either sodium bicarbonate or placebo (5% dextrose). Sodium bicarbonate or placebo was infused for up to 5 hours, with the infusion rate adjusted for a target pH of at least 7.30 and base excess of at least 0 mmol per liter. The primary outcome was a major adverse kidney event, defined as death, use of renal-replacement therapy, or persistent renal dysfunction, within 30 days. RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries; 245 patients were assigned to receive sodium bicarbonate and 255 to receive placebo. A major adverse kidney event within 30 days occurred in 98 of 244 patients (40.2%) in the sodium bicarbonate group and in 100 of 254 patients (39.4%) in the placebo group (adjusted difference, 1.2 percentage points; 95% confidence interval [CI], -7.1 to 9.4; P = 0.78). Renal-replacement therapy was used within 30 days in 16.8% of the patients in the sodium bicarbonate group and in 20.9% of those in the placebo group (adjusted difference, -3.9 percentage points; 95% CI, -10.6 to 2.7). In-hospital mortality by day 30 was 25.4% in the sodium bicarbonate group and 24.0% in the placebo group (adjusted difference, 1.8 percentage points; 95% CI, -5.6 to 9.2). Four patients (1.6%) in the sodium bicarbonate group had an adverse effect, as compared with none in the placebo group (P = 0.06). CONCLUSIONS: The use of sodium bicarbonate in critically ill patients with metabolic acidosis receiving vasopressors did not lead to a lower risk of major adverse kidney events within 30 days than placebo. (Funded by the National Health and Medical Research Council of Australia; SODa-BIC ClinicalTrials.gov number, NCT05697770.).",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Randomized Controlled Trial",
+          "volume": "395",
+          "issue": "11",
+          "pages": "1062-1074",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42283370/",
+          "ai_key_stats": "",
+          "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
+          "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
+          "ai_rounds_takeaway": ""
+        },
         {
           "pmid": "42612901",
           "title": "Induction Agents for Tracheal Intubation of Critically Ill Patients: A Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",

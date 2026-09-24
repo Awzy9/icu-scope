@@ -2730,6 +2730,30 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+      },
+      "42773480": {
+        "pmid": "42773480",
+        "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 22",
+        "authors": [
+          "Zhou J",
+          "Lei H",
+          "Li R",
+          "Liu X",
+          "Chen G"
+        ],
+        "doi": "10.1186/s13054-026-06322-0",
+        "abstract": "",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/"
       }
     },
     "gi-nutrition": {
@@ -7276,6 +7300,16 @@
       "summary": "SCCM recently published updated guidelines on neuromuscular blockade in ARDS. The authors present five recommendations, the first being the most potentially influential on practice. “Paralyze patients with ARDS when their P/F ratio drops below 150 and they are persistently hypoxemic or fighting the ventilator.”[1] The panel based this recommendation on a 2020 systematic review by […] EMCrit Projec",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/pulmcrit/pulse/": {
+      "title": "PulmCrit: Myth-busting pulse dose steroid for non-CNS indications",
+      "url": "https://emcrit.org/pulmcrit/pulse/",
+      "source": "PulmCrit",
+      "author": "Josh Farkas",
+      "pubdate": "2026-09-23",
+      "summary": "Pulse-dose methylprednisolone is common across many medical fields (defined here as giving ≧500 mg methylprednisolone daily for ≧3 days). However, providing such a high dose of steroids may increase the risk of steroid-related complications (especially invasive fungal infections). What is the evidence behind this practice? I searched the medical literature for RCTs meeting the following […] EMCrit",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -8908,6 +8942,30 @@
       "pmc_url": null,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42767105/",
       "society": "Surviving Sepsis Campaign"
+    },
+    "42776136": {
+      "pmid": "42776136",
+      "title": "Postoperative Acute Kidney Injury in Cardiovascular Surgery Patients with Prolonged Intensive Care Unit Stay: Impact on Mortality and Outcomes.",
+      "journal": "Brazilian journal of cardiovascular surgery",
+      "pubdate": "2026 Sep 21",
+      "authors": [
+        "Balkan B",
+        "Turan EI",
+        "Dündar AS",
+        "Yalçın L"
+      ],
+      "doi": "10.21470/1678-9741-2025-0271",
+      "abstract": "OBJECTIVE: To evaluate the association between postoperative acute kidney injury (AKI) and outcomes in adults undergoing cardiovascular surgery who required a prolonged intensive care unit (ICU) stay. METHODS: We conducted a retrospective cohort study of consecutive cardiovascular surgery patients with ICU stay ≥ 72 hours. AKI was defined and staged using creatinine-based Kidney Disease: Improving Global Outcomes (KDIGO) criteria. The primary outcome was in-hospital mortality. Secondary outcomes were time to extubation, ICU days until ward transfer, and perioperative transfusion exposure (red blood cells/fresh frozen plasma/platelet/apheresis); initiation of renal replacement therapy was assessed exploratorily. Multivariable logistic regression examined the association between AKI and mortality, adjusting for age, sex, baseline renal function/chronic kidney disease (estimated glomerular filtration rate category), hypertension, diabetes, chronic obstructive pulmonary disease, ejection fraction (or Age Creatinine Ejection Fraction score), procedure type (coronary artery bypass grafting/valve/combined), cardiopulmonary bypass and cross-clamping times, transfusions, and post-cardiopulmonary bypass vasoactive/inotropic use where available. RESULTS: AKI was frequent after cardiovascular surgery and was independently associated with higher in-hospital mortality in adjusted analyses. Patients with AKI also had longer time to extubation, greater transfusion requirements, and prolonged ICU stay, with a stepwise worsening across KDIGO stages. Findings were consistent in sensitivity analyses. Incomplete urine-output data were acknowledged as a limitation, as oliguria forms part of KDIGO definitions. CONCLUSION: Among cardiovascular surgery patients with prolonged ICU stay, postoperative AKI is a strong predictor of in-hospital mortality and adverse resource-related outcomes. Emphasis on prevention, early detection, and optimized perioperative management may improve prognosis in this high-risk population.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "41",
+      "issue": "3",
+      "pages": "e20250271",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42776136/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -10374,7 +10432,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06854640",
       "source": "Bayer",
       "author": "",
-      "pubdate": "2026-08-20",
+      "pubdate": "2026-09-23",
       "summary": "Researchers are looking for a better way to treat people who have sepsis induced coagulopathy. Sepsis happens when bacteria and their toxins spread in the blood, causing an infection. To overcome the infection the body responds activating the immune system, sometimes this immune response is too active and causes uncontrolled blood clot formation, also called sepsis-induced coagulopathy. Sepsis coagulopathy damages blood vessels and organs and leads to low platelet levels in the body. In severe c",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -10410,8 +10468,8 @@
       "url": "https://clinicaltrials.gov/study/NCT05327881",
       "source": "Assiut University",
       "author": "",
-      "pubdate": "2026-08-21",
-      "summary": "Whole blood lactate concentration is widely used in shock states to assess perfusion. We aimed to determine if the change in plasma renin concentration over time would be superior to the change in lactate concentration for predicting in-hospital mortality in septic shock patients.",
+      "pubdate": "2026-09-23",
+      "summary": "Whole blood lactate concentration is widely used in shock states to assess perfusion. We aimed to determine if the change in plasma renin concentration over time would be superior to the change in lactate concentration for predicting 28-day mortality in septic shock patients.",
       "study_type": "Clinical Trial (Completed)",
       "is_open_access": true,
       "is_trial": true,
@@ -12192,6 +12250,78 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07124741"
+    },
+    "NCT07642076": {
+      "title": "Evaluation of the Clinical Impact of Adjunctive L-carnitine Therapy in Critically Ill Hepatic Patients Admitted to Intensive Care Unit",
+      "url": "https://clinicaltrials.gov/study/NCT07642076",
+      "source": "Beni-Suef University",
+      "author": "",
+      "pubdate": "2026-09-23",
+      "summary": "This study aims to evaluate the possible efficacy of l-carnitine in critically ill hepatic patients admitted to intensive care unit.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07642076"
+    },
+    "NCT07040202": {
+      "title": "Immune Responses to Dengue and Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT07040202",
+      "source": "Institut Pasteur du Cambodge",
+      "author": "",
+      "pubdate": "2026-09-23",
+      "summary": "The goal of this research study is to help the investigators better understand serious dengue disease. The investigators will collect clinical information and up to four blood samples from participants with dengue, influenza, sepsis, or healthy people. The investigators will perform multiple analyses on the blood samples and compare results between dengue patients and those with influenza or sepsis and healthy people.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07040202"
+    },
+    "NCT07154615": {
+      "title": "Assessing Immune Dysfunction in Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT07154615",
+      "source": "University of Minnesota",
+      "author": "",
+      "pubdate": "2026-09-23",
+      "summary": "Sepsis leads to sustained immune system dysfunction resulting in increased susceptibility to secondary infection while in the hospital or after discharge. Consequently, many of the \\~2 million Americans that develop sepsis every year will end up back in the ICU, weeks and months later. The objective of this study is to define the cellular and molecular mechanisms driving the dysfunction and reprogramming of T cells and B cells that mediate cellular and humoral immunity using a combination of phe",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07154615"
+    },
+    "NCT07837128": {
+      "title": "PERMISSive Lung-protective Ventilation RCT",
+      "url": "https://clinicaltrials.gov/study/NCT07837128",
+      "source": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+      "author": "",
+      "pubdate": "2026-09-23",
+      "summary": "The goal of this clinical trial is to investigate the impact of a ventilation strategy with a lower respiratory rate (RR) (permissive lung-protective ventilation) on clinical outcomes in adult critically ill patients receiving invasive ventilation. The main question it aims to answer is: Is a permissive lung-protective ventilation, defined as a strategy that reduces ventilatory intensity by stepwise lowering RR to the lowest level permitted by predefined safety limits, superior to conventional l",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07837128"
+    },
+    "NCT05391789": {
+      "title": "Clinical Efficacy of Ulinastatin for Treatment of Sepsis With Systemic Inflammatory Response Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT05391789",
+      "source": "Huashan Hospital",
+      "author": "",
+      "pubdate": "2026-09-23",
+      "summary": "Sepsis is a life-threatening organ dysfunction caused by the maladjusted response of the host to infection. It is a clinical syndrome with high mortality. Studies have confirmed that many cytokines play a vital role in the pathogenesis of sepsis. Ulinastatin (UTI) is a glycoprotein that exists in human blood and can be isolated and purified from human urine. It is a broad-spectrum protease inhibitor. Previous studies have shown that Ulinastatin may have the effect of treating sepsis. 120 septic ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05391789"
+    },
+    "NCT07629297": {
+      "title": "A Korean Point Prevalence Study of Acute Rehabilitation for Kids in the PICU (PARK-PICU)",
+      "url": "https://clinicaltrials.gov/study/NCT07629297",
+      "source": "Samsung Medical Center",
+      "author": "",
+      "pubdate": "2026-09-23",
+      "summary": "This study investigates the prevalence of acute rehabilitation practices among children in pediatric intensive care units (PICUs).",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07629297"
     }
   },
   "bottom_line": {
