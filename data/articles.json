@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-09-24T07:56:22+00:00",
+  "generated_at": "2026-09-25T08:19:33+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
     "articles": [
+      {
+        "pmid": "42778957",
+        "title": "The NLRP3 inflammasome in physiological and dysfunctional host response in human sepsis and critical illness: a narrative review.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 19",
+        "authors": [
+          "Neumann C",
+          "Hickl F",
+          "Kemnitzer J",
+          "Leitner M",
+          "Giamarellos-Bourboulis EJ",
+          "Rubio I"
+        ],
+        "doi": "10.1186/s13054-026-06315-z",
+        "abstract": "BACKGROUND: The NLRP3 inflammasome is a cytosolic multiprotein complex that serves as a key regulator of innate immunity by reacting to pathogen- and damage-associated signals and orchestrating downstream inflammatory responses. Inflammasome activation induces caspase-1-dependent maturation of interleukin (IL)-1β, IL-18 and gasdermin D, which results in pyroptotic cell death. MAIN TEXT: While tightly controlled inflammasome activation is essential for effective host defence and pathogen clearance, accumulating evidence implicates its dysregulation as a central driver of host response imbalance in critical illness. In conditions such as sepsis and acute respiratory distress syndrome, excessive activation contributes to hyperinflammation, endothelial dysfunction, immunothrombosis, and multi-organ failure. Conversely, insufficient or exhausted inflammasome responses may impair microbial clearance and predispose to secondary infections. These observations underscore the context-dependent and temporally dynamic role of inflammasome signalling as being either protective or pathogenic. Emerging therapeutic strategies aim to restore immune homeostasis through targeted modulation of inflammasome pathways, including IL-1 blockade (e.g., anakinra) and inhibition of upstream signalling components. However, clinical translation remains challenging, requiring improved patient stratification, biomarker-guided approaches, and a deeper understanding of disease heterogeneity. CONCLUSIONS: Inflammasome signalling plays a highly dynamic role in critical illness, contributing to effective host defence, if functional, or to pathological inflammation, if dysregulated. Although targeted modulation of inflammasome pathways represents a promising therapeutic strategy, further research is needed to refine patient selection, identify reliable biomarkers, and better characterise disease heterogeneity to enable successful clinical translation.",
+        "citation_count": 265,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
       {
         "pmid": "42765454",
         "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
@@ -308,32 +335,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533464/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42289099/"
-      },
-      {
-        "pmid": "42773480",
-        "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Sep 22",
-        "authors": [
-          "Zhou J",
-          "Lei H",
-          "Li R",
-          "Liu X",
-          "Chen G"
-        ],
-        "doi": "10.1186/s13054-026-06322-0",
-        "abstract": "",
-        "citation_count": 4,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
       }
     ]
   },
@@ -348,9 +349,7 @@
         "pubdate": "2026-09-23",
         "summary": "Pulse-dose methylprednisolone is common across many medical fields (defined here as giving ≧500 mg methylprednisolone daily for ≧3 days). However, providing such a high dose of steroids may increase the risk of steroid-related complications (especially invasive fungal infections). What is the evidence behind this practice? I searched the medical literature for RCTs meeting the following […] EMCrit",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Case of the Obscured Bias",
@@ -460,9 +459,7 @@
         "pubdate": "2026-08-24",
         "summary": "The chloride saga continues... EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality",
@@ -472,9 +469,7 @@
         "pubdate": "2026-08-24",
         "summary": "Is there any moderate or high-level evidence that SEP-1 compliance and/or implementation is associated with improvement in sepsis mortality? The post Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit 432 – Members’ Airway Cases and Q&A",
@@ -1096,9 +1091,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42776136/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42767105",
@@ -4041,17 +4034,15 @@
         ],
         "doi": "10.1186/s13054-026-06322-0",
         "abstract": "",
-        "citation_count": 0,
+        "citation_count": 4,
         "is_top_journal": true,
         "study_type": "Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "renal",
         "category_label": "Renal",
         "category_ids": [
@@ -4095,6 +4086,43 @@
         ],
         "category_labels": [
           "Respiratory"
+        ]
+      },
+      {
+        "pmid": "42778957",
+        "title": "The NLRP3 inflammasome in physiological and dysfunctional host response in human sepsis and critical illness: a narrative review.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 19",
+        "authors": [
+          "Neumann C",
+          "Hickl F",
+          "Kemnitzer J",
+          "Leitner M",
+          "Giamarellos-Bourboulis EJ",
+          "Rubio I"
+        ],
+        "doi": "10.1186/s13054-026-06315-z",
+        "abstract": "BACKGROUND: The NLRP3 inflammasome is a cytosolic multiprotein complex that serves as a key regulator of innate immunity by reacting to pathogen- and damage-associated signals and orchestrating downstream inflammatory responses. Inflammasome activation induces caspase-1-dependent maturation of interleukin (IL)-1β, IL-18 and gasdermin D, which results in pyroptotic cell death. MAIN TEXT: While tightly controlled inflammasome activation is essential for effective host defence and pathogen clearance, accumulating evidence implicates its dysregulation as a central driver of host response imbalance in critical illness. In conditions such as sepsis and acute respiratory distress syndrome, excessive activation contributes to hyperinflammation, endothelial dysfunction, immunothrombosis, and multi-organ failure. Conversely, insufficient or exhausted inflammasome responses may impair microbial clearance and predispose to secondary infections. These observations underscore the context-dependent and temporally dynamic role of inflammasome signalling as being either protective or pathogenic. Emerging therapeutic strategies aim to restore immune homeostasis through targeted modulation of inflammasome pathways, including IL-1 blockade (e.g., anakinra) and inhibition of upstream signalling components. However, clinical translation remains challenging, requiring improved patient stratification, biomarker-guided approaches, and a deeper understanding of disease heterogeneity. CONCLUSIONS: Inflammasome signalling plays a highly dynamic role in critical illness, contributing to effective host defence, if functional, or to pathological inflammation, if dysregulated. Although targeted modulation of inflammasome pathways represents a promising therapeutic strategy, further research is needed to refine patient selection, identify reliable biomarkers, and better characterise disease heterogeneity to enable successful clinical translation.",
+        "citation_count": 265,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory",
+        "category_ids": [
+          "respiratory",
+          "infectious-sepsis"
+        ],
+        "category_labels": [
+          "Respiratory",
+          "Infectious Disease & Sepsis"
         ]
       }
     ]
@@ -4208,6 +4236,128 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Impact of an On-site Simulation-based Training Programme on Adherence to Standard Precautions and Healthcare-associated Infections in Adult Intensive Care",
+        "url": "https://clinicaltrials.gov/study/NCT07822971",
+        "source": "Centre Hospitalier Régional Metz-Thionville",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "This is a prospective, single-centre, quasi-experimental before-and-after study conducted over 18 months in an adult ICU. The study includes a 6-month pre-intervention period, a 6-month intervention period during which healthcare professionals participate in repeated in situ simulation sessions, and a 6-month post-intervention period.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07822971"
+      },
+      {
+        "title": "Clopidogrel vs. Aspirin for Cardiovascular Risk Reduction in Patients With S. Aureus Bacteremia",
+        "url": "https://clinicaltrials.gov/study/NCT06650488",
+        "source": "Todd C. Lee MD MPH FIDSA",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "This is an open-label randomized controlled trial which will enroll patients with S. aureus bacteremia who are already taking aspirin for secondary prevention of cardiovascular events. We will randomize patients to continue their aspirin or change clopidogrel which is also approved for secondary prevention. Unlike aspirin, clopidogrel may have activity against S. aureus. We wish to determine if changing to clopidogrel will improve outcomes in S. aureus bacteremia in people who otherwise would ha",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06650488"
+      },
+      {
+        "title": "Dynamic Non-invasive Monitoring of Inspiratory Effort",
+        "url": "https://clinicaltrials.gov/study/NCT07839949",
+        "source": "Fundació d'investigació Sanitària de les Illes Balears",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "This prospective, observational cohort study aims to evaluate whether the dynamic monitoring of a patient's breathing effort can predict successful liberation from invasive mechanical ventilation. The study will include 120 patients who have undergone 36 hours or more of controlled mechanical ventilation and deep sedation. Patient monitoring will commence immediately upon their transition to an assisted spontaneous breathing mode with pressure support. Starting from this clinical milestone, the ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07839949",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Vancomycin Reduction Practices (VRP) in the NICU",
+        "url": "https://clinicaltrials.gov/study/NCT06772675",
+        "source": "Children's Hospital of Philadelphia",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "This multi-center, cluster randomized study aimed at improving implementation of vancomycin reducing practices (VRP) in neonatal intensive care units (NICUs). Sites will be recruited and randomized to receive either external facilitation or no external facilitation to assess the effect on center-level fidelity to the core components of VRP implementation. Interventions available to both study arms are directed at hospital staff and includes identification of local champions, educational outreach",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06772675",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Al Prediction of Sarcopenia Risk in Neurocritical ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07712198",
+        "source": "Trabzon Kanuni Education and Research Hospital",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "This prospective observational study aims to evaluate sarcopenia in intensive care patients with intracranial pathologies using ultrasound and to compare the predictive performance of different artificial intelligence models. Rectus femoris muscle thickness will be measured by ultrasound on ICU admission (Day 0) and Day 7. Prealbumin levels will be assessed on Days 0, 3, and 7, and the modified Nutrition Risk in Critically Ill (mNUTRIC) score will be calculated on the first day of ICU admission.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07712198",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Effect of Protocolized Magnesium Replacement on Mortality and Atrial Fibrillation in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07173855",
+        "source": "Scarborough General Hospital",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "In patients with critical illness, such as severe infections, heart attacks, or respiratory failure, most intensive care units (ICUs) measure magnesium levels and give supplemental doses of magnesium when levels are below certain targets. However, the best targets are unknown. The goal of this clinical trial is to study protocols for magnesium supplementation in people with critical illness, comparing a protocol with higher target level to a protocol with a lower target level. The main question ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07173855",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Antibiotic Duration and Outcomes in High-Risk Febrile Neutropenia Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07372131",
+        "source": "Valeria Cento",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "The goal of this clinical trial is to learn if a personalized duration of antibiotic therapy, based on clinical stability, is as effective as a standard duration of at least 10 days in hospitalized patients with hematologic malignancies (such as leukemia or lymphoma) who develop febrile neutropenia and Gram-negative bacteraemia. The main questions it aims to answer are: * Can a personalized antibiotic duration increase the number of days free from anti-Gram-negative therapy within 28 days withou",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07372131",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Dabigatran vs. Oral Anti-Xa Inhibitors in S. Aureus Bacteremia",
+        "url": "https://clinicaltrials.gov/study/NCT06650501",
+        "source": "McGill University Health Centre/Research Institute of the McGill University Health Centre",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "This is an open-label randomized controlled trial which will enroll patients with S. aureus bacteremia who are already taking oral anticoagulant medications (apixaban, edoxaban, or rivaroxaban) for an approved indication (stroke prevention in atrial fibrillation, prevention or treatment of venous thromboembolism). We will randomize patients to continue their existing medication or change to another medication (dabigatran) which is approved for the original indication. Dabigatran is approved in m",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06650501",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Pupillometry in Critical Care",
+        "url": "https://clinicaltrials.gov/study/NCT07838350",
+        "source": "Walton Centre NHS Foundation Trust",
+        "author": "",
+        "pubdate": "2026-09-24",
+        "summary": "Traumatic Brain Injury is a leading cause of death and disability in adults worldwide. The investigators want to find the best way to predict which patients with head injuries are going to deteriorate in order to get medical treatment promptly. Pupil examination is an essential part of a neurological assessment, providing a window in to the brain. Abnormalities in measurement of pupil size and response to light indicates rising pressure inside the rigid skull (intracranial pressure (ICP)), which",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07838350",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
         "url": "https://clinicaltrials.gov/study/NCT06854640",
         "source": "Bayer",
@@ -4241,9 +4391,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07642076",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07642076"
       },
       {
         "title": "Immune Responses to Dengue and Sepsis",
@@ -4255,9 +4403,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07040202",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07040202"
       },
       {
         "title": "Assessing Immune Dysfunction in Sepsis",
@@ -4269,9 +4415,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07154615",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07154615"
       },
       {
         "title": "PERMISSive Lung-protective Ventilation RCT",
@@ -4283,9 +4427,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07837128",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07837128"
       },
       {
         "title": "Clinical Efficacy of Ulinastatin for Treatment of Sepsis With Systemic Inflammatory Response Syndrome",
@@ -4297,9 +4439,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05391789",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05391789"
       },
       {
         "title": "A Korean Point Prevalence Study of Acute Rehabilitation for Kids in the PICU (PARK-PICU)",
@@ -4311,9 +4451,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07629297",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07629297"
       },
       {
         "title": "Preventive Narrative Exposure Intervention for PTSD in ICU Patients After Cardiopulmonary Bypass Cardiac Surgery",
@@ -4486,18 +4624,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07073456"
-      },
-      {
-        "title": "Clopidogrel vs. Aspirin for Cardiovascular Risk Reduction in Patients With S. Aureus Bacteremia",
-        "url": "https://clinicaltrials.gov/study/NCT06650488",
-        "source": "Todd C. Lee MD MPH FIDSA",
-        "author": "",
-        "pubdate": "2026-09-21",
-        "summary": "This is an open-label randomized controlled trial which will enroll patients with S. aureus bacteremia who are already taking aspirin for secondary prevention of cardiovascular events. We will randomize patients to continue their aspirin or change clopidogrel which is also approved for secondary prevention. Unlike aspirin, clopidogrel may have activity against S. aureus. We wish to determine if changing to clopidogrel will improve outcomes in S. aureus bacteremia in people who otherwise would ha",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06650488"
       },
       {
         "title": "Fever Control Using External Cooling in Mechanically Ventilated Patients With Septic Shock",
@@ -4753,9 +4879,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06501118",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06501118"
       },
       {
         "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
@@ -4816,18 +4940,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06539234"
-      },
-      {
-        "title": "Impact of an On-site Simulation-based Training Programme on Adherence to Standard Precautions and Healthcare-associated Infections in Adult Intensive Care",
-        "url": "https://clinicaltrials.gov/study/NCT07822971",
-        "source": "Centre Hospitalier Régional Metz-Thionville",
-        "author": "",
-        "pubdate": "2026-09-16",
-        "summary": "This is a prospective, single-centre, quasi-experimental before-and-after study conducted over 18 months in an adult ICU. The study includes a 6-month pre-intervention period, a 6-month intervention period during which healthcare professionals participate in repeated in situ simulation sessions, and a 6-month post-intervention period.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07822971"
       },
       {
         "title": "Intra-Abdominal Pressure Changes During Continuous Renal Replacement Therapy in Critically Ill Patients",
@@ -6115,9 +6227,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07782216",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07782216"
       },
       {
         "title": "Iron Deficiency at ICU Discharge",
@@ -6129,9 +6239,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07781540",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07781540"
       },
       {
         "title": "AI Assisted Preoperative Assessment for ASA Classification and ICU Admission",
@@ -6143,9 +6251,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07783334",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07783334"
       },
       {
         "title": "Samu Save Sepsis: Early Goal Directed Therapy in Pre Hospital Care of Patients With Severe Sepsis and/or Septic Shock",
@@ -6157,9 +6263,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02473263",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02473263"
       },
       {
         "title": "Effects of Paroxetine on Cardiovascular Function in Septic Patients",
@@ -6171,9 +6275,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05725837",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05725837"
       },
       {
         "title": "Exogenous Ketone Supplementation in ICU Delirium",
@@ -6185,9 +6287,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07364162",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07364162"
       },
       {
         "title": "Dynamics of Organ Damage and Immune Exhaustion During Sepsis",
@@ -6199,9 +6299,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06817408",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06817408"
       },
       {
         "title": "Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients",
