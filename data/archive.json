@@ -1468,6 +1468,36 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
+      },
+      "42790625": {
+        "pmid": "42790625",
+        "title": "Cough function during mechanical ventilation.",
+        "journal": "Chest",
+        "pubdate": "2026 Sep 25",
+        "authors": [
+          "Bonny V",
+          "Dres M",
+          "Madotto F",
+          "Urbina T",
+          "Missri L",
+          "Joffre J",
+          "Maury É",
+          "Piquilloud L",
+          "Rodrigues A",
+          "Brochard L",
+          "Ait-Oufella H"
+        ],
+        "doi": "10.1016/j.chest.2026.09.023",
+        "abstract": "TOPIC IMPORTANCE: Cough is a vital physiological function that clears the tracheobronchial tree and facilitates effective gas exchange through secretion clearance. In ICU patients, ineffective cough is frequent, primarily due to respiratory muscle dysfunction and the presence of the endotracheal tube, which prevents glottic closure. Ineffective cough has been identified as an independent risk factor for extubation failure and prolonged mechanical ventilation. REVIEW FINDINGS: Current guidelines recognize ineffective cough as a key criterion for successful weaning from mechanical ventilation. Nevertheless, its clinical assessment remains challenging and lacks standardization. Accurate and objective evaluation of cough may improve the identification of patients at high risk of extubation failure. Beyond extubation failure, ineffective cough has also been associated with increased incidence of post-extubation pneumonia, longer ICU stay, and impaired long-term respiratory function. Poor outcome highlights the broader clinical impact of ineffective cough and reinforce the need for standardized assessment during ventilator weaning. SUMMARY: This narrative review aims to decipher the mechanisms underlying the cough reflex, outline the pathophysiological alterations observed in critically ill patients, particularly during the weaning process, and examine the available methods for cough quantification.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42790625/"
       }
     },
     "neurology": {
@@ -5002,6 +5032,32 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
+      },
+      "42786518": {
+        "pmid": "42786518",
+        "title": "Dosing of anti-infective drugs in patients undergoing therapeutic plasma exchange - considerations for practical application: a narrative review.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 24",
+        "authors": [
+          "Nachtigall MB",
+          "Schmidt JJ",
+          "Scherneck S",
+          "Flechtner J",
+          "David S",
+          "Kielstein JT",
+          "EXCHANGE-2 study group"
+        ],
+        "doi": "10.1186/s13054-026-06306-0",
+        "abstract": "BACKGROUND: Therapeutic plasma exchange (TPE) is used in a wide range of indications and patient populations. The current guidelines of the American Society for Apheresis on the use of therapeutic apheresis in clinical practice list 166 graded indications for TPE. Many indications are related to the treatment of critically ill patients. Indeed, two multicenter trials are currently investigating the role of TPE in the treatment of early septic shock. MAIN BODY: During TPE, usually 1.0-1.5 times the calculated plasma volume is exchanged using albumin solution or fresh frozen plasma as replacement fluid, although considerable deviations from this recommended exchange volume have been reported. Depending on the TPE modality (membrane-based or centrifugal), the duration of the procedure ranges between 90 and 140 min. TPE removes not only unwanted substances such as inflammatory mediators or pathological antibodies but may also remove drugs that are essential for the treatment of the underlying disease. Furthermore, changes in plasma protein concentrations due to TPE may affect the volume of distribution (Vd) and the concentrations of protein-bound drugs. The objective of the current narrative review is to introduce general principles of TPE-associated drug removal as well as the current literature on the dosing of anti-infectives in patients undergoing TPE. CONCLUSION: Pharmacokinetic characteristics, including volume of distribution, plasma protein binding, endogenous clearance, and redistribution kinetics, have been demonstrated to influence the susceptibility of a drug to TPE-associated removal. TPE may substantially affect plasma levels of drugs with low volume of distribution and high protein binding, including aminoglycosides and glycopeptides. Further studies are needed because direct evidence on the pharmacokinetics of anti-infective drugs undergoing TPE in sepsis remains limited. Specific timing or dosing strategies are therefore not supported by sufficient evidence and should be individualized according to drug-specific pharmacokinetics, TPE characteristics, and clinical situation.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
       }
     },
     "hematology-coag": {
@@ -5547,6 +5603,32 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+      },
+      "42786518": {
+        "pmid": "42786518",
+        "title": "Dosing of anti-infective drugs in patients undergoing therapeutic plasma exchange - considerations for practical application: a narrative review.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 24",
+        "authors": [
+          "Nachtigall MB",
+          "Schmidt JJ",
+          "Scherneck S",
+          "Flechtner J",
+          "David S",
+          "Kielstein JT",
+          "EXCHANGE-2 study group"
+        ],
+        "doi": "10.1186/s13054-026-06306-0",
+        "abstract": "BACKGROUND: Therapeutic plasma exchange (TPE) is used in a wide range of indications and patient populations. The current guidelines of the American Society for Apheresis on the use of therapeutic apheresis in clinical practice list 166 graded indications for TPE. Many indications are related to the treatment of critically ill patients. Indeed, two multicenter trials are currently investigating the role of TPE in the treatment of early septic shock. MAIN BODY: During TPE, usually 1.0-1.5 times the calculated plasma volume is exchanged using albumin solution or fresh frozen plasma as replacement fluid, although considerable deviations from this recommended exchange volume have been reported. Depending on the TPE modality (membrane-based or centrifugal), the duration of the procedure ranges between 90 and 140 min. TPE removes not only unwanted substances such as inflammatory mediators or pathological antibodies but may also remove drugs that are essential for the treatment of the underlying disease. Furthermore, changes in plasma protein concentrations due to TPE may affect the volume of distribution (Vd) and the concentrations of protein-bound drugs. The objective of the current narrative review is to introduce general principles of TPE-associated drug removal as well as the current literature on the dosing of anti-infectives in patients undergoing TPE. CONCLUSION: Pharmacokinetic characteristics, including volume of distribution, plasma protein binding, endogenous clearance, and redistribution kinetics, have been demonstrated to influence the susceptibility of a drug to TPE-associated removal. TPE may substantially affect plasma levels of drugs with low volume of distribution and high protein binding, including aminoglycosides and glycopeptides. Further studies are needed because direct evidence on the pharmacokinetics of anti-infective drugs undergoing TPE in sepsis remains limited. Specific timing or dosing strategies are therefore not supported by sufficient evidence and should be individualized according to drug-specific pharmacokinetics, TPE characteristics, and clinical situation.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
       }
     },
     "trauma-surgical": {
@@ -9006,16 +9088,37 @@
       ],
       "doi": "10.21470/1678-9741-2025-0271",
       "abstract": "OBJECTIVE: To evaluate the association between postoperative acute kidney injury (AKI) and outcomes in adults undergoing cardiovascular surgery who required a prolonged intensive care unit (ICU) stay. METHODS: We conducted a retrospective cohort study of consecutive cardiovascular surgery patients with ICU stay ≥ 72 hours. AKI was defined and staged using creatinine-based Kidney Disease: Improving Global Outcomes (KDIGO) criteria. The primary outcome was in-hospital mortality. Secondary outcomes were time to extubation, ICU days until ward transfer, and perioperative transfusion exposure (red blood cells/fresh frozen plasma/platelet/apheresis); initiation of renal replacement therapy was assessed exploratorily. Multivariable logistic regression examined the association between AKI and mortality, adjusting for age, sex, baseline renal function/chronic kidney disease (estimated glomerular filtration rate category), hypertension, diabetes, chronic obstructive pulmonary disease, ejection fraction (or Age Creatinine Ejection Fraction score), procedure type (coronary artery bypass grafting/valve/combined), cardiopulmonary bypass and cross-clamping times, transfusions, and post-cardiopulmonary bypass vasoactive/inotropic use where available. RESULTS: AKI was frequent after cardiovascular surgery and was independently associated with higher in-hospital mortality in adjusted analyses. Patients with AKI also had longer time to extubation, greater transfusion requirements, and prolonged ICU stay, with a stepwise worsening across KDIGO stages. Findings were consistent in sensitivity analyses. Incomplete urine-output data were acknowledged as a limitation, as oliguria forms part of KDIGO definitions. CONCLUSION: Among cardiovascular surgery patients with prolonged ICU stay, postoperative AKI is a strong predictor of in-hospital mortality and adverse resource-related outcomes. Emphasis on prevention, early detection, and optimized perioperative management may improve prognosis in this high-risk population.",
-      "citation_count": 0,
+      "citation_count": 27,
       "is_top_journal": false,
       "study_type": "Study",
       "volume": "41",
       "issue": "3",
       "pages": "e20250271",
-      "is_open_access": false,
-      "pmc_url": null,
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581271/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42776136/",
       "society": "KDIGO"
+    },
+    "42788693": {
+      "pmid": "42788693",
+      "title": "Exploring Operational Efficiency and Environmental Sustainability in Critical Care: A Qualitative Study of Healthcare Professional Perspectives.",
+      "journal": "Journal of evaluation in clinical practice",
+      "pubdate": "2026 Sep",
+      "authors": [
+        "Boubaker MA"
+      ],
+      "doi": "10.1111/jep.70627",
+      "abstract": "RATIONALE: Intensive care units (ICUs) represent among the most resource-intensive environments in modern healthcare, generating significant operational, financial, and environmental pressures. Despite growing policy interest - including guidance from the European Society of Intensive Care Medicine (ESICM) and the Société Française d'Anesthésie et de Réanimation (SFAR) - the integration of operational efficiency and environmental sustainability within ICU practice remains poorly understood at the level of frontline professionals. Qualitative evidence exploring how ICU staff and managers perceive and navigate these dual pressures is particularly limited in the German healthcare context. METHOD: A qualitative-dominant mixed-methods study was conducted in a 520-bed acute care hospital in North Rhine-Westphalia, Germany. Seventeen semi-structured interviews were conducted with purposively sampled ICU professionals, including physicians, nursing leadership, respiratory therapists, administrative staff, bed management specialists, and IT managers. Interviews lasted 35-50 min (mean 41 min) and were audio-recorded and transcribed verbatim. Data were analysed using the six-phase thematic analysis framework of Braun and Clarke. Secondary operational data - including 2025 ICU bed occupancy reports from the hospital's Medical Controlling department, staffing documentation, and hospital sustainability reports - were used for contextual triangulation. No patient-level clinical data were accessed. RESULTS: Six major themes influencing ICU operational efficiency and sustainability were identified: (1) workforce shortages and staffing pressures; (2) patient flow and bed management constraints; (3) administrative workload and bureaucratic complexity; (4) technological infrastructure and resource management; (5) economic pressures and financial governance; and (6) sustainability awareness and environmental challenges. ICU bed occupancy, as reported in the hospital's 2025 Medical Controlling data, consistently exceeded 85%, confirming capacity pressures described by participants. Sustainability was broadly acknowledged as a relevant concern but perceived as secondary to immediate clinical priorities. Two preliminary conceptual frameworks (Figures S1 and S2) - an ICU Operational Efficiency Model and a Sustainability Integration Model - were developed from the findings and require further external validation. CONCLUSION: This study provides qualitative evidence that operational efficiency and environmental sustainability are perceived as interconnected but competing priorities by ICU professionals in a German communal hospital. Key barriers include staffing constraints, administrative burden, and limited institutional sustainability infrastructure. The two conceptual models should be regarded as preliminary frameworks derived from a single-site study rather than validated practical tools. Future research should examine their external applicability and longitudinal impact through multi-site evaluation.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "32",
+      "issue": "6",
+      "pages": "e70627",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788693/",
+      "society": "ESICM"
     }
   },
   "preprints": {
@@ -9354,7 +9457,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06607003",
       "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
       "author": "",
-      "pubdate": "2026-09-17",
+      "pubdate": "2026-09-25",
       "summary": "Background: Malaria is a disease caused by parasites transmitted to people by mosquitoes. Around the world, there were 241 million cases and 627,000 deaths from malaria in 2020. Researchers are working to develop vaccines and treatments for this disease. Objective: To learn how malaria develops in people; how the body's immune system reacts to malaria; and how malaria spreads from people to mosquitoes. Eligibility: Healthy people in the Washington DC area, aged 18 to 54 years. They cannot live a",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -9594,7 +9697,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06714864",
       "source": "CorMedix Therapeutics",
       "author": "",
-      "pubdate": "2026-08-05",
+      "pubdate": "2026-09-25",
       "summary": "This study is a post-marketing approval requirement to assess the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric population (birth to less than 18 years of age) who are on chronic HD for kidney failure.",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -12456,6 +12559,90 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07838350"
+    },
+    "NCT04353804": {
+      "title": "Returning to Everyday Tasks Utilizing Rehabilitation Networks-III (RETURN-III)",
+      "url": "https://clinicaltrials.gov/study/NCT04353804",
+      "source": "VA Office of Research and Development",
+      "author": "",
+      "pubdate": "2026-09-25",
+      "summary": "Millions of patients survive care in medical and surgical Intensive Care Units (ICUs) every year, only to suffer from a new or accelerated dementia-like process, called post-ICU long-term cognitive impairment (ICU-LTCI). ICU-LTCI causes considerable problems with personal relationships, return to work, and everyday tasks, such as managing medicines and money. No treatment for these patients is currently available. Technology using computerized cognitive rehabilitation could improve ICU-LTCI by h",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04353804"
+    },
+    "NCT07842562": {
+      "title": "Continuous Renal Replacement Therapy Circuit Lifespan in Intensive Care Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07842562",
+      "source": "Dr Abdurrahman Yurtaslan Ankara Oncology Training and Research Hospital",
+      "author": "",
+      "pubdate": "2026-09-25",
+      "summary": "The goal of this retrospective observational study is to evaluate how long continuous renal replacement therapy (CRRT) circuits remain in use in adult intensive care unit patients and to describe how CRRT pressure measurements change over time. The main questions it aims to answer are: Are higher maximum and mean transmembrane pressure (TMP) values associated with longer CRRT circuit lifespan? Do time-normalized pressure trajectories and cumulative TMP burden differ between circuits with differe",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07842562"
+    },
+    "NCT05587517": {
+      "title": "A Clinical Trial of Interventions to Support Family Surrogates of Critically Ill Patients",
+      "url": "https://clinicaltrials.gov/study/NCT05587517",
+      "source": "Weill Medical College of Cornell University",
+      "author": "",
+      "pubdate": "2026-09-25",
+      "summary": "Hypotheses 1a and 1b: Compared to Supportive Conversation arm, the EMPOWER intervention will significantly decrease surrogate decision makers' symptoms of grief and Post Traumatic Stress Disorder (PTSD) (primary outcomes); and H1b. experiential avoidance, depression, regrets, and increases in patients' value-concordant care (secondary outcomes) at T1-T4. Hypothesis 2. Qualitative data will provide insights not captured by quantitative data. Hypothesis 3. Reductions in experiential avoidance will",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05587517"
+    },
+    "NCT07841288": {
+      "title": "Prevelance of Klebsiella Pneumonie in the Respiratory ICU",
+      "url": "https://clinicaltrials.gov/study/NCT07841288",
+      "source": "Sohag University",
+      "author": "",
+      "pubdate": "2026-09-25",
+      "summary": "This observational study aims to determine the prevalence of Klebsiella pneumoniae isolates among respiratory specimens collected from adult patients admitted to the Respiratory Intensive Care Unit at Sohag University Hospital, and to describe their antimicrobial resistance profiles and associated clinical and epidemiological characteristics",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07841288"
+    },
+    "NCT07841535": {
+      "title": "Molecular-based Optimization of Pathogen Identification in Sepsis Patients in the Indonesian National Referral Hospital",
+      "url": "https://clinicaltrials.gov/study/NCT07841535",
+      "source": "Dr Cipto Mangunkusumo General Hospital",
+      "author": "",
+      "pubdate": "2026-09-25",
+      "summary": "This study aims to compare the diagnostic performance of conventional blood culture with two molecular-based diagnostic approaches, Hybrispot DNA Flow and metagenomic next-generation sequencing (mNGS), for the identification of microorganisms in patients with sepsis. The study will evaluate the turnaround time of each diagnostic method and assess their potential impact on the time to definitive antimicrobial therapy and subsequent clinical outcomes. The study is led by Robert Sinto, an infectiou",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07841535"
+    },
+    "NCT07706309": {
+      "title": "Bronchoscopic Versus Airway Exchange Catheter-Guided Endotracheal Tube Exchange",
+      "url": "https://clinicaltrials.gov/study/NCT07706309",
+      "source": "Léo Franchetti",
+      "author": "",
+      "pubdate": "2026-09-25",
+      "summary": "This prospective experimental study compares two methods for replacing an endotracheal tube in Thiel-embalmed body donors. The conventional method uses an airway exchange catheter based on the Seldinger technique, whereas the investigational method uses a flexible bronchoscope to provide direct visual guidance throughout the exchange. The primary outcome is the duration of interrupted ventilation, measured from cessation of ventilation until ventilation is resumed through a correctly positioned ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07706309"
+    },
+    "NCT07842510": {
+      "title": "Controlled Versus Standard Oxygen Therapy in ICU Patients With Acute Exacerbation of COPD",
+      "url": "https://clinicaltrials.gov/study/NCT07842510",
+      "source": "Hôpital Universitaire Taher Sfar",
+      "author": "",
+      "pubdate": "2026-09-25",
+      "summary": "Chronic obstructive pulmonary disease (COPD) is a major cause of morbidity and mortality worldwide. Acute exacerbations frequently require intensive care unit (ICU) admission. Oxygen therapy is an essential component of treatment; however, excessive oxygen administration may aggravate hypercapnia and respiratory acidosis. Current international guidelines recommend titrated oxygen therapy targeting an oxygen saturation of 88-92% in patients with acute exacerbation of COPD, but evidence supporting",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07842510"
     }
   },
   "bottom_line": {
@@ -13719,6 +13906,57 @@
       "is_open_access": true,
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13555104/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42712088/"
+    },
+    "42790254": {
+      "pmid": "42790254",
+      "title": "Cerebrospinal fluid-venous fistula in hospitalized and critically ill patients.",
+      "journal": "Journal of the neurological sciences",
+      "pubdate": "2026 Sep 23",
+      "authors": [
+        "Kinsara R",
+        "Meng H",
+        "Kapadia A"
+      ],
+      "doi": "10.1016/j.jns.2026.126190",
+      "abstract": "BACKGROUND: Cerebrospinal fluid-venous fistulas are a treatable cause of spontaneous intracranial hypotension, but severe inpatient presentations remain poorly characterized. METHODS: We retrospectively reviewed adults hospitalized from 2022 to 2025 with myelography-confirmed cerebrospinal fluid-venous fistula related spontaneous intracranial hypotension at a quaternary referral centre. RESULTS: Fifteen patients were included. Subdural hematomas were present in 13 patients, and 4 required level-1 intensive care admission with depressed consciousness. Brain MRI showed features of spontaneous intracranial hypotension in 13 patients. Fistulas were localised by decubitus CT myelography in 13 patients and digital subtraction myelography in 2. Definitive treatment was achieved by transvenous embolization in 14 patients and high-volume multilevel epidural blood patching in 1. At 3 months, all patients improved, with complete symptom resolution in 13. No procedural complications occurred. CONCLUSION: Cerebrospinal fluid-venous fistula related spontaneous intracranial hypotension can cause severe inpatient morbidity. Early recognition and timely fistula closure are the most important aspects of treatment. Adjunct surgical treatment is necessary for timely recovery in selected cases.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "491",
+      "issue": "",
+      "pages": "126190",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42790254/"
+    },
+    "42788067": {
+      "pmid": "42788067",
+      "title": "Evidence-Based Guidelines versus Enteral Nutrition Practices in Intensive Care Units: A Descriptive Cross-Sectional Study.",
+      "journal": "Journal of multidisciplinary healthcare",
+      "pubdate": "2026",
+      "authors": [
+        "Al-Sayaghi KM",
+        "Almorish MAW",
+        "Alhejaili AA",
+        "Alshahrani B",
+        "Saleh ZT",
+        "Alatawi A",
+        "Almagharbeh WT",
+        "Alshoabi SA",
+        "Alsulami GS",
+        "Alamri AA"
+      ],
+      "doi": "10.2147/JMDH.S636315",
+      "abstract": "BACKGROUND: Despite established guidelines, enteral nutrition (EN) practices among critical care nurses (CCNs) often vary, leading to suboptimal nutritional delivery. Evidence regarding EN practices in Saudi Arabian intensive care units (ICUs) is limited. This study aimed to assess CCNs' EN practices in Al-Madinah and evaluate their alignment with current evidence-based guidelines. METHODS: A cross-sectional survey was conducted among CCNs working in adult ICUs of governmental hospitals in Al-Madinah Al-Munawarah, Saudi Arabia, using a census sampling approach. Data were collected using a 61-item self-administered questionnaire comprising three sections: ICU and nurse characteristics (11 items), EN practices (34 items), and assessment and management of EN intolerance and complications (16 items). An online survey was distributed via social media platforms between November 2023 and January 2024. RESULTS: Of 500 eligible nurses, 178 completed the questionnaire (35.6% response rate) and were included in the final analysis. Most reported the availability of EN guidelines (62.4%), performing nutritional assessments (66.9%), initiating EN early within 48 hours or less (87.2%), and using gastric access (98.31%). However, significant inconsistencies were observed in tube placement verification, monitoring and management of gastric residual volume (GRV) and feeding intolerance. Outdated methods for confirming tube placement, such as auscultation, remained common (67.4%). GRV was frequently measured more often than recommended (78.7%), and EN was often withheld at GRV thresholds below recommended (72.5%). Management of diarrhea involved non-recommended practices, although adherence to recommended tube-flushing procedures was high. CONCLUSION: The self-reported EN practices among CCNs showed partial adherence to guidelines, with notable gaps in tube placement verification, GRV and feeding intolerance monitoring and management. These findings underscore the need for standardized protocols, targeted training, and quality improvement initiatives to optimize EN delivery and prevent underfeeding in critically ill patients.",
+      "citation_count": 54,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "19",
+      "issue": "",
+      "pages": "636315",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13604007/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42788067/"
     }
   }
 }

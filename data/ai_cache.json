@@ -971,17 +971,23 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
-  "url:https://clinicaltrials.gov/study/NCT07632131": {
-    "key_stats": "",
-    "summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
-    "significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
-    "rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
-  },
   "url:https://clinicaltrials.gov/study/NCT06607003": {
     "key_stats": "",
     "summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
     "significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
     "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT06714864": {
+    "key_stats": "",
+    "summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
+    "significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
+    "rounds_takeaway": ""
+  },
+  "url:https://clinicaltrials.gov/study/NCT07632131": {
+    "key_stats": "",
+    "summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
+    "significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
+    "rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
   },
   "url:https://clinicaltrials.gov/study/NCT07490925": {
     "key_stats": "",
@@ -1271,12 +1277,6 @@
     "key_stats": "n=120, no effect measures reported",
     "summary": "This pilot study will test the feasibility of a new intervention called ADAPT, which aims to support older adults after ICU discharge.",
     "significance": "This study could inform the development of new interventions to improve outcomes for older adults after ICU discharge.",
-    "rounds_takeaway": ""
-  },
-  "url:https://clinicaltrials.gov/study/NCT06714864": {
-    "key_stats": "",
-    "summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
-    "significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
     "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT06014801": {
