@@ -9138,14 +9138,14 @@
       ],
       "doi": "10.3390/medicina62091687",
       "abstract": "Background and Objectives: Pulse oximetry is essential in ICUs but may be less accurate when peripheral perfusion is impaired. Norepinephrine, the primary vasopressor for shock, may exacerbate vasoconstriction and microcirculatory alterations, increasing discrepancy between pulse oximetry saturation (SpO2) and arterial oxygen saturation (SaO2). This study aimed to evaluate whether norepinephrine dose is associated with disagreement between SpO2 and SaO2, with particular attention to measurement variability and large discrepancies. Materials and Methods: We analyzed 1050 paired SpO2-SaO2 measurements from 196 adult ICU patients receiving norepinephrine. Dose was weight-adjusted (µg/kg/min). Based on the clinically relevant thresholds defined in the 2021 Surviving Sepsis Campaign guidelines for initiating vasopressin, doses were categorized as low (≤0.25 µg/kg/min), moderate (0.25-0.50 µg/kg/min), or high (≥0.50 µg/kg/min). A large discrepancy was defined as |SpO2 - SaO2| ≥ 5%. A generalized estimating equation (GEE) model was applied to account for repeated measurements within patients. Results: Overall mean bias was 0.91 ± 3.58%. In the primary GEE analysis accounting for repeated measurements within patients, norepinephrine dose was not significantly associated with large SpO2-SaO2 discrepancies when analyzed as a continuous variable (adjusted OR 0.964, 95% CI 0.916-1.014, p = 0.158). Categorical analyses showed a non-monotonic pattern, with only the comparison between the moderate- and high-dose groups reaching statistical significance and with wide confidence intervals limiting the precision of this finding. Unadjusted descriptive analyses suggested greater measurement variability across dose ranges, which was largely attributable to within-patient clustering. ROC analysis demonstrated limited discriminatory ability for norepinephrine dose alone (AUC 0.60). Conclusions: After accounting for repeated measurements and relevant clinical covariates, norepinephrine dose did not demonstrate a consistent dose-dependent association with large SpO2-SaO2 discrepancies. Although large SpO2-SaO2 discrepancies may occur in critically ill patients receiving norepinephrine, norepinephrine infusion rate alone should not be used as a surrogate marker of pulse oximetry reliability.",
-      "citation_count": 0,
+      "citation_count": 22,
       "is_top_journal": false,
       "study_type": "Study",
       "volume": "62",
       "issue": "9",
       "pages": "",
-      "is_open_access": false,
-      "pmc_url": null,
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13608892/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42796294/",
       "society": "Surviving Sepsis Campaign"
     }
@@ -14006,14 +14006,14 @@
       ],
       "doi": "10.3390/medicina62091731",
       "abstract": "Background and Objectives: Acute chest syndrome (ACS) is the leading cause of sickle cell disease (SCD)-related mortality (~25% of deaths). A subset of patients develops severe respiratory compromise requiring intensive care unit (ICU) admission or mechanical ventilation (MV), a high-risk group with widely variable reported mortality. This review aimed to determine the mortality rates, ICU/hospital length of stay, and reported complications among adult SCD patients with ACS admitted to the ICU or placed on MV. Materials and Methods: This PRISMA 2020-compliant systematic review was prospectively registered on PROSPERO (CRD420261295111). Cochrane Library, PubMed, Web of Science, ScienceDirect, EBSCOhost, and Scopus were searched without date restriction. Due to substantial clinical and methodological heterogeneity, the pre-specified meta-analysis was replaced by a narrative synthesis. Methodological quality was assessed using the Newcastle-Ottawa Scale. Results: Eight studies were included (one multicenter prospective cohort, two national database studies, three single-center cohorts, and one before-after antimicrobial stewardship study). In-hospital mortality ranged from 0.95% to 3.8%; overall mortality including follow-up reached 12.9% in a dedicated ICU cohort, a distinct endpoint from in-hospital death. Mechanical ventilation was the strongest indicator of mortality, with odds ratios of 67.53 (MV < 96 h) and 8.73 (MV ≥ 96 h) in the largest national cohort. Tricuspid regurgitant jet velocity ≥3 m/second was associated with cor pulmonale, invasive ventilation, and all immediate hospital deaths in one severe cohort. Documented bacterial infection was uncommon (10-20% of episodes), despite frequent antibiotic use, and procalcitonin-guided discontinuation safely reduced antibiotic exposure. All eight included studies were rated high quality on the Newcastle-Ottawa Scale (score ≥ 7/9). Conclusions: Mechanical ventilation, pulmonary hypertension/cor pulmonale, and comorbidity burden are the most consistent markers of poor outcome in ACS. The findings support early recognition, severity-based respiratory support, and antimicrobial stewardship, but should be interpreted cautiously given the substitution of narrative synthesis for meta-analysis, heterogeneous populations, and the geographic concentration of the included studies.",
-      "citation_count": 0,
+      "citation_count": 29,
       "is_top_journal": false,
       "study_type": "Systematic Review",
       "volume": "62",
       "issue": "9",
       "pages": "",
-      "is_open_access": false,
-      "pmc_url": null,
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13609638/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42796337/"
     }
   }
