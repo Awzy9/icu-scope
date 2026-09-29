@@ -7442,6 +7442,16 @@
       "summary": "Pulse-dose methylprednisolone is common across many medical fields (defined here as giving ≧500 mg methylprednisolone daily for ≧3 days). However, providing such a high dose of steroids may increase the risk of steroid-related complications (especially invasive fungal infections). What is the evidence behind this practice? I searched the medical literature for RCTs meeting the following […] EMCrit",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emnerd/fgebm-3/": {
+      "title": "FGEBM 003 – In Which We Entertain the Beneficial Effects of Baking Soda",
+      "url": "https://emcrit.org/emnerd/fgebm-3/",
+      "source": "EMCrit",
+      "author": "Rory Spiegel",
+      "pubdate": "2026-09-28",
+      "summary": "In Which We Entertain the Beneficial Effects of Baking Soda EMCrit Project by Rory Spiegel .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -10770,7 +10780,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06501118",
       "source": "University of Colorado, Denver",
       "author": "",
-      "pubdate": "2026-09-16",
+      "pubdate": "2026-09-28",
       "summary": "A multimodal educational intervention to target an oxygen saturation target range (SpO2 90-96%) will reduce ventilator length of stay and reduce occult hypoxemia by increased awareness and adherence to a designated oxygen saturation target range.",
       "study_type": "Clinical Trial (Active Not Recruiting)",
       "is_open_access": true,
@@ -11046,7 +11056,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05189925",
       "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
       "author": "",
-      "pubdate": "2026-09-22",
+      "pubdate": "2026-09-28",
       "summary": "Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -12672,6 +12682,102 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07842510"
+    },
+    "NCT07675265": {
+      "title": "Observational, Non-interventional Biomarker and Endotyping Study",
+      "url": "https://clinicaltrials.gov/study/NCT07675265",
+      "source": "Prenosis, Inc.",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "The goal of this observational study is to establish a centralized ARDS biorepository of longitudinal biospecimens and harmonized clinical data, develop unsupervised, therapy-agnostic endotyping algorithms, and develop unsupervised, therapy-specific treatment-prediction algorithms over a 24 month period.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07675265"
+    },
+    "NCT06819956": {
+      "title": "Ketorolac at Lower Doses for Analgesic Pain Control in ICU: A Pilot Feasibility Study",
+      "url": "https://clinicaltrials.gov/study/NCT06819956",
+      "source": "University of Alberta",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "Opiates are commonly used to control pain in critically ill patients in the ICU. However, increased rates of opiate use in hospital may lead to increased prescription-based opiate dependence after leaving the ICU. This may contribute to the ongoing opiate epidemic across the world. Other medications that can reduce pain, like non-steroidal anti-inflammatory drugs (NSAIDs), are being studied in critically ill patients. These drugs block the enzyme, cyclooxygenases (COX), which causes inflammation",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06819956"
+    },
+    "NCT06637904": {
+      "title": "TriVerity™ for Improved Management of Emergency Department (ED) Patients With Suspected Infections",
+      "url": "https://clinicaltrials.gov/study/NCT06637904",
+      "source": "Inflammatix",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "A pre/post interventional use trial, with ED patients who are initially triaged to locations other than a dedicated patient room in the main ED (e.g., waiting room, hallway bed, and/or the staging area/fast track area) with suspected infection and tachycardia or fever will be enrolled. Study conduct will be performed under an Investigational Device Exemption (IDE) from the Food and Drug Administration (FDA). Participants in the pre-phase, treated with standard of care, will be gathered from a re",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06637904"
+    },
+    "NCT06330610": {
+      "title": "Evaluation of the Efficiency of Intermittent Enteral Nutrition on Multi-organ Failure From Patients With Mechanical Ventilation in Intensive Care Unit",
+      "url": "https://clinicaltrials.gov/study/NCT06330610",
+      "source": "University Hospital, Rouen",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "This study aims to evaluate the efficiency of intermittent enteral nutrition versus continuous enteral nutrition to prevent from organ failures for patients at the acute phase of sepsis shock with mechanical ventilation in ICU.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06330610"
+    },
+    "NCT06451185": {
+      "title": "Statseal® for Central Venous Catheter Insertion Sites in Critical Care",
+      "url": "https://clinicaltrials.gov/study/NCT06451185",
+      "source": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "All participants in this clinical trial will be undergoing surgery and will have a central venous catheter (also known as a central line) placed in the large vein in the neck as part of their routine care. The purpose of this clinical trial is to compare different ways of dressing central lines. In current standard care, central lines are stitched in place and covered with a protective transparent dressing. This standard care will be compared with the addition of a haemostatic powder beneath the",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06451185"
+    },
+    "NCT07843277": {
+      "title": "Implementation of a Sepsis Chart and Its Effects on Mortality Rate in Indonesian Primary Referral Hospitals",
+      "url": "https://clinicaltrials.gov/study/NCT07843277",
+      "source": "Dr Cipto Mangunkusumo General Hospital",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "The goal of this observational study is to evaluate the effectiveness of implementing Koran Sepsis, or sepsis chart, a paper-based order set designed to guide the implementation of the One-hour Sepsis Bundle, in improving adherence to early sepsis management and reducing 7-day mortality among adult patients with sepsis presenting to the Emergency Department. The main questions it aims to answer are: 1. Does implementation of a sepsis chart improve adherence to the One-hour Sepsis Bundle among ad",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07843277"
+    },
+    "NCT05928767": {
+      "title": "Evaluation of the Clinical Frailty Scale (CFS) as a Risk Factor of Mortality in Adult Patients ≤65 Years of Age Admitted to Intensive Care for Septic Shock.",
+      "url": "https://clinicaltrials.gov/study/NCT05928767",
+      "source": "Centre Hospitalier de Lens",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "The aim of the study is to demonstrate that \"frail\" patients, defined as having a CFS score greater than or equal to 5, and \"severely\" frail patients, defined as having a CFS score between \\[6-7\\] as defined by Bagshaw et al (14), constitute an independent risk factor (RF) for mortality. In the same way, as an exploratory study, we will try to find out whether clinical frailty constitutes a risk factor for extending the length of hospital stay, the risk of short/medium-term readmission, as has a",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05928767"
+    },
+    "NCT07834346": {
+      "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
+      "url": "https://clinicaltrials.gov/study/NCT07834346",
+      "source": "Hellenic Institute for the Study of Sepsis",
+      "author": "",
+      "pubdate": "2026-09-28",
+      "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07834346"
     }
   },
   "bottom_line": {
@@ -14015,6 +14121,28 @@
       "is_open_access": true,
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13609638/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42796337/"
+    },
+    "42753314": {
+      "pmid": "42753314",
+      "title": "Professional self-efficacy as a mediator and moderator between workaholism and work-related quality of life in intensive care unit nurses: A multicentre cross-sectional study.",
+      "journal": "Australian critical care : official journal of the Confederation of Australian Critical Care Nurses",
+      "pubdate": "2026 Oct",
+      "authors": [
+        "Berdida DJE",
+        "Alhudaib N",
+        "Grande RAN"
+      ],
+      "doi": "10.1016/j.aucc.2026.101661",
+      "abstract": "BACKGROUND: Workaholism, professional self-efficacy (PSE), and work-related quality of life (WRQoL) are well studied individually, yet their inter-relationships remain underexplored in intensive care unit (ICU) nurses. OBJECTIVES: The aim of this study was to examine the mediating and moderating roles of PSE between workaholism and WRQoL among ICU nurses. METHODS: A cross-sectional, correlational study was conducted among ICU nurses (n = 319) across five hospitals in the three provinces of Saudi Arabia. Participants were recruited via consecutive and snowball sampling. Three self-report scales were used to collect data between February and July 2025. Structural equation modelling was conducted to test the study hypotheses and display the inter-relationships of the study variables. RESULTS: Workaholism was found to be negatively associated with WRQoL (βD = -0.33, 95% confidence interval [CI] = -0.62 to -0.10, p = 0.004) and PSE (βD = -0.68, 95% CI = -0.85 to -0.51, p = 0.008). PSE positively correlated with WRQoL (βD = 0.45, 95% CI = 0.14 to 0.67, p = 0.008). Additionally, workaholism predicted 46.50% of the total variance of PSE, while both workaholism and PSE explained 50.20% of the total variance of WRQoL. PSE partially mediated the association between workaholism and WRQoL (βI = -0.30, 95% CI = -0.49 to -0.10, p = 0.008). The PSE, as moderator, had a statistically significant association with WRQoL (βD = 0.15, 95% CI = 0.04 to 0.242, p = 0.006). CONCLUSIONS: Workaholism was associated with lower PSE and poorer WRQoL among ICU nurses. PSE partially mediated and moderated the relationship between workaholism and WRQoL, suggesting that it may be an important psychological factor in this association.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Multicenter Study",
+      "volume": "39",
+      "issue": "5",
+      "pages": "101661",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42753314/"
     }
   }
 }

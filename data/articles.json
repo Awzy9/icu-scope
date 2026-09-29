@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T09:06:20+00:00",
+  "generated_at": "2026-09-29T09:14:54+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -87,9 +87,7 @@
         "pages": "1958-1973",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
       },
       {
         "pmid": "42745269",
@@ -339,6 +337,18 @@
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "FGEBM 003 – In Which We Entertain the Beneficial Effects of Baking Soda",
+        "url": "https://emcrit.org/emnerd/fgebm-3/",
+        "source": "EMCrit",
+        "author": "Rory Spiegel",
+        "pubdate": "2026-09-28",
+        "summary": "In Which We Entertain the Beneficial Effects of Baking Soda EMCrit Project by Rory Spiegel .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "PulmCrit: Myth-busting pulse dose steroid for non-CNS indications",
         "url": "https://emcrit.org/pulmcrit/pulse/",
@@ -2820,6 +2830,30 @@
     "window_days": 365,
     "articles": [
       {
+        "pmid": "42753314",
+        "title": "Professional self-efficacy as a mediator and moderator between workaholism and work-related quality of life in intensive care unit nurses: A multicentre cross-sectional study.",
+        "journal": "Australian critical care : official journal of the Confederation of Australian Critical Care Nurses",
+        "pubdate": "2026 Oct",
+        "authors": [
+          "Berdida DJE",
+          "Alhudaib N",
+          "Grande RAN"
+        ],
+        "doi": "10.1016/j.aucc.2026.101661",
+        "abstract": "BACKGROUND: Workaholism, professional self-efficacy (PSE), and work-related quality of life (WRQoL) are well studied individually, yet their inter-relationships remain underexplored in intensive care unit (ICU) nurses. OBJECTIVES: The aim of this study was to examine the mediating and moderating roles of PSE between workaholism and WRQoL among ICU nurses. METHODS: A cross-sectional, correlational study was conducted among ICU nurses (n = 319) across five hospitals in the three provinces of Saudi Arabia. Participants were recruited via consecutive and snowball sampling. Three self-report scales were used to collect data between February and July 2025. Structural equation modelling was conducted to test the study hypotheses and display the inter-relationships of the study variables. RESULTS: Workaholism was found to be negatively associated with WRQoL (βD = -0.33, 95% confidence interval [CI] = -0.62 to -0.10, p = 0.004) and PSE (βD = -0.68, 95% CI = -0.85 to -0.51, p = 0.008). PSE positively correlated with WRQoL (βD = 0.45, 95% CI = 0.14 to 0.67, p = 0.008). Additionally, workaholism predicted 46.50% of the total variance of PSE, while both workaholism and PSE explained 50.20% of the total variance of WRQoL. PSE partially mediated the association between workaholism and WRQoL (βI = -0.30, 95% CI = -0.49 to -0.10, p = 0.008). The PSE, as moderator, had a statistically significant association with WRQoL (βD = 0.15, 95% CI = 0.04 to 0.242, p = 0.006). CONCLUSIONS: Workaholism was associated with lower PSE and poorer WRQoL among ICU nurses. PSE partially mediated and moderated the relationship between workaholism and WRQoL, suggesting that it may be an important psychological factor in this association.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Multicenter Study",
+        "volume": "39",
+        "issue": "5",
+        "pages": "101661",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42753314/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42790254",
         "title": "Cerebrospinal fluid-venous fistula in hospitalized and critically ill patients.",
         "journal": "Journal of the neurological sciences",
@@ -3000,9 +3034,7 @@
         "pages": "",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42659642/",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42659642/"
       },
       {
         "pmid": "42603304",
@@ -4143,7 +4175,9 @@
         "pages": "342-358",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42659654/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42659654/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       }
     ]
   },
@@ -4222,38 +4256,6 @@
         "category_labels": [
           "Infectious Disease & Sepsis",
           "Hematology & Coagulation"
-        ]
-      },
-      {
-        "pmid": "42773480",
-        "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Sep 22",
-        "authors": [
-          "Zhou J",
-          "Lei H",
-          "Li R",
-          "Liu X",
-          "Chen G"
-        ],
-        "doi": "10.1186/s13054-026-06322-0",
-        "abstract": "",
-        "citation_count": 4,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
-        "category_id": "renal",
-        "category_label": "Renal",
-        "category_ids": [
-          "renal"
-        ],
-        "category_labels": [
-          "Renal"
         ]
       }
     ]
@@ -4366,6 +4368,142 @@
   "trials": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06501118",
+        "source": "University of Colorado, Denver",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "A multimodal educational intervention to target an oxygen saturation target range (SpO2 90-96%) will reduce ventilator length of stay and reduce occult hypoxemia by increased awareness and adherence to a designated oxygen saturation target range.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06501118"
+      },
+      {
+        "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
+        "url": "https://clinicaltrials.gov/study/NCT05189925",
+        "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05189925"
+      },
+      {
+        "title": "Observational, Non-interventional Biomarker and Endotyping Study",
+        "url": "https://clinicaltrials.gov/study/NCT07675265",
+        "source": "Prenosis, Inc.",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "The goal of this observational study is to establish a centralized ARDS biorepository of longitudinal biospecimens and harmonized clinical data, develop unsupervised, therapy-agnostic endotyping algorithms, and develop unsupervised, therapy-specific treatment-prediction algorithms over a 24 month period.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07675265",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Ketorolac at Lower Doses for Analgesic Pain Control in ICU: A Pilot Feasibility Study",
+        "url": "https://clinicaltrials.gov/study/NCT06819956",
+        "source": "University of Alberta",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "Opiates are commonly used to control pain in critically ill patients in the ICU. However, increased rates of opiate use in hospital may lead to increased prescription-based opiate dependence after leaving the ICU. This may contribute to the ongoing opiate epidemic across the world. Other medications that can reduce pain, like non-steroidal anti-inflammatory drugs (NSAIDs), are being studied in critically ill patients. These drugs block the enzyme, cyclooxygenases (COX), which causes inflammation",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06819956",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "TriVerity™ for Improved Management of Emergency Department (ED) Patients With Suspected Infections",
+        "url": "https://clinicaltrials.gov/study/NCT06637904",
+        "source": "Inflammatix",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "A pre/post interventional use trial, with ED patients who are initially triaged to locations other than a dedicated patient room in the main ED (e.g., waiting room, hallway bed, and/or the staging area/fast track area) with suspected infection and tachycardia or fever will be enrolled. Study conduct will be performed under an Investigational Device Exemption (IDE) from the Food and Drug Administration (FDA). Participants in the pre-phase, treated with standard of care, will be gathered from a re",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06637904",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Evaluation of the Efficiency of Intermittent Enteral Nutrition on Multi-organ Failure From Patients With Mechanical Ventilation in Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT06330610",
+        "source": "University Hospital, Rouen",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "This study aims to evaluate the efficiency of intermittent enteral nutrition versus continuous enteral nutrition to prevent from organ failures for patients at the acute phase of sepsis shock with mechanical ventilation in ICU.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06330610",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Statseal® for Central Venous Catheter Insertion Sites in Critical Care",
+        "url": "https://clinicaltrials.gov/study/NCT06451185",
+        "source": "Liverpool Heart and Chest Hospital NHS Foundation Trust",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "All participants in this clinical trial will be undergoing surgery and will have a central venous catheter (also known as a central line) placed in the large vein in the neck as part of their routine care. The purpose of this clinical trial is to compare different ways of dressing central lines. In current standard care, central lines are stitched in place and covered with a protective transparent dressing. This standard care will be compared with the addition of a haemostatic powder beneath the",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06451185",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Implementation of a Sepsis Chart and Its Effects on Mortality Rate in Indonesian Primary Referral Hospitals",
+        "url": "https://clinicaltrials.gov/study/NCT07843277",
+        "source": "Dr Cipto Mangunkusumo General Hospital",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "The goal of this observational study is to evaluate the effectiveness of implementing Koran Sepsis, or sepsis chart, a paper-based order set designed to guide the implementation of the One-hour Sepsis Bundle, in improving adherence to early sepsis management and reducing 7-day mortality among adult patients with sepsis presenting to the Emergency Department. The main questions it aims to answer are: 1. Does implementation of a sepsis chart improve adherence to the One-hour Sepsis Bundle among ad",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07843277",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Evaluation of the Clinical Frailty Scale (CFS) as a Risk Factor of Mortality in Adult Patients ≤65 Years of Age Admitted to Intensive Care for Septic Shock.",
+        "url": "https://clinicaltrials.gov/study/NCT05928767",
+        "source": "Centre Hospitalier de Lens",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "The aim of the study is to demonstrate that \"frail\" patients, defined as having a CFS score greater than or equal to 5, and \"severely\" frail patients, defined as having a CFS score between \\[6-7\\] as defined by Bagshaw et al (14), constitute an independent risk factor (RF) for mortality. In the same way, as an exploratory study, we will try to find out whether clinical frailty constitutes a risk factor for extending the length of hospital stay, the risk of short/medium-term readmission, as has a",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05928767",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07834346",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-09-28",
+        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07834346",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
         "url": "https://clinicaltrials.gov/study/NCT06607003",
@@ -4701,18 +4839,6 @@
         "ai_summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
         "ai_significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
         "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
-      },
-      {
-        "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
-        "url": "https://clinicaltrials.gov/study/NCT05189925",
-        "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
-        "author": "",
-        "pubdate": "2026-09-22",
-        "summary": "Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05189925"
       },
       {
         "title": "Treatment With Aspirin After Preeclampsia: TAP Trial",
@@ -5087,18 +5213,6 @@
         "nct_id": "NCT07436130"
       },
       {
-        "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
-        "url": "https://clinicaltrials.gov/study/NCT06501118",
-        "source": "University of Colorado, Denver",
-        "author": "",
-        "pubdate": "2026-09-16",
-        "summary": "A multimodal educational intervention to target an oxygen saturation target range (SpO2 90-96%) will reduce ventilator length of stay and reduce occult hypoxemia by increased awareness and adherence to a designated oxygen saturation target range.",
-        "study_type": "Clinical Trial (Active Not Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06501118"
-      },
-      {
         "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
         "url": "https://clinicaltrials.gov/study/NCT07449572",
         "source": "HTIC, Inc",
@@ -5316,9 +5430,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05421858",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05421858"
       },
       {
         "title": "Effect of a Constructivist Educational Program on Preventing Ventilator-Associated Pneumonia in Intensive Care Units",
@@ -5646,9 +5758,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07711535",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07711535"
       },
       {
         "title": "Triple Sleep-promotion Protocol for Delirium Prevention in Intensive Care Patients",
@@ -6264,9 +6374,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07792694",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07792694"
       },
       {
         "title": "Assessment of the PEEP Responsiveness to Titrate End-expiratory Pressure and of the Need for Muscle Relaxation During Prone Positioning in Moderate-to-severe Acute Respiratory Distress Syndrome: A Master Protocol",
@@ -6278,9 +6386,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06849570",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06849570"
       },
       {
         "title": "The Impact of the Family Room App on Caregivers",
@@ -6292,9 +6398,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06463158",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06463158"
       },
       {
         "title": "PRophylaxis Against Early VENTilator-associated Infections in Acute Brain Injury",
@@ -6306,9 +6410,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06819592",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06819592"
       },
       {
         "title": "Efficacy and Safety of Tozorakimab in Patients Hospitalised for Viral Lung Infection Requiring Supplemental Oxygen",
@@ -6320,9 +6422,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05624450",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05624450"
       },
       {
         "title": "A Trial of Tegileridine Fumarate Lnjection for Prolonged Mechanical Ventilation Abirritation in the Intensive Care Unit (ICU)",
@@ -6334,9 +6434,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07372924",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07372924"
       },
       {
         "title": "Adrenal Function in Critical Illness",
@@ -8913,9 +9011,7 @@
           "pages": "1958-1973",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
         },
         {
           "pmid": "42587308",
@@ -9923,9 +10019,7 @@
           "pages": "1958-1973",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
         },
         {
           "pmid": "42645558",
@@ -10600,6 +10694,30 @@
       "label": "Renal",
       "abbr": "Renal",
       "articles": [
+        {
+          "pmid": "42773480",
+          "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Sep 22",
+          "authors": [
+            "Zhou J",
+            "Lei H",
+            "Li R",
+            "Liu X",
+            "Chen G"
+          ],
+          "doi": "10.1186/s13054-026-06322-0",
+          "abstract": "",
+          "citation_count": 4,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/"
+        },
         {
           "pmid": "42752385",
           "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
@@ -14599,9 +14717,7 @@
           "pages": "1958-1973",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
         },
         {
           "pmid": "42644690",
