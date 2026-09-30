@@ -971,6 +971,12 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT07740304": {
+    "key_stats": "",
+    "summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
+    "significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
+    "rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
+  },
   "url:https://clinicaltrials.gov/study/NCT06607003": {
     "key_stats": "",
     "summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
@@ -1372,12 +1378,6 @@
     "summary": "This study evaluates the safety and efficacy of bevacizumab in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design. Participants are randomized to receive either a placebo or bevacizumab. The study is a Phase 2 multicenter, randomized, double-blinded, placebo-controlled trial.",
     "significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment. The results could lead to improved patient outcomes and survival rates.",
     "rounds_takeaway": ""
-  },
-  "url:https://clinicaltrials.gov/study/NCT07740304": {
-    "key_stats": "",
-    "summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
-    "significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
-    "rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
   },
   "url:https://clinicaltrials.gov/study/NCT06701682": {
     "key_stats": "",

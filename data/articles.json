@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T09:14:54+00:00",
+  "generated_at": "2026-09-30T09:08:42+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -345,9 +345,7 @@
         "pubdate": "2026-09-28",
         "summary": "In Which We Entertain the Beneficial Effects of Baking Soda EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "PulmCrit: Myth-busting pulse dose steroid for non-CNS indications",
@@ -2770,6 +2768,34 @@
         "society": "KDIGO"
       },
       {
+        "pmid": "42807668",
+        "title": "Patient and author diversity and representation in studies supporting the European Respiratory Society/European Society of Intensive Care Medicine/European Society of Clinical Microbiology and Infectious Diseases/Asociación Latinoamericana de Tórax severe community-acquired pneumonia guidelines.",
+        "journal": "Respiratory research & clinical practice",
+        "pubdate": "2026",
+        "authors": [
+          "Zonis GHC",
+          "Pitrowsky MT",
+          "Balbi M",
+          "Besen BAMP",
+          "Nassar AP Jr",
+          "Martins GAR",
+          "Moralez G",
+          "Salluh JIF"
+        ],
+        "doi": "10.36416/1806-3756/e20250376",
+        "abstract": "OBJECTIVE: Insufficient diversity is common among patients and authors in studies supporting guidelines. We hypothesized that the latest severe community-acquired pneumonia (CAP) guidelines suffered from such bias. METHODS: We reviewed all original studies supporting the latest severe CAP guidelines. We assessed whether there were language restrictions in the search for studies to be included in each recommendation and recorded the following: the proportion of female patients included in the studies; ethnicity (when available); year of publication; and study location, which was classified by income in accordance with the World Bank classification. We also compiled data on the sex and affiliation of the first and last authors. RESULTS: The guidelines included 115 references in eight sections; 74 unique references supported the recommendations. There was language restriction in the selection of studies in 3 of 8 questions. The proportion of female patients ranged from 4.7% to 70.5% (mean, 36%). Most of the patients were White (72.2-91.2%), and 80.5% of the studies were conducted in high-income countries. Only 6 (5.2%) of the 115 references included patients from low- or middle-income countries. Most of the first and last authors were male (75.6-88.3%) and were based in high-income countries (96.1%). CONCLUSIONS: The studies supporting the severe CAP guidelines were found to have insufficient diversity and representativeness of patients, sex, and country of origin of the authors. To enhance the generalizability of severe CAP guidelines, strategies must be devised to increase the diversity of patients and authors.",
+        "citation_count": 37,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "52",
+        "issue": "4",
+        "pages": "e20250376",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13618722/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42807668/",
+        "society": "ESICM"
+      },
+      {
         "pmid": "42415882",
         "title": "Practice Pattern of Critical Care UltraSonography in India (POCUS India): A Multicenter Cross-sectional Survey.",
         "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
@@ -2849,9 +2875,7 @@
         "pages": "101661",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42753314/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42753314/"
       },
       {
         "pmid": "42790254",
@@ -4175,15 +4199,56 @@
         "pages": "342-358",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42659654/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42659654/"
       }
     ]
   },
   "this_week": {
     "window_days": 7,
     "articles": [
+      {
+        "pmid": "42809217",
+        "title": "Duration of antibiotic therapy in sepsis and severe infections in critically ill patients.",
+        "journal": "American journal of respiratory and critical care medicine",
+        "pubdate": "2026 Sep 29",
+        "authors": [
+          "Timsit JF",
+          "Roberts JA",
+          "Kanj S",
+          "Bassetti M",
+          "Canton R",
+          "Dark P",
+          "Fowler R",
+          "Huttner A",
+          "Kollef MH",
+          "Micek ST",
+          "Sawyer RG",
+          "Thy M",
+          "Yahav D",
+          "Daneman N"
+        ],
+        "doi": "10.1093/ajrccm/aamag458",
+        "abstract": "Antibiotic treatment duration in critically ill patients has undergone major reevaluation. Historically concerns for short therapy included a lower cure rate and emergence of resistance, whereas prolonged courses raised risks of microbiome disruption, superinfection, Clostridioides difficile colitis, and resistance. Defining optimal duration of therapy in sepsis and severe infections remains challenging due to heterogeneity in host immunity, pathogen virulence, infection site and source control. Mechanistic insights from microbiology and PK/PD highlight how bacterial inoculum, biofilms, mutant selection windows and altered drug distribution in critical illness influence bacterial clearance and resistance selection. Experimental models and PK-optimized dosing strategies underscore the potential to shorten therapy by accelerating pathogen eradication. Across a range of serious infections, randomized trials consistently show that short course therapy (<7 days) is noninferior to longer courses, including bacteremia, intra-abdominal infections and ventilator-associated pneumonia. Biomarker guided strategies-particularly procalcitonin-based algorithms-might further individualize duration of therapy and safely reduce exposure. Uncertainty remains for S. aureus bacteremia, infections caused by non-fermenting Gram-negative bacilli, difficult to treat multidrug-resistant organisms, invasive candidiasis and immunocompromised patients. Robust evidence supports markedly reduced duration of therapy for uncomplicated bloodstream infections after effective source control, intra-abdominal infections and ventilator-associated pneumonia. Infections involving retained prosthetic material or devices often require prolonged therapy or long-term suppressive regimens. Future research must include adequately powered trials across diverse populations, and evaluate rapid diagnostics, host-response profiling, and individualized response-guided strategies. Optimizing antibiotic duration in critically ill patients ultimately requires integrating mechanistic understanding, individual clinical evolution, and stewardship principles to balance potential efficacy and potential harm.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42809217/",
+        "category_id": "infectious-sepsis",
+        "category_label": "Infectious Disease & Sepsis",
+        "category_ids": [
+          "infectious-sepsis",
+          "trauma-surgical"
+        ],
+        "category_labels": [
+          "Infectious Disease & Sepsis",
+          "Trauma & Surgical"
+        ]
+      },
       {
         "pmid": "42790625",
         "title": "Cough function during mechanical ventilation.",
@@ -4369,6 +4434,130 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT07740304",
+        "source": "Trakya University",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "Sepsis is a life-threatening condition caused by the body's overwhelming response to infection, and it remains a leading cause of death in intensive care units. Even when standard treatment targets such as blood pressure are met, blood flow to the small vessels of the skin and other tissues may remain impaired. This \"hidden\" poor perfusion may not be detected by routine monitoring, yet it may be linked to worse outcomes. The perfusion index is a simple number obtained from the standard pulse oxi",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07740304",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
+        "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
+        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
+      },
+      {
+        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07834346",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07834346"
+      },
+      {
+        "title": "Phase 2a Multiple Ascending Dose Study in Hospitalized Patients With Pneumonia.",
+        "url": "https://clinicaltrials.gov/study/NCT05123755",
+        "source": "Vasomune Therapeutics, Inc.",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "A Phase 2a, randomized, double-blind, placebo-controlled, multiple ascending dose study in patients who are hospitalized with presumed pneumonia requiring supplemental oxygen therapy. The purpose of this study is to examine the safety, tolerability and efficacy of AV-001 Injection administration daily to the earlier of day 28 or EOT (day prior to hospital discharge). A total of 60 eligible patients (20 patients in each of cohort 1, 2 and 3) will be recruited from up to 25 participating instituti",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05123755"
+      },
+      {
+        "title": "Multicenter Symphony™ IL-6 Monitoring Sepsis ED Pilot Study",
+        "url": "https://clinicaltrials.gov/study/NCT07425587",
+        "source": "Bluejay Diagnostics, Inc.",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "The primary objective of this study is to establish an IL-6 concentration cutoff that predicts sepsis or septic shock (according to the Third International Consensus Definitions (Sepsis-3 criteria)) in patients who are admitted or are intended to be admitted to the hospital from the emergency department with suspected infection.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07425587"
+      },
+      {
+        "title": "The Per-procedural Antibiotic Prophylaxis in Patients Undergoing Transcatheter Aortic Valve Implantation Trial",
+        "url": "https://clinicaltrials.gov/study/NCT07442357",
+        "source": "Rigshospitalet, Denmark",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "The study is a prospective, crossover, cluster randomized trial in patients undergoing transcatheter aortic valve implantation (TAVI). The study tests whether cephalosporin plus beta-lactam antibiotic with spectrum for Enterococcus faecalis as per procedural prophylaxis is superior to cephalosporin alone in reducing the composite outcome of bacteremia or death at 6 months post-TAVI.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07442357"
+      },
+      {
+        "title": "Predicting Early Circulatory Deterioration After Short-Acting Beta-Blocker Treatment in Intensive Care Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07846995",
+        "source": "Shanghai Zhongshan Hospital",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "This retrospective observational study used existing intensive care records to examine whether heart rate and blood pressure measured before short-acting beta-blocker treatment could help predict early signs of worsening circulation recorded after treatment. The study included patients who had received intravenous esmolol or landiolol during routine care. Researchers did not assign treatment or change patient care. The main analysis used records from Zhongshan Hospital, Fudan University. Additio",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07846995"
+      },
+      {
+        "title": "Behavioral Economic & Staffing Strategies in the ICU",
+        "url": "https://clinicaltrials.gov/study/NCT06184945",
+        "source": "University of Nebraska",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "The overarching goal of this study is to support the \"real world\" assessment of strategies used to foster adoption of several highly efficacious evidence-based practices in healthcare systems that provide care to critically ill adults with known health disparities. Investigators will specifically evaluate two discrete strategies grounded in behavioral economic and implementation science theory (i.e., real-time audit and feedback and registered nurse implementation facilitation) to increase adopt",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06184945"
+      },
+      {
+        "title": "Comparison of Traditional Dysphagia Therapy and Developed Protocol for Dysphagia Patients in Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT07005427",
+        "source": "Riphah International University",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "Dysphagia (swallowing disorders) in intensive care unit (ICU) patients is associated with poor outcomes, including aspiration pneumonia, prolonged hospitalization, and increased mortality. Traditional dysphagia management approaches may be insufficient for the unique needs of critically ill patients. This study aims to evaluate the effectiveness of a newly developed ICU-specific dysphagia protocol compared to traditional therapy approaches.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07005427"
+      },
+      {
+        "title": "Continuous Glucose Monitoring in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT06190808",
+        "source": "University of Massachusetts, Worcester",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "The aim of the proposed clinical trial is to study the use of the Dexcom G7 continuous glucose monitor (CGM) within the intensive care unit (ICU) environment. The overall goal is to validate the accuracy and practicality of the Dexcom G7 when used to assess glycemia in critically ill patients.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06190808"
+      },
+      {
+        "title": "Tetanus Severity Score for Prediction of Mortality in Manifest Tetanus",
+        "url": "https://clinicaltrials.gov/study/NCT07512167",
+        "source": "Ain Shams University",
+        "author": "",
+        "pubdate": "2026-09-29",
+        "summary": "Three scoring systems will be applied to patients suffering from manifest tetanus and will be related to mortality.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07512167"
+      },
+      {
         "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
         "url": "https://clinicaltrials.gov/study/NCT06501118",
         "source": "University of Colorado, Denver",
@@ -4402,9 +4591,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07675265",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07675265"
       },
       {
         "title": "Ketorolac at Lower Doses for Analgesic Pain Control in ICU: A Pilot Feasibility Study",
@@ -4416,9 +4603,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06819956",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06819956"
       },
       {
         "title": "TriVerity™ for Improved Management of Emergency Department (ED) Patients With Suspected Infections",
@@ -4430,9 +4615,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06637904",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06637904"
       },
       {
         "title": "Evaluation of the Efficiency of Intermittent Enteral Nutrition on Multi-organ Failure From Patients With Mechanical Ventilation in Intensive Care Unit",
@@ -4444,9 +4627,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06330610",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06330610"
       },
       {
         "title": "Statseal® for Central Venous Catheter Insertion Sites in Critical Care",
@@ -4458,9 +4639,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06451185",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06451185"
       },
       {
         "title": "Implementation of a Sepsis Chart and Its Effects on Mortality Rate in Indonesian Primary Referral Hospitals",
@@ -4472,9 +4651,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07843277",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07843277"
       },
       {
         "title": "Evaluation of the Clinical Frailty Scale (CFS) as a Risk Factor of Mortality in Adult Patients ≤65 Years of Age Admitted to Intensive Care for Septic Shock.",
@@ -4486,23 +4663,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05928767",
-        "link_broken": false,
-        "link_broken_kind": "url"
-      },
-      {
-        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
-        "url": "https://clinicaltrials.gov/study/NCT07834346",
-        "source": "Hellenic Institute for the Study of Sepsis",
-        "author": "",
-        "pubdate": "2026-09-28",
-        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07834346",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05928767"
       },
       {
         "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
@@ -7957,22 +8118,6 @@
         "ai_rounds_takeaway": ""
       },
       {
-        "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
-        "url": "https://clinicaltrials.gov/study/NCT07740304",
-        "source": "Trakya University",
-        "author": "",
-        "pubdate": "2026-07-31",
-        "summary": "Sepsis is a life-threatening condition caused by the body's overwhelming response to infection, and it remains a leading cause of death in intensive care units. Even when standard treatment targets such as blood pressure are met, blood flow to the small vessels of the skin and other tissues may remain impaired. This \"hidden\" poor perfusion may not be detected by routine monitoring, yet it may be linked to worse outcomes. The perfusion index is a simple number obtained from the standard pulse oxi",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07740304",
-        "ai_key_stats": "",
-        "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
-        "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
-        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
-      },
-      {
         "title": "JUST BREATHE, Breathing Life Into Innovative Therapies for ARDS- Cohort A: Vilobelimab",
         "url": "https://clinicaltrials.gov/study/NCT06701682",
         "source": "PPD Development, LP",
@@ -8285,6 +8430,41 @@
       "abbr": "CVS",
       "articles": [
         {
+          "pmid": "42645558",
+          "title": "State-of-the-art review: ß-blockade in critical illness.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Ostermann M",
+            "De Backer D",
+            "Belley-Cote E",
+            "Cecconi M",
+            "Chew MS",
+            "Dionne JC",
+            "Hollenberg SM",
+            "Jakob SM",
+            "Kanji S",
+            "Leach R",
+            "McPhail MJ",
+            "Monnet X",
+            "Morelli A",
+            "Singer M",
+            "Wilkman E",
+            "Citerio G"
+          ],
+          "doi": "10.1007/s00134-026-08574-4",
+          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2160-2177",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
+        },
+        {
           "pmid": "42320025",
           "title": "Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.",
           "journal": "American journal of respiratory and critical care medicine",
@@ -8317,42 +8497,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
           "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
-          "ai_rounds_takeaway": ""
-        },
-        {
-          "pmid": "42645558",
-          "title": "State-of-the-art review: ß-blockade in critical illness.",
-          "journal": "Intensive care medicine",
-          "pubdate": "2026 Aug 26",
-          "authors": [
-            "Ostermann M",
-            "De Backer D",
-            "Belley-Cote E",
-            "Cecconi M",
-            "Chew MS",
-            "Dionne JC",
-            "Hollenberg SM",
-            "Jakob SM",
-            "Kanji S",
-            "Leach R",
-            "McPhail MJ",
-            "Monnet X",
-            "Morelli A",
-            "Singer M",
-            "Wilkman E",
-            "Citerio G"
-          ],
-          "doi": "10.1007/s00134-026-08574-4",
-          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Review",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42612901",
@@ -8545,7 +8692,9 @@
             "strengths": "large sample size; 6-month follow-up data; intention-to-treat principle",
             "weaknesses": "open-label design; non-inferiority trial",
             "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42469838",
@@ -8611,7 +8760,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study evaluated the feasibility and prognostic value of echocardiographic parameters in a mixed ICU population. It found that impaired mitral annular plane systolic excursion (MAPSE) and global longitudinal strain (GLS) were associated with increased mortality. MAPSE was also the most feasible measurement.",
           "ai_significance": "These findings suggest that incorporating MAPSE into routine ICU echocardiography may improve detection and risk stratification of left ventricular dysfunction in critical illness, potentially leading to better patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432771",
@@ -8642,7 +8793,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a new method using electrical impedance tomography (EIT) to quickly and non-invasively diagnose pulmonary embolism (PE) in critically ill patients. The method uses a frequency-domain band-pass filter to extract perfusion-related pulsatility and separate it from ventilation-related low-frequency components. The study found that the method can accurately diagnose PE and risk-stratify patients based on three key parameters.",
           "ai_significance": "This study has significant implications for ICU clinical practice as it provides a novel, non-invasive method for diagnosing and risk-stratifying patients with pulmonary embolism, which is a major cause of morbidity and mortality in critical care.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42507344",
@@ -8673,7 +8826,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
           "ai_significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42315625",
@@ -8705,7 +8860,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
           "ai_significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42332804",
@@ -8737,7 +8894,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
           "ai_significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42271417",
@@ -8799,7 +8958,9 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill patients with sepsis and shock often have high lactate levels, but this doesn't always mean they're not getting enough oxygen. Lactate is a key metabolic intermediate that reflects the balance between production, utilization, and clearance. The kidneys play a significant role in lactate utilization and clearance, especially in patients with acute kidney injury.",
           "ai_significance": "Understanding lactate biology in critical illness can help clinicians interpret lactate levels more accurately and develop more effective management strategies for septic acute kidney injury.",
-          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function."
+          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502537",
@@ -8829,7 +8990,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
           "ai_significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42216195",
@@ -8858,7 +9021,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses the challenges of diagnosing and managing Triple M overlap syndrome, a severe and lethal immune-related adverse event in critically ill patients. It highlights key diagnostic pitfalls and proposes a structured ICU-oriented approach to improve outcomes. Early recognition and parallel evaluation for infection and immune-mediated disease are essential.",
           "ai_significance": "Early recognition and management of Triple M overlap syndrome are crucial to improving outcomes in critically ill patients, as delays in treatment can lead to increased mortality.",
-          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease."
+          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42188994",
@@ -8891,7 +9056,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
           "ai_significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         }
       ]
     },
@@ -8900,6 +9067,104 @@
       "label": "Respiratory",
       "abbr": "Resp",
       "articles": [
+        {
+          "pmid": "42714473",
+          "title": "Distinct weaning phenotypes in patients unsuccessful in weaning from invasive mechanical ventilation: a secondary analysis of the WEAN SAFE cohort.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Caldecott R",
+            "Zhu Y",
+            "McNicholas BA",
+            "Rezoagli E",
+            "Taran S",
+            "Pham T",
+            "Heunks L",
+            "Bellani G",
+            "Brochard L",
+            "Simpkin AJ",
+            "Laffey JG",
+            "WEAN SAFE Investigators"
+          ],
+          "doi": "10.1007/s00134-026-08592-2",
+          "abstract": "OBJECTIVE: To characterise the trajectories and outcomes of patients who enter the weaning process but fail to wean from invasive mechanical ventilation (MV). METHODS: In this secondary analysis of the WorldwidE AssessmeNt of Separation of pAtients From ventilatory assistancE (WEAN SAFE) cohort, we examined weaning duration and intensity, decisions to withdraw or withhold life-sustaining therapy (WLST), and clinical outcomes in patients not weaning from invasive ventilation. The primary outcome was ICU mortality. RESULTS: Of the 5664 patients in the study population, 1270 (22.4%) never underwent a separation attempt (SA), while 4394 (77.6%) had at least one SA; of these, 664 (15.1%) eventually failed weaning from invasive MV at day 90, while 3730 (65.9%) successfully weaned. Failed-Wean patients had the longest duration of invasive ventilation and longest ICU stay of all groups. Compared with Successful-Wean, Failed-Wean patients underwent more separation attempts, but fewer attempted extubations and more reintubations and tracheostomies. ICU mortality was 78% in Failed-Wean compared with 2% in Successful-Wean. Three clinically distinct Failed-Wean phenotypes were identified, distinguished by separation attempt count and WLST timing: Phenotype A (single SA + WLST), Phenotype B (single SA, no WLST), and Phenotype C (> 1 SA). A failed-first SA was strongly associated with WLST decisions. In this cohort, a WLST decision was associated with a higher hazard of ICU mortality and shorter median time to ICU death. CONCLUSIONS: Three weaning failure phenotypes were identified with distinct clinical profiles, weaning trajectories, and outcomes. A strong relationship exists between failed first separation attempts, WLST decision, and the risk of death, which deserves further investigation. TRIAL REGISTRATION: ClinicalTrials.gov, NCT03255109.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2039-2057",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42618770",
+          "title": "Respiratory mechanics modifies the impact of ventilator settings on clinical outcome in patients with acute brain injury.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Grieco DL",
+            "Stronati A",
+            "Robba C",
+            "Rosà T",
+            "Iavarone IG",
+            "Rezoagli E",
+            "Bongiovanni F",
+            "Dell'Anna AM",
+            "Cardu A",
+            "Graziano F",
+            "Galimberti S",
+            "Caricato A",
+            "Patroniti N",
+            "Taccone FS",
+            "Citerio G",
+            "Antonelli M"
+          ],
+          "doi": "10.1007/s00134-026-08562-8",
+          "abstract": "PURPOSE: To investigate whether respiratory system elastance (ERS) modifies the associations of tidal volume (VT) and respiratory rate with clinical outcomes in mechanically ventilated patients with acute brain injury. METHODS: In this post hoc analysis of the VENTIBRAIN study, ERS was computed as the ratio of driving pressure (ΔP) to VT/PBW. Effect modification by ERS on outcome associations was assessed. RESULTS: In 1158 patients, VT was similar across ERS tertiles (median 7.9, 7.6 and 7.1 mL/kg), resulting in a marked ΔP gradient across tertiles (median 5, 9, and 12 cmH2O). Higher VT was associated with lower ICU mortality in patients with low ERS (OR 0.52, 95%CI 0.36-0.74) but not in those with high ERS (OR 1.16, 95% CI 0.89-1.51; Pint < 0.001). Higher respiratory rate was associated with worse outcomes, particularly at low ERS, with the association attenuating at higher ERS. The Bayesian optimal VT/PBW decreased continuously with ERS, from 11.4 mL/kg at ERS 0.5 cmH2O/(mL/kg) (≈ ΔP 6 cmH2O) to 4.4 mL/kg at ERS 2.5 cmH2O/(mL/kg) (≈ ΔP 11 cmH2O), while the optimal respiratory rate increased from 15 to 19 breaths/min. At constant alveolar ventilation, 1-cmH2O ΔP increase had comparable prognostic impact to ≈ 3 breaths/min respiratory rate increases. These results were consistent irrespective of ARDS diagnosis. CONCLUSIONS: The impact of ventilator settings is modulated by ERS. A physiological framework for VT adjustment could consider ΔP along with the respiratory rate required to maintain isocapnia, with outcome effects governed by a trade-off of ≈ 3 breaths/min per 1-cmH2O change in ΔP.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2071-2084",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
+          "pmid": "42593537",
+          "title": "Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Martin-Loeches I",
+            "Leone M",
+            "Coopersmith CM",
+            "Machado FR",
+            "Hodgson C",
+            "Calfee CS",
+            "Schultz MJ"
+          ],
+          "doi": "10.1007/s00134-026-08579-z",
+          "abstract": "BACKGROUND: Randomised controlled trials (RCTs) have reshaped intensive care medicine (ICM), a discipline defined by acute, interacting organ failures, time-sensitive decisions, biological uncertainty, and heterogeneous recovery trajectories. Many interventions supported by strong physiological rationale failed to improve patient-centred outcomes, whereas durable advances often emerged from optimisation of supportive care, avoidance of iatrogenic harm, and reassessment of established practices. METHODS: We conducted an interpretive historical review of landmark multicentre RCTs in adult ICM from the early 1990s onwards. PubMed searches, reference lists from major trials and reviews, and international guidelines were used to identify trials with conceptual influence on practice, guidelines, physiological reasoning, therapeutic strategy, research priorities, de-implementation, or outcome framing. Evidence was organised into overlapping paradigms rather than rigid chronological periods. FINDINGS: Across haemodynamic support, mechanical ventilation, renal replacement therapy, antimicrobial treatment, nutrition, glucose control, transfusion, and sedation, landmark RCTs describe more than therapeutic expansion. Early biological and haemodynamic trials exposed the limits of reductionist strategies in syndromic critical illness. Protocol-driven approaches improved timeliness and consistency, but later pragmatic trials showed that rigid targets and invasive algorithms often added little once high-quality usual care was established. More recent trials challenge the assumption that greater intervention intensity improves outcomes, emphasising timing, disease phase, baseline risk, heterogeneity, patient selection, and treatment-related harm. Modern ICM RCTs have clarified not only what works, but what can be reduced, delayed, avoided, or applied selectively. Future progress requires biologically informed, context-sensitive trials focussed on meaningful survival, recovery, and long-term function.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2178-2193",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
         {
           "pmid": "42765454",
           "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
@@ -8979,7 +9244,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
           "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42658259",
@@ -9188,7 +9455,9 @@
           "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
           "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
           "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype.",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502162",
@@ -9225,7 +9494,9 @@
             "strengths": "randomized controlled trial design; large sample size (n = 118)",
             "weaknesses": "lack of statistical significance for primary outcome measures; retrospective registration of trial",
             "bottom_line": "Toothbrushing with chlorhexidine mouth rinse may have a potential benefit in reducing ventilator-associated pneumonia incidence and improving clinical outcomes in PICU patients, but further larger multicenter studies are needed to confirm its effect."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42493817",
@@ -9250,7 +9521,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that early nutritional supplementation may not be beneficial for all critically ill patients with sepsis, and further research is needed to determine the optimal nutritional strategy for this population.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42638131",
@@ -9317,7 +9590,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
           "ai_significance": "These results have implications for the development of personalized treatment strategies and outcome prediction tools in critically ill patients, potentially improving patient care and outcomes in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42150121",
@@ -9374,7 +9649,9 @@
             "strengths": "Large sample size; pragmatic design; assessor-blinded",
             "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
             "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
-          }
+          },
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506109",
@@ -9405,7 +9682,9 @@
           "ai_key_stats": "",
           "ai_summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
           "ai_significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506369",
@@ -9436,7 +9715,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
           "ai_significance": "This research has implications for ICU clinical practice, as it suggests that vitamin C can be used as a pharmacological agent in critical illness, and that biomarkers can be used to guide treatment and improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42467246",
@@ -9472,7 +9753,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
           "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42442528",
@@ -9578,7 +9861,9 @@
           "ai_key_stats": "",
           "ai_summary": "The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.",
           "ai_significance": "This study will facilitate phenotyping of critical illness syndromes, potentially leading to more targeted and effective treatments for ARDS, pneumonia, and sepsis in ICU patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42410654",
@@ -9606,7 +9891,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviews the current limitations in critical care research due to syndromic diagnoses and proposes a pathway-level framework to translate omics insights into clinical trial design and bedside decision-making.",
           "ai_significance": "This framework has the potential to improve patient outcomes by enabling personalized treatment and more effective use of existing therapies in critical care settings.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42496477",
@@ -9990,6 +10277,137 @@
       "abbr": "Neuro",
       "articles": [
         {
+          "pmid": "42645558",
+          "title": "State-of-the-art review: ß-blockade in critical illness.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Ostermann M",
+            "De Backer D",
+            "Belley-Cote E",
+            "Cecconi M",
+            "Chew MS",
+            "Dionne JC",
+            "Hollenberg SM",
+            "Jakob SM",
+            "Kanji S",
+            "Leach R",
+            "McPhail MJ",
+            "Monnet X",
+            "Morelli A",
+            "Singer M",
+            "Wilkman E",
+            "Citerio G"
+          ],
+          "doi": "10.1007/s00134-026-08574-4",
+          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2160-2177",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
+        },
+        {
+          "pmid": "42618770",
+          "title": "Respiratory mechanics modifies the impact of ventilator settings on clinical outcome in patients with acute brain injury.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Grieco DL",
+            "Stronati A",
+            "Robba C",
+            "Rosà T",
+            "Iavarone IG",
+            "Rezoagli E",
+            "Bongiovanni F",
+            "Dell'Anna AM",
+            "Cardu A",
+            "Graziano F",
+            "Galimberti S",
+            "Caricato A",
+            "Patroniti N",
+            "Taccone FS",
+            "Citerio G",
+            "Antonelli M"
+          ],
+          "doi": "10.1007/s00134-026-08562-8",
+          "abstract": "PURPOSE: To investigate whether respiratory system elastance (ERS) modifies the associations of tidal volume (VT) and respiratory rate with clinical outcomes in mechanically ventilated patients with acute brain injury. METHODS: In this post hoc analysis of the VENTIBRAIN study, ERS was computed as the ratio of driving pressure (ΔP) to VT/PBW. Effect modification by ERS on outcome associations was assessed. RESULTS: In 1158 patients, VT was similar across ERS tertiles (median 7.9, 7.6 and 7.1 mL/kg), resulting in a marked ΔP gradient across tertiles (median 5, 9, and 12 cmH2O). Higher VT was associated with lower ICU mortality in patients with low ERS (OR 0.52, 95%CI 0.36-0.74) but not in those with high ERS (OR 1.16, 95% CI 0.89-1.51; Pint < 0.001). Higher respiratory rate was associated with worse outcomes, particularly at low ERS, with the association attenuating at higher ERS. The Bayesian optimal VT/PBW decreased continuously with ERS, from 11.4 mL/kg at ERS 0.5 cmH2O/(mL/kg) (≈ ΔP 6 cmH2O) to 4.4 mL/kg at ERS 2.5 cmH2O/(mL/kg) (≈ ΔP 11 cmH2O), while the optimal respiratory rate increased from 15 to 19 breaths/min. At constant alveolar ventilation, 1-cmH2O ΔP increase had comparable prognostic impact to ≈ 3 breaths/min respiratory rate increases. These results were consistent irrespective of ARDS diagnosis. CONCLUSIONS: The impact of ventilator settings is modulated by ERS. A physiological framework for VT adjustment could consider ΔP along with the respiratory rate required to maintain isocapnia, with outcome effects governed by a trade-off of ≈ 3 breaths/min per 1-cmH2O change in ΔP.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2071-2084",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/"
+        },
+        {
+          "pmid": "42593537",
+          "title": "Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Martin-Loeches I",
+            "Leone M",
+            "Coopersmith CM",
+            "Machado FR",
+            "Hodgson C",
+            "Calfee CS",
+            "Schultz MJ"
+          ],
+          "doi": "10.1007/s00134-026-08579-z",
+          "abstract": "BACKGROUND: Randomised controlled trials (RCTs) have reshaped intensive care medicine (ICM), a discipline defined by acute, interacting organ failures, time-sensitive decisions, biological uncertainty, and heterogeneous recovery trajectories. Many interventions supported by strong physiological rationale failed to improve patient-centred outcomes, whereas durable advances often emerged from optimisation of supportive care, avoidance of iatrogenic harm, and reassessment of established practices. METHODS: We conducted an interpretive historical review of landmark multicentre RCTs in adult ICM from the early 1990s onwards. PubMed searches, reference lists from major trials and reviews, and international guidelines were used to identify trials with conceptual influence on practice, guidelines, physiological reasoning, therapeutic strategy, research priorities, de-implementation, or outcome framing. Evidence was organised into overlapping paradigms rather than rigid chronological periods. FINDINGS: Across haemodynamic support, mechanical ventilation, renal replacement therapy, antimicrobial treatment, nutrition, glucose control, transfusion, and sedation, landmark RCTs describe more than therapeutic expansion. Early biological and haemodynamic trials exposed the limits of reductionist strategies in syndromic critical illness. Protocol-driven approaches improved timeliness and consistency, but later pragmatic trials showed that rigid targets and invasive algorithms often added little once high-quality usual care was established. More recent trials challenge the assumption that greater intervention intensity improves outcomes, emphasising timing, disease phase, baseline risk, heterogeneity, patient selection, and treatment-related harm. Modern ICM RCTs have clarified not only what works, but what can be reduced, delayed, avoided, or applied selectively. Future progress requires biologically informed, context-sensitive trials focussed on meaningful survival, recovery, and long-term function.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2178-2193",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/"
+        },
+        {
+          "pmid": "42525086",
+          "title": "Intracranial pressure physiology, monitoring and individualized management in the acute brain injured patient.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Taccone FS",
+            "Arabi Y",
+            "Baggiani M",
+            "Brasil S",
+            "Figaji A",
+            "Gouvea Bogossian E",
+            "Hawryluk G",
+            "Mccredie V",
+            "Moller K",
+            "Puppo C",
+            "Robba C",
+            "Shrestha GS",
+            "Tokmak F",
+            "Udy A",
+            "Wong YL",
+            "Meyfroidt G"
+          ],
+          "doi": "10.1007/s00134-026-08558-4",
+          "abstract": "Acute brain injury (ABI), including traumatic brain injury, ischemic and hemorrhagic stroke, is associated with high morbidity and mortality, which is driven not only by the primary brain injury, but also by the development of secondary cerebral insults. Among these, raised intracranial pressure (ICP) plays a central pathophysiological role, acting both as a consequence and a driver of ongoing brain injury through mechanical deformation and cerebral ischemia. Although invasive intracranial pressure (ICP) monitoring has a longstanding and ongoing role in neurocritical care management, the interpretation and clinical use of ICP remain controversial. Traditional management strategies rely on fixed ICP thresholds (e.g., > 22 mmHg) to trigger a standardized stepwise escalation of therapy; however, growing clinical evidence indicates that tolerance to ICP elevation varies widely across patients, disease entities, and physiological contexts. This review summarizes the physiological determinants of ICP, including intracranial compliance, cerebrospinal fluid dynamics, cerebral blood volume, and systemic factors, and describes the mechanisms underlying intracranial hypertension. We discuss limitations of using fixed ICP thresholds and highlight emerging concepts, such as ICP burden, waveform morphology, cerebral autoregulation, and functional brain monitoring, as tools to individualize ICP interpretation. The role of invasive and noninvasive ICP monitoring (nICP) modalities is reviewed, emphasizing the complementary value of nICP in guiding decision-making when invasive monitoring is unavailable or contraindicated. Particular attention is given to the integration of ICP within multimodal neuromonitoring frameworks assessing cerebral perfusion, oxygenation, and metabolism. Finally, we explore future perspectives, including the potential of artificial intelligence-based approaches to analyse complex neuromonitoring data, predict secondary insults, and move toward actionable, patientspecific therapeutic strategies. Collectively, these advances support a shift from a uniform, threshold-driven approach toward individualized, physiology-informed management of intracranial hypertension.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2108-2128",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42525086/"
+        },
+        {
           "pmid": "42658259",
           "title": "Balancing lung and brain: physiological strategies for ARDS management in acute brain injury.",
           "journal": "Intensive care medicine",
@@ -10020,41 +10438,6 @@
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
-        },
-        {
-          "pmid": "42645558",
-          "title": "State-of-the-art review: ß-blockade in critical illness.",
-          "journal": "Intensive care medicine",
-          "pubdate": "2026 Aug 26",
-          "authors": [
-            "Ostermann M",
-            "De Backer D",
-            "Belley-Cote E",
-            "Cecconi M",
-            "Chew MS",
-            "Dionne JC",
-            "Hollenberg SM",
-            "Jakob SM",
-            "Kanji S",
-            "Leach R",
-            "McPhail MJ",
-            "Monnet X",
-            "Morelli A",
-            "Singer M",
-            "Wilkman E",
-            "Citerio G"
-          ],
-          "doi": "10.1007/s00134-026-08574-4",
-          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Review",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
         },
         {
           "pmid": "42629591",
@@ -10694,6 +11077,32 @@
       "label": "Renal",
       "abbr": "Renal",
       "articles": [
+        {
+          "pmid": "42593537",
+          "title": "Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Martin-Loeches I",
+            "Leone M",
+            "Coopersmith CM",
+            "Machado FR",
+            "Hodgson C",
+            "Calfee CS",
+            "Schultz MJ"
+          ],
+          "doi": "10.1007/s00134-026-08579-z",
+          "abstract": "BACKGROUND: Randomised controlled trials (RCTs) have reshaped intensive care medicine (ICM), a discipline defined by acute, interacting organ failures, time-sensitive decisions, biological uncertainty, and heterogeneous recovery trajectories. Many interventions supported by strong physiological rationale failed to improve patient-centred outcomes, whereas durable advances often emerged from optimisation of supportive care, avoidance of iatrogenic harm, and reassessment of established practices. METHODS: We conducted an interpretive historical review of landmark multicentre RCTs in adult ICM from the early 1990s onwards. PubMed searches, reference lists from major trials and reviews, and international guidelines were used to identify trials with conceptual influence on practice, guidelines, physiological reasoning, therapeutic strategy, research priorities, de-implementation, or outcome framing. Evidence was organised into overlapping paradigms rather than rigid chronological periods. FINDINGS: Across haemodynamic support, mechanical ventilation, renal replacement therapy, antimicrobial treatment, nutrition, glucose control, transfusion, and sedation, landmark RCTs describe more than therapeutic expansion. Early biological and haemodynamic trials exposed the limits of reductionist strategies in syndromic critical illness. Protocol-driven approaches improved timeliness and consistency, but later pragmatic trials showed that rigid targets and invasive algorithms often added little once high-quality usual care was established. More recent trials challenge the assumption that greater intervention intensity improves outcomes, emphasising timing, disease phase, baseline risk, heterogeneity, patient selection, and treatment-related harm. Modern ICM RCTs have clarified not only what works, but what can be reduced, delayed, avoided, or applied selectively. Future progress requires biologically informed, context-sensitive trials focussed on meaningful survival, recovery, and long-term function.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2178-2193",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/"
+        },
         {
           "pmid": "42773480",
           "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
@@ -11470,6 +11879,68 @@
       "abbr": "GI",
       "articles": [
         {
+          "pmid": "42593537",
+          "title": "Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Martin-Loeches I",
+            "Leone M",
+            "Coopersmith CM",
+            "Machado FR",
+            "Hodgson C",
+            "Calfee CS",
+            "Schultz MJ"
+          ],
+          "doi": "10.1007/s00134-026-08579-z",
+          "abstract": "BACKGROUND: Randomised controlled trials (RCTs) have reshaped intensive care medicine (ICM), a discipline defined by acute, interacting organ failures, time-sensitive decisions, biological uncertainty, and heterogeneous recovery trajectories. Many interventions supported by strong physiological rationale failed to improve patient-centred outcomes, whereas durable advances often emerged from optimisation of supportive care, avoidance of iatrogenic harm, and reassessment of established practices. METHODS: We conducted an interpretive historical review of landmark multicentre RCTs in adult ICM from the early 1990s onwards. PubMed searches, reference lists from major trials and reviews, and international guidelines were used to identify trials with conceptual influence on practice, guidelines, physiological reasoning, therapeutic strategy, research priorities, de-implementation, or outcome framing. Evidence was organised into overlapping paradigms rather than rigid chronological periods. FINDINGS: Across haemodynamic support, mechanical ventilation, renal replacement therapy, antimicrobial treatment, nutrition, glucose control, transfusion, and sedation, landmark RCTs describe more than therapeutic expansion. Early biological and haemodynamic trials exposed the limits of reductionist strategies in syndromic critical illness. Protocol-driven approaches improved timeliness and consistency, but later pragmatic trials showed that rigid targets and invasive algorithms often added little once high-quality usual care was established. More recent trials challenge the assumption that greater intervention intensity improves outcomes, emphasising timing, disease phase, baseline risk, heterogeneity, patient selection, and treatment-related harm. Modern ICM RCTs have clarified not only what works, but what can be reduced, delayed, avoided, or applied selectively. Future progress requires biologically informed, context-sensitive trials focussed on meaningful survival, recovery, and long-term function.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2178-2193",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/"
+        },
+        {
+          "pmid": "42467246",
+          "title": "Key principles for rehabilitation of critically ill patients with obesity.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Eggmann S",
+            "Bear DE",
+            "Bourne RS",
+            "Freeman-Sanderson A",
+            "Hickmann CE",
+            "Karner V",
+            "McWilliams D",
+            "Needham DM",
+            "Singer P",
+            "van Mol M",
+            "van Zanten A",
+            "Hodgson CL",
+            "Schaller SJ"
+          ],
+          "doi": "10.1007/s00134-026-08541-z",
+          "abstract": "PURPOSE: Patients with obesity who are admitted to an ICU bring specific challenges for rehabilitation during and after critical illness. This narrative review explores impact of differences in body compositions and pathophysiology on outcomes to summarise interprofessional, patient-centred rehabilitation strategies across the trajectory of recovery. METHODS: The interprofessional expert panel reviewed major trials and guidelines, integrating their clinical expertise with the current evidence. RESULTS: Three distinct phenotypes potentially influence outcomes for survivors. Whilst patients with preserved muscle mass may have a survival advantage, the phenotypes characterised by ectopic visceral fat or sarcopenia are frequently complicated by multimorbidity and polypharmacy, likely increasing the risk of adverse effects such as suboptimal sedation, prolonged ventilation and immobilisation, malnutrition, and impaired recovery. Targeted respiratory interventions, including secretion-clearance techniques and appropriate patient positioning to prevent atelectasis, reduce the work of breathing. Optimisation of communication and swallowing function is an essential component for facilitating safe oral intake and promoting active patient participation in rehabilitation. Concurrently, targeted nutrition strategies combined with early, targeted, progressive mobilisation might mitigate ICU acquired weakness and support functional recovery. The availability of appropriate weight‑based equipment is fundamental to ensuring safe mobilisation for both patients and healthcare professionals. CONCLUSION: Interprofessional collaboration is central to optimising outcomes and should extend beyond the ICU to structured post-ICU follow-up to address persistent, worsening, or newly emerging health impairments. Early rehabilitation in critically ill patients with obesity should integrate physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2129-2143",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42467246/",
+          "ai_key_stats": "",
+          "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
+          "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
+          "ai_rounds_takeaway": ""
+        },
+        {
           "pmid": "42752385",
           "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
           "journal": "Critical care medicine",
@@ -12153,6 +12624,41 @@
       "abbr": "Endo",
       "articles": [
         {
+          "pmid": "42645558",
+          "title": "State-of-the-art review: ß-blockade in critical illness.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Ostermann M",
+            "De Backer D",
+            "Belley-Cote E",
+            "Cecconi M",
+            "Chew MS",
+            "Dionne JC",
+            "Hollenberg SM",
+            "Jakob SM",
+            "Kanji S",
+            "Leach R",
+            "McPhail MJ",
+            "Monnet X",
+            "Morelli A",
+            "Singer M",
+            "Wilkman E",
+            "Citerio G"
+          ],
+          "doi": "10.1007/s00134-026-08574-4",
+          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2160-2177",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
+        },
+        {
           "pmid": "42283370",
           "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
           "journal": "The New England journal of medicine",
@@ -12228,41 +12734,6 @@
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
-        },
-        {
-          "pmid": "42645558",
-          "title": "State-of-the-art review: ß-blockade in critical illness.",
-          "journal": "Intensive care medicine",
-          "pubdate": "2026 Aug 26",
-          "authors": [
-            "Ostermann M",
-            "De Backer D",
-            "Belley-Cote E",
-            "Cecconi M",
-            "Chew MS",
-            "Dionne JC",
-            "Hollenberg SM",
-            "Jakob SM",
-            "Kanji S",
-            "Leach R",
-            "McPhail MJ",
-            "Monnet X",
-            "Morelli A",
-            "Singer M",
-            "Wilkman E",
-            "Citerio G"
-          ],
-          "doi": "10.1007/s00134-026-08574-4",
-          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Review",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
         },
         {
           "pmid": "42612901",
@@ -12686,6 +13157,72 @@
       "abbr": "ID/Sepsis",
       "articles": [
         {
+          "pmid": "42645558",
+          "title": "State-of-the-art review: ß-blockade in critical illness.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Ostermann M",
+            "De Backer D",
+            "Belley-Cote E",
+            "Cecconi M",
+            "Chew MS",
+            "Dionne JC",
+            "Hollenberg SM",
+            "Jakob SM",
+            "Kanji S",
+            "Leach R",
+            "McPhail MJ",
+            "Monnet X",
+            "Morelli A",
+            "Singer M",
+            "Wilkman E",
+            "Citerio G"
+          ],
+          "doi": "10.1007/s00134-026-08574-4",
+          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2160-2177",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
+        },
+        {
+          "pmid": "42714473",
+          "title": "Distinct weaning phenotypes in patients unsuccessful in weaning from invasive mechanical ventilation: a secondary analysis of the WEAN SAFE cohort.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Caldecott R",
+            "Zhu Y",
+            "McNicholas BA",
+            "Rezoagli E",
+            "Taran S",
+            "Pham T",
+            "Heunks L",
+            "Bellani G",
+            "Brochard L",
+            "Simpkin AJ",
+            "Laffey JG",
+            "WEAN SAFE Investigators"
+          ],
+          "doi": "10.1007/s00134-026-08592-2",
+          "abstract": "OBJECTIVE: To characterise the trajectories and outcomes of patients who enter the weaning process but fail to wean from invasive mechanical ventilation (MV). METHODS: In this secondary analysis of the WorldwidE AssessmeNt of Separation of pAtients From ventilatory assistancE (WEAN SAFE) cohort, we examined weaning duration and intensity, decisions to withdraw or withhold life-sustaining therapy (WLST), and clinical outcomes in patients not weaning from invasive ventilation. The primary outcome was ICU mortality. RESULTS: Of the 5664 patients in the study population, 1270 (22.4%) never underwent a separation attempt (SA), while 4394 (77.6%) had at least one SA; of these, 664 (15.1%) eventually failed weaning from invasive MV at day 90, while 3730 (65.9%) successfully weaned. Failed-Wean patients had the longest duration of invasive ventilation and longest ICU stay of all groups. Compared with Successful-Wean, Failed-Wean patients underwent more separation attempts, but fewer attempted extubations and more reintubations and tracheostomies. ICU mortality was 78% in Failed-Wean compared with 2% in Successful-Wean. Three clinically distinct Failed-Wean phenotypes were identified, distinguished by separation attempt count and WLST timing: Phenotype A (single SA + WLST), Phenotype B (single SA, no WLST), and Phenotype C (> 1 SA). A failed-first SA was strongly associated with WLST decisions. In this cohort, a WLST decision was associated with a higher hazard of ICU mortality and shorter median time to ICU death. CONCLUSIONS: Three weaning failure phenotypes were identified with distinct clinical profiles, weaning trajectories, and outcomes. A strong relationship exists between failed first separation attempts, WLST decision, and the risk of death, which deserves further investigation. TRIAL REGISTRATION: ClinicalTrials.gov, NCT03255109.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2039-2057",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/"
+        },
+        {
           "pmid": "42778957",
           "title": "The NLRP3 inflammasome in physiological and dysfunctional host response in human sepsis and critical illness: a narrative review.",
           "journal": "Critical care (London, England)",
@@ -12763,41 +13300,6 @@
           "is_open_access": false,
           "pmc_url": null,
           "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
-        },
-        {
-          "pmid": "42645558",
-          "title": "State-of-the-art review: ß-blockade in critical illness.",
-          "journal": "Intensive care medicine",
-          "pubdate": "2026 Aug 26",
-          "authors": [
-            "Ostermann M",
-            "De Backer D",
-            "Belley-Cote E",
-            "Cecconi M",
-            "Chew MS",
-            "Dionne JC",
-            "Hollenberg SM",
-            "Jakob SM",
-            "Kanji S",
-            "Leach R",
-            "McPhail MJ",
-            "Monnet X",
-            "Morelli A",
-            "Singer M",
-            "Wilkman E",
-            "Citerio G"
-          ],
-          "doi": "10.1007/s00134-026-08574-4",
-          "abstract": "Critical illness is characterised by activation of the sympathetic nervous system which plays an important adaptive role in maintaining cardiovascular stability and organ perfusion. However, excessive sustained adrenergic stimulation may become maladaptive, contributing to tachyarrhythmias, myocardial injury, immune dysregulation, metabolic derangements, and organ dysfunction. This state-of-the-art review evaluates the role of ß-blocker therapy as a potential strategy to modulate or counteract the adrenergic response in critically ill patients. Current data suggest that their use remains highly context-dependent and controversial. There are established benefits in selected scenarios, including acute myocardial infarction, tachyarrhythmias, hypertensive emergencies, thyroid storm, and prevention of variceal bleeds. In contrast, evidence is limited or conflicting in septic shock, traumatic brain injury, acute heart failure, burns and other critical care syndromes. Concerns include impairment of compensatory cardiovascular responses, reduction of cardiac output, hypotension, and compromised organ perfusion. Furthermore, the safety and efficacy of ß-blockade appear to depend on the type and dose of ß-blocker, patient phenotype, timing of initiation, hemodynamic reserve, and whether therapy represents continuation of chronic treatment, withdrawal and re-initiation, or de novo initiation during acute illness. This review highlights major gaps in knowledge, including the absence of reliable indicators to identify patients most likely to benefit, uncertainty regarding optimal treatment targets and monitoring strategies, and limited randomised evidence in heterogeneous ICU populations. A phenotype-driven, physiology-guided approach that accounts for hemodynamic status, sympathetic spectrum and timing of ß-blocker therapy is likely required to optimise outcomes.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Review",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
         },
         {
           "pmid": "42644690",
@@ -13906,6 +14408,81 @@
       "abbr": "Heme",
       "articles": [
         {
+          "pmid": "42616082",
+          "title": "Early red blood cell transfusion strategy in septic shock among patients with cancer: the TRANSPORT randomized controlled trial.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Pène F",
+            "Vigneron C",
+            "Lafarge A",
+            "Mokart D",
+            "Zerbib Y",
+            "Canet E",
+            "Kamel T",
+            "Moreau AS",
+            "Cadoz C",
+            "Decavèle M",
+            "Mekontso Dessap A",
+            "Ebstein N",
+            "Lacave G",
+            "Chelly J",
+            "Reuter D",
+            "Argaud L",
+            "Ait-Oufella H",
+            "Bigé N",
+            "Levrard M",
+            "Charpentier J",
+            "Bisbal M",
+            "Maizel J",
+            "Benguerfi S",
+            "Barbier F",
+            "Bureau C",
+            "Bigot N",
+            "Resche-Rigon M",
+            "Lambert J",
+            "Azoulay E",
+            "GRRR-OH (Groupe de Recherche Respiratoire en Réanimation Onco-Hématologique)"
+          ],
+          "doi": "10.1007/s00134-026-08582-4",
+          "abstract": "PURPOSE: Septic shock in cancer patients remains associated with a grim prognosis. With regard to the high prevalence of anemia, the optimal hemoglobin target to restore tissue oxygenation remains uncertain. METHODS: This was a multicenter superiority randomized controlled trial carried out in 18 centers in France. Adult patients with hematological or solid malignancies presenting with septic shock with lactate level > 2.0 mmol/L and hemoglobin level < 9.0 g/dL were randomly assigned to liberal or restrictive red blood cell (RBC) transfusion directed by hemoglobin thresholds of 9.0 g/dL or 7.0 g/dL during the first 48 h of resuscitation. The primary endpoint was 12-h lactate reduction, defined as normalization ≤ 2.0 mmol/L or relative decrease by 30% from baseline. Key secondary endpoints included ICU-acquired infections, arterial and venous thrombotic events, and 28-day mortality. RESULTS: The trial was designed to enroll 260 patients but was prematurely stopped for safety concerns. Finally, 187 patients were enrolled, distributed into 93 in the liberal arm and 94 in the restrictive arm. Twelve-hour lactate reduction was achieved in 52% and 50% of patients in the liberal and restrictive arms, respectively (odds ratio 1.07; 95% confidence interval 0.60 to 1.90; P = 0.82). Arterial or venous thrombotic events occurred more frequently in the liberal group (13% vs. 1%; P = 0.001), and 28-day mortality rates were 46% and 53% (P = 0.34), respectively. CONCLUSIONS: In cancer patients with septic shock, this trial did not demonstrate superiority of liberal over restrictive transfusion strategy. The absence of mortality benefit and the uncertainty surrounding the observed imbalance in adverse events do not support the routine preference of either transfusion strategy over the other.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Randomized Controlled Trial",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2096-2107",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42616082/"
+        },
+        {
+          "pmid": "42593537",
+          "title": "Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Martin-Loeches I",
+            "Leone M",
+            "Coopersmith CM",
+            "Machado FR",
+            "Hodgson C",
+            "Calfee CS",
+            "Schultz MJ"
+          ],
+          "doi": "10.1007/s00134-026-08579-z",
+          "abstract": "BACKGROUND: Randomised controlled trials (RCTs) have reshaped intensive care medicine (ICM), a discipline defined by acute, interacting organ failures, time-sensitive decisions, biological uncertainty, and heterogeneous recovery trajectories. Many interventions supported by strong physiological rationale failed to improve patient-centred outcomes, whereas durable advances often emerged from optimisation of supportive care, avoidance of iatrogenic harm, and reassessment of established practices. METHODS: We conducted an interpretive historical review of landmark multicentre RCTs in adult ICM from the early 1990s onwards. PubMed searches, reference lists from major trials and reviews, and international guidelines were used to identify trials with conceptual influence on practice, guidelines, physiological reasoning, therapeutic strategy, research priorities, de-implementation, or outcome framing. Evidence was organised into overlapping paradigms rather than rigid chronological periods. FINDINGS: Across haemodynamic support, mechanical ventilation, renal replacement therapy, antimicrobial treatment, nutrition, glucose control, transfusion, and sedation, landmark RCTs describe more than therapeutic expansion. Early biological and haemodynamic trials exposed the limits of reductionist strategies in syndromic critical illness. Protocol-driven approaches improved timeliness and consistency, but later pragmatic trials showed that rigid targets and invasive algorithms often added little once high-quality usual care was established. More recent trials challenge the assumption that greater intervention intensity improves outcomes, emphasising timing, disease phase, baseline risk, heterogeneity, patient selection, and treatment-related harm. Modern ICM RCTs have clarified not only what works, but what can be reduced, delayed, avoided, or applied selectively. Future progress requires biologically informed, context-sensitive trials focussed on meaningful survival, recovery, and long-term function.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2178-2193",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/"
+        },
+        {
           "pmid": "42752385",
           "title": "Epidemiology of Critically Ill Patients With Cirrhosis Undergoing Continuous Renal Replacement Therapy: A Contemporaneous Parallel Analysis of the HRS-HARMONY and CRRTnet Registries.",
           "journal": "Critical care medicine",
@@ -14574,6 +15151,76 @@
           "ai_summary": "This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.",
           "ai_significance": "These findings are relevant for ICU clinical practice as they highlight the importance of organisational resources and staff appreciation in mitigating burnout among healthcare workers, particularly during high-stress situations like the COVID-19 pandemic.",
           "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42618770",
+          "title": "Respiratory mechanics modifies the impact of ventilator settings on clinical outcome in patients with acute brain injury.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Grieco DL",
+            "Stronati A",
+            "Robba C",
+            "Rosà T",
+            "Iavarone IG",
+            "Rezoagli E",
+            "Bongiovanni F",
+            "Dell'Anna AM",
+            "Cardu A",
+            "Graziano F",
+            "Galimberti S",
+            "Caricato A",
+            "Patroniti N",
+            "Taccone FS",
+            "Citerio G",
+            "Antonelli M"
+          ],
+          "doi": "10.1007/s00134-026-08562-8",
+          "abstract": "PURPOSE: To investigate whether respiratory system elastance (ERS) modifies the associations of tidal volume (VT) and respiratory rate with clinical outcomes in mechanically ventilated patients with acute brain injury. METHODS: In this post hoc analysis of the VENTIBRAIN study, ERS was computed as the ratio of driving pressure (ΔP) to VT/PBW. Effect modification by ERS on outcome associations was assessed. RESULTS: In 1158 patients, VT was similar across ERS tertiles (median 7.9, 7.6 and 7.1 mL/kg), resulting in a marked ΔP gradient across tertiles (median 5, 9, and 12 cmH2O). Higher VT was associated with lower ICU mortality in patients with low ERS (OR 0.52, 95%CI 0.36-0.74) but not in those with high ERS (OR 1.16, 95% CI 0.89-1.51; Pint < 0.001). Higher respiratory rate was associated with worse outcomes, particularly at low ERS, with the association attenuating at higher ERS. The Bayesian optimal VT/PBW decreased continuously with ERS, from 11.4 mL/kg at ERS 0.5 cmH2O/(mL/kg) (≈ ΔP 6 cmH2O) to 4.4 mL/kg at ERS 2.5 cmH2O/(mL/kg) (≈ ΔP 11 cmH2O), while the optimal respiratory rate increased from 15 to 19 breaths/min. At constant alveolar ventilation, 1-cmH2O ΔP increase had comparable prognostic impact to ≈ 3 breaths/min respiratory rate increases. These results were consistent irrespective of ARDS diagnosis. CONCLUSIONS: The impact of ventilator settings is modulated by ERS. A physiological framework for VT adjustment could consider ΔP along with the respiratory rate required to maintain isocapnia, with outcome effects governed by a trade-off of ≈ 3 breaths/min per 1-cmH2O change in ΔP.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2071-2084",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/"
+        },
+        {
+          "pmid": "42525086",
+          "title": "Intracranial pressure physiology, monitoring and individualized management in the acute brain injured patient.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Taccone FS",
+            "Arabi Y",
+            "Baggiani M",
+            "Brasil S",
+            "Figaji A",
+            "Gouvea Bogossian E",
+            "Hawryluk G",
+            "Mccredie V",
+            "Moller K",
+            "Puppo C",
+            "Robba C",
+            "Shrestha GS",
+            "Tokmak F",
+            "Udy A",
+            "Wong YL",
+            "Meyfroidt G"
+          ],
+          "doi": "10.1007/s00134-026-08558-4",
+          "abstract": "Acute brain injury (ABI), including traumatic brain injury, ischemic and hemorrhagic stroke, is associated with high morbidity and mortality, which is driven not only by the primary brain injury, but also by the development of secondary cerebral insults. Among these, raised intracranial pressure (ICP) plays a central pathophysiological role, acting both as a consequence and a driver of ongoing brain injury through mechanical deformation and cerebral ischemia. Although invasive intracranial pressure (ICP) monitoring has a longstanding and ongoing role in neurocritical care management, the interpretation and clinical use of ICP remain controversial. Traditional management strategies rely on fixed ICP thresholds (e.g., > 22 mmHg) to trigger a standardized stepwise escalation of therapy; however, growing clinical evidence indicates that tolerance to ICP elevation varies widely across patients, disease entities, and physiological contexts. This review summarizes the physiological determinants of ICP, including intracranial compliance, cerebrospinal fluid dynamics, cerebral blood volume, and systemic factors, and describes the mechanisms underlying intracranial hypertension. We discuss limitations of using fixed ICP thresholds and highlight emerging concepts, such as ICP burden, waveform morphology, cerebral autoregulation, and functional brain monitoring, as tools to individualize ICP interpretation. The role of invasive and noninvasive ICP monitoring (nICP) modalities is reviewed, emphasizing the complementary value of nICP in guiding decision-making when invasive monitoring is unavailable or contraindicated. Particular attention is given to the integration of ICP within multimodal neuromonitoring frameworks assessing cerebral perfusion, oxygenation, and metabolism. Finally, we explore future perspectives, including the potential of artificial intelligence-based approaches to analyse complex neuromonitoring data, predict secondary insults, and move toward actionable, patientspecific therapeutic strategies. Collectively, these advances support a shift from a uniform, threshold-driven approach toward individualized, physiology-informed management of intracranial hypertension.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2108-2128",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42525086/"
         },
         {
           "pmid": "42320025",
@@ -15349,6 +15996,37 @@
       "abbr": "Procedures",
       "articles": [
         {
+          "pmid": "42714473",
+          "title": "Distinct weaning phenotypes in patients unsuccessful in weaning from invasive mechanical ventilation: a secondary analysis of the WEAN SAFE cohort.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Caldecott R",
+            "Zhu Y",
+            "McNicholas BA",
+            "Rezoagli E",
+            "Taran S",
+            "Pham T",
+            "Heunks L",
+            "Bellani G",
+            "Brochard L",
+            "Simpkin AJ",
+            "Laffey JG",
+            "WEAN SAFE Investigators"
+          ],
+          "doi": "10.1007/s00134-026-08592-2",
+          "abstract": "OBJECTIVE: To characterise the trajectories and outcomes of patients who enter the weaning process but fail to wean from invasive mechanical ventilation (MV). METHODS: In this secondary analysis of the WorldwidE AssessmeNt of Separation of pAtients From ventilatory assistancE (WEAN SAFE) cohort, we examined weaning duration and intensity, decisions to withdraw or withhold life-sustaining therapy (WLST), and clinical outcomes in patients not weaning from invasive ventilation. The primary outcome was ICU mortality. RESULTS: Of the 5664 patients in the study population, 1270 (22.4%) never underwent a separation attempt (SA), while 4394 (77.6%) had at least one SA; of these, 664 (15.1%) eventually failed weaning from invasive MV at day 90, while 3730 (65.9%) successfully weaned. Failed-Wean patients had the longest duration of invasive ventilation and longest ICU stay of all groups. Compared with Successful-Wean, Failed-Wean patients underwent more separation attempts, but fewer attempted extubations and more reintubations and tracheostomies. ICU mortality was 78% in Failed-Wean compared with 2% in Successful-Wean. Three clinically distinct Failed-Wean phenotypes were identified, distinguished by separation attempt count and WLST timing: Phenotype A (single SA + WLST), Phenotype B (single SA, no WLST), and Phenotype C (> 1 SA). A failed-first SA was strongly associated with WLST decisions. In this cohort, a WLST decision was associated with a higher hazard of ICU mortality and shorter median time to ICU death. CONCLUSIONS: Three weaning failure phenotypes were identified with distinct clinical profiles, weaning trajectories, and outcomes. A strong relationship exists between failed first separation attempts, WLST decision, and the risk of death, which deserves further investigation. TRIAL REGISTRATION: ClinicalTrials.gov, NCT03255109.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2039-2057",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/"
+        },
+        {
           "pmid": "42283370",
           "title": "Sodium Bicarbonate for Critically Ill Adults with Metabolic Acidosis and Shock.",
           "journal": "The New England journal of medicine",
@@ -15793,6 +16471,93 @@
       "abbr": "Pharm",
       "articles": [
         {
+          "pmid": "42467246",
+          "title": "Key principles for rehabilitation of critically ill patients with obesity.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Eggmann S",
+            "Bear DE",
+            "Bourne RS",
+            "Freeman-Sanderson A",
+            "Hickmann CE",
+            "Karner V",
+            "McWilliams D",
+            "Needham DM",
+            "Singer P",
+            "van Mol M",
+            "van Zanten A",
+            "Hodgson CL",
+            "Schaller SJ"
+          ],
+          "doi": "10.1007/s00134-026-08541-z",
+          "abstract": "PURPOSE: Patients with obesity who are admitted to an ICU bring specific challenges for rehabilitation during and after critical illness. This narrative review explores impact of differences in body compositions and pathophysiology on outcomes to summarise interprofessional, patient-centred rehabilitation strategies across the trajectory of recovery. METHODS: The interprofessional expert panel reviewed major trials and guidelines, integrating their clinical expertise with the current evidence. RESULTS: Three distinct phenotypes potentially influence outcomes for survivors. Whilst patients with preserved muscle mass may have a survival advantage, the phenotypes characterised by ectopic visceral fat or sarcopenia are frequently complicated by multimorbidity and polypharmacy, likely increasing the risk of adverse effects such as suboptimal sedation, prolonged ventilation and immobilisation, malnutrition, and impaired recovery. Targeted respiratory interventions, including secretion-clearance techniques and appropriate patient positioning to prevent atelectasis, reduce the work of breathing. Optimisation of communication and swallowing function is an essential component for facilitating safe oral intake and promoting active patient participation in rehabilitation. Concurrently, targeted nutrition strategies combined with early, targeted, progressive mobilisation might mitigate ICU acquired weakness and support functional recovery. The availability of appropriate weight‑based equipment is fundamental to ensuring safe mobilisation for both patients and healthcare professionals. CONCLUSION: Interprofessional collaboration is central to optimising outcomes and should extend beyond the ICU to structured post-ICU follow-up to address persistent, worsening, or newly emerging health impairments. Early rehabilitation in critically ill patients with obesity should integrate physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2129-2143",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42467246/",
+          "ai_key_stats": "",
+          "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
+          "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
+          "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42593537",
+          "title": "Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Martin-Loeches I",
+            "Leone M",
+            "Coopersmith CM",
+            "Machado FR",
+            "Hodgson C",
+            "Calfee CS",
+            "Schultz MJ"
+          ],
+          "doi": "10.1007/s00134-026-08579-z",
+          "abstract": "BACKGROUND: Randomised controlled trials (RCTs) have reshaped intensive care medicine (ICM), a discipline defined by acute, interacting organ failures, time-sensitive decisions, biological uncertainty, and heterogeneous recovery trajectories. Many interventions supported by strong physiological rationale failed to improve patient-centred outcomes, whereas durable advances often emerged from optimisation of supportive care, avoidance of iatrogenic harm, and reassessment of established practices. METHODS: We conducted an interpretive historical review of landmark multicentre RCTs in adult ICM from the early 1990s onwards. PubMed searches, reference lists from major trials and reviews, and international guidelines were used to identify trials with conceptual influence on practice, guidelines, physiological reasoning, therapeutic strategy, research priorities, de-implementation, or outcome framing. Evidence was organised into overlapping paradigms rather than rigid chronological periods. FINDINGS: Across haemodynamic support, mechanical ventilation, renal replacement therapy, antimicrobial treatment, nutrition, glucose control, transfusion, and sedation, landmark RCTs describe more than therapeutic expansion. Early biological and haemodynamic trials exposed the limits of reductionist strategies in syndromic critical illness. Protocol-driven approaches improved timeliness and consistency, but later pragmatic trials showed that rigid targets and invasive algorithms often added little once high-quality usual care was established. More recent trials challenge the assumption that greater intervention intensity improves outcomes, emphasising timing, disease phase, baseline risk, heterogeneity, patient selection, and treatment-related harm. Modern ICM RCTs have clarified not only what works, but what can be reduced, delayed, avoided, or applied selectively. Future progress requires biologically informed, context-sensitive trials focussed on meaningful survival, recovery, and long-term function.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2178-2193",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/"
+        },
+        {
+          "pmid": "42455344",
+          "title": "Antiseizure medication dosing and monitoring in the intensive care unit: a practical narrative review.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct",
+          "authors": [
+            "Webb AJ",
+            "Barlow B",
+            "Seto SL",
+            "Maciel CB",
+            "Brennan J",
+            "Cook AM"
+          ],
+          "doi": "10.1007/s00134-026-08550-y",
+          "abstract": "PURPOSE: Antiseizure medications (ASMs) are commonly used in the intensive care unit (ICU) and often exhibit pharmacokinetics that differ substantially from those in healthy volunteers or in the outpatient setting. Organ dysfunction, polypharmacy, exogenous devices, and greater severity of illness all influence ASM pharmacokinetics, dosing decisions, and monitoring parameters. It is essential for critical care clinicians to familiarize themselves with the pharmacokinetics, dosing considerations, effects of exogenous devices, and therapeutic drug monitoring (TDM)-all covered in this narrative review-to incorporate in their approach to ASMs in the critical care setting. METHODS: We identified relevant literature from MEDLINE from inception to March 2026 related to ASMs in the ICU. Data on pharmacokinetics, dosing in the ICU, the effect of renal replacement therapy, extracorporeal membrane oxygenation (ECMO), and plasmapheresis (PLEX) on ASM exposure, and the role of TDM in the ICU were collected and summarized. RESULTS: Considerations for 15 ASMs (brivaracetam, cannabidiol, carbamazepine, cenobamate, clobazam, lacosamide, lamotrigine, levetiracetam, oxcarbazepine, perampanel, phenobarbital, phenytoin, topiramate, valproate, and zonisamide) were included in the review. Dosing considerations for TDM, including indications and target reference ranges, and specific settings such as organ dysfunction, illness severity, renal replacement therapy, ECMO, and PLEX are discussed. CONCLUSION: The use of ASMs in the ICU require a distinct approach from outpatient settings. Severity of illness, organ dysfunction and replacement devices, and frequent drug-drug interactions warrant tailored agent selection, dosing, and monitoring.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "52",
+          "issue": "10",
+          "pages": "2144-2159",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42455344/"
+        },
+        {
           "pmid": "42301229",
           "title": "Impact of Molecular Adsorbent Recirculating System Therapy on Piperacillin Concentration in Critically Ill Patients: An Observational Cohort Study.",
           "journal": "Critical care medicine",
@@ -15953,42 +16718,6 @@
             "weaknesses": "Small sample size; short duration of assessment periods",
             "bottom_line": "A novel device may be a safe alternative to traditional wrist restraints in ICU settings, with moderate patient and clinician satisfaction."
           }
-        },
-        {
-          "pmid": "42467246",
-          "title": "Key principles for rehabilitation of critically ill patients with obesity.",
-          "journal": "Intensive care medicine",
-          "pubdate": "2026 Jul 17",
-          "authors": [
-            "Eggmann S",
-            "Bear DE",
-            "Bourne RS",
-            "Freeman-Sanderson A",
-            "Hickmann CE",
-            "Karner V",
-            "McWilliams D",
-            "Needham DM",
-            "Singer P",
-            "van Mol M",
-            "van Zanten A",
-            "Hodgson CL",
-            "Schaller SJ"
-          ],
-          "doi": "10.1007/s00134-026-08541-z",
-          "abstract": "PURPOSE: Patients with obesity who are admitted to an ICU bring specific challenges for rehabilitation during and after critical illness. This narrative review explores impact of differences in body compositions and pathophysiology on outcomes to summarise interprofessional, patient-centred rehabilitation strategies across the trajectory of recovery. METHODS: The interprofessional expert panel reviewed major trials and guidelines, integrating their clinical expertise with the current evidence. RESULTS: Three distinct phenotypes potentially influence outcomes for survivors. Whilst patients with preserved muscle mass may have a survival advantage, the phenotypes characterised by ectopic visceral fat or sarcopenia are frequently complicated by multimorbidity and polypharmacy, likely increasing the risk of adverse effects such as suboptimal sedation, prolonged ventilation and immobilisation, malnutrition, and impaired recovery. Targeted respiratory interventions, including secretion-clearance techniques and appropriate patient positioning to prevent atelectasis, reduce the work of breathing. Optimisation of communication and swallowing function is an essential component for facilitating safe oral intake and promoting active patient participation in rehabilitation. Concurrently, targeted nutrition strategies combined with early, targeted, progressive mobilisation might mitigate ICU acquired weakness and support functional recovery. The availability of appropriate weight‑based equipment is fundamental to ensuring safe mobilisation for both patients and healthcare professionals. CONCLUSION: Interprofessional collaboration is central to optimising outcomes and should extend beyond the ICU to structured post-ICU follow-up to address persistent, worsening, or newly emerging health impairments. Early rehabilitation in critically ill patients with obesity should integrate physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Review",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42467246/",
-          "ai_key_stats": "",
-          "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
-          "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
-          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "41989178",
