@@ -7,6 +7,9 @@
   <meta name="description" content="Daily-updated ICU literature, practice guidelines, and FOAMed, organized by organ system with AI-generated summaries." />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="ICU Scope" />
   <link rel="manifest" href="manifest.webmanifest" />
   <!-- Matches --surface in style.css (light #ffffff / dark #1c2024) so the
        browser UI chrome (address bar, PWA title bar) doesn't clash with
@@ -363,5 +366,12 @@
   <script src="auth.js?v=1" defer></script>
   <script src="app.js?v=38"></script>
   <script src="/analytics.js"></script>
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("sw.js").catch(function () {});
+      });
+    }
+  </script>
 </body>
 </html>
