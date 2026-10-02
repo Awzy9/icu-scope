@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ICU Scope</string>
+    <string name="title_activity_main">ICU Scope</string>
+    <string name="package_name">com.awzy9.icuscope</string>
+    <string name="custom_url_scheme">com.awzy9.icuscope</string>
+</resources>

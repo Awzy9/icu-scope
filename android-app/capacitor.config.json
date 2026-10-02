@@ -1,0 +1,12 @@
+{
+  "appId": "com.awzy9.icuscope",
+  "appName": "ICU Scope",
+  "webDir": "www",
+  "server": {
+    "url": "https://icu-scope.vercel.app",
+    "cleartext": false
+  },
+  "android": {
+    "backgroundColor": "#ffffff"
+  }
+}
