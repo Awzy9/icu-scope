@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T09:35:24+00:00",
+  "generated_at": "2026-10-02T09:10:14+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -58,36 +58,40 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42765454/"
       },
       {
-        "pmid": "42658259",
-        "title": "Balancing lung and brain: physiological strategies for ARDS management in acute brain injury.",
+        "pmid": "42467246",
+        "title": "Key principles for rehabilitation of critically ill patients with obesity.",
         "journal": "Intensive care medicine",
-        "pubdate": "2026 Sep",
+        "pubdate": "2026 Oct",
         "authors": [
-          "Robba C",
-          "Romero-García N",
-          "Taran S",
-          "Badenes R",
-          "Camporota L",
-          "Rocco PRM",
-          "Pellegrini M",
-          "Piquilloud L",
-          "Roquilly A",
-          "Schmidt M",
-          "Taccone FS",
-          "Wahlster S",
-          "Patroniti NA"
+          "Eggmann S",
+          "Bear DE",
+          "Bourne RS",
+          "Freeman-Sanderson A",
+          "Hickmann CE",
+          "Karner V",
+          "McWilliams D",
+          "Needham DM",
+          "Singer P",
+          "van Mol M",
+          "van Zanten A",
+          "Hodgson CL",
+          "Schaller SJ"
         ],
-        "doi": "10.1007/s00134-026-08595-z",
-        "abstract": "Acute respiratory distress syndrome (ARDS) is a common and clinically significant complication in patients with acute brain injury (ABI), affecting up to one-third of critically ill individuals and contributing to increased mortality, prolonged mechanical ventilation, and worse neurological outcomes. The coexistence of ARDS and ABI creates a fundamental therapeutic dilemma: strategies that protect the lung may adversely affect cerebral physiology, whilst neuroprotective targets may compromise respiratory management. This narrative review examined the pathophysiological interactions between the injured lung and brain, highlighting the competing effects of key ventilatory variables. Lung-protective ventilation, including low tidal volume and higher positive end-expiratory pressure (PEEP), reduces ventilator-induced lung injury but may increase arterial carbon dioxide (PaCO2), resulting in intracranial hypertension and impaired cerebral perfusion. Conversely, strict control of PaCO₂ and optimisation of cerebral perfusion may necessitate deviations from conventional ARDS strategies. Oxygenation targets further illustrate this tension, as both hypoxaemia and hyperoxaemia can exacerbate secondary brain injury. We synthesised current evidence on respiratory support, including non-invasive strategies, invasive mechanical ventilation, rescue therapies such as prone positioning and extracorporeal support, and pharmacological interventions, with emphasis on their differential effects on pulmonary and cerebral physiology. Attention was also given to the role of multimodal neuromonitoring, including intracranial pressure and brain tissue oxygenation, as tools to individualise ventilatory management and reconcile competing organ priorities. Overall, available data support a shift from protocolised approaches towards physiology-driven, patient-specific strategies that integrate lung mechanics, gas exchange and cerebral haemodynamics in patients with concomitant ARDS and ABI. Future studies should incorporate combined lung and brain endpoints to define strategies that simultaneously minimise ventilator-induced lung injury and secondary brain injury.",
-        "citation_count": 119,
+        "doi": "10.1007/s00134-026-08541-z",
+        "abstract": "PURPOSE: Patients with obesity who are admitted to an ICU bring specific challenges for rehabilitation during and after critical illness. This narrative review explores impact of differences in body compositions and pathophysiology on outcomes to summarise interprofessional, patient-centred rehabilitation strategies across the trajectory of recovery. METHODS: The interprofessional expert panel reviewed major trials and guidelines, integrating their clinical expertise with the current evidence. RESULTS: Three distinct phenotypes potentially influence outcomes for survivors. Whilst patients with preserved muscle mass may have a survival advantage, the phenotypes characterised by ectopic visceral fat or sarcopenia are frequently complicated by multimorbidity and polypharmacy, likely increasing the risk of adverse effects such as suboptimal sedation, prolonged ventilation and immobilisation, malnutrition, and impaired recovery. Targeted respiratory interventions, including secretion-clearance techniques and appropriate patient positioning to prevent atelectasis, reduce the work of breathing. Optimisation of communication and swallowing function is an essential component for facilitating safe oral intake and promoting active patient participation in rehabilitation. Concurrently, targeted nutrition strategies combined with early, targeted, progressive mobilisation might mitigate ICU acquired weakness and support functional recovery. The availability of appropriate weight‑based equipment is fundamental to ensuring safe mobilisation for both patients and healthcare professionals. CONCLUSION: Interprofessional collaboration is central to optimising outcomes and should extend beyond the ICU to structured post-ICU follow-up to address persistent, worsening, or newly emerging health impairments. Early rehabilitation in critically ill patients with obesity should integrate physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
+        "citation_count": 88,
         "is_top_journal": true,
         "study_type": "Review",
         "volume": "52",
-        "issue": "9",
-        "pages": "1958-1973",
+        "issue": "10",
+        "pages": "2129-2143",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13623789/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42467246/",
+        "ai_key_stats": "",
+        "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
+        "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42745269",
@@ -139,33 +143,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13613798/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
-      },
-      {
-        "pmid": "42262338",
-        "title": "Diagnostic and Prognostic Value of the Venous Excess Ultrasound Grading System (VExUS): A Systematic Review and Meta-Analysis.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Sep 1",
-        "authors": [
-          "Klompmaker P",
-          "Opschoor K",
-          "Dalen JT",
-          "de Vries R",
-          "Balan C",
-          "Veelo DP",
-          "Vlaar APJ",
-          "Tuinman PR"
-        ],
-        "doi": "10.1097/CCM.0000000000007219",
-        "abstract": "OBJECTIVES: The venous excess ultrasound (VExUS) grading system has gained recognition in acute and critical care medicine as a promising approach to evaluate venous congestion and optimize fluid management. However, the diagnostic accuracy and prognostic value of VExUS remain unclear. DATA SOURCES: PubMed, Embase.com, Web of Science (Core Collection), and Wiley/Cochrane Library from inception to May 19, 2025, in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines and in collaboration with a medical information specialist. STUDY SELECTION: Study selection was systematically performed by a panel of authors. A total of 32 studies were included, consisting of 3142 patients, with six diagnostic, 22 prognostic studies, and four studies that reported on both diagnostic and prognostic outcomes. DATA EXTRACTION: Relevant data were extracted by two authors, and the corresponding authors were contacted when necessary. DATA SYNTHESIS: For diagnostic studies, no meta-analysis could be performed. Studies suggest moderate to good diagnostic accuracy for detecting increased central venous and right atrial pressures (sensitivity 78-95%, specificity 80-90%). Prognostic studies in cardiac patients found an association between VExUS greater than or equal to 2 and acute kidney injury (AKI; odds ratio [OR], 4.44; 95% CI, 2.34-8.43; moderate certainty) and mortality (OR, 3.17; 95% CI, 1.30-7.75, low certainty). For critically ill patients, no associations between VExUS greater than or equal to 2 and AKI (OR, 1.45; 95% CI, 0.70-2.99; very low certainty) and mortality (OR, 1.25; 95% CI, 0.77-2.03; low certainty) were found. Per-patient analysis showed an association between VExUS 3 and mortality for all patients and an association with AKI for cardiac patients. CONCLUSIONS: Results from this systematic review and meta-analysis suggest that VExUS has moderate to good accuracy to diagnose increased central venous pressure and right atrial pressure. In cardiac patients, higher VExUS grades are associated with AKI and mortality, but in critically ill patients, the association between VExUS grades and outcomes is less clear.",
-        "citation_count": 46,
-        "is_top_journal": true,
-        "study_type": "Meta-Analysis",
-        "volume": "54",
-        "issue": "9",
-        "pages": "2419-2429",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533470/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42262338/"
       },
       {
         "pmid": "42268591",
@@ -229,40 +206,39 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42268591/"
       },
       {
-        "pmid": "42267876",
-        "title": "Pulse Pressure Variation During Passive Leg Raising to Assess Preload Responsiveness: Influence of Inspiratory Effort During Pressure Support Ventilation.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Sep 1",
+        "pmid": "42618770",
+        "title": "Respiratory mechanics modifies the impact of ventilator settings on clinical outcome in patients with acute brain injury.",
+        "journal": "Intensive care medicine",
+        "pubdate": "2026 Oct",
         "authors": [
-          "Caplan M",
-          "Pradignac L",
-          "Djerada Z",
-          "Pierre A",
-          "Préau S",
-          "Ticos O",
-          "Thery G",
-          "Goury A",
-          "Passouant O",
-          "Sage M",
-          "Ficheux CA",
-          "Charon L",
-          "Boustani E",
-          "Mourvillier B",
-          "Bertrand M",
-          "Teboul JL",
-          "Hamzaoui O"
+          "Grieco DL",
+          "Stronati A",
+          "Robba C",
+          "Rosà T",
+          "Iavarone IG",
+          "Rezoagli E",
+          "Bongiovanni F",
+          "Dell'Anna AM",
+          "Cardu A",
+          "Graziano F",
+          "Galimberti S",
+          "Caricato A",
+          "Patroniti N",
+          "Taccone FS",
+          "Citerio G",
+          "Antonelli M"
         ],
-        "doi": "10.1097/CCM.0000000000007221",
-        "abstract": "OBJECTIVES: Passive leg raising (PLR) is reliable to assess preload responsiveness in spontaneously breathing patients, but it requires cardiac output (CO) measurements. Recent studies suggested that a decrease in pulse pressure variation (PPV) during PLR or an increase in pulse pressure (PP) during PLR could assess preload responsiveness, defined by a PLR-induced increase in CO. Our objective was to investigate whether PLR-induced changes in PPV and in PP assess preload responsiveness during pressure support ventilation (PSV). DESIGN: Prospective study. SETTING: Two ICUs of French university hospitals. PATIENTS: Critically ill patients receiving PSV and requiring assessment of preload responsiveness. INTERVENTIONS: Hemodynamic and transthoracic echocardiography variables were collected before and within 1 minute of PLR. PLR-induced changes in PPV and PP were calculated as the difference between PPV during PLR and PPV before PLR and the difference between PP during PLR and PP before PLR, respectively. Preload responsiveness was defined as an increase greater than or equal to 12% in the velocity-time integral of the subaortic flow during PLR. The population was subdivided according to the median value of airway occlusion pressure at 100 ms (P 0.1 ), as an estimate of the inspiratory effort. MEASUREMENTS AND MAIN RESULTS: Thirty-four patients were included. Their median Simplified Acute Physiology Score II was 52 (42-65). Fourteen (41%) were defined as preload responders. Unlike baseline PPV and PLR-induced change in PP, PLR-induced change in PPV was associated with preload responsiveness (area under the receiver operating characteristic curve [AUROC], 0.76; p = 0.026; cutoff value, -3%). In patients with lower inspiratory effort (P 0.1 < 2.3 cm H 2 O), PLR-induced change in PPV had a greater ability to assess preload responsiveness (AUROC, 0.90; p = 0.050; cutoff value, -3%) than in patients with higher inspiratory effort (AUROC, 0.61; p = 0.480). CONCLUSIONS: During PSV, PLR-induced changes in PPV assess preload responsiveness, primarily in patients with lower inspiratory effort reflected by P 0.1 . This simple test can predict the CO response to fluid administration without requiring direct CO measurement.",
-        "citation_count": 36,
+        "doi": "10.1007/s00134-026-08562-8",
+        "abstract": "PURPOSE: To investigate whether respiratory system elastance (ERS) modifies the associations of tidal volume (VT) and respiratory rate with clinical outcomes in mechanically ventilated patients with acute brain injury. METHODS: In this post hoc analysis of the VENTIBRAIN study, ERS was computed as the ratio of driving pressure (ΔP) to VT/PBW. Effect modification by ERS on outcome associations was assessed. RESULTS: In 1158 patients, VT was similar across ERS tertiles (median 7.9, 7.6 and 7.1 mL/kg), resulting in a marked ΔP gradient across tertiles (median 5, 9, and 12 cmH2O). Higher VT was associated with lower ICU mortality in patients with low ERS (OR 0.52, 95%CI 0.36-0.74) but not in those with high ERS (OR 1.16, 95% CI 0.89-1.51; Pint < 0.001). Higher respiratory rate was associated with worse outcomes, particularly at low ERS, with the association attenuating at higher ERS. The Bayesian optimal VT/PBW decreased continuously with ERS, from 11.4 mL/kg at ERS 0.5 cmH2O/(mL/kg) (≈ ΔP 6 cmH2O) to 4.4 mL/kg at ERS 2.5 cmH2O/(mL/kg) (≈ ΔP 11 cmH2O), while the optimal respiratory rate increased from 15 to 19 breaths/min. At constant alveolar ventilation, 1-cmH2O ΔP increase had comparable prognostic impact to ≈ 3 breaths/min respiratory rate increases. These results were consistent irrespective of ARDS diagnosis. CONCLUSIONS: The impact of ventilator settings is modulated by ERS. A physiological framework for VT adjustment could consider ΔP along with the respiratory rate required to maintain isocapnia, with outcome effects governed by a trade-off of ≈ 3 breaths/min per 1-cmH2O change in ΔP.",
+        "citation_count": 41,
         "is_top_journal": true,
         "study_type": "Study",
-        "volume": "54",
-        "issue": "9",
-        "pages": "2191-2200",
+        "volume": "52",
+        "issue": "10",
+        "pages": "2071-2084",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533466/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42267876/"
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13624006/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/"
       },
       {
         "pmid": "42750044",
@@ -293,44 +269,51 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/"
       },
       {
-        "pmid": "42312687",
-        "title": "Association Between Emergency Department-to-ICU Transfer Time and Hospital Mortality Across ICU Admission Diagnoses: A Post Hoc Subgroup Analysis.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Sep 1",
+        "pmid": "42806385",
+        "title": "Interpreting viral severe acute respiratory infection in critically ill immunocompromised patients: phenotype, co-infections, and severity.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 28",
         "authors": [
-          "van Herwerden MC",
-          "Groenland CNL",
-          "Termorshuizen F",
-          "Rietdijk WJR",
-          "Blokzijl F",
-          "Boer DP",
-          "Dormans T",
-          "Epker JL",
-          "Feyz L",
-          "Gommers DAMPJ",
-          "Gritters van den Oever N",
-          "van der Heiden P",
-          "de Jonge E",
-          "Latten GHP",
-          "Pruijsten RV",
-          "Sir Ö",
-          "Spronk PE",
-          "Vermeijden WJ",
-          "van Vliet P",
-          "de Keizer NF",
-          "den Uil CA"
+          "Mokart D",
+          "Gonzalez F",
+          "Chow-Chine L",
+          "Bisbal M"
         ],
-        "doi": "10.1097/CCM.0000000000007207",
-        "abstract": "OBJECTIVES: To assess the association between emergency department (ED)-to-ICU transfer time and hospital mortality across common ICU diagnoses. DESIGN, SETTING, AND PATIENTS: Secondary analysis of a Dutch retrospective cohort (2009-2020). Twelve hospitals (four academic and eight nonacademic teaching [NACT]) provided ED arrival and ICU admission times. Adult patients directly admitted from the ED to the ICU were included. Seven diagnostic groups (> 1500 patients each) were analyzed: out-of-hospital cardiac arrest (OHCA), nonoperative trauma, overdose, sepsis, pneumonia, respiratory failure (excluding pneumonia), and intracranial hemorrhage (ICH). Logistic regression assessed associations between ED-to-ICU time quintiles and hospital mortality, adjusting for hospital of admission, and Acute Physiology and Chronic Health Evaluation III score. Analyses were stratified by hospital type. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Among 18,798 patients, median ED-to-ICU time was 1.9 hours (interquartile range, 1.2-3.1 hr). In OHCA ( n = 3,818), associations differed by hospital type. In academic hospitals, prolonged ED-to-ICU time was associated with higher mortality (odds ratio [OR], 1.48; 95% CI, 1.08-2.02 at 1.1-1.6 hr; OR, 2.94; 95% CI, 1.80-4.78 at > 3.4 hr; Wald χ 2p < 0.001). In NACT hospitals, prolonged ED-to-ICU time was negatively associated with mortality, with ORs less than 1.0 across quintiles (Wald χ 2p < 0.001). In nonoperative trauma, a positive association between ED-to-ICU time and hospital mortality was observed in the overall cohort (OR, 1.90; 95% CI, 1.12-3.21 at > 3.4 hr; Wald χ 2p = 0.05) but was not reproduced after stratification for hospital. No associations were observed in overdose, sepsis, pneumonia, respiratory failure, or ICH. CONCLUSIONS: The association between ED-to-ICU time and hospital mortality varied across diagnostic groups and hospital types. In OHCA, opposing associations were observed in academic and NACT hospitals. In nonoperative trauma, a positive association was observed only in the overall cohort. Prospective studies in homogeneous, risk-defined subgroups with detailed process-of-care data are needed to identify modifiable delays and define transfer-time thresholds.",
-        "citation_count": 29,
+        "doi": "10.1186/s13054-026-06335-9",
+        "abstract": "",
+        "citation_count": 10,
         "is_top_journal": true,
         "study_type": "Study",
-        "volume": "54",
-        "issue": "9",
-        "pages": "2201-2211",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533471/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/"
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13617920/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42806385/"
+      },
+      {
+        "pmid": "42773480",
+        "title": "Vancomycin dosing in critically ill patients receiving renal replacement therapy: a critical appraisal of the toxicity threshold and external validation.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 22",
+        "authors": [
+          "Zhou J",
+          "Lei H",
+          "Li R",
+          "Liu X",
+          "Chen G"
+        ],
+        "doi": "10.1186/s13054-026-06322-0",
+        "abstract": "",
+        "citation_count": 4,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/"
       }
     ]
   },
@@ -4348,14 +4331,14 @@
         ],
         "doi": "10.1007/s00134-026-08562-8",
         "abstract": "PURPOSE: To investigate whether respiratory system elastance (ERS) modifies the associations of tidal volume (VT) and respiratory rate with clinical outcomes in mechanically ventilated patients with acute brain injury. METHODS: In this post hoc analysis of the VENTIBRAIN study, ERS was computed as the ratio of driving pressure (ΔP) to VT/PBW. Effect modification by ERS on outcome associations was assessed. RESULTS: In 1158 patients, VT was similar across ERS tertiles (median 7.9, 7.6 and 7.1 mL/kg), resulting in a marked ΔP gradient across tertiles (median 5, 9, and 12 cmH2O). Higher VT was associated with lower ICU mortality in patients with low ERS (OR 0.52, 95%CI 0.36-0.74) but not in those with high ERS (OR 1.16, 95% CI 0.89-1.51; Pint < 0.001). Higher respiratory rate was associated with worse outcomes, particularly at low ERS, with the association attenuating at higher ERS. The Bayesian optimal VT/PBW decreased continuously with ERS, from 11.4 mL/kg at ERS 0.5 cmH2O/(mL/kg) (≈ ΔP 6 cmH2O) to 4.4 mL/kg at ERS 2.5 cmH2O/(mL/kg) (≈ ΔP 11 cmH2O), while the optimal respiratory rate increased from 15 to 19 breaths/min. At constant alveolar ventilation, 1-cmH2O ΔP increase had comparable prognostic impact to ≈ 3 breaths/min respiratory rate increases. These results were consistent irrespective of ARDS diagnosis. CONCLUSIONS: The impact of ventilator settings is modulated by ERS. A physiological framework for VT adjustment could consider ΔP along with the respiratory rate required to maintain isocapnia, with outcome effects governed by a trade-off of ≈ 3 breaths/min per 1-cmH2O change in ΔP.",
-        "citation_count": 0,
+        "citation_count": 41,
         "is_top_journal": true,
         "study_type": "Study",
         "volume": "52",
         "issue": "10",
         "pages": "2071-2084",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13624006/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/",
         "category_id": "respiratory",
         "category_label": "Respiratory",
@@ -4448,8 +4431,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42525086/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "neurology",
         "category_label": "Neurology",
         "category_ids": [
@@ -4483,14 +4464,14 @@
         ],
         "doi": "10.1007/s00134-026-08541-z",
         "abstract": "PURPOSE: Patients with obesity who are admitted to an ICU bring specific challenges for rehabilitation during and after critical illness. This narrative review explores impact of differences in body compositions and pathophysiology on outcomes to summarise interprofessional, patient-centred rehabilitation strategies across the trajectory of recovery. METHODS: The interprofessional expert panel reviewed major trials and guidelines, integrating their clinical expertise with the current evidence. RESULTS: Three distinct phenotypes potentially influence outcomes for survivors. Whilst patients with preserved muscle mass may have a survival advantage, the phenotypes characterised by ectopic visceral fat or sarcopenia are frequently complicated by multimorbidity and polypharmacy, likely increasing the risk of adverse effects such as suboptimal sedation, prolonged ventilation and immobilisation, malnutrition, and impaired recovery. Targeted respiratory interventions, including secretion-clearance techniques and appropriate patient positioning to prevent atelectasis, reduce the work of breathing. Optimisation of communication and swallowing function is an essential component for facilitating safe oral intake and promoting active patient participation in rehabilitation. Concurrently, targeted nutrition strategies combined with early, targeted, progressive mobilisation might mitigate ICU acquired weakness and support functional recovery. The availability of appropriate weight‑based equipment is fundamental to ensuring safe mobilisation for both patients and healthcare professionals. CONCLUSION: Interprofessional collaboration is central to optimising outcomes and should extend beyond the ICU to structured post-ICU follow-up to address persistent, worsening, or newly emerging health impairments. Early rehabilitation in critically ill patients with obesity should integrate physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
-        "citation_count": 0,
+        "citation_count": 88,
         "is_top_journal": true,
         "study_type": "Review",
         "volume": "52",
         "issue": "10",
         "pages": "2129-2143",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13623789/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42467246/",
         "ai_key_stats": "",
         "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
@@ -4639,44 +4620,6 @@
           "Infectious Disease & Sepsis",
           "Trauma & Surgical"
         ]
-      },
-      {
-        "pmid": "42790625",
-        "title": "Cough function during mechanical ventilation.",
-        "journal": "Chest",
-        "pubdate": "2026 Sep 25",
-        "authors": [
-          "Bonny V",
-          "Dres M",
-          "Madotto F",
-          "Urbina T",
-          "Missri L",
-          "Joffre J",
-          "Maury É",
-          "Piquilloud L",
-          "Rodrigues A",
-          "Brochard L",
-          "Ait-Oufella H"
-        ],
-        "doi": "10.1016/j.chest.2026.09.023",
-        "abstract": "TOPIC IMPORTANCE: Cough is a vital physiological function that clears the tracheobronchial tree and facilitates effective gas exchange through secretion clearance. In ICU patients, ineffective cough is frequent, primarily due to respiratory muscle dysfunction and the presence of the endotracheal tube, which prevents glottic closure. Ineffective cough has been identified as an independent risk factor for extubation failure and prolonged mechanical ventilation. REVIEW FINDINGS: Current guidelines recognize ineffective cough as a key criterion for successful weaning from mechanical ventilation. Nevertheless, its clinical assessment remains challenging and lacks standardization. Accurate and objective evaluation of cough may improve the identification of patients at high risk of extubation failure. Beyond extubation failure, ineffective cough has also been associated with increased incidence of post-extubation pneumonia, longer ICU stay, and impaired long-term respiratory function. Poor outcome highlights the broader clinical impact of ineffective cough and reinforce the need for standardized assessment during ventilator weaning. SUMMARY: This narrative review aims to decipher the mechanisms underlying the cough reflex, outline the pathophysiological alterations observed in critically ill patients, particularly during the weaning process, and examine the available methods for cough quantification.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42790625/",
-        "category_id": "respiratory",
-        "category_label": "Respiratory",
-        "category_ids": [
-          "respiratory"
-        ],
-        "category_labels": [
-          "Respiratory"
-        ]
       }
     ]
   },
@@ -4789,6 +4732,126 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Multicenter Symphony IL-6 Monitoring Sepsis ICU Validation Study",
+        "url": "https://clinicaltrials.gov/study/NCT06654895",
+        "source": "Bluejay Diagnostics, Inc.",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "The primary objective of this study is to validate a pre-defined IL-6 concentration cutoff that predicts 28-day mortality in patients who are admitted or are intended to be admitted to the ICU diagnosed with sepsis or septic shock.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06654895"
+      },
+      {
+        "title": "Post-ICU Syndrome and Social Determinants of Healths",
+        "url": "https://clinicaltrials.gov/study/NCT07828301",
+        "source": "Pontificia Universidad Catolica de Chile",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "Medical intensive care has improved dramatically, and today, 70% to 80% of critically ill patients survive. However, several survivors face long-term psychological, cognitive, and/or physical sequelae after discharge and challenges in resuming their lives. These conditions are known as Post-Intensive Care Syndrome (PICS). PICS is a multifaceted disorder that affects many patients who survive critical illness and receive treatment in the ICU. 'It can persist for weeks, months, and years after dis",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07828301"
+      },
+      {
+        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07834346",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07834346"
+      },
+      {
+        "title": "Early Glucose States and 72-Hour Care-Metabolic Clusters in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07851545",
+        "source": "Shanghai Zhongshan Hospital",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "Blood glucose patterns during critical illness may change together with treatment, nutritional support, organ support, and the frequency of glucose monitoring. This retrospective observational study examines the relationship between glucose patterns identified during the first 24 hours of ICU care and broader care-metabolic patterns identified during the first 72 hours. The study evaluates how these early and later patterns relate to each other and whether the 72-hour clusters are associated wit",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07851545"
+      },
+      {
+        "title": "Study of Subcutaneous Interstitial Pressure During Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT03818269",
+        "source": "Centre Hospitalier Universitaire Dijon",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "The pathophysiology of sepsis is characterized by the sudden onset of vasodilation and vascular permeability with capillary leakage. This leakage contributes to the development of generalized edema which is not clinically detectable below 4 litres but which becomes visible after a few days. The edema accumulates mainly at the subcutaneous level due to the high compliance of this tissue. Edema, and therefore hydrosodium overload, testifies to the severity of the inflammation. However, it could al",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03818269"
+      },
+      {
+        "title": "Human vs Machine: a RCT Comparing Traditional In-person Instruction, AI Versus VR for Learning Basic CCE",
+        "url": "https://clinicaltrials.gov/study/NCT06355557",
+        "source": "Tan Tock Seng Hospital",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "The aim of the study is to investigate if hands-on training for basic CCE with virtual reality simulators or guided by artificial intelligence is non-inferior to training by an experienced instructor.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06355557"
+      },
+      {
+        "title": "WIN Ratio Analysis to Determine a Strategy of Non- Invasive SUpport for Respiratory Failure in the EmeRgency Department",
+        "url": "https://clinicaltrials.gov/study/NCT07558265",
+        "source": "Ohio State University",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "The purpose of this clinical trial is to determine the best initial non-invasive respiratory support (NIRS) strategy for adults who present to the emergency department with acute hypoxemic respiratory failure, a condition in which blood oxygen levels are dangerously low and require urgent treatment. This study compares two commonly used non-invasive respiratory support strategies to evaluate their effectiveness and safety, based on important patient outcomes during hospitalization, including sur",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07558265"
+      },
+      {
+        "title": "Physiological Effects of Continuous Negative External Pressure for Acute Hypoxemic Respiratory Failure",
+        "url": "https://clinicaltrials.gov/study/NCT05675345",
+        "source": "NYU Langone Health",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "This study is being conducted to evaluate if wearing a non-invasive breathing support device over the chest/abdomen improves markers of breathing in patients with lung injury requiring high-flow oxygen. The breathing support device consists of a plastic shell that sits over the chest and abdomen and connects to a vacuum that helps the chest expand with breathing. This breathing support is known as continuous negative external pressure (CNEP). Study findings will help determine if this breathing ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05675345"
+      },
+      {
+        "title": "Respiratory Physiotherapy and Diaphragm Thickness in Ventilated ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07538102",
+        "source": "Hitit University",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "This study aims to evaluate the effect of respiratory physiotherapy on diaphragm thickness in patients receiving mechanical ventilation support in the intensive care unit. Thinning and dysfunction of the diaphragm muscle observed during mechanical ventilation complicate the extubation process and increase the risk of respiratory failure in patients. Diaphragm dysfunction prolongs ventilator use and increases ICU mortality. The main objective of this research is to determine whether respiratory p",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07538102"
+      },
+      {
+        "title": "Study of Obese Patients Comparing Two Vancomycin Loading Dose Regimens",
+        "url": "https://clinicaltrials.gov/study/NCT02764359",
+        "source": "CAMC Health System",
+        "author": "",
+        "pubdate": "2026-10-01",
+        "summary": "Obesity alters the movement through the body of several antibiotics, including vancomycin. Based on literature to date, total body weight should be used to determine dosages and shorter dosing intervals may be needed. However, hospitals have different approaches to managing vancomycin in this patient population. The most common example is not exceeding a dose of 2,000mg of vancomycin at one time in these patients. However, some institutions including the Charleston Area Medical Center do not hav",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT02764359"
+      },
+      {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
         "url": "https://clinicaltrials.gov/study/NCT07740304",
         "source": "Trakya University",
@@ -4815,18 +4878,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07782216"
-      },
-      {
-        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
-        "url": "https://clinicaltrials.gov/study/NCT07834346",
-        "source": "Hellenic Institute for the Study of Sepsis",
-        "author": "",
-        "pubdate": "2026-09-29",
-        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07834346"
       },
       {
         "title": "Phase 2a Multiple Ascending Dose Study in Hospitalized Patients With Pneumonia.",
@@ -5607,18 +5658,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06052436"
-      },
-      {
-        "title": "Post-ICU Syndrome and Social Determinants of Healths",
-        "url": "https://clinicaltrials.gov/study/NCT07828301",
-        "source": "Pontificia Universidad Catolica de Chile",
-        "author": "",
-        "pubdate": "2026-09-18",
-        "summary": "Medical intensive care has improved dramatically, and today, 70% to 80% of critically ill patients survive. However, several survivors face long-term psychological, cognitive, and/or physical sequelae after discharge and challenges in resuming their lives. These conditions are known as Post-Intensive Care Syndrome (PICS). PICS is a multifaceted disorder that affects many patients who survive critical illness and receive treatment in the ICU. 'It can persist for weeks, months, and years after dis",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07828301"
       },
       {
         "title": "Heart Rate Variability for Practitioner Stimulated Reflection and Decision-making Optimisation",
@@ -7351,18 +7390,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT05110937"
-      },
-      {
-        "title": "Multicenter Symphony IL-6 Monitoring Sepsis ICU Validation Study",
-        "url": "https://clinicaltrials.gov/study/NCT06654895",
-        "source": "Bluejay Diagnostics, Inc.",
-        "author": "",
-        "pubdate": "2026-08-19",
-        "summary": "The primary objective of this study is to validate a pre-defined IL-6 concentration cutoff that predicts 28-day mortality in patients who are admitted or are intended to be admitted to the ICU diagnosed with sepsis or septic shock.",
-        "study_type": "Clinical Trial (Active Not Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06654895"
       },
       {
         "title": "Nutritional Intake in Patients on Noninvasive Ventilation: a Prospective Observational Study",
@@ -9366,6 +9393,36 @@
       "abbr": "Resp",
       "articles": [
         {
+          "pmid": "42790625",
+          "title": "Cough function during mechanical ventilation.",
+          "journal": "Chest",
+          "pubdate": "2026 Sep 25",
+          "authors": [
+            "Bonny V",
+            "Dres M",
+            "Madotto F",
+            "Urbina T",
+            "Missri L",
+            "Joffre J",
+            "Maury É",
+            "Piquilloud L",
+            "Rodrigues A",
+            "Brochard L",
+            "Ait-Oufella H"
+          ],
+          "doi": "10.1016/j.chest.2026.09.023",
+          "abstract": "TOPIC IMPORTANCE: Cough is a vital physiological function that clears the tracheobronchial tree and facilitates effective gas exchange through secretion clearance. In ICU patients, ineffective cough is frequent, primarily due to respiratory muscle dysfunction and the presence of the endotracheal tube, which prevents glottic closure. Ineffective cough has been identified as an independent risk factor for extubation failure and prolonged mechanical ventilation. REVIEW FINDINGS: Current guidelines recognize ineffective cough as a key criterion for successful weaning from mechanical ventilation. Nevertheless, its clinical assessment remains challenging and lacks standardization. Accurate and objective evaluation of cough may improve the identification of patients at high risk of extubation failure. Beyond extubation failure, ineffective cough has also been associated with increased incidence of post-extubation pneumonia, longer ICU stay, and impaired long-term respiratory function. Poor outcome highlights the broader clinical impact of ineffective cough and reinforce the need for standardized assessment during ventilator weaning. SUMMARY: This narrative review aims to decipher the mechanisms underlying the cough reflex, outline the pathophysiological alterations observed in critically ill patients, particularly during the weaning process, and examine the available methods for cough quantification.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42790625/"
+        },
+        {
           "pmid": "42765454",
           "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
           "journal": "The Cochrane database of systematic reviews",
@@ -10097,9 +10154,7 @@
           "ai_key_stats": "",
           "ai_summary": "A 31-year-old woman experienced multiple cutaneous burns from a lightning strike, leading to three extubation failures and ultimately requiring a tracheostomy. Direct airway injury and inflammation likely contributed to her inability to breathe independently. Bronchoscopic assessment and conservative extubation protocols may help prevent similar complications.",
           "ai_significance": "This case highlights the importance of considering airway injury in lightning strike victims with neck or thoracic burns, and the need for early and conservative management to prevent extubation failure.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42506332",
@@ -10128,9 +10183,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how neutrophil-to-lymphocyte ratio and mean platelet volume affected critically ill COVID-19 patients at different altitudes. Researchers found that higher levels of these markers were associated with increased risk of death in ICU patients. These findings suggest that altitude may impact the prognostic value of these markers.",
           "ai_significance": "This study's findings may help clinicians tailor their treatment approaches to critically ill COVID-19 patients based on their altitude and laboratory values, potentially improving outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42337809",
@@ -10167,9 +10220,7 @@
           "ai_key_stats": "",
           "ai_summary": "This randomized controlled trial tested the sleep-promoting effects of suvorexant in patients recovering from cardiac surgery. Suvorexant did not improve sleep architecture or reduce delirium in these patients. The study found no significant differences in sleep quality, delirium incidence, or rescue medication use between suvorexant and placebo groups.",
           "ai_significance": "This study's findings are significant for ICU clinicians as they suggest that suvorexant may not be an effective treatment for improving sleep or reducing delirium in patients recovering from cardiac surgery.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42332775",
@@ -10195,9 +10246,7 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill patients were given protein based on either their total body weight or fat-free mass. The study found that using fat-free mass-based dosing was associated with shorter ICU stays and fewer days on a ventilator, but not with a difference in mortality.",
           "ai_significance": "This study's findings suggest that adjusting protein dosing based on a patient's fat-free mass may be beneficial for critically ill patients, but further research is needed to confirm this.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42321935",
@@ -10240,9 +10289,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how well a kidney protection strategy was implemented in critically ill patients with acute kidney injury. They found that about a third of patients received the full strategy, and those who did had a higher rate of kidney recovery. The study also found a link between the number of strategy components implemented and better kidney outcomes.",
           "ai_significance": "This study is important for ICU clinicians because it highlights the need to implement a kidney protection strategy in critically ill patients with acute kidney injury to improve kidney recovery rates.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42320025",
@@ -10312,9 +10359,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study evaluated a nurse-led family participatory support intervention in ICU patients. The intervention significantly reduced the incidence of delirium and was associated with shorter hospital and ICU stays, lower hospitalization costs, and shorter durations of mechanical ventilation.",
           "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that a structured, nurse-led family participatory support intervention can improve patient outcomes and reduce costs without increasing risks.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42267821",
@@ -10369,9 +10414,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study tested the effectiveness of carbocisteine and hypertonic saline in reducing the duration of mechanical ventilation in critically ill patients with acute respiratory failure. Neither treatment significantly reduced ventilation time, but both were associated with adverse effects, including upper gastrointestinal bleeding with carbocisteine and bronchoconstriction and hypoxemia with hypertonic saline.",
           "ai_significance": "These findings suggest that carbocisteine and hypertonic saline should not be used in critically ill patients with acute respiratory failure, as they do not provide benefit and may cause harm. Clinicians should consider alternative treatments for this condition.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "41841304",
@@ -10424,9 +10467,7 @@
             "strengths": "Large sample size; well-defined inclusion and exclusion criteria",
             "weaknesses": "Open-label design; no information on intervention fidelity",
             "bottom_line": "A low-use wrist-strap physical restraint strategy does not reduce days alive without coma or delirium in critically ill patients receiving invasive mechanical ventilation."
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42494847",
@@ -10461,9 +10502,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers used a combination of a bacteriophage and antibiotics to treat a patient with a severe and drug-resistant lung infection. The treatment was successful and reduced the amount of bacteria in the patient's lungs. The combination therapy also reduced the bacteria's ability to resist antibiotics.",
           "ai_significance": "This study highlights the potential of precision phage-antibiotic therapy to treat recalcitrant XDR bacterial infections in critically ill patients, offering a new approach to addressing the growing problem of antibiotic resistance.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         }
       ]
     },
@@ -10630,9 +10669,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a tool to predict the risk of subsyndromal delirium in critically ill patients in the emergency department, using six easily available clinical variables. The tool showed excellent accuracy and can help identify patients at risk early on. This can lead to targeted interventions to improve patient outcomes.",
           "ai_significance": "Early identification of subsyndromal delirium risk in critically ill patients can help prevent its progression and improve patient outcomes. This tool can be a valuable resource for emergency department clinicians to make informed decisions.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42498895",
@@ -10665,9 +10702,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers used a non-invasive brain imaging technique called functional near-infrared spectroscopy (fNIRS) to predict recovery in 33 patients with acute brain injury. The fNIRS-based model accurately predicted 6-month outcomes in 81.3% of patients, outperforming clinical models. The model also predicted recovery of behavioral responsiveness in 78.5% of patients.",
           "ai_significance": "This study's findings suggest that fNIRS may be a valuable tool for early prognostication in patients with acute brain injury, potentially complementing existing methods and improving patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42498537",
@@ -10695,9 +10730,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.",
           "ai_significance": "This study's findings highlight the importance of monitoring fluid balance in ICU patients to prevent fluid accumulation and depletion, which can lead to worse outcomes. Clinicians can use these thresholds to guide fluid management and improve patient care.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42493813",
@@ -10722,9 +10755,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
           "ai_significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42506109",
@@ -10872,9 +10903,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed nicotine withdrawal in ICU patients, finding that smoking-related status is linked to agitation and delirium, but evidence on nicotine withdrawal syndrome is limited. The study suggests that routine identification of nicotine dependence and monitoring of withdrawal symptoms could improve patient care. NRT may be beneficial but its effectiveness and safety are uncertain.",
           "ai_significance": "Identifying nicotine dependence in ICU patients and monitoring withdrawal symptoms can help prevent complications like agitation and delirium. This information can inform clinical practice and improve patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42393760",
@@ -10906,9 +10935,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers used high-resolution monitoring to study light exposure in ICU patients over 14 million measurements. They found that light exposure is fragmented, with frequent short-duration light events at night, and limited sustained darkness. This may contribute to circadian dysregulation.",
           "ai_significance": "Understanding light exposure patterns in ICUs is crucial for developing targeted interventions to prevent circadian dysregulation and its associated adverse outcomes in critically ill patients.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42507507",
@@ -10936,9 +10963,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how often acute cholecystitis occurs in patients who have had a stroke or other cerebrovascular disease. They found that it happens in about 2.6% of these patients, which is not significantly different from a control group. The patients with cerebrovascular disease were more likely to have certain symptoms like fever and difficulty moving.",
           "ai_significance": "This study is important because it highlights the potential for delayed diagnosis of acute cholecystitis in patients with cerebrovascular disease, which can be fatal. Clinicians should be aware of this risk factor and consider it when evaluating patients with these conditions.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42315625",
@@ -11007,9 +11032,7 @@
           "ai_key_stats": "",
           "ai_summary": "This randomized controlled trial tested the sleep-promoting effects of suvorexant in patients recovering from cardiac surgery. Suvorexant did not improve sleep architecture or reduce delirium in these patients. The study found no significant differences in sleep quality, delirium incidence, or rescue medication use between suvorexant and placebo groups.",
           "ai_significance": "This study's findings are significant for ICU clinicians as they suggest that suvorexant may not be an effective treatment for improving sleep or reducing delirium in patients recovering from cardiac surgery.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42316318",
@@ -11044,9 +11067,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study evaluated a nurse-led family participatory support intervention in ICU patients. The intervention significantly reduced the incidence of delirium and was associated with shorter hospital and ICU stays, lower hospitalization costs, and shorter durations of mechanical ventilation.",
           "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that a structured, nurse-led family participatory support intervention can improve patient outcomes and reduce costs without increasing risks.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42502537",
@@ -11098,9 +11119,7 @@
           "ai_key_stats": "",
           "ai_summary": "A critically ill patient developed endophthalmitis after a car accident, despite not showing symptoms due to sedation. Urgent treatment was attempted, but the disease progressed to corneal perforation requiring enucleation. Early lens dislocation was a poor prognostic feature.",
           "ai_significance": "This case highlights the importance of vigilant ocular assessment in sedated critically ill patients and emphasizes the need for early specialist involvement to prevent irreversible complications.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "41841304",
@@ -11153,9 +11172,7 @@
             "strengths": "Large sample size; well-defined inclusion and exclusion criteria",
             "weaknesses": "Open-label design; no information on intervention fidelity",
             "bottom_line": "A low-use wrist-strap physical restraint strategy does not reduce days alive without coma or delirium in critically ill patients receiving invasive mechanical ventilation."
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         }
       ]
     },
@@ -11273,9 +11290,7 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
           "ai_significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42584203",
@@ -11481,9 +11496,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
           "ai_significance": "This study helps clinicians and families understand what to expect for recovery times, and suggests that there may be other factors contributing to delayed recovery beyond sedation exposure. This information can inform clinical decision-making and improve patient care.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42508300",
@@ -11515,9 +11528,7 @@
           "ai_key_stats": "",
           "ai_summary": "Australian critical care nurses were surveyed about their postinsertion care practices for non-tunnelled dialysis catheters. The survey found variability in practices, with common methods including inspecting insertion sites, using chlorhexidine gluconate-impregnated dressings, and securing catheters with sutures. Troubleshooting methods also varied.",
           "ai_significance": "This study highlights the need for evidence-based guidelines on postinsertion care for dialysis catheters, which could improve patient outcomes and reduce complications in intensive care units.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42498537",
@@ -11545,9 +11556,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study of 17,956 ICU patients found that a positive fluid balance of +7% or higher and a negative fluid balance of -4% or lower were associated with fewer days alive without life support. These thresholds were linked to worse outcomes, including increased mortality, need for organ support, and delirium. The study suggests that fluid balance is a crucial factor in ICU care.",
           "ai_significance": "This study's findings highlight the importance of monitoring fluid balance in ICU patients to prevent fluid accumulation and depletion, which can lead to worse outcomes. Clinicians can use these thresholds to guide fluid management and improve patient care.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42498470",
@@ -11579,7 +11588,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a 30-item frailty index using Quebec administrative data to identify frail ICU patients. They found that frail patients were older, more likely to have dialysis on admission, and had a higher risk of in-hospital mortality. The index showed a strong correlation between frailty and mortality.",
           "ai_significance": "This study's findings highlight the importance of identifying frail patients in the ICU, where frailty is strongly associated with increased mortality risk. Implementing this index may help clinicians identify at-risk populations and improve care processes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42497050",
@@ -11604,7 +11615,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a machine learning model to predict acute kidney injury in ICU patients with atrial fibrillation, using data from 19,347 patients. The model, which combines electronic health record data, achieved high accuracy in predicting AKI risk. Clinicians can use this model to inform patient management decisions.",
           "ai_significance": "This study provides a valuable tool for clinicians to identify patients at high risk of AKI, potentially reducing mortality risk and improving patient outcomes in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42472834",
@@ -11637,7 +11650,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study combined data from two previous trials to assess the effect of sodium bicarbonate therapy on patients with severe metabolic acidemia. It found that while sodium bicarbonate did not reduce overall mortality, it did decrease the need for renal replacement therapy and may benefit patients with the most severe acidemia.",
           "ai_significance": "These findings suggest that timely correction of severe metabolic acidemia may help avoid the need for renal replacement therapy in some patients, and may change current clinical practice paradigms.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506352",
@@ -11666,7 +11681,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study compared electrolyte measurements from arterial blood gas (ABG) analyzers to central laboratory analyzers in critically ill patients with acute kidney injury (AKI). The results showed relatively good agreement for sodium and potassium measurements, but clinically meaningful discrepancies occurred in a subset of measurements. The study suggests that ABG-derived electrolyte measurements can support rapid bedside assessment, but central laboratory measurements remain the reference standard.",
           "ai_significance": "This study's findings are important for ICU clinicians as they inform the use of ABG-derived electrolyte measurements in critically ill patients with AKI, highlighting the need for careful interpretation of results and consideration of preanalytical factors that may affect measurement reliability.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42418776",
@@ -11691,7 +11708,9 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.",
           "ai_significance": "This study informs ICU clinicians to adopt a restrictive nutrition approach, avoiding full-dose energy delivery and high-dose protein, to minimize complications and promote recovery in critically ill patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42380983",
@@ -11719,7 +11738,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how bacteria in an ICU can share genes that make them resistant to antibiotics. They found that these genes can be transferred between bacteria on surfaces and in patients, and that this transfer can happen in both directions. This can lead to the spread of antibiotic-resistant infections.",
           "ai_significance": "Understanding how antibiotic-resistant genes are transmitted in the ICU is crucial for preventing the spread of infections and reducing the risk of antibiotic-resistant outbreaks.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42365349",
@@ -11752,7 +11773,9 @@
           "ai_key_stats": "",
           "ai_summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
           "ai_significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506220",
@@ -11781,7 +11804,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at the kidney safety of liposomal amphotericin B in ICU patients with invasive pulmonary aspergillosis. It found that one-third of patients developed kidney impairment, but most cases were mild and reversible. The study also found that other nephrotoxic treatments increased the risk of kidney failure and death.",
           "ai_significance": "This study is important for ICU clinicians because it highlights the risk of kidney impairment in patients treated with liposomal amphotericin B, and the need to carefully consider the use of other nephrotoxic treatments in this population.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42321935",
@@ -11860,7 +11885,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers reviewed the evidence on hemoadsorption in septic shock, finding that current guidelines are based on expert opinions rather than high-certainty evidence. Hemoadsorption involves removing inflammatory mediators from the blood, but its effectiveness and mechanisms of action are not well understood. More research is needed to determine its role in treating septic shock.",
           "ai_significance": "This study highlights the need for more robust clinical trials to establish the effectiveness of hemoadsorption in septic shock, which could lead to more personalized and effective treatment approaches in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42283370",
@@ -11912,7 +11939,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers conducted a randomized trial of 500 critically ill patients with metabolic acidosis and shock to see if sodium bicarbonate reduced kidney damage. The results showed no difference in kidney damage or mortality between patients who received sodium bicarbonate and those who received a placebo. The study found that sodium bicarbonate did not provide a benefit in reducing kidney damage or improving outcomes in critically ill patients.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that sodium bicarbonate may not be beneficial in reducing kidney damage or improving outcomes in critically ill patients with metabolic acidosis and shock. Clinicians may need to reconsider using sodium bicarbonate in these patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502493",
@@ -11938,7 +11967,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study found that the total bilirubin-to-albumin ratio (TBAR) is a strong predictor of mortality in critically ill patients with gastrointestinal bleeding. A TBAR-based model showed reliable discrimination and calibration, and may help clinicians predict individual patient risk. The model was validated in two separate patient cohorts.",
           "ai_significance": "This study provides a new tool for clinicians to predict mortality risk in critically ill patients with gastrointestinal bleeding, which could help guide treatment decisions and improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         }
       ]
     },
@@ -12041,7 +12072,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how Molecular Adsorbent Recirculating System (MARS) therapy affects piperacillin levels in critically ill patients with liver failure. They found that MARS therapy reduces piperacillin levels by about one-third per session. This is important because it can lead to sub-therapeutic piperacillin levels in some patients.",
           "ai_significance": "This study highlights the need for close monitoring of piperacillin levels in patients receiving MARS therapy, as it may require individualized antibiotic dose adjustments to maintain effective treatment.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42320025",
@@ -12123,7 +12156,9 @@
           "volume": "84",
           "issue": "2",
           "pages": "E50",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42467893/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42467893/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42223327",
@@ -12184,7 +12219,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review of 29 studies found that high-protein nutritional strategies and supplementation with β-hydroxy-β-methyl butyrate can help preserve muscle mass and strength in critically ill patients. However, physical function showed less responsiveness to interventions. Multimodal approaches may be needed for functional recovery.",
           "ai_significance": "Understanding the effects of nutritional therapy on morphofunctional outcomes in critically ill patients can inform ICU clinicians about the most effective interventions to improve patient autonomy and quality of life.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506369",
@@ -12241,7 +12278,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed existing methods for assessing gastrointestinal function in ICU patients and proposed algorithms for enteral feeding decisions using gastrointestinal ultrasound. It found that certain sonographic parameters, like gastric antral cross-sectional area, are clinically relevant. The study suggests that GIUS-based algorithms may improve enteral nutrition management but more research is needed.",
           "ai_significance": "Accurate assessment of gastrointestinal function is crucial for effective enteral nutrition in ICU patients. This study's findings have the potential to improve patient outcomes by providing a more individualized approach to nutritional management.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42418776",
@@ -12266,7 +12305,9 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill adults experience severe muscle loss and gut dysfunction. Early nutrition therapy can support gut health, but full-dose energy delivery may increase complications. A restrictive nutrition strategy is recommended, especially in patients with circulatory shock or refeeding syndrome risk.",
           "ai_significance": "This study informs ICU clinicians to adopt a restrictive nutrition approach, avoiding full-dose energy delivery and high-dose protein, to minimize complications and promote recovery in critically ill patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42365349",
@@ -12299,7 +12340,9 @@
           "ai_key_stats": "",
           "ai_summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
           "ai_significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42332775",
@@ -12359,7 +12402,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review of current concepts in nutrition therapy for critically ill patients emphasizes the need for individualized, phase-specific nutrition. Experts discuss how inflammation, disease severity, and metabolic changes influence nutritional responsiveness, and propose personalized strategies for tailoring therapy. They also highlight the importance of micronutrient management and macronutrient adaptation throughout the continuum of critical illness and recovery.",
           "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that personalized nutrition strategies may improve recovery and functional outcomes for critically ill patients. Robust clinical trials are needed to confirm the impact of these strategies on long-term patient-centered endpoints.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42228011",
@@ -12385,7 +12430,9 @@
           "ai_key_stats": "",
           "ai_summary": "A study reviewed current evidence on nutritional support in ICU patients, finding that low-calorie and low-protein strategies during the first week may improve recovery and reduce complications. Increasing protein delivery may be harmful, especially in patients with acute kidney injury. Optimal macronutrient targets remain limited.",
           "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they support a cautious, individualized approach to nutritional support, avoiding overfeeding and considering low-calorie, low-protein feeding strategies to improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42218546",
@@ -12463,7 +12510,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study of 433 ICU patients found that energy expenditure initially increased and then decreased over time during prolonged ICU stays. The pattern was consistent across different patient groups. Three distinct patterns of energy expenditure were also identified.",
           "ai_significance": "Understanding energy expenditure in ICU patients is crucial for optimizing nutritional support and reducing muscle wasting. This study's findings can inform the development of personalized nutrition plans for critically ill patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42085214",
@@ -12513,7 +12562,9 @@
             "strengths": "randomized controlled design; use of primed continuous intravenous infusions to assess plasma amino acid responses and muscle protein synthesis rates",
             "weaknesses": "small sample size; lack of reporting on intervention fidelity",
             "bottom_line": "In critically ill patients, increasing the dose of protein from 20g to 40g does not improve muscle protein synthesis rates, despite increased plasma amino acid availability."
-          }
+          },
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42488203",
@@ -12538,7 +12589,9 @@
           "ai_key_stats": "",
           "ai_summary": "A 69-year-old man developed a rare esophageal obstruction from coagulated enteral nutrition formula, which was mistaken for reflux or tube blockage. Bedside gastroscopy revealed extensive retention of coagulated material in the esophagus. The patient underwent partial endoscopic removal and was switched to a jejunal feeding tube.",
           "ai_significance": "This case highlights the importance of promptly recognizing and treating esophageal obstructions in critically ill patients receiving high-protein or fiber-containing enteral formulas to prevent serious complications.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42483648",
@@ -12564,7 +12617,9 @@
           "ai_key_stats": "",
           "ai_summary": "This systematic review of 45 studies examined the mechanisms and management of hyperglycemia in critically ill patients receiving enteral nutrition, proposing a six-level conceptual cascade framework to guide precision glycemic care.",
           "ai_significance": "Understanding and managing enteral nutrition-related hyperglycemia is crucial for ICU clinical practice as it can lead to improved glycemic control, but further studies are needed to confirm its clinical benefits.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42499445",
@@ -12592,7 +12647,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study used a mouse model to investigate the effects of different lipid emulsions on mesenteric blood flow and organ damage in sepsis. Fish oil emulsions with high omega-3 fatty acid content were found to prevent a decrease in mesenteric blood flow and liver damage. Omega-3 fatty acids may help protect against sepsis-driven organ injury.",
           "ai_significance": "This study suggests that fish oil emulsions could be beneficial in preventing organ damage in critically ill patients receiving parenteral nutrition, particularly those at risk of sepsis.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42466136",
@@ -12621,7 +12678,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed 1,380 publications on nutritional support for pressure injury patients, finding a growing trend in research output and identifying key themes and emerging hotspots. The research focused on acute or critically ill patient populations, with a need for personalized, evidence-based protocols. Future studies should emphasize multidisciplinary collaboration and translational research to optimize outcomes.",
           "ai_significance": "Understanding research trends in nutritional support for pressure injury patients is crucial for developing effective prevention and treatment strategies, particularly for high-risk populations in ICU settings.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         }
       ]
     },
