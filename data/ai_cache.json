@@ -971,6 +971,12 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT05312229": {
+    "key_stats": "",
+    "summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
+    "significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
+    "rounds_takeaway": ""
+  },
   "url:https://clinicaltrials.gov/study/NCT07740304": {
     "key_stats": "",
     "summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
@@ -1401,12 +1407,6 @@
     "key_stats": "",
     "summary": "This study evaluates the safety and efficacy of paridiprubart in hospitalized adults with Acute Respiratory Distress Syndrome (ARDS) using a platform trial design.",
     "significance": "This study aims to identify innovative therapies for ARDS, a life-threatening condition that requires effective treatment.",
-    "rounds_takeaway": ""
-  },
-  "url:https://clinicaltrials.gov/study/NCT05312229": {
-    "key_stats": "",
-    "summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
-    "significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
     "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07737353": {
