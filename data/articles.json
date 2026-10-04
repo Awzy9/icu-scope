@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T08:43:18+00:00",
+  "generated_at": "2026-10-04T08:57:43+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -340,6 +340,16 @@
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "EMCrit 435 – Procedural Sedation – Part VI – Guidelines, Definitions, and Boundaries in 2026",
+        "url": "https://emcrit.org/emcrit/procedural-sedation-part-vi/",
+        "source": "EMCrit",
+        "author": "Scott Weingart, MD FCCM",
+        "pubdate": "2026-10-03",
+        "summary": "EMCrit 435 – Procedural Sedation Part V I break down the new ACEP unscheduled procedural sedation guidelines, call out the absurd pretense surrounding 'deep sedation', and lay out where emergency sedation needs to go in 2026. EMCrit Project by Scott Weingart, MD FCCM .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true
+      },
       {
         "title": "FGEBM 003 – In Which We Entertain the Beneficial Effects of Baking Soda",
         "url": "https://emcrit.org/emnerd/fgebm-3/",
@@ -4556,6 +4566,8 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42616082/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
         "category_id": "hematology-coag",
         "category_label": "Hematology & Coagulation",
         "category_ids": [
@@ -4632,8 +4644,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13628980/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42823746/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "respiratory",
         "category_label": "Respiratory",
         "category_ids": [
@@ -4677,8 +4687,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42809217/",
-        "link_broken": true,
-        "link_broken_kind": "doi",
         "category_id": "infectious-sepsis",
         "category_label": "Infectious Disease & Sepsis",
         "category_ids": [
@@ -9112,9 +9120,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.",
           "ai_significance": "Understanding and addressing neurological complications in critical illness is crucial for improving patient outcomes and reducing long-term disability.",
-          "ai_rounds_takeaway": "Consider standardized delirium screening and judicious sedative use in patients at risk for neurological complications.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider standardized delirium screening and judicious sedative use in patients at risk for neurological complications."
         },
         {
           "pmid": "42413523",
@@ -9791,9 +9797,7 @@
             "strengths": "large sample size; multicenter design",
             "weaknesses": "open-label design; primary endpoint not met",
             "bottom_line": "mNGS may improve health-related quality of life and reduce duration of mechanical ventilation and shock resolution in patients with sepsis or septic shock, but its effect on DOOR/RADAR score is uncertain."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42535902",
@@ -10771,9 +10775,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review examines the burden and risk factors of neurological complications in critical illness, highlighting the need for standardized definitions and surveillance practices. Neurological complications are common and contribute to morbidity, mortality, and long-term disability. The review identifies knowledge gaps and limitations in understanding the mechanisms of neurological injury and recovery.",
           "ai_significance": "Understanding and addressing neurological complications in critical illness is crucial for improving patient outcomes and reducing long-term disability.",
-          "ai_rounds_takeaway": "Consider standardized delirium screening and judicious sedative use in patients at risk for neurological complications.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider standardized delirium screening and judicious sedative use in patients at risk for neurological complications."
         },
         {
           "pmid": "42502154",
@@ -11441,14 +11443,14 @@
           ],
           "doi": "10.1097/CCM.0000000000007289",
           "abstract": "OBJECTIVES: To investigate the association between net ultrafiltration (NUF) rate and fluid balance changes with 28-day mortality in critically ill patients receiving continuous renal replacement therapy (CRRT). DESIGN: Multicenter retrospective observational study. SETTING: Data from two European mixed medical-surgical ICUs: University Hospital Bern, Switzerland, and Amsterdam University Medical Center, the Netherlands. PATIENTS: Adult critically ill patients receiving CRRT for at least 24 hours. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We studied 973 critically ill adults undergoing a total of 6914 days of CRRT. NUF rates and fluid balance changes were calculated from hourly data and categorized into four predefined groups. NUF rates were classified as no NUF, low (< 1.01 mL/kg/h), moderate (1.01-1.75 mL/kg/h), or high (> 1.75 mL/kg/h). Fluid balance change was stratified as negative (< -1.5 L/day), moderate negative (-1.5 to -0.5 L/day), neutral (-0.5 to 0.5 L/day), or positive (> 0.5 L/day). Using multivariable regression, random forest modeling, and mediation analysis, we observed no independent association between NUF rate and 28-day mortality after accounting for fluid balance. Mediation analysis suggested that the apparent survival advantage observed among patients with higher NUF rates was largely mediated through achievement of a more negative fluid balance, rather than a direct effect of NUF rate itself. In contrast, more positive fluid balance changes were linked to adverse clinical outcomes including 28-day mortality. CONCLUSIONS: In this two-center cohort of CRRT patients, NUF rate was not independently associated with mortality. Instead, the key determinant of outcome was fluid balance change. These findings suggest clinicians should not make NUF decisions in isolation, but rather should be using NUF as a means to achieve patient-specific fluid balance targets.",
-          "citation_count": 0,
+          "citation_count": 27,
           "is_top_journal": true,
           "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
+          "volume": "54",
+          "issue": "10",
+          "pages": "2648-59",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632811/",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42584203/",
           "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
           "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
@@ -12304,9 +12306,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
           "ai_significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42486401",
@@ -12915,9 +12915,7 @@
           "ai_key_stats": "",
           "ai_summary": "This meta-analysis of 4 trials found that sodium bicarbonate reduced the need for renal replacement therapy in critically ill adults with acute metabolic acidosis, and may also lower mortality, although evidence is still inconclusive.",
           "ai_significance": "This study's findings suggest that sodium bicarbonate may be a useful treatment for critically ill patients with acute metabolic acidosis, but more research is needed to confirm its effects on mortality.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42496059",
@@ -12945,9 +12943,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study compared two ways to predict mortality in critically ill patients: using a single blood glucose measurement at admission, and using a ratio of mean ICU blood glucose to estimated preadmission blood glucose. The study found that the ratio method was a better predictor of mortality. The best outcome was associated with a mean ICU blood glucose level that was 80-100% of the patient's preadmission level.",
           "ai_significance": "This study's findings may improve blood glucose management strategies in the ICU and inform the design of future clinical trials.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42487335",
@@ -12973,9 +12969,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study examined the relationship between glycated hemoglobin levels and glycemic variables in patients with acute exacerbation of chronic obstructive pulmonary disease. It found that HbA1c-adjusted glycemic indices, such as glycemic gap and stress hyperglycemia ratio, were strong predictors of clinical outcomes. These indices may be useful in predicting patient outcomes and guiding treatment decisions.",
           "ai_significance": "Understanding the prognostic value of glycated hemoglobin levels and glycemic variables can help clinicians identify patients at high risk of adverse outcomes and tailor their treatment approach accordingly.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42486781",
@@ -12999,9 +12993,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed 22 clinical trials with 1,396 patients to compare the effectiveness of continuous glucose monitoring (CGM) versus conventional blood glucose monitoring in ICU patients. CGM was found to reduce hypoglycemic events, average blood glucose levels, and daily insulin use, while also improving time in glycemic target range and reducing total mortality. These results suggest that incorporating CGM into ICU glycemic control strategies could be beneficial.",
           "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that using CGM can improve patient outcomes and reduce complications associated with glycemic management. Integrating CGM into routine ICU care could lead to better patient care and improved survival rates.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42418776",
@@ -13077,9 +13069,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers identified two subtypes of acute respiratory failure (ARDS) using a bedside test: hyperinflammatory and hypoinflammatory. They found that patients with the hyperinflammatory subtype had a higher risk of death within 60 days. This could help doctors tailor treatment to the specific subtype of ARDS.",
           "ai_significance": "This study's findings could lead to more personalized treatment for patients with ARDS, potentially improving outcomes and reducing mortality.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42321935",
@@ -13164,9 +13154,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied 120 critically ill patients in Tanzania and found that 23.3% had Non-Thyroidal Illness Syndrome (NTIS), which was strongly linked to higher mortality and longer hospital stays. NTIS is a common condition in ICU patients and may be a useful marker for predicting poor outcomes. Patients with NTIS had a much higher risk of death compared to those without NTIS.",
           "ai_significance": "This study highlights the importance of NTIS as a potential prognostic marker in ICU settings, particularly in resource-limited environments. It suggests that NTIS could be used to identify patients at higher risk of mortality and inform clinical decision-making.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42487967",
@@ -13192,9 +13180,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how glucose variability and mineral disorders affect critically ill patients with kidney disease. It found that both factors can increase the risk of death and severe complications, especially when combined. The study suggests that managing these factors could improve survival.",
           "ai_significance": "This study's findings are important for ICU clinicians because they highlight the need to closely monitor and manage glucose variability and mineral disorders in critically ill patients with kidney disease to improve their outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42487955",
@@ -13226,9 +13212,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how a measure of hemoglobin glycation (HGI) affects short-term mortality in sepsis patients. They found that higher HGI levels were associated with lower mortality rates, especially within 28 days. This suggests HGI could be a useful prognostic tool in the early stages of sepsis.",
           "ai_significance": "These findings could help clinicians predict patient outcomes and make more informed decisions in sepsis care. Further studies are needed to confirm the clinical utility of HGI in this context.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42483648",
@@ -13281,9 +13265,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study compared the accuracy of the FreeStyle Libre 2 system and capillary glucometry to central laboratory glucose in critically ill patients requiring insulin therapy. The FreeStyle Libre 2 showed comparable numerical accuracy and consistently reliable clinical performance. A total of 157 paired measurements were collected.",
           "ai_significance": "This study's findings support the potential use of the FreeStyle Libre 2 system as an alternative to capillary glucose monitoring in the ICU, but more studies are needed to confirm its effectiveness in preventing hypoglycemia.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         }
       ]
     },
@@ -13396,6 +13378,48 @@
           "is_open_access": false,
           "pmc_url": null,
           "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
+        },
+        {
+          "pmid": "42827265",
+          "title": "Early multimodal vasopressor strategy in septic shock: results of the TRICYCLE randomized controlled trial.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Sep 7",
+          "authors": [
+            "Kalamar Ž",
+            "Landoni G",
+            "Gorenjak M",
+            "Cestar I",
+            "Fluher J",
+            "Horvat M",
+            "Jerenec K",
+            "Kit B",
+            "Marinšek M",
+            "Puklavec N",
+            "Svenšek F",
+            "Radonić R",
+            "Šundalić S",
+            "Brajković AV",
+            "Vujević A",
+            "Erjavc N",
+            "Petek D",
+            "Košir AS",
+            "Homšak E",
+            "Knehtl MC",
+            "Markota A"
+          ],
+          "doi": "10.1186/s13054-026-06323-z",
+          "abstract": "BACKGROUND: Given multifactorial mechanisms driving vasodilation in septic shock, there is a strong physiological rationale for early initiation of multiple vasopressors (angiotensin II, vasopressin and norepinephrine) with complementary mechanisms of action. Such an approach could more effectively counteract the complex pathophysiological processes characteristic of septic shock. Here we tested the physiological and clinical effects of an early multimodal vasopressor strategy in patients with septic shock. METHODS: We randomly assigned patients with septic shock receiving ≥ 0.15 µg/kg/min of norepinephrine base to either intervention (early multimodal vasopressor administration: angiotensin II, vasopressin, and norepinephrine) group or control (classic stepwise vasopressor administration: norepinephrine dose increase followed by vasopressin and then by angiotensin II or other vasopressors) group. The primary outcome was change in plasma renin concentrations. This phase II trial was not powered to detect differences in mortality. RESULTS: A total of 79 patients were included (intervention group: n = 38, control group: n = 41). We observed a faster decline in plasma renin concentrations (2.61% per hour vs. 1.67% per hour; p = 0.015) and lactate concentrations (1.53% per hour vs. 1.01% per hour; p = 0.006) during the first 72 h in the intervention group compared to the control group. At 72 h, Sequential Organ Failure Assessment (SOFA) score was reduced by 3 points in the intervention group vs. 0 in the control group (p = 0.018). In the additional non-prespecified analyses, norepinephrine equivalent (NEE) dose decreased at a similar rate in the intervention and control groups over 72 h (- 5.41% per hour vs. -5.19% per hour; p = 0.47), whereas over the first 24 h, NEE dose decreased significantly faster in the intervention group (- 6.87% per hour vs. -3.03% per hour; p < 0.0004). The incidence of tachyarrhythmias was significantly lower in the intervention group (15.6% vs. 68.6%; p < 0.01). Intensive care unit mortality (26.3% vs. 41.5%; RR 0.635; 95% CI 0.33 to 1.21; p = 0.235) and 28-day mortality (36.8% vs. 46.3%; RR 0.795; 95% CI 0.47 to 1.35; p = 0.494) were similar. CONCLUSION: Early multimodal vasopressor therapy with Ang II, vasopressin and norepinephrine in patients with septic shock demonstrated promising physiological effects. These findings provide a rationale for a larger trial to assess whether early multimodal vasopressor therapy improves patient-centered outcomes. TRIAL REGISTRATION: ClinicalTrials.gov ID: NCT06155812. URL: https://clinicaltrials.gov/study/NCT06155812?term=NCT06155812&rank=1 . Trial registration date: 4 December 2023.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Randomized Controlled Trial",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42827265/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42644690",
@@ -13682,9 +13706,7 @@
             "strengths": "large sample size; multicenter design",
             "weaknesses": "open-label design; primary endpoint not met",
             "bottom_line": "mNGS may improve health-related quality of life and reduce duration of mechanical ventilation and shock resolution in patients with sepsis or septic shock, but its effect on DOOR/RADAR score is uncertain."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42535902",
@@ -13758,9 +13780,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers analyzed 895 patients with Enterobacterales bacteremia to identify risk factors for carbapenem resistance and predictors of mortality. They found that ICU admission, prolonged hospitalization, and prior carbapenem exposure increased the risk of carbapenem-resistant Enterobacterales (CRE) bacteremia. Patients with CRE bacteremia had higher 28-day mortality rates compared to those with susceptible bacteria.",
           "ai_significance": "This study helps ICU clinicians identify high-risk patients for CRE bacteremia and prioritize early appropriate empirical antimicrobial therapy to improve survival. It also highlights the importance of sepsis management and empirical therapy in critically ill patients.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42508520",
@@ -13789,9 +13809,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers compared plasma and whole-blood tests for detecting pathogens in ICU patients with suspected sepsis. Both tests found more pathogens than traditional blood culture, but whole-blood tests detected more Candida infections. The results suggest both tests can complement blood culture.",
           "ai_significance": "This study's findings can help ICU clinicians choose the best diagnostic tool for suspected sepsis, potentially improving patient outcomes by identifying pathogens more accurately and quickly.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42507322",
@@ -13816,9 +13834,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed 48 studies on using fosfomycin to treat carbapenem-resistant Acinetobacter baumannii infections. Fosfomycin may help when combined with other antibiotics, especially sulbactam, imipenem, and colistin. However, its independent contribution to treatment outcomes is unclear.",
           "ai_significance": "Fosfomycin may be a useful adjunctive agent in treating CRAB infections, particularly when combined with cefiderocol, but more research is needed to confirm its benefits and optimal use in clinical practice.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42506369",
@@ -13915,9 +13931,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how vasopressor dosing changed in patients with septic shock based on whether their initial antibiotic therapy was effective and matched the actual infection source. They found that patients who received appropriate antibiotic therapy had shorter and more rapid vasopressor reduction. This could help clinicians identify when to reassess antibiotic therapy and infection source evaluation.",
           "ai_significance": "These findings highlight the importance of early and accurate antibiotic therapy and infection source identification in septic shock, and suggest that vasopressor trajectories may be a useful tool for guiding clinical decision-making.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42442528",
@@ -14080,9 +14094,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers implemented a sustainable protocol for administering 4 common β-lactam antibiotics in ICU patients, using the highest stable concentration for continuous infusion. This reduced greenhouse gas emissions by 52%, plastic consumption by 48%, and treatment costs by 48%. The protocol also saved nursing time.",
           "ai_significance": "This study highlights the potential for reducing the environmental impact of antibiotic administration in ICUs, which is crucial for sustainability and cost-effectiveness in critical care.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42380983",
@@ -14167,9 +14179,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied 492 ICU patients with candidemia and found three distinct phenotypes with different outcomes. Phenotype 1 had high mortality due to severe immunosuppression, Phenotype 2 had high mortality in elderly cirrhotic patients, and Phenotype 3 had lower mortality in younger patients with catheter-related candidemia.",
           "ai_significance": "This study helps clinicians understand the heterogeneity of candidemia in ICU patients and identify patients at higher risk of mortality, allowing for more personalized treatment and care.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42365378",
@@ -14205,9 +14215,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13309953/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42365378/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42365378/"
         },
         {
           "pmid": "42150112",
@@ -14251,9 +14259,7 @@
             "strengths": "large sample size; cluster-randomized crossover design",
             "weaknesses": "no information on intervention fidelity; secondary outcomes not reported in detail",
             "bottom_line": "Use 4% tetrasodium EDTA locking fluid for central venous access devices to reduce the risk of infection, occlusion, and thrombolytic use in adult patients in the ICU"
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42288929",
@@ -14349,9 +14355,7 @@
           "ai_key_stats": "",
           "ai_summary": "A 60-year-old woman with spondylodiscitis due to Staphylococcus aureus developed a life-threatening aortic fistula and mycotic pseudoaneurysm, leading to rapid deterioration and death. This case highlights the serious complications of spondylodiscitis and the importance of early multidisciplinary intervention. Contrast-enhanced MRI was crucial in diagnosing the condition.",
           "ai_significance": "This case emphasizes the need for prompt recognition and treatment of spondylodiscitis to prevent catastrophic vascular complications, and highlights the value of contrast-enhanced MRI in diagnosing such cases.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42502517",
@@ -14425,7 +14429,9 @@
             "strengths": "Large sample size; prespecified subgroup analysis",
             "weaknesses": "Open-label design; no blinding",
             "bottom_line": "Rapid antimicrobial susceptibility testing for gram-negative bacteremia does not improve clinical outcomes compared to standard testing, but may be useful in specific situations such as carbapenem-resistant infections"
-          }
+          },
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "41159880",
@@ -14485,7 +14491,9 @@
             "strengths": "large sample size; multicentre design",
             "weaknesses": "no information on intervention fidelity; observational ecologic assessment in addition to randomized trial",
             "bottom_line": "SDD does not reduce mortality among critically ill patients undergoing mechanical ventilation, and may not be noninferior to standard care in terms of antibiotic-resistant organisms."
-          }
+          },
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502453",
@@ -14514,7 +14522,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
           "ai_significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         }
       ]
     },
@@ -14752,7 +14762,9 @@
           "ai_key_stats": "",
           "ai_summary": "This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.",
           "ai_significance": "This study's findings support the use of RCA as an alternative to NA during CRRT in high-risk patients, potentially reducing bleeding complications without affecting mortality. However, careful monitoring of citrate levels and calcium levels is necessary to mitigate the risks associated with RCA.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42477630",
@@ -14778,7 +14790,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed and validated a machine learning model using the XGBoost algorithm to predict ICU death in patients with chronic heart failure and pulmonary infection. The model was able to identify key predictors of mortality, including lactic acid, white blood cell count, and pre-existing diabetes. The model's performance was evaluated and found to be accurate in predicting ICU mortality.",
           "ai_significance": "This study provides a valuable tool for ICU clinicians to predict mortality in patients with chronic heart failure and pulmonary infection, allowing for more individualized risk assessment and management.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42471569",
@@ -14803,7 +14817,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study found that sepsis-induced coagulopathy is associated with higher in-hospital mortality and increased need for vasopressor support in ICU patients with sepsis. The study used a scoring system to predict mortality, which showed moderate discriminative performance. The results suggest that sepsis-induced coagulopathy may provide additional prognostic information when used alongside existing severity assessment tools.",
           "ai_significance": "Understanding the prognostic impact of sepsis-induced coagulopathy can help clinicians identify patients at higher risk of mortality and inform treatment decisions, potentially improving outcomes in critically ill patients with sepsis.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42469406",
@@ -14831,7 +14847,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a machine learning model to help manage bleeding and clotting in critically ill patients by analyzing their medical records and lab results. The model showed promise in guiding personalized treatment and identifying key factors that affect bleeding and clotting. It can help doctors make more informed decisions about patient care.",
           "ai_significance": "This study provides a data-driven tool for managing coagulopathy in critically ill patients, which can lead to improved patient outcomes and more effective use of resources in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42458534",
@@ -14856,7 +14874,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied 100 ICU patients to see if disseminated intravascular coagulation (DIC) is linked to a condition called persistent inflammation, immunosuppression, and catabolism syndrome (PIICS). They found that DIC occurring after 8 days in the ICU may increase the risk of PIICS. The study suggests that coagulopathy during the middle phase of ICU stay may contribute to PIICS.",
           "ai_significance": "Understanding the relationship between DIC and PIICS can help ICU clinicians identify patients at risk of developing PIICS, allowing for targeted interventions to prevent or mitigate its effects.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42449240",
@@ -14881,7 +14901,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers analyzed the relationship between a measure of inflammation (pan-immune-inflammation value or PIV) and death in critically ill patients with heart attacks. They found that higher PIV levels were associated with increased risk of death, but only above a certain threshold. This suggests that PIV could be a useful tool for identifying patients at high risk of death.",
           "ai_significance": "This study's findings have implications for ICU clinical practice, as they suggest that PIV could be a useful adjunct marker for risk stratification in critically ill patients with heart attacks. Further validation is needed to confirm its clinical significance.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42315625",
@@ -15021,7 +15043,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at the safety of performing a tracheostomy procedure in critically ill patients who are already on blood thinners. The results showed that the risk of bleeding was low and similar to patients who were not on blood thinners. Body mass index was a stronger predictor of bleeding risk than the type of anticoagulation.",
           "ai_significance": "This study's findings are important for ICU clinicians because they suggest that tracheostomy procedures can be safely performed in patients on blood thinners, without interrupting their anticoagulation therapy.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42332804",
@@ -15119,7 +15143,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed current evidence on Patient Blood Management strategies in ICU patients, finding that intravenous iron supplementation and small-volume blood collection tubes can safely reduce anemia, and that restrictive blood transfusion strategies are generally supported.",
           "ai_significance": "These findings are significant for ICU clinicians as they provide evidence-based guidance on optimizing blood health and reducing unnecessary blood transfusions, which can improve patient safety and outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42206945",
@@ -15150,7 +15176,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
           "ai_significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42188994",
@@ -15217,7 +15245,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.",
           "ai_significance": "These findings are relevant for ICU clinical practice as they highlight the importance of organisational resources and staff appreciation in mitigating burnout among healthcare workers, particularly during high-stress situations like the COVID-19 pandemic.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42320025",
@@ -15604,7 +15634,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study surveyed 298 Family Medicine physicians about their preparedness to deliver Role 2 care in combat settings. Most had little experience and felt unprepared, but those with more experience and training felt more confident. Factors associated with perceived preparedness included career Role 2 experience, recent training, and caring for critically ill patients.",
           "ai_significance": "This study highlights the need for Family Medicine physicians to develop critical care skills in preparation for large-scale combat operations. Prioritizing Role 2 training and experience can improve their perceived preparedness and readiness to provide lifesaving care.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42493813",
@@ -15653,7 +15685,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study found that 33.1% of critically ill patients developed dependency-related skin injuries, with pressure ulcers being the most common type. The use of medical devices and high-risk scores on risk assessment scales increased the likelihood of these injuries. The mean time to injury onset was 9.2 days.",
           "ai_significance": "Preventing dependency-related skin injuries is crucial in critical care, as they can lead to prolonged hospital stays, increased healthcare costs, and decreased patient quality of life. Identifying high-risk patients and implementing preventive measures can help mitigate this issue.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42496477",
@@ -15757,7 +15791,9 @@
           "ai_key_stats": "",
           "ai_summary": "A nationwide study in Switzerland found that women were more likely than men to have treatment limitations at ICU admission, but not during their stay. This difference varied by diagnosis, with trauma and cardiovascular conditions showing the largest gap. Women were more likely to have ceiling-of-care decisions based on patient wishes.",
           "ai_significance": "These findings highlight the need for structured goal-of-care discussions at ICU admission to promote consistent and equitable decision-making, potentially reducing sex differences in treatment limitations.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42504371",
@@ -15786,7 +15822,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study compared three pre-transfer risk assessment tools for critically ill patients. The Risk Score for Transport Patients (RSTP) had the highest sensitivity, but its performance needs further validation in the Indian context. The study found a significant number of adverse events during patient transport.",
           "ai_significance": "This study's findings are important for ICU clinicians as they highlight the need for efficient pre-transfer risk assessment tools to minimize adverse events during interhospital patient transport.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502517",
@@ -15857,7 +15895,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed data from 845 ICU patients to see how often they received appropriate antibiotic therapy and how it affected their outcomes. They found that 87.7% of patients received appropriate therapy, which was associated with lower mortality and longer periods without antibiotics. The study suggests that giving the right antibiotics can make a big difference in ICU patients.",
           "ai_significance": "This study's findings are significant because they highlight the importance of giving the right antibiotics to critically ill patients. It can help reduce mortality and improve patient outcomes, making it a crucial consideration for ICU clinicians.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42226253",
@@ -15885,7 +15925,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study compared the updated SOFA-2 score with the previous SOFA-1 score for predicting 30-day mortality in ICU patients. SOFA-2 showed modestly better performance on day 1, but both scores had similar predictive validity by day 7. The study found that the scores' performance varied across different patient subgroups.",
           "ai_significance": "This study's findings highlight the importance of considering the context and patient characteristics when using organ dysfunction scores like SOFA-2 for predicting mortality in ICU patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42206945",
@@ -15916,7 +15958,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
           "ai_significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42152115",
@@ -15953,7 +15997,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
           "ai_significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42494451",
@@ -15983,7 +16029,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
           "ai_significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         }
       ]
     },
@@ -16138,7 +16186,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.",
           "ai_significance": "This study's findings suggest that using a higher dose of rocuronium may improve intubation success rates in the ICU, but more research is needed to confirm this and to understand the potential benefits and risks.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42233727",
