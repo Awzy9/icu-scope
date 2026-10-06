@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T09:47:48+00:00",
+  "generated_at": "2026-10-06T09:35:20+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -304,15 +304,13 @@
         "abstract": "BACKGROUND: Identifying treatable traits in critically ill patients offers potential to enable a precision medicine approach to treatment. The aim of this exploratory analysis of the REMAP-CAP immune modulation domain was to evaluate whether plasma ferritin or soluble urokinase plasminogen activator receptor (suPAR) represent treatable traits for anakinra in critically ill patients with coronavirus disease (COVID-19). METHODS: An exploratory analysis of patients randomised within the COVID-19 immune modulation domain of the REMAP-CAP trial was conducted. Adults within 24 h of receiving respiratory or cardiovascular organ support in an ICU with suspected or microbiologically confirmed COVID-19 were included. Plasma ferritin was measured at study sites, and plasma suPAR measured in stored plasma samples. The primary outcome was organ support-free days (OSFD) until day 21. Analyses were performed using a Bayesian cumulative logistic regression model, and results are presented as the posterior median odds ratio (OR), along with 95% credible intervals (CrI), for anakinra being superior to control. RESULTS: In ferritin analyses, 1243 patients were included. Patients with increasing ferritin levels had numerically fewer OSFDs. The posterior probabilities of anakinra having benefit (OR > 1) were 64%, 71%, and 21% across increasing ferritin terciles, compared to 53% in analyses that did not adjust for ferritin levels. 145 patients were included in the suPAR analyses. Patients with high baseline plasma suPAR (≥ 6 ng/ml; n = 85) had numerically fewer OSFDs than patients with low plasma suPAR (-1.0 (-1.0, 9.0) vs. 13.0 (-1.0, 17.0)). The posterior probabilities of anakinra having benefit (OR > 1) were 94.8% (OR 2.28 [0.85-6.06]) in patients with low baseline suPAR, and 38.6% (OR 0.88 [0.39-2.00]) in patients with high baseline suPAR. CONCLUSION: Plasma ferritin does not identify patients with COVID-19 who benefit from treatment with anakinra, whilst anakinra may be beneficial in patients with low, rather than high, baseline plasma suPAR. These hypothesis-generating findings contrast with the results of clinical trials in non-critically ill patients with COVID-19. TRIAL REGISTRATION: NCT02735707. Date of trial registration: 06/04/2016.",
         "citation_count": 30,
         "is_top_journal": true,
-        "study_type": "Randomized Controlled Trial",
+        "study_type": "Observational Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13629143/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42823695/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42823695/"
       },
       {
         "pmid": "42750044",
@@ -1037,9 +1035,7 @@
         "ai_key_stats": "n=210, 52.4% developed AKI stages 2-3, moderate-to-severe AKI independently associated with 30-day mortality, VA-ECMO modality and norepinephrine use increased AKI risk, high fibrinogen level and CVD provided protection",
         "ai_summary": "This study looked at how acute kidney injury (AKI) affects patients on ECMO and found that AKI is a major complication that affects mortality and long-term renal function. The study identified risk factors for AKI in ECMO patients, including the type of ECMO used and the use of certain medications. The study also found that severe AKI is a strong predictor of 30-day mortality in ECMO patients.",
         "ai_significance": "Understanding risk factors for AKI in ECMO patients can help clinicians take steps to prevent or mitigate this serious complication, which can improve patient outcomes and reduce mortality.",
-        "ai_rounds_takeaway": "Consider using VA-ECMO modality with caution in patients with a history of cardiovascular disease and avoid norepinephrine use when possible.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using VA-ECMO modality with caution in patients with a history of cardiovascular disease and avoid norepinephrine use when possible."
       },
       {
         "pmid": "42410341",
@@ -1069,9 +1065,7 @@
         "ai_key_stats": "n=2935, sHR 1.05 (95% CI 1.01-1.10), 1.95 (95% CI 1.11-3.43), 1.93 (95% CI 1.29-2.87), 1.26 (95% CI 1.06-1.50), 1.33 (95% CI 1.05-1.69), 1.50 (95% CI 1.19-1.90), 1.06 (per 1 mmol/L), 1.02 (per 10,000 cells/µL), p=not reported",
         "ai_summary": "Researchers studied 2935 critically ill adults in a Brazilian ICU to identify risk factors for acute kidney injury (AKI). They found that several factors, including age, chronic liver disease, and high lactate levels, were associated with AKI. The proportion of AKI cases classified as KDIGO stage 3 increased after day 7.",
         "ai_significance": "These findings highlight the importance of early recognition of risk factors for AKI in critically ill patients, supporting the implementation of kidney-protective care strategies in the ICU.",
-        "ai_rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels."
       },
       {
         "pmid": "42636654",
@@ -1097,9 +1091,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42813945",
@@ -1124,9 +1116,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42813945/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42776136",
@@ -1284,7 +1274,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42700418/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42689869",
@@ -1312,9 +1304,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42689869/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42796294",
@@ -1370,9 +1360,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13474301/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42598847/",
-        "society": "SCCM",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "SCCM"
       },
       {
         "pmid": "42788693",
@@ -1498,9 +1486,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviewed the use of seizure medications in patients after brain surgery. The results suggest that using seizure medications may help prevent early seizures, but the benefits are uncertain. Levetiracetam may be a better choice than phenytoin for seizure prevention.",
         "ai_significance": "This study's findings inform ICU clinicians about the use of seizure medications in patients after brain surgery, helping them make more informed decisions about patient care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "41916807",
@@ -1545,9 +1531,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed evidence-based recommendations for the surveillance and control of Candida infections using the GRADE framework. The guidance covers diagnostic strategies, antifungal therapy, and infection prevention and control measures. It aims to support clinicians in making informed decisions and improving antifungal stewardship.",
         "ai_significance": "These recommendations are crucial for ICU clinicians to improve patient outcomes and address the growing threat of antifungal resistance in critically ill patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": ""
       },
       {
         "pmid": "42522393",
@@ -1583,9 +1567,7 @@
         "ai_key_stats": "",
         "ai_summary": "A consensus document was developed by 12 panelists from 3 Spanish scientific societies to provide a comprehensive care framework for accidental hypothermia. The document is based on a systematic search of 281 articles and a 2-round Delphi process. It provides 37 recommendations across 8 application domains.",
         "ai_significance": "This consensus document can help standardize care for accidental hypothermia, potentially improving patient outcomes and reducing its significant impact on public health.",
-        "ai_rounds_takeaway": "Consider implementing the standardized protocols outlined in this consensus document for patients with suspected accidental hypothermia.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider implementing the standardized protocols outlined in this consensus document for patients with suspected accidental hypothermia."
       },
       {
         "pmid": "42494313",
@@ -1616,7 +1598,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the quality of clinical guidelines for nutritional risk screening in critically ill adults. The guidelines showed satisfactory methodological quality, but limitations were found in recommendation credibility, applicability, and evidence quality. Most original studies supporting recommendations had a high risk of bias.",
         "ai_significance": "These findings emphasize the need for high-quality evidence and transparent risk-of-bias assessment in clinical guidelines to ensure accurate and effective nutritional care for critically ill patients.",
-        "ai_rounds_takeaway": "Consider critically evaluating the credibility and applicability of nutritional risk screening recommendations in clinical guidelines for critically ill patients."
+        "ai_rounds_takeaway": "Consider critically evaluating the credibility and applicability of nutritional risk screening recommendations in clinical guidelines for critically ill patients.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42538736",
@@ -1645,7 +1629,9 @@
         "ai_key_stats": "",
         "ai_summary": "The Society of Critical Care Medicine Guidelines on Adult End-of-Life Care in the ICU were applied to the setting of donation after circulatory death (DCD). The guidelines' recommendations for end-of-life care were found to be applicable to patients being evaluated for or undergoing DCD. High-quality end-of-life care should be delivered to organ donors.",
         "ai_significance": "This study highlights the importance of providing high-quality end-of-life care to patients undergoing donation after circulatory death, which is crucial for maintaining public trust and ensuring patient dignity.",
-        "ai_rounds_takeaway": "Consider implementing and auditing protocols to guarantee dignity and symptom control for patients undergoing donation after circulatory death."
+        "ai_rounds_takeaway": "Consider implementing and auditing protocols to guarantee dignity and symptom control for patients undergoing donation after circulatory death.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42693971",
@@ -1670,7 +1656,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42693971/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42723449",
@@ -1760,7 +1748,9 @@
         "ai_key_stats": "n=5721, HR 1.52 (95% CI 1.29-1.79), HR 1.41 (95% CI 1.20-1.65), HR 1.34, HR 1.14, OR 1.87, OR 1.51, p<0.001",
         "ai_summary": "Researchers analyzed data from 5721 older ICU patients to identify comorbidity patterns associated with acute kidney injury (AKI). They found five distinct comorbidity phenotypes, with those including atrial fibrillation and ischemic heart failure having the highest risk of AKI. These phenotypes were also associated with more severe AKI.",
         "ai_significance": "This study highlights the importance of considering comorbidities when evaluating older critically ill patients for AKI risk, and suggests that targeted renal surveillance and individualized hemodynamic management may be beneficial for high-risk patients.",
-        "ai_rounds_takeaway": "Consider targeted renal surveillance and individualized hemodynamic management in older critically ill patients with comorbidities including atrial fibrillation and ischemic heart failure."
+        "ai_rounds_takeaway": "Consider targeted renal surveillance and individualized hemodynamic management in older critically ill patients with comorbidities including atrial fibrillation and ischemic heart failure.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42425561",
@@ -1799,7 +1789,9 @@
         "ai_key_stats": "n=10642, primary endpoint: AKI occurrence and maximum severity within 7 days of ICU admission",
         "ai_summary": "This study aims to describe the occurrence and outcomes of acute kidney injury (AKI) in critically ill patients worldwide. It is a prospective, observational study of 10,642 patients admitted to the ICU. The study will collect data on AKI occurrence, severity, duration, and outcomes, as well as long-term kidney and patient outcomes in selected centers.",
         "ai_significance": "This study will provide valuable data on the epidemiology and outcomes of AKI in critically ill patients, which can inform future research and clinical practice in critical care nephrology.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42418363",
@@ -1828,7 +1820,9 @@
         "ai_key_stats": "n=202, moderate-to-severe AKI 9.1% vs 11.7%, nephrotoxic drug administration lower in postimplementation period, hypotensive episodes lower in postimplementation period",
         "ai_summary": "This study evaluated the impact of an artificial intelligence-powered clinical decision support system on acute kidney injury prevention in the ICU. The system, called U-Care Renal Platform, was integrated into ICU workflows and provided actionable recommendations. The study found lower rates of moderate-to-severe AKI, nephrotoxic drug administration, and hypotensive episodes among patients with AKI after implementation.",
         "ai_significance": "This study suggests that the integration of artificial intelligence-powered clinical decision support systems may be a useful tool for preventing acute kidney injury in the ICU, which is a serious and costly complication.",
-        "ai_rounds_takeaway": "Consider implementing AI-powered clinical decision support systems to reduce the risk of AKI in critically ill patients."
+        "ai_rounds_takeaway": "Consider implementing AI-powered clinical decision support systems to reduce the risk of AKI in critically ill patients.",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42409761",
@@ -1871,7 +1865,9 @@
         "ai_key_stats": "",
         "ai_summary": "Clinical pharmacists are increasingly involved in acute stroke care, but their role is inconsistently defined. A consensus statement recommends their involvement in managing acute ischemic and hemorrhagic stroke in emergency departments.",
         "ai_significance": "This matters for ICU clinical practice because optimizing the clinical pharmacist role can improve time-sensitive treatment and equity in care delivery for stroke patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42583469",
@@ -1945,7 +1941,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared intensive and conventional blood glucose targets in critically ill adults. It found that intensive targets may slightly improve some outcomes like infections and length of stay, but increase the risk of severe hypoglycemia. No difference was seen in mortality.",
         "ai_significance": "These findings are important for ICU clinicians as they suggest that intensive blood glucose targets may not be worth the increased risk of hypoglycemia, and conventional targets may be a safer choice. However, in select centers with optimized protocols, a lower target may be considered acceptable.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41942818",
@@ -1985,7 +1983,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed guidelines for predicting outcomes in critically ill adults with acute ischemic stroke, including avoiding premature predictions and using multimodal assessments. It found that early neurological improvement within 24 hours of revascularization is a moderately reliable predictor of good functional outcome. No other individual predictor was considered reliable for predicting mortality or functional outcome.",
         "ai_significance": "These guidelines are important for ICU clinicians as they provide a framework for counseling patients and their surrogates about outcomes, helping to set realistic expectations and guide treatment decisions.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41690564",
@@ -2010,7 +2010,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers created a standardized guideline for using propofol to manage refractory symptoms in end-of-life care by developing a flow diagram and defining parameters for its use.",
         "ai_significance": "This guideline can help reduce confusion and improve decision-making for ICU clinicians when using propofol to manage refractory symptoms in end-of-life care, ensuring patient comfort and preventing suffering.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42260906",
@@ -2046,7 +2048,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study surveyed ICU clinicians and leaders to identify barriers and facilitators to implementing the ICU Liberation bundle, which aims to improve outcomes for critically ill patients. Results showed that clinicians were more familiar with the bundle and prioritized it, but compliance was lower post-pandemic. Workflow integration and aligning the bundle with healthcare goals facilitated compliance.",
         "ai_significance": "Understanding the barriers to ICU Liberation bundle implementation is crucial for improving patient outcomes, as it has been shown to reduce delirium, immobility, and other complications in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42164574",
@@ -2069,7 +2073,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13184491/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42164574/",
-        "society": "ESICM"
+        "society": "ESICM",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42523687",
@@ -2111,7 +2117,9 @@
         "ai_key_stats": "",
         "ai_summary": "The Indian Society of Critical Care Medicine developed guidelines for treating carbapenem-resistant Enterobacterales, Acinetobacter baumannii, and Pseudomonas aeruginosa in critically ill patients. The guidelines recommend non-polymyxin therapy for CRE and CRPA, and sulbactam-based therapy for CRAB. These recommendations are based on a systematic review and meta-analysis of 52 studies.",
         "ai_significance": "These guidelines are significant for ICU clinical practice as they provide evidence-based recommendations for managing carbapenem-resistant gram-negative infections, which are major antimicrobial resistance threats in Indian ICUs.",
-        "ai_rounds_takeaway": "Consider non-polymyxin therapy for patients with CRE or CRPA infections."
+        "ai_rounds_takeaway": "Consider non-polymyxin therapy for patients with CRE or CRPA infections.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42203644",
@@ -2136,7 +2144,9 @@
         "ai_key_stats": "",
         "ai_summary": "This 2026 clinical practice guideline for renal replacement therapy in critically ill patients with acute kidney injury was developed by a Chinese expert panel using the GRADE approach. It provides 34 evidence-based recommendations on topics such as RRT initiation, anticoagulation, and weaning. The guideline aims to standardize RRT management in adult critically ill patients with AKI.",
         "ai_significance": "This guideline is crucial for ICU clinicians in China as it provides a unified framework for RRT management, potentially improving patient outcomes and reducing variability in care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42246225",
@@ -2175,7 +2185,9 @@
         "ai_key_stats": "",
         "ai_summary": "These guidelines provide evidence-based recommendations for central venous cannulation in critically ill patients. They aim to standardize the approach, increase effectiveness, and minimize complications. The guidelines cover pre-procedural ultrasound assessment, optimal vascular access site selection, and catheter position confirmation.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to standardize and improve central venous cannulation procedures, potentially reducing complications and improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41860322",
@@ -2218,7 +2230,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed evidence-based guidelines for caring for older adults in the ICU, recommending a geriatric model of care and avoiding antipsychotic medications for preventing delirium. The guidelines were developed using a systematic review and expert consensus. The recommendations aim to improve outcomes for older ICU patients.",
         "ai_significance": "These guidelines are crucial for ICU clinicians as they provide evidence-based recommendations for caring for older adults, who are a growing proportion of the ICU population. By following these guidelines, clinicians can improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42272209",
@@ -2248,7 +2262,9 @@
         "ai_key_stats": "",
         "ai_summary": "A modified Delphi study developed a consensus-based framework for assessing ICU capacity and capability in South Korea, prioritizing functional capabilities over structural metrics. The framework includes 29 indicators across four domains. It provides a foundation for a capability-oriented classification system.",
         "ai_significance": "This study is significant for ICU clinical practice in South Korea as it establishes a standardized framework for assessing ICU capacity and capability, potentially improving patient safety and resource allocation.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41773929",
@@ -2292,7 +2308,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed guidelines for using neuromuscular blocking agents in adults with acute respiratory distress syndrome (ARDS). The guidelines recommend using these agents in patients with a specific oxygen level, but do not make recommendations for other situations due to a lack of evidence. The guidelines aim to help clinicians make informed decisions about using these agents.",
         "ai_significance": "These guidelines are important for ICU clinicians because they provide evidence-based recommendations for using neuromuscular blocking agents in ARDS patients, which can help improve patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41773927",
@@ -2334,7 +2352,9 @@
         "ai_key_stats": "",
         "ai_summary": "These guidelines were developed to provide evidence-based recommendations for triaging critically ill patients during ICU capacity shortages. A multidisciplinary panel used the GRADE methodology to analyze evidence and formulate recommendations. The panel generated one conditional recommendation and five no recommendation statements.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions during crisis-level shortages, ensuring efficient distribution of critical care resources and saving lives.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41700745",
@@ -2362,7 +2382,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study updated the guidelines for managing penetrating traumatic brain injury (pTBI) based on new literature and expert consensus. The guidelines cover resuscitation, imaging, critical care, surgery, and prognosis. A summary of the recommendations and seven treatment algorithms are provided.",
         "ai_significance": "These guidelines are crucial for ICU clinicians to make informed decisions about the care of patients with pTBI, potentially improving outcomes and reducing complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "41655594",
@@ -2411,7 +2433,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study developed a regionally adapted clinical practice guideline for stress ulcer prophylaxis in critically ill adults in Saudi Arabia, Kuwait, and Nordic countries. The guideline provides evidence-based recommendations for SUP use, including who should receive it, which medications to use, and when to discontinue. The recommendations were developed using the GRADE-ADOLOPMENT methodology and took into account local epidemiology, drug access, and health system variables.",
         "ai_significance": "These recommendations can help ICU clinicians make informed decisions about stress ulcer prophylaxis in critically ill adults, taking into account regional variations in healthcare systems and patient populations.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42417792",
@@ -2439,7 +2463,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study reviewed Brazilian ICU design standards and found they conflict with decades of evidence on environment's impact on patient healing and staff performance. Current standards are associated with negative outcomes for patients, staff, and families. Updating these standards is necessary to improve critical care outcomes.",
         "ai_significance": "This study highlights the need for evidence-based ICU design standards to improve patient and staff outcomes, emphasizing the importance of policy updates to prioritize patient-centered care and staff well-being.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42245967",
@@ -4624,8 +4650,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42455344/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "pharmacology",
         "category_label": "Pharmacology",
         "category_ids": [
@@ -4678,49 +4702,6 @@
         "category_labels": [
           "Respiratory",
           "Procedures & POCUS"
-        ]
-      },
-      {
-        "pmid": "42809217",
-        "title": "Duration of antibiotic therapy in sepsis and severe infections in critically ill patients.",
-        "journal": "American journal of respiratory and critical care medicine",
-        "pubdate": "2026 Sep 29",
-        "authors": [
-          "Timsit JF",
-          "Roberts JA",
-          "Kanj S",
-          "Bassetti M",
-          "Canton R",
-          "Dark P",
-          "Fowler R",
-          "Huttner A",
-          "Kollef MH",
-          "Micek ST",
-          "Sawyer RG",
-          "Thy M",
-          "Yahav D",
-          "Daneman N"
-        ],
-        "doi": "10.1093/ajrccm/aamag458",
-        "abstract": "Antibiotic treatment duration in critically ill patients has undergone major reevaluation. Historically concerns for short therapy included a lower cure rate and emergence of resistance, whereas prolonged courses raised risks of microbiome disruption, superinfection, Clostridioides difficile colitis, and resistance. Defining optimal duration of therapy in sepsis and severe infections remains challenging due to heterogeneity in host immunity, pathogen virulence, infection site and source control. Mechanistic insights from microbiology and PK/PD highlight how bacterial inoculum, biofilms, mutant selection windows and altered drug distribution in critical illness influence bacterial clearance and resistance selection. Experimental models and PK-optimized dosing strategies underscore the potential to shorten therapy by accelerating pathogen eradication. Across a range of serious infections, randomized trials consistently show that short course therapy (<7 days) is noninferior to longer courses, including bacteremia, intra-abdominal infections and ventilator-associated pneumonia. Biomarker guided strategies-particularly procalcitonin-based algorithms-might further individualize duration of therapy and safely reduce exposure. Uncertainty remains for S. aureus bacteremia, infections caused by non-fermenting Gram-negative bacilli, difficult to treat multidrug-resistant organisms, invasive candidiasis and immunocompromised patients. Robust evidence supports markedly reduced duration of therapy for uncomplicated bloodstream infections after effective source control, intra-abdominal infections and ventilator-associated pneumonia. Infections involving retained prosthetic material or devices often require prolonged therapy or long-term suppressive regimens. Future research must include adequately powered trials across diverse populations, and evaluate rapid diagnostics, host-response profiling, and individualized response-guided strategies. Optimizing antibiotic duration in critically ill patients ultimately requires integrating mechanistic understanding, individual clinical evolution, and stewardship principles to balance potential efficacy and potential harm.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42809217/",
-        "category_id": "infectious-sepsis",
-        "category_label": "Infectious Disease & Sepsis",
-        "category_ids": [
-          "infectious-sepsis",
-          "trauma-surgical"
-        ],
-        "category_labels": [
-          "Infectious Disease & Sepsis",
-          "Trauma & Surgical"
         ]
       }
     ]
@@ -4856,6 +4837,78 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Study of Cord Blood Derived Mesenchymal Stem Cells for Treatment of Moderate, Severe or Critical Pneumonia",
+        "url": "https://clinicaltrials.gov/study/NCT04565665",
+        "source": "M.D. Anderson Cancer Center",
+        "author": "",
+        "pubdate": "2026-10-05",
+        "summary": "This is a phase I trial followed by a phase II randomized trial. The purpose of phase I study is the feasibility of treating patients with acute respiratory distress syndrome (ARDS) related to COVID-19 infection (COVID-19) with cord blood-derived mesenchymal stem cells (MSC). The purpose of the phase II trial is to compare the effect of MSC with standard of care in these patients. MSCs are a type of stem cells that can be taken from umbilical cord blood and grown into many different cell types t",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04565665"
+      },
+      {
+        "title": "The Per-procedural Antibiotic Prophylaxis in Patients Undergoing Transcatheter Aortic Valve Implantation Trial",
+        "url": "https://clinicaltrials.gov/study/NCT07442357",
+        "source": "Copenhagen University Hospital, Rigshospitalet",
+        "author": "",
+        "pubdate": "2026-10-05",
+        "summary": "The study is a prospective, crossover, cluster randomized trial in patients undergoing transcatheter aortic valve implantation (TAVI). The study tests whether cephalosporin plus beta-lactam antibiotic with spectrum for Enterococcus faecalis as per procedural prophylaxis is superior to cephalosporin alone in reducing the composite outcome of bacteremia or death at 6 months post-TAVI.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07442357"
+      },
+      {
+        "title": "The Intensive Care Platform Trial",
+        "url": "https://clinicaltrials.gov/study/NCT06667999",
+        "source": "Anders Perner",
+        "author": "",
+        "pubdate": "2026-10-05",
+        "summary": "Among critically ill patients, many die, and many of the survivors and their family members struggle for years with reduced quality of life. Critically ill patients are treated in intensive care units (ICUs). Here, they receive life support, e.g., mechanical ventilation and advanced support of the circulation (heart and blood vessels) and kidneys. In addition, ICU patients receive many other treatments. It is, however, uncertain if all the treatments provide value for the patients. The desirable",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06667999"
+      },
+      {
+        "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07813767",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-10-05",
+        "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07813767"
+      },
+      {
+        "title": "Presepsin Diagnostic Performance in Severe Burn Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT07060560",
+        "source": "Dohern Kym",
+        "author": "",
+        "pubdate": "2026-10-05",
+        "summary": "This study enrolls approximately 270 adult patients with severe burns covering at least 20% of total body surface area to evaluate how well the blood biomarker presepsin diagnoses sepsis early in this high-risk population. Sepsis-a life-threatening condition caused by an exaggerated immune response to infection-is particularly urgent to detect promptly in burn patients. Participants will undergo blood tests for presepsin at predefined time points, and these results will be compared to C-reactive",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07060560"
+      },
+      {
+        "title": "Oral Care Apparatus for Intubated Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06709183",
+        "source": "Saglik Bilimleri Universitesi",
+        "author": "",
+        "pubdate": "2026-10-05",
+        "summary": "There are several practical challenges in providing oral care to intubated patients. The presence of an endotracheal tube often makes it difficult to thoroughly evaluate the oral cavity, and there is a risk of tube displacement or removal during oral care. Additionally, the lack of standardized care protocols, limited time, and inadequate equipment further complicate the assessment of oral mucosal membranes, increase the likelihood of complications, and prolong ICU stays. The literature also hig",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06709183"
+      },
+      {
         "title": "Housing Transitions QUERI",
         "url": "https://clinicaltrials.gov/study/NCT05312229",
         "source": "VA Office of Research and Development",
@@ -4906,6 +4959,18 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT05189925"
+      },
+      {
+        "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07555041",
+        "source": "Hospices Civils de Lyon",
+        "author": "",
+        "pubdate": "2026-10-02",
+        "summary": "Assessment of capillary refill time (CRT) is a cornerstone of tissue perfusion monitoring in critically ill patients. CRT measurement is performed by applying brief and gentle pressure (for a few seconds) to a small area of skin until blanching occurs. CRT is defined as the time, in seconds, required for the skin surface to return to its initial color after release of pressure. Although CRT is a monitoring tool used on a daily basis in emergency departments and critical care units, its practical",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07555041"
       },
       {
         "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
@@ -5138,18 +5203,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07425587"
-      },
-      {
-        "title": "The Per-procedural Antibiotic Prophylaxis in Patients Undergoing Transcatheter Aortic Valve Implantation Trial",
-        "url": "https://clinicaltrials.gov/study/NCT07442357",
-        "source": "Copenhagen University Hospital, Rigshospitalet",
-        "author": "",
-        "pubdate": "2026-09-29",
-        "summary": "The study is a prospective, crossover, cluster randomized trial in patients undergoing transcatheter aortic valve implantation (TAVI). The study tests whether cephalosporin plus beta-lactam antibiotic with spectrum for Enterococcus faecalis as per procedural prophylaxis is superior to cephalosporin alone in reducing the composite outcome of bacteremia or death at 6 months post-TAVI.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07442357"
       },
       {
         "title": "Predicting Early Circulatory Deterioration After Short-Acting Beta-Blocker Treatment in Intensive Care Patients",
@@ -6564,18 +6617,6 @@
         "nct_id": "NCT07807189"
       },
       {
-        "title": "Study of Cord Blood Derived Mesenchymal Stem Cells for Treatment of Moderate, Severe or Critical Pneumonia",
-        "url": "https://clinicaltrials.gov/study/NCT04565665",
-        "source": "M.D. Anderson Cancer Center",
-        "author": "",
-        "pubdate": "2026-09-09",
-        "summary": "This is a phase I trial followed by a phase II randomized trial. The purpose of phase I study is the feasibility of treating patients with acute respiratory distress syndrome (ARDS) related to COVID-19 infection (COVID-19) with cord blood-derived mesenchymal stem cells (MSC). The purpose of the phase II trial is to compare the effect of MSC with standard of care in these patients. MSCs are a type of stem cells that can be taken from umbilical cord blood and grown into many different cell types t",
-        "study_type": "Clinical Trial (Active Not Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT04565665"
-      },
-      {
         "title": "Trial of Therapeutic Hypothermia in Patients With ARDS",
         "url": "https://clinicaltrials.gov/study/NCT04545424",
         "source": "University of Maryland, Baltimore",
@@ -6938,18 +6979,6 @@
         "ai_summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
         "ai_rounds_takeaway": ""
-      },
-      {
-        "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
-        "url": "https://clinicaltrials.gov/study/NCT07555041",
-        "source": "Hospices Civils de Lyon",
-        "author": "",
-        "pubdate": "2026-09-02",
-        "summary": "Assessment of capillary refill time (CRT) is a cornerstone of tissue perfusion monitoring in critically ill patients. CRT measurement is performed by applying brief and gentle pressure (for a few seconds) to a small area of skin until blanching occurs. CRT is defined as the time, in seconds, required for the skin surface to return to its initial color after release of pressure. Although CRT is a monitoring tool used on a daily basis in emergency departments and critical care units, its practical",
-        "study_type": "Clinical Trial (Active Not Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07555041"
       },
       {
         "title": "Prevention of Pressure Sores in the Prone Position in ARDS Patients",
@@ -9130,9 +9159,7 @@
             "strengths": "large sample size; multicentre design",
             "weaknesses": "no clear rationale for the chosen upper limit of arterial oxygen saturation in the liberal-oxygen group",
             "bottom_line": "There is no evidence to support the use of conservative oxygen therapy over liberal oxygen therapy in unresponsive adults after cardiac arrest."
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42377460",
@@ -12619,9 +12646,7 @@
           "ai_key_stats": "n=8685, mean difference in AKI Rank -0.8 (95% CI -1.3 to -0.3), mean difference in stage 1 AKI -3.1 (95% CI -3.8 to -2.5), relative risk of 30-day mortality 1.20 (95% CI 1.09 to 1.33)",
           "ai_summary": "Researchers studied the effect of restrictive fluid management in critically ill patients with acute kidney injury (AKI). They found that this approach improved renal function in early AKI but potentially harmed patients with more advanced AKI. The study suggests that future trials should consider safety criteria for patients with advanced renal injury.",
           "ai_significance": "These findings have implications for ICU fluid management strategies, particularly for patients with AKI. Clinicians should carefully consider the stage of AKI when deciding on fluid management.",
-          "ai_rounds_takeaway": "Consider conservative fluid management in patients with early AKI, but be cautious and monitor closely in those with more advanced AKI.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider conservative fluid management in patients with early AKI, but be cautious and monitor closely in those with more advanced AKI."
         },
         {
           "pmid": "42204563",
@@ -13325,6 +13350,39 @@
       "label": "Infectious Disease & Sepsis",
       "abbr": "ID/Sepsis",
       "articles": [
+        {
+          "pmid": "42809217",
+          "title": "Duration of antibiotic therapy in sepsis and severe infections in critically ill patients.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Sep 29",
+          "authors": [
+            "Timsit JF",
+            "Roberts JA",
+            "Kanj S",
+            "Bassetti M",
+            "Canton R",
+            "Dark P",
+            "Fowler R",
+            "Huttner A",
+            "Kollef MH",
+            "Micek ST",
+            "Sawyer RG",
+            "Thy M",
+            "Yahav D",
+            "Daneman N"
+          ],
+          "doi": "10.1093/ajrccm/aamag458",
+          "abstract": "Antibiotic treatment duration in critically ill patients has undergone major reevaluation. Historically concerns for short therapy included a lower cure rate and emergence of resistance, whereas prolonged courses raised risks of microbiome disruption, superinfection, Clostridioides difficile colitis, and resistance. Defining optimal duration of therapy in sepsis and severe infections remains challenging due to heterogeneity in host immunity, pathogen virulence, infection site and source control. Mechanistic insights from microbiology and PK/PD highlight how bacterial inoculum, biofilms, mutant selection windows and altered drug distribution in critical illness influence bacterial clearance and resistance selection. Experimental models and PK-optimized dosing strategies underscore the potential to shorten therapy by accelerating pathogen eradication. Across a range of serious infections, randomized trials consistently show that short course therapy (<7 days) is noninferior to longer courses, including bacteremia, intra-abdominal infections and ventilator-associated pneumonia. Biomarker guided strategies-particularly procalcitonin-based algorithms-might further individualize duration of therapy and safely reduce exposure. Uncertainty remains for S. aureus bacteremia, infections caused by non-fermenting Gram-negative bacilli, difficult to treat multidrug-resistant organisms, invasive candidiasis and immunocompromised patients. Robust evidence supports markedly reduced duration of therapy for uncomplicated bloodstream infections after effective source control, intra-abdominal infections and ventilator-associated pneumonia. Infections involving retained prosthetic material or devices often require prolonged therapy or long-term suppressive regimens. Future research must include adequately powered trials across diverse populations, and evaluate rapid diagnostics, host-response profiling, and individualized response-guided strategies. Optimizing antibiotic duration in critically ill patients ultimately requires integrating mechanistic understanding, individual clinical evolution, and stewardship principles to balance potential efficacy and potential harm.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42809217/"
+        },
         {
           "pmid": "42786518",
           "title": "Dosing of anti-infective drugs in patients undergoing therapeutic plasma exchange - considerations for practical application: a narrative review.",
@@ -15273,6 +15331,39 @@
           "ai_rounds_takeaway": ""
         },
         {
+          "pmid": "42809217",
+          "title": "Duration of antibiotic therapy in sepsis and severe infections in critically ill patients.",
+          "journal": "American journal of respiratory and critical care medicine",
+          "pubdate": "2026 Sep 29",
+          "authors": [
+            "Timsit JF",
+            "Roberts JA",
+            "Kanj S",
+            "Bassetti M",
+            "Canton R",
+            "Dark P",
+            "Fowler R",
+            "Huttner A",
+            "Kollef MH",
+            "Micek ST",
+            "Sawyer RG",
+            "Thy M",
+            "Yahav D",
+            "Daneman N"
+          ],
+          "doi": "10.1093/ajrccm/aamag458",
+          "abstract": "Antibiotic treatment duration in critically ill patients has undergone major reevaluation. Historically concerns for short therapy included a lower cure rate and emergence of resistance, whereas prolonged courses raised risks of microbiome disruption, superinfection, Clostridioides difficile colitis, and resistance. Defining optimal duration of therapy in sepsis and severe infections remains challenging due to heterogeneity in host immunity, pathogen virulence, infection site and source control. Mechanistic insights from microbiology and PK/PD highlight how bacterial inoculum, biofilms, mutant selection windows and altered drug distribution in critical illness influence bacterial clearance and resistance selection. Experimental models and PK-optimized dosing strategies underscore the potential to shorten therapy by accelerating pathogen eradication. Across a range of serious infections, randomized trials consistently show that short course therapy (<7 days) is noninferior to longer courses, including bacteremia, intra-abdominal infections and ventilator-associated pneumonia. Biomarker guided strategies-particularly procalcitonin-based algorithms-might further individualize duration of therapy and safely reduce exposure. Uncertainty remains for S. aureus bacteremia, infections caused by non-fermenting Gram-negative bacilli, difficult to treat multidrug-resistant organisms, invasive candidiasis and immunocompromised patients. Robust evidence supports markedly reduced duration of therapy for uncomplicated bloodstream infections after effective source control, intra-abdominal infections and ventilator-associated pneumonia. Infections involving retained prosthetic material or devices often require prolonged therapy or long-term suppressive regimens. Future research must include adequately powered trials across diverse populations, and evaluate rapid diagnostics, host-response profiling, and individualized response-guided strategies. Optimizing antibiotic duration in critically ill patients ultimately requires integrating mechanistic understanding, individual clinical evolution, and stewardship principles to balance potential efficacy and potential harm.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42809217/"
+        },
+        {
           "pmid": "42320025",
           "title": "Extracorporeal life support in adult critically ill patients: mechanisms of benefit in respiratory and cardiac failure.",
           "journal": "American journal of respiratory and critical care medicine",
@@ -15512,9 +15603,7 @@
             "strengths": "large sample size; multicentre design",
             "weaknesses": "no clear rationale for the chosen upper limit of arterial oxygen saturation in the liberal-oxygen group",
             "bottom_line": "There is no evidence to support the use of conservative oxygen therapy over liberal oxygen therapy in unresponsive adults after cardiac arrest."
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42706573",
@@ -16223,7 +16312,9 @@
           "ai_key_stats": "n=11,176 (development cohort), n=1,127 (temporal validation cohort), AUROC 0.856-0.960, AUPRC 0.302-0.786, p-values not reported",
           "ai_summary": "Researchers developed and validated a machine learning system that generates hourly predictions for ICU outcomes, such as mortality and discharge. The system was integrated into the electronic medical record and showed strong performance in a single-center study. The system was maintained with automated updates and visualizations.",
           "ai_significance": "This study demonstrates the feasibility of embedding real-time predictions into ICU workflow, which could improve patient care and outcomes. Further studies are needed to assess the system's transportability and clinical impact.",
-          "ai_rounds_takeaway": "Consider using real-time predictions from an EMR-integrated system to inform ICU decision-making, especially for high-risk patients."
+          "ai_rounds_takeaway": "Consider using real-time predictions from an EMR-integrated system to inform ICU decision-making, especially for high-risk patients.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42243987",
@@ -16258,9 +16349,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers compared outcomes of 1,077 ICU patients with acute respiratory distress syndrome (ARDS) who developed ARDS after surgery (postoperative ARDS) to those who developed ARDS due to medical reasons. They found that postoperative ARDS had a more favorable early trajectory and lower 90-day mortality. The study suggests that postoperative ARDS is a distinct clinical subtype driven by extrapulmonary and surgery-related factors.",
           "ai_significance": "This study's findings have significant implications for ICU clinical practice, suggesting that postoperative ARDS may require a distinct management approach focused on perioperative prevention and early identification of surgery-related complications.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42228008",
@@ -16320,9 +16409,7 @@
             "strengths": "large sample size; multiple outcomes measured",
             "weaknesses": "open-label design; no blinding",
             "bottom_line": "Automatic management of tracheal cuff pressure and subglottic secretions drainage may reduce the rate of ventilator-associated pneumonia, but more research is needed to confirm this finding."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42126552",
@@ -16353,9 +16440,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study highlights the challenges of airway management in critically ill patients with obesity, including anatomical and physiological alterations that complicate intubation. Non-invasive ventilation and videolaryngoscopy are recommended to mitigate these risks. The optimal approach to intubation in obese patients remains a topic of ongoing research.",
           "ai_significance": "Understanding airway management in obese patients is crucial for improving patient safety and outcomes in the ICU. The findings of this study may prompt clinicians to adopt new strategies for airway management in this high-risk population.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "41914828",
@@ -16396,9 +16481,7 @@
             "strengths": "Post hoc Bayesian analysis allowed for re-examination of the RELAx trial data; The analysis identified potential heterogeneity of treatment effect",
             "weaknesses": "The study was a post hoc analysis, which may introduce bias; The results may not be generalizable to all ICU patients",
             "bottom_line": "A lower positive end-expiratory pressure strategy may be beneficial in selected subgroups of ICU patients without acute respiratory distress syndrome, particularly those admitted for reasons other than cardiac arrest or intubated for reasons other than respiratory failure"
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42169048",
@@ -16425,9 +16508,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers found that point-of-care ultrasound can quickly identify signs of right ventricular dysfunction and detect thrombus in transit in critically ill patients with suspected pulmonary embolism, helping with timely therapeutic decisions.",
           "ai_significance": "This matters for ICU clinical practice as it provides a rapid diagnostic tool for unstable patients where transport for definitive imaging is not feasible, potentially improving patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42121165",
@@ -16458,9 +16539,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study compared three induction agents (etomidate, ketamine, and propofol) for emergency tracheal intubation in critically ill adults. The results showed that etomidate and ketamine probably result in similar mortality, but ketamine may cause more peri-intubation hemodynamic instability. The study also found that propofol has no randomized evidence for emergency intubation in critically ill adults.",
           "ai_significance": "This study's findings are important for ICU clinical practice as they provide guidance on the choice of induction agent for emergency tracheal intubation, which can impact patient outcomes and hemodynamic stability.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "41954744",
@@ -16494,9 +16573,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study highlights the challenges of ventilating ICU patients with obesity, including altered respiratory mechanics and increased susceptibility to hypoxemia and ventilator-induced lung injury. Tailored ventilatory strategies, such as lung-protective ventilation and higher positive end-expiratory pressure, are recommended. Adjunctive monitoring tools and therapies, such as prone positioning and non-invasive ventilation, may also improve outcomes.",
           "ai_significance": "Understanding and addressing the unique physiology of critically ill patients with obesity is crucial to improving their outcomes, and dedicated clinical trials are needed to define optimal ventilatory strategies.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         }
       ]
     },
@@ -16665,7 +16742,9 @@
             "strengths": "Within-patient crossover design; randomization; multiple secondary outcomes",
             "weaknesses": "Small sample size; short duration of assessment periods",
             "bottom_line": "A novel device may be a safe alternative to traditional wrist restraints in ICU settings, with moderate patient and clinician satisfaction."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "41989178",
@@ -16695,9 +16774,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study found that delirium detection tools were less accurate for Spanish-speaking ICU patients compared to English-speaking patients. Using a tool administered by caregivers improved delirium detection in Spanish-speaking patients. These findings highlight the need for language-sensitive delirium detection methods to ensure equitable care.",
           "ai_significance": "Language-sensitive delirium detection methods are crucial for providing equitable care to diverse ICU populations, as disparities in delirium detection can lead to delayed or inadequate treatment and worsened patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "41823503",
@@ -16767,9 +16844,7 @@
             "strengths": "feasible, reliable deep sedation, stable ICP and CPP",
             "weaknesses": "open-label design, pilot trial, limited sample size",
             "bottom_line": "Isoflurane sedation may be a safe and effective alternative to propofol in invasively monitored neurocritical patients without intracranial hypertension, but larger studies are needed to confirm these findings."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42152115",
@@ -16856,9 +16931,7 @@
             "strengths": "Standard dosing achieved adequate target attainment for both combinations; simulations showed high ELF target attainment for all CAZ/AVI regimens under conservative inhibitor threshold assumptions",
             "weaknesses": "Interindividual variability and the risk of plasma overexposure support individualized dosing and consideration of therapeutic drug monitoring",
             "bottom_line": "Standard dosing of ceftolozane/tazobactam or ceftazidime/avibactam administered by continuous infusion is likely adequate for critically ill patients with nosocomial pneumonia, but individualized dosing may be necessary due to interindividual variability and the risk of plasma overexposure."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "41998735",
@@ -16887,9 +16960,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review updates the evidence on using volatile sedation instead of IV sedation in ICU patients on mechanical ventilation. It suggests that volatile sedation may have lung-protective properties, especially in patients with inflammatory lung injury. However, recent studies have raised concerns about its safety in these patients.",
           "ai_significance": "This study is important for ICU clinicians as it challenges the previous understanding of volatile sedation's benefits and highlights the need for careful consideration of its use in patients with inflammatory lung injury.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         }
       ]
     }
