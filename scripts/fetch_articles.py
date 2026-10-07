@@ -1220,25 +1220,37 @@ def pick_spotlight(candidates):
 
 
 SPOTLIGHT_CANDIDATE_COUNT = int(os.environ.get("SPOTLIGHT_CANDIDATE_COUNT", "10"))
+# The spotlight should be about *new* evidence. The category archive reaches
+# back RELDATE_DAYS (~120 days) and older papers always have more citations, so
+# without an age cap the citation tie-break kept picking months-old articles.
+# Start with a tight window and only widen it if too few candidates qualify.
+SPOTLIGHT_MAX_AGE_DAYS = int(os.environ.get("SPOTLIGHT_MAX_AGE_DAYS", "14"))
+SPOTLIGHT_MIN_CANDIDATES = int(os.environ.get("SPOTLIGHT_MIN_CANDIDATES", "3"))
+SPOTLIGHT_HISTORY_SIZE = 12
 
 
-def spotlight_candidates(trending_articles, categories_out):
+def spotlight_candidates(trending_articles, categories_out, exclude_pmids=()):
     """Rank this week's spotlight candidates by study type/evidence level
-    first, citation count second -- not by citations alone. Citation-only
-    ranking (what "Trending" uses) would never surface a landmark RCT
-    published days ago, since it hasn't had time to accumulate citations
-    yet; pulling in every RCT/meta-analysis/guideline from the organ-system
-    categories too (regardless of citation count) fixes that.
+    first, recency second, citation count third. Citation-only ranking
+    (what "Trending" uses) would never surface a landmark RCT published days
+    ago, since it hasn't had time to accumulate citations yet; pulling in
+    every RCT/meta-analysis/guideline from the organ-system categories too
+    (regardless of citation count) fixes that.
+
+    Only recently published articles qualify (SPOTLIGHT_MAX_AGE_DAYS, widened
+    in steps if fewer than SPOTLIGHT_MIN_CANDIDATES qualify), and anything
+    featured in an earlier week (exclude_pmids) is skipped.
     """
+    exclude = {str(p) for p in exclude_pmids if p}
     seen = set()
-    candidates = []
+    pool = []
 
     def consider(article):
         pmid = article.get("pmid")
-        if not pmid or pmid in seen:
+        if not pmid or pmid in seen or str(pmid) in exclude:
             return
         seen.add(pmid)
-        candidates.append(article)
+        pool.append(article)
 
     for a in trending_articles:
         consider(a)
@@ -1248,7 +1260,24 @@ def spotlight_candidates(trending_articles, categories_out):
             if any(t in (a.get("study_type") or "").lower() for t in high_impact_types):
                 consider(a)
 
-    candidates.sort(key=lambda a: (impact_score(a), a.get("citation_count") or 0), reverse=True)
+    # is_recent() also drops year-only dates (they parse to 1 Jan) and
+    # future-dated print issues, neither of which is a "this week" paper.
+    windows = sorted({SPOTLIGHT_MAX_AGE_DAYS, 30, 60, RELDATE_DAYS})
+    windows = [w for w in windows if w >= SPOTLIGHT_MAX_AGE_DAYS]
+    candidates = []
+    for days in windows:
+        candidates = [a for a in pool if is_recent(a, days)]
+        if len(candidates) >= SPOTLIGHT_MIN_CANDIDATES:
+            break
+
+    candidates.sort(
+        key=lambda a: (
+            impact_score(a),
+            parsed_pubdate_for_sort(a.get("pubdate", "")),
+            a.get("citation_count") or 0,
+        ),
+        reverse=True,
+    )
     return candidates[:SPOTLIGHT_CANDIDATE_COUNT]
 
 
@@ -1290,7 +1319,13 @@ def build_spotlight(trending_articles, categories_out):
     if existing and existing.get("week") == week:
         return existing
 
-    candidates = spotlight_candidates(trending_articles, categories_out)
+    # Remember what was featured before so a paper can't be picked twice.
+    history = list((existing or {}).get("previous_pmids") or [])
+    if existing and existing.get("pmid") and existing["pmid"] not in history:
+        history.append(existing["pmid"])
+    history = history[-SPOTLIGHT_HISTORY_SIZE:]
+
+    candidates = spotlight_candidates(trending_articles, categories_out, exclude_pmids=history)
     if not candidates:
         return existing
 
@@ -1305,6 +1340,7 @@ def build_spotlight(trending_articles, categories_out):
 
     result["week"] = week
     result["generated_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    result["previous_pmids"] = history
     save_spotlight(result)
     return result
 
