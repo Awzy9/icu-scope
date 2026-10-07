@@ -262,9 +262,11 @@
     "summary": "A critically ill patient developed endophthalmitis after a car accident, despite not showing symptoms due to sedation. Urgent treatment was attempted, but the disease progressed to corneal perforation requiring enucleation. Early lens dislocation was a poor prognostic feature.",
     "significance": "This case highlights the importance of vigilant ocular assessment in sedated critically ill patients and emphasizes the need for early specialist involvement to prevent irreversible complications."
   },
-  "pmid:42498336": {
-    "summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
-    "significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population."
+  "pmid:42573413": {
+    "key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
+    "summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+    "significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
+    "rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
   },
   "pmid:42584203": {
     "key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
@@ -272,11 +274,9 @@
     "significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
     "rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
   },
-  "pmid:42573413": {
-    "key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
-    "summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
-    "significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
-    "rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
+  "pmid:42498336": {
+    "summary": "Critically ill patients with infections struggle to maintain fluid balance due to increased capillary permeability and organ dysfunction. Inadequate fluid balance can increase complications, morbidity, and mortality. Skilled nursing and advanced monitoring are essential to optimize outcomes.",
+    "significance": "Optimizing fluid management in critically ill patients with infections is crucial to reduce complications and improve survival. This knowledge is essential for ICU clinicians to provide high-quality care in this vulnerable population."
   },
   "pmid:42294965": {
     "summary": "Researchers studied 784 critically ill COVID-19 patients to understand why some take longer to regain consciousness after stopping sedation. They found that many patients took longer than expected to recover, and that factors like age, hypoxemia, and acute kidney injury were associated with delayed recovery. Patients who received dexmedetomidine as an adjunct sedative tended to recover more quickly.",
@@ -971,6 +971,12 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT06749457": {
+    "key_stats": "",
+    "summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
+    "significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
+    "rounds_takeaway": ""
+  },
   "url:https://clinicaltrials.gov/study/NCT05312229": {
     "key_stats": "",
     "summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
@@ -1086,12 +1092,6 @@
     "summary": "This study investigated the use of the 'BathMat' to assist with proning patients in the ICU, which involves lying patients on their front to improve oxygenation. The BathMat is a tool used to help reposition patients every 2-4 hours to prevent sores and injuries. The study aimed to assess the feasibility and effectiveness of using the BathMat in this context.",
     "significance": "This study's findings can inform ICU staff on the practical use of the BathMat to improve patient care and prevent complications associated with prolonged proning.",
     "rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries."
-  },
-  "url:https://clinicaltrials.gov/study/NCT06749457": {
-    "key_stats": "",
-    "summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
-    "significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
-    "rounds_takeaway": ""
   },
   "url:https://clinicaltrials.gov/study/NCT07445061": {
     "key_stats": "n=1200, p=0.01",
