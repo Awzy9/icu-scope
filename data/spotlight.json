@@ -1,9 +1,9 @@
 {
-  "pmid": "42765454",
-  "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
-  "journal": "The Cochrane database of systematic reviews",
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42765454/",
-  "pubdate": "2026 Sep 21",
+  "pmid": "42565658",
+  "title": "Rethinking Muscle Wasting in Critical Illness: A Systematic Review and Meta-Analysis of Myofiber Size and Protein Turnover.",
+  "journal": "Critical care medicine",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42565658/",
+  "pubdate": "2026 Oct 1",
   "study_type": "Meta-Analysis",
   "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Meta-Analysis, prioritized by evidence level and citation impact.",
   "discussion_prompts": [
@@ -12,5 +12,8 @@
     "Would these results change current bedside practice or require further validation?"
   ],
   "week": "2026-10-03",
-  "generated_at": "2026-10-03T08:42:37+00:00"
+  "generated_at": "2026-10-07T14:37:41+00:00",
+  "previous_pmids": [
+    "42765454"
+  ]
 }
