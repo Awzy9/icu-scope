@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T09:48:05+00:00",
+  "generated_at": "2026-10-10T09:12:48+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -92,31 +92,6 @@
         "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
         "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
         "ai_rounds_takeaway": ""
-      },
-      {
-        "pmid": "42745269",
-        "title": "Individualising blood glucose control in ICU patients: evidence and practical implementations.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Sep 9",
-        "authors": [
-          "Gunst J",
-          "Krinsley JS",
-          "Lanspa MJ",
-          "Preiser JC",
-          "Singer M",
-          "Van den Berghe G"
-        ],
-        "doi": "10.1186/s13054-026-06288-z",
-        "abstract": "Many intensive care unit patients develop hyperglycaemia, and this is associated with an increased risk of adverse outcomes. Landmark randomised controlled trials (RCTs) suggest the impact of lowering blood glucose to the healthy, age-adjusted fasting range, hereafter called tight glucose control, depends on the accuracy of the glucose control protocol and the nutritional strategy. In the context of early parenteral nutrition, a condition that induces severe, iatrogenic hyperglycaemia, tight glucose control significantly reduced morbidity and mortality compared to tolerating severe hyperglycaemia. In the absence of early parenteral nutrition, hyperglycaemia was less severe; tight glucose control, applied with a computerised protocol that avoided severe hypoglycaemia, did not impact mortality nor the duration of ICU dependency as primary endpoint in a large multicentre RCT, but was associated with a less pronounced benefit on selected morbidity outcomes. Conversely, tight glucose control, using a protocol that considerably increased the risk of severe hypoglycaemic events, concomitantly increased mortality; nevertheless, the cause of excess mortality in this trial remains unproven and other mechanisms may have contributed as well. Altogether, evidence suggests that severe and iatrogenic hyperglycaemia and hypoglycaemia should both be avoided. From a pathophysiologic point of view, tight glucose control may be superior in selected settings if it can be applied with a validated protocol that avoids severe hypoglycaemia. In the absence of such a protocol, the increased risk of severe hypoglycaemia may offset any benefit of preventing hyperglycaemia, and tolerating intermediate blood glucose targets is likely the default setting. In the paper, we suggest specific blood glucose targets that differ according to the clinical context. Future research should aim at strategies that further optimise the quality of blood glucose control and study whether these improve patient-centred outcomes, and investigate whether specific patient populations benefit from individualised targets.",
-        "citation_count": 86,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
       },
       {
         "pmid": "42479534",
@@ -326,6 +301,34 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13624006/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/"
+      },
+      {
+        "pmid": "42584185",
+        "title": "Epidemiology, Ventilatory Patterns, and Outcomes in Acute Hypoxemic Respiratory Failure Among ICU Patients Requiring Respiratory Support: A Registry-Based Cohort Study.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 1",
+        "authors": [
+          "von Düring S",
+          "Goligher E",
+          "Amaral ACK",
+          "Rubenfeld GD",
+          "Ferguson ND",
+          "Urner M",
+          "Fan E"
+        ],
+        "doi": "10.1097/CCM.0000000000007284",
+        "abstract": "OBJECTIVES: Acute hypoxemic respiratory failure (AHRF) is a leading cause of ICU admission and is associated with significant morbidity and mortality. Yet, epidemiological data on AHRF remain limited, and current management strategies largely derive from studies on acute respiratory distress syndrome (ARDS). We examined the prevalence of AHRF among ICU patients receiving supplemental oxygen or respiratory support for at least 4 hours, as well as initial respiratory support strategies and associated outcomes. DESIGN: Multicenter registry-based cohort study, 2014-2023. SETTING: Nine university of Toronto affiliated ICUs. PATIENTS: Adult ICU patients receiving supplemental oxygen or respiratory support who met AHRF criteria, defined as Pa o2 /F io2 less than or equal to 300 mm Hg or, if Pa o2 was not available, peripheral oxygen saturation (SpO 2 )/F io2 less than or equal to 315, within the first 24 hours of ICU admission. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: The primary outcome was AHRF prevalence. Secondary outcomes included ICU length of stay, invasive mechanical ventilation (IMV) duration, ventilator-free days, and ICU mortality, stratified by AHRF severity. Of 21,714 patients recorded in the registry, 10,832 (50%) met AHRF criteria, of whom 76% required IMV. Most received lung-protective ventilation. With increasing AHRF severity, ICU length of stay and IMV duration increased, while ventilator-free days and probability of ICU discharge at 30 days decreased. ICU mortality was 23% overall and 47% among patients on IMV with severe AHRF. CONCLUSIONS: AHRF is common early after ICU admission among patients requiring supplemental oxygen or respiratory support and is frequently managed using ARDS-based strategies. A pragmatic, standardized, and operationally feasible definition of AHRF may improve patient recognition, enable comparisons across studies, and guide future research.",
+        "citation_count": 38,
+        "is_top_journal": true,
+        "study_type": "Multicenter Study",
+        "volume": "54",
+        "issue": "10",
+        "pages": "2601-2612",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632807/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42584185/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       }
     ]
   },
@@ -790,9 +793,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers identified key considerations for preparing ICU patients for bronchoscopy, including time out, consent, and patient positioning. They also highlighted the importance of awake versus intubated & sedated bronchoscopy and effective teamwork. The study aimed to improve safety during ICU bronchoscopy.",
         "ai_significance": "This study's findings are crucial for ICU clinicians to ensure safe and effective bronchoscopy procedures, which can impact patient outcomes and reduce complications.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "MDCalc Wars: Massive Transfusion in Trauma – ABC vs. TASH",
@@ -806,9 +807,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers compared two tools for deciding massive transfusions in trauma patients: the ABC Score, which uses 4 variables at the bedside, and TASH, which uses labs and imaging for a more precise estimate.",
         "ai_significance": "Understanding which tool is most accurate can help ICU clinicians make better decisions about massive transfusions, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       }
     ]
   },
@@ -2694,9 +2693,7 @@
         "ai_key_stats": "n=1436, 43.2% developed AKI, 40.9% successfully liberated from KRT, 24.3% failed, 90% specificity for liberation failure with PENK cut-off ≥250 pmol/L",
         "ai_summary": "This study evaluated the use of proenkephalin A (PENK) to assess kidney integrity and guide kidney replacement therapy (KRT) decisions in critically ill patients. PENK levels were found to be a strong predictor of KRT liberation failure and may aid in the assessment of residual kidney function during KRT. The study suggests that PENK may be a useful biomarker for guiding KRT decisions.",
         "ai_significance": "This study has significant implications for ICU clinical practice as it provides a potential new biomarker for assessing kidney function and guiding KRT decisions, which may lead to improved patient outcomes.",
-        "ai_rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients.",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using proenkephalin A (PENK) as a biomarker to aid in the assessment of kidney function and guide KRT decisions in critically ill patients."
       },
       {
         "pmid": "42614272",
@@ -4279,9 +4276,7 @@
         "summary": "ObjectiveTo test the hypothesis that selected SIRS and SOFA criteria measured at ICU admission have divergent associations with (1) the development of new culture-confirmed infections and (2) early empiric broad-spectrum antibiotic receipt in critically ill patients with cirrhosis. DesignRetrospective, observational study using electronic health record (EHR) data. SettingBoth community and academic ICUs within a five-hospital health system between July 2017 and December 2025. SubjectsAdult patie",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Lipoprotein remodelling and elevated serum apolipoprotein B distinguish adults with haemophagocytic lymphohistiocytosis from sepsis",
@@ -4292,9 +4287,7 @@
         "summary": "Haemophagocytic lymphohistiocytosis (HLH) is a rare, life-threatening hyperinflammatory syndrome characterised by uncontrolled immune activation. Patients present with a sepsis-like syndrome, but management requires immune suppression. Reduced high- and low-density lipoprotein cholesterol and hypertriglyceridaemia are reported in HLH, suggesting lipid metabolism disturbances, although in-depth serum metabolomic analysis is lacking. Here, a lipid-focused NMR spectroscopy platform was used to defi",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Confounder-Adjusted Plasma Proteomics Identify Robust Protein Signatures in Sepsis Across Two Independent Perioperative Control Cohorts",
@@ -4305,9 +4298,7 @@
         "summary": "BackgroundSepsis is the primary driver of mortality in intensive care. Personalized medicine requires an accurate understanding of the syndrome, and plasma proteomics is increasingly used to characterize its molecular alterations. Comorbidities, demographics and postoperative sterile inflammation complicate this task, and proteins associated with them may be mistaken as sepsis-specific. MethodsWe compared 343 sepsis patients with two independent perioperative control cohorts (n = 73 and n = 75) ",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Lactate Cut-offs for 28-Day Mortality in Septic Shock",
@@ -4351,9 +4342,7 @@
         "summary": "BackgroundIntravenous (IV) vasopressors are the mainstay of hemodynamic physiological support for critically ill patients. However, the role of oral vasopressors in the management of IV vasopressor-dependent shock remains unclear. The LIBERATE body of work aims to examine the role of midodrine as an IV vasopressor sparing agent for critically ill patients with IV vasopressor dependent shock. The objective of the LIBERATE internal randomized controlled trial was to evaluate the implementation of ",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Development of an Intelligent Predictive Indicator System for Weaning and Extubation Timing in Mechanically Ventilated Patients Based on the Delphi Method",
@@ -4409,15 +4398,153 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
         "ai_significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions.",
-        "ai_rounds_takeaway": "",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       }
     ]
   },
   "trials": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "Fibrinogen-to-Albumin Ratio as a Predictor of Acute Respiratory Distress Syndrome in Traumatic Brain Injury",
+        "url": "https://clinicaltrials.gov/study/NCT07664358",
+        "source": "Tanta University",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "this study aims to assess the ability of fibrinogen-to-albumin ratio to predict the development of Acute respiratory distress syndrome in traumatic brain injury patients.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07664358",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "CYCLE: A Randomized Clinical Trial of Early In-bed Cycling for Mechanically Ventilated Patients",
+        "url": "https://clinicaltrials.gov/study/NCT03471247",
+        "source": "McMaster University",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "Patients who survive critical illness usually experience long-lasting physical and psychological impairments, which are often debilitating. Rehabilitation interventions started in the ICU may reduce this morbidity. In-bed cycling, which uses a special bicycle that attaches to the hospital bed, allows critically ill patients who are mechanically ventilated (MV) to gently exercise their legs while in the ICU. The main goal of this study is to determine whether critically ill MV adults recover fast",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03471247",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Empiric Antibiotic Treatment for Septic Patients in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT05924126",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "Sepsis is one of the most common causes of ICU admission. About 5-15% of patients admitted to the hospital with an infection will have sepsis, and about 30-40% of them will have septic shock. About 34% of septic patients and about 53% of patients with septic shock will die within 28 days of admission. Broad-spectrum empiric antibiotic treatment (depending on the source of infection and patient risk factors) is one of the cornerstones of sepsis management. According to the recommendations of the ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05924126",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Characteristics of Patients Intubated for Airway Protection in the Intensive Care Unit and Timing of Tracheostomy",
+        "url": "https://clinicaltrials.gov/study/NCT07315477",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "Every year, approximately 10-15 patients are admitted to the general intensive care unit at our institution who have been intubated for airway protection for various reasons, the main ones being soft tissue infection of the head/neck, anaphylaxis with airway edema, oral and maxillofacial/ENT surgery with airway threat, and head/neck injury with airway threat. Some patients are successfully extubated after the acute condition that caused the need for ventilation in the first place has passed, and",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07315477",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Eltroxin Administration to Patients With Extremely Low T4 Values in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT06154382",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "Nonthyroidal illness (formerly called sick euthyroid syndrome) is a common condition in patients hospitalized in the intensive care unit, and it is caused by changes in the levels of thyroid hormones in the blood . These changes are correlated to the severity of the critical illness, morbidity and mortality. This condition is characterized by low serum T3 levels, high rT3 levels, normal or low T4 levels, and normal or low TSH levels. Previous studies have shown a relationship between NTIS (nonth",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06154382",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Routine Use of RUSH Protocol in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT06361225",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "The RUSH protocol has been used for several years for the rapid evaluation of a patient admitted to the emergency room with shock. Traditionally, its use was especially common in trauma victims, but later its use was extended to patients admitted to the emergency room with shock from any reason. The protocol includes rapid assessment with the guideness of ultrasound of heart contraction, assessment for pleural effusions, assessment of intra-abdominal blood (FAST), diagnosis of venous thrombosis ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06361225",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Vitamin C Administration and Triglycerides Level in Critical Care Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06206759",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "Vitamin C (ascorbic acid) is a water-soluble vitamin with antioxidant properties. Previous studies showed that the administration of vitamin C was associated with decreased triglyceride (TG) levels in ambulatory patients, especially in patients with type 2 diabetes. The decrease in TG level was more significant the younger the patient's age (less than 52.8 years), the longer the administration of vitamin C lasted (over 12 weeks) and the higher the daily dose was (over 1 gram per day) (2). Howeve",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06206759",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Impact of Blood Cultures Drawn From Arterial Lines on the Incidence of Contamination, Detection of Bacteremia, and Blood Culture Volume",
+        "url": "https://clinicaltrials.gov/study/NCT07183410",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "Taking blood cultures is an important and very common procedure in intensive care units due to the high incidence of sepsis and the need for rapid and accurate identification of bacteremia. However, despite the importance of taking a sufficient volume of blood for the purpose of identifying bacterial growth in the blood, the average blood volume in blood cultures at our institution ranges from 3.5-4 ml per bottle (where the desired volume is 10 ml). Taking an insufficient amount of blood reduces",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07183410",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Patients Who Were Not Admitted to the Intensive Care Unit: Characteristics and Clinical Outcomes. Retrospective Study",
+        "url": "https://clinicaltrials.gov/study/NCT05807997",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "There is extensive medical literature supporting the contribution of intensive care physicians to improvement of clinical outcomes in patients treated in an intensive care unit (1-3). There are many reasons for this contribution, including adherence to evidence-based medical protocols, as well as collaboration between different medical specialties in patient care (4-7). Over the years, several criteria have been formulated for the admission of patients to intensive care (8) according to their me",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05807997",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Reaching a Caloric Goal Using a Gastric Sonar Versus Aspiration of Gastric Contents in Critically Ill Patients Receiving Nasogastric Enteral Nutrition",
+        "url": "https://clinicaltrials.gov/study/NCT06557629",
+        "source": "Meir Medical Center",
+        "author": "",
+        "pubdate": "2026-10-09",
+        "summary": "Enteral nutrition intolerance, manifested in delayed gastric emptying and high gastric residual, is a common problem in critically ill patients in intensive care, with adverse consequences on patients' outcomes. A decrease in the levels of the ghrelin hormone in these patients may contribute to this problem. The gastric residual test (GRV) is used to assess enteral absorption and gastric motility, but the traditional methods can lead to inaccuracy and waste of resources. In recent years, the use",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06557629",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "Risk Factors for Adverse Outcomes in Sepsis",
         "url": "https://clinicaltrials.gov/study/NCT06541600",
@@ -4448,7 +4575,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
         "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
@@ -4460,9 +4589,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07813767",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07813767"
       },
       {
         "title": "Evaluation of Diagnostic Accuracy and Clinical Performance of the UllCORE Bloodstream Infection (BSI) Test",
@@ -4474,9 +4601,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07859852",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07859852"
       },
       {
         "title": "Induction Agent Choice With Early Mortality and Prognostic Outcomes in Critically Ill Patients",
@@ -4488,9 +4613,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07222007",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07222007"
       },
       {
         "title": "An Investigation of The Relationship Between Muscle Mass, Physiological Parameters, and Blood Gas Levels in Adult Patients Hospitalized in The Intensive Care Unit",
@@ -4502,9 +4625,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07866625",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07866625"
       },
       {
         "title": "Psychological Impact of Medical Evacuations on Families of Patients Admitted to Intensive Care Unit for Severe COVID-19",
@@ -4516,9 +4637,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05421182",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05421182"
       },
       {
         "title": "Clinical Evaluation of a Point of Care (POC) Assay to Identify Phenotypes in the Acute Respiratory Distress Syndrome",
@@ -4530,9 +4649,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04009330",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04009330"
       },
       {
         "title": "Prehospital Management of Hypotensive Trauma in HEMS",
@@ -4544,9 +4661,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04760977",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04760977"
       },
       {
         "title": "Lemborexant for Sleep and Delirium Prevention in Elderly ICU Patients",
@@ -4558,9 +4673,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07407400",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07407400"
       },
       {
         "title": "Applying a Case Management Model in a VA Homeless Program",
@@ -4600,9 +4713,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03138733",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03138733"
       },
       {
         "title": "Non-invasive Hemodynamic Optimization of Sepsis in Internal Medicine: a Randomized Study Comparing Therapy Guided by Non-invasive Hemodynamic Indices Versus Standard of Care.",
@@ -4614,9 +4725,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07863323",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07863323"
       },
       {
         "title": "Effect of High Versus Standard Protein Intake in Critically Ill Patients With Acute Kidney Injury Requiring Continuous Renal Replacement Therapy",
@@ -4628,9 +4737,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07596043",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07596043"
       },
       {
         "title": "Molecular Epidemiology of Acute Respiratory Distress Syndrome (ARDS)",
@@ -4642,7 +4749,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT00006496"
+        "nct_id": "NCT00006496",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "IMMUNOREA - Immunological and Inflammatory Determinants Associated With the Prognosis of Intensive Care Patients",
@@ -4654,7 +4763,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07345169"
+        "nct_id": "NCT07345169",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Mechanical Insufflation-Exsufflation in Critically Ill Patients",
@@ -4666,7 +4777,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07420946"
+        "nct_id": "NCT07420946",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Long-Term Recovery and Quality of Life in Sepsis Survivors",
@@ -4678,7 +4791,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07863128"
+        "nct_id": "NCT07863128",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evidence Based QUality Improvement for Prescribing Stewardship in ICU (EQUIPS-ICU)",
@@ -4690,7 +4805,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06666738"
+        "nct_id": "NCT06666738",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
@@ -4730,7 +4847,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07861555"
+        "nct_id": "NCT07861555",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of Targeting Upper Normal Serum Magnesium Levels on Norepinephrine Requirements in Septic Shock Patients",
@@ -4742,7 +4861,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07716956"
+        "nct_id": "NCT07716956",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Peri-Intubation Adverse Airway Events in Critically Ill Patients With Morbid and Super Obesity",
@@ -4754,7 +4875,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07297420"
+        "nct_id": "NCT07297420",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Correlating MicroRNA Changes With Sepsis Outcomes",
@@ -4766,7 +4889,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03929159"
+        "nct_id": "NCT03929159",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Eliminating Severe Maternal Morbidity With Heart Health Doulas Trial",
@@ -4778,7 +4903,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05655936"
+        "nct_id": "NCT05655936",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Point of Care - Sepsis Study",
@@ -4790,7 +4917,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07774013"
+        "nct_id": "NCT07774013",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dynamic SvO2 in Predicting Fluid Responsiveness in Septic Shock",
@@ -4802,7 +4931,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07516236"
+        "nct_id": "NCT07516236",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Study of Cord Blood Derived Mesenchymal Stem Cells for Treatment of Moderate, Severe or Critical Pneumonia",
@@ -8871,22 +9002,23 @@
     ]
   },
   "spotlight": {
-    "pmid": "42565658",
-    "title": "Rethinking Muscle Wasting in Critical Illness: A Systematic Review and Meta-Analysis of Myofiber Size and Protein Turnover.",
+    "pmid": "42560130",
+    "title": "Targeted Temperature Management at 35°C vs. 37°C for Heatstroke in ICU: A Pilot Randomized Controlled Trial.",
     "journal": "Critical care medicine",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42565658/",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42560130/",
     "pubdate": "2026 Oct 1",
-    "study_type": "Meta-Analysis",
-    "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Meta-Analysis, prioritized by evidence level and citation impact.",
+    "study_type": "Randomized Controlled Trial",
+    "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Randomized Controlled Trial, prioritized by evidence level and citation impact.",
     "discussion_prompts": [
       "What is the main clinical question and does the study design answer it well?",
       "Which ICU patients are most likely to benefit from these findings, and who may not?",
       "Would these results change current bedside practice or require further validation?"
     ],
-    "week": "2026-10-03",
-    "generated_at": "2026-10-07T14:37:41+00:00",
+    "week": "2026-10-10",
+    "generated_at": "2026-10-10T09:12:09+00:00",
     "previous_pmids": [
-      "42765454"
+      "42765454",
+      "42565658"
     ]
   },
   "categories": [
@@ -11750,7 +11882,9 @@
           "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
           "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
           "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
-          "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
+          "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42584203",
@@ -12024,9 +12158,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13551861/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/"
         },
         {
           "pmid": "42294965",
@@ -14302,9 +14434,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13551861/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/"
         },
         {
           "pmid": "42377463",
@@ -15349,9 +15479,7 @@
           "pages": "2335-2349",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42267870/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42267870/"
         },
         {
           "pmid": "42377463",
@@ -16232,9 +16360,7 @@
           "pages": "2201-2211",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13533471/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42312687/"
         },
         {
           "pmid": "42307255",
@@ -16271,9 +16397,7 @@
           "pages": "2245-2255",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42307255/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42307255/"
         },
         {
           "pmid": "42658259",
@@ -16487,9 +16611,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13551861/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42706573/"
         },
         {
           "pmid": "42223327",

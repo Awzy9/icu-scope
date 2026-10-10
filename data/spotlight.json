@@ -1,19 +1,20 @@
 {
-  "pmid": "42565658",
-  "title": "Rethinking Muscle Wasting in Critical Illness: A Systematic Review and Meta-Analysis of Myofiber Size and Protein Turnover.",
+  "pmid": "42560130",
+  "title": "Targeted Temperature Management at 35°C vs. 37°C for Heatstroke in ICU: A Pilot Randomized Controlled Trial.",
   "journal": "Critical care medicine",
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42565658/",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42560130/",
   "pubdate": "2026 Oct 1",
-  "study_type": "Meta-Analysis",
-  "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Meta-Analysis, prioritized by evidence level and citation impact.",
+  "study_type": "Randomized Controlled Trial",
+  "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Randomized Controlled Trial, prioritized by evidence level and citation impact.",
   "discussion_prompts": [
     "What is the main clinical question and does the study design answer it well?",
     "Which ICU patients are most likely to benefit from these findings, and who may not?",
     "Would these results change current bedside practice or require further validation?"
   ],
-  "week": "2026-10-03",
-  "generated_at": "2026-10-07T14:37:41+00:00",
+  "week": "2026-10-10",
+  "generated_at": "2026-10-10T09:12:09+00:00",
   "previous_pmids": [
-    "42765454"
+    "42765454",
+    "42565658"
   ]
 }
