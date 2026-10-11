@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T09:12:48+00:00",
+  "generated_at": "2026-10-11T09:28:09+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -326,9 +326,7 @@
         "pages": "2601-2612",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632807/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42584185/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42584185/"
       }
     ]
   },
@@ -4172,6 +4170,31 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42788067/"
       },
       {
+        "pmid": "42855915",
+        "title": "Exploring Nurses' Experiences of Autonomy in Intensive Care Units: A Qualitative Descriptive Study.",
+        "journal": "Journal of nursing management",
+        "pubdate": "2026",
+        "authors": [
+          "Haji Assa AS",
+          "Alharthi SM",
+          "Alqarni FH",
+          "Mandili AB",
+          "Alnefaie SA",
+          "Alharbi SA"
+        ],
+        "doi": "10.1155/jonm/1385907",
+        "abstract": "BACKGROUND: Nursing autonomy is essential in intensive care units (ICUs). However, there is limited understanding of how nurses perceive autonomy within their practice. AIM: To explore nurses' perception and experience of autonomy in ICUs. DESIGN: A qualitative descriptive study. METHODS: The study was conducted with 14 ICU nurses through interviews from May to August 2025. Nurses' characteristics were described, and interviews were transcribed verbatim and analyzed using a primarily inductive, semantic codebook thematic analysis informed by Braun and Clarke's six-phase framework. RESULTS: Seven main themes and 25 subthemes emerged from the interviews, revealing personal and organizational factors that influence nursing autonomy in ICUs. The themes were as follows: nursing autonomy's definition and perception, clinical practices, facilitators, barriers, perceived influence on patient care, perceived influence on nurse personal and professional development, and future advancements. CONCLUSION: The findings provide insight into ICU nurses' experiences and perceptions of autonomy. Nurses reported that autonomy was influenced by clinical competence, organizational support, and clear guidelines. Nurses perceived that independent nursing care and timely actions undertaken under approved protocols could support patient care, professional confidence, and job satisfaction. Limited decision-making authority, inadequate staffing, and unclear institutional support were reported as barriers. Nursing autonomy could strengthen nurses' confidence and job satisfaction, which nurses perceived as contributing to better patient care. IMPLICATIONS FOR NURSING MANAGEMENT: The findings can guide nurse managers in implementing structured competency-based education, reinforcing clearly defined scopes of practice that are consistent with institutional policies, and adopting supportive leadership practices to promote nursing autonomy. Hospital administrators and national policymakers can further use the findings to advance nursing practice through developing organizational and regulatory frameworks required to authorize and safely support expanded autonomous practice.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "2026",
+        "issue": "1",
+        "pages": "e1385907",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42855915/"
+      },
+      {
         "pmid": "42340792",
         "title": "CT-Assessed Sarcopenia Combined with Laboratory Inflammatory Markers for Outcome Prediction in Critically Ill, Pulmonary, and Geriatric Patients: A Systematic Review and Meta-Analysis.",
         "journal": "La Clinica terapeutica",
@@ -4415,9 +4438,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07664358",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07664358"
       },
       {
         "title": "CYCLE: A Randomized Clinical Trial of Early In-bed Cycling for Mechanically Ventilated Patients",
@@ -4429,9 +4450,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03471247",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03471247"
       },
       {
         "title": "Empiric Antibiotic Treatment for Septic Patients in the Intensive Care Unit",
@@ -4443,9 +4462,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05924126",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05924126"
       },
       {
         "title": "Characteristics of Patients Intubated for Airway Protection in the Intensive Care Unit and Timing of Tracheostomy",
@@ -4457,9 +4474,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07315477",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07315477"
       },
       {
         "title": "Eltroxin Administration to Patients With Extremely Low T4 Values in the Intensive Care Unit",
@@ -4471,9 +4486,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06154382",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06154382"
       },
       {
         "title": "Routine Use of RUSH Protocol in the Intensive Care Unit",
@@ -4485,9 +4498,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06361225",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06361225"
       },
       {
         "title": "Vitamin C Administration and Triglycerides Level in Critical Care Patients",
@@ -4499,9 +4510,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06206759",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06206759"
       },
       {
         "title": "Impact of Blood Cultures Drawn From Arterial Lines on the Incidence of Contamination, Detection of Bacteremia, and Blood Culture Volume",
@@ -4513,9 +4522,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07183410",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07183410"
       },
       {
         "title": "Patients Who Were Not Admitted to the Intensive Care Unit: Characteristics and Clinical Outcomes. Retrospective Study",
@@ -4527,9 +4534,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05807997",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05807997"
       },
       {
         "title": "Reaching a Caloric Goal Using a Gastric Sonar Versus Aspiration of Gastric Contents in Critically Ill Patients Receiving Nasogastric Enteral Nutrition",
@@ -4541,9 +4546,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06557629",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06557629"
       },
       {
         "title": "Risk Factors for Adverse Outcomes in Sepsis",
@@ -4575,9 +4578,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
         "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
@@ -4701,7 +4702,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07069010"
+        "nct_id": "NCT07069010",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ceftobiprole in the Treatment of Patients With Staphylococcus Aureus Bacteremia",
@@ -4749,9 +4752,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT00006496",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT00006496"
       },
       {
         "title": "IMMUNOREA - Immunological and Inflammatory Determinants Associated With the Prognosis of Intensive Care Patients",
@@ -4763,9 +4764,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07345169",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07345169"
       },
       {
         "title": "Mechanical Insufflation-Exsufflation in Critically Ill Patients",
@@ -4777,9 +4776,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07420946",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07420946"
       },
       {
         "title": "Long-Term Recovery and Quality of Life in Sepsis Survivors",
@@ -4791,9 +4788,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07863128",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07863128"
       },
       {
         "title": "Evidence Based QUality Improvement for Prescribing Stewardship in ICU (EQUIPS-ICU)",
@@ -4805,9 +4800,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06666738",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06666738"
       },
       {
         "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
@@ -4847,9 +4840,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07861555",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07861555"
       },
       {
         "title": "Effect of Targeting Upper Normal Serum Magnesium Levels on Norepinephrine Requirements in Septic Shock Patients",
@@ -4861,9 +4852,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07716956",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07716956"
       },
       {
         "title": "Peri-Intubation Adverse Airway Events in Critically Ill Patients With Morbid and Super Obesity",
@@ -4875,9 +4864,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07297420",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07297420"
       },
       {
         "title": "Correlating MicroRNA Changes With Sepsis Outcomes",
@@ -4889,9 +4876,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03929159",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03929159"
       },
       {
         "title": "Eliminating Severe Maternal Morbidity With Heart Health Doulas Trial",
@@ -4903,9 +4888,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05655936",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05655936"
       },
       {
         "title": "Point of Care - Sepsis Study",
@@ -4917,9 +4900,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07774013",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07774013"
       },
       {
         "title": "Dynamic SvO2 in Predicting Fluid Responsiveness in Septic Shock",
@@ -4931,9 +4912,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07516236",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07516236"
       },
       {
         "title": "Study of Cord Blood Derived Mesenchymal Stem Cells for Treatment of Moderate, Severe or Critical Pneumonia",
@@ -4945,7 +4924,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04565665"
+        "nct_id": "NCT04565665",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Per-procedural Antibiotic Prophylaxis in Patients Undergoing Transcatheter Aortic Valve Implantation Trial",
@@ -4957,7 +4938,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07442357"
+        "nct_id": "NCT07442357",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Intensive Care Platform Trial",
@@ -4969,7 +4952,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06667999"
+        "nct_id": "NCT06667999",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Presepsin Diagnostic Performance in Severe Burn Sepsis",
@@ -4981,7 +4966,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07060560"
+        "nct_id": "NCT07060560",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Oral Care Apparatus for Intubated Patients",
@@ -4993,7 +4980,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06709183"
+        "nct_id": "NCT06709183",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
@@ -5029,7 +5018,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05189925"
+        "nct_id": "NCT05189925",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
@@ -5041,7 +5032,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07555041"
+        "nct_id": "NCT07555041",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
@@ -5065,7 +5058,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05600062"
+        "nct_id": "NCT05600062",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Rezafungin Peritoneal Diffusion for Intra-abdominal Candidiasis",
@@ -5077,7 +5072,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07093203"
+        "nct_id": "NCT07093203",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "SKİN PROTECTİVE BARRİER FİLM İN CENTRAL VENOUS CATHETER CARE İN INTENSİVE CARE PATİENTS",
@@ -5089,7 +5086,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07855835"
+        "nct_id": "NCT07855835",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Timing of Complications in the First 24 Hours After Admission to a Postoperative",
@@ -5101,7 +5100,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07856537"
+        "nct_id": "NCT07856537",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "ICU Fluid Utilization Survey in Southeast Asia",
@@ -5113,7 +5114,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06034990"
+        "nct_id": "NCT06034990",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Multicenter Symphony IL-6 Monitoring Sepsis ICU Validation Study",
@@ -5149,7 +5152,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07851545"
+        "nct_id": "NCT07851545",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Study of Subcutaneous Interstitial Pressure During Sepsis",
@@ -5161,7 +5166,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03818269"
+        "nct_id": "NCT03818269",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Human vs Machine: a RCT Comparing Traditional In-person Instruction, AI Versus VR for Learning Basic CCE",
@@ -5173,7 +5180,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06355557"
+        "nct_id": "NCT06355557",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "WIN Ratio Analysis to Determine a Strategy of Non- Invasive SUpport for Respiratory Failure in the EmeRgency Department",
@@ -5185,7 +5194,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07558265"
+        "nct_id": "NCT07558265",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Physiological Effects of Continuous Negative External Pressure for Acute Hypoxemic Respiratory Failure",
@@ -5197,7 +5208,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05675345"
+        "nct_id": "NCT05675345",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Respiratory Physiotherapy and Diaphragm Thickness in Ventilated ICU Patients",
@@ -5209,7 +5222,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07538102"
+        "nct_id": "NCT07538102",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Study of Obese Patients Comparing Two Vancomycin Loading Dose Regimens",
@@ -5221,7 +5236,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02764359"
+        "nct_id": "NCT02764359",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
@@ -5261,7 +5278,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05123755"
+        "nct_id": "NCT05123755",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Multicenter Symphony™ IL-6 Monitoring Sepsis ED Pilot Study",
@@ -5273,7 +5292,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07425587"
+        "nct_id": "NCT07425587",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Predicting Early Circulatory Deterioration After Short-Acting Beta-Blocker Treatment in Intensive Care Patients",
@@ -5285,7 +5306,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07846995"
+        "nct_id": "NCT07846995",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Behavioral Economic & Staffing Strategies in the ICU",
@@ -5297,7 +5320,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06184945"
+        "nct_id": "NCT06184945",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparison of Traditional Dysphagia Therapy and Developed Protocol for Dysphagia Patients in Intensive Care Unit",
@@ -5309,7 +5334,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07005427"
+        "nct_id": "NCT07005427",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Continuous Glucose Monitoring in the Intensive Care Unit",
@@ -11882,9 +11909,7 @@
           "ai_key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
           "ai_summary": "This study used a large Japanese ICU registry to investigate the effects of renal replacement therapy (RRT) on hospital mortality. While RRT was associated with higher hospital mortality overall, the study found that certain subgroups of patients may benefit from RRT, such as those with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
           "ai_significance": "These findings suggest that RRT may not be beneficial for all critically ill patients, and that a more nuanced approach to its use is needed, taking into account individual patient characteristics.",
-          "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider RRT in patients with elevated serum creatinine, reduced urine output, and elevated blood urea nitrogen levels."
         },
         {
           "pmid": "42584203",
