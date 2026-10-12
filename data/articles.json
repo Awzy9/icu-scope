@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T09:28:09+00:00",
+  "generated_at": "2026-10-12T09:58:46+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -334,6 +334,18 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "EMCrit Explosion Wee – F/u with the 2026 ACEP Sedation Guidelines Authors",
+        "url": "https://emcrit.org/emcrit/wee-sedation-guidelines-author/",
+        "source": "EMCrit",
+        "author": "Scott Weingart, MD FCCM",
+        "pubdate": "2026-10-11",
+        "summary": "Discussion with the ACEP Sedation Guidelines Author EMCrit Project by Scott Weingart, MD FCCM .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "EMCrit 435 – Procedural Sedation – Part VI – Guidelines, Definitions, and Boundaries in 2026",
         "url": "https://emcrit.org/emcrit/procedural-sedation-part-vi/",
         "source": "EMCrit",
@@ -525,7 +537,9 @@
         "ai_key_stats": "",
         "ai_summary": "This commentary discusses the lack of randomized controlled trials examining the efficacy of oseltamivir, citing past instances of Roche hiding borderline efficacy results for profit.",
         "ai_significance": "This matters for ICU clinical practice as it highlights the importance of critically evaluating pharmaceutical efficacy and the need for transparent clinical trials.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza",
@@ -1054,6 +1068,58 @@
         "ai_summary": "Researchers studied 2935 critically ill adults in a Brazilian ICU to identify risk factors for acute kidney injury (AKI). They found that several factors, including age, chronic liver disease, and high lactate levels, were associated with AKI. The proportion of AKI cases classified as KDIGO stage 3 increased after day 7.",
         "ai_significance": "These findings highlight the importance of early recognition of risk factors for AKI in critically ill patients, supporting the implementation of kidney-protective care strategies in the ICU.",
         "ai_rounds_takeaway": "Consider early risk assessment and kidney-protective care in critically ill patients with multiple comorbidities or high lactate levels."
+      },
+      {
+        "pmid": "42859779",
+        "title": "Clinical practice guideline for renal replacement therapy in critically ill patients with acute kidney injury (2026 edition).",
+        "journal": "Journal of intensive medicine",
+        "pubdate": "2026 Dec",
+        "authors": [
+          "Guideline working group of Chinese Society of Critical Care",
+          "Kang Y",
+          "Guan X",
+          "Chen D"
+        ],
+        "doi": "10.1016/j.jointm.2026.08.001",
+        "abstract": "Acute kidney injury (AKI) is a common and severe complication in critically ill patients, associated with high morbidity and mortality. Renal replacement therapy (RRT) is a vital life-support modality for critically ill patients with AKI. However, there remains a lack of unified clinical standards for core issues including the timing of RRT initiation, treatment modality, anticoagulation strategy, and weaning from RRT. In response, the Chinese Society of Critical Care Medicine organized a multidisciplinary expert panel to develop the \"Clinical practice guideline for RRT in critically ill patients with AKI (2026 edition)\" in accordance with the GRADE approach for grading evidence quality. This guideline was developed through systematic literature retrieval, meta-analysis, and evidence-based medical evidence synthesis, followed by multiple rounds of manuscript review and revision via online and offline meetings of the working group, and final approval by the Standing Committee of the Society. A total of 34 recommendations were finalized, covering key clinical topics including timing of RRT initiation, establishment and maintenance of vascular access, selection of treatment modalities, application of specialized membrane filters, anticoagulation regimens, replacement fluid formulations, prescribed treatment dose, and RRT weaning strategies. This guideline aims to provide scientific, standardized, and clinically actionable guidance for critical care practitioners in China, promoting standardized RRT management in adult critically ill patients with AKI.",
+        "citation_count": 220,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "6",
+        "issue": "6",
+        "pages": "557-577",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13653459/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42859779/",
+        "society": "SCCM",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
+        "pmid": "42859621",
+        "title": "Guidelines for the prevention and treatment of stress ulcers in critically ill patients (2026).",
+        "journal": "Journal of intensive medicine",
+        "pubdate": "2026 Dec",
+        "authors": [
+          "Guideline Working Group of the Chinese Society of Critical Care Medicine",
+          "Kang Y",
+          "Guan X",
+          "Chen D"
+        ],
+        "doi": "10.1016/j.jointm.2026.06.003",
+        "abstract": "Stress ulcers is a common complication in critically ill patients, associated with increased mortality risk and prolonged intensive care unit stay. In recent years, several large-scale clinical studies on risk factors, prevention, and treatment of stress ulcers have provided new evidence for guideline development. Moreover, the lack of standardized protocols for the prevention and treatment of stress ulcers in clinical practice underscores the urgent need for authoritative guidelines to address inconsistent in management strategies. Accordingly, the Chinese Society of Critical Care Medicine established a multidisciplinary expert panel to develop the \"Guidelines for the Prevention and Treatment of Stress Ulcers in Critically Ill Patients(2026)\". Following the Grading of Recommendations Assessment, Development and Evaluation (GRADE) methodology, the guideline formulation process involved proposing clinical questions, literature retrieval and screening, meta-analysis and evidence synthesis, initial formation of recommendation items, panel reviews, three rounds of remote meetings, four rounds of face-to-face meetings, manuscript revisions, and final approval by the Standing Committee of the Society. The guidelines were finalized in the form of 23 evidence-based recommendations. These guidelines cover key aspects of stress ulcer management, including risk factors, prevention, treatment, and adverse effects of acid-suppressive drugs. The aim is to provide evidence-based guidance for healthcare professionals and promote standardized clinical management of stress ulcers in adults.",
+        "citation_count": 312,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "6",
+        "issue": "6",
+        "pages": "537-556",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13653456/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42859621/",
+        "society": "SCCM",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42636654",
@@ -1718,7 +1784,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13579131/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42723449/",
-        "society": null
+        "society": null,
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42481936",
@@ -1892,7 +1960,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study conducted a critical analysis of pain assessment tools in the context of the 2020 IASP definitional update and the 2017 nociplastic mechanistic descriptor. A structured narrative review of 79 studies was performed, evaluating the psychometric properties of various pain assessment instruments. The results highlighted the limitations of neuropathic screening scales and the need for optimal selection based on clinical context and patient characteristics.",
         "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they highlight the importance of selecting the most appropriate pain assessment tool based on the patient's specific needs and context.",
-        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience."
+        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience.",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42262517",
@@ -4184,15 +4254,42 @@
         ],
         "doi": "10.1155/jonm/1385907",
         "abstract": "BACKGROUND: Nursing autonomy is essential in intensive care units (ICUs). However, there is limited understanding of how nurses perceive autonomy within their practice. AIM: To explore nurses' perception and experience of autonomy in ICUs. DESIGN: A qualitative descriptive study. METHODS: The study was conducted with 14 ICU nurses through interviews from May to August 2025. Nurses' characteristics were described, and interviews were transcribed verbatim and analyzed using a primarily inductive, semantic codebook thematic analysis informed by Braun and Clarke's six-phase framework. RESULTS: Seven main themes and 25 subthemes emerged from the interviews, revealing personal and organizational factors that influence nursing autonomy in ICUs. The themes were as follows: nursing autonomy's definition and perception, clinical practices, facilitators, barriers, perceived influence on patient care, perceived influence on nurse personal and professional development, and future advancements. CONCLUSION: The findings provide insight into ICU nurses' experiences and perceptions of autonomy. Nurses reported that autonomy was influenced by clinical competence, organizational support, and clear guidelines. Nurses perceived that independent nursing care and timely actions undertaken under approved protocols could support patient care, professional confidence, and job satisfaction. Limited decision-making authority, inadequate staffing, and unclear institutional support were reported as barriers. Nursing autonomy could strengthen nurses' confidence and job satisfaction, which nurses perceived as contributing to better patient care. IMPLICATIONS FOR NURSING MANAGEMENT: The findings can guide nurse managers in implementing structured competency-based education, reinforcing clearly defined scopes of practice that are consistent with institutional policies, and adopting supportive leadership practices to promote nursing autonomy. Hospital administrators and national policymakers can further use the findings to advance nursing practice through developing organizational and regulatory frameworks required to authorize and safely support expanded autonomous practice.",
-        "citation_count": 0,
+        "citation_count": 18,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "2026",
         "issue": "1",
         "pages": "e1385907",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13653139/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42855915/"
+      },
+      {
+        "pmid": "42860727",
+        "title": "Nurses' Experiences With Artificial Intelligence and the Association Between Clinical Decision-Making and Missed Nursing Care: A Convergent Mixed-Methods Study.",
+        "journal": "Journal of nursing management",
+        "pubdate": "2026",
+        "authors": [
+          "Alanazi FK",
+          "Tawfik AF",
+          "Mahgoub SA",
+          "Alenezi IN",
+          "Atta MHR",
+          "El-Ashry AM",
+          "Lotfy EM",
+          "Yehia AYM"
+        ],
+        "doi": "10.1155/jonm/5948812",
+        "abstract": "INTRODUCTION: Artificial intelligence (AI) is increasingly being incorporated into clinical nursing practice, but evidence remains limited on how nurses experience AI-supported systems and how decision-making orientation relates to missed nursing care (MNC). AIM: To explore nurses' experiences with AI-supported clinical decision support (CDS) and examine associations among clinical decision-making orientation, professional characteristics, and MNC. DESIGN: A convergent parallel mixed-methods study. METHODS: The study was conducted in six hospitals in Beni Suef Governorate, Egypt. The quantitative sample included 210 intensive care unit (ICU) nurses who completed the Nursing Decision-Making Instrument-Revised 2014 (NDMI-R) and the Missed Intensive Nursing Care Scale (MINCS). Fourteen nurses completed semistructured interviews, and all transcripts were included in the thematic analysis. RESULTS: NDMI-R scores showed a small negative bivariate correlation with MNC (r = -0.178, p < 0.01), but the adjusted association was not statistically significant (β = -0.124, p = 0.063). The regression model explained 16.9% of the variance in MNC (adjusted R2 = 14.5%). Years of experience (β = 0.198, p = 0.004) and bachelor's degree or above compared with a technical nursing diploma (β = -0.255, p < 0.001) were significant predictors. The other education contrast, AI training/support and MISSCARE Reasons were not statistically significant. In interviews, nurses described AI-related tools as potentially helpful for alerts, information review, workflow, and communication while also raising concerns about trust, overreliance, empathy, and training. CONCLUSION: Nurses perceived potential benefits from AI-supported tools, but the quantitative findings did not establish an independent effect of AI or a statistically significant adjusted association between decision-making orientation and MNC. These findings support cautious, nurse-centered implementation and further longitudinal evaluation. IMPLICATIONS FOR NURSING MANAGEMENT: Managers should pair any AI-supported CDS implementation with role-specific training, clear accountability, usability monitoring, and safeguards that preserve clinical judgment and humanistic care.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "2026",
+        "issue": "1",
+        "pages": "e5948812",
         "is_open_access": false,
         "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42855915/"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42860727/"
       },
       {
         "pmid": "42340792",
@@ -4406,7 +4503,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed machine learning models to predict 30-day mortality in ICU trauma patients within the first 24 hours after admission. They trained and tested these models using data from two different ICU databases. The models showed promise in predicting mortality risk.",
         "ai_significance": "This study contributes to the development of tools that can help ICU clinicians identify patients at high risk of mortality, potentially guiding resource allocation and monitoring.",
-        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission."
+        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission.",
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "PAUSE-Agents: A Clinician-in-the-Loop Multi-Agent AI Pipeline for ICU-to-Ward Handoff Briefs",
@@ -4702,9 +4801,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07069010",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07069010"
       },
       {
         "title": "Ceftobiprole in the Treatment of Patients With Staphylococcus Aureus Bacteremia",
@@ -4924,9 +5021,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04565665",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04565665"
       },
       {
         "title": "The Per-procedural Antibiotic Prophylaxis in Patients Undergoing Transcatheter Aortic Valve Implantation Trial",
@@ -4938,9 +5033,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07442357",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07442357"
       },
       {
         "title": "The Intensive Care Platform Trial",
@@ -4952,9 +5045,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06667999",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06667999"
       },
       {
         "title": "Presepsin Diagnostic Performance in Severe Burn Sepsis",
@@ -4966,9 +5057,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07060560",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07060560"
       },
       {
         "title": "Oral Care Apparatus for Intubated Patients",
@@ -4980,9 +5069,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06709183",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06709183"
       },
       {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
@@ -5018,9 +5105,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05189925",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05189925"
       },
       {
         "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
@@ -5032,9 +5117,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07555041",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07555041"
       },
       {
         "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
@@ -5058,9 +5141,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05600062",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05600062"
       },
       {
         "title": "Rezafungin Peritoneal Diffusion for Intra-abdominal Candidiasis",
@@ -5072,9 +5153,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07093203",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07093203"
       },
       {
         "title": "SKİN PROTECTİVE BARRİER FİLM İN CENTRAL VENOUS CATHETER CARE İN INTENSİVE CARE PATİENTS",
@@ -5086,9 +5165,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07855835",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07855835"
       },
       {
         "title": "Timing of Complications in the First 24 Hours After Admission to a Postoperative",
@@ -5100,9 +5177,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07856537",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07856537"
       },
       {
         "title": "ICU Fluid Utilization Survey in Southeast Asia",
@@ -5114,9 +5189,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06034990",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06034990"
       },
       {
         "title": "Multicenter Symphony IL-6 Monitoring Sepsis ICU Validation Study",
@@ -5152,9 +5225,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07851545",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07851545"
       },
       {
         "title": "Study of Subcutaneous Interstitial Pressure During Sepsis",
@@ -5166,9 +5237,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03818269",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03818269"
       },
       {
         "title": "Human vs Machine: a RCT Comparing Traditional In-person Instruction, AI Versus VR for Learning Basic CCE",
@@ -5180,9 +5249,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06355557",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06355557"
       },
       {
         "title": "WIN Ratio Analysis to Determine a Strategy of Non- Invasive SUpport for Respiratory Failure in the EmeRgency Department",
@@ -5194,9 +5261,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07558265",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07558265"
       },
       {
         "title": "Physiological Effects of Continuous Negative External Pressure for Acute Hypoxemic Respiratory Failure",
@@ -5208,9 +5273,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05675345",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05675345"
       },
       {
         "title": "Respiratory Physiotherapy and Diaphragm Thickness in Ventilated ICU Patients",
@@ -5222,9 +5285,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07538102",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07538102"
       },
       {
         "title": "Study of Obese Patients Comparing Two Vancomycin Loading Dose Regimens",
@@ -5236,9 +5297,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02764359",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02764359"
       },
       {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
@@ -5278,9 +5337,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05123755",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05123755"
       },
       {
         "title": "Multicenter Symphony™ IL-6 Monitoring Sepsis ED Pilot Study",
@@ -5292,9 +5349,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07425587",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07425587"
       },
       {
         "title": "Predicting Early Circulatory Deterioration After Short-Acting Beta-Blocker Treatment in Intensive Care Patients",
@@ -5306,9 +5361,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07846995",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07846995"
       },
       {
         "title": "Behavioral Economic & Staffing Strategies in the ICU",
@@ -5320,9 +5373,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06184945",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06184945"
       },
       {
         "title": "Comparison of Traditional Dysphagia Therapy and Developed Protocol for Dysphagia Patients in Intensive Care Unit",
@@ -5334,9 +5385,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07005427",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07005427"
       },
       {
         "title": "Continuous Glucose Monitoring in the Intensive Care Unit",
@@ -5348,7 +5397,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06190808"
+        "nct_id": "NCT06190808",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Tetanus Severity Score for Prediction of Mortality in Manifest Tetanus",
@@ -5360,7 +5411,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07512167"
+        "nct_id": "NCT07512167",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
@@ -5792,7 +5845,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
         "ai_significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
-        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
+        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Treatment With Aspirin After Preeclampsia: TAP Trial",
@@ -6336,7 +6391,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
         "ai_significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
@@ -6360,7 +6417,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07102407"
+        "nct_id": "NCT07102407",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Rational Control of Fluid Balance in the Intensive Care Unit",
@@ -6444,7 +6503,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807709"
+        "nct_id": "NCT07807709",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Efficacy and Safety of Cytokine Adsorption and Plasma Exchange in Patients With ACLF and Sepsis",
@@ -6456,7 +6517,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06562803"
+        "nct_id": "NCT06562803",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Combination Cefazolin With Ertapenem for Methicillin-susceptible Staphylococcus Aureus Bacteremia",
@@ -6468,7 +6531,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04886284"
+        "nct_id": "NCT04886284",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Combination of Cytokine Hemosorption and High-volume Hemofiltration in Acute Pancreatitis",
@@ -6480,7 +6545,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05694988"
+        "nct_id": "NCT05694988",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "VoiceLove: An App-Based COMMunication Tool Designed to Address DeliriUm and Improve Family ENgagement and PatIent/Family SatisfaCtion in CriticAlly Ill PaTiEnts (COMMUNICATE)",
@@ -6492,7 +6559,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06923462"
+        "nct_id": "NCT06923462",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "RSV, Influenza, and SARS-CoV-2 Outcomes in Severely Immunosuppressed Adults",
@@ -6504,7 +6573,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07816471"
+        "nct_id": "NCT07816471",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Beta-lactam Intermittent Versus Continuous Infusion and Combination Antibiotic Therapy in Sepsis",
@@ -6516,7 +6587,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05681442"
+        "nct_id": "NCT05681442",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Prevalence and Kinetics of Diaphragmatic Dysfunction in Elderly Patients With Acute Respiratory Distress",
@@ -6528,7 +6601,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04520815"
+        "nct_id": "NCT04520815",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "VENtilation Modalities During Transport of PostoperatIve CRITically Ill Patients to the ICU",
@@ -11937,7 +12012,9 @@
           "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
           "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
           "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
-          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
+          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42593537",
@@ -12051,7 +12128,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42498336",
@@ -12772,7 +12851,9 @@
           "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
           "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
           "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
-          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
+          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42752385",
@@ -14192,7 +14273,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42827265",
@@ -14308,7 +14391,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42587308",
