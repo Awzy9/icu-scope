@@ -1,0 +1,12 @@
+{
+  "name": "continuity-of-care-prototype",
+  "private": true,
+  "type": "module",
+  "description": "Prototype ICU handover site (synthetic data, no authentication). No runtime dependencies.",
+  "scripts": {
+    "start": "node serve.mjs",
+    "lint": "node --check serve.mjs && for f in js/*.js js/views/*.js; do node --check \"$f\" || exit 1; done",
+    "test": "node --test tests/logic.test.mjs",
+    "test:e2e": "node tests/e2e.mjs"
+  }
+}
