@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T09:58:46+00:00",
+  "generated_at": "2026-10-13T09:52:31+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -341,9 +341,7 @@
         "pubdate": "2026-10-11",
         "summary": "Discussion with the ACEP Sedation Guidelines Author EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit 435 – Procedural Sedation – Part VI – Guidelines, Definitions, and Boundaries in 2026",
@@ -413,7 +411,9 @@
         "pubdate": "2026-09-12",
         "summary": "All the literature goodness for September 2026 EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Tall-Tale Heart",
@@ -537,9 +537,7 @@
         "ai_key_stats": "",
         "ai_summary": "This commentary discusses the lack of randomized controlled trials examining the efficacy of oseltamivir, citing past instances of Roche hiding borderline efficacy results for profit.",
         "ai_significance": "This matters for ICU clinical practice as it highlights the importance of critically evaluating pharmaceutical efficacy and the need for transparent clinical trials.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "EMCrit 431 – OB-EMCrit – Life-Threatening Post-Partum Hemorrhage (PPH) with Cho Espinoza",
@@ -1091,9 +1089,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13653459/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42859779/",
-        "society": "SCCM",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "SCCM"
       },
       {
         "pmid": "42859621",
@@ -1117,9 +1113,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13653456/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42859621/",
-        "society": "SCCM",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "SCCM"
       },
       {
         "pmid": "42636654",
@@ -1146,6 +1140,36 @@
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
         "society": "KDIGO"
+      },
+      {
+        "pmid": "42864750",
+        "title": "Glucose control and clinical outcomes in surgical patients: A narrative review.",
+        "journal": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
+        "pubdate": "2026 Oct 12",
+        "authors": [
+          "Kamel AY",
+          "Vanzant E",
+          "Munden A",
+          "Kennedy H",
+          "Rattanasuwan T",
+          "Lemon SJ",
+          "Thompson A",
+          "Rosenthal M"
+        ],
+        "doi": "10.1002/ncp.70193",
+        "abstract": "Perioperative hyperglycemia occurs in up to 40% of noncardiac and 80% of cardiac surgery patients, frequently independent of a diabetes diagnosis; it is driven by the neuroendocrine stress response, inflammatory cytokine release, and postoperative insulin resistance. Elevated glucose promotes protein glycosylation, which impairs wound healing and immune function, and it has been consistently associated with surgical site infection, anastomotic leak, prolonged length of stay, and increased mortality across surgical subspecialties. This narrative review examines biochemical aspects of glycogen metabolism and stress-induced insulin resistance, synthesizes evidence linking hemoglobin A1c (HbA1c) thresholds to surgical outcomes, and summarizes contemporary guidelines from the American Diabetes Association, Endocrine Society, European Society of Cardiology, Society of Critical Care Medicine, and Surviving Sepsis Campaign. Current consensus favors moderate, protocolized glucose targets (generally 100-180 mg/dL) while avoiding iatrogenic hypoglycemia. Preoperative optimization toward an HbA1c near 7%, judicious carbohydrate loading, and avoidance of glycemic extremes offer meaningful, modifiable strategies to improve outcomes in surgical and critically ill surgical patients.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42864750/",
+        "society": "Surviving Sepsis Campaign",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42844600",
@@ -1268,7 +1292,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42730762/",
-        "society": "ESICM"
+        "society": "ESICM",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42705151",
@@ -1784,9 +1810,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13579131/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42723449/",
-        "society": null,
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": null
       },
       {
         "pmid": "42481936",
@@ -1960,9 +1984,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study conducted a critical analysis of pain assessment tools in the context of the 2020 IASP definitional update and the 2017 nociplastic mechanistic descriptor. A structured narrative review of 79 studies was performed, evaluating the psychometric properties of various pain assessment instruments. The results highlighted the limitations of neuropathic screening scales and the need for optimal selection based on clinical context and patient characteristics.",
         "ai_significance": "This study's findings have significant implications for ICU clinical practice, as they highlight the importance of selecting the most appropriate pain assessment tool based on the patient's specific needs and context.",
-        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience.",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "ai_rounds_takeaway": "Consider using a multidimensional pain assessment tool in patients with cognitive impairment or dementia to better capture their pain experience."
       },
       {
         "pmid": "42262517",
@@ -2866,7 +2888,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562014/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42729399/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42763706",
@@ -2980,6 +3004,37 @@
   "ksa": {
     "window_days": 365,
     "articles": [
+      {
+        "pmid": "42862327",
+        "title": "Association of 24-hours net positive fluid balance with log-transformed vancomycin trough concentrations in the early phase of therapy among critically ill patients.",
+        "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+        "pubdate": "2026 Oct 12",
+        "authors": [
+          "Ishaqui AA",
+          "Orayj K",
+          "Mallhi TH",
+          "Ahmad SA",
+          "Alshahrani SM",
+          "Asiri R",
+          "Iqbal A",
+          "Khalil AAA",
+          "Kaddoura MA",
+          "Maqsood MB",
+          "Farooq J",
+          "Kumar N"
+        ],
+        "doi": "10.1007/s00210-026-05974-7",
+        "abstract": "Early vancomycin troughs are frequently low in critical illness and fluid accumulation may contribute through distribution effects. This study estimated the association between net positive fluid balance and early vancomycin troughs as a hypothesis-generating analysis and explored variation across early-therapy windows and by hypoalbuminemia. A retrospective cohort study used ICU electronic health record data from MIMIC-IV. ICU stays with a timing-validated trough were included. The primary cohort N = 255 required at least 80% EMAR dose capture in the prior 24 h and delta serum creatinine at or below 0.2 mg/dL across the 48 h before trough and trough within 72 h of first IV dose. Net fluid balance in the prior 24 h was modeled per + 5 L. Outcome was log trough. Models adjusted for serum creatinine and administered dose and administration count in the prior 24 h. Sensitivity windows were within 48 h (N = 162) and within 96 h (N = 289). Hypoalbuminemia below 3 g/dL was explored in the measured subset. Median trough was 14.00 mg/L (IQR 10.15 to 18.15) and 62 of 255 were below 10 mg/L (24.3%). The point estimate suggested an 11.7% lower trough concentration per + 5 L net positive balance (β =  - 0.1247; SE = 0.079; p = 0.115), but the 95% CI (- 24.4% to + 3.1%) included no association. Serum creatinine had a positive coefficient (β = 0.2995; p = 0.061). Point estimates were similar across early-therapy windows with all confidence intervals including no association. The exploratory albumin interaction was imprecise and limited by substantial missingness and small subgroup sizes. The point estimate suggested lower early vancomycin troughs with higher net positive fluid balance, but the confidence interval included no association. These hypothesis-generating findings require prospective validation to clarify whether fluid balance is associated with early trough concentrations and area under the curve exposure.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42862327/"
+      },
       {
         "pmid": "42753314",
         "title": "Professional self-efficacy as a mediator and moderator between workaholism and work-related quality of life in intensive care unit nurses: A multicentre cross-sectional study.",
@@ -4488,7 +4543,9 @@
         "ai_key_stats": "n=1234, RR 0.83 (95% CI 0.72-0.96), ARR 3.1%, NNT 32, p=0.02",
         "ai_summary": "This systematic review and meta-analysis evaluated the effect of prophylactic scheduled antiemetics on aspiration events in hospitalized adults. The results showed that prophylactic antiemetics reduced the risk of aspiration events. The review included 15 studies with a total of 1234 participants.",
         "ai_significance": "This study's findings suggest that prophylactic antiemetics may be a useful strategy to prevent aspiration events in hospitalized adults, potentially reducing morbidity and mortality.",
-        "ai_rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events."
+        "ai_rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events.",
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "First-24-hour machine learning for 30-day mortality prediction in ICU trauma patients: development in MIMIC-III and cross-database evaluation in MIMIC-IV",
@@ -4503,9 +4560,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed machine learning models to predict 30-day mortality in ICU trauma patients within the first 24 hours after admission. They trained and tested these models using data from two different ICU databases. The models showed promise in predicting mortality risk.",
         "ai_significance": "This study contributes to the development of tools that can help ICU clinicians identify patients at high risk of mortality, potentially guiding resource allocation and monitoring.",
-        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission.",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using machine learning-based mortality risk stratification tools in ICU trauma patients within the first 24 hours after admission."
       },
       {
         "title": "PAUSE-Agents: A Clinician-in-the-Loop Multi-Agent AI Pipeline for ICU-to-Ward Handoff Briefs",
@@ -5397,9 +5452,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06190808",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06190808"
       },
       {
         "title": "Tetanus Severity Score for Prediction of Mortality in Manifest Tetanus",
@@ -5411,9 +5464,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07512167",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07512167"
       },
       {
         "title": "Optimizing Care in Critically Ill at UCHealth by Liberalizing the Target O2 in Mechanically-ventilated ICU Patients",
@@ -5525,7 +5576,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
         "ai_significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Open-Label Study to Assess Safety and Time to Catheter-related Bloodstream Infections (CRBSI) in Subjects From Birth to < 18 Years of Age",
@@ -5541,7 +5594,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
         "ai_significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Returning to Everyday Tasks Utilizing Rehabilitation Networks-III (RETURN-III)",
@@ -5845,9 +5900,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluates an ICU-based intervention to prevent posttraumatic stress symptoms in adult patients after cardiac surgery with cardiopulmonary bypass. Participants were randomly assigned to either an intervention group or a control group. The study aims to determine if the intervention is effective in preventing posttraumatic stress symptoms.",
         "ai_significance": "Preventing posttraumatic stress symptoms in ICU patients after cardiac surgery is crucial for their mental health and quality of life. This study may provide valuable insights into effective interventions for this population.",
-        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider referring patients for a narrative exposure intervention after cardiac surgery with cardiopulmonary bypass if they are at risk for posttraumatic stress symptoms."
       },
       {
         "title": "Treatment With Aspirin After Preeclampsia: TAP Trial",
@@ -6391,9 +6444,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
         "ai_significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
@@ -6417,9 +6468,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07102407",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07102407"
       },
       {
         "title": "Impact of Rational Control of Fluid Balance in the Intensive Care Unit",
@@ -6503,9 +6552,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807709",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07807709"
       },
       {
         "title": "Efficacy and Safety of Cytokine Adsorption and Plasma Exchange in Patients With ACLF and Sepsis",
@@ -6517,9 +6564,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06562803",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06562803"
       },
       {
         "title": "Combination Cefazolin With Ertapenem for Methicillin-susceptible Staphylococcus Aureus Bacteremia",
@@ -6531,9 +6576,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04886284",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04886284"
       },
       {
         "title": "Combination of Cytokine Hemosorption and High-volume Hemofiltration in Acute Pancreatitis",
@@ -6545,9 +6588,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05694988",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05694988"
       },
       {
         "title": "VoiceLove: An App-Based COMMunication Tool Designed to Address DeliriUm and Improve Family ENgagement and PatIent/Family SatisfaCtion in CriticAlly Ill PaTiEnts (COMMUNICATE)",
@@ -6559,9 +6600,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06923462",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06923462"
       },
       {
         "title": "RSV, Influenza, and SARS-CoV-2 Outcomes in Severely Immunosuppressed Adults",
@@ -6573,9 +6612,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07816471",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07816471"
       },
       {
         "title": "Beta-lactam Intermittent Versus Continuous Infusion and Combination Antibiotic Therapy in Sepsis",
@@ -6587,9 +6624,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05681442",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05681442"
       },
       {
         "title": "Prevalence and Kinetics of Diaphragmatic Dysfunction in Elderly Patients With Acute Respiratory Distress",
@@ -6601,9 +6636,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04520815",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04520815"
       },
       {
         "title": "VENtilation Modalities During Transport of PostoperatIve CRITically Ill Patients to the ICU",
@@ -6615,7 +6648,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07646249"
+        "nct_id": "NCT07646249",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Human Neutrophil Lipocalin as an Aid in the Diagnosis of Bacterial Infection in the Emergency Department",
@@ -6627,7 +6662,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07796945"
+        "nct_id": "NCT07796945",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Study on Monitoring the Plasma Concentration of Ceftazidime-Avibactam in Critically Ill Patients",
@@ -6639,7 +6676,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05413343"
+        "nct_id": "NCT05413343",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of the Choice of Gastric Tube Placement Sites on the Incidence of Ventilator Associated Pneumonia",
@@ -6651,7 +6690,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05915663"
+        "nct_id": "NCT05915663",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Perpetual Observational Study - Ventilator Associated Pneumonia",
@@ -6663,7 +6704,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05719259"
+        "nct_id": "NCT05719259",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Diagnostic Accuracy of Hepatic Vein SFF Compared With TAPSE for Assessment of RV Systolic Function in Mechanically Ventilated Patients",
@@ -6675,7 +6718,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07732114"
+        "nct_id": "NCT07732114",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Yoghurt Supplementation In Critically Ill Adults",
@@ -6687,7 +6732,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07812415"
+        "nct_id": "NCT07812415",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Effects of Ringers Lactate Versus Sterofundin/ Plasmalyte Solution in Patients With Sepsis",
@@ -6699,7 +6746,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07239713"
+        "nct_id": "NCT07239713",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Incidence and Determinants of Joint Contractures in Mechanically Ventilated ICU Patients",
@@ -6711,7 +6760,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07339397"
+        "nct_id": "NCT07339397",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia",
@@ -6727,7 +6778,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
         "ai_significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Development of Context-Adapted Quality Indicators for Early Sepsis Care in Sub-Saharan Africa - A Modified Delphi Consensus Procedure",
@@ -6751,7 +6804,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07801092"
+        "nct_id": "NCT07801092",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "HERMES: International Survey and Portable External Power Evaluation During Respiratory Support Transport",
@@ -6763,7 +6818,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807189"
+        "nct_id": "NCT07807189",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Trial of Therapeutic Hypothermia in Patients With ARDS",
@@ -6775,7 +6832,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04545424"
+        "nct_id": "NCT04545424",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Empiric Anti-Mycobacterium Tuberculosis Therapy for Sepsis in Sub-Saharan Africa",
@@ -6787,7 +6846,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04618198"
+        "nct_id": "NCT04618198",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "PICS: Subtitle Cardiac Dysfunction in Older Sepsis Survivors",
@@ -6799,7 +6860,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02276417"
+        "nct_id": "NCT02276417",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Incremental Dead Space Versus Capping Trial Before Tracheostomy Decannulation",
@@ -10112,7 +10175,9 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42568095",
@@ -12012,9 +12077,7 @@
           "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
           "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
           "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
-          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
         },
         {
           "pmid": "42593537",
@@ -12128,9 +12191,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
         },
         {
           "pmid": "42498336",
@@ -12178,7 +12239,9 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42706573",
@@ -12851,9 +12914,7 @@
           "ai_key_stats": "n=973, no independent association between NUF rate and 28-day mortality, fluid balance change linked to adverse outcomes including 28-day mortality",
           "ai_summary": "This study investigated the relationship between net ultrafiltration rate and fluid balance changes in critically ill patients receiving continuous renal replacement therapy. The results showed that fluid balance change, not net ultrafiltration rate, was the key determinant of outcome. The study found that more positive fluid balance changes were linked to adverse clinical outcomes.",
           "ai_significance": "These findings suggest that clinicians should prioritize achieving patient-specific fluid balance targets over focusing solely on net ultrafiltration rate in critically ill patients receiving CRRT.",
-          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider using net ultrafiltration as a means to achieve a more negative fluid balance in critically ill patients receiving CRRT."
         },
         {
           "pmid": "42752385",
@@ -14273,9 +14334,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42725835/"
         },
         {
           "pmid": "42827265",
@@ -14391,9 +14450,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42584666/"
         },
         {
           "pmid": "42587308",
@@ -14418,7 +14475,9 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42568095",

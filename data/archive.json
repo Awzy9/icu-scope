@@ -10368,6 +10368,34 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13653456/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42859621/",
       "society": "SCCM"
+    },
+    "42864750": {
+      "pmid": "42864750",
+      "title": "Glucose control and clinical outcomes in surgical patients: A narrative review.",
+      "journal": "Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition",
+      "pubdate": "2026 Oct 12",
+      "authors": [
+        "Kamel AY",
+        "Vanzant E",
+        "Munden A",
+        "Kennedy H",
+        "Rattanasuwan T",
+        "Lemon SJ",
+        "Thompson A",
+        "Rosenthal M"
+      ],
+      "doi": "10.1002/ncp.70193",
+      "abstract": "Perioperative hyperglycemia occurs in up to 40% of noncardiac and 80% of cardiac surgery patients, frequently independent of a diabetes diagnosis; it is driven by the neuroendocrine stress response, inflammatory cytokine release, and postoperative insulin resistance. Elevated glucose promotes protein glycosylation, which impairs wound healing and immune function, and it has been consistently associated with surgical site infection, anastomotic leak, prolonged length of stay, and increased mortality across surgical subspecialties. This narrative review examines biochemical aspects of glycogen metabolism and stress-induced insulin resistance, synthesizes evidence linking hemoglobin A1c (HbA1c) thresholds to surgical outcomes, and summarizes contemporary guidelines from the American Diabetes Association, Endocrine Society, European Society of Cardiology, Society of Critical Care Medicine, and Surviving Sepsis Campaign. Current consensus favors moderate, protocolized glucose targets (generally 100-180 mg/dL) while avoiding iatrogenic hypoglycemia. Preoperative optimization toward an HbA1c near 7%, judicious carbohydrate loading, and avoidance of glycemic extremes offer meaningful, modifiable strategies to improve outcomes in surgical and critically ill surgical patients.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Review",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42864750/",
+      "society": "Surviving Sepsis Campaign"
     }
   },
   "preprints": {
@@ -16110,6 +16138,37 @@
       "is_open_access": false,
       "pmc_url": null,
       "url": "https://pubmed.ncbi.nlm.nih.gov/42860727/"
+    },
+    "42862327": {
+      "pmid": "42862327",
+      "title": "Association of 24-hours net positive fluid balance with log-transformed vancomycin trough concentrations in the early phase of therapy among critically ill patients.",
+      "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
+      "pubdate": "2026 Oct 12",
+      "authors": [
+        "Ishaqui AA",
+        "Orayj K",
+        "Mallhi TH",
+        "Ahmad SA",
+        "Alshahrani SM",
+        "Asiri R",
+        "Iqbal A",
+        "Khalil AAA",
+        "Kaddoura MA",
+        "Maqsood MB",
+        "Farooq J",
+        "Kumar N"
+      ],
+      "doi": "10.1007/s00210-026-05974-7",
+      "abstract": "Early vancomycin troughs are frequently low in critical illness and fluid accumulation may contribute through distribution effects. This study estimated the association between net positive fluid balance and early vancomycin troughs as a hypothesis-generating analysis and explored variation across early-therapy windows and by hypoalbuminemia. A retrospective cohort study used ICU electronic health record data from MIMIC-IV. ICU stays with a timing-validated trough were included. The primary cohort N = 255 required at least 80% EMAR dose capture in the prior 24 h and delta serum creatinine at or below 0.2 mg/dL across the 48 h before trough and trough within 72 h of first IV dose. Net fluid balance in the prior 24 h was modeled per + 5 L. Outcome was log trough. Models adjusted for serum creatinine and administered dose and administration count in the prior 24 h. Sensitivity windows were within 48 h (N = 162) and within 96 h (N = 289). Hypoalbuminemia below 3 g/dL was explored in the measured subset. Median trough was 14.00 mg/L (IQR 10.15 to 18.15) and 62 of 255 were below 10 mg/L (24.3%). The point estimate suggested an 11.7% lower trough concentration per + 5 L net positive balance (β =  - 0.1247; SE = 0.079; p = 0.115), but the 95% CI (- 24.4% to + 3.1%) included no association. Serum creatinine had a positive coefficient (β = 0.2995; p = 0.061). Point estimates were similar across early-therapy windows with all confidence intervals including no association. The exploratory albumin interaction was imprecise and limited by substantial missingness and small subgroup sizes. The point estimate suggested lower early vancomycin troughs with higher net positive fluid balance, but the confidence interval included no association. These hypothesis-generating findings require prospective validation to clarify whether fluid balance is associated with early trough concentrations and area under the curve exposure.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42862327/"
     }
   }
 }
