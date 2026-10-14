@@ -971,13 +971,19 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
-  "url:https://clinicaltrials.gov/study/NCT06541600": {
-    "summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
-    "significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes."
-  },
   "url:https://clinicaltrials.gov/study/NCT00156767": {
     "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
     "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
+  },
+  "url:https://clinicaltrials.gov/study/NCT05875740": {
+    "key_stats": "",
+    "summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
+    "significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
+    "rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment."
+  },
+  "url:https://clinicaltrials.gov/study/NCT06541600": {
+    "summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
+    "significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes."
   },
   "url:https://clinicaltrials.gov/study/NCT05312229": {
     "key_stats": "",
@@ -1324,12 +1330,6 @@
     "summary": "Emergency Medicine pharmacists reviewed blood cultures from patients discharged from the Emergency Department. They found that timely review of blood cultures by pharmacists improved the speed of notification for true positive cultures. This led to better patient outcomes.",
     "significance": "This study highlights the importance of pharmacist involvement in the review of blood cultures, which can lead to earlier notification of patients with positive results and potentially prevent serious complications.",
     "rounds_takeaway": "Consider involving Emergency Medicine pharmacists in the review of blood cultures for patients discharged from the Emergency Department."
-  },
-  "url:https://clinicaltrials.gov/study/NCT05875740": {
-    "key_stats": "",
-    "summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
-    "significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
-    "rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment."
   },
   "url:https://clinicaltrials.gov/study/NCT07744321": {
     "key_stats": "",

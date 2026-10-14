@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T09:52:31+00:00",
+  "generated_at": "2026-10-14T08:09:41+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -411,9 +411,7 @@
         "pubdate": "2026-09-12",
         "summary": "All the literature goodness for September 2026 EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Tall-Tale Heart",
@@ -1167,9 +1165,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42864750/",
-        "society": "Surviving Sepsis Campaign",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "Surviving Sepsis Campaign"
       },
       {
         "pmid": "42844600",
@@ -1292,9 +1288,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42730762/",
-        "society": "ESICM",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "ESICM"
       },
       {
         "pmid": "42705151",
@@ -2888,9 +2882,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562014/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42729399/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42763706",
@@ -4336,15 +4328,44 @@
         ],
         "doi": "10.1155/jonm/5948812",
         "abstract": "INTRODUCTION: Artificial intelligence (AI) is increasingly being incorporated into clinical nursing practice, but evidence remains limited on how nurses experience AI-supported systems and how decision-making orientation relates to missed nursing care (MNC). AIM: To explore nurses' experiences with AI-supported clinical decision support (CDS) and examine associations among clinical decision-making orientation, professional characteristics, and MNC. DESIGN: A convergent parallel mixed-methods study. METHODS: The study was conducted in six hospitals in Beni Suef Governorate, Egypt. The quantitative sample included 210 intensive care unit (ICU) nurses who completed the Nursing Decision-Making Instrument-Revised 2014 (NDMI-R) and the Missed Intensive Nursing Care Scale (MINCS). Fourteen nurses completed semistructured interviews, and all transcripts were included in the thematic analysis. RESULTS: NDMI-R scores showed a small negative bivariate correlation with MNC (r = -0.178, p < 0.01), but the adjusted association was not statistically significant (β = -0.124, p = 0.063). The regression model explained 16.9% of the variance in MNC (adjusted R2 = 14.5%). Years of experience (β = 0.198, p = 0.004) and bachelor's degree or above compared with a technical nursing diploma (β = -0.255, p < 0.001) were significant predictors. The other education contrast, AI training/support and MISSCARE Reasons were not statistically significant. In interviews, nurses described AI-related tools as potentially helpful for alerts, information review, workflow, and communication while also raising concerns about trust, overreliance, empathy, and training. CONCLUSION: Nurses perceived potential benefits from AI-supported tools, but the quantitative findings did not establish an independent effect of AI or a statistically significant adjusted association between decision-making orientation and MNC. These findings support cautious, nurse-centered implementation and further longitudinal evaluation. IMPLICATIONS FOR NURSING MANAGEMENT: Managers should pair any AI-supported CDS implementation with role-specific training, clear accountability, usability monitoring, and safeguards that preserve clinical judgment and humanistic care.",
-        "citation_count": 0,
+        "citation_count": 28,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "2026",
         "issue": "1",
         "pages": "e5948812",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13655382/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42860727/"
+      },
+      {
+        "pmid": "42866101",
+        "title": "Response to \"Fragility of Observed Associations in Selection of Empirical Antifungal Therapy for Critically Ill Non-Neutropenic Patients\" [Response to Letter].",
+        "journal": "Infection and drug resistance",
+        "pubdate": "2026",
+        "authors": [
+          "Albakri SA",
+          "Aljabri AK",
+          "Alharbi EA",
+          "Alammash BB",
+          "Alabdali SA",
+          "Alahmadi MF",
+          "Almutairi NT",
+          "Alharbi HS",
+          "Alzahrani F",
+          "Alnezary FS"
+        ],
+        "doi": "10.2147/IDR.S639697",
+        "abstract": "",
+        "citation_count": 2,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "19",
+        "issue": "",
+        "pages": "639697",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13656935/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42866101/"
       },
       {
         "pmid": "42340792",
@@ -4543,9 +4564,7 @@
         "ai_key_stats": "n=1234, RR 0.83 (95% CI 0.72-0.96), ARR 3.1%, NNT 32, p=0.02",
         "ai_summary": "This systematic review and meta-analysis evaluated the effect of prophylactic scheduled antiemetics on aspiration events in hospitalized adults. The results showed that prophylactic antiemetics reduced the risk of aspiration events. The review included 15 studies with a total of 1234 participants.",
         "ai_significance": "This study's findings suggest that prophylactic antiemetics may be a useful strategy to prevent aspiration events in hospitalized adults, potentially reducing morbidity and mortality.",
-        "ai_rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events.",
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using prophylactic scheduled antiemetics in high-risk hospitalized adults to reduce the risk of aspiration events."
       },
       {
         "title": "First-24-hour machine learning for 30-day mortality prediction in ICU trauma patients: development in MIMIC-III and cross-database evaluation in MIMIC-IV",
@@ -4582,6 +4601,152 @@
   "trials": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "Adrenal Function in Critical Illness",
+        "url": "https://clinicaltrials.gov/study/NCT00156767",
+        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT00156767",
+        "ai_key_stats": "",
+        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "Correlation of Memory CD8+ T Cells With Sepsis Severity and Mortality: a Single-center, Unblinded, Prospective, Non-interventional, Observational Study",
+        "url": "https://clinicaltrials.gov/study/NCT05875740",
+        "source": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "Sepsis is defined as a life-threatening organ dysfunction that is caused by a dysregulated host response to infection. Severe sepsis is the most common cause of death among critically ill patients in non-coronary intensive care units (ICU). Sustained excessive inflammation and immune dysfunction have been confirmed to play a key role in organ damage and early death of sepsis patients. Therefore, it is important to reduce excessive inflammatory response mediated by immune cells and pro-inflammato",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05875740",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
+        "ai_significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
+        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "HAP/VAP Diagnosis in Critically Ill Septic Patients Using a Multiplex PCR Array",
+        "url": "https://clinicaltrials.gov/study/NCT05952648",
+        "source": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "Multicenter, randomized, controlled, open-label trial to assess if semiquantitative multiplex PCR assay, as compared to conventional microbiology, can reduce the percentage of patients without microbiological diagnosis in the first 24 hours from HAP/VAP suspicion, thus allowing early de-escalation.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05952648",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Caval Aorta Index for Fluid Optimization in Traumatic Brain Injury",
+        "url": "https://clinicaltrials.gov/study/NCT06940258",
+        "source": "Mansoura University",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "Traumatic brain injury is a leading cause of death and disability in trauma patients. As the primary injury cannot be reversed; management strategies must focus on preventing secondary injury by avoiding hypotension and hypoxia besides, maintaining appropriate cerebral perfusion pressure, which is a surrogate for cerebral blood flow.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06940258",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Safety and Efficacy of Polymyxin B Hemoperfusion (PMX) for Endotoxemic Septic Shock in a Randomized, Open-Label Study",
+        "url": "https://clinicaltrials.gov/study/NCT03901807",
+        "source": "Spectral Diagnostics (US) Inc.",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "Prospective, multicenter, randomized, open-label study of standard of care plus the PMX cartridge versus standard of care alone in patients with endotoxemic septic shock",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03901807",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Adherence to Low Tidal Volume in the Transition to Spontaneous Ventilation in Patients With Acute Respiratory Failure",
+        "url": "https://clinicaltrials.gov/study/NCT06042036",
+        "source": "University of Sao Paulo General Hospital",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "The goal of this observational study is to estimate the prevalence of the use of protective ventilation with low tidal volume ventilation in the transition of spontaneous ventilation modes in patients with hypoxemic acute respiratory failure in ICUs in Latin America and its association with patient outcomes. The main questions it aims to answer are: * what is the prevalence of the use of low tidal volume ventilation (VT \\<8 mL/kg of predicted body weight) in the first 24 hours of spontaneous ven",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06042036",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Combination vs. Monotherapy for Stenotrophomonas Maltophilia Infections",
+        "url": "https://clinicaltrials.gov/study/NCT07593547",
+        "source": "Instituto de Investigación Sanitaria Gregorio Marañón",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "The goal of this multicentre observational study is to analyse the treatment strategies and the outcomes for patients with S. maltophilia infections using target trial emulation methodology. The main question it aims to answer is: • Does combined therapy achieve better results than monotherapy in treating S. maltophilia infections? Researchers will compare groups receiving monotherapy and combined therapy to see if there are differences in all-cause 30-day mortality.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07593547",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Secondary Sclerosis Cholangitis Prospective",
+        "url": "https://clinicaltrials.gov/study/NCT03566797",
+        "source": "Medical University of Graz",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "SC-CIP is increasing in patients after critical illness. Pathogenesis is still largely unclear. Gut microbiome composition, gut permeability, bacterial translocation, inflammation and/or genetic variants contribute to the pathogenesis The aim of this project is to study gut microbiome composition, gut permeability, bacterial translocation, inflammation, bile acid composition and genetic polymorphisms by conducting a prospective cohort study in patients with a high risk to develop SC-CIP.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03566797",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Evaluating the Utility of RELiZORB™ for Treating Feeding Intolerance in Critically Ill Adults With Multi-Organ Failure",
+        "url": "https://clinicaltrials.gov/study/NCT05710315",
+        "source": "Inova Health Care Services",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "The purpose of this research is to determine if the use of RELiZORB™ improves nutrition tolerance and helps critically ill patients meet their nutrition goals. RELiZORB™ is a digestive enzyme cartridge that contains lipase and works as a pancreatic enzyme replacement. It promotes breaking down fat and helps the body absorb it. The device connects with tube feedings to help the body with digestion. RELiZORB™ is approved by the U.S. Food and Drug Administration (FDA) for use with tube feedings in ",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05710315",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Rapid Molecular Diagnosis of Sepsis in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT06624618",
+        "source": "Maastricht University Medical Center",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "Rapid diagnosis of sepsis is crucial for treatment and survival. Currently, blood culture takes 48 hours-5 days to complete. After starting antimicrobial treatment blood culture results are not reliable. As a result, empirical broad spectrum antimicrobial therapy is mostly used. This implies possible antimicrobial over- or under treatment which is associated with increased antimicrobial resistance development. Early identification of the causative pathogen of sepsis will therefore have a major i",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06624618",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "Fibrinogen-to-Albumin Ratio as a Predictor of Acute Respiratory Distress Syndrome in Traumatic Brain Injury",
         "url": "https://clinicaltrials.gov/study/NCT07664358",
@@ -4716,22 +4881,6 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
         "ai_significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": ""
-      },
-      {
-        "title": "Adrenal Function in Critical Illness",
-        "url": "https://clinicaltrials.gov/study/NCT00156767",
-        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
-        "author": "",
-        "pubdate": "2026-10-08",
-        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT00156767",
-        "ai_key_stats": "",
-        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
-        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
         "ai_rounds_takeaway": ""
       },
       {
@@ -5576,9 +5725,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers induced blood-stage malaria in healthy adults to study malaria development, immune response, and transmission to mosquitoes. The study aimed to understand how malaria progresses in people and how it spreads to mosquitoes. Participants were healthy individuals aged 18-54 from the Washington DC area.",
         "ai_significance": "This study contributes to the development of vaccines and treatments for malaria, a disease responsible for millions of cases and deaths worldwide each year.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Open-Label Study to Assess Safety and Time to Catheter-related Bloodstream Infections (CRBSI) in Subjects From Birth to < 18 Years of Age",
@@ -5594,9 +5741,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study assessed the safety and time to Catheter-related Bloodstream Infections (CRBSI) of DefenCath in pediatric patients on chronic hemodialysis for kidney failure.",
         "ai_significance": "Understanding the safety and risk of CRBSI in pediatric patients on hemodialysis is crucial for preventing infections and improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Returning to Everyday Tasks Utilizing Rehabilitation Networks-III (RETURN-III)",
@@ -6648,9 +6793,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07646249",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07646249"
       },
       {
         "title": "Human Neutrophil Lipocalin as an Aid in the Diagnosis of Bacterial Infection in the Emergency Department",
@@ -6662,9 +6805,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07796945",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07796945"
       },
       {
         "title": "Clinical Study on Monitoring the Plasma Concentration of Ceftazidime-Avibactam in Critically Ill Patients",
@@ -6676,9 +6817,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05413343",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05413343"
       },
       {
         "title": "Impact of the Choice of Gastric Tube Placement Sites on the Incidence of Ventilator Associated Pneumonia",
@@ -6690,9 +6829,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05915663",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05915663"
       },
       {
         "title": "Perpetual Observational Study - Ventilator Associated Pneumonia",
@@ -6704,9 +6841,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05719259",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05719259"
       },
       {
         "title": "Diagnostic Accuracy of Hepatic Vein SFF Compared With TAPSE for Assessment of RV Systolic Function in Mechanically Ventilated Patients",
@@ -6718,9 +6853,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07732114",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07732114"
       },
       {
         "title": "Yoghurt Supplementation In Critically Ill Adults",
@@ -6732,9 +6865,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07812415",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07812415"
       },
       {
         "title": "Clinical Effects of Ringers Lactate Versus Sterofundin/ Plasmalyte Solution in Patients With Sepsis",
@@ -6746,9 +6877,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07239713",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07239713"
       },
       {
         "title": "Incidence and Determinants of Joint Contractures in Mechanically Ventilated ICU Patients",
@@ -6760,9 +6889,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07339397",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07339397"
       },
       {
         "title": "Daptomycin vs. Vancomycin for the Treatment of Methicillin Resistant S. Aureus Bacteremia",
@@ -6778,9 +6905,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares the effectiveness of daptomycin and vancomycin in treating MRSA bloodstream infections. The study is a randomized controlled trial that will directly compare these two commonly used therapies. No results are reported.",
         "ai_significance": "This study will provide valuable information for clinicians on the best treatment option for MRSA bacteremia, which is a serious and potentially life-threatening condition.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Development of Context-Adapted Quality Indicators for Early Sepsis Care in Sub-Saharan Africa - A Modified Delphi Consensus Procedure",
@@ -6804,9 +6929,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07801092",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07801092"
       },
       {
         "title": "HERMES: International Survey and Portable External Power Evaluation During Respiratory Support Transport",
@@ -6818,9 +6941,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807189",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07807189"
       },
       {
         "title": "Trial of Therapeutic Hypothermia in Patients With ARDS",
@@ -6832,9 +6953,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04545424",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04545424"
       },
       {
         "title": "Early Empiric Anti-Mycobacterium Tuberculosis Therapy for Sepsis in Sub-Saharan Africa",
@@ -6846,9 +6965,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04618198",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04618198"
       },
       {
         "title": "PICS: Subtitle Cardiac Dysfunction in Older Sepsis Survivors",
@@ -6860,9 +6977,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02276417",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02276417"
       },
       {
         "title": "Incremental Dead Space Versus Capping Trial Before Tracheostomy Decannulation",
@@ -6874,7 +6989,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07810166"
+        "nct_id": "NCT07810166",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Cardiothoracic Critical Care as Subspecialty and Its Core Competencies",
@@ -6886,7 +7003,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06370338"
+        "nct_id": "NCT06370338",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Virtual Reality-based Sensory Stimulation for Delirium Prevention in Intensive Care Units",
@@ -6898,7 +7017,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07806422"
+        "nct_id": "NCT07806422",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Endotoxin Burden Reduction With oXiris in Septic Shock Patients Requiring CRRT",
@@ -6910,7 +7031,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807410"
+        "nct_id": "NCT07807410",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Reexamining Her Cardiovascular Risk - Ottawa WomeN's Longitudinal Cohort Study",
@@ -6922,7 +7045,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05632601"
+        "nct_id": "NCT05632601",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "TwichView-guided Atricurium Dose Adjustment Trial",
@@ -6934,7 +7059,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807046"
+        "nct_id": "NCT07807046",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ultrasound Detection of Body Composition in Critical Care",
@@ -6950,7 +7077,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
         "ai_significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Development and Validation of an Ultrasound-Based Difficult Cannulation Risk Score",
@@ -6978,7 +7107,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT01802099"
+        "nct_id": "NCT01802099",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Platform Trial for Gram Negative Bloodstream Infections",
@@ -6990,7 +7121,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06537609"
+        "nct_id": "NCT06537609",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Sodium Bicarbonate for Critically Ill Patients With Metabolic Acidosis and Acute Kidney Injury",
@@ -7002,7 +7135,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07464431"
+        "nct_id": "NCT07464431",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Versus Deferred De-escalation From Controlled Ventilation After a 48-Hour Landmark of Physiological Stability",
@@ -7014,7 +7149,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07804992"
+        "nct_id": "NCT07804992",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Neurochecks on Sleep in Critically Ill Adults",
@@ -7026,7 +7163,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05864300"
+        "nct_id": "NCT05864300",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Follow-up Trial of GBS-NN/NN2 Vaccine in Healthy Pregnant Women",
@@ -7038,7 +7177,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06592586"
+        "nct_id": "NCT06592586",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Aspiration Training Given With Different Methods",
@@ -7050,7 +7191,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05950425"
+        "nct_id": "NCT05950425",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ventilator Associated Pneumonia Multiplex PCR for Anti-Infective Regimens",
@@ -7062,7 +7205,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06554327"
+        "nct_id": "NCT06554327",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Association of Biomarkers and Gastric Antral Motility Index With Feeding Intolerance in Critically Ill Patients",
@@ -7074,7 +7219,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07178626"
+        "nct_id": "NCT07178626",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ivabradine for Heart Rate Control In Septic Shock",
@@ -7239,18 +7386,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07639359"
-      },
-      {
-        "title": "HAP/VAP Diagnosis in Critically Ill Septic Patients Using a Multiplex PCR Array",
-        "url": "https://clinicaltrials.gov/study/NCT05952648",
-        "source": "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
-        "author": "",
-        "pubdate": "2026-09-02",
-        "summary": "Multicenter, randomized, controlled, open-label trial to assess if semiquantitative multiplex PCR assay, as compared to conventional microbiology, can reduce the percentage of patients without microbiological diagnosis in the first 24 hours from HAP/VAP suspicion, thus allowing early de-escalation.",
-        "study_type": "Clinical Trial (Active Not Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05952648"
       },
       {
         "title": "Family Videos and Virtual Reality in Intensive Care Patients",
@@ -8733,22 +8868,6 @@
         "ai_rounds_takeaway": "Consider involving Emergency Medicine pharmacists in the review of blood cultures for patients discharged from the Emergency Department."
       },
       {
-        "title": "Correlation of Memory CD8+ T Cells With Sepsis Severity and Mortality: a Single-center, Unblinded, Prospective, Non-interventional, Observational Study",
-        "url": "https://clinicaltrials.gov/study/NCT05875740",
-        "source": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
-        "author": "",
-        "pubdate": "2026-08-04",
-        "summary": "Sepsis is defined as a life-threatening organ dysfunction that is caused by a dysregulated host response to infection. Severe sepsis is the most common cause of death among critically ill patients in non-coronary intensive care units (ICU). Sustained excessive inflammation and immune dysfunction have been confirmed to play a key role in organ damage and early death of sepsis patients. Therefore, it is important to reduce excessive inflammatory response mediated by immune cells and pro-inflammato",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05875740",
-        "ai_key_stats": "",
-        "ai_summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
-        "ai_significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
-        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment."
-      },
-      {
         "title": "Epidemiology and Overtime Genomic Evolution of Klebsiella Pneumoniae and Enterobacter Cloacae Complex (ECC) in Stools of ICU's Patients",
         "url": "https://clinicaltrials.gov/study/NCT07744321",
         "source": "University Hospital, Caen",
@@ -10175,9 +10294,7 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
         },
         {
           "pmid": "42568095",
@@ -12239,9 +12356,7 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
         },
         {
           "pmid": "42706573",
@@ -14475,9 +14590,7 @@
           "ai_key_stats": "",
           "ai_summary": "This article discusses the limitations of pragmatic randomized controlled trials (RCTs) in intensive care units (ICUs). Pragmatic RCTs often fail to demonstrate outcome differences due to heterogeneity of ICU populations and suboptimal trial performance. Suggestions for improvement are provided.",
           "ai_significance": "Understanding the limitations of pragmatic RCTs in ICUs is crucial for developing effective treatment strategies and improving patient outcomes.",
-          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider the heterogeneity of ICU populations when interpreting trial results and consider subgroup analysis to identify potential beneficial effects."
         },
         {
           "pmid": "42568095",
