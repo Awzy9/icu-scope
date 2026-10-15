@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T08:09:41+00:00",
+  "generated_at": "2026-10-15T07:50:22+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -1138,6 +1138,32 @@
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42636654/",
         "society": "KDIGO"
+      },
+      {
+        "pmid": "42872921",
+        "title": "Association of Oliguria With Acute Kidney Injury, Chronic Kidney Disease, and Mortality: Determining the Optimal Threshold in Critically Ill Patients.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 14",
+        "authors": [
+          "Mossberg R",
+          "Lipcsey M",
+          "Marks-Hultström M",
+          "Eriksson M"
+        ],
+        "doi": "10.1097/CCM.0000000000007370",
+        "abstract": "OBJECTIVES: Oliguria is a key prognostic indicator of acute kidney injury (AKI), yet the consensus definition (< 0.5 mL/kg/hr) is increasingly questioned. We aimed to determine thresholds of lowest mean diuresis (LMD) associated with AKI, chronic kidney disease (CKD), and mortality. DESIGN: Retrospective observational study. SETTING: Uppsala University Hospital ICU, Sweden. PATIENTS: A total of 4999 adults (≥ 18 yr) without preexisting CKD admitted to the ICU between 2017 and 2024. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: LMD was calculated over 3, 6, 12, and 24 hours (LMD3h-LMD24h). Generalized additive models were used, adjusting for Simplified Acute Physiology Score 3 estimated mortality ratio and gender. Outcomes were AKI within 7 days of LMD (Kidney Disease Improving Global Outcomes creatinine criteria), incident CKD after ICU discharge, and 90-day mortality. All LMD time frames were significantly associated with AKI, CKD, and death (p < 0.0001). Thresholds for AKI were 0.43, 0.41, 0.42, and 0.53 mL/kg/hr; for CKD, 0.21, 0.21, 0.31, and 0.43 mL/kg/hr; and for mortality 0.16, 0.18, 0.24, and 0.39 across LMD3h-LMD24h. CONCLUSIONS: The risk of mortality or persistent kidney injury, reflected by incident CKD, increases at a lower urine output threshold than the current AKI definition. These findings support the idea of filtration deficit, urine output, and tissue injury as different dimensions of AKI and should influence future AKI definitions.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42872921/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42864750",
@@ -4458,7 +4484,174 @@
   },
   "this_week": {
     "window_days": 7,
-    "articles": []
+    "articles": [
+      {
+        "pmid": "42872606",
+        "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
+        "journal": "JAMA",
+        "pubdate": "2026 Oct 14",
+        "authors": [
+          "Blok SG",
+          "de Grooth HJ",
+          "Pisani L",
+          "Barbas C",
+          "Chew M",
+          "Dubin A",
+          "Hammond N",
+          "Kwizera A",
+          "Malbrain MLNG",
+          "Monnet X",
+          "Myatra SN",
+          "Rose L",
+          "Neto AS",
+          "Shi Z",
+          "Silversides J",
+          "Tripathy S",
+          "van Haren F",
+          "Dondorp A",
+          "Schultz MJ",
+          "van Regenmortel N",
+          "Paulus F",
+          "Tuinman PR",
+          "PRoFLUID Investigators"
+        ],
+        "doi": "10.1001/jama.2026.21291",
+        "abstract": "IMPORTANCE: Fluid therapy is ubiquitous in the intensive care unit (ICU) but carries risks, especially in mechanically ventilated patients. Contemporary global practice across dose, indication, and type is unknown. OBJECTIVE: To characterize ICU fluid practices in mechanically ventilated adults. DESIGN, SETTING, AND PARTICIPANTS: International prospective observational cohort study between April 2024 and July 2025, across 206 ICUs in 41 countries on 6 continents. Consecutive adult patients receiving invasive mechanical ventilation within 3 days of ICU admission and ventilated 24 hours or more. Exclusion criteria were age younger than 16 years and transfer under mechanical ventilation from another ICU. EXPOSURES: Fluid volume, indication, and type after intubation. MAIN OUTCOMES AND MEASURES: Key measures included (1) total infused volume and daily fluid balance over 7 days after intubation; (2) the indication for fluid therapy over the first 3 days after intubation; (3) the proportion of total administered fluid volume attributable to each fluid type over the first 3 days after intubation. RESULTS: Among 2454 patients analyzed (median age, 63 years [IQR, 49-73 years]; 63.6% [1560] male), median daily fluid input peaked on day 1 at 3.0 L (IQR, 2.2-4.0 L) and declined to 2.6 L (IQR, 1.8-3.5 L) through day 6. Daily fluid balance (median, 0.9 L; IQR, 0.1-1.9 L on day 1) decreased to less than 0.3 L (IQR, -0.5 to 1.2 L) by day 3 and remained near-neutral through day 6. Maintenance and replacement fluids (to meet daily requirements and to correct ongoing losses; 31.9%) and creep fluids (to deliver medications and maintain catheter patency; 30.9%) were the primary indications, whereas resuscitation (to restore circulating blood volume; 16.0%) accounted for a smaller proportion. Isotonic balanced crystalloids (48.9%) and isotonic saline (0.9% sodium chloride) (27.0%) were common; colloids were rare (1.3%). Substantial between-site variation persisted after adjustment for case-mix. CONCLUSIONS AND RELEVANCE: In this prospective international cohort study, fluid therapy varied widely among mechanically ventilated critically ill patients, with maintenance and creep fluids-rather than resuscitation fluids-accounting for most total volume.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/",
+        "link_broken": true,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory",
+        "category_ids": [
+          "respiratory",
+          "renal",
+          "procedures-pocus"
+        ],
+        "category_labels": [
+          "Respiratory",
+          "Renal",
+          "Procedures & POCUS"
+        ]
+      },
+      {
+        "pmid": "42873070",
+        "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
+        "journal": "The New England journal of medicine",
+        "pubdate": "2026 Oct 14",
+        "authors": [
+          "Gaudry S",
+          "Boubaya M",
+          "Louis G",
+          "Chaïbi K",
+          "de Montmollin E",
+          "Bohé J",
+          "Desgrouas M",
+          "Devautour C",
+          "Joseph A",
+          "Mégarbane B",
+          "Camus C",
+          "Bailly P",
+          "Lambour A",
+          "Arrestier R",
+          "Jaber S",
+          "Robine A",
+          "Chudeau N",
+          "Chevrel G",
+          "La Combe B",
+          "Nicolas J",
+          "Argaud L",
+          "Bureau C",
+          "Kimmoun A",
+          "Zucman N",
+          "Ricard JD",
+          "Thiery G",
+          "Faguer S",
+          "Jozwiak M",
+          "Ferrand N",
+          "Chousterman B",
+          "Marzouk M",
+          "Cadiet J",
+          "Combes A",
+          "Mari A",
+          "Contou D",
+          "Amathieu R",
+          "Da Silva D",
+          "Gandonnière CS",
+          "Rodie-Talbere PA",
+          "Durand-Zaleski I",
+          "Rossignol P",
+          "Quenot JP",
+          "Biard L",
+          "Bloch C",
+          "Dreyfuss D",
+          "ICRAKI Trial Group"
+        ],
+        "doi": "10.1056/NEJMoa2608397",
+        "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/",
+        "link_broken": true,
+        "link_broken_kind": "doi",
+        "category_id": "renal",
+        "category_label": "Renal",
+        "category_ids": [
+          "renal",
+          "infectious-sepsis"
+        ],
+        "category_labels": [
+          "Renal",
+          "Infectious Disease & Sepsis"
+        ]
+      },
+      {
+        "pmid": "42872921",
+        "title": "Association of Oliguria With Acute Kidney Injury, Chronic Kidney Disease, and Mortality: Determining the Optimal Threshold in Critically Ill Patients.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 14",
+        "authors": [
+          "Mossberg R",
+          "Lipcsey M",
+          "Marks-Hultström M",
+          "Eriksson M"
+        ],
+        "doi": "10.1097/CCM.0000000000007370",
+        "abstract": "OBJECTIVES: Oliguria is a key prognostic indicator of acute kidney injury (AKI), yet the consensus definition (< 0.5 mL/kg/hr) is increasingly questioned. We aimed to determine thresholds of lowest mean diuresis (LMD) associated with AKI, chronic kidney disease (CKD), and mortality. DESIGN: Retrospective observational study. SETTING: Uppsala University Hospital ICU, Sweden. PATIENTS: A total of 4999 adults (≥ 18 yr) without preexisting CKD admitted to the ICU between 2017 and 2024. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: LMD was calculated over 3, 6, 12, and 24 hours (LMD3h-LMD24h). Generalized additive models were used, adjusting for Simplified Acute Physiology Score 3 estimated mortality ratio and gender. Outcomes were AKI within 7 days of LMD (Kidney Disease Improving Global Outcomes creatinine criteria), incident CKD after ICU discharge, and 90-day mortality. All LMD time frames were significantly associated with AKI, CKD, and death (p < 0.0001). Thresholds for AKI were 0.43, 0.41, 0.42, and 0.53 mL/kg/hr; for CKD, 0.21, 0.21, 0.31, and 0.43 mL/kg/hr; and for mortality 0.16, 0.18, 0.24, and 0.39 across LMD3h-LMD24h. CONCLUSIONS: The risk of mortality or persistent kidney injury, reflected by incident CKD, increases at a lower urine output threshold than the current AKI definition. These findings support the idea of filtration deficit, urine output, and tissue injury as different dimensions of AKI and should influence future AKI definitions.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42872921/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "renal",
+        "category_label": "Renal",
+        "category_ids": [
+          "renal"
+        ],
+        "category_labels": [
+          "Renal"
+        ]
+      }
+    ]
   },
   "preprints": {
     "window_days": 14,
@@ -4602,6 +4795,78 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
+        "url": "https://clinicaltrials.gov/study/NCT07740304",
+        "source": "Trakya University",
+        "author": "",
+        "pubdate": "2026-10-14",
+        "summary": "Sepsis is a life-threatening condition caused by the body's overwhelming response to infection, and it remains a leading cause of death in intensive care units. Even when standard treatment targets such as blood pressure are met, blood flow to the small vessels of the skin and other tissues may remain impaired. This \"hidden\" poor perfusion may not be detected by routine monitoring, yet it may be linked to worse outcomes. The perfusion index is a simple number obtained from the standard pulse oxi",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07740304",
+        "ai_key_stats": "",
+        "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
+        "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
+        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality.",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07813767",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-10-14",
+        "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07813767"
+      },
+      {
+        "title": "Outcomes of Early Versus Late Tracheostomy in Critically Ill Patients Due to Head Injury: A Randomized Controlled Trial",
+        "url": "https://clinicaltrials.gov/study/NCT07872865",
+        "source": "University Of Anbar",
+        "author": "",
+        "pubdate": "2026-10-14",
+        "summary": "Tracheostomy is a surgical procedure that involves creating an opening in the trachea and bringing it to the skin surface to form a stoma. It may be performed as an emergency or elective operation. The main indications include relief of upper airway obstruction, protection of the lower respiratory tract, and facilitation of assisted ventilation in critically ill patients. Further studies are needed to identify the patient populations that may benefit from early tracheostomy. Therefore, this stud",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07872865",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Prevent Cardiac Surgery Associated AKI Trial",
+        "url": "https://clinicaltrials.gov/study/NCT06620523",
+        "source": "George Washington University",
+        "author": "",
+        "pubdate": "2026-10-14",
+        "summary": "Prevent CSA-AKI (Cardiac Surgery Associated Acute Kidney Injury) trial is a double blinded randomized controlled trial, 242 patients undergoing elective cardiopulmonary bypass surgery (CPB)will either receive a placebo or daily 1200 mg of Co enzyme Q10 (CoQ10) and 1000 mg of Glutathione (GSH), the first dose will be given the day before surgery and continues while admitted up to 1 week. Blood and urine samples will be collected. Adverse events related to the study drugs will be collected.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06620523",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Strategy to Avoid Excessive Oxygen Using an Autonomous Oxygen Titration Intervention",
+        "url": "https://clinicaltrials.gov/study/NCT06374225",
+        "source": "University of Colorado, Denver",
+        "author": "",
+        "pubdate": "2026-10-14",
+        "summary": "This study is a multicenter randomized controlled trial to determine the effectiveness of a closed loop/autonomous oxygen titration system (O2matic PRO100) to maintain normoxemia (goal range SpO2 90-96%, target 93%) during the first 72 hours of acute injury or illness, compared to standard provider-driven methods (manual titration with SpO2 target of 90-96%).",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06374225",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Adrenal Function in Critical Illness",
         "url": "https://clinicaltrials.gov/study/NCT00156767",
         "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -4631,9 +4896,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated the relationship between memory CD8+ T cells and sepsis severity and mortality in a single-center, observational study. They found a correlation between memory CD8+ T cells and sepsis severity and mortality. The study suggests that immune dysfunction plays a key role in organ damage and early death in sepsis patients.",
         "ai_significance": "Understanding the correlation between memory CD8+ T cells and sepsis severity and mortality can help clinicians develop targeted interventions to reduce excessive inflammatory response and improve patient outcomes.",
-        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Monitor memory CD8+ T cell levels in patients with sepsis to assess disease severity and potential response to treatment."
       },
       {
         "title": "HAP/VAP Diagnosis in Critically Ill Septic Patients Using a Multiplex PCR Array",
@@ -4645,9 +4908,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05952648",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05952648"
       },
       {
         "title": "Caval Aorta Index for Fluid Optimization in Traumatic Brain Injury",
@@ -4659,9 +4920,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06940258",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06940258"
       },
       {
         "title": "Safety and Efficacy of Polymyxin B Hemoperfusion (PMX) for Endotoxemic Septic Shock in a Randomized, Open-Label Study",
@@ -4673,9 +4932,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03901807",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03901807"
       },
       {
         "title": "Adherence to Low Tidal Volume in the Transition to Spontaneous Ventilation in Patients With Acute Respiratory Failure",
@@ -4687,9 +4944,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06042036",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06042036"
       },
       {
         "title": "Combination vs. Monotherapy for Stenotrophomonas Maltophilia Infections",
@@ -4701,9 +4956,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07593547",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07593547"
       },
       {
         "title": "Secondary Sclerosis Cholangitis Prospective",
@@ -4715,9 +4968,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03566797",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03566797"
       },
       {
         "title": "Evaluating the Utility of RELiZORB™ for Treating Feeding Intolerance in Critically Ill Adults With Multi-Organ Failure",
@@ -4729,9 +4980,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05710315",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05710315"
       },
       {
         "title": "Rapid Molecular Diagnosis of Sepsis in the Intensive Care Unit",
@@ -4743,7 +4992,47 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06624618",
+        "nct_id": "NCT06624618"
+      },
+      {
+        "title": "Secondary Sclerosing Cholangitis in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT02545309",
+        "source": "Medical University of Graz",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "SSC-CIP is increasing in patients after critical illness. Pathogenesis is still largely unclear. The investigators hypothesize that genetic variants of biliary transporter genes are frequent in patients with SSC-CIP. In approximately 140 patients and controls the rate of genetic variants in biliary transporter genes, gut permeability and gut microbiome as well as bone health will be studied.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT02545309",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Sleep and Circadian Rhythm Intervention in ICU",
+        "url": "https://clinicaltrials.gov/study/NCT07869901",
+        "source": "Shanghai Zhongshan Hospital",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "Intensive care unit (ICU) patients are frequently exposed to various stressors that contribute to severe sleep disruption and circadian rhythm disturbances. Growing evidence suggests that circadian rhythm disruption plays a critical role in the development of multiple adverse outcomes in critically ill patients. Therefore, implementing interventions that prioritize the maintenance of normal circadian, sleep, and behavioral patterns may represent an important strategy to improve outcomes in ICU p",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07869901",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Combined Use of a Respiratory Multiplex PCR and Algorithm-based Therapy to Improve Early Optimization of Antibiotic Therapy in Critically Ill Patients With Ventilator-associated Pneumonia",
+        "url": "https://clinicaltrials.gov/study/NCT07403474",
+        "source": "Centre Hospitalier Universitaire de Nīmes",
+        "author": "",
+        "pubdate": "2026-10-13",
+        "summary": "Assess the impact of a strategy combining respiratory mPCR and algorithm-based therapy developed using local epidemiology on the early optimization of initial antibiotic therapy for ventilator-associated pneumonia (VAP) (intervention), compared to a conventional strategy (control). A bicentric, parallel-group, randomized controlled trial. The primary assessment criterion is the proportion of early optimized antibiotic therapy within 24 hours of respiratory sampling.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07403474",
         "link_broken": false,
         "link_broken_kind": "url"
       },
@@ -4884,18 +5173,6 @@
         "ai_rounds_takeaway": ""
       },
       {
-        "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
-        "url": "https://clinicaltrials.gov/study/NCT07813767",
-        "source": "Hellenic Institute for the Study of Sepsis",
-        "author": "",
-        "pubdate": "2026-10-08",
-        "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07813767"
-      },
-      {
         "title": "Evaluation of Diagnostic Accuracy and Clinical Performance of the UllCORE Bloodstream Infection (BSI) Test",
         "url": "https://clinicaltrials.gov/study/NCT07859852",
         "source": "Deepull Diagnostics S.L.",
@@ -4993,7 +5270,9 @@
         "ai_key_stats": "",
         "ai_summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
         "ai_significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Burnout Syndrome in the Intensive Care Unit Before and During a Palliative Care Trial",
@@ -5117,7 +5396,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
         "ai_significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Protocolized Reduction of Non-resuscitation Fluids Versus Usual Care in Septic Shock Patients",
@@ -5502,22 +5783,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT02764359"
-      },
-      {
-        "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
-        "url": "https://clinicaltrials.gov/study/NCT07740304",
-        "source": "Trakya University",
-        "author": "",
-        "pubdate": "2026-09-29",
-        "summary": "Sepsis is a life-threatening condition caused by the body's overwhelming response to infection, and it remains a leading cause of death in intensive care units. Even when standard treatment targets such as blood pressure are met, blood flow to the small vessels of the skin and other tissues may remain impaired. This \"hidden\" poor perfusion may not be detected by routine monitoring, yet it may be linked to worse outcomes. The perfusion index is a simple number obtained from the standard pulse oxi",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07740304",
-        "ai_key_stats": "",
-        "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
-        "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
-        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
       },
       {
         "title": "Critical Hyperacute Assessment Research On Neurobiomarker Kinetics in Acute Brain Injury",
@@ -6989,9 +7254,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07810166",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07810166"
       },
       {
         "title": "Cardiothoracic Critical Care as Subspecialty and Its Core Competencies",
@@ -7003,9 +7266,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06370338",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06370338"
       },
       {
         "title": "Virtual Reality-based Sensory Stimulation for Delirium Prevention in Intensive Care Units",
@@ -7017,9 +7278,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07806422",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07806422"
       },
       {
         "title": "Early Endotoxin Burden Reduction With oXiris in Septic Shock Patients Requiring CRRT",
@@ -7031,9 +7290,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807410",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07807410"
       },
       {
         "title": "Reexamining Her Cardiovascular Risk - Ottawa WomeN's Longitudinal Cohort Study",
@@ -7045,9 +7302,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05632601",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05632601"
       },
       {
         "title": "TwichView-guided Atricurium Dose Adjustment Trial",
@@ -7059,9 +7314,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07807046",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07807046"
       },
       {
         "title": "Ultrasound Detection of Body Composition in Critical Care",
@@ -7077,9 +7330,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers used ultrasound to measure body composition in critically ill patients, finding it a valuable and accessible tool.",
         "ai_significance": "This matters for ICU clinical practice as it provides a non-invasive and radiation-free way to assess body composition, especially for obstetrics and gynecology cases.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Development and Validation of an Ultrasound-Based Difficult Cannulation Risk Score",
@@ -7095,7 +7346,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
         "ai_significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
-        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
+        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Early Enteral vs. Parenteral Nutrition on Mortality in Patients Requiring Mechanical Ventilation and Catecholamines",
@@ -7107,9 +7360,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT01802099",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT01802099"
       },
       {
         "title": "A Platform Trial for Gram Negative Bloodstream Infections",
@@ -7121,9 +7372,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06537609",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06537609"
       },
       {
         "title": "Sodium Bicarbonate for Critically Ill Patients With Metabolic Acidosis and Acute Kidney Injury",
@@ -7135,9 +7384,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07464431",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07464431"
       },
       {
         "title": "Early Versus Deferred De-escalation From Controlled Ventilation After a 48-Hour Landmark of Physiological Stability",
@@ -7149,9 +7396,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07804992",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07804992"
       },
       {
         "title": "Impact of Neurochecks on Sleep in Critically Ill Adults",
@@ -7163,9 +7408,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05864300",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05864300"
       },
       {
         "title": "A Follow-up Trial of GBS-NN/NN2 Vaccine in Healthy Pregnant Women",
@@ -7177,9 +7420,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06592586",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06592586"
       },
       {
         "title": "Aspiration Training Given With Different Methods",
@@ -7191,9 +7432,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05950425",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05950425"
       },
       {
         "title": "Ventilator Associated Pneumonia Multiplex PCR for Anti-Infective Regimens",
@@ -7205,9 +7444,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06554327",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06554327"
       },
       {
         "title": "Association of Biomarkers and Gastric Antral Motility Index With Feeding Intolerance in Critically Ill Patients",
@@ -7219,9 +7456,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07178626",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07178626"
       },
       {
         "title": "Ivabradine for Heart Rate Control In Septic Shock",
@@ -7233,7 +7468,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04031573"
+        "nct_id": "NCT04031573",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Implementation Models for Blood Pressure Monitoring in Pregnancy and Postpartum: Connected MOM Plus",
@@ -7245,7 +7482,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07691541"
+        "nct_id": "NCT07691541",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "mNEED: a Multicentre, Cluster-randomized, Controlled Trial",
@@ -7257,7 +7496,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06827275"
+        "nct_id": "NCT06827275",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Trunk Inclination, Positive End-expiratory Pressure, and Lung Recruitability",
@@ -7269,7 +7510,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07504731"
+        "nct_id": "NCT07504731",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Personalized Ventilation Based on Ventilation-perfusion Mismatch and Lung Recruitability",
@@ -7281,7 +7524,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06430554"
+        "nct_id": "NCT06430554",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Pressure Release Ventilation Compared to Lung Protective Ventilation in Moderate and Severe ARDS",
@@ -7293,7 +7538,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07803614"
+        "nct_id": "NCT07803614",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Gastric Emptying and Enteral Nutrition Tolerance According to Vasopressor Dose in ICU Patients",
@@ -7305,7 +7552,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07802379"
+        "nct_id": "NCT07802379",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Predictive Validity of the Chelsea Critical Care Physical Assessment Tool (CPAx) for Regaining Autonomy Three Months After ICU Discharge",
@@ -7321,7 +7570,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
         "ai_significance": "Understanding the predictive validity of the CPAx score can help clinicians identify patients at risk of poor functional outcomes after ICU discharge, allowing for targeted interventions.",
-        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge."
+        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Investigate the Efficacy, Safety, and Tolerability of AZD4144in Participants With Sepsis-associated Acute Kidney Injury.",
