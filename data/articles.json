@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:50:22+00:00",
+  "generated_at": "2026-10-16T07:39:41+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -207,67 +207,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42496194/"
       },
       {
-        "pmid": "42268591",
-        "title": "Integrated Telehealth Rehabilitation and Quality of Life in Mechanically Ventilated Adults: A Randomized Clinical Trial.",
-        "journal": "JAMA",
-        "pubdate": "2026 Sep 15",
-        "authors": [
-          "Rosa RG",
-          "Moraes RB",
-          "Trott G",
-          "Dos Santos MC",
-          "Miozzo AP",
-          "Andrade A",
-          "de Souza JMB",
-          "Wanderley J",
-          "Mocellin D",
-          "de Almeida TM",
-          "Dos Santos RDRM",
-          "De Matos LDNJ",
-          "De Carli RF",
-          "Caserta RA",
-          "de Souza Roldão E",
-          "Ferreira MS",
-          "Farias SE",
-          "Asato MS",
-          "João GAP",
-          "De Almeida GMB",
-          "De Oliveira CD",
-          "Júnior ROC",
-          "Silva MDA",
-          "Furtado MJA",
-          "De Oliveira DF",
-          "Abreu MML",
-          "Flores LK",
-          "Meira Teles JM",
-          "Falcão SNDRS",
-          "Fernandes TF",
-          "Nobre VC",
-          "Crisostomo ÁM",
-          "Rossato EV",
-          "da Silva Macedo LM",
-          "Boaventura MM",
-          "Alves Gonçalves FP",
-          "Teixeira C",
-          "Rolim Ferraz LJ",
-          "Cavaliere YF",
-          "Zampieri FG",
-          "Pereira AJ",
-          "Tele-Rehab Trial Group"
-        ],
-        "doi": "10.1001/jama.2026.10617",
-        "abstract": "IMPORTANCE: Whether integrated rehabilitation strategies spanning intensive care unit (ICU), hospital, and postdischarge phases improve quality of life after acute respiratory failure is uncertain. OBJECTIVE: To evaluate the effect of an integrated multicomponent telehealth-based rehabilitation intervention on health-related quality of life at 90 days after hospital discharge among adults with acute hypoxemic respiratory failure requiring invasive mechanical ventilation. DESIGN, SETTING, AND PARTICIPANTS: This stepped-wedge cluster randomized clinical trial in ICUs of 20 public hospitals in Brazil enrolled adults with acute hypoxemic respiratory failure requiring invasive mechanical ventilation between June 2024 and May 2025, with follow-up through September 2025. INTERVENTIONS: A multicomponent telehealth-based rehabilitation program integrating an ICU telehealth-based rehabilitation intervention focused on ventilator liberation; a ward telehealth-based rehabilitation intervention targeting risk stratification and initiation of individualized rehabilitation plans; and a postdischarge telehealth-based rehabilitation intervention consisting of a 2-month personalized centralized telerehabilitation program. MAIN OUTCOMES AND MEASURES: Health-related quality of life at 90 days after hospital discharge, measured using the EuroQol 5-Dimension 3-Level (EQ-5D-3L) utility score (range, -0.17 [worse than death] to 1 [best health state], with 0 representing death). RESULTS: Among 1916 enrolled patients (mean [SD] age, 60.6 [17.3] years; 43.6% female), 1063 were assigned to the intervention and 853 to usual care per local protocols. At 90 days after hospital discharge, mean (SD) EQ-5D-3L utility scores were higher in the intervention group than in the usual care group (0.16 [0.31] vs 0.12 [0.28]; adjusted difference, 0.049; 95% CI, 0.0002 to 0.098; P = .04) but did not differ among survivors (0.60 [0.32] vs 0.59 [0.32]; adjusted difference, -0.045; 95% CI, -0.138 to 0.045; P = .34). Compared with usual care, the intervention resulted in lower 90-day all-cause mortality (71.8% [676 of 941] vs 78.3% [584 of 746]; adjusted difference, -7.6%; 95% CI, -14.7% to -0.6%; P = .03) and shorter mean (SD) mechanical ventilation duration (9.9 [10.3] vs 15.5 [15.9] days; adjusted difference, -6.2 days; 95% CI, -8.5 to -3.9; P < .001). CONCLUSIONS AND RELEVANCE: In this study, an integrated telehealth-based rehabilitation strategy delivered across ICU, hospital, and postdischarge phases improved 90-day health-related quality of life, potentially influenced by reduced mortality. TRIAL REGISTRATION: ClinicalTrials.gov Identifier: NCT06343545.",
-        "citation_count": 42,
-        "is_top_journal": true,
-        "study_type": "Randomized Controlled Trial",
-        "volume": "336",
-        "issue": "11",
-        "pages": "939-949",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13254807/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42268591/"
-      },
-      {
         "pmid": "42618770",
         "title": "Respiratory mechanics modifies the impact of ventilator settings on clinical outcome in patients with acute brain injury.",
         "journal": "Intensive care medicine",
@@ -327,12 +266,52 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632807/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42584185/"
+      },
+      {
+        "pmid": "42839269",
+        "title": "Comparison of two automated pupillometry indices in patients with acute brain injury: the prospective multicentre LYNX cohort study.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 28",
+        "authors": [
+          "Bouzat P",
+          "Blandino-Ortiz A",
+          "Vilotitch A",
+          "Pollet A",
+          "Zorzi S",
+          "Vathi S",
+          "Polato M",
+          "Gauss T",
+          "Taccone FS"
+        ],
+        "doi": "10.1186/s13054-026-06360-8",
+        "abstract": "BACKGROUND: Automated pupillometry quantifies the pupillary light reflex in acute brain injury. The neurological pupil index (NPi) is the established composite index and carries prognostic value. A second index from a different device, the quantitative pupil index (QPi), has recently become available, but whether it conveys equivalent information in non-anoxic acute brain injury is unknown. METHODS: LYNX was a prospective cohort study in three European intensive care units (September 2022-July 2024). Consecutive adults with traumatic brain injury, subarachnoid or intracerebral haemorrhage, or ischaemic stroke ventilated for more than 12 h were enrolled and followed for 6 months. Paired NPi (NPi-300) and QPi (NeuroLight) measurements were obtained at least every 6 h to day 7. Ancillary cohorts of healthy volunteers (dark vs. bright light) and surgical patients (before and after sufentanil and propofol) were also studied. The primary outcome was the correlation between the two indices; secondary outcomes were their association with intracranial hypertension and unfavourable 6-month outcome (Glasgow Outcome Scale-Extended ≤ 4). Values below 3 were considered abnormal, with QPi thresholds of 2 and 4 as sensitivity analyses; multivariable models were adjusted for age, sex, admission Glasgow Coma Scale score and focal deficit. RESULTS: Among 108 patients (median age 57 years [IQR 44-67], 60.2% male), 7089 paired measurements were obtained. The two indices were moderately to strongly correlated (r = 0.717, 95% CI 0.705-0.730). Each 10-percentage-point increase in abnormal values independently predicted unfavourable outcome (NPi: OR 1.49, 95% CI 1.09-2.04, p = 0.013; QPi: OR 1.76, 95% CI 1.31-2.37, p < 0.001). QPi was associated with intracranial hypertension (OR 1.38, 95% CI 1.04-1.82, p = 0.025), whereas NPi was not. Ambient lighting and contralateral eye opening had no meaningful effect in 75 volunteers. In 20 sedated non-brain-injured patients, propofol reduced QPi to a median of 1 (IQR 1-3) and NPi to 4.0 (IQR 3.6-4.3). CONCLUSIONS: NPi and QPi were correlated and both predicted 6-month outcome, but QPi was far more sensitive to anaesthetics, which probably confounds its association with intracranial hypertension. The indices are not interchangeable in sedated critically ill patients. TRIAL REGISTRATION: ClinicalTrials.gov, NCT05567978. Registered 5 October 2022.",
+        "citation_count": 35,
+        "is_top_journal": true,
+        "study_type": "Multicenter Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13640326/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "PulmCrit Hot Take: VASSPR RCT on early vasopressin in sepsis",
+        "url": "https://emcrit.org/pulmcrit/vaso2026/",
+        "source": "PulmCrit",
+        "author": "Josh Farkas",
+        "pubdate": "2026-10-15",
+        "summary": "Vasopressin in septic shock has always been a controversial mystery wrapped in an enigma. I was optimistic (bullish, even) about vasopressin for much of the early 2010s. A retrospective subgroup analysis of the VASST trial suggested that starting vasopressin earlier could improve renal function (discussed here). Some RCTs found a faint signal of improved renal […] EMCrit Project by Josh Farkas .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "EMCrit Explosion Wee – F/u with the 2026 ACEP Sedation Guidelines Authors",
         "url": "https://emcrit.org/emcrit/wee-sedation-guidelines-author/",
@@ -1161,9 +1140,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42872921/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42864750",
@@ -2963,6 +2940,35 @@
         "society": "ESICM"
       },
       {
+        "pmid": "42876967",
+        "title": "Antibiotic prescribing appropriateness among critically ill patients at a single tertiary care center in the United Arab Emirates: a retrospective cohort study.",
+        "journal": "Frontiers in health services",
+        "pubdate": "2026",
+        "authors": [
+          "Kassis I",
+          "Al Balas M",
+          "Rashid SHH",
+          "Gulam SM",
+          "Myalil Lucca J",
+          "McKeirnan KC",
+          "Menon V"
+        ],
+        "doi": "10.3389/frhs.2026.1900610",
+        "abstract": "OBJECTIVE: Despite expanding antimicrobial stewardship initiatives, evidence evaluating the appropriateness of antibiotic prescribing and its clinical implications in intensive care settings in the United Arab Emirates remains limited. This study aimed to assess the appropriateness of antibiotic prescribing among intensive care unit patients, identify factors associated with appropriate antibiotic therapy, and examine its association with clinical outcomes. METHOD: A retrospective cohort study was conducted in the intensive care unit of a tertiary care hospital in the Emirate of Abu Dhabi. Adult patients aged 18 years or older who were admitted between January 2023 and December 2024, had a length of stay exceeding 24 h but less than 30 days, received at least one systemic antibiotic, and had complete medical records were included. Data were extracted from electronic medical records and a regional health information exchange platform. Antibiotic appropriateness was evaluated against institutional or Infectious Diseases Society of America guidelines. RESULTS: Overall, 36% of patients received inappropriate antibiotic therapy. The most common reason for inappropriateness was the absence of a clear indication, particularly for postoperative prophylaxis (44.4%). At the individual agent level, cefepime (48.2%), metronidazole (36.2%), and cefazolin (33.9%) exhibited the highest rates of inappropriate use. Multivariable logistic regression identified positive microbiological culture results (AOR = 3.34, p < 0.001) and sepsis (AOR = 2.12, p = 0.002) as factors independently associated with higher odds of appropriate antibiotic use. Conversely, the presence of a central venous catheter (AOR = 0.30, p = 0.003) was associated with lower odds of appropriate antibiotic use. Appropriate antibiotic therapy was associated with higher odds of organ dysfunction (AOR = 1.69, p = 0.032), nosocomial infection (AOR = 2.28, p = 0.005), and persistent infection despite therapy (AOR = 2.13, p = 0.005). CONCLUSION: Approximately one-third of patients received inappropriate antibiotic therapy, representing a substantial antimicrobial stewardship concern despite the observed strengths in culture-guided therapy and infection-focused management.",
+        "citation_count": 54,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "6",
+        "issue": "",
+        "pages": "1900610",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13662006/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42876967/",
+        "society": "IDSA",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42415882",
         "title": "Practice Pattern of Critical Care UltraSonography in India (POCUS India): A Multicenter Cross-sectional Survey.",
         "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
@@ -4486,6 +4492,86 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42878628",
+        "title": "Weaning Strategies for High-Flow Nasal Cannula in Critically Ill Adults: A Randomized Clinical Trial.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 15",
+        "authors": [
+          "Kim T",
+          "Kwack WG",
+          "Park S",
+          "Jung S",
+          "Song MJ",
+          "Kim ES",
+          "Lim SY"
+        ],
+        "doi": "10.1097/CCM.0000000000007379",
+        "abstract": "OBJECTIVES: This study evaluated the efficacy of different high-flow nasal cannula (HFNC) weaning protocols in critically ill adults. DESIGN: This multicenter, randomized controlled trial was conducted from December 1, 2022, to August 31, 2024, based on the suggested protocol (SLOWH trial). Experts reviewed the trial between October 2, 2024, and April 15, 2025. SETTING: Randomization was performed by a research coordinator using a sequence of random numbers generated by an independent statistician blinded to both researchers and participants. PATIENTS: Adults (≥ 18 yr old) in the ICU who met the weaning criteria after receiving HFNC were included. Among 102 patients from three tertiary care hospitals, 15 were excluded. INTERVENTIONS: The remaining patients were randomized into three intervention groups: flow reduction (FR) first, Fio2 reduction (OR) first, or simultaneous reduction (SR). The primary outcome was the HFNC weaning success rate, defined as successful transition to conventional oxygen therapy without the need for HFNC reapplication, noninvasive ventilation, or endotracheal intubation within 24 hours. MEASUREMENTS AND MAIN RESULTS: A total of 87 adults completed the trial (FR, n = 31 [male, 52%]; OR, n = 26 [male, 77%]; SR, n = 30 [male, 53%]). The weaning success rates in the FR, OR, and SR groups were 94%, 81%, and 77%, respectively (p = 0.15). The median [interquartile range] weaning duration was 31.0 hours (29.0-45.8 hr), 29.5 hours (28.0-60.4 hr), and 29.5 hours (26.5-45.0 hr) in the FR, OR, and SR groups, respectively, with no statistically significant difference among groups (p = 0.87). CONCLUSIONS: In this randomized trial, no statistically significant differences were observed among the three HFNC weaning strategies in terms of weaning success or duration.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42878628/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory",
+        "category_ids": [
+          "respiratory",
+          "procedures-pocus"
+        ],
+        "category_labels": [
+          "Respiratory",
+          "Procedures & POCUS"
+        ]
+      },
+      {
+        "pmid": "42878609",
+        "title": "Ventilatory Management in Neurocritical Versus Non-Neurocritical Care Patients: A Pooled Analysis From the PRIME Database.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 15",
+        "authors": [
+          "Serafini SC",
+          "Cinotti R",
+          "Asehnoune K",
+          "Battaglini D",
+          "Ball L",
+          "Patroniti N",
+          "Neto AS",
+          "Pisani L",
+          "Mazzinari G",
+          "Tschernko EM",
+          "Schultz MJ",
+          "Robba C",
+          "PRactice of VENTilation in critically ill patients without ARDS (PRoVENT), PRactice of VENTilation in critically ill patients in Middle-income Countries (PRoVENT-iMiC), and Extubation strategies in Neuro-ICU patients and associations with Outcomes (ENIO) investigators"
+        ],
+        "doi": "10.1097/CCM.0000000000007385",
+        "abstract": "OBJECTIVES: To describe ventilatory management in neurocritical care and non-neurocritical care patients and determine whether specific ventilator settings are associated with development of acute respiratory distress syndrome (ARDS) and mortality in neurocritical care patients. The primary endpoint was a diagnosis of ARDS after initiation of invasive ventilation; one secondary endpoint was ICU mortality. DATA SOURCES: Post hoc pooled analysis of harmonized individual patient data from three recent prospective observational studies combined into the PRIME database. STUDY SELECTION: PRIME is a harmonized pooled database comprising individual patient data from three recent prospective observational studies on ventilatory management in critically ill patients: \"PRactice of VENTilation in critically ill patients without ARDS\" (PRoVENT), \"PRactice of VENTilation in critically ill patients in Middle-income Countries\" (PRoVENT-iMiC), and \"Extubation strategies in Neuro-ICU patients and associations with Outcomes\" (ENIO). We excluded patients with ARDS at the start of ventilation. DATA EXTRACTION: Demographic and clinical characteristics, ventilator settings, respiratory variables, arterial blood gas values, and clinical outcomes were extracted from the harmonized PRIME database. Derived ventilation parameters included tidal volume normalized to predicted body weight, driving pressure, respiratory system compliance, mechanical power, ventilatory ratio, and Pao2/Fio2 ratio. DATA SYNTHESIS: This analysis included 3848 patients, including 1702 neurocritical care and 1920 non-neurocritical care patients. Based on recorded ventilatory variables, neurocritical care patients received lower median tidal volumes (Vts), positive end-expiratory pressure, and Fio2. They had lower median driving pressure (ΔP), mechanical power (MP) of ventilation, and ventilatory ratio, as well as higher respiratory system compliance compared with non-neurocritical care patients. These differences were consistently observed at both assessed time points. ARDS was diagnosed more frequently in neurocritical care patients than in non-neurocritical care patients (8.7% vs. 3.9%; p < 0.001), while ICU mortality was lower (14.3% vs. 22.8%; p < 0.001). Among neurocritical care patients, those who developed ARDS were ventilated with lower median Vt and higher Fio2 and had higher median ΔP and MP. Vt normalized for predicted body weight in neurocritical care patients was independently associated with the development of ARDS. CONCLUSIONS: In this cohort, ventilatory management at the initial and 48-hour assessments differed between neurocritical care and non-neurocritical care patients, particularly with respect to key ventilator settings like Vt, positive end-expiratory pressure, and Fio2. In neurocritical care patients, ARDS was more often diagnosed than in non-neurocritical care patients.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42878609/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory",
+        "category_ids": [
+          "respiratory"
+        ],
+        "category_labels": [
+          "Respiratory"
+        ]
+      },
+      {
         "pmid": "42872606",
         "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
         "journal": "JAMA",
@@ -4526,8 +4612,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/",
-        "link_broken": true,
-        "link_broken_kind": "doi",
         "category_id": "respiratory",
         "category_label": "Respiratory",
         "category_ids": [
@@ -4605,8 +4689,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/",
-        "link_broken": true,
-        "link_broken_kind": "doi",
         "category_id": "renal",
         "category_label": "Renal",
         "category_ids": [
@@ -4640,8 +4722,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42872921/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "renal",
         "category_label": "Renal",
         "category_ids": [
@@ -4795,6 +4875,100 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "The Vancomycin Piperacillin/Tazobactam (VPT) Patient Safety Trial (VPS)",
+        "url": "https://clinicaltrials.gov/study/NCT07556107",
+        "source": "Bassett Healthcare",
+        "author": "",
+        "pubdate": "2026-10-15",
+        "summary": "The VPT Safety Trial (VPS) compares two common antibiotic combinations to see how they affect the kidneys of patients in the hospital with serious infections. Both combinations are approved by the Food and Drug Administration (FDA). The goal is to help doctors know which combination is safer so they can make better choices for their patients.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07556107"
+      },
+      {
+        "title": "Comparative Efficacy and Safety of Propofol-Ketamine Combination Versus Propofol Monotherapy in Geriatric Patients Under Invasive Ventilation",
+        "url": "https://clinicaltrials.gov/study/NCT07530146",
+        "source": "Helwan University",
+        "author": "",
+        "pubdate": "2026-10-15",
+        "summary": "The study is a prospective randomized controlled trial comparing the efficacy and safety of propofol-ketamine (\"Ketofol\") versus propofol monotherapy in geriatric ICU patients. Eligible participants are critically ill elderly patients with a history of cardiac disease who require endotracheal intubation and have not yet received sedation. The investigators focus on a specific population in which geriatric patients have different pharmacokinetics and pharmacodynamics and are more prone to side ef",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07530146"
+      },
+      {
+        "title": "Inflammatory Indices, Early Mortality, and ICU Stay in Geriatric PFN Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07607886",
+        "source": "Saglik Bilimleri Universitesi",
+        "author": "",
+        "pubdate": "2026-10-15",
+        "summary": "This retrospective observational cohort study aims to evaluate the association between preoperative and postoperative inflammatory indices and early postoperative outcomes in geriatric patients undergoing proximal femoral nailing (PFN) for intertrochanteric femur fractures. The primary outcome of the study is 30-day mortality, while the secondary outcome is intensive care unit (ICU) length of stay. Various inflammatory biomarkers derived from routine laboratory parameters, including neutrophil-t",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07607886",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Continuous Connected Patient Care (CCPC), a Pilot Testing a Novel Device for Continuous Vitals Monitoring - Department of Anesthesia at PHC",
+        "url": "https://clinicaltrials.gov/study/NCT06638073",
+        "source": "Medtronic - MITG",
+        "author": "",
+        "pubdate": "2026-10-15",
+        "summary": "To confirm feasibility and accessibility of the CCPC Platform (Oxymotion, Bridge Health Solutions medication adherence software, CloudDX home kit) in two different environments - in hospital and at-home, in patients undergoing non-cardiac surgery.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06638073",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Personalized Mechanical Ventilation Guided by UltraSound in Patients With Acute Respiratory Distress Syndrome",
+        "url": "https://clinicaltrials.gov/study/NCT05492344",
+        "source": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+        "author": "",
+        "pubdate": "2026-10-15",
+        "summary": "Rationale Acute respiratory distress syndrome (ARDS) is a frequent cause of hypoxemic respiratory failure with a mortality rate of approximately 30%. The identification of ARDS phenotypes, based on focal or non-focal lung morphology, can be helpful to better target mechanical ventilation strategies of individual patients. Lung ultrasound (LUS) is a non-invasive tool that can accurately distinguish 'focal' from 'non-focal' lung morphology. The investigators hypothesize that LUS-guided personalize",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05492344",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Bed Bath With Auditory Hypnosis on ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07019467",
+        "source": "Banu Terzi",
+        "author": "",
+        "pubdate": "2026-10-15",
+        "summary": "Intensive care units (ICUs) are specialized units where complex life-saving treatment and care activities are performed. Due to the treatment procedures performed in these specialized units, a large number of tools/equipment/devices/cables (endotracheal tubes, monitor cables, hemodialysis machines, mechanical ventilation, etc.) are placed on critically ill patients. These treatment devices restrict the movement of patients, creating obstacles to the independent performance of basic human needs s",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07019467",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Spontaneous vs Controlled Mechanical Ventilation in Acute Hypoxemic Respiratory Failure",
+        "url": "https://clinicaltrials.gov/study/NCT07463885",
+        "source": "Oslo University Hospital",
+        "author": "",
+        "pubdate": "2026-10-15",
+        "summary": "Acute hypoxemic respiratory failure may progress to acute respiratory distress syndrome, a life-threatening condition that often requires mechanical ventilation. The optimal ventilation strategy in this patient population remains uncertain. The SVALBARD trial is a feasibility and pilot study designed to compare spontaneous versus controlled mechanical ventilation in patients with acute hypoxemia respiratory failure. The primary objective is to assess the feasibility of the study procedures and i",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07463885",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
         "url": "https://clinicaltrials.gov/study/NCT07740304",
         "source": "Trakya University",
@@ -4808,9 +4982,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
         "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
-        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
       },
       {
         "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
@@ -4834,9 +5006,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07872865",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07872865"
       },
       {
         "title": "Prevent Cardiac Surgery Associated AKI Trial",
@@ -4848,9 +5018,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06620523",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06620523"
       },
       {
         "title": "Strategy to Avoid Excessive Oxygen Using an Autonomous Oxygen Titration Intervention",
@@ -4862,9 +5030,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06374225",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06374225"
       },
       {
         "title": "Adrenal Function in Critical Illness",
@@ -5004,9 +5170,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02545309",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02545309"
       },
       {
         "title": "Sleep and Circadian Rhythm Intervention in ICU",
@@ -5018,9 +5182,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07869901",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07869901"
       },
       {
         "title": "Combined Use of a Respiratory Multiplex PCR and Algorithm-based Therapy to Improve Early Optimization of Antibiotic Therapy in Critically Ill Patients With Ventilator-associated Pneumonia",
@@ -5032,9 +5194,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07403474",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07403474"
       },
       {
         "title": "Fibrinogen-to-Albumin Ratio as a Predictor of Acute Respiratory Distress Syndrome in Traumatic Brain Injury",
@@ -5170,7 +5330,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
         "ai_significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of Diagnostic Accuracy and Clinical Performance of the UllCORE Bloodstream Infection (BSI) Test",
@@ -5270,9 +5432,7 @@
         "ai_key_stats": "",
         "ai_summary": "The VA Grant and Per Diem case management aftercare program provides six months of case management for homeless-experienced Veterans undergoing housing transitions. A Partnered Implementation Initiative proposes to implement and evaluate Critical Time Intervention in 32 case management sites. This intervention aims to support housing transitions.",
         "ai_significance": "This study may inform the implementation of evidence-based case management practices to support housing transitions for homeless-experienced Veterans.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Burnout Syndrome in the Intensive Care Unit Before and During a Palliative Care Trial",
@@ -5396,9 +5556,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
         "ai_significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Protocolized Reduction of Non-resuscitation Fluids Versus Usual Care in Septic Shock Patients",
@@ -6625,18 +6783,6 @@
         "nct_id": "NCT04964115"
       },
       {
-        "title": "Comparative Efficacy and Safety of Propofol-Ketamine Combination Versus Propofol Monotherapy in Geriatric Patients Under Invasive Ventilation",
-        "url": "https://clinicaltrials.gov/study/NCT07530146",
-        "source": "Helwan University",
-        "author": "",
-        "pubdate": "2026-09-17",
-        "summary": "The study is a prospective randomized controlled trial comparing the efficacy and safety of propofol-ketamine (\"Ketofol\") versus propofol monotherapy in geriatric ICU patients. Eligible participants are critically ill elderly patients with a history of cardiac disease who require endotracheal intubation and have not yet received sedation. The investigators focus on a specific population in which geriatric patients have different pharmacokinetics and pharmacodynamics and are more prone to side ef",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07530146"
-      },
-      {
         "title": "Curcumin in Critically Ill Patients With Sepsis",
         "url": "https://clinicaltrials.gov/study/NCT07436130",
         "source": "Hospital Civil de Guadalajara",
@@ -6890,7 +7036,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02345681"
+        "nct_id": "NCT02345681",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Early Low-Calorie Low-Protein Versus Standard Feeding on Outcomes of Ventilated Adults With Shock",
@@ -6902,7 +7050,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03573739"
+        "nct_id": "NCT03573739",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Medical Device Clinical Trial Without CE Marking to Evidence Safety and Performance of the INBENTUS VERSATILE Ventilator in Patients Requiring Assisted/Controlled Mechanical Ventilation and Weaning.",
@@ -6914,7 +7064,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07432191"
+        "nct_id": "NCT07432191",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Therapeutic Hypothermia in \"Expanded Criteria\" Brain-dead Donors and Kidney-graft Function",
@@ -6926,7 +7078,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03098706"
+        "nct_id": "NCT03098706",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparison of Two Strategies for Endotracheal Tube Cuff Underinflation Prevention During Invasive Mechanical Ventilation",
@@ -6938,7 +7092,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03330379"
+        "nct_id": "NCT03330379",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Phase 1b/2a Trial to Evaluate Invobenitug Also Known as Procizumab (PCZ; AK1967) in Critical Cardiovascular Care.",
@@ -6950,7 +7106,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06832722"
+        "nct_id": "NCT06832722",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
@@ -7346,9 +7504,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed and validated a score to predict difficult cannulation during ultrasound-guided internal jugular vein catheterization in critically ill patients. The score considers pre-procedural characteristics of the IJV and its anatomical relationship with the common carotid artery. The study aimed to improve procedural success and reduce the risk of mechanical complications.",
         "ai_significance": "This study's findings can help clinicians identify patients at high risk of difficult cannulation and take steps to mitigate this risk, potentially improving patient outcomes and reducing complications.",
-        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using the ROTATE-ICU score to assess patients at risk of difficult cannulation before attempting internal jugular vein catheterization."
       },
       {
         "title": "Impact of Early Enteral vs. Parenteral Nutrition on Mortality in Patients Requiring Mechanical Ventilation and Catecholamines",
@@ -7468,9 +7624,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04031573",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04031573"
       },
       {
         "title": "Implementation Models for Blood Pressure Monitoring in Pregnancy and Postpartum: Connected MOM Plus",
@@ -7482,9 +7636,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07691541",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07691541"
       },
       {
         "title": "mNEED: a Multicentre, Cluster-randomized, Controlled Trial",
@@ -7496,9 +7648,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06827275",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06827275"
       },
       {
         "title": "Trunk Inclination, Positive End-expiratory Pressure, and Lung Recruitability",
@@ -7510,9 +7660,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07504731",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07504731"
       },
       {
         "title": "Personalized Ventilation Based on Ventilation-perfusion Mismatch and Lung Recruitability",
@@ -7524,9 +7672,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06430554",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06430554"
       },
       {
         "title": "Pressure Release Ventilation Compared to Lung Protective Ventilation in Moderate and Severe ARDS",
@@ -7538,9 +7684,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07803614",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07803614"
       },
       {
         "title": "Gastric Emptying and Enteral Nutrition Tolerance According to Vasopressor Dose in ICU Patients",
@@ -7552,9 +7696,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07802379",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07802379"
       },
       {
         "title": "Predictive Validity of the Chelsea Critical Care Physical Assessment Tool (CPAx) for Regaining Autonomy Three Months After ICU Discharge",
@@ -7570,9 +7712,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the relationship between the CPAx score at ICU discharge and the 6MWT distance 3 months later in patients who experienced prolonged mechanical ventilation and had signs of malnutrition, muscular weakness, or post-traumatic stress symptoms.",
         "ai_significance": "Understanding the predictive validity of the CPAx score can help clinicians identify patients at risk of poor functional outcomes after ICU discharge, allowing for targeted interventions.",
-        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using the CPAx score to identify patients at risk of poor functional outcomes after ICU discharge."
       },
       {
         "title": "A Study to Investigate the Efficacy, Safety, and Tolerability of AZD4144in Participants With Sepsis-associated Acute Kidney Injury.",
@@ -7588,7 +7728,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Prevention of Pressure Sores in the Prone Position in ARDS Patients",
@@ -7600,7 +7742,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03125421"
+        "nct_id": "NCT03125421",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dexamethasone Treatment for Sepsis-associated Acute Respiratory Distress Syndrome: a Multicenter, Randomised, Double-blinded, Controlled Trial",
@@ -7612,7 +7756,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07576660"
+        "nct_id": "NCT07576660",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "CPB and Aortic Cross-Clamp Durations and ICU Length of Stay After CABG Retrospective Observational Cohort Study",
@@ -7624,7 +7770,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07711951"
+        "nct_id": "NCT07711951",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Subanesthetic Ketamine Infusions for Depressive Symptoms in Intensive Care Unit Patients",
@@ -7636,7 +7784,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07639359"
+        "nct_id": "NCT07639359",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Family Videos and Virtual Reality in Intensive Care Patients",
@@ -7648,7 +7798,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07794696"
+        "nct_id": "NCT07794696",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dynamic Infection Kinetics for Early Diagnosis, Monitoring, and Prognostication of Sepsis in Adult Oncology Patients: Evaluating Serial Infection Biomarkers, Blood Culture Kinetics, Treatment Response, Disease Severity, and Clinical Outcomes",
@@ -7660,7 +7812,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07795502"
+        "nct_id": "NCT07795502",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Comparative Study of Glucocorticoids Efficacy in Acute Respiratory Distress Syndrome",
@@ -7672,7 +7826,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06496997"
+        "nct_id": "NCT06496997",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Assessment of Quadriceps Muscle Recovery by Dynamometry and 3D Ultrasound in Intensive Care Patients Under Invasive Mechanical Ventilation",
@@ -8285,18 +8441,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06804200"
-      },
-      {
-        "title": "The Vancomycin Piperacillin/Tazobactam (VPT) Patient Safety Trial (VPS)",
-        "url": "https://clinicaltrials.gov/study/NCT07556107",
-        "source": "Bassett Healthcare",
-        "author": "",
-        "pubdate": "2026-08-18",
-        "summary": "The VPT Safety Trial (VPS) compares two common antibiotic combinations to see how they affect the kidneys of patients in the hospital with serious infections. Both combinations are approved by the Food and Drug Administration (FDA). The goal is to help doctors know which combination is safer so they can make better choices for their patients.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07556107"
       },
       {
         "title": "A Study to Evaluate the Safety and Pharmacokinetics of AZD7760 in Healthy Japanese Adults",
