@@ -971,15 +971,15 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT00156767": {
+    "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+    "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
+  },
   "url:https://clinicaltrials.gov/study/NCT07740304": {
     "key_stats": "",
     "summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
     "significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
     "rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
-  },
-  "url:https://clinicaltrials.gov/study/NCT00156767": {
-    "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
-    "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
   },
   "url:https://clinicaltrials.gov/study/NCT05875740": {
     "key_stats": "",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:39:41+00:00",
+  "generated_at": "2026-10-17T07:17:48+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -308,9 +308,7 @@
         "pubdate": "2026-10-15",
         "summary": "Vasopressin in septic shock has always been a controversial mystery wrapped in an enigma. I was optimistic (bullish, even) about vasopressin for much of the early 2010s. A retrospective subgroup analysis of the VASST trial suggested that starting vasopressin earlier could improve renal function (discussed here). Some RCTs found a faint signal of improved renal […] EMCrit Project by Josh Farkas .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit Explosion Wee – F/u with the 2026 ACEP Sedation Guidelines Authors",
@@ -2964,9 +2962,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13662006/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42876967/",
-        "society": "IDSA",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "IDSA"
       },
       {
         "pmid": "42415882",
@@ -4516,8 +4512,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42878628/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "respiratory",
         "category_label": "Respiratory",
         "category_ids": [
@@ -4560,8 +4554,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42878609/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "respiratory",
         "category_label": "Respiratory",
         "category_ids": [
@@ -4617,11 +4609,13 @@
         "category_ids": [
           "respiratory",
           "renal",
+          "infectious-sepsis",
           "procedures-pocus"
         ],
         "category_labels": [
           "Respiratory",
           "Renal",
+          "Infectious Disease & Sepsis",
           "Procedures & POCUS"
         ]
       },
@@ -4875,6 +4869,144 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Adrenal Function in Critical Illness",
+        "url": "https://clinicaltrials.gov/study/NCT00156767",
+        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT00156767",
+        "ai_key_stats": "",
+        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07834346",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07834346"
+      },
+      {
+        "title": "Respiratory Physiotherapy and Diaphragm Thickness in Ventilated ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07538102",
+        "source": "Hitit University",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "This study aims to evaluate the effect of respiratory physiotherapy on diaphragm thickness in patients receiving mechanical ventilation support in the intensive care unit. Thinning and dysfunction of the diaphragm muscle observed during mechanical ventilation complicate the extubation process and increase the risk of respiratory failure in patients. Diaphragm dysfunction prolongs ventilator use and increases ICU mortality. The main objective of this research is to determine whether respiratory p",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07538102"
+      },
+      {
+        "title": "Comparison of Continuous Versus Intermittent Enteral Nutrition in Critically Ill Patients.",
+        "url": "https://clinicaltrials.gov/study/NCT03573453",
+        "source": "Masaryk University",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "The purpose of the study is to compare continuous versus intermittent strategy for enteral nutrition. The study will examine if there is a difference in achieving nutritional delivery goals, tolerance and number of complications of enteral nutrition.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03573453",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Effect of Ventilator Hyperinflation Combined With Body Positioning on ABG in VAP",
+        "url": "https://clinicaltrials.gov/study/NCT07854730",
+        "source": "Al-Zaytoonah University of Jordan",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "This study aims to evaluate the effect of ventilator hyperinflation combined with body positioning on arterial blood gases in patients with ventilator-associated pneumonia. Forty-two mechanically ventilated patients will be randomly assigned into two groups receiving the intervention in either supine or lateral decubitus positions. Arterial blood gases will be assessed over a 6-day intervention period. The findings are expected to provide evidence regarding the optimal positioning strategy to en",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07854730",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "NICU Design: Open Space Versus Single Family Room",
+        "url": "https://clinicaltrials.gov/study/NCT07877792",
+        "source": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "This prospective, multicenter observational study aims to investigate parents' and healthcare professionals' perceptions of neonatal intensive care unit (NICU) design, comparing Open Space and Single Family Room settings. Parents' perceived stress and involvement in neonatal care will be assessed using the Parental Stressor Scale-NICU (PSS-NICU) and the Nurse Parent Support Tool (NPST), while healthcare professionals' perceived stress will be assessed using the Stress-Related Vulnerability Scale",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07877792",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Norepinephrine Equivalent Dose of Vasopressin, Phenylephrine and Epinephrine in Septic Shock",
+        "url": "https://clinicaltrials.gov/study/NCT06499467",
+        "source": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "Septic shock is the most common form of circulatory shock encountered in patients admitted in intensive care unit. The initial management involves fluid resuscitation but if hypotension does not get resolved solely by it, then vasopressors become the mainstay of the management of shock to maintain adequate mean arterial pressure (MAP). Norepinephrine is recommended as the first line vasopressor in the management of septic shock as per Surviving Sepsis Campaign guidelines of 2021. It recommends a",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06499467",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Internal Jugular Vein and Inferior Vena Cava Collapsibility Indices as a Guidance of Fluid Responsiveness in Septic Shock Cancer Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07879287",
+        "source": "Cairo University",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "This study aimed to compare between internal jugular vein and inferior vena cava collapsibility indices as a guidance of fluid responsiveness in septic shock cancer patients.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07879287",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Multidimensional Dysfunction in Patients With Chronic Critical Illness in China",
+        "url": "https://clinicaltrials.gov/study/NCT07585578",
+        "source": "Hongying Jiang, MD",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "Over the past two decades, rapid advances in critical care medicine have markedly reduced short-term mortality among critically ill patients. As a result, a growing number of patients survive the acute phase of critical illness but do not recover quickly. Instead, they develop chronic critical illness (CCI), which is characterized by prolonged dependence on intensive care, including prolonged mechanical ventilation, persistent organ dysfunction, recurrent infections, and extended intensive care ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07585578",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Association of Inspiratory Effort With Dyspnea During Assisted Mechanical Ventilation in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07877350",
+        "source": "University of Crete",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "During assisted mechanical ventilation, breathing results from the interaction between the patient and the ventilator. Optimal titration of pressure support is essential to maintain a balance between over-assistance and under-assistance. Excessive respiratory may lead to dyspnea and cause respiratory muscle fatigue, whereas excessive assistance promotes muscle atrophy and delays weaning. Although normal inspiratory effort values in healthy subjects are well defined, acceptable limits in critical",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07877350",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "The Vancomycin Piperacillin/Tazobactam (VPT) Patient Safety Trial (VPS)",
         "url": "https://clinicaltrials.gov/study/NCT07556107",
         "source": "Bassett Healthcare",
@@ -4908,9 +5040,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07607886",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07607886"
       },
       {
         "title": "Continuous Connected Patient Care (CCPC), a Pilot Testing a Novel Device for Continuous Vitals Monitoring - Department of Anesthesia at PHC",
@@ -4922,9 +5052,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06638073",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06638073"
       },
       {
         "title": "Personalized Mechanical Ventilation Guided by UltraSound in Patients With Acute Respiratory Distress Syndrome",
@@ -4936,9 +5064,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05492344",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05492344"
       },
       {
         "title": "Bed Bath With Auditory Hypnosis on ICU Patients",
@@ -4950,9 +5076,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07019467",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07019467"
       },
       {
         "title": "Spontaneous vs Controlled Mechanical Ventilation in Acute Hypoxemic Respiratory Failure",
@@ -4964,9 +5088,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07463885",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07463885"
       },
       {
         "title": "Peripheral Perfusion Index Trajectory to Predict 28-Day Mortality in Patients With Sepsis in the Intensive Care Unit",
@@ -5031,22 +5153,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06374225"
-      },
-      {
-        "title": "Adrenal Function in Critical Illness",
-        "url": "https://clinicaltrials.gov/study/NCT00156767",
-        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
-        "author": "",
-        "pubdate": "2026-10-13",
-        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT00156767",
-        "ai_key_stats": "",
-        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
-        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
-        "ai_rounds_takeaway": ""
       },
       {
         "title": "Correlation of Memory CD8+ T Cells With Sepsis Severity and Mortality: a Single-center, Unblinded, Prospective, Non-interventional, Observational Study",
@@ -5330,9 +5436,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied 567 critically ill patients to identify early signs of sepsis. They found that a specific protein, matrix metalloproteinase-3, was associated with sepsis. This protein was present at admission and may help predict sepsis outcomes.",
         "ai_significance": "Identifying early biomarkers like matrix metalloproteinase-3 can help ICU clinicians quickly diagnose sepsis and provide timely treatment, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Evaluation of Diagnostic Accuracy and Clinical Performance of the UllCORE Bloodstream Infection (BSI) Test",
@@ -5763,18 +5867,6 @@
         "nct_id": "NCT07555041"
       },
       {
-        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
-        "url": "https://clinicaltrials.gov/study/NCT07834346",
-        "source": "Hellenic Institute for the Study of Sepsis",
-        "author": "",
-        "pubdate": "2026-10-02",
-        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07834346"
-      },
-      {
         "title": "Influence of NEP Inhibition on Vascular Leak and Inflammation (NEPi-INFLAMMATION)",
         "url": "https://clinicaltrials.gov/study/NCT05600062",
         "source": "Queen Mary University of London",
@@ -5917,18 +6009,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT05675345"
-      },
-      {
-        "title": "Respiratory Physiotherapy and Diaphragm Thickness in Ventilated ICU Patients",
-        "url": "https://clinicaltrials.gov/study/NCT07538102",
-        "source": "Hitit University",
-        "author": "",
-        "pubdate": "2026-10-01",
-        "summary": "This study aims to evaluate the effect of respiratory physiotherapy on diaphragm thickness in patients receiving mechanical ventilation support in the intensive care unit. Thinning and dysfunction of the diaphragm muscle observed during mechanical ventilation complicate the extubation process and increase the risk of respiratory failure in patients. Diaphragm dysfunction prolongs ventilator use and increases ICU mortality. The main objective of this research is to determine whether respiratory p",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07538102"
       },
       {
         "title": "Study of Obese Patients Comparing Two Vancomycin Loading Dose Regimens",
@@ -6804,7 +6884,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07449572"
+        "nct_id": "NCT07449572",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Reverse Trigger Phenotypification and Response to Ventilatory Adjustments",
@@ -6888,7 +6970,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05150483"
+        "nct_id": "NCT05150483",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ultrasound Assessment of Gastric Emptying in Mechanically Ventilated ICU Patients",
@@ -6900,7 +6984,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07352202"
+        "nct_id": "NCT07352202",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Use of Single-Beat TE-e' in Evaluation of Left Atrial Pressure in Critically Ill Patients: The TELAP-ICU Trial",
@@ -6912,7 +6998,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07820319"
+        "nct_id": "NCT07820319",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Effect of High Protein and Early Resistance Exercise Versus Usual Care in Critically Ill Patients",
@@ -6924,7 +7012,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04261543"
+        "nct_id": "NCT04261543",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparing Blood-Based Ratios for Predicting Outcomes in Sepsis and Septic Shock",
@@ -6936,7 +7026,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07819708"
+        "nct_id": "NCT07819708",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Protein Dosing Strategies in Critically Ill Patients: Comparing Actual Body Weight and Fat-Free Mass Approaches in an Observational Cohort Study",
@@ -6948,7 +7040,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07312708"
+        "nct_id": "NCT07312708",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Body Composition Study in Critically Ill Patients-Extended to COVID-19",
@@ -6960,7 +7054,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04849624"
+        "nct_id": "NCT04849624",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The VIP3 (Very Old Intensive Care Patients) Study: Family Involvement in Treatment Decisions for Old ICU Patients",
@@ -6972,7 +7068,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07035951"
+        "nct_id": "NCT07035951",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Rehabilitation Practices in Critically Ill Patients Receiving Invasive Mechanical Ventilation in the Intensive Care Unit.",
@@ -6984,7 +7082,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07093125"
+        "nct_id": "NCT07093125",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Transpulmonary Pressure-guided Mechanical Ventilation Strategy in Right Ventricular Protection in Patients With ARDS",
@@ -7036,9 +7136,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02345681",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02345681"
       },
       {
         "title": "Impact of Early Low-Calorie Low-Protein Versus Standard Feeding on Outcomes of Ventilated Adults With Shock",
@@ -7050,9 +7148,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03573739",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03573739"
       },
       {
         "title": "Medical Device Clinical Trial Without CE Marking to Evidence Safety and Performance of the INBENTUS VERSATILE Ventilator in Patients Requiring Assisted/Controlled Mechanical Ventilation and Weaning.",
@@ -7064,9 +7160,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07432191",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07432191"
       },
       {
         "title": "Therapeutic Hypothermia in \"Expanded Criteria\" Brain-dead Donors and Kidney-graft Function",
@@ -7078,9 +7172,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03098706",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03098706"
       },
       {
         "title": "Comparison of Two Strategies for Endotracheal Tube Cuff Underinflation Prevention During Invasive Mechanical Ventilation",
@@ -7092,9 +7184,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03330379",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03330379"
       },
       {
         "title": "A Phase 1b/2a Trial to Evaluate Invobenitug Also Known as Procizumab (PCZ; AK1967) in Critical Cardiovascular Care.",
@@ -7106,9 +7196,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06832722",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06832722"
       },
       {
         "title": "Evaluation of Jugular Venous Distensibility Index in Intravascular Fluid Management and Comparison of the Effectiveness of Noninvasive and Minimally Invasive Methods",
@@ -7728,9 +7816,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study is investigating the efficacy, safety, and tolerability of AZD4144 in patients with sepsis-associated acute kidney injury. Participants will be randomly assigned to receive either AZD4144 or a placebo. The study aims to enroll adults aged 18 to 80 years diagnosed with sepsis due to a bacterial infection.",
         "ai_significance": "This study has the potential to provide new insights into the treatment of sepsis-associated acute kidney injury, a serious complication that can occur in critically ill patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Prevention of Pressure Sores in the Prone Position in ARDS Patients",
@@ -7742,9 +7828,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03125421",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03125421"
       },
       {
         "title": "Dexamethasone Treatment for Sepsis-associated Acute Respiratory Distress Syndrome: a Multicenter, Randomised, Double-blinded, Controlled Trial",
@@ -7756,9 +7840,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07576660",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07576660"
       },
       {
         "title": "CPB and Aortic Cross-Clamp Durations and ICU Length of Stay After CABG Retrospective Observational Cohort Study",
@@ -7770,9 +7852,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07711951",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07711951"
       },
       {
         "title": "Subanesthetic Ketamine Infusions for Depressive Symptoms in Intensive Care Unit Patients",
@@ -7784,9 +7864,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07639359",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07639359"
       },
       {
         "title": "Family Videos and Virtual Reality in Intensive Care Patients",
@@ -7798,9 +7876,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07794696",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07794696"
       },
       {
         "title": "Dynamic Infection Kinetics for Early Diagnosis, Monitoring, and Prognostication of Sepsis in Adult Oncology Patients: Evaluating Serial Infection Biomarkers, Blood Culture Kinetics, Treatment Response, Disease Severity, and Clinical Outcomes",
@@ -7812,9 +7888,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07795502",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07795502"
       },
       {
         "title": "A Comparative Study of Glucocorticoids Efficacy in Acute Respiratory Distress Syndrome",
@@ -7826,9 +7900,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06496997",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06496997"
       },
       {
         "title": "Early Assessment of Quadriceps Muscle Recovery by Dynamometry and 3D Ultrasound in Intensive Care Patients Under Invasive Mechanical Ventilation",
@@ -7840,7 +7912,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07069959"
+        "nct_id": "NCT07069959",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Senolytics To slOw Progression of Sepsis (STOP-Sepsis) Trial",
@@ -7852,7 +7926,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05758246"
+        "nct_id": "NCT05758246",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
@@ -7876,7 +7952,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02855619"
+        "nct_id": "NCT02855619",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Versus Late Adjunctive Vasopressin in Septic Shock",
@@ -7888,7 +7966,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06709573"
+        "nct_id": "NCT06709573",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ultrasound of the Quadriceps Femoris Compared With the Clinical Frailty Scale",
@@ -7900,7 +7980,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06523348"
+        "nct_id": "NCT06523348",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Validation of a Pre-trained and Fine-tuned Model for Analyzing Time-Series Electronic Health Records in Critical Care",
@@ -7912,7 +7994,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07795450"
+        "nct_id": "NCT07795450",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "MID-STEP (MIDodrine for Sepsis Treatment and Early vasoPressor Weaning) Trial",
@@ -7924,7 +8008,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06319248"
+        "nct_id": "NCT06319248",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Predict Arrhythmia Risk Using Intelligent Software",
@@ -9681,11 +9767,11 @@
     ]
   },
   "spotlight": {
-    "pmid": "42560130",
-    "title": "Targeted Temperature Management at 35°C vs. 37°C for Heatstroke in ICU: A Pilot Randomized Controlled Trial.",
-    "journal": "Critical care medicine",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42560130/",
-    "pubdate": "2026 Oct 1",
+    "pmid": "42616082",
+    "title": "Early red blood cell transfusion strategy in septic shock among patients with cancer: the TRANSPORT randomized controlled trial.",
+    "journal": "Intensive care medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42616082/",
+    "pubdate": "2026 Oct",
     "study_type": "Randomized Controlled Trial",
     "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Randomized Controlled Trial, prioritized by evidence level and citation impact.",
     "discussion_prompts": [
@@ -9693,11 +9779,12 @@
       "Which ICU patients are most likely to benefit from these findings, and who may not?",
       "Would these results change current bedside practice or require further validation?"
     ],
-    "week": "2026-10-10",
-    "generated_at": "2026-10-10T09:12:09+00:00",
+    "week": "2026-10-17",
+    "generated_at": "2026-10-17T07:17:09+00:00",
     "previous_pmids": [
       "42765454",
-      "42565658"
+      "42565658",
+      "42560130"
     ]
   },
   "categories": [
@@ -18623,7 +18710,9 @@
           "pages": "1489-1494",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/41823503/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/41823503/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42210338",
