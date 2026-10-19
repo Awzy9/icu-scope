@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T07:31:46+00:00",
+  "generated_at": "2026-10-19T08:16:20+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -301,6 +301,18 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "EMCrit 436 – When you RSI Shocked Patients, they Tend to Die (the Hemodynamically Neutral Intubation Part 2)",
+        "url": "https://emcrit.org/emcrit/when-you-rsi-shocked-patients-they-tend-to-die/",
+        "source": "EMCrit",
+        "author": "Scott Weingart, MD FCCM",
+        "pubdate": "2026-10-18",
+        "summary": "Eight years after the original episode, I revisit the hemodynamically neutral intubation (HNI) to bring this high-risk procedure out of the expert-only domain and into everyday resuscitation practice. Learn how to avoid turning the laryngoscope into a murder weapon by preserving spontaneous breathing, choosing smart induction aliquots, and maintaining post-intubation spont breathing modes. EMCrit ",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "PulmCrit Hot Take: VASSPR RCT on early vasopressin in sepsis",
         "url": "https://emcrit.org/pulmcrit/vaso2026/",
         "source": "PulmCrit",
@@ -488,7 +500,9 @@
         "pubdate": "2026-08-18",
         "summary": "This particular story has a familiar shape. A small, methodologically flawed study finds a striking benefit. The p-value is impressively low. The paper lands in a major journal. And within a few years, its flaws, its obvious sources of bias, and its undeniable susceptibility to chance findings are forgotten. All that remains is its statistical […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients?",
@@ -498,9 +512,7 @@
         "pubdate": "2026-08-17",
         "summary": "Is HFNC as effective as NIV in reducing respiratory rate and improving respiratory distress within 2 hours in ACPE? The post SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients? appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Case of the Redacted Ledger",
@@ -2832,7 +2844,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13481273/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42614272/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42643465",
@@ -4821,9 +4835,7 @@
         "summary": "BackgroundSerial glial fibrillary acidic protein (GFAP) trajectories have become an important framework for contextualizing evolving secondary-injury pathophysiology after moderate-to-severe traumatic brain injury (msTBI). However, total GFAP pools release and clearance signals that may be less useful for longitudinal bedside decisions than a proteoform-resolved assay. We compared total GFAP with neoGFAP, defined here as calpain-generated GFAP proteoforms intended to index active astroglial prot",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "The LIBERATE Internal Randomized Controlled Pilot Trial: Adjunctive midodrine therapy for early liberation from vasopressor support in critically ill patients",
@@ -4845,9 +4857,7 @@
         "summary": "ObjectiveTo develop an intelligent predictive indicator system for determining weaning and extubation timing in mechanically ventilated patients, providing a theoretical foundation for clinical decision support systems and intelligent assessment in critical care nursing. MethodsA literature review was conducted to identify and extract factors influencing weaning and extubation timing in mechanically ventilated patients, forming the initial item pool for the indicator system. A Delphi expert cons",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Preventing aspiration events in hospital using prophylactic antiemetics: A systematic review and meta-analysis",
@@ -5033,7 +5043,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07556107"
+        "nct_id": "NCT07556107",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparative Efficacy and Safety of Propofol-Ketamine Combination Versus Propofol Monotherapy in Geriatric Patients Under Invasive Ventilation",
@@ -5045,7 +5057,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07530146"
+        "nct_id": "NCT07530146",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Inflammatory Indices, Early Mortality, and ICU Stay in Geriatric PFN Patients",
@@ -5689,7 +5703,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06140147"
+        "nct_id": "NCT06140147",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Feasibility Study of an Interactive Remote Supervising Platform for Critical Care: A Randomized Study",
@@ -5845,9 +5861,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06442930",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06442930"
       },
       {
         "title": "Efficacy and Safety of Tozorakimab in Patients Hospitalised for Viral Lung Infection Requiring Supplemental Oxygen",
@@ -5955,7 +5969,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06654895"
+        "nct_id": "NCT06654895",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Post-ICU Syndrome and Social Determinants of Healths",
@@ -5967,7 +5983,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07828301"
+        "nct_id": "NCT07828301",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Glucose States and 72-Hour Care-Metabolic Clusters in Critically Ill Patients",
@@ -6359,9 +6377,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07822971",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07822971"
       },
       {
         "title": "Clopidogrel vs. Aspirin for Cardiovascular Risk Reduction in Patients With S. Aureus Bacteremia",
@@ -6773,7 +6789,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04545242"
+        "nct_id": "NCT04545242",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Cell Therapy With Treg Cells Obtained From Thymic Tissue (thyTreg) to Control the Immune Hyperactivation Associated With COVID-19 and/or Acute Respiratory Distress Syndrome (THYTECH2)",
@@ -6785,7 +6803,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06052436"
+        "nct_id": "NCT06052436",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Heart Rate Variability for Practitioner Stimulated Reflection and Decision-making Optimisation",
@@ -6797,7 +6817,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07709364"
+        "nct_id": "NCT07709364",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Prognostic Value of Novel Biomarkers on Adverse Renal Outcomes in High-Risk Cardiac Surgery Patients",
@@ -6809,7 +6831,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07418242"
+        "nct_id": "NCT07418242",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Use of Airway Pressure Release Ventilation (APRV) in ARDS",
@@ -6821,7 +6845,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04221737"
+        "nct_id": "NCT04221737",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Metabolic and Functional Study of γδ T Cells in Critically Ill Patients",
@@ -6833,7 +6859,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07680816"
+        "nct_id": "NCT07680816",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Association of ICU Admission Time, Age Stratification, and Clinical Frailty Scale With 30-Day Mortality in Geriatric Oncology Patients",
@@ -6917,9 +6945,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06148467",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06148467"
       },
       {
         "title": "A Study of the Efficacy and Safety of Extracorporeal Carbon Dioxide Removal Using PrismaLung+",
@@ -6931,9 +6957,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07326215",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07326215"
       },
       {
         "title": "Impact of BacT/Alert® VIRTUO®, BioFire® Blood Culture Identification 2-BCID2 and REVEAL® (bioMérieux) on the Optimization of Antibiotic Therapy for Gram-negative Bacteremia in the ICU",
@@ -6945,9 +6969,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05741424",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05741424"
       },
       {
         "title": "Angiotensin II Stress Test. Renin Kinetics During Treatment of Vasoplegic Shock With Angiotensin II.",
@@ -6959,9 +6981,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06539234",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06539234"
       },
       {
         "title": "Intra-Abdominal Pressure Changes During Continuous Renal Replacement Therapy in Critically Ill Patients",
@@ -6973,9 +6993,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07823387",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07823387"
       },
       {
         "title": "Individualized Multiplex Pathophysiological Treatment of Severe Acute Infections: N-Acetylcysteine",
@@ -6987,9 +7005,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07273071",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07273071"
       },
       {
         "title": "EndotyPIng PreHospitAl de Novo Acute hYpoxemic Respiratory Failure",
@@ -8565,9 +8581,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to validate the SOFA-2 score in predicting mortality and determining sepsis prevalence in Turkish ICUs. Researchers compared the new SOFA-2 score to the existing SOFA-1 score. The study's results are not yet reported.",
         "ai_significance": "This study's findings could inform the use of the SOFA-2 score in predicting mortality and identifying sepsis in Turkish ICUs, potentially improving patient outcomes.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Limited Versus Extended Trophic Feeding (LET-FEED) Trial",
@@ -8583,9 +8597,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared two feeding regimens in preterm infants born between 25w0d and 31w6d. The regimens differed in when enteral feeds were advanced, either after 24 hours or after 72 hours. The study found no difference in the risk of late onset sepsis or other adverse outcomes between the two groups.",
         "ai_significance": "This study's findings are important for ICU clinical practice as they provide insight into the optimal timing of enteral feeds in preterm infants, which can impact their risk of infection and other complications.",
-        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider advancing enteral feeds after 72 hours in preterm infants born between 25w0d and 31w6d without increasing the risk of late onset sepsis or other adverse outcomes."
       },
       {
         "title": "Multisensory and Cognitive Interventions in the ICU: Effects on Health and Recovery",
@@ -8597,9 +8609,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07116941",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07116941"
       },
       {
         "title": "Progesterone Preeclampsia",
@@ -8611,9 +8621,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07448597",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07448597"
       },
       {
         "title": "Digital Early Warning System for Acute Lung Injury in Liver Surgery",
@@ -8625,9 +8633,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07070362",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07070362"
       },
       {
         "title": "The Effect of Albumin Supplementation on the Inflammatory and Oxidative Stress Markers in Septic Patients",
@@ -8639,9 +8645,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03950778",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03950778"
       },
       {
         "title": "A Study to Learn About the Study Medicine - Zavicefta in Patients With Sepsis or Loss of Kidney Function in Japan",
@@ -8653,9 +8657,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06864585",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06864585"
       },
       {
         "title": "Epidemiology of Antimicrobial-use and Antimicrobial-resistant Infections in Four Hospitals in Thailand",
@@ -8671,9 +8673,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aims to investigate the impact of antibiotic de-escalation on patients who received a short-course of parenteral antibiotics. The study will analyze past medical records from four public referral hospitals in Thailand to understand the effects of de-escalation on patients. The study will identify which types of patients are more likely to receive antibiotic de-escalation.",
         "ai_significance": "Understanding the impact of antibiotic de-escalation is crucial in reducing antimicrobial resistance and improving patient outcomes in ICU settings.",
-        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider de-escalating antibiotics in patients who have completed a short-course of parenteral antibiotics."
       },
       {
         "title": "Platelets in Pregnancy",
@@ -8689,9 +8689,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated platelet changes in pregnant patients at high-risk for preeclampsia before and after aspirin use. Blood samples were collected to assess the association between platelet changes and adverse perinatal outcomes. No significant findings were reported.",
         "ai_significance": "Understanding platelet changes in pregnancy may help identify patients at risk for preeclampsia, but this study did not provide conclusive results.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Higher-Dose Dexamethasone Improves Breathing and Shortens NICU Stay in Preterm Babies",
@@ -8707,9 +8705,7 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study compared the effects of two doses of dexamethasone given to pregnant women at risk of preterm birth on preterm babies' breathing and NICU stay. The study found that higher-dose dexamethasone improved breathing and shortened NICU stay in preterm babies. The study looked at preterm babies born between 26 and 36 weeks of pregnancy.",
         "ai_significance": "This study's findings suggest that higher-dose dexamethasone may be beneficial for preterm babies' respiratory health and hospital stay duration, which could inform clinical practice in NICUs.",
-        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider higher-dose dexamethasone for pregnant women at risk of preterm birth to potentially improve respiratory outcomes in preterm babies."
       },
       {
         "title": "The Family-ICU Trial",
@@ -9989,7 +9985,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42267831",
@@ -10186,7 +10184,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488188/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432793",
@@ -10375,9 +10375,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13480029/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/"
         },
         {
           "pmid": "42237139",
@@ -12063,7 +12061,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42377460",
@@ -12785,7 +12785,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42725835",
@@ -13570,7 +13572,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42745269",
@@ -13595,9 +13599,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
         },
         {
           "pmid": "42301229",
@@ -14329,9 +14331,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/"
         },
         {
           "pmid": "42612901",
@@ -14366,7 +14366,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42171427",
@@ -14930,7 +14932,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42725835",
@@ -15481,7 +15485,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488188/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506363",
@@ -16241,7 +16247,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42267870",
@@ -16745,9 +16753,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13480029/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42271417/"
         },
         {
           "pmid": "42257882",
@@ -18045,7 +18051,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42149702",
@@ -18585,7 +18593,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42294965",
