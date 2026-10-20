@@ -1,34 +1,9 @@
 {
-  "generated_at": "2026-10-19T08:16:20+00:00",
+  "generated_at": "2026-10-20T08:01:42+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
     "articles": [
-      {
-        "pmid": "42778957",
-        "title": "The NLRP3 inflammasome in physiological and dysfunctional host response in human sepsis and critical illness: a narrative review.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Sep 19",
-        "authors": [
-          "Neumann C",
-          "Hickl F",
-          "Kemnitzer J",
-          "Leitner M",
-          "Giamarellos-Bourboulis EJ",
-          "Rubio I"
-        ],
-        "doi": "10.1186/s13054-026-06315-z",
-        "abstract": "BACKGROUND: The NLRP3 inflammasome is a cytosolic multiprotein complex that serves as a key regulator of innate immunity by reacting to pathogen- and damage-associated signals and orchestrating downstream inflammatory responses. Inflammasome activation induces caspase-1-dependent maturation of interleukin (IL)-1β, IL-18 and gasdermin D, which results in pyroptotic cell death. MAIN TEXT: While tightly controlled inflammasome activation is essential for effective host defence and pathogen clearance, accumulating evidence implicates its dysregulation as a central driver of host response imbalance in critical illness. In conditions such as sepsis and acute respiratory distress syndrome, excessive activation contributes to hyperinflammation, endothelial dysfunction, immunothrombosis, and multi-organ failure. Conversely, insufficient or exhausted inflammasome responses may impair microbial clearance and predispose to secondary infections. These observations underscore the context-dependent and temporally dynamic role of inflammasome signalling as being either protective or pathogenic. Emerging therapeutic strategies aim to restore immune homeostasis through targeted modulation of inflammasome pathways, including IL-1 blockade (e.g., anakinra) and inhibition of upstream signalling components. However, clinical translation remains challenging, requiring improved patient stratification, biomarker-guided approaches, and a deeper understanding of disease heterogeneity. CONCLUSIONS: Inflammasome signalling plays a highly dynamic role in critical illness, contributing to effective host defence, if functional, or to pathological inflammation, if dysregulated. Although targeted modulation of inflammasome pathways represents a promising therapeutic strategy, further research is needed to refine patient selection, identify reliable biomarkers, and better characterise disease heterogeneity to enable successful clinical translation.",
-        "citation_count": 265,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
-      },
       {
         "pmid": "42765454",
         "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
@@ -294,12 +269,56 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13640326/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
+      },
+      {
+        "pmid": "42545097",
+        "title": "H3.1 Nucleosomes to Predict Renal Replacement Therapy and Mortality in Sepsis-A Secondary Analysis of the SISPCT Randomized Control Trial.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 1",
+        "authors": [
+          "Neumann C",
+          "Bloos F",
+          "Hla TTW",
+          "Bygott T",
+          "Bogatsch H",
+          "Kiehntopf M",
+          "Börner F",
+          "Press AT",
+          "Bauer M",
+          "Retter A",
+          "SepNet Critical Care Trials Group"
+        ],
+        "doi": "10.1097/CCM.0000000000007270",
+        "abstract": "OBJECTIVES: The release of neutrophil extracellular traps is a key immune host defense mechanism that can contribute to organ damage during sepsis if excessive. We evaluated presentation H3.1 nucleosome levels in patients with sepsis, septic shock, and sepsis-associated acute kidney injury (AKI). We sought to determine if plasma H3.1 nucleosome levels could serve as predictive biomarkers for both renal replacement therapy (RRT) requirements and 28-day mortality. DESIGN: A secondary analysis of prospectively collected samples from the large multicenter Effect of Sodium Selenite Administration and Procalcitonin-Guided Therapy on Mortality in Patients with Severe Sepsis or Septic Shock (SISPCT) trial. SETTING: Patients from 33 ICUs in Germany recruited between November 6, 2009, and June 6, 2013, including a 90-day follow-up period. PATIENTS: A total of 971 patients with complete data on plasma H3.1 admission levels with sepsis and septic shock, and 927 patients with complete data on RRT requirements. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We evaluated associations between H3.1 levels and mortality and the time to commencement of RRT using multivariable Cox regression. A total of 443 patients (45.6%) presented with sepsis, and 520 patients (53.6%) had septic shock. Admission H3.1 levels were higher in patients with septic shock than sepsis (median, 921.84 vs. 432.71 ng/mL; p < 0.001). In a multivariable analysis for 28-day mortality, a one unit increase in log10 H3.1 levels was associated with a 48% increase in 28-day mortality (adjusted hazard ratio [HR], 1.48, 95% CI, 1.07-2.04; p = 0.02). Plasma H3.1 was also higher in patients with stage 3 AKI requiring RRT with septic shock vs. sepsis (1832 vs. 801.4 ng/mL; p = 0.01). In a multivariable Cox regression controlling for maximum lactate, procalcitonin, and C-reactive protein levels, plasma H3.1 levels were significantly higher in patients who developed AKI requiring RRT when compared with patients who did not develop AKI, with one log10 increase of H3.1 increasing the risk of 28-day RRT by 80% (adjusted HR, 1.8; 95% CI, 1.34-2.40; p < 0.001). CONCLUSIONS: Elevated levels of H3.1 nucleosomes at admission are associated with mortality and AKI requiring RRT. TRIAL REGISTRATION: The trial was registered in clinicaltrials.gov , identifier: NCT00832039.",
+        "citation_count": 35,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "54",
+        "issue": "10",
+        "pages": "2567-2578",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632813/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "A Study in Priors Part 3",
+        "url": "https://emcrit.org/emnerd/a-study-in-priors-part-3/",
+        "source": "EMCrit",
+        "author": "Rory Spiegel",
+        "pubdate": "2026-10-19",
+        "summary": "In 2010, the CRASH-2 trial was published in the Lancet.[1] The authors randomized 20,211 trauma patients with, or at risk of, significant hemorrhage within 8 hours of injury to either tranexamic acid (TXA), a 1 g bolus followed by a 1 g infusion over 8 hours, or placebo. 28-day mortality was 14.5% in the TXA […] EMCrit Project by Rory Spiegel .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "EMCrit 436 – When you RSI Shocked Patients, they Tend to Die (the Hemodynamically Neutral Intubation Part 2)",
         "url": "https://emcrit.org/emcrit/when-you-rsi-shocked-patients-they-tend-to-die/",
@@ -308,9 +327,7 @@
         "pubdate": "2026-10-18",
         "summary": "Eight years after the original episode, I revisit the hemodynamically neutral intubation (HNI) to bring this high-risk procedure out of the expert-only domain and into everyday resuscitation practice. Learn how to avoid turning the laryngoscope into a murder weapon by preserving spontaneous breathing, choosing smart induction aliquots, and maintaining post-intubation spont breathing modes. EMCrit ",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "PulmCrit Hot Take: VASSPR RCT on early vasopressin in sepsis",
@@ -500,9 +517,7 @@
         "pubdate": "2026-08-18",
         "summary": "This particular story has a familiar shape. A small, methodologically flawed study finds a striking benefit. The p-value is impressively low. The paper lands in a major journal. And within a few years, its flaws, its obvious sources of bias, and its undeniable susceptibility to chance findings are forgotten. All that remains is its statistical […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "SPICE III Trial: Does Early Dexmedetomidine Improve Survival in Mechanically Ventilated ICU Patients?",
@@ -1142,18 +1157,20 @@
           "Li N",
           "Li S"
         ],
-        "doi": null,
+        "doi": "10.19723/j.issn.1671-167X.2026.05.010",
         "abstract": "OBJECTIVE: To analyze the correlation between acute kidney injury (AKI) diagnosed by elevated serum creatinine (Scr) versus only meeting the urine output (UO) reduction criteria and short-term adverse outcomes in critically ill patients following non-cardiac surgery, and to evaluate the association between even mild elevations in Scr and clinical outcomes furthermore. METHODS: This study was a secondary analysis of data from a prospective cohort study. A total of 1020 non-cardiac surgery adults admitted to the intensive care unit (ICU) of Peking University First Hospital from May 20, 2019 to March 7, 2022 were included. According to Kidney Disease: Improving Global Outcomes (KDIGO) guideline, AKI patients were classified into two groups: the AKI-Scr group (those meeting the Scr elevation criteria) and the AKI-UO group (those fulfilling only the UO reduction criteria). The primary outcome was in-hospital mortality in patients with AKI, and the secondary outcomes were major renal adverse events, post-operative renal replacement therapy (RRT), postoperative complications, postoperative mechanical ventilation time, ICU stay, postoperative hospital stay, total hospital stay, and total medical costs. Multivariate Logistic regression analysis was used to identify risk factors of hospitalized death in critically ill patients with AKI following non-cardiac surgery. RESULTS: A total of 1020 non-cardiac surgical patients admitted to the ICU were enrolled, among whom 429 were diagnosed with AKI. There were 91 cases in the AKI-Scr group and 338 cases in the AKI-UO group. The primary study endpoint: no statistically significant difference in in-hospital mortality was observed between the AKI-Scr and AKI-UO groups (5.5% vs. 2.1%, P>0.05). The secondary study endpoints: compared with the AKI-UO group, the patients in the AKI-Scr group had a higher incidence of major renal adverse events (9.8% vs. 4.4%), postoperative RRT (4.4% vs. 0.3%) and postoperative complications (50.5% vs. 24.0%, all P < 0.05), a significantly longer duration of postoperative mechanical ventilation (12.0 d vs. 7.5 d), ICU stay (2 d vs. 1 d), postoperative hospital stay (14 d vs. 9 d) and total hospital stay (21 d vs.17 d, all P < 0.05), and a significantly higher total medical expenditure (112000 yuan vs. 89000 yuan, P<0.001). Multivariate Logistic regression analysis showed that postoperative RRT (OR=33.164, 95%CI: 1.305-842.794, P=0.034) and sepsis during hospitalization (OR=23.096, 95%CI: 4.242-125.175, P < 0.001) were independent risk factors for hospitalized death in the critically ill patients with postoperative AKI. Compared with the ΔScr≤24% patients (Scr increased by less than 24% from baseline within 7 d), even in the patients with only a minor elevation in Scr (ΔScr increase of 25%-49% from baseline but < 26.5μmol/L), the incidence of postoperative complications was significantly higher (48.6% vs. 19.2%, P < 0.001), along with prolonged ICU stay [1(1, 3) d vs. 1(1, 2) d], postoperative hospital stay (13 d vs. 9 d), and total hospital stay (23 d vs. 16 d, all P < 0.05). Compared with the non-AKI group, the incidence of in-hospital mortality (2.1% vs. 0.3%, P < 0.05) and postoperative complications (24.0% vs. 18.3%, P < 0.05) was higher in the AKI-UO group, and the ICU stay [1(1, 3) d vs. 1(1, 2) d, P < 0.001] was longer. CONCLUSION: In critically ill patients with AKI following non-cardiac surgery, the short-term prognosis of patients with AKI whose diagnosis was mainly based on increased Scr was worse than patients who only met the diagnostic criteria of oliguria. Even a mild elevation in serum creatinine was associated with adverse patient outcomes.",
-        "citation_count": 0,
+        "citation_count": 27,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "58",
         "issue": "5",
         "pages": "965-973",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13672238/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42880916/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42872921",
@@ -2844,9 +2861,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13481273/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42614272/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42643465",
@@ -4772,6 +4787,19 @@
     "window_days": 14,
     "articles": [
       {
+        "title": "Prediction of in-hospital mortality at a 72-hour intensive care landmark in patients with sepsis and pre-existing hypertension: development and external validation",
+        "url": "https://doi.org/10.64898/2026.10.02.26364566",
+        "source": "medRxiv preprint",
+        "author": "Yufeng Chen",
+        "pubdate": "2026-10-06",
+        "summary": "BackgroundIn patients with sepsis and pre-existing hypertension, admission findings may not adequately describe the subsequent course of circulatory support and organ dysfunction. We developed and externally validated a model to reassess in-hospital mortality risk after the first 72 hours of intensive care. MethodsThis retrospective study used MIMIC-IV for development and eICU-CRD for external validation. Patients had received vasoactive agents and remained in the ICU for at least 72 hours. Stat",
+        "study_type": "Preprint (not peer-reviewed)",
+        "is_open_access": true,
+        "is_preprint": true,
+        "link_broken": true,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Characteristics associated with culture-positivity versus antibiotic administration in patients with cirrhosis on ICU admission: a retrospective cohort study in 5 hospitals.",
         "url": "https://doi.org/10.64898/2026.09.22.26363729",
         "source": "medRxiv preprint",
@@ -4914,7 +4942,7 @@
         "url": "https://clinicaltrials.gov/study/NCT00156767",
         "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
         "author": "",
-        "pubdate": "2026-10-16",
+        "pubdate": "2026-10-19",
         "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
@@ -4924,6 +4952,112 @@
         "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
         "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
         "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
+        "url": "https://clinicaltrials.gov/study/NCT05421858",
+        "source": "Basilea Pharmaceutica",
+        "author": "",
+        "pubdate": "2026-10-19",
+        "summary": "The purpose of this clinical trial is to learn about the safety and effects of the study medicine (called Fosmanogepix) for the potential treatment of candidemia and/or invasive candidiasis, a life-threatening fungal infection caused by several species of yeast called Candida. The study is seeking patients who have a diagnosis of candidemia and/or invasive candidiasis. Two-thirds of all patients will receive the study medication fosmanogepix Intravenous (IV) infusion followed by optional fosmano",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05421858"
+      },
+      {
+        "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07813767",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-10-19",
+        "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07813767"
+      },
+      {
+        "title": "Shenfu Injection for the Prevention and Treatment of Ventilator Dependence in Mechanically Ventilated Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07880977",
+        "source": "The Fourth Affiliated Hospital of Zhejiang University School of Medicine",
+        "author": "",
+        "pubdate": "2026-10-19",
+        "summary": "This multicenter randomized controlled trial aims to evaluate the efficacy of Shenfu Injection in preventing and treating ventilator dependence and ventilator-induced diaphragm dysfunction (VIDD) in critically ill adult patients receiving invasive mechanical ventilation. Eligible participants will be randomly assigned to receive Shenfu Injection or control treatment in addition to standard clinical care. Diaphragm function will be monitored using daily bedside ultrasonography, including diaphrag",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07880977",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Communication Tool to Improve Communication in the ICU",
+        "url": "https://clinicaltrials.gov/study/NCT05780918",
+        "source": "University of Wisconsin, Madison",
+        "author": "",
+        "pubdate": "2026-10-19",
+        "summary": "The purpose of this study is to test the effectiveness of the Best Case/Worst Case-ICU communication tool on quality of communication, clinician moral distress, and ICU length of stay for older adults with serious traumatic injury. Investigators will follow an estimated 4500 patients aged 50 years and older who are in the ICU for 3 or more days and survey 1500 family members and up to 1600 clinicians from 8 sites nationwide.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05780918",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Continuous Versus Intermittent Enteral Feeding and Gastric Residual Volume in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07876141",
+        "source": "Viet Duc University Hospital",
+        "author": "",
+        "pubdate": "2026-10-19",
+        "summary": "This study will compare two commonly used methods of enteral feeding in critically ill adults: continuous feeding and intermittent feeding. The main purpose is to determine whether the amount of feeding fluid remaining in the stomach differs between the two methods. A total of 76 participants will be randomly assigned to receive either continuous gastric feeding or intermittent gastric feeding every 4 hours. Gastric ultrasound will be performed at the bedside before starting the assigned feeding",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07876141",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Mortality and Muscle Mass Loss in Critically Ill Patients.",
+        "url": "https://clinicaltrials.gov/study/NCT07280039",
+        "source": "Brno University Hospital",
+        "author": "",
+        "pubdate": "2026-10-19",
+        "summary": "The aim of the study is to monitor changes in muscle mass in critically ill patients and to verify whether a decrease in muscle mass of ≥10% during the first 7 days of hospitalization is associated with increased 28-day mortality. We will be used ultrasound for measurement the rectus femoris cross sectional area.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07280039",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "An Observational Study in the United States to Learn How Venous Thromboembolism, Disseminated Intravascular Coagulation, and Sepsis Are Related",
+        "url": "https://clinicaltrials.gov/study/NCT06765681",
+        "source": "Bayer",
+        "author": "",
+        "pubdate": "2026-10-19",
+        "summary": "This is an observational study in which data already collected from people with venous thromboembolism (VTE) due to sepsis (blood poisoning) are studied. These people were hospitalized in an intensive care unit (ICU) and may or may not have had disseminated intravascular coagulation (DIC). In this observational study, only observations are made without participants receiving any advice or changes to their healthcare. VTE is a condition that occurs when blood clots form in the veins, which can be",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06765681",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
+        "url": "https://clinicaltrials.gov/study/NCT06854640",
+        "source": "Bayer",
+        "author": "",
+        "pubdate": "2026-10-16",
+        "summary": "Researchers are looking for a better way to treat people who have sepsis induced coagulopathy. Sepsis happens when bacteria and their toxins spread in the blood, causing an infection. To overcome the infection the body responds activating the immune system, sometimes this immune response is too active and causes uncontrolled blood clot formation, also called sepsis-induced coagulopathy. Sepsis coagulopathy damages blood vessels and organs and leads to low platelet levels in the body. In severe c",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06854640"
       },
       {
         "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
@@ -5043,9 +5177,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07556107",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07556107"
       },
       {
         "title": "Comparative Efficacy and Safety of Propofol-Ketamine Combination Versus Propofol Monotherapy in Geriatric Patients Under Invasive Ventilation",
@@ -5057,9 +5189,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07530146",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07530146"
       },
       {
         "title": "Inflammatory Indices, Early Mortality, and ICU Stay in Geriatric PFN Patients",
@@ -5136,18 +5266,6 @@
         "ai_summary": "Researchers investigated whether the trajectory of peripheral perfusion index can predict 28-day mortality in ICU patients with sepsis. They found that the perfusion index trajectory may be linked to worse outcomes in these patients. The study aimed to identify a potential biomarker for sepsis severity.",
         "ai_significance": "This study highlights the importance of monitoring peripheral perfusion in sepsis patients, as it may help identify those at higher risk of mortality. This could lead to more targeted and aggressive treatment.",
         "ai_rounds_takeaway": "Consider monitoring peripheral perfusion in sepsis patients to identify those at higher risk of mortality."
-      },
-      {
-        "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
-        "url": "https://clinicaltrials.gov/study/NCT07813767",
-        "source": "Hellenic Institute for the Study of Sepsis",
-        "author": "",
-        "pubdate": "2026-10-14",
-        "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07813767"
       },
       {
         "title": "Outcomes of Early Versus Late Tracheostomy in Critically Ill Patients Due to Head Injury: A Randomized Controlled Trial",
@@ -5703,9 +5821,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06140147",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06140147"
       },
       {
         "title": "Feasibility Study of an Interactive Remote Supervising Platform for Critical Care: A Randomized Study",
@@ -5969,9 +6085,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06654895",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06654895"
       },
       {
         "title": "Post-ICU Syndrome and Social Determinants of Healths",
@@ -5983,9 +6097,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07828301",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07828301"
       },
       {
         "title": "Early Glucose States and 72-Hour Care-Metabolic Clusters in Critically Ill Patients",
@@ -6476,18 +6588,6 @@
         "nct_id": "NCT07838350"
       },
       {
-        "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
-        "url": "https://clinicaltrials.gov/study/NCT06854640",
-        "source": "Bayer",
-        "author": "",
-        "pubdate": "2026-09-23",
-        "summary": "Researchers are looking for a better way to treat people who have sepsis induced coagulopathy. Sepsis happens when bacteria and their toxins spread in the blood, causing an infection. To overcome the infection the body responds activating the immune system, sometimes this immune response is too active and causes uncontrolled blood clot formation, also called sepsis-induced coagulopathy. Sepsis coagulopathy damages blood vessels and organs and leads to low platelet levels in the body. In severe c",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06854640"
-      },
-      {
         "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
         "url": "https://clinicaltrials.gov/study/NCT05327881",
         "source": "Assiut University",
@@ -6789,9 +6889,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04545242",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04545242"
       },
       {
         "title": "Cell Therapy With Treg Cells Obtained From Thymic Tissue (thyTreg) to Control the Immune Hyperactivation Associated With COVID-19 and/or Acute Respiratory Distress Syndrome (THYTECH2)",
@@ -6803,9 +6901,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06052436",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06052436"
       },
       {
         "title": "Heart Rate Variability for Practitioner Stimulated Reflection and Decision-making Optimisation",
@@ -6817,9 +6913,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07709364",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07709364"
       },
       {
         "title": "Prognostic Value of Novel Biomarkers on Adverse Renal Outcomes in High-Risk Cardiac Surgery Patients",
@@ -6831,9 +6925,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07418242",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07418242"
       },
       {
         "title": "Early Use of Airway Pressure Release Ventilation (APRV) in ARDS",
@@ -6845,9 +6937,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04221737",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04221737"
       },
       {
         "title": "Metabolic and Functional Study of γδ T Cells in Critically Ill Patients",
@@ -6859,9 +6949,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07680816",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07680816"
       },
       {
         "title": "Association of ICU Admission Time, Age Stratification, and Clinical Frailty Scale With 30-Day Mortality in Geriatric Oncology Patients",
@@ -6873,7 +6961,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07825090"
+        "nct_id": "NCT07825090",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Prevalence of the Aortic to Radial Pressure Gradient in States of Shock, Outside the Context of Cardiac Surgery, a Prospective Study",
@@ -6885,7 +6975,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06460519"
+        "nct_id": "NCT06460519",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of Pressure Injury Risks in Hemofiltration",
@@ -6897,7 +6989,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07825727"
+        "nct_id": "NCT07825727",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Post Acute Sequelae of COVID-19",
@@ -6909,7 +7003,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04964115"
+        "nct_id": "NCT04964115",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Curcumin in Critically Ill Patients With Sepsis",
@@ -6921,7 +7017,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07436130"
+        "nct_id": "NCT07436130",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
@@ -7130,18 +7228,6 @@
         "ai_summary": "Researchers investigated whether a specific mechanical ventilation strategy, guided by transpulmonary pressure, can reduce right ventricular involvement in patients with moderate to severe ARDS caused by pneumonia.",
         "ai_significance": "This study aims to improve outcomes for patients with ARDS by identifying an effective mechanical ventilation strategy to protect the right ventricle.",
         "ai_rounds_takeaway": ""
-      },
-      {
-        "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
-        "url": "https://clinicaltrials.gov/study/NCT05421858",
-        "source": "Basilea Pharmaceutica",
-        "author": "",
-        "pubdate": "2026-09-14",
-        "summary": "The purpose of this clinical trial is to learn about the safety and effects of the study medicine (called Fosmanogepix) for the potential treatment of candidemia and/or invasive candidiasis, a life-threatening fungal infection caused by several species of yeast called Candida. The study is seeking patients who have a diagnosis of candidemia and/or invasive candidiasis. Two-thirds of all patients will receive the study medication fosmanogepix Intravenous (IV) infusion followed by optional fosmano",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05421858"
       },
       {
         "title": "Effect of a Constructivist Educational Program on Preventing Ventilator-Associated Pneumonia in Intensive Care Units",
@@ -8397,7 +8483,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07774962"
+        "nct_id": "NCT07774962",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Development and Effectiveness Evaluation of a Clustered Care Guideline Within Individualized Developmental Care: RCT",
@@ -8409,7 +8497,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07052786"
+        "nct_id": "NCT07052786",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "ICCA-Based ICU Physiological State Space Monitor",
@@ -8421,7 +8511,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07773571"
+        "nct_id": "NCT07773571",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Utilization of Lung Ultrasound Score in Decision for Minimally Invasive Surfactant Administration",
@@ -8433,7 +8525,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07442669"
+        "nct_id": "NCT07442669",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dexamethasone for Treating Severe Hospital-acquired Pneumonia in Critically Ill Patients With a Proinflammatory Phenotype",
@@ -8445,7 +8539,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06269900"
+        "nct_id": "NCT06269900",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dysfunctional Myelopoiesis and Myeloid-Derived Suppressor Cells in Sepsis",
@@ -8457,7 +8553,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05110937"
+        "nct_id": "NCT05110937",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Nutritional Intake in Patients on Noninvasive Ventilation: a Prospective Observational Study",
@@ -8469,7 +8567,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06740981"
+        "nct_id": "NCT06740981",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "AI Based Muscular Ultrasound to Assess Intensive Care Unit-acquired Weakness",
@@ -8481,7 +8581,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06765551"
+        "nct_id": "NCT06765551",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Vascular ARDS Recruitment After Inhaled Nitric Oxide",
@@ -8493,7 +8595,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05801224"
+        "nct_id": "NCT05801224",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Peripheral pULSe Assessment and Arterial pRessure (PULSAR)",
@@ -8505,7 +8609,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07609095"
+        "nct_id": "NCT07609095",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Inflammation Indıces and Mortality in Adult Crush Syndrome",
@@ -8517,7 +8623,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07433127"
+        "nct_id": "NCT07433127",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Can a Pain Monitor Predict When Postoperative Intensive Care Unit Patients Are Ready to Breathe on Their Own? A Pilot Study",
@@ -9985,9 +10093,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42267831",
@@ -10184,9 +10290,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488188/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/"
         },
         {
           "pmid": "42432793",
@@ -12061,9 +12165,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42377460",
@@ -12785,9 +12887,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
         },
         {
           "pmid": "42725835",
@@ -13572,9 +13672,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
         },
         {
           "pmid": "42745269",
@@ -14366,9 +14464,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42171427",
@@ -14932,9 +15028,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13584476/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42750044/"
         },
         {
           "pmid": "42725835",
@@ -15485,9 +15579,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13488188/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42469838/"
         },
         {
           "pmid": "42506363",
@@ -16247,9 +16339,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
         },
         {
           "pmid": "42267870",
@@ -18051,9 +18141,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42149702",
@@ -18593,9 +18681,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42612901/"
         },
         {
           "pmid": "42294965",
