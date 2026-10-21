@@ -10907,6 +10907,32 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13672238/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42880916/",
       "society": "KDIGO"
+    },
+    "42901492": {
+      "pmid": "42901492",
+      "title": "Intensivists' Perspectives and Practices on Palliative Care in the ICU: A Nationwide Survey in Korea.",
+      "journal": "Journal of Korean medical science",
+      "pubdate": "2026 Oct 19",
+      "authors": [
+        "Kim TJ",
+        "Jung YS",
+        "Jeung YS",
+        "Cho WH",
+        "Yoo SH",
+        "Moon JY"
+      ],
+      "doi": "10.3346/jkms.2026.41.e119",
+      "abstract": "BACKGROUND: While many countries have made progress in integrating palliative care into intensive care units (ICUs), implementation remains highly context-dependent. In Korea, palliative care integration within ICUs remains limited, and intensivists' perspectives on its role and applicability have not been well studied. METHODS: We conducted a nationwide, cross-sectional online survey of certified intensivists and fellows registered with the Korean Society of Critical Care Medicine between April and May 2024. The questionnaire explored knowledge and confidence in palliative care, current ICU practices, referral patterns, perceived barriers, and preferred strategies for integration. RESULTS: A total of 241 intensivists responded (response rate, 23.9%). Most agreed that palliative care should be incorporated into ICU care (97.1%) and were willing to make referrals (98.3%). Advance care planning, symptom management, and family decision-making were the most expected domains of support. However, fewer reported involvement in psychological support, end-of-life care, or bereavement services. Referral practices were more frequent in institutions with palliative care teams, while lack of resources, unsupportive institutional culture, and unclear processes were commonly cited barriers. Clinical guidelines, professional education, and reimbursement reform were identified as priority strategies for integration. CONCLUSION: Korean intensivists widely recognize the need for palliative care in the ICU but apply it within a limited scope. To strengthen integration, consensus on definitions, clear referral criteria, and supportive institutional and policy frameworks are required.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "41",
+      "issue": "40",
+      "pages": "e119",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42901492/",
+      "society": "SCCM"
     }
   },
   "preprints": {
@@ -12501,9 +12527,9 @@
       "url": "https://clinicaltrials.gov/study/NCT07780526",
       "source": "Van Training and Research Hospital",
       "author": "",
-      "pubdate": "2026-08-31",
+      "pubdate": "2026-10-20",
       "summary": "This prospective observational pilot study will evaluate how accurately anesthesiologists can predict, before a procedure, whether an adult patient will require admission to an intensive care unit (İCU) after surgery or an endoscopic procedure. Before each procedure, the anesthesiologist will record whether postoperative intensive care unit (İCU) care is expected and the clinical factors influencing this assessment. No changes will be made to the patient's usual medical care. After the procedure",
-      "study_type": "Clinical Trial (Recruiting)",
+      "study_type": "Clinical Trial (Completed)",
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07780526"
@@ -14853,7 +14879,7 @@
       "url": "https://clinicaltrials.gov/study/NCT06709183",
       "source": "Saglik Bilimleri Universitesi",
       "author": "",
-      "pubdate": "2026-10-05",
+      "pubdate": "2026-10-20",
       "summary": "There are several practical challenges in providing oral care to intubated patients. The presence of an endotracheal tube often makes it difficult to thoroughly evaluate the oral cavity, and there is a risk of tube displacement or removal during oral care. Additionally, the lack of standardized care protocols, limited time, and inadequate equipment further complicate the assessment of oral mucosal membranes, increase the likelihood of complications, and prolong ICU stays. The literature also hig",
       "study_type": "Clinical Trial (Completed)",
       "is_open_access": true,
@@ -15603,6 +15629,102 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT06765681"
+    },
+    "NCT07232342": {
+      "title": "Capillary Leak Index Versus Conventional Biomarkers in Predicting Sepsis-Related Outcomes",
+      "url": "https://clinicaltrials.gov/study/NCT07232342",
+      "source": "Benha University",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "This study aims to evaluate the prognostic significance of CLI in predicting 28-day mortality and other outcomes in critically ill patients who develop post-operative abdominal sepsis.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07232342"
+    },
+    "NCT05947955": {
+      "title": "Rhu-pGSN for Acute Respiratory Distress Syndrome (ARDS)",
+      "url": "https://clinicaltrials.gov/study/NCT05947955",
+      "source": "BioAegis Therapeutics Inc.",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "BTI-203 is a randomized, double-blind, placebo-controlled, multicenter, Phase 2 proof-of-concept (POC) study to evaluate the efficacy and safety of rhu-pGSN plus standard of care (SOC) in subjects with moderate-to-severe ARDS (P/F ratio ≤150) due to pneumonia or other infections. Potential subjects hospitalized with pneumonia or other infections are to be screened within 24 hours of diagnosis of ARDS.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05947955"
+    },
+    "NCT07883447": {
+      "title": "Intravenous Fish Oil Emulsion in Critically Ill Patients With High Inflammatory Status.",
+      "url": "https://clinicaltrials.gov/study/NCT07883447",
+      "source": "Lee Zheng Yii",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "Critically ill patients can develop high levels of inflammation, which may contribute to organ damage, muscle loss, and difficulty recovering physical function. Fish oil contains omega-3 fatty acids that may help reduce inflammation. However, the most suitable dose of fish oil given intravenously (directly into a vein) in critically ill patients with high levels of inflammation is uncertain. The FOiL-INFLAMe trial is a phase II study comparing two doses of intravenous fish oil with usual care. I",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07883447"
+    },
+    "NCT07655791": {
+      "title": "Efficacy and Safety of Oral Nicotinamide as an Adjunctive Therapy in Patients With Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT07655791",
+      "source": "Ain Shams University",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "Sepsis is a severe, life-threatening condition caused by an abnormal host response to infection, which includes systemic inflammation, oxidative stress, and increasing organ dysfunction. It is frequently associated with bacterial, viral, fungal, or parasite infections, as well as non-infectious illnesses like trauma and pancreatitis. It remains a primary cause of mortality in hospitals, with rates nearing 40% in severely ill patients. pathophysiological, excessive cytokine release (e.g., TNFα, I",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07655791"
+    },
+    "NCT05146336": {
+      "title": "CytOSorb TreatMent Of Critically Ill PatientS Registry",
+      "url": "https://clinicaltrials.gov/study/NCT05146336",
+      "source": "CytoSorbents, Inc",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "Registry intended to provide a data repository and reporting infrastructure for the surveillance of CytoSorb device use in real-world critical care settings, and to serve as an objective, comprehensive, and scientifically-based resource to measure and improve the quality of patient care",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05146336"
+    },
+    "NCT06520605": {
+      "title": "Cytomegalovirus Reactivation in ICU Patients Requiring Prolong Mechanical Ventilation",
+      "url": "https://clinicaltrials.gov/study/NCT06520605",
+      "source": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "Cytomegalovirus (CMV) is a latent infection virus that is widespread in the population. CMV may reactivate under certain circumstances, and its hazardous nature has been proven, especially in immunosuppressed patients. However in recent years, some studies have found that CMV reactivation also exists in apparently immunocompetent patients during their critical illness. In these non-immunosuppressed patients, the presence of sepsis and its immunomodulatory effects may lead to reactivation of dorm",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06520605"
+    },
+    "NCT06499701": {
+      "title": "Volume Kinetics of Fluid Resuscitation in Early Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT06499701",
+      "source": "Institutul de Urgenţă pentru Boli Cardiovasculare Prof.Dr. C.C. Iliescu",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "The recommended volume resuscitation for patients with early sepsis-induced hypoperfusion is at least 30 ml/kg of crystalloid administered within the first three hours. However, this standardized approach does not account for individual patient variability and lacks personalization. Additionally, the effects of administering 30 ml/kg on intercompartmental fluid shifts between the plasma and interstitial compartments remain unclear. This study aims to describe the volume kinetics of administering",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06499701"
+    },
+    "NCT06036056": {
+      "title": "NMR Based Metabolomics Kinetics in ARDS Patients",
+      "url": "https://clinicaltrials.gov/study/NCT06036056",
+      "source": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
+      "author": "",
+      "pubdate": "2026-10-20",
+      "summary": "Acute respiratory distress syndrome (ARDS) is a life-threatening condition requiring respiratory support to maintain oxygenation. Very few biomarkers about ARDS have been identified but none of them has a sufficient specificity or sensitivity to characterize by itself the severity of lung condition. Investigators hypothesize that there is considerable change occurring in metabolic profiles in mild, moderate, and severe ARDS in comparison to healthy cohort, which can be detectable through serum a",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06036056"
     }
   },
   "bottom_line": {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T08:01:42+00:00",
+  "generated_at": "2026-10-21T08:06:40+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -182,6 +182,38 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42496194/"
       },
       {
+        "pmid": "42897566",
+        "title": "Decision volume and temporal workload structure as dissociable correlates of fatigue and mood in intensive care physicians: a real-time observational study.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Oct 17",
+        "authors": [
+          "Hieber F",
+          "Schiessl L",
+          "Herrmann A",
+          "Kohl C",
+          "Lux M",
+          "Blecha S",
+          "Lunz D",
+          "Kieninger M",
+          "Eissnert C",
+          "Kees MG",
+          "Leibold AL"
+        ],
+        "doi": "10.1186/s13054-026-06249-6",
+        "abstract": "BACKGROUND: Intensive care physicians make hundreds of decisions per shift under sustained cognitive and emotional demands. Decision fatigue, the tendency towards less effortful choices as cumulative decision load increases, may affect clinician wellbeing and decision processes. However, the associations of decision volume and temporal workload structure with within-shift fatigue and mood in intensive care unit (ICU) physicians remain unclear. This study explored whether decision volume and temporal clustering show distinct associations with fatigue, sleepiness, mood, and post-shift decision responses. METHODS: Five physicians (two residents, three consultants) at a surgical ICU of a German university hospital were shadowed during 38 twelve-hour shifts (456 hours) between October and December 2025. Clinical decisions were classified by severity using a study-specific, non-validated Decision Severity Score. Because recruitment was feasibility-based and involved only five physicians, all analyses were considered exploratory and hypothesis-generating. Psychometric assessments of decision fatigue, sleepiness, and mood (Decision Fatigue Scale, Karolinska Sleepiness Scale, Profile of Mood States - Short Form) were administered at morning, midday, and shift end. Following each shift, physicians completed a standardised scenario task requiring three binary treatment decisions. Temporal workload structure was quantified using the burstiness metric; shifts were classified into four types by median split of decision density and burstiness (quiet-smooth, quiet-clustered, busy-smooth, busy-clustered). Linear and binomial mixed-effects models with physician as random intercept were used throughout. RESULTS: Across 17,953 recorded decisions (median 474 per shift; range 366-589), a higher mean decision rate was associated with greater end-of-shift decision fatigue: an increase of 0.5 decisions per 5-minute interval corresponded to a 2.1-point higher decision-fatigue score (95 % CI 0.6 to 3.6). Higher burstiness was associated with less mood disturbance, with a 0.10 increase in burstiness corresponding to a 6.3-point lower mood score (95% CI -10.2 to -2.3). Averaged across all shifts, changes between morning and evening were small and not statistically significant for any of the three scores. Within-shift trajectories differed by shift type, however, with mood disturbance increasing over the shift in quiet-smooth shifts only, a difference already apparent at midday. Quiet-smooth shifts, the least objectively demanding, showed the least favourable psychometric values. Response certainty in the post-shift scenario task was lower after shifts with more task interruptions, with each ten additional interruptions corresponding to a 0.29-point lower certainty score (p = 0.012), whilst a descriptive trend towards more conservative scenario responses was observed in busy-clustered shifts (odds ratio 2.25, p = 0.555). CONCLUSIONS: Decision volume and temporal workload structure showed different associations with psychometric outcomes: higher decision rates were associated with greater end-of-shift decision fatigue, whereas greater temporal clustering was associated with lower mood disturbance, already apparent from midday onwards. That more quiet, uniformly paced shifts showed the least favourable psychometric values suggests that reducing decision volume alone may not improve physician wellbeing; this observation requires replication. Mitigation strategies may therefore need to extend beyond reducing decision volume to protecting concentrated, meaningful clinical activity and minimising hindrance stressors such as interruptions. Future multicentre studies should determine whether these associations are reproducible and whether temporal workload structure is related to objective decision quality or patient-safety outcomes. TRIAL REGISTRATION: German Clinical Trials Register, DRKS00037564. Registered 27th August 2025.",
+        "citation_count": 41,
+        "is_top_journal": true,
+        "study_type": "Observational Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13679110/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42897566/",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42618770",
         "title": "Respiratory mechanics modifies the impact of ventilator settings on clinical outcome in patients with acute brain injury.",
         "journal": "Intensive care medicine",
@@ -269,38 +301,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13640326/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
-      },
-      {
-        "pmid": "42545097",
-        "title": "H3.1 Nucleosomes to Predict Renal Replacement Therapy and Mortality in Sepsis-A Secondary Analysis of the SISPCT Randomized Control Trial.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Oct 1",
-        "authors": [
-          "Neumann C",
-          "Bloos F",
-          "Hla TTW",
-          "Bygott T",
-          "Bogatsch H",
-          "Kiehntopf M",
-          "Börner F",
-          "Press AT",
-          "Bauer M",
-          "Retter A",
-          "SepNet Critical Care Trials Group"
-        ],
-        "doi": "10.1097/CCM.0000000000007270",
-        "abstract": "OBJECTIVES: The release of neutrophil extracellular traps is a key immune host defense mechanism that can contribute to organ damage during sepsis if excessive. We evaluated presentation H3.1 nucleosome levels in patients with sepsis, septic shock, and sepsis-associated acute kidney injury (AKI). We sought to determine if plasma H3.1 nucleosome levels could serve as predictive biomarkers for both renal replacement therapy (RRT) requirements and 28-day mortality. DESIGN: A secondary analysis of prospectively collected samples from the large multicenter Effect of Sodium Selenite Administration and Procalcitonin-Guided Therapy on Mortality in Patients with Severe Sepsis or Septic Shock (SISPCT) trial. SETTING: Patients from 33 ICUs in Germany recruited between November 6, 2009, and June 6, 2013, including a 90-day follow-up period. PATIENTS: A total of 971 patients with complete data on plasma H3.1 admission levels with sepsis and septic shock, and 927 patients with complete data on RRT requirements. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We evaluated associations between H3.1 levels and mortality and the time to commencement of RRT using multivariable Cox regression. A total of 443 patients (45.6%) presented with sepsis, and 520 patients (53.6%) had septic shock. Admission H3.1 levels were higher in patients with septic shock than sepsis (median, 921.84 vs. 432.71 ng/mL; p < 0.001). In a multivariable analysis for 28-day mortality, a one unit increase in log10 H3.1 levels was associated with a 48% increase in 28-day mortality (adjusted hazard ratio [HR], 1.48, 95% CI, 1.07-2.04; p = 0.02). Plasma H3.1 was also higher in patients with stage 3 AKI requiring RRT with septic shock vs. sepsis (1832 vs. 801.4 ng/mL; p = 0.01). In a multivariable Cox regression controlling for maximum lactate, procalcitonin, and C-reactive protein levels, plasma H3.1 levels were significantly higher in patients who developed AKI requiring RRT when compared with patients who did not develop AKI, with one log10 increase of H3.1 increasing the risk of 28-day RRT by 80% (adjusted HR, 1.8; 95% CI, 1.34-2.40; p < 0.001). CONCLUSIONS: Elevated levels of H3.1 nucleosomes at admission are associated with mortality and AKI requiring RRT. TRIAL REGISTRATION: The trial was registered in clinicaltrials.gov , identifier: NCT00832039.",
-        "citation_count": 35,
-        "is_top_journal": true,
-        "study_type": "Randomized Controlled Trial",
-        "volume": "54",
-        "issue": "10",
-        "pages": "2567-2578",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632813/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
       }
     ]
   },
@@ -315,9 +315,7 @@
         "pubdate": "2026-10-19",
         "summary": "In 2010, the CRASH-2 trial was published in the Lancet.[1] The authors randomized 20,211 trauma patients with, or at risk of, significant hemorrhage within 8 hours of injury to either tranexamic acid (TXA), a 1 g bolus followed by a 1 g infusion over 8 hours, or placebo. 28-day mortality was 14.5% in the TXA […] EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit 436 – When you RSI Shocked Patients, they Tend to Die (the Hemodynamically Neutral Intubation Part 2)",
@@ -1146,6 +1144,34 @@
         "society": "KDIGO"
       },
       {
+        "pmid": "42901492",
+        "title": "Intensivists' Perspectives and Practices on Palliative Care in the ICU: A Nationwide Survey in Korea.",
+        "journal": "Journal of Korean medical science",
+        "pubdate": "2026 Oct 19",
+        "authors": [
+          "Kim TJ",
+          "Jung YS",
+          "Jeung YS",
+          "Cho WH",
+          "Yoo SH",
+          "Moon JY"
+        ],
+        "doi": "10.3346/jkms.2026.41.e119",
+        "abstract": "BACKGROUND: While many countries have made progress in integrating palliative care into intensive care units (ICUs), implementation remains highly context-dependent. In Korea, palliative care integration within ICUs remains limited, and intensivists' perspectives on its role and applicability have not been well studied. METHODS: We conducted a nationwide, cross-sectional online survey of certified intensivists and fellows registered with the Korean Society of Critical Care Medicine between April and May 2024. The questionnaire explored knowledge and confidence in palliative care, current ICU practices, referral patterns, perceived barriers, and preferred strategies for integration. RESULTS: A total of 241 intensivists responded (response rate, 23.9%). Most agreed that palliative care should be incorporated into ICU care (97.1%) and were willing to make referrals (98.3%). Advance care planning, symptom management, and family decision-making were the most expected domains of support. However, fewer reported involvement in psychological support, end-of-life care, or bereavement services. Referral practices were more frequent in institutions with palliative care teams, while lack of resources, unsupportive institutional culture, and unclear processes were commonly cited barriers. Clinical guidelines, professional education, and reimbursement reform were identified as priority strategies for integration. CONCLUSION: Korean intensivists widely recognize the need for palliative care in the ICU but apply it within a limited scope. To strengthen integration, consensus on definitions, clear referral criteria, and supportive institutional and policy frameworks are required.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "41",
+        "issue": "40",
+        "pages": "e119",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42901492/",
+        "society": "SCCM",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42880916",
         "title": "[Correlation between acute kidney injury diagnosed by serum creatinine and urine output criteria and short-term prognosis in critically ill patients following non-cardiac surgery].",
         "journal": "Beijing da xue xue bao. Yi xue ban = Journal of Peking University. Health sciences",
@@ -1168,9 +1194,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13672238/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42880916/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42872921",
@@ -4618,168 +4642,6 @@
         "category_labels": [
           "Respiratory"
         ]
-      },
-      {
-        "pmid": "42872606",
-        "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
-        "journal": "JAMA",
-        "pubdate": "2026 Oct 14",
-        "authors": [
-          "Blok SG",
-          "de Grooth HJ",
-          "Pisani L",
-          "Barbas C",
-          "Chew M",
-          "Dubin A",
-          "Hammond N",
-          "Kwizera A",
-          "Malbrain MLNG",
-          "Monnet X",
-          "Myatra SN",
-          "Rose L",
-          "Neto AS",
-          "Shi Z",
-          "Silversides J",
-          "Tripathy S",
-          "van Haren F",
-          "Dondorp A",
-          "Schultz MJ",
-          "van Regenmortel N",
-          "Paulus F",
-          "Tuinman PR",
-          "PRoFLUID Investigators"
-        ],
-        "doi": "10.1001/jama.2026.21291",
-        "abstract": "IMPORTANCE: Fluid therapy is ubiquitous in the intensive care unit (ICU) but carries risks, especially in mechanically ventilated patients. Contemporary global practice across dose, indication, and type is unknown. OBJECTIVE: To characterize ICU fluid practices in mechanically ventilated adults. DESIGN, SETTING, AND PARTICIPANTS: International prospective observational cohort study between April 2024 and July 2025, across 206 ICUs in 41 countries on 6 continents. Consecutive adult patients receiving invasive mechanical ventilation within 3 days of ICU admission and ventilated 24 hours or more. Exclusion criteria were age younger than 16 years and transfer under mechanical ventilation from another ICU. EXPOSURES: Fluid volume, indication, and type after intubation. MAIN OUTCOMES AND MEASURES: Key measures included (1) total infused volume and daily fluid balance over 7 days after intubation; (2) the indication for fluid therapy over the first 3 days after intubation; (3) the proportion of total administered fluid volume attributable to each fluid type over the first 3 days after intubation. RESULTS: Among 2454 patients analyzed (median age, 63 years [IQR, 49-73 years]; 63.6% [1560] male), median daily fluid input peaked on day 1 at 3.0 L (IQR, 2.2-4.0 L) and declined to 2.6 L (IQR, 1.8-3.5 L) through day 6. Daily fluid balance (median, 0.9 L; IQR, 0.1-1.9 L on day 1) decreased to less than 0.3 L (IQR, -0.5 to 1.2 L) by day 3 and remained near-neutral through day 6. Maintenance and replacement fluids (to meet daily requirements and to correct ongoing losses; 31.9%) and creep fluids (to deliver medications and maintain catheter patency; 30.9%) were the primary indications, whereas resuscitation (to restore circulating blood volume; 16.0%) accounted for a smaller proportion. Isotonic balanced crystalloids (48.9%) and isotonic saline (0.9% sodium chloride) (27.0%) were common; colloids were rare (1.3%). Substantial between-site variation persisted after adjustment for case-mix. CONCLUSIONS AND RELEVANCE: In this prospective international cohort study, fluid therapy varied widely among mechanically ventilated critically ill patients, with maintenance and creep fluids-rather than resuscitation fluids-accounting for most total volume.",
-        "citation_count": 33,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/",
-        "category_id": "respiratory",
-        "category_label": "Respiratory",
-        "category_ids": [
-          "respiratory",
-          "renal",
-          "infectious-sepsis",
-          "procedures-pocus"
-        ],
-        "category_labels": [
-          "Respiratory",
-          "Renal",
-          "Infectious Disease & Sepsis",
-          "Procedures & POCUS"
-        ]
-      },
-      {
-        "pmid": "42873070",
-        "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
-        "journal": "The New England journal of medicine",
-        "pubdate": "2026 Oct 14",
-        "authors": [
-          "Gaudry S",
-          "Boubaya M",
-          "Louis G",
-          "Chaïbi K",
-          "de Montmollin E",
-          "Bohé J",
-          "Desgrouas M",
-          "Devautour C",
-          "Joseph A",
-          "Mégarbane B",
-          "Camus C",
-          "Bailly P",
-          "Lambour A",
-          "Arrestier R",
-          "Jaber S",
-          "Robine A",
-          "Chudeau N",
-          "Chevrel G",
-          "La Combe B",
-          "Nicolas J",
-          "Argaud L",
-          "Bureau C",
-          "Kimmoun A",
-          "Zucman N",
-          "Ricard JD",
-          "Thiery G",
-          "Faguer S",
-          "Jozwiak M",
-          "Ferrand N",
-          "Chousterman B",
-          "Marzouk M",
-          "Cadiet J",
-          "Combes A",
-          "Mari A",
-          "Contou D",
-          "Amathieu R",
-          "Da Silva D",
-          "Gandonnière CS",
-          "Rodie-Talbere PA",
-          "Durand-Zaleski I",
-          "Rossignol P",
-          "Quenot JP",
-          "Biard L",
-          "Bloch C",
-          "Dreyfuss D",
-          "ICRAKI Trial Group"
-        ],
-        "doi": "10.1056/NEJMoa2608397",
-        "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/",
-        "category_id": "renal",
-        "category_label": "Renal",
-        "category_ids": [
-          "renal",
-          "infectious-sepsis"
-        ],
-        "category_labels": [
-          "Renal",
-          "Infectious Disease & Sepsis"
-        ]
-      },
-      {
-        "pmid": "42872921",
-        "title": "Association of Oliguria With Acute Kidney Injury, Chronic Kidney Disease, and Mortality: Determining the Optimal Threshold in Critically Ill Patients.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Oct 14",
-        "authors": [
-          "Mossberg R",
-          "Lipcsey M",
-          "Marks-Hultström M",
-          "Eriksson M"
-        ],
-        "doi": "10.1097/CCM.0000000000007370",
-        "abstract": "OBJECTIVES: Oliguria is a key prognostic indicator of acute kidney injury (AKI), yet the consensus definition (< 0.5 mL/kg/hr) is increasingly questioned. We aimed to determine thresholds of lowest mean diuresis (LMD) associated with AKI, chronic kidney disease (CKD), and mortality. DESIGN: Retrospective observational study. SETTING: Uppsala University Hospital ICU, Sweden. PATIENTS: A total of 4999 adults (≥ 18 yr) without preexisting CKD admitted to the ICU between 2017 and 2024. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: LMD was calculated over 3, 6, 12, and 24 hours (LMD3h-LMD24h). Generalized additive models were used, adjusting for Simplified Acute Physiology Score 3 estimated mortality ratio and gender. Outcomes were AKI within 7 days of LMD (Kidney Disease Improving Global Outcomes creatinine criteria), incident CKD after ICU discharge, and 90-day mortality. All LMD time frames were significantly associated with AKI, CKD, and death (p < 0.0001). Thresholds for AKI were 0.43, 0.41, 0.42, and 0.53 mL/kg/hr; for CKD, 0.21, 0.21, 0.31, and 0.43 mL/kg/hr; and for mortality 0.16, 0.18, 0.24, and 0.39 across LMD3h-LMD24h. CONCLUSIONS: The risk of mortality or persistent kidney injury, reflected by incident CKD, increases at a lower urine output threshold than the current AKI definition. These findings support the idea of filtration deficit, urine output, and tissue injury as different dimensions of AKI and should influence future AKI definitions.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42872921/",
-        "category_id": "renal",
-        "category_label": "Renal",
-        "category_ids": [
-          "renal"
-        ],
-        "category_labels": [
-          "Renal"
-        ]
       }
     ]
   },
@@ -4795,9 +4657,7 @@
         "summary": "BackgroundIn patients with sepsis and pre-existing hypertension, admission findings may not adequately describe the subsequent course of circulatory support and organ dysfunction. We developed and externally validated a model to reassess in-hospital mortality risk after the first 72 hours of intensive care. MethodsThis retrospective study used MIMIC-IV for development and eICU-CRD for external validation. Patients had received vasoactive agents and remained in the ICU for at least 72 hours. Stat",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Characteristics associated with culture-positivity versus antibiotic administration in patients with cirrhosis on ICU admission: a retrospective cohort study in 5 hospitals.",
@@ -4852,7 +4712,9 @@
         "summary": "ImportanceCurrent clinical artificial intelligence is bottlenecked by highly specialized, fragmented models that reduce complex, multimodal data into isolated scalar predictions. By reframing multimodal perception as a pure vision problem, optical compression into a universal visual operating system can resolve internal data interaction bottlenecks and shift the paradigm toward continuous, generative clinical forecasting. ObjectiveTo develop and internally validate Clinical Visual Memory, a gene",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true
+        "is_preprint": true,
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "Serial neoGFAP outperforms total GFAP for monitoring and 6-month outcome discrimination after moderate to severe traumatic brain injury: an exploratory single-site cohort study",
@@ -4938,6 +4800,142 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
+        "url": "https://clinicaltrials.gov/study/NCT07780526",
+        "source": "Van Training and Research Hospital",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "This prospective observational pilot study will evaluate how accurately anesthesiologists can predict, before a procedure, whether an adult patient will require admission to an intensive care unit (İCU) after surgery or an endoscopic procedure. Before each procedure, the anesthesiologist will record whether postoperative intensive care unit (İCU) care is expected and the clinical factors influencing this assessment. No changes will be made to the patient's usual medical care. After the procedure",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07780526"
+      },
+      {
+        "title": "Oral Care Apparatus for Intubated Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06709183",
+        "source": "Saglik Bilimleri Universitesi",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "There are several practical challenges in providing oral care to intubated patients. The presence of an endotracheal tube often makes it difficult to thoroughly evaluate the oral cavity, and there is a risk of tube displacement or removal during oral care. Additionally, the lack of standardized care protocols, limited time, and inadequate equipment further complicate the assessment of oral mucosal membranes, increase the likelihood of complications, and prolong ICU stays. The literature also hig",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06709183"
+      },
+      {
+        "title": "Capillary Leak Index Versus Conventional Biomarkers in Predicting Sepsis-Related Outcomes",
+        "url": "https://clinicaltrials.gov/study/NCT07232342",
+        "source": "Benha University",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "This study aims to evaluate the prognostic significance of CLI in predicting 28-day mortality and other outcomes in critically ill patients who develop post-operative abdominal sepsis.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07232342",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Rhu-pGSN for Acute Respiratory Distress Syndrome (ARDS)",
+        "url": "https://clinicaltrials.gov/study/NCT05947955",
+        "source": "BioAegis Therapeutics Inc.",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "BTI-203 is a randomized, double-blind, placebo-controlled, multicenter, Phase 2 proof-of-concept (POC) study to evaluate the efficacy and safety of rhu-pGSN plus standard of care (SOC) in subjects with moderate-to-severe ARDS (P/F ratio ≤150) due to pneumonia or other infections. Potential subjects hospitalized with pneumonia or other infections are to be screened within 24 hours of diagnosis of ARDS.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05947955",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Intravenous Fish Oil Emulsion in Critically Ill Patients With High Inflammatory Status.",
+        "url": "https://clinicaltrials.gov/study/NCT07883447",
+        "source": "Lee Zheng Yii",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "Critically ill patients can develop high levels of inflammation, which may contribute to organ damage, muscle loss, and difficulty recovering physical function. Fish oil contains omega-3 fatty acids that may help reduce inflammation. However, the most suitable dose of fish oil given intravenously (directly into a vein) in critically ill patients with high levels of inflammation is uncertain. The FOiL-INFLAMe trial is a phase II study comparing two doses of intravenous fish oil with usual care. I",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07883447",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Efficacy and Safety of Oral Nicotinamide as an Adjunctive Therapy in Patients With Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT07655791",
+        "source": "Ain Shams University",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "Sepsis is a severe, life-threatening condition caused by an abnormal host response to infection, which includes systemic inflammation, oxidative stress, and increasing organ dysfunction. It is frequently associated with bacterial, viral, fungal, or parasite infections, as well as non-infectious illnesses like trauma and pancreatitis. It remains a primary cause of mortality in hospitals, with rates nearing 40% in severely ill patients. pathophysiological, excessive cytokine release (e.g., TNFα, I",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07655791",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "CytOSorb TreatMent Of Critically Ill PatientS Registry",
+        "url": "https://clinicaltrials.gov/study/NCT05146336",
+        "source": "CytoSorbents, Inc",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "Registry intended to provide a data repository and reporting infrastructure for the surveillance of CytoSorb device use in real-world critical care settings, and to serve as an objective, comprehensive, and scientifically-based resource to measure and improve the quality of patient care",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05146336",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Cytomegalovirus Reactivation in ICU Patients Requiring Prolong Mechanical Ventilation",
+        "url": "https://clinicaltrials.gov/study/NCT06520605",
+        "source": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "Cytomegalovirus (CMV) is a latent infection virus that is widespread in the population. CMV may reactivate under certain circumstances, and its hazardous nature has been proven, especially in immunosuppressed patients. However in recent years, some studies have found that CMV reactivation also exists in apparently immunocompetent patients during their critical illness. In these non-immunosuppressed patients, the presence of sepsis and its immunomodulatory effects may lead to reactivation of dorm",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06520605",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Volume Kinetics of Fluid Resuscitation in Early Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT06499701",
+        "source": "Institutul de Urgenţă pentru Boli Cardiovasculare Prof.Dr. C.C. Iliescu",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "The recommended volume resuscitation for patients with early sepsis-induced hypoperfusion is at least 30 ml/kg of crystalloid administered within the first three hours. However, this standardized approach does not account for individual patient variability and lacks personalization. Additionally, the effects of administering 30 ml/kg on intercompartmental fluid shifts between the plasma and interstitial compartments remain unclear. This study aims to describe the volume kinetics of administering",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06499701",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "NMR Based Metabolomics Kinetics in ARDS Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06036056",
+        "source": "Sanjay Gandhi Postgraduate Institute of Medical Sciences",
+        "author": "",
+        "pubdate": "2026-10-20",
+        "summary": "Acute respiratory distress syndrome (ARDS) is a life-threatening condition requiring respiratory support to maintain oxygenation. Very few biomarkers about ARDS have been identified but none of them has a sufficient specificity or sensitivity to characterize by itself the severity of lung condition. Investigators hypothesize that there is considerable change occurring in metabolic profiles in mild, moderate, and severe ARDS in comparison to healthy cohort, which can be detectable through serum a",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06036056",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Adrenal Function in Critical Illness",
         "url": "https://clinicaltrials.gov/study/NCT00156767",
         "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -4987,9 +4985,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07880977",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07880977"
       },
       {
         "title": "A Communication Tool to Improve Communication in the ICU",
@@ -5001,9 +4997,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05780918",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05780918"
       },
       {
         "title": "Continuous Versus Intermittent Enteral Feeding and Gastric Residual Volume in Critically Ill Patients",
@@ -5015,9 +5009,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07876141",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07876141"
       },
       {
         "title": "Mortality and Muscle Mass Loss in Critically Ill Patients.",
@@ -5029,9 +5021,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07280039",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07280039"
       },
       {
         "title": "An Observational Study in the United States to Learn How Venous Thromboembolism, Disseminated Intravascular Coagulation, and Sepsis Are Related",
@@ -5043,9 +5033,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06765681",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06765681"
       },
       {
         "title": "A Study to Learn About How Safe BAY 3389934 is, Its Suitable Dose, and How it Affects the Participants With Sepsis Induced Coagulopathy",
@@ -5057,7 +5045,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06854640"
+        "nct_id": "NCT06854640",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
@@ -5954,18 +5944,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT07060560"
-      },
-      {
-        "title": "Oral Care Apparatus for Intubated Patients",
-        "url": "https://clinicaltrials.gov/study/NCT06709183",
-        "source": "Saglik Bilimleri Universitesi",
-        "author": "",
-        "pubdate": "2026-10-05",
-        "summary": "There are several practical challenges in providing oral care to intubated patients. The presence of an endotracheal tube often makes it difficult to thoroughly evaluate the oral cavity, and there is a risk of tube displacement or removal during oral care. Additionally, the lack of standardized care protocols, limited time, and inadequate equipment further complicate the assessment of oral mucosal membranes, increase the likelihood of complications, and prolong ICU stays. The literature also hig",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06709183"
       },
       {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
@@ -6961,9 +6939,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07825090",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07825090"
       },
       {
         "title": "The Prevalence of the Aortic to Radial Pressure Gradient in States of Shock, Outside the Context of Cardiac Surgery, a Prospective Study",
@@ -6975,9 +6951,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06460519",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06460519"
       },
       {
         "title": "Evaluation of Pressure Injury Risks in Hemofiltration",
@@ -6989,9 +6963,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07825727",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07825727"
       },
       {
         "title": "Post Acute Sequelae of COVID-19",
@@ -7003,9 +6975,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04964115",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04964115"
       },
       {
         "title": "Curcumin in Critically Ill Patients With Sepsis",
@@ -7017,9 +6987,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07436130",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07436130"
       },
       {
         "title": "Clinical Study to Evaluate the Safety, Tolerability, and Pharmacokinetics of HT31-1 for Treating ARDS",
@@ -8042,18 +8010,6 @@
         "nct_id": "NCT05758246"
       },
       {
-        "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
-        "url": "https://clinicaltrials.gov/study/NCT07780526",
-        "source": "Van Training and Research Hospital",
-        "author": "",
-        "pubdate": "2026-08-31",
-        "summary": "This prospective observational pilot study will evaluate how accurately anesthesiologists can predict, before a procedure, whether an adult patient will require admission to an intensive care unit (İCU) after surgery or an endoscopic procedure. Before each procedure, the anesthesiologist will record whether postoperative intensive care unit (İCU) care is expected and the clinical factors influencing this assessment. No changes will be made to the patient's usual medical care. After the procedure",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07780526"
-      },
-      {
         "title": "Comparison of the Impact of Three Programs of Inspiratory Muscles.",
         "url": "https://clinicaltrials.gov/study/NCT02855619",
         "source": "University Hospital, Bordeaux",
@@ -8351,7 +8307,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07776184"
+        "nct_id": "NCT07776184",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
@@ -8423,7 +8381,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07059988"
+        "nct_id": "NCT07059988",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ethnic and Gender Based Admittance Patterns in the ICU",
@@ -8435,7 +8395,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05513456"
+        "nct_id": "NCT05513456",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Eduction in ImmunoSuppressive Regimen Among Kidney Transplant Recipients Patients Admitted to the Intensive Care Unit for Septic Shock and/or Acute Respiratory Failure",
@@ -8447,7 +8409,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06881927"
+        "nct_id": "NCT06881927",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Inhaled Dornase Alpha to Reduce Respiratory Failure After Severe Trauma",
@@ -8459,7 +8423,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03368092"
+        "nct_id": "NCT03368092",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "RDW:MCHC as a Pragmatic Adjunct to SOFA Score in ICU Mortality Assessment",
@@ -8471,7 +8437,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07775911"
+        "nct_id": "NCT07775911",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Discordance Between Capillary Refill Time and Oxygen Extraction Ratio in Septic Shock",
@@ -8483,9 +8451,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07774962",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07774962"
       },
       {
         "title": "Development and Effectiveness Evaluation of a Clustered Care Guideline Within Individualized Developmental Care: RCT",
@@ -8497,9 +8463,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07052786",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07052786"
       },
       {
         "title": "ICCA-Based ICU Physiological State Space Monitor",
@@ -8511,9 +8475,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07773571",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07773571"
       },
       {
         "title": "Utilization of Lung Ultrasound Score in Decision for Minimally Invasive Surfactant Administration",
@@ -8525,9 +8487,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07442669",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07442669"
       },
       {
         "title": "Dexamethasone for Treating Severe Hospital-acquired Pneumonia in Critically Ill Patients With a Proinflammatory Phenotype",
@@ -8539,9 +8499,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06269900",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06269900"
       },
       {
         "title": "Dysfunctional Myelopoiesis and Myeloid-Derived Suppressor Cells in Sepsis",
@@ -8553,9 +8511,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05110937",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05110937"
       },
       {
         "title": "Nutritional Intake in Patients on Noninvasive Ventilation: a Prospective Observational Study",
@@ -8567,9 +8523,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06740981",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06740981"
       },
       {
         "title": "AI Based Muscular Ultrasound to Assess Intensive Care Unit-acquired Weakness",
@@ -8581,9 +8535,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06765551",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06765551"
       },
       {
         "title": "Vascular ARDS Recruitment After Inhaled Nitric Oxide",
@@ -8595,9 +8547,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05801224",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05801224"
       },
       {
         "title": "Peripheral pULSe Assessment and Arterial pRessure (PULSAR)",
@@ -8609,9 +8559,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07609095",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07609095"
       },
       {
         "title": "Inflammation Indıces and Mortality in Adult Crush Syndrome",
@@ -8623,9 +8571,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07433127",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07433127"
       },
       {
         "title": "Can a Pain Monitor Predict When Postoperative Intensive Care Unit Patients Are Ready to Breathe on Their Own? A Pilot Study",
@@ -8637,7 +8583,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07771101"
+        "nct_id": "NCT07771101",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Prospective Validation of AKI Prediction",
@@ -8649,7 +8597,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06804200"
+        "nct_id": "NCT06804200",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Evaluate the Safety and Pharmacokinetics of AZD7760 in Healthy Japanese Adults",
@@ -8661,7 +8611,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07612813"
+        "nct_id": "NCT07612813",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparative Study of Clinical Diagnoses and Autopsy Findings in Intensive Care",
@@ -8673,7 +8625,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07769801"
+        "nct_id": "NCT07769801",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Validation of SOFA-2 for Mortality and Sepsis-3 Prevalence in Turkey",
@@ -8829,7 +8783,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to assess whether family participation in adult ICU rounds improves family satisfaction and patient outcomes. However, the study did not report any key numbers.",
         "ai_significance": "This study is significant because it addresses a need for evidence to support family participation in adult ICU rounds, which is currently limited by a lack of robust data.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study on How the Immune System Responds to Sepsis and Its Long-term Effects",
@@ -8845,7 +8801,9 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis occurs when an infection disrupts the body's immune balance, potentially leading to life-threatening damage or failure of healthy organs. Survivors may experience long-term health problems. The immune response can become either too strong or too weak.",
         "ai_significance": "Understanding the immune system's response to sepsis is crucial for developing effective treatments and preventing long-term health consequences.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Trial of Staff Time With Proned Patients in the ICU Using the 'BathMat'",
@@ -8861,7 +8819,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the use of the 'BathMat' to assist with proning patients in the ICU, which involves lying patients on their front to improve oxygenation. The BathMat is a tool used to help reposition patients every 2-4 hours to prevent sores and injuries. The study aimed to assess the feasibility and effectiveness of using the BathMat in this context.",
         "ai_significance": "This study's findings can inform ICU staff on the practical use of the BathMat to improve patient care and prevent complications associated with prolonged proning.",
-        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries."
+        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Machine Learning Prediction of Mortality After Prone Positioning in ARDS",
@@ -10606,6 +10566,48 @@
       "label": "Respiratory",
       "abbr": "Resp",
       "articles": [
+        {
+          "pmid": "42872606",
+          "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
+          "journal": "JAMA",
+          "pubdate": "2026 Oct 14",
+          "authors": [
+            "Blok SG",
+            "de Grooth HJ",
+            "Pisani L",
+            "Barbas C",
+            "Chew M",
+            "Dubin A",
+            "Hammond N",
+            "Kwizera A",
+            "Malbrain MLNG",
+            "Monnet X",
+            "Myatra SN",
+            "Rose L",
+            "Neto AS",
+            "Shi Z",
+            "Silversides J",
+            "Tripathy S",
+            "van Haren F",
+            "Dondorp A",
+            "Schultz MJ",
+            "van Regenmortel N",
+            "Paulus F",
+            "Tuinman PR",
+            "PRoFLUID Investigators"
+          ],
+          "doi": "10.1001/jama.2026.21291",
+          "abstract": "IMPORTANCE: Fluid therapy is ubiquitous in the intensive care unit (ICU) but carries risks, especially in mechanically ventilated patients. Contemporary global practice across dose, indication, and type is unknown. OBJECTIVE: To characterize ICU fluid practices in mechanically ventilated adults. DESIGN, SETTING, AND PARTICIPANTS: International prospective observational cohort study between April 2024 and July 2025, across 206 ICUs in 41 countries on 6 continents. Consecutive adult patients receiving invasive mechanical ventilation within 3 days of ICU admission and ventilated 24 hours or more. Exclusion criteria were age younger than 16 years and transfer under mechanical ventilation from another ICU. EXPOSURES: Fluid volume, indication, and type after intubation. MAIN OUTCOMES AND MEASURES: Key measures included (1) total infused volume and daily fluid balance over 7 days after intubation; (2) the indication for fluid therapy over the first 3 days after intubation; (3) the proportion of total administered fluid volume attributable to each fluid type over the first 3 days after intubation. RESULTS: Among 2454 patients analyzed (median age, 63 years [IQR, 49-73 years]; 63.6% [1560] male), median daily fluid input peaked on day 1 at 3.0 L (IQR, 2.2-4.0 L) and declined to 2.6 L (IQR, 1.8-3.5 L) through day 6. Daily fluid balance (median, 0.9 L; IQR, 0.1-1.9 L on day 1) decreased to less than 0.3 L (IQR, -0.5 to 1.2 L) by day 3 and remained near-neutral through day 6. Maintenance and replacement fluids (to meet daily requirements and to correct ongoing losses; 31.9%) and creep fluids (to deliver medications and maintain catheter patency; 30.9%) were the primary indications, whereas resuscitation (to restore circulating blood volume; 16.0%) accounted for a smaller proportion. Isotonic balanced crystalloids (48.9%) and isotonic saline (0.9% sodium chloride) (27.0%) were common; colloids were rare (1.3%). Substantial between-site variation persisted after adjustment for case-mix. CONCLUSIONS AND RELEVANCE: In this prospective international cohort study, fluid therapy varied widely among mechanically ventilated critically ill patients, with maintenance and creep fluids-rather than resuscitation fluids-accounting for most total volume.",
+          "citation_count": 33,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/"
+        },
         {
           "pmid": "42714473",
           "title": "Distinct weaning phenotypes in patients unsuccessful in weaning from invasive mechanical ventilation: a secondary analysis of the WEAN SAFE cohort.",
@@ -12746,6 +12748,136 @@
       "abbr": "Renal",
       "articles": [
         {
+          "pmid": "42873070",
+          "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
+          "journal": "The New England journal of medicine",
+          "pubdate": "2026 Oct 14",
+          "authors": [
+            "Gaudry S",
+            "Boubaya M",
+            "Louis G",
+            "Chaïbi K",
+            "de Montmollin E",
+            "Bohé J",
+            "Desgrouas M",
+            "Devautour C",
+            "Joseph A",
+            "Mégarbane B",
+            "Camus C",
+            "Bailly P",
+            "Lambour A",
+            "Arrestier R",
+            "Jaber S",
+            "Robine A",
+            "Chudeau N",
+            "Chevrel G",
+            "La Combe B",
+            "Nicolas J",
+            "Argaud L",
+            "Bureau C",
+            "Kimmoun A",
+            "Zucman N",
+            "Ricard JD",
+            "Thiery G",
+            "Faguer S",
+            "Jozwiak M",
+            "Ferrand N",
+            "Chousterman B",
+            "Marzouk M",
+            "Cadiet J",
+            "Combes A",
+            "Mari A",
+            "Contou D",
+            "Amathieu R",
+            "Da Silva D",
+            "Gandonnière CS",
+            "Rodie-Talbere PA",
+            "Durand-Zaleski I",
+            "Rossignol P",
+            "Quenot JP",
+            "Biard L",
+            "Bloch C",
+            "Dreyfuss D",
+            "ICRAKI Trial Group"
+          ],
+          "doi": "10.1056/NEJMoa2608397",
+          "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/"
+        },
+        {
+          "pmid": "42872921",
+          "title": "Association of Oliguria With Acute Kidney Injury, Chronic Kidney Disease, and Mortality: Determining the Optimal Threshold in Critically Ill Patients.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Oct 14",
+          "authors": [
+            "Mossberg R",
+            "Lipcsey M",
+            "Marks-Hultström M",
+            "Eriksson M"
+          ],
+          "doi": "10.1097/CCM.0000000000007370",
+          "abstract": "OBJECTIVES: Oliguria is a key prognostic indicator of acute kidney injury (AKI), yet the consensus definition (< 0.5 mL/kg/hr) is increasingly questioned. We aimed to determine thresholds of lowest mean diuresis (LMD) associated with AKI, chronic kidney disease (CKD), and mortality. DESIGN: Retrospective observational study. SETTING: Uppsala University Hospital ICU, Sweden. PATIENTS: A total of 4999 adults (≥ 18 yr) without preexisting CKD admitted to the ICU between 2017 and 2024. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: LMD was calculated over 3, 6, 12, and 24 hours (LMD3h-LMD24h). Generalized additive models were used, adjusting for Simplified Acute Physiology Score 3 estimated mortality ratio and gender. Outcomes were AKI within 7 days of LMD (Kidney Disease Improving Global Outcomes creatinine criteria), incident CKD after ICU discharge, and 90-day mortality. All LMD time frames were significantly associated with AKI, CKD, and death (p < 0.0001). Thresholds for AKI were 0.43, 0.41, 0.42, and 0.53 mL/kg/hr; for CKD, 0.21, 0.21, 0.31, and 0.43 mL/kg/hr; and for mortality 0.16, 0.18, 0.24, and 0.39 across LMD3h-LMD24h. CONCLUSIONS: The risk of mortality or persistent kidney injury, reflected by incident CKD, increases at a lower urine output threshold than the current AKI definition. These findings support the idea of filtration deficit, urine output, and tissue injury as different dimensions of AKI and should influence future AKI definitions.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42872921/"
+        },
+        {
+          "pmid": "42872606",
+          "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
+          "journal": "JAMA",
+          "pubdate": "2026 Oct 14",
+          "authors": [
+            "Blok SG",
+            "de Grooth HJ",
+            "Pisani L",
+            "Barbas C",
+            "Chew M",
+            "Dubin A",
+            "Hammond N",
+            "Kwizera A",
+            "Malbrain MLNG",
+            "Monnet X",
+            "Myatra SN",
+            "Rose L",
+            "Neto AS",
+            "Shi Z",
+            "Silversides J",
+            "Tripathy S",
+            "van Haren F",
+            "Dondorp A",
+            "Schultz MJ",
+            "van Regenmortel N",
+            "Paulus F",
+            "Tuinman PR",
+            "PRoFLUID Investigators"
+          ],
+          "doi": "10.1001/jama.2026.21291",
+          "abstract": "IMPORTANCE: Fluid therapy is ubiquitous in the intensive care unit (ICU) but carries risks, especially in mechanically ventilated patients. Contemporary global practice across dose, indication, and type is unknown. OBJECTIVE: To characterize ICU fluid practices in mechanically ventilated adults. DESIGN, SETTING, AND PARTICIPANTS: International prospective observational cohort study between April 2024 and July 2025, across 206 ICUs in 41 countries on 6 continents. Consecutive adult patients receiving invasive mechanical ventilation within 3 days of ICU admission and ventilated 24 hours or more. Exclusion criteria were age younger than 16 years and transfer under mechanical ventilation from another ICU. EXPOSURES: Fluid volume, indication, and type after intubation. MAIN OUTCOMES AND MEASURES: Key measures included (1) total infused volume and daily fluid balance over 7 days after intubation; (2) the indication for fluid therapy over the first 3 days after intubation; (3) the proportion of total administered fluid volume attributable to each fluid type over the first 3 days after intubation. RESULTS: Among 2454 patients analyzed (median age, 63 years [IQR, 49-73 years]; 63.6% [1560] male), median daily fluid input peaked on day 1 at 3.0 L (IQR, 2.2-4.0 L) and declined to 2.6 L (IQR, 1.8-3.5 L) through day 6. Daily fluid balance (median, 0.9 L; IQR, 0.1-1.9 L on day 1) decreased to less than 0.3 L (IQR, -0.5 to 1.2 L) by day 3 and remained near-neutral through day 6. Maintenance and replacement fluids (to meet daily requirements and to correct ongoing losses; 31.9%) and creep fluids (to deliver medications and maintain catheter patency; 30.9%) were the primary indications, whereas resuscitation (to restore circulating blood volume; 16.0%) accounted for a smaller proportion. Isotonic balanced crystalloids (48.9%) and isotonic saline (0.9% sodium chloride) (27.0%) were common; colloids were rare (1.3%). Substantial between-site variation persisted after adjustment for case-mix. CONCLUSIONS AND RELEVANCE: In this prospective international cohort study, fluid therapy varied widely among mechanically ventilated critically ill patients, with maintenance and creep fluids-rather than resuscitation fluids-accounting for most total volume.",
+          "citation_count": 33,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/"
+        },
+        {
           "pmid": "42573413",
           "title": "Heterogeneous Treatment Effects of Renal Replacement Therapy in Critically Ill Patients: A Multicenter Observational Study Using a Japanese ICU Registry.",
           "journal": "Critical care medicine",
@@ -14852,6 +14984,113 @@
       "label": "Infectious Disease & Sepsis",
       "abbr": "ID/Sepsis",
       "articles": [
+        {
+          "pmid": "42873070",
+          "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
+          "journal": "The New England journal of medicine",
+          "pubdate": "2026 Oct 14",
+          "authors": [
+            "Gaudry S",
+            "Boubaya M",
+            "Louis G",
+            "Chaïbi K",
+            "de Montmollin E",
+            "Bohé J",
+            "Desgrouas M",
+            "Devautour C",
+            "Joseph A",
+            "Mégarbane B",
+            "Camus C",
+            "Bailly P",
+            "Lambour A",
+            "Arrestier R",
+            "Jaber S",
+            "Robine A",
+            "Chudeau N",
+            "Chevrel G",
+            "La Combe B",
+            "Nicolas J",
+            "Argaud L",
+            "Bureau C",
+            "Kimmoun A",
+            "Zucman N",
+            "Ricard JD",
+            "Thiery G",
+            "Faguer S",
+            "Jozwiak M",
+            "Ferrand N",
+            "Chousterman B",
+            "Marzouk M",
+            "Cadiet J",
+            "Combes A",
+            "Mari A",
+            "Contou D",
+            "Amathieu R",
+            "Da Silva D",
+            "Gandonnière CS",
+            "Rodie-Talbere PA",
+            "Durand-Zaleski I",
+            "Rossignol P",
+            "Quenot JP",
+            "Biard L",
+            "Bloch C",
+            "Dreyfuss D",
+            "ICRAKI Trial Group"
+          ],
+          "doi": "10.1056/NEJMoa2608397",
+          "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/"
+        },
+        {
+          "pmid": "42872606",
+          "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
+          "journal": "JAMA",
+          "pubdate": "2026 Oct 14",
+          "authors": [
+            "Blok SG",
+            "de Grooth HJ",
+            "Pisani L",
+            "Barbas C",
+            "Chew M",
+            "Dubin A",
+            "Hammond N",
+            "Kwizera A",
+            "Malbrain MLNG",
+            "Monnet X",
+            "Myatra SN",
+            "Rose L",
+            "Neto AS",
+            "Shi Z",
+            "Silversides J",
+            "Tripathy S",
+            "van Haren F",
+            "Dondorp A",
+            "Schultz MJ",
+            "van Regenmortel N",
+            "Paulus F",
+            "Tuinman PR",
+            "PRoFLUID Investigators"
+          ],
+          "doi": "10.1001/jama.2026.21291",
+          "abstract": "IMPORTANCE: Fluid therapy is ubiquitous in the intensive care unit (ICU) but carries risks, especially in mechanically ventilated patients. Contemporary global practice across dose, indication, and type is unknown. OBJECTIVE: To characterize ICU fluid practices in mechanically ventilated adults. DESIGN, SETTING, AND PARTICIPANTS: International prospective observational cohort study between April 2024 and July 2025, across 206 ICUs in 41 countries on 6 continents. Consecutive adult patients receiving invasive mechanical ventilation within 3 days of ICU admission and ventilated 24 hours or more. Exclusion criteria were age younger than 16 years and transfer under mechanical ventilation from another ICU. EXPOSURES: Fluid volume, indication, and type after intubation. MAIN OUTCOMES AND MEASURES: Key measures included (1) total infused volume and daily fluid balance over 7 days after intubation; (2) the indication for fluid therapy over the first 3 days after intubation; (3) the proportion of total administered fluid volume attributable to each fluid type over the first 3 days after intubation. RESULTS: Among 2454 patients analyzed (median age, 63 years [IQR, 49-73 years]; 63.6% [1560] male), median daily fluid input peaked on day 1 at 3.0 L (IQR, 2.2-4.0 L) and declined to 2.6 L (IQR, 1.8-3.5 L) through day 6. Daily fluid balance (median, 0.9 L; IQR, 0.1-1.9 L on day 1) decreased to less than 0.3 L (IQR, -0.5 to 1.2 L) by day 3 and remained near-neutral through day 6. Maintenance and replacement fluids (to meet daily requirements and to correct ongoing losses; 31.9%) and creep fluids (to deliver medications and maintain catheter patency; 30.9%) were the primary indications, whereas resuscitation (to restore circulating blood volume; 16.0%) accounted for a smaller proportion. Isotonic balanced crystalloids (48.9%) and isotonic saline (0.9% sodium chloride) (27.0%) were common; colloids were rare (1.3%). Substantial between-site variation persisted after adjustment for case-mix. CONCLUSIONS AND RELEVANCE: In this prospective international cohort study, fluid therapy varied widely among mechanically ventilated critically ill patients, with maintenance and creep fluids-rather than resuscitation fluids-accounting for most total volume.",
+          "citation_count": 33,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/"
+        },
         {
           "pmid": "42645558",
           "title": "State-of-the-art review: ß-blockade in critical illness.",
@@ -17947,6 +18186,48 @@
       "label": "Procedures & POCUS",
       "abbr": "Procedures",
       "articles": [
+        {
+          "pmid": "42872606",
+          "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
+          "journal": "JAMA",
+          "pubdate": "2026 Oct 14",
+          "authors": [
+            "Blok SG",
+            "de Grooth HJ",
+            "Pisani L",
+            "Barbas C",
+            "Chew M",
+            "Dubin A",
+            "Hammond N",
+            "Kwizera A",
+            "Malbrain MLNG",
+            "Monnet X",
+            "Myatra SN",
+            "Rose L",
+            "Neto AS",
+            "Shi Z",
+            "Silversides J",
+            "Tripathy S",
+            "van Haren F",
+            "Dondorp A",
+            "Schultz MJ",
+            "van Regenmortel N",
+            "Paulus F",
+            "Tuinman PR",
+            "PRoFLUID Investigators"
+          ],
+          "doi": "10.1001/jama.2026.21291",
+          "abstract": "IMPORTANCE: Fluid therapy is ubiquitous in the intensive care unit (ICU) but carries risks, especially in mechanically ventilated patients. Contemporary global practice across dose, indication, and type is unknown. OBJECTIVE: To characterize ICU fluid practices in mechanically ventilated adults. DESIGN, SETTING, AND PARTICIPANTS: International prospective observational cohort study between April 2024 and July 2025, across 206 ICUs in 41 countries on 6 continents. Consecutive adult patients receiving invasive mechanical ventilation within 3 days of ICU admission and ventilated 24 hours or more. Exclusion criteria were age younger than 16 years and transfer under mechanical ventilation from another ICU. EXPOSURES: Fluid volume, indication, and type after intubation. MAIN OUTCOMES AND MEASURES: Key measures included (1) total infused volume and daily fluid balance over 7 days after intubation; (2) the indication for fluid therapy over the first 3 days after intubation; (3) the proportion of total administered fluid volume attributable to each fluid type over the first 3 days after intubation. RESULTS: Among 2454 patients analyzed (median age, 63 years [IQR, 49-73 years]; 63.6% [1560] male), median daily fluid input peaked on day 1 at 3.0 L (IQR, 2.2-4.0 L) and declined to 2.6 L (IQR, 1.8-3.5 L) through day 6. Daily fluid balance (median, 0.9 L; IQR, 0.1-1.9 L on day 1) decreased to less than 0.3 L (IQR, -0.5 to 1.2 L) by day 3 and remained near-neutral through day 6. Maintenance and replacement fluids (to meet daily requirements and to correct ongoing losses; 31.9%) and creep fluids (to deliver medications and maintain catheter patency; 30.9%) were the primary indications, whereas resuscitation (to restore circulating blood volume; 16.0%) accounted for a smaller proportion. Isotonic balanced crystalloids (48.9%) and isotonic saline (0.9% sodium chloride) (27.0%) were common; colloids were rare (1.3%). Substantial between-site variation persisted after adjustment for case-mix. CONCLUSIONS AND RELEVANCE: In this prospective international cohort study, fluid therapy varied widely among mechanically ventilated critically ill patients, with maintenance and creep fluids-rather than resuscitation fluids-accounting for most total volume.",
+          "citation_count": 33,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/"
+        },
         {
           "pmid": "42714473",
           "title": "Distinct weaning phenotypes in patients unsuccessful in weaning from invasive mechanical ventilation: a secondary analysis of the WEAN SAFE cohort.",
