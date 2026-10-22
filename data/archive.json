@@ -1799,6 +1799,32 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42878609/"
+      },
+      "42902295": {
+        "pmid": "42902295",
+        "title": "Toward targeted assessment of inspiratory muscle weakness before extubation: a pooled individual patient data analysis from multiple observational cohorts in critically ill ventilated patients.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 15",
+        "authors": [
+          "Medrinal C",
+          "Machefert M",
+          "Dubois C",
+          "Fossat G",
+          "Schnell G",
+          "Prieur G",
+          "Combret Y"
+        ],
+        "doi": "10.1186/s13054-026-06305-1",
+        "abstract": "BACKGROUND: Bedside neuromuscular tests are commonly proposed to assess readiness for extubation in critically ill patients. However, when used in unselected populations, their ability to predict clinically relevant outcomes such as extubation failure has been inconsistent. A more targeted use of these tests, restricted to patients in whom neuromuscular weakness is more likely to contribute to weaning failure, may improve their clinical relevance. METHODS: We conducted a pooled individual patient data analysis of multiple observational cohorts including adult ICU patients receiving invasive mechanical ventilation. The primary outcome was extubation failure, defined as reintubation or death within 48 h after extubation. Available neuromuscular assessments included maximal inspiratory pressure (MIP), maximal expiratory pressure (MEP), peak cough flow (PCF), and Medical Research Council (MRC) sum score. Prespecified thresholds were MIP ≤ 30 cmH₂O, MEP ≤ 50 cmH₂O, PCF ≤ 60 L/min, and MRC < 48/60. Associations with extubation failure were assessed in the overall population and according to prior mechanical ventilation duration. RESULTS: Among 494 included patients, 458 had an available extubation outcome and 72 (16%) experienced extubation failure. MIP was available in 230 patients, MEP in 124, PCF in 156, and MRC score in 252. In the overall population, MIP ≤ 30 cmH₂O showed only a borderline association with extubation failure (24% vs. 14%; OR 1.94, 95% CI 0.98 to 3.84; p = 0.06). In patients ventilated for more than 5 days, extubation failure occurred in 33% with MIP ≤ 30 cmH₂O versus 14% with MIP > 30 cmH₂O. After adjustment, MIP ≤ 30 cmH₂O remained associated with extubation failure (adjusted OR 3.52, 95% CI 1.37 to 9.03; p = 0.009). No significant adjusted association was observed for MEP, PCF, or MRC. CONCLUSIONS: Neuromuscular tests may have limited prognostic value when applied broadly before extubation. Low MIP appears more informative after prolonged mechanical ventilation, supporting a targeted rather than systematic use of respiratory neuromuscular assessment before extubation.",
+        "citation_count": 37,
+        "is_top_journal": true,
+        "study_type": "Observational Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13685169/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42902295/"
       }
     },
     "neurology": {
@@ -2604,6 +2630,32 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13640326/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
+      },
+      "42902295": {
+        "pmid": "42902295",
+        "title": "Toward targeted assessment of inspiratory muscle weakness before extubation: a pooled individual patient data analysis from multiple observational cohorts in critically ill ventilated patients.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Sep 15",
+        "authors": [
+          "Medrinal C",
+          "Machefert M",
+          "Dubois C",
+          "Fossat G",
+          "Schnell G",
+          "Prieur G",
+          "Combret Y"
+        ],
+        "doi": "10.1186/s13054-026-06305-1",
+        "abstract": "BACKGROUND: Bedside neuromuscular tests are commonly proposed to assess readiness for extubation in critically ill patients. However, when used in unselected populations, their ability to predict clinically relevant outcomes such as extubation failure has been inconsistent. A more targeted use of these tests, restricted to patients in whom neuromuscular weakness is more likely to contribute to weaning failure, may improve their clinical relevance. METHODS: We conducted a pooled individual patient data analysis of multiple observational cohorts including adult ICU patients receiving invasive mechanical ventilation. The primary outcome was extubation failure, defined as reintubation or death within 48 h after extubation. Available neuromuscular assessments included maximal inspiratory pressure (MIP), maximal expiratory pressure (MEP), peak cough flow (PCF), and Medical Research Council (MRC) sum score. Prespecified thresholds were MIP ≤ 30 cmH₂O, MEP ≤ 50 cmH₂O, PCF ≤ 60 L/min, and MRC < 48/60. Associations with extubation failure were assessed in the overall population and according to prior mechanical ventilation duration. RESULTS: Among 494 included patients, 458 had an available extubation outcome and 72 (16%) experienced extubation failure. MIP was available in 230 patients, MEP in 124, PCF in 156, and MRC score in 252. In the overall population, MIP ≤ 30 cmH₂O showed only a borderline association with extubation failure (24% vs. 14%; OR 1.94, 95% CI 0.98 to 3.84; p = 0.06). In patients ventilated for more than 5 days, extubation failure occurred in 33% with MIP ≤ 30 cmH₂O versus 14% with MIP > 30 cmH₂O. After adjustment, MIP ≤ 30 cmH₂O remained associated with extubation failure (adjusted OR 3.52, 95% CI 1.37 to 9.03; p = 0.009). No significant adjusted association was observed for MEP, PCF, or MRC. CONCLUSIONS: Neuromuscular tests may have limited prognostic value when applied broadly before extubation. Low MIP appears more informative after prolonged mechanical ventilation, supporting a targeted rather than systematic use of respiratory neuromuscular assessment before extubation.",
+        "citation_count": 37,
+        "is_top_journal": true,
+        "study_type": "Observational Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13685169/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42902295/"
       }
     },
     "renal": {
@@ -8972,6 +9024,16 @@
       "summary": "In 2010, the CRASH-2 trial was published in the Lancet.[1] The authors randomized 20,211 trauma patients with, or at risk of, significant hemorrhage within 8 hours of injury to either tranexamic acid (TXA), a 1 g bolus followed by a 1 g infusion over 8 hours, or placebo. 28-day mortality was 14.5% in the TXA […] EMCrit Project by Rory Spiegel .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emcrit/precare/": {
+      "title": "EMCrit Wee – Pre-PreCare – Prehospital ECPR with Nat & Bri from Sydney HEMS",
+      "url": "https://emcrit.org/emcrit/precare/",
+      "source": "EMCrit",
+      "author": "Scott Weingart, MD FCCM",
+      "pubdate": "2026-10-21",
+      "summary": "We discuss the PRECARE Pilot trial on Prehospital ECPR from the Sydney HEMS folks EMCrit Project by Scott Weingart, MD FCCM .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -10923,14 +10985,14 @@
       ],
       "doi": "10.3346/jkms.2026.41.e119",
       "abstract": "BACKGROUND: While many countries have made progress in integrating palliative care into intensive care units (ICUs), implementation remains highly context-dependent. In Korea, palliative care integration within ICUs remains limited, and intensivists' perspectives on its role and applicability have not been well studied. METHODS: We conducted a nationwide, cross-sectional online survey of certified intensivists and fellows registered with the Korean Society of Critical Care Medicine between April and May 2024. The questionnaire explored knowledge and confidence in palliative care, current ICU practices, referral patterns, perceived barriers, and preferred strategies for integration. RESULTS: A total of 241 intensivists responded (response rate, 23.9%). Most agreed that palliative care should be incorporated into ICU care (97.1%) and were willing to make referrals (98.3%). Advance care planning, symptom management, and family decision-making were the most expected domains of support. However, fewer reported involvement in psychological support, end-of-life care, or bereavement services. Referral practices were more frequent in institutions with palliative care teams, while lack of resources, unsupportive institutional culture, and unclear processes were commonly cited barriers. Clinical guidelines, professional education, and reimbursement reform were identified as priority strategies for integration. CONCLUSION: Korean intensivists widely recognize the need for palliative care in the ICU but apply it within a limited scope. To strengthen integration, consensus on definitions, clear referral criteria, and supportive institutional and policy frameworks are required.",
-      "citation_count": 0,
+      "citation_count": 42,
       "is_top_journal": false,
       "study_type": "Study",
       "volume": "41",
       "issue": "40",
       "pages": "e119",
-      "is_open_access": false,
-      "pmc_url": null,
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13682906/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42901492/",
       "society": "SCCM"
     }
@@ -15725,6 +15787,66 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT06036056"
+    },
+    "NCT07885618": {
+      "title": "Factors Influencing Outcomes in ECMO and Impella Patients: Metabolic and Thyroid Hormone Dynamics",
+      "url": "https://clinicaltrials.gov/study/NCT07885618",
+      "source": "Gottsegen National Cardiovascular Institute",
+      "author": "",
+      "pubdate": "2026-10-21",
+      "summary": "This prospective, single-center, consecutive observational study evaluates clinical, metabolic, and endocrine factors influencing survival and clinical outcomes in adult patients undergoing temporary mechanical circulatory support at the Cardiovascular Intensive Care Unit of Gottsegen Gyorgy National Cardiovascular Institute. While traditional cardiovascular risk factors in critically ill patients are well established, non-cardiovascular variables such as endocrine dysfunction, previous function",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07885618"
+    },
+    "NCT04345601": {
+      "title": "Mesenchymal Stromal Cells for the Treatment of SARS-CoV-2 Induced Acute Respiratory Failure (COVID-19 Disease)",
+      "url": "https://clinicaltrials.gov/study/NCT04345601",
+      "source": "Baylor College of Medicine",
+      "author": "",
+      "pubdate": "2026-10-21",
+      "summary": "\\*\\*\\*At this time, we are only enrolling at Houston Methodist Hospital (HMH)/Baylor College of Medicine (BCM) and are not shipping cells outside of BCM/HMH.\\*\\*\\* This is a study for patients who have respiratory infection caused by SARS-CoV-2 that have not gotten better. Because there is no standard treatment for this infection, patients are being asked to volunteer for a gene transfer research study using mesenchymal stem cells (MSCs). Stem cells are cells that do not yet have a specific func",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04345601"
+    },
+    "NCT06481410": {
+      "title": "Efficacy and Safety of Methylene Blue in the Treatment of Severe Septic Shock",
+      "url": "https://clinicaltrials.gov/study/NCT06481410",
+      "source": "First Affiliated Hospital of Zhejiang University",
+      "author": "",
+      "pubdate": "2026-10-21",
+      "summary": "The goal of this clinical trial is to investigate whether methylene blue injection can safely and effectively improve the survival rate of patients with severe septic shock, shorten the duration of norepinephrine use, reduce the dosage of vasopressors, promptly correct hemodynamics, and improve tissue perfusion and organ function impairment.",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06481410"
+    },
+    "NCT06652126": {
+      "title": "Immunosuppression and Intensive Care Unit-acquired Multidrug-resistant Bacteria",
+      "url": "https://clinicaltrials.gov/study/NCT06652126",
+      "source": "University Hospital, Lille",
+      "author": "",
+      "pubdate": "2026-10-21",
+      "summary": "Antimicrobial resistance AMR is an emerging global threat to human health, and intensive care units (ICUs) are a 'hot spot' for the emergence and diffusion of multidrug-resistant (MDR) bacteria. ICU-acquired colonization and infection with MDR bacteria (ICU-MDR-col and ICU-MDR-inf, respectively) have been associated with higher ICU length-of-stay, duration of invasive mechanical ventilation and mortality. Immunocompromised patients account for an increasing proportion of ICU patients, and they a",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06652126"
+    },
+    "NCT07467551": {
+      "title": "Turkish Validity and Reliability of the Behavioral Indicators of Pain Scale(ESCID)",
+      "url": "https://clinicaltrials.gov/study/NCT07467551",
+      "source": "Saglik Bilimleri Universitesi",
+      "author": "",
+      "pubdate": "2026-10-21",
+      "summary": "A significant proportion of patients hospitalized in intensive care units (ICUs) require mechanical ventilation, and the treatments applied during this process may cause pain. Pain is defined as an unpleasant sensory and emotional experience associated with actual or potential tissue damage. Although it is associated with delirium and agitation, pain is often an overlooked symptom in ICU patients, and a large proportion of mechanically ventilated patients continue to experience moderate to sever",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07467551"
     }
   },
   "bottom_line": {

@@ -1,37 +1,9 @@
 {
-  "generated_at": "2026-10-21T08:06:40+00:00",
+  "generated_at": "2026-10-22T08:06:16+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
     "articles": [
-      {
-        "pmid": "42765454",
-        "title": "Semi-recumbent position for the prevention of ventilator-associated pneumonia in adults requiring mechanical ventilation.",
-        "journal": "The Cochrane database of systematic reviews",
-        "pubdate": "2026 Sep 21",
-        "authors": [
-          "Jiang W",
-          "Chen Y",
-          "Li X",
-          "Li Z",
-          "Dong T",
-          "Yuan Q",
-          "Tang X",
-          "Yang Z",
-          "Wang L"
-        ],
-        "doi": "10.1002/14651858.CD009946.pub3",
-        "abstract": "RATIONALE: Ventilator-associated pneumonia (VAP) is associated with increased mortality, hospital stay, and healthcare costs in critically ill patients. Although guidelines recommend a semi-recumbent position for VAP prevention, the evidence remains uncertain due to limitations in prior reviews. This update revises the 2016 review. OBJECTIVES: To assess the effectiveness and safety of semi-recumbent versus supine or another positioning, and different degrees or types of semi-recumbent positioning in mechanically ventilated intensive care unit (ICU) patients. SEARCH METHODS: We searched CENTRAL, MEDLINE, Embase, CINAHL, PsycINFO, AMED, three Chinese databases, and two trial registries up to 3 October 2025, and screened reference lists. ELIGIBILITY CRITERIA: We included randomised controlled trials (RCTs) comparing semi-recumbent versus supine or another positioning, or different degrees or types of semi-recumbent positioning in mechanically ventilated adult ICU patients. OUTCOMES: Outcomes include clinically suspected or microbiologically confirmed VAP, ICU or hospital mortality, length of ICU or hospital stay, duration of ventilation, and pressure ulcers. RISK OF BIAS: We assessed the risk of bias using Cochrane's RoB 1 tool. SYNTHESIS METHODS: Paired review authors independently screened studies, assessed risk of bias, and extracted data. We performed random-effects meta-analyses using mean difference (MD) for continuous and risk ratio (RR) for binary outcomes with 95% confidence intervals (CI). We evaluated evidence certainty using GRADE. INCLUDED STUDIES: This update includes 38 new RCTs, making a total of 48 included studies (7955 participants). SYNTHESIS OF RESULTS: 1. Semi-recumbent position versus supine position: 17 studies, 2640 participants A semi-recumbent position, versus a supine position, reduces clinically suspected VAP (RR 0.42, 95% CI 0.33 to 0.52; 14 studies, 2411 participants; high-certainty evidence), but may result in little to no difference in microbiologically confirmed VAP (RR 0.57, 95% CI 0.25 to 1.27; 5 studies, 555 participants; low-certainty evidence), and probably results in little to no difference in ICU or hospital mortality (RR 0.80, 95% CI 0.59 to 1.08; 3 studies, 430 participants; RR 0.86, 95% CI 0.67 to 1.12; 5 studies, 570 participants; both moderate-certainty evidence). Due to very low-certainty evidence, we do not know the effects on ICU or hospital length of stay (MD -3.25 days, 95% CI -7.14 to 0.63; 5 studies, 466 participants; MD -8.17 days, 95% CI -40.10 to 23.76; 3 studies, 320 participants). It may reduce the duration of ventilation (MD -3.26 days, 95% CI -6.02 to -0.51; 7 studies, 688 participants; low-certainty evidence). We do not know the effect on pressure ulcers (RR 0.69, 95% CI 0.30 to 1.56; 4 studies, 840 participants; very low-certainty evidence). 2. Semi-recumbent position 30° to 45° versus < 30°: 11 studies, 1153 participants A semi-recumbent position at 30° to 45°, versus < 30°, reduces clinically suspected VAP (RR 0.48, 95% CI 0.39 to 0.59; 8 studies, 810 participants; high-certainty evidence). It may result in little to no difference in microbiologically confirmed VAP (RR 0.53, 95% CI 0.28 to 1.02; 5 studies, 451 participants), ICU or hospital mortality (RR 0.69, 95% CI 0.20 to 2.29; 3 studies, 271 participants; RR 0.66, 0.37 to 1.17; 2 studies, 145 participants), or duration of ventilation (MD -0.62 days, 95% CI -4.17 to 2.93; 1 study, 87 participants) (all low-certainty evidence). There is no evidence for ICU or hospital stay. It probably increases pressure ulcers (RR 2.79, 95% CI 1.28 to 6.11; 6 studies, 712 participants; moderate-certainty evidence). 3. Semi-recumbent position 40° to 45° versus 30°: 14 studies, 1374 participants A semi-recumbent position at 40° to 45°, versus 30°, probably results in little to no difference in clinically suspected VAP (RR 0.91, 95% CI 0.62 to 1.33; 10 studies, 1026 participants; moderate-certainty evidence), but may reduce microbiologically confirmed VAP (RR 0.53, 95% CI 0.28 to 0.99; 4 studies, 218 participants; low-certainty evidence). There were no deaths in ICU (1 study, 46 participants; low-certainty evidence). Due to very low-certainty evidence, we do not know the effects on hospital mortality (RR 1.21, 95% CI 0.27 to 5.50; 2 studies, 221 participants), length of ICU stay (MD -1.28 days, 95% CI -6.69 to 4.12; 2 studies, 221 participants), or duration of ventilation (MD -1.09 days, 95% CI -4.60 to 2.43; 2 studies, 206 participants). There is no evidence for hospital stay. It probably increases pressure ulcers (RR 2.42, 95% CI 1.16 to 5.06; 10 studies, 943 participants; moderate-certainty evidence). 4. Semi-recumbent position versus semi-recumbent lateral or lateral rotation position: 7 studies, 708 participants A semi-recumbent position, versus semi-recumbent lateral or lateral rotation, probably increases clinically suspected and microbiologically confirmed VAP (RR 1.99, 95% CI 1.48 to 2.70; 6 studies, 608 participants; RR 5.14, 95% CI 2.53 to 10.44; 1 study, 100 participants; both moderate-certainty evidence), but may result in little to no difference in hospital mortality (RR 2.50, 95% CI 0.53 to 11.89; 1 study, 60 participants; low-certainty evidence). There is no evidence on ICU mortality. It probably prolongs the length of ICU or hospital stay and the duration of ventilation (days: MD 5.69, 95% CI 5.44 to 5.94; 2 studies, 120 participants; MD 6.25, 95% CI 4.09 to 8.41; 2 studies, 240 participants; MD 5.99, 95% CI 1.60 to 10.38; 4 studies, 400 participants; all moderate-certainty evidence). There is no evidence for pressure ulcers. Evidence was limited on the semi-recumbent position at 60° versus 45°, or versus other positions (e.g. semi-recumbent rotation, lateral Trendelenburg, or prone position). AUTHORS' CONCLUSIONS: Compared with supine positioning, semi-recumbent positioning reduces VAP, and may shorten the duration of ventilation. Higher head-of-bed angles (≥ 30° or 40° to 45°) probably reduce VAP, but increase pressure ulcers, with other comparisons remaining uncertain. Compared with fixed-angled semi-recumbent positioning, semi-recumbent lateral or lateral rotation positioning probably reduces VAP and shortens the duration of ventilation, and length of ICU and hospital stay. Evidence on adverse events and comparisons with alternative positions remains inconclusive. LIMITATIONS: evidence certainty was limited by risk of bias, imprecision due to small sample sizes, and inconsistency across studies. Inadequate reporting of actual head-of-bed angle for semi-recumbent positioning and variation in VAP definitions may influence our findings. FUNDING: No funding. REGISTRATION: Protocol (2012) DOI: 10.1002/14651858.CD009946 Original review (2016) DOI: 10.1002/14651858.CD009946.pub2.",
-        "citation_count": 125,
-        "is_top_journal": true,
-        "study_type": "Meta-Analysis",
-        "volume": "9",
-        "issue": "9",
-        "pages": "CD009946",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13591558/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42765454/"
-      },
       {
         "pmid": "42467246",
         "title": "Key principles for rehabilitation of critically ill patients with obesity.",
@@ -209,9 +181,7 @@
         "pages": "",
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13679110/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42897566/",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42897566/"
       },
       {
         "pmid": "42618770",
@@ -301,12 +271,54 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13640326/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
+      },
+      {
+        "pmid": "42545097",
+        "title": "H3.1 Nucleosomes to Predict Renal Replacement Therapy and Mortality in Sepsis-A Secondary Analysis of the SISPCT Randomized Control Trial.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 1",
+        "authors": [
+          "Neumann C",
+          "Bloos F",
+          "Hla TTW",
+          "Bygott T",
+          "Bogatsch H",
+          "Kiehntopf M",
+          "Börner F",
+          "Press AT",
+          "Bauer M",
+          "Retter A",
+          "SepNet Critical Care Trials Group"
+        ],
+        "doi": "10.1097/CCM.0000000000007270",
+        "abstract": "OBJECTIVES: The release of neutrophil extracellular traps is a key immune host defense mechanism that can contribute to organ damage during sepsis if excessive. We evaluated presentation H3.1 nucleosome levels in patients with sepsis, septic shock, and sepsis-associated acute kidney injury (AKI). We sought to determine if plasma H3.1 nucleosome levels could serve as predictive biomarkers for both renal replacement therapy (RRT) requirements and 28-day mortality. DESIGN: A secondary analysis of prospectively collected samples from the large multicenter Effect of Sodium Selenite Administration and Procalcitonin-Guided Therapy on Mortality in Patients with Severe Sepsis or Septic Shock (SISPCT) trial. SETTING: Patients from 33 ICUs in Germany recruited between November 6, 2009, and June 6, 2013, including a 90-day follow-up period. PATIENTS: A total of 971 patients with complete data on plasma H3.1 admission levels with sepsis and septic shock, and 927 patients with complete data on RRT requirements. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We evaluated associations between H3.1 levels and mortality and the time to commencement of RRT using multivariable Cox regression. A total of 443 patients (45.6%) presented with sepsis, and 520 patients (53.6%) had septic shock. Admission H3.1 levels were higher in patients with septic shock than sepsis (median, 921.84 vs. 432.71 ng/mL; p < 0.001). In a multivariable analysis for 28-day mortality, a one unit increase in log10 H3.1 levels was associated with a 48% increase in 28-day mortality (adjusted hazard ratio [HR], 1.48, 95% CI, 1.07-2.04; p = 0.02). Plasma H3.1 was also higher in patients with stage 3 AKI requiring RRT with septic shock vs. sepsis (1832 vs. 801.4 ng/mL; p = 0.01). In a multivariable Cox regression controlling for maximum lactate, procalcitonin, and C-reactive protein levels, plasma H3.1 levels were significantly higher in patients who developed AKI requiring RRT when compared with patients who did not develop AKI, with one log10 increase of H3.1 increasing the risk of 28-day RRT by 80% (adjusted HR, 1.8; 95% CI, 1.34-2.40; p < 0.001). CONCLUSIONS: Elevated levels of H3.1 nucleosomes at admission are associated with mortality and AKI requiring RRT. TRIAL REGISTRATION: The trial was registered in clinicaltrials.gov , identifier: NCT00832039.",
+        "citation_count": 35,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "54",
+        "issue": "10",
+        "pages": "2567-2578",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632813/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/"
       }
     ]
   },
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "EMCrit Wee – Pre-PreCare – Prehospital ECPR with Nat & Bri from Sydney HEMS",
+        "url": "https://emcrit.org/emcrit/precare/",
+        "source": "EMCrit",
+        "author": "Scott Weingart, MD FCCM",
+        "pubdate": "2026-10-21",
+        "summary": "We discuss the PRECARE Pilot trial on Prehospital ECPR from the Sydney HEMS folks EMCrit Project by Scott Weingart, MD FCCM .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "A Study in Priors Part 3",
         "url": "https://emcrit.org/emnerd/a-study-in-priors-part-3/",
@@ -395,7 +407,9 @@
         "pubdate": "2026-09-21",
         "summary": "Waiting for outside teams to place emergent dialysis lines directly harms critically ill patients requiring immediate RRT or exchange transfusions. In this episode, I break down the essential skill set for non-tunneled hemodialysis catheter insertion, covering line selection, site physiology, pre-dilation confirmation, and key procedural microskills. Learn how to prevent catastrophic vascular comp",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The A2B Trial: Are Alpha-2 Agonists Better than Propofol for ICU Sedation?",
@@ -405,7 +419,9 @@
         "pubdate": "2026-09-21",
         "summary": "Does primary sedation with dexmedetomidine or clonidine reduce the time to successful extubation in mechanically ventilated critically ill patients compared to propofol-based sedation? The post The A2B Trial: Are Alpha-2 Agonists Better than Propofol for ICU Sedation? appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "EMCrit RACC Lit Review – September 2026",
@@ -1158,18 +1174,16 @@
         ],
         "doi": "10.3346/jkms.2026.41.e119",
         "abstract": "BACKGROUND: While many countries have made progress in integrating palliative care into intensive care units (ICUs), implementation remains highly context-dependent. In Korea, palliative care integration within ICUs remains limited, and intensivists' perspectives on its role and applicability have not been well studied. METHODS: We conducted a nationwide, cross-sectional online survey of certified intensivists and fellows registered with the Korean Society of Critical Care Medicine between April and May 2024. The questionnaire explored knowledge and confidence in palliative care, current ICU practices, referral patterns, perceived barriers, and preferred strategies for integration. RESULTS: A total of 241 intensivists responded (response rate, 23.9%). Most agreed that palliative care should be incorporated into ICU care (97.1%) and were willing to make referrals (98.3%). Advance care planning, symptom management, and family decision-making were the most expected domains of support. However, fewer reported involvement in psychological support, end-of-life care, or bereavement services. Referral practices were more frequent in institutions with palliative care teams, while lack of resources, unsupportive institutional culture, and unclear processes were commonly cited barriers. Clinical guidelines, professional education, and reimbursement reform were identified as priority strategies for integration. CONCLUSION: Korean intensivists widely recognize the need for palliative care in the ICU but apply it within a limited scope. To strengthen integration, consensus on definitions, clear referral criteria, and supportive institutional and policy frameworks are required.",
-        "citation_count": 0,
+        "citation_count": 42,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "41",
         "issue": "40",
         "pages": "e119",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13682906/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42901492/",
-        "society": "SCCM",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "SCCM"
       },
       {
         "pmid": "42880916",
@@ -1346,7 +1360,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42767105/",
-        "society": "Surviving Sepsis Campaign"
+        "society": "Surviving Sepsis Campaign",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42730762",
@@ -1632,7 +1648,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42632433/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42087034",
@@ -2987,7 +3005,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13589527/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42763706/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42807668",
@@ -4566,84 +4586,7 @@
   },
   "this_week": {
     "window_days": 7,
-    "articles": [
-      {
-        "pmid": "42878628",
-        "title": "Weaning Strategies for High-Flow Nasal Cannula in Critically Ill Adults: A Randomized Clinical Trial.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Oct 15",
-        "authors": [
-          "Kim T",
-          "Kwack WG",
-          "Park S",
-          "Jung S",
-          "Song MJ",
-          "Kim ES",
-          "Lim SY"
-        ],
-        "doi": "10.1097/CCM.0000000000007379",
-        "abstract": "OBJECTIVES: This study evaluated the efficacy of different high-flow nasal cannula (HFNC) weaning protocols in critically ill adults. DESIGN: This multicenter, randomized controlled trial was conducted from December 1, 2022, to August 31, 2024, based on the suggested protocol (SLOWH trial). Experts reviewed the trial between October 2, 2024, and April 15, 2025. SETTING: Randomization was performed by a research coordinator using a sequence of random numbers generated by an independent statistician blinded to both researchers and participants. PATIENTS: Adults (≥ 18 yr old) in the ICU who met the weaning criteria after receiving HFNC were included. Among 102 patients from three tertiary care hospitals, 15 were excluded. INTERVENTIONS: The remaining patients were randomized into three intervention groups: flow reduction (FR) first, Fio2 reduction (OR) first, or simultaneous reduction (SR). The primary outcome was the HFNC weaning success rate, defined as successful transition to conventional oxygen therapy without the need for HFNC reapplication, noninvasive ventilation, or endotracheal intubation within 24 hours. MEASUREMENTS AND MAIN RESULTS: A total of 87 adults completed the trial (FR, n = 31 [male, 52%]; OR, n = 26 [male, 77%]; SR, n = 30 [male, 53%]). The weaning success rates in the FR, OR, and SR groups were 94%, 81%, and 77%, respectively (p = 0.15). The median [interquartile range] weaning duration was 31.0 hours (29.0-45.8 hr), 29.5 hours (28.0-60.4 hr), and 29.5 hours (26.5-45.0 hr) in the FR, OR, and SR groups, respectively, with no statistically significant difference among groups (p = 0.87). CONCLUSIONS: In this randomized trial, no statistically significant differences were observed among the three HFNC weaning strategies in terms of weaning success or duration.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42878628/",
-        "category_id": "respiratory",
-        "category_label": "Respiratory",
-        "category_ids": [
-          "respiratory",
-          "procedures-pocus"
-        ],
-        "category_labels": [
-          "Respiratory",
-          "Procedures & POCUS"
-        ]
-      },
-      {
-        "pmid": "42878609",
-        "title": "Ventilatory Management in Neurocritical Versus Non-Neurocritical Care Patients: A Pooled Analysis From the PRIME Database.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Oct 15",
-        "authors": [
-          "Serafini SC",
-          "Cinotti R",
-          "Asehnoune K",
-          "Battaglini D",
-          "Ball L",
-          "Patroniti N",
-          "Neto AS",
-          "Pisani L",
-          "Mazzinari G",
-          "Tschernko EM",
-          "Schultz MJ",
-          "Robba C",
-          "PRactice of VENTilation in critically ill patients without ARDS (PRoVENT), PRactice of VENTilation in critically ill patients in Middle-income Countries (PRoVENT-iMiC), and Extubation strategies in Neuro-ICU patients and associations with Outcomes (ENIO) investigators"
-        ],
-        "doi": "10.1097/CCM.0000000000007385",
-        "abstract": "OBJECTIVES: To describe ventilatory management in neurocritical care and non-neurocritical care patients and determine whether specific ventilator settings are associated with development of acute respiratory distress syndrome (ARDS) and mortality in neurocritical care patients. The primary endpoint was a diagnosis of ARDS after initiation of invasive ventilation; one secondary endpoint was ICU mortality. DATA SOURCES: Post hoc pooled analysis of harmonized individual patient data from three recent prospective observational studies combined into the PRIME database. STUDY SELECTION: PRIME is a harmonized pooled database comprising individual patient data from three recent prospective observational studies on ventilatory management in critically ill patients: \"PRactice of VENTilation in critically ill patients without ARDS\" (PRoVENT), \"PRactice of VENTilation in critically ill patients in Middle-income Countries\" (PRoVENT-iMiC), and \"Extubation strategies in Neuro-ICU patients and associations with Outcomes\" (ENIO). We excluded patients with ARDS at the start of ventilation. DATA EXTRACTION: Demographic and clinical characteristics, ventilator settings, respiratory variables, arterial blood gas values, and clinical outcomes were extracted from the harmonized PRIME database. Derived ventilation parameters included tidal volume normalized to predicted body weight, driving pressure, respiratory system compliance, mechanical power, ventilatory ratio, and Pao2/Fio2 ratio. DATA SYNTHESIS: This analysis included 3848 patients, including 1702 neurocritical care and 1920 non-neurocritical care patients. Based on recorded ventilatory variables, neurocritical care patients received lower median tidal volumes (Vts), positive end-expiratory pressure, and Fio2. They had lower median driving pressure (ΔP), mechanical power (MP) of ventilation, and ventilatory ratio, as well as higher respiratory system compliance compared with non-neurocritical care patients. These differences were consistently observed at both assessed time points. ARDS was diagnosed more frequently in neurocritical care patients than in non-neurocritical care patients (8.7% vs. 3.9%; p < 0.001), while ICU mortality was lower (14.3% vs. 22.8%; p < 0.001). Among neurocritical care patients, those who developed ARDS were ventilated with lower median Vt and higher Fio2 and had higher median ΔP and MP. Vt normalized for predicted body weight in neurocritical care patients was independently associated with the development of ARDS. CONCLUSIONS: In this cohort, ventilatory management at the initial and 48-hour assessments differed between neurocritical care and non-neurocritical care patients, particularly with respect to key ventilator settings like Vt, positive end-expiratory pressure, and Fio2. In neurocritical care patients, ARDS was more often diagnosed than in non-neurocritical care patients.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42878609/",
-        "category_id": "respiratory",
-        "category_label": "Respiratory",
-        "category_ids": [
-          "respiratory"
-        ],
-        "category_labels": [
-          "Respiratory"
-        ]
-      }
-    ]
+    "articles": []
   },
   "preprints": {
     "window_days": 14,
@@ -4712,9 +4655,7 @@
         "summary": "ImportanceCurrent clinical artificial intelligence is bottlenecked by highly specialized, fragmented models that reduce complex, multimodal data into isolated scalar predictions. By reframing multimodal perception as a pure vision problem, optical compression into a universal visual operating system can resolve internal data interaction bottlenecks and shift the paradigm toward continuous, generative clinical forecasting. ObjectiveTo develop and internally validate Clinical Visual Memory, a gene",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Serial neoGFAP outperforms total GFAP for monitoring and 6-month outcome discrimination after moderate to severe traumatic brain injury: an exploratory single-site cohort study",
@@ -4800,6 +4741,76 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Factors Influencing Outcomes in ECMO and Impella Patients: Metabolic and Thyroid Hormone Dynamics",
+        "url": "https://clinicaltrials.gov/study/NCT07885618",
+        "source": "Gottsegen National Cardiovascular Institute",
+        "author": "",
+        "pubdate": "2026-10-21",
+        "summary": "This prospective, single-center, consecutive observational study evaluates clinical, metabolic, and endocrine factors influencing survival and clinical outcomes in adult patients undergoing temporary mechanical circulatory support at the Cardiovascular Intensive Care Unit of Gottsegen Gyorgy National Cardiovascular Institute. While traditional cardiovascular risk factors in critically ill patients are well established, non-cardiovascular variables such as endocrine dysfunction, previous function",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07885618",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Mesenchymal Stromal Cells for the Treatment of SARS-CoV-2 Induced Acute Respiratory Failure (COVID-19 Disease)",
+        "url": "https://clinicaltrials.gov/study/NCT04345601",
+        "source": "Baylor College of Medicine",
+        "author": "",
+        "pubdate": "2026-10-21",
+        "summary": "\\*\\*\\*At this time, we are only enrolling at Houston Methodist Hospital (HMH)/Baylor College of Medicine (BCM) and are not shipping cells outside of BCM/HMH.\\*\\*\\* This is a study for patients who have respiratory infection caused by SARS-CoV-2 that have not gotten better. Because there is no standard treatment for this infection, patients are being asked to volunteer for a gene transfer research study using mesenchymal stem cells (MSCs). Stem cells are cells that do not yet have a specific func",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04345601",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Efficacy and Safety of Methylene Blue in the Treatment of Severe Septic Shock",
+        "url": "https://clinicaltrials.gov/study/NCT06481410",
+        "source": "First Affiliated Hospital of Zhejiang University",
+        "author": "",
+        "pubdate": "2026-10-21",
+        "summary": "The goal of this clinical trial is to investigate whether methylene blue injection can safely and effectively improve the survival rate of patients with severe septic shock, shorten the duration of norepinephrine use, reduce the dosage of vasopressors, promptly correct hemodynamics, and improve tissue perfusion and organ function impairment.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06481410",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Immunosuppression and Intensive Care Unit-acquired Multidrug-resistant Bacteria",
+        "url": "https://clinicaltrials.gov/study/NCT06652126",
+        "source": "University Hospital, Lille",
+        "author": "",
+        "pubdate": "2026-10-21",
+        "summary": "Antimicrobial resistance AMR is an emerging global threat to human health, and intensive care units (ICUs) are a 'hot spot' for the emergence and diffusion of multidrug-resistant (MDR) bacteria. ICU-acquired colonization and infection with MDR bacteria (ICU-MDR-col and ICU-MDR-inf, respectively) have been associated with higher ICU length-of-stay, duration of invasive mechanical ventilation and mortality. Immunocompromised patients account for an increasing proportion of ICU patients, and they a",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06652126",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Turkish Validity and Reliability of the Behavioral Indicators of Pain Scale(ESCID)",
+        "url": "https://clinicaltrials.gov/study/NCT07467551",
+        "source": "Saglik Bilimleri Universitesi",
+        "author": "",
+        "pubdate": "2026-10-21",
+        "summary": "A significant proportion of patients hospitalized in intensive care units (ICUs) require mechanical ventilation, and the treatments applied during this process may cause pain. Pain is defined as an unpleasant sensory and emotional experience associated with actual or potential tissue damage. Although it is associated with delirium and agitation, pain is often an overlooked symptom in ICU patients, and a large proportion of mechanically ventilated patients continue to experience moderate to sever",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07467551",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Pilot Study of Anesthesiologists' Preoperative Prediction of Postoperative Intensive Care Unit Admission",
         "url": "https://clinicaltrials.gov/study/NCT07780526",
         "source": "Van Training and Research Hospital",
@@ -4809,7 +4820,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780526"
+        "nct_id": "NCT07780526",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Oral Care Apparatus for Intubated Patients",
@@ -4833,9 +4846,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07232342",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07232342"
       },
       {
         "title": "Rhu-pGSN for Acute Respiratory Distress Syndrome (ARDS)",
@@ -4847,9 +4858,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05947955",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05947955"
       },
       {
         "title": "Intravenous Fish Oil Emulsion in Critically Ill Patients With High Inflammatory Status.",
@@ -4861,9 +4870,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07883447",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07883447"
       },
       {
         "title": "Efficacy and Safety of Oral Nicotinamide as an Adjunctive Therapy in Patients With Sepsis",
@@ -4875,9 +4882,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07655791",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07655791"
       },
       {
         "title": "CytOSorb TreatMent Of Critically Ill PatientS Registry",
@@ -4889,9 +4894,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05146336",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05146336"
       },
       {
         "title": "Cytomegalovirus Reactivation in ICU Patients Requiring Prolong Mechanical Ventilation",
@@ -4903,9 +4906,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06520605",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06520605"
       },
       {
         "title": "Volume Kinetics of Fluid Resuscitation in Early Sepsis",
@@ -4917,9 +4918,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06499701",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06499701"
       },
       {
         "title": "NMR Based Metabolomics Kinetics in ARDS Patients",
@@ -4931,9 +4930,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06036056",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06036056"
       },
       {
         "title": "Adrenal Function in Critical Illness",
@@ -5045,9 +5042,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06854640",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06854640"
       },
       {
         "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
@@ -6479,7 +6474,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06650488"
+        "nct_id": "NCT06650488",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dynamic Non-invasive Monitoring of Inspiratory Effort",
@@ -6575,7 +6572,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05327881"
+        "nct_id": "NCT05327881",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of the Clinical Impact of Adjunctive L-carnitine Therapy in Critically Ill Hepatic Patients Admitted to Intensive Care Unit",
@@ -6771,7 +6770,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07829978"
+        "nct_id": "NCT07829978",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "pEEG Monitoring Effect on Delirium, Ventilator Days, and PICS",
@@ -6783,7 +6784,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06019078"
+        "nct_id": "NCT06019078",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Viscoelastic Coagulation for Early Sepsis Detection",
@@ -6795,7 +6798,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07073456"
+        "nct_id": "NCT07073456",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Fever Control Using External Cooling in Mechanically Ventilated Patients With Septic Shock",
@@ -6807,7 +6812,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04494074"
+        "nct_id": "NCT04494074",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Change in MAPSE During Treatment of Sepsis",
@@ -6819,7 +6826,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05634733"
+        "nct_id": "NCT05634733",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Professional Oral Care and Staff Education in Critically Ill Patients",
@@ -6831,7 +6840,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07831564"
+        "nct_id": "NCT07831564",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "High-Tech Rehabilitation Pathway for Acute Adult Neuromuscular Diseases - Fit4MedRob-Acute MND Project",
@@ -8307,9 +8318,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07776184",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07776184"
       },
       {
         "title": "Psychological Support Based on Positive Suggestions (PSBPS) on Mental Health Morbidity and Cognitive Function",
@@ -8381,9 +8390,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07059988",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07059988"
       },
       {
         "title": "Ethnic and Gender Based Admittance Patterns in the ICU",
@@ -8395,9 +8402,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05513456",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05513456"
       },
       {
         "title": "Eduction in ImmunoSuppressive Regimen Among Kidney Transplant Recipients Patients Admitted to the Intensive Care Unit for Septic Shock and/or Acute Respiratory Failure",
@@ -8409,9 +8414,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06881927",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06881927"
       },
       {
         "title": "Inhaled Dornase Alpha to Reduce Respiratory Failure After Severe Trauma",
@@ -8423,9 +8426,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03368092",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03368092"
       },
       {
         "title": "RDW:MCHC as a Pragmatic Adjunct to SOFA Score in ICU Mortality Assessment",
@@ -8437,9 +8438,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07775911",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07775911"
       },
       {
         "title": "Discordance Between Capillary Refill Time and Oxygen Extraction Ratio in Septic Shock",
@@ -8583,9 +8582,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07771101",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07771101"
       },
       {
         "title": "Prospective Validation of AKI Prediction",
@@ -8597,9 +8594,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06804200",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06804200"
       },
       {
         "title": "A Study to Evaluate the Safety and Pharmacokinetics of AZD7760 in Healthy Japanese Adults",
@@ -8611,9 +8606,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07612813",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07612813"
       },
       {
         "title": "Comparative Study of Clinical Diagnoses and Autopsy Findings in Intensive Care",
@@ -8625,9 +8618,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07769801",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07769801"
       },
       {
         "title": "Validation of SOFA-2 for Mortality and Sepsis-3 Prevalence in Turkey",
@@ -8783,9 +8774,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to assess whether family participation in adult ICU rounds improves family satisfaction and patient outcomes. However, the study did not report any key numbers.",
         "ai_significance": "This study is significant because it addresses a need for evidence to support family participation in adult ICU rounds, which is currently limited by a lack of robust data.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Study on How the Immune System Responds to Sepsis and Its Long-term Effects",
@@ -8801,9 +8790,7 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis occurs when an infection disrupts the body's immune balance, potentially leading to life-threatening damage or failure of healthy organs. Survivors may experience long-term health problems. The immune response can become either too strong or too weak.",
         "ai_significance": "Understanding the immune system's response to sepsis is crucial for developing effective treatments and preventing long-term health consequences.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "A Trial of Staff Time With Proned Patients in the ICU Using the 'BathMat'",
@@ -8819,9 +8806,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the use of the 'BathMat' to assist with proning patients in the ICU, which involves lying patients on their front to improve oxygenation. The BathMat is a tool used to help reposition patients every 2-4 hours to prevent sores and injuries. The study aimed to assess the feasibility and effectiveness of using the BathMat in this context.",
         "ai_significance": "This study's findings can inform ICU staff on the practical use of the BathMat to improve patient care and prevent complications associated with prolonged proning.",
-        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using the 'BathMat' to assist with proning patients in the ICU to prevent sores and injuries."
       },
       {
         "title": "Machine Learning Prediction of Mortality After Prone Positioning in ARDS",
@@ -10567,6 +10552,64 @@
       "abbr": "Resp",
       "articles": [
         {
+          "pmid": "42878628",
+          "title": "Weaning Strategies for High-Flow Nasal Cannula in Critically Ill Adults: A Randomized Clinical Trial.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Oct 15",
+          "authors": [
+            "Kim T",
+            "Kwack WG",
+            "Park S",
+            "Jung S",
+            "Song MJ",
+            "Kim ES",
+            "Lim SY"
+          ],
+          "doi": "10.1097/CCM.0000000000007379",
+          "abstract": "OBJECTIVES: This study evaluated the efficacy of different high-flow nasal cannula (HFNC) weaning protocols in critically ill adults. DESIGN: This multicenter, randomized controlled trial was conducted from December 1, 2022, to August 31, 2024, based on the suggested protocol (SLOWH trial). Experts reviewed the trial between October 2, 2024, and April 15, 2025. SETTING: Randomization was performed by a research coordinator using a sequence of random numbers generated by an independent statistician blinded to both researchers and participants. PATIENTS: Adults (≥ 18 yr old) in the ICU who met the weaning criteria after receiving HFNC were included. Among 102 patients from three tertiary care hospitals, 15 were excluded. INTERVENTIONS: The remaining patients were randomized into three intervention groups: flow reduction (FR) first, Fio2 reduction (OR) first, or simultaneous reduction (SR). The primary outcome was the HFNC weaning success rate, defined as successful transition to conventional oxygen therapy without the need for HFNC reapplication, noninvasive ventilation, or endotracheal intubation within 24 hours. MEASUREMENTS AND MAIN RESULTS: A total of 87 adults completed the trial (FR, n = 31 [male, 52%]; OR, n = 26 [male, 77%]; SR, n = 30 [male, 53%]). The weaning success rates in the FR, OR, and SR groups were 94%, 81%, and 77%, respectively (p = 0.15). The median [interquartile range] weaning duration was 31.0 hours (29.0-45.8 hr), 29.5 hours (28.0-60.4 hr), and 29.5 hours (26.5-45.0 hr) in the FR, OR, and SR groups, respectively, with no statistically significant difference among groups (p = 0.87). CONCLUSIONS: In this randomized trial, no statistically significant differences were observed among the three HFNC weaning strategies in terms of weaning success or duration.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42878628/"
+        },
+        {
+          "pmid": "42878609",
+          "title": "Ventilatory Management in Neurocritical Versus Non-Neurocritical Care Patients: A Pooled Analysis From the PRIME Database.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Oct 15",
+          "authors": [
+            "Serafini SC",
+            "Cinotti R",
+            "Asehnoune K",
+            "Battaglini D",
+            "Ball L",
+            "Patroniti N",
+            "Neto AS",
+            "Pisani L",
+            "Mazzinari G",
+            "Tschernko EM",
+            "Schultz MJ",
+            "Robba C",
+            "PRactice of VENTilation in critically ill patients without ARDS (PRoVENT), PRactice of VENTilation in critically ill patients in Middle-income Countries (PRoVENT-iMiC), and Extubation strategies in Neuro-ICU patients and associations with Outcomes (ENIO) investigators"
+          ],
+          "doi": "10.1097/CCM.0000000000007385",
+          "abstract": "OBJECTIVES: To describe ventilatory management in neurocritical care and non-neurocritical care patients and determine whether specific ventilator settings are associated with development of acute respiratory distress syndrome (ARDS) and mortality in neurocritical care patients. The primary endpoint was a diagnosis of ARDS after initiation of invasive ventilation; one secondary endpoint was ICU mortality. DATA SOURCES: Post hoc pooled analysis of harmonized individual patient data from three recent prospective observational studies combined into the PRIME database. STUDY SELECTION: PRIME is a harmonized pooled database comprising individual patient data from three recent prospective observational studies on ventilatory management in critically ill patients: \"PRactice of VENTilation in critically ill patients without ARDS\" (PRoVENT), \"PRactice of VENTilation in critically ill patients in Middle-income Countries\" (PRoVENT-iMiC), and \"Extubation strategies in Neuro-ICU patients and associations with Outcomes\" (ENIO). We excluded patients with ARDS at the start of ventilation. DATA EXTRACTION: Demographic and clinical characteristics, ventilator settings, respiratory variables, arterial blood gas values, and clinical outcomes were extracted from the harmonized PRIME database. Derived ventilation parameters included tidal volume normalized to predicted body weight, driving pressure, respiratory system compliance, mechanical power, ventilatory ratio, and Pao2/Fio2 ratio. DATA SYNTHESIS: This analysis included 3848 patients, including 1702 neurocritical care and 1920 non-neurocritical care patients. Based on recorded ventilatory variables, neurocritical care patients received lower median tidal volumes (Vts), positive end-expiratory pressure, and Fio2. They had lower median driving pressure (ΔP), mechanical power (MP) of ventilation, and ventilatory ratio, as well as higher respiratory system compliance compared with non-neurocritical care patients. These differences were consistently observed at both assessed time points. ARDS was diagnosed more frequently in neurocritical care patients than in non-neurocritical care patients (8.7% vs. 3.9%; p < 0.001), while ICU mortality was lower (14.3% vs. 22.8%; p < 0.001). Among neurocritical care patients, those who developed ARDS were ventilated with lower median Vt and higher Fio2 and had higher median ΔP and MP. Vt normalized for predicted body weight in neurocritical care patients was independently associated with the development of ARDS. CONCLUSIONS: In this cohort, ventilatory management at the initial and 48-hour assessments differed between neurocritical care and non-neurocritical care patients, particularly with respect to key ventilator settings like Vt, positive end-expiratory pressure, and Fio2. In neurocritical care patients, ARDS was more often diagnosed than in non-neurocritical care patients.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42878609/"
+        },
+        {
           "pmid": "42872606",
           "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
           "journal": "JAMA",
@@ -10791,7 +10834,9 @@
           "pages": "CD009946",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13591558/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42765454/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42765454/",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42778957",
@@ -10817,6 +10862,34 @@
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
+        },
+        {
+          "pmid": "42902295",
+          "title": "Toward targeted assessment of inspiratory muscle weakness before extubation: a pooled individual patient data analysis from multiple observational cohorts in critically ill ventilated patients.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Sep 15",
+          "authors": [
+            "Medrinal C",
+            "Machefert M",
+            "Dubois C",
+            "Fossat G",
+            "Schnell G",
+            "Prieur G",
+            "Combret Y"
+          ],
+          "doi": "10.1186/s13054-026-06305-1",
+          "abstract": "BACKGROUND: Bedside neuromuscular tests are commonly proposed to assess readiness for extubation in critically ill patients. However, when used in unselected populations, their ability to predict clinically relevant outcomes such as extubation failure has been inconsistent. A more targeted use of these tests, restricted to patients in whom neuromuscular weakness is more likely to contribute to weaning failure, may improve their clinical relevance. METHODS: We conducted a pooled individual patient data analysis of multiple observational cohorts including adult ICU patients receiving invasive mechanical ventilation. The primary outcome was extubation failure, defined as reintubation or death within 48 h after extubation. Available neuromuscular assessments included maximal inspiratory pressure (MIP), maximal expiratory pressure (MEP), peak cough flow (PCF), and Medical Research Council (MRC) sum score. Prespecified thresholds were MIP ≤ 30 cmH₂O, MEP ≤ 50 cmH₂O, PCF ≤ 60 L/min, and MRC < 48/60. Associations with extubation failure were assessed in the overall population and according to prior mechanical ventilation duration. RESULTS: Among 494 included patients, 458 had an available extubation outcome and 72 (16%) experienced extubation failure. MIP was available in 230 patients, MEP in 124, PCF in 156, and MRC score in 252. In the overall population, MIP ≤ 30 cmH₂O showed only a borderline association with extubation failure (24% vs. 14%; OR 1.94, 95% CI 0.98 to 3.84; p = 0.06). In patients ventilated for more than 5 days, extubation failure occurred in 33% with MIP ≤ 30 cmH₂O versus 14% with MIP > 30 cmH₂O. After adjustment, MIP ≤ 30 cmH₂O remained associated with extubation failure (adjusted OR 3.52, 95% CI 1.37 to 9.03; p = 0.009). No significant adjusted association was observed for MEP, PCF, or MRC. CONCLUSIONS: Neuromuscular tests may have limited prognostic value when applied broadly before extubation. Low MIP appears more informative after prolonged mechanical ventilation, supporting a targeted rather than systematic use of respiratory neuromuscular assessment before extubation.",
+          "citation_count": 37,
+          "is_top_journal": true,
+          "study_type": "Observational Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13685169/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42902295/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42495753",
@@ -12078,6 +12151,34 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
         },
         {
+          "pmid": "42902295",
+          "title": "Toward targeted assessment of inspiratory muscle weakness before extubation: a pooled individual patient data analysis from multiple observational cohorts in critically ill ventilated patients.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Sep 15",
+          "authors": [
+            "Medrinal C",
+            "Machefert M",
+            "Dubois C",
+            "Fossat G",
+            "Schnell G",
+            "Prieur G",
+            "Combret Y"
+          ],
+          "doi": "10.1186/s13054-026-06305-1",
+          "abstract": "BACKGROUND: Bedside neuromuscular tests are commonly proposed to assess readiness for extubation in critically ill patients. However, when used in unselected populations, their ability to predict clinically relevant outcomes such as extubation failure has been inconsistent. A more targeted use of these tests, restricted to patients in whom neuromuscular weakness is more likely to contribute to weaning failure, may improve their clinical relevance. METHODS: We conducted a pooled individual patient data analysis of multiple observational cohorts including adult ICU patients receiving invasive mechanical ventilation. The primary outcome was extubation failure, defined as reintubation or death within 48 h after extubation. Available neuromuscular assessments included maximal inspiratory pressure (MIP), maximal expiratory pressure (MEP), peak cough flow (PCF), and Medical Research Council (MRC) sum score. Prespecified thresholds were MIP ≤ 30 cmH₂O, MEP ≤ 50 cmH₂O, PCF ≤ 60 L/min, and MRC < 48/60. Associations with extubation failure were assessed in the overall population and according to prior mechanical ventilation duration. RESULTS: Among 494 included patients, 458 had an available extubation outcome and 72 (16%) experienced extubation failure. MIP was available in 230 patients, MEP in 124, PCF in 156, and MRC score in 252. In the overall population, MIP ≤ 30 cmH₂O showed only a borderline association with extubation failure (24% vs. 14%; OR 1.94, 95% CI 0.98 to 3.84; p = 0.06). In patients ventilated for more than 5 days, extubation failure occurred in 33% with MIP ≤ 30 cmH₂O versus 14% with MIP > 30 cmH₂O. After adjustment, MIP ≤ 30 cmH₂O remained associated with extubation failure (adjusted OR 3.52, 95% CI 1.37 to 9.03; p = 0.009). No significant adjusted association was observed for MEP, PCF, or MRC. CONCLUSIONS: Neuromuscular tests may have limited prognostic value when applied broadly before extubation. Low MIP appears more informative after prolonged mechanical ventilation, supporting a targeted rather than systematic use of respiratory neuromuscular assessment before extubation.",
+          "citation_count": 37,
+          "is_top_journal": true,
+          "study_type": "Observational Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13685169/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42902295/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
+        },
+        {
           "pmid": "42658259",
           "title": "Balancing lung and brain: physiological strategies for ARDS management in acute brain injury.",
           "journal": "Intensive care medicine",
@@ -12132,7 +12233,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495211/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42629591/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42612901",
@@ -15387,7 +15490,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13495436/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42625192/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42584666",
@@ -18186,6 +18291,32 @@
       "label": "Procedures & POCUS",
       "abbr": "Procedures",
       "articles": [
+        {
+          "pmid": "42878628",
+          "title": "Weaning Strategies for High-Flow Nasal Cannula in Critically Ill Adults: A Randomized Clinical Trial.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Oct 15",
+          "authors": [
+            "Kim T",
+            "Kwack WG",
+            "Park S",
+            "Jung S",
+            "Song MJ",
+            "Kim ES",
+            "Lim SY"
+          ],
+          "doi": "10.1097/CCM.0000000000007379",
+          "abstract": "OBJECTIVES: This study evaluated the efficacy of different high-flow nasal cannula (HFNC) weaning protocols in critically ill adults. DESIGN: This multicenter, randomized controlled trial was conducted from December 1, 2022, to August 31, 2024, based on the suggested protocol (SLOWH trial). Experts reviewed the trial between October 2, 2024, and April 15, 2025. SETTING: Randomization was performed by a research coordinator using a sequence of random numbers generated by an independent statistician blinded to both researchers and participants. PATIENTS: Adults (≥ 18 yr old) in the ICU who met the weaning criteria after receiving HFNC were included. Among 102 patients from three tertiary care hospitals, 15 were excluded. INTERVENTIONS: The remaining patients were randomized into three intervention groups: flow reduction (FR) first, Fio2 reduction (OR) first, or simultaneous reduction (SR). The primary outcome was the HFNC weaning success rate, defined as successful transition to conventional oxygen therapy without the need for HFNC reapplication, noninvasive ventilation, or endotracheal intubation within 24 hours. MEASUREMENTS AND MAIN RESULTS: A total of 87 adults completed the trial (FR, n = 31 [male, 52%]; OR, n = 26 [male, 77%]; SR, n = 30 [male, 53%]). The weaning success rates in the FR, OR, and SR groups were 94%, 81%, and 77%, respectively (p = 0.15). The median [interquartile range] weaning duration was 31.0 hours (29.0-45.8 hr), 29.5 hours (28.0-60.4 hr), and 29.5 hours (26.5-45.0 hr) in the FR, OR, and SR groups, respectively, with no statistically significant difference among groups (p = 0.87). CONCLUSIONS: In this randomized trial, no statistically significant differences were observed among the three HFNC weaning strategies in terms of weaning success or duration.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42878628/"
+        },
         {
           "pmid": "42872606",
           "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
