@@ -6110,6 +6110,49 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/"
+      },
+      "42919451": {
+        "pmid": "42919451",
+        "title": "Brachial-to-Radial Pressure Gradient in Critically Ill Patients Treated With Vasoactive Agents: A Prospective Observational Study.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 23",
+        "authors": [
+          "Putowski Z",
+          "Gawda R",
+          "Czarnik T",
+          "Królicki T",
+          "Trzebicka J",
+          "Zawadka M",
+          "Steckiewicz KP",
+          "Owczuk R",
+          "Szczepańska A",
+          "Liberski P",
+          "Kluzik A",
+          "Kudliński B",
+          "Nowak P",
+          "Białka S",
+          "Węgrzyn K",
+          "Zatorski P",
+          "Janowska-Rodak A",
+          "Onichimowski D",
+          "Ziętkiewicz M",
+          "Sadowski Ł",
+          "Wójcik E",
+          "Kostrzewski M",
+          "Szczeklik W",
+          "Polish Perioperative and Critical Care Research Group (PERI-CRIT)"
+        ],
+        "doi": "10.1097/CCM.0000000000007391",
+        "abstract": "OBJECTIVES: To determine the incidence of a significant noninvasive brachial-to-radial arterial pressure gradient (NIBR-APG) and its clinical associations in critically ill patients receiving vasoactive agents. DESIGN: Prospective, multicenter, observational study. SETTING: Thirteen ICUs in Poland. PATIENTS: Adult ICU patients with radial arterial catheters receiving vasoactive agents hospitalized between April 2025 and July 2025. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Invasive radial mean arterial pressure (MAP) and noninvasive brachial MAP were measured twice and averaged. A NIBR-APG greater than 11 mm Hg was predefined as clinically significant. Baseline characteristics, hemodynamic variables, and outcomes were recorded. Among 303 patients, 49.5% were surgical admissions and 33.3% had septic shock. The median NIBR-APG was 4.5 mm Hg (interquartile range, 0.0-10.0 mm Hg). Fifty-six patients (18.4%) exhibited a NIBR-APG greater than 11 mm Hg. Compared with patients without a significant gradient, these patients received higher norepinephrine-equivalent doses (0.23 vs. 0.10 µg/kg/min), had higher Sequential Organ Failure Assessment scores (11 vs. 10), prolonged capillary refill time (3.0 vs. 2.5 s), and higher lactate concentrations (2.7 vs. 1.3 mmol/L). In multivariable analysis, only vasoactive drug dose was independently associated with NIBR-APG greater than 11 mm Hg (odds ratio, 1.68; 95% CI, 1.12-2.52). ICU mortality was higher in patients with significant gradients (48.0% vs. 30.1%). CONCLUSIONS: Nearly one in five critically ill patients receiving vasoactive agents demonstrated a clinically significant NIBR-APG. The presence of this gradient was independently associated with higher vasoactive drug requirements and was accompanied by greater illness severity and higher ICU mortality.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42919451/"
       }
     },
     "hematology-coag": {
@@ -7673,6 +7716,39 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13640326/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
+      },
+      "42919407": {
+        "pmid": "42919407",
+        "title": "Mucormycosis in critically ill patients: a 9-year multicenter cohort study of clinical features, management, and 90-day outcomes.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Jul 31",
+        "authors": [
+          "Bidar F",
+          "Maamcha S",
+          "Tirard-Collet P",
+          "Richard JC",
+          "Friggeri A",
+          "Fellahi JL",
+          "Jacquet-Lagrèze M",
+          "Aubrun F",
+          "Argaud L",
+          "Dailler F",
+          "Venet F",
+          "Valour F",
+          "Persat F",
+          "Rimmelé T"
+        ],
+        "doi": "10.1186/s13054-026-06227-y",
+        "abstract": "BACKGROUND: Mucormycosis is a rare but life-threatening invasive fungal infection that primarily affects immunocompromised patients. Data on its presentation, management, and prognosis in the intensive care unit setting remain scarce. We aimed to evaluate 90-day mortality and to explore clinical, microbiological, therapeutic, and immunological factors associated with outcome in critically ill patients with mucormycosis. METHODS: This retrospective multicenter cohort study included patients diagnosed with mucormycosis and admitted to the ICUs of the Hospices Civils de Lyon between January 2014 and July 2023. Patients were identified through mycological records and hospital discharge codes. Univariable analysis and multivariable Cox model were performed to identify factors associated with 90-day mortality. RESULTS: Among 43 patients included, hematological malignancy and trauma were the most common underlying conditions (26% each), followed by solid organ transplantation (21%), and burns (16%). Cutaneous forms (49%) predominated, especially among trauma and burn patients, while pulmonary and rhinocerebral forms were mostly observed in previously immunocompromised individuals. The number of mucormycosis diagnoses increased nearly threefold over the study period, paralleling the implementation of Mucorales-specific polymerase chain reaction. Antifungal therapy was initiated in 39 patients (91%); first-line treatment was liposomal amphotericin B in 32 (74%), at a median maximum dose of 7.5 [3.5-9.4] mg/kg/day, and 12 (28%) received a combination therapy. The 90-day mortality was 47%. In the multivariable Cox model, older age, hematological malignancy, and a higher Sequential Organ Failure Assessment score at diagnosis were independently associated with mortality, while lower liposomal amphotericin B dosing was associated with mortality in univariable analysis. In eight patients without previous immunosuppression and uncontrolled disease, immune monitoring was performed and revealed decreased monocyte HLA-DR expression at 4556 [4194-6936] Ab/c, in favor of injury-induced immunosuppression. Among them, six patients received interferon-gamma as immunotherapy; four responded immunologically and survived. CONCLUSIONS: Mucormycosis in critically ill patients is associated with high mortality, particularly in those with hematological malignancies. Polymerase chain reaction-based diagnostics may allow earlier detection, and immune monitoring could help identify high-risk patients, particularly in trauma and burn settings.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/"
       }
     },
     "procedures-pocus": {
@@ -8715,6 +8791,27 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42904879/"
+      },
+      "42911397": {
+        "pmid": "42911397",
+        "title": "Principles of drug dosing for obese patients in the intensive care unit.",
+        "journal": "Intensive care medicine",
+        "pubdate": "2026 Oct 22",
+        "authors": [
+          "Barletta JF",
+          "Erstad BL"
+        ],
+        "doi": "10.1007/s00134-026-08628-7",
+        "abstract": "PURPOSE: The increasing prevalence of severe obesity in intensive care unit (ICU) patients has led to several challenges with medication dosing. Doses listed in product labels or tertiary references typically do not account for the pharmacokinetic or pharmacodynamic variability encountered with obesity, leading to the potential for treatment failure or an adverse effect. The purpose of this review is to provide guidance for ICU clinicians when crafting pharmacotherapy regimens in critically ill patients with extreme obesity. METHODS: A literature search was performed to identify relevant articles pertaining to the pharmacokinetics or pharmacodynamics of medications in obese patients. Articles describing both general treatment principles and medication specific assessments were retrieved. Bibliographies were searched for additional publications. RESULTS: Evidence guiding medication use in critically ill obese patients is limited by the small number of patients with more extreme forms of obesity, the lack of clinical outcome measurements, and the few studies that are specific to the ICU. Obesity-related alterations in pharmacokinetic parameters, such as apparent volume of distribution and drug clearance, may hinder attainment of pharmacodynamic targets. Individualized dosing strategies are essential to optimize therapeutic outcomes. This review provides dosing recommendations for selected ICU medications and proposes a practical framework to guide medication dosing decisions in this patient population. CONCLUSION: Drug dosing in critically ill obese patients should be individualized by assessing pharmacokinetic variability and whether pharmacodynamic goals can be achieved. Selecting the correct weight for weight-based calculations or dose for fixed regimens is paramount for achieving these goals. Consultation with a clinical pharmacist may be beneficial.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42911397/"
       }
     }
   },
@@ -11119,6 +11216,58 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13682906/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42901492/",
       "society": "SCCM"
+    },
+    "42912115": {
+      "pmid": "42912115",
+      "title": "Nursing Activities Score in critically ill patients on invasive mechanical ventilation.",
+      "journal": "Revista brasileira de enfermagem",
+      "pubdate": "2026",
+      "authors": [
+        "Bianchi LM",
+        "Duarte TTDP",
+        "Ipolito MZ",
+        "Silva KGND",
+        "Santos WS",
+        "Magro MCDS"
+      ],
+      "doi": "10.1590/0034-7167-2025-0390",
+      "abstract": "OBJECTIVE: to assess the association between invasive mechanical ventilation duration, classified as prolonged and non-prolonged, and nursing workload in critically ill patients. METHOD: a prospective cohort study with adult patients on mechanical ventilation for up to 21 days or more. Nursing workload was measured using the Nursing Activities Score (NAS). Clinical data were collected using a structured questionnaire. A significance level of 5% was adopted. RESULTS: considering 61 patients, there was no significant difference in nursing workload between prolonged and non-prolonged mechanical ventilation according to NAS [111.2 (105.118) vs. 111.8 (107.119); p=0.880], nor was there an association between mechanical ventilation time and this score (AUC=0.512). Prolonged mechanical ventilation was associated with vasoactive drugs (96%; p=0.007) and greater severity of acute kidney injury (KDIGO=3.78%; p=0.009). CONCLUSION: mechanical ventilation duration was not associated with changes in nursing workload, which remained high regardless of the ventilatory support duration.",
+      "citation_count": 49,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "79",
+      "issue": "",
+      "pages": "e20250390",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13679590/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42912115/",
+      "society": "KDIGO"
+    },
+    "42908551": {
+      "pmid": "42908551",
+      "title": "Development and validation of an interpretable machine learning model for predicting early acute kidney injury and altered consciousness in cardiac surgery patients admitted to the intensive care unit: a retrospective study.",
+      "journal": "Frontiers in endocrinology",
+      "pubdate": "2026",
+      "authors": [
+        "Yang S",
+        "Luo J",
+        "Ma L",
+        "Huang D",
+        "Zhu M",
+        "Cai L"
+      ],
+      "doi": "10.3389/fendo.2026.1959304",
+      "abstract": "BACKGROUND: Acute kidney injury (AKI) and altered consciousness are common and serious complications following cardiac surgery, both associated with increased morbidity and mortality in the intensive care unit (ICU). Early prediction of these complications is essential for timely intervention. We aimed to develop and validate an interpretable machine learning model for predicting early AKI and altered consciousness risk in this population. METHODS: We retrospectively extracted data from the MIMIC-IV database. Adult patients who underwent cardiac surgery within 24 h before ICU admission were included. The primary outcome was early AKI defined by KDIGO criteria within 48 h after ICU admission. The secondary outcome was altered consciousness within 24 h after ICU admission, defined as a Glasgow Coma Scale (GCS) score ≤12. A comprehensive set of candidate variables was screened using four feature selection methods (LassoCV, mRMR, mutual information, and F-test) with a voting strategy. Eight machine learning models were developed and compared. SHapley Additive exPlanations (SHAP) values were used to interpret the best-performing model. External validation was performed using data from cardiac surgery patients at Wuxi No.2 People's Hospital between 1 January 2020 and 31 December 2025. RESULT: A total of 5,288 patients were included, with an AKI incidence of 76.2% (4,031/5,288) and an altered consciousness incidence of 22.8% (1,206/5,288). For the primary outcome of AKI, the XGBoost model achieved a training AUC of 0.787 (95% CI: 0.770-0.804) and an internal test AUC of 0.659 (95% CI: 0.629-0.688). For the secondary outcome of altered consciousness, the XGBoost model achieved an internal test AUC of 0.951 (95% CI: 0.936-0.963). Calibration curve and decision curve analysis confirmed good calibration and clinical utility for both models. SHAP analysis identified SpO2, age, APSIII score, creatinine, and white blood cell count as the top 5 most important predictors for AKI. External validation was performed in an independent cohort of 395 cardiac surgery ICU patients from Wuxi No.2 People's Hospital, in whom the incidence of AKI and altered consciousness was 28.1% and 67.3%, respectively. The models retained acceptable discrimination in this external cohort (AKI: AUC 0.764, 95% CI: 0.711-0.818; altered consciousness: AUC 0.679, 95% CI: 0.615-0.737). CONCLUSION: We developed interpretable XGBoost-based prediction models for both early AKI and altered consciousness risk in cardiac surgery patients admitted to the ICU. The models exhibited excellent discrimination, calibration, and clinical utility, which may facilitate early identification of high-risk patients and guide personalized interventions.",
+      "citation_count": 35,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "17",
+      "issue": "",
+      "pages": "1959304",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13682982/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42908551/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -16043,6 +16192,126 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT05979545"
+    },
+    "NCT06963944": {
+      "title": "Physiological Dead Space and Intensive Care Mortality in Mechanically Ventilated Patients",
+      "url": "https://clinicaltrials.gov/study/NCT06963944",
+      "source": "Karadeniz Technical University",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "This study investigates the relationship between physiological dead space and clinical outcomes, specifically mortality and discharge status, in adult patients receiving invasive mechanical ventilation in the intensive care unit (ICU). Physiological dead space refers to ventilated but non-perfused regions of the lungs and can be quantified using the Enghoff-modified Bohr equation based on capnographic and arterial CO₂ measurements. While volumetric capnography is a valuable tool in anesthesiolog",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06963944"
+    },
+    "NCT02804438": {
+      "title": "Establishing Normative Data for Pupillometer Assessments in Neuro-Intensive Care",
+      "url": "https://clinicaltrials.gov/study/NCT02804438",
+      "source": "University of Texas Southwestern Medical Center",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "The purpose of this study is to collect a large amount of data that may assist in addressing the gap in knowledge of understanding pupillometer readings using a pupillometer device. The aim of this project is to establish normative values for pupillometer data. Measures of central tendency will be developed for the variables provided by automated pupillary exams, which will provide an enhanced understanding of clinically appropriate pupil values for size, reactivity, and neurological pupil index",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT02804438"
+    },
+    "NCT06996626": {
+      "title": "Real-time NOMA Evaluation",
+      "url": "https://clinicaltrials.gov/study/NCT06996626",
+      "source": "David T Huang",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "Alerts related to outlier clinician behavior are generated in real-time by an intelligent system continuously scraping EHR (electronic health record) data. These alerts are passed to the bedside and their potential impact on bedside clinical behavior is evaluated.",
+      "study_type": "Clinical Trial (Active Not Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06996626"
+    },
+    "NCT07892950": {
+      "title": "Clinical Trial of CG-BM1 Allogeneic Human Bone Marrow Mesenchymal Stem Cell Injection in the Treatment of Acute Respiratory Distress Syndrome",
+      "url": "https://clinicaltrials.gov/study/NCT07892950",
+      "source": "GuangZhou Cellgenes Biotechnology Co., Ltd.",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "1. To evaluate the safety and tolerability of CG-BM1 for the treatment of patients with Acute Respiratory Distress Syndrome. 2. To observe the preliminary effectiveness of CG-BM1 in treating Acute Respiratory Distress Syndrome patients.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07892950"
+    },
+    "NCT07892521": {
+      "title": "Pulmonary-Specific Enteral Nutrition in Mechanically Ventilated Patients With Pneumonia",
+      "url": "https://clinicaltrials.gov/study/NCT07892521",
+      "source": "Universitas Indonesia",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "Pneumonia is a major cause of critical illness and respiratory failure, particularly among patients requiring invasive mechanical ventilation. These patients frequently experience systemic inflammation and metabolic disturbances, which can be assessed using the neutrophil-to-lymphocyte ratio (NLR) and blood lactate levels. Pulmonary-specific enteral nutrition, characterized by a lower carbohydrate and higher fat composition, may help improve respiratory metabolism and modulate inflammatory respo",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07892521"
+    },
+    "NCT04163536": {
+      "title": "Comparison of Corticosteroids vs Placebo on Duration of Ventilatory Support During Severe Acute Exacerbations of COPD Patients in the ICU",
+      "url": "https://clinicaltrials.gov/study/NCT04163536",
+      "source": "Versailles Hospital",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "The main objective of this study is to determine if the systemic (intravenous) administration of corticosteroids, as compared to placebo, increases the number of ventilator-free days (VFD) and alive at day 28 in COPD patients admitted to an ICU, a step-up unit or a respiratory care unit for an acute on chronic respiratory failure (ACRF) requiring ventilatory support, either invasive or non-invasive.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04163536"
+    },
+    "NCT07472985": {
+      "title": "Protocol for Rapid Onset of Mobilization in Patients With Traumatic Spinal Cord Injury II (PROMPT-SCI II) Trial",
+      "url": "https://clinicaltrials.gov/study/NCT07472985",
+      "source": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "Spinal cord injuries (SCI) are among the most catastrophic survivable events experienced by human beings. Affected individuals remain with lifelong neurological impairment involving motor, sensory, bladder and bowel functions, which in turn impacts quality of life and independence. Currently, patients have no access to exercise therapy for weeks to months after the injury because clinicians remain fearful that early initiation of exercise therapy may be harmful to patients, and could lead to neu",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07472985"
+    },
+    "NCT07892794": {
+      "title": "Effects of Lumbrokinase DLBS1033 on D-Dimer, Interleukin-6, and Clinical Outcomes in Patients With Pneumonia and Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT07892794",
+      "source": "Universitas Sebelas Maret",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "Pneumonia is a lung infection that can cause serious complications, especially when accompanied by sepsis. Sepsis can trigger excessive inflammation and abnormal blood clotting, potentially leading to organ damage and delayed recovery. Two blood markers, D-dimer and interleukin-6 (IL-6), may increase in patients with these conditions. Lumbrokinase DLBS1033 (Disolf®) is an oral treatment derived from the earthworm Lumbricus rubellus. It has properties that may help break down fibrin, a protein in",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07892794"
+    },
+    "NCT03653832": {
+      "title": "Alpha 2 Agonists for Sedation to Produce Better Outcomes From Critical Illness (A2B Trial)",
+      "url": "https://clinicaltrials.gov/study/NCT03653832",
+      "source": "University of Edinburgh",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "Many patients in intensive care (ICU) need help to breathe on a breathing machine and need pain killers and sedatives to keep them comfortable and pain free. However, keeping patients too deeply sedated can make their ICU stay longer, can cause ICU confusion (delirium) and afterwards may cause distressing memories. Ideally patients should be kept less sedated, but it is difficult to get the balance of sedation and comfort right. The investigators want to know whether starting an alpha2-agonist d",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT03653832"
+    },
+    "NCT07649876": {
+      "title": "Virtual Reality to Reduce Anxiety, Agitation and Delirium in Critically Ill Patients",
+      "url": "https://clinicaltrials.gov/study/NCT07649876",
+      "source": "Milton S. Hershey Medical Center",
+      "author": "",
+      "pubdate": "2026-10-23",
+      "summary": "This is a pilot feasibility study examining the use of immersive virtual reality (VR) in adult intensive care unit (ICU) patients. The study evaluates whether brief, non-interactive VR sessions delivered using a commercially available standalone head-mounted display with calming, nature-based content can be delivered safely and effectively within routine SICU workflow. Exploratory objectives assess whether VR sessions are associated with changes in anxiety, agitation, delirium, pain, and sedativ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07649876"
     }
   },
   "bottom_line": {
@@ -16184,6 +16453,28 @@
       "source": "The Bottom Line",
       "author": "Rebecca Howes",
       "pubdate": "2026-09-15",
+      "summary": "What’s new in the Critical Care literature – monthly updates",
+      "study_type": "EBM Summary",
+      "is_open_access": true,
+      "is_bottom_line": true
+    },
+    "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-september-2026/": {
+      "title": "Critical Care Evidence Updates – September 2026",
+      "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-september-2026/",
+      "source": "The Bottom Line",
+      "author": "Rebecca Howes",
+      "pubdate": "2026-10-23",
+      "summary": "What’s new in the Critical Care literature – monthly updates",
+      "study_type": "EBM Summary",
+      "is_open_access": true,
+      "is_bottom_line": true
+    },
+    "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-september-2026/": {
+      "title": "Emergency Evidence Updates – September 2026",
+      "url": "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-september-2026/",
+      "source": "The Bottom Line",
+      "author": "Rebecca Howes",
+      "pubdate": "2026-10-23",
       "summary": "What’s new in the Critical Care literature – monthly updates",
       "study_type": "EBM Summary",
       "is_open_access": true,
@@ -17578,6 +17869,38 @@
       "is_open_access": true,
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13680149/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42903103/"
+    },
+    "42855082": {
+      "pmid": "42855082",
+      "title": "Barriers to early rehabilitation and mobilization in adult ICUs: A multicenter survey in the Eastern region of Saudi Arabia.",
+      "journal": "Respiratory medicine",
+      "pubdate": "2026 Nov",
+      "authors": [
+        "Al Humoud SY",
+        "Alasmi NK",
+        "Alquaimi MM",
+        "Almojaibel AA",
+        "Alhassan FN",
+        "Aljouf MM",
+        "Alsubaiei MS",
+        "Alghamdi RA",
+        "Raza S",
+        "Alzahrani YH",
+        "Alsomali H",
+        "Al Asmri MA",
+        "Alnoaimi N"
+      ],
+      "doi": "10.1016/j.rmed.2026.109210",
+      "abstract": "INTRODUCTION: Prolonged Intensive Care Unit (ICU) immobilization leads to complications such as ICU Acquired Weakness (ICU-AW). While Early Rehabilitation and Mobilization (ERM) is proven to improve functional independence and reduce mechanical ventilation (MV) duration, its implementation remains inconsistent. This study aimed to identify barriers to ERM as perceived by adult ICU healthcare practitioners in the Eastern region of Saudi Arabia. METHODS: A multicenter, cross-sectional survey using a 21-question adapted self-administered questionnaire was conducted between January and April 2023 through QuestionPro platform. The survey was distributed to critical care practitioners including physicians, nurses, respiratory therapists, physiotherapists, and other allied health staff. Respondents represented three hospital categories in the Eastern region: private, Eastern Health Cluster, and other governmental sector hospitals. Barriers were assessed a priori at three levels: patient, provider, and institutional. Internal consistency of the patient-level barrier scale was assessed using Cronbach's alpha. Chi-square and Fisher-Freeman-Halton exact tests compared ERM protocol availability between hospital sectors and knowledge, practice, and resource variables across professional groups. RESULTS: Of 137 practitioners who accessed the survey, 121of 137 who accessed the link completed the questionnaire (88%completion rate). Although 66 (55%) rated ERM as very important, only 48 (40%) reported always participating in or observing it in practice. The most frequently endorsed ideal initiation time was within 24 h of admission (38, 31%), whereas the most commonly reported actual initiation point was when patients were conscious and able to cooperate (28, 23%); only 10 (8%) reported initiation within 24 h. Patient-level barriers were mainly sedation and physiological instability. Provider-level barriers included safety concerns, limited staffing, and inadequate training. At the institutional level, only 57 (47%) respondents reported the presence of a formal ERM protocol, with a significant difference between private hospitals (36/54, 67%) and government hospitals (21/67, 31%) (χ2 = 13.59 df = 1, p < 0.001; OR 4.38, 95% CI 2.04-9.42). Protocol availability, ERM participation, and physiotherapy access also differed significantly across professional groups, with respiratory therapists consistently reporting the lowest access p = 0.013; p < 0.001; p = 0.038; p < 0.001. CONCLUSION: Despite high awareness of its benefits, ERM implementation across adult ICUs in the Eastern region remains suboptimal relative to the 72-h initiation window recommended by current consensus guidance and is delivered reactively rather than proactively. Barriers operate at patient, provider, and institutional levels, and both formal ERM protocol availability and profession-based access to ERM structures differ significantly, with respiratory therapists the most excluded despite managing the highest-risk patients. These findings identify protocol availability and interdisciplinary delivery structures as the principal targets for regional implementation efforts.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Multicenter Study",
+      "volume": "263",
+      "issue": "",
+      "pages": "109210",
+      "is_open_access": false,
+      "pmc_url": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42855082/"
     }
   }
 }

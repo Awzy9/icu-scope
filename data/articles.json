@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T08:04:45+00:00",
+  "generated_at": "2026-10-24T07:43:38+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -395,7 +395,9 @@
         "pubdate": "2026-09-22",
         "summary": "SCCM recently published updated guidelines on neuromuscular blockade in ARDS. The authors present five recommendations, the first being the most potentially influential on practice. “Paralyze patients with ARDS when their P/F ratio drops below 150 and they are persistently hypoxemic or fighting the ventilator.”[1] The panel based this recommendation on a 2020 systematic review by […] EMCrit Projec",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "EMCrit 434 – Temporary Hemodialysis (HD) Catheters",
@@ -515,7 +517,9 @@
         "pubdate": "2026-08-23",
         "summary": "I dive deep into member-submitted airway nightmares, breaking down how to manage petrified \"airway concrete\" and high-risk hypoxemia. Learn how to apply the CHOP criteria, avoid physiological arrest during induction in cardiogenic shock, and handle extreme metabolic acidosis. EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Case of the Neutral Documents Part 2",
@@ -836,6 +840,28 @@
   "bottom_line": {
     "window_days": 60,
     "articles": [
+      {
+        "title": "Critical Care Evidence Updates – September 2026",
+        "url": "https://www.thebottomline.org.uk/blog/critical-care-evidence-updates-september-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-10-23",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true
+      },
+      {
+        "title": "Emergency Evidence Updates – September 2026",
+        "url": "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-september-2026/",
+        "source": "The Bottom Line",
+        "author": "Rebecca Howes",
+        "pubdate": "2026-10-23",
+        "summary": "What’s new in the Critical Care literature – monthly updates",
+        "study_type": "EBM Summary",
+        "is_open_access": true,
+        "is_bottom_line": true
+      },
       {
         "title": "Emergency Evidence Updates – August 2026",
         "url": "https://www.thebottomline.org.uk/blog/emergency-evidence-updates-august-2026/",
@@ -3053,6 +3079,62 @@
         "society": "IDSA"
       },
       {
+        "pmid": "42912115",
+        "title": "Nursing Activities Score in critically ill patients on invasive mechanical ventilation.",
+        "journal": "Revista brasileira de enfermagem",
+        "pubdate": "2026",
+        "authors": [
+          "Bianchi LM",
+          "Duarte TTDP",
+          "Ipolito MZ",
+          "Silva KGND",
+          "Santos WS",
+          "Magro MCDS"
+        ],
+        "doi": "10.1590/0034-7167-2025-0390",
+        "abstract": "OBJECTIVE: to assess the association between invasive mechanical ventilation duration, classified as prolonged and non-prolonged, and nursing workload in critically ill patients. METHOD: a prospective cohort study with adult patients on mechanical ventilation for up to 21 days or more. Nursing workload was measured using the Nursing Activities Score (NAS). Clinical data were collected using a structured questionnaire. A significance level of 5% was adopted. RESULTS: considering 61 patients, there was no significant difference in nursing workload between prolonged and non-prolonged mechanical ventilation according to NAS [111.2 (105.118) vs. 111.8 (107.119); p=0.880], nor was there an association between mechanical ventilation time and this score (AUC=0.512). Prolonged mechanical ventilation was associated with vasoactive drugs (96%; p=0.007) and greater severity of acute kidney injury (KDIGO=3.78%; p=0.009). CONCLUSION: mechanical ventilation duration was not associated with changes in nursing workload, which remained high regardless of the ventilatory support duration.",
+        "citation_count": 49,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "79",
+        "issue": "",
+        "pages": "e20250390",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13679590/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42912115/",
+        "society": "KDIGO",
+        "link_broken": true,
+        "link_broken_kind": "doi"
+      },
+      {
+        "pmid": "42908551",
+        "title": "Development and validation of an interpretable machine learning model for predicting early acute kidney injury and altered consciousness in cardiac surgery patients admitted to the intensive care unit: a retrospective study.",
+        "journal": "Frontiers in endocrinology",
+        "pubdate": "2026",
+        "authors": [
+          "Yang S",
+          "Luo J",
+          "Ma L",
+          "Huang D",
+          "Zhu M",
+          "Cai L"
+        ],
+        "doi": "10.3389/fendo.2026.1959304",
+        "abstract": "BACKGROUND: Acute kidney injury (AKI) and altered consciousness are common and serious complications following cardiac surgery, both associated with increased morbidity and mortality in the intensive care unit (ICU). Early prediction of these complications is essential for timely intervention. We aimed to develop and validate an interpretable machine learning model for predicting early AKI and altered consciousness risk in this population. METHODS: We retrospectively extracted data from the MIMIC-IV database. Adult patients who underwent cardiac surgery within 24 h before ICU admission were included. The primary outcome was early AKI defined by KDIGO criteria within 48 h after ICU admission. The secondary outcome was altered consciousness within 24 h after ICU admission, defined as a Glasgow Coma Scale (GCS) score ≤12. A comprehensive set of candidate variables was screened using four feature selection methods (LassoCV, mRMR, mutual information, and F-test) with a voting strategy. Eight machine learning models were developed and compared. SHapley Additive exPlanations (SHAP) values were used to interpret the best-performing model. External validation was performed using data from cardiac surgery patients at Wuxi No.2 People's Hospital between 1 January 2020 and 31 December 2025. RESULT: A total of 5,288 patients were included, with an AKI incidence of 76.2% (4,031/5,288) and an altered consciousness incidence of 22.8% (1,206/5,288). For the primary outcome of AKI, the XGBoost model achieved a training AUC of 0.787 (95% CI: 0.770-0.804) and an internal test AUC of 0.659 (95% CI: 0.629-0.688). For the secondary outcome of altered consciousness, the XGBoost model achieved an internal test AUC of 0.951 (95% CI: 0.936-0.963). Calibration curve and decision curve analysis confirmed good calibration and clinical utility for both models. SHAP analysis identified SpO2, age, APSIII score, creatinine, and white blood cell count as the top 5 most important predictors for AKI. External validation was performed in an independent cohort of 395 cardiac surgery ICU patients from Wuxi No.2 People's Hospital, in whom the incidence of AKI and altered consciousness was 28.1% and 67.3%, respectively. The models retained acceptable discrimination in this external cohort (AKI: AUC 0.764, 95% CI: 0.711-0.818; altered consciousness: AUC 0.679, 95% CI: 0.615-0.737). CONCLUSION: We developed interpretable XGBoost-based prediction models for both early AKI and altered consciousness risk in cardiac surgery patients admitted to the ICU. The models exhibited excellent discrimination, calibration, and clinical utility, which may facilitate early identification of high-risk patients and guide personalized interventions.",
+        "citation_count": 35,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "17",
+        "issue": "",
+        "pages": "1959304",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13682982/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42908551/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42415882",
         "title": "Practice Pattern of Critical Care UltraSonography in India (POCUS India): A Multicenter Cross-sectional Survey.",
         "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
@@ -3112,6 +3194,38 @@
   "ksa": {
     "window_days": 365,
     "articles": [
+      {
+        "pmid": "42855082",
+        "title": "Barriers to early rehabilitation and mobilization in adult ICUs: A multicenter survey in the Eastern region of Saudi Arabia.",
+        "journal": "Respiratory medicine",
+        "pubdate": "2026 Nov",
+        "authors": [
+          "Al Humoud SY",
+          "Alasmi NK",
+          "Alquaimi MM",
+          "Almojaibel AA",
+          "Alhassan FN",
+          "Aljouf MM",
+          "Alsubaiei MS",
+          "Alghamdi RA",
+          "Raza S",
+          "Alzahrani YH",
+          "Alsomali H",
+          "Al Asmri MA",
+          "Alnoaimi N"
+        ],
+        "doi": "10.1016/j.rmed.2026.109210",
+        "abstract": "INTRODUCTION: Prolonged Intensive Care Unit (ICU) immobilization leads to complications such as ICU Acquired Weakness (ICU-AW). While Early Rehabilitation and Mobilization (ERM) is proven to improve functional independence and reduce mechanical ventilation (MV) duration, its implementation remains inconsistent. This study aimed to identify barriers to ERM as perceived by adult ICU healthcare practitioners in the Eastern region of Saudi Arabia. METHODS: A multicenter, cross-sectional survey using a 21-question adapted self-administered questionnaire was conducted between January and April 2023 through QuestionPro platform. The survey was distributed to critical care practitioners including physicians, nurses, respiratory therapists, physiotherapists, and other allied health staff. Respondents represented three hospital categories in the Eastern region: private, Eastern Health Cluster, and other governmental sector hospitals. Barriers were assessed a priori at three levels: patient, provider, and institutional. Internal consistency of the patient-level barrier scale was assessed using Cronbach's alpha. Chi-square and Fisher-Freeman-Halton exact tests compared ERM protocol availability between hospital sectors and knowledge, practice, and resource variables across professional groups. RESULTS: Of 137 practitioners who accessed the survey, 121of 137 who accessed the link completed the questionnaire (88%completion rate). Although 66 (55%) rated ERM as very important, only 48 (40%) reported always participating in or observing it in practice. The most frequently endorsed ideal initiation time was within 24 h of admission (38, 31%), whereas the most commonly reported actual initiation point was when patients were conscious and able to cooperate (28, 23%); only 10 (8%) reported initiation within 24 h. Patient-level barriers were mainly sedation and physiological instability. Provider-level barriers included safety concerns, limited staffing, and inadequate training. At the institutional level, only 57 (47%) respondents reported the presence of a formal ERM protocol, with a significant difference between private hospitals (36/54, 67%) and government hospitals (21/67, 31%) (χ2 = 13.59 df = 1, p < 0.001; OR 4.38, 95% CI 2.04-9.42). Protocol availability, ERM participation, and physiotherapy access also differed significantly across professional groups, with respiratory therapists consistently reporting the lowest access p = 0.013; p < 0.001; p = 0.038; p < 0.001. CONCLUSION: Despite high awareness of its benefits, ERM implementation across adult ICUs in the Eastern region remains suboptimal relative to the 72-h initiation window recommended by current consensus guidance and is delivered reactively rather than proactively. Barriers operate at patient, provider, and institutional levels, and both formal ERM protocol availability and profession-based access to ERM structures differ significantly, with respiratory therapists the most excluded despite managing the highest-risk patients. These findings identify protocol availability and interdisciplinary delivery structures as the principal targets for regional implementation efforts.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Multicenter Study",
+        "volume": "263",
+        "issue": "",
+        "pages": "109210",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42855082/"
+      },
       {
         "pmid": "42862327",
         "title": "Association of 24-hours net positive fluid balance with log-transformed vancomycin trough concentrations in the early phase of therapy among critically ill patients.",
@@ -4634,6 +4748,90 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42919451",
+        "title": "Brachial-to-Radial Pressure Gradient in Critically Ill Patients Treated With Vasoactive Agents: A Prospective Observational Study.",
+        "journal": "Critical care medicine",
+        "pubdate": "2026 Oct 23",
+        "authors": [
+          "Putowski Z",
+          "Gawda R",
+          "Czarnik T",
+          "Królicki T",
+          "Trzebicka J",
+          "Zawadka M",
+          "Steckiewicz KP",
+          "Owczuk R",
+          "Szczepańska A",
+          "Liberski P",
+          "Kluzik A",
+          "Kudliński B",
+          "Nowak P",
+          "Białka S",
+          "Węgrzyn K",
+          "Zatorski P",
+          "Janowska-Rodak A",
+          "Onichimowski D",
+          "Ziętkiewicz M",
+          "Sadowski Ł",
+          "Wójcik E",
+          "Kostrzewski M",
+          "Szczeklik W",
+          "Polish Perioperative and Critical Care Research Group (PERI-CRIT)"
+        ],
+        "doi": "10.1097/CCM.0000000000007391",
+        "abstract": "OBJECTIVES: To determine the incidence of a significant noninvasive brachial-to-radial arterial pressure gradient (NIBR-APG) and its clinical associations in critically ill patients receiving vasoactive agents. DESIGN: Prospective, multicenter, observational study. SETTING: Thirteen ICUs in Poland. PATIENTS: Adult ICU patients with radial arterial catheters receiving vasoactive agents hospitalized between April 2025 and July 2025. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Invasive radial mean arterial pressure (MAP) and noninvasive brachial MAP were measured twice and averaged. A NIBR-APG greater than 11 mm Hg was predefined as clinically significant. Baseline characteristics, hemodynamic variables, and outcomes were recorded. Among 303 patients, 49.5% were surgical admissions and 33.3% had septic shock. The median NIBR-APG was 4.5 mm Hg (interquartile range, 0.0-10.0 mm Hg). Fifty-six patients (18.4%) exhibited a NIBR-APG greater than 11 mm Hg. Compared with patients without a significant gradient, these patients received higher norepinephrine-equivalent doses (0.23 vs. 0.10 µg/kg/min), had higher Sequential Organ Failure Assessment scores (11 vs. 10), prolonged capillary refill time (3.0 vs. 2.5 s), and higher lactate concentrations (2.7 vs. 1.3 mmol/L). In multivariable analysis, only vasoactive drug dose was independently associated with NIBR-APG greater than 11 mm Hg (odds ratio, 1.68; 95% CI, 1.12-2.52). ICU mortality was higher in patients with significant gradients (48.0% vs. 30.1%). CONCLUSIONS: Nearly one in five critically ill patients receiving vasoactive agents demonstrated a clinically significant NIBR-APG. The presence of this gradient was independently associated with higher vasoactive drug requirements and was accompanied by greater illness severity and higher ICU mortality.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42919451/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "infectious-sepsis",
+        "category_label": "Infectious Disease & Sepsis",
+        "category_ids": [
+          "infectious-sepsis"
+        ],
+        "category_labels": [
+          "Infectious Disease & Sepsis"
+        ]
+      },
+      {
+        "pmid": "42911397",
+        "title": "Principles of drug dosing for obese patients in the intensive care unit.",
+        "journal": "Intensive care medicine",
+        "pubdate": "2026 Oct 22",
+        "authors": [
+          "Barletta JF",
+          "Erstad BL"
+        ],
+        "doi": "10.1007/s00134-026-08628-7",
+        "abstract": "PURPOSE: The increasing prevalence of severe obesity in intensive care unit (ICU) patients has led to several challenges with medication dosing. Doses listed in product labels or tertiary references typically do not account for the pharmacokinetic or pharmacodynamic variability encountered with obesity, leading to the potential for treatment failure or an adverse effect. The purpose of this review is to provide guidance for ICU clinicians when crafting pharmacotherapy regimens in critically ill patients with extreme obesity. METHODS: A literature search was performed to identify relevant articles pertaining to the pharmacokinetics or pharmacodynamics of medications in obese patients. Articles describing both general treatment principles and medication specific assessments were retrieved. Bibliographies were searched for additional publications. RESULTS: Evidence guiding medication use in critically ill obese patients is limited by the small number of patients with more extreme forms of obesity, the lack of clinical outcome measurements, and the few studies that are specific to the ICU. Obesity-related alterations in pharmacokinetic parameters, such as apparent volume of distribution and drug clearance, may hinder attainment of pharmacodynamic targets. Individualized dosing strategies are essential to optimize therapeutic outcomes. This review provides dosing recommendations for selected ICU medications and proposes a practical framework to guide medication dosing decisions in this patient population. CONCLUSION: Drug dosing in critically ill obese patients should be individualized by assessing pharmacokinetic variability and whether pharmacodynamic goals can be achieved. Selecting the correct weight for weight-based calculations or dose for fixed regimens is paramount for achieving these goals. Consultation with a clinical pharmacist may be beneficial.",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42911397/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "pharmacology",
+        "category_label": "Pharmacology",
+        "category_ids": [
+          "pharmacology"
+        ],
+        "category_labels": [
+          "Pharmacology"
+        ]
+      },
+      {
         "pmid": "42904879",
         "title": "Music Therapy During Weaning From Invasive Mechanical Ventilation in the ICU: A Randomized Controlled Trial.",
         "journal": "Critical care medicine",
@@ -4663,8 +4861,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42904879/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "respiratory",
         "category_label": "Respiratory",
         "category_ids": [
@@ -4738,7 +4934,9 @@
         "summary": "Background/ObjectivesEarly lactate is widely used to risk-stratify septic shock, yet clinically actionable cut-offs for 28-day mortality remain uncertain. MethodsIn a single-centre study conducted across two intensive care units, we analysed 84 adults with septic shock identified within 24 hours of intensive care unit admission. The primary endpoint was 28-day mortality. Four lactate metrics obtained during the first 24 hours were evaluated: first (admission) lactate, last lactate, peak lactate,",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true
+        "is_preprint": true,
+        "link_broken": true,
+        "link_broken_kind": "url"
       },
       {
         "title": "Optical compression of multimodal clinical data into a unified visual memory for generative trajectory forecasting",
@@ -4835,6 +5033,146 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Physiological Dead Space and Intensive Care Mortality in Mechanically Ventilated Patients",
+        "url": "https://clinicaltrials.gov/study/NCT06963944",
+        "source": "Karadeniz Technical University",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "This study investigates the relationship between physiological dead space and clinical outcomes, specifically mortality and discharge status, in adult patients receiving invasive mechanical ventilation in the intensive care unit (ICU). Physiological dead space refers to ventilated but non-perfused regions of the lungs and can be quantified using the Enghoff-modified Bohr equation based on capnographic and arterial CO₂ measurements. While volumetric capnography is a valuable tool in anesthesiolog",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06963944",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Establishing Normative Data for Pupillometer Assessments in Neuro-Intensive Care",
+        "url": "https://clinicaltrials.gov/study/NCT02804438",
+        "source": "University of Texas Southwestern Medical Center",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "The purpose of this study is to collect a large amount of data that may assist in addressing the gap in knowledge of understanding pupillometer readings using a pupillometer device. The aim of this project is to establish normative values for pupillometer data. Measures of central tendency will be developed for the variables provided by automated pupillary exams, which will provide an enhanced understanding of clinically appropriate pupil values for size, reactivity, and neurological pupil index",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT02804438",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Real-time NOMA Evaluation",
+        "url": "https://clinicaltrials.gov/study/NCT06996626",
+        "source": "David T Huang",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "Alerts related to outlier clinician behavior are generated in real-time by an intelligent system continuously scraping EHR (electronic health record) data. These alerts are passed to the bedside and their potential impact on bedside clinical behavior is evaluated.",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06996626",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Clinical Trial of CG-BM1 Allogeneic Human Bone Marrow Mesenchymal Stem Cell Injection in the Treatment of Acute Respiratory Distress Syndrome",
+        "url": "https://clinicaltrials.gov/study/NCT07892950",
+        "source": "GuangZhou Cellgenes Biotechnology Co., Ltd.",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "1. To evaluate the safety and tolerability of CG-BM1 for the treatment of patients with Acute Respiratory Distress Syndrome. 2. To observe the preliminary effectiveness of CG-BM1 in treating Acute Respiratory Distress Syndrome patients.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07892950",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Pulmonary-Specific Enteral Nutrition in Mechanically Ventilated Patients With Pneumonia",
+        "url": "https://clinicaltrials.gov/study/NCT07892521",
+        "source": "Universitas Indonesia",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "Pneumonia is a major cause of critical illness and respiratory failure, particularly among patients requiring invasive mechanical ventilation. These patients frequently experience systemic inflammation and metabolic disturbances, which can be assessed using the neutrophil-to-lymphocyte ratio (NLR) and blood lactate levels. Pulmonary-specific enteral nutrition, characterized by a lower carbohydrate and higher fat composition, may help improve respiratory metabolism and modulate inflammatory respo",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07892521",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Comparison of Corticosteroids vs Placebo on Duration of Ventilatory Support During Severe Acute Exacerbations of COPD Patients in the ICU",
+        "url": "https://clinicaltrials.gov/study/NCT04163536",
+        "source": "Versailles Hospital",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "The main objective of this study is to determine if the systemic (intravenous) administration of corticosteroids, as compared to placebo, increases the number of ventilator-free days (VFD) and alive at day 28 in COPD patients admitted to an ICU, a step-up unit or a respiratory care unit for an acute on chronic respiratory failure (ACRF) requiring ventilatory support, either invasive or non-invasive.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04163536",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Protocol for Rapid Onset of Mobilization in Patients With Traumatic Spinal Cord Injury II (PROMPT-SCI II) Trial",
+        "url": "https://clinicaltrials.gov/study/NCT07472985",
+        "source": "Centre Integre Universitaire de Sante et Services Sociaux du Nord de l'ile de Montreal",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "Spinal cord injuries (SCI) are among the most catastrophic survivable events experienced by human beings. Affected individuals remain with lifelong neurological impairment involving motor, sensory, bladder and bowel functions, which in turn impacts quality of life and independence. Currently, patients have no access to exercise therapy for weeks to months after the injury because clinicians remain fearful that early initiation of exercise therapy may be harmful to patients, and could lead to neu",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07472985",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Effects of Lumbrokinase DLBS1033 on D-Dimer, Interleukin-6, and Clinical Outcomes in Patients With Pneumonia and Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT07892794",
+        "source": "Universitas Sebelas Maret",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "Pneumonia is a lung infection that can cause serious complications, especially when accompanied by sepsis. Sepsis can trigger excessive inflammation and abnormal blood clotting, potentially leading to organ damage and delayed recovery. Two blood markers, D-dimer and interleukin-6 (IL-6), may increase in patients with these conditions. Lumbrokinase DLBS1033 (Disolf®) is an oral treatment derived from the earthworm Lumbricus rubellus. It has properties that may help break down fibrin, a protein in",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07892794",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Alpha 2 Agonists for Sedation to Produce Better Outcomes From Critical Illness (A2B Trial)",
+        "url": "https://clinicaltrials.gov/study/NCT03653832",
+        "source": "University of Edinburgh",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "Many patients in intensive care (ICU) need help to breathe on a breathing machine and need pain killers and sedatives to keep them comfortable and pain free. However, keeping patients too deeply sedated can make their ICU stay longer, can cause ICU confusion (delirium) and afterwards may cause distressing memories. Ideally patients should be kept less sedated, but it is difficult to get the balance of sedation and comfort right. The investigators want to know whether starting an alpha2-agonist d",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT03653832",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Virtual Reality to Reduce Anxiety, Agitation and Delirium in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07649876",
+        "source": "Milton S. Hershey Medical Center",
+        "author": "",
+        "pubdate": "2026-10-23",
+        "summary": "This is a pilot feasibility study examining the use of immersive virtual reality (VR) in adult intensive care unit (ICU) patients. The study evaluates whether brief, non-interactive VR sessions delivered using a commercially available standalone head-mounted display with calming, nature-based content can be delivered safely and effectively within routine SICU workflow. Exploratory objectives assess whether VR sessions are associated with changes in anxiety, agitation, delirium, pain, and sedativ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07649876",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
         "url": "https://clinicaltrials.gov/study/NCT06442930",
         "source": "University Health Network, Toronto",
@@ -4856,7 +5194,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07404592"
+        "nct_id": "NCT07404592",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Multidimensional Dysfunction in Patients With Chronic Critical Illness in China",
@@ -4880,9 +5220,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05795257",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05795257"
       },
       {
         "title": "Ketamine Sedation in the ICU (KANINE) RCT",
@@ -4894,9 +5232,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06767358",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06767358"
       },
       {
         "title": "Platform of Randomized Adaptive Clinical Trials in Critical Illness",
@@ -4908,9 +5244,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05440851",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05440851"
       },
       {
         "title": "NIRS Monitoring in the NICU and AKI",
@@ -4922,9 +5256,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07222722",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07222722"
       },
       {
         "title": "BIA-Guided vs. Conventional Fluid Resuscitation in ICU Patients",
@@ -4936,9 +5268,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07142083",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07142083"
       },
       {
         "title": "EaRly impAct theraPy With Ceftazidime-avibactam Via rapID Diagnostics",
@@ -4950,9 +5280,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05979545",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05979545"
       },
       {
         "title": "Factors Influencing Outcomes in ECMO and Impella Patients: Metabolic and Thyroid Hormone Dynamics",
@@ -6848,7 +7176,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06281665"
+        "nct_id": "NCT06281665",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Management of Hypokalemia in Intensive Care Patients",
@@ -6860,7 +7190,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07833722"
+        "nct_id": "NCT07833722",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Canadian Critical Care Comparative Effectiveness Platform",
@@ -6872,7 +7204,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06605144"
+        "nct_id": "NCT06605144",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Analysis of the Evolution of Mortality in an Intensive Care Unit",
@@ -6884,7 +7218,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05261607"
+        "nct_id": "NCT05261607",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Use of Procalcitonin, a Blood Test to Guide Antibiotic Therapy for Sepsis in Adults",
@@ -6896,7 +7232,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05955612"
+        "nct_id": "NCT05955612",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effects of Stellate Ganglion Block on Delirium and Circadian Rhythm in Geriatric Intensive Care Patients",
@@ -6908,7 +7246,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07558642"
+        "nct_id": "NCT07558642",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Prognostic Power of the VEXUS Score in Septic Shock: Effectiveness in Mortality Prediction",
@@ -7004,9 +7344,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06822231",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06822231"
       },
       {
         "title": "Impact on Prognosis of Increased Sleep Quality Obtained by Personalized Night-time Nursing Care in Critically Ill Patients",
@@ -7018,9 +7356,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07606495",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07606495"
       },
       {
         "title": "Efficacy of DEXamethasone in Patients With Acute Hypoxemic REspiratory Failure Caused by INfEctions",
@@ -8484,9 +8820,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04045210",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04045210"
       },
       {
         "title": "Comparison of Simplified Acute Physiology Score (SAPS II) , Sequential Organ Failure Assessment (SOFA) and Acute Physiology and Chronic Health Evaluation) APACHE II Scoring Systems for Predicting Mortality of Critically Ill Patients Admitted in a Tertiary Hospital Intensive Care Unit.",
@@ -8498,9 +8832,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07780617",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07780617"
       },
       {
         "title": "Beta-lactam Plus Levofloxacin to Enhance Therapy in Streptococcal Septicemia",
@@ -8512,9 +8844,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07240077",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07240077"
       },
       {
         "title": "Optimizing Access Surgery In Senior Hemodialysis Patients",
@@ -8526,9 +8856,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05911451",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05911451"
       },
       {
         "title": "Personalized Fluid Resuscitation in the Emergency Department: A Pilot Trial",
@@ -8540,9 +8868,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07779720",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07779720"
       },
       {
         "title": "Endogenous Energy Production in Critically Ill Patients",
@@ -8986,9 +9312,7 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "Researchers developed a machine learning model to predict mortality after prone positioning in patients with acute respiratory distress syndrome (ARDS). The model was trained and validated on a large dataset of 1200 patients. The study aimed to improve clinical decision-making by identifying high-risk patients.",
         "ai_significance": "This study has significant implications for ICU clinical practice as it may help clinicians make more informed decisions about prone positioning in ARDS patients, potentially improving outcomes.",
-        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a machine learning-based prediction model to identify high-risk ARDS patients who may benefit from alternative ventilation strategies."
       },
       {
         "title": "Comparison of NEWS2 and Machine Learning for Early Sepsis Warning",
@@ -9004,9 +9328,7 @@
         "ai_key_stats": "n=2000, lead-time 4.5 hours (95% CI 3.8-5.2), p=0.001",
         "ai_summary": "This study compared the early warning performance of a NEWS2-based clinical decision support system (KDS) to a machine learning model in predicting sepsis diagnosis. The NEWS2-based KDS provided an alert 4.5 hours before sepsis diagnosis, on average. The machine learning model was externally validated on 2000 patients.",
         "ai_significance": "Early warning systems like NEWS2-based KDS can help clinicians identify sepsis patients earlier, potentially improving outcomes. This study highlights the importance of validating machine learning models in real-world settings.",
-        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using NEWS2-based clinical decision support systems for early sepsis warning in high-risk patients."
       },
       {
         "title": "HYDROcortisone Versus Placebo for Severe HospItal-acquired Pneumonia in Intensive Care Patients: the HYDRO-SHIP Study",
@@ -9022,9 +9344,7 @@
         "ai_key_stats": "",
         "ai_summary": "The HYDRO-SHIP study was a multicenter randomized trial investigating the use of hydrocortisone plus standard therapy in critical care patients with hospital-acquired pneumonia. This is the first study to explore the use of corticosteroids in this type of infection. The study aims to improve the outcome of patients with nosocomial pneumonia.",
         "ai_significance": "This study is significant because it addresses a knowledge gap in the use of corticosteroids for hospital-acquired pneumonia, a common and deadly infection in intensive care patients.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Physiological Changes in Adult Intensive Care Patients Following Contact With Their Primary Caregiver",
@@ -9040,9 +9360,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study examined the effect of physical contact with primary caregivers on adult ICU patients' physiological responses. The trial was a randomized controlled study. No significant physiological changes were found.",
         "ai_significance": "Understanding the impact of caregiver contact on ICU patients' physiological responses can inform strategies to improve patient comfort and well-being. However, this study found no significant changes.",
-        "ai_rounds_takeaway": "No change to current practice — physical contact with caregivers does not appear to have a significant effect on ICU patients' physiological responses.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "No change to current practice — physical contact with caregivers does not appear to have a significant effect on ICU patients' physiological responses."
       },
       {
         "title": "Call for Life Sepsis",
@@ -9058,9 +9376,7 @@
         "ai_key_stats": "",
         "ai_summary": "Sepsis is a life-threatening condition caused by a host response to infection, with high mortality rates in sub-Saharan Africa. Children under 5 years hospitalized with sepsis have high mortality rates within the first 6 months of discharge. Various populations in sub-Saharan Africa experience high mortality rates due to sepsis.",
         "ai_significance": "This highlights the need for improved sepsis management and care in sub-Saharan Africa to reduce mortality rates.",
-        "ai_rounds_takeaway": "Consider early recognition and aggressive management of sepsis in high-risk populations in sub-Saharan Africa.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider early recognition and aggressive management of sepsis in high-risk populations in sub-Saharan Africa."
       },
       {
         "title": "ICU Delirium Playbook Training Study for ICU Nurses",
@@ -9076,9 +9392,7 @@
         "ai_key_stats": "",
         "ai_summary": "A study was conducted to evaluate the effectiveness of a delirium playbook training for ICU nurses. The training aimed to improve delirium recognition and management. However, no specific results were reported.",
         "ai_significance": "Early recognition and management of delirium are crucial for improving patient outcomes in the ICU, and this study highlights the need for effective training programs for ICU nurses.",
-        "ai_rounds_takeaway": "Consider implementing a delirium recognition and management training program for ICU nurses to improve patient care.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider implementing a delirium recognition and management training program for ICU nurses to improve patient care."
       },
       {
         "title": "CT-Determined Sarcopenia and Mortality in Critically Ill Cancer Patients",
@@ -9094,9 +9408,7 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study evaluated the relationship between sarcopenia and muscle quality impairment in critically ill cancer patients and their risk of 28-day mortality. The study used computed tomography to assess muscle quality and found an association between lower muscle quality and increased mortality. The study aimed to answer whether lower psoas muscle quality is associated with increased mortality in critically ill cancer patients.",
         "ai_significance": "This study highlights the importance of sarcopenia and muscle quality in critically ill cancer patients, which can inform ICU management and potentially improve outcomes.",
-        "ai_rounds_takeaway": "Assess muscle quality using CT scans in critically ill cancer patients to identify those at higher risk of mortality.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Assess muscle quality using CT scans in critically ill cancer patients to identify those at higher risk of mortality."
       },
       {
         "title": "Impact of Direct Antimicrobial Susceptibility Testing on Respiratory Sample of Intensive Care Patient With Suspected VAP",
@@ -9112,9 +9424,7 @@
         "ai_key_stats": "",
         "ai_summary": "The study discusses the impact of direct antimicrobial susceptibility testing on respiratory samples of ICU patients with suspected ventilator-associated pneumonia (VAP). Current guidelines recommend using broad-spectrum antibiotics, but this may promote antibiotic resistance. The study aims to explore the benefits of direct AST in reducing inappropriate antibiotic therapy.",
         "ai_significance": "This study has implications for ICU clinical practice as inappropriate antibiotic therapy is associated with increased mortality in VAP patients. Direct AST may help reduce antibiotic resistance and improve patient outcomes.",
-        "ai_rounds_takeaway": "Consider using direct antimicrobial susceptibility testing in patients with suspected VAP to guide antibiotic therapy and reduce the risk of antibiotic resistance.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using direct antimicrobial susceptibility testing in patients with suspected VAP to guide antibiotic therapy and reduce the risk of antibiotic resistance."
       },
       {
         "title": "Exploring the Effectiveness of an Application Intervention on Cognitive, Learning Self-Efficacy,and Clinical Reasoning of Nurses Regarding Delirium Education in the Intensive Care Unit",
@@ -10015,11 +10325,11 @@
     ]
   },
   "spotlight": {
-    "pmid": "42616082",
-    "title": "Early red blood cell transfusion strategy in septic shock among patients with cancer: the TRANSPORT randomized controlled trial.",
-    "journal": "Intensive care medicine",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42616082/",
-    "pubdate": "2026 Oct",
+    "pmid": "42545097",
+    "title": "H3.1 Nucleosomes to Predict Renal Replacement Therapy and Mortality in Sepsis-A Secondary Analysis of the SISPCT Randomized Control Trial.",
+    "journal": "Critical care medicine",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/",
+    "pubdate": "2026 Oct 1",
     "study_type": "Randomized Controlled Trial",
     "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Randomized Controlled Trial, prioritized by evidence level and citation impact.",
     "discussion_prompts": [
@@ -10027,12 +10337,13 @@
       "Which ICU patients are most likely to benefit from these findings, and who may not?",
       "Would these results change current bedside practice or require further validation?"
     ],
-    "week": "2026-10-17",
-    "generated_at": "2026-10-17T07:17:09+00:00",
+    "week": "2026-10-24",
+    "generated_at": "2026-10-24T07:42:56+00:00",
     "previous_pmids": [
       "42765454",
       "42565658",
-      "42560130"
+      "42560130",
+      "42616082"
     ]
   },
   "categories": [
@@ -18050,6 +18361,41 @@
           "ai_summary": "Researchers compared enteral (taken through the gut) and IV (intravenous) magnesium replacement in critically ill patients with mild-to-moderate hypomagnesemia. They found that enteral replacement was not as effective as IV replacement in correcting low magnesium levels, but it reduced waste, costs, and environmental impact. Enteral replacement also decreased urine magnesium concentrations.",
           "ai_significance": "This study's findings are important for ICU clinicians as they consider the most effective and sustainable treatment options for critically ill patients with hypomagnesemia. The results suggest that while IV magnesium replacement may be more effective, enteral replacement could be a viable alternative for patients with mild-to-moderate hypomagnesemia, particularly in terms of reducing waste and environmental impact.",
           "ai_rounds_takeaway": ""
+        },
+        {
+          "pmid": "42919407",
+          "title": "Mucormycosis in critically ill patients: a 9-year multicenter cohort study of clinical features, management, and 90-day outcomes.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Jul 31",
+          "authors": [
+            "Bidar F",
+            "Maamcha S",
+            "Tirard-Collet P",
+            "Richard JC",
+            "Friggeri A",
+            "Fellahi JL",
+            "Jacquet-Lagrèze M",
+            "Aubrun F",
+            "Argaud L",
+            "Dailler F",
+            "Venet F",
+            "Valour F",
+            "Persat F",
+            "Rimmelé T"
+          ],
+          "doi": "10.1186/s13054-026-06227-y",
+          "abstract": "BACKGROUND: Mucormycosis is a rare but life-threatening invasive fungal infection that primarily affects immunocompromised patients. Data on its presentation, management, and prognosis in the intensive care unit setting remain scarce. We aimed to evaluate 90-day mortality and to explore clinical, microbiological, therapeutic, and immunological factors associated with outcome in critically ill patients with mucormycosis. METHODS: This retrospective multicenter cohort study included patients diagnosed with mucormycosis and admitted to the ICUs of the Hospices Civils de Lyon between January 2014 and July 2023. Patients were identified through mycological records and hospital discharge codes. Univariable analysis and multivariable Cox model were performed to identify factors associated with 90-day mortality. RESULTS: Among 43 patients included, hematological malignancy and trauma were the most common underlying conditions (26% each), followed by solid organ transplantation (21%), and burns (16%). Cutaneous forms (49%) predominated, especially among trauma and burn patients, while pulmonary and rhinocerebral forms were mostly observed in previously immunocompromised individuals. The number of mucormycosis diagnoses increased nearly threefold over the study period, paralleling the implementation of Mucorales-specific polymerase chain reaction. Antifungal therapy was initiated in 39 patients (91%); first-line treatment was liposomal amphotericin B in 32 (74%), at a median maximum dose of 7.5 [3.5-9.4] mg/kg/day, and 12 (28%) received a combination therapy. The 90-day mortality was 47%. In the multivariable Cox model, older age, hematological malignancy, and a higher Sequential Organ Failure Assessment score at diagnosis were independently associated with mortality, while lower liposomal amphotericin B dosing was associated with mortality in univariable analysis. In eight patients without previous immunosuppression and uncontrolled disease, immune monitoring was performed and revealed decreased monocyte HLA-DR expression at 4556 [4194-6936] Ab/c, in favor of injury-induced immunosuppression. Among them, six patients received interferon-gamma as immunotherapy; four responded immunologically and survived. CONCLUSIONS: Mucormycosis in critically ill patients is associated with high mortality, particularly in those with hematological malignancies. Polymerase chain reaction-based diagnostics may allow earlier detection, and immune monitoring could help identify high-risk patients, particularly in trauma and burn settings.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42507964",
