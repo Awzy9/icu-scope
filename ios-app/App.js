@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Image, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { StatusBar } from "expo-status-bar";
@@ -54,8 +55,11 @@ function Tabs() {
 }
 
 function DetailScreen({ route }) {
-  const { savedKeys, toggleSave } = useStore();
+  const { savedKeys, toggleSave, markSeen } = useStore();
   const a = route.params.article;
+  useEffect(() => {
+    markSeen(a);
+  }, [a, markSeen]);
   return <Detail article={a} saved={savedKeys.has(articleKey(a))} onToggleSave={toggleSave} />;
 }
 

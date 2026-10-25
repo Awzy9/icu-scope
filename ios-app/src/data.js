@@ -3,6 +3,7 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 const FEED_URL = "https://icu-scope.vercel.app/data/articles.json";
 const CACHE_KEY = "feed:v1";
 const SAVED_KEY = "saved:v1";
+const SEEN_KEY = "seen:v1";
 
 // Network first so the feed is fresh, falling back to the last copy
 // stored on the device so the app still opens offline.
@@ -31,6 +32,19 @@ export async function loadSaved() {
 
 export function persistSaved(list) {
   AsyncStorage.setItem(SAVED_KEY, JSON.stringify(list)).catch(() => {});
+}
+
+export async function loadSeen() {
+  try {
+    return JSON.parse((await AsyncStorage.getItem(SEEN_KEY)) || "[]");
+  } catch {
+    return [];
+  }
+}
+
+export function persistSeen(keys) {
+  // Keep the list bounded so storage doesn't grow forever.
+  AsyncStorage.setItem(SEEN_KEY, JSON.stringify(keys.slice(-1500))).catch(() => {});
 }
 
 export const articleKey = (a) => a.pmid || a.url;

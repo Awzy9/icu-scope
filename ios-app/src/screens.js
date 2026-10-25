@@ -1,8 +1,8 @@
 import { useMemo, useState } from "react";
-import { ActivityIndicator, FlatList, Pressable, RefreshControl, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import { FlatList, Pressable, RefreshControl, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
-import { ArticleCard, Empty, SectionTitle, tap } from "./components";
+import { ArticleCard, Carousel, Empty, FilterBar, SectionTitle, SkeletonList, filterOptions, tap } from "./components";
 import { allArticles, articleKey, buildSections, searchArticles } from "./data";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
@@ -11,30 +11,28 @@ function useOpen(navigation) {
   return (article) => navigation.navigate("Detail", { article });
 }
 
-function Loading() {
-  const { error, refresh } = useStore();
-  const t = useTheme();
+function Loading({ hero }) {
+  const { error } = useStore();
   if (error)
     return (
       <Empty icon="cloud-offline-outline" title="Can't load articles" hint={`${error}. Check your connection and try again.`} />
     );
-  return (
-    <View style={styles.center}>
-      <ActivityIndicator color={t.accent} />
-    </View>
-  );
+  return <SkeletonList hero={hero} />;
 }
 
 export function TodayScreen({ navigation }) {
-  const { feed, refreshing, refresh, savedKeys, offline } = useStore();
+  const { feed, refreshing, refresh, offline } = useStore();
   const t = useTheme();
   const open = useOpen(navigation);
-  if (!feed) return <Loading />;
+  if (!feed) return <Loading hero />;
   const spot = feed.spotlight;
   const spotArticle =
     spot && allArticles(feed).find((a) => a.pmid && a.pmid === spot.pmid);
   const trending = feed.trending?.articles || [];
   const week = feed.this_week?.articles || [];
+  const guidelines = feed.guidelines?.articles || [];
+  const skip = new Set([...week, ...trending.slice(0, 8)].map(articleKey));
+  const latest = allArticles(feed).filter((a) => a.pmid && !skip.has(articleKey(a))).slice(0, 10);
 
   return (
     <ScrollView
@@ -74,8 +72,8 @@ export function TodayScreen({ navigation }) {
       {week.length ? (
         <>
           <SectionTitle>This week</SectionTitle>
-          {week.map((a) => (
-            <ArticleCard key={articleKey(a)} article={a} onPress={open} saved={savedKeys.has(articleKey(a))} />
+          {week.map((a, i) => (
+            <ArticleCard key={articleKey(a)} article={a} onPress={open} index={i} />
           ))}
         </>
       ) : null}
@@ -86,9 +84,28 @@ export function TodayScreen({ navigation }) {
       >
         Trending
       </SectionTitle>
-      {trending.slice(0, 5).map((a) => (
-        <ArticleCard key={articleKey(a)} article={a} onPress={open} saved={savedKeys.has(articleKey(a))} />
-      ))}
+      <Carousel data={trending.slice(0, 8)} onPress={open} />
+
+      {guidelines.length ? (
+        <>
+          <SectionTitle
+            action="See all"
+            onAction={() => navigation.navigate("List", { title: "Guideline Watch", articles: guidelines })}
+          >
+            Guidelines
+          </SectionTitle>
+          <Carousel data={guidelines.slice(0, 8)} onPress={open} />
+        </>
+      ) : null}
+
+      {latest.length ? (
+        <>
+          <SectionTitle>Latest</SectionTitle>
+          {latest.map((a, i) => (
+            <ArticleCard key={articleKey(a)} article={a} onPress={open} index={i} />
+          ))}
+        </>
+      ) : null}
     </ScrollView>
   );
 }
@@ -168,25 +185,27 @@ export function BrowseScreen({ navigation }) {
 }
 
 export function ListScreen({ route, navigation }) {
-  const { savedKeys } = useStore();
   const open = useOpen(navigation);
   const { articles } = route.params;
+  const [type, setType] = useState(null);
+  const options = useMemo(() => filterOptions(articles), [articles]);
+  const shown = useMemo(() => (type ? articles.filter((a) => a.study_type === type) : articles), [articles, type]);
   return (
     <FlatList
-      data={articles}
+      data={shown}
       keyExtractor={(a, i) => `${articleKey(a)}-${i}`}
       contentInsetAdjustmentBehavior="automatic"
-      contentContainerStyle={{ paddingVertical: 12 }}
-      renderItem={({ item }) => (
-        <ArticleCard article={item} onPress={open} saved={savedKeys.has(articleKey(item))} />
-      )}
+      contentContainerStyle={{ paddingBottom: 24 }}
+      stickyHeaderIndices={options.length > 1 ? [0] : undefined}
+      ListHeaderComponent={<FilterBar total={articles.length} options={options} value={type} onChange={setType} />}
+      renderItem={({ item, index }) => <ArticleCard article={item} onPress={open} index={index} />}
       ListEmptyComponent={<Empty title="Nothing here yet" />}
     />
   );
 }
 
 export function SearchScreen({ navigation }) {
-  const { feed, savedKeys } = useStore();
+  const { feed } = useStore();
   const t = useTheme();
   const [q, setQ] = useState("");
   const open = useOpen(navigation);
@@ -212,9 +231,7 @@ export function SearchScreen({ navigation }) {
         data={results}
         keyboardDismissMode="on-drag"
         keyExtractor={(a, i) => `${articleKey(a)}-${i}`}
-        renderItem={({ item }) => (
-          <ArticleCard article={item} onPress={open} saved={savedKeys.has(articleKey(item))} />
-        )}
+        renderItem={({ item, index }) => <ArticleCard article={item} onPress={open} index={index} />}
         ListEmptyComponent={
           q.trim() ? (
             <Empty icon="search-outline" title="No matches" hint="Try fewer or different words." />
@@ -228,7 +245,7 @@ export function SearchScreen({ navigation }) {
 }
 
 export function SavedScreen({ navigation }) {
-  const { saved, savedKeys } = useStore();
+  const { saved } = useStore();
   const open = useOpen(navigation);
   return (
     <FlatList
@@ -236,9 +253,7 @@ export function SavedScreen({ navigation }) {
       keyExtractor={(a, i) => `${articleKey(a)}-${i}`}
       contentInsetAdjustmentBehavior="automatic"
       contentContainerStyle={{ paddingVertical: 12, flexGrow: 1 }}
-      renderItem={({ item }) => (
-        <ArticleCard article={item} onPress={open} saved={savedKeys.has(articleKey(item))} />
-      )}
+      renderItem={({ item, index }) => <ArticleCard article={item} onPress={open} index={index} />}
       ListEmptyComponent={
         <Empty icon="bookmark-outline" title="No saved articles" hint="Tap Save on any article to keep it here, even offline." />
       }
