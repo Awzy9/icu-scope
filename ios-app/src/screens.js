@@ -52,7 +52,7 @@ export function TodayScreen({ navigation }) {
       ) : null}
 
       <Text style={[styles.today, { color: t.textMuted }]}>
-        {new Date().toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" })}
+        {new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}
         {week.length ? `  ·  ${week.filter((a) => !seen.has(articleKey(a))).length} unread this week` : ""}
       </Text>
 
