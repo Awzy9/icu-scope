@@ -1,5 +1,16 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { articleKey, loadFeed, loadSaved, loadSeen, persistSaved, persistSeen } from "./data";
+import {
+  DEFAULT_SETTINGS,
+  articleKey,
+  clearUserData,
+  loadFeed,
+  loadSaved,
+  loadSeen,
+  loadSettings,
+  persistSaved,
+  persistSeen,
+  persistSettings,
+} from "./data";
 
 const Ctx = createContext(null);
 export const useStore = () => useContext(Ctx);
@@ -11,6 +22,21 @@ export function StoreProvider({ children }) {
   const [saved, setSaved] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
   const [seen, setSeen] = useState(() => new Set());
+  const [settings, setSettings] = useState(DEFAULT_SETTINGS);
+
+  const updateSettings = useCallback((patch) => {
+    setSettings((prev) => {
+      const next = { ...prev, ...patch };
+      persistSettings(next);
+      return next;
+    });
+  }, []);
+
+  const clearData = useCallback(async () => {
+    await clearUserData();
+    setSaved([]);
+    setSeen(new Set());
+  }, []);
 
   const refresh = useCallback(async () => {
     setRefreshing(true);
@@ -30,6 +56,7 @@ export function StoreProvider({ children }) {
     refresh();
     loadSaved().then(setSaved);
     loadSeen().then((k) => setSeen(new Set(k)));
+    loadSettings().then(setSettings);
   }, [refresh]);
 
   const savedKeys = useMemo(() => new Set(saved.map(articleKey)), [saved]);
@@ -54,6 +81,6 @@ export function StoreProvider({ children }) {
     });
   }, []);
 
-  const value = { seen, markSeen, feed, offline, error, refreshing, refresh, saved, savedKeys, toggleSave };
+  const value = { settings, updateSettings, clearData, seen, markSeen, feed, offline, error, refreshing, refresh, saved, savedKeys, toggleSave };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

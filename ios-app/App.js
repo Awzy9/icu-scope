@@ -7,11 +7,11 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import { StoreProvider, useStore } from "./src/store";
-import { useTheme } from "./src/theme";
+import { useIsDark, useTheme } from "./src/theme";
+import Settings from "./src/Settings";
 import { articleKey } from "./src/data";
 import Detail from "./src/Detail";
 import { BrowseScreen, ListScreen, SavedScreen, SearchScreen, TodayScreen } from "./src/screens";
-import { useColorScheme } from "react-native";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -50,6 +50,7 @@ function Tabs() {
       <Tab.Screen name="Browse" component={BrowseScreen} options={{ tabBarIcon: icon("grid") }} />
       <Tab.Screen name="Search" component={SearchScreen} options={{ tabBarIcon: icon("search") }} />
       <Tab.Screen name="Saved" component={SavedScreen} options={{ tabBarIcon: icon("bookmark") }} />
+      <Tab.Screen name="Settings" component={Settings} options={{ tabBarIcon: icon("settings") }} />
     </Tab.Navigator>
   );
 }
@@ -65,7 +66,7 @@ function DetailScreen({ route }) {
 
 function Root() {
   const t = useTheme();
-  const dark = useColorScheme() === "dark";
+  const dark = useIsDark();
   const base = dark ? DarkTheme : DefaultTheme;
   const navTheme = {
     ...base,
@@ -73,7 +74,7 @@ function Root() {
   };
   return (
     <NavigationContainer theme={navTheme}>
-      <StatusBar style="auto" />
+      <StatusBar style={dark ? "light" : "dark"} />
       <Stack.Navigator screenOptions={{ headerTintColor: t.accent, headerBackTitle: "Back" }}>
         <Stack.Screen name="Tabs" component={Tabs} options={{ headerShown: false }} />
         <Stack.Screen name="List" component={ListScreen} options={({ route }) => ({ title: route.params.title })} />

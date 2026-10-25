@@ -26,7 +26,7 @@ function Loading({ hero }) {
 }
 
 export function TodayScreen({ navigation }) {
-  const { feed, refreshing, refresh, offline } = useStore();
+  const { feed, refreshing, refresh, offline, settings } = useStore();
   const t = useTheme();
   const open = useOpen(navigation);
   if (!feed) return <Loading hero />;
@@ -37,7 +37,7 @@ export function TodayScreen({ navigation }) {
   const week = feed.this_week?.articles || [];
   const guidelines = feed.guidelines?.articles || [];
   const skip = new Set([...week, ...trending.slice(0, 8)].map(articleKey));
-  const latest = allArticles(feed).filter((a) => a.pmid && !skip.has(articleKey(a))).slice(0, 10);
+  const latest = allArticles(feed, settings.hiddenCategories).filter((a) => a.pmid && !skip.has(articleKey(a))).slice(0, 10);
 
   return (
     <ScrollView
@@ -161,7 +161,7 @@ function Tile({ icon, tone, label, count, onPress }) {
 }
 
 export function BrowseScreen({ navigation }) {
-  const { feed, refreshing, refresh } = useStore();
+  const { feed, refreshing, refresh, settings } = useStore();
   const t = useTheme();
   const sections = useMemo(() => (feed ? buildSections(feed) : []), [feed]);
   if (!feed) return <Loading />;
@@ -175,7 +175,7 @@ export function BrowseScreen({ navigation }) {
     >
       <SectionTitle>Organ systems</SectionTitle>
       <View style={styles.grid}>
-        {feed.categories.map((c) => {
+        {feed.categories.filter((c) => !settings.hiddenCategories.includes(c.id)).map((c) => {
           const [icon, tone] = CAT[c.id] || ["medical", "accent"];
           return <Tile key={c.id} icon={icon} tone={tone} label={c.label} count={c.articles.length} onPress={() => go(c.label, c.articles)} />;
         })}
@@ -212,11 +212,11 @@ export function ListScreen({ route, navigation }) {
 }
 
 export function SearchScreen({ navigation }) {
-  const { feed } = useStore();
+  const { feed, settings } = useStore();
   const t = useTheme();
   const [q, setQ] = useState("");
   const open = useOpen(navigation);
-  const pool = useMemo(() => (feed ? allArticles(feed) : []), [feed]);
+  const pool = useMemo(() => (feed ? allArticles(feed, settings.hiddenCategories) : []), [feed, settings.hiddenCategories]);
   const [type, setType] = useState(null);
   const found = useMemo(() => searchArticles(pool, q), [pool, q]);
   const options = useMemo(() => filterOptions(found), [found]);

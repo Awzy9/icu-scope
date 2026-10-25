@@ -4,6 +4,8 @@ import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
 import { Chip, tap } from "./components";
+import { IMPACT_LABELS, impactScore } from "./evidence";
+import { useStore } from "./store";
 import { useTheme } from "./theme";
 
 const APPRAISAL = [
@@ -24,8 +26,11 @@ const APPRAISAL = [
 
 const flat = (v) => (Array.isArray(v) ? v.map((x) => `• ${x}`).join("\n") : v);
 
+const useScale = () => useStore().settings.textScale;
+
 function Block({ title, icon, children }) {
   const t = useTheme();
+  const s = useScale();
   if (!children) return null;
   return (
     <View style={[styles.block, { backgroundColor: t.surface, borderColor: t.border }]}>
@@ -33,7 +38,7 @@ function Block({ title, icon, children }) {
         {icon ? <Ionicons name={icon} size={15} color={t.accent} /> : null}
         <Text style={[styles.blockTitle, { color: t.accent }]}>{title}</Text>
       </View>
-      <Text style={[styles.text, { color: t.text }]} selectable>
+      <Text style={[styles.text, { color: t.text, fontSize: 16 * s, lineHeight: 24 * s }]} selectable>
         {children}
       </Text>
     </View>
@@ -42,6 +47,7 @@ function Block({ title, icon, children }) {
 
 function Abstract({ text }) {
   const t = useTheme();
+  const s = useScale();
   const [open, setOpen] = useState(false);
   if (!text) return null;
   const long = text.length > 520;
@@ -51,7 +57,7 @@ function Abstract({ text }) {
         <Ionicons name="document-text-outline" size={15} color={t.accent} />
         <Text style={[styles.blockTitle, { color: t.accent }]}>Abstract</Text>
       </View>
-      <Text style={[styles.text, { color: t.text }]} numberOfLines={open || !long ? undefined : 9} selectable>
+      <Text style={[styles.text, { color: t.text, fontSize: 16 * s, lineHeight: 24 * s }]} numberOfLines={open || !long ? undefined : 9} selectable>
         {text}
       </Text>
       {long ? (
@@ -71,6 +77,7 @@ export default function Detail({ article: a, saved, onToggleSave }) {
   const authors = Array.isArray(a.authors) ? a.authors : a.author ? [a.author] : [];
   const shownAuthors = authors.length > 5 ? `${authors.slice(0, 5).join(", ")} et al.` : authors.join(", ");
   const url = a.url || (a.doi ? `https://doi.org/${a.doi}` : null);
+  const impact = impactScore(a);
   const takeaway = a.ai_rounds_takeaway;
   const summary = a.ai_summary || a.summary;
 
@@ -82,6 +89,7 @@ export default function Detail({ article: a, saved, onToggleSave }) {
           {a.is_top_journal ? <Chip label="Top journal" tone="amber" icon="ribbon" /> : null}
           {a.is_open_access === true || a.is_open_access === "True" ? <Chip label="Open access" tone="green" icon="lock-open" /> : null}
           {a.society ? <Chip label={a.society} tone="purple" /> : null}
+          {impact ? <Chip label={IMPACT_LABELS[impact]} tone="teal" /> : null}
         </View>
 
         <Text style={[styles.title, { color: t.text }]} selectable>
@@ -118,7 +126,7 @@ export default function Detail({ article: a, saved, onToggleSave }) {
 
         <Abstract text={a.abstract} />
         <Text style={[styles.disclaimer, { color: t.textMuted }]}>
-          AI summaries are a reading aid, not clinical advice. Always read the source paper.
+          AI summaries and impact ratings (estimated from study design, journal and citations) are reading aids, not clinical advice. Always read the source paper.
         </Text>
       </ScrollView>
 

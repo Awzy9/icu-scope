@@ -53,6 +53,28 @@ export function persistSeen(keys) {
   AsyncStorage.setItem(SEEN_KEY, JSON.stringify(keys.slice(-1500))).catch(() => {});
 }
 
+const SETTINGS_KEY = "settings:v1";
+
+export const DEFAULT_SETTINGS = { appearance: "system", textScale: 1, hiddenCategories: [] };
+
+export async function loadSettings() {
+  try {
+    const raw = JSON.parse((await AsyncStorage.getItem(SETTINGS_KEY)) || "{}");
+    return { ...DEFAULT_SETTINGS, ...raw };
+  } catch {
+    return DEFAULT_SETTINGS;
+  }
+}
+
+export function persistSettings(settings) {
+  AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)).catch(() => {});
+}
+
+// Wipes the downloaded feed, saved articles and read markers. Settings are kept.
+export function clearUserData() {
+  return AsyncStorage.multiRemove([CACHE_KEY, SAVED_KEY, SEEN_KEY]).catch(() => {});
+}
+
 export const articleKey = (a) => a.pmid || a.url;
 
 const TRIAL_TYPES = new Set(["Randomized Controlled Trial", "Clinical Trial"]);
@@ -75,7 +97,7 @@ export function buildSections(feed) {
   ].filter((s) => s.articles.length);
 }
 
-export function allArticles(feed) {
+export function allArticles(feed, hiddenCategories = []) {
   const seen = new Set();
   const out = [];
   const push = (list) =>
@@ -86,7 +108,7 @@ export function allArticles(feed) {
         out.push(a);
       }
     });
-  (feed.categories || []).forEach((c) => push(c.articles));
+  (feed.categories || []).filter((c) => !hiddenCategories.includes(c.id)).forEach((c) => push(c.articles));
   ["guidelines", "ksa", "bottom_line", "foamed", "preprints"].forEach((k) => push(feed[k]?.articles || []));
   push(feed.trending?.articles || []);
   return out;
