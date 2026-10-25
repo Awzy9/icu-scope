@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "ICU Scope",
+    "slug": "icu-scope",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#ffffff",
+    "ios": {
+      "bundleIdentifier": "com.awzy9.icuscope",
+      "supportsTablet": true,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "icu-scope-ios",
+  "version": "1.0.0",
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "description": "iOS wrapper (Expo / EAS) for ICU Scope",
+  "scripts": {
+    "start": "expo start",
+    "build:preview": "eas build --platform ios --profile preview",
+    "build:production": "eas build --platform ios --profile production",
+    "submit": "eas submit --platform ios --profile production"
+  },
+  "dependencies": {
+    "expo": "~58.0.19",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-webview": "14.0.1"
+  }
+}
