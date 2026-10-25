@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:43:38+00:00",
+  "generated_at": "2026-10-25T07:55:26+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -66,32 +66,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632809/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42479534/"
-      },
-      {
-        "pmid": "42786518",
-        "title": "Dosing of anti-infective drugs in patients undergoing therapeutic plasma exchange - considerations for practical application: a narrative review.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Sep 24",
-        "authors": [
-          "Nachtigall MB",
-          "Schmidt JJ",
-          "Scherneck S",
-          "Flechtner J",
-          "David S",
-          "Kielstein JT",
-          "EXCHANGE-2 study group"
-        ],
-        "doi": "10.1186/s13054-026-06306-0",
-        "abstract": "BACKGROUND: Therapeutic plasma exchange (TPE) is used in a wide range of indications and patient populations. The current guidelines of the American Society for Apheresis on the use of therapeutic apheresis in clinical practice list 166 graded indications for TPE. Many indications are related to the treatment of critically ill patients. Indeed, two multicenter trials are currently investigating the role of TPE in the treatment of early septic shock. MAIN BODY: During TPE, usually 1.0-1.5 times the calculated plasma volume is exchanged using albumin solution or fresh frozen plasma as replacement fluid, although considerable deviations from this recommended exchange volume have been reported. Depending on the TPE modality (membrane-based or centrifugal), the duration of the procedure ranges between 90 and 140 min. TPE removes not only unwanted substances such as inflammatory mediators or pathological antibodies but may also remove drugs that are essential for the treatment of the underlying disease. Furthermore, changes in plasma protein concentrations due to TPE may affect the volume of distribution (Vd) and the concentrations of protein-bound drugs. The objective of the current narrative review is to introduce general principles of TPE-associated drug removal as well as the current literature on the dosing of anti-infectives in patients undergoing TPE. CONCLUSION: Pharmacokinetic characteristics, including volume of distribution, plasma protein binding, endogenous clearance, and redistribution kinetics, have been demonstrated to influence the susceptibility of a drug to TPE-associated removal. TPE may substantially affect plasma levels of drugs with low volume of distribution and high protein binding, including aminoglycosides and glycopeptides. Further studies are needed because direct evidence on the pharmacokinetics of anti-infective drugs undergoing TPE in sepsis remains limited. Specific timing or dosing strategies are therefore not supported by sufficient evidence and should be individualized according to drug-specific pharmacokinetics, TPE characteristics, and clinical situation.",
-        "citation_count": 69,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13613798/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
       },
       {
         "pmid": "42565658",
@@ -301,6 +275,48 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13632813/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/"
+      },
+      {
+        "pmid": "42872606",
+        "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
+        "journal": "JAMA",
+        "pubdate": "2026 Oct 14",
+        "authors": [
+          "Blok SG",
+          "de Grooth HJ",
+          "Pisani L",
+          "Barbas C",
+          "Chew M",
+          "Dubin A",
+          "Hammond N",
+          "Kwizera A",
+          "Malbrain MLNG",
+          "Monnet X",
+          "Myatra SN",
+          "Rose L",
+          "Neto AS",
+          "Shi Z",
+          "Silversides J",
+          "Tripathy S",
+          "van Haren F",
+          "Dondorp A",
+          "Schultz MJ",
+          "van Regenmortel N",
+          "Paulus F",
+          "Tuinman PR",
+          "PRoFLUID Investigators"
+        ],
+        "doi": "10.1001/jama.2026.21291",
+        "abstract": "IMPORTANCE: Fluid therapy is ubiquitous in the intensive care unit (ICU) but carries risks, especially in mechanically ventilated patients. Contemporary global practice across dose, indication, and type is unknown. OBJECTIVE: To characterize ICU fluid practices in mechanically ventilated adults. DESIGN, SETTING, AND PARTICIPANTS: International prospective observational cohort study between April 2024 and July 2025, across 206 ICUs in 41 countries on 6 continents. Consecutive adult patients receiving invasive mechanical ventilation within 3 days of ICU admission and ventilated 24 hours or more. Exclusion criteria were age younger than 16 years and transfer under mechanical ventilation from another ICU. EXPOSURES: Fluid volume, indication, and type after intubation. MAIN OUTCOMES AND MEASURES: Key measures included (1) total infused volume and daily fluid balance over 7 days after intubation; (2) the indication for fluid therapy over the first 3 days after intubation; (3) the proportion of total administered fluid volume attributable to each fluid type over the first 3 days after intubation. RESULTS: Among 2454 patients analyzed (median age, 63 years [IQR, 49-73 years]; 63.6% [1560] male), median daily fluid input peaked on day 1 at 3.0 L (IQR, 2.2-4.0 L) and declined to 2.6 L (IQR, 1.8-3.5 L) through day 6. Daily fluid balance (median, 0.9 L; IQR, 0.1-1.9 L on day 1) decreased to less than 0.3 L (IQR, -0.5 to 1.2 L) by day 3 and remained near-neutral through day 6. Maintenance and replacement fluids (to meet daily requirements and to correct ongoing losses; 31.9%) and creep fluids (to deliver medications and maintain catheter patency; 30.9%) were the primary indications, whereas resuscitation (to restore circulating blood volume; 16.0%) accounted for a smaller proportion. Isotonic balanced crystalloids (48.9%) and isotonic saline (0.9% sodium chloride) (27.0%) were common; colloids were rare (1.3%). Substantial between-site variation persisted after adjustment for case-mix. CONCLUSIONS AND RELEVANCE: In this prospective international cohort study, fluid therapy varied widely among mechanically ventilated critically ill patients, with maintenance and creep fluids-rather than resuscitation fluids-accounting for most total volume.",
+        "citation_count": 33,
+        "is_top_journal": true,
+        "study_type": "Study",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/"
       }
     ]
   },
@@ -385,7 +401,9 @@
         "pubdate": "2026-09-23",
         "summary": "Pulse-dose methylprednisolone is common across many medical fields (defined here as giving ≧500 mg methylprednisolone daily for ≧3 days). However, providing such a high dose of steroids may increase the risk of steroid-related complications (especially invasive fungal infections). What is the evidence behind this practice? I searched the medical literature for RCTs meeting the following […] EMCrit",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Case of the Obscured Bias",
@@ -395,9 +413,7 @@
         "pubdate": "2026-09-22",
         "summary": "SCCM recently published updated guidelines on neuromuscular blockade in ARDS. The authors present five recommendations, the first being the most potentially influential on practice. “Paralyze patients with ARDS when their P/F ratio drops below 150 and they are persistently hypoxemic or fighting the ventilator.”[1] The panel based this recommendation on a 2020 systematic review by […] EMCrit Projec",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit 434 – Temporary Hemodialysis (HD) Catheters",
@@ -497,7 +513,9 @@
         "pubdate": "2026-08-24",
         "summary": "The chloride saga continues... EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality",
@@ -507,7 +525,9 @@
         "pubdate": "2026-08-24",
         "summary": "Is there any moderate or high-level evidence that SEP-1 compliance and/or implementation is associated with improvement in sepsis mortality? The post Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "EMCrit 432 – Members’ Airway Cases and Q&A",
@@ -517,9 +537,7 @@
         "pubdate": "2026-08-23",
         "summary": "I dive deep into member-submitted airway nightmares, breaking down how to manage petrified \"airway concrete\" and high-risk hypoxemia. Learn how to apply the CHOP criteria, avoid physiological arrest during induction in cardiogenic shock, and handle extreme metabolic acidosis. EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Case of the Neutral Documents Part 2",
@@ -1353,7 +1371,9 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581271/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42776136/",
-        "society": "KDIGO"
+        "society": "KDIGO",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42767105",
@@ -3102,9 +3122,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13679590/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42912115/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42908551",
@@ -3130,9 +3148,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13682982/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42908551/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42415882",
@@ -4789,8 +4805,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42919451/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "infectious-sepsis",
         "category_label": "Infectious Disease & Sepsis",
         "category_ids": [
@@ -4820,8 +4834,6 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42911397/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "pharmacology",
         "category_label": "Pharmacology",
         "category_ids": [
@@ -4934,9 +4946,7 @@
         "summary": "Background/ObjectivesEarly lactate is widely used to risk-stratify septic shock, yet clinically actionable cut-offs for 28-day mortality remain uncertain. MethodsIn a single-centre study conducted across two intensive care units, we analysed 84 adults with septic shock identified within 24 hours of intensive care unit admission. The primary endpoint was 28-day mortality. Four lactate metrics obtained during the first 24 hours were evaluated: first (admission) lactate, last lactate, peak lactate,",
         "study_type": "Preprint (not peer-reviewed)",
         "is_open_access": true,
-        "is_preprint": true,
-        "link_broken": true,
-        "link_broken_kind": "url"
+        "is_preprint": true
       },
       {
         "title": "Optical compression of multimodal clinical data into a unified visual memory for generative trajectory forecasting",
@@ -5042,9 +5052,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06963944",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06963944"
       },
       {
         "title": "Establishing Normative Data for Pupillometer Assessments in Neuro-Intensive Care",
@@ -5056,9 +5064,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02804438",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02804438"
       },
       {
         "title": "Real-time NOMA Evaluation",
@@ -5070,9 +5076,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06996626",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06996626"
       },
       {
         "title": "Clinical Trial of CG-BM1 Allogeneic Human Bone Marrow Mesenchymal Stem Cell Injection in the Treatment of Acute Respiratory Distress Syndrome",
@@ -5084,9 +5088,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07892950",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07892950"
       },
       {
         "title": "Pulmonary-Specific Enteral Nutrition in Mechanically Ventilated Patients With Pneumonia",
@@ -5098,9 +5100,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07892521",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07892521"
       },
       {
         "title": "Comparison of Corticosteroids vs Placebo on Duration of Ventilatory Support During Severe Acute Exacerbations of COPD Patients in the ICU",
@@ -5112,9 +5112,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04163536",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04163536"
       },
       {
         "title": "Protocol for Rapid Onset of Mobilization in Patients With Traumatic Spinal Cord Injury II (PROMPT-SCI II) Trial",
@@ -5126,9 +5124,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07472985",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07472985"
       },
       {
         "title": "Effects of Lumbrokinase DLBS1033 on D-Dimer, Interleukin-6, and Clinical Outcomes in Patients With Pneumonia and Sepsis",
@@ -5140,9 +5136,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07892794",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07892794"
       },
       {
         "title": "Alpha 2 Agonists for Sedation to Produce Better Outcomes From Critical Illness (A2B Trial)",
@@ -5154,9 +5148,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT03653832",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT03653832"
       },
       {
         "title": "Virtual Reality to Reduce Anxiety, Agitation and Delirium in Critically Ill Patients",
@@ -5168,9 +5160,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07649876",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07649876"
       },
       {
         "title": "EXtubation Related Complications - the EXTUBE Study (EXTUBE)",
@@ -5194,9 +5184,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07404592",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07404592"
       },
       {
         "title": "Multidimensional Dysfunction in Patients With Chronic Critical Illness in China",
@@ -6660,7 +6648,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07782216"
+        "nct_id": "NCT07782216",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Phase 2a Multiple Ascending Dose Study in Hospitalized Patients With Pneumonia.",
@@ -6756,7 +6746,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06501118"
+        "nct_id": "NCT06501118",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Observational, Non-interventional Biomarker and Endotyping Study",
@@ -7088,7 +7080,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07642076"
+        "nct_id": "NCT07642076",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Immune Responses to Dengue and Sepsis",
@@ -7100,7 +7094,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07040202"
+        "nct_id": "NCT07040202",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Assessing Immune Dysfunction in Sepsis",
@@ -7112,7 +7108,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07154615"
+        "nct_id": "NCT07154615",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "PERMISSive Lung-protective Ventilation RCT",
@@ -7124,7 +7122,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07837128"
+        "nct_id": "NCT07837128",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Efficacy of Ulinastatin for Treatment of Sepsis With Systemic Inflammatory Response Syndrome",
@@ -7136,7 +7136,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05391789"
+        "nct_id": "NCT05391789",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Korean Point Prevalence Study of Acute Rehabilitation for Kids in the PICU (PARK-PICU)",
@@ -7148,7 +7150,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07629297"
+        "nct_id": "NCT07629297",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Preventive Narrative Exposure Intervention for PTSD in ICU Patients After Cardiopulmonary Bypass Cardiac Surgery",
@@ -7176,9 +7180,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06281665",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06281665"
       },
       {
         "title": "Management of Hypokalemia in Intensive Care Patients",
@@ -7190,9 +7192,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07833722",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07833722"
       },
       {
         "title": "Canadian Critical Care Comparative Effectiveness Platform",
@@ -7204,9 +7204,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06605144",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06605144"
       },
       {
         "title": "Analysis of the Evolution of Mortality in an Intensive Care Unit",
@@ -7218,9 +7216,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05261607",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05261607"
       },
       {
         "title": "Use of Procalcitonin, a Blood Test to Guide Antibiotic Therapy for Sepsis in Adults",
@@ -7232,9 +7228,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05955612",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05955612"
       },
       {
         "title": "Effects of Stellate Ganglion Block on Delirium and Circadian Rhythm in Geriatric Intensive Care Patients",
@@ -7246,9 +7240,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07558642",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07558642"
       },
       {
         "title": "Prognostic Power of the VEXUS Score in Septic Shock: Effectiveness in Mortality Prediction",
@@ -7260,7 +7252,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07124741"
+        "nct_id": "NCT07124741",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Diagnostic and Therapeutic Upper and Lower Gastrointestinal Endoscopic Management on Critically Ill Patients in Fayoum University Hospitals",
@@ -8736,7 +8730,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07781540"
+        "nct_id": "NCT07781540",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "AI Assisted Preoperative Assessment for ASA Classification and ICU Admission",
@@ -8748,7 +8744,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07783334"
+        "nct_id": "NCT07783334",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Samu Save Sepsis: Early Goal Directed Therapy in Pre Hospital Care of Patients With Severe Sepsis and/or Septic Shock",
@@ -8760,7 +8758,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02473263"
+        "nct_id": "NCT02473263",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effects of Paroxetine on Cardiovascular Function in Septic Patients",
@@ -8772,7 +8772,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05725837"
+        "nct_id": "NCT05725837",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Exogenous Ketone Supplementation in ICU Delirium",
@@ -8784,7 +8786,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07364162"
+        "nct_id": "NCT07364162",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dynamics of Organ Damage and Immune Exhaustion During Sepsis",
@@ -8796,7 +8800,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06817408"
+        "nct_id": "NCT06817408",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients",
@@ -9440,7 +9446,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the effectiveness of an app-based delirium education program for ICU nurses. The program aimed to enhance nurses' knowledge, learning self-efficacy, and clinical reasoning regarding delirium. The study found that the app intervention had a positive impact on nurses' knowledge and learning self-efficacy.",
         "ai_significance": "This study highlights the potential of app-based education to improve ICU nurses' knowledge and skills in delirium management, which is crucial for providing high-quality patient care.",
-        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy."
+        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Hemoglobin Trends as a Predictor of Outcomes in Critically Ill Patients (The TRENT-ICU Study)",
@@ -9456,7 +9464,9 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study examined if early hemoglobin decline in critically ill patients can predict longer ICU stays and in-hospital mortality. The study found that early hemoglobin decline is associated with these outcomes. The study aims to answer two main questions about the relationship between hemoglobin decline and patient outcomes.",
         "ai_significance": "This study's findings have implications for ICU management and may help clinicians identify patients at higher risk of prolonged ICU stays and in-hospital mortality.",
-        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality."
+        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients",
@@ -9472,7 +9482,9 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study evaluates the risk of reintubation in postoperative ICU patients using multiple parameters. The study aims to identify factors associated with reintubation after extubation. The study will include adult patients who are extubated in the operating room and admitted to the ICU.",
         "ai_significance": "Understanding the risk of reintubation is crucial for optimizing postoperative care and reducing complications in ICU patients.",
-        "ai_rounds_takeaway": "Consider using multiple parameters to assess reintubation risk in postoperative ICU patients."
+        "ai_rounds_takeaway": "Consider using multiple parameters to assess reintubation risk in postoperative ICU patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Candida PCR Diagnosis Strategy in Patients From Intensive Care Units",
@@ -9488,7 +9500,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers evaluated a new PCR technique for diagnosing invasive candidiasis in ICU patients. The goal was to see if this method could provide faster results, allowing for earlier antifungal treatment. This could help prevent resistance and reduce healthcare costs.",
         "ai_significance": "Early diagnosis of invasive candidiasis is crucial in ICU settings, where timely treatment can improve patient outcomes and reduce the risk of antifungal resistance.",
-        "ai_rounds_takeaway": "Consider using PCR for invasive candidiasis diagnosis in patients with suspected systemic infection."
+        "ai_rounds_takeaway": "Consider using PCR for invasive candidiasis diagnosis in patients with suspected systemic infection.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV",
@@ -9504,7 +9518,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study will test an enhanced mentor mother strategy that uses differentiated service delivery to support pregnant and postpartum women living with HIV in resource-limited settings.",
         "ai_significance": "This study aims to improve the quality and efficiency of HIV care for pregnant and postpartum women in resource-limited settings.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Procalcitonin-guided Algorithm on Early Discontinuation of Antibiotic Therapy",
@@ -13567,7 +13583,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42752385",
@@ -16259,6 +16277,39 @@
           "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
         },
         {
+          "pmid": "42919407",
+          "title": "Mucormycosis in critically ill patients: a 9-year multicenter cohort study of clinical features, management, and 90-day outcomes.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Jul 31",
+          "authors": [
+            "Bidar F",
+            "Maamcha S",
+            "Tirard-Collet P",
+            "Richard JC",
+            "Friggeri A",
+            "Fellahi JL",
+            "Jacquet-Lagrèze M",
+            "Aubrun F",
+            "Argaud L",
+            "Dailler F",
+            "Venet F",
+            "Valour F",
+            "Persat F",
+            "Rimmelé T"
+          ],
+          "doi": "10.1186/s13054-026-06227-y",
+          "abstract": "BACKGROUND: Mucormycosis is a rare but life-threatening invasive fungal infection that primarily affects immunocompromised patients. Data on its presentation, management, and prognosis in the intensive care unit setting remain scarce. We aimed to evaluate 90-day mortality and to explore clinical, microbiological, therapeutic, and immunological factors associated with outcome in critically ill patients with mucormycosis. METHODS: This retrospective multicenter cohort study included patients diagnosed with mucormycosis and admitted to the ICUs of the Hospices Civils de Lyon between January 2014 and July 2023. Patients were identified through mycological records and hospital discharge codes. Univariable analysis and multivariable Cox model were performed to identify factors associated with 90-day mortality. RESULTS: Among 43 patients included, hematological malignancy and trauma were the most common underlying conditions (26% each), followed by solid organ transplantation (21%), and burns (16%). Cutaneous forms (49%) predominated, especially among trauma and burn patients, while pulmonary and rhinocerebral forms were mostly observed in previously immunocompromised individuals. The number of mucormycosis diagnoses increased nearly threefold over the study period, paralleling the implementation of Mucorales-specific polymerase chain reaction. Antifungal therapy was initiated in 39 patients (91%); first-line treatment was liposomal amphotericin B in 32 (74%), at a median maximum dose of 7.5 [3.5-9.4] mg/kg/day, and 12 (28%) received a combination therapy. The 90-day mortality was 47%. In the multivariable Cox model, older age, hematological malignancy, and a higher Sequential Organ Failure Assessment score at diagnosis were independently associated with mortality, while lower liposomal amphotericin B dosing was associated with mortality in univariable analysis. In eight patients without previous immunosuppression and uncontrolled disease, immune monitoring was performed and revealed decreased monocyte HLA-DR expression at 4556 [4194-6936] Ab/c, in favor of injury-induced immunosuppression. Among them, six patients received interferon-gamma as immunotherapy; four responded immunologically and survived. CONCLUSIONS: Mucormycosis in critically ill patients is associated with high mortality, particularly in those with hematological malignancies. Polymerase chain reaction-based diagnostics may allow earlier detection, and immune monitoring could help identify high-risk patients, particularly in trauma and burn settings.",
+          "citation_count": 36,
+          "is_top_journal": true,
+          "study_type": "Multicenter Study",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13693191/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/"
+        },
+        {
           "pmid": "42508689",
           "title": "Risk Factors and Development of a Clinical Prediction Model for Carbapenem-Resistant Enterobacterales Bacteremia: A Retrospective Cohort Study.",
           "journal": "Journal of global antimicrobial resistance",
@@ -18385,17 +18436,15 @@
           ],
           "doi": "10.1186/s13054-026-06227-y",
           "abstract": "BACKGROUND: Mucormycosis is a rare but life-threatening invasive fungal infection that primarily affects immunocompromised patients. Data on its presentation, management, and prognosis in the intensive care unit setting remain scarce. We aimed to evaluate 90-day mortality and to explore clinical, microbiological, therapeutic, and immunological factors associated with outcome in critically ill patients with mucormycosis. METHODS: This retrospective multicenter cohort study included patients diagnosed with mucormycosis and admitted to the ICUs of the Hospices Civils de Lyon between January 2014 and July 2023. Patients were identified through mycological records and hospital discharge codes. Univariable analysis and multivariable Cox model were performed to identify factors associated with 90-day mortality. RESULTS: Among 43 patients included, hematological malignancy and trauma were the most common underlying conditions (26% each), followed by solid organ transplantation (21%), and burns (16%). Cutaneous forms (49%) predominated, especially among trauma and burn patients, while pulmonary and rhinocerebral forms were mostly observed in previously immunocompromised individuals. The number of mucormycosis diagnoses increased nearly threefold over the study period, paralleling the implementation of Mucorales-specific polymerase chain reaction. Antifungal therapy was initiated in 39 patients (91%); first-line treatment was liposomal amphotericin B in 32 (74%), at a median maximum dose of 7.5 [3.5-9.4] mg/kg/day, and 12 (28%) received a combination therapy. The 90-day mortality was 47%. In the multivariable Cox model, older age, hematological malignancy, and a higher Sequential Organ Failure Assessment score at diagnosis were independently associated with mortality, while lower liposomal amphotericin B dosing was associated with mortality in univariable analysis. In eight patients without previous immunosuppression and uncontrolled disease, immune monitoring was performed and revealed decreased monocyte HLA-DR expression at 4556 [4194-6936] Ab/c, in favor of injury-induced immunosuppression. Among them, six patients received interferon-gamma as immunotherapy; four responded immunologically and survived. CONCLUSIONS: Mucormycosis in critically ill patients is associated with high mortality, particularly in those with hematological malignancies. Polymerase chain reaction-based diagnostics may allow earlier detection, and immune monitoring could help identify high-risk patients, particularly in trauma and burn settings.",
-          "citation_count": 0,
+          "citation_count": 36,
           "is_top_journal": true,
-          "study_type": "Study",
+          "study_type": "Multicenter Study",
           "volume": "30",
           "issue": "1",
           "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13693191/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/"
         },
         {
           "pmid": "42507964",

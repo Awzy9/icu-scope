@@ -6153,6 +6153,39 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42919451/"
+      },
+      "42919407": {
+        "pmid": "42919407",
+        "title": "Mucormycosis in critically ill patients: a 9-year multicenter cohort study of clinical features, management, and 90-day outcomes.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Jul 31",
+        "authors": [
+          "Bidar F",
+          "Maamcha S",
+          "Tirard-Collet P",
+          "Richard JC",
+          "Friggeri A",
+          "Fellahi JL",
+          "Jacquet-Lagrèze M",
+          "Aubrun F",
+          "Argaud L",
+          "Dailler F",
+          "Venet F",
+          "Valour F",
+          "Persat F",
+          "Rimmelé T"
+        ],
+        "doi": "10.1186/s13054-026-06227-y",
+        "abstract": "BACKGROUND: Mucormycosis is a rare but life-threatening invasive fungal infection that primarily affects immunocompromised patients. Data on its presentation, management, and prognosis in the intensive care unit setting remain scarce. We aimed to evaluate 90-day mortality and to explore clinical, microbiological, therapeutic, and immunological factors associated with outcome in critically ill patients with mucormycosis. METHODS: This retrospective multicenter cohort study included patients diagnosed with mucormycosis and admitted to the ICUs of the Hospices Civils de Lyon between January 2014 and July 2023. Patients were identified through mycological records and hospital discharge codes. Univariable analysis and multivariable Cox model were performed to identify factors associated with 90-day mortality. RESULTS: Among 43 patients included, hematological malignancy and trauma were the most common underlying conditions (26% each), followed by solid organ transplantation (21%), and burns (16%). Cutaneous forms (49%) predominated, especially among trauma and burn patients, while pulmonary and rhinocerebral forms were mostly observed in previously immunocompromised individuals. The number of mucormycosis diagnoses increased nearly threefold over the study period, paralleling the implementation of Mucorales-specific polymerase chain reaction. Antifungal therapy was initiated in 39 patients (91%); first-line treatment was liposomal amphotericin B in 32 (74%), at a median maximum dose of 7.5 [3.5-9.4] mg/kg/day, and 12 (28%) received a combination therapy. The 90-day mortality was 47%. In the multivariable Cox model, older age, hematological malignancy, and a higher Sequential Organ Failure Assessment score at diagnosis were independently associated with mortality, while lower liposomal amphotericin B dosing was associated with mortality in univariable analysis. In eight patients without previous immunosuppression and uncontrolled disease, immune monitoring was performed and revealed decreased monocyte HLA-DR expression at 4556 [4194-6936] Ab/c, in favor of injury-induced immunosuppression. Among them, six patients received interferon-gamma as immunotherapy; four responded immunologically and survived. CONCLUSIONS: Mucormycosis in critically ill patients is associated with high mortality, particularly in those with hematological malignancies. Polymerase chain reaction-based diagnostics may allow earlier detection, and immune monitoring could help identify high-risk patients, particularly in trauma and burn settings.",
+        "citation_count": 36,
+        "is_top_journal": true,
+        "study_type": "Multicenter Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13693191/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/"
       }
     },
     "hematology-coag": {
@@ -7740,14 +7773,14 @@
         ],
         "doi": "10.1186/s13054-026-06227-y",
         "abstract": "BACKGROUND: Mucormycosis is a rare but life-threatening invasive fungal infection that primarily affects immunocompromised patients. Data on its presentation, management, and prognosis in the intensive care unit setting remain scarce. We aimed to evaluate 90-day mortality and to explore clinical, microbiological, therapeutic, and immunological factors associated with outcome in critically ill patients with mucormycosis. METHODS: This retrospective multicenter cohort study included patients diagnosed with mucormycosis and admitted to the ICUs of the Hospices Civils de Lyon between January 2014 and July 2023. Patients were identified through mycological records and hospital discharge codes. Univariable analysis and multivariable Cox model were performed to identify factors associated with 90-day mortality. RESULTS: Among 43 patients included, hematological malignancy and trauma were the most common underlying conditions (26% each), followed by solid organ transplantation (21%), and burns (16%). Cutaneous forms (49%) predominated, especially among trauma and burn patients, while pulmonary and rhinocerebral forms were mostly observed in previously immunocompromised individuals. The number of mucormycosis diagnoses increased nearly threefold over the study period, paralleling the implementation of Mucorales-specific polymerase chain reaction. Antifungal therapy was initiated in 39 patients (91%); first-line treatment was liposomal amphotericin B in 32 (74%), at a median maximum dose of 7.5 [3.5-9.4] mg/kg/day, and 12 (28%) received a combination therapy. The 90-day mortality was 47%. In the multivariable Cox model, older age, hematological malignancy, and a higher Sequential Organ Failure Assessment score at diagnosis were independently associated with mortality, while lower liposomal amphotericin B dosing was associated with mortality in univariable analysis. In eight patients without previous immunosuppression and uncontrolled disease, immune monitoring was performed and revealed decreased monocyte HLA-DR expression at 4556 [4194-6936] Ab/c, in favor of injury-induced immunosuppression. Among them, six patients received interferon-gamma as immunotherapy; four responded immunologically and survived. CONCLUSIONS: Mucormycosis in critically ill patients is associated with high mortality, particularly in those with hematological malignancies. Polymerase chain reaction-based diagnostics may allow earlier detection, and immune monitoring could help identify high-risk patients, particularly in trauma and burn settings.",
-        "citation_count": 0,
+        "citation_count": 36,
         "is_top_journal": true,
-        "study_type": "Study",
+        "study_type": "Multicenter Study",
         "volume": "30",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13693191/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/"
       }
     },
