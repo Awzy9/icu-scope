@@ -1,4 +1,8 @@
-import { Linking, ScrollView, Share, StyleSheet, Text, View, Pressable } from "react-native";
+import { useState } from "react";
+import { Linking, Pressable, ScrollView, Share, StyleSheet, Text, View } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { LinearGradient } from "expo-linear-gradient";
 import { Chip, tap } from "./components";
 import { useTheme } from "./theme";
 
@@ -16,12 +20,17 @@ const APPRAISAL = [
   ["bottom_line", "The bottom line"],
 ];
 
-function Block({ title, children, tint }) {
+const flat = (v) => (Array.isArray(v) ? v.map((x) => `• ${x}`).join("\n") : v);
+
+function Block({ title, icon, children }) {
   const t = useTheme();
   if (!children) return null;
   return (
-    <View style={[styles.block, { backgroundColor: tint || t.surface, borderColor: t.border }]}>
-      <Text style={[styles.blockTitle, { color: t.accentStrong }]}>{title}</Text>
+    <View style={[styles.block, { backgroundColor: t.surface, borderColor: t.border }]}>
+      <View style={styles.blockHead}>
+        {icon ? <Ionicons name={icon} size={15} color={t.accent} /> : null}
+        <Text style={[styles.blockTitle, { color: t.accent }]}>{title}</Text>
+      </View>
       <Text style={[styles.text, { color: t.text }]} selectable>
         {children}
       </Text>
@@ -29,88 +38,136 @@ function Block({ title, children, tint }) {
   );
 }
 
-const flat = (v) => (Array.isArray(v) ? v.join("\n• ") : v);
+function Abstract({ text }) {
+  const t = useTheme();
+  const [open, setOpen] = useState(false);
+  if (!text) return null;
+  const long = text.length > 520;
+  return (
+    <View style={[styles.block, { backgroundColor: t.surface, borderColor: t.border }]}>
+      <View style={styles.blockHead}>
+        <Ionicons name="document-text-outline" size={15} color={t.accent} />
+        <Text style={[styles.blockTitle, { color: t.accent }]}>Abstract</Text>
+      </View>
+      <Text style={[styles.text, { color: t.text }]} numberOfLines={open || !long ? undefined : 9} selectable>
+        {text}
+      </Text>
+      {long ? (
+        <Pressable onPress={() => setOpen(!open)} hitSlop={8} style={styles.more}>
+          <Text style={{ color: t.accent, fontWeight: "700" }}>{open ? "Show less" : "Read full abstract"}</Text>
+          <Ionicons name={open ? "chevron-up" : "chevron-down"} size={14} color={t.accent} />
+        </Pressable>
+      ) : null}
+    </View>
+  );
+}
 
 export default function Detail({ article: a, saved, onToggleSave }) {
   const t = useTheme();
+  const insets = useSafeAreaInsets();
   const source = a.journal || a.source;
   const authors = Array.isArray(a.authors) ? a.authors : a.author ? [a.author] : [];
-  const shownAuthors = authors.length > 6 ? `${authors.slice(0, 6).join(", ")} et al.` : authors.join(", ");
+  const shownAuthors = authors.length > 5 ? `${authors.slice(0, 5).join(", ")} et al.` : authors.join(", ");
   const url = a.url || (a.doi ? `https://doi.org/${a.doi}` : null);
+  const takeaway = a.ai_rounds_takeaway;
+  const summary = a.ai_summary || a.summary;
 
   return (
-    <ScrollView contentContainerStyle={styles.wrap} contentInsetAdjustmentBehavior="automatic">
-      <View style={styles.chips}>
-        {a.study_type ? <Chip label={a.study_type} tone="blue" /> : null}
-        {a.is_top_journal ? <Chip label="Top journal" tone="amber" /> : null}
-        {a.is_open_access === true || a.is_open_access === "True" ? <Chip label="Open access" tone="green" /> : null}
-        {a.society ? <Chip label={a.society} tone="purple" /> : null}
-      </View>
-      <Text style={[styles.title, { color: t.text }]} selectable>
-        {a.title}
-      </Text>
-      <Text style={[styles.meta, { color: t.textMuted }]}>
-        {[source, a.pubdate, a.citation_count ? `${a.citation_count} citations` : null].filter(Boolean).join(" · ")}
-      </Text>
-      {shownAuthors ? <Text style={[styles.meta, { color: t.textSecondary }]}>{shownAuthors}</Text> : null}
+    <View style={{ flex: 1 }}>
+      <ScrollView contentContainerStyle={[styles.wrap, { paddingBottom: 110 + insets.bottom }]} contentInsetAdjustmentBehavior="automatic">
+        <View style={styles.chips}>
+          {a.study_type ? <Chip label={a.study_type} tone="accent" /> : null}
+          {a.is_top_journal ? <Chip label="Top journal" tone="amber" icon="ribbon" /> : null}
+          {a.is_open_access === true || a.is_open_access === "True" ? <Chip label="Open access" tone="green" icon="lock-open" /> : null}
+          {a.society ? <Chip label={a.society} tone="purple" /> : null}
+        </View>
 
-      <View style={styles.actions}>
+        <Text style={[styles.title, { color: t.text }]} selectable>
+          {a.title}
+        </Text>
+        <Text style={[styles.meta, { color: t.textMuted }]}>
+          {[source, a.pubdate, a.citation_count ? `${a.citation_count} citations` : null].filter(Boolean).join("  ·  ")}
+        </Text>
+        {shownAuthors ? <Text style={[styles.authors, { color: t.textSecondary }]}>{shownAuthors}</Text> : null}
+
+        {takeaway ? (
+          <LinearGradient colors={t.gradient} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.takeaway}>
+            <View style={styles.takeHead}>
+              <Ionicons name="bulb" size={15} color="#fff" />
+              <Text style={styles.takeKicker}>ROUNDS TAKEAWAY</Text>
+            </View>
+            <Text style={styles.takeText} selectable>
+              {takeaway}
+            </Text>
+          </LinearGradient>
+        ) : null}
+
+        <Block title="In plain language" icon="chatbubble-ellipses-outline">{summary}</Block>
+        <Block title="Why it matters" icon="trending-up">{a.ai_significance}</Block>
+        <Block title="Key stats" icon="stats-chart">{a.ai_key_stats}</Block>
+
+        {a.ai_appraisal
+          ? APPRAISAL.map(([k, label]) => (
+              <Block key={k} title={label} icon="checkmark-circle-outline">
+                {flat(a.ai_appraisal[k])}
+              </Block>
+            ))
+          : null}
+
+        <Abstract text={a.abstract} />
+        <Text style={[styles.disclaimer, { color: t.textMuted }]}>
+          AI summaries are a reading aid, not clinical advice. Always read the source paper.
+        </Text>
+      </ScrollView>
+
+      <View style={[styles.bar, { backgroundColor: t.surface, borderTopColor: t.border, paddingBottom: Math.max(insets.bottom, 12) }]}>
         <Pressable
           onPress={() => {
             tap();
             onToggleSave(a);
           }}
-          style={[styles.btn, { backgroundColor: saved ? t.accentSoft : t.accent }]}
+          style={[styles.primary, { backgroundColor: saved ? t.accentSoft : t.accent }]}
         >
-          <Text style={[styles.btnText, { color: saved ? t.accentStrong : "#fff" }]}>{saved ? "★ Saved" : "☆ Save"}</Text>
+          <Ionicons name={saved ? "bookmark" : "bookmark-outline"} size={18} color={saved ? t.accent : "#fff"} />
+          <Text style={[styles.btnText, { color: saved ? t.accent : "#fff" }]}>{saved ? "Saved" : "Save"}</Text>
         </Pressable>
         {url ? (
-          <Pressable
-            onPress={() => Linking.openURL(url)}
-            style={[styles.btn, { backgroundColor: t.surfaceSoft }]}
-          >
-            <Text style={[styles.btnText, { color: t.text }]}>Open source</Text>
+          <Pressable onPress={() => Linking.openURL(url)} style={[styles.secondary, { backgroundColor: t.surfaceSoft }]}>
+            <Ionicons name="open-outline" size={18} color={t.text} />
+            <Text style={[styles.btnText, { color: t.text }]}>Source</Text>
           </Pressable>
         ) : null}
         <Pressable
           onPress={() => Share.share({ message: `${a.title}${url ? `\n${url}` : ""}`, url: url || undefined })}
-          style={[styles.btn, { backgroundColor: t.surfaceSoft }]}
+          style={[styles.icon, { backgroundColor: t.surfaceSoft }]}
+          accessibilityLabel="Share"
         >
-          <Text style={[styles.btnText, { color: t.text }]}>Share</Text>
+          <Ionicons name="share-outline" size={20} color={t.text} />
         </Pressable>
       </View>
-
-      <Block title="🩺 Rounds takeaway" tint={t.accentSoft}>{a.ai_rounds_takeaway}</Block>
-      <Block title="Plain-language summary">{a.ai_summary || a.summary}</Block>
-      <Block title="Why it matters">{a.ai_significance}</Block>
-      <Block title="Key stats">{a.ai_key_stats}</Block>
-
-      {a.ai_appraisal
-        ? APPRAISAL.map(([k, label]) => (
-            <Block key={k} title={label}>
-              {a.ai_appraisal[k] ? (k === "strengths" || k === "weaknesses" ? "• " : "") + flat(a.ai_appraisal[k]) : null}
-            </Block>
-          ))
-        : null}
-
-      <Block title="Abstract">{a.abstract}</Block>
-      <Text style={[styles.disclaimer, { color: t.textMuted }]}>
-        AI summaries are a reading aid, not clinical advice. Always read the source paper.
-      </Text>
-    </ScrollView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
-  wrap: { padding: 16, gap: 12, paddingBottom: 60 },
+  wrap: { padding: 18, gap: 12 },
   chips: { flexDirection: "row", flexWrap: "wrap", gap: 6 },
-  title: { fontSize: 24, fontWeight: "800", lineHeight: 30 },
+  title: { fontSize: 22, fontWeight: "800", lineHeight: 28, letterSpacing: -0.4 },
   meta: { fontSize: 13.5, lineHeight: 19 },
-  actions: { flexDirection: "row", gap: 8, flexWrap: "wrap" },
-  btn: { borderRadius: 12, paddingHorizontal: 16, paddingVertical: 10 },
-  btnText: { fontWeight: "700", fontSize: 14.5 },
-  block: { borderWidth: StyleSheet.hairlineWidth, borderRadius: 16, padding: 14, gap: 6 },
-  blockTitle: { fontSize: 12.5, fontWeight: "800", textTransform: "uppercase", letterSpacing: 0.6 },
-  text: { fontSize: 15.5, lineHeight: 23 },
+  authors: { fontSize: 13.5, lineHeight: 19 },
+  takeaway: { borderRadius: 20, padding: 16, gap: 8, marginTop: 4 },
+  takeHead: { flexDirection: "row", alignItems: "center", gap: 6 },
+  takeKicker: { color: "rgba(255,255,255,0.85)", fontWeight: "800", fontSize: 11, letterSpacing: 0.9 },
+  takeText: { color: "#fff", fontSize: 17, lineHeight: 25, fontWeight: "600" },
+  block: { borderWidth: StyleSheet.hairlineWidth, borderRadius: 18, padding: 16, gap: 8 },
+  blockHead: { flexDirection: "row", alignItems: "center", gap: 6 },
+  blockTitle: { fontSize: 12, fontWeight: "800", textTransform: "uppercase", letterSpacing: 0.7 },
+  text: { fontSize: 16, lineHeight: 24 },
+  more: { flexDirection: "row", alignItems: "center", gap: 4, marginTop: 2 },
   disclaimer: { fontSize: 12, textAlign: "center", marginTop: 8 },
+  bar: { position: "absolute", left: 0, right: 0, bottom: 0, flexDirection: "row", gap: 10, paddingHorizontal: 16, paddingTop: 12, borderTopWidth: StyleSheet.hairlineWidth },
+  primary: { flex: 1.3, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 7, borderRadius: 14, paddingVertical: 14 },
+  secondary: { flex: 1, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 7, borderRadius: 14, paddingVertical: 14 },
+  icon: { width: 50, alignItems: "center", justifyContent: "center", borderRadius: 14 },
+  btnText: { fontWeight: "700", fontSize: 15.5 },
 });

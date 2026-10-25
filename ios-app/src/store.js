@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { articleKey, loadFeed, loadSaved, persistSaved } from "./data";
+import { articleKey, loadFeed, loadSaved, loadSeen, persistSaved, persistSeen } from "./data";
 
 const Ctx = createContext(null);
 export const useStore = () => useContext(Ctx);
@@ -10,6 +10,7 @@ export function StoreProvider({ children }) {
   const [error, setError] = useState(null);
   const [saved, setSaved] = useState([]);
   const [refreshing, setRefreshing] = useState(false);
+  const [seen, setSeen] = useState(() => new Set());
 
   const refresh = useCallback(async () => {
     setRefreshing(true);
@@ -28,6 +29,7 @@ export function StoreProvider({ children }) {
   useEffect(() => {
     refresh();
     loadSaved().then(setSaved);
+    loadSeen().then((k) => setSeen(new Set(k)));
   }, [refresh]);
 
   const savedKeys = useMemo(() => new Set(saved.map(articleKey)), [saved]);
@@ -41,6 +43,17 @@ export function StoreProvider({ children }) {
     });
   }, []);
 
-  const value = { feed, offline, error, refreshing, refresh, saved, savedKeys, toggleSave };
+  const markSeen = useCallback((a) => {
+    setSeen((prev) => {
+      const k = articleKey(a);
+      if (prev.has(k)) return prev;
+      const next = new Set(prev);
+      next.add(k);
+      persistSeen([...next]);
+      return next;
+    });
+  }, []);
+
+  const value = { seen, markSeen, feed, offline, error, refreshing, refresh, saved, savedKeys, toggleSave };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
