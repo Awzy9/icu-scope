@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useLayoutEffect, useMemo, useState } from "react";
 import { FlatList, Pressable, RefreshControl, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
@@ -26,7 +26,7 @@ function Loading({ hero }) {
 }
 
 export function TodayScreen({ navigation }) {
-  const { feed, refreshing, refresh, offline, settings } = useStore();
+  const { feed, refreshing, refresh, offline, settings, seen } = useStore();
   const t = useTheme();
   const open = useOpen(navigation);
   if (!feed) return <Loading hero />;
@@ -50,6 +50,11 @@ export function TodayScreen({ navigation }) {
           Offline – showing the last downloaded articles
         </Text>
       ) : null}
+
+      <Text style={[styles.today, { color: t.textMuted }]}>
+        {new Date().toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" })}
+        {week.length ? `  ·  ${week.filter((a) => !seen.has(articleKey(a))).length} unread this week` : ""}
+      </Text>
 
       {spot ? (
         <Pressable
@@ -138,7 +143,7 @@ const SECTION_ICON = {
   preprints: ["document-text", "textMuted"],
 };
 
-function Tile({ icon, tone, label, count, onPress }) {
+function Tile({ icon, tone, label, count, fresh, onPress }) {
   const t = useTheme();
   return (
     <Pressable
@@ -151,8 +156,15 @@ function Tile({ icon, tone, label, count, onPress }) {
         { backgroundColor: t.surface, borderColor: t.border, transform: [{ scale: pressed ? 0.97 : 1 }] },
       ]}
     >
-      <View style={[styles.tileIcon, { backgroundColor: t[`${tone}Soft`] || t.surfaceSoft }]}>
-        <Ionicons name={icon} size={22} color={t[tone]} />
+      <View style={styles.tileTop}>
+        <View style={[styles.tileIcon, { backgroundColor: t[`${tone}Soft`] || t.surfaceSoft }]}>
+          <Ionicons name={icon} size={22} color={t[tone]} />
+        </View>
+        {fresh ? (
+          <View style={[styles.fresh, { backgroundColor: t.tealSoft }]}>
+            <Text style={{ color: t.teal, fontWeight: "800", fontSize: 12 }}>{fresh} new</Text>
+          </View>
+        ) : null}
       </View>
       <Text style={[styles.tileLabel, { color: t.text }]} numberOfLines={2}>{label}</Text>
       <Text style={[styles.tileCount, { color: t.textMuted }]}>{count} articles</Text>
@@ -161,10 +173,16 @@ function Tile({ icon, tone, label, count, onPress }) {
 }
 
 export function BrowseScreen({ navigation }) {
-  const { feed, refreshing, refresh, settings } = useStore();
+  const { feed, refreshing, refresh, settings, seen } = useStore();
   const t = useTheme();
   const sections = useMemo(() => (feed ? buildSections(feed) : []), [feed]);
   if (!feed) return <Loading />;
+  // "New" = published this week and not opened yet. The feed pulls this week's
+  // articles out of their organ-system lists, so match them by category id.
+  const fresh = (id) =>
+    (feed.this_week?.articles || []).filter(
+      (a) => (a.category_ids || [a.category_id]).includes(id) && !seen.has(articleKey(a)),
+    ).length;
   const go = (title, articles) => navigation.navigate("List", { title, articles });
 
   return (
@@ -177,7 +195,7 @@ export function BrowseScreen({ navigation }) {
       <View style={styles.grid}>
         {feed.categories.filter((c) => !settings.hiddenCategories.includes(c.id)).map((c) => {
           const [icon, tone] = CAT[c.id] || ["medical", "accent"];
-          return <Tile key={c.id} icon={icon} tone={tone} label={c.label} count={c.articles.length} onPress={() => go(c.label, c.articles)} />;
+          return <Tile key={c.id} icon={icon} tone={tone} label={c.label} count={c.articles.length} fresh={fresh(c.id)} onPress={() => go(c.label, c.articles)} />;
         })}
       </View>
       <SectionTitle>More sources</SectionTitle>
@@ -194,9 +212,23 @@ export function BrowseScreen({ navigation }) {
 export function ListScreen({ route, navigation }) {
   const open = useOpen(navigation);
   const { articles } = route.params;
+  const { seen, settings, markAllSeen } = useStore();
+  const t = useTheme();
   const [type, setType] = useState(null);
   const options = useMemo(() => filterOptions(articles), [articles]);
-  const shown = useMemo(() => (type ? articles.filter((a) => a.study_type === type) : articles), [articles, type]);
+  const shown = useMemo(() => {
+    const byType = type ? articles.filter((a) => a.study_type === type) : articles;
+    return settings.hideRead ? byType.filter((a) => !seen.has(articleKey(a))) : byType;
+  }, [articles, type, settings.hideRead, seen]);
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      headerRight: () => (
+        <Pressable onPress={() => markAllSeen(articles)} hitSlop={10} accessibilityLabel="Mark all as read">
+          <Ionicons name="checkmark-done" size={22} color={t.accent} />
+        </Pressable>
+      ),
+    });
+  }, [navigation, articles, markAllSeen, t.accent]);
   return (
     <FlatList
       data={shown}
@@ -206,7 +238,13 @@ export function ListScreen({ route, navigation }) {
       stickyHeaderIndices={options.length > 1 ? [0] : undefined}
       ListHeaderComponent={<FilterBar total={articles.length} options={options} value={type} onChange={setType} />}
       renderItem={({ item, index }) => <ArticleCard article={item} onPress={open} index={index} />}
-      ListEmptyComponent={<Empty title="Nothing here yet" />}
+      ListEmptyComponent={
+        settings.hideRead && articles.length ? (
+          <Empty icon="checkmark-done-outline" title="All caught up" hint="You've read everything here. Turn off “Hide read articles” in Settings to see it again." />
+        ) : (
+          <Empty title="Nothing here yet" />
+        )
+      }
     />
   );
 }
@@ -259,17 +297,64 @@ export function SearchScreen({ navigation }) {
 }
 
 export function SavedScreen({ navigation }) {
-  const { saved } = useStore();
+  const { saved, collections, deleteCollection } = useStore();
+  const t = useTheme();
   const open = useOpen(navigation);
+  const [cid, setCid] = useState(null);
+  const [confirmDelete, setConfirmDelete] = useState(false);
+  const col = collections.find((c) => c.id === cid);
+  const savedKeys = useMemo(() => new Set(saved.map(articleKey)), [saved]);
+  const options = collections.map((c) => ({ key: c.id, label: c.name, n: c.keys.filter((k) => savedKeys.has(k)).length }));
+  const shown = col ? saved.filter((a) => col.keys.includes(articleKey(a))) : saved;
+
   return (
     <FlatList
-      data={saved}
+      data={shown}
       keyExtractor={(a, i) => `${articleKey(a)}-${i}`}
       contentInsetAdjustmentBehavior="automatic"
-      contentContainerStyle={{ paddingVertical: 12, flexGrow: 1 }}
+      contentContainerStyle={{ paddingBottom: 12, flexGrow: 1 }}
+      ListHeaderComponent={
+        <View>
+          <FilterBar
+            min={1}
+            total={saved.length}
+            options={options}
+            value={cid}
+            onChange={(id) => {
+              setCid(id);
+              setConfirmDelete(false);
+            }}
+          />
+          {col ? (
+            <Pressable
+              onPress={() => {
+                if (!confirmDelete) return setConfirmDelete(true);
+                deleteCollection(col.id);
+                setCid(null);
+                setConfirmDelete(false);
+              }}
+              style={styles.deleteRow}
+              accessibilityRole="button"
+            >
+              <Ionicons name="trash-outline" size={15} color={t.rose} />
+              <Text style={{ color: t.rose, fontWeight: "600", fontSize: 13.5 }}>
+                {confirmDelete ? "Tap again to delete this collection (articles stay saved)" : `Delete “${col.name}”`}
+              </Text>
+            </Pressable>
+          ) : null}
+        </View>
+      }
       renderItem={({ item, index }) => <ArticleCard article={item} onPress={open} index={index} />}
       ListEmptyComponent={
-        <Empty icon="bookmark-outline" title="No saved articles" hint="Tap Save on any article to keep it here, even offline." />
+        col ? (
+          <Empty icon="albums-outline" title="Nothing in this collection" hint="Open a saved article and tap the collections button to add it." />
+        ) : (
+          <Empty
+            icon="bookmark-outline"
+            title="No saved articles"
+            hint="Tap Save on any article to keep it here, even offline. Then group articles into collections, like “Sepsis journal club”."
+          />
+        )
       }
     />
   );
@@ -288,7 +373,11 @@ const styles = StyleSheet.create({
   heroGo: { width: 34, height: 34, borderRadius: 17, backgroundColor: "#fff", alignItems: "center", justifyContent: "center" },
   grid: { flexDirection: "row", flexWrap: "wrap", paddingHorizontal: 12 },
   tile: { width: "47%", flexGrow: 1, margin: 4, borderRadius: 18, borderWidth: StyleSheet.hairlineWidth, padding: 14, gap: 4, minHeight: 124 },
-  tileIcon: { width: 42, height: 42, borderRadius: 13, alignItems: "center", justifyContent: "center", marginBottom: 8 },
+  today: { fontSize: 13.5, fontWeight: "600", paddingHorizontal: 20, paddingTop: 4 },
+  tileTop: { flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 8 },
+  fresh: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 4 },
+  deleteRow: { flexDirection: "row", alignItems: "center", gap: 6, paddingHorizontal: 20, paddingVertical: 8 },
+  tileIcon: { width: 42, height: 42, borderRadius: 13, alignItems: "center", justifyContent: "center" },
   tileLabel: { fontSize: 15.5, fontWeight: "700", lineHeight: 20 },
   tileCount: { fontSize: 12.5 },
   searchBox: { flexDirection: "row", alignItems: "center", gap: 8, margin: 16, marginBottom: 12, borderRadius: 14, paddingHorizontal: 12 },

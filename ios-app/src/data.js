@@ -55,7 +55,23 @@ export function persistSeen(keys) {
 
 const SETTINGS_KEY = "settings:v1";
 
-export const DEFAULT_SETTINGS = { appearance: "system", textScale: 1, hiddenCategories: [] };
+const COLLECTIONS_KEY = "collections:v1";
+
+export const DEFAULT_SETTINGS = { appearance: "system", textScale: 1, hiddenCategories: [], hideRead: false };
+
+// Collections hold article keys, not copies; the articles themselves live in the saved list.
+export async function loadCollections() {
+  try {
+    const list = JSON.parse((await AsyncStorage.getItem(COLLECTIONS_KEY)) || "[]");
+    return Array.isArray(list) ? list : [];
+  } catch {
+    return [];
+  }
+}
+
+export function persistCollections(list) {
+  AsyncStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list)).catch(() => {});
+}
 
 export async function loadSettings() {
   try {
@@ -72,7 +88,7 @@ export function persistSettings(settings) {
 
 // Wipes the downloaded feed, saved articles and read markers. Settings are kept.
 export function clearUserData() {
-  return AsyncStorage.multiRemove([CACHE_KEY, SAVED_KEY, SEEN_KEY]).catch(() => {});
+  return AsyncStorage.multiRemove([CACHE_KEY, SAVED_KEY, SEEN_KEY, COLLECTIONS_KEY]).catch(() => {});
 }
 
 export const articleKey = (a) => a.pmid || a.url;

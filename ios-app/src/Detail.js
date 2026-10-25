@@ -4,6 +4,8 @@ import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
 import { Chip, tap } from "./components";
+import CollectionsSheet from "./Collections";
+import { articleKey } from "./data";
 import { IMPACT_LABELS, impactScore } from "./evidence";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
@@ -73,6 +75,9 @@ function Abstract({ text }) {
 export default function Detail({ article: a, saved, onToggleSave }) {
   const t = useTheme();
   const insets = useSafeAreaInsets();
+  const { seen, markSeen, markUnread } = useStore();
+  const [sheet, setSheet] = useState(false);
+  const read = seen.has(articleKey(a));
   const source = a.journal || a.source;
   const authors = Array.isArray(a.authors) ? a.authors : a.author ? [a.author] : [];
   const shownAuthors = authors.length > 5 ? `${authors.slice(0, 5).join(", ")} et al.` : authors.join(", ");
@@ -128,6 +133,18 @@ export default function Detail({ article: a, saved, onToggleSave }) {
         <Text style={[styles.disclaimer, { color: t.textMuted }]}>
           AI summaries and impact ratings (estimated from study design, journal and citations) are reading aids, not clinical advice. Always read the source paper.
         </Text>
+        <Pressable
+          onPress={() => {
+            tap();
+            (read ? markUnread : markSeen)(a);
+          }}
+          hitSlop={8}
+          style={styles.readToggle}
+          accessibilityRole="button"
+        >
+          <Ionicons name={read ? "eye-off-outline" : "checkmark-done"} size={16} color={t.accent} />
+          <Text style={{ color: t.accent, fontWeight: "700" }}>{read ? "Mark as unread" : "Mark as read"}</Text>
+        </Pressable>
       </ScrollView>
 
       <View style={[styles.bar, { backgroundColor: t.surface, borderTopColor: t.border, paddingBottom: Math.max(insets.bottom, 12) }]}>
@@ -141,6 +158,18 @@ export default function Detail({ article: a, saved, onToggleSave }) {
           <Ionicons name={saved ? "bookmark" : "bookmark-outline"} size={18} color={saved ? t.accent : "#fff"} />
           <Text style={[styles.btnText, { color: saved ? t.accent : "#fff" }]}>{saved ? "Saved" : "Save"}</Text>
         </Pressable>
+        {saved ? (
+          <Pressable
+            onPress={() => {
+              tap();
+              setSheet(true);
+            }}
+            style={[styles.icon, { backgroundColor: t.surfaceSoft }]}
+            accessibilityLabel="Add to collection"
+          >
+            <Ionicons name="albums-outline" size={20} color={t.text} />
+          </Pressable>
+        ) : null}
         {url ? (
           <Pressable onPress={() => Linking.openURL(url)} style={[styles.secondary, { backgroundColor: t.surfaceSoft }]}>
             <Ionicons name="open-outline" size={18} color={t.text} />
@@ -155,6 +184,7 @@ export default function Detail({ article: a, saved, onToggleSave }) {
           <Ionicons name="share-outline" size={20} color={t.text} />
         </Pressable>
       </View>
+      <CollectionsSheet visible={sheet} article={a} onClose={() => setSheet(false)} />
     </View>
   );
 }
@@ -175,6 +205,7 @@ const styles = StyleSheet.create({
   text: { fontSize: 16, lineHeight: 24 },
   more: { flexDirection: "row", alignItems: "center", gap: 4, marginTop: 2 },
   disclaimer: { fontSize: 12, textAlign: "center", marginTop: 8 },
+  readToggle: { flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 6, paddingVertical: 8 },
   bar: { position: "absolute", left: 0, right: 0, bottom: 0, flexDirection: "row", gap: 10, paddingHorizontal: 16, paddingTop: 12, borderTopWidth: StyleSheet.hairlineWidth },
   primary: { flex: 1.3, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 7, borderRadius: 14, paddingVertical: 14 },
   secondary: { flex: 1, flexDirection: "row", alignItems: "center", justifyContent: "center", gap: 7, borderRadius: 14, paddingVertical: 14 },

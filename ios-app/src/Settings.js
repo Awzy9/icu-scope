@@ -91,6 +91,20 @@ export default function Settings() {
         </Text>
       </View>
 
+      <View style={[styles.pad, { marginTop: 14 }]}>
+        <Card>
+          <View style={styles.row}>
+            <Text style={[styles.rowLabel, { color: t.text }]}>Hide read articles in lists</Text>
+            <Switch
+              value={settings.hideRead}
+              onValueChange={(on) => updateSettings({ hideRead: on })}
+              trackColor={{ true: t.accent }}
+              accessibilityLabel="Hide read articles in lists"
+            />
+          </View>
+        </Card>
+      </View>
+
       <SectionTitle>Organ systems</SectionTitle>
       <Text style={[styles.hint, { color: t.textMuted }]}>
         Hidden systems are removed from Browse, Latest and Search. Guidelines, trials and other sources stay visible.

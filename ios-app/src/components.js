@@ -41,11 +41,11 @@ function useCardInfo(article) {
   const { seen, savedKeys } = useStore();
   const [tone, icon] = TYPE[article.study_type] || TYPE_DEFAULT;
   const k = articleKey(article);
-  return { t, tone, icon, color: t[tone], isNew: !seen.has(k), saved: savedKeys.has(k) };
+  return { t, tone, icon, color: t[tone], isNew: !seen.has(k), read: seen.has(k), saved: savedKeys.has(k) };
 }
 
 export function ArticleCard({ article, onPress, index = 0 }) {
-  const { t, icon, color, isNew, saved } = useCardInfo(article);
+  const { t, icon, color, isNew, read, saved } = useCardInfo(article);
   const source = article.journal || article.source;
   const blurb = article.ai_rounds_takeaway || article.ai_summary || article.summary;
   return (
@@ -77,7 +77,7 @@ export function ArticleCard({ article, onPress, index = 0 }) {
             {saved ? <Ionicons name="bookmark" size={16} color={t.accent} /> : null}
             {isNew && !saved ? <View style={[styles.dot, { backgroundColor: t.teal }]} /> : null}
           </View>
-          <Text style={[styles.title, { color: t.text }]} numberOfLines={4}>
+          <Text style={[styles.title, { color: read ? t.textSecondary : t.text, fontWeight: read ? "600" : "700" }]} numberOfLines={4}>
             {article.title}
           </Text>
           {blurb ? (
@@ -159,9 +159,9 @@ export function filterOptions(articles) {
     .map(([key, n]) => ({ key, label: FILTER_LABEL[key] || key, n }));
 }
 
-export function FilterBar({ total, options, value, onChange }) {
+export function FilterBar({ total, options, value, onChange, min = 2 }) {
   const t = useTheme();
-  if (options.length < 2) return null;
+  if (options.length < min) return null;
   const all = [{ key: null, label: "All", n: total }, ...options];
   return (
     <View style={{ backgroundColor: t.bg }}>

@@ -3,10 +3,12 @@ import {
   DEFAULT_SETTINGS,
   articleKey,
   clearUserData,
+  loadCollections,
   loadFeed,
   loadSaved,
   loadSeen,
   loadSettings,
+  persistCollections,
   persistSaved,
   persistSeen,
   persistSettings,
@@ -23,6 +25,39 @@ export function StoreProvider({ children }) {
   const [refreshing, setRefreshing] = useState(false);
   const [seen, setSeen] = useState(() => new Set());
   const [settings, setSettings] = useState(DEFAULT_SETTINGS);
+  const [collections, setCollections] = useState([]);
+
+  const updateCollections = useCallback((change) => {
+    setCollections((prev) => {
+      const next = change(prev);
+      persistCollections(next);
+      return next;
+    });
+  }, []);
+
+  const createCollection = useCallback(
+    (name) => {
+      const id = `c${Date.now().toString(36)}`;
+      updateCollections((prev) => [...prev, { id, name: name.trim(), keys: [] }]);
+      return id;
+    },
+    [updateCollections],
+  );
+
+  const deleteCollection = useCallback(
+    (id) => updateCollections((prev) => prev.filter((c) => c.id !== id)),
+    [updateCollections],
+  );
+
+  const toggleInCollection = useCallback(
+    (id, key) =>
+      updateCollections((prev) =>
+        prev.map((c) =>
+          c.id !== id ? c : { ...c, keys: c.keys.includes(key) ? c.keys.filter((k) => k !== key) : [...c.keys, key] },
+        ),
+      ),
+    [updateCollections],
+  );
 
   const updateSettings = useCallback((patch) => {
     setSettings((prev) => {
@@ -36,6 +71,7 @@ export function StoreProvider({ children }) {
     await clearUserData();
     setSaved([]);
     setSeen(new Set());
+    setCollections([]);
   }, []);
 
   const refresh = useCallback(async () => {
@@ -57,6 +93,7 @@ export function StoreProvider({ children }) {
     loadSaved().then(setSaved);
     loadSeen().then((k) => setSeen(new Set(k)));
     loadSettings().then(setSettings);
+    loadCollections().then(setCollections);
   }, [refresh]);
 
   const savedKeys = useMemo(() => new Set(saved.map(articleKey)), [saved]);
@@ -81,6 +118,34 @@ export function StoreProvider({ children }) {
     });
   }, []);
 
-  const value = { settings, updateSettings, clearData, seen, markSeen, feed, offline, error, refreshing, refresh, saved, savedKeys, toggleSave };
+  const markUnread = useCallback((a) => {
+    setSeen((prev) => {
+      const k = articleKey(a);
+      if (!prev.has(k)) return prev;
+      const next = new Set(prev);
+      next.delete(k);
+      persistSeen([...next]);
+      return next;
+    });
+  }, []);
+
+  const markAllSeen = useCallback((list) => {
+    setSeen((prev) => {
+      const next = new Set(prev);
+      list.forEach((a) => next.add(articleKey(a)));
+      persistSeen([...next]);
+      return next;
+    });
+  }, []);
+
+  const value = {
+    collections,
+    createCollection,
+    deleteCollection,
+    toggleInCollection,
+    markUnread,
+    markAllSeen,
+    settings, updateSettings, clearData, seen, markSeen, feed, offline, error, refreshing, refresh, saved, savedKeys, toggleSave,
+  };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }
