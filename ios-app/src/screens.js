@@ -12,10 +12,15 @@ function useOpen(navigation) {
 }
 
 function Loading({ hero }) {
-  const { error } = useStore();
+  const { error, refresh } = useStore();
   if (error)
     return (
-      <Empty icon="cloud-offline-outline" title="Can't load articles" hint={`${error}. Check your connection and try again.`} />
+      <Empty
+        icon="cloud-offline-outline"
+        title="Can't load articles"
+        hint={`${error}. Check your connection and try again.`}
+        action={{ label: "Try again", onPress: refresh }}
+      />
     );
   return <SkeletonList hero={hero} />;
 }
@@ -124,6 +129,8 @@ const CAT = {
   pharmacology: ["medkit", "purple"],
 };
 const SECTION_ICON = {
+  trial_results: ["checkmark-done-circle", "green"],
+  trials: ["flask", "teal"],
   guidelines: ["shield-checkmark", "purple"],
   ksa: ["globe", "green"],
   bottom_line: ["bulb", "amber"],
@@ -210,7 +217,10 @@ export function SearchScreen({ navigation }) {
   const [q, setQ] = useState("");
   const open = useOpen(navigation);
   const pool = useMemo(() => (feed ? allArticles(feed) : []), [feed]);
-  const results = useMemo(() => searchArticles(pool, q), [pool, q]);
+  const [type, setType] = useState(null);
+  const found = useMemo(() => searchArticles(pool, q), [pool, q]);
+  const options = useMemo(() => filterOptions(found), [found]);
+  const results = useMemo(() => (type ? found.filter((a) => a.study_type === type) : found), [found, type]);
 
   return (
     <View style={{ flex: 1 }}>
@@ -218,7 +228,10 @@ export function SearchScreen({ navigation }) {
         <Ionicons name="search" size={18} color={t.textMuted} />
         <TextInput
           value={q}
-          onChangeText={setQ}
+          onChangeText={(v) => {
+            setQ(v);
+            setType(null);
+          }}
           placeholder="Search titles, abstracts, authors"
           placeholderTextColor={t.textMuted}
           autoCorrect={false}
@@ -230,6 +243,7 @@ export function SearchScreen({ navigation }) {
       <FlatList
         data={results}
         keyboardDismissMode="on-drag"
+        ListHeaderComponent={<FilterBar total={found.length} options={options} value={type} onChange={setType} />}
         keyExtractor={(a, i) => `${articleKey(a)}-${i}`}
         renderItem={({ item, index }) => <ArticleCard article={item} onPress={open} index={index} />}
         ListEmptyComponent={

@@ -236,7 +236,7 @@ export function SkeletonList({ hero = false }) {
   );
 }
 
-export function Empty({ title, hint, icon = "documents-outline" }) {
+export function Empty({ title, hint, icon = "documents-outline", action }) {
   const t = useTheme();
   return (
     <View style={styles.empty}>
@@ -245,11 +245,18 @@ export function Empty({ title, hint, icon = "documents-outline" }) {
       </View>
       <Text style={[styles.emptyTitle, { color: t.text }]}>{title}</Text>
       {hint ? <Text style={[styles.body, { color: t.textMuted, textAlign: "center" }]}>{hint}</Text> : null}
+      {action ? (
+        <Pressable onPress={action.onPress} style={[styles.retry, { backgroundColor: t.accent }]}>
+          <Text style={styles.retryText}>{action.label}</Text>
+        </Pressable>
+      ) : null}
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  retry: { marginTop: 16, borderRadius: 12, paddingHorizontal: 20, paddingVertical: 11 },
+  retryText: { color: "#fff", fontWeight: "700", fontSize: 15 },
   card: {
     flexDirection: "row",
     borderWidth: StyleSheet.hairlineWidth,
