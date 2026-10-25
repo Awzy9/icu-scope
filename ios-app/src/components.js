@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
 import { Animated, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
@@ -23,7 +23,7 @@ export function Chip({ label, tone = "accent", icon }) {
 
 // Fades and slides content in on mount; `index` staggers list items a little.
 function FadeIn({ index = 0, children, style }) {
-  const v = useRef(new Animated.Value(0)).current;
+  const [v] = useState(() => new Animated.Value(0));
   useEffect(() => {
     Animated.timing(v, { toValue: 1, duration: 320, delay: Math.min(index, 6) * 45, useNativeDriver: true }).start();
   }, [v, index]);
@@ -205,7 +205,7 @@ export function SectionTitle({ children, action, onAction }) {
 
 function Bone({ style }) {
   const t = useTheme();
-  const v = useRef(new Animated.Value(0.45)).current;
+  const [v] = useState(() => new Animated.Value(0.45));
   useEffect(() => {
     const loop = Animated.loop(
       Animated.sequence([

@@ -57,7 +57,7 @@ const SETTINGS_KEY = "settings:v1";
 
 const COLLECTIONS_KEY = "collections:v1";
 
-export const DEFAULT_SETTINGS = { appearance: "system", textScale: 1, hiddenCategories: [], hideRead: false };
+export const DEFAULT_SETTINGS = { appearance: "system", textScale: 1, hiddenCategories: [], hideRead: false, onboarded: false };
 
 // Collections hold article keys, not copies; the articles themselves live in the saved list.
 export async function loadCollections() {

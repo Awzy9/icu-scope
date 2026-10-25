@@ -22,9 +22,10 @@ export function StoreProvider({ children }) {
   const [offline, setOffline] = useState(false);
   const [error, setError] = useState(null);
   const [saved, setSaved] = useState([]);
-  const [refreshing, setRefreshing] = useState(false);
+  const [refreshing, setRefreshing] = useState(true);
   const [seen, setSeen] = useState(() => new Set());
   const [settings, setSettings] = useState(DEFAULT_SETTINGS);
+  const [ready, setReady] = useState(false);
   const [collections, setCollections] = useState([]);
 
   const updateCollections = useCallback((change) => {
@@ -74,8 +75,7 @@ export function StoreProvider({ children }) {
     setCollections([]);
   }, []);
 
-  const refresh = useCallback(async () => {
-    setRefreshing(true);
+  const load = useCallback(async () => {
     try {
       const r = await loadFeed();
       setFeed(r.feed);
@@ -88,13 +88,23 @@ export function StoreProvider({ children }) {
     }
   }, []);
 
+  const refresh = useCallback(() => {
+    setRefreshing(true);
+    return load();
+  }, [load]);
+
+  // `refreshing` starts true, so the first load needs no synchronous state change here.
   useEffect(() => {
-    refresh();
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- initial load; state is only set after the awaited fetch
+    load();
     loadSaved().then(setSaved);
     loadSeen().then((k) => setSeen(new Set(k)));
-    loadSettings().then(setSettings);
+    loadSettings().then((s) => {
+      setSettings(s);
+      setReady(true);
+    });
     loadCollections().then(setCollections);
-  }, [refresh]);
+  }, [load]);
 
   const savedKeys = useMemo(() => new Set(saved.map(articleKey)), [saved]);
 
@@ -139,6 +149,7 @@ export function StoreProvider({ children }) {
   }, []);
 
   const value = {
+    ready,
     collections,
     createCollection,
     deleteCollection,

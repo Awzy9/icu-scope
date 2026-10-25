@@ -154,7 +154,8 @@ export default function Settings() {
         <Card>
           <Row icon="information-circle-outline" label="Version" detail={app.expo.version} />
           <Row icon="shield-checkmark-outline" label="Privacy policy" onPress={() => Linking.openURL(`${SITE}/privacy`)} />
-          <Row icon="help-buoy-outline" label="Support and feedback" onPress={() => Linking.openURL(`${SITE}/support`)} last />
+          <Row icon="help-buoy-outline" label="Support and feedback" onPress={() => Linking.openURL(`${SITE}/support`)} />
+          <Row icon="sparkles-outline" label="Show welcome screen again" onPress={() => updateSettings({ onboarded: false })} last />
         </Card>
         <Text style={[styles.hint, { color: t.textMuted, paddingHorizontal: 4 }]}>
           ICU Scope summarizes published literature. AI summaries and impact ratings are reading aids, not clinical advice.

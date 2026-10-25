@@ -9,6 +9,8 @@ import { SafeAreaProvider } from "react-native-safe-area-context";
 import { StoreProvider, useStore } from "./src/store";
 import { useIsDark, useTheme } from "./src/theme";
 import Settings from "./src/Settings";
+import ErrorBoundary from "./src/ErrorBoundary";
+import Onboarding from "./src/Onboarding";
 import { articleKey } from "./src/data";
 import Detail from "./src/Detail";
 import { BrowseScreen, ListScreen, SavedScreen, SearchScreen, TodayScreen } from "./src/screens";
@@ -16,9 +18,12 @@ import { BrowseScreen, ListScreen, SavedScreen, SearchScreen, TodayScreen } from
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
-const icon = (name) => ({ color, focused, size }) => (
-  <Ionicons name={focused ? name : `${name}-outline`} size={size} color={color} />
-);
+const icon = (name) => {
+  const TabIcon = ({ color, focused, size }) => (
+    <Ionicons name={focused ? name : `${name}-outline`} size={size} color={color} />
+  );
+  return TabIcon;
+};
 
 function Brand() {
   const t = useTheme();
@@ -61,17 +66,32 @@ function DetailScreen({ route }) {
   useEffect(() => {
     markSeen(a);
   }, [a, markSeen]);
-  return <Detail article={a} saved={savedKeys.has(articleKey(a))} onToggleSave={toggleSave} />;
+  return (
+    <ErrorBoundary>
+      <Detail article={a} saved={savedKeys.has(articleKey(a))} onToggleSave={toggleSave} />
+    </ErrorBoundary>
+  );
 }
 
 function Root() {
   const t = useTheme();
   const dark = useIsDark();
+  const { ready, settings } = useStore();
   const base = dark ? DarkTheme : DefaultTheme;
   const navTheme = {
     ...base,
     colors: { ...base.colors, background: t.bg, card: t.bg, text: t.text, border: t.border, primary: t.accent },
   };
+  // Hold the first frame until stored settings are read, so returning users never flash the welcome screen.
+  if (!ready) return <View style={{ flex: 1, backgroundColor: t.bg }} />;
+  if (!settings.onboarded) {
+    return (
+      <>
+        <StatusBar style={dark ? "light" : "dark"} />
+        <Onboarding />
+      </>
+    );
+  }
   return (
     <NavigationContainer theme={navTheme}>
       <StatusBar style={dark ? "light" : "dark"} />
@@ -86,10 +106,12 @@ function Root() {
 
 export default function App() {
   return (
-    <SafeAreaProvider>
-      <StoreProvider>
-        <Root />
-      </StoreProvider>
-    </SafeAreaProvider>
+    <ErrorBoundary>
+      <SafeAreaProvider>
+        <StoreProvider>
+          <Root />
+        </StoreProvider>
+      </SafeAreaProvider>
+    </ErrorBoundary>
   );
 }
