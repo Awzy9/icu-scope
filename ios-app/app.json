@@ -18,6 +18,12 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d5ea602b-6fd5-4dc1-9faa-6b91a29bc722"
+      }
+    },
+    "owner": "awzy9s-team"
   }
 }
