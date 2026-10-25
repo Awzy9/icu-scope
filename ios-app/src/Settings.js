@@ -3,6 +3,7 @@ import { Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from "
 import { Ionicons } from "@expo/vector-icons";
 import app from "../app.json";
 import { SectionTitle, tap } from "./components";
+import { REMINDER_HOURS, cancelReminder, enableReminder, remindersSupported, scheduleReminder } from "./reminders";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
 
@@ -69,6 +70,23 @@ export default function Settings() {
   const t = useTheme();
   const { settings, updateSettings, feed, refresh, refreshing, clearData } = useStore();
   const [confirmClear, setConfirmClear] = useState(false);
+  const [reminderDenied, setReminderDenied] = useState(false);
+  const { enabled: reminderOn, hour: reminderHour } = settings.reminder;
+
+  const toggleReminder = async (on) => {
+    setReminderDenied(false);
+    if (!on) {
+      await cancelReminder();
+      return updateSettings({ reminder: { enabled: false, hour: reminderHour } });
+    }
+    const { ok } = await enableReminder(reminderHour);
+    if (ok) updateSettings({ reminder: { enabled: true, hour: reminderHour } });
+    else setReminderDenied(true);
+  };
+  const changeReminderHour = async (hour) => {
+    await scheduleReminder(hour);
+    updateSettings({ reminder: { enabled: true, hour } });
+  };
   const hidden = settings.hiddenCategories;
   const toggleCategory = (id, shown) =>
     updateSettings({ hiddenCategories: shown ? hidden.filter((x) => x !== id) : [...hidden, id] });
@@ -104,6 +122,39 @@ export default function Settings() {
           </View>
         </Card>
       </View>
+
+      {remindersSupported ? (
+        <>
+          <SectionTitle>Reminder</SectionTitle>
+          <View style={styles.pad}>
+            <Card>
+              <View style={styles.row}>
+                <Text style={[styles.rowLabel, { color: t.text }]}>Daily reading reminder</Text>
+                <Switch
+                  value={reminderOn}
+                  onValueChange={toggleReminder}
+                  trackColor={{ true: t.accent }}
+                  accessibilityLabel="Daily reading reminder"
+                />
+              </View>
+            </Card>
+            {reminderOn ? (
+              <View style={{ marginTop: 10 }}>
+                <Segmented
+                  options={REMINDER_HOURS}
+                  value={reminderHour}
+                  onChange={changeReminderHour}
+                />
+              </View>
+            ) : null}
+            <Text style={[styles.hint, { color: reminderDenied ? t.rose : t.textMuted, paddingHorizontal: 4 }]}>
+              {reminderDenied
+                ? "Notifications are turned off for ICU Scope. Enable them in the iOS Settings app, then try again."
+                : "A once-a-day nudge on this device. No account or server involved."}
+            </Text>
+          </View>
+        </>
+      ) : null}
 
       <SectionTitle>Organ systems</SectionTitle>
       <Text style={[styles.hint, { color: t.textMuted }]}>
