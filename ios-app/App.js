@@ -1,4 +1,5 @@
-import { Text } from "react-native";
+import { Image, Text, View } from "react-native";
+import { Ionicons } from "@expo/vector-icons";
 import { StatusBar } from "expo-status-bar";
 import { NavigationContainer, DefaultTheme, DarkTheme } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
@@ -14,7 +15,21 @@ import { useColorScheme } from "react-native";
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
 
-const icon = (glyph) => ({ color }) => <Text style={{ fontSize: 20, color }}>{glyph}</Text>;
+const icon = (name) => ({ color, focused, size }) => (
+  <Ionicons name={focused ? name : `${name}-outline`} size={size} color={color} />
+);
+
+function Brand() {
+  const t = useTheme();
+  return (
+    <View style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
+      <Image source={require("./assets/icon.png")} style={{ width: 30, height: 30, borderRadius: 8 }} />
+      <Text style={{ fontSize: 20, fontWeight: "800", color: t.text, letterSpacing: -0.3 }}>
+        ICU <Text style={{ color: t.teal }}>Scope</Text>
+      </Text>
+    </View>
+  );
+}
 
 function Tabs() {
   const t = useTheme();
@@ -25,14 +40,15 @@ function Tabs() {
         tabBarInactiveTintColor: t.textMuted,
         tabBarStyle: { backgroundColor: t.surface, borderTopColor: t.border },
         headerStyle: { backgroundColor: t.bg },
+        tabBarLabelStyle: { fontSize: 11, fontWeight: "600" },
         headerTitleStyle: { color: t.text, fontWeight: "800" },
         headerShadowVisible: false,
       }}
     >
-      <Tab.Screen name="Today" component={TodayScreen} options={{ title: "ICU Scope", tabBarLabel: "Today", tabBarIcon: icon("🫀") }} />
-      <Tab.Screen name="Browse" component={BrowseScreen} options={{ tabBarIcon: icon("🗂️") }} />
-      <Tab.Screen name="Search" component={SearchScreen} options={{ tabBarIcon: icon("🔍") }} />
-      <Tab.Screen name="Saved" component={SavedScreen} options={{ tabBarIcon: icon("★") }} />
+      <Tab.Screen name="Today" component={TodayScreen} options={{ headerTitle: () => <Brand />, headerTitleAlign: "left", tabBarLabel: "Today", tabBarIcon: icon("home") }} />
+      <Tab.Screen name="Browse" component={BrowseScreen} options={{ tabBarIcon: icon("grid") }} />
+      <Tab.Screen name="Search" component={SearchScreen} options={{ tabBarIcon: icon("search") }} />
+      <Tab.Screen name="Saved" component={SavedScreen} options={{ tabBarIcon: icon("bookmark") }} />
     </Tab.Navigator>
   );
 }

@@ -1,6 +1,8 @@
 import { useMemo, useState } from "react";
 import { ActivityIndicator, FlatList, Pressable, RefreshControl, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
-import { ArticleCard, Chip, Empty, SectionTitle, tap } from "./components";
+import { Ionicons } from "@expo/vector-icons";
+import { LinearGradient } from "expo-linear-gradient";
+import { ArticleCard, Empty, SectionTitle, tap } from "./components";
 import { allArticles, articleKey, buildSections, searchArticles } from "./data";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
@@ -14,7 +16,7 @@ function Loading() {
   const t = useTheme();
   if (error)
     return (
-      <Empty title="Can't load articles" hint={`${error}. Check your connection and try again.`} />
+      <Empty icon="cloud-offline-outline" title="Can't load articles" hint={`${error}. Check your connection and try again.`} />
     );
   return (
     <View style={styles.center}>
@@ -49,13 +51,23 @@ export function TodayScreen({ navigation }) {
       {spot ? (
         <Pressable
           onPress={() => open(spotArticle || { title: spot.title, pmid: spot.pmid, url: spot.url, journal: "", pubdate: spot.pubdate, study_type: spot.study_type, summary: spot.why_selected })}
-          style={[styles.hero, { backgroundColor: t.accent }]}
+          style={({ pressed }) => [styles.heroWrap, { transform: [{ scale: pressed ? 0.985 : 1 }] }]}
         >
-          <Text style={styles.heroKicker}>⭐ ARTICLE OF THE WEEK</Text>
-          <Text style={styles.heroTitle} numberOfLines={4}>{spot.title}</Text>
-          {spot.why_selected ? (
-            <Text style={styles.heroBody} numberOfLines={4}>{spot.why_selected}</Text>
-          ) : null}
+          <LinearGradient colors={t.gradient} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.hero}>
+            <View style={styles.heroPill}>
+              <Ionicons name="star" size={12} color="#fff" />
+              <Text style={styles.heroKicker}>ARTICLE OF THE WEEK</Text>
+            </View>
+            <Text style={styles.heroTitle} numberOfLines={4}>{spot.title}</Text>
+            <View style={styles.heroFoot}>
+              <Text style={styles.heroMeta} numberOfLines={1}>
+                {[spot.study_type, spot.journal].filter(Boolean).join("  ·  ")}
+              </Text>
+              <View style={styles.heroGo}>
+                <Ionicons name="arrow-forward" size={16} color="#0b3d91" />
+              </View>
+            </View>
+          </LinearGradient>
         </Pressable>
       ) : null}
 
@@ -81,46 +93,77 @@ export function TodayScreen({ navigation }) {
   );
 }
 
+const CAT = {
+  cardiovascular: ["heart", "rose"],
+  respiratory: ["cloud", "accent"],
+  neurology: ["flash", "purple"],
+  renal: ["water", "teal"],
+  "gi-nutrition": ["nutrition", "green"],
+  "endocrine-metabolic": ["flask", "amber"],
+  "infectious-sepsis": ["bug", "rose"],
+  "hematology-coag": ["color-fill", "rose"],
+  "trauma-surgical": ["bandage", "amber"],
+  "procedures-pocus": ["pulse", "accent"],
+  pharmacology: ["medkit", "purple"],
+};
+const SECTION_ICON = {
+  guidelines: ["shield-checkmark", "purple"],
+  ksa: ["globe", "green"],
+  bottom_line: ["bulb", "amber"],
+  foamed: ["mic", "teal"],
+  preprints: ["document-text", "textMuted"],
+};
+
+function Tile({ icon, tone, label, count, onPress }) {
+  const t = useTheme();
+  return (
+    <Pressable
+      onPress={() => {
+        tap();
+        onPress();
+      }}
+      style={({ pressed }) => [
+        styles.tile,
+        { backgroundColor: t.surface, borderColor: t.border, transform: [{ scale: pressed ? 0.97 : 1 }] },
+      ]}
+    >
+      <View style={[styles.tileIcon, { backgroundColor: t[`${tone}Soft`] || t.surfaceSoft }]}>
+        <Ionicons name={icon} size={22} color={t[tone]} />
+      </View>
+      <Text style={[styles.tileLabel, { color: t.text }]} numberOfLines={2}>{label}</Text>
+      <Text style={[styles.tileCount, { color: t.textMuted }]}>{count} articles</Text>
+    </Pressable>
+  );
+}
+
 export function BrowseScreen({ navigation }) {
   const { feed, refreshing, refresh } = useStore();
   const t = useTheme();
   const sections = useMemo(() => (feed ? buildSections(feed) : []), [feed]);
   if (!feed) return <Loading />;
-
-  const rows = [
-    ...feed.categories.map((c) => ({ id: c.id, label: c.label, icon: c.abbr, articles: c.articles, tone: "accent" })),
-    ...sections.map((s) => ({ ...s, tone: "purple" })),
-  ];
+  const go = (title, articles) => navigation.navigate("List", { title, articles });
 
   return (
-    <FlatList
-      data={rows}
-      keyExtractor={(r) => r.id}
+    <ScrollView
       contentInsetAdjustmentBehavior="automatic"
       refreshControl={<RefreshControl refreshing={refreshing} onRefresh={refresh} tintColor={t.accent} />}
-      contentContainerStyle={{ padding: 16, gap: 8 }}
-      renderItem={({ item }) => (
-        <Pressable
-          onPress={() => {
-            tap();
-            navigation.navigate("List", { title: item.label, articles: item.articles });
-          }}
-          style={({ pressed }) => [
-            styles.row,
-            { backgroundColor: t.surface, borderColor: t.border, opacity: pressed ? 0.7 : 1 },
-          ]}
-        >
-          <View style={[styles.badge, { backgroundColor: t[`${item.tone}Soft`] }]}>
-            <Text style={{ color: t[item.tone], fontWeight: "800", fontSize: item.icon.length > 3 ? 18 : 13 }}>
-              {item.icon}
-            </Text>
-          </View>
-          <Text style={[styles.rowLabel, { color: t.text }]} numberOfLines={1}>{item.label}</Text>
-          <Text style={{ color: t.textMuted }}>{item.articles.length}</Text>
-          <Text style={{ color: t.textMuted, fontSize: 18 }}>›</Text>
-        </Pressable>
-      )}
-    />
+      contentContainerStyle={{ paddingBottom: 30 }}
+    >
+      <SectionTitle>Organ systems</SectionTitle>
+      <View style={styles.grid}>
+        {feed.categories.map((c) => {
+          const [icon, tone] = CAT[c.id] || ["medical", "accent"];
+          return <Tile key={c.id} icon={icon} tone={tone} label={c.label} count={c.articles.length} onPress={() => go(c.label, c.articles)} />;
+        })}
+      </View>
+      <SectionTitle>More sources</SectionTitle>
+      <View style={styles.grid}>
+        {sections.map((s) => {
+          const [icon, tone] = SECTION_ICON[s.id] || ["document-text", "accent"];
+          return <Tile key={s.id} icon={icon} tone={tone} label={s.label} count={s.articles.length} onPress={() => go(s.label, s.articles)} />;
+        })}
+      </View>
+    </ScrollView>
   );
 }
 
@@ -152,16 +195,19 @@ export function SearchScreen({ navigation }) {
 
   return (
     <View style={{ flex: 1 }}>
-      <TextInput
-        value={q}
-        onChangeText={setQ}
-        placeholder="Search titles, abstracts, authors"
-        placeholderTextColor={t.textMuted}
-        autoCorrect={false}
-        clearButtonMode="while-editing"
-        returnKeyType="search"
-        style={[styles.input, { backgroundColor: t.surfaceSoft, color: t.text }]}
-      />
+      <View style={[styles.searchBox, { backgroundColor: t.surface, borderColor: t.border, borderWidth: StyleSheet.hairlineWidth }]}>
+        <Ionicons name="search" size={18} color={t.textMuted} />
+        <TextInput
+          value={q}
+          onChangeText={setQ}
+          placeholder="Search titles, abstracts, authors"
+          placeholderTextColor={t.textMuted}
+          autoCorrect={false}
+          clearButtonMode="while-editing"
+          returnKeyType="search"
+          style={[styles.input, { color: t.text }]}
+        />
+      </View>
       <FlatList
         data={results}
         keyboardDismissMode="on-drag"
@@ -171,9 +217,9 @@ export function SearchScreen({ navigation }) {
         )}
         ListEmptyComponent={
           q.trim() ? (
-            <Empty title="No matches" hint="Try fewer or different words." />
+            <Empty icon="search-outline" title="No matches" hint="Try fewer or different words." />
           ) : (
-            <Empty title="Search the literature" hint={`${pool.length} articles from the last few months.`} />
+            <Empty icon="search-outline" title="Search the literature" hint={`${pool.length} articles from the last few months.`} />
           )
         }
       />
@@ -194,7 +240,7 @@ export function SavedScreen({ navigation }) {
         <ArticleCard article={item} onPress={open} saved={savedKeys.has(articleKey(item))} />
       )}
       ListEmptyComponent={
-        <Empty title="No saved articles" hint="Tap ☆ Save on any article to keep it here, even offline." />
+        <Empty icon="bookmark-outline" title="No saved articles" hint="Tap Save on any article to keep it here, even offline." />
       }
     />
   );
@@ -203,12 +249,19 @@ export function SavedScreen({ navigation }) {
 const styles = StyleSheet.create({
   center: { flex: 1, alignItems: "center", justifyContent: "center" },
   banner: { textAlign: "center", paddingVertical: 8, fontWeight: "600", fontSize: 13 },
-  hero: { margin: 16, borderRadius: 20, padding: 18, gap: 8 },
-  heroKicker: { color: "#d8f5ec", fontWeight: "800", fontSize: 12, letterSpacing: 0.8 },
-  heroTitle: { color: "#fff", fontSize: 21, fontWeight: "800", lineHeight: 27 },
-  heroBody: { color: "#e6f5f1", fontSize: 14, lineHeight: 20 },
-  row: { flexDirection: "row", alignItems: "center", gap: 12, padding: 12, borderRadius: 16, borderWidth: StyleSheet.hairlineWidth },
-  badge: { width: 44, height: 44, borderRadius: 12, alignItems: "center", justifyContent: "center" },
-  rowLabel: { flex: 1, fontSize: 16.5, fontWeight: "600" },
-  input: { margin: 16, marginBottom: 12, borderRadius: 12, paddingHorizontal: 14, paddingVertical: 11, fontSize: 16 },
+  heroWrap: { marginHorizontal: 16, marginTop: 8, marginBottom: 6, borderRadius: 24, overflow: "hidden" },
+  hero: { padding: 20, gap: 14 },
+  heroPill: { flexDirection: "row", alignItems: "center", gap: 5, alignSelf: "flex-start", backgroundColor: "rgba(255,255,255,0.18)", borderRadius: 999, paddingHorizontal: 10, paddingVertical: 5 },
+  heroKicker: { color: "#fff", fontWeight: "800", fontSize: 11, letterSpacing: 0.9 },
+  heroTitle: { color: "#fff", fontSize: 21, fontWeight: "800", lineHeight: 27, letterSpacing: -0.3 },
+  heroFoot: { flexDirection: "row", alignItems: "center", gap: 12 },
+  heroMeta: { flex: 1, color: "rgba(255,255,255,0.82)", fontSize: 13, fontWeight: "500" },
+  heroGo: { width: 34, height: 34, borderRadius: 17, backgroundColor: "#fff", alignItems: "center", justifyContent: "center" },
+  grid: { flexDirection: "row", flexWrap: "wrap", paddingHorizontal: 12 },
+  tile: { width: "47%", flexGrow: 1, margin: 4, borderRadius: 18, borderWidth: StyleSheet.hairlineWidth, padding: 14, gap: 4, minHeight: 124 },
+  tileIcon: { width: 42, height: 42, borderRadius: 13, alignItems: "center", justifyContent: "center", marginBottom: 8 },
+  tileLabel: { fontSize: 15.5, fontWeight: "700", lineHeight: 20 },
+  tileCount: { fontSize: 12.5 },
+  searchBox: { flexDirection: "row", alignItems: "center", gap: 8, margin: 16, marginBottom: 12, borderRadius: 14, paddingHorizontal: 12 },
+  input: { flex: 1, paddingVertical: 12, fontSize: 16 },
 });
