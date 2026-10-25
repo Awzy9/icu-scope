@@ -1,6 +1,6 @@
 # ICU Scope – iOS (Expo + EAS)
 
-Thin native wrapper that loads the hosted site (`https://icu-scope.vercel.app`) in a WebView, mirroring `../android-app`. Feed updates ship via the website; the app itself only needs rebuilding for native changes.
+Native React Native (Expo) app. It reads the site's published feed (`https://icu-scope.vercel.app/data/articles.json`), so the daily GitHub Action updates reach the app without a rebuild. Tabs: Today (article of the week, this week, trending), Browse (organ systems, guidelines, KSA research, Bottom Line, FOAMed, preprints), Search, and Saved. Saved articles and the last downloaded feed are stored on the device, so the app opens offline. Follows the system light/dark setting.
 
 ## Build
 
@@ -17,5 +17,3 @@ eas submit --platform ios --profile production # upload to App Store Connect / T
 ```
 
 EAS manages certificates and provisioning profiles; bundle ID is `com.awzy9.icuscope`. Use `--profile development` for a simulator build.
-
-Note: App Store review (guideline 4.2) can reject apps that are only a website wrapper; consider adding native value (e.g. push notifications, offline saved articles) before submitting.
