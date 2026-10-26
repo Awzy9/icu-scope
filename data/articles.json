@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:55:26+00:00",
+  "generated_at": "2026-10-26T08:15:56+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -401,9 +401,7 @@
         "pubdate": "2026-09-23",
         "summary": "Pulse-dose methylprednisolone is common across many medical fields (defined here as giving ≧500 mg methylprednisolone daily for ≧3 days). However, providing such a high dose of steroids may increase the risk of steroid-related complications (especially invasive fungal infections). What is the evidence behind this practice? I searched the medical literature for RCTs meeting the following […] EMCrit",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "The Case of the Obscured Bias",
@@ -513,9 +511,7 @@
         "pubdate": "2026-08-24",
         "summary": "The chloride saga continues... EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality",
@@ -525,9 +521,7 @@
         "pubdate": "2026-08-24",
         "summary": "Is there any moderate or high-level evidence that SEP-1 compliance and/or implementation is associated with improvement in sepsis mortality? The post Effect of Sepsis Bundle (SEP-1) Compliance and Implementation on Mortality appeared first on REBEL EM - Emergency Medicine Blog .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "EMCrit 432 – Members’ Airway Cases and Q&A",
@@ -1371,9 +1365,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13581271/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42776136/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42767105",
@@ -1612,7 +1604,9 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42788693/",
-        "society": "ESICM"
+        "society": "ESICM",
+        "link_broken": true,
+        "link_broken_kind": "doi"
       },
       {
         "pmid": "42640090",
@@ -6648,9 +6642,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07782216",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07782216"
       },
       {
         "title": "Phase 2a Multiple Ascending Dose Study in Hospitalized Patients With Pneumonia.",
@@ -6746,9 +6738,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06501118",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06501118"
       },
       {
         "title": "Observational, Non-interventional Biomarker and Endotyping Study",
@@ -6876,7 +6866,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04353804"
+        "nct_id": "NCT04353804",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Continuous Renal Replacement Therapy Circuit Lifespan in Intensive Care Patients",
@@ -6888,7 +6880,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07842562"
+        "nct_id": "NCT07842562",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Clinical Trial of Interventions to Support Family Surrogates of Critically Ill Patients",
@@ -6900,7 +6894,9 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05587517"
+        "nct_id": "NCT05587517",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Prevelance of Klebsiella Pneumonie in the Respiratory ICU",
@@ -6912,7 +6908,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07841288"
+        "nct_id": "NCT07841288",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Molecular-based Optimization of Pathogen Identification in Sepsis Patients in the Indonesian National Referral Hospital",
@@ -6924,7 +6922,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07841535"
+        "nct_id": "NCT07841535",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Bronchoscopic Versus Airway Exchange Catheter-Guided Endotracheal Tube Exchange",
@@ -6936,7 +6936,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07706309"
+        "nct_id": "NCT07706309",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Controlled Versus Standard Oxygen Therapy in ICU Patients With Acute Exacerbation of COPD",
@@ -6948,7 +6950,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07842510"
+        "nct_id": "NCT07842510",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of an On-site Simulation-based Training Programme on Adherence to Standard Precautions and Healthcare-associated Infections in Adult Intensive Care",
@@ -6984,7 +6988,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07839949"
+        "nct_id": "NCT07839949",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Vancomycin Reduction Practices (VRP) in the NICU",
@@ -6996,7 +7002,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06772675"
+        "nct_id": "NCT06772675",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Al Prediction of Sarcopenia Risk in Neurocritical ICU Patients",
@@ -7008,7 +7016,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07712198"
+        "nct_id": "NCT07712198",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of Protocolized Magnesium Replacement on Mortality and Atrial Fibrillation in Critically Ill Patients",
@@ -7020,7 +7030,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07173855"
+        "nct_id": "NCT07173855",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Antibiotic Duration and Outcomes in High-Risk Febrile Neutropenia Patients",
@@ -7032,7 +7044,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07372131"
+        "nct_id": "NCT07372131",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Dabigatran vs. Oral Anti-Xa Inhibitors in S. Aureus Bacteremia",
@@ -7044,7 +7058,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06650501"
+        "nct_id": "NCT06650501",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Pupillometry in Critical Care",
@@ -7056,7 +7072,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07838350"
+        "nct_id": "NCT07838350",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
@@ -7080,9 +7098,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07642076",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07642076"
       },
       {
         "title": "Immune Responses to Dengue and Sepsis",
@@ -7094,9 +7110,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07040202",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07040202"
       },
       {
         "title": "Assessing Immune Dysfunction in Sepsis",
@@ -7108,9 +7122,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07154615",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07154615"
       },
       {
         "title": "PERMISSive Lung-protective Ventilation RCT",
@@ -7122,9 +7134,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07837128",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07837128"
       },
       {
         "title": "Clinical Efficacy of Ulinastatin for Treatment of Sepsis With Systemic Inflammatory Response Syndrome",
@@ -7136,9 +7146,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05391789",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05391789"
       },
       {
         "title": "A Korean Point Prevalence Study of Acute Rehabilitation for Kids in the PICU (PARK-PICU)",
@@ -7150,9 +7158,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07629297",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07629297"
       },
       {
         "title": "Preventive Narrative Exposure Intervention for PTSD in ICU Patients After Cardiopulmonary Bypass Cardiac Surgery",
@@ -7252,9 +7258,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07124741",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07124741"
       },
       {
         "title": "Impact of Diagnostic and Therapeutic Upper and Lower Gastrointestinal Endoscopic Management on Critically Ill Patients in Fayoum University Hospitals",
@@ -8730,9 +8734,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07781540",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07781540"
       },
       {
         "title": "AI Assisted Preoperative Assessment for ASA Classification and ICU Admission",
@@ -8744,9 +8746,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07783334",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07783334"
       },
       {
         "title": "Samu Save Sepsis: Early Goal Directed Therapy in Pre Hospital Care of Patients With Severe Sepsis and/or Septic Shock",
@@ -8758,9 +8758,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT02473263",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT02473263"
       },
       {
         "title": "Effects of Paroxetine on Cardiovascular Function in Septic Patients",
@@ -8772,9 +8770,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05725837",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05725837"
       },
       {
         "title": "Exogenous Ketone Supplementation in ICU Delirium",
@@ -8786,9 +8782,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07364162",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07364162"
       },
       {
         "title": "Dynamics of Organ Damage and Immune Exhaustion During Sepsis",
@@ -8800,9 +8794,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06817408",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06817408"
       },
       {
         "title": "Multi-Component Delirium Prevention Bundle in Older Cardiac Intensive Care Unit Patients",
@@ -9446,9 +9438,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the effectiveness of an app-based delirium education program for ICU nurses. The program aimed to enhance nurses' knowledge, learning self-efficacy, and clinical reasoning regarding delirium. The study found that the app intervention had a positive impact on nurses' knowledge and learning self-efficacy.",
         "ai_significance": "This study highlights the potential of app-based education to improve ICU nurses' knowledge and skills in delirium management, which is crucial for providing high-quality patient care.",
-        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using an app-based delirium education program for ICU nurses to enhance their knowledge and learning self-efficacy."
       },
       {
         "title": "Hemoglobin Trends as a Predictor of Outcomes in Critically Ill Patients (The TRENT-ICU Study)",
@@ -9464,9 +9454,7 @@
         "ai_key_stats": "",
         "ai_summary": "This observational study examined if early hemoglobin decline in critically ill patients can predict longer ICU stays and in-hospital mortality. The study found that early hemoglobin decline is associated with these outcomes. The study aims to answer two main questions about the relationship between hemoglobin decline and patient outcomes.",
         "ai_significance": "This study's findings have implications for ICU management and may help clinicians identify patients at higher risk of prolonged ICU stays and in-hospital mortality.",
-        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Monitor hemoglobin levels closely in the first 24 hours of ICU admission to identify patients at risk of prolonged ICU stay and in-hospital mortality."
       },
       {
         "title": "Assessment of Reintubation Risk Using Multiple Parameters in Postoperative Intensive Care Unit Patients",
@@ -9482,9 +9470,7 @@
         "ai_key_stats": "n=1200, p=0.01",
         "ai_summary": "This study evaluates the risk of reintubation in postoperative ICU patients using multiple parameters. The study aims to identify factors associated with reintubation after extubation. The study will include adult patients who are extubated in the operating room and admitted to the ICU.",
         "ai_significance": "Understanding the risk of reintubation is crucial for optimizing postoperative care and reducing complications in ICU patients.",
-        "ai_rounds_takeaway": "Consider using multiple parameters to assess reintubation risk in postoperative ICU patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using multiple parameters to assess reintubation risk in postoperative ICU patients."
       },
       {
         "title": "Candida PCR Diagnosis Strategy in Patients From Intensive Care Units",
@@ -9500,9 +9486,7 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers evaluated a new PCR technique for diagnosing invasive candidiasis in ICU patients. The goal was to see if this method could provide faster results, allowing for earlier antifungal treatment. This could help prevent resistance and reduce healthcare costs.",
         "ai_significance": "Early diagnosis of invasive candidiasis is crucial in ICU settings, where timely treatment can improve patient outcomes and reduce the risk of antifungal resistance.",
-        "ai_rounds_takeaway": "Consider using PCR for invasive candidiasis diagnosis in patients with suspected systemic infection.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using PCR for invasive candidiasis diagnosis in patients with suspected systemic infection."
       },
       {
         "title": "Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV",
@@ -9518,9 +9502,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study will test an enhanced mentor mother strategy that uses differentiated service delivery to support pregnant and postpartum women living with HIV in resource-limited settings.",
         "ai_significance": "This study aims to improve the quality and efficiency of HIV care for pregnant and postpartum women in resource-limited settings.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Impact of Procalcitonin-guided Algorithm on Early Discontinuation of Antibiotic Therapy",
@@ -9536,7 +9518,9 @@
         "ai_key_stats": "n=296, RR not reported, ARR not reported, NNT not reported, p=not reported",
         "ai_summary": "This study tested a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children. Patients were randomly assigned to either a PCT-guided group or a standard-of-care group. The study found that the PCT-guided algorithm was used to discontinue antibiotic treatment.",
         "ai_significance": "This study's findings could help reduce antibiotic duration in critically ill children, potentially decreasing antibiotic-related complications and promoting more targeted treatment.",
-        "ai_rounds_takeaway": "Consider using a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children with suspected or proven bacterial infections."
+        "ai_rounds_takeaway": "Consider using a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children with suspected or proven bacterial infections.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "COMPARE-VENT Feasibility Pilot Study",
@@ -9552,7 +9536,9 @@
         "ai_key_stats": "",
         "ai_summary": "The COMPARE-VENT Feasibility Pilot Study explored the challenges of cardiac intensive care unit (CICU) admissions, particularly those requiring advanced respiratory support and invasive mechanical ventilation (IMV). These patients often have impaired cardiovascular reserve, making them vulnerable to the adverse effects of positive pressure ventilation (PPV) and systemic sedation. The study aimed to assess the feasibility of a new approach to address these challenges.",
         "ai_significance": "This study highlights the need for innovative strategies to manage cardiac patients with respiratory insufficiency, who are at high risk of complications and poor outcomes. Effective management of these patients is crucial for improving survival and quality of life.",
-        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation."
+        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Prospective Observational Study Using the FAM-CAM",
@@ -9568,7 +9554,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study observed whether family members can identify signs of delirium in ICU patients that may not be detected by routine screening. Participants received usual medical care. Family members were asked to report any signs of delirium.",
         "ai_significance": "Early identification of delirium by family members can help improve patient care and outcomes in the ICU.",
-        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients."
+        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Resuscitative TEE Collaborative Registry",
@@ -9584,7 +9572,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) in critically-ill patients. The study aimed to determine the clinical impact and safety of TEE performed during routine clinical care. No specific findings were reported.",
         "ai_significance": "This study's findings on the clinical impact and safety of TEE can inform ICU clinical practice and decision-making for critically-ill patients. The results may help guide the use of TEE in emergency and intensive care settings.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Diffuse Acute Respiratory Distress Syndrome (ARDS), Recruitment Maneuver, and sRAGE (DAMAGE Study)",
@@ -9600,7 +9590,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effect of a recruitment maneuver on plasma sRAGE levels in patients with ALI/ARDS. The study found that a recruitment maneuver increased plasma sRAGE levels. The study was a prospective monocentric randomized controlled cross-over study.",
         "ai_significance": "This study's findings may help clinicians understand the relationship between ventilatory interventions and biomarkers of alveolar epithelial type I cell injury in patients with ALI/ARDS, which could inform ventilator management strategies.",
-        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels."
+        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Impact of Metabolite Supplementation to Restore Mitochondrial Dysfunction During Septic Shock: a Preclinical Study",
@@ -11313,7 +11305,9 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42790625/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42790625/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42765454",
@@ -11366,7 +11360,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42902295",
@@ -13583,9 +13579,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599238/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42773480/"
         },
         {
           "pmid": "42752385",
@@ -15818,7 +15812,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13613798/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42778957",
@@ -15843,7 +15839,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42750044",
@@ -17177,7 +17175,9 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13613798/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42752385",
