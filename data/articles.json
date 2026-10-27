@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T08:15:56+00:00",
+  "generated_at": "2026-10-27T08:29:41+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -323,6 +323,18 @@
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "FGEBM 004-In Which We Investigate the Utility of Neuromuscular Blockade in ARDS",
+        "url": "https://emcrit.org/emnerd/neuromuscular-blockade-ards/",
+        "source": "EMCrit",
+        "author": "Rory Spiegel",
+        "pubdate": "2026-10-26",
+        "summary": "Should we paralyze ARDS? EMCrit Project by Rory Spiegel .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
       {
         "title": "EMCrit Wee – Pre-PreCare – Prehospital ECPR with Nat & Bri from Sydney HEMS",
         "url": "https://emcrit.org/emcrit/precare/",
@@ -1604,9 +1616,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42788693/",
-        "society": "ESICM",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "ESICM"
       },
       {
         "pmid": "42640090",
@@ -5037,6 +5047,146 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Adrenal Function in Critical Illness",
+        "url": "https://clinicaltrials.gov/study/NCT00156767",
+        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT00156767",
+        "ai_key_stats": "",
+        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07813767",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07813767"
+      },
+      {
+        "title": "Cycling Within an Interactive and Immersive Virtual Environment During Critical Illness: a Patient-centred Approach for Lower Limb Rehabilitation",
+        "url": "https://clinicaltrials.gov/study/NCT07894146",
+        "source": "KU Leuven",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "This study aims to investigate whether combining cycling exercise with an immersive and interactive virtual reality (VR) environment improves motivation compared with cycling without visual support or cycling while watching a route on a television screen in critically ill patients admitted to the intensive care unit (ICU). This randomized, within-subject crossover study will include 20 adult ICU patients who have been admitted for at least 7 days, have received mechanical ventilation for at leas",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07894146",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "A Phase III, Open Label, Randomized, Controlled Study of VBI-S in the Treatment of Hypovolemia in Patients With Septic Shock (VBI-S-02)",
+        "url": "https://clinicaltrials.gov/study/NCT06072430",
+        "source": "Vivacelle Bio",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "This study is being conducted to evaluate the safety and effectiveness of VBI-S in elevating the blood pressure of septic shock patients with absolute or relative hypovolemia.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06072430",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Comparative Effectiveness of Readmission Reduction Interventions for Individuals With Sepsis or Pneumonia",
+        "url": "https://clinicaltrials.gov/study/NCT04829188",
+        "source": "University of Pittsburgh",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "An adaptive platform trial to compare effectiveness of different care models to prevent readmissions for patients hospitalized with sepsis or lower respiratory tract infection. The primary outcome is number of days spent at home within 90 days after hospital discharge.",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT04829188",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Systematic Adjunction of Vasopressine in Septic Shock",
+        "url": "https://clinicaltrials.gov/study/NCT07052084",
+        "source": "Assistance Publique Hopitaux De Marseille",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "Septic shock is a syndrome associated with severe infection and a mortality rate of approximately 45%. In line with current recommendations, norepinephrine is the first-line vasopressor used in patients with septic shock. In a previous study, norepinephrine doses above 1 µg/kg/min were associated with mortality rates over 90%. In the same study, doses above 0.3 µg/kg/min were associated with a mortality rate of 40%. An increased mortality compared to the general 40% mortality of septic shock app",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07052084",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Individualised Blood Pressure Targets Versus Standard Care Among Critically Ill Patients With Shock",
+        "url": "https://clinicaltrials.gov/study/NCT05850962",
+        "source": "Rakshit Panwar",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "Aim The aim of the proposed RCT is to determine effectiveness of a strategy, where MAP (mean arterial blood pressure) targets during vasopressor therapy for shock in ICU are individualized based on patients' own pre-illness MAP that would be derived as an average of up to five most recent pre-illness blood pressure readings. Hypothesis We hypothesize that targeting a patient's pre-illness MAP during management of shock can minimize the degree of MAP-deficit (a measure of relative hypotension), w",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05850962",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Respiratory Physiotherapy and PMR After Cardiac Surgery",
+        "url": "https://clinicaltrials.gov/study/NCT07542691",
+        "source": "Istanbul Aydın University",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "This study aims to evaluate the effects of respiratory physiotherapy combined with progressive muscle relaxation exercises on dyspnea, anxiety, hemodynamic status, and delirium symptoms in patients after cardiac surgery. This randomized controlled trial will include 116 patients who will be randomly assigned to an intervention group or a control group. The intervention group will receive respiratory physiotherapy and progressive muscle relaxation exercises in addition to routine postoperative ca",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07542691",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Characterization and Longitudinal Monitoring of Muscular Phenotype in Patients Admitted to Intensive Care for Sepsis",
+        "url": "https://clinicaltrials.gov/study/NCT07074028",
+        "source": "Centre Hospitalier de Saint-Brieuc",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "Approximately 40% of patients develop muscle dysfunction during their stay in intensive care, particularly in the context of sepsis. This dysfunction represents an acquired muscle injury that is secondary to the primary illness that led to ICU admission. It affects both the limb muscles and the respiratory muscles of the thoracic cage. Clinically, this manifests as bilateral and symmetrical muscle weakness in the limbs, and contributes significantly to difficulties in weaning patients off mechan",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07074028",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Predicting the Optimal Empirical Antibiotic Therapy for Bacteremia Using an Artificial Intelligence-based Model",
+        "url": "https://clinicaltrials.gov/study/NCT07894237",
+        "source": "Nantes University Hospital",
+        "author": "",
+        "pubdate": "2026-10-26",
+        "summary": "Bacteremia, a common infection associated with high morbidity and mortality, requires prompt and appropriate antibiotic treatment. Numerous studies have shown that the appropriate use of antibiotics helps improve the prognosis of patients, reduce the selection of pathogenic organisms, the emergence of antibiotic resistance, adverse treatment effects, and healthcare costs. The Nantes University Hospital Center has operated a Biomedical Data Warehouse (BDW) since 2018. The growing availability of ",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07894237",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Physiological Dead Space and Intensive Care Mortality in Mechanically Ventilated Patients",
         "url": "https://clinicaltrials.gov/study/NCT06963944",
         "source": "Karadeniz Technical University",
@@ -5445,22 +5595,6 @@
         "nct_id": "NCT06036056"
       },
       {
-        "title": "Adrenal Function in Critical Illness",
-        "url": "https://clinicaltrials.gov/study/NCT00156767",
-        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
-        "author": "",
-        "pubdate": "2026-10-19",
-        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT00156767",
-        "ai_key_stats": "",
-        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
-        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
-        "ai_rounds_takeaway": ""
-      },
-      {
         "title": "A Phase 3 Efficacy and Safety Study of Fosmanogepix for the Treatment of Adult Participants With Candidemia and/or Invasive Candidiasis.",
         "url": "https://clinicaltrials.gov/study/NCT05421858",
         "source": "Basilea Pharmaceutica",
@@ -5471,18 +5605,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT05421858"
-      },
-      {
-        "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
-        "url": "https://clinicaltrials.gov/study/NCT07813767",
-        "source": "Hellenic Institute for the Study of Sepsis",
-        "author": "",
-        "pubdate": "2026-10-19",
-        "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07813767"
       },
       {
         "title": "Shenfu Injection for the Prevention and Treatment of Ventilator Dependence in Mechanically Ventilated Patients",
@@ -6866,9 +6988,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04353804",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04353804"
       },
       {
         "title": "Continuous Renal Replacement Therapy Circuit Lifespan in Intensive Care Patients",
@@ -6880,9 +7000,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07842562",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07842562"
       },
       {
         "title": "A Clinical Trial of Interventions to Support Family Surrogates of Critically Ill Patients",
@@ -6894,9 +7012,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05587517",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05587517"
       },
       {
         "title": "Prevelance of Klebsiella Pneumonie in the Respiratory ICU",
@@ -6908,9 +7024,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07841288",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07841288"
       },
       {
         "title": "Molecular-based Optimization of Pathogen Identification in Sepsis Patients in the Indonesian National Referral Hospital",
@@ -6922,9 +7036,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07841535",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07841535"
       },
       {
         "title": "Bronchoscopic Versus Airway Exchange Catheter-Guided Endotracheal Tube Exchange",
@@ -6936,9 +7048,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07706309",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07706309"
       },
       {
         "title": "Controlled Versus Standard Oxygen Therapy in ICU Patients With Acute Exacerbation of COPD",
@@ -6950,9 +7060,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07842510",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07842510"
       },
       {
         "title": "Impact of an On-site Simulation-based Training Programme on Adherence to Standard Precautions and Healthcare-associated Infections in Adult Intensive Care",
@@ -6988,9 +7096,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07839949",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07839949"
       },
       {
         "title": "Vancomycin Reduction Practices (VRP) in the NICU",
@@ -7002,9 +7108,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06772675",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06772675"
       },
       {
         "title": "Al Prediction of Sarcopenia Risk in Neurocritical ICU Patients",
@@ -7016,9 +7120,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07712198",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07712198"
       },
       {
         "title": "Effect of Protocolized Magnesium Replacement on Mortality and Atrial Fibrillation in Critically Ill Patients",
@@ -7030,9 +7132,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07173855",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07173855"
       },
       {
         "title": "Antibiotic Duration and Outcomes in High-Risk Febrile Neutropenia Patients",
@@ -7044,9 +7144,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07372131",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07372131"
       },
       {
         "title": "Dabigatran vs. Oral Anti-Xa Inhibitors in S. Aureus Bacteremia",
@@ -7058,9 +7156,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06650501",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06650501"
       },
       {
         "title": "Pupillometry in Critical Care",
@@ -7072,9 +7168,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07838350",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07838350"
       },
       {
         "title": "Serum Rennin Kinetics Versus Serum Lactate Kinetics as Predictors of Mortality in Septic Shock Patients",
@@ -9518,9 +9612,7 @@
         "ai_key_stats": "n=296, RR not reported, ARR not reported, NNT not reported, p=not reported",
         "ai_summary": "This study tested a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children. Patients were randomly assigned to either a PCT-guided group or a standard-of-care group. The study found that the PCT-guided algorithm was used to discontinue antibiotic treatment.",
         "ai_significance": "This study's findings could help reduce antibiotic duration in critically ill children, potentially decreasing antibiotic-related complications and promoting more targeted treatment.",
-        "ai_rounds_takeaway": "Consider using a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children with suspected or proven bacterial infections.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a procalcitonin-guided algorithm to discontinue antibiotic treatment in critically ill children with suspected or proven bacterial infections."
       },
       {
         "title": "COMPARE-VENT Feasibility Pilot Study",
@@ -9536,9 +9628,7 @@
         "ai_key_stats": "",
         "ai_summary": "The COMPARE-VENT Feasibility Pilot Study explored the challenges of cardiac intensive care unit (CICU) admissions, particularly those requiring advanced respiratory support and invasive mechanical ventilation (IMV). These patients often have impaired cardiovascular reserve, making them vulnerable to the adverse effects of positive pressure ventilation (PPV) and systemic sedation. The study aimed to assess the feasibility of a new approach to address these challenges.",
         "ai_significance": "This study highlights the need for innovative strategies to manage cardiac patients with respiratory insufficiency, who are at high risk of complications and poor outcomes. Effective management of these patients is crucial for improving survival and quality of life.",
-        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider the use of alternative ventilation strategies in cardiac patients with impaired cardiovascular reserve to minimize the adverse effects of positive pressure ventilation and systemic sedation."
       },
       {
         "title": "A Prospective Observational Study Using the FAM-CAM",
@@ -9554,9 +9644,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study observed whether family members can identify signs of delirium in ICU patients that may not be detected by routine screening. Participants received usual medical care. Family members were asked to report any signs of delirium.",
         "ai_significance": "Early identification of delirium by family members can help improve patient care and outcomes in the ICU.",
-        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider involving family members in the identification of delirium in ICU patients."
       },
       {
         "title": "Resuscitative TEE Collaborative Registry",
@@ -9572,9 +9660,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated the clinical impact and safety of focused, point-of-care transesophageal echocardiography (TEE) in critically-ill patients. The study aimed to determine the clinical impact and safety of TEE performed during routine clinical care. No specific findings were reported.",
         "ai_significance": "This study's findings on the clinical impact and safety of TEE can inform ICU clinical practice and decision-making for critically-ill patients. The results may help guide the use of TEE in emergency and intensive care settings.",
-        "ai_rounds_takeaway": "",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": ""
       },
       {
         "title": "Diffuse Acute Respiratory Distress Syndrome (ARDS), Recruitment Maneuver, and sRAGE (DAMAGE Study)",
@@ -9590,9 +9676,7 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effect of a recruitment maneuver on plasma sRAGE levels in patients with ALI/ARDS. The study found that a recruitment maneuver increased plasma sRAGE levels. The study was a prospective monocentric randomized controlled cross-over study.",
         "ai_significance": "This study's findings may help clinicians understand the relationship between ventilatory interventions and biomarkers of alveolar epithelial type I cell injury in patients with ALI/ARDS, which could inform ventilator management strategies.",
-        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels.",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "ai_rounds_takeaway": "Consider using a recruitment maneuver in patients with ALI/ARDS to potentially increase plasma sRAGE levels."
       },
       {
         "title": "Impact of Metabolite Supplementation to Restore Mitochondrial Dysfunction During Septic Shock: a Preclinical Study",
@@ -9608,7 +9692,9 @@
         "ai_key_stats": "",
         "ai_summary": "This preclinical study investigated the impact of exogenous metabolites on restoring mitochondrial function in septic shock patients with lactate acidosis. The study aimed to evaluate the effect of metabolite supplementation on mitochondrial metabolism in septic shock. The results of this study are not reported.",
         "ai_significance": "Restoring mitochondrial function in septic shock patients could potentially improve outcomes and reduce mortality, which is a significant concern in ICU clinical practice.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Fluid Administration and Fluid Accumulation in the Intensive Care Unit",
@@ -9624,7 +9710,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to describe fluid administration and accumulation in ICU patients. It provided contemporary data on fluid accumulation, risk factors, management, and outcomes in critically ill adults. The study did not report any specific findings or results.",
         "ai_significance": "Understanding fluid administration and accumulation in ICU patients is crucial for managing critically ill adults and preventing complications.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Clinical Performance of 3D-Printed vs. Milled Endocrowns",
@@ -9640,7 +9728,9 @@
         "ai_key_stats": "",
         "ai_summary": "This clinical trial compared the durability and functionality of 3D-printed versus milled endocrowns in the oral cavity. The study aimed to investigate the effect of different materials on clinical success. No results were reported.",
         "ai_significance": "This study's findings could inform dental clinicians about the best materials and manufacturing techniques for creating endocrowns. The results may impact the choice of endocrown materials in clinical practice.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Vadadustat for the Treatment of Nonintubated Acute Respiratory Distress Syndrome Due to Pathogen-Associated Lung Injury",
@@ -9656,7 +9746,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to evaluate the effectiveness and safety of vadadustat in treating nonintubated patients with ARDS caused by pathogen-associated lung injury. No results were reported.",
         "ai_significance": "This study's findings could inform treatment options for patients with nonintubated ARDS, but no data were provided to support this.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Diaphragmatic Ultrasonography in Difficult Weaning",
@@ -9672,7 +9764,9 @@
         "ai_key_stats": "n=120, RR not reported, ARR not reported, NNT not reported, p=0.01",
         "ai_summary": "Researchers used ultrasound to assess diaphragmatic and extradiaphragmatic muscles in patients with difficult weaning from mechanical ventilation. They found that diaphragmatic ultrasonography can help determine the readiness of patients for weaning. The study suggests that this method may improve the success rate of weaning.",
         "ai_significance": "This study provides a non-invasive tool to assess muscle readiness for weaning, which can improve patient outcomes and reduce the duration of mechanical ventilation.",
-        "ai_rounds_takeaway": "Consider using diaphragmatic ultrasonography to assess readiness for weaning in patients who have failed the first spontaneous breathing trial."
+        "ai_rounds_takeaway": "Consider using diaphragmatic ultrasonography to assess readiness for weaning in patients who have failed the first spontaneous breathing trial.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Soluble Forms and Ligands of RAGE in ALI/ARDS (SoLiRAGE).",
@@ -9688,7 +9782,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers studied soluble forms and ligands of RAGE in patients with Acute Lung Injury (ALI) and Acute Respiratory Distress Syndrome (ARDS). They found elevated levels of soluble RAGE in plasma and pulmonary edema fluid from these patients. This may be a novel marker of alveolar epithelial type I cell injury.",
         "ai_significance": "This study identifies a potential new marker for alveolar epithelial type I cell injury in ALI/ARDS, which could aid in diagnosis and treatment.",
-        "ai_rounds_takeaway": "Consider checking soluble RAGE levels in patients with suspected ALI/ARDS to aid in diagnosis."
+        "ai_rounds_takeaway": "Consider checking soluble RAGE levels in patients with suspected ALI/ARDS to aid in diagnosis.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Pulmonary and Ventilatory Effects of Bed Verticalization in Patients With Acute Respiratory Distress Syndrome",
@@ -9704,7 +9800,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study investigated the effects of bed verticalization on patients with acute respiratory distress syndrome (ARDS). The study found no reported pulmonary and ventilatory effects of bed verticalization in patients with ARDS. No specific outcomes were reported.",
         "ai_significance": "Understanding the effects of bed verticalization in ARDS patients is crucial for optimizing intensive care unit (ICU) management and improving patient outcomes. This study's findings contribute to the existing knowledge on ARDS management.",
-        "ai_rounds_takeaway": "No change to current practice — bed verticalization does not appear to have a significant impact on ARDS patients."
+        "ai_rounds_takeaway": "No change to current practice — bed verticalization does not appear to have a significant impact on ARDS patients.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Blood Culture Collection Strategies for Suspected Bloodstream Infection",
@@ -9720,7 +9818,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compares two blood culture collection strategies in adults with suspected sepsis. The goal is to evaluate their diagnostic performance and potential impact on patient discomfort and contamination risk.",
         "ai_significance": "Accurate diagnosis of bloodstream infections is crucial for sepsis management, and optimizing blood culture collection strategies can improve patient outcomes and reduce healthcare-associated complications.",
-        "ai_rounds_takeaway": "Consider using a single, larger blood culture collection in patients with suspected sepsis to minimize venipunctures and potential contamination risk."
+        "ai_rounds_takeaway": "Consider using a single, larger blood culture collection in patients with suspected sepsis to minimize venipunctures and potential contamination risk.",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Sepsis Recognition Tool",
@@ -9736,7 +9836,9 @@
         "ai_key_stats": "",
         "ai_summary": "Researchers developed an early recognition tool for sepsis in children based on the Phoenix definition. They also investigated how to implement this tool in clinical practice. The study aimed to address the need for evidence-based approaches to identifying sepsis in diverse healthcare settings in Asia.",
         "ai_significance": "This study is significant for ICU clinical practice as it aims to improve sepsis identification in children, which can lead to better outcomes. Developing evidence-based approaches to sepsis recognition is crucial in diverse healthcare settings.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "GRAM NEGATIVES STUDY",
@@ -9752,7 +9854,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to develop a predictive model for mortality in critically ill patients with multidrug-resistant Gram-negative bacteria. It also investigated the characteristics of patients who acquire colonization during ICU stay and the infectious complications they develop.",
         "ai_significance": "Understanding the predictors of mortality in patients with MDR-GNB can help clinicians identify high-risk patients and tailor their care accordingly.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "STimulation to Activate RespIration",
@@ -9768,7 +9872,9 @@
         "ai_key_stats": "",
         "ai_summary": "This was a feasibility trial to test the safety and practicality of using diaphragm neurostimulation-assisted ventilation in patients on mechanical ventilation for acute hypoxemic respiratory failure with lung injury.",
         "ai_significance": "This study lays the groundwork for further investigation into the potential benefits of diaphragm neurostimulation-assisted ventilation in critically ill patients.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Cardiovascular Protection After Preeclampsia With Enalapril",
@@ -9784,7 +9890,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to assess the willingness of postpartum women to be randomized to different blood pressure medications and their effect on blood pressure in women with hypertensive disorders of pregnancy. However, it did not find any participants willing to be randomized.",
         "ai_significance": "This study highlights the challenges of recruiting participants for clinical trials in postpartum women with hypertensive disorders of pregnancy, which may impact the development of new treatments for this population.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "RESTORE-ZG: Return of Effective Spontaneous Circulation Resuscitation Evaluation Canton of Zug",
@@ -9800,7 +9908,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study evaluated cardiac arrest care provided by emergency medical services in Switzerland, focusing on factors that influence return of spontaneous circulation (ROSC). The study aimed to identify predictors of ROSC in out-of-hospital cardiac arrests. No specific outcomes or effect measures were reported.",
         "ai_significance": "Understanding predictors of ROSC can inform emergency medical services' strategies to improve cardiac arrest outcomes. However, this study did not provide specific findings or recommendations.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "İntensive Care Sepsis Prevelance in Turkey (INSEP-TURK)",
@@ -9816,7 +9926,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to determine the prevalence of sepsis and septic shock in adult intensive care units in Turkey. However, it appears to be a descriptive study without explicit findings on prevalence or other key statistics.",
         "ai_significance": "Robust epidemiological data on sepsis prevalence in low- and middle-income countries like Turkey are crucial for developing targeted interventions and improving patient outcomes.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Anticipating Decline and Providing Therapy",
@@ -9832,7 +9944,9 @@
         "ai_key_stats": "n=120, no effect measures reported",
         "ai_summary": "This pilot study will test the feasibility of a new intervention called ADAPT, which aims to support older adults after ICU discharge.",
         "ai_significance": "This study could inform the development of new interventions to improve outcomes for older adults after ICU discharge.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Low-intensity Versus Medium-intensity Continuous Kidney Replacement Therapy for Critically Ill Patients",
@@ -9848,7 +9962,9 @@
         "ai_key_stats": "",
         "ai_summary": "This clinical trial compared the effectiveness and safety of low-intensity versus medium-intensity continuous kidney replacement therapy in critically ill patients.",
         "ai_significance": "The results of this study could inform treatment decisions for critically ill patients requiring renal replacement therapy.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Teamwork for Resilient Staff and Safe Care in ICU",
@@ -11305,9 +11421,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42790625/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42790625/"
         },
         {
           "pmid": "42765454",
@@ -11360,9 +11474,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
         },
         {
           "pmid": "42902295",
@@ -15812,9 +15924,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13613798/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
         },
         {
           "pmid": "42778957",
@@ -15839,9 +15949,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13599343/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42778957/"
         },
         {
           "pmid": "42750044",
@@ -17175,9 +17283,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13613798/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42786518/"
         },
         {
           "pmid": "42752385",

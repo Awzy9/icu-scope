@@ -9288,6 +9288,16 @@
       "summary": "We discuss the PRECARE Pilot trial on Prehospital ECPR from the Sydney HEMS folks EMCrit Project by Scott Weingart, MD FCCM .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emnerd/neuromuscular-blockade-ards/": {
+      "title": "FGEBM 004-In Which We Investigate the Utility of Neuromuscular Blockade in ARDS",
+      "url": "https://emcrit.org/emnerd/neuromuscular-blockade-ards/",
+      "source": "EMCrit",
+      "author": "Rory Spiegel",
+      "pubdate": "2026-10-26",
+      "summary": "Should we paralyze ARDS? EMCrit Project by Rory Spiegel .",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -11527,7 +11537,7 @@
       "url": "https://clinicaltrials.gov/study/NCT00156767",
       "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
       "author": "",
-      "pubdate": "2026-10-19",
+      "pubdate": "2026-10-26",
       "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
       "study_type": "Clinical Trial (Completed)",
       "is_open_access": true,
@@ -15223,7 +15233,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07813767",
       "source": "Hellenic Institute for the Study of Sepsis",
       "author": "",
-      "pubdate": "2026-10-19",
+      "pubdate": "2026-10-26",
       "summary": "The goal of this clinical trial is to demonstrate the clinical benefit of early intervention with meropenem in adult patients of both sexes with suspected infection and risk of sepsis. The primary objective is to evaluate the clinical benefit of a protein called Pancreatic Stone Protein (PSP), which, if elevated, indicates that patient may be at increased risk of developing sepsis. The secondary objectives are to investigate the impact of early antibiotic treatment with meropenem on progression ",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -16345,6 +16355,102 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07649876"
+    },
+    "NCT07894146": {
+      "title": "Cycling Within an Interactive and Immersive Virtual Environment During Critical Illness: a Patient-centred Approach for Lower Limb Rehabilitation",
+      "url": "https://clinicaltrials.gov/study/NCT07894146",
+      "source": "KU Leuven",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "This study aims to investigate whether combining cycling exercise with an immersive and interactive virtual reality (VR) environment improves motivation compared with cycling without visual support or cycling while watching a route on a television screen in critically ill patients admitted to the intensive care unit (ICU). This randomized, within-subject crossover study will include 20 adult ICU patients who have been admitted for at least 7 days, have received mechanical ventilation for at leas",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07894146"
+    },
+    "NCT06072430": {
+      "title": "A Phase III, Open Label, Randomized, Controlled Study of VBI-S in the Treatment of Hypovolemia in Patients With Septic Shock (VBI-S-02)",
+      "url": "https://clinicaltrials.gov/study/NCT06072430",
+      "source": "Vivacelle Bio",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "This study is being conducted to evaluate the safety and effectiveness of VBI-S in elevating the blood pressure of septic shock patients with absolute or relative hypovolemia.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06072430"
+    },
+    "NCT04829188": {
+      "title": "Comparative Effectiveness of Readmission Reduction Interventions for Individuals With Sepsis or Pneumonia",
+      "url": "https://clinicaltrials.gov/study/NCT04829188",
+      "source": "University of Pittsburgh",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "An adaptive platform trial to compare effectiveness of different care models to prevent readmissions for patients hospitalized with sepsis or lower respiratory tract infection. The primary outcome is number of days spent at home within 90 days after hospital discharge.",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT04829188"
+    },
+    "NCT07052084": {
+      "title": "Systematic Adjunction of Vasopressine in Septic Shock",
+      "url": "https://clinicaltrials.gov/study/NCT07052084",
+      "source": "Assistance Publique Hopitaux De Marseille",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "Septic shock is a syndrome associated with severe infection and a mortality rate of approximately 45%. In line with current recommendations, norepinephrine is the first-line vasopressor used in patients with septic shock. In a previous study, norepinephrine doses above 1 µg/kg/min were associated with mortality rates over 90%. In the same study, doses above 0.3 µg/kg/min were associated with a mortality rate of 40%. An increased mortality compared to the general 40% mortality of septic shock app",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07052084"
+    },
+    "NCT05850962": {
+      "title": "Individualised Blood Pressure Targets Versus Standard Care Among Critically Ill Patients With Shock",
+      "url": "https://clinicaltrials.gov/study/NCT05850962",
+      "source": "Rakshit Panwar",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "Aim The aim of the proposed RCT is to determine effectiveness of a strategy, where MAP (mean arterial blood pressure) targets during vasopressor therapy for shock in ICU are individualized based on patients' own pre-illness MAP that would be derived as an average of up to five most recent pre-illness blood pressure readings. Hypothesis We hypothesize that targeting a patient's pre-illness MAP during management of shock can minimize the degree of MAP-deficit (a measure of relative hypotension), w",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05850962"
+    },
+    "NCT07542691": {
+      "title": "Respiratory Physiotherapy and PMR After Cardiac Surgery",
+      "url": "https://clinicaltrials.gov/study/NCT07542691",
+      "source": "Istanbul Aydın University",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "This study aims to evaluate the effects of respiratory physiotherapy combined with progressive muscle relaxation exercises on dyspnea, anxiety, hemodynamic status, and delirium symptoms in patients after cardiac surgery. This randomized controlled trial will include 116 patients who will be randomly assigned to an intervention group or a control group. The intervention group will receive respiratory physiotherapy and progressive muscle relaxation exercises in addition to routine postoperative ca",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07542691"
+    },
+    "NCT07074028": {
+      "title": "Characterization and Longitudinal Monitoring of Muscular Phenotype in Patients Admitted to Intensive Care for Sepsis",
+      "url": "https://clinicaltrials.gov/study/NCT07074028",
+      "source": "Centre Hospitalier de Saint-Brieuc",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "Approximately 40% of patients develop muscle dysfunction during their stay in intensive care, particularly in the context of sepsis. This dysfunction represents an acquired muscle injury that is secondary to the primary illness that led to ICU admission. It affects both the limb muscles and the respiratory muscles of the thoracic cage. Clinically, this manifests as bilateral and symmetrical muscle weakness in the limbs, and contributes significantly to difficulties in weaning patients off mechan",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07074028"
+    },
+    "NCT07894237": {
+      "title": "Predicting the Optimal Empirical Antibiotic Therapy for Bacteremia Using an Artificial Intelligence-based Model",
+      "url": "https://clinicaltrials.gov/study/NCT07894237",
+      "source": "Nantes University Hospital",
+      "author": "",
+      "pubdate": "2026-10-26",
+      "summary": "Bacteremia, a common infection associated with high morbidity and mortality, requires prompt and appropriate antibiotic treatment. Numerous studies have shown that the appropriate use of antibiotics helps improve the prognosis of patients, reduce the selection of pathogenic organisms, the emergence of antibiotic resistance, adverse treatment effects, and healthcare costs. The Nantes University Hospital Center has operated a Biomedical Data Warehouse (BDW) since 2018. The growing availability of ",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07894237"
     }
   },
   "bottom_line": {
