@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T09:07:55+00:00",
+  "generated_at": "2026-10-29T09:05:33+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -219,34 +219,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42584185/"
       },
       {
-        "pmid": "42839269",
-        "title": "Comparison of two automated pupillometry indices in patients with acute brain injury: the prospective multicentre LYNX cohort study.",
-        "journal": "Critical care (London, England)",
-        "pubdate": "2026 Sep 28",
-        "authors": [
-          "Bouzat P",
-          "Blandino-Ortiz A",
-          "Vilotitch A",
-          "Pollet A",
-          "Zorzi S",
-          "Vathi S",
-          "Polato M",
-          "Gauss T",
-          "Taccone FS"
-        ],
-        "doi": "10.1186/s13054-026-06360-8",
-        "abstract": "BACKGROUND: Automated pupillometry quantifies the pupillary light reflex in acute brain injury. The neurological pupil index (NPi) is the established composite index and carries prognostic value. A second index from a different device, the quantitative pupil index (QPi), has recently become available, but whether it conveys equivalent information in non-anoxic acute brain injury is unknown. METHODS: LYNX was a prospective cohort study in three European intensive care units (September 2022-July 2024). Consecutive adults with traumatic brain injury, subarachnoid or intracerebral haemorrhage, or ischaemic stroke ventilated for more than 12 h were enrolled and followed for 6 months. Paired NPi (NPi-300) and QPi (NeuroLight) measurements were obtained at least every 6 h to day 7. Ancillary cohorts of healthy volunteers (dark vs. bright light) and surgical patients (before and after sufentanil and propofol) were also studied. The primary outcome was the correlation between the two indices; secondary outcomes were their association with intracranial hypertension and unfavourable 6-month outcome (Glasgow Outcome Scale-Extended ≤ 4). Values below 3 were considered abnormal, with QPi thresholds of 2 and 4 as sensitivity analyses; multivariable models were adjusted for age, sex, admission Glasgow Coma Scale score and focal deficit. RESULTS: Among 108 patients (median age 57 years [IQR 44-67], 60.2% male), 7089 paired measurements were obtained. The two indices were moderately to strongly correlated (r = 0.717, 95% CI 0.705-0.730). Each 10-percentage-point increase in abnormal values independently predicted unfavourable outcome (NPi: OR 1.49, 95% CI 1.09-2.04, p = 0.013; QPi: OR 1.76, 95% CI 1.31-2.37, p < 0.001). QPi was associated with intracranial hypertension (OR 1.38, 95% CI 1.04-1.82, p = 0.025), whereas NPi was not. Ambient lighting and contralateral eye opening had no meaningful effect in 75 volunteers. In 20 sedated non-brain-injured patients, propofol reduced QPi to a median of 1 (IQR 1-3) and NPi to 4.0 (IQR 3.6-4.3). CONCLUSIONS: NPi and QPi were correlated and both predicted 6-month outcome, but QPi was far more sensitive to anaesthetics, which probably confounds its association with intracranial hypertension. The indices are not interchangeable in sedated critically ill patients. TRIAL REGISTRATION: ClinicalTrials.gov, NCT05567978. Registered 5 October 2022.",
-        "citation_count": 35,
-        "is_top_journal": true,
-        "study_type": "Multicenter Study",
-        "volume": "30",
-        "issue": "1",
-        "pages": "",
-        "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13640326/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42839269/"
-      },
-      {
         "pmid": "42545097",
         "title": "H3.1 Nucleosomes to Predict Renal Replacement Therapy and Mortality in Sepsis-A Secondary Analysis of the SISPCT Randomized Control Trial.",
         "journal": "Critical care medicine",
@@ -317,6 +289,38 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13670128/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42872606/"
+      },
+      {
+        "pmid": "42823695",
+        "title": "Evaluating plasma ferritin and suPAR as treatable traits for critically ill patients with COVID-19 treated with anakinra: an exploratory analysis of the immune modulation domain of the REMAP-CAP randomised clinical trial.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Oct 1",
+        "authors": [
+          "Boyle AJ",
+          "Ryan EG",
+          "Berry LR",
+          "Berry S",
+          "Derde L",
+          "Lawler PR",
+          "Lorenzi E",
+          "O'Kane CM",
+          "Shankar-Hari M",
+          "Veerdonk FV",
+          "Gordon AC",
+          "McAuley DF",
+          "REMAP-CAP Immune Modulation Domain Investigators"
+        ],
+        "doi": "10.1186/s13054-026-06311-3",
+        "abstract": "BACKGROUND: Identifying treatable traits in critically ill patients offers potential to enable a precision medicine approach to treatment. The aim of this exploratory analysis of the REMAP-CAP immune modulation domain was to evaluate whether plasma ferritin or soluble urokinase plasminogen activator receptor (suPAR) represent treatable traits for anakinra in critically ill patients with coronavirus disease (COVID-19). METHODS: An exploratory analysis of patients randomised within the COVID-19 immune modulation domain of the REMAP-CAP trial was conducted. Adults within 24 h of receiving respiratory or cardiovascular organ support in an ICU with suspected or microbiologically confirmed COVID-19 were included. Plasma ferritin was measured at study sites, and plasma suPAR measured in stored plasma samples. The primary outcome was organ support-free days (OSFD) until day 21. Analyses were performed using a Bayesian cumulative logistic regression model, and results are presented as the posterior median odds ratio (OR), along with 95% credible intervals (CrI), for anakinra being superior to control. RESULTS: In ferritin analyses, 1243 patients were included. Patients with increasing ferritin levels had numerically fewer OSFDs. The posterior probabilities of anakinra having benefit (OR > 1) were 64%, 71%, and 21% across increasing ferritin terciles, compared to 53% in analyses that did not adjust for ferritin levels. 145 patients were included in the suPAR analyses. Patients with high baseline plasma suPAR (≥ 6 ng/ml; n = 85) had numerically fewer OSFDs than patients with low plasma suPAR (-1.0 (-1.0, 9.0) vs. 13.0 (-1.0, 17.0)). The posterior probabilities of anakinra having benefit (OR > 1) were 94.8% (OR 2.28 [0.85-6.06]) in patients with low baseline suPAR, and 38.6% (OR 0.88 [0.39-2.00]) in patients with high baseline suPAR. CONCLUSION: Plasma ferritin does not identify patients with COVID-19 who benefit from treatment with anakinra, whilst anakinra may be beneficial in patients with low, rather than high, baseline plasma suPAR. These hypothesis-generating findings contrast with the results of clinical trials in non-critically ill patients with COVID-19. TRIAL REGISTRATION: NCT02735707. Date of trial registration: 06/04/2016.",
+        "citation_count": 30,
+        "is_top_journal": true,
+        "study_type": "Observational Study",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13629143/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42823695/"
       }
     ]
   },
@@ -511,9 +515,7 @@
         "pubdate": "2026-08-25",
         "summary": "The Five Laws of Medical Robotics JAMA recently published a Perspective titled “Will Autonomous AI Exceed AI-Aided Physicians as the Best Medical Care?” by Ezekiel Emanuel, Abe Baker-Butler, Neal Khosla, and Vinod Khosla.1 Their thesis stated plainly, physician-AI hybrids, the model every major medical society currently endorses, will be replaced by autonomous AI, operating independently […] EMCri",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true,
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "is_open_access": true
       },
       {
         "title": "A Field Guide to Evidence Based Medicine – Episode 2 – Chloride Continued…",
@@ -1385,9 +1387,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13707838/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42943441/",
-        "society": "IDSA",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "IDSA"
       },
       {
         "pmid": "42934835",
@@ -1412,9 +1412,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13710661/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42934835/",
-        "society": "KDIGO",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42776136",
@@ -1629,9 +1627,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13608892/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42796294/",
-        "society": "Surviving Sepsis Campaign",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "Surviving Sepsis Campaign"
       },
       {
         "pmid": "42598847",
@@ -1724,9 +1720,7 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42640090/",
-        "society": "Surviving Sepsis Campaign",
-        "link_broken": true,
-        "link_broken_kind": "doi"
+        "society": "Surviving Sepsis Campaign"
       },
       {
         "pmid": "42632433",
@@ -3035,9 +3029,7 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13503594/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42643465/",
-        "society": "KDIGO",
-        "link_broken": false,
-        "link_broken_kind": "doi"
+        "society": "KDIGO"
       },
       {
         "pmid": "42668743",
@@ -3615,6 +3607,29 @@
         "ai_summary": "A systematic review of healthcare-associated infections (HAIs) found that bacterial pathogens, including drug-resistant strains, are the most common causes of HAIs. The review highlighted the importance of strong surveillance systems, especially those using digital platforms, to monitor infection trends and antibiotic resistance. Effective monitoring systems and a multifaceted preventive approach are needed to mitigate HAIs.",
         "ai_significance": "This study emphasizes the need for robust surveillance and prevention strategies to combat HAIs, which can significantly burden healthcare systems.",
         "ai_rounds_takeaway": "Consider implementing digital surveillance systems to monitor trends of infection and antibiotic resistance in your institution."
+      },
+      {
+        "pmid": "42947165",
+        "title": "The effect of high-fidelity simulation with live actors on nursing students' communication self-efficacy: a pre-post intervention study.",
+        "journal": "BMC nursing",
+        "pubdate": "2026 Aug 1",
+        "authors": [
+          "Aldolaim S",
+          "Alvarez MOC",
+          "Alwadai MM",
+          "Alameri RA"
+        ],
+        "doi": "10.1186/s12912-026-05126-5",
+        "abstract": "BACKGROUND: Effective communication is essential for safe and patient-centered care, particularly in intensive care units (ICUs), where interactions with critically ill patients and their families are emotionally demanding. Nursing students often lack confidence in such high-stakes communication, and culturally tailored educational strategies are limited in Saudi Arabia. This study evaluated the effectiveness of High-Fidelity Simulation (HFS) with live actors on nursing students' communication self-efficacy in ICU settings. METHODS: A one-group pre-post repeated-measures study was conducted with 50 fourth-year nursing students at a public university in Saudi Arabia, with assessments at four time points. Participants completed two HFS sessions with live actors portraying patients' families, followed by ICU clinical placements. Self-efficacy was measured using the 10-point SE-12 scale at four time points: T0 (pre-simulation), T1 (post 1st HFS-LA), T2 (post 2nd HFS-LA), and T3 (post-ICU placement). Repeated-measures ANOVA with Greenhouse-Geisser correction analyzed changes over time. RESULTS: Mean self-efficacy scores increased from T0 = 7.33 (SD 1.81) to T1 = 7.91 (SD 1.76), T2 = 8.39 (SD 1.57), and T3 = 8.02 (SD 1.58). Repeated-measures ANOVA indicated a significant time effect (F = 9.25, p < .001, partial η² = 0.16). Clinical significance analysis showed small but meaningful improvement (Δ = 0.69; effect size d = 0.41). CONCLUSION: High-fidelity simulation with live actors improves nursing students' perceived communication competence in ICU settings. Beyond statistical significance, this improvement has clinical and educational significance as well, since being more confident about communicating may help students to be better equipped to deal with critically ill patients and their family members in actual clinical settings. Repeated, culturally relevant simulation experiences foster confidence in engaging with patients and families, aligning with Saudi cultural norms of family involvement in care. These findings support the integration of multiple actor-based HFS scenarios into undergraduate curricula to enhance communication skills in critical care. CLINICAL TRIAL NUMBER: Not applicable.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "25",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42947165/"
       },
       {
         "pmid": "42515790",
@@ -4835,6 +4850,83 @@
     "window_days": 7,
     "articles": [
       {
+        "pmid": "42873070",
+        "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
+        "journal": "The New England journal of medicine",
+        "pubdate": "2026 Oct 29",
+        "authors": [
+          "Gaudry S",
+          "Boubaya M",
+          "Louis G",
+          "Chaïbi K",
+          "de Montmollin E",
+          "Bohé J",
+          "Desgrouas M",
+          "Devautour C",
+          "Joseph A",
+          "Mégarbane B",
+          "Camus C",
+          "Bailly P",
+          "Lambour A",
+          "Arrestier R",
+          "Jaber S",
+          "Robine A",
+          "Chudeau N",
+          "Chevrel G",
+          "La Combe B",
+          "Nicolas J",
+          "Argaud L",
+          "Bureau C",
+          "Kimmoun A",
+          "Zucman N",
+          "Ricard JD",
+          "Thiery G",
+          "Faguer S",
+          "Jozwiak M",
+          "Ferrand N",
+          "Chousterman B",
+          "Marzouk M",
+          "Cadiet J",
+          "Combes A",
+          "Mari A",
+          "Contou D",
+          "Amathieu R",
+          "Da Silva D",
+          "Gandonnière CS",
+          "Rodie-Talbere PA",
+          "Durand-Zaleski I",
+          "Rossignol P",
+          "Quenot JP",
+          "Biard L",
+          "Bloch C",
+          "Dreyfuss D",
+          "ICRAKI Trial Group"
+        ],
+        "doi": "10.1056/NEJMoa2608397",
+        "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
+        "citation_count": 0,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "395",
+        "issue": "17",
+        "pages": "1677-1690",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/",
+        "category_id": "renal",
+        "category_label": "Renal",
+        "category_ids": [
+          "renal",
+          "gi-nutrition",
+          "infectious-sepsis"
+        ],
+        "category_labels": [
+          "Renal",
+          "GI & Nutrition",
+          "Infectious Disease & Sepsis"
+        ]
+      },
+      {
         "pmid": "42934773",
         "title": "Preserved anabolic skeletal muscle capacity in response to exercise and protein intake after critical illness.",
         "journal": "Critical care (London, England)",
@@ -4863,8 +4955,6 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13700533/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42934773/",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "gi-nutrition",
         "category_label": "GI & Nutrition",
         "category_ids": [
@@ -4923,35 +5013,6 @@
         ],
         "category_labels": [
           "Infectious Disease & Sepsis"
-        ]
-      },
-      {
-        "pmid": "42911397",
-        "title": "Principles of drug dosing for obese patients in the intensive care unit.",
-        "journal": "Intensive care medicine",
-        "pubdate": "2026 Oct 22",
-        "authors": [
-          "Barletta JF",
-          "Erstad BL"
-        ],
-        "doi": "10.1007/s00134-026-08628-7",
-        "abstract": "PURPOSE: The increasing prevalence of severe obesity in intensive care unit (ICU) patients has led to several challenges with medication dosing. Doses listed in product labels or tertiary references typically do not account for the pharmacokinetic or pharmacodynamic variability encountered with obesity, leading to the potential for treatment failure or an adverse effect. The purpose of this review is to provide guidance for ICU clinicians when crafting pharmacotherapy regimens in critically ill patients with extreme obesity. METHODS: A literature search was performed to identify relevant articles pertaining to the pharmacokinetics or pharmacodynamics of medications in obese patients. Articles describing both general treatment principles and medication specific assessments were retrieved. Bibliographies were searched for additional publications. RESULTS: Evidence guiding medication use in critically ill obese patients is limited by the small number of patients with more extreme forms of obesity, the lack of clinical outcome measurements, and the few studies that are specific to the ICU. Obesity-related alterations in pharmacokinetic parameters, such as apparent volume of distribution and drug clearance, may hinder attainment of pharmacodynamic targets. Individualized dosing strategies are essential to optimize therapeutic outcomes. This review provides dosing recommendations for selected ICU medications and proposes a practical framework to guide medication dosing decisions in this patient population. CONCLUSION: Drug dosing in critically ill obese patients should be individualized by assessing pharmacokinetic variability and whether pharmacodynamic goals can be achieved. Selecting the correct weight for weight-based calculations or dose for fixed regimens is paramount for achieving these goals. Consultation with a clinical pharmacist may be beneficial.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Review",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42911397/",
-        "category_id": "pharmacology",
-        "category_label": "Pharmacology",
-        "category_ids": [
-          "pharmacology"
-        ],
-        "category_labels": [
-          "Pharmacology"
         ]
       }
     ]
@@ -5109,6 +5170,146 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
+        "url": "https://clinicaltrials.gov/study/NCT06749457",
+        "source": "AstraZeneca",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "The purpose of this study is to evaluate the safety and pharmacokinetics (PK) of AZD7760 when given as an intravenous infusion to healthy participants (Phase I) or participants with end-stage kidney disease receiving hemodialysis through a central venous catheter (Phase IIa).",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06749457",
+        "ai_key_stats": "",
+        "ai_summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
+        "ai_significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
+        "url": "https://clinicaltrials.gov/study/NCT07834346",
+        "source": "Hellenic Institute for the Study of Sepsis",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07834346"
+      },
+      {
+        "title": "Detection and Characterization of Lower Respiratory Infections in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT01068990",
+        "source": "Asan Medical Center",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "This study is a prospective observation study for lower respiratory tract infections in medical intensive care unit. Microbiologic and clinical characteristics and outcomes of patients with severe pneumonia in medical intensive care unit will be monitored and analyzed.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT01068990",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "LoW Dose-Intensity vs. Standard Dose-Intensity COntinuous Renal ReplaceMent Therapy in Critically Ill Patients (WISDOM)",
+        "url": "https://clinicaltrials.gov/study/NCT06446739",
+        "source": "University of Alberta",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "An estimated 10-15% of critically ill patients with acute kidney failure in the intensive care unit receive acute dialysis therapy. The majority of these patients initially receive a continuous form of dialysis therapy call continuous renal replacement therapy (CRRT). Prior studies have suggested that higher CRRT dose-intensity improved health outcomes for these patients; however, this was not found in high-quality clinical trials. These more recent trials suggested a lower range of dose-intensi",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06446739",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "The Effect of Pink Noise and the Quiet Night Intervention on Sleep Parameters in Intensive Care Unit Patients: A Single-Center Randomized Controlled Trial",
+        "url": "https://clinicaltrials.gov/study/NCT07412964",
+        "source": "Abant Izzet Baysal University",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "Sleep disruption is common in adult intensive care unit (ICU) patients and is often worsened by environmental noise and nighttime care activities. Poor sleep may negatively affect recovery and well-being. This single-center, three-arm randomized controlled trial will evaluate the short-term effects of two non-pharmacological interventions-(1) pink-brown noise masking and (2) a quiet time intervention-on objective sleep parameters in adult ICU patients, compared with standard care. Sleep outcomes",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07412964",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Adverse Events During Physical Therapy in Neurocritical ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07901140",
+        "source": "Hospital H+ Queretaro",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "The goal of this observational study is to identify the clinical, neurological, hemodynamic, and respiratory variables associated with the occurrence of adverse events during physical therapy interventions in adult neurocritical patients admitted to the Intensive Care Unit (ICU). The main questions it aims to answer are: What clinical, neurological, hemodynamic, and respiratory factors are associated with adverse events during physical therapy in neurocritical patients? What is the incidence and",
+        "study_type": "Clinical Trial (Active Not Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07901140",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Clinical Value of EMR3 in Sepsis Diagnosis, Monitoring, and Prognosis: A Multicenter Prospective Observational Study",
+        "url": "https://clinicaltrials.gov/study/NCT07896018",
+        "source": "Sir Run Run Shaw Hospital",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "Sepsis is a life-threatening condition caused by a dysregulated immune response to infection, leading to organ dysfunction and increased mortality. Early diagnosis and accurate assessment of disease progression remain challenging. EMR3 (ADGRE3), a receptor expressed on the surface of neutrophils, may serve as a potential biomarker for sepsis diagnosis, immune response monitoring, and prognosis assessment. However, its clinical value requires further validation in large, multicenter prospective s",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07896018",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Automatic Tube Compensation vs. Pressure Support Ventilation During Spontaneous Breathing Trials in Adults",
+        "url": "https://clinicaltrials.gov/study/NCT07005505",
+        "source": "Rush University Medical Center",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "For patients requiring mechanical ventilation, spontaneous breathing trials (SBTs) are conducted to determine if it is safe to remove the breathing tube. There are multiple methods for conducting SBTs. The purpose of this study is to compare the effects of 2 methods, pressure support ventilation (PSV) versus automatic tube compensation (ATC), on successful extubation for critically ill adult patients who received mechanical ventilation for over 24 hours.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07005505",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Effectiveness of Virtual Reality in Improving Upper Limb Function in Critically Ill Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07901855",
+        "source": "National and Kapodistrian University of Athens",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "Millions of people are hospitalized every year in Intensive Care Units (ICUs) with severe health conditions due to various causes and categories of diseases, such as stroke, Traumatic Brain Injuries (TBI), polytrauma, sepsis, and others. In recent years, there has been a remarkable increase in survival rates among patients from all diagnostic categories admitted to the ICU. However, the stay of critically ill patients in the ICU is associated with a significant reduction in physical activity, ev",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07901855",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Veno-arterial Carbon Dioxide Partial Pressure Difference (CO2gap) for Early Resuscitation of Septic Shock",
+        "url": "https://clinicaltrials.gov/study/NCT07179276",
+        "source": "University Hospital, Clermont-Ferrand",
+        "author": "",
+        "pubdate": "2026-10-28",
+        "summary": "Sepsis is a dysregulated host response to infection that leads to life-threatening organ dysfunction and represents a major healthcare problem. Septic shock is the most severe form, characterized by increased capillary permeability and vasodilation, resulting in hypotension and tissue hypoxia. Early identification and treatment of tissue hypoperfusion are pivotal components of initial resuscitation to limit progression to multiple organ dysfunction and death. The 2021 Surviving Sepsis Guidelines",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07179276",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Metabolic and Functional Study of γδ T Cells in Critically Ill Patients",
         "url": "https://clinicaltrials.gov/study/NCT07680816",
         "source": "Union Hospital, Tongji Medical College, Huazhong University of Science and Technology",
@@ -5142,9 +5343,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07438015",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07438015"
       },
       {
         "title": "Validation of a Processed EEG Device for Monitoring Sedation in PICU",
@@ -5156,9 +5355,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05969483",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05969483"
       },
       {
         "title": "Cardiogenic Shock Working Group Registry",
@@ -5170,9 +5367,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04682483",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04682483"
       },
       {
         "title": "Prevention of Arteriovenous Thrombotic Events in Critically-Ill COVID-19 Patients Trial",
@@ -5184,9 +5379,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT04409834",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT04409834"
       },
       {
         "title": "A Trial of Adjunctive Fludrocortisone (50mcg, 100mcg or Placebo) in Critically Ill Patients With Septic Shock Receiving Hydrocortisone, Evaluating Survival and Functional Recovery and the Influence of Transcriptomic Response",
@@ -5198,9 +5391,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07898462",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07898462"
       },
       {
         "title": "Humidification Effects on Airway Complications and Clinical Outcomes in Trauma ICU Patients on Mechanical Ventilation",
@@ -5212,9 +5403,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07713238",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07713238"
       },
       {
         "title": "Comparison of Cardiac Index Measurement Using Right Ventricular Pressure Curve Analysis and Thermodilution Via a Swan-Ganz IQ™ Catheter.",
@@ -5226,9 +5415,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07628023",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07628023"
       },
       {
         "title": "Effect of Lactiplantibacillus Plantarum DAD-13 on Inflammatory Markers in ICU Sepsis Patients",
@@ -5240,7 +5427,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07072871"
+        "nct_id": "NCT07072871",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Adrenal Function in Critical Illness",
@@ -5772,7 +5961,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05421858"
+        "nct_id": "NCT05421858",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Shenfu Injection for the Prevention and Treatment of Ventilator Dependence in Mechanically Ventilated Patients",
@@ -5845,18 +6036,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT06854640"
-      },
-      {
-        "title": "CLARITHROMYCIN TO PREVENT SECONDARY INFECTIONS IN PATIENTS WITH SEPSIS FOLLOWING LOWER RESPIRATORY TRACT INFECTIONS: THE CLASSIFY TRIAL",
-        "url": "https://clinicaltrials.gov/study/NCT07834346",
-        "source": "Hellenic Institute for the Study of Sepsis",
-        "author": "",
-        "pubdate": "2026-10-16",
-        "summary": "The goal of this clinical trial is to assess whether clarithromycin, given as an adjunct to standard-of-care antibiotic therapy, can reduce the risk of new infections and secondary sepsis in adult patients hospitalized with community-acquired pneumonia (CAP), sepsis, and sepsis-induced immunoparalysis (SII). The primary objective is to evaluate the effect of clarithromycin on the incidence of new infection, including worsening or recurrence of the initial CAP episode, new infections at other sit",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07834346"
       },
       {
         "title": "Respiratory Physiotherapy and Diaphragm Thickness in Ventilated ICU Patients",
@@ -6571,22 +6750,6 @@
         "nct_id": "NCT06666738"
       },
       {
-        "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
-        "url": "https://clinicaltrials.gov/study/NCT06749457",
-        "source": "AstraZeneca",
-        "author": "",
-        "pubdate": "2026-10-06",
-        "summary": "The purpose of this study is to evaluate the safety and pharmacokinetics (PK) of AZD7760 when given as an intravenous infusion to healthy participants (Phase I) or participants with end-stage kidney disease receiving hemodialysis through a central venous catheter (Phase IIa).",
-        "study_type": "Clinical Trial (Active Not Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT06749457",
-        "ai_key_stats": "",
-        "ai_summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
-        "ai_significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
-        "ai_rounds_takeaway": ""
-      },
-      {
         "title": "Protocolized Reduction of Non-resuscitation Fluids Versus Usual Care in Septic Shock Patients",
         "url": "https://clinicaltrials.gov/study/NCT06140147",
         "source": "Region Skane",
@@ -6740,7 +6903,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05624450"
+        "nct_id": "NCT05624450",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
@@ -8260,7 +8425,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07711535"
+        "nct_id": "NCT07711535",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Triple Sleep-promotion Protocol for Delirium Prevention in Intensive Care Patients",
@@ -8828,7 +8995,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07792694"
+        "nct_id": "NCT07792694",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Assessment of the PEEP Responsiveness to Titrate End-expiratory Pressure and of the Need for Muscle Relaxation During Prone Positioning in Moderate-to-severe Acute Respiratory Distress Syndrome: A Master Protocol",
@@ -8840,7 +9009,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06849570"
+        "nct_id": "NCT06849570",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The Impact of the Family Room App on Caregivers",
@@ -8852,7 +9023,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06463158"
+        "nct_id": "NCT06463158",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "PRophylaxis Against Early VENTilator-associated Infections in Acute Brain Injury",
@@ -8864,7 +9037,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06819592"
+        "nct_id": "NCT06819592",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Trial of Tegileridine Fumarate Lnjection for Prolonged Mechanical Ventilation Abirritation in the Intensive Care Unit (ICU)",
@@ -8876,7 +9051,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07372924"
+        "nct_id": "NCT07372924",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "The ARISE Study - Use of Vertical Positioning",
@@ -8888,7 +9065,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07025421"
+        "nct_id": "NCT07025421",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Diagnostic and Prognostic Roles of Procalcitonin and Highly Sensitive C-Reactive Protein in Early Detection of Burn Sepsis",
@@ -8900,7 +9079,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07791030"
+        "nct_id": "NCT07791030",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of Benson Relaxation Technique on Pain Level, Insomnia, Nausea, Vomiting, and Retching in Oncology Patients",
@@ -8912,7 +9093,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06661239"
+        "nct_id": "NCT06661239",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Differential Clinical Phenotypes Of Early CD4+ And CD8+ T-Cell Recovery And Association With 28-Day Mortality In Sepsis Patients",
@@ -8924,7 +9107,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07787780"
+        "nct_id": "NCT07787780",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Nursing Interventions on Prevention Medical Device Related Pressure Injury (MDRPI)",
@@ -8936,7 +9121,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06513936"
+        "nct_id": "NCT06513936",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Effect of HeartMath Intervention on Stress, Emotional Vitality and Sense of Coherence",
@@ -8948,7 +9135,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06849388"
+        "nct_id": "NCT06849388",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Post Intensive Care Accelerometery to Study and Support Recovery Outcomes",
@@ -8960,7 +9149,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07466446"
+        "nct_id": "NCT07466446",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Delayed Against Rapid Sequence Induction in Adults With Medical Diseases Undergoing Emergency Endotracheal Intubation.",
@@ -8972,7 +9163,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06940219"
+        "nct_id": "NCT06940219",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Iron Deficiency at ICU Discharge",
@@ -10633,9 +10826,7 @@
           "pages": "2160-2177",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
         },
         {
           "pmid": "42565652",
@@ -11717,9 +11908,7 @@
           "pages": "1958-1973",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
         },
         {
           "pmid": "42587308",
@@ -11997,9 +12186,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13505176/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42638131/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42638131/"
         },
         {
           "pmid": "42506467",
@@ -12763,9 +12950,7 @@
           "pages": "2160-2177",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
         },
         {
           "pmid": "42618770",
@@ -13011,9 +13196,7 @@
           "pages": "1958-1973",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
         },
         {
           "pmid": "42629591",
@@ -13653,71 +13836,6 @@
       "label": "Renal",
       "abbr": "Renal",
       "articles": [
-        {
-          "pmid": "42873070",
-          "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
-          "journal": "The New England journal of medicine",
-          "pubdate": "2026 Oct 14",
-          "authors": [
-            "Gaudry S",
-            "Boubaya M",
-            "Louis G",
-            "Chaïbi K",
-            "de Montmollin E",
-            "Bohé J",
-            "Desgrouas M",
-            "Devautour C",
-            "Joseph A",
-            "Mégarbane B",
-            "Camus C",
-            "Bailly P",
-            "Lambour A",
-            "Arrestier R",
-            "Jaber S",
-            "Robine A",
-            "Chudeau N",
-            "Chevrel G",
-            "La Combe B",
-            "Nicolas J",
-            "Argaud L",
-            "Bureau C",
-            "Kimmoun A",
-            "Zucman N",
-            "Ricard JD",
-            "Thiery G",
-            "Faguer S",
-            "Jozwiak M",
-            "Ferrand N",
-            "Chousterman B",
-            "Marzouk M",
-            "Cadiet J",
-            "Combes A",
-            "Mari A",
-            "Contou D",
-            "Amathieu R",
-            "Da Silva D",
-            "Gandonnière CS",
-            "Rodie-Talbere PA",
-            "Durand-Zaleski I",
-            "Rossignol P",
-            "Quenot JP",
-            "Biard L",
-            "Bloch C",
-            "Dreyfuss D",
-            "ICRAKI Trial Group"
-          ],
-          "doi": "10.1056/NEJMoa2608397",
-          "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/"
-        },
         {
           "pmid": "42872921",
           "title": "Association of Oliguria With Acute Kidney Injury, Chronic Kidney Disease, and Mortality: Determining the Optimal Threshold in Critically Ill Patients.",
@@ -14824,9 +14942,7 @@
           "pages": "",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13508364/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42642764/"
         },
         {
           "pmid": "42467893",
@@ -15392,9 +15508,7 @@
           "pages": "2160-2177",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
         },
         {
           "pmid": "42283370",
@@ -15895,71 +16009,6 @@
       "abbr": "ID/Sepsis",
       "articles": [
         {
-          "pmid": "42873070",
-          "title": "Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury.",
-          "journal": "The New England journal of medicine",
-          "pubdate": "2026 Oct 14",
-          "authors": [
-            "Gaudry S",
-            "Boubaya M",
-            "Louis G",
-            "Chaïbi K",
-            "de Montmollin E",
-            "Bohé J",
-            "Desgrouas M",
-            "Devautour C",
-            "Joseph A",
-            "Mégarbane B",
-            "Camus C",
-            "Bailly P",
-            "Lambour A",
-            "Arrestier R",
-            "Jaber S",
-            "Robine A",
-            "Chudeau N",
-            "Chevrel G",
-            "La Combe B",
-            "Nicolas J",
-            "Argaud L",
-            "Bureau C",
-            "Kimmoun A",
-            "Zucman N",
-            "Ricard JD",
-            "Thiery G",
-            "Faguer S",
-            "Jozwiak M",
-            "Ferrand N",
-            "Chousterman B",
-            "Marzouk M",
-            "Cadiet J",
-            "Combes A",
-            "Mari A",
-            "Contou D",
-            "Amathieu R",
-            "Da Silva D",
-            "Gandonnière CS",
-            "Rodie-Talbere PA",
-            "Durand-Zaleski I",
-            "Rossignol P",
-            "Quenot JP",
-            "Biard L",
-            "Bloch C",
-            "Dreyfuss D",
-            "ICRAKI Trial Group"
-          ],
-          "doi": "10.1056/NEJMoa2608397",
-          "abstract": "BACKGROUND: The preferred method of renal-replacement therapy for acute kidney injury in critically ill patients remains uncertain. METHODS: In this multicenter, open-label, noninferiority trial, we randomly assigned critically ill adults with acute kidney injury who had indications for renal-replacement therapy to undergo intermittent hemodialysis or continuous renal-replacement therapy as the initial treatment. The primary outcome was a major adverse kidney event - defined as death, dependence on renal-replacement therapy, or a serum creatinine concentration more than 25% above the baseline value - by day 90. RESULTS: The trial was stopped early after sequential interim analyses showed a sustained signal of higher mortality with intermittent hemodialysis than with continuous renal-replacement therapy. A total of 554 patients underwent randomization, with 272 patients assigned to undergo intermittent hemodialysis and 282 to undergo continuous renal-replacement therapy; 535 patients (260 in the intermittent group and 275 in the continuous group) were included in the intention-to-treat population. A major adverse kidney event occurred by day 90 in 203 patients (78.1%) in the intermittent group and in 197 patients (71.6%) in the continuous group (adjusted absolute risk difference, 6.28 percentage points; 95% confidence interval [CI], -1.22 to 13.79). Death by day 90 occurred in 164 patients (63.1%) and in 147 patients (53.5%), respectively. Kaplan-Meier mortality estimates at day 90 were 63.3% and 53.6% (hazard ratio, 1.30; 95% CI, 1.04 to 1.63). The most common complication potentially related to acute kidney injury or renal-replacement therapy was hypotension, which occurred in 179 patients (68.8%) in the intermittent group and in 183 patients (66.5%) in the continuous group. CONCLUSIONS: Among critically ill patients with acute kidney injury who had indications for renal-replacement therapy, intermittent hemodialysis as the initial treatment approach was not shown to be noninferior to continuous renal-replacement therapy with respect to major adverse kidney events by day 90 and was associated with higher mortality. (Funded by the French Ministry of Health; ICRAKI ClinicalTrials.gov number, NCT06032884.).",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/"
-        },
-        {
           "pmid": "42872606",
           "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
           "journal": "JAMA",
@@ -16034,9 +16083,7 @@
           "pages": "2160-2177",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42645558/"
         },
         {
           "pmid": "42714473",
@@ -16276,9 +16323,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/"
         },
         {
           "pmid": "42625192",
@@ -18502,9 +18547,7 @@
           "pages": "1958-1973",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13562141/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42658259/"
         },
         {
           "pmid": "42644690",
@@ -18535,9 +18578,7 @@
           "pages": "",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42644690/"
         },
         {
           "pmid": "42267831",
@@ -19822,6 +19863,27 @@
       "label": "Pharmacology",
       "abbr": "Pharm",
       "articles": [
+        {
+          "pmid": "42911397",
+          "title": "Principles of drug dosing for obese patients in the intensive care unit.",
+          "journal": "Intensive care medicine",
+          "pubdate": "2026 Oct 22",
+          "authors": [
+            "Barletta JF",
+            "Erstad BL"
+          ],
+          "doi": "10.1007/s00134-026-08628-7",
+          "abstract": "PURPOSE: The increasing prevalence of severe obesity in intensive care unit (ICU) patients has led to several challenges with medication dosing. Doses listed in product labels or tertiary references typically do not account for the pharmacokinetic or pharmacodynamic variability encountered with obesity, leading to the potential for treatment failure or an adverse effect. The purpose of this review is to provide guidance for ICU clinicians when crafting pharmacotherapy regimens in critically ill patients with extreme obesity. METHODS: A literature search was performed to identify relevant articles pertaining to the pharmacokinetics or pharmacodynamics of medications in obese patients. Articles describing both general treatment principles and medication specific assessments were retrieved. Bibliographies were searched for additional publications. RESULTS: Evidence guiding medication use in critically ill obese patients is limited by the small number of patients with more extreme forms of obesity, the lack of clinical outcome measurements, and the few studies that are specific to the ICU. Obesity-related alterations in pharmacokinetic parameters, such as apparent volume of distribution and drug clearance, may hinder attainment of pharmacodynamic targets. Individualized dosing strategies are essential to optimize therapeutic outcomes. This review provides dosing recommendations for selected ICU medications and proposes a practical framework to guide medication dosing decisions in this patient population. CONCLUSION: Drug dosing in critically ill obese patients should be individualized by assessing pharmacokinetic variability and whether pharmacodynamic goals can be achieved. Selecting the correct weight for weight-based calculations or dose for fixed regimens is paramount for achieving these goals. Consultation with a clinical pharmacist may be beneficial.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Review",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42911397/"
+        },
         {
           "pmid": "42904879",
           "title": "Music Therapy During Weaning From Invasive Mechanical Ventilation in the ICU: A Randomized Controlled Trial.",
