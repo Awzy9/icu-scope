@@ -508,6 +508,10 @@
     "summary": "Researchers evaluated 9 models for predicting imipenem dosing in critically ill patients. Most models were inaccurate, but one model performed better when combined with patient data. This could help doctors make better dosing decisions.",
     "significance": "This study's findings can help clinicians optimize imipenem dosing in critically ill patients, potentially improving treatment outcomes and reducing mortality."
   },
+  "pmid:42206945": {
+    "summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
+    "significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay."
+  },
   "pmid:42490008": {
     "summary": "This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.",
     "significance": "This study's findings support the use of RCA as an alternative to NA during CRRT in high-risk patients, potentially reducing bleeding complications without affecting mortality. However, careful monitoring of citrate levels and calcium levels is necessary to mitigate the risks associated with RCA."
@@ -539,10 +543,6 @@
   "pmid:42257882": {
     "summary": "This study reviewed current evidence on Patient Blood Management strategies in ICU patients, finding that intravenous iron supplementation and small-volume blood collection tubes can safely reduce anemia, and that restrictive blood transfusion strategies are generally supported.",
     "significance": "These findings are significant for ICU clinicians as they provide evidence-based guidance on optimizing blood health and reducing unnecessary blood transfusions, which can improve patient safety and outcomes."
-  },
-  "pmid:42206945": {
-    "summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
-    "significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay."
   },
   "pmid:42496126": {
     "summary": "This study looked at Japanese physiotherapists who worked with COVID-19 patients and found that direct contact with patients contributed to burnout, but this effect was partly buffered by appreciation and respect from patients and colleagues. The study suggests that organisational resources, such as reimbursement for care, may also play a role in burnout. Burnout prevalence was 19.4% among the physiotherapists.",
@@ -971,15 +971,15 @@
     "summary": "Researchers created a tool called PAUSE-Agents to help with ICU-to-ward transfers by drafting handoff briefs from ICU data and clinical notes. This tool uses a template developed by clinicians and involves multiple agents to ensure accuracy and safety. The goal is to reduce information loss and make handoffs less burdensome.",
     "significance": "This tool has the potential to improve patient care by reducing errors and improving communication during ICU-to-ward transfers, which are high-risk transitions."
   },
+  "url:https://clinicaltrials.gov/study/NCT00156767": {
+    "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+    "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
+  },
   "url:https://clinicaltrials.gov/study/NCT06749457": {
     "key_stats": "",
     "summary": "This study evaluated the safety and pharmacokinetics of AZD7760 in healthy adults and those with end-stage kidney disease on hemodialysis. Participants received AZD7760 as an intravenous infusion. The study aimed to assess the drug's safety and how it is absorbed and processed in the body.",
     "significance": "Understanding the safety and pharmacokinetics of AZD7760 is crucial for its potential use in patients with end-stage kidney disease, who often require complex medical care.",
     "rounds_takeaway": ""
-  },
-  "url:https://clinicaltrials.gov/study/NCT00156767": {
-    "summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
-    "significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes."
   },
   "url:https://clinicaltrials.gov/study/NCT07740304": {
     "key_stats": "",

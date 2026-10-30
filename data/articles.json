@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T09:05:33+00:00",
+  "generated_at": "2026-10-30T09:16:39+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -327,6 +327,16 @@
   "foamed": {
     "window_days": 30,
     "articles": [
+      {
+        "title": "EMCrit 437 – Massive Lithium Overdose",
+        "url": "https://emcrit.org/emcrit/lithium-od/",
+        "source": "EMCrit",
+        "author": "Scott Weingart, MD FCCM",
+        "pubdate": "2026-10-29",
+        "summary": "Massive lithium overdose is a once-or-twice-a-career case you cannot fumble. Toxicologist-nephrologist Josh King (Maryland Poison Center) walks through the crucial information and controversies EMCrit Project by Scott Weingart, MD FCCM .",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true
+      },
       {
         "title": "FGEBM 004-In Which We Investigate the Utility of Neuromuscular Blockade in ARDS",
         "url": "https://emcrit.org/emnerd/neuromuscular-blockade-ards/",
@@ -3306,6 +3316,26 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42855082/"
       },
       {
+        "pmid": "42952294",
+        "title": "Updated Management of Sodium Disorders During Continuous Venovenous Hemofiltration.",
+        "journal": "Seminars in dialysis",
+        "pubdate": "2026 Oct 29",
+        "authors": [
+          "Alrashidi FS"
+        ],
+        "doi": "10.1111/sdi.70053",
+        "abstract": "Severe hyponatremia or hypernatremia in critically ill patients requiring continuous venovenous hemofiltration (CVVH) presents a therapeutic challenge. Adjusting replacement-fluid sodium concentrations may help control correction and reduce the risk of neurologic complications. This practical narrative review summarizes approaches to customizing standard 5-L CVVH replacement-fluid bags, drawing on physiologic principles, published case reports, small case series, and protocol-based experiences. Calculations, correction targets, compounding precautions, and biochemical monitoring are described. For hypernatremia, calculated volumes of 3% NaCl can replace equal volumes of baseline fluid to increase sodium concentration while maintaining a final bag volume of 5.0 L. For hyponatremia, sterile-water dilution lowers replacement-fluid sodium but also reduces all other solute concentrations, requiring product-specific calculations and co-electrolyte monitoring. In chronic hyponatremia, correction is generally limited to ≤ 8 mmol/L per 24 h, with a more conservative 4-6 mmol/L target in patients at very high risk for osmotic demyelination. Individualized prescriptions should account for final fluid volume, effluent dose, and concurrent sodium and water inputs. Serum sodium should initially be measured every 4-6 h. Customized CVVH replacement fluid provides a practical approach to gradual sodium correction when implemented through a validated local compounding protocol with pharmacy or ICU oversight and frequent biochemical monitoring. Evidence remains largely case-based and protocol-derived, and comparative efficacy and safety are not established.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Review",
+        "volume": "",
+        "issue": "",
+        "pages": "",
+        "is_open_access": false,
+        "pmc_url": null,
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42952294/"
+      },
+      {
         "pmid": "42862327",
         "title": "Association of 24-hours net positive fluid balance with log-transformed vancomycin trough concentrations in the early phase of therapy among critically ill patients.",
         "journal": "Naunyn-Schmiedeberg's archives of pharmacology",
@@ -3621,14 +3651,14 @@
         ],
         "doi": "10.1186/s12912-026-05126-5",
         "abstract": "BACKGROUND: Effective communication is essential for safe and patient-centered care, particularly in intensive care units (ICUs), where interactions with critically ill patients and their families are emotionally demanding. Nursing students often lack confidence in such high-stakes communication, and culturally tailored educational strategies are limited in Saudi Arabia. This study evaluated the effectiveness of High-Fidelity Simulation (HFS) with live actors on nursing students' communication self-efficacy in ICU settings. METHODS: A one-group pre-post repeated-measures study was conducted with 50 fourth-year nursing students at a public university in Saudi Arabia, with assessments at four time points. Participants completed two HFS sessions with live actors portraying patients' families, followed by ICU clinical placements. Self-efficacy was measured using the 10-point SE-12 scale at four time points: T0 (pre-simulation), T1 (post 1st HFS-LA), T2 (post 2nd HFS-LA), and T3 (post-ICU placement). Repeated-measures ANOVA with Greenhouse-Geisser correction analyzed changes over time. RESULTS: Mean self-efficacy scores increased from T0 = 7.33 (SD 1.81) to T1 = 7.91 (SD 1.76), T2 = 8.39 (SD 1.57), and T3 = 8.02 (SD 1.58). Repeated-measures ANOVA indicated a significant time effect (F = 9.25, p < .001, partial η² = 0.16). Clinical significance analysis showed small but meaningful improvement (Δ = 0.69; effect size d = 0.41). CONCLUSION: High-fidelity simulation with live actors improves nursing students' perceived communication competence in ICU settings. Beyond statistical significance, this improvement has clinical and educational significance as well, since being more confident about communicating may help students to be better equipped to deal with critically ill patients and their family members in actual clinical settings. Repeated, culturally relevant simulation experiences foster confidence in engaging with patients and families, aligning with Saudi cultural norms of family involvement in care. These findings support the integration of multiple actor-based HFS scenarios into undergraduate curricula to enhance communication skills in critical care. CLINICAL TRIAL NUMBER: Not applicable.",
-        "citation_count": 0,
+        "citation_count": 45,
         "is_top_journal": false,
         "study_type": "Study",
         "volume": "25",
         "issue": "1",
         "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13715091/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42947165/"
       },
       {
@@ -4758,6 +4788,28 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/42903103/"
       },
       {
+        "pmid": "42952228",
+        "title": "The Impact of 12-Hour Versus 8-Hour Shifts on Intensive Care Unit Nurses' Physical and Mental Well-Being and Job Satisfaction: A Systematic Review.",
+        "journal": "Journal of nursing management",
+        "pubdate": "2026",
+        "authors": [
+          "Othman A",
+          "Najm D",
+          "Zimbudzi E"
+        ],
+        "doi": "10.1155/jonm/3524359",
+        "abstract": "BACKGROUND: Twelve-hour shifts have been widely implemented in intensive care units (ICUs), where nurses work in high-acuity environments requiring sustained clinical attention. However, evidence regarding the impact of shift length on ICU nurses' physical health, mental well-being, job satisfaction and patient-care outcomes remains limited and inconsistent. OBJECTIVE: To investigate the impact of 12-h compared with 8-h shifts on ICU nurses' physical health, well-being and job satisfaction. DESIGN: This systematic review was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses guidelines and was registered with PROSPERO (CRD420251021178). METHODS: A systematic search of CINAHL, Ovid MEDLINE and Embase was conducted in February 2025 and updated in June 2026. Additional searches of Scopus and Web of Science were undertaken in June 2026. Eligible studies included ICU nurses and compared 12-h with 8-h shifts. Risk of bias and methodological quality were assessed using design-specific Joanna Briggs Institute (JBI) critical appraisal tools and the Mixed Methods Appraisal Tool (MMAT). Certainty of evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation approach. Findings were synthesised narratively due to the heterogeneity of the included studies. RESULT: Of 815 records identified, five studies met the inclusion criteria. Findings on fatigue, sleep and burnout were inconclusive across studies. Twelve-hour shifts were generally associated with greater roster satisfaction, flexibility and work-life balance, while evidence for sick leave was limited or mixed. CONCLUSION: Evidence did not consistently favour either 12- or 8-h shifts for ICU nurses, with low to very low certainty of evidence. Shift duration should therefore be considered alongside overall roster design, staffing needs and nurses' well-being when planning ICU schedules. IMPLICATIONS FOR NURSING MANAGEMENT: Nurse managers should avoid a one-size-fits-all approach to shift duration, as evidence does not clearly favour 12- or 8-h shifts. Shift-length decisions should consider roster design, staffing needs, workload, recovery time and nurses' preferences. Managers should also monitor staff well-being, satisfaction, absenteeism, retention and patient-care outcomes when reviewing shift patterns. Given the low certainty of evidence, ongoing local evaluation is essential to ensure rosters support workforce sustainability and safe, high-quality care.",
+        "citation_count": 31,
+        "is_top_journal": false,
+        "study_type": "Systematic Review",
+        "volume": "2026",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13717235/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42952228/"
+      },
+      {
         "pmid": "42340792",
         "title": "CT-Assessed Sarcopenia Combined with Laboratory Inflammatory Markers for Outcome Prediction in Critically Ill, Pulmonary, and Geriatric Patients: A Systematic Review and Meta-Analysis.",
         "journal": "La Clinica terapeutica",
@@ -4913,14 +4965,16 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42873070/",
-        "category_id": "renal",
-        "category_label": "Renal",
+        "category_id": "cardiovascular",
+        "category_label": "Cardiovascular",
         "category_ids": [
+          "cardiovascular",
           "renal",
           "gi-nutrition",
           "infectious-sepsis"
         ],
         "category_labels": [
+          "Cardiovascular",
           "Renal",
           "GI & Nutrition",
           "Infectious Disease & Sepsis"
@@ -4962,57 +5016,6 @@
         ],
         "category_labels": [
           "GI & Nutrition"
-        ]
-      },
-      {
-        "pmid": "42919451",
-        "title": "Brachial-to-Radial Pressure Gradient in Critically Ill Patients Treated With Vasoactive Agents: A Prospective Observational Study.",
-        "journal": "Critical care medicine",
-        "pubdate": "2026 Oct 23",
-        "authors": [
-          "Putowski Z",
-          "Gawda R",
-          "Czarnik T",
-          "Królicki T",
-          "Trzebicka J",
-          "Zawadka M",
-          "Steckiewicz KP",
-          "Owczuk R",
-          "Szczepańska A",
-          "Liberski P",
-          "Kluzik A",
-          "Kudliński B",
-          "Nowak P",
-          "Białka S",
-          "Węgrzyn K",
-          "Zatorski P",
-          "Janowska-Rodak A",
-          "Onichimowski D",
-          "Ziętkiewicz M",
-          "Sadowski Ł",
-          "Wójcik E",
-          "Kostrzewski M",
-          "Szczeklik W",
-          "Polish Perioperative and Critical Care Research Group (PERI-CRIT)"
-        ],
-        "doi": "10.1097/CCM.0000000000007391",
-        "abstract": "OBJECTIVES: To determine the incidence of a significant noninvasive brachial-to-radial arterial pressure gradient (NIBR-APG) and its clinical associations in critically ill patients receiving vasoactive agents. DESIGN: Prospective, multicenter, observational study. SETTING: Thirteen ICUs in Poland. PATIENTS: Adult ICU patients with radial arterial catheters receiving vasoactive agents hospitalized between April 2025 and July 2025. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Invasive radial mean arterial pressure (MAP) and noninvasive brachial MAP were measured twice and averaged. A NIBR-APG greater than 11 mm Hg was predefined as clinically significant. Baseline characteristics, hemodynamic variables, and outcomes were recorded. Among 303 patients, 49.5% were surgical admissions and 33.3% had septic shock. The median NIBR-APG was 4.5 mm Hg (interquartile range, 0.0-10.0 mm Hg). Fifty-six patients (18.4%) exhibited a NIBR-APG greater than 11 mm Hg. Compared with patients without a significant gradient, these patients received higher norepinephrine-equivalent doses (0.23 vs. 0.10 µg/kg/min), had higher Sequential Organ Failure Assessment scores (11 vs. 10), prolonged capillary refill time (3.0 vs. 2.5 s), and higher lactate concentrations (2.7 vs. 1.3 mmol/L). In multivariable analysis, only vasoactive drug dose was independently associated with NIBR-APG greater than 11 mm Hg (odds ratio, 1.68; 95% CI, 1.12-2.52). ICU mortality was higher in patients with significant gradients (48.0% vs. 30.1%). CONCLUSIONS: Nearly one in five critically ill patients receiving vasoactive agents demonstrated a clinically significant NIBR-APG. The presence of this gradient was independently associated with higher vasoactive drug requirements and was accompanied by greater illness severity and higher ICU mortality.",
-        "citation_count": 0,
-        "is_top_journal": true,
-        "study_type": "Study",
-        "volume": "",
-        "issue": "",
-        "pages": "",
-        "is_open_access": false,
-        "pmc_url": null,
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42919451/",
-        "category_id": "infectious-sepsis",
-        "category_label": "Infectious Disease & Sepsis",
-        "category_ids": [
-          "infectious-sepsis"
-        ],
-        "category_labels": [
-          "Infectious Disease & Sepsis"
         ]
       }
     ]
@@ -5170,6 +5173,94 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Adrenal Function in Critical Illness",
+        "url": "https://clinicaltrials.gov/study/NCT00156767",
+        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+        "author": "",
+        "pubdate": "2026-10-29",
+        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT00156767",
+        "ai_key_stats": "",
+        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
+        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
+        "ai_rounds_takeaway": ""
+      },
+      {
+        "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
+        "url": "https://clinicaltrials.gov/study/NCT05189925",
+        "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
+        "author": "",
+        "pubdate": "2026-10-29",
+        "summary": "Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05189925"
+      },
+      {
+        "title": "Chest U/S in Differentiating Lung Congestion & Pneumonia in Adult Critically-ill Patients and Its Prognostic Impact",
+        "url": "https://clinicaltrials.gov/study/NCT05636631",
+        "source": "Assiut University",
+        "author": "",
+        "pubdate": "2026-10-29",
+        "summary": "This study aim will be to assess the effectiveness of chest ultrasound as a diagnostic and differentiating modality in cases of pneumonia and lung congestion . It also evaluates chests sonography effectiveness in follow-up of patients with pneumonia and lung congestion .",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05636631"
+      },
+      {
+        "title": "Decremental Esophageal Catheter Filling Volume Titration For Transpulmonary Pressure Measurement",
+        "url": "https://clinicaltrials.gov/study/NCT06051292",
+        "source": "Dr. Behcet Uz Children's Hospital",
+        "author": "",
+        "pubdate": "2026-10-29",
+        "summary": "Mechanical ventilation is a critical intervention in the management of pediatric patients with respiratory distress. During this process, accurate measurement of transpulmonary pressure (PL) is essential to ensure the safety and efficacy of ventilation. PL is defined as the difference between alveolar pressure (Palv) and pleural pressure (Ppl). While the direct measurement of Ppl is possible, it poses a risk to tissue integrity. Thus, the primary surrogate for Ppl measurement today is esophageal",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06051292"
+      },
+      {
+        "title": "Abdominal Massage and Range-of-motion Exercise in Enterally Fed ICU Patients With Pressure Injuries",
+        "url": "https://clinicaltrials.gov/study/NCT07904520",
+        "source": "Bartın Unıversity",
+        "author": "",
+        "pubdate": "2026-10-29",
+        "summary": "The purpose of this study is to evaluate whether two nursing interventions, lower abdominal massage and range-of-motion (ROM) exercises (gentle movements of the arm and leg joints), affect the healing of pressure injuries (bed sores) in intensive care patients who are fed through a tube (enteral nutrition). Intensive care patients often stay in bed for long periods and are at high risk of pressure injuries. Adequate nutrition is important for wound healing, but tube-fed patients often have diges",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07904520"
+      },
+      {
+        "title": "Patient- and Family-centred Care in the Adult Intensive Care Unit: a Feasibility Study",
+        "url": "https://clinicaltrials.gov/study/NCT06974214",
+        "source": "Herlev Hospital",
+        "author": "",
+        "pubdate": "2026-10-29",
+        "summary": "Background: In the intensive care unit (ICU), delirium in patients and long-term mental health challenges in both patients and their family members are highly prevalent. To address these issues, patient- and family-centered care has been recommended to alleviate the burdens associated with critical illness and ICU admission. We have developed the patient- and FAMily-centered care in the adult ICU intervention (FAM-ICU intervention). This multi-component intervention comprises several concrete an",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06974214"
+      },
+      {
+        "title": "Early Detection and Kinetics of Sepsis-Induced Coagulopathy in Severe Burn Patients",
+        "url": "https://clinicaltrials.gov/study/NCT07905807",
+        "source": "Selcuk University",
+        "author": "",
+        "pubdate": "2026-10-29",
+        "summary": "The purpose of this study is to evaluate the impact of an avatar-supported, teacher-student interactive, vodcast-based peer bullying prevention program-developed for adolescents-on students' ability to identify peer bullying, their experiences with bullying, fighting, and victimization, and their levels of empathy. Designed as a non-randomized controlled study (quasi-experimental), this research will be conducted between October 2026 and December 2026 with students attending two public middle sc",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07905807"
+      },
+      {
         "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
         "url": "https://clinicaltrials.gov/study/NCT06749457",
         "source": "AstraZeneca",
@@ -5207,9 +5298,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT01068990",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT01068990"
       },
       {
         "title": "LoW Dose-Intensity vs. Standard Dose-Intensity COntinuous Renal ReplaceMent Therapy in Critically Ill Patients (WISDOM)",
@@ -5221,9 +5310,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06446739",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06446739"
       },
       {
         "title": "The Effect of Pink Noise and the Quiet Night Intervention on Sleep Parameters in Intensive Care Unit Patients: A Single-Center Randomized Controlled Trial",
@@ -5235,9 +5322,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07412964",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07412964"
       },
       {
         "title": "Adverse Events During Physical Therapy in Neurocritical ICU Patients",
@@ -5249,9 +5334,7 @@
         "study_type": "Clinical Trial (Active Not Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07901140",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07901140"
       },
       {
         "title": "Clinical Value of EMR3 in Sepsis Diagnosis, Monitoring, and Prognosis: A Multicenter Prospective Observational Study",
@@ -5263,9 +5346,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07896018",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07896018"
       },
       {
         "title": "Automatic Tube Compensation vs. Pressure Support Ventilation During Spontaneous Breathing Trials in Adults",
@@ -5277,9 +5358,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07005505",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07005505"
       },
       {
         "title": "Effectiveness of Virtual Reality in Improving Upper Limb Function in Critically Ill Patients",
@@ -5291,9 +5370,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07901855",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07901855"
       },
       {
         "title": "Veno-arterial Carbon Dioxide Partial Pressure Difference (CO2gap) for Early Resuscitation of Septic Shock",
@@ -5305,9 +5382,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07179276",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07179276"
       },
       {
         "title": "Metabolic and Functional Study of γδ T Cells in Critically Ill Patients",
@@ -5427,25 +5502,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07072871",
-        "link_broken": false,
-        "link_broken_kind": "url"
-      },
-      {
-        "title": "Adrenal Function in Critical Illness",
-        "url": "https://clinicaltrials.gov/study/NCT00156767",
-        "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
-        "author": "",
-        "pubdate": "2026-10-26",
-        "summary": "An appropriate hypothalamic-pituitary-adrenal (HPA) axis response is required to survive critical illness. Primary adrenal insufficiency, relative adrenal insufficiency, tissue resistance to glucocorticoids, ACTH deficiency and immune-mediated inhibition of the HPA axis may impair the secretion or action of glucocorticoids in critically ill patients. Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri",
-        "study_type": "Clinical Trial (Completed)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT00156767",
-        "ai_key_stats": "",
-        "ai_summary": "This study looked at how often adrenal insufficiency happens in critically ill patients and why it's a problem. They found that it occurs in up to 77% of cases, but there's no standard way to diagnose it. Researchers need to figure out how to identify and treat adrenal insufficiency.",
-        "ai_significance": "Understanding adrenal insufficiency is crucial for ICU clinicians to provide proper care, as it can affect patient survival and outcomes.",
-        "ai_rounds_takeaway": ""
+        "nct_id": "NCT07072871"
       },
       {
         "title": "THE ROLE OF PANCREATIC STONE PROTEIN (PSP) AND PSP-GUIDED EARLY MEROPENEM TREATMENT TO MITIGATE SEPSIS RISK AT THE EMERGENCY DEPARTMENT: THE PROMISE DOUBLE BLIND, PHASE III, RANDOMIZED CONTROLLED CLINICAL TRIAL",
@@ -5961,9 +6018,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05421858",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT05421858"
       },
       {
         "title": "Shenfu Injection for the Prevention and Treatment of Ventilator Dependence in Mechanically Ventilated Patients",
@@ -6903,21 +6958,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05624450",
-        "link_broken": false,
-        "link_broken_kind": "url"
-      },
-      {
-        "title": "NADPH Oxidase Correction in mRNA-transfected Granulocyte-enriched Cells in Chronic Granulomatous Disease (CGD)",
-        "url": "https://clinicaltrials.gov/study/NCT05189925",
-        "source": "National Institute of Allergy and Infectious Diseases (NIAID)",
-        "author": "",
-        "pubdate": "2026-10-02",
-        "summary": "Background: CGD is caused by a gene mutation. For people with CGD, their cells cannot kill germs well, so they can get frequent or life-threatening infections. Researchers want to see if a new procedure can help a person s cells kill germs for a short time. It uses messenger RNA (mRNA) to deliver correct instructions for the gene mutation to the cells. Objective: To test a procedure in which mRNA is added to a person s blood cells. Eligibility: Males aged 18-75 with CGD with a mutation in the ge",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05189925"
+        "nct_id": "NCT05624450"
       },
       {
         "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
@@ -8425,9 +8466,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07711535",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07711535"
       },
       {
         "title": "Triple Sleep-promotion Protocol for Delirium Prevention in Intensive Care Patients",
@@ -8995,9 +9034,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07792694",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07792694"
       },
       {
         "title": "Assessment of the PEEP Responsiveness to Titrate End-expiratory Pressure and of the Need for Muscle Relaxation During Prone Positioning in Moderate-to-severe Acute Respiratory Distress Syndrome: A Master Protocol",
@@ -9009,9 +9046,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06849570",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06849570"
       },
       {
         "title": "The Impact of the Family Room App on Caregivers",
@@ -9023,9 +9058,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06463158",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06463158"
       },
       {
         "title": "PRophylaxis Against Early VENTilator-associated Infections in Acute Brain Injury",
@@ -9037,9 +9070,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06819592",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06819592"
       },
       {
         "title": "A Trial of Tegileridine Fumarate Lnjection for Prolonged Mechanical Ventilation Abirritation in the Intensive Care Unit (ICU)",
@@ -9051,9 +9082,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07372924",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07372924"
       },
       {
         "title": "The ARISE Study - Use of Vertical Positioning",
@@ -9065,9 +9094,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07025421",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07025421"
       },
       {
         "title": "Diagnostic and Prognostic Roles of Procalcitonin and Highly Sensitive C-Reactive Protein in Early Detection of Burn Sepsis",
@@ -9079,9 +9106,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07791030",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07791030"
       },
       {
         "title": "Effect of Benson Relaxation Technique on Pain Level, Insomnia, Nausea, Vomiting, and Retching in Oncology Patients",
@@ -9093,9 +9118,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06661239",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06661239"
       },
       {
         "title": "Differential Clinical Phenotypes Of Early CD4+ And CD8+ T-Cell Recovery And Association With 28-Day Mortality In Sepsis Patients",
@@ -9107,9 +9130,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07787780",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07787780"
       },
       {
         "title": "Nursing Interventions on Prevention Medical Device Related Pressure Injury (MDRPI)",
@@ -9121,9 +9142,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06513936",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06513936"
       },
       {
         "title": "Effect of HeartMath Intervention on Stress, Emotional Vitality and Sense of Coherence",
@@ -9135,9 +9154,7 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06849388",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06849388"
       },
       {
         "title": "Post Intensive Care Accelerometery to Study and Support Recovery Outcomes",
@@ -9149,9 +9166,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07466446",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT07466446"
       },
       {
         "title": "Delayed Against Rapid Sequence Induction in Adults With Medical Diseases Undergoing Emergency Endotracheal Intubation.",
@@ -9163,9 +9178,7 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06940219",
-        "link_broken": false,
-        "link_broken_kind": "url"
+        "nct_id": "NCT06940219"
       },
       {
         "title": "Iron Deficiency at ICU Discharge",
@@ -10935,7 +10948,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
           "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42612901",
@@ -11128,7 +11143,9 @@
             "strengths": "large sample size; 6-month follow-up data; intention-to-treat principle",
             "weaknesses": "open-label design; non-inferiority trial",
             "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42469838",
@@ -11194,7 +11211,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study evaluated the feasibility and prognostic value of echocardiographic parameters in a mixed ICU population. It found that impaired mitral annular plane systolic excursion (MAPSE) and global longitudinal strain (GLS) were associated with increased mortality. MAPSE was also the most feasible measurement.",
           "ai_significance": "These findings suggest that incorporating MAPSE into routine ICU echocardiography may improve detection and risk stratification of left ventricular dysfunction in critical illness, potentially leading to better patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42432771",
@@ -11225,7 +11244,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a new method using electrical impedance tomography (EIT) to quickly and non-invasively diagnose pulmonary embolism (PE) in critically ill patients. The method uses a frequency-domain band-pass filter to extract perfusion-related pulsatility and separate it from ventilation-related low-frequency components. The study found that the method can accurately diagnose PE and risk-stratify patients based on three key parameters.",
           "ai_significance": "This study has significant implications for ICU clinical practice as it provides a novel, non-invasive method for diagnosing and risk-stratifying patients with pulmonary embolism, which is a major cause of morbidity and mortality in critical care.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42507344",
@@ -11256,7 +11277,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
           "ai_significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42315625",
@@ -11288,7 +11311,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
           "ai_significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42332804",
@@ -11320,7 +11345,9 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
           "ai_significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42271417",
@@ -11382,7 +11409,9 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill patients with sepsis and shock often have high lactate levels, but this doesn't always mean they're not getting enough oxygen. Lactate is a key metabolic intermediate that reflects the balance between production, utilization, and clearance. The kidneys play a significant role in lactate utilization and clearance, especially in patients with acute kidney injury.",
           "ai_significance": "Understanding lactate biology in critical illness can help clinicians interpret lactate levels more accurately and develop more effective management strategies for septic acute kidney injury.",
-          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function."
+          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502537",
@@ -11412,7 +11441,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
           "ai_significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42216195",
@@ -11441,7 +11472,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses the challenges of diagnosing and managing Triple M overlap syndrome, a severe and lethal immune-related adverse event in critically ill patients. It highlights key diagnostic pitfalls and proposes a structured ICU-oriented approach to improve outcomes. Early recognition and parallel evaluation for infection and immune-mediated disease are essential.",
           "ai_significance": "Early recognition and management of Triple M overlap syndrome are crucial to improving outcomes in critically ill patients, as delays in treatment can lead to increased mortality.",
-          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease."
+          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease.",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42188994",
@@ -11474,7 +11507,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
           "ai_significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         }
       ]
     },
@@ -11643,7 +11678,9 @@
           "pages": "2039-2057",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42618770",
@@ -11678,7 +11715,9 @@
           "pages": "2071-2084",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13624006/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42593537",
@@ -11704,7 +11743,9 @@
           "pages": "2178-2193",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42823746",
@@ -11743,7 +11784,7 @@
         },
         {
           "pmid": "42790625",
-          "title": "Cough function during mechanical ventilation.",
+          "title": "Cough Function During Mechanical Ventilation.",
           "journal": "Chest",
           "pubdate": "2026 Sep 25",
           "authors": [
@@ -11760,7 +11801,7 @@
             "Ait-Oufella H"
           ],
           "doi": "10.1016/j.chest.2026.09.023",
-          "abstract": "TOPIC IMPORTANCE: Cough is a vital physiological function that clears the tracheobronchial tree and facilitates effective gas exchange through secretion clearance. In ICU patients, ineffective cough is frequent, primarily due to respiratory muscle dysfunction and the presence of the endotracheal tube, which prevents glottic closure. Ineffective cough has been identified as an independent risk factor for extubation failure and prolonged mechanical ventilation. REVIEW FINDINGS: Current guidelines recognize ineffective cough as a key criterion for successful weaning from mechanical ventilation. Nevertheless, its clinical assessment remains challenging and lacks standardization. Accurate and objective evaluation of cough may improve the identification of patients at high risk of extubation failure. Beyond extubation failure, ineffective cough has also been associated with increased incidence of post-extubation pneumonia, longer ICU stay, and impaired long-term respiratory function. Poor outcome highlights the broader clinical impact of ineffective cough and reinforce the need for standardized assessment during ventilator weaning. SUMMARY: This narrative review aims to decipher the mechanisms underlying the cough reflex, outline the pathophysiological alterations observed in critically ill patients, particularly during the weaning process, and examine the available methods for cough quantification.",
+          "abstract": "TOPIC IMPORTANCE: Cough is a vital physiologic function that clears the tracheobronchial tree and facilitates effective gas exchange through secretion clearance. In patients in the ICU, ineffective cough is frequent, primarily because of respiratory muscle dysfunction and the presence of the endotracheal tube, which prevents glottic closure. Ineffective cough has been identified as an independent risk factor for extubation failure and prolonged mechanical ventilation. REVIEW FINDINGS: Current guidelines recognize ineffective cough as a key criterion for successful weaning from mechanical ventilation. Nevertheless, its clinical assessment remains challenging and lacks standardization. Accurate and objective evaluation of cough may improve the identification of patients at high risk of extubation failure. Beyond extubation failure, ineffective cough also has been associated with increased incidence of postextubation pneumonia, longer ICU stay, and impaired long-term respiratory function. Poor outcome highlights the broader clinical impact of ineffective cough and reinforces the need for standardized assessment during ventilator weaning. SUMMARY: This narrative review aimed to decipher the mechanisms underlying the cough reflex, to outline the pathophysiologic alterations observed in critically ill patients, particularly during the weaning process, and to examine the available methods for cough quantification.",
           "citation_count": 0,
           "is_top_journal": true,
           "study_type": "Review",
@@ -11876,7 +11917,9 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
           "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42658259",
@@ -12085,7 +12128,9 @@
           "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
           "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
           "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype.",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42502162",
@@ -12122,7 +12167,9 @@
             "strengths": "randomized controlled trial design; large sample size (n = 118)",
             "weaknesses": "lack of statistical significance for primary outcome measures; retrospective registration of trial",
             "bottom_line": "Toothbrushing with chlorhexidine mouth rinse may have a potential benefit in reducing ventilator-associated pneumonia incidence and improving clinical outcomes in PICU patients, but further larger multicenter studies are needed to confirm its effect."
-          }
+          },
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42493817",
@@ -12147,7 +12194,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that early nutritional supplementation may not be beneficial for all critically ill patients with sepsis, and further research is needed to determine the optimal nutritional strategy for this population.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42638131",
@@ -12214,7 +12263,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
           "ai_significance": "These results have implications for the development of personalized treatment strategies and outcome prediction tools in critically ill patients, potentially improving patient care and outcomes in the ICU.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42150121",
@@ -12271,7 +12322,9 @@
             "strengths": "Large sample size; pragmatic design; assessor-blinded",
             "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
             "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
-          }
+          },
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506109",
@@ -12302,7 +12355,9 @@
           "ai_key_stats": "",
           "ai_summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
           "ai_significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42506369",
@@ -12333,7 +12388,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
           "ai_significance": "This research has implications for ICU clinical practice, as it suggests that vitamin C can be used as a pharmacological agent in critical illness, and that biomarkers can be used to guide treatment and improve patient outcomes.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": true,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42467246",
@@ -12369,7 +12426,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
           "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42442528",
@@ -12475,7 +12534,9 @@
           "ai_key_stats": "",
           "ai_summary": "The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.",
           "ai_significance": "This study will facilitate phenotyping of critical illness syndromes, potentially leading to more targeted and effective treatments for ARDS, pneumonia, and sepsis in ICU patients.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42410654",
@@ -12503,7 +12564,9 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviews the current limitations in critical care research due to syndromic diagnoses and proposes a pathway-level framework to translate omics insights into clinical trial design and bedside decision-making.",
           "ai_significance": "This framework has the potential to improve patient outcomes by enabling personalized treatment and more effective use of existing therapies in critical care settings.",
-          "ai_rounds_takeaway": ""
+          "ai_rounds_takeaway": "",
+          "link_broken": false,
+          "link_broken_kind": "doi"
         },
         {
           "pmid": "42496477",
@@ -16009,6 +16072,49 @@
       "abbr": "ID/Sepsis",
       "articles": [
         {
+          "pmid": "42919451",
+          "title": "Brachial-to-Radial Pressure Gradient in Critically Ill Patients Treated With Vasoactive Agents: A Prospective Observational Study.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Oct 23",
+          "authors": [
+            "Putowski Z",
+            "Gawda R",
+            "Czarnik T",
+            "Królicki T",
+            "Trzebicka J",
+            "Zawadka M",
+            "Steckiewicz KP",
+            "Owczuk R",
+            "Szczepańska A",
+            "Liberski P",
+            "Kluzik A",
+            "Kudliński B",
+            "Nowak P",
+            "Białka S",
+            "Węgrzyn K",
+            "Zatorski P",
+            "Janowska-Rodak A",
+            "Onichimowski D",
+            "Ziętkiewicz M",
+            "Sadowski Ł",
+            "Wójcik E",
+            "Kostrzewski M",
+            "Szczeklik W",
+            "Polish Perioperative and Critical Care Research Group (PERI-CRIT)"
+          ],
+          "doi": "10.1097/CCM.0000000000007391",
+          "abstract": "OBJECTIVES: To determine the incidence of a significant noninvasive brachial-to-radial arterial pressure gradient (NIBR-APG) and its clinical associations in critically ill patients receiving vasoactive agents. DESIGN: Prospective, multicenter, observational study. SETTING: Thirteen ICUs in Poland. PATIENTS: Adult ICU patients with radial arterial catheters receiving vasoactive agents hospitalized between April 2025 and July 2025. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: Invasive radial mean arterial pressure (MAP) and noninvasive brachial MAP were measured twice and averaged. A NIBR-APG greater than 11 mm Hg was predefined as clinically significant. Baseline characteristics, hemodynamic variables, and outcomes were recorded. Among 303 patients, 49.5% were surgical admissions and 33.3% had septic shock. The median NIBR-APG was 4.5 mm Hg (interquartile range, 0.0-10.0 mm Hg). Fifty-six patients (18.4%) exhibited a NIBR-APG greater than 11 mm Hg. Compared with patients without a significant gradient, these patients received higher norepinephrine-equivalent doses (0.23 vs. 0.10 µg/kg/min), had higher Sequential Organ Failure Assessment scores (11 vs. 10), prolonged capillary refill time (3.0 vs. 2.5 s), and higher lactate concentrations (2.7 vs. 1.3 mmol/L). In multivariable analysis, only vasoactive drug dose was independently associated with NIBR-APG greater than 11 mm Hg (odds ratio, 1.68; 95% CI, 1.12-2.52). ICU mortality was higher in patients with significant gradients (48.0% vs. 30.1%). CONCLUSIONS: Nearly one in five critically ill patients receiving vasoactive agents demonstrated a clinically significant NIBR-APG. The presence of this gradient was independently associated with higher vasoactive drug requirements and was accompanied by greater illness severity and higher ICU mortality.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Study",
+          "volume": "",
+          "issue": "",
+          "pages": "",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42919451/"
+        },
+        {
           "pmid": "42872606",
           "title": "Fluid Therapy in Mechanically Ventilated Critically Ill Adult Patients.",
           "journal": "JAMA",
@@ -17573,6 +17679,37 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42752385/"
         },
         {
+          "pmid": "42206945",
+          "title": "Interaction Between Admission Hemoglobin and Sex on ICU Mortality in Patients With Moderate-to-Severe Traumatic Brain Injury: A Retrospective Bicentric Cohort Study.",
+          "journal": "Critical care medicine",
+          "pubdate": "2026 Sep 1",
+          "authors": [
+            "Lamamri M",
+            "Werner M",
+            "Sigaut S",
+            "Dupont J",
+            "Rodrigues A",
+            "Gallet A",
+            "Weiss E",
+            "Jeantrelle C"
+          ],
+          "doi": "10.1097/CCM.0000000000007222",
+          "abstract": "OBJECTIVES: Recent studies have sought to define an optimal transfusion threshold in patients with traumatic brain injury (TBI). However, baseline hemoglobin levels differ by sex. Given the male predominance in TBI epidemiology, it is essential to determine if this sex-specific physiologic difference influences the prognosis. DESIGN: Bicentric, retrospective cohort study. SETTING: Two level 1 trauma centers in France from November 2010 to July 2025. PATIENTS: Adult critically ill patients with moderate-to-severe TBI. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We included 5513 TBI patients. After adjustment, every 1 g/dL increase in admission hemoglobin was associated with a 31% decrease in the odds of ICU mortality (odds ratio [OR], 0.69; 97.5% CI, 0.52-0.91; p = 0.0027). The sex × hemoglobin interaction effect was not significantly associated with ICU mortality (OR, 1.04; 97.5% CI, 0.91-1.19; p = 0.433). Predicted ICU mortality risk was lower in females across all hemoglobin levels (Wald tests, all p < 0.05 from 9.0 to 13.0 g/dL). However, causal inference methods found no evidence of a sex-specific difference in standardized ICU mortality risk at equivalent admission hemoglobin levels (adjusted OR, 1.01; 95% CI, 0.85-1.19; p = 0.936). CONCLUSIONS: No interaction between admission hemoglobin and sex was found regarding ICU mortality following TBI in this cohort. These results do not support the implementation of sex-differentiated hemoglobin transfusion thresholds based solely at admission hemoglobin levels in the initial management of TBI patients. Further prospective studies are needed to confirm these findings and to evaluate whether sex-related differences may emerge when considering longitudinal hemoglobin trajectories during the ICU stay and transfusion practices.",
+          "citation_count": 0,
+          "is_top_journal": true,
+          "study_type": "Multicenter Study",
+          "volume": "54",
+          "issue": "9",
+          "pages": "2302-2312",
+          "is_open_access": false,
+          "pmc_url": null,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42206945/",
+          "ai_key_stats": "",
+          "ai_summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
+          "ai_significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay.",
+          "ai_rounds_takeaway": ""
+        },
+        {
           "pmid": "42267870",
           "title": "International Validation of Temperature-Trajectory Sepsis Subphenotypes With Longitudinal Immune and Coagulation Patterns and Its Implications for Immunoglobulin Therapy.",
           "journal": "Critical care medicine",
@@ -18104,37 +18241,6 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed current evidence on Patient Blood Management strategies in ICU patients, finding that intravenous iron supplementation and small-volume blood collection tubes can safely reduce anemia, and that restrictive blood transfusion strategies are generally supported.",
           "ai_significance": "These findings are significant for ICU clinicians as they provide evidence-based guidance on optimizing blood health and reducing unnecessary blood transfusions, which can improve patient safety and outcomes.",
-          "ai_rounds_takeaway": ""
-        },
-        {
-          "pmid": "42206945",
-          "title": "Interaction Between Admission Hemoglobin and Sex on ICU Mortality in Patients With Moderate-to-Severe Traumatic Brain Injury: A Retrospective Bicentric Cohort Study.",
-          "journal": "Critical care medicine",
-          "pubdate": "2026 May 28",
-          "authors": [
-            "Lamamri M",
-            "Werner M",
-            "Sigaut S",
-            "Dupont J",
-            "Rodrigues A",
-            "Gallet A",
-            "Weiss E",
-            "Jeantrelle C"
-          ],
-          "doi": "10.1097/CCM.0000000000007222",
-          "abstract": "OBJECTIVES: Recent studies have sought to define an optimal transfusion threshold in patients with traumatic brain injury (TBI). However, baseline hemoglobin levels differ by sex. Given the male predominance in TBI epidemiology, it is essential to determine if this sex-specific physiologic difference influences the prognosis. DESIGN: Bicentric, retrospective cohort study. SETTING: Two level 1 trauma centers in France from November 2010 to July 2025. PATIENTS: Adult critically ill patients with moderate-to-severe TBI. INTERVENTIONS: None. MEASUREMENTS AND MAIN RESULTS: We included 5513 TBI patients. After adjustment, every 1 g/dL increase in admission hemoglobin was associated with a 31% decrease in the odds of ICU mortality (odds ratio [OR], 0.69; 97.5% CI, 0.52-0.91; p = 0.0027). The sex × hemoglobin interaction effect was not significantly associated with ICU mortality (OR, 1.04; 97.5% CI, 0.91-1.19; p = 0.433). Predicted ICU mortality risk was lower in females across all hemoglobin levels (Wald tests, all p < 0.05 from 9.0 to 13.0 g/dL). However, causal inference methods found no evidence of a sex-specific difference in standardized ICU mortality risk at equivalent admission hemoglobin levels (adjusted OR, 1.01; 95% CI, 0.85-1.19; p = 0.936). CONCLUSIONS: No interaction between admission hemoglobin and sex was found regarding ICU mortality following TBI in this cohort. These results do not support the implementation of sex-differentiated hemoglobin transfusion thresholds based solely at admission hemoglobin levels in the initial management of TBI patients. Further prospective studies are needed to confirm these findings and to evaluate whether sex-related differences may emerge when considering longitudinal hemoglobin trajectories during the ICU stay and transfusion practices.",
-          "citation_count": 0,
-          "is_top_journal": true,
-          "study_type": "Study",
-          "volume": "",
-          "issue": "",
-          "pages": "",
-          "is_open_access": false,
-          "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42206945/",
-          "ai_key_stats": "",
-          "ai_summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
-          "ai_significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay.",
           "ai_rounds_takeaway": ""
         },
         {
