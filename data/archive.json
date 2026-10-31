@@ -1921,6 +1921,31 @@
         "is_open_access": false,
         "pmc_url": null,
         "url": "https://pubmed.ncbi.nlm.nih.gov/42904879/"
+      },
+      "42958418": {
+        "pmid": "42958418",
+        "title": "Chlorhexidine within a standardized oral-care bundle for the prevention of ventilator-associated pneumonia: a pragmatic cluster-randomized crossover trial in six medical intensive care units.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Oct 29",
+        "authors": [
+          "Anushapreethi S",
+          "Chhotray P",
+          "Samal S",
+          "Panda S",
+          "Patnaik R",
+          "Mishra SB"
+        ],
+        "doi": "10.1186/s13054-026-06217-0",
+        "abstract": "BACKGROUND: Chlorhexidine (CHX) has been a long-standing component of oral-care bundles for preventing ventilator-associated pneumonia (VAP), but recent evidence has questioned its benefit in non-cardiac-surgery ICU. We evaluated whether adding 0.12% CHX to standardized oral-care bundle provides incremental benefit in a mixed medical ICU. METHODS: We conducted a prospective, pragmatic cluster-randomized crossover (AB/BA) trial in six adult medical ICUs of a single tertiary-care academic hospital in Bhubaneswar, India. ICUs were randomized as three ICUs of two Period of 9 months with the multicomponent oral-care bundle without chlorhexidine and three with the same bundle plus 0.12% chlorhexidine with a 1-month wash-in and re-training interval. Consecutive adults ventilated for ≥ 48 h were included. The primary outcome was VAP incidence density (Clinical Pulmonary Infection Score (CPIS) > 6) as per 1,000 ventilator-days. Secondary outcomes were 28-day all-cause mortality, duration of mechanical ventilation, ICU length of stay, 28- day ventilator-free days, Beck Oral Assessment Scale (BOAS) and Critical-Care Pain Observation Tool (CPOT) scores. The primary model was a population-averaged Poisson generalized estimating equation (GEE) and adjustment for treatment, period, sequence, age, sex, APACHE II, and SOFA. RESULTS: A total of 1,035 patients (637 No CHX, 398 CHX) accrued 10,024 ventilator-days (5,918 vs. 4,106). Groups were well balanced at baseline (mean age ≈ 55 years; APACHE II ≈ 19.6; SOFA ≈ 13.4). VAP occurred in 100/5,918 ventilator-days (16.9 per 1,000) vs. 77/4,106 (18.8 per 1,000) (No CHX vs. CHX). The adjusted Poisson incidence rate ratio was 1.08 (95% CI 0.84-1.38; p = 0.56). 28-day mortality was 28.7% vs. 26.4% (no CHX vs. CHX) (adjusted OR 0.87, 95% CI 0.65-1.15; p = 0.33). ICU length of stay was longer in the CHX arm (adjusted mean difference + 0.89 days, 95% CI + 0.19 to + 1.58; p = 0.013). BOAS and CPOT scores did not differ. CONCLUSIONS: In this trial, adding 0.12% chlorhexidine to a standardized oral-care bundle did not reduce VAP incidence density or 28-day mortality and was associated with a modest increase in ICU length of stay. Routine CHX use provided no clear incremental benefit in a mixed medical ICU population. TRIAL REGISTRATION: Clinical Trials Regisrty- India (CTRI) identifier [CTRI/2024/02/062201], registered [01 February 2024].",
+        "citation_count": 12,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13721277/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42958418/"
       }
     },
     "neurology": {
@@ -4373,7 +4398,7 @@
         "abstract": "BACKGROUND: Low muscle mass and persistent weakness are common after critical illness, but the mechanisms behind impaired recovery are incompletely understood. The aim of this study was to investigate the skeletal muscle anabolic response to combined resistance exercise and protein intake in intensive care unit (ICU) survivors, compared to matched controls without a history of critical illness. We hypothesised that residual anabolic resistance limits muscle regeneration after ICU stay. METHODS: Former patients were enrolled within 3 to 6 months of intensive care unit discharge. Muscle biopsies were obtained before and after resistance exercise using a flywheel leg extension ergometer, combined with ingestion of 24 g hydrolysed protein. Muscle protein fractional synthetic rate was determined from the incorporation of [ring-²H₅]phenylalanine into mixed-muscle protein during a primed continuous intravenous infusion. Anabolic and proteolytic pathways were measured using standard assays. Group-by-time differences were analysed using linear mixed models. The primary comparison was the between-group difference in pre-to-post change in muscle protein synthesis. RESULTS: Twenty ICU survivors (60 ± 12 years, 30% female, BMI 26.9 (IQR 22.9-28.7), SAPS 3 62.3 ± 15.8) and 20 age- and sex-matched controls were included. ICU survivors had significantly lower quadriceps muscle thickness (p = 0.02) and handgrip strength (p = 0.04) than controls. In ICU survivors, muscle protein synthesis from plasma precursor amino acids was higher at baseline than in controls (0.041%/hour vs. 0.030%/hour, p = 0.009), but increased less (Δ 0.031 vs. Δ 0.040%/hour, p = 0.04). Post-intervention muscle protein synthesis was similar between groups (0.071%/hour vs. 0.070%/hour, p = 0.70). At baseline, ICU survivors showed lower activation of the autophagy-lysosomal pathway. In both groups, the intervention increased anabolic signalling, decreased initiation of autophagy and increased parts of the ubiquitin-proteasome pathway. CONCLUSIONS: In ICU survivors with persistent muscle loss and weakness, the increase in muscle protein synthesis after combined resistance exercise and protein intake was smaller than in controls, in the context of a higher baseline fractional synthetic rate. Post-intervention muscle protein synthesis rates were similar between groups. These findings provide the first mechanistic support for structured exercise-nutrition rehabilitation to promote muscle recovery after critical illness. TRIAL REGISTRATION: This study was prospectively registered at ClinicalTrials.gov (NCT05261984), 2022-02-20.",
         "citation_count": 28,
         "is_top_journal": true,
-        "study_type": "Study",
+        "study_type": "Clinical Trial",
         "volume": "30",
         "issue": "1",
         "pages": "",
@@ -6346,6 +6371,31 @@
         "is_open_access": true,
         "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13693191/",
         "url": "https://pubmed.ncbi.nlm.nih.gov/42919407/"
+      },
+      "42958418": {
+        "pmid": "42958418",
+        "title": "Chlorhexidine within a standardized oral-care bundle for the prevention of ventilator-associated pneumonia: a pragmatic cluster-randomized crossover trial in six medical intensive care units.",
+        "journal": "Critical care (London, England)",
+        "pubdate": "2026 Oct 29",
+        "authors": [
+          "Anushapreethi S",
+          "Chhotray P",
+          "Samal S",
+          "Panda S",
+          "Patnaik R",
+          "Mishra SB"
+        ],
+        "doi": "10.1186/s13054-026-06217-0",
+        "abstract": "BACKGROUND: Chlorhexidine (CHX) has been a long-standing component of oral-care bundles for preventing ventilator-associated pneumonia (VAP), but recent evidence has questioned its benefit in non-cardiac-surgery ICU. We evaluated whether adding 0.12% CHX to standardized oral-care bundle provides incremental benefit in a mixed medical ICU. METHODS: We conducted a prospective, pragmatic cluster-randomized crossover (AB/BA) trial in six adult medical ICUs of a single tertiary-care academic hospital in Bhubaneswar, India. ICUs were randomized as three ICUs of two Period of 9 months with the multicomponent oral-care bundle without chlorhexidine and three with the same bundle plus 0.12% chlorhexidine with a 1-month wash-in and re-training interval. Consecutive adults ventilated for ≥ 48 h were included. The primary outcome was VAP incidence density (Clinical Pulmonary Infection Score (CPIS) > 6) as per 1,000 ventilator-days. Secondary outcomes were 28-day all-cause mortality, duration of mechanical ventilation, ICU length of stay, 28- day ventilator-free days, Beck Oral Assessment Scale (BOAS) and Critical-Care Pain Observation Tool (CPOT) scores. The primary model was a population-averaged Poisson generalized estimating equation (GEE) and adjustment for treatment, period, sequence, age, sex, APACHE II, and SOFA. RESULTS: A total of 1,035 patients (637 No CHX, 398 CHX) accrued 10,024 ventilator-days (5,918 vs. 4,106). Groups were well balanced at baseline (mean age ≈ 55 years; APACHE II ≈ 19.6; SOFA ≈ 13.4). VAP occurred in 100/5,918 ventilator-days (16.9 per 1,000) vs. 77/4,106 (18.8 per 1,000) (No CHX vs. CHX). The adjusted Poisson incidence rate ratio was 1.08 (95% CI 0.84-1.38; p = 0.56). 28-day mortality was 28.7% vs. 26.4% (no CHX vs. CHX) (adjusted OR 0.87, 95% CI 0.65-1.15; p = 0.33). ICU length of stay was longer in the CHX arm (adjusted mean difference + 0.89 days, 95% CI + 0.19 to + 1.58; p = 0.013). BOAS and CPOT scores did not differ. CONCLUSIONS: In this trial, adding 0.12% chlorhexidine to a standardized oral-care bundle did not reduce VAP incidence density or 28-day mortality and was associated with a modest increase in ICU length of stay. Routine CHX use provided no clear incremental benefit in a mixed medical ICU population. TRIAL REGISTRATION: Clinical Trials Regisrty- India (CTRI) identifier [CTRI/2024/02/062201], registered [01 February 2024].",
+        "citation_count": 12,
+        "is_top_journal": true,
+        "study_type": "Randomized Controlled Trial",
+        "volume": "30",
+        "issue": "1",
+        "pages": "",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13721277/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42958418/"
       }
     },
     "hematology-coag": {
@@ -9468,6 +9518,16 @@
       "summary": "Massive lithium overdose is a once-or-twice-a-career case you cannot fumble. Toxicologist-nephrologist Josh King (Maryland Poison Center) walks through the crucial information and controversies EMCrit Project by Scott Weingart, MD FCCM .",
       "study_type": "FOAMed/Blog",
       "is_open_access": true
+    },
+    "https://emcrit.org/emnerd/a-re-examination-of-the-bridge-to-nowhere/": {
+      "title": "A Re-Examination of the Bridge to Nowhere",
+      "url": "https://emcrit.org/emnerd/a-re-examination-of-the-bridge-to-nowhere/",
+      "source": "EMCrit",
+      "author": "Rory Spiegel",
+      "pubdate": "2026-10-30",
+      "summary": "A Re-Examination of the Bridge to Nowhere Every few years, a trial is published comparing “better” CPR to standard CPR. More time on the chest. Greater depth. What are generally considered higher quality compressions. CPR that, in theory, should improve coronary perfusion pressure, increase the likelihood of ROSC, and ultimately improve patient outcomes. And yet, […] EMCrit Project by Rory Spiegel",
+      "study_type": "FOAMed/Blog",
+      "is_open_access": true
     }
   },
   "guidelines": {
@@ -11538,6 +11598,35 @@
       "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13710661/",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42934835/",
       "society": "KDIGO"
+    },
+    "42959017": {
+      "pmid": "42959017",
+      "title": "Incidence and Outcomes of Acute Kidney Injury in Critically Ill Patients: A Retrospective Study at a Tertiary Care Hospital.",
+      "journal": "Wellcome open research",
+      "pubdate": "2026",
+      "authors": [
+        "Kharbuja K",
+        "Ranjit S",
+        "Aryal D",
+        "Luitel S",
+        "Pandey A",
+        "Timilsina P",
+        "Bajracharya A",
+        "Pasachhen S",
+        "Bhusal S"
+      ],
+      "doi": "10.12688/wellcomeopenres.25698.2",
+      "abstract": "BACKGROUND: Acute kidney injury is common among critically ill patients and is associated with longer ICU stay, higher resource use and increased mortality. Evidence from low- and middle-income countries, including Nepal, remains limited. This study describes the incidence, severity distribution and clinical outcomes of AKI in a tertiary care ICU. METHODS: We conducted a hospital based retrospective observational study at Dhulikhel Hospital, Nepal. All adults admitted to the ICU from 1 st may 2023 to 30 th April 2024 were screened using ICU registry. AKI was defined and staged using KDIGO serum criteria. Demographic data, comorbidities, ICU interventions and outcomes were extracted. Associations were examined using appropriate statistical tests. RESULTS: Among 1113 patients, 1064 were enrolled for analysis. The incidence of AKI was 29.6%. Patients with AKI were older (median age 60 vs 55 years, p < 0.001), had longer ICU stays (median 3 vs 2 days, p < 0.001), were more frequently on invasive mechanical ventilation (39.6%vs 26%, p < 0.001). Type 2 diabetes mellitus was significantly associated with AKI (39.0% vs 28.0%, p = 0.001). AKI severity correlated with worse outcomes including higher mortality and adverse outcomes increasing from 12.7% in patients without AKI to 38% in stage 3 AKI. Renal replacement therapy was required in 2.3% of patients, mainly in stage 2 and 3 AKI. CONCLUSION: Acute kidney injury is a common and a serious complication among critically ill patients, associated with increased mortality and prolonged ICU stay. Early recognition and targeted management strategies, particularly for high-risk groups, are needed in resource limited settings.",
+      "citation_count": 0,
+      "is_top_journal": false,
+      "study_type": "Study",
+      "volume": "11",
+      "issue": "",
+      "pages": "161",
+      "is_open_access": true,
+      "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13714418/",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42959017/",
+      "society": "KDIGO"
     }
   },
   "preprints": {
@@ -13432,7 +13521,7 @@
       "url": "https://clinicaltrials.gov/study/NCT05624450",
       "source": "AstraZeneca",
       "author": "",
-      "pubdate": "2026-10-02",
+      "pubdate": "2026-10-30",
       "summary": "The purpose of this study is to evaluate the effect of tozorakimab, as an add-on to SoC in patients with viral lung infection requiring supplemental oxygen, on the prevention of death or progression to IMV/ECMO.",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -16732,7 +16821,7 @@
       "url": "https://clinicaltrials.gov/study/NCT07898462",
       "source": "The George Institute",
       "author": "",
-      "pubdate": "2026-10-27",
+      "pubdate": "2026-10-30",
       "summary": "The FLUDRO-SHOCK trial is a large international randomised controlled double-blinded study aiming to improve treatment for people with septic shock, a life-threatening condition caused by severe infection. Patients with septic shock receive a steroid called hydrocortisone, but it is unclear whether adding another steroid, fludrocortisone, improves their chances of recovery and survival. This study will test two doses of fludrocortisone (50 mcg and 100 mcg) against a placebo to see which works be",
       "study_type": "Clinical Trial (Recruiting)",
       "is_open_access": true,
@@ -16930,6 +17019,42 @@
       "is_open_access": true,
       "is_trial": true,
       "nct_id": "NCT07905807"
+    },
+    "NCT06229990": {
+      "title": "Effect of a Furosemide Stress Test-Guided Strategy on Liberation From Continuous Renal Replacement Therapy in Critically Ill Patients With Acute Kidney Injury",
+      "url": "https://clinicaltrials.gov/study/NCT06229990",
+      "source": "Chiang Mai University",
+      "author": "",
+      "pubdate": "2026-10-30",
+      "summary": "Currently, continuous renal replacement therapy (CRRT) is the main modality for renal support in critically ill patients with hemodynamic instability. Most studies have investigated the timing of RRT initiation. However, prolonged CRRT demonstrated the association of many unexpected events, such as catheter-related complications, catheter-related blood stream infection, hypotension, hypothermia, tachycardia, and atrial fibrillation. Up to now, there is a lack of evidence regarding the timing of ",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT06229990"
+    },
+    "NCT05188092": {
+      "title": "Lung Ultrasound-Guided Fluid Deresuscitation in ICU Patients",
+      "url": "https://clinicaltrials.gov/study/NCT05188092",
+      "source": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+      "author": "",
+      "pubdate": "2026-10-30",
+      "summary": "Timely recognition and treatment of fluid overload can expedite liberation from invasive mechanical ventilation in intensive care unit (ICU) patients. Lung ultrasound (LUS) is an easy to learn, safe, cheap and noninvasive bedside imaging tool with high accuracy for pulmonary edema and pleural effusions in ICU patients. The aim of this study is to assess the effect of LUS-guided deresuscitation on duration of invasive ventilation in ICU patients. The investigators hypothesize that LUS-guided flui",
+      "study_type": "Clinical Trial (Completed)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT05188092"
+    },
+    "NCT07900542": {
+      "title": "Middle East Study of Infections in Patients With Hematological Malignancies",
+      "url": "https://clinicaltrials.gov/study/NCT07900542",
+      "source": "Hamad Medical Corporation",
+      "author": "",
+      "pubdate": "2026-10-30",
+      "summary": "The goal of this prospective observational study is to is to prospectively study the epidemiology of bloodstream infection (BSI) in patients with hematological malignancies (HM) and hematopoietic stem cell transplant (HSCT) recipients across the Middle East. The objectives are to describe the epidemiological trends, identify risk factors for inappropriate antimicrobial therapy, and predictors of persistent BSI, microbiological relapse, and all-cause mortality. The study is entirely observational",
+      "study_type": "Clinical Trial (Recruiting)",
+      "is_open_access": true,
+      "is_trial": true,
+      "nct_id": "NCT07900542"
     }
   },
   "bottom_line": {

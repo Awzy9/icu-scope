@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T09:16:39+00:00",
+  "generated_at": "2026-10-31T09:03:10+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -328,6 +328,18 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "A Re-Examination of the Bridge to Nowhere",
+        "url": "https://emcrit.org/emnerd/a-re-examination-of-the-bridge-to-nowhere/",
+        "source": "EMCrit",
+        "author": "Rory Spiegel",
+        "pubdate": "2026-10-30",
+        "summary": "A Re-Examination of the Bridge to Nowhere Every few years, a trial is published comparing “better” CPR to standard CPR. More time on the chest. Greater depth. What are generally considered higher quality compressions. CPR that, in theory, should improve coronary perfusion pressure, increase the likelihood of ROSC, and ultimately improve patient outcomes. And yet, […] EMCrit Project by Rory Spiegel",
+        "study_type": "FOAMed/Blog",
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "EMCrit 437 – Massive Lithium Overdose",
         "url": "https://emcrit.org/emcrit/lithium-od/",
         "source": "EMCrit",
@@ -335,7 +347,9 @@
         "pubdate": "2026-10-29",
         "summary": "Massive lithium overdose is a once-or-twice-a-career case you cannot fumble. Toxicologist-nephrologist Josh King (Maryland Poison Center) walks through the crucial information and controversies EMCrit Project by Scott Weingart, MD FCCM .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "FGEBM 004-In Which We Investigate the Utility of Neuromuscular Blockade in ARDS",
@@ -415,7 +429,9 @@
         "pubdate": "2026-09-28",
         "summary": "In Which We Entertain the Beneficial Effects of Baking Soda EMCrit Project by Rory Spiegel .",
         "study_type": "FOAMed/Blog",
-        "is_open_access": true
+        "is_open_access": true,
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "PulmCrit: Myth-busting pulse dose steroid for non-CNS indications",
@@ -3224,6 +3240,37 @@
         "society": "KDIGO"
       },
       {
+        "pmid": "42959017",
+        "title": "Incidence and Outcomes of Acute Kidney Injury in Critically Ill Patients: A Retrospective Study at a Tertiary Care Hospital.",
+        "journal": "Wellcome open research",
+        "pubdate": "2026",
+        "authors": [
+          "Kharbuja K",
+          "Ranjit S",
+          "Aryal D",
+          "Luitel S",
+          "Pandey A",
+          "Timilsina P",
+          "Bajracharya A",
+          "Pasachhen S",
+          "Bhusal S"
+        ],
+        "doi": "10.12688/wellcomeopenres.25698.2",
+        "abstract": "BACKGROUND: Acute kidney injury is common among critically ill patients and is associated with longer ICU stay, higher resource use and increased mortality. Evidence from low- and middle-income countries, including Nepal, remains limited. This study describes the incidence, severity distribution and clinical outcomes of AKI in a tertiary care ICU. METHODS: We conducted a hospital based retrospective observational study at Dhulikhel Hospital, Nepal. All adults admitted to the ICU from 1 st may 2023 to 30 th April 2024 were screened using ICU registry. AKI was defined and staged using KDIGO serum criteria. Demographic data, comorbidities, ICU interventions and outcomes were extracted. Associations were examined using appropriate statistical tests. RESULTS: Among 1113 patients, 1064 were enrolled for analysis. The incidence of AKI was 29.6%. Patients with AKI were older (median age 60 vs 55 years, p < 0.001), had longer ICU stays (median 3 vs 2 days, p < 0.001), were more frequently on invasive mechanical ventilation (39.6%vs 26%, p < 0.001). Type 2 diabetes mellitus was significantly associated with AKI (39.0% vs 28.0%, p = 0.001). AKI severity correlated with worse outcomes including higher mortality and adverse outcomes increasing from 12.7% in patients without AKI to 38% in stage 3 AKI. Renal replacement therapy was required in 2.3% of patients, mainly in stage 2 and 3 AKI. CONCLUSION: Acute kidney injury is a common and a serious complication among critically ill patients, associated with increased mortality and prolonged ICU stay. Early recognition and targeted management strategies, particularly for high-risk groups, are needed in resource limited settings.",
+        "citation_count": 0,
+        "is_top_journal": false,
+        "study_type": "Study",
+        "volume": "11",
+        "issue": "",
+        "pages": "161",
+        "is_open_access": true,
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13714418/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42959017/",
+        "society": "KDIGO",
+        "link_broken": false,
+        "link_broken_kind": "doi"
+      },
+      {
         "pmid": "42415882",
         "title": "Practice Pattern of Critical Care UltraSonography in India (POCUS India): A Multicenter Cross-sectional Survey.",
         "journal": "Indian journal of critical care medicine : peer-reviewed, official publication of Indian Society of Critical Care Medicine",
@@ -4981,41 +5028,40 @@
         ]
       },
       {
-        "pmid": "42934773",
-        "title": "Preserved anabolic skeletal muscle capacity in response to exercise and protein intake after critical illness.",
+        "pmid": "42958418",
+        "title": "Chlorhexidine within a standardized oral-care bundle for the prevention of ventilator-associated pneumonia: a pragmatic cluster-randomized crossover trial in six medical intensive care units.",
         "journal": "Critical care (London, England)",
-        "pubdate": "2026 Oct 24",
+        "pubdate": "2026 Oct 29",
         "authors": [
-          "Fischer-Hammerschmied A",
-          "Tardif N",
-          "Mandić M",
-          "Gustafsson T",
-          "Apro W",
-          "Helleberg J",
-          "Amouzandeh M",
-          "Grip J",
-          "Seldén D",
-          "Rooyackers O",
-          "Sundström Rehal M"
+          "Anushapreethi S",
+          "Chhotray P",
+          "Samal S",
+          "Panda S",
+          "Patnaik R",
+          "Mishra SB"
         ],
-        "doi": "10.1186/s13054-026-06418-7",
-        "abstract": "BACKGROUND: Low muscle mass and persistent weakness are common after critical illness, but the mechanisms behind impaired recovery are incompletely understood. The aim of this study was to investigate the skeletal muscle anabolic response to combined resistance exercise and protein intake in intensive care unit (ICU) survivors, compared to matched controls without a history of critical illness. We hypothesised that residual anabolic resistance limits muscle regeneration after ICU stay. METHODS: Former patients were enrolled within 3 to 6 months of intensive care unit discharge. Muscle biopsies were obtained before and after resistance exercise using a flywheel leg extension ergometer, combined with ingestion of 24 g hydrolysed protein. Muscle protein fractional synthetic rate was determined from the incorporation of [ring-²H₅]phenylalanine into mixed-muscle protein during a primed continuous intravenous infusion. Anabolic and proteolytic pathways were measured using standard assays. Group-by-time differences were analysed using linear mixed models. The primary comparison was the between-group difference in pre-to-post change in muscle protein synthesis. RESULTS: Twenty ICU survivors (60 ± 12 years, 30% female, BMI 26.9 (IQR 22.9-28.7), SAPS 3 62.3 ± 15.8) and 20 age- and sex-matched controls were included. ICU survivors had significantly lower quadriceps muscle thickness (p = 0.02) and handgrip strength (p = 0.04) than controls. In ICU survivors, muscle protein synthesis from plasma precursor amino acids was higher at baseline than in controls (0.041%/hour vs. 0.030%/hour, p = 0.009), but increased less (Δ 0.031 vs. Δ 0.040%/hour, p = 0.04). Post-intervention muscle protein synthesis was similar between groups (0.071%/hour vs. 0.070%/hour, p = 0.70). At baseline, ICU survivors showed lower activation of the autophagy-lysosomal pathway. In both groups, the intervention increased anabolic signalling, decreased initiation of autophagy and increased parts of the ubiquitin-proteasome pathway. CONCLUSIONS: In ICU survivors with persistent muscle loss and weakness, the increase in muscle protein synthesis after combined resistance exercise and protein intake was smaller than in controls, in the context of a higher baseline fractional synthetic rate. Post-intervention muscle protein synthesis rates were similar between groups. These findings provide the first mechanistic support for structured exercise-nutrition rehabilitation to promote muscle recovery after critical illness. TRIAL REGISTRATION: This study was prospectively registered at ClinicalTrials.gov (NCT05261984), 2022-02-20.",
-        "citation_count": 28,
+        "doi": "10.1186/s13054-026-06217-0",
+        "abstract": "BACKGROUND: Chlorhexidine (CHX) has been a long-standing component of oral-care bundles for preventing ventilator-associated pneumonia (VAP), but recent evidence has questioned its benefit in non-cardiac-surgery ICU. We evaluated whether adding 0.12% CHX to standardized oral-care bundle provides incremental benefit in a mixed medical ICU. METHODS: We conducted a prospective, pragmatic cluster-randomized crossover (AB/BA) trial in six adult medical ICUs of a single tertiary-care academic hospital in Bhubaneswar, India. ICUs were randomized as three ICUs of two Period of 9 months with the multicomponent oral-care bundle without chlorhexidine and three with the same bundle plus 0.12% chlorhexidine with a 1-month wash-in and re-training interval. Consecutive adults ventilated for ≥ 48 h were included. The primary outcome was VAP incidence density (Clinical Pulmonary Infection Score (CPIS) > 6) as per 1,000 ventilator-days. Secondary outcomes were 28-day all-cause mortality, duration of mechanical ventilation, ICU length of stay, 28- day ventilator-free days, Beck Oral Assessment Scale (BOAS) and Critical-Care Pain Observation Tool (CPOT) scores. The primary model was a population-averaged Poisson generalized estimating equation (GEE) and adjustment for treatment, period, sequence, age, sex, APACHE II, and SOFA. RESULTS: A total of 1,035 patients (637 No CHX, 398 CHX) accrued 10,024 ventilator-days (5,918 vs. 4,106). Groups were well balanced at baseline (mean age ≈ 55 years; APACHE II ≈ 19.6; SOFA ≈ 13.4). VAP occurred in 100/5,918 ventilator-days (16.9 per 1,000) vs. 77/4,106 (18.8 per 1,000) (No CHX vs. CHX). The adjusted Poisson incidence rate ratio was 1.08 (95% CI 0.84-1.38; p = 0.56). 28-day mortality was 28.7% vs. 26.4% (no CHX vs. CHX) (adjusted OR 0.87, 95% CI 0.65-1.15; p = 0.33). ICU length of stay was longer in the CHX arm (adjusted mean difference + 0.89 days, 95% CI + 0.19 to + 1.58; p = 0.013). BOAS and CPOT scores did not differ. CONCLUSIONS: In this trial, adding 0.12% chlorhexidine to a standardized oral-care bundle did not reduce VAP incidence density or 28-day mortality and was associated with a modest increase in ICU length of stay. Routine CHX use provided no clear incremental benefit in a mixed medical ICU population. TRIAL REGISTRATION: Clinical Trials Regisrty- India (CTRI) identifier [CTRI/2024/02/062201], registered [01 February 2024].",
+        "citation_count": 12,
         "is_top_journal": true,
-        "study_type": "Study",
+        "study_type": "Randomized Controlled Trial",
         "volume": "30",
         "issue": "1",
         "pages": "",
         "is_open_access": true,
-        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13700533/",
-        "url": "https://pubmed.ncbi.nlm.nih.gov/42934773/",
-        "category_id": "gi-nutrition",
-        "category_label": "GI & Nutrition",
+        "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13721277/",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/42958418/",
+        "link_broken": false,
+        "link_broken_kind": "doi",
+        "category_id": "respiratory",
+        "category_label": "Respiratory",
         "category_ids": [
-          "gi-nutrition"
+          "respiratory",
+          "infectious-sepsis"
         ],
         "category_labels": [
-          "GI & Nutrition"
+          "Respiratory",
+          "Infectious Disease & Sepsis"
         ]
       }
     ]
@@ -5173,6 +5219,72 @@
     "window_days": 30,
     "articles": [
       {
+        "title": "Efficacy and Safety of Tozorakimab in Patients Hospitalised for Viral Lung Infection Requiring Supplemental Oxygen",
+        "url": "https://clinicaltrials.gov/study/NCT05624450",
+        "source": "AstraZeneca",
+        "author": "",
+        "pubdate": "2026-10-30",
+        "summary": "The purpose of this study is to evaluate the effect of tozorakimab, as an add-on to SoC in patients with viral lung infection requiring supplemental oxygen, on the prevention of death or progression to IMV/ECMO.",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05624450"
+      },
+      {
+        "title": "A Trial of Adjunctive Fludrocortisone (50mcg, 100mcg or Placebo) in Critically Ill Patients With Septic Shock Receiving Hydrocortisone, Evaluating Survival and Functional Recovery and the Influence of Transcriptomic Response",
+        "url": "https://clinicaltrials.gov/study/NCT07898462",
+        "source": "The George Institute",
+        "author": "",
+        "pubdate": "2026-10-30",
+        "summary": "The FLUDRO-SHOCK trial is a large international randomised controlled double-blinded study aiming to improve treatment for people with septic shock, a life-threatening condition caused by severe infection. Patients with septic shock receive a steroid called hydrocortisone, but it is unclear whether adding another steroid, fludrocortisone, improves their chances of recovery and survival. This study will test two doses of fludrocortisone (50 mcg and 100 mcg) against a placebo to see which works be",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07898462"
+      },
+      {
+        "title": "Effect of a Furosemide Stress Test-Guided Strategy on Liberation From Continuous Renal Replacement Therapy in Critically Ill Patients With Acute Kidney Injury",
+        "url": "https://clinicaltrials.gov/study/NCT06229990",
+        "source": "Chiang Mai University",
+        "author": "",
+        "pubdate": "2026-10-30",
+        "summary": "Currently, continuous renal replacement therapy (CRRT) is the main modality for renal support in critically ill patients with hemodynamic instability. Most studies have investigated the timing of RRT initiation. However, prolonged CRRT demonstrated the association of many unexpected events, such as catheter-related complications, catheter-related blood stream infection, hypotension, hypothermia, tachycardia, and atrial fibrillation. Up to now, there is a lack of evidence regarding the timing of ",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT06229990",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Lung Ultrasound-Guided Fluid Deresuscitation in ICU Patients",
+        "url": "https://clinicaltrials.gov/study/NCT05188092",
+        "source": "Academisch Medisch Centrum - Universiteit van Amsterdam (AMC-UvA)",
+        "author": "",
+        "pubdate": "2026-10-30",
+        "summary": "Timely recognition and treatment of fluid overload can expedite liberation from invasive mechanical ventilation in intensive care unit (ICU) patients. Lung ultrasound (LUS) is an easy to learn, safe, cheap and noninvasive bedside imaging tool with high accuracy for pulmonary edema and pleural effusions in ICU patients. The aim of this study is to assess the effect of LUS-guided deresuscitation on duration of invasive ventilation in ICU patients. The investigators hypothesize that LUS-guided flui",
+        "study_type": "Clinical Trial (Completed)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT05188092",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
+        "title": "Middle East Study of Infections in Patients With Hematological Malignancies",
+        "url": "https://clinicaltrials.gov/study/NCT07900542",
+        "source": "Hamad Medical Corporation",
+        "author": "",
+        "pubdate": "2026-10-30",
+        "summary": "The goal of this prospective observational study is to is to prospectively study the epidemiology of bloodstream infection (BSI) in patients with hematological malignancies (HM) and hematopoietic stem cell transplant (HSCT) recipients across the Middle East. The objectives are to describe the epidemiological trends, identify risk factors for inappropriate antimicrobial therapy, and predictors of persistent BSI, microbiological relapse, and all-cause mortality. The study is entirely observational",
+        "study_type": "Clinical Trial (Recruiting)",
+        "is_open_access": true,
+        "is_trial": true,
+        "nct_id": "NCT07900542",
+        "link_broken": false,
+        "link_broken_kind": "url"
+      },
+      {
         "title": "Adrenal Function in Critical Illness",
         "url": "https://clinicaltrials.gov/study/NCT00156767",
         "source": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
@@ -5210,7 +5322,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05636631"
+        "nct_id": "NCT05636631",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Decremental Esophageal Catheter Filling Volume Titration For Transpulmonary Pressure Measurement",
@@ -5222,7 +5336,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06051292"
+        "nct_id": "NCT06051292",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Abdominal Massage and Range-of-motion Exercise in Enterally Fed ICU Patients With Pressure Injuries",
@@ -5234,7 +5350,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07904520"
+        "nct_id": "NCT07904520",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Patient- and Family-centred Care in the Adult Intensive Care Unit: a Feasibility Study",
@@ -5246,7 +5364,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06974214"
+        "nct_id": "NCT06974214",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Early Detection and Kinetics of Sepsis-Induced Coagulopathy in Severe Burn Patients",
@@ -5258,7 +5378,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07905807"
+        "nct_id": "NCT07905807",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "A Study to Evaluate AZD7760 Safety and Pharmacokinetics in Healthy Adults (Phase I) and Adults With End-stage Kidney Disease on Hemodialysis With a Central Venous Catheter (Phase IIa)",
@@ -5286,7 +5408,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07834346"
+        "nct_id": "NCT07834346",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Detection and Characterization of Lower Respiratory Infections in Critically Ill Patients",
@@ -5455,18 +5579,6 @@
         "is_open_access": true,
         "is_trial": true,
         "nct_id": "NCT04409834"
-      },
-      {
-        "title": "A Trial of Adjunctive Fludrocortisone (50mcg, 100mcg or Placebo) in Critically Ill Patients With Septic Shock Receiving Hydrocortisone, Evaluating Survival and Functional Recovery and the Influence of Transcriptomic Response",
-        "url": "https://clinicaltrials.gov/study/NCT07898462",
-        "source": "The George Institute",
-        "author": "",
-        "pubdate": "2026-10-27",
-        "summary": "The FLUDRO-SHOCK trial is a large international randomised controlled double-blinded study aiming to improve treatment for people with septic shock, a life-threatening condition caused by severe infection. Patients with septic shock receive a steroid called hydrocortisone, but it is unclear whether adding another steroid, fludrocortisone, improves their chances of recovery and survival. This study will test two doses of fludrocortisone (50 mcg and 100 mcg) against a placebo to see which works be",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT07898462"
       },
       {
         "title": "Humidification Effects on Airway Complications and Clinical Outcomes in Trauma ICU Patients on Mechanical Ventilation",
@@ -6949,18 +7061,6 @@
         "nct_id": "NCT07060560"
       },
       {
-        "title": "Efficacy and Safety of Tozorakimab in Patients Hospitalised for Viral Lung Infection Requiring Supplemental Oxygen",
-        "url": "https://clinicaltrials.gov/study/NCT05624450",
-        "source": "AstraZeneca",
-        "author": "",
-        "pubdate": "2026-10-02",
-        "summary": "The purpose of this study is to evaluate the effect of tozorakimab, as an add-on to SoC in patients with viral lung infection requiring supplemental oxygen, on the prevention of death or progression to IMV/ECMO.",
-        "study_type": "Clinical Trial (Recruiting)",
-        "is_open_access": true,
-        "is_trial": true,
-        "nct_id": "NCT05624450"
-      },
-      {
         "title": "Correlation Between Capillary Refill Time and Perfusion Index in Critically Ill Patients",
         "url": "https://clinicaltrials.gov/study/NCT07555041",
         "source": "Hospices Civils de Lyon",
@@ -7246,7 +7346,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07675265"
+        "nct_id": "NCT07675265",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Ketorolac at Lower Doses for Analgesic Pain Control in ICU: A Pilot Feasibility Study",
@@ -7258,7 +7360,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06819956"
+        "nct_id": "NCT06819956",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "TriVerity™ for Improved Management of Emergency Department (ED) Patients With Suspected Infections",
@@ -7270,7 +7374,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06637904"
+        "nct_id": "NCT06637904",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of the Efficiency of Intermittent Enteral Nutrition on Multi-organ Failure From Patients With Mechanical Ventilation in Intensive Care Unit",
@@ -7282,7 +7388,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06330610"
+        "nct_id": "NCT06330610",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Statseal® for Central Venous Catheter Insertion Sites in Critical Care",
@@ -7294,7 +7402,9 @@
         "study_type": "Clinical Trial (Completed)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT06451185"
+        "nct_id": "NCT06451185",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Implementation of a Sepsis Chart and Its Effects on Mortality Rate in Indonesian Primary Referral Hospitals",
@@ -7306,7 +7416,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT07843277"
+        "nct_id": "NCT07843277",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of the Clinical Frailty Scale (CFS) as a Risk Factor of Mortality in Adult Patients ≤65 Years of Age Admitted to Intensive Care for Septic Shock.",
@@ -7318,7 +7430,9 @@
         "study_type": "Clinical Trial (Recruiting)",
         "is_open_access": true,
         "is_trial": true,
-        "nct_id": "NCT05928767"
+        "nct_id": "NCT05928767",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Induced Blood-Stage Malaria in Healthy Malaria-Naive Adults to Assess the Safety and Infectivity of Plasmodium Vivax Challenge Agent and Evaluate Transmission in Mosquito Feeding Assays",
@@ -10310,7 +10424,9 @@
         "ai_key_stats": "",
         "ai_summary": "This ethnographic study observed how healthcare professionals work together in an ICU, exploring teamwork practices and challenges, and how they changed during the COVID-19 pandemic.",
         "ai_significance": "Understanding teamwork in ICUs is crucial for ensuring safe and effective care, and this study provides valuable insights into the dynamics of ICU staff interactions.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Sequential Compression Device in Distributive Peripheral Edema and Hemodynamic Stability Among Patients in Critical Care Units",
@@ -10326,7 +10442,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study aimed to evaluate the effectiveness of sequential compression devices on distributive peripheral edema and hemodynamic stability in critical care patients. The study objectives were to assess the effectiveness of the device and explore relationships between its effectiveness, range of motion, and demographic characteristics. No specific outcomes were reported.",
         "ai_significance": "Understanding the effectiveness of sequential compression devices in critical care settings can inform strategies to improve patient outcomes, particularly in managing peripheral edema and maintaining hemodynamic stability.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Comparing The Safety And Efficacy Of DEFENCATH® In Reducing Central-Line Bloodstream Infections (CLABSIs) In Adults Receiving Total Parenteral Nutrition Through A Central Venous Catheter (CVC)",
@@ -10342,7 +10460,9 @@
         "ai_key_stats": "",
         "ai_summary": "This study compared the safety and efficacy of DefenCath to heparin in reducing central-line bloodstream infections in adults receiving total parenteral nutrition through a central venous catheter.",
         "ai_significance": "Reducing central-line bloodstream infections is crucial in ICU settings to prevent morbidity and mortality.",
-        "ai_rounds_takeaway": ""
+        "ai_rounds_takeaway": "",
+        "link_broken": false,
+        "link_broken_kind": "url"
       },
       {
         "title": "Evaluation of Emergency Medicine Pharmacist Impact on Blood Culture Review Following Emergency Department Discharge",
@@ -10779,11 +10899,11 @@
     ]
   },
   "spotlight": {
-    "pmid": "42545097",
-    "title": "H3.1 Nucleosomes to Predict Renal Replacement Therapy and Mortality in Sepsis-A Secondary Analysis of the SISPCT Randomized Control Trial.",
-    "journal": "Critical care medicine",
-    "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/",
-    "pubdate": "2026 Oct 1",
+    "pmid": "42958418",
+    "title": "Chlorhexidine within a standardized oral-care bundle for the prevention of ventilator-associated pneumonia: a pragmatic cluster-randomized crossover trial in six medical intensive care units.",
+    "journal": "Critical care (London, England)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/42958418/",
+    "pubdate": "2026 Oct 29",
     "study_type": "Randomized Controlled Trial",
     "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Randomized Controlled Trial, prioritized by evidence level and citation impact.",
     "discussion_prompts": [
@@ -10791,13 +10911,14 @@
       "Which ICU patients are most likely to benefit from these findings, and who may not?",
       "Would these results change current bedside practice or require further validation?"
     ],
-    "week": "2026-10-24",
-    "generated_at": "2026-10-24T07:42:56+00:00",
+    "week": "2026-10-31",
+    "generated_at": "2026-10-31T09:02:31+00:00",
     "previous_pmids": [
       "42765454",
       "42565658",
       "42560130",
-      "42616082"
+      "42616082",
+      "42545097"
     ]
   },
   "categories": [
@@ -10948,9 +11069,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
           "ai_significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42612901",
@@ -11143,9 +11262,7 @@
             "strengths": "large sample size; 6-month follow-up data; intention-to-treat principle",
             "weaknesses": "open-label design; non-inferiority trial",
             "bottom_line": "Low-dose unfractionated heparin and low-molecular-weight heparin may be safer alternatives to standard-dose unfractionated heparin in patients receiving extracorporeal life support, potentially reducing bleeding-related harm."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42469838",
@@ -11211,9 +11328,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study evaluated the feasibility and prognostic value of echocardiographic parameters in a mixed ICU population. It found that impaired mitral annular plane systolic excursion (MAPSE) and global longitudinal strain (GLS) were associated with increased mortality. MAPSE was also the most feasible measurement.",
           "ai_significance": "These findings suggest that incorporating MAPSE into routine ICU echocardiography may improve detection and risk stratification of left ventricular dysfunction in critical illness, potentially leading to better patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42432771",
@@ -11244,9 +11359,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers developed a new method using electrical impedance tomography (EIT) to quickly and non-invasively diagnose pulmonary embolism (PE) in critically ill patients. The method uses a frequency-domain band-pass filter to extract perfusion-related pulsatility and separate it from ventilation-related low-frequency components. The study found that the method can accurately diagnose PE and risk-stratify patients based on three key parameters.",
           "ai_significance": "This study has significant implications for ICU clinical practice as it provides a novel, non-invasive method for diagnosing and risk-stratifying patients with pulmonary embolism, which is a major cause of morbidity and mortality in critical care.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42507344",
@@ -11277,9 +11390,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study updated post-cardiac arrest care guidelines for ICU clinicians in Singapore, focusing on improving survival to hospital discharge and neurological recovery. The guidelines provide practical guidance for treating patients after return of spontaneous circulation. The updated recommendations aim to strengthen post-cardiac arrest care.",
           "ai_significance": "These guidelines are crucial for improving outcomes for patients with cardiac arrest in Singapore, a significant public health challenge. They will help ICU clinicians provide optimal care and increase survival rates.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42315625",
@@ -11311,9 +11422,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses how to prevent brain injury in patients on extracorporeal life support (ECLS) by optimizing brain perfusion and oxygen delivery. It highlights the importance of standardized multimodal neuromonitoring and individualized neurocritical care. The review provides guidance on adjusting ECLS settings to minimize secondary brain injury.",
           "ai_significance": "Optimizing brain perfusion and preventing cerebral complications during ECLS is crucial for improving outcomes in critically ill patients, reducing mortality and long-term disability.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42332804",
@@ -11345,9 +11454,7 @@
           "ai_key_stats": "",
           "ai_summary": "Researchers studied how mixed venous oxygen saturation (SvO2) changes after red blood cell transfusions in cardiovascular surgery patients. They found that lower pre-transfusion SvO2 levels were associated with an increase in SvO2, but overall SvO2 levels didn't improve much. SvO2 is not a reliable indicator of tissue oxygenation or clinical benefit.",
           "ai_significance": "This study's findings suggest that SvO2 should not be used as a transfusion trigger or indicator of tissue oxygenation in cardiovascular surgery patients.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42271417",
@@ -11409,9 +11516,7 @@
           "ai_key_stats": "",
           "ai_summary": "Critically ill patients with sepsis and shock often have high lactate levels, but this doesn't always mean they're not getting enough oxygen. Lactate is a key metabolic intermediate that reflects the balance between production, utilization, and clearance. The kidneys play a significant role in lactate utilization and clearance, especially in patients with acute kidney injury.",
           "ai_significance": "Understanding lactate biology in critical illness can help clinicians interpret lactate levels more accurately and develop more effective management strategies for septic acute kidney injury.",
-          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider checking urine lactate levels in patients with sepsis-induced acute kidney injury to assess proximal tubular metabolic function."
         },
         {
           "pmid": "42502537",
@@ -11441,9 +11546,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study of 7 patients with severe obesity and heart failure with preserved ejection fraction found that orthostatic hypertensive emergency was characterized by a sudden increase in blood pressure when standing, often accompanied by symptoms like chest pain and confusion. Patients who followed a structured lifestyle and medical therapy plan were able to lose weight and improve their blood pressure and symptoms, while those who did not follow the plan experienced persistent symptoms and hospitalizations.",
           "ai_significance": "Understanding and managing orthostatic hypertensive emergency is important for ICU clinicians as it can lead to severe cardiovascular and cerebrovascular outcomes if not recognized and treated promptly.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42216195",
@@ -11472,9 +11575,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review discusses the challenges of diagnosing and managing Triple M overlap syndrome, a severe and lethal immune-related adverse event in critically ill patients. It highlights key diagnostic pitfalls and proposes a structured ICU-oriented approach to improve outcomes. Early recognition and parallel evaluation for infection and immune-mediated disease are essential.",
           "ai_significance": "Early recognition and management of Triple M overlap syndrome are crucial to improving outcomes in critically ill patients, as delays in treatment can lead to increased mortality.",
-          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease.",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider a structured ICU-oriented approach to evaluate for immune-mediated toxicity and infection in critically ill patients with unexplained multisystem disease."
         },
         {
           "pmid": "42188994",
@@ -11507,9 +11608,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed the effect of blood transfusion strategies in patients with acute myocardial infarction and anemia. It found that a restrictive transfusion strategy did not significantly reduce mortality in either critically ill or noncritically ill patients compared to a liberal strategy.",
           "ai_significance": "Understanding the optimal blood transfusion strategy for critically ill patients with acute myocardial infarction and anemia is crucial for improving patient outcomes in the ICU.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         }
       ]
     },
@@ -11678,9 +11777,7 @@
           "pages": "2039-2057",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42714473/"
         },
         {
           "pmid": "42618770",
@@ -11715,9 +11812,7 @@
           "pages": "2071-2084",
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13624006/",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42618770/"
         },
         {
           "pmid": "42593537",
@@ -11743,9 +11838,7 @@
           "pages": "2178-2193",
           "is_open_access": false,
           "pmc_url": null,
-          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42593537/"
         },
         {
           "pmid": "42823746",
@@ -11917,9 +12010,7 @@
           "ai_key_stats": "",
           "ai_summary": "This review explores the mechanisms and therapeutic strategies of pyroptosis in sepsis-induced acute lung injury. Pyroptosis is a critical driver of lung injury and inflammation, and its pathways can be targeted for personalized treatments. Researchers have identified biomarkers and potential inhibitors to enable more effective interventions.",
           "ai_significance": "Understanding pyroptosis in sepsis-induced acute lung injury can help clinicians develop more precise treatments and improve patient outcomes. Targeting pyroptotic pathways may enable biomarker-guided, personalized interventions in critically ill patients.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42658259",
@@ -12128,9 +12219,7 @@
           "ai_key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
           "ai_summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
           "ai_significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype.",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
         },
         {
           "pmid": "42502162",
@@ -12167,9 +12256,7 @@
             "strengths": "randomized controlled trial design; large sample size (n = 118)",
             "weaknesses": "lack of statistical significance for primary outcome measures; retrospective registration of trial",
             "bottom_line": "Toothbrushing with chlorhexidine mouth rinse may have a potential benefit in reducing ventilator-associated pneumonia incidence and improving clinical outcomes in PICU patients, but further larger multicenter studies are needed to confirm its effect."
-          },
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42493817",
@@ -12194,9 +12281,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study investigated the effect of early calorie delivery in critically ill patients with sepsis. It found that receiving at least 50% of estimated calorie needs within the first 5 days did not improve 28-day ICU survival. The study also identified independent predictors of mortality, including continuous renal replacement therapy and mechanical ventilation duration.",
           "ai_significance": "This study's findings are significant for ICU clinical practice as they suggest that early nutritional supplementation may not be beneficial for all critically ill patients with sepsis, and further research is needed to determine the optimal nutritional strategy for this population.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42638131",
@@ -12263,9 +12348,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study analyzed blood samples from ICU patients on invasive mechanical ventilation (IMV) or extracorporeal membrane oxygenation (ECMO) to identify biomarkers associated with mortality. They found distinct metabolomic signatures in patients on IMV, but not as clear in ECMO patients. These findings suggest that integrated omics analysis could be useful for predicting ICU outcomes.",
           "ai_significance": "These results have implications for the development of personalized treatment strategies and outcome prediction tools in critically ill patients, potentially improving patient care and outcomes in the ICU.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42150121",
@@ -12322,9 +12405,7 @@
             "strengths": "Large sample size; pragmatic design; assessor-blinded",
             "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
             "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
-          },
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          }
         },
         {
           "pmid": "42506109",
@@ -12355,9 +12436,7 @@
           "ai_key_stats": "",
           "ai_summary": "This systematic review and meta-analysis of 13 studies found that sedation, especially with dexmedetomidine, may improve non-invasive ventilation success and reduce the need for endotracheal intubation in critically ill patients. However, dexmedetomidine was also associated with higher rates of bradycardia and hypotension. The optimal sedation strategy depends on the patient's individual needs and risk factors.",
           "ai_significance": "This study informs ICU clinicians about the potential benefits and risks of sedation during non-invasive ventilation, helping them make more informed decisions about sedation strategies to improve patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42506369",
@@ -12388,9 +12467,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study explores the use of high-dose intravenous vitamin C as a potential therapy in critical illness, finding that plasma concentrations and timing of administration may influence its effectiveness. Biomarkers can be used to guide treatment and monitor response. The study suggests a shift towards precision-based therapy.",
           "ai_significance": "This research has implications for ICU clinical practice, as it suggests that vitamin C can be used as a pharmacological agent in critical illness, and that biomarkers can be used to guide treatment and improve patient outcomes.",
-          "ai_rounds_takeaway": "",
-          "link_broken": true,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42467246",
@@ -12426,9 +12503,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
           "ai_significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42442528",
@@ -12534,9 +12609,7 @@
           "ai_key_stats": "",
           "ai_summary": "The ARDS, Pneumonia, and Sepsis (APS) Consortium conducted a multicenter study to collect data and biospecimens from 4,000 critically ill adults. The first 1,000 participants were recruited ahead of schedule, with high biospecimen collection rates and severe disease characteristics.",
           "ai_significance": "This study will facilitate phenotyping of critical illness syndromes, potentially leading to more targeted and effective treatments for ARDS, pneumonia, and sepsis in ICU patients.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42410654",
@@ -12564,9 +12637,7 @@
           "ai_key_stats": "",
           "ai_summary": "This study reviews the current limitations in critical care research due to syndromic diagnoses and proposes a pathway-level framework to translate omics insights into clinical trial design and bedside decision-making.",
           "ai_significance": "This framework has the potential to improve patient outcomes by enabling personalized treatment and more effective use of existing therapies in critical care settings.",
-          "ai_rounds_takeaway": "",
-          "link_broken": false,
-          "link_broken_kind": "doi"
+          "ai_rounds_takeaway": ""
         },
         {
           "pmid": "42496477",
@@ -14765,6 +14836,36 @@
       "label": "GI & Nutrition",
       "abbr": "GI",
       "articles": [
+        {
+          "pmid": "42934773",
+          "title": "Preserved anabolic skeletal muscle capacity in response to exercise and protein intake after critical illness.",
+          "journal": "Critical care (London, England)",
+          "pubdate": "2026 Oct 24",
+          "authors": [
+            "Fischer-Hammerschmied A",
+            "Tardif N",
+            "Mandić M",
+            "Gustafsson T",
+            "Apro W",
+            "Helleberg J",
+            "Amouzandeh M",
+            "Grip J",
+            "Seldén D",
+            "Rooyackers O",
+            "Sundström Rehal M"
+          ],
+          "doi": "10.1186/s13054-026-06418-7",
+          "abstract": "BACKGROUND: Low muscle mass and persistent weakness are common after critical illness, but the mechanisms behind impaired recovery are incompletely understood. The aim of this study was to investigate the skeletal muscle anabolic response to combined resistance exercise and protein intake in intensive care unit (ICU) survivors, compared to matched controls without a history of critical illness. We hypothesised that residual anabolic resistance limits muscle regeneration after ICU stay. METHODS: Former patients were enrolled within 3 to 6 months of intensive care unit discharge. Muscle biopsies were obtained before and after resistance exercise using a flywheel leg extension ergometer, combined with ingestion of 24 g hydrolysed protein. Muscle protein fractional synthetic rate was determined from the incorporation of [ring-²H₅]phenylalanine into mixed-muscle protein during a primed continuous intravenous infusion. Anabolic and proteolytic pathways were measured using standard assays. Group-by-time differences were analysed using linear mixed models. The primary comparison was the between-group difference in pre-to-post change in muscle protein synthesis. RESULTS: Twenty ICU survivors (60 ± 12 years, 30% female, BMI 26.9 (IQR 22.9-28.7), SAPS 3 62.3 ± 15.8) and 20 age- and sex-matched controls were included. ICU survivors had significantly lower quadriceps muscle thickness (p = 0.02) and handgrip strength (p = 0.04) than controls. In ICU survivors, muscle protein synthesis from plasma precursor amino acids was higher at baseline than in controls (0.041%/hour vs. 0.030%/hour, p = 0.009), but increased less (Δ 0.031 vs. Δ 0.040%/hour, p = 0.04). Post-intervention muscle protein synthesis was similar between groups (0.071%/hour vs. 0.070%/hour, p = 0.70). At baseline, ICU survivors showed lower activation of the autophagy-lysosomal pathway. In both groups, the intervention increased anabolic signalling, decreased initiation of autophagy and increased parts of the ubiquitin-proteasome pathway. CONCLUSIONS: In ICU survivors with persistent muscle loss and weakness, the increase in muscle protein synthesis after combined resistance exercise and protein intake was smaller than in controls, in the context of a higher baseline fractional synthetic rate. Post-intervention muscle protein synthesis rates were similar between groups. These findings provide the first mechanistic support for structured exercise-nutrition rehabilitation to promote muscle recovery after critical illness. TRIAL REGISTRATION: This study was prospectively registered at ClinicalTrials.gov (NCT05261984), 2022-02-20.",
+          "citation_count": 28,
+          "is_top_journal": true,
+          "study_type": "Clinical Trial",
+          "volume": "30",
+          "issue": "1",
+          "pages": "",
+          "is_open_access": true,
+          "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13700533/",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/42934773/"
+        },
         {
           "pmid": "42593537",
           "title": "Decades of intensive care medicine trials: what randomised evidence has changed, corrected, and still questions to resolve.",

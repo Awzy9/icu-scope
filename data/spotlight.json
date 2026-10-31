@@ -1,9 +1,9 @@
 {
-  "pmid": "42545097",
-  "title": "H3.1 Nucleosomes to Predict Renal Replacement Therapy and Mortality in Sepsis-A Secondary Analysis of the SISPCT Randomized Control Trial.",
-  "journal": "Critical care medicine",
-  "url": "https://pubmed.ncbi.nlm.nih.gov/42545097/",
-  "pubdate": "2026 Oct 1",
+  "pmid": "42958418",
+  "title": "Chlorhexidine within a standardized oral-care bundle for the prevention of ventilator-associated pneumonia: a pragmatic cluster-randomized crossover trial in six medical intensive care units.",
+  "journal": "Critical care (London, England)",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/42958418/",
+  "pubdate": "2026 Oct 29",
   "study_type": "Randomized Controlled Trial",
   "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Randomized Controlled Trial, prioritized by evidence level and citation impact.",
   "discussion_prompts": [
@@ -11,12 +11,13 @@
     "Which ICU patients are most likely to benefit from these findings, and who may not?",
     "Would these results change current bedside practice or require further validation?"
   ],
-  "week": "2026-10-24",
-  "generated_at": "2026-10-24T07:42:56+00:00",
+  "week": "2026-10-31",
+  "generated_at": "2026-10-31T09:02:31+00:00",
   "previous_pmids": [
     "42765454",
     "42565658",
     "42560130",
-    "42616082"
+    "42616082",
+    "42545097"
   ]
 }
