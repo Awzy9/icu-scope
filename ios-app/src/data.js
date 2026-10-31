@@ -1,6 +1,8 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { clearFullTextCache } from "./readerText";
 
 const FEED_URL = "https://icu-scope.vercel.app/data/articles.json";
+const FETCH_TIMEOUT_MS = 15000;
 const CACHE_KEY = "feed:v1";
 const SAVED_KEY = "saved:v1";
 const SEEN_KEY = "seen:v1";
@@ -8,17 +10,22 @@ const SEEN_KEY = "seen:v1";
 // Network first so the feed is fresh, falling back to the last copy
 // stored on the device so the app still opens offline.
 export async function loadFeed() {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), FETCH_TIMEOUT_MS);
   try {
-    const res = await fetch(FEED_URL, { headers: { "Cache-Control": "no-cache" } });
+    // No custom request headers: they force a CORS preflight the host doesn't answer on web.
+    const res = await fetch(FEED_URL, { cache: "no-cache", signal: ctrl.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const text = await res.text();
-    JSON.parse(text);
+    const feed = JSON.parse(text);
     AsyncStorage.setItem(CACHE_KEY, text).catch(() => {});
-    return { feed: JSON.parse(text), offline: false };
+    return { feed, offline: false };
   } catch (err) {
     const cached = await AsyncStorage.getItem(CACHE_KEY).catch(() => null);
     if (cached) return { feed: JSON.parse(cached), offline: true };
-    throw err;
+    throw err.name === "AbortError" ? new Error("Request timed out") : err;
+  } finally {
+    clearTimeout(timer);
   }
 }
 
@@ -47,11 +54,78 @@ export function persistSeen(keys) {
   AsyncStorage.setItem(SEEN_KEY, JSON.stringify(keys.slice(-1500))).catch(() => {});
 }
 
+const SETTINGS_KEY = "settings:v1";
+
+const COLLECTIONS_KEY = "collections:v1";
+
+// Personal data kept on the device only: notes, reading log, keyword watchlist, flashcard deck.
+export const KEYS = { notes: "notes:v1", log: "log:v1", watch: "watch:v1", deck: "deck:v1" };
+
+export async function loadJson(key, fallback) {
+  try {
+    const raw = await AsyncStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+export const saveJson = (key, value) => AsyncStorage.setItem(key, JSON.stringify(value)).catch(() => {});
+
+export const DEFAULT_SETTINGS = { appearance: "system", textScale: 1, hiddenCategories: [], hideRead: false,
+  onboarded: false,
+  reminder: { enabled: false, hour: 7 },
+  weeklyGoal: 3,
+  appLock: false,
+};
+
+// Collections hold article keys, not copies; the articles themselves live in the saved list.
+export async function loadCollections() {
+  try {
+    const list = JSON.parse((await AsyncStorage.getItem(COLLECTIONS_KEY)) || "[]");
+    return Array.isArray(list) ? list : [];
+  } catch {
+    return [];
+  }
+}
+
+export function persistCollections(list) {
+  AsyncStorage.setItem(COLLECTIONS_KEY, JSON.stringify(list)).catch(() => {});
+}
+
+export async function loadSettings() {
+  try {
+    const raw = JSON.parse((await AsyncStorage.getItem(SETTINGS_KEY)) || "{}");
+    return { ...DEFAULT_SETTINGS, ...raw };
+  } catch {
+    return DEFAULT_SETTINGS;
+  }
+}
+
+export function persistSettings(settings) {
+  AsyncStorage.setItem(SETTINGS_KEY, JSON.stringify(settings)).catch(() => {});
+}
+
+// Wipes the downloaded feed, saved articles and read markers. Settings are kept.
+export async function clearUserData() {
+  await AsyncStorage.multiRemove([CACHE_KEY, SAVED_KEY, SEEN_KEY, COLLECTIONS_KEY, ...Object.values(KEYS)]).catch(() => {});
+  await clearFullTextCache();
+}
+
 export const articleKey = (a) => a.pmid || a.url;
+
+const TRIAL_TYPES = new Set(["Randomized Controlled Trial", "Clinical Trial"]);
+
+// Published trial results from every organ-system category (registrations live in feed.trials).
+export function trialResults(feed) {
+  return allArticles({ categories: feed.categories }).filter((a) => TRIAL_TYPES.has(a.study_type));
+}
 
 // Home-screen browse sections beyond the organ-system categories.
 export function buildSections(feed) {
   return [
+    { id: "trial_results", label: "Trial Results", articles: trialResults(feed) },
+    { id: "trials", label: "Trial Tracker", articles: feed.trials?.articles || [] },
     { id: "guidelines", label: "Guideline Watch", icon: "📋", articles: feed.guidelines?.articles || [] },
     { id: "ksa", label: "KSA Research", icon: "🇸🇦", articles: feed.ksa?.articles || [] },
     { id: "bottom_line", label: "The Bottom Line", icon: "🎯", articles: feed.bottom_line?.articles || [] },
@@ -60,7 +134,7 @@ export function buildSections(feed) {
   ].filter((s) => s.articles.length);
 }
 
-export function allArticles(feed) {
+export function allArticles(feed, hiddenCategories = []) {
   const seen = new Set();
   const out = [];
   const push = (list) =>
@@ -71,8 +145,9 @@ export function allArticles(feed) {
         out.push(a);
       }
     });
-  (feed.categories || []).forEach((c) => push(c.articles));
+  (feed.categories || []).filter((c) => !hiddenCategories.includes(c.id)).forEach((c) => push(c.articles));
   ["guidelines", "ksa", "bottom_line", "foamed", "preprints"].forEach((k) => push(feed[k]?.articles || []));
+  push(feed.trending?.articles || []);
   return out;
 }
 
@@ -82,7 +157,7 @@ export function searchArticles(articles, query) {
   return articles
     .map((a) => {
       const title = (a.title || "").toLowerCase();
-      const rest = `${a.journal || a.source || ""} ${a.abstract || a.summary || ""} ${(a.authors || []).join?.(" ") || a.author || ""}`.toLowerCase();
+      const rest = `${a.journal || a.source || ""} ${a.study_type || ""} ${a.abstract || a.summary || a.ai_summary || ""} ${a.ai_rounds_takeaway || ""} ${(a.authors || []).join?.(" ") || a.author || ""}`.toLowerCase();
       let score = 0;
       for (const t of terms) {
         if (title.includes(t)) score += 3;
