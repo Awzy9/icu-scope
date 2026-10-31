@@ -4,7 +4,9 @@ import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
 import { Chip, tap } from "./components";
+import ArticleTools from "./ArticleTools";
 import CollectionsSheet from "./Collections";
+import NoteBlock from "./NoteBlock";
 import { articleKey } from "./data";
 import { IMPACT_LABELS, impactScore } from "./evidence";
 import { useStore } from "./store";
@@ -75,7 +77,8 @@ function Abstract({ text }) {
 export default function Detail({ article: a, saved, onToggleSave }) {
   const t = useTheme();
   const insets = useSafeAreaInsets();
-  const { seen, markSeen, markUnread } = useStore();
+  const { seen, markSeen, markUnread, feed } = useStore();
+  const prompts = feed?.spotlight?.pmid && feed.spotlight.pmid === a.pmid ? feed.spotlight.discussion_prompts || [] : [];
   const [sheet, setSheet] = useState(false);
   const read = seen.has(articleKey(a));
   const source = a.journal || a.source;
@@ -130,6 +133,11 @@ export default function Detail({ article: a, saved, onToggleSave }) {
           : null}
 
         <Abstract text={a.abstract} />
+        <Block title="Journal club questions" icon="people-outline">
+          {prompts.length ? prompts.map((p, i) => `${i + 1}. ${p}`).join("\n\n") : null}
+        </Block>
+        <NoteBlock key={`note-${a.pmid || a.url}`} article={a} />
+        <ArticleTools article={a} />
         <Text style={[styles.disclaimer, { color: t.textMuted }]}>
           AI summaries and impact ratings (estimated from study design, journal and citations) are reading aids, not clinical advice. Always read the source paper.
         </Text>

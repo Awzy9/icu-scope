@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Image, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { StatusBar } from "expo-status-bar";
@@ -11,9 +10,14 @@ import { useIsDark, useTheme } from "./src/theme";
 import Settings from "./src/Settings";
 import ErrorBoundary from "./src/ErrorBoundary";
 import Onboarding from "./src/Onboarding";
-import { articleKey } from "./src/data";
-import Detail from "./src/Detail";
-import { BrowseScreen, ListScreen, SavedScreen, SearchScreen, TodayScreen } from "./src/screens";
+import { LockGate } from "./src/AppLock";
+import Compare from "./src/Compare";
+import DetailPane from "./src/DetailPane";
+import FullText from "./src/ReaderScreen";
+import LibraryScreen from "./src/LibraryScreen";
+import Review from "./src/Review";
+import Trends from "./src/Trends";
+import { BrowseScreen, ListScreen, SearchScreen, TodayScreen } from "./src/screens";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -54,23 +58,14 @@ function Tabs() {
       <Tab.Screen name="Today" component={TodayScreen} options={{ headerTitle: () => <Brand />, headerTitleAlign: "left", tabBarLabel: "Today", tabBarIcon: icon("home") }} />
       <Tab.Screen name="Browse" component={BrowseScreen} options={{ tabBarIcon: icon("grid") }} />
       <Tab.Screen name="Search" component={SearchScreen} options={{ tabBarIcon: icon("search") }} />
-      <Tab.Screen name="Saved" component={SavedScreen} options={{ tabBarIcon: icon("bookmark") }} />
+      <Tab.Screen name="Saved" component={LibraryScreen} options={{ tabBarIcon: icon("bookmark") }} />
       <Tab.Screen name="Settings" component={Settings} options={{ tabBarIcon: icon("settings") }} />
     </Tab.Navigator>
   );
 }
 
 function DetailScreen({ route }) {
-  const { savedKeys, toggleSave, markSeen } = useStore();
-  const a = route.params.article;
-  useEffect(() => {
-    markSeen(a);
-  }, [a, markSeen]);
-  return (
-    <ErrorBoundary>
-      <Detail article={a} saved={savedKeys.has(articleKey(a))} onToggleSave={toggleSave} />
-    </ErrorBoundary>
-  );
+  return <DetailPane article={route.params.article} />;
 }
 
 function Root() {
@@ -93,14 +88,20 @@ function Root() {
     );
   }
   return (
-    <NavigationContainer theme={navTheme}>
-      <StatusBar style={dark ? "light" : "dark"} />
-      <Stack.Navigator screenOptions={{ headerTintColor: t.accent, headerBackTitle: "Back" }}>
-        <Stack.Screen name="Tabs" component={Tabs} options={{ headerShown: false }} />
-        <Stack.Screen name="List" component={ListScreen} options={({ route }) => ({ title: route.params.title })} />
-        <Stack.Screen name="Detail" component={DetailScreen} options={{ title: "", headerTransparent: false }} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <LockGate enabled={settings.appLock}>
+      <NavigationContainer theme={navTheme}>
+        <StatusBar style={dark ? "light" : "dark"} />
+        <Stack.Navigator screenOptions={{ headerTintColor: t.accent, headerBackTitle: "Back" }}>
+          <Stack.Screen name="Tabs" component={Tabs} options={{ headerShown: false }} />
+          <Stack.Screen name="List" component={ListScreen} options={({ route }) => ({ title: route.params.title })} />
+          <Stack.Screen name="Detail" component={DetailScreen} options={{ title: "", headerTransparent: false }} />
+          <Stack.Screen name="Compare" component={Compare} options={{ title: "Compare studies" }} />
+          <Stack.Screen name="FullText" component={FullText} options={{ title: "Full text" }} />
+          <Stack.Screen name="Review" component={Review} options={{ title: "Flashcards" }} />
+          <Stack.Screen name="Trends" component={Trends} options={{ title: "Trends" }} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </LockGate>
   );
 }
 

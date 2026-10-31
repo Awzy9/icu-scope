@@ -3,6 +3,7 @@ import { Animated, Pressable, ScrollView, StyleSheet, Text, View } from "react-n
 import { Ionicons } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
 import { articleKey } from "./data";
+import { SORTS } from "./studyTools";
 import { useStore } from "./store";
 import { TYPE, TYPE_DEFAULT, useTheme } from "./theme";
 
@@ -159,6 +160,59 @@ export function filterOptions(articles) {
     .map(([key, n]) => ({ key, label: FILTER_LABEL[key] || key, n }));
 }
 
+// Pill-style single choice: options are { value, label }.
+export function Segmented({ options, value, onChange }) {
+  const t = useTheme();
+  return (
+    <View style={[styles.segmented, { backgroundColor: t.surfaceSoft }]}>
+      {options.map((o) => {
+        const on = o.value === value;
+        return (
+          <Pressable
+            key={String(o.value)}
+            onPress={() => {
+              tap();
+              onChange(o.value);
+            }}
+            accessibilityRole="button"
+            accessibilityState={{ selected: on }}
+            style={[styles.segment, on && { backgroundColor: t.surface }]}
+          >
+            <Text style={{ color: on ? t.accent : t.textSecondary, fontWeight: "700", fontSize: 13.5 }}>{o.label}</Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
+// Sort order for a list of articles: default, newest, most cited, highest impact.
+export function SortBar({ value, onChange }) {
+  const t = useTheme();
+  return (
+    <View style={[styles.sortRow, { backgroundColor: t.bg }]}>
+      <Ionicons name="swap-vertical" size={15} color={t.textMuted} />
+      {SORTS.map((s) => {
+        const on = s.value === value;
+        return (
+          <Pressable
+            key={s.value}
+            onPress={() => {
+              tap();
+              onChange(s.value);
+            }}
+            accessibilityRole="button"
+            accessibilityState={{ selected: on }}
+            style={[styles.sortChip, on && { backgroundColor: t.accentSoft }]}
+          >
+            <Text style={{ color: on ? t.accent : t.textMuted, fontWeight: "700", fontSize: 12.5 }}>{s.label}</Text>
+          </Pressable>
+        );
+      })}
+    </View>
+  );
+}
+
 export function FilterBar({ total, options, value, onChange, min = 2 }) {
   const t = useTheme();
   if (options.length < min) return null;
@@ -255,6 +309,10 @@ export function Empty({ title, hint, icon = "documents-outline", action }) {
 }
 
 const styles = StyleSheet.create({
+  segmented: { flexDirection: "row", borderRadius: 12, padding: 3 },
+  segment: { flex: 1, alignItems: "center", paddingVertical: 9, borderRadius: 10 },
+  sortRow: { flexDirection: "row", alignItems: "center", gap: 6, paddingHorizontal: 16, paddingBottom: 6, flexWrap: "wrap" },
+  sortChip: { borderRadius: 999, paddingHorizontal: 10, paddingVertical: 5 },
   retry: { marginTop: 16, borderRadius: 12, paddingHorizontal: 20, paddingVertical: 11 },
   retryText: { color: "#fff", fontWeight: "700", fontSize: 15 },
   card: {
