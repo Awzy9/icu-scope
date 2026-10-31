@@ -1,10 +1,10 @@
 import { useEffect, useMemo, useState } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import * as Speech from "expo-speech";
 import { SectionTitle, tap } from "./components";
 import { allArticles } from "./data";
 import { briefingText, readingStreak, readsThisWeek, watchlistMatches } from "./studyTools";
+import { SPEECH_HINT, speak, stopSpeaking } from "./speech";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
 
@@ -39,21 +39,16 @@ function ListenRow() {
   const t = useTheme();
   const { feed } = useStore();
   const [speaking, setSpeaking] = useState(false);
-  useEffect(() => () => Speech.stop(), []);
+  useEffect(() => () => stopSpeaking(), []);
   const toggle = () => {
     tap();
     if (speaking) {
-      Speech.stop();
+      stopSpeaking();
       setSpeaking(false);
       return;
     }
     setSpeaking(true);
-    Speech.speak(briefingText(feed), {
-      language: "en-US",
-      onDone: () => setSpeaking(false),
-      onStopped: () => setSpeaking(false),
-      onError: () => setSpeaking(false),
-    });
+    speak(briefingText(feed), { onDone: () => setSpeaking(false), onError: () => setSpeaking(false) });
   };
   return (
     <Pressable
@@ -64,7 +59,7 @@ function ListenRow() {
       <Ionicons name={speaking ? "stop-circle" : "play-circle"} size={30} color={t.accent} />
       <View style={{ flex: 1 }}>
         <Text style={{ color: t.accent, fontWeight: "800", fontSize: 15.5 }}>{speaking ? "Stop briefing" : "Listen to this week's briefing"}</Text>
-        <Text style={{ color: t.textSecondary, fontSize: 13 }}>Read aloud on your device</Text>
+        <Text style={{ color: t.textSecondary, fontSize: 13 }}>{speaking ? SPEECH_HINT : "Read aloud on your device"}</Text>
       </View>
     </Pressable>
   );
