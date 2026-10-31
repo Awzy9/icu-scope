@@ -1,4 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import { clearFullTextCache } from "./readerText";
 
 const FEED_URL = "https://icu-scope.vercel.app/data/articles.json";
 const FETCH_TIMEOUT_MS = 15000;
@@ -57,9 +58,25 @@ const SETTINGS_KEY = "settings:v1";
 
 const COLLECTIONS_KEY = "collections:v1";
 
+// Personal data kept on the device only: notes, reading log, keyword watchlist, flashcard deck.
+export const KEYS = { notes: "notes:v1", log: "log:v1", watch: "watch:v1", deck: "deck:v1" };
+
+export async function loadJson(key, fallback) {
+  try {
+    const raw = await AsyncStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch {
+    return fallback;
+  }
+}
+
+export const saveJson = (key, value) => AsyncStorage.setItem(key, JSON.stringify(value)).catch(() => {});
+
 export const DEFAULT_SETTINGS = { appearance: "system", textScale: 1, hiddenCategories: [], hideRead: false,
   onboarded: false,
   reminder: { enabled: false, hour: 7 },
+  weeklyGoal: 3,
+  appLock: false,
 };
 
 // Collections hold article keys, not copies; the articles themselves live in the saved list.
@@ -90,8 +107,9 @@ export function persistSettings(settings) {
 }
 
 // Wipes the downloaded feed, saved articles and read markers. Settings are kept.
-export function clearUserData() {
-  return AsyncStorage.multiRemove([CACHE_KEY, SAVED_KEY, SEEN_KEY, COLLECTIONS_KEY]).catch(() => {});
+export async function clearUserData() {
+  await AsyncStorage.multiRemove([CACHE_KEY, SAVED_KEY, SEEN_KEY, COLLECTIONS_KEY, ...Object.values(KEYS)]).catch(() => {});
+  await clearFullTextCache();
 }
 
 export const articleKey = (a) => a.pmid || a.url;

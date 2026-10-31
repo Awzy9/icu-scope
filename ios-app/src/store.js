@@ -13,6 +13,7 @@ import {
   persistSeen,
   persistSettings,
 } from "./data";
+import { usePersonal } from "./personal";
 
 const Ctx = createContext(null);
 export const useStore = () => useContext(Ctx);
@@ -27,6 +28,8 @@ export function StoreProvider({ children }) {
   const [settings, setSettings] = useState(DEFAULT_SETTINGS);
   const [ready, setReady] = useState(false);
   const [collections, setCollections] = useState([]);
+  const personal = usePersonal();
+  const { recordRead, resetPersonal } = personal;
 
   const updateCollections = useCallback((change) => {
     setCollections((prev) => {
@@ -73,7 +76,8 @@ export function StoreProvider({ children }) {
     setSaved([]);
     setSeen(new Set());
     setCollections([]);
-  }, []);
+    resetPersonal();
+  }, [resetPersonal]);
 
   const load = useCallback(async () => {
     try {
@@ -117,16 +121,20 @@ export function StoreProvider({ children }) {
     });
   }, []);
 
-  const markSeen = useCallback((a) => {
-    setSeen((prev) => {
-      const k = articleKey(a);
-      if (prev.has(k)) return prev;
-      const next = new Set(prev);
-      next.add(k);
-      persistSeen([...next]);
-      return next;
-    });
-  }, []);
+  const markSeen = useCallback(
+    (a) => {
+      recordRead(a);
+      setSeen((prev) => {
+        const k = articleKey(a);
+        if (prev.has(k)) return prev;
+        const next = new Set(prev);
+        next.add(k);
+        persistSeen([...next]);
+        return next;
+      });
+    },
+    [recordRead],
+  );
 
   const markUnread = useCallback((a) => {
     setSeen((prev) => {
@@ -149,6 +157,7 @@ export function StoreProvider({ children }) {
   }, []);
 
   const value = {
+    ...personal,
     ready,
     collections,
     createCollection,

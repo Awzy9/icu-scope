@@ -2,8 +2,9 @@ import { useState } from "react";
 import { Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import app from "../app.json";
-import { SectionTitle, tap } from "./components";
+import { Segmented, SectionTitle } from "./components";
 import { REMINDER_HOURS, cancelReminder, enableReminder, remindersSupported, scheduleReminder } from "./reminders";
+import { GoalSetting, LockSetting, WatchlistSetting } from "./SettingsExtras";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
 
@@ -23,31 +24,6 @@ const TEXT_SIZES = [
 function Card({ children }) {
   const t = useTheme();
   return <View style={[styles.card, { backgroundColor: t.surface, borderColor: t.border }]}>{children}</View>;
-}
-
-function Segmented({ options, value, onChange }) {
-  const t = useTheme();
-  return (
-    <View style={[styles.segmented, { backgroundColor: t.surfaceSoft }]}>
-      {options.map((o) => {
-        const on = o.value === value;
-        return (
-          <Pressable
-            key={String(o.value)}
-            onPress={() => {
-              tap();
-              onChange(o.value);
-            }}
-            accessibilityRole="button"
-            accessibilityState={{ selected: on }}
-            style={[styles.segment, on && { backgroundColor: t.surface }]}
-          >
-            <Text style={{ color: on ? t.accent : t.textSecondary, fontWeight: "700", fontSize: 13.5 }}>{o.label}</Text>
-          </Pressable>
-        );
-      })}
-    </View>
-  );
 }
 
 function Row({ icon, label, detail, onPress, tone, last }) {
@@ -155,6 +131,10 @@ export default function Settings() {
           </View>
         </>
       ) : null}
+
+      <GoalSetting />
+      <WatchlistSetting />
+      <LockSetting />
 
       <SectionTitle>Organ systems</SectionTitle>
       <Text style={[styles.hint, { color: t.textMuted }]}>
