@@ -213,23 +213,7 @@ export function countBy(articles, pick) {
     .sort((a, b) => b.count - a.count);
 }
 
-// ---- briefing, journal club, compare ----------------------------------
-
-const clip = (s, n) => (s.length > n ? `${s.slice(0, n - 1).trimEnd()}.` : s);
-
-export function briefingText(feed) {
-  const week = feed?.this_week?.articles || [];
-  const spot = feed?.spotlight;
-  const parts = ["ICU Scope briefing."];
-  if (spot?.title) parts.push(`Article of the week: ${spot.title}`);
-  parts.push(week.length ? `${week.length} new articles this week.` : "No new articles this week.");
-  week.slice(0, 5).forEach((a, i) => {
-    const gist = a.ai_rounds_takeaway || a.ai_summary || "";
-    parts.push(`${i + 1}. ${a.title}${gist ? ` Takeaway: ${clip(gist, 240)}` : ""}`);
-  });
-  parts.push("AI summaries are a reading aid, not clinical advice.");
-  return parts.join(" ");
-}
+// ---- journal club, compare --------------------------------------------
 
 export function journalClubHandout(article, prompts = [], note = "") {
   const lines = [`Journal club: ${article.title}`, citation(article, "vancouver"), ""];

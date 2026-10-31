@@ -1,5 +1,4 @@
 import {
-  briefingText,
   citation,
   compareRows,
   countBy,
@@ -188,20 +187,7 @@ describe("trends", () => {
   });
 });
 
-describe("briefing, journal club and compare", () => {
-  it("builds a spoken briefing", () => {
-    const text = briefingText({
-      spotlight: { title: "Big trial" },
-      this_week: { articles: [{ title: "Paper one", ai_rounds_takeaway: "Do the thing." }] },
-    });
-    expect(text).toContain("Article of the week: Big trial");
-    expect(text).toContain("1 new articles this week");
-    expect(text).toContain("Takeaway: Do the thing.");
-    expect(text).toContain("not clinical advice");
-  });
-  it("handles an empty week", () => {
-    expect(briefingText({})).toContain("No new articles this week.");
-  });
+describe("journal club and compare", () => {
   it("builds a journal club handout", () => {
     const text = journalClubHandout(article, ["Was blinding adequate?"], "Check the CI.");
     expect(text).toContain("Journal club: Conservative oxygen after cardiac arrest.");

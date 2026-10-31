@@ -1,10 +1,9 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo } from "react";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { SectionTitle, tap } from "./components";
+import { SectionTitle } from "./components";
 import { allArticles } from "./data";
-import { briefingText, readingStreak, readsThisWeek, watchlistMatches } from "./studyTools";
-import { SPEECH_HINT, speak, stopSpeaking } from "./speech";
+import { readingStreak, readsThisWeek, watchlistMatches } from "./studyTools";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
 
@@ -32,36 +31,6 @@ function GoalCard() {
         <View style={[styles.fill, { backgroundColor: done >= goal ? t.green : t.accent, width: `${Math.round(pct * 100)}%` }]} />
       </View>
     </View>
-  );
-}
-
-function ListenRow() {
-  const t = useTheme();
-  const { feed } = useStore();
-  const [speaking, setSpeaking] = useState(false);
-  useEffect(() => () => stopSpeaking(), []);
-  const toggle = () => {
-    tap();
-    if (speaking) {
-      stopSpeaking();
-      setSpeaking(false);
-      return;
-    }
-    setSpeaking(true);
-    speak(briefingText(feed), { onDone: () => setSpeaking(false), onError: () => setSpeaking(false) });
-  };
-  return (
-    <Pressable
-      onPress={toggle}
-      accessibilityRole="button"
-      style={[styles.card, styles.listen, { backgroundColor: t.accentSoft, borderColor: t.border }]}
-    >
-      <Ionicons name={speaking ? "stop-circle" : "play-circle"} size={30} color={t.accent} />
-      <View style={{ flex: 1 }}>
-        <Text style={{ color: t.accent, fontWeight: "800", fontSize: 15.5 }}>{speaking ? "Stop briefing" : "Listen to this week's briefing"}</Text>
-        <Text style={{ color: t.textSecondary, fontSize: 13 }}>{speaking ? SPEECH_HINT : "Read aloud on your device"}</Text>
-      </View>
-    </Pressable>
   );
 }
 
@@ -95,12 +64,11 @@ function Watchlist({ navigation }) {
   );
 }
 
-// Personal widgets for the Today screen: weekly goal, spoken briefing, keyword watchlist.
+// Personal widgets for the Today screen: weekly goal and keyword watchlist.
 export default function TodayExtras({ navigation }) {
   return (
     <View style={{ gap: 10, paddingHorizontal: 16, paddingTop: 6 }}>
       <GoalCard />
-      <ListenRow />
       <View style={{ marginHorizontal: -16 }}>
         <Watchlist navigation={navigation} />
       </View>
@@ -115,7 +83,6 @@ const styles = StyleSheet.create({
   pill: { flexDirection: "row", gap: 4, alignItems: "center", borderRadius: 999, paddingHorizontal: 9, paddingVertical: 4 },
   track: { height: 8, borderRadius: 4, overflow: "hidden" },
   fill: { height: 8, borderRadius: 4 },
-  listen: { flexDirection: "row", alignItems: "center", gap: 12 },
   chips: { paddingHorizontal: 16, gap: 10 },
   watch: { minWidth: 130, maxWidth: 220, borderRadius: 16, borderWidth: StyleSheet.hairlineWidth, padding: 14, gap: 4 },
 });

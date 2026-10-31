@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Modal, Pressable, ScrollView, Share, StyleSheet, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import * as Clipboard from "expo-clipboard";
@@ -7,7 +7,6 @@ import { tap } from "./components";
 import { articleKey } from "./data";
 import { pmcidOf } from "./readerText";
 import { CITATION_STYLES, citation, journalClubHandout } from "./studyTools";
-import { SPEECH_HINT, speak, stopSpeaking } from "./speech";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
 
@@ -137,23 +136,10 @@ export default function ArticleTools({ article }) {
   const { feed, deck, addCards, removeCard } = useStore();
   const [cite, setCite] = useState(false);
   const [compare, setCompare] = useState(false);
-  const [speaking, setSpeaking] = useState(false);
   const key = articleKey(article);
   const gist = article.ai_rounds_takeaway || article.ai_summary || article.summary;
   const inDeck = Boolean(deck[key]);
   const prompts = feed?.spotlight?.pmid && feed.spotlight.pmid === article.pmid ? feed.spotlight.discussion_prompts || [] : [];
-
-  useEffect(() => () => stopSpeaking(), []);
-
-  const toggleSpeech = () => {
-    if (speaking) {
-      stopSpeaking();
-      setSpeaking(false);
-      return;
-    }
-    setSpeaking(true);
-    speak(`${article.title}. ${gist || ""}`, { onDone: () => setSpeaking(false), onError: () => setSpeaking(false) });
-  };
 
   return (
     <View style={[styles.card, { backgroundColor: t.surface, borderColor: t.border }]}>
@@ -166,12 +152,6 @@ export default function ArticleTools({ article }) {
         />
       ) : null}
       <ToolRow icon="document-text-outline" label="Cite" detail="Vancouver, APA, RIS, BibTeX" onPress={() => setCite(true)} />
-      {gist ? (
-        <ToolRow icon={speaking ? "stop-circle-outline" : "volume-high-outline"} label={speaking ? "Stop reading" : "Listen to summary"} onPress={toggleSpeech} />
-      ) : null}
-      {speaking ? (
-        <Text style={{ color: t.textMuted, fontSize: 12.5, paddingHorizontal: 16, paddingBottom: 10 }}>{SPEECH_HINT}</Text>
-      ) : null}
       {gist ? (
         <ToolRow
           icon={inDeck ? "checkmark-circle-outline" : "albums-outline"}
