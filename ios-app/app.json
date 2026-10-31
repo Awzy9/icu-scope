@@ -14,16 +14,34 @@
         "ITSAppUsesNonExemptEncryption": false
       }
     },
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "extra": {
       "eas": {
         "projectId": "d5ea602b-6fd5-4dc1-9faa-6b91a29bc722"
       }
     },
-    "owner": "awzy9s-team"
+    "owner": "awzy9s-team",
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "enableRemoteNotifications": false
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Use Face ID to unlock your saved articles and notes."
+        }
+      ]
+    ]
   }
 }
