@@ -1,4 +1,5 @@
 import { useColorScheme } from "react-native";
+import { useStore } from "./store";
 
 // Palette taken from the ICU Scope logo: deep blue magnifier, teal pulse line.
 const light = {
@@ -47,8 +48,15 @@ const dark = {
   gradient: ["#0b3d91", "#1769d1", "#0c9a96"],
 };
 
+// Honours the in-app Appearance setting, falling back to the system scheme.
+export function useIsDark() {
+  const { settings } = useStore();
+  const system = useColorScheme();
+  return settings.appearance === "system" ? system === "dark" : settings.appearance === "dark";
+}
+
 export function useTheme() {
-  return useColorScheme() === "dark" ? dark : light;
+  return useIsDark() ? dark : light;
 }
 
 // Study-type styling: [label tone, icon]
