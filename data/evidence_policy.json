@@ -1,0 +1,8 @@
+{
+  "strict_mode": false,
+  "max_verify_per_run": 400,
+  "recheck_days_recent": 7,
+  "recheck_days_old": 30,
+  "recent_years": 2,
+  "_notes": "strict_mode=true holds EVERY new item for human editorial review. recheck_*: retraction/correction surveillance cadence for recent (<= recent_years) vs older publications. max_verify_per_run bounds external API calls per run."
+}

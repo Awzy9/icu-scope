@@ -56,6 +56,34 @@
           "value": "public, max-age=0, must-revalidate"
         }
       ]
+    },
+    {
+      "source": "/(admin|admin\\.html|admin\\.js|api/review)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    }
+  ],
+  "ignoreCommand": "python3 scripts/evidence_cli.py check --quiet; [ $? -eq 1 ] && exit 0 || exit 1",
+  "rewrites": [
+    {
+      "source": "/data/(archive|ai_cache|verification|evidence_alerts|evidence_run|evidence_policy)\\.json",
+      "destination": "/__not-public"
+    },
+    {
+      "source": "/data/audit_log\\.jsonl",
+      "destination": "/__not-public"
+    },
+    {
+      "source": "/data/decisions/(.*)",
+      "destination": "/__not-public"
     }
   ]
 }

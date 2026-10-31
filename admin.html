@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Editorial review – ICU Scope</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <style>
+:root{color-scheme:light dark;--bg:#f5f6f7;--surface:#fff;--text:#14181c;--muted:#5f666d;--accent:#0a6b58;--border:#e1e4e8;--bad:#9c1e17;--warn:#92400a}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--surface:#1c2024;--text:#eef0f2;--muted:#b7bec5;--accent:#5fcfb2;--border:#2e3439;--bad:#ff8a80;--warn:#f6b26b}}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:900px;margin:0 auto;padding:20px 16px 64px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px;margin:14px 0}
+h1{font-size:24px}h2{font-size:17px;margin:0 0 4px}a{color:var(--accent)}.muted{color:var(--muted);font-size:13px}
+.bad{color:var(--bad)}.warn{color:var(--warn)}.ok{color:var(--accent)}
+input,select,textarea,button{font:inherit;padding:7px 9px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text)}
+button{cursor:pointer;background:var(--accent);color:#fff;border:0;font-weight:600}textarea{width:100%;box-sizing:border-box}
+.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
+details{margin-top:6px}pre{white-space:pre-wrap;font-size:12.5px}
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="/">← ICU Scope</a></nav>
+  <h1>Editorial review</h1>
+  <p class="muted">Authorised reviewers only. Every decision needs a documented note, is recorded in an immutable audit log, and is re-validated against the safety rules before it takes effect. Approving here never bypasses a failed verification, retraction, or unvalidated AI content.</p>
+  <div id="login" class="card" hidden>
+    <h2>Reviewer sign-in</h2>
+    <form id="login-form" class="row">
+      <input id="email" type="email" placeholder="email" autocomplete="username" required />
+      <input id="password" type="password" placeholder="password" autocomplete="current-password" required />
+      <button type="submit">Sign in</button>
+    </form>
+    <p id="login-msg" class="muted" role="status"></p>
+  </div>
+  <div id="app" hidden>
+    <p class="muted"><span id="who"></span> · <button id="signout" type="button">Sign out</button> · <button id="reload" type="button">Reload queue</button></p>
+    <p id="count" class="muted" role="status"></p>
+    <div id="queue"></div>
+  </div>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -6,12 +6,21 @@ import html
 import json
 import os
 import re
+import sys
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
+
+sys.path.insert(0, os.path.dirname(__file__))
+from evidence import publish as ev_publish, http as ev_http  # noqa: E402
+from evidence.pipeline import Pipeline as EvidencePipeline  # noqa: E402
+
+# Clinical-evidence safety gate (see EVIDENCE_SAFETY.md). Set in main().
+EVIDENCE = None
+RUN_STARTED = time.time()
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 TOOL = "icu-scope"
@@ -884,12 +893,19 @@ def ai_summarize(title, text):
                 "Given the title and text below (a study abstract or a FOAMed blog/podcast description), "
                 "respond with STRICT JSON only, no markdown fences, with exactly these four keys: "
                 "key_stats, summary, significance, rounds_takeaway.\n\n"
-                "key_stats: a short line of the study's key reported numbers, formatted like "
-                "'n=1200, RR 0.82 (95% CI 0.71-0.95), ARR 4.2%, NNT 24, p=0.01'. "
+                "SAFETY RULES: use ONLY information present in the text; never add numbers, trial names, "
+                "drug names or identifiers that are not in it; if the design is observational/retrospective, "
+                "describe findings as associations and never as causes or effects; do not call a result "
+                "clinically important merely because it is statistically significant; do not recommend "
+                "treatment beyond what the text itself states.\n\n"
+                "key_stats: a short comma-separated line of the study's key reported numbers, using this "
+                "TEMPLATE where every <placeholder> must be replaced by a number copied exactly from the text: "
+                "'n=<sample size>, <RR/OR/HR> <value> (95% CI <low>-<high>), p=<value>'. "
                 "Only include sample size and effect measures (RR, OR, HR, ARR, RRR, NNT, mean difference, "
-                "p-value, confidence interval) that are EXPLICITLY reported in the text — never estimate or "
-                "infer a number. Omit any measure not stated. Use an empty string if the text has no such "
-                "reportable numbers (e.g. a review, guideline, or commentary with no primary study data).\n\n"
+                "p-value, confidence interval) that are EXPLICITLY reported in the text — never estimate, "
+                "infer, or invent a number, and never output the template's placeholders. Omit any measure "
+                "not stated. Use an empty string if the text has no such reportable numbers (e.g. a registry "
+                "entry, review, guideline, or commentary with no primary study results).\n\n"
                 "summary: 2-3 plain-language sentences on what was done and found.\n\n"
                 "significance: 1-2 sentences on why this matters for ICU clinical practice.\n\n"
                 "rounds_takeaway: ONE short, concrete, actionable sentence a clinician could act on during "
@@ -979,7 +995,10 @@ def ai_appraise_trial(title, text):
                 "semicolons) — not a JSON array.\n\n"
                 "bottom_line: 1-2 sentences of practical takeaway for a treating clinician — the single most "
                 "actionable message.\n\n"
-                "Only state what is explicitly reported in the text — never estimate or infer. Use an empty "
+                "Only state what is explicitly reported in the text — never estimate or infer, never add "
+                "numbers, names or identifiers absent from it, and report missing information as an empty "
+                "string rather than guessing. Never turn an observational association into a causal claim, "
+                "and never equate statistical significance with clinical importance. Use an empty "
                 "string for any field the text doesn't support. Every value must be a plain string, never a "
                 "nested list or object."
                 f"\n\nTitle: {title}\n\nText: {text[:3500]}"
@@ -1009,13 +1028,17 @@ def article_ai_id(article):
     return f"pmid:{article['pmid']}" if article.get("pmid") else f"url:{article['url']}"
 
 
-def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=(), ksa_articles=()):
+def gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=(), ksa_articles=(), gate_ai=True):
     by_id = {}
 
     def register(article):
         text = article.get("abstract") or article.get("summary") or ""
         if not text:
             return
+        if EVIDENCE is not None and gate_ai:
+            rec = EVIDENCE.rec_for(article)
+            if not rec or not ev_publish.ai_generation_allowed(rec):
+                return
         aid = article_ai_id(article)
         entry = by_id.setdefault(aid, {"title": article["title"], "text": text, "study_type": article.get("study_type"), "targets": []})
         entry["targets"].append(article)
@@ -1042,8 +1065,7 @@ def gather_ai_targets(categories_out, trending_articles, foamed_articles, guidel
 
 def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline_articles=(), preprint_articles=(), trial_articles=(), bottom_line_articles=(), ksa_articles=()):
     if not GROQ_API_KEY:
-        print("  GROQ_API_KEY not set, skipping AI summaries")
-        return
+        print("  GROQ_API_KEY not set: no new AI summaries will be generated; attaching cached ones only")
 
     cache = load_ai_cache()
     by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles, ksa_articles)
@@ -1056,7 +1078,7 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
         result = cache.get(aid)
         is_trial = entry.get("study_type") in APPRAISAL_STUDY_TYPES
         if result is None:
-            if remaining_budget <= 0:
+            if remaining_budget <= 0 or not GROQ_API_KEY:
                 continue
             if is_trial:
                 result = ai_appraise_trial(entry["title"], entry["text"])
@@ -1080,9 +1102,10 @@ def enrich_with_ai(categories_out, trending_articles, foamed_articles, guideline
                     target["ai_significance"] = result["significance"]
                     target["ai_rounds_takeaway"] = result.get("rounds_takeaway", "")
 
-    # Keep the cache bounded to ids still relevant this run.
-    pruned_cache = {aid: cache[aid] for aid in by_id if aid in cache}
-    save_ai_cache(pruned_cache)
+    # Keep the cache bounded to ids still relevant this run. (Only prune when we could
+    # also regenerate: without an API key a pruned entry could never be rebuilt.)
+    if GROQ_API_KEY:
+        save_ai_cache({aid: cache[aid] for aid in by_id if aid in cache})
     print(f"  AI summaries: {new_count} new, {cached_count} from cache, "
           f"{len(by_id) - new_count - cached_count} skipped (budget exhausted)")
 
@@ -1093,7 +1116,7 @@ def enrich_with_embeddings(categories_out, trending_articles, foamed_articles, g
         return
 
     cache = load_embedding_cache()
-    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles, ksa_articles)
+    by_id = gather_ai_targets(categories_out, trending_articles, foamed_articles, guideline_articles, preprint_articles, trial_articles, bottom_line_articles, ksa_articles, gate_ai=False)
 
     remaining_budget = EMBEDDING_MAX_PER_RUN
     new_count = 0
@@ -1248,6 +1271,9 @@ def spotlight_candidates(trending_articles, categories_out, exclude_pmids=()):
     def consider(article):
         pmid = article.get("pmid")
         if not pmid or pmid in seen or str(pmid) in exclude:
+            return
+        # Featured research must be metadata-verified and not retracted/under investigation.
+        if EVIDENCE is not None and not EVIDENCE.featurable(article):
             return
         seen.add(pmid)
         pool.append(article)
@@ -1580,7 +1606,10 @@ def merge_into_bucket(bucket, fresh_articles, id_fn):
     and anything archived before this exclusion existed).
     """
     for a in fresh_articles:
-        bucket[id_fn(a)] = a
+        old = bucket.get(id_fn(a))
+        # Approved evidence is never silently overwritten: a material change is
+        # parked for editorial review and the approved version is retained.
+        bucket[id_fn(a)] = EVIDENCE.guard_update(old, a) if (EVIDENCE and old) else a
     for key in [k for k, a in bucket.items() if is_pediatric(a)]:
         del bucket[key]
     return sorted(bucket.values(), key=lambda a: parsed_pubdate_for_sort(a.get("pubdate", "")), reverse=True)
@@ -1590,7 +1619,11 @@ def main():
     if not CONTACT_EMAIL:
         raise SystemExit("CONTACT_EMAIL env var is required (NCBI usage policy).")
 
+    global EVIDENCE
     archive = load_archive()
+    EVIDENCE = EvidencePipeline()
+    # First run after the safety system is introduced: grandfather what is already published.
+    first_run = not EVIDENCE.ledger.records
 
     categories_out = []
     for cat in CATEGORIES:
@@ -1674,6 +1707,30 @@ def main():
 
     save_archive(archive)
 
+    # ---- Clinical evidence gate (single, centralised verification logic) ----
+    # Every section goes through the same code path. New items are held back until
+    # verified; existing approved items are never overwritten; retracted/under-
+    # investigation items are never promoted. An outage of any source never removes
+    # previously verified content.
+    print("Verifying sources & applying publication gate...")
+    ev_sections = {f"categories/{c['id']}": c["articles"] for c in categories_out}
+    ev_sections.update({"trending": trending_articles, "foamed": foamed_articles, "bottom_line": bottom_line_articles,
+                        "guidelines": guideline_articles, "ksa": ksa_articles, "preprints": preprint_articles, "trials": trial_articles})
+    EVIDENCE.ingest(ev_sections, legacy=first_run)
+    EVIDENCE.verify_pending()
+    for c in categories_out:
+        c["articles"] = EVIDENCE.filter_visible(f"categories/{c['id']}", c["articles"])
+    trending_articles = EVIDENCE.filter_visible("trending", trending_articles)
+    foamed_articles = EVIDENCE.filter_visible("foamed", foamed_articles)
+    bottom_line_articles = EVIDENCE.filter_visible("bottom_line", bottom_line_articles)
+    guideline_articles = EVIDENCE.filter_visible("guidelines", guideline_articles)
+    ksa_articles = EVIDENCE.filter_visible("ksa", ksa_articles)
+    preprint_articles = EVIDENCE.filter_visible("preprints", preprint_articles)
+    trial_articles = EVIDENCE.filter_visible("trials", trial_articles)
+    _all_for_design = [a for lst in ev_sections.values() for a in lst]
+    EVIDENCE.harmonize_study_type(_all_for_design, normalize_pub_type)
+    print(f"  evidence gate: {dict(EVIDENCE.stats)}")
+
     # Run before the bulk AI summarization below so it isn't starved of
     # tokens-per-minute budget on Groq's free tier.
     print("Selecting article of the week...")
@@ -1682,6 +1739,17 @@ def main():
     except Exception as e:
         print(f"  warning: spotlight selection failed: {e}")
         spotlight = load_spotlight()
+
+    if spotlight and spotlight.get("pmid") and not EVIDENCE.featurable({"pmid": spotlight["pmid"]}):
+        print("  spotlight pick is no longer eligible (retracted/under investigation/unverified) - reselecting")
+        try:
+            save_spotlight({})
+            spotlight = build_spotlight(trending_articles, categories_out)
+        except Exception as e:
+            print(f"  warning: spotlight reselection failed: {e}")
+            spotlight = {}
+        if spotlight and spotlight.get("pmid") and not EVIDENCE.featurable({"pmid": spotlight["pmid"]}):
+            spotlight = {}
 
     print("Generating AI summaries...")
     try:
@@ -1733,7 +1801,7 @@ def main():
     for cat in categories_out:
         remaining = []
         for a in cat["articles"]:
-            if is_recent(a, THIS_WEEK_DAYS):
+            if is_recent(a, THIS_WEEK_DAYS) and EVIDENCE.promotable(a):
                 # The same paper may match multiple organ-system queries.
                 # Keep one card on the shared shelf, while preserving every
                 # matching category for dashboard/filter bookkeeping.
@@ -1755,6 +1823,17 @@ def main():
                 remaining.append(a)
         cat["articles"] = remaining
     this_week_articles.sort(key=lambda a: parsed_pubdate_for_sort(a.get("pubdate", "")), reverse=True)
+
+    # ---- AI validation + public evidence stamping (after all AI/enrichment steps) ----
+    all_articles = []
+    for lst in ([c["articles"] for c in categories_out] + [trending_articles, foamed_articles, bottom_line_articles, guideline_articles,
+                ksa_articles, preprint_articles, trial_articles, this_week_articles]):
+        all_articles.extend(lst)
+    EVIDENCE.finalize_ai(all_articles)
+    if spotlight and spotlight.get("pmid"):
+        sp_rec = EVIDENCE.rec_for({"pmid": spotlight["pmid"]})
+        if sp_rec:
+            spotlight = {**spotlight, "evidence": ev_publish.public_evidence(sp_rec)}
 
     output = {
         "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -1796,8 +1875,23 @@ def main():
     }
 
     out_path = os.path.join(os.path.dirname(__file__), "..", "data", "articles.json")
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, indent=2, ensure_ascii=False)
+
+    # ---- Critical safety gate: a failure blocks publication and leaves the currently
+    # deployed articles.json untouched (it is only replaced atomically after passing).
+    EVIDENCE.persist()
+    written, findings = ev_publish.publish_if_safe(output, EVIDENCE.ledger, out_path)
+    if not written:
+        for f in [f for f in findings if f["severity"] == "critical"][:25]:
+            print(f"  CRITICAL {f['code']}: {f['message']} ({f['ref']})")
+        print("Evidence safety gate FAILED: articles.json NOT updated; previous verified content left intact.", file=sys.stderr)
+        raise SystemExit(3)
+    try:
+        import evidence_cli
+        evidence_cli.save_alerts(EVIDENCE.alerts)
+        evidence_cli.write_run_metrics(EVIDENCE, RUN_STARTED, "fetch")
+        evidence_cli.write_issue_file(EVIDENCE.alerts, os.environ.get("EVIDENCE_ISSUE_FILE", ""))
+    except Exception as e:
+        print(f"  warning: could not write evidence alerts/metrics: {e}")
 
     try:
         build_rss_feed(categories_out, foamed_articles, preprint_articles, trial_articles, bottom_line_articles, this_week_articles)

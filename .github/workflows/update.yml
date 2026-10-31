@@ -10,6 +10,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: icu-literature-refresh
@@ -53,12 +54,20 @@ jobs:
           GUIDELINE_MAX: "10"
           HF_API_TOKEN: ${{ secrets.HF_API_TOKEN }}
           EMBEDDING_MAX_PER_RUN: "60"
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+          EVIDENCE_ISSUE_FILE: ${{ runner.temp }}/evidence-alert.md
         run: |
           set -e
           for attempt in 1 2 3; do
             echo "Literature refresh attempt $attempt/3"
-            if python scripts/fetch_articles.py; then
+            rc=0
+            python scripts/fetch_articles.py || rc=$?
+            if [ "$rc" -eq 0 ]; then
               exit 0
+            fi
+            if [ "$rc" -eq 3 ]; then
+              echo "::error::Clinical-evidence safety gate failed - nothing will be committed; deployed content is unchanged."
+              exit 3
             fi
             if [ "$attempt" -lt 3 ]; then
               sleep $((attempt * 20))
@@ -99,14 +108,35 @@ jobs:
           print(f"Validated feed: {article_count} category articles; generated {age_hours:.2f}h ago")
           PY
 
+      - name: Safety tests + publication gate (must pass before anything is committed)
+        run: |
+          python -m unittest discover -s tests -t . -v 2>&1 | tail -n 15
+          node --test tests/review_api.test.js
+          python scripts/evidence_cli.py audit-verify
+          python scripts/evidence_cli.py check
+
+      - name: Notify administrators of retractions / corrections / source changes
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f="${{ runner.temp }}/evidence-alert.md"
+          if [ -s "$f" ]; then
+            gh issue create --title "ICU Scope evidence alert $(date -u +%F)" --body-file "$f" --label evidence-alert \
+              || gh issue create --title "ICU Scope evidence alert $(date -u +%F)" --body-file "$f"
+          else
+            echo "No new evidence alerts."
+          fi
+
       - name: Commit and push if changed
         run: |
           git config user.name "Awzy9"
           git config user.email "291288073+Awzy9@users.noreply.github.com"
-          if git diff --quiet -- data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml; then
+          FILES="data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml data/verification.json data/audit_log.jsonl data/evidence_alerts.json data/evidence_run.json"
+          if git diff --quiet -- $FILES && [ -z "$(git ls-files --others --exclude-standard -- $FILES)" ]; then
             echo "No changes to commit."
           else
-            git add data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml
+            git add $FILES
             git commit -m "Update ICU literature feed"
             git push origin "HEAD:main"
           fi

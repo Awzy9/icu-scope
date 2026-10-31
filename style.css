@@ -2484,3 +2484,18 @@ mark { background: var(--amber-soft); color: var(--amber-strong); border-radius:
   .hero-stats { grid-template-columns: repeat(4, minmax(95px, 1fr)); margin-right: 0 !important; }
   .hero-stat-link { display: none !important; }
 }
+
+/* ---- Clinical evidence quality labels (driven by server-side verification records) ---- */
+.ev-badges { display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; margin: 0.4rem 0 0.2rem; }
+.ev-chip { display: inline-block; padding: 0.12rem 0.55rem; border-radius: 999px; font-size: 0.72rem; font-weight: 700; border: 1px solid var(--border); background: var(--bg); color: var(--text-muted, inherit); }
+.ev-ok { background: var(--accent-soft); color: var(--accent-strong); border-color: var(--accent); }
+.ev-neutral { background: transparent; color: var(--text-muted, inherit); border-style: dashed; }
+.ev-limit, .ev-warn { background: var(--amber-soft); color: var(--amber-strong); border-color: var(--amber-border); }
+.ev-bad { background: var(--red-soft); color: var(--red-strong); border-color: var(--red-border); }
+.ev-date { font-size: 0.72rem; opacity: 0.8; }
+.ev-banner { margin: 0.5rem 0; padding: 0.6rem 0.8rem; border-radius: 8px; border: 1px solid; font-size: 0.88rem; line-height: 1.4; }
+.ev-retracted { background: var(--red-soft); color: var(--red-strong); border-color: var(--red); border-width: 2px; }
+.ev-concern, .ev-corrected { background: var(--amber-soft); color: var(--amber-strong); border-color: var(--amber-border); }
+.ev-banner a { color: inherit; text-decoration: underline; }
+.article-card:has(.ev-retracted) .article-title a { text-decoration: line-through; }
+.site-disclaimer { font-size: 0.85rem; border: 1px solid var(--border); border-radius: 8px; padding: 0.6rem 0.8rem; margin: 0.8rem 0; }

@@ -194,6 +194,13 @@
   // Curated once, not part of the daily fetch pipeline. Each links to a
   // PubMed search on the trial's distinctive title rather than a hardcoded
   // PMID, since a mistyped PMID would silently point at the wrong paper.
+  // Curated, hand-written editorial summaries with no verified PMID/DOI on record:
+  // deliberately shown WITHOUT any verification badge until a reviewer links the source.
+  const CLASSIC_EVIDENCE = {
+    state: "published", class: "landmark_trial", class_label: "Curated landmark trial (editorial summary)",
+    source_verified: false, full_text_reviewed: false, clinically_reviewed: false, ai_status: "none",
+    retraction_status: "unknown", notices: [], unverified_legacy: true,
+  };
   const CLASSIC_TRIALS = [
     {
       title: "ARDSNet ARMA: Lower tidal volumes for ARDS",
@@ -743,17 +750,17 @@
     ["weaknesses", "Weaknesses"],
   ];
 
-  function buildAppraisalBlock(appraisal) {
+  function buildAppraisalBlock(appraisal, label, practiceApproved) {
     const rows = APPRAISAL_FIELDS
       .filter(([key]) => appraisal[key])
       .map(([key, label]) => `<dt>${escapeHtml(label)}</dt><dd>${escapeHtml(appraisal[key])}</dd>`)
       .join("");
     return `<div class="ai-summary ai-appraisal">
-        <div class="ai-summary-label">🔬 AI Trial Appraisal</div>
-        ${appraisal.bottom_line ? `<p class="ai-rounds-takeaway">🎯 <strong>Bottom line:</strong> ${escapeHtml(appraisal.bottom_line)}</p>` : ""}
+        <div class="ai-summary-label">${escapeHtml(label || "🔬 AI-assisted trial appraisal")}</div>
+        ${(appraisal.bottom_line && practiceApproved) ? `<p class="ai-rounds-takeaway">🎯 <strong>Bottom line:</strong> ${escapeHtml(appraisal.bottom_line)}</p>` : ""}
         ${rows ? `<dl class="ai-summary-text appraisal-fields">${rows}</dl>` : ""}
         ${rows ? `<button class="ai-summary-toggle" type="button">Show full appraisal</button>` : ""}
-        <p class="ai-disclaimer">AI-generated structured appraisal — verify against the source before relying on it clinically.</p>
+        <p class="ai-disclaimer">AI-generated from the abstract only; it is an interpretation, not the trial's own conclusion. Verify against the original paper before relying on it clinically.</p>
       </div>`;
   }
 
@@ -1059,6 +1066,80 @@
     return lines.join("\n").trim();
   }
 
+
+  // ---- Clinical evidence quality labels ---------------------------------------
+  // Everything below is driven ONLY by the server-side `evidence` block produced by
+  // scripts/evidence (single verification pipeline). A badge is rendered only if the
+  // corresponding verification actually occurred; nothing is inferred client-side.
+  const EV_LIMITATIONS = {
+    "Preprint (not peer-reviewed)": "Not peer-reviewed",
+    "Observational Study": "Observational design — association, not causation",
+    "Case Reports": "Case report — hypothesis generating only",
+    "Multicenter Study": "Design not specified by PubMed — check methods",
+    "Study": "Design not specified by PubMed — check methods",
+  };
+
+  function evidenceNoticeLinks(ev) {
+    return (ev.notices || [])
+      .map((n) => {
+        const label = escapeHtml(String(n.type || "").replace(/_/g, " "));
+        const doi = n.doi && /^10\.\d{4,9}\/\S+$/.test(n.doi) ? `https://doi.org/${encodeURIComponent(n.doi).replace(/%2F/g, "/")}` : "";
+        const pmid = n.pmid && /^\d+$/.test(n.pmid) ? `https://pubmed.ncbi.nlm.nih.gov/${n.pmid}/` : "";
+        const href = doi || pmid;
+        return href ? `<a href="${href}" target="_blank" rel="noopener">${label}${n.date ? " (" + escapeHtml(n.date) + ")" : ""}</a>` : label;
+      })
+      .join(" · ");
+  }
+
+  function evidenceBanner(ev) {
+    if (!ev) return "";
+    const links = evidenceNoticeLinks(ev);
+    const tail = links ? ` Notices: ${links}.` : "";
+    if (ev.state === "retracted" || ev.retraction_status === "retracted") {
+      return `<div class="ev-banner ev-retracted" role="alert"><strong>⛔ Retracted publication.</strong> This article has been retracted. Its findings must not be used to support clinical decisions; any summaries are withheld. It is kept here only as a historical record.${tail}</div>`;
+    }
+    if (ev.state === "under_investigation" || ev.retraction_status === "expression_of_concern") {
+      return `<div class="ev-banner ev-concern" role="alert"><strong>⚠ Under investigation.</strong> An expression of concern or unresolved verification problem affects this publication. Do not rely on it until reassessed; summaries are withheld.${tail}</div>`;
+    }
+    if (ev.retraction_status === "corrected" || ev.retraction_status === "updated" || ev.needs_reassessment) {
+      return `<div class="ev-banner ev-corrected"><strong>✎ Corrected publication.</strong> A correction or update notice exists for this article${ev.needs_reassessment ? "; ICU Scope summaries are withheld until it is re-reviewed" : ""}.${tail}</div>`;
+    }
+    return "";
+  }
+
+  function evidenceBadges(article) {
+    const ev = article.evidence;
+    if (!ev) return `<span class="ev-chip ev-neutral" title="No verification record is available for this item.">Verification pending</span>`;
+    const chips = [];
+    if (ev.class_label) chips.push(`<span class="ev-chip ev-class">${escapeHtml(ev.class_label)}</span>`);
+    if (ev.source_verified) {
+      chips.push(`<span class="ev-chip ev-ok" title="Bibliographic metadata (identifiers, title, journal, date, trial registration, retraction status) was cross-checked against PubMed, Crossref and/or ClinicalTrials.gov. This is not a review of the full text.">✓ Source verified</span>`);
+    } else if (ev.unverified_legacy) {
+      chips.push(`<span class="ev-chip ev-neutral" title="This item has not yet passed ICU Scope source verification.">Not yet verified</span>`);
+    }
+    if (ev.full_text_reviewed) chips.push(`<span class="ev-chip ev-ok" title="An ICU Scope reviewer recorded a full-text review.">Full text reviewed</span>`);
+    if (ev.clinically_reviewed) chips.push(`<span class="ev-chip ev-ok" title="A named clinical reviewer completed an editorial review.">Clinically reviewed</span>`);
+    if (ev.appraisal && ev.appraisal.framework) chips.push(`<span class="ev-chip ev-ok" title="A named reviewer completed a structured appraisal against this checklist.">Appraised: ${escapeHtml(ev.appraisal.framework.split(" (")[0])}</span>`);
+    if (ev.retraction_status === "corrected") chips.push(`<span class="ev-chip ev-warn">Corrected publication</span>`);
+    if (ev.retraction_status === "retracted") chips.push(`<span class="ev-chip ev-bad">Retracted publication</span>`);
+    const lim = EV_LIMITATIONS[article.study_type] || (ev.class === "registry_record" ? "Registration only — no results" : "");
+    if (lim) chips.push(`<span class="ev-chip ev-limit" title="Evidence limitation">Evidence limitation: ${escapeHtml(lim)}</span>`);
+    if (ev.source_verified && ev.last_verified) chips.push(`<span class="ev-date">Last verified ${escapeHtml(ev.last_verified)}</span>`);
+    return chips.join("");
+  }
+
+  function aiAllowed(article) {
+    const st = article.evidence && article.evidence.ai_status;
+    return st === "auto_validated" || st === "editor_approved";
+  }
+
+  function aiLabel(article) {
+    const st = article.evidence && article.evidence.ai_status;
+    return st === "editor_approved"
+      ? "✨ AI-assisted summary · editorially approved"
+      : "✨ AI-assisted summary · automated source check passed · not clinically reviewed";
+  }
+
   function articleCard(article) {
     const id = articleId(article);
     const isNew = !isFirstVisit && !previousSeenIds.has(id);
@@ -1071,7 +1152,7 @@
     const doiLink = article.doi
       ? `<a href="https://doi.org/${encodeURIComponent(article.doi)}" target="_blank" rel="noopener">DOI</a>`
       : "";
-    const hasAiSummary = !!(article.ai_summary || article.ai_significance || article.ai_appraisal);
+    const hasAiSummary = aiAllowed(article) && !!(article.ai_summary || article.ai_significance || article.ai_appraisal);
     const abstractToggleLabel = hasAiSummary ? "Show original text" : "Show more";
     const abstractBlock = article.abstract
       ? `<p class="article-abstract">${highlightMatch(article.abstract, currentSearchTerm)}</p>
@@ -1091,17 +1172,17 @@
            </div>
          </div>`
       : "";
-    const aiBlock = article.ai_appraisal
-      ? buildAppraisalBlock(article.ai_appraisal)
+    const aiBlock = (article.ai_appraisal && aiAllowed(article))
+      ? buildAppraisalBlock(article.ai_appraisal, aiLabel(article).replace('✨', '🔬').replace('summary', 'trial appraisal'), !!(article.evidence && article.evidence.ai_practice_approved))
       : hasAiSummary
         ? `<div class="ai-summary">
-             <div class="ai-summary-label">✨ AI Summary</div>
-             ${article.ai_rounds_takeaway ? `<p class="ai-rounds-takeaway">🩺 <strong>Rounds takeaway:</strong> ${escapeHtml(article.ai_rounds_takeaway)}</p>` : ""}
+             <div class="ai-summary-label">${aiLabel(article)}</div>
+             ${(article.ai_rounds_takeaway && article.evidence && article.evidence.ai_practice_approved) ? `<p class="ai-rounds-takeaway">🩺 <strong>Rounds takeaway:</strong> ${escapeHtml(article.ai_rounds_takeaway)}</p>` : ""}
              ${article.ai_key_stats ? `<p class="ai-key-stats">${escapeHtml(article.ai_key_stats)}</p>` : ""}
              ${article.ai_significance ? `<p class="ai-significance"><strong>Why it matters:</strong> ${escapeHtml(article.ai_significance)}</p>` : ""}
              ${article.ai_summary ? `<p class="ai-summary-text">${escapeHtml(article.ai_summary)}</p>` : ""}
              ${article.ai_summary ? `<button class="ai-summary-toggle" type="button">Show full summary</button>` : ""}
-             <p class="ai-disclaimer">AI-generated — verify against the source before relying on it clinically.</p>
+             <p class="ai-disclaimer">AI-generated from the cited abstract only — it is not the study's own conclusion. Verify against the original source before relying on it clinically.</p>
            </div>`
         : "";
     const citationBadge = article.citation_count > 0
@@ -1166,6 +1247,8 @@
         <span class="journal" style="--journal-hue: ${journalHue(article.journal)}">${escapeHtml(article.journal || "")}</span> · ${escapeHtml(article.pubdate || "")}<br/>
         ${escapeHtml(authors)}
       </div>
+      ${evidenceBanner(article.evidence)}
+      <div class="ev-badges">${evidenceBadges(article)}</div>
       <div class="article-tags">${impactBadge}${societyBadge}${oaBadge}${brokenBadge}</div>
       ${aiBlock}
       ${abstractBlock}
@@ -1324,6 +1407,7 @@
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
       ai_rounds_takeaway: item.ai_rounds_takeaway,
+      evidence: item.evidence,
       citation_count: 0,
       is_top_journal: false,
       is_foamed: true,
@@ -1345,6 +1429,7 @@
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
       ai_rounds_takeaway: item.ai_rounds_takeaway,
+      evidence: item.evidence,
       citation_count: 0,
       is_top_journal: false,
       is_bottom_line: true,
@@ -1366,6 +1451,7 @@
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
       ai_rounds_takeaway: item.ai_rounds_takeaway,
+      evidence: item.evidence,
       citation_count: 0,
       is_top_journal: false,
       is_open_access: true,
@@ -1387,6 +1473,7 @@
       ai_summary: item.ai_summary,
       ai_significance: item.ai_significance,
       ai_rounds_takeaway: item.ai_rounds_takeaway,
+      evidence: item.evidence,
       citation_count: 0,
       is_top_journal: false,
       is_open_access: true,
@@ -1556,7 +1643,8 @@
         <div class="article-meta">
           <span class="journal" style="--journal-hue: ${journalHue(spotlight.journal)}">${escapeHtml(spotlight.journal || "")}</span> · ${escapeHtml(spotlight.pubdate || "")}
         </div>
-        ${spotlight.why_selected ? `<div class="ai-summary"><div class="ai-summary-label">✨ Why this pick</div><p class="ai-significance">${escapeHtml(spotlight.why_selected)}</p></div>` : ""}
+        ${spotlight.evidence ? `${evidenceBanner(spotlight.evidence)}<div class="ev-badges">${evidenceBadges(spotlight)}</div>` : ""}
+        ${spotlight.why_selected ? `<div class="ai-summary"><div class="ai-summary-label">✨ Editorial selection note (automated)</div><p class="ai-significance">${escapeHtml(spotlight.why_selected)}</p></div>` : ""}
         ${prompts ? `<div class="discussion-prompts"><strong>Discussion prompts:</strong><ul>${prompts}</ul></div>` : ""}
         <div class="article-links">
           <a href="${spotlight.url}" target="_blank" rel="noopener">PubMed</a>
@@ -1632,7 +1720,7 @@
   function renderClassics() {
     classicsSection.hidden = false;
     classicsList.innerHTML = "";
-    CLASSIC_TRIALS.forEach((trial) => classicsList.appendChild(articleCard(trial)));
+    CLASSIC_TRIALS.forEach((trial) => classicsList.appendChild(articleCard({ ...trial, evidence: CLASSIC_EVIDENCE })));
   }
 
   function renderSaved(articleIndex) {

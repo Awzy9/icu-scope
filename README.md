@@ -2,6 +2,10 @@
 
 A daily-updating feed of recent ICU / critical-care literature from PubMed, organized by organ system (Cardiovascular, Respiratory, Neurology, Renal, GI & Nutrition, Endocrine & Metabolic, Infectious Disease & Sepsis, Hematology & Coagulation, Trauma & Surgical).
 
+## Clinical evidence safety
+
+Every item is verified against PubMed / Crossref / doi.org / ClinicalTrials.gov, monitored for retractions and corrections, AI text is validated against its source, and publication is gated. See **[EVIDENCE_SAFETY.md](EVIDENCE_SAFETY.md)** for the design, editorial administration, and limits. Run the safety tests with `python -m unittest discover -s tests -t .` and `node --test tests/review_api.test.js`.
+
 ## How it works
 
 - `scripts/fetch_articles.py` queries the NCBI PubMed E-utilities API for each category, plus a "Trending this month" ranking (by PMC citation count), a "FOAMed & Blogs" section (RSS from EMCrit, PulmCrit, REBEL EM, LITFL), and a separate "🎯 The Bottom Line" section (RSS from [thebottomline.org.uk](https://thebottomline.org.uk/), the UK EBM site's trial appraisals) — kept apart from FOAMed since it's structured critical appraisal of specific trials, not general commentary. Writes it all to `data/articles.json`.

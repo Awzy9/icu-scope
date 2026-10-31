@@ -2,7 +2,7 @@
 // - App shell: stale-while-revalidate
 // - /data/*.json: network-first, cached copy when offline
 // - Cross-origin and non-GET requests (worker, auth, analytics) are never touched.
-const VERSION = "v1";
+const VERSION = "v2"; // bumped: evidence labels / gated data
 const SHELL_CACHE = `icu-shell-${VERSION}`;
 const DATA_CACHE = `icu-data-${VERSION}`;
 const SHELL = [

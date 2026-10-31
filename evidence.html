@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How ICU Scope verifies evidence – ICU Scope</title>
+  <meta name="description" content="What ICU Scope's verification labels mean, how retractions and corrections are handled, and how AI-assisted summaries are validated." />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <style>
+:root{color-scheme:light dark;--bg:#f5f6f7;--surface:#fff;--text:#14181c;--muted:#5f666d;--accent:#0a6b58;--border:#e1e4e8}
+@media (prefers-color-scheme:dark){:root{--bg:#14171a;--surface:#1c2024;--text:#eef0f2;--muted:#b7bec5;--accent:#5fcfb2;--border:#2e3439}}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+main{max-width:760px;margin:0 auto;padding:24px 20px 64px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px 22px;margin:16px 0}
+h1{font-size:28px;margin:8px 0}h2{font-size:19px;margin:0 0 6px}
+p,li{margin:6px 0}a{color:var(--accent)}.muted{color:var(--muted);font-size:14px}
+nav a{font-weight:600;text-decoration:none}dt{font-weight:700;margin-top:10px}dd{margin:2px 0 0 0}
+</style>
+</head>
+<body>
+<main>
+  <nav><a href="/">← ICU Scope</a></nav>
+  <h1>How ICU Scope verifies evidence</h1>
+  <p class="muted">ICU Scope is an educational evidence resource. It does not replace clinical judgment or institutional protocols.</p>
+
+  <div class="card">
+    <h2>What the labels mean</h2>
+    <dl>
+      <dt>✓ Source verified</dt>
+      <dd>The article's bibliographic <em>metadata</em> (PMID, DOI, title, journal, date, trial registration number, publication type, retraction/correction status) was cross-checked against PubMed, Crossref, doi.org and/or ClinicalTrials.gov, and the sources agreed. This is <strong>not</strong> a review of the full text, and it does not mean the study's conclusions are correct. The date shown is when the check last ran.</dd>
+      <dt>Not yet verified</dt>
+      <dd>An existing item that has not yet passed these checks, or whose check could not be completed (for example because a source was unavailable). No badge is shown until a check has actually succeeded.</dd>
+      <dt>Full text reviewed / Clinically reviewed</dt>
+      <dd>Shown only when a named ICU Scope reviewer has recorded that review. Automated checks never produce these labels.</dd>
+      <dt>AI-assisted summary</dt>
+      <dd>A machine-generated interpretation of the article's abstract. Before it is shown, an independent, rule-based validator checks that every number, trial identifier and named term appears in the source, that reported statistics are internally consistent, and that it does not turn observational associations into causal claims or add treatment recommendations. Passing means "grounded in the abstract", not "clinically reviewed". Practice-oriented takeaways ("rounds takeaway", appraisal "bottom line") are shown only after editorial approval.</dd>
+      <dt>Corrected publication</dt>
+      <dd>A correction or update notice exists. ICU Scope summaries are withheld until the item is re-reviewed.</dd>
+      <dt>Retracted publication / Under investigation</dt>
+      <dd>The article was retracted, or an expression of concern was issued. It stays visible as a historical record with a prominent warning, is never promoted as current evidence (Trending, This Week, Article of the Week), and its summaries are withheld.</dd>
+      <dt>Evidence limitation</dt>
+      <dd>A design-based caution, for example: preprint (not peer-reviewed), observational (association, not causation), or trial registration without results.</dd>
+    </dl>
+  </div>
+
+  <div class="card">
+    <h2>What kind of content is this?</h2>
+    <p>Each card states its type: <strong>original research</strong> findings, <strong>guideline</strong> publications, <strong>expert interpretation</strong> (blogs/podcasts/appraisals by others — not primary research), <strong>registry records</strong> (no results), <strong>preprints</strong>, and clearly labelled <strong>AI-assisted summaries</strong>. These are never mixed under one label.</p>
+  </div>
+
+  <div class="card">
+    <h2>Monitoring and corrections</h2>
+    <p>Retractions, expressions of concern, corrections, guideline updates and trial-registry changes are checked on a recurring schedule. When one is found, the item is flagged, derived summaries are withheld, administrators are notified, and publication is restored only after human reassessment. Every verification and editorial action is recorded in an append-only, hash-chained audit log.</p>
+    <p>If an external source is unavailable, previously verified content is left unchanged.</p>
+  </div>
+
+  <div class="card">
+    <h2>Limits</h2>
+    <p>ICU Scope does not bypass paywalls and does not host full texts. Unless a label says a full-text review occurred, no one at ICU Scope has verified the study's methods or results beyond what the abstract states. Always consult the original publication and your institutional protocols before applying anything to patient care.</p>
+  </div>
+</main>
+</body>
+</html>

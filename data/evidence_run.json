@@ -1,0 +1,24 @@
+{
+ "command": "fetch",
+ "finished_at": "2026-10-31T21:54:29+00:00",
+ "duration_s": 62.7,
+ "http_requests": 9,
+ "http_retries": 0,
+ "source_errors": [],
+ "stats": {
+  "held_back": 2,
+  "study_type_harmonized": 19,
+  "ai_failed_validation": 65,
+  "ai_auto_validated": 298
+ },
+ "states": {
+  "unverified": 1,
+  "pending_review": 68,
+  "verified": 0,
+  "published": 751,
+  "updated": 0,
+  "under_investigation": 0,
+  "retracted": 0,
+  "archived": 1
+ }
+}
