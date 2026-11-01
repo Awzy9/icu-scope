@@ -2,7 +2,7 @@
 // Serves the repo root locally and intercepts data/articles.json to inject adversarial scenarios.
 const { chromium } = require("playwright");
 const http = require("http"), fs = require("fs"), path = require("path");
-const root = path.join(__dirname, "..");
+const root = process.env.UI_ROOT ? path.resolve(process.env.UI_ROOT) : path.join(__dirname, ".."); // UI_ROOT=public tests the exact deployable output
 const types = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".svg": "image/svg+xml", ".png": "image/png", ".webmanifest": "application/json" };
 const server = http.createServer((q, r) => {
   let p = decodeURIComponent(q.url.split("?")[0]); if (p === "/") p = "/index.html"; if (p === "/evidence") p = "/evidence.html";

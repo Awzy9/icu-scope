@@ -72,18 +72,6 @@
     }
   ],
   "ignoreCommand": "python3 scripts/evidence_cli.py check --quiet; [ $? -eq 1 ] && exit 0 || exit 1",
-  "rewrites": [
-    {
-      "source": "/data/(archive|ai_cache|verification|evidence_alerts|evidence_run|evidence_policy|discovery|discovery_state|discovery_status|discovery_config|reconciliation)\\.json",
-      "destination": "/__not-public"
-    },
-    {
-      "source": "/data/audit_log\\.jsonl",
-      "destination": "/__not-public"
-    },
-    {
-      "source": "/data/decisions/(.*)",
-      "destination": "/__not-public"
-    }
-  ]
+  "buildCommand": "node scripts/build_public.js",
+  "outputDirectory": "public"
 }
