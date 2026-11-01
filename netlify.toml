@@ -1,5 +1,7 @@
 [build]
-  publish = "."
+  # Build the deployable site from an allowlist (scripts/build_public.js) so internal pipeline data is never published.
+  command = "node scripts/build_public.js"
+  publish = "public"
 
 [[headers]]
   for = "/data/*.json"
