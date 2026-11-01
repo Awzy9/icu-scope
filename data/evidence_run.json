@@ -1,0 +1,27 @@
+{
+ "command": "fetch",
+ "finished_at": "2026-11-01T07:17:26+00:00",
+ "duration_s": 175.4,
+ "http_requests": 710,
+ "http_retries": 2,
+ "source_errors": [],
+ "stats": {
+  "auto_published": 389,
+  "pending_review": 206,
+  "failed_verification": 5,
+  "held_back": 1330,
+  "study_type_harmonized": 18,
+  "ai_failed_validation": 59,
+  "ai_auto_validated": 279
+ },
+ "states": {
+  "unverified": 629,
+  "pending_review": 482,
+  "verified": 0,
+  "published": 1528,
+  "updated": 0,
+  "under_investigation": 0,
+  "retracted": 0,
+  "archived": 1
+ }
+}

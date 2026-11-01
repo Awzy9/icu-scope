@@ -1,0 +1,38 @@
+{
+ "generated_at": "2026-11-01T07:17:26+00:00",
+ "stages": {
+  "discovered": 2157,
+  "retrieved": 2157,
+  "stored": 1855,
+  "verification_record": 1855,
+  "displayed": 602
+ },
+ "explained": {
+  "rejected": 302,
+  "duplicate": 0,
+  "pending_retry": 0,
+  "awaiting_verification": 1055,
+  "not_in_public_feed_by_policy": 210
+ },
+ "discrepancies": [],
+ "unrecoverable": 0,
+ "recoverable": 0,
+ "strategy_gap_found_only_by_europepmc": 296,
+ "strategy_gap_by_specialty": {
+  "general-critical-care": 151,
+  "ventilation-resp-failure": 86,
+  "rrt-renal": 16,
+  "obstetric-critical-care": 2,
+  "toxicology": 4,
+  "sedation-delirium": 24,
+  "sepsis": 63,
+  "hemodynamics-cardio": 23,
+  "ecmo": 16,
+  "infections": 28,
+  "ards": 13,
+  "hematology-coag": 18,
+  "neurocritical": 8,
+  "trauma-surgical": 5,
+  "nutrition-metabolism": 10
+ }
+}

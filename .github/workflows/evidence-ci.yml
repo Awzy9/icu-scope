@@ -1,0 +1,41 @@
+name: Evidence safety CI
+
+# Runs the clinical-evidence safety tests on every change. A failing CRITICAL safety
+# test must block publication; Vercel's ignoreCommand (vercel.json) additionally refuses
+# to build a deployment whose data/articles.json fails the safety gate, leaving the
+# currently deployed verified content untouched.
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  safety:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Python safety tests (offline, deterministic)
+        run: python -m unittest discover -s tests -t . -v
+      - name: Review API tests (authentication / authorisation / validation)
+        run: node --test tests/review_api.test.js
+      - name: Audit-log integrity
+        run: python scripts/evidence_cli.py audit-verify
+      - name: Publication gate on committed data
+        run: python scripts/evidence_cli.py check
+      - name: Syntax check frontend + API
+        run: |
+          node --check app.js
+          node --check admin.js
+          node --check api/review.js

@@ -1,0 +1,14 @@
+# Editorial / safety-critical paths. Enable "Require review from Code Owners" in branch protection
+# so that changes here cannot reach main without an owner's approval.
+/scripts/evidence/            @Awzy9
+/scripts/evidence_cli.py      @Awzy9
+/tests/                       @Awzy9
+/api/review.js                @Awzy9
+/admin.html                   @Awzy9
+/admin.js                     @Awzy9
+/data/evidence_policy.json    @Awzy9
+/data/verification.json       @Awzy9
+/data/audit_log.jsonl         @Awzy9
+/data/decisions/              @Awzy9
+/.github/workflows/           @Awzy9
+/vercel.json                  @Awzy9

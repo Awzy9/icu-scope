@@ -1,0 +1,52 @@
+name: Literature backfill / reconcile
+
+# Controlled historical recovery of articles missed by earlier scheduled runs. Resumable (checkpointed per strategy and
+# window), idempotent (never duplicates a record), and it never overwrites approved clinical content. Run manually.
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many days back to search (default 30; ~68 candidates/day before relevance filtering)"
+        default: "30"
+      mode:
+        description: "backfill | retry | reconcile"
+        default: "backfill"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: icu-literature-refresh   # never write the ledgers concurrently with the daily job
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tests (must pass before any data is written)
+        run: python -m unittest discover -s tests -t .
+      - name: Run
+        env:
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: |
+          case "${{ inputs.mode }}" in
+            backfill)  python scripts/discovery_cli.py backfill --days "${{ inputs.days }}" ;;
+            retry)     python scripts/discovery_cli.py retry ;;
+            reconcile) python scripts/discovery_cli.py reconcile ;;
+          esac
+      - name: Commit ledgers and recovered articles (the daily job publishes them after verification)
+        run: |
+          git config user.name "Awzy9"
+          git config user.email "291288073+Awzy9@users.noreply.github.com"
+          FILES="data/archive.json data/verification.json data/audit_log.jsonl data/discovery.json data/discovery_state.json data/reconciliation.json"
+          if git diff --quiet -- $FILES && [ -z "$(git ls-files --others --exclude-standard -- $FILES)" ]; then echo "No changes."; else
+            git add $FILES; git commit -m "Literature ${{ inputs.mode }}"; git push origin HEAD:main; fi

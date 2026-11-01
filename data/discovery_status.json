@@ -1,0 +1,291 @@
+{
+ "generated_at": "2026-11-01T07:17:26+00:00",
+ "health": "healthy",
+ "problems": [],
+ "last_successful_retrieval": "2026-11-01T07:17:26+00:00",
+ "last_run": "2026-11-01T07:17:26+00:00",
+ "this_run": {
+  "new_discovered": 0,
+  "retrieved": 0,
+  "rejected": 0,
+  "duplicates": 0,
+  "relevance_uncertain": 0,
+  "strategies_ok": 77,
+  "strategies_failed": [],
+  "query_warnings": []
+ },
+ "totals": {
+  "discovered": 2157,
+  "retrieved": 2157,
+  "awaiting_verification": 1055,
+  "approved": 0,
+  "published": 800,
+  "duplicate": 0,
+  "rejected": 302,
+  "pending_retry": 0
+ },
+ "by_status": {
+  "discovered": 0,
+  "retrieved": 0,
+  "awaiting_verification": 1055,
+  "approved": 0,
+  "published": 800,
+  "duplicate": 0,
+  "rejected": 302,
+  "retrieval_failed": 0,
+  "pending_retry": 0
+ },
+ "rejection_reasons": {
+  "paediatric/neonatal population (out of scope per editorial policy)": 11,
+  "paediatric/neonatal population (out of scope per existing editorial policy)": 277,
+  "correction/retraction notice, not primary evidence (tracked against the original": 14
+ },
+ "failed_requests": [],
+ "pending_retry": [],
+ "reconciliation": {
+  "discrepancies": 0,
+  "recoverable": 0,
+  "unrecoverable": 0,
+  "stages": {
+   "discovered": 2157,
+   "retrieved": 2157,
+   "stored": 1855,
+   "verification_record": 1855,
+   "displayed": 602
+  },
+  "strategy_gap_found_only_by_europepmc": 296,
+  "top": []
+ },
+ "specialties": {
+  "general-critical-care": {
+   "label": "General critical care",
+   "total_discovered": 1268,
+   "relevant_or_review": 1107,
+   "published": 545,
+   "new_this_run": 0
+  },
+  "ventilation-resp-failure": {
+   "label": "Mechanical ventilation & respiratory failure",
+   "total_discovered": 479,
+   "relevant_or_review": 387,
+   "published": 207,
+   "new_this_run": 0
+  },
+  "ards": {
+   "label": "ARDS",
+   "total_discovered": 88,
+   "relevant_or_review": 79,
+   "published": 47,
+   "new_this_run": 0
+  },
+  "sepsis": {
+   "label": "Sepsis & septic shock",
+   "total_discovered": 341,
+   "relevant_or_review": 278,
+   "published": 115,
+   "new_this_run": 0
+  },
+  "hemodynamics-cardio": {
+   "label": "Hemodynamics & cardiovascular critical care",
+   "total_discovered": 204,
+   "relevant_or_review": 182,
+   "published": 91,
+   "new_this_run": 0
+  },
+  "neurocritical": {
+   "label": "Neurocritical care",
+   "total_discovered": 96,
+   "relevant_or_review": 91,
+   "published": 39,
+   "new_this_run": 0
+  },
+  "rrt-renal": {
+   "label": "Renal replacement therapy & AKI",
+   "total_discovered": 200,
+   "relevant_or_review": 177,
+   "published": 81,
+   "new_this_run": 0
+  },
+  "infections": {
+   "label": "Critical care infections",
+   "total_discovered": 202,
+   "relevant_or_review": 175,
+   "published": 70,
+   "new_this_run": 0
+  },
+  "toxicology": {
+   "label": "Toxicology",
+   "total_discovered": 32,
+   "relevant_or_review": 30,
+   "published": 15,
+   "new_this_run": 0
+  },
+  "trauma-surgical": {
+   "label": "Trauma & surgical critical care",
+   "total_discovered": 152,
+   "relevant_or_review": 146,
+   "published": 63,
+   "new_this_run": 0
+  },
+  "ecmo": {
+   "label": "ECMO & extracorporeal support",
+   "total_discovered": 82,
+   "relevant_or_review": 67,
+   "published": 42,
+   "new_this_run": 0
+  },
+  "nutrition-metabolism": {
+   "label": "Nutrition & metabolism",
+   "total_discovered": 68,
+   "relevant_or_review": 60,
+   "published": 30,
+   "new_this_run": 0
+  },
+  "sedation-delirium": {
+   "label": "Sedation, analgesia & delirium",
+   "total_discovered": 177,
+   "relevant_or_review": 151,
+   "published": 86,
+   "new_this_run": 0
+  },
+  "hematology-coag": {
+   "label": "Hematology & coagulation",
+   "total_discovered": 157,
+   "relevant_or_review": 138,
+   "published": 43,
+   "new_this_run": 0
+  },
+  "obstetric-critical-care": {
+   "label": "Obstetric critical care",
+   "total_discovered": 25,
+   "relevant_or_review": 25,
+   "published": 10,
+   "new_this_run": 0
+  }
+ },
+ "strategy_watermarks": {
+  "general-critical-care:mesh": "2026-11-01",
+  "general-critical-care:keyword": "2026-11-01",
+  "general-critical-care:pubtype": "2026-11-01",
+  "ventilation-resp-failure:mesh": "2026-11-01",
+  "ventilation-resp-failure:keyword": "2026-11-01",
+  "ventilation-resp-failure:pubtype": "2026-11-01",
+  "ards:mesh": "2026-11-01",
+  "ards:keyword": "2026-11-01",
+  "ards:pubtype": "2026-11-01",
+  "sepsis:mesh": "2026-11-01",
+  "sepsis:keyword": "2026-11-01",
+  "sepsis:pubtype": "2026-11-01",
+  "hemodynamics-cardio:mesh": "2026-11-01",
+  "hemodynamics-cardio:keyword": "2026-11-01",
+  "hemodynamics-cardio:pubtype": "2026-11-01",
+  "neurocritical:mesh": "2026-11-01",
+  "neurocritical:keyword": "2026-11-01",
+  "neurocritical:pubtype": "2026-11-01",
+  "rrt-renal:mesh": "2026-11-01",
+  "rrt-renal:keyword": "2026-11-01",
+  "rrt-renal:pubtype": "2026-11-01",
+  "infections:mesh": "2026-11-01",
+  "infections:keyword": "2026-11-01",
+  "infections:pubtype": "2026-11-01",
+  "toxicology:mesh": "2026-11-01",
+  "toxicology:keyword": "2026-11-01",
+  "toxicology:pubtype": "2026-11-01",
+  "trauma-surgical:mesh": "2026-11-01",
+  "trauma-surgical:keyword": "2026-11-01",
+  "trauma-surgical:pubtype": "2026-11-01",
+  "ecmo:mesh": "2026-11-01",
+  "ecmo:keyword": "2026-11-01",
+  "ecmo:pubtype": "2026-11-01",
+  "nutrition-metabolism:mesh": "2026-11-01",
+  "nutrition-metabolism:keyword": "2026-11-01",
+  "nutrition-metabolism:pubtype": "2026-11-01",
+  "sedation-delirium:mesh": "2026-11-01",
+  "sedation-delirium:keyword": "2026-11-01",
+  "sedation-delirium:pubtype": "2026-11-01",
+  "hematology-coag:mesh": "2026-11-01",
+  "hematology-coag:keyword": "2026-11-01",
+  "hematology-coag:pubtype": "2026-11-01",
+  "obstetric-critical-care:mesh": "2026-11-01",
+  "obstetric-critical-care:keyword": "2026-11-01",
+  "obstetric-critical-care:pubtype": "2026-11-01",
+  "core-journals": "2026-11-01",
+  "general-journals-icu": "2026-11-01",
+  "epmc:general-critical-care:title": "2026-11-01",
+  "epmc:general-critical-care:mesh": "2026-11-01",
+  "epmc:ventilation-resp-failure:text": "2026-11-01",
+  "epmc:ventilation-resp-failure:mesh": "2026-11-01",
+  "epmc:ards:text": "2026-11-01",
+  "epmc:ards:mesh": "2026-11-01",
+  "epmc:sepsis:text": "2026-11-01",
+  "epmc:sepsis:mesh": "2026-11-01",
+  "epmc:hemodynamics-cardio:text": "2026-11-01",
+  "epmc:hemodynamics-cardio:mesh": "2026-11-01",
+  "epmc:neurocritical:text": "2026-11-01",
+  "epmc:neurocritical:mesh": "2026-11-01",
+  "epmc:rrt-renal:text": "2026-11-01",
+  "epmc:rrt-renal:mesh": "2026-11-01",
+  "epmc:infections:text": "2026-11-01",
+  "epmc:infections:mesh": "2026-11-01",
+  "epmc:toxicology:text": "2026-11-01",
+  "epmc:toxicology:mesh": "2026-11-01",
+  "epmc:trauma-surgical:text": "2026-11-01",
+  "epmc:trauma-surgical:mesh": "2026-11-01",
+  "epmc:ecmo:text": "2026-11-01",
+  "epmc:ecmo:mesh": "2026-11-01",
+  "epmc:nutrition-metabolism:text": "2026-11-01",
+  "epmc:nutrition-metabolism:mesh": "2026-11-01",
+  "epmc:sedation-delirium:text": "2026-11-01",
+  "epmc:sedation-delirium:mesh": "2026-11-01",
+  "epmc:hematology-coag:text": "2026-11-01",
+  "epmc:hematology-coag:mesh": "2026-11-01",
+  "epmc:obstetric-critical-care:text": "2026-11-01",
+  "epmc:obstetric-critical-care:mesh": "2026-11-01"
+ },
+ "recent_runs": [
+  {
+   "started_at": "2026-11-01T07:06:07+00:00",
+   "finished_at": "2026-11-01T07:09:17+00:00",
+   "ok": false,
+   "new_discovered": 2157,
+   "retrieved": 2157,
+   "rejected": 291,
+   "duplicates": 0,
+   "uncertain": 616,
+   "failed_requests": 1
+  },
+  {
+   "started_at": "2026-11-01T07:09:28+00:00",
+   "finished_at": "2026-11-01T07:10:05+00:00",
+   "ok": true,
+   "new_discovered": 0,
+   "retrieved": 0,
+   "rejected": 0,
+   "duplicates": 0,
+   "uncertain": 0,
+   "failed_requests": 0
+  },
+  {
+   "started_at": "2026-11-01T07:10:15+00:00",
+   "finished_at": "2026-11-01T07:13:54+00:00",
+   "ok": true,
+   "new_discovered": 0,
+   "retrieved": 0,
+   "rejected": 0,
+   "duplicates": 0,
+   "uncertain": 0,
+   "failed_requests": 0
+  },
+  {
+   "started_at": "2026-11-01T07:14:31+00:00",
+   "finished_at": "2026-11-01T07:17:26+00:00",
+   "ok": true,
+   "new_discovered": 0,
+   "retrieved": 0,
+   "rejected": 0,
+   "duplicates": 0,
+   "uncertain": 0,
+   "failed_requests": 0
+  }
+ ]
+}
