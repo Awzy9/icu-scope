@@ -7,6 +7,7 @@ import { REMINDER_HOURS, cancelReminder, enableReminder, remindersSupported, sch
 import { GoalSetting, LockSetting, WatchlistSetting } from "./SettingsExtras";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
+import { DISCLAIMER, METHODS_URL } from "./trust";
 
 const SITE = "https://icu-scope.vercel.app";
 const APPEARANCE = [
@@ -185,12 +186,12 @@ export default function Settings() {
         <Card>
           <Row icon="information-circle-outline" label="Version" detail={app.expo.version} />
           <Row icon="shield-checkmark-outline" label="Privacy policy" onPress={() => Linking.openURL(`${SITE}/privacy`)} />
+          <Row icon="ribbon-outline" label="How ICU Scope verifies evidence" onPress={() => Linking.openURL(METHODS_URL)} />
           <Row icon="help-buoy-outline" label="Support and feedback" onPress={() => Linking.openURL(`${SITE}/support`)} />
           <Row icon="sparkles-outline" label="Show welcome screen again" onPress={() => updateSettings({ onboarded: false })} last />
         </Card>
         <Text style={[styles.hint, { color: t.textMuted, paddingHorizontal: 4 }]}>
-          ICU Scope summarizes published literature. AI summaries and impact ratings are reading aids, not clinical advice.
-          Always read the source paper.
+          {DISCLAIMER}
         </Text>
       </View>
     </ScrollView>
