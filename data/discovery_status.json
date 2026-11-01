@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-01T07:29:10+00:00",
+ "generated_at": "2026-11-01T09:53:58+00:00",
  "health": "healthy",
  "problems": [],
- "last_successful_retrieval": "2026-11-01T07:29:10+00:00",
- "last_run": "2026-11-01T07:29:10+00:00",
+ "last_successful_retrieval": "2026-11-01T09:53:58+00:00",
+ "last_run": "2026-11-01T09:53:58+00:00",
  "this_run": {
   "new_discovered": 0,
   "retrieved": 0,
@@ -17,9 +17,9 @@
  "totals": {
   "discovered": 2157,
   "retrieved": 2157,
-  "awaiting_verification": 658,
+  "awaiting_verification": 650,
   "approved": 0,
-  "published": 1197,
+  "published": 1205,
   "duplicate": 0,
   "rejected": 302,
   "pending_retry": 0
@@ -27,9 +27,9 @@
  "by_status": {
   "discovered": 0,
   "retrieved": 0,
-  "awaiting_verification": 658,
+  "awaiting_verification": 650,
   "approved": 0,
-  "published": 1197,
+  "published": 1205,
   "duplicate": 0,
   "rejected": 302,
   "retrieval_failed": 0,
@@ -51,7 +51,7 @@
    "retrieved": 2157,
    "stored": 1855,
    "verification_record": 1855,
-   "displayed": 695
+   "displayed": 696
   },
   "strategy_gap_found_only_by_europepmc": 296,
   "top": []
@@ -61,14 +61,14 @@
    "label": "General critical care",
    "total_discovered": 1268,
    "relevant_or_review": 1107,
-   "published": 809,
+   "published": 816,
    "new_this_run": 0
   },
   "ventilation-resp-failure": {
    "label": "Mechanical ventilation & respiratory failure",
    "total_discovered": 479,
    "relevant_or_review": 387,
-   "published": 310,
+   "published": 311,
    "new_this_run": 0
   },
   "ards": {
@@ -89,7 +89,7 @@
    "label": "Hemodynamics & cardiovascular critical care",
    "total_discovered": 204,
    "relevant_or_review": 182,
-   "published": 139,
+   "published": 140,
    "new_this_run": 0
   },
   "neurocritical": {
@@ -110,7 +110,7 @@
    "label": "Critical care infections",
    "total_discovered": 202,
    "relevant_or_review": 175,
-   "published": 106,
+   "published": 107,
    "new_this_run": 0
   },
   "toxicology": {
@@ -138,14 +138,14 @@
    "label": "Nutrition & metabolism",
    "total_discovered": 68,
    "relevant_or_review": 60,
-   "published": 44,
+   "published": 45,
    "new_this_run": 0
   },
   "sedation-delirium": {
    "label": "Sedation, analgesia & delirium",
    "total_discovered": 177,
    "relevant_or_review": 151,
-   "published": 116,
+   "published": 118,
    "new_this_run": 0
   },
   "hematology-coag": {
@@ -290,6 +290,17 @@
   {
    "started_at": "2026-11-01T07:25:38+00:00",
    "finished_at": "2026-11-01T07:29:10+00:00",
+   "ok": true,
+   "new_discovered": 0,
+   "retrieved": 0,
+   "rejected": 0,
+   "duplicates": 0,
+   "uncertain": 0,
+   "failed_requests": 0
+  },
+  {
+   "started_at": "2026-11-01T09:52:08+00:00",
+   "finished_at": "2026-11-01T09:53:58+00:00",
    "ok": true,
    "new_discovered": 0,
    "retrieved": 0,

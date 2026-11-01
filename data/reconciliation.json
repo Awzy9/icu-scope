@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-01T07:29:10+00:00",
+ "generated_at": "2026-11-01T09:53:58+00:00",
  "stages": {
   "discovered": 2157,
   "retrieved": 2157,
   "stored": 1855,
   "verification_record": 1855,
-  "displayed": 695
+  "displayed": 696
  },
  "explained": {
   "rejected": 302,
   "duplicate": 0,
   "pending_retry": 0,
-  "awaiting_verification": 658,
-  "not_in_public_feed_by_policy": 514
+  "awaiting_verification": 650,
+  "not_in_public_feed_by_policy": 521
  },
  "discrepancies": [],
  "unrecoverable": 0,
