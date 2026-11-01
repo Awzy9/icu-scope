@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
-import { Animated, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
+import { Animated, Linking, Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import * as Haptics from "expo-haptics";
 import { articleKey } from "./data";
 import { SORTS } from "./studyTools";
 import { useStore } from "./store";
 import { TYPE, TYPE_DEFAULT, useTheme } from "./theme";
+import { cardTag, evidenceBanner, evidenceChips } from "./trust";
 
 export const tap = () => Haptics.selectionAsync().catch(() => {});
 
@@ -18,6 +19,42 @@ export function Chip({ label, tone = "accent", icon }) {
       <Text style={[styles.chipText, { color: t[tone] || t.textSecondary }]} numberOfLines={1}>
         {label}
       </Text>
+    </View>
+  );
+}
+
+// Prominent notice for retracted / under-investigation / corrected publications.
+export function EvidenceBanner({ article }) {
+  const t = useTheme();
+  const b = evidenceBanner(article);
+  if (!b) return null;
+  return (
+    <View
+      accessibilityRole="alert"
+      style={{ backgroundColor: t[`${b.tone}Soft`], borderColor: t[b.tone], borderWidth: b.kind === "retracted" ? 2 : 1, borderRadius: 12, padding: 12, marginBottom: 12, gap: 6 }}
+    >
+      <View style={{ flexDirection: "row", alignItems: "center", gap: 6 }}>
+        <Ionicons name={b.icon} size={18} color={t[b.tone]} />
+        <Text style={{ color: t[b.tone], fontWeight: "800", fontSize: 15 }}>{b.title}</Text>
+      </View>
+      <Text style={{ color: t.text, fontSize: 14, lineHeight: 20 }}>{b.body}</Text>
+      {b.links.map((l) => (
+        <Pressable key={l.url} onPress={() => Linking.openURL(l.url)} accessibilityRole="link" hitSlop={6}>
+          <Text style={{ color: t[b.tone], fontWeight: "700", textDecorationLine: "underline" }}>Notice: {l.label}</Text>
+        </Pressable>
+      ))}
+    </View>
+  );
+}
+
+// Verification labels. Only what the server-side evidence block says has actually happened is shown.
+export function EvidenceChips({ article }) {
+  const chips = evidenceChips(article);
+  return (
+    <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 6, marginBottom: 10 }}>
+      {chips.map((c) => (
+        <Chip key={c.key} label={c.label} tone={c.tone} icon={c.icon} />
+      ))}
     </View>
   );
 }
@@ -35,6 +72,12 @@ function FadeIn({ index = 0, children, style }) {
       {children}
     </Animated.View>
   );
+}
+
+function CardTag({ article, warningsOnly }) {
+  const tag = cardTag(article);
+  if (!tag || (warningsOnly && tag.tone === "green")) return null;
+  return <Chip label={tag.label} tone={tag.tone} icon={tag.icon} />;
 }
 
 function useCardInfo(article) {
@@ -74,6 +117,7 @@ export function ArticleCard({ article, onPress, index = 0 }) {
                 <Text style={[styles.topText, { color: t.amber }]}>Top journal</Text>
               </View>
             ) : null}
+            <CardTag article={article} />
             <View style={{ flex: 1 }} />
             {saved ? <Ionicons name="bookmark" size={16} color={t.accent} /> : null}
             {isNew && !saved ? <View style={[styles.dot, { backgroundColor: t.teal }]} /> : null}
@@ -115,6 +159,7 @@ export function MiniCard({ article, onPress, index = 0 }) {
           <Text style={[styles.kind, { color }]} numberOfLines={1}>
             {article.society || FILTER_LABEL[article.study_type] || article.study_type || "Article"}
           </Text>
+          <CardTag article={article} warningsOnly />
           <View style={{ flex: 1 }} />
           {isNew ? <View style={[styles.dot, { backgroundColor: t.teal }]} /> : null}
         </View>

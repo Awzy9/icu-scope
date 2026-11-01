@@ -18,14 +18,18 @@ def tier(article):
     return 1 if article.get("is_top_journal") else 2
 
 
-def apply_display_policy(category_articles, cap, today=None):
+def apply_display_policy(category_articles, cap, today=None, pin=None):
     """Keep the `cap` best per category (high-evidence first, then newest). -> (kept, excluded[(article, reason)]).
-    Excluded articles stay in the archive and keep status `published` with an explicit display reason - never silent."""
+    Excluded articles stay in the archive and keep status `published` with an explicit display reason - never silent.
+    `pin(article) -> bool` items (retracted / under investigation / corrected) are ALWAYS kept, in addition to the cap: readers and apps that
+    saved or read them must keep seeing the notice."""
     def key(a):
         d, _ = effective_date(a, today)
         return (tier(a), -(d.toordinal() if d else 0))
-    ranked = sorted(category_articles, key=key)
-    kept, excl = ranked[:cap], [(a, f"display cap ({cap}/category) - lower-ranked than {cap} higher-evidence/newer items") for a in ranked[cap:]]
+    pinned = [a for a in category_articles if pin and pin(a)]
+    ranked = sorted((a for a in category_articles if not (pin and pin(a))), key=key)
+    kept = pinned + ranked[:cap]
+    excl = [(a, f"display cap ({cap}/category) - lower-ranked than {cap} higher-evidence/newer items") for a in ranked[cap:]]
     # preserve original (date-desc) order for display
     order = {id(a): i for i, a in enumerate(category_articles)}
     kept.sort(key=lambda a: order[id(a)])

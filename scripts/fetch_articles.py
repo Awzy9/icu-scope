@@ -1820,9 +1820,13 @@ def main():
     trial_articles = EVIDENCE.filter_visible("trials", trial_articles)
     # Bounded public feed: best-ranked per category; the rest stay in the archive with an explicit recorded reason.
     cap = int(DISCOVERY.cfg.get("display_per_category", 120))
+
+    def _pin_notice(a):      # a retraction / concern / correction must never fall out of the feed (saved copies and apps rely on it)
+        r = EVIDENCE.rec_for(a)
+        return bool(r and (r["state"] in ("retracted", "under_investigation") or r["retraction_status"] in ("retracted", "expression_of_concern", "corrected")))
     kept_pmids, excl = set(), {}
     for c in categories_out:
-        c["articles"], dropped = disc_sync.apply_display_policy(c["articles"], cap)
+        c["articles"], dropped = disc_sync.apply_display_policy(c["articles"], cap, pin=_pin_notice)
         kept_pmids.update(str(a.get("pmid")) for a in c["articles"])
         for a, why in dropped:
             excl[str(a.get("pmid"))] = why

@@ -1,5 +1,7 @@
 // Landmark ICU trials, copied from the website (app.js CLASSIC_TRIALS) so they work offline.
-export const CLASSICS = [
+import { CLASSIC_EVIDENCE } from "./trust";
+
+const RAW = [
   {
     "id": "classic-1",
     "title": "ARDSNet ARMA: Lower tidal volumes for ARDS",
@@ -135,3 +137,5 @@ export const CLASSICS = [
     "url": "https://pubmed.ncbi.nlm.nih.gov/?term=adjunctive+glucocorticoid+therapy+patients+septic+shock+ADRENAL"
   }
 ];
+
+export const CLASSICS = RAW.map((c) => ({ ...c, evidence: CLASSIC_EVIDENCE }));
