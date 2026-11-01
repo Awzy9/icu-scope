@@ -60,7 +60,7 @@ Last successful retrieval; discovered / retrieved / awaiting / approved / publis
 `scripts/discovery/{strategies,retrieval,dates,relevance,ledger,engine,sync,reconcile,status,archive}.py`, `scripts/discovery_cli.py`; `fetch_articles.py` (hooks: discovery replaces the capped category loop, hardened `_get`, careful paediatric test with recorded pruning, display policy, finalize/sync/reconcile/status); `evidence` (uncertain-relevance → pending review; approve clears the flag); `app.js`/`style.css` (one category); `api/review.js` + `admin.{html,js}` (monitor); workflows; `vercel.json` (new internal data files not served); tests `tests/test_discovery.py`, `tests/discovery_helpers.py`.
 
 ## 4. Tests
-See §6 of the final report; `python -m unittest discover -s tests -t .` runs everything offline.
+`python -m unittest discover -s tests -t .` runs the whole suite offline; results are in §7.
 
 ## 5. Sizing / operations
 * ~68 candidates/day before relevance (live), of which ~60 % `relevant`, ~35 % `uncertain`, ~4 % rejected (live sample of 946). Archive grows ~3 KB/article/category. A 120-day backfill would add ~8,000 candidates (tens of MB) — hence the 30-day default.
@@ -74,7 +74,36 @@ See §6 of the final report; `python -m unittest discover -s tests -t .` runs ev
 * When uncertain-relevance items appear, review them in `/admin` (`approve` confirms ICU relevance; `reject` archives with a reason).
 
 ## 7. Backfill and acceptance results
-RESULTS_PLACEHOLDER
+All of this was run for real against PubMed, Europe PMC, Crossref, doi.org and ClinicalTrials.gov on 2026-11-01, using the repository's actual data.
+
+**Controlled backfill, 30 days (2026-10-02 → 2026-11-01).** 47 PubMed strategies × 3 windows (141) + 30 Europe PMC queries × 3. First pass: 140/141 PubMed windows succeeded; one hit a genuine PubMed backend error (*"Search Backend failed … HTTP 502"*), which was recorded as a failed request (run marked degraded, watermark not advanced, no silent gap). Re-running the same command retried **only** that window → 0 failed requests, and the ledger stayed at exactly 2,157 records (idempotent, no duplicates). During the audit/backfill NCBI also returned HTTP 500 for every esearch for hours and HTTP 429 under load; all were handled by backoff or recorded.
+
+| | count |
+|---|---|
+| Candidates discovered / retrieved | 2,157 / 2,157 |
+| Classified relevant / uncertain (→ review) / rejected | 1,250 / 616 / 291 (final rejected total 302: 288 paediatric/neonatal, 14 correction notices — each with its reason) |
+| Duplicates / pending retry / retrieval failed | 0 / 0 / 0 |
+
+**After two daily pipeline runs (verification budget 600/run):** 800 published · 1,055 awaiting verification (of which 613 are held for an editor's ICU-relevance decision) · 302 rejected · 0 unaccounted. Reconciliation: **0 discrepancies**; stage counts discovered 2,157 → retrieved 2,157 → stored 1,855 (= 2,157 − 302 rejected) → verification record 1,855 → 602 distinct articles on the website; the other 198 published articles are outside the capped public feed *with a recorded reason* (explained, not lost). Website: category cards **277 → 783**, "This Week" **2 → 119**, `articles.json` 2.0 MB → 4.8 MB. Safety gate: 0 critical findings; audit chain intact. The deliberately-held items (unverified, or uncertain relevance) are not published.
+
+**Value of the second source:** 296 articles were found *only* by Europe PMC; 214 were correctly rejected (those queries lack PubMed's population exclusion), but **53 were relevant and 29 uncertain** — real ICU articles the PubMed strategies alone had missed (e.g. *"Interpreting EVERDAC: deferring arterial cannulation in critically ill patients"*, *"Clinical outcomes … tigecycline exposure in critically ill patients"*).
+
+**Acceptance criterion — end-to-end traceability** (`python scripts/discovery_cli.py trace <PMID>`), real articles:
+* **PMID 42876263** (published): found by 6 strategies via PubMed + Europe PMC → *discovered* 07:06 → *retrieved* 07:08 → *awaiting_verification* (ICU-relevant, MeSH: AKI/critical illness/ICU) → stored in the `renal` archive → source verification passed (PubMed + Crossref) → evidence state *published* → **on the website** → status *published* 07:13. 
+* **PMID 42879586** (held, correct): relevance *uncertain* → `relevance_review` flag → evidence `unverified` → **not on the website**; its status reason states it will not publish without a reviewer's approval.
+* **PMID 42875270** (rejected): *Corrigendum to …* → rejected with reason, never stored as evidence.
+The unit-level acceptance test (`TestEndToEndTracking`) additionally walks an *uncertain* article through editor approval → published, and asserts reconciliation reports nothing unexplained at every step.
+
+**Tests:** 137 Python (34 new for discovery: multi-page pagination, over-ceiling window splitting, short-page detection, timeout recovery with exponential backoff, HTTP 429 + `Retry-After`, persistent failure leaves watermark unmoved and the run degraded, self-healing on the next run, interrupted backfill resumes without re-searching completed windows, missing metadata never discards, no-detail record → pending-retry → recovered, retries-exhausted stays visible, illegal/unreasoned transitions rejected, ledger save failure leaves the file intact, duplicates by DOI vs identical-title, *Child-Pugh*, paediatric/notice rejection with reasons, inclusive UTC window boundaries, late-indexed article caught by overlap, previously-missed articles recovered by backfill without touching approved text, Europe-PMC-only discovery, every reconciliation discrepancy type, display-cap explanation, stale-success degradation, end-to-end tracking) + 11 API (monitor is reviewer-only, read-only) + 13 browser checks. Mutation checks: 6/6 deliberate regressions (short page accepted; watermark never advances; failures swallowed; overlap removed; *Child-Pugh* bug reintroduced; unexplained non-display ignored) are caught — two initial tests were too weak and survived mutation, so they were strengthened.
 
 ## 8. Unresolved issues / honest limits
-LIMITS_PLACEHOLDER
+1. **Only 30 days were backfilled (deliberately).** At ~68 candidates/day the archive grows ~3 KB/article, so 120 days would add ~8,000 candidates. Consequently the older articles I cited in the audit (e.g. *"Targeting the Microcirculation in Septic Shock"*, Crit Care Med) are **not yet recovered**. Run `discovery_cli.py backfill --days 120` (or the *Literature backfill* workflow) when you accept the repo-size cost.
+2. **Review workload is a decision for you.** 613 articles are held for an editor's ICU-relevance decision (~20/day at current volume). They are never auto-published or auto-rejected, per the requirement. If that is too many, tighten `relevance.py` thresholds or accept a policy for auto-approval — I did not decide that for you.
+3. **Verification backlog:** 1,055 awaiting (budget 600/run → a few more daily runs; visible on the dashboard).
+4. **Repository growth is unmanaged.** `archive.json` 8.2 MB, `verification.json` 8.9 MB, `discovery.json` 2.6 MB (`.git` 16 MB) after one month of full coverage. A retention/compaction policy is needed before months of operation; not implemented.
+5. **Public feed is capped** at 120/category (198 published articles are archived outside it, with a recorded reason) to keep `articles.json` ≈ 5 MB. Raise `display_per_category` in `data/discovery_config.json` if you prefer a bigger payload.
+6. **Recall is relative, not absolute.** I measured against PubMed/Europe PMC title/abstract wording; there is no clinician-labelled gold standard, and PubMed and Europe PMC are the same underlying records — literature absent from PubMed (Embase, CENTRAL, society sites) is not covered. The relevance classifier is a transparent heuristic, not clinically validated.
+7. **Other sections keep their original capped queries** (Guideline Watch 10, KSA 25, Trials, Preprints, FOAMed, Bottom Line, Trending/Article of the Week allowlist ranking). They now benefit from the hardened HTTP client but were not expanded; they are curated shelves, not the "missing ICU articles" path.
+8. **Not exercised live:** window splitting above the 9,999 ceiling (tested with a patched ceiling only), the workflow changes (`update.yml`, `discovery-backfill.yml`, issue creation and the `discovery-alert` label — falls back to unlabeled), the admin monitor against real GitHub/Supabase, and the Vercel rewrites hiding the new internal files.
+9. **NCBI rate limits:** without `NCBI_API_KEY` (not set here) HTTP 429 occurs under load; it is handled but slows runs. Add the secret.
+10. Not deployed; no PR opened.
