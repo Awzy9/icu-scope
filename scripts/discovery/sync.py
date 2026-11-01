@@ -59,7 +59,9 @@ def sync_statuses(dledger, evidence, displayed_pmids, display_excluded):
         elif state == "verified":
             n += dledger.move(pmid, L.APPROVED, "verified; awaiting publication")
         else:   # unverified / pending_review
-            why = ("editorial review required" + (" (relevance uncertain)" if "relevance_review" in er["flags"] else "")) if state == "pending_review" else \
-                  ("source verification failed - rechecked on schedule" if sv == "failed" else "awaiting source verification")
+            rel = "relevance_review" in er["flags"]
+            why = ("editorial review required" + (" (ICU relevance uncertain)" if rel else "")) if state == "pending_review" else \
+                  ("source verification failed - rechecked on schedule" if sv == "failed" else
+                   "awaiting source verification" + (" and editorial ICU-relevance review (will not publish without a reviewer's approval)" if rel else ""))
             n += dledger.move(pmid, L.AWAITING, why)
     return n

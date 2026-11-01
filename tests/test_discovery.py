@@ -337,9 +337,12 @@ class TestEndToEndTracking(Base):
             shown_lists[sec] = ev.filter_visible(sec, lst)
         out = build_output(ev, shown_lists)
         displayed = drec.displayed_pmids(out); self.assertIn("5001", displayed); self.assertNotIn("5002", displayed)
+        ev.rec_for({"pmid": "5002"})["state"] = "unverified"                                       # not yet verified AND relevance-flagged: reason must say so
+        dsync.sync_statuses(e.ledger, ev, displayed, {})
+        self.assertIn("relevance", e.ledger.get("5002")["status_reason"].lower()); ev.rec_for({"pmid": "5002"})["state"] = "pending_review"
         dsync.sync_statuses(e.ledger, ev, displayed, {})
         self.assertEqual(e.ledger.get("5001")["status"], L.PUBLISHED); self.assertEqual(e.ledger.get("5002")["status"], L.AWAITING)
-        self.assertIn("relevance", e.ledger.get("5002")["status_reason"])
+        self.assertIn("relevance", e.ledger.get("5002")["status_reason"].lower())
         # 5. nothing unexplained
         rep = drec.reconcile(e.ledger, archive, ev, displayed); self.assertEqual(rep["discrepancies"], [], rep["discrepancies"])
         # 6. editor approves the uncertain one -> it appears
