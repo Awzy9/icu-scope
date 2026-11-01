@@ -1,0 +1,5 @@
+{
+  "_notes": "Overrides for scripts/discovery/engine.py DEFAULTS. initial_days: first-ever incremental window. overlap_days: each run re-searches this many days before the watermark. backfill_days: default for `discovery_cli.py backfill`. chunk_days: search window size. display_per_category: public-feed cap per category (overflow stays archived with a recorded reason). max_attempts/retry_hours: retry schedule for failed retrievals. use_europepmc: independent second source.",
+  "overlap_days": 3,
+  "display_per_category": 120
+}

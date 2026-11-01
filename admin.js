@@ -14,8 +14,8 @@
   const el = (tag, text, cls) => { const e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (cls) e.className = cls; return e; };
   const link = (href, text) => { const a = el("a", text); if (/^https:\/\/(pubmed\.ncbi\.nlm\.nih\.gov|doi\.org)\//.test(href || "")) { a.href = href; a.target = "_blank"; a.rel = "noopener"; } return a; };
 
-  async function api(method, body) {
-    const r = await fetch("/api/review", { method, headers: { "Content-Type": "application/json", ...(token() ? { Authorization: `Bearer ${token()}` } : {}) }, body: body ? JSON.stringify(body) : undefined });
+  async function api(method, body, qs) {
+    const r = await fetch("/api/review" + (qs || ""), { method, headers: { "Content-Type": "application/json", ...(token() ? { Authorization: `Bearer ${token()}` } : {}) }, body: body ? JSON.stringify(body) : undefined });
     const j = await r.json().catch(() => ({}));
     if (r.status === 401) { try { sessionStorage.removeItem(KEY); } catch (e) {} show(false); }
     return { ok: r.ok, status: r.status, data: j };
@@ -69,7 +69,37 @@
     return c;
   }
 
+  function table(rows, head) {
+    const t = el("table"); if (head) { const tr = el("tr"); head.forEach((x) => tr.appendChild(el("th", x))); t.appendChild(tr); }
+    rows.forEach((r) => { const tr = el("tr"); r.forEach((x) => tr.appendChild(el("td", String(x)))); t.appendChild(tr); }); return t;
+  }
+
+  async function loadMonitor() {
+    const body = $("monitor-body"); body.replaceChildren();
+    const r = await api("GET", null, "?view=discovery");
+    if (!r.ok) { body.appendChild(el("p", r.data.error || `Error ${r.status}`, "warn")); return; }
+    const st = r.data.status, t = st.totals, ok = st.health === "healthy";
+    const head = el("p"); const pill = el("span", st.health.toUpperCase(), "pill " + (ok ? "ok" : "bad")); head.append(pill, document.createTextNode(`  last successful retrieval: ${st.last_successful_retrieval || "never"} · last run: ${st.last_run || "never"}`));
+    body.appendChild(head);
+    (st.problems || []).forEach((p) => body.appendChild(el("p", "⚠ " + p, "bad")));
+    body.appendChild(table([[t.discovered, t.retrieved, t.awaiting_verification, t.approved, t.published, t.duplicate, t.rejected, t.pending_retry]],
+      ["discovered", "retrieved", "awaiting verification", "approved", "published", "duplicate", "rejected", "pending retry"]));
+    const tr = st.this_run; body.appendChild(el("p", `This run: ${tr.new_discovered} new · ${tr.retrieved} retrieved · ${tr.rejected} rejected · ${tr.duplicates} duplicate · ${tr.relevance_uncertain} sent to relevance review · strategies ok ${tr.strategies_ok}, failed ${tr.strategies_failed.length}`, "muted"));
+    const d1 = el("details"); d1.appendChild(el("summary", `Failed API requests (${(st.failed_requests || []).length})`));
+    (st.failed_requests || []).forEach((f) => d1.appendChild(el("div", `${f.at} · ${f.strategy} [${(f.window || []).join(" → ")}] · ${f.error}`, "bad"))); body.appendChild(d1);
+    const d2 = el("details"); d2.appendChild(el("summary", `Pending retry (${(st.pending_retry || []).length})`));
+    (st.pending_retry || []).forEach((p) => d2.appendChild(el("div", `PMID ${p.pmid} · attempts ${p.attempts} · ${p.last_error || ""} · next ${p.next_retry || "due"}`, "muted"))); body.appendChild(d2);
+    const rc = st.reconciliation; const d3 = el("details"); d3.open = !!(rc && rc.discrepancies); d3.appendChild(el("summary", `Reconciliation: ${rc ? rc.discrepancies : 0} discrepancy(ies) (${rc ? rc.unrecoverable : 0} need an administrator)`));
+    if (rc) { d3.appendChild(table(Object.entries(rc.stages), ["stage", "articles"])); (rc.top || []).forEach((d) => d3.appendChild(el("div", `${d.type} · PMID ${d.pmid} · ${d.detail} → ${d.action}`, d.recoverable ? "warn" : "bad"))); }
+    body.appendChild(d3);
+    const d4 = el("details"); d4.appendChild(el("summary", "Rejections by reason"));
+    d4.appendChild(table(Object.entries(st.rejection_reasons || {}), ["reason", "count"])); body.appendChild(d4);
+    const d5 = el("details"); d5.appendChild(el("summary", "Discovery by specialty"));
+    d5.appendChild(table(Object.values(st.specialties).map((s) => [s.label, s.total_discovered, s.new_this_run, s.relevant_or_review, s.published]), ["specialty", "discovered (all time)", "new this run", "relevant/under review", "published"])); body.appendChild(d5);
+  }
+
   async function load() {
+    loadMonitor();
     const r = await api("GET");
     if (!r.ok) { if (r.status !== 401) { $("count").textContent = r.data.error || `Error ${r.status}`; } return; }
     show(true); $("who").textContent = `Signed in as ${r.data.reviewer}`;

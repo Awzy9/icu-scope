@@ -149,7 +149,15 @@ module.exports = async function handler(req, res) {
     }
     const a = await authenticate(req, c);
     if (a.status !== 200) return send(a.status, { ok: false, error: a.error });
-    if (req.method === "GET") return send(200, { ok: true, reviewer: a.user.email, items: await loadQueue(c) });
+    if (req.method === "GET") {
+      const view = new URL(req.url || "/", "http://localhost").searchParams.get("view");
+      if (view === "discovery") {           // read-only literature-discovery monitor (data/discovery_status.json)
+        const r = await gh(c, "data/discovery_status.json", { raw: true });
+        if (!r.ok) return send(r.status === 404 ? 404 : 502, { ok: false, error: r.status === 404 ? "No discovery status has been generated yet" : "Upstream error" });
+        return send(200, { ok: true, reviewer: a.user.email, status: await r.json() });
+      }
+      return send(200, { ok: true, reviewer: a.user.email, items: await loadQueue(c) });
+    }
     if (body.op !== "decide") return send(400, { ok: false, error: "Unknown operation" });
     const bad = validateDecision(body);
     if (bad) return send(400, { ok: false, error: bad });

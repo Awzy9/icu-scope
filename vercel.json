@@ -74,7 +74,7 @@
   "ignoreCommand": "python3 scripts/evidence_cli.py check --quiet; [ $? -eq 1 ] && exit 0 || exit 1",
   "rewrites": [
     {
-      "source": "/data/(archive|ai_cache|verification|evidence_alerts|evidence_run|evidence_policy)\\.json",
+      "source": "/data/(archive|ai_cache|verification|evidence_alerts|evidence_run|evidence_policy|discovery|discovery_state|discovery_status|discovery_config|reconciliation)\\.json",
       "destination": "/__not-public"
     },
     {

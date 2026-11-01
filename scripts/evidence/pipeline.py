@@ -208,8 +208,8 @@ class Pipeline:
             rec["source_verification"]["status"] = sv = "not_applicable"
         if sv not in ("verified", "not_applicable", "discrepancy"):
             return
-        if sv == "discrepancy" or self.policy.get("strict_mode") or rec["content_class"] not in AUTO_CLASSES or "not_primary_evidence" in rec["flags"]:
-            L.transition(rec, "pending_review", SYSTEM, "editorial approval required (" + ("discrepancy" if sv == "discrepancy" else "policy") + ")")
+        if sv == "discrepancy" or self.policy.get("strict_mode") or rec["content_class"] not in AUTO_CLASSES or "not_primary_evidence" in rec["flags"] or "relevance_review" in rec["flags"]:
+            L.transition(rec, "pending_review", SYSTEM, "editorial approval required (" + ("ICU relevance uncertain" if "relevance_review" in rec["flags"] else "discrepancy" if sv == "discrepancy" else "policy") + ")")
             self.stats["pending_review"] += 1
             return
         L.transition(rec, "verified", SYSTEM, "automated multi-source metadata verification passed")

@@ -37,6 +37,7 @@ def apply_decision(pipe, d, archive_lookup=None):
         if rec["state"] in ("verified", "updated"):
             L.transition(rec, "published", actor, note)
         L.unflag(rec, "reassess_after_correction", actor)
+        L.unflag(rec, "relevance_review", actor)          # editor confirmed ICU relevance
         art = (archive_lookup or (lambda r: None))(rec)
         if art:
             pipe.snapshot(rec, art)

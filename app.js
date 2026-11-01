@@ -143,6 +143,7 @@
     "trauma-surgical": "🚑",
     "procedures-pocus": "🩺",
     pharmacology: "💊",
+    "general-critical-care": "🏥",
   };
 
   const CATEGORY_COLORS = {
@@ -157,6 +158,7 @@
     "trauma-surgical": "#f08c00",
     "procedures-pocus": "#1098ad",
     pharmacology: "#9c36b5",
+    "general-critical-care": "#495057",
   };
 
   // Plain-keyword approximation of the MeSH queries in fetch_articles.py's
@@ -175,6 +177,7 @@
     "trauma-surgical": ["trauma", "postoperative care", "surgical critical care", "polytrauma", "damage control"],
     "procedures-pocus": ["point-of-care ultrasound", "pocus", "ultrasonography", "intubation", "tracheostomy", "central venous", "chest tube", "bronchoscopy"],
     pharmacology: ["pharmacotherapy", "pharmacokinetics", "analgosedation", "drug dosing", "therapeutic drug monitoring"],
+    "general-critical-care": ["critically ill", "intensive care", "critical care", "icu", "obstetric critical", "maternal"],
   };
 
   const ORGAN_LABELS = {
@@ -189,6 +192,7 @@
     "trauma-surgical": "🚑 Trauma & Surgical",
     "procedures-pocus": "🩺 Procedures & POCUS",
     pharmacology: "💊 Pharmacology",
+    "general-critical-care": "🏥 General Critical Care",
   };
 
   // Curated once, not part of the daily fetch pipeline. Each links to a

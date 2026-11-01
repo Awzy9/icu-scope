@@ -17,9 +17,12 @@ from datetime import datetime, timedelta, timezone
 sys.path.insert(0, os.path.dirname(__file__))
 from evidence import publish as ev_publish, http as ev_http  # noqa: E402
 from evidence.pipeline import Pipeline as EvidencePipeline  # noqa: E402
+from discovery import engine as disc_engine, ledger as disc_ledger, reconcile as disc_reconcile, status as disc_status, sync as disc_sync, relevance as disc_relevance  # noqa: E402
 
 # Clinical-evidence safety gate (see EVIDENCE_SAFETY.md). Set in main().
 EVIDENCE = None
+PRUNE_HOOK = None
+DISCOVERY = None
 RUN_STARTED = time.time()
 
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
@@ -257,6 +260,14 @@ CATEGORIES = [
         "query": f'{ICU_CONTEXT} AND ("point-of-care ultrasound" OR POCUS OR "critical care ultrasonography" OR intubation OR tracheostomy OR "central venous catheterization" OR "arterial catheterization" OR "chest tube" OR thoracostomy OR bronchoscopy)',
     },
     {
+        "id": "general-critical-care",
+        "label": "General Critical Care",
+        "abbr": "General",
+        # Display bucket for general ICU / obstetric critical-care literature. Population is driven by scripts/discovery
+        # (multi-strategy, paginated); this query is retained only for the legacy build_category() helper.
+        "query": f'{ICU_CONTEXT}',
+    },
+    {
         "id": "pharmacology",
         "label": "Pharmacology",
         "abbr": "Pharm",
@@ -266,19 +277,9 @@ CATEGORIES = [
 
 
 def _get(url, params):
-    qs = urllib.parse.urlencode(params)
-    full_url = f"{url}?{qs}"
-    req = urllib.request.Request(full_url, headers={"User-Agent": f"{TOOL} (contact: {CONTACT_EMAIL})"})
-    for attempt in range(3):
-        try:
-            with urllib.request.urlopen(req, timeout=30) as resp:
-                return resp.read()
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < 2:
-                time.sleep(2 * (attempt + 1))
-                continue
-            raise
-    raise RuntimeError(f"Failed to fetch {full_url}")
+    """HTTP GET with per-host pacing, exponential backoff and Retry-After handling for 429/5xx/timeouts (evidence.http).
+    Previously only HTTP 429 was retried, so a single transient 500 silently emptied a whole category for the day."""
+    return ev_http.request(url, params, retries=4, base_delay=2.0)
 
 
 def esearch(query, reldate, retmax):
@@ -1566,8 +1567,8 @@ PEDIATRIC_TITLE_KEYWORDS = [
 
 
 def is_pediatric(article):
-    title = (article.get("title") or "").lower()
-    return any(kw in title for kw in PEDIATRIC_TITLE_KEYWORDS)
+    # Word-boundary matching: the old substring test ("child") deleted adult hepatology papers about the "Child-Pugh" score.
+    return bool(disc_relevance.PEDS_TITLE.search(article.get("title") or ""))
 
 
 def article_identity(article):
@@ -1611,8 +1612,69 @@ def merge_into_bucket(bucket, fresh_articles, id_fn):
         # parked for editorial review and the approved version is retained.
         bucket[id_fn(a)] = EVIDENCE.guard_update(old, a) if (EVIDENCE and old) else a
     for key in [k for k, a in bucket.items() if is_pediatric(a)]:
+        if PRUNE_HOOK:
+            PRUNE_HOOK(bucket[key], "paediatric/neonatal population (out of scope per editorial policy)")   # recorded, never silent
         del bucket[key]
     return sorted(bucket.values(), key=lambda a: parsed_pubdate_for_sort(a.get("pubdate", "")), reverse=True)
+
+
+DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data")
+
+
+def discovery_article_builder(pmid, summary, detail):
+    """Build the standard article dict from esummary + efetch. Tolerates missing fields: a gap here must never lose the article."""
+    abstracts = {pmid: detail.get("abstract", "")}
+    if summary:
+        a = article_from_summary(pmid, summary, abstracts)
+        if not a["title"] and detail.get("title"):
+            a["title"] = detail["title"]
+        if not a["doi"] and detail.get("doi"):
+            a["doi"] = detail["doi"]
+    else:   # esummary unavailable: build from the efetch record
+        journal = detail.get("journal", "")
+        a = {"pmid": pmid, "title": re.sub(r"\s+", " ", detail.get("title", "")).strip(), "journal": journal, "pubdate": detail.get("pubdate", ""),
+             "authors": detail.get("authors", []), "doi": detail.get("doi") or None, "abstract": detail.get("abstract", ""), "citation_count": 0,
+             "is_top_journal": is_top_journal(journal), "study_type": normalize_pub_type(detail.get("pubtypes", [])), "volume": "", "issue": "", "pages": "",
+             "is_open_access": False, "pmc_url": None, "url": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}/"}
+    a["epub_date"] = detail.get("epub_date")
+    hist = detail.get("history") or {}
+    a["indexed_date"] = hist.get("entrez") or hist.get("pubmed")
+    return a
+
+
+def duplicate_check(article):
+    """Auto-duplicate only on a shared DOI/identifier with a DIFFERENT PMID (title-only similarity is never grounds to discard)."""
+    for cid in EVIDENCE.ledger.find(article):
+        rec = EVIDENCE.ledger.records[cid]
+        if rec["pmid"] and rec["pmid"] != str(article.get("pmid")):
+            return rec["pmid"], "shares the same DOI/identifier"
+    return None
+
+
+def finalize_discovery(output, archive, written):
+    """After the publication decision: derive every article's status from verifiable facts, reconcile stages, write the monitor."""
+    displayed = disc_reconcile.displayed_pmids(output) if written else set()
+    if written:
+        n = disc_sync.sync_statuses(DISCOVERY.ledger, EVIDENCE, displayed, DISPLAY_EXCLUDED)
+        print(f"  discovery status sync: {n} transition(s)")
+    else:
+        DISCOVERY.run["degraded"] = True
+        DISCOVERY.run["failed_requests"].append({"strategy": "publication-gate", "window": [], "error": "safety gate blocked publication", "at": ""})
+    shown = disc_reconcile.displayed_pmids(json.load(open(os.path.join(DATA_DIR, "articles.json"), encoding="utf-8")))
+    report = disc_reconcile.reconcile(DISCOVERY.ledger, archive, EVIDENCE, shown, DISCOVERY.cfg["max_attempts"])
+    DISCOVERY.finish()
+    st = disc_status.build_status(DISCOVERY, report, os.path.join(DATA_DIR, "discovery_status.json"))
+    with open(os.path.join(DATA_DIR, "reconciliation.json"), "w", encoding="utf-8") as f:
+        json.dump(report, f, indent=1, ensure_ascii=False)
+    issue = os.environ.get("DISCOVERY_ISSUE_FILE")
+    if issue and (st["health"] != "healthy" or report["discrepancies"]):
+        with open(issue, "w", encoding="utf-8") as f:
+            f.write(f"# ICU Scope literature discovery: {st['health'].upper()}\n\n" + "\n".join(f"- {p}" for p in st["problems"]) + "\n\n" + disc_reconcile.report_markdown(report))
+    print(f"  discovery health: {st['health']} | discovered {st['totals']['discovered']} | published {st['totals']['published']} | "
+          f"pending retry {st['totals']['pending_retry']} | discrepancies {len(report['discrepancies'])}")
+
+
+DISPLAY_EXCLUDED = {}
 
 
 def main():
@@ -1625,14 +1687,38 @@ def main():
     # First run after the safety system is introduced: grandfather what is already published.
     first_run = not EVIDENCE.ledger.records
 
+    # ---- Literature discovery (replaces the former single capped query per category) ----
+    global DISCOVERY, PRUNE_HOOK
+    DISCOVERY = disc_engine.Engine(DATA_DIR)
+    DISCOVERY.dup_check = duplicate_check
+
+    def _prune(article, why):
+        pm = str(article.get("pmid") or "")
+        if pm:
+            rec, _ = DISCOVERY.ledger.discover(pm, "archive-prune", "general-critical-care", "archive")
+            rec["title"] = article.get("title", "")
+            if rec["status"] in ("discovered", "retrieved", "awaiting_verification", "published", "approved"):
+                try:
+                    if rec["status"] == "discovered":
+                        DISCOVERY.ledger.move(pm, "retrieved", "from archive")
+                    DISCOVERY.ledger.move(pm, "rejected", why)
+                except Exception:
+                    pass
+    PRUNE_HOOK = _prune
+    print("Discovering literature (multi-strategy, paginated, checkpointed)...")
+    DISCOVERY.run_incremental()
+    DISCOVERY.run_europepmc()
+    DISCOVERY.retrieve(discovery_article_builder)
+    fresh_by_cat = {}
+    for pmid, (art, cats, verdict) in DISCOVERY.payloads.items():
+        for c in cats:
+            fresh_by_cat.setdefault(c, []).append(dict(art))
+    print(f"  discovery: {DISCOVERY.run['new_discovered']} new, {DISCOVERY.run['retrieved']} retrieved, {DISCOVERY.run['rejected']} rejected, "
+          f"{DISCOVERY.run['uncertain']} uncertain, {len(DISCOVERY.run['failed_requests'])} failed request(s)")
+
     categories_out = []
     for cat in CATEGORIES:
-        print(f"Fetching {cat['label']}...")
-        try:
-            fresh = build_category(cat)
-        except Exception as e:
-            print(f"  warning: {cat['label']} failed: {e}")
-            fresh = []
+        fresh = fresh_by_cat.get(cat["id"], [])
         bucket = archive["categories"].setdefault(cat["id"], {})
         merged = merge_into_bucket(bucket, fresh, lambda a: a["pmid"])
         categories_out.append(
@@ -1717,6 +1803,11 @@ def main():
     ev_sections.update({"trending": trending_articles, "foamed": foamed_articles, "bottom_line": bottom_line_articles,
                         "guidelines": guideline_articles, "ksa": ksa_articles, "preprints": preprint_articles, "trials": trial_articles})
     EVIDENCE.ingest(ev_sections, legacy=first_run)
+    for _pm, _r in DISCOVERY.ledger.articles.items():          # uncertain ICU relevance -> editorial review, never auto-rejected, never auto-published
+        if _r.get("review") == "relevance_uncertain":
+            _er = EVIDENCE.rec_for({"pmid": _pm})
+            if _er and _er["state"] in ("unverified", "pending_review") and "relevance_review" not in _er["flags"]:
+                EVIDENCE.ledger.flag(_er, "relevance_review", "system:discovery")
     EVIDENCE.verify_pending()
     for c in categories_out:
         c["articles"] = EVIDENCE.filter_visible(f"categories/{c['id']}", c["articles"])
@@ -1727,6 +1818,16 @@ def main():
     ksa_articles = EVIDENCE.filter_visible("ksa", ksa_articles)
     preprint_articles = EVIDENCE.filter_visible("preprints", preprint_articles)
     trial_articles = EVIDENCE.filter_visible("trials", trial_articles)
+    # Bounded public feed: best-ranked per category; the rest stay in the archive with an explicit recorded reason.
+    cap = int(DISCOVERY.cfg.get("display_per_category", 120))
+    kept_pmids, excl = set(), {}
+    for c in categories_out:
+        c["articles"], dropped = disc_sync.apply_display_policy(c["articles"], cap)
+        kept_pmids.update(str(a.get("pmid")) for a in c["articles"])
+        for a, why in dropped:
+            excl[str(a.get("pmid"))] = why
+    DISPLAY_EXCLUDED.update({k: v for k, v in excl.items() if k not in kept_pmids})
+    ev_sections.update({f"categories/{c['id']}": c["articles"] for c in categories_out})
     _all_for_design = [a for lst in ev_sections.values() for a in lst]
     EVIDENCE.harmonize_study_type(_all_for_design, normalize_pub_type)
     print(f"  evidence gate: {dict(EVIDENCE.stats)}")
@@ -1880,6 +1981,10 @@ def main():
     # deployed articles.json untouched (it is only replaced atomically after passing).
     EVIDENCE.persist()
     written, findings = ev_publish.publish_if_safe(output, EVIDENCE.ledger, out_path)
+    try:
+        finalize_discovery(output, archive, written)
+    except Exception as e:      # the monitor must never mask the primary result, but its failure is loud
+        print(f"  ERROR: discovery finalization failed: {type(e).__name__}: {e}", file=sys.stderr)
     if not written:
         for f in [f for f in findings if f["severity"] == "critical"][:25]:
             print(f"  CRITICAL {f['code']}: {f['message']} ({f['ref']})")

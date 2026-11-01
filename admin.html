@@ -17,7 +17,7 @@ h1{font-size:24px}h2{font-size:17px;margin:0 0 4px}a{color:var(--accent)}.muted{
 input,select,textarea,button{font:inherit;padding:7px 9px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text)}
 button{cursor:pointer;background:var(--accent);color:#fff;border:0;font-weight:600}textarea{width:100%;box-sizing:border-box}
 .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:8px}
-details{margin-top:6px}pre{white-space:pre-wrap;font-size:12.5px}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{border-bottom:1px solid var(--border);padding:3px 6px;text-align:left}.pill{display:inline-block;padding:1px 10px;border-radius:999px;font-weight:700;font-size:12px;border:1px solid}details{margin-top:6px}pre{white-space:pre-wrap;font-size:12.5px}
   </style>
 </head>
 <body>
@@ -36,6 +36,7 @@ details{margin-top:6px}pre{white-space:pre-wrap;font-size:12.5px}
   </div>
   <div id="app" hidden>
     <p class="muted"><span id="who"></span> · <button id="signout" type="button">Sign out</button> · <button id="reload" type="button">Reload queue</button></p>
+    <section id="monitor" class="card" aria-live="polite"><h2>Literature discovery monitor</h2><div id="monitor-body" class="muted">Loading…</div></section>
     <p id="count" class="muted" role="status"></p>
     <div id="queue"></div>
   </div>

@@ -24,12 +24,12 @@ global.fetch = async (url, opts = {}) => {
   if (url.endsWith("/auth/v1/user")) { const t = (opts.headers.Authorization || "").replace("Bearer ", ""); return users[t] ? j(200, users[t]) : j(401, {}); }
   if (url.includes("/auth/v1/token")) { const b = JSON.parse(opts.body); return b.password === "good" ? j(200, { access_token: b.email.startsWith("out") ? "tok-outsider" : "tok-reviewer", expires_in: 3600 }) : j(400, {}); }
   if (url.includes("api.github.com") && opts.method === "PUT") { puts.push({ url, body: JSON.parse(opts.body), auth: opts.headers.Authorization }); return j(201, {}); }
-  if (url.includes("api.github.com")) { gets.push(url); return url.includes("verification.json") ? j(200, ledger) : j(200, {}); }
+  if (url.includes("api.github.com")) { gets.push(url); return url.includes("verification.json") ? j(200, ledger) : url.includes("discovery_status.json") ? j(200, { health: "healthy", problems: [] }) : j(200, {}); }
   throw new Error("unexpected fetch " + url);
 };
-const call = async (method, headers = {}, body) => {
+const call = async (method, headers = {}, body, qs = "") => {
   let out; const res = { headers: {}, setHeader() {}, status(c) { this.code = c; return this; }, json(o) { out = o; return this; } };
-  await handler({ method, headers: { "x-forwarded-for": "t" + Math.random(), ...headers }, body }, res);
+  await handler({ method, url: "/api/review" + qs, headers: { "x-forwarded-for": "t" + Math.random(), ...headers }, body }, res);
   return { code: res.code, body: out };
 };
 const auth = (t) => ({ authorization: `Bearer ${t}` });
@@ -73,6 +73,12 @@ test("login: wrong password 401; valid non-reviewer gets no token; reviewer gets
   assert.strictEqual(o.code, 403); assert.ok(!o.body.accessToken);
   const r = await call("POST", {}, { op: "login", email: "reviewer@example.com", password: "good" });
   assert.strictEqual(r.code, 200); assert.strictEqual(r.body.accessToken, "tok-reviewer");
+});
+test("discovery monitor is reviewer-only and read-only", async () => {
+  assert.strictEqual((await call("GET", {}, undefined, "?view=discovery")).code, 401);
+  assert.strictEqual((await call("GET", auth("tok-outsider"), undefined, "?view=discovery")).code, 403);
+  const r = await call("GET", auth("tok-reviewer"), undefined, "?view=discovery");
+  assert.strictEqual(r.code, 200); assert.strictEqual(r.body.status.health, "healthy"); assert.ok(!JSON.stringify(r.body).includes("ghp_secret")); assert.strictEqual(puts.length, 0);
 });
 test("unsupported methods and missing configuration fail closed", async () => {
   assert.strictEqual((await call("DELETE", auth("tok-reviewer"))).code, 405);

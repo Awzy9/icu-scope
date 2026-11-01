@@ -207,7 +207,7 @@ class Ledger:
 
 
 def load_policy(data_dir):
-    p = {"strict_mode": False, "max_verify_per_run": 400, "recheck_days_recent": 7, "recheck_days_old": 30, "recent_years": 2,
+    p = {"strict_mode": False, "max_verify_per_run": 600, "recheck_days_recent": 7, "recheck_days_old": 30, "recent_years": 2,
          "surveillance_budget": 250}
     path = os.path.join(data_dir, "evidence_policy.json")
     if os.path.exists(path):

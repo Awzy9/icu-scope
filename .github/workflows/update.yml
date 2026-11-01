@@ -5,6 +5,7 @@ on:
     - cron: "0 3 * * *" # 06:00 AST (KSA, UTC+3) daily
   workflow_dispatch: {}
   push:
+    branches: [main]          # a push to any other branch used to run this job (and reset to main) - restrict it
     paths:
       - ".github/workflows/update.yml"
 
@@ -56,6 +57,7 @@ jobs:
           EMBEDDING_MAX_PER_RUN: "60"
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
           EVIDENCE_ISSUE_FILE: ${{ runner.temp }}/evidence-alert.md
+          DISCOVERY_ISSUE_FILE: ${{ runner.temp }}/discovery-alert.md
         run: |
           set -e
           for attempt in 1 2 3; do
@@ -128,11 +130,24 @@ jobs:
             echo "No new evidence alerts."
           fi
 
+      - name: Report literature-discovery problems (retrieval failures, reconciliation discrepancies)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f="${{ runner.temp }}/discovery-alert.md"
+          if [ -s "$f" ]; then
+            gh issue create --title "ICU Scope literature discovery needs attention $(date -u +%F)" --body-file "$f" --label discovery-alert \
+              || gh issue create --title "ICU Scope literature discovery needs attention $(date -u +%F)" --body-file "$f"
+          else
+            echo "Discovery healthy; nothing to report."
+          fi
+
       - name: Commit and push if changed
         run: |
           git config user.name "Awzy9"
           git config user.email "291288073+Awzy9@users.noreply.github.com"
-          FILES="data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml data/verification.json data/audit_log.jsonl data/evidence_alerts.json data/evidence_run.json"
+          FILES="data/articles.json data/ai_cache.json data/spotlight.json data/archive.json data/embeddings.json data/link_check.json feed.xml data/verification.json data/audit_log.jsonl data/evidence_alerts.json data/evidence_run.json data/discovery.json data/discovery_state.json data/discovery_status.json data/reconciliation.json"
           if git diff --quiet -- $FILES && [ -z "$(git ls-files --others --exclude-standard -- $FILES)" ]; then
             echo "No changes to commit."
           else
@@ -140,3 +155,8 @@ jobs:
             git commit -m "Update ICU literature feed"
             git push origin "HEAD:main"
           fi
+
+      # Deliberately LAST and after the commit: good data is never blocked, but a degraded retrieval turns the run red
+      # (and notifies) instead of being reported as a successful update.
+      - name: Fail the run if literature discovery is degraded
+        run: python scripts/discovery_cli.py status --fail-on-degraded
