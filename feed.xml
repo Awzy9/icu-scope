@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sun, 01 Nov 2026 09:53:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 10:16:27 +0000</lastBuildDate>
     <item>
       <title>Serious Adverse Events in Adult ICU Patients: A Substudy of the PATIENCE Cohort.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42963077/</link>
@@ -258,13 +258,6 @@
       <description>Delirium is a common and serious postoperative complication in intensive care units, associated with increased morbidity, mortality and long-term cognitive impairment, and despite the pivotal role of nurses in its assessment and management, variations in prevalence and gaps in intervention-focused nursing research persist, underscoring the need for a bibliometric evaluation of the literature. The aim of the study was to quantitatively analyse and visually map trends, citations, key terms and cou</description>
     </item>
     <item>
-      <title>Global Research Trends in Sleep Quality, Sleep Deprivation and Sleep Promotion Among ICU Patients: A Descriptive and Evaluative Bibliometric Analysis.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42834802/</link>
-      <guid isPermaLink="false">pmid:42834802</guid>
-      <category>This Week</category>
-      <description>Sleep deprivation and poor sleep quality are critical problems among intensive care unit (ICU) patients, with significant implications for recovery, delirium onset and clinical outcomes. Despite growing scientific interest, no bibliometric study has systematically mapped the intellectual structure and thematic evolution of this field. To analyse the bibliometric characteristics and thematic structure of publications on sleep deprivation, sleep promotion and sleep quality in ICU patients indexed </description>
-    </item>
-    <item>
       <title>Incidence of Intensive Care Unit Delirium After Heart Surgery: A Feasibility Study of a Forest Environment Intervention.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42952074/</link>
       <guid isPermaLink="false">pmid:42952074</guid>
@@ -300,18 +293,18 @@
       <description>Nasogastric tube placement is central to enteral nutrition support in neurocritical care patients. However, tube malposition, particularly accidental placement into the airway, can lead to fatal complications. To assess the accuracy of a combined gastric tube tip manometry and auscultation approach for confirming nasogastric tube placement in neurocritical care patients with artificial airways. This prospective study enrolled patients who underwent nasogastric tube insertion in the neurocritical</description>
     </item>
     <item>
-      <title>Inhaled nitric oxide: Expanding indications beyond traditional boundaries.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42909257/</link>
-      <guid isPermaLink="false">pmid:42909257</guid>
-      <category>This Week</category>
-      <description>Inhaled nitric oxide (iNO) is a selective pulmonary vasodilator that improves ventilation-perfusion matching with minimal effect on systemic blood pressure. Although the FDA approval is restricted to neonatal hypoxic respiratory failure associated with pulmonary hypertension, many clinicians now use iNO in adults with conditions where elevated pulmonary vascular resistance, right ventricular dysfunction threaten stability and hypoxic respiratory failure. This review examines both the mechanistic</description>
-    </item>
-    <item>
       <title>Clinical Impact of Haemophagocytic Lymphohistiocytosis Among Patients With HIV/AIDS and Disseminated Histoplasmosis in a Hyperendemic Region of Northeastern Brazil.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42953952/</link>
       <guid isPermaLink="false">pmid:42953952</guid>
       <category>This Week</category>
       <description>Haemophagocytic lymphohistiocytosis (HLH) is a life-threatening hyperinflammatory syndrome that may occur in people living with HIV/AIDS (PLWHA), often triggered by opportunistic infections such as disseminated histoplasmosis (DH). The substantial overlap in clinical and laboratory features between HLH and DH complicates timely diagnosis. To describe HLH among PLWHA with DH and compare clinical, laboratory and outcome characteristics between patients with and without HLH. A retrospective observa</description>
+    </item>
+    <item>
+      <title>Extensive Stray-Dog Mauling as Major Contaminated Crush Trauma Causing Severe Rhabdomyolysis, Acute Kidney Injury, and Overt Disseminated Intravascular Coagulation: Recovery Without Renal Replacement Therapy.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42967049/</link>
+      <guid isPermaLink="false">pmid:42967049</guid>
+      <category>This Week</category>
+      <description>An adolescent male developed severe rhabdomyolysis, acute kidney injury, overt disseminated intravascular coagulation, and respiratory fluid overload after extensive stray-dog mauling. The course reflected overlapping traumatic, inflammatory, and infectious mechanisms. He recovered without renal replacement therapy through source control, individualized antimicrobials, conservative renal support, and timely transition to de-resuscitation.</description>
     </item>
     <item>
       <title>Clinical Phenotypes, Machine-Learning Risk Stratification and Treatment Outcomes of Constipation in Stroke Patients Receiving Enteral Nutrition: A Retrospective Study.</title>
@@ -424,6 +417,13 @@
       <guid isPermaLink="false">pmid:42885876</guid>
       <category>This Week</category>
       <description>Intensive care units (ICUs) are high-risk environments where nurses administer the majority of high-alert medications, making them the final checkpoint in the medication-use process. However, evidence on nurse-led interventions specifically targeting high-alert medication errors has not been systematically synthesized across all ICU populations. This systematic review evaluated the effectiveness of nurse-led interventions in reducing high-alert medication errors in neonatal, paediatric and adult</description>
+    </item>
+    <item>
+      <title>Nursing Mechanisms of Intravenous Medication Loss in Adult Intensive Care: A Mixed-Methods Systematic Review.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42885869/</link>
+      <guid isPermaLink="false">pmid:42885869</guid>
+      <category>This Week</category>
+      <description>Adult ICU medication loss is reported using non-equivalent forms and denominators, limiting interpretation and intervention design. To examine loss measurement, nursing mechanisms, intervention evidence and balancing outcomes. Convergent segregated mixed-methods systematic review. Three databases were searched to 1 July 2026, with citation searching, metadata checks and an uncapped rerun of two capped PubMed arms. Quantitative results remained in native units; qualitative findings were synthesis</description>
     </item>
   </channel>
 </rss>

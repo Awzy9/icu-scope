@@ -18,6 +18,7 @@
   "doi:10.1002/ccr3.73733": "ev_43c8588e8a02",
   "doi:10.1002/ccr3.73787": "ev_3bde4b839504",
   "doi:10.1002/ccr3.73812": "ev_e6dd20e36d69",
+  "doi:10.1002/ccr3.73822": "ev_cb95b1a62439",
   "doi:10.1002/clc.70488": "ev_d99a90735060",
   "doi:10.1002/clc.70494": "ev_dafbb2c31c76",
   "doi:10.1002/epd2.70437": "ev_2bfdccd78951",
@@ -54,6 +55,7 @@
   "doi:10.1002/nop2.70914": "ev_9ca5d1fbf8dc",
   "doi:10.1002/nop2.70948": "ev_e34a01dfe519",
   "doi:10.1002/nop2.70950": "ev_f92331a09019",
+  "doi:10.1002/nop2.71009": "ev_5ac4f430b7a5",
   "doi:10.1002/phar.70188": "ev_c106d614d0e3",
   "doi:10.1002/phar.70210": "ev_f605919c750d",
   "doi:10.1002/phar.70212": "ev_b6c0f8cef553",
@@ -154,6 +156,7 @@
   "doi:10.1007/s10157-026-02953-3": "ev_d5465a95c5d4",
   "doi:10.1007/s10238-026-02262-9": "ev_38413ea7670f",
   "doi:10.1007/s10354-026-01198-9": "ev_089ee60b5c80",
+  "doi:10.1007/s10488-026-01530-w": "ev_dd9d9b64f41d",
   "doi:10.1007/s10803-026-07538-3": "ev_039338790ff2",
   "doi:10.1007/s10877-026-01494-0": "ev_5cc164d9e9ab",
   "doi:10.1007/s10877-026-01507-y": "ev_47d009c3c2c0",
@@ -382,6 +385,7 @@
   "doi:10.1016/j.curtheres.2026.100847": "ev_fbb0bc764563",
   "doi:10.1016/j.cyto.2026.157220": "ev_ff7ccdd7faec",
   "doi:10.1016/j.diagmicrobio.2026.117711": "ev_c0cecc97959c",
+  "doi:10.1016/j.diagmicrobio.2026.117717": "ev_b5953a8bbcf7",
   "doi:10.1016/j.dld.2026.09.008": "ev_dfb77716a24e",
   "doi:10.1016/j.drugalcdep.2026.113390": "ev_1a7ab3a5f641",
   "doi:10.1016/j.ejim.2026.107091": "ev_1fb7f3bdfaef",
@@ -451,6 +455,7 @@
   "doi:10.1016/j.ijid.2026.109182": "ev_28ab36b9845a",
   "doi:10.1016/j.ijid.2026.109202": "ev_66af3fdb68d3",
   "doi:10.1016/j.ijid.2026.109206": "ev_60938d33becf",
+  "doi:10.1016/j.ijid.2026.109221": "ev_2f3c4e776916",
   "doi:10.1016/j.ijmedinf.2026.106668": "ev_b1713c5d9e77",
   "doi:10.1016/j.ijmedinf.2026.106759": "ev_8c9ee0e28e34",
   "doi:10.1016/j.ijmmb.2026.101308": "ev_6690d0bd0015",
@@ -701,6 +706,7 @@
   "doi:10.1080/20008066.2026.2692771": "ev_1b741a14fa14",
   "doi:10.1080/20008066.2026.2732465": "ev_ffe97c549a77",
   "doi:10.1080/20523211.2026.2728836": "ev_ccad1d42dc3b",
+  "doi:10.1080/21505594.2026.2730393": "ev_f75bac87a578",
   "doi:10.1080/21646821.2026.2699026": "ev_965bcd918f45",
   "doi:10.1093/ajhp/zxag257": "ev_d2646e50de72",
   "doi:10.1093/ajhp/zxag326": "ev_0625bc0f3aaf",
@@ -780,6 +786,7 @@
   "doi:10.1093/intqhc/mzag157": "ev_3dfbc8c4a9e4",
   "doi:10.1093/jac/dkag345": "ev_ff89c2e12962",
   "doi:10.1093/jacamr/dlag224": "ev_d576645b0fc8",
+  "doi:10.1093/jacamr/dlag226": "ev_7a56050a9648",
   "doi:10.1093/jacamr/dlag236": "ev_df6ce7ff0ba7",
   "doi:10.1093/jalm/jfag159": "ev_efbda651c6bd",
   "doi:10.1093/jamia/ocag144": "ev_5292bbba3681",
@@ -1107,6 +1114,7 @@
   "doi:10.1155/ccrp/7536067": "ev_006d51d6cc5a",
   "doi:10.1155/crcc/3970190": "ev_ac1cebbb9119",
   "doi:10.1155/crcc/6007143": "ev_ae5b14f7df57",
+  "doi:10.1155/crcc/6129145": "ev_0bad50293007",
   "doi:10.1155/crcc/6794847": "ev_1b6bef9522fc",
   "doi:10.1155/crcc/9969987": "ev_63f81d448910",
   "doi:10.1155/crdi/3791851": "ev_409edeeb4b96",
@@ -1266,6 +1274,7 @@
   "doi:10.1186/s12890-026-04537-z": "ev_0ee57e07f6cb",
   "doi:10.1186/s12890-026-04548-w": "ev_865351f3128a",
   "doi:10.1186/s12890-026-04551-1": "ev_15c34e84a89c",
+  "doi:10.1186/s12890-026-04576-6": "ev_204aa6bd8c3b",
   "doi:10.1186/s12890-026-04704-2": "ev_2a29267acf9c",
   "doi:10.1186/s12890-026-04725-x": "ev_aec22637d41f",
   "doi:10.1186/s12893-026-04047-z": "ev_1c4577627475",
@@ -1505,6 +1514,7 @@
   "doi:10.2147/dddt.s630414": "ev_bb314b76f313",
   "doi:10.2147/dddt.s642220": "ev_1432305517db",
   "doi:10.2147/dddt.s644446": "ev_026f36e35cb3",
+  "doi:10.2147/dddt.s644667": "ev_6a6e3fc22bab",
   "doi:10.2147/dddt.s645493": "ev_3a209bed3ede",
   "doi:10.2147/dddt.s655548": "ev_9e4e1ef4a5c1",
   "doi:10.2147/idr.s610414": "ev_e448e9e5171c",
@@ -1921,12 +1931,14 @@
   "doi:10.3949/ccjm.93b.10026": "ev_a69596b730a8",
   "doi:10.4037/ajcc2026126": "ev_a952d955cec3",
   "doi:10.4037/ajcc2026201": "ev_2a58b2199b17",
+  "doi:10.4037/ajcc2026253": "ev_76b6a22b6be7",
   "doi:10.4037/ajcc2026371": "ev_3741c3f26b7e",
   "doi:10.4037/ajcc2026374": "ev_72ae2541f302",
   "doi:10.4037/ajcc2026387": "ev_cc5e913d8225",
   "doi:10.4037/ajcc2026429": "ev_3168cd42467b",
   "doi:10.4037/ajcc2026444": "ev_80721d6587f3",
   "doi:10.4037/ajcc2026776": "ev_797be5d3f1d5",
+  "doi:10.4038/cmj.v70i4.10208": "ev_2bfea596623f",
   "doi:10.4081/monaldi.2026.4092": "ev_8bad5f44f255",
   "doi:10.4081/monaldi.2026.4179": "ev_af8c5012f3e8",
   "doi:10.4088/pcc.26f04249": "ev_1a6ce44293c0",
@@ -2122,6 +2134,9 @@
   "doi:10.7759/cureus.117159": "ev_25910ae528fc",
   "doi:10.7759/cureus.117204": "ev_78028e739351",
   "doi:10.7759/cureus.117250": "ev_437933b8d651",
+  "doi:10.7759/cureus.117261": "ev_983930348e3c",
+  "doi:10.7759/cureus.117288": "ev_9bc8686fb10a",
+  "doi:10.7759/cureus.117297": "ev_6dc4e185af53",
   "doi:10.7759/cureus.117548": "ev_3901925c88a7",
   "doi:10.7759/cureus.117752": "ev_3aecab044ed4",
   "doi:10.7759/cureus.118251": "ev_f210480284b7",
@@ -4693,9 +4708,24 @@
   "pmid:42966643": "ev_3741c3f26b7e",
   "pmid:42966645": "ev_3168cd42467b",
   "pmid:42966646": "ev_2a58b2199b17",
+  "pmid:42966647": "ev_76b6a22b6be7",
   "pmid:42966648": "ev_72ae2541f302",
   "pmid:42966650": "ev_a952d955cec3",
   "pmid:42966651": "ev_cc5e913d8225",
+  "pmid:42966832": "ev_dd9d9b64f41d",
+  "pmid:42966843": "ev_204aa6bd8c3b",
+  "pmid:42967019": "ev_983930348e3c",
+  "pmid:42967049": "ev_cb95b1a62439",
+  "pmid:42967102": "ev_0bad50293007",
+  "pmid:42967112": "ev_9bc8686fb10a",
+  "pmid:42967138": "ev_6a6e3fc22bab",
+  "pmid:42967146": "ev_6dc4e185af53",
+  "pmid:42967154": "ev_7a56050a9648",
+  "pmid:42967233": "ev_f75bac87a578",
+  "pmid:42967404": "ev_b5953a8bbcf7",
+  "pmid:42967515": "ev_2f3c4e776916",
+  "pmid:42967869": "ev_5ac4f430b7a5",
+  "pmid:42967895": "ev_2bfea596623f",
   "title:a field guide to evidence based medicine episode 2 chloride continued|2026": "ev_2a5f0a819435",
   "title:a field guide to evidence based medicine podcast episode 1|2026": "ev_88f15ef35732",
   "title:a re examination of the bridge to nowhere|2026": "ev_efc30bcc096d",
@@ -4984,7 +5014,7 @@
       "source_span": "95% CI (2.731-118.425), p = 0.002)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -6362,7 +6392,7 @@
       "source_span": "However, our machine learning-based causal forest algorithm showed substantial heterogeneity of treatment effects heterogeneity of treatment effects (HTEs) (rank-weighted average treatment effect, -8.2 percentage points [95% CI, -9.7 to -6."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -7462,7 +7492,7 @@
     "source_hash": "f5edbb216d6f6c6d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -8841,7 +8871,7 @@
       "source_span": "The median time of invasive mechanical ventilation of successfully weaned patients was significantly shorter in the intervention than in the control group (7 [IQR 4, 10] vs 9 [IQR 6, 20] days;"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -10173,7 +10203,7 @@
     "source_hash": "0c3a7f0d3be9845f",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -10351,7 +10381,7 @@
     "source_hash": "1d4369fe3101b4ef",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -13567,7 +13597,7 @@
     "source_hash": "91ca2c7c01883978",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -14873,7 +14903,7 @@
       "source_span": "RESULTS: A total of 1,380 publications were included in this study."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -15940,7 +15970,7 @@
     "source_hash": "44f2ae36cca74a17",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -16237,7 +16267,7 @@
       "source_span": "CASE REPORT: We present a 31-year-old woman who sustained multiple cutaneous burns following a lightning strike, including a circumferential necklace-pattern burn to the neck, a large midline torso burn, and burns to the right lower extremi"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -16567,7 +16597,7 @@
     "source_hash": "fe028391582e9f32",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -16931,7 +16961,7 @@
     "source_hash": "ad83df570ed1836d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -19286,7 +19316,7 @@
     "source_hash": "27e06e4ca2e54f40",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -22488,7 +22518,7 @@
     "source_hash": "4d5b5d2c9274f30a",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -22733,7 +22763,7 @@
     "source_hash": "b8c95f0f5782c918",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -22922,7 +22952,7 @@
       "source_span": "RESULTS: During the postimplementation period, lower rates of moderate-to-severe AKI (9/99, 9.1% vs 12/103, 11.7%), nephrotoxic drug administration, and hypotensive episodes among patients with AKI were observed compared with the preimpleme"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -23429,7 +23459,7 @@
       "source_span": "18.2%, p = 0.05), although this finding should be interpreted with caution given the retrospective study design and limited sample size."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -23752,7 +23782,7 @@
     "source_hash": "1b92efddee997d66",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -23984,6 +24014,171 @@
    "title": "Prognostic value of early point-of-care blood gas analysis in critically ill non-trauma patients.",
    "trial_registration": [],
    "verification_date": "2026-11-01T07:12:11+00:00",
+   "version": 3
+  },
+  "ev_0bad50293007": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:34+00:00",
+    "hash": "bf3734ed3322a070"
+   },
+   "authors": [
+    "Marchetti MF",
+    "Frau F",
+    "De Candia G",
+    "Cirio EM",
+    "Cadeddu M",
+    "Porcu M",
+    "Montisci R"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_0bad50293007",
+   "doi": "10.1155/crcc/6129145",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Case reports in critical care",
+   "last_attempt": "2026-11-02T10:15:34+00:00",
+   "last_updated": "2026-11-02T10:15:34+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:34+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967102",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:c33f4c168279f2ae",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:34+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967102 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Marchetti MF' vs Crossref 'Marchetti'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "Extracorporeal Cardiopulmonary Resuscitation With Ventricular Unloading in Fulminant Influenza A (H1N1) Perimyocarditis: A Case Report.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:34+00:00",
    "version": 3
   },
   "ev_0baf5e4baafb": {
@@ -24325,7 +24520,7 @@
     "source_hash": "fbc6f965061dffef",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -24972,7 +25167,7 @@
     "source_hash": "60dbe0565757ad06",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -26838,7 +27033,7 @@
     "source_hash": "30b7f82a9e0d44ef",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -26918,7 +27113,7 @@
     "source_hash": "3e679a11f2ceb5a1",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -27741,7 +27936,7 @@
       "source_span": "Eligibility: Healthy people in the Washington DC area, aged 18 to 54 years."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -33987,7 +34182,7 @@
     "source_hash": "fafafc307fa1d3c5",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -36007,7 +36202,7 @@
     "source_hash": "80be05fe38803f1e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -36858,7 +37053,7 @@
       "source_span": "The main questions it aims to answer are as follows: * Detection of an anomaly at ulnar \"TOF\" stimulation in patients without neuromuscular blockade * Absence of adverse events during clinical monitoring of neuromuscular blockade (every 24 "
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -37264,7 +37459,7 @@
     "source_hash": "5ae9a740be1c94a9",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -38687,7 +38882,7 @@
     "source_hash": "27102115c24b7eed",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -39112,7 +39307,7 @@
     "source_hash": "dc1c9f41f22a9f4d",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -42851,7 +43046,7 @@
     "source_hash": "e48843c8fbe35fc7",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -43261,7 +43456,7 @@
     "source_hash": "5019e383c426773d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -43710,7 +43905,7 @@
       "source_span": "Subgroup analysis revealed that the association with reduced mortality extends to patients >70 years old (aOR: 0.94, 95% CI: 0.89-0.99, p=0.02) and those with negative influenza tests (aOR: 0.81, 95% CI: 0.79, 0.84, p<0.0001)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -44092,7 +44287,7 @@
       "source_span": "The incidence rate of primary outcome events was 13.1 per 1000 catheter-days (74 events) in the t-EDTA group vs 19.9 per 1000 catheter-days (126 events) in the control group."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -46548,7 +46743,7 @@
     "source_hash": "2cbc883917bd287f",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -47395,7 +47590,7 @@
       "source_span": "Background: Physiotherapists played central roles in high-risk 'red-zone' care during COVID-19 and reported substantial distress, yet mechanisms linking exposure to burnout remain unclear.Objective: To examine whether the association betwee"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -50386,7 +50581,7 @@
     "source_hash": "fbc6f965061dffef",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -52084,7 +52279,7 @@
     "source_hash": "b29eaebba7b7f294",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -52457,7 +52652,7 @@
     "source_hash": "9a34f4862b965687",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -53305,7 +53500,7 @@
     "source_hash": "f34d7dbcb1871506",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -53577,6 +53772,178 @@
    "title": "Understanding Neurogenic Patient-Ventilator Discordance and its Management.",
    "trial_registration": [],
    "verification_date": "2026-11-01T07:12:34+00:00",
+   "version": 3
+  },
+  "ev_204aa6bd8c3b": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:34+00:00",
+    "hash": "ea2a7b9aea620255"
+   },
+   "authors": [
+    "Miao D",
+    "Ye X",
+    "Wang L",
+    "Bai X",
+    "Wang M",
+    "Hou Y",
+    "Song Z",
+    "Gan J",
+    "Bao G",
+    "Yu J",
+    "Zheng J",
+    "Tian Y"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_204aa6bd8c3b",
+   "doi": "10.1186/s12890-026-04576-6",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "BMC pulmonary medicine",
+   "last_attempt": "2026-11-02T10:15:34+00:00",
+   "last_updated": "2026-11-02T10:15:34+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:34+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42966843",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Aug 18",
+   "pubtypes": [
+    "Journal Article",
+    "Observational Study",
+    "Multicenter Study"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:6294162f5ace94e0",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:34+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42966843 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Miao D' vs Crossref 'Miao'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Observational Study, Multicenter Study",
+   "title": "Seasonal dynamics and prognostic determinants of respiratory failure in critically ill adults: a multicenter retrospective observational study in Northern China.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:34+00:00",
    "version": 3
   },
   "ev_207c5c03a329": {
@@ -53879,7 +54246,7 @@
       "source_span": ""
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -54371,7 +54738,7 @@
       "source_span": "This prospective observational study aims to objectively measure the lead-time (the time from the first KDS alert to sepsis diagnosis) of the NEWS2-based clinical decision support system (KDS) and compare its early warning performance with "
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -55612,7 +55979,7 @@
     "source_hash": "c3602bdc2329942e",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -55750,7 +56117,7 @@
       "source_span": "Significant differences in antibody levels were found across vaccination status, ethnicity, and vaccine type (p < 0.001)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -57387,7 +57754,7 @@
     "source_hash": "cbb32f0e9ae3ba2e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -57842,7 +58209,7 @@
     "source_hash": "96aec16f1022aea6",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -58412,7 +58779,7 @@
     "source_hash": "fa451192a883a797",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -59506,7 +59873,7 @@
     "source_hash": "7089486cb17c2d3d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -59936,7 +60303,7 @@
       "source_span": "Early neurological improvement within 24 h of revascularization was identified as a moderately reliable predictor of good functional outcome."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -62324,7 +62691,7 @@
       "source_span": "Years of experience significantly impacted reported compliance with institutional VB (p = 0.013), adherence to oral care protocols (p = 0.035), and the assessment of sedation depth (p = 0.002)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -63872,7 +64239,7 @@
     "source_hash": "cba54f7381130539",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -69948,7 +70315,7 @@
       "source_span": "95% CI, 1.09 to 1.33)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -70445,6 +70812,168 @@
    "title": "Development and external validation of a nomogram for predicting in-hospital mortality in status epilepticus patients in the intensive care unit: A MIMIC-IV and eICU-CRD study.",
    "trial_registration": [],
    "verification_date": "2026-11-01T07:12:46+00:00",
+   "version": 3
+  },
+  "ev_2bfea596623f": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:35+00:00",
+    "hash": "f9176f4b3faf5178"
+   },
+   "authors": [
+    "Piyarathna CL",
+    "Ratnaweera L",
+    "Tennakoon D"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_2bfea596623f",
+   "doi": "10.4038/cmj.v70i4.10208",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "The Ceylon medical journal",
+   "last_attempt": "2026-11-02T10:15:35+00:00",
+   "last_updated": "2026-11-02T10:15:35+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:35+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967895",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2025 Dec 31",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:d0f9171437766c1b",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:35+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967895 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2025 vs PubMed 2025",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2025 vs Crossref 2025",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Piyarathna CL' vs Crossref 'Piyarathna'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Case Reports",
+   "title": "Acute liver failure triggered by hemolytic crisis in a glucose-6-phosphate dehydrogenase deficient patient with hepatitis A: A case report.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:35+00:00",
    "version": 3
   },
   "ev_2c006dfb91a1": {
@@ -71108,7 +71637,7 @@
     "source_hash": "4052a6617b3165b0",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -72181,7 +72710,7 @@
     "source_hash": "78a8c81cd77cf9a5",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -72645,7 +73174,7 @@
     "source_hash": "fbc6f965061dffef",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -72709,7 +73238,7 @@
     "source_hash": "1a26548d55d1d83c",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -73288,7 +73817,7 @@
       "source_span": "A total of 22 eligible RCTs with 1,396 enrolled patients were incorporated into the meta-analysis."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -74098,7 +74627,7 @@
     "source_hash": "c7b7df901fd9f690",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -75340,6 +75869,176 @@
    "title": "Real-time feedback during bag-valve-mask ventilation for out-of-hospital cardiac arrest: a before-and-after study (VEntilation during Cardiac Arrest Resuscitation Study, VECARS-2).",
    "trial_registration": [],
    "verification_date": "2026-11-01T07:12:49+00:00",
+   "version": 3
+  },
+  "ev_2f3c4e776916": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:35+00:00",
+    "hash": "183ca989700657e6"
+   },
+   "authors": [
+    "Azzahrani MK",
+    "Alghanem RF",
+    "Alomran DA",
+    "Alkawabah GA",
+    "Alobaid NK",
+    "Alalwan B",
+    "Alharbi A",
+    "Abanami R",
+    "Aljohani S",
+    "Bosaeed M",
+    "Baharoon S",
+    "Almohaya A"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_2f3c4e776916",
+   "doi": "10.1016/j.ijid.2026.109221",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "International journal of infectious diseases : IJID : official publication of the International Society for Infectious Diseases",
+   "last_attempt": "2026-11-02T10:15:35+00:00",
+   "last_updated": "2026-11-02T10:15:35+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:35+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967515",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Nov 1",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:42aac19d562f9616",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:35+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967515 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Azzahrani MK' vs Crossref 'Azzahrani'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "Multidrug-Resistant Stenotrophomonas maltophilia Infections in Critically Ill and Immunocompromised Patients: Clinical Characteristics and Therapeutic Outcomes.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:35+00:00",
    "version": 3
   },
   "ev_2f9ccf5d5695": {
@@ -78366,7 +79065,7 @@
     "source_hash": "4f3bd6380f6babd0",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -80202,7 +80901,7 @@
     "source_hash": "93e71fea45296e4f",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -81098,7 +81797,7 @@
       "source_span": "RESULTS: Of 845 patients with microbiologically confirmed infections, 87.7% received appropriate empirical antimicrobial therapy."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -84298,7 +84997,7 @@
     "source_hash": "4f0eddf5900d2228",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -87941,7 +88640,7 @@
       "source_span": "Admission matrix metalloproteinase-3 was validated in 567 critically ill patients (417 sepsis, 150 non-septic controls) across three hospital campuses."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -88834,7 +89533,7 @@
     "source_hash": "9c5690411ec30312",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -90980,7 +91679,7 @@
     "source_hash": "282e266661bab9d5",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -92029,7 +92728,7 @@
     "source_hash": "4b3caf4d2c0d67b4",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -93460,7 +94159,7 @@
     "source_hash": "a517c6345471680d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -94117,7 +94816,7 @@
       "source_span": "METHODS: A systematic literature search identified 45 eligible studies, including randomized trials, retrospective studies, reviews, guidelines, and expert consensus statements."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -94838,7 +95537,7 @@
       "source_span": "Non-inferiority was met if the upper 95% CI limit for the absolute risk difference was less than 7·5 percentage points."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -95075,7 +95774,7 @@
       "source_span": "METHODS: We conducted a multicenter retrospective cohort study of 492 intensive care unit (ICU) patients with candidemia from 16 French ICUs (2015-2023)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -96438,7 +97137,7 @@
       "source_span": "Compared to Class 1, Class 4 showed the highest AKI risk (HR 1.52, 95% CI 1.29-1.79, P < 0.001), followed by Class 5 (HR 1.41, 95% CI 1.20-1.65, P < 0.001)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -96673,7 +97372,7 @@
       "source_span": "MAIN OUTCOMES AND MEASURES: The primary outcome was the number of days alive without coma or delirium during the first 14 days after randomization."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -98072,7 +98771,7 @@
     "source_hash": "02498210102a2213",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -98304,7 +99003,7 @@
     "source_hash": "75302e72a7d09bba",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -99041,7 +99740,7 @@
     "source_hash": "0bacf33b87142206",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -99637,7 +100336,7 @@
       "source_span": "Median intrapulmonary penetration was 0.66 [0.32] for ceftolozane, 0.41 [0.30] for ceftazidime 0.44 [0.05] for tazobactam and 0.44 [0.46] for avibactam."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -102883,7 +103582,7 @@
     "source_hash": "bc9ea391317e97c0",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -103208,7 +103907,7 @@
     "source_hash": "91ae181d9c72b6e6",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -104849,7 +105548,7 @@
     "source_hash": "8d7389c6a475a000",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -106943,7 +107642,7 @@
     "source_hash": "2603fb57f01f4046",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -108136,7 +108835,7 @@
       "source_span": "The median time to undetectable CMV viral load following CMVIG initiation was 28 days."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -108660,7 +109359,7 @@
       "source_span": "The research question was structured according to the COnsensus-based Standards for the selection of health Measurement INstruments guidelines for patient-reported outcome measure (COSMIN-PROM) framework, and the 79 included studies were cr"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -108817,7 +109516,7 @@
     "source_hash": "65cb7f2853c11ab4",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -109406,7 +110105,7 @@
     "source_hash": "c2e0e50e11bbbc49",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -110880,7 +111579,7 @@
     "source_hash": "c800e831f07ea970",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -113179,7 +113878,7 @@
     "source_hash": "fea75f1299a94a8e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -113468,7 +114167,7 @@
       "source_span": "P = 0.65)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -113864,7 +114563,7 @@
     "source_hash": "fb394f89f8e30a4e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -113969,7 +114668,7 @@
       "source_span": "Median time to antibiotic escalation or deescalation was faster in the rapid testing group by 14 hours (95% CI, 6-22) in the as-randomized population."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -114278,7 +114977,7 @@
     "source_hash": "1c2cc1728f099165",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -114757,7 +115456,7 @@
     "source_hash": "541c8af51f4c7fb0",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -116091,7 +116790,7 @@
       "source_span": "p = 0.45)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -117199,7 +117898,7 @@
       "source_span": "The mean EQ-5D-5L utility score at 8 weeks was 0.69 (SD, 0.26) in the intervention group compared with 0.67 (SD, 0.27) in the standard care group (adjusted mean difference, 0.04 [95% CI, -0.001 to 0.09];"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -117549,7 +118248,7 @@
       "source_span": "This study compares the predictive validity of the updated SOFA-2 and the previous SOFA-1 for 30-day mortality over the first week in ICU, overall and in subgroups with distinct age and comorbidity profiles."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -118726,7 +119425,7 @@
       "source_span": "A total of 222 patients were monitored for up to 7 consecutive days, yielding more than 14 million individual measurements."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -118896,7 +119595,7 @@
     "source_hash": "503c86014e6b27ff",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -120330,7 +121029,7 @@
     "source_hash": "cdeadf19ecddbd5e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -121932,7 +122631,7 @@
     "source_hash": "e4b816bdd5cbe93d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -122826,7 +123525,7 @@
       "source_span": "The final framework comprises 29 indicators across four domains: Capacity (staffing, facilities, bed management), Capability (life support, specialized care), Human resources (physician and allied health coverage), and Space and equipment i"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -124452,7 +125151,7 @@
     "source_hash": "77c905f8b9fad449",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -125135,7 +125834,7 @@
       "source_span": "RESULTS: A total of 500 patients were enrolled in 55 ICUs across seven countries;"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -126588,7 +127287,7 @@
     "source_hash": "f51934cd6d94f6bd",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -127065,7 +127764,7 @@
       "source_span": "PATIENTS: Seven hundred eighty-four patients with COVID-19 critical illness in Spring-Summer 2020."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -128849,7 +129548,7 @@
       "source_span": "95%CI 1.03-1.10), and leukocyte count (1.02 per 10,000 cells/µL;"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -129489,7 +130188,7 @@
     "source_hash": "369ce172343e2767",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -132311,7 +133010,7 @@
     "source_hash": "6d02b3c70e7ad3e6",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -132749,7 +133448,7 @@
     "source_hash": "b508386cdd3b16fd",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -134860,7 +135559,7 @@
       "source_span": "The mean time to DRSI onset was 9.2 days."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -137333,7 +138032,7 @@
       "source_span": "They will be followed for 28 days."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -138494,7 +139193,7 @@
     "source_hash": "1b51a48aea27fcbc",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -139624,7 +140323,7 @@
     "source_hash": "3b240c87c33813d7",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -140900,7 +141599,7 @@
     "source_hash": "1c92cd63eedd7248",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -141509,6 +142208,172 @@
    "verification_date": null,
    "version": 2
   },
+  "ev_5ac4f430b7a5": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:35+00:00",
+    "hash": "3ee783c050257e62"
+   },
+   "authors": [
+    "Haroen H",
+    "Freitas LA",
+    "Priambodo AP",
+    "Sugiharto F",
+    "Arovah NI",
+    "Cahyati P",
+    "Harun H",
+    "Lopes DA"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_5ac4f430b7a5",
+   "doi": "10.1002/nop2.71009",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Nursing open",
+   "last_attempt": "2026-11-02T10:15:35+00:00",
+   "last_updated": "2026-11-02T10:15:35+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:35+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967869",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Nov",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:2e04349423e7f814",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:35+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967869 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Haroen H' vs Crossref 'Haroen'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "The Mediating Role of Self-Efficacy in the Relationship Between Knowledge and Palliative Care Practices Among ICU Nurses in Timor-Leste: A Cross-Sectional Study.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:35+00:00",
+   "version": 3
+  },
   "ev_5acb8d7934c4": {
    "ai": {
     "issues": [],
@@ -141517,7 +142382,7 @@
     "source_hash": "7c534b1a93640df3",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -143621,7 +144486,7 @@
     "source_hash": "3ca3e550e44d566b",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -144695,7 +145560,7 @@
     "source_hash": "b134c3e2b323725c",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -146497,7 +147362,7 @@
       "source_span": "P = 0.27)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -146743,7 +147608,7 @@
       "source_span": "This prospective observational study aims to determine whether fecal lactate levels obtained within the first 12-24 hours can predict poor response to resuscitation at 24 hours."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -147900,7 +148765,7 @@
     "source_hash": "871cfc8ad99e49c0",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -148388,7 +149253,7 @@
     "source_hash": "1b375c6f69f5cffc",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -152710,7 +153575,7 @@
     "source_hash": "b0c36e278f235495",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -154503,7 +155368,7 @@
     "source_hash": "2cc2338991eee60d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -155137,7 +156002,7 @@
       "source_span": "8.5% of these patients died of which14.3%were CTAS 1, and 7.6% were CTAS2."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -155467,7 +156332,7 @@
     "source_hash": "5a90457f7388b95b",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -155892,7 +156757,7 @@
     "source_hash": "f26775ad679614e0",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -156610,7 +157475,7 @@
       "source_span": "Non-cardiovascular/non-respiratory outcomes demonstrated the highest efficacy: anxiety (86%), sleep quality (100%), pain (100%), and sedation outcomes (100%)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -156783,7 +157648,7 @@
     "source_hash": "001f878ce79214a6",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -156917,7 +157782,7 @@
       "source_span": ""
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -159612,7 +160477,7 @@
     "source_hash": "f6f13733e92c7573",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -161251,7 +162116,7 @@
       "source_span": "Median intensive care unit length of stay, average time on mechanical, and time to discharge were significantly longer in patients with cardiac surgery-associated acute kidney injury (p < 0.001)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -162147,7 +163012,7 @@
     "source_hash": "829fd0a16ebcd59b",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -164290,7 +165155,7 @@
       "source_span": "Health-related quality of life at 90 days (EQ-5D-5L) was improved in the intervention group (0.312 ± 0.386) compared with the control group (0.208 ± 0.373;"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -166437,7 +167302,7 @@
     "source_hash": "a459369f07496f29",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -167119,6 +167984,214 @@
    "title": "Hypoxemia and pulmonary infiltrates during T-cell-engaging bispecific antibody therapy: A pulmonary and critical care framework.",
    "trial_registration": [],
    "verification_date": "2026-11-01T07:16:01+00:00",
+   "version": 3
+  },
+  "ev_6a6e3fc22bab": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "CONSORT 2025 / RoB 2 (randomised trial)",
+    "items": {
+     "allocation_concealment": {
+      "label": "Allocation concealment",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "blinding": {
+      "label": "Blinding (participants, clinicians, assessors)",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confidence_intervals": {
+      "label": "Confidence intervals reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "effect_sizes": {
+      "label": "Absolute AND relative effects reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "generalisability": {
+      "label": "Limitations and generalisability discussed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "harms": {
+      "label": "Adverse events / harms reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "intervention_comparator": {
+      "label": "Intervention and comparator adequately described",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "itt": {
+      "label": "Intention-to-treat analysis; handling of missing data",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "population": {
+      "label": "Eligibility criteria & enrolled population",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "primary_outcome": {
+      "label": "Primary outcome pre-specified; secondary outcomes identified",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "randomisation": {
+      "label": "Sequence generation / randomisation method",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "registration": {
+      "label": "Trial prospectively registered; identifier matches publication",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "sample_size_power": {
+      "label": "Sample size justification / statistical power",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:35+00:00",
+    "hash": "20dd823f78d928c9"
+   },
+   "authors": [
+    "Li Q",
+    "Hu S",
+    "Fu Y",
+    "Shen L",
+    "Xiong B",
+    "Qi D"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_6a6e3fc22bab",
+   "doi": "10.2147/dddt.s644667",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Drug design, development and therapy",
+   "last_attempt": "2026-11-02T10:15:35+00:00",
+   "last_updated": "2026-11-02T10:15:35+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:35+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967138",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026",
+   "pubtypes": [
+    "Journal Article",
+    "Randomized Controlled Trial",
+    "Case Reports",
+    "Clinical Trial"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:8d447d69aa5e1492",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:35+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967138 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed publication types: Journal Article, Randomized Controlled Trial, Case Reports, Clinical Trial",
+      "name": "study_type_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Li Q' vs Crossref 'Li'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Randomized Controlled Trial, Case Reports, Clinical Trial",
+   "title": "Effect of Preoperative Intranasal Dexmedetomidine on Postoperative Myocardial Injury in Patients Undergoing Coronary Artery Bypass Grafting.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:35+00:00",
    "version": 3
   },
   "ev_6a75ba310699": {
@@ -168148,7 +169221,7 @@
     "source_hash": "3c2b29560a7e5a45",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -168436,7 +169509,7 @@
     "source_hash": "849f27228e2d5710",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -169853,7 +170926,7 @@
       "source_span": "METHODS: This study included 100 patients admitted to the intensive care unit (ICU) for ≥ 15 days."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -170741,7 +171814,7 @@
     "source_hash": "02eaedeaa1135130",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -170830,7 +171903,7 @@
       "source_span": "The global reduction of plastic consumed (syringes, tubing, solution bags, blister packs) was - 48% (-61 kg), and treatment cost was also reduced by 48% (-1324 €)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -171417,6 +172490,169 @@
    "verification_date": null,
    "version": 2
   },
+  "ev_6dc4e185af53": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": null,
+   "authors": [
+    "Khan H",
+    "Bin Mohamad Sithik MN",
+    "Gurung A",
+    "Ranasinghe Arachchi EL",
+    "Meenagh G"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_6dc4e185af53",
+   "doi": "10.7759/cureus.117297",
+   "editorial_reviewer": null,
+   "flags": [
+    "relevance_review"
+   ],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Cureus",
+   "last_attempt": "2026-11-02T10:15:36+00:00",
+   "last_updated": "2026-11-02T10:15:36+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:36+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967146",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Oct",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:96878a6d6e942124",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:36+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967146 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Khan H' vs Crossref 'Khan'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "pending_review",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Case Reports",
+   "title": "Listeria monocytogenes Sepsis With Meningitis Complicating Biologic Immunosuppression in a Patient With Haemophagocytic Lymphohistiocytosis Secondary to Adult-Onset Still's Disease: A Case Report.",
+   "trial_registration": [],
+   "verification_date": null,
+   "version": 2
+  },
   "ev_6dffed2afbf8": {
    "ai": {
     "issues": [],
@@ -171503,7 +172739,7 @@
     "source_hash": "0d07eeb24db093c2",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -173360,7 +174596,7 @@
     "source_hash": "37c757a2d4bacb66",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -173991,7 +175227,7 @@
     "source_hash": "e1553843e2f52d59",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -174643,7 +175879,7 @@
     "source_hash": "2a171436147f1954",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -177564,7 +178800,7 @@
     "source_hash": "2e2ecd467029d4b5",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -178304,7 +179540,7 @@
     "source_hash": "c788078a72905bd3",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -180926,7 +182162,7 @@
     "source_hash": "1b1dee6dba0bc13d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -182246,7 +183482,7 @@
       "source_span": "We developed machine learning models for 30-day mortality prediction using information recorded during the first 24 hours after ICU admission."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -183894,7 +185130,7 @@
       "source_span": "The primary outcome was 28-day mortality."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -184464,7 +185700,7 @@
     "source_hash": "a7a61fe6f168caa7",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -186807,7 +188043,7 @@
     "source_hash": "f7e4eefd2c230412",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -187966,6 +189202,172 @@
    "verification_date": "2026-10-31T21:36:21+00:00",
    "version": 3
   },
+  "ev_76b6a22b6be7": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:36+00:00",
+    "hash": "92af79d549e991a0"
+   },
+   "authors": [
+    "Cotton SA",
+    "Dahdoul T",
+    "Best NC",
+    "Guo Y",
+    "Lee JA",
+    "Malhotra A",
+    "McGuire WC"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_76b6a22b6be7",
+   "doi": "10.4037/ajcc2026253",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "American journal of critical care : an official publication, American Association of Critical-Care Nurses",
+   "last_attempt": "2026-11-02T10:15:36+00:00",
+   "last_updated": "2026-11-02T10:15:36+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:36+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42966647",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Nov 1",
+   "pubtypes": [
+    "Journal Article",
+    "Observational Study"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:94445fe4e5e01d6c",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:36+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42966647 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Cotton SA' vs Crossref 'Cotton'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Observational Study",
+   "title": "Effects of Skin Pigmentation on Pulse Oximetry: A Pilot Study.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:36+00:00",
+   "version": 3
+  },
   "ev_76b7dfb87cd3": {
    "ai": {
     "issues": [],
@@ -188668,7 +190070,7 @@
       "source_span": "The main questions it aims to answer are * How do healthcare staff work together in everyday ICU settings? * What helps people work together in ICUs? * What challenges do staff face in working together in ICUs? * How have teamwork practices"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -189263,7 +190665,7 @@
       "source_span": ""
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -189963,7 +191365,7 @@
       "source_span": "METHODS: We performed latent class analysis (LCA) in a cohort of 548 ICU patients with pulmonary sepsis to identify inflammatory phenotypes and test the association of these phenotypes with clinical outcomes using validated classifier model"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -191891,7 +193293,7 @@
     "source_hash": "6f5851723f0bc927",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -192213,6 +193615,132 @@
    "trial_registration": [],
    "verification_date": "2026-11-01T07:16:19+00:00",
    "version": 3
+  },
+  "ev_7a56050a9648": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": null,
+   "approved_snapshot": null,
+   "authors": [
+    "Eckmann C",
+    "Akova M",
+    "Antonelli M",
+    "Bassetti M",
+    "Cantón R",
+    "Dryden M",
+    "Falcone M",
+    "Kanj SS",
+    "Kiertiburanakul S",
+    "Gilchrist M",
+    "Montravers P",
+    "Paterson DL",
+    "Senneville E",
+    "Soriano A",
+    "Timsit JF",
+    "Villegas MV",
+    "Viale P"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "review",
+   "content_id": "ev_7a56050a9648",
+   "doi": "10.1093/jacamr/dlag226",
+   "editorial_reviewer": null,
+   "flags": [
+    "relevance_review"
+   ],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "JAC-antimicrobial resistance",
+   "last_attempt": "2026-11-02T10:15:36+00:00",
+   "last_updated": "2026-11-02T10:15:36+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:36+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967154",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Dec",
+   "pubtypes": [
+    "Journal Article",
+    "Review"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:f2579b77eff5506e",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:36+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967154 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Eckmann C' vs Crossref 'Eckmann'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "pending_review",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Review",
+   "title": "Responsible use of new antibiotics for critically ill patients suffering from infections due to carbapenem-resistant organisms-a narrative review for an enablement strategy.",
+   "trial_registration": [],
+   "verification_date": null,
+   "version": 2
   },
   "ev_7a59c53a03fe": {
    "ai": {
@@ -198475,7 +200003,7 @@
     "source_hash": "fcd9ab407ce0742f",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -203156,7 +204684,7 @@
     "source_hash": "07f73ed90ee94b92",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -203231,7 +204759,7 @@
       "source_span": "RESULTS: The prevalence of NTIS was 23.3%."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -204550,7 +206078,7 @@
       "source_span": "In this episode, Scott Weingart introduces the RUSH Exam 2.0, also known as the iRUSH."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -206065,7 +207593,7 @@
       "source_span": "Sedation efficacy was 100% in both groups throughout the study period."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -209607,7 +211135,7 @@
     "source_hash": "f28a083d896792ee",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -210397,7 +211925,7 @@
     "source_hash": "9e4546f8776fa5bb",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -210567,7 +212095,7 @@
       "source_span": "However 20% will develop a severe form, which is known to be associated with the development of local complications, such as pancreatic and peripancreatic necrosis, pseudocysts"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -211376,7 +212904,7 @@
     "source_hash": "6f3826b7e76dab23",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -213366,7 +214894,7 @@
     "source_hash": "09a965eefd94429d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -214756,7 +216284,7 @@
     "source_hash": "f40309db81f541fe",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -215333,7 +216861,7 @@
     "source_hash": "3a7d27691092ee35",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -215732,7 +217260,7 @@
       "source_span": "This Partnered Implementation Initiative (PII) proposes to implement and evaluate Critical Time Intervention (CTI)-an evidence-based, structured, and time-limited case management practice-in 32 GPD case management aftercare sites across the"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -216136,7 +217664,7 @@
     "source_hash": "630707eabba240e8",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -216214,7 +217742,7 @@
     "source_hash": "6323c087c530f6df",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -216462,7 +217990,7 @@
       "source_span": ""
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -217745,7 +219273,7 @@
       "source_span": "The primary endpoint was discordance in target attainment between trough (15-20 mg/L) and AUC0-24/MIC (400-600 mg·h/L)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -220640,7 +222168,7 @@
     "source_hash": "56c9140b6fc38ece",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -222354,7 +223882,7 @@
     "source_hash": "fbc6f965061dffef",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -224380,7 +225908,7 @@
     "source_hash": "299950f11d865525",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -225200,7 +226728,7 @@
       "source_span": "This is a Phase 4, interventional, multi-center pharmacokinetics (PK) study in up to 200 adult patients who are residing in an ICU."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -226137,7 +227665,7 @@
       "source_span": "The SIRI also demonstrated moderate discriminatory ability, with the highest performance observed in patients younger than 50 years (area under the curve [AUC] = 0.731, p = 0.0001)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -226550,7 +228078,7 @@
       "source_span": "Overall, 77% of ETT size selection did not comply with height-based guidelines."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -227668,7 +229196,7 @@
       "source_span": "The goal of this observational study is to evaluate the association between computed tomography-determined sarcopenia and muscle quality impairment with 28-day mortality in adult patients (aged 18 and older) with solid or hematologic malign"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -229174,7 +230702,7 @@
     "source_hash": "201bf9b6a23738e4",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -230327,7 +231855,7 @@
     "source_hash": "ea57ad61fa60480a",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -230405,7 +231933,7 @@
     "source_hash": "f9a7abe5eb682b70",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -230595,7 +232123,7 @@
     "source_hash": "816da20571964d5f",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -231165,7 +232693,7 @@
     "source_hash": "d1b1bf5f452eaf06",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -233833,7 +235361,7 @@
     "source_hash": "45f1006642c4e28c",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -234397,7 +235925,7 @@
     "source_hash": "4df51f4833cc149a",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -235210,7 +236738,7 @@
       "source_span": "The goal of this observational study is to evaluate if early absolute hemoglobin decline (during the first 24 hours of admission) can predict prolonged intensive care unit stay (8 days or more) and in-hospital mortality in critically ill ad"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -236403,7 +237931,7 @@
     "source_hash": "3a9f96f1a54f8574",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -236557,6 +238085,166 @@
    "trial_registration": [],
    "verification_date": "2026-10-31T21:36:38+00:00",
    "version": 3
+  },
+  "ev_983930348e3c": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": null,
+   "authors": [
+    "Buleza N",
+    "Ramadan L"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_983930348e3c",
+   "doi": "10.7759/cureus.117261",
+   "editorial_reviewer": null,
+   "flags": [
+    "relevance_review"
+   ],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Cureus",
+   "last_attempt": "2026-11-02T10:15:36+00:00",
+   "last_updated": "2026-11-02T10:15:36+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:36+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967019",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Sep",
+   "pubtypes": [
+    "Case Reports",
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:74bac17f7d07af41",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:36+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967019 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Buleza N' vs Crossref 'Buleza'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "pending_review",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Case Reports",
+   "title": "Delayed-Onset Malignant Hyperthermia With Disseminated Intravascular Coagulation Following Successful Prior Anesthetic Use: A Case Report.",
+   "trial_registration": [],
+   "verification_date": null,
+   "version": 2
   },
   "ev_983c75379d0b": {
    "ai": {
@@ -237210,7 +238898,7 @@
       "source_span": "95% CI 0.94-9.52)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -237372,7 +239060,7 @@
     "source_hash": "b2056814fbb41a64",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -241618,7 +243306,7 @@
     "source_hash": "0dd1a1fdbf52aef3",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -242028,6 +243716,167 @@
    "verification_date": "2026-11-01T07:16:52+00:00",
    "version": 3
   },
+  "ev_9bc8686fb10a": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:37+00:00",
+    "hash": "d0c9b6af4383a45c"
+   },
+   "authors": [
+    "Balaji CA",
+    "Divakar A",
+    "Pillai M"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_9bc8686fb10a",
+   "doi": "10.7759/cureus.117288",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Cureus",
+   "last_attempt": "2026-11-02T10:15:37+00:00",
+   "last_updated": "2026-11-02T10:15:37+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:37+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967112",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Oct",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:e6c79d29439f8d2f",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:37+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967112 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Balaji CA' vs Crossref 'Balaji'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "Absolute Eosinophil Count as a Corroborative Marker for Sepsis at ICU Admission: An Observational Study.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:37+00:00",
+   "version": 3
+  },
   "ev_9bece597eac1": {
    "ai": {
     "issues": [],
@@ -242036,7 +243885,7 @@
     "source_hash": "6a9dd5c8015a1342",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -246548,7 +248397,7 @@
     "source_hash": "4c3cec2fe8239aeb",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -248390,7 +250239,7 @@
     "source_hash": "ebc87be785f32a83",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -249610,7 +251459,7 @@
     "source_hash": "486f24f6d9b90968",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -249852,7 +251701,7 @@
     "source_hash": "85b81f296fb43e29",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -250358,7 +252207,7 @@
     "source_hash": "a79ce898b329f33f",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -251417,7 +253266,7 @@
       "source_span": "Through a systematic search and the final synthesis of 281 articles including 1,704,632 patients, 37 recommendations were developed through a 2-round Delphi process, distributed across 8 application domains based on the organization of a re"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -252642,7 +254491,7 @@
     "source_hash": "228aeb0900330730",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -253908,7 +255757,7 @@
       "source_span": "In temporal validation, the area under the receiver operating characteristic curves ranged from 0.856 to 0.960, and the area under the precision-recall curves from 0.302 to 0.786."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -254242,7 +256091,7 @@
     "source_hash": "ce0bb80274cb1af6",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -255657,7 +257506,7 @@
     "source_hash": "a105bb2f5e95a28b",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -256533,7 +258382,7 @@
     "source_hash": "de54f569aaf36941",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -257084,7 +258933,7 @@
     "source_hash": "fbc6f965061dffef",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -258635,7 +260484,7 @@
     "source_hash": "257dbcbd34277683",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -259583,7 +261432,7 @@
     "source_hash": "ede24cd803b877c3",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -260390,7 +262239,7 @@
     "source_hash": "2e7d927986fac6f0",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -262405,7 +264254,7 @@
     "source_hash": "9bffaf120889c5da",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -264366,7 +266215,7 @@
     "source_hash": "dc0bec9b7810681b",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -264813,7 +266662,7 @@
       "source_span": "The trial aims to enroll 120 older adults (age 60 or older)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -265630,7 +267479,7 @@
     "source_hash": "e960e6d495cc14ee",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -267701,7 +269550,7 @@
       "source_span": "p < 0.01)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -269266,7 +271115,7 @@
       "source_span": "In COVID-19 pulmonary populations, pooled OR for in-hospital mortality with low skeletal muscle mass was 5.84 (95% CI: 1.07-31.83)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -270082,7 +271931,7 @@
       "source_span": "We report the case of a 69-year-old man with chronic obstructive pulmonary disease (COPD) who received nasogastric tube feeding with RuiNeng enteral nutrition formula, a high-protein, fiber-containing formula, because of impaired consciousn"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -270983,7 +272832,7 @@
     "source_hash": "03941509b94dbdb4",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -271547,7 +273396,7 @@
     "source_hash": "dbc9956763cf90dc",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -273323,7 +275172,7 @@
     "source_hash": "c90c465d44fd8131",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -274503,7 +276352,7 @@
     "source_hash": "b394e94f62aeb8b2",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -275330,7 +277179,7 @@
       "source_span": "Study Hypothesis/Question In infants born very preterm, advancing enteral feeds after 24 hours from birth (limited trophic feeds) versus after 72 hours (extended trophic feeds) reduces the risk of all-cause late onset sepsis (LOS) without i"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -276047,7 +277896,7 @@
     "source_hash": "8f2c7d2fe0cfb2ed",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -277662,7 +279511,7 @@
     "source_hash": "f6a407ace7ec141b",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -278318,7 +280167,7 @@
     "source_hash": "42b08b776191dbf8",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -278845,7 +280694,7 @@
     "source_hash": "3674b59f280ba56e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -279565,6 +281414,172 @@
    "verification_date": "2026-11-01T07:26:58+00:00",
    "version": 3
   },
+  "ev_b5953a8bbcf7": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": null,
+   "authors": [
+    "Álvarez-Uría A",
+    "de la Villa S",
+    "Estévez A",
+    "Burillo A",
+    "Sancho M",
+    "Ferris Villanueva M",
+    "Torroba-Sanz B",
+    "Bouza E",
+    "Muñoz P"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_b5953a8bbcf7",
+   "doi": "10.1016/j.diagmicrobio.2026.117717",
+   "editorial_reviewer": null,
+   "flags": [
+    "relevance_review"
+   ],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Diagnostic microbiology and infectious disease",
+   "last_attempt": "2026-11-02T10:15:37+00:00",
+   "last_updated": "2026-11-02T10:15:37+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:37+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967404",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Oct 29",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:aa6e1a31402f564a",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:37+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967404 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2027",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Álvarez-Uría A' vs Crossref 'Álvarez-Uría'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "pending_review",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "Impact of early microbiology laboratory activation on rapid diagnosis and antimicrobial optimization in a sepsis alert pathway.",
+   "trial_registration": [],
+   "verification_date": null,
+   "version": 2
+  },
   "ev_b5c010587da8": {
    "ai": {
     "issues": [],
@@ -280024,7 +282039,7 @@
     "source_hash": "d3ad32699491df7b",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -284028,7 +286043,7 @@
     "source_hash": "bfff7be1fcc74bda",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -285225,7 +287240,7 @@
       "source_span": "The PHIND study aimed to prospectively identify these subphenotypes and to demonstrate differing 60-day mortality."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -287022,7 +289037,7 @@
       "source_span": "Adrenal insufficiency is estimated to occur in up to 77% of critically ill patients, but currently, there is no consensus on the diagnostic criteri"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -290634,7 +292649,7 @@
       "source_span": "RESULTS: In total, 298 meeting attendees responded to the survey (response rate of 47.5%)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -294839,7 +296854,7 @@
       "source_span": "A PENK cut-off of ≥250 pmol/L provided >90% specificity for liberation failure."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -297515,7 +299530,7 @@
     "source_hash": "be83f2f0263fabdb",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -297767,7 +299782,7 @@
     "source_hash": "7b8628dedc2ebc3c",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -299620,7 +301635,7 @@
       "source_span": "A total of 34 recommendations were finalized, covering key clinical topics including timing of RRT initiation, establishment and maintenance of vascular access, selection of treatment modalities, application of specialized membrane filters,"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -302234,7 +304249,7 @@
     "source_hash": "a548ee20d22c2d62",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -303961,7 +305976,7 @@
     "source_hash": "e30c43adaeb6f6c9",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -304526,7 +306541,7 @@
     "source_hash": "7457c9fd34592f9e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -305180,7 +307195,7 @@
       "source_span": "BACKGROUND: Early and precise identification of COVID-19 patients at high risk of mortality is vital for guiding treatment decisions."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -305767,7 +307782,7 @@
       "source_span": "Background: Coronavirus disease 2019 (COVID-19) is frequently complicated by acute respiratory distress syndrome (ARDS), which is associated with high mortality."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -308547,6 +310562,169 @@
    "verification_date": "2026-11-01T07:27:20+00:00",
    "version": 3
   },
+  "ev_cb95b1a62439": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": {
+    "at": "2026-11-02T10:15:37+00:00",
+    "hash": "52be2d8a75beb035"
+   },
+   "authors": [
+    "Bshara RA",
+    "Atroshi LA",
+    "Abdullah ZM",
+    "Salim BIM",
+    "Prince G"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_cb95b1a62439",
+   "doi": "10.1002/ccr3.73822",
+   "editorial_reviewer": null,
+   "flags": [],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Clinical case reports",
+   "last_attempt": "2026-11-02T10:15:37+00:00",
+   "last_updated": "2026-11-02T10:15:37+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:37+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967049",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Nov",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:151379e602edcb98",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:37+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967049 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Bshara RA' vs Crossref 'Bshara'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "published",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "Extensive Stray-Dog Mauling as Major Contaminated Crush Trauma Causing Severe Rhabdomyolysis, Acute Kidney Injury, and Overt Disseminated Intravascular Coagulation: Recovery Without Renal Replacement Therapy.",
+   "trial_registration": [],
+   "verification_date": "2026-11-02T10:15:37+00:00",
+   "version": 3
+  },
   "ev_cbb328846cdb": {
    "ai": {
     "issues": [],
@@ -308880,7 +311058,7 @@
     "source_hash": "060f75e452ab1ce7",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -309235,7 +311413,7 @@
     "source_hash": "9d289a8f2a3501a9",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -312905,7 +315083,7 @@
       "source_span": "A total of 67.4% among them were specialists in critical care medicine, and 67.2% had received some form of training in POCUS."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -313693,7 +315871,7 @@
     "source_hash": "f34232bf6f5d84ec",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -314027,7 +316205,7 @@
     "source_hash": "adcb54ae2e7a7559",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -315904,7 +318082,7 @@
       "source_span": "In generalized linear model analysis, tracheostomy, sepsis and mechanical ventilation were strongest predictors of prolonged ICU stay (Exp(B) = 3.33, 1.63, 1.60), respectively, P < .001)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -316511,7 +318689,7 @@
       "source_span": "Herein, our study identified independent risk factors for AKI in ECMO patients and evaluated the effect of AKI severity on 30-day mortality."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -316681,7 +318859,7 @@
       "source_span": "The primary outcome was 90-day mortality, assessed with multivariable Cox analysis."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -317518,7 +319696,7 @@
     "source_hash": "e09313c1aa91c91a",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -322518,7 +324696,7 @@
     "source_hash": "7cc64b6447cd70dd",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -323889,7 +326067,7 @@
     "source_hash": "3c3d79b09118560d",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -327823,7 +330001,7 @@
     "source_hash": "cf430bca65159d0e",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -327935,7 +330113,7 @@
     "source_hash": "e6dc71be3dfde9dd",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -328943,7 +331121,7 @@
     "source_hash": "b5c17850dbf947f9",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -332746,7 +334924,7 @@
     "source_hash": "265cbe40535fe9eb",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -334312,7 +336490,7 @@
       "source_span": "95% CI [1.34-11.47], p = 0.012)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -334648,7 +336826,7 @@
     "source_hash": "6f955972856de05f",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -336041,6 +338219,171 @@
    "verification_date": "2026-11-01T07:27:44+00:00",
    "version": 3
   },
+  "ev_dd9d9b64f41d": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": null,
+   "authors": [
+    "de Jong IC",
+    "van Melle AL",
+    "Deijlen J",
+    "Mulder CL",
+    "van den Hoven MA",
+    "Voskes Y"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_dd9d9b64f41d",
+   "doi": "10.1007/s10488-026-01530-w",
+   "editorial_reviewer": null,
+   "flags": [
+    "relevance_review"
+   ],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Administration and policy in mental health",
+   "last_attempt": "2026-11-02T10:15:37+00:00",
+   "last_updated": "2026-11-02T10:15:37+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:37+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42966832",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Oct 31",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:1f43799573f1eaa5",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:37+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42966832 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'de Jong IC' vs Crossref 'de Jong'",
+      "name": "first_author",
+      "result": "warn"
+     }
+    ],
+    "discrepancies": [
+     "PubMed 'de Jong IC' vs Crossref 'de Jong'"
+    ],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "pending_review",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "Aggression in Psychiatric High and Intensive Care Wards: A Mixed Methods Study of Incidence and Professionals' Reflections.",
+   "trial_registration": [],
+   "verification_date": null,
+   "version": 2
+  },
   "ev_dda61d947133": {
    "ai": {
     "issues": [],
@@ -336354,7 +338697,7 @@
       "source_span": "For 28-day mortality and duration of ventilation, the probability of benefit of the lower-PEEP strategy ranged from 72% to 89%, and from 11% to 28%, respectively."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -336570,7 +338913,7 @@
     "source_hash": "d5ccdb92b564e986",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -340319,7 +342662,7 @@
     "source_hash": "b05044ea997a5b4e",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -341136,7 +343479,7 @@
     "source_hash": "d310fe7cc55baea1",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -341536,7 +343879,7 @@
       "source_span": "In univariable Cox analysis, high CAR was associated with increased 30-day mortality in the overall hypertensive cohort (HR: 3.02, 95% CI: 1.48-6.17, p = 0.0024), in patients with normal/elevated BP (HR: 8.90, 95% CI: 2.00-39.17, p = 0.0038"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -342620,7 +344963,7 @@
     "source_hash": "57068cbcb723d000",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -346128,7 +348471,7 @@
       "source_span": "Culture positivity increased significantly with age (p<0.001), with Gram-negative bacteria predominating in older patients."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -346596,7 +348939,7 @@
       "source_span": "This study demonstrates that a mean ICU BG level representing 80% to 100% of the patient's EPBG was associated with the lowest mortality rate in a heterogeneous cohort of critically ill patients."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -349228,7 +351571,7 @@
     "source_hash": "328341115611461a",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -350048,7 +352391,7 @@
     "source_hash": "3e86b9f77db37e75",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -351766,7 +354109,7 @@
       "source_span": "This study will enroll adults aged 18 to 80 years diagnosed with sepsis due to a suspected or confirmed bacterial infection, within 7 days of being admitted to the hospital, and who have also developed acute kidney injury within 72 hours of"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -351875,7 +354218,7 @@
       "source_span": "p = 0.035)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -352094,7 +354437,7 @@
       "source_span": "In ROC analysis, NLR showed the strongest discriminatory ability for mortality (AUC = 0.80, 95% CI 0.74-0.85), followed by SII (AUC = 0.76, 95% CI 0.71-0.81) and HALP (AUC = 0.76, 95% CI 0.70-0.81)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -354954,7 +357297,7 @@
     "source_hash": "0039d7eb8e53d120",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -355850,7 +358193,7 @@
       "source_span": "RESULTS: A total of 157 paired measurements were collected."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -356539,7 +358882,7 @@
     "source_hash": "1df14f159cff8a1c",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -360347,7 +362690,7 @@
     "source_hash": "ef4006dfc5c788f0",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -361255,7 +363598,7 @@
       "source_span": "OBJECTIVES: To investigate the association between net ultrafiltration (NUF) rate and fluid balance changes with 28-day mortality in critically ill patients receiving continuous renal replacement therapy (CRRT)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -361861,7 +364204,7 @@
     "source_hash": "86aa94f044df2069",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -362333,7 +364676,7 @@
       "source_span": "10.5 [6-17] mL, P < 0.001)."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -364252,7 +366595,7 @@
       "source_span": "We present a 76-year-old female with cholecystolithiasis complicated by choledocholithiasis who developed Aeromonas hydrophila sepsis following Endoscopic Retrograde Cholangiopancreatography stone extraction and laparoscopic cholecystectomy"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -367799,7 +370142,7 @@
       "source_span": "Electrographic seizures were evident in 11.2% of patients, and 63 comatose patients did not exhibit any evidence of seizures in their EEGs."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -369236,7 +371579,7 @@
       "source_span": "Most recent guidelines suggest that clinical practice in ICU setting should follow a restrictive approach to RBCT (i.e., hemoglonim level \\< 7.0 g/dL).In our previous study, oxygen extraction ratio (O2ER) has shown good performance as a mar"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -371108,7 +373451,7 @@
     "source_hash": "ea6d4b14b27e61a3",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -371719,7 +374062,7 @@
     "source_hash": "f27bd4c8ec24cefb",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -375930,7 +378273,7 @@
     "source_hash": "fbc6f965061dffef",
     "status": "failed",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -376905,6 +379248,187 @@
    "verification_date": "2026-11-01T07:28:15+00:00",
    "version": 3
   },
+  "ev_f75bac87a578": {
+   "ai": {
+    "issues": [],
+    "practice_text_approved": false,
+    "reviewer": null,
+    "source_hash": null,
+    "status": "none",
+    "trace": [],
+    "validated_at": null
+   },
+   "appraisal": {
+    "completed": false,
+    "completed_at": null,
+    "completed_by": null,
+    "framework": "STROBE (observational study)",
+    "items": {
+     "adjusted_estimates": {
+      "label": "Adjusted vs unadjusted estimates reported",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "causation": {
+      "label": "Conclusions stay at association, not causation",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "confounding": {
+      "label": "Confounding addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "definitions": {
+      "label": "Exposure and outcome definitions",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "design": {
+      "label": "Study design clearly stated",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "missing_data": {
+      "label": "Missing data handled",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     },
+     "selection_bias": {
+      "label": "Selection bias addressed",
+      "note": "",
+      "source": null,
+      "status": "not_assessed"
+     }
+    }
+   },
+   "approved_snapshot": null,
+   "authors": [
+    "Courjon J",
+    "Scussel R",
+    "Mellan E",
+    "Lotte R",
+    "Ruimy R",
+    "Demonchy E",
+    "Risso K",
+    "Touitou I",
+    "Bertrand PM",
+    "de Swart P",
+    "Robert A",
+    "Contenti J",
+    "Dellamonica J",
+    "Jozwiak M",
+    "Gonfrier G",
+    "Munro P",
+    "Doye A",
+    "Loubatier C",
+    "Visvikis O",
+    "Chaintreuil P",
+    "Jacquel A",
+    "Dufies O",
+    "Carles M",
+    "Boyer L"
+   ],
+   "clinical_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "comparator": "Unable to verify",
+   "content_class": "original_research",
+   "content_id": "ev_f75bac87a578",
+   "doi": "10.1080/21505594.2026.2730393",
+   "editorial_reviewer": null,
+   "flags": [
+    "relevance_review"
+   ],
+   "full_text_review": {
+    "date": null,
+    "reviewer": null,
+    "status": "not_performed"
+   },
+   "intervention": "Unable to verify",
+   "journal": "Virulence",
+   "last_attempt": "2026-11-02T10:15:37+00:00",
+   "last_updated": "2026-11-02T10:15:37+00:00",
+   "legacy": false,
+   "limitations": "Unable to verify",
+   "main_results": "Unable to verify",
+   "next_check": "2026-11-09T10:15:37+00:00",
+   "notices": [],
+   "pending_update": null,
+   "pmid": "42967233",
+   "population": "Unable to verify",
+   "primary_outcomes": "Unable to verify",
+   "publication_date": "2026 Dec",
+   "pubtypes": [
+    "Journal Article"
+   ],
+   "retraction_status": "none",
+   "sample_size": "Unable to verify",
+   "source_fingerprint": "v2:10abd224069c00d4",
+   "source_verification": {
+    "checked_at": "2026-11-02T10:15:37+00:00",
+    "checks": [
+     {
+      "detail": "PMID 42967233 found in PubMed",
+      "name": "pmid_exists",
+      "result": "pass"
+     },
+     {
+      "detail": "DOI registered (Crossref)",
+      "name": "doi_registered",
+      "result": "pass"
+     },
+     {
+      "detail": "Feed DOI equals DOI recorded by PubMed for this PMID",
+      "name": "doi_matches_pmid",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "feed 2026 vs PubMed 2026",
+      "name": "pubdate_vs_pubmed",
+      "result": "pass"
+     },
+     {
+      "detail": "title similarity 1.00",
+      "name": "title_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "2026 vs Crossref 2026",
+      "name": "year_vs_crossref",
+      "result": "pass"
+     },
+     {
+      "detail": "PubMed 'Courjon J' vs Crossref 'Courjon'",
+      "name": "first_author",
+      "result": "pass"
+     }
+    ],
+    "discrepancies": [],
+    "level": "metadata",
+    "status": "verified"
+   },
+   "state": "pending_review",
+   "statistical_interpretation": "Unable to verify",
+   "study_design": "Study",
+   "title": "Differences in circulating levels of non-classical monocytes and associated caspase 1 activation during Staphylococcus aureus and Escherichia coli bacteremia.",
+   "trial_registration": [],
+   "verification_date": null,
+   "version": 2
+  },
   "ev_f76951fed36c": {
    "ai": {
     "issues": [],
@@ -376994,7 +379518,7 @@
       "source_span": "adjusted mean difference 0.007 (95% CI, -0.003 to 0.016) %·h-1;"
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -379032,7 +381556,7 @@
     "source_hash": "4c01092645927654",
     "status": "auto_validated",
     "trace": [],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": null,
    "approved_snapshot": {
@@ -379660,7 +382184,7 @@
       "source_span": "RESULTS: 433 patients with 1194 measurements were included."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
@@ -380076,7 +382600,7 @@
       "source_span": "METHODS: A randomized controlled trial was conducted on 118 children aged 18 months to 16 years, including PICU patients requiring invasive mechanical ventilation for ≥ 48 h."
      }
     ],
-    "validated_at": "2026-11-01T09:53:57+00:00"
+    "validated_at": "2026-11-02T10:16:27+00:00"
    },
    "appraisal": {
     "completed": false,
