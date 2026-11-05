@@ -1,25 +1,65 @@
 {
  "command": "fetch",
- "finished_at": "2026-11-04T10:09:13+00:00",
- "duration_s": 141.8,
- "http_requests": 179,
- "http_retries": 0,
- "source_errors": [],
+ "finished_at": "2026-11-05T10:15:00+00:00",
+ "duration_s": 869.5,
+ "http_requests": 249,
+ "http_retries": 116,
+ "source_errors": [
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  },
+  {
+   "host": "eutils.ncbi.nlm.nih.gov",
+   "reason": "HTTP 500"
+  }
+ ],
  "stats": {
-  "records_created": 92,
-  "auto_published": 66,
-  "pending_review": 25,
-  "failed_verification": 1,
-  "held_back": 851,
+  "records_created": 48,
+  "auto_published": 36,
+  "pending_review": 12,
+  "held_back": 864,
   "study_type_harmonized": 18,
   "ai_failed_validation": 57,
-  "ai_auto_validated": 271
+  "ai_auto_validated": 270
  },
  "states": {
   "unverified": 15,
-  "pending_review": 748,
+  "pending_review": 760,
   "verified": 0,
-  "published": 2054,
+  "published": 2090,
   "updated": 0,
   "under_investigation": 0,
   "retracted": 0,
