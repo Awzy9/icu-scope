@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Thu, 05 Nov 2026 10:15:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 10:06:13 +0000</lastBuildDate>
     <item>
       <title>Serious Adverse Events in Adult ICU Patients: A Substudy of the PATIENCE Cohort.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42963077/</link>
@@ -18,6 +18,13 @@
       <guid isPermaLink="false">pmid:42927910</guid>
       <category>General Critical Care</category>
       <description>A substantial proportion of intensive care unit (ICU) survivors experience long-term physical, psychological and cognitive impairments after critical illness. However, methods for identifying patients in need of post-ICU support vary widely. As a result, many patients are left without access to established rehabilitation pathways. This consensus recommendation provides a framework for the organisation and content of follow-up for adult ICU survivors in Sweden, informed by available evidence, sta</description>
+    </item>
+    <item>
+      <title>A Survey of Clinician-Reported Management of Hypernatremia in the ICU.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42983226/</link>
+      <guid isPermaLink="false">pmid:42983226</guid>
+      <category>General Critical Care</category>
+      <description>Hypernatremia is frequent in the intensive care unit (ICU) and is associated with adverse outcomes. Despite its prevalence, robust evidence to guide treatment is lacking, and global practice patterns are largely unknown. We investigated global treatment preferences and clinicians' willingness to enroll patients in a randomized trial to inform its feasibility. This international cross-sectional online survey comprised 20 primarily closed-ended questions, using five-point Likert-scale responses, a</description>
     </item>
     <item>
       <title>Endpoint-specific mortality associated with malignancy among adults with sepsis or septic shock: a systematic review and meta-analysis.</title>
@@ -53,20 +60,6 @@
       <guid isPermaLink="false">pmid:42857206</guid>
       <category>Respiratory</category>
       <description>Severe acute kidney injury in critically ill patients may require continuous renal replacement therapy (CRRT), yet mortality remains high. A standard CRRT intensity is 20-25 mL/kg/hr, because higher doses have not improved outcomes. Excessive treatment may cause harm by removing antibiotics and other essential substances and potentially impairing renal recovery. Observational data suggest that lower-intensity CRRT may be effective, warranting a clinical trial to compare low-versus standard-inten</description>
-    </item>
-    <item>
-      <title>Artificial intelligence and continuous renal replacement therapy.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42960546/</link>
-      <guid isPermaLink="false">pmid:42960546</guid>
-      <category>Respiratory</category>
-      <description>Continuous renal replacement therapy (CRRT) is an important intervention in the treatment of acute kidney injury (AKI) in intensive care, and its application scope continues to expand alongside technological advancements and an increasing patient population. However, in current clinical practice, several factors, including individual patient differences, dynamic treatment needs, and the rational allocation of medical resources, pose challenges to CRRT implementation. The rapid development of art</description>
-    </item>
-    <item>
-      <title>Use of a molecular syndromic panel for the etiological diagnosis of bloodstream infections in critically ill patients: impact on clinical outcomes and antimicrobial use from a multicenter, prospective study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42968548/</link>
-      <guid isPermaLink="false">pmid:42968548</guid>
-      <category>Respiratory</category>
-      <description>Bloodstream infections (BSI) frequently occur in critically ill patients and remain associated with high mortality rates. A prospective, observational, multicenter investigation was carried out through the MULTI-SITA platform to evaluate how the addition of a molecular syndromic panel, the BIOFIRE® Blood Culture Identification 2 (BCID2) Panel (BCID2 panel), to conventional blood culture diagnostics influenced key clinical endpoints and antimicrobial use. The primary endpoint was all-cause mortal</description>
     </item>
     <item>
       <title>Variation in capability, organisational structure, and treatment processes for critically ill adults with moderate-to-severe traumatic brain injury in Australia and New Zealand.</title>
@@ -188,11 +181,207 @@
       <description>Accurate assessment and prognostication of patients with acute disorders of consciousness (DoC) after severe brain injury remain a substantial clinical challenge. Resting-state fMRI (rs-fMRI) measures spontaneous, temporally correlated brain activity in the absence of external stimulation and provides objective insight into the integrity of large-scale neural networks that support brain function. Emerging evidence suggests that assessing neural integrity using rs-fMRI may improve outcome predict</description>
     </item>
     <item>
+      <title>The CoPenHagen PREeClampsia and cardIOvascUlar diSease Study</title>
+      <link>https://clinicaltrials.gov/study/NCT03949829</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT03949829</guid>
+      <category>Clinical Trial</category>
+      <description>Women with a history of preeclampsia (PE) have increased risk of hypertension and cardiovascular disease (CVD) later in life. Thus, PE is acknowledged as an independent risk factor for CVD, which is the number one cause of death in women in the western part of the world. Objective: The purpose of this study is to investigate 1) the prevalence of CVD after PE, 2) which women have the highest risk of developing CVD, 3) when early stages of CVD can be detected in women with previous PE and 4) how C</description>
+    </item>
+    <item>
+      <title>Weighted Blankets for Agitation in Adults in the Intensive Care Unit</title>
+      <link>https://clinicaltrials.gov/study/NCT07920497</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07920497</guid>
+      <category>Clinical Trial</category>
+      <description>The purpose of this study is to learn whether weighted blankets help reduce agitation, such as restlessness or excessive movement, in adults in an intensive care unit (ICU). Researchers will compare a weighted blanket with a standard blanket and usual comfort measures. They will also examine safety and the use of medicines given as needed to manage agitation or anxiety. After a three-patient pilot to test study procedures, 197 adults will be assigned by chance to one of two groups. One group wil</description>
+    </item>
+    <item>
+      <title>REspiratory MEchanics for Delivering Individualised Exogenous Surfactant</title>
+      <link>https://clinicaltrials.gov/study/NCT05791331</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05791331</guid>
+      <category>Clinical Trial</category>
+      <description>This study is an interventional, non-pharmacological, multicentric, randomized, controlled, superiority, non-profit study. Its primary objective is to evaluate if the administration of surfactant based on FOT assessment will allow a 5-day reduction in the duration of respiratory support as compared to standard practice in preterm infants between 27+0 and 32+6 weeks' gestation. The secondary objectives are: 1. to determine if a lung mechanics-based approach for administering surfactant will chang</description>
+    </item>
+    <item>
+      <title>COMparative Performance of General Purpose Models</title>
+      <link>https://clinicaltrials.gov/study/NCT06584097</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06584097</guid>
+      <category>Clinical Trial</category>
+      <description>To compare the performance of the Eleveld models for propofol and remifentanil on neurosurgery patients admitted to intensive care with their intraoperative performance.</description>
+    </item>
+    <item>
+      <title>Predicting Extubation Failure Using Machine Learning</title>
+      <link>https://clinicaltrials.gov/study/NCT07918924</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07918924</guid>
+      <category>Clinical Trial</category>
+      <description>The goal of this observational study is to predict who will have problems after the breathing tube is removed. Taking out the tube is called extubation, and having these problems is called extubation failure. Participants are adults in the intensive care unit (ICU) who use a breathing machine (ventilator). The main questions it aims to answer are: * How well can computer tools predict problems in the 7 days after the tube is removed? * Which information, such as age or blood tests, matters most </description>
+    </item>
+    <item>
+      <title>Renal Replacement Anticoagulant Management</title>
+      <link>https://clinicaltrials.gov/study/NCT03545750</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT03545750</guid>
+      <category>Clinical Trial</category>
+      <description>Observational comparative effectiveness study of individual patient data using interrupted time series analysis techniques of linked data sources to establish clinical and health economic effects of moving from systemic heparin anticoagulation to regional citrate anticoagulation during continuous renal replacement therapy (CRRT) for patients treated on non-specialist Intensive Care Units (ICUs) in England and Wales.</description>
+    </item>
+    <item>
+      <title>Fever Observational Study</title>
+      <link>https://clinicaltrials.gov/study/NCT03028818</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT03028818</guid>
+      <category>Clinical Trial</category>
+      <description>To inform the feasibility of conducting a study to test different temperature thresholds at which clinicians deliver interventions to reduce fever (i.e. antipyretic interventions) in critically ill children with fever due to infection.</description>
+    </item>
+    <item>
+      <title>Critical Illness Related Cardiac Arrest (CIRCA)</title>
+      <link>https://clinicaltrials.gov/study/NCT04219384</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT04219384</guid>
+      <category>Clinical Trial</category>
+      <description>CIRCA aims to determine the incidence and outcomes of in-hospital cardiac arrest (IHCA) in UK intensive care units (ICUs) and explore associated risk factors with ICU and hospital survival and quality of survival following hospital discharge.</description>
+    </item>
+    <item>
+      <title>Early Hypoxemia and Hypocapnia Burdens and 28-Day Mortality in ICU Patients With Cardiac Arrest: A Retrospective Cohort Study From the MIMIC-IV Database.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42988176/</link>
+      <guid isPermaLink="false">pmid:42988176</guid>
+      <category>This Week</category>
+      <description>The association of cumulative oxygen and carbon dioxide deficits with mortality in patients with cardiac arrest remains uncertain. We examined hypoxemia and hypocapnia burdens during the first 24 hours of ICU care. This retrospective MIMIC-IV study included adult ICU patients with cardiac arrest identified using hospital diagnosis codes, eligible arterial blood gas measurements, and confirmed survival to 24 hours after ICU admission. Burdens were calculated as the integrated deficits below PaO2 </description>
+    </item>
+    <item>
+      <title>Creation and verification of an interpretable machine learning model for forecasting in-hospital results in Cardiorenal syndrome patients in critical condition.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42986174/</link>
+      <guid isPermaLink="false">pmid:42986174</guid>
+      <category>This Week</category>
+      <description>Cardiorenal syndrome (CRS) encompasses a spectrum of disorders in which acute or chronic dysfunction of the heart or kidneys induces dysfunction of the other. The heart-kidney crosstalk underlying CRS has since been extended into the broader cardiovascular-kidney-metabolic (CKM) syndrome by incorporating metabolic risk factors.CRS is associated with significantly increased mortality in intensive care unit (ICU) patients. However, dedicated tools for predicting short-term outcomes remain lacking,</description>
+    </item>
+    <item>
+      <title>Descending Necrotizing Mediastinitis After Thyroidectomy.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42988561/</link>
+      <guid isPermaLink="false">pmid:42988561</guid>
+      <category>This Week</category>
+      <description>Thyroidectomy is a commonly performed endocrine procedure with generally low complication rates. Descending necrotizing mediastinitis (DNM) is an exceptionally rare but life-threatening complication resulting from cervical infections that spread into the mediastinum. DNM following thyroid surgery has been reported only rarely. We analyzed retrospectively five patients who developed DNM following thyroid surgery between 2023 and 2025 at two tertiary centers. The patients' demographics, comorbidit</description>
+    </item>
+    <item>
+      <title>Vasopressors as immunomodulators: a hidden axis in septic shock.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42986437/</link>
+      <guid isPermaLink="false">pmid:42986437</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Consensus on a core outcome set for ventilation trials in critically ill patients with acute brain injury: results of an international Delphi consensus study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42986439/</link>
+      <guid isPermaLink="false">pmid:42986439</guid>
+      <category>This Week</category>
+      <description>Clinical research evaluating mechanical ventilation liberation in patients with acute brain injury (ABI) shows substantial outcome heterogeneity, limiting evidence synthesis. We aimed to develop an internationally endorsed core outcome set (COS) and a hierarchical composite endpoint for ventilation trials in neurocritical care. Following COS-STAD/COS-STAP standards, we conducted a 4-round international Delphi study. Candidate outcomes were identified via a scoping review. A multidisciplinary pan</description>
+    </item>
+    <item>
+      <title>Feasibility and Safety of Prone Positioning for Atelectasis in Neurocritical Patients: A Historically Controlled Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42987193/</link>
+      <guid isPermaLink="false">pmid:42987193</guid>
+      <category>This Week</category>
+      <description>Prone positioning is effective for atelectasis but underutilized in neurocritical care due to concerns about neurological safety. This study examined the clinical outcomes and tolerability of prone positioning in a neurocritical care population predominantly comprising patients with encephalitis and status epilepticus. In this historically controlled study, neurocritical care patients with atelectasis received either 135-degree semiprone positioning plus standard physiotherapy (intervention) or </description>
+    </item>
+    <item>
+      <title>Beyond Early vs. Late: A Bayesian Evaluation of Tracheostomy Timing and Outcomes in Critical Illness.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42984297/</link>
+      <guid isPermaLink="false">pmid:42984297</guid>
+      <category>This Week</category>
+      <description>The ideal timing of tracheostomy in critically ill patients remains controversial. Although early procedures may yield better outcomes, the specific contributions of each decision-making interval remain poorly defined. Here, we aimed to evaluate the associations of overall tracheostomy timing and component intervals with ventilator weaning, intensive care unit (ICU) discharge, mortality, and hospital costs. In this retrospective cohort study, we included 480 patients admitted to the ICU who unde</description>
+    </item>
+    <item>
+      <title>Effectiveness and major bleeding complications with venoarterial extracorporeal membrane oxygenation in category E pulmonary thromboembolism: a multicentre retrospective study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42988569/</link>
+      <guid isPermaLink="false">pmid:42988569</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Cardiac Output From Right Ventricular Pressure: Not the Solution for Venovenous Extracorporeal Membrane Oxygenation.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42987328/</link>
+      <guid isPermaLink="false">pmid:42987328</guid>
+      <category>This Week</category>
+      <description>Cardiac output (CO) monitoring is challenging during venovenous extracorporeal membrane oxygenation (VV ECMO), as thermodilution techniques are unreliable. Cardiac output from right ventricular pressure (RVP) waveforms has recently been considered. We evaluated whether RVP-derived CO (CORV) accurately reflects cardiac output measured by echocardiography (COUS) during VV ECMO. Ten anesthetized pigs underwent femoro-jugular VV ECMO implantation. A Swan-Ganz IQ catheter provided continuous CORV mon</description>
+    </item>
+    <item>
+      <title>Long-Term Mortality in Sepsis Survivors: A Population-Based Study During 15 Years.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42987192/</link>
+      <guid isPermaLink="false">pmid:42987192</guid>
+      <category>This Week</category>
+      <description>To evaluate long-term mortality among sepsis survivors in Catalonia over a 15-year period and to identify factors associated with increased mortality within 2 years after hospital discharge. Retrospective population-based cohort study. Acute-care hospitals in Catalonia, Spain. Adult and pediatric patients hospitalized with sepsis between 2005 and 2019 identified using the International Classification of Diseases, 9th Revision, Clinical Modification and International Classification of Diseases, 1</description>
+    </item>
+    <item>
+      <title>Light sedation and benzodiazepine minimization in mechanically ventilated ICU patients: Evidence, uncertainties, and research priorities.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42988727/</link>
+      <guid isPermaLink="false">pmid:42988727</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Vibroacoustic music therapy for postoperative delirium in the ICU: the VIMUD-ICU single-center exploratory randomized controlled trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42986438/</link>
+      <guid isPermaLink="false">pmid:42986438</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Blood-Based Biomarkers and Traumatic Intracranial Hypertension: A Transforming Research and Clinical Knowledge in Traumatic Brain Injury Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42987173/</link>
+      <guid isPermaLink="false">pmid:42987173</guid>
+      <category>This Week</category>
+      <description>The role of blood-based biomarkers in guiding the acute management of patients with established traumatic brain injury is unclear. We sought to determine whether concentrations of glial fibrillary acid protein (GFAP) or ubiquitin C-terminal hydrolase L1 (UCH-L1) on hospital day 1 are associated with intracranial pressure (ICP) and therapeutic intensity level (TIL). We conducted a retrospective cohort study using the Transforming Research and Clinical Knowledge in Traumatic Brain Injury data set,</description>
+    </item>
+    <item>
+      <title>Recovery after more than one month of dialysis in legionella-associated acute kidney injury: a case evaluated with gallium-67 scintigraphy and renal biopsy.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42986372/</link>
+      <guid isPermaLink="false">pmid:42986372</guid>
+      <category>This Week</category>
+      <description>Distinguishing tubulointerstitial nephritis (TIN) from acute tubular necrosis (ATN) is clinically important in Legionella-associated acute kidney injury (AKI), because TIN may respond to corticosteroid therapy whereas ATN does not. However, kidney biopsy is often not feasible in critically ill patients, and noninvasive approaches to guide treatment decisions are needed. We report a 73-year-old man with severe Legionella pneumonia complicated by dialysis-dependent AKI persisting for more than one</description>
+    </item>
+    <item>
+      <title>Renal Decline Before Heart Transplantation in Left Ventricular Assist Device-Supported Recipients: United Network for Organ Sharing Analysis.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42987338/</link>
+      <guid isPermaLink="false">pmid:42987338</guid>
+      <category>This Week</category>
+      <description>Although baseline renal impairment and post-heart transplantation (HT) dialysis are established clinical predictors, the prognostic impact of pre-HT renal decline in patients bridged with left ventricular assist devices (LVADs) remains unclear. We retrospectively analyzed patients from the United Network for Organ Sharing registry who underwent HT following LVAD support between 2009 and 2024. Renal decline was defined as a greater than or equal to 40% reduction in estimated glomerular filtration</description>
+    </item>
+    <item>
       <title>Beyond casemix: identifying an unpriced ICU cost driver in Victorian public hospitals.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42968274/</link>
       <guid isPermaLink="false">pmid:42968274</guid>
       <category>This Week</category>
       <description>Australia's National Pricing Model (NPM) adjusts public hospital funding for type, size, location, and patient complexity, but whether these adjustments adequately address structural cost variation at the jurisdictional level remains unknown. This study aimed to identify exogenous structural attributes associated with case-mix adjusted cost variation in Victorian public hospitals, and assess the adequacy of their compensation under activity-based funding. A cross-sectional analysis of 1,934,946 </description>
+    </item>
+    <item>
+      <title>Digital Health Technologies for Mobility Recovery Among Intensive Care Unit Survivors: Scoping Review.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42987255/</link>
+      <guid isPermaLink="false">pmid:42987255</guid>
+      <category>This Week</category>
+      <description>Mobility recovery after critical illness is a complex and multidimensional process. Digital health technologies have emerged as approaches for delivering rehabilitation, monitoring recovery, and facilitating self-management among intensive care unit (ICU) survivors. However, the extent to which current digital health approaches address the multidimensional nature of mobility recovery remains unclear. This scoping review aimed to map the current evidence on digital health approaches supporting mo</description>
+    </item>
+    <item>
+      <title>Efficacy of phosphodiesterase-3 (PDE-3) inhibitors for the treatment of cerebral vasospasm in patients with aneurysmal subarachnoid haemorrhage (aSAH) admitted to the intensive care unit (ICU): a systematic review and meta-analysis protocol.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42988434/</link>
+      <guid isPermaLink="false">pmid:42988434</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Dietitian involvement and nutritional care organization in intensive care and perioperative settings in France: a cross-sectional survey of healthcare professionals.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42988047/</link>
+      <guid isPermaLink="false">pmid:42988047</guid>
+      <category>This Week</category>
+      <description>Nutrition is a key component of care for critically ill and surgical patients, but the organization of nutritional care and the involvement of dietitians in ICU and perioperative pathways remain variable. This survey aimed to describe respondent-reported nutritional care organization and dietitian involvement among healthcare professionals working in ICU and perioperative settings in France, with a focus on dietitian availability, clinical involvement, nutritional governance, and selected aspect</description>
+    </item>
+    <item>
+      <title>Shortening the Family Satisfaction in the ICU (FS-ICU): Development and Validation of a 12-Item Family Satisfaction Survey for Adult ICUs.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42987170/</link>
+      <guid isPermaLink="false">pmid:42987170</guid>
+      <category>This Week</category>
+      <description>To develop and validate a shorter Family Satisfaction in the ICU (FS-ICU) questionnaire that reduces survey length while preserving content and psychometric performance for quality improvement and benchmarking. The FS-ICU survey assesses family perceptions of care, communication, and decision-making and has been translated into multiple languages with implementation across diverse health care systems internationally. In a province-wide electronic implementation in Ontario, more than 40% of initi</description>
+    </item>
+    <item>
+      <title>Evaluating AI Chatbots for Real-Time Detection of Incorrect Cardiopulmonary Resuscitation Positioning.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42988038/</link>
+      <guid isPermaLink="false">pmid:42988038</guid>
+      <category>This Week</category>
+      <description></description>
     </item>
     <item>
       <title>Randomized, Embedded, Multifactorial Adaptive Platform Trial for Community- Acquired Pneumonia</title>
@@ -235,195 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05606809</guid>
       <category>Clinical Trial</category>
       <description>Even in patients with successful return of spontaneous circulation (ROSC), outcome after cardiac arrest remains poor. The overall in-hospital survival rate widely varies both worldwide and across communities, from 1 to 4 folds according to circumstances of arrest and post-resuscitation interventions. Several studies have already shown that early interventions performed after ROSC, such as treatment of the cause, targeted temperature management, optimal hemodynamic management and extra-corporeal </description>
-    </item>
-    <item>
-      <title>Longitudinal Recovery Trajectories After an Acute Respiratory Distress Syndrome, a New Understanding</title>
-      <link>https://clinicaltrials.gov/study/NCT06083363</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06083363</guid>
-      <category>Clinical Trial</category>
-      <description>COVID-19 resulted in the largest cohort of critical illness survivors in history, heightened awareness of the importance of the respiratory sequelae after an acute distress respiratory syndrome (ADRS). Despite the advancement of acute-phase ARDS management, it is unknown whether there are differences in the longitudinal recovery trajectories between patients with post-ARDS due to COVID-19 and due to other causes. The main objective of the study is to identify risk factors of pulmonary sequela (l</description>
-    </item>
-    <item>
-      <title>Comparison of PPV and LVOT VTI During Passive Leg Raising to Predict Fluid Responsiveness</title>
-      <link>https://clinicaltrials.gov/study/NCT07304661</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07304661</guid>
-      <category>Clinical Trial</category>
-      <description>Hemodynamic instability remains one of the leading causes of morbidity and mortality among critically ill patients in intensive care units. One major contributor to this instability is intravascular fluid deficit. Although fluid administration is often preferred as an initial intervention, inaccurate estimation of fluid requirements carries significant risks. Inadequate resuscitation may lead to tissue hypoperfusion and organ dysfunction, whereas excessive fluid loading is associated with pulmon</description>
-    </item>
-    <item>
-      <title>VASSPR – Vasopressin for septic shock</title>
-      <link>https://www.thebottomline.org.uk/summaries/vasspr-vasopressin-for-septic-shock/</link>
-      <guid isPermaLink="false">https://www.thebottomline.org.uk/summaries/vasspr-vasopressin-for-septic-shock/</guid>
-      <category>The Bottom Line</category>
-      <description>In adults receiving vasopressors for septic shock, does a hospital strategy recommending vasopressin initiation at a lower or higher dose of other vasopressors, reduce 28-day mortality?</description>
-    </item>
-    <item>
-      <title>Dynamic phenotyping and organ cross-talk in sepsis-associated organ injury: from physiological trajectories to precision critical care.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42980468/</link>
-      <guid isPermaLink="false">pmid:42980468</guid>
-      <category>This Week</category>
-      <description>Sepsis-associated organ injury remains a major cause of mortality in critically ill patients. Conventional assessment relies largely on physiological indicators, including lactate, mean arterial pressure (MAP), PaO2/FiO2 ratio, creatinine, urine output, and organ dysfunction scores. However, these isolated values or single-variable trends may incompletely capture the temporal instability and biological heterogeneity that characterize sepsis. Increasing evidence indicates that dynamic trajectorie</description>
-    </item>
-    <item>
-      <title>Safety of Dexmedetomidine Use in Adult ICU Patients With Right Ventricular Dysfunction.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42981236/</link>
-      <guid isPermaLink="false">pmid:42981236</guid>
-      <category>This Week</category>
-      <description>BackgroundDexmedetomidine is commonly used in the intensive care unit (ICU) and is associated with hemodynamic adverse events, including hypotension and bradycardia. Use of dexmedetomidine has not been described in critically ill patients with right ventricular (RV) dysfunction and may be particularly relevant given the tenuous hemodynamics in this patient population.ObjectiveDetermine the prevalence of adverse events in adult ICU patients with RV dysfunction receiving dexmedetomidine.MethodsThi</description>
-    </item>
-    <item>
-      <title>The impact of CHG bathing on healthcare-associated bloodstream infections across a health system serving a predominantly rural population.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42978218/</link>
-      <guid isPermaLink="false">pmid:42978218</guid>
-      <category>This Week</category>
-      <description>To evaluate the impact of daily chlorhexidine gluconate (CHG) bathing on healthcare-associated infections (HAIs) in patients in a large health system serving a predominantly rural population. Multi-center, quasi-experimental, before-after study. 21 hospitals (including academic, community, and critical access) in a decentralized Appalachian healthcare system. During August and September of 2023, we implemented daily CHG bathing for all patients (of at least two months of age) who had central lin</description>
-    </item>
-    <item>
-      <title>ICU resilience, stress and support: perceptions of ICU professionals in an international ESICM survey.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42980817/</link>
-      <guid isPermaLink="false">pmid:42980817</guid>
-      <category>This Week</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Approaches to assessing functional outcome trajectories in old survivors of intensive care: a narrative review.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42981017/</link>
-      <guid isPermaLink="false">pmid:42981017</guid>
-      <category>This Week</category>
-      <description>Patients with critical conditions admitted to an intensive care unit (ICU) undergo one of the most extensive trials of resilience. In addition to considering survival as a crucial outcome, there is a growing awareness of the importance of recovering functional abilities in old ICU patients. In this narrative review, a group of geriatricians and intensivists will discuss previous studies and current approaches to assess functional trajectories in old ICU survivors with a focus on frailty, functio</description>
-    </item>
-    <item>
-      <title>Early Detection and Kinetics of Sepsis-Induced Coagulopathy in Severe Burn Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT07914205</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07914205</guid>
-      <category>Clinical Trial</category>
-      <description>Sepsis is a major and life-threatening complication in patients with severe burn injuries, frequently progressing to sepsis-induced coagulopathy (SIC) and disseminated intravascular coagulation (DIC). Early detection of coagulopathy in burn patients remains challenging due to the massive background inflammatory response triggered by the thermal injury itself. The primary objective of this prospective observational study is to evaluate the diagnostic performance and early kinetic trajectory (from</description>
-    </item>
-    <item>
-      <title>Treatment of ARDS With Instilled T3</title>
-      <link>https://clinicaltrials.gov/study/NCT04115514</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT04115514</guid>
-      <category>Clinical Trial</category>
-      <description>It is hypothesized that instillation of Liothyronine Sodium (T3) into the airspace will be safe, well tolerated, and will increase alveolar fluid clearance and decrease inflammation in patients with ARDS, reflected in improved oxygenation index (OI) and oxygenation saturation index (OSI).</description>
-    </item>
-    <item>
-      <title>Blood Flow Restriction Training for Mechanically Ventilated Patients With ICU-Acquired Weakness</title>
-      <link>https://clinicaltrials.gov/study/NCT07802743</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07802743</guid>
-      <category>Clinical Trial</category>
-      <description>Patients receiving mechanical ventilation in the intensive care unit (ICU) frequently develop ICU-acquired weakness - a condition marked by widespread muscle loss and weakness caused by prolonged bed rest, severe illness, and systemic inflammation. This complication can lengthen time on the ventilator, extend ICU stays, and lead to lasting physical disability. Standard rehabilitation therapies in the ICU have limited ability to slow muscle loss because critically ill patients cannot tolerate hig</description>
-    </item>
-    <item>
-      <title>Early Deresuscitation Strategy Driven by Tissue Perfusion in Renal Replacement Therapy in Patients With Acute Renal Failure</title>
-      <link>https://clinicaltrials.gov/study/NCT05817539</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05817539</guid>
-      <category>Clinical Trial</category>
-      <description>In Intensive Care Unit (ICU) patients with acute kidney injury (AKI) and treated with renal replacement therapy (RRT) often present a fluid overload which is associated with morbidity (mechanical ventilation duration increase, kidney recovery decrease) and mortality. Patients' prognostic could be improved by correcting the fluid overload with net ultrafiltration (UFnet) however it may lead to harmful iatrogenic hypovolemia responsible of deleterious ischemic lesions. In usual practice, UF net pr</description>
-    </item>
-    <item>
-      <title>Respiratory Distress and Elective Cesarean Section at Term</title>
-      <link>https://clinicaltrials.gov/study/NCT06874478</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06874478</guid>
-      <category>Clinical Trial</category>
-      <description>Cesarean section is a life-saving surgical operation for women and their newborns. In Egypt, caesarean sections are over-utilized. The rate increased from 27.6 % in 2008 to 51.8 % in 2014, reaching 72.2 % in 2021. Cesarean section has been associated with an increased risk of adverse respiratory outcomes in newborns. Studies have shown a higher risk of neonatal respiratory distress syndrome in babies born by elective cesarean section, especially at 37 and 38 weeks' gestation. Neonatal respirator</description>
-    </item>
-    <item>
-      <title>PF-Organized Corticosteroid-Associated Heterogeneity in Sepsis</title>
-      <link>https://clinicaltrials.gov/study/NCT07913464</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07913464</guid>
-      <category>Clinical Trial</category>
-      <description>This retrospective multicohort observational study evaluates whether the PaO2/FiO2 ratio (P/F ratio) organizes heterogeneity in the association between early systemic corticosteroid exposure and mortality among critically ill patients with sepsis. The study uses one internal critical-care cohort (ICCA) and two external critical-care databases (MIMIC and eICU). Analyses include internal discovery, broad external testing, reconstruction of external cohorts toward vasopressor-anchored shock-decisio</description>
-    </item>
-    <item>
-      <title>Combined Predictive Value of RSBI and CALLY Index in Predicting Weaning Success in ICU Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT07571317</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07571317</guid>
-      <category>Clinical Trial</category>
-      <description>The primary objective of this prospective observational study is to evaluate the effectiveness of combining the Rapid Shallow Breathing Index (RSBI) and CRP-Albumin-Lymphocyte (CALLY) index to predict weaning success in adult patients within the intensive care unit. While weaning from mechanical ventilation is a critical clinical step, existing physiological metrics like RSBI do not fully capture a patient's inflammatory or nutritional status. This research introduces the CALLY index calculated </description>
-    </item>
-    <item>
-      <title>Physiologic, Metabolic, and Protein Redox Effects of Methylene Blue in a Porcine Hemorrhage Model.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42975405/</link>
-      <guid isPermaLink="false">pmid:42975405</guid>
-      <category>This Week</category>
-      <description>Methylene blue (MB) has established benefit in vasodilatory shock, and a potential role in hemorrhagic shock. Some evidence suggests that MB could lower anesthetic requirements. The aim of this study was to investigate the effect of MB on volatile anesthetic requirements (primary), metabolic markers (secondary), and protein redox modifications (tertiary) in a porcine hemorrhage model. This was a randomized 2 x 2 factorial animal study conducted at a tertiary medical center in 2019-2020. Forty sw</description>
-    </item>
-    <item>
-      <title>EXPRESS: Comparing hypertonic saline and mannitol for management of elevated intracranial pressure in adults: A PRISMA-compliant systematic review and meta-analysis.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42978144/</link>
-      <guid isPermaLink="false">pmid:42978144</guid>
-      <category>This Week</category>
-      <description>This systematic review and meta-analysis aimed to compare the efficacy of mannitol and hypertonic saline (HTS) in reducing elevated intracranial pressure (ICP). We conducted a comprehensive search of multiple databases to identify eligible trials comparing HTS and mannitol in adults with elevated ICP; only studies that used ICP monitoring to obtain objective measurements were included. The primary outcome was the change in ICP at different time points, and secondary outcomes included changes in </description>
-    </item>
-    <item>
-      <title>Real-world outcomes of continuous infusion of sedative agents in critically ill patients with invasive mechanical ventilation.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42976438/</link>
-      <guid isPermaLink="false">pmid:42976438</guid>
-      <category>This Week</category>
-      <description>Current guidelines recommend non-benzodiazepine (non-BZD) sedatives -dexmedetomidine (DEX) and propofol (PPF) - over benzodiazepines (BZD) in mechanically ventilated critically ill patients, but real-world evidence from Asian patients remains limited. We evaluated the clinical outcomes of different continuous-infusion sedatives in this population in Taiwan. This retrospective cohort study used electronic health records from a tertiary medical center in Taiwan. Adults receiving continuous intrave</description>
-    </item>
-    <item>
-      <title>Effect of Diaphragmatic Neuromuscular Electrical Stimulation on Diaphragm Function and Clinical Outcomes in ICU Mechanically Ventilated Patients: A Meta-analysis and Systematic Review.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42973384/</link>
-      <guid isPermaLink="false">pmid:42973384</guid>
-      <category>This Week</category>
-      <description>To evaluate the effects of diaphragmatic neuromuscular electrical stimulation (DNMES) on diaphragmatic function and clinical outcomes in mechanically ventilated patients in the intensive care unit (ICU). We searched major databases to May 2026 for RCTs. Two reviewers independently screened studies, extracted data, assessed bias, and performed meta-analysis; GRADE assessed evidence certainty. Nineteen RCTs (1,437 patients) were included. Meta-analysis showed that DNMES significantly improved diap</description>
-    </item>
-    <item>
-      <title>Contemporary management of severe generalized tetanus: an evidence-based review.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42975860/</link>
-      <guid isPermaLink="false">pmid:42975860</guid>
-      <category>This Week</category>
-      <description>Severe generalized tetanus remains associated with substantial mortality despite being vaccine preventable. Management is complicated by limited high-quality evidence, conflicting trial results, and the need to balance effective control of spasms and autonomic dysfunction against the risks of prolonged mechanical ventilation. We describe the management of a 57-year-old man with Ablett grade III generalized tetanus and use this case as a clinical framework for an expert narrative review. The revi</description>
-    </item>
-    <item>
-      <title>Practice variation in mechanical circulatory support: a cross-sectional questionnaire survey of Japanese interventional cardiologists in the CVIT Kyushu-Okinawa chapter.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42975800/</link>
-      <guid isPermaLink="false">pmid:42975800</guid>
-      <category>This Week</category>
-      <description>Mechanical circulatory support (MCS) practice for cardiogenic shock may vary with institutional resources and operator experience, but data from Japanese interventional cardiologists are limited. We conducted an anonymous cross-sectional survey of 720 members of 83 Japanese Association of Cardiovascular Intervention and Therapeutics (CVIT)-certified or affiliated training hospitals in the CVIT Kyushu-Okinawa Chapter (September-October 2025); 536 returned questionnaires (74.4%), and consent was c</description>
-    </item>
-    <item>
-      <title>Network Trauma Research Series: Modeling Trauma Complexity - In Vitro Models to Study Traumatic Lung Damage.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42975427/</link>
-      <guid isPermaLink="false">pmid:42975427</guid>
-      <category>This Week</category>
-      <description>Polytrauma, defined as severe injury to multiple body regions, frequently affects the head and thorax and induces a systemic immune response that can favor secondary infections such as pneumonia. In particular, thoracic trauma substantially increases the risk of post-traumatic pneumonia, as direct lung injury, impaired respiratory function, and the frequent need for mechanical ventilation predispose patients to pulmonary infections, thereby contributing to adverse clinical outcomes. To improve t</description>
-    </item>
-    <item>
-      <title>Can full-stay lactate burden predict ICU mortality? The importance of a defined prediction time.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42972481/</link>
-      <guid isPermaLink="false">pmid:42972481</guid>
-      <category>This Week</category>
-      <description>Deininger and colleagues reported that time-weighted average lactate calculated over the entire intensive care stay was strongly associated with mortality after traumatic brain injury. This finding supports full-stay TWAL as a summary of sustained lactate exposure; however, because the measure cannot be finalized before death or discharge, it does not establish prospective prognostic performance from a predefined, clinically actionable time. The 72-h analysis also represents conditional prognosi</description>
-    </item>
-    <item>
-      <title>Reply to the comment by Kuzukıran Kocataş on &quot;Can full-stay lactate burden predict ICU mortality? The importance of a defined prediction time&quot;.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42972451/</link>
-      <guid isPermaLink="false">pmid:42972451</guid>
-      <category>This Week</category>
-      <description>We respond to the comment on lo​ngitudinal lactate indices after traumatic brain injury. Full-stay time-weighted average lactate characterizes longitudinal lactate exposure over the intensive care unit stay but is unavailable at an earlier prediction time. Additional post hoc 72 h landmark analyses showed modest discrimination of subsequent 14-day intensive care mortality among eligible patients. Paired comparisons demonstrated similar full-stay discrimination for time-weighted and arithmetic me</description>
-    </item>
-    <item>
-      <title>Brain Tissue Oxygenation in the Contralateral Hemisphere of Critically Ill Patients with Spontaneous Intracerebral Hemorrhage: A Prospective Observational Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42980976/</link>
-      <guid isPermaLink="false">pmid:42980976</guid>
-      <category>This Week</category>
-      <description>Brain tissue oxygen pressure (PbtO2) monitoring is increasingly used in neurocritical care, but whether PbtO2 provides complementary information beyond conventional parameters such as intracranial pressure (ICP) and cerebral perfusion pressure (CPP) in spontaneous intracerebral hemorrhage (ICH) is unclear. We conducted a prospective, single-center observational cohort study in a dedicated neurocritical care unit between January 2021 and March 2023. Adult patients with spontaneous ICH requiring i</description>
-    </item>
-    <item>
-      <title>Brachial-to-Radial Arterial Pressure Gradient: Implications for Clinical Practice.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42975432/</link>
-      <guid isPermaLink="false">pmid:42975432</guid>
-      <category>This Week</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Selective Lipopolysaccharide Hemosorption in Maternal Sepsis</title>
-      <link>https://clinicaltrials.gov/study/NCT05711901</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05711901</guid>
-      <category>Clinical Trial</category>
-      <description>One of the major health problems in the world is sepsis, the number of cases of which, according to WHO, annually reaches 20-30 million. The prevalence and frequency of obstetric sepsis are quite pronounced. Thus, in Europe, up to 500,000 cases of sepsis are registered annually. In Russia, the frequency of obstetric purulent-inflammatory diseases in the structure of maternal mortality ranges from 5 to 26%, according to some data - up to 45-75%. In the structure of maternal mortality, this pathol</description>
     </item>
   </channel>
 </rss>
