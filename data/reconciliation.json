@@ -1,18 +1,18 @@
 {
- "generated_at": "2026-11-06T10:06:13+00:00",
+ "generated_at": "2026-11-07T09:26:21+00:00",
  "stages": {
-  "discovered": 2514,
-  "retrieved": 2514,
-  "stored": 2166,
-  "verification_record": 2166,
-  "displayed": 717
+  "discovered": 2589,
+  "retrieved": 2589,
+  "stored": 2236,
+  "verification_record": 2236,
+  "displayed": 724
  },
  "explained": {
-  "rejected": 348,
+  "rejected": 353,
   "duplicate": 0,
   "pending_retry": 0,
-  "awaiting_verification": 750,
-  "not_in_public_feed_by_policy": 711
+  "awaiting_verification": 780,
+  "not_in_public_feed_by_policy": 744
  },
  "discrepancies": [],
  "unrecoverable": 0,
