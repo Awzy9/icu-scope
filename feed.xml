@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sat, 07 Nov 2026 09:26:21 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 09:45:18 +0000</lastBuildDate>
     <item>
       <title>Serious Adverse Events in Adult ICU Patients: A Substudy of the PATIENCE Cohort.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42963077/</link>
@@ -193,6 +193,27 @@
       <guid isPermaLink="false">pmid:42993667</guid>
       <category>Respiratory</category>
       <description>Mechanical ventilation (MV) is essential for intensive care unit (ICU) patients with respiratory failure, but prolonged MV increases the risk of complications. This study was conducted to evaluate the effect of infection-site-targeted postural drainage, guided by imaging, on patient outcomes compared with conventional care. In this randomized controlled trial, 384 ICU patients requiring MV were assigned to either the personalized-care group (PCG), which received imaging-guided drainage, or the r</description>
+    </item>
+    <item>
+      <title>Living with mechanical ventilation: A grounded theory study of patients' experiences in the intensive care unit.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42998595/</link>
+      <guid isPermaLink="false">pmid:42998595</guid>
+      <category>This Week</category>
+      <description>Mechanical ventilation (MV) is an essential life-sustaining intervention in intensive care units (ICU). However, beyond its physiological benefits, patients frequently experience profound physical dependence, communication barriers, and emotional distress. Understanding these experiences is essential to inform person-centred nursing care and humanisation strategies in critical care settings. The aim of this study was to explore the experiences of patients receiving invasive MV, identify the mean</description>
+    </item>
+    <item>
+      <title>The efficacy and safety of micronutrient complementation in adults during the acute phase of critical illness: A retrospective cohort study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42998837/</link>
+      <guid isPermaLink="false">pmid:42998837</guid>
+      <category>This Week</category>
+      <description>Critically ill patients often experience metabolic imbalances and potentially low micronutrient blood levels that worsen oxidative stress and impair immune function. Despite guideline recommendations, micronutrient complementation is inconsistently applied due to accessibility issues and the lack of validated assessment tools during acute critical illness. This retrospective cohort study evaluated the impact of early intravenous micronutrient complementation on clinical outcomes in ICU patients </description>
+    </item>
+    <item>
+      <title>Development and Feasibility of In Situ Simulation for Pressure Injury Prevention in Intensive Care.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42998056/</link>
+      <guid isPermaLink="false">pmid:42998056</guid>
+      <category>This Week</category>
+      <description>To develop, validate and test in situ simulation scenarios aimed at pressure injury (PI) prevention for nursing professionals working in an intensive care unit (ICU). A multi-method study is planned across four phases. Conducted at a high-complexity Brazilian university hospital, this four-phase study: (1) development of simulation scenarios and checklists; (2) content validation by 11 experts (CVI/MKC); (3) pilot testing with 12 nursing professionals; and (4) ICU-based educational intervention.</description>
     </item>
     <item>
       <title>The Case of the Vanishing Premise</title>
@@ -403,27 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06584097</guid>
       <category>Clinical Trial</category>
       <description>To compare the performance of the Eleveld models for propofol and remifentanil on neurosurgery patients admitted to intensive care with their intraoperative performance.</description>
-    </item>
-    <item>
-      <title>Predicting Extubation Failure Using Machine Learning</title>
-      <link>https://clinicaltrials.gov/study/NCT07918924</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07918924</guid>
-      <category>Clinical Trial</category>
-      <description>The goal of this observational study is to predict who will have problems after the breathing tube is removed. Taking out the tube is called extubation, and having these problems is called extubation failure. Participants are adults in the intensive care unit (ICU) who use a breathing machine (ventilator). The main questions it aims to answer are: * How well can computer tools predict problems in the 7 days after the tube is removed? * Which information, such as age or blood tests, matters most </description>
-    </item>
-    <item>
-      <title>Renal Replacement Anticoagulant Management</title>
-      <link>https://clinicaltrials.gov/study/NCT03545750</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT03545750</guid>
-      <category>Clinical Trial</category>
-      <description>Observational comparative effectiveness study of individual patient data using interrupted time series analysis techniques of linked data sources to establish clinical and health economic effects of moving from systemic heparin anticoagulation to regional citrate anticoagulation during continuous renal replacement therapy (CRRT) for patients treated on non-specialist Intensive Care Units (ICUs) in England and Wales.</description>
-    </item>
-    <item>
-      <title>Fever Observational Study</title>
-      <link>https://clinicaltrials.gov/study/NCT03028818</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT03028818</guid>
-      <category>Clinical Trial</category>
-      <description>To inform the feasibility of conducting a study to test different temperature thresholds at which clinicians deliver interventions to reduce fever (i.e. antipyretic interventions) in critically ill children with fever due to infection.</description>
     </item>
   </channel>
 </rss>
