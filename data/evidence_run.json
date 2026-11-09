@@ -1,26 +1,27 @@
 {
  "command": "fetch",
- "finished_at": "2026-11-08T09:45:18+00:00",
- "duration_s": 291.9,
- "http_requests": 714,
+ "finished_at": "2026-11-09T10:37:09+00:00",
+ "duration_s": 183.7,
+ "http_requests": 718,
  "http_retries": 0,
  "source_errors": [],
  "stats": {
-  "records_created": 40,
-  "pending_review": 12,
-  "auto_published": 28,
+  "records_created": 17,
+  "auto_published": 10,
+  "pending_review": 7,
   "failed_verification": 1,
-  "held_back": 959,
+  "alerts": 3,
+  "held_back": 972,
   "study_type_harmonized": 22,
   "ai_failed_validation": 57,
-  "ai_auto_validated": 271
+  "ai_auto_validated": 270
  },
  "states": {
   "unverified": 15,
-  "pending_review": 834,
+  "pending_review": 841,
   "verified": 0,
-  "published": 2254,
-  "updated": 0,
+  "published": 2262,
+  "updated": 2,
   "under_investigation": 0,
   "retracted": 0,
   "archived": 2

@@ -1,1 +1,46 @@
-[]
+[
+ {
+  "ts": "2026-11-09T10:35:18+00:00",
+  "kind": "correction_or_update",
+  "content_id": "ev_e203946fb5f0",
+  "title": "Rocuronium dose and first-attempt intubation success in the critically ill: secondary analysis of two multicenter trials.",
+  "pmid": "42149702",
+  "doi": "10.1093/ajrccm/aamag203",
+  "detail": "correction",
+  "derived_content": [
+   "displayed in: categories/procedures-pocus",
+   "AI summary / appraisal (data/ai_cache.json)",
+   "possible spotlight / cache key pmid:42149702"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-09T10:35:42+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_0b6ccb10d0f2",
+  "title": "EXPRESS: Association of Systemic Immune-inflammation Index and Systemic Inflammation Response Index with All-cause Mortality in the Critically Ill Population with Coronary Heart Disease and Heart Failure - A Study Based on the MIMIC-IV Database.",
+  "pmid": "42844743",
+  "doi": "10.1177/10815589261497360",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/respiratory",
+   "possible spotlight / cache key pmid:42844743"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-09T10:35:54+00:00",
+  "kind": "correction_or_update",
+  "content_id": "ev_189e4752099b",
+  "title": "Interpretable machine learning predicts successful weaning and ICU discharge alive following prone positioning ventilation in moderate-to-severe acute respiratory distress syndrome (ARDS) secondary to pneumonia.",
+  "pmid": "42855084",
+  "doi": "10.1016/j.rmed.2026.109201",
+  "detail": "correction",
+  "derived_content": [
+   "displayed in: categories/respiratory",
+   "displayed in: categories/infectious-sepsis",
+   "possible spotlight / cache key pmid:42855084"
+  ],
+  "notified": false
+ }
+]

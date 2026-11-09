@@ -472,10 +472,6 @@
     "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
     "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
   },
-  "pmid:42149702": {
-    "summary": "Researchers analyzed data from 2 large studies to see if a higher dose of rocuronium helped patients get intubated on the first try in the ICU. They found that a higher dose of rocuronium was associated with a slightly higher chance of successful intubation on the first attempt, especially in the ICU. This difference was not seen in emergency department intubations.",
-    "significance": "This study's findings suggest that using a higher dose of rocuronium may improve intubation success rates in the ICU, but more research is needed to confirm this and to understand the potential benefits and risks."
-  },
   "pmid:42233727": {
     "key_stats": "n=11,176 (development cohort), n=1,127 (temporal validation cohort), AUROC 0.856-0.960, AUPRC 0.302-0.786, p-values not reported",
     "summary": "Researchers developed and validated a machine learning system that generates hourly predictions for ICU outcomes, such as mortality and discharge. The system was integrated into the electronic medical record and showed strong performance in a single-center study. The system was maintained with automated updates and visualizations.",

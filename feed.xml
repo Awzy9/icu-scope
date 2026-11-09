@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sun, 08 Nov 2026 09:45:18 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 10:37:09 +0000</lastBuildDate>
     <item>
       <title>Serious Adverse Events in Adult ICU Patients: A Substudy of the PATIENCE Cohort.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42963077/</link>
@@ -18,6 +18,13 @@
       <guid isPermaLink="false">pmid:42983226</guid>
       <category>General Critical Care</category>
       <description>Hypernatremia is frequent in the intensive care unit (ICU) and is associated with adverse outcomes. Despite its prevalence, robust evidence to guide treatment is lacking, and global practice patterns are largely unknown. We investigated global treatment preferences and clinicians' willingness to enroll patients in a randomized trial to inform its feasibility. This international cross-sectional online survey comprised 20 primarily closed-ended questions, using five-point Likert-scale responses, a</description>
+    </item>
+    <item>
+      <title>Streamlining the Evidence-to-Practice Pathway With Computerised Decision Support in Anaesthesiology and Critical Care: A Qualitative Study of Clinician and System-Level Interest Holder Perspectives Across Five Scandinavian Countries.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43000120/</link>
+      <guid isPermaLink="false">pmid:43000120</guid>
+      <category>General Critical Care</category>
+      <description>Implementing evidence-based recommendations in anaesthesiology and critical care remains challenging due to guideline, workflow and contextual barriers. Guideline-based computerised clinical decision support systems (CDSS), embedded in structured pathways linking international guidelines to Scandinavian-endorsed recommendations and delivered via electronic health records, may help strengthen the evidence-to-practice pathway. This study aimed to explore perceived barriers and facilitators to thei</description>
     </item>
     <item>
       <title>Endpoint-specific mortality associated with malignancy among adults with sepsis or septic shock: a systematic review and meta-analysis.</title>
@@ -191,8 +198,15 @@
       <title>Effect of Infection-Site-Targeted Postural Drainage on Mechanical Ventilation Duration in Intensive Care Unit Patients: A Randomized Controlled Trial.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42993667/</link>
       <guid isPermaLink="false">pmid:42993667</guid>
-      <category>Respiratory</category>
+      <category>This Week</category>
       <description>Mechanical ventilation (MV) is essential for intensive care unit (ICU) patients with respiratory failure, but prolonged MV increases the risk of complications. This study was conducted to evaluate the effect of infection-site-targeted postural drainage, guided by imaging, on patient outcomes compared with conventional care. In this randomized controlled trial, 384 ICU patients requiring MV were assigned to either the personalized-care group (PCG), which received imaging-guided drainage, or the r</description>
+    </item>
+    <item>
+      <title>Efficacy Heterogeneity of Hemoperfusion Plus Continuous Venovenous Hemofiltration for Hypertriglyceridemia-Induced Acute Pancreatitis Stratified by Severity of Inflammatory Response.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43000034/</link>
+      <guid isPermaLink="false">pmid:43000034</guid>
+      <category>This Week</category>
+      <description>This study aimed to investigate the heterogeneity in the efficacy of hemoperfusion (HP) plus continuous venovenous hemofiltration (CVVH) versus CVVH alone in reducing the incidence of severe acute pancreatitis (SAP) among patients with hypertriglyceridemia-induced acute pancreatitis (HTG-AP), stratified by the inflammatory marker C-reactive protein (CRP). In addition, we assessed secondary outcomes encompassing laboratory response, disease severity and organ function, healthcare resource utiliza</description>
     </item>
     <item>
       <title>Living with mechanical ventilation: A grounded theory study of patients' experiences in the intensive care unit.</title>
@@ -410,20 +424,6 @@
       <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07920497</guid>
       <category>Clinical Trial</category>
       <description>The purpose of this study is to learn whether weighted blankets help reduce agitation, such as restlessness or excessive movement, in adults in an intensive care unit (ICU). Researchers will compare a weighted blanket with a standard blanket and usual comfort measures. They will also examine safety and the use of medicines given as needed to manage agitation or anxiety. After a three-patient pilot to test study procedures, 197 adults will be assigned by chance to one of two groups. One group wil</description>
-    </item>
-    <item>
-      <title>REspiratory MEchanics for Delivering Individualised Exogenous Surfactant</title>
-      <link>https://clinicaltrials.gov/study/NCT05791331</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05791331</guid>
-      <category>Clinical Trial</category>
-      <description>This study is an interventional, non-pharmacological, multicentric, randomized, controlled, superiority, non-profit study. Its primary objective is to evaluate if the administration of surfactant based on FOT assessment will allow a 5-day reduction in the duration of respiratory support as compared to standard practice in preterm infants between 27+0 and 32+6 weeks' gestation. The secondary objectives are: 1. to determine if a lung mechanics-based approach for administering surfactant will chang</description>
-    </item>
-    <item>
-      <title>COMparative Performance of General Purpose Models</title>
-      <link>https://clinicaltrials.gov/study/NCT06584097</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06584097</guid>
-      <category>Clinical Trial</category>
-      <description>To compare the performance of the Eleveld models for propofol and remifentanil on neurosurgery patients admitted to intensive care with their intraoperative performance.</description>
     </item>
   </channel>
 </rss>
