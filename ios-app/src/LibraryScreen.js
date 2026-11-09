@@ -1,11 +1,11 @@
 import { useMemo, useState } from "react";
 import { FlatList, Linking, Pressable, Share, StyleSheet, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { Empty, tap } from "./components";
+import { Empty, ScreenTitle, tap } from "./components";
 import { dueKeys, readingLogCsv, readingStreak, readsThisWeek } from "./studyTools";
 import { SavedScreen } from "./screens";
 import { useStore } from "./store";
-import { useTheme } from "./theme";
+import { radius, space, useCardStyle, useTheme } from "./theme";
 
 const PARTS = [
   { value: "saved", label: "Saved" },
@@ -15,6 +15,7 @@ const PARTS = [
 
 function NotesView({ navigation }) {
   const t = useTheme();
+  const cardStyle = useCardStyle();
   const { notes } = useStore();
   const items = useMemo(() => Object.values(notes).sort((a, b) => b.at - a.at), [notes]);
   return (
@@ -29,7 +30,7 @@ function NotesView({ navigation }) {
         <Pressable
           onPress={() => navigation.navigate("Detail", { article: item.article })}
           accessibilityRole="button"
-          style={[styles.card, { backgroundColor: t.surface, borderColor: t.border }]}
+          style={[styles.card, cardStyle]}
         >
           <Text style={{ color: t.text, fontWeight: "700", fontSize: 15.5 }} numberOfLines={2}>
             {item.article.title}
@@ -46,8 +47,9 @@ function NotesView({ navigation }) {
 
 function Stat({ value, label }) {
   const t = useTheme();
+  const cardStyle = useCardStyle();
   return (
-    <View style={[styles.stat, { backgroundColor: t.surface, borderColor: t.border }]}>
+    <View style={[styles.stat, cardStyle]}>
       <Text style={{ color: t.accent, fontSize: 24, fontWeight: "800" }}>{value}</Text>
       <Text style={{ color: t.textMuted, fontSize: 12.5 }}>{label}</Text>
     </View>
@@ -56,6 +58,7 @@ function Stat({ value, label }) {
 
 function LogView() {
   const t = useTheme();
+  const cardStyle = useCardStyle();
   const { log, settings } = useStore();
   const rows = useMemo(() => Object.values(log).sort((a, b) => b.at - a.at), [log]);
   const week = readsThisWeek(log);
@@ -90,7 +93,7 @@ function LogView() {
         <Pressable
           onPress={() => item.url && Linking.openURL(item.url)}
           accessibilityRole="link"
-          style={[styles.card, { backgroundColor: t.surface, borderColor: t.border }]}
+          style={[styles.card, cardStyle]}
         >
           <Text style={{ color: t.textMuted, fontSize: 12.5 }}>
             {new Date(item.at).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric", year: "numeric" })}
@@ -108,7 +111,7 @@ function LogView() {
 // The Saved tab: saved articles and collections, notes, and the reading log.
 export default function LibraryScreen({ navigation, route }) {
   const t = useTheme();
-  const { deck, notes, log } = useStore();
+  const { deck, notes, log, saved } = useStore();
   const [part, setPart] = useState("saved");
   const due = dueKeys(deck).length;
   const deckSize = Object.keys(deck).length;
@@ -116,6 +119,10 @@ export default function LibraryScreen({ navigation, route }) {
 
   return (
     <View style={{ flex: 1 }}>
+      <ScreenTitle
+        title="Library"
+        subtitle={`${saved.length} saved · ${counts.notes} ${counts.notes === 1 ? "note" : "notes"} · ${counts.log} read`}
+      />
       <View style={styles.top}>
         <View style={[styles.segmented, { backgroundColor: t.surfaceSoft }]}>
           {PARTS.map((p) => {
@@ -145,9 +152,14 @@ export default function LibraryScreen({ navigation, route }) {
           style={[styles.deck, { backgroundColor: t.accentSoft }]}
         >
           <Ionicons name="albums-outline" size={18} color={t.accent} />
-          <Text style={{ color: t.accent, fontWeight: "700", flex: 1 }}>
-            {deckSize ? `Flashcards: ${due} due of ${deckSize}` : "Flashcards: build a deck from your saved articles"}
+          <Text style={{ color: t.accent, fontWeight: "700", flex: 1 }} numberOfLines={1}>
+            {deckSize ? "Flashcards" : "Build a flashcard deck"}
           </Text>
+          {deckSize ? (
+            <View style={[styles.dueBadge, { backgroundColor: due ? t.accent : t.surface }]}>
+              <Text style={{ color: due ? "#fff" : t.textMuted, fontWeight: "800", fontSize: 12.5 }}>{due ? `${due} due` : "All caught up"}</Text>
+            </View>
+          ) : null}
           <Ionicons name="chevron-forward" size={16} color={t.accent} />
         </Pressable>
       </View>
@@ -159,12 +171,13 @@ export default function LibraryScreen({ navigation, route }) {
 }
 
 const styles = StyleSheet.create({
-  top: { paddingHorizontal: 16, paddingTop: 8, gap: 10 },
+  top: { paddingHorizontal: space.lg, paddingTop: 2, paddingBottom: space.sm, gap: space.sm },
   segmented: { flexDirection: "row", borderRadius: 12, padding: 3 },
   segment: { flex: 1, alignItems: "center", paddingVertical: 9, borderRadius: 10 },
-  deck: { flexDirection: "row", alignItems: "center", gap: 8, borderRadius: 12, paddingHorizontal: 14, paddingVertical: 11 },
-  card: { borderRadius: 16, borderWidth: StyleSheet.hairlineWidth, padding: 14, gap: 6 },
+  deck: { flexDirection: "row", alignItems: "center", gap: 8, borderRadius: radius.md, paddingHorizontal: 14, paddingVertical: 11 },
+  dueBadge: { borderRadius: 999, paddingHorizontal: 10, paddingVertical: 4 },
+  card: { borderRadius: radius.lg, padding: space.lg, gap: 6 },
   stats: { flexDirection: "row", gap: 10 },
-  stat: { flex: 1, borderRadius: 14, borderWidth: StyleSheet.hairlineWidth, padding: 12, alignItems: "center", gap: 2 },
+  stat: { flex: 1, borderRadius: radius.md, padding: 12, alignItems: "center", gap: 2 },
   export: { flexDirection: "row", gap: 8, alignItems: "center", justifyContent: "center", borderRadius: 14, paddingVertical: 14 },
 });
