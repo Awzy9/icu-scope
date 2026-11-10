@@ -42,5 +42,34 @@
    "possible spotlight / cache key pmid:42855084"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-10T10:37:11+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_39b837de53a7",
+  "title": "Octreotide Plus Proton pump inhibitor (PPI) versus PPI alone in Non-Variceal Upper gastrointestinal (GI) Bleeding in intensive care unit (ICU): A Multi-Center Randomized Trial.",
+  "pmid": "42892527",
+  "doi": "10.1016/j.amjms.2026.10.005",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/respiratory",
+   "displayed in: categories/hematology-coag",
+   "possible spotlight / cache key pmid:42892527"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-10T10:37:44+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_4d58defd6b6a",
+  "title": "'Pharmacokinetics, target attainment and outcomes of piperacillin/tazobactam in critically ill patients receiving continuous infusion with therapeutic drug monitoring: a retrospective analysis' - Author's reply.",
+  "pmid": "42901379",
+  "doi": "10.1016/j.cmi.2026.10.010",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:42901379"
+  ],
+  "notified": false
  }
 ]
