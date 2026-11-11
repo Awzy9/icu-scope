@@ -71,5 +71,18 @@
    "possible spotlight / cache key pmid:42901379"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-11T10:09:13+00:00",
+  "kind": "approved_content_changed",
+  "content_id": "ev_4673ca4f07fc",
+  "title": "Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV",
+  "pmid": "",
+  "doi": "",
+  "detail": "Source text/title/DOI changed; approved version retained pending review",
+  "derived_content": [
+   "AI summary / appraisal (data/ai_cache.json)"
+  ],
+  "notified": false
  }
 ]

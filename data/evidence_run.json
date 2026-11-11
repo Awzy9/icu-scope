@@ -1,27 +1,31 @@
 {
  "command": "fetch",
- "finished_at": "2026-11-10T10:40:22+00:00",
- "duration_s": 316.7,
- "http_requests": 716,
- "http_retries": 0,
- "source_errors": [],
+ "finished_at": "2026-11-11T10:11:26+00:00",
+ "duration_s": 761.7,
+ "http_requests": 717,
+ "http_retries": 13,
+ "source_errors": [
+  {
+   "host": "www.ebi.ac.uk",
+   "reason": "TimeoutError: The read operation timed out"
+  }
+ ],
  "stats": {
-  "records_created": 61,
-  "auto_published": 41,
-  "pending_review": 19,
-  "failed_verification": 6,
-  "alerts": 2,
-  "held_back": 995,
+  "alerts": 1,
+  "records_created": 84,
+  "auto_published": 51,
+  "pending_review": 35,
+  "held_back": 1034,
   "not_promoted": 1,
-  "study_type_harmonized": 25,
+  "study_type_harmonized": 26,
   "ai_failed_validation": 57,
   "ai_auto_validated": 270
  },
  "states": {
-  "unverified": 16,
-  "pending_review": 860,
+  "unverified": 14,
+  "pending_review": 895,
   "verified": 0,
-  "published": 2303,
+  "published": 2354,
   "updated": 2,
   "under_investigation": 0,
   "retracted": 0,
