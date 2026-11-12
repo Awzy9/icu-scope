@@ -22,6 +22,8 @@ const light = {
   amberSoft: "#fdf0dc",
   rose: "#c2410c",
   roseSoft: "#fde9e1",
+  red: "#b42318",
+  redSoft: "#fdeceb",
   gradient: ["#0b3d91", "#1769d1", "#0c9a96"],
 };
 
@@ -45,6 +47,8 @@ const dark = {
   amberSoft: "#35290e",
   rose: "#fb8a5c",
   roseSoft: "#3a1f14",
+  red: "#ff8a80",
+  redSoft: "#3a1614",
   gradient: ["#0b3d91", "#1769d1", "#0c9a96"],
 };
 

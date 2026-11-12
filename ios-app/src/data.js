@@ -1,5 +1,6 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { clearFullTextCache } from "./readerText";
+import { sanitizeFeed } from "./trust";
 
 const FEED_URL = "https://icu-scope.vercel.app/data/articles.json";
 const FETCH_TIMEOUT_MS = 15000;
@@ -17,12 +18,12 @@ export async function loadFeed() {
     const res = await fetch(FEED_URL, { cache: "no-cache", signal: ctrl.signal });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const text = await res.text();
-    const feed = JSON.parse(text);
+    const feed = sanitizeFeed(JSON.parse(text));
     AsyncStorage.setItem(CACHE_KEY, text).catch(() => {});
     return { feed, offline: false };
   } catch (err) {
     const cached = await AsyncStorage.getItem(CACHE_KEY).catch(() => null);
-    if (cached) return { feed: JSON.parse(cached), offline: true };
+    if (cached) return { feed: sanitizeFeed(JSON.parse(cached)), offline: true };
     throw err.name === "AbortError" ? new Error("Request timed out") : err;
   } finally {
     clearTimeout(timer);

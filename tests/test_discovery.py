@@ -291,6 +291,14 @@ class TestReconciliation(Base):
         kept, excl = dsync.apply_display_policy(arts, 5)
         self.assertEqual(len(kept), 5); self.assertTrue({"0", "1", "2"} <= {a["pmid"] for a in kept}); self.assertEqual(len(excl), 5); self.assertIn("display cap", excl[0][1])
 
+    def test_retracted_and_corrected_items_are_never_dropped_by_the_display_cap(self):
+        arts = [{"pmid": str(i), "title": "t", "pubdate": f"2026 Oct {1 + i % 28}", "study_type": "Study"} for i in range(12)]
+        notice = {"3", "7"}
+        kept, excl = dsync.apply_display_policy(arts, 4, pin=lambda a: a["pmid"] in notice)
+        self.assertTrue(notice <= {a["pmid"] for a in kept})                                       # pinned despite ranking last
+        self.assertEqual(len(kept), 4 + 2); self.assertEqual(len(excl), 12 - 6)
+        self.assertFalse(notice & {a["pmid"] for a, _ in excl})
+
     def test_stale_success_makes_status_degraded(self):
         e = self.eng(); e.finish(); e.state["last_success"] = "2026-10-01T00:00:00+00:00"
         st = dstatus.build_status(e, None, os.path.join(self.d, "s.json")); self.assertEqual(st["health"], "degraded")

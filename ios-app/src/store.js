@@ -14,6 +14,7 @@ import {
   persistSettings,
 } from "./data";
 import { usePersonal } from "./personal";
+import { overlayLive } from "./trust";
 
 const Ctx = createContext(null);
 export const useStore = () => useContext(Ctx);
@@ -110,7 +111,9 @@ export function StoreProvider({ children }) {
     loadCollections().then(setCollections);
   }, [load]);
 
-  const savedKeys = useMemo(() => new Set(saved.map(articleKey)), [saved]);
+  // Saved articles are stored as copies; overlay the live verification status so a later retraction/correction is never hidden.
+  const savedLive = useMemo(() => overlayLive(saved, feed), [saved, feed]);
+  const savedKeys = useMemo(() => new Set(savedLive.map(articleKey)), [savedLive]);
 
   const toggleSave = useCallback((a) => {
     setSaved((prev) => {
@@ -165,7 +168,7 @@ export function StoreProvider({ children }) {
     toggleInCollection,
     markUnread,
     markAllSeen,
-    settings, updateSettings, clearData, seen, markSeen, feed, offline, error, refreshing, refresh, saved, savedKeys, toggleSave,
+    settings, updateSettings, clearData, seen, markSeen, feed, offline, error, refreshing, refresh, saved: savedLive, savedKeys, toggleSave,
   };
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
 }

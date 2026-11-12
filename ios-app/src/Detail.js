@@ -3,7 +3,7 @@ import { Linking, Pressable, ScrollView, Share, StyleSheet, Text, View } from "r
 import { Ionicons } from "@expo/vector-icons";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { LinearGradient } from "expo-linear-gradient";
-import { Chip, tap } from "./components";
+import { Chip, EvidenceBanner, EvidenceChips, tap } from "./components";
 import ArticleTools from "./ArticleTools";
 import CollectionsSheet from "./Collections";
 import NoteBlock from "./NoteBlock";
@@ -11,6 +11,7 @@ import { articleKey } from "./data";
 import { IMPACT_LABELS, impactScore } from "./evidence";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
+import { DISCLAIMER, METHODS_URL, aiAllowed, aiLabel, practiceAllowed } from "./trust";
 
 const APPRAISAL = [
   ["clinical_question", "Clinical question"],
@@ -86,12 +87,18 @@ export default function Detail({ article: a, saved, onToggleSave }) {
   const shownAuthors = authors.length > 5 ? `${authors.slice(0, 5).join(", ")} et al.` : authors.join(", ");
   const url = a.url || (a.doi ? `https://doi.org/${a.doi}` : null);
   const impact = impactScore(a);
-  const takeaway = a.ai_rounds_takeaway;
-  const summary = a.ai_summary || a.summary;
+  // Defence in depth: the feed is already sanitised, but AI text is only ever shown for a validated status, and the
+  // practice-oriented takeaway / appraisal bottom line only after editorial approval.
+  const aiOk = aiAllowed(a);
+  const takeaway = practiceAllowed(a) ? a.ai_rounds_takeaway : null;
+  const summary = (aiOk ? a.ai_summary : null) || a.summary;
+  const appraisal = aiOk && a.ai_appraisal ? a.ai_appraisal : null;
+  const hasAi = aiOk && !!(a.ai_summary || a.ai_significance || a.ai_key_stats || a.ai_appraisal);
 
   return (
     <View style={{ flex: 1 }}>
       <ScrollView contentContainerStyle={[styles.wrap, { paddingBottom: 110 + insets.bottom }]} contentInsetAdjustmentBehavior="automatic">
+        <EvidenceBanner article={a} />
         <View style={styles.chips}>
           {a.study_type ? <Chip label={a.study_type} tone="accent" /> : null}
           {a.is_top_journal ? <Chip label="Top journal" tone="amber" icon="ribbon" /> : null}
@@ -100,6 +107,7 @@ export default function Detail({ article: a, saved, onToggleSave }) {
           {impact ? <Chip label={IMPACT_LABELS[impact]} tone="teal" /> : null}
         </View>
 
+        <EvidenceChips article={a} />
         <Text style={[styles.title, { color: t.text }]} selectable>
           {a.title}
         </Text>
@@ -120,14 +128,19 @@ export default function Detail({ article: a, saved, onToggleSave }) {
           </LinearGradient>
         ) : null}
 
-        <Block title="In plain language" icon="chatbubble-ellipses-outline">{summary}</Block>
-        <Block title="Why it matters" icon="trending-up">{a.ai_significance}</Block>
-        <Block title="Key stats" icon="stats-chart">{a.ai_key_stats}</Block>
+        {hasAi ? (
+          <Text style={[styles.aiNote, { color: t.textMuted }]} accessibilityRole="text">
+            ✨ {aiLabel(a)}. It interprets the abstract and is not the study’s own conclusion.
+          </Text>
+        ) : null}
+        <Block title={hasAi ? "In plain language (AI-assisted)" : "Summary"} icon="chatbubble-ellipses-outline">{summary}</Block>
+        <Block title="Why it matters (AI-assisted)" icon="trending-up">{aiOk ? a.ai_significance : null}</Block>
+        <Block title="Key stats (AI-assisted)" icon="stats-chart">{aiOk ? a.ai_key_stats : null}</Block>
 
-        {a.ai_appraisal
-          ? APPRAISAL.map(([k, label]) => (
-              <Block key={k} title={label} icon="checkmark-circle-outline">
-                {flat(a.ai_appraisal[k])}
+        {appraisal
+          ? APPRAISAL.filter(([k]) => k !== "bottom_line" || practiceAllowed(a)).map(([k, label]) => (
+              <Block key={k} title={`${label} (AI-assisted)`} icon="checkmark-circle-outline">
+                {flat(appraisal[k])}
               </Block>
             ))
           : null}
@@ -138,9 +151,10 @@ export default function Detail({ article: a, saved, onToggleSave }) {
         </Block>
         <NoteBlock key={`note-${a.pmid || a.url}`} article={a} />
         <ArticleTools article={a} />
-        <Text style={[styles.disclaimer, { color: t.textMuted }]}>
-          AI summaries and impact ratings (estimated from study design, journal and citations) are reading aids, not clinical advice. Always read the source paper.
-        </Text>
+        <Text style={[styles.disclaimer, { color: t.textMuted }]}>{DISCLAIMER} Impact ratings are estimated from study design, journal and citations.</Text>
+        <Pressable onPress={() => Linking.openURL(METHODS_URL)} accessibilityRole="link" hitSlop={8}>
+          <Text style={{ color: t.accent, fontWeight: "700", marginBottom: 6 }}>How ICU Scope verifies evidence</Text>
+        </Pressable>
         <Pressable
           onPress={() => {
             tap();
@@ -198,6 +212,7 @@ export default function Detail({ article: a, saved, onToggleSave }) {
 }
 
 const styles = StyleSheet.create({
+  aiNote: { fontSize: 12.5, lineHeight: 18, marginBottom: 8 },
   wrap: { padding: 18, gap: 12 },
   chips: { flexDirection: "row", flexWrap: "wrap", gap: 6 },
   title: { fontSize: 22, fontWeight: "800", lineHeight: 28, letterSpacing: -0.4 },
