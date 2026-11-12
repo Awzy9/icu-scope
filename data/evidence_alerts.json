@@ -84,5 +84,19 @@
    "AI summary / appraisal (data/ai_cache.json)"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-12T10:30:11+00:00",
+  "kind": "verification_failed",
+  "content_id": "ev_cf1c965d703f",
+  "title": "Characteristics and Outcomes of Patients Referred but Declined for ICU Admission in a Resource-Limited Setting in South Africa.",
+  "pmid": "42825612",
+  "doi": "10.1097/cce.0000000000001498",
+  "detail": "PMID 42825612 not found in PubMed",
+  "derived_content": [
+   "displayed in: categories/respiratory",
+   "possible spotlight / cache key pmid:42825612"
+  ],
+  "notified": false
  }
 ]
