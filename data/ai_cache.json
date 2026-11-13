@@ -107,12 +107,6 @@
     "weaknesses": "open-label design; primary endpoint not met",
     "bottom_line": "mNGS may improve health-related quality of life and reduce duration of mechanical ventilation and shock resolution in patients with sepsis or septic shock, but its effect on DOOR/RADAR score is uncertain."
   },
-  "pmid:42535902": {
-    "key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
-    "summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
-    "significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
-    "rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
-  },
   "pmid:42502162": {
     "clinical_question": "Does toothbrushing with chlorhexidine mouth rinse reduce the incidence of ventilator-associated pneumonia in PICU patients compared to routine oral care with chlorhexidine rinse?",
     "background": "Ventilator-associated pneumonia is a frequent and serious infection among mechanically ventilated children in pediatric intensive care units, with oral colonization playing a key role in its pathogenesis.",
@@ -143,34 +137,6 @@
     "weaknesses": "Limited generalizability due to UK-based study; no clear measure of intervention fidelity",
     "bottom_line": "A 6-week, multicomponent rehabilitation program did not improve health-related quality of life at 8 weeks in ICU survivors who required mechanical ventilation; clinicians should consider alternative interventions to improve outcomes in this population."
   },
-  "pmid:42467246": {
-    "summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
-    "significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery."
-  },
-  "pmid:42410654": {
-    "summary": "This study reviews the current limitations in critical care research due to syndromic diagnoses and proposes a pathway-level framework to translate omics insights into clinical trial design and bedside decision-making.",
-    "significance": "This framework has the potential to improve patient outcomes by enabling personalized treatment and more effective use of existing therapies in critical care settings."
-  },
-  "pmid:42337809": {
-    "summary": "This randomized controlled trial tested the sleep-promoting effects of suvorexant in patients recovering from cardiac surgery. Suvorexant did not improve sleep architecture or reduce delirium in these patients. The study found no significant differences in sleep quality, delirium incidence, or rescue medication use between suvorexant and placebo groups.",
-    "significance": "This study's findings are significant for ICU clinicians as they suggest that suvorexant may not be an effective treatment for improving sleep or reducing delirium in patients recovering from cardiac surgery."
-  },
-  "pmid:42332775": {
-    "summary": "Critically ill patients were given protein based on either their total body weight or fat-free mass. The study found that using fat-free mass-based dosing was associated with shorter ICU stays and fewer days on a ventilator, but not with a difference in mortality.",
-    "significance": "This study's findings suggest that adjusting protein dosing based on a patient's fat-free mass may be beneficial for critically ill patients, but further research is needed to confirm this."
-  },
-  "pmid:42321935": {
-    "summary": "This study looked at how well a kidney protection strategy was implemented in critically ill patients with acute kidney injury. They found that about a third of patients received the full strategy, and those who did had a higher rate of kidney recovery. The study also found a link between the number of strategy components implemented and better kidney outcomes.",
-    "significance": "This study is important for ICU clinicians because it highlights the need to implement a kidney protection strategy in critically ill patients with acute kidney injury to improve kidney recovery rates."
-  },
-  "pmid:42316318": {
-    "summary": "This study evaluated a nurse-led family participatory support intervention in ICU patients. The intervention significantly reduced the incidence of delirium and was associated with shorter hospital and ICU stays, lower hospitalization costs, and shorter durations of mechanical ventilation.",
-    "significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that a structured, nurse-led family participatory support intervention can improve patient outcomes and reduce costs without increasing risks."
-  },
-  "pmid:42267821": {
-    "summary": "This study tested the effectiveness of carbocisteine and hypertonic saline in reducing the duration of mechanical ventilation in critically ill patients with acute respiratory failure. Neither treatment significantly reduced ventilation time, but both were associated with adverse effects, including upper gastrointestinal bleeding with carbocisteine and bronchoconstriction and hypoxemia with hypertonic saline.",
-    "significance": "These findings suggest that carbocisteine and hypertonic saline should not be used in critically ill patients with acute respiratory failure, as they do not provide benefit and may cause harm. Clinicians should consider alternative treatments for this condition."
-  },
   "pmid:41841304": {
     "clinical_question": "Does a low-use wrist-strap physical restraint strategy reduce days alive without coma or delirium in critically ill patients receiving invasive mechanical ventilation?",
     "background": "The effect of wrist-strap physical restraints on outcomes in patients receiving mechanical ventilation in the ICU remains uncertain.",
@@ -190,9 +156,25 @@
     "summary": "This study discusses using transcranial Doppler ultrasonography to assess cerebral blood flow velocity and guide blood pressure management in patients with acute brain injury. Doppler-derived parameters can help identify pressure ranges that favor cerebral perfusion. This approach is part of a multimodal monitoring strategy.",
     "significance": "This matters for ICU clinical practice as it provides a noninvasive bedside method to optimize blood pressure management in patients with acute brain injury, potentially improving outcomes."
   },
+  "pmid:42467246": {
+    "summary": "This study reviewed rehabilitation strategies for critically ill patients with obesity, identifying three distinct phenotypes that influence outcomes. Targeted interventions, including respiratory, nutrition, and mobilization strategies, can mitigate complications and support functional recovery.",
+    "significance": "This study's findings highlight the importance of interprofessional collaboration and early rehabilitation in critically ill patients with obesity, emphasizing the need to address physiological, logistical, and psychosocial considerations to support equitable and functional recovery."
+  },
+  "pmid:42410654": {
+    "summary": "This study reviews the current limitations in critical care research due to syndromic diagnoses and proposes a pathway-level framework to translate omics insights into clinical trial design and bedside decision-making.",
+    "significance": "This framework has the potential to improve patient outcomes by enabling personalized treatment and more effective use of existing therapies in critical care settings."
+  },
   "pmid:42393760": {
     "summary": "Researchers used high-resolution monitoring to study light exposure in ICU patients over 14 million measurements. They found that light exposure is fragmented, with frequent short-duration light events at night, and limited sustained darkness. This may contribute to circadian dysregulation.",
     "significance": "Understanding light exposure patterns in ICUs is crucial for developing targeted interventions to prevent circadian dysregulation and its associated adverse outcomes in critically ill patients."
+  },
+  "pmid:42337809": {
+    "summary": "This randomized controlled trial tested the sleep-promoting effects of suvorexant in patients recovering from cardiac surgery. Suvorexant did not improve sleep architecture or reduce delirium in these patients. The study found no significant differences in sleep quality, delirium incidence, or rescue medication use between suvorexant and placebo groups.",
+    "significance": "This study's findings are significant for ICU clinicians as they suggest that suvorexant may not be an effective treatment for improving sleep or reducing delirium in patients recovering from cardiac surgery."
+  },
+  "pmid:42316318": {
+    "summary": "This study evaluated a nurse-led family participatory support intervention in ICU patients. The intervention significantly reduced the incidence of delirium and was associated with shorter hospital and ICU stays, lower hospitalization costs, and shorter durations of mechanical ventilation.",
+    "significance": "This study's findings have significant implications for ICU clinical practice, as they suggest that a structured, nurse-led family participatory support intervention can improve patient outcomes and reduce costs without increasing risks."
   },
   "pmid:42573413": {
     "key_stats": "n=18,794, risk difference 6.1% points (95% CI 3.4-8.7), HTEs rank-weighted average treatment effect -8.2 percentage points (95% CI -9.7 to -6.7)",
@@ -226,6 +208,10 @@
     "summary": "Three large international trials compared high protein doses to usual doses in critically ill patients. The results showed no benefit to high protein doses, and instead suggest starting with low doses and increasing over time. This may be especially important for patients with acute kidney injury.",
     "significance": "This study's findings have significant implications for ICU nutrition practice, suggesting a shift away from high protein doses and towards a more gradual and individualized approach to protein delivery."
   },
+  "pmid:42321935": {
+    "summary": "This study looked at how well a kidney protection strategy was implemented in critically ill patients with acute kidney injury. They found that about a third of patients received the full strategy, and those who did had a higher rate of kidney recovery. The study also found a link between the number of strategy components implemented and better kidney outcomes.",
+    "significance": "This study is important for ICU clinicians because it highlights the need to implement a kidney protection strategy in critically ill patients with acute kidney injury to improve kidney recovery rates."
+  },
   "pmid:42288929": {
     "summary": "Researchers reviewed the evidence on hemoadsorption in septic shock, finding that current guidelines are based on expert opinions rather than high-certainty evidence. Hemoadsorption involves removing inflammatory mediators from the blood, but its effectiveness and mechanisms of action are not well understood. More research is needed to determine its role in treating septic shock.",
     "significance": "This study highlights the need for more robust clinical trials to establish the effectiveness of hemoadsorption in septic shock, which could lead to more personalized and effective treatment approaches in the ICU."
@@ -253,6 +239,10 @@
   "pmid:42506102": {
     "summary": "This study reviewed existing methods for assessing gastrointestinal function in ICU patients and proposed algorithms for enteral feeding decisions using gastrointestinal ultrasound. It found that certain sonographic parameters, like gastric antral cross-sectional area, are clinically relevant. The study suggests that GIUS-based algorithms may improve enteral nutrition management but more research is needed.",
     "significance": "Accurate assessment of gastrointestinal function is crucial for effective enteral nutrition in ICU patients. This study's findings have the potential to improve patient outcomes by providing a more individualized approach to nutritional management."
+  },
+  "pmid:42332775": {
+    "summary": "Critically ill patients were given protein based on either their total body weight or fat-free mass. The study found that using fat-free mass-based dosing was associated with shorter ICU stays and fewer days on a ventilator, but not with a difference in mortality.",
+    "significance": "This study's findings suggest that adjusting protein dosing based on a patient's fat-free mass may be beneficial for critically ill patients, but further research is needed to confirm this."
   },
   "pmid:42277907": {
     "summary": "This review of current concepts in nutrition therapy for critically ill patients emphasizes the need for individualized, phase-specific nutrition. Experts discuss how inflammation, disease severity, and metabolic changes influence nutritional responsiveness, and propose personalized strategies for tailoring therapy. They also highlight the importance of micronutrient management and macronutrient adaptation throughout the continuum of critical illness and recovery.",
@@ -338,6 +328,12 @@
   "pmid:42473549": {
     "summary": "This study compared the accuracy of the FreeStyle Libre 2 system and capillary glucometry to central laboratory glucose in critically ill patients requiring insulin therapy. The FreeStyle Libre 2 showed comparable numerical accuracy and consistently reliable clinical performance. A total of 157 paired measurements were collected.",
     "significance": "This study's findings support the potential use of the FreeStyle Libre 2 system as an alternative to capillary glucose monitoring in the ICU, but more studies are needed to confirm its effectiveness in preventing hypoglycemia."
+  },
+  "pmid:42535902": {
+    "key_stats": "n=548, RR not reported, ARR not reported, ARR not reported, RRR not reported, NNT not reported, p not reported, CI not reported",
+    "summary": "Researchers identified two inflammatory phenotypes in patients with severe pneumonia: a hyperinflammatory phenotype with worse outcomes and a hypoinflammatory phenotype with better outcomes. They also developed a mouse model that mimics these phenotypes and found that anti-inflammatory interventions only benefited the more inflamed mice. This study provides a framework for developing targeted therapies for critical illness.",
+    "significance": "This study's findings have the potential to improve patient outcomes by enabling precision therapies tailored to individual inflammatory phenotypes in severe pneumonia.",
+    "rounds_takeaway": "Consider using anti-inflammatory interventions in patients with a hyperinflammatory phenotype."
   },
   "pmid:42399992": {
     "summary": "Researchers implemented a sustainable protocol for administering 4 common β-lactam antibiotics in ICU patients, using the highest stable concentration for continuous infusion. This reduced greenhouse gas emissions by 52%, plastic consumption by 48%, and treatment costs by 48%. The protocol also saved nursing time.",
@@ -467,10 +463,6 @@
   "pmid:42152115": {
     "summary": "Researchers studied how ECMO affects the levels of 4 antibiotics in critically ill patients. They found that some antibiotics were slightly lost in the ECMO circuit, but overall, this didn't affect the patients' antibiotic levels. Some patients didn't get enough antibiotics to be effective.",
     "significance": "This study is important because it helps clinicians understand how ECMO affects antibiotic levels, which can inform decisions about antibiotic dosing and monitoring in these patients."
-  },
-  "pmid:42494451": {
-    "summary": "This study reviews current practices for managing critically ill non-trauma patients in the emergency department and introduces OSCARinED, a framework to organize emergency critical care. OSCARinED includes seven care domains and aims to standardize care, reduce errors, and improve handover reliability. The framework is intended as a safety bridge during ED boarding, not a substitute for ICU admission.",
-    "significance": "Standardizing emergency critical care for non-trauma patients in the ED can improve patient outcomes and reduce errors, making OSCARinED a valuable tool for ICU clinicians to consider in their practice."
   },
   "pmid:42233727": {
     "key_stats": "n=11,176 (development cohort), n=1,127 (temporal validation cohort), AUROC 0.856-0.960, AUPRC 0.302-0.786, p-values not reported",

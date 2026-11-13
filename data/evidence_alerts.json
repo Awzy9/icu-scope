@@ -98,5 +98,16 @@
    "possible spotlight / cache key pmid:42825612"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-13T10:18:39+00:00",
+  "kind": "approved_content_changed",
+  "content_id": "ev_9b883dbc42b8",
+  "title": "Perpetual Observational Study - Ventilator Associated Pneumonia",
+  "pmid": "",
+  "doi": "",
+  "detail": "Source text/title/DOI changed; approved version retained pending review",
+  "derived_content": [],
+  "notified": false
  }
 ]
