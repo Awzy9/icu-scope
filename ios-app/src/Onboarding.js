@@ -8,8 +8,9 @@ import { useTheme } from "./theme";
 
 const FEATURES = [
   ["newspaper-outline", "Daily critical-care literature", "New papers from top journals, sorted by organ system."],
-  ["chatbubble-ellipses-outline", "Plain-language takeaways", "AI summaries and bedside takeaways, with the study design and impact rating."],
-  ["bookmark-outline", "Save and organize", "Keep articles in collections, even offline."],
+  ["chatbubble-ellipses-outline", "Plain-language takeaways", "AI summaries and bedside takeaways, with the study design and an evidence rating."],
+  ["create-outline", "Your own study toolkit", "Notes, flashcards, a reading log and citations, all kept on your device."],
+  ["cloud-offline-outline", "Read anywhere", "Open-access full text and your saved articles work offline."],
 ];
 
 // Organ systems the user did not pick become hidden categories.

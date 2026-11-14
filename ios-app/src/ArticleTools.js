@@ -8,7 +8,7 @@ import { articleKey } from "./data";
 import { pmcidOf } from "./readerText";
 import { CITATION_STYLES, citation, journalClubHandout } from "./studyTools";
 import { useStore } from "./store";
-import { useTheme } from "./theme";
+import { radius, useCardStyle, useTheme } from "./theme";
 
 function ToolRow({ icon, label, detail, onPress, last }) {
   const t = useTheme();
@@ -131,7 +131,7 @@ function CompareSheet({ article, visible, onClose, onPick }) {
 
 // Everything you can do with one article beyond reading it.
 export default function ArticleTools({ article }) {
-  const t = useTheme();
+  const cardStyle = useCardStyle();
   const navigation = useNavigation();
   const { feed, deck, addCards, removeCard } = useStore();
   const [cite, setCite] = useState(false);
@@ -142,7 +142,7 @@ export default function ArticleTools({ article }) {
   const prompts = feed?.spotlight?.pmid && feed.spotlight.pmid === article.pmid ? feed.spotlight.discussion_prompts || [] : [];
 
   return (
-    <View style={[styles.card, { backgroundColor: t.surface, borderColor: t.border }]}>
+    <View style={[styles.card, cardStyle]}>
       {pmcidOf(article) && article.is_open_access !== false ? (
         <ToolRow
           icon="book-outline"
@@ -182,7 +182,7 @@ export default function ArticleTools({ article }) {
 }
 
 const styles = StyleSheet.create({
-  card: { borderRadius: 18, borderWidth: StyleSheet.hairlineWidth, overflow: "hidden" },
+  card: { borderRadius: radius.lg, overflow: "hidden" },
   row: { flexDirection: "row", alignItems: "center", gap: 12, paddingHorizontal: 16, paddingVertical: 14 },
   label: { flex: 1, fontSize: 16 },
   scrim: { flex: 1, backgroundColor: "rgba(0,0,0,0.4)" },
