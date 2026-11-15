@@ -1,36 +1,36 @@
 {
- "generated_at": "2026-11-14T09:39:36+00:00",
+ "generated_at": "2026-11-15T10:11:00+00:00",
  "stages": {
-  "discovered": 3105,
-  "retrieved": 3105,
-  "stored": 2679,
-  "verification_record": 2679,
-  "displayed": 778
+  "discovered": 3201,
+  "retrieved": 3201,
+  "stored": 2772,
+  "verification_record": 2772,
+  "displayed": 785
  },
  "explained": {
-  "rejected": 426,
+  "rejected": 429,
   "duplicate": 0,
   "pending_retry": 0,
-  "awaiting_verification": 945,
-  "not_in_public_feed_by_policy": 968
+  "awaiting_verification": 977,
+  "not_in_public_feed_by_policy": 1022
  },
  "discrepancies": [],
  "unrecoverable": 0,
  "recoverable": 0,
- "strategy_gap_found_only_by_europepmc": 395,
+ "strategy_gap_found_only_by_europepmc": 398,
  "strategy_gap_by_specialty": {
-  "general-critical-care": 213,
+  "general-critical-care": 215,
   "ventilation-resp-failure": 111,
-  "rrt-renal": 25,
+  "rrt-renal": 26,
   "obstetric-critical-care": 3,
   "toxicology": 6,
   "sedation-delirium": 31,
   "sepsis": 77,
-  "hemodynamics-cardio": 30,
+  "hemodynamics-cardio": 31,
   "ecmo": 19,
   "infections": 33,
   "ards": 15,
-  "hematology-coag": 26,
+  "hematology-coag": 27,
   "neurocritical": 14,
   "trauma-surgical": 6,
   "nutrition-metabolism": 12

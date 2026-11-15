@@ -109,5 +109,32 @@
   "detail": "Source text/title/DOI changed; approved version retained pending review",
   "derived_content": [],
   "notified": false
+ },
+ {
+  "ts": "2026-11-15T10:09:15+00:00",
+  "kind": "registry_status_changed",
+  "content_id": "ev_4673ca4f07fc",
+  "title": "Enhanced Mentor Mother Strategy for Pregnant and Postpartum Women Living With HIV",
+  "pmid": "",
+  "doi": "",
+  "detail": "RECRUITING -> COMPLETED",
+  "derived_content": [
+   "displayed in: trials",
+   "AI summary / appraisal (data/ai_cache.json)"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-15T10:10:05+00:00",
+  "kind": "registry_status_changed",
+  "content_id": "ev_9b883dbc42b8",
+  "title": "Perpetual Observational Study - Ventilator Associated Pneumonia",
+  "pmid": "",
+  "doi": "",
+  "detail": "RECRUITING -> ACTIVE_NOT_RECRUITING",
+  "derived_content": [
+   "displayed in: trials"
+  ],
+  "notified": false
  }
 ]

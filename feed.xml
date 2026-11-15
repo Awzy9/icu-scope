@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sat, 14 Nov 2026 09:39:36 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 10:11:00 +0000</lastBuildDate>
     <item>
       <title>Serious Adverse Events in Adult ICU Patients: A Substudy of the PATIENCE Cohort.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42963077/</link>
@@ -25,13 +25,6 @@
       <guid isPermaLink="false">pmid:43003538</guid>
       <category>Trauma &amp; Surgical</category>
       <description>This article examines the relationship between moral distress and burnout among intensive care unit (ICU) clinicians and argues that moral distress acts as a precursor to burnout. Moral distress arises when clinicians cannot act according to ethical obligations due to systemic constraints, leading to cumulative moral residue. In high-intensity ICU environments, this distress is driven by nonbeneficial treatment, poor communication, and resource limitations. Over time, unresolved moral distress c</description>
-    </item>
-    <item>
-      <title>A Survey of Clinician-Reported Management of Hypernatremia in the ICU.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42983226/</link>
-      <guid isPermaLink="false">pmid:42983226</guid>
-      <category>General Critical Care</category>
-      <description>Hypernatremia is frequent in the intensive care unit (ICU) and is associated with adverse outcomes. Despite its prevalence, robust evidence to guide treatment is lacking, and global practice patterns are largely unknown. We investigated global treatment preferences and clinicians' willingness to enroll patients in a randomized trial to inform its feasibility. This international cross-sectional online survey comprised 20 primarily closed-ended questions, using five-point Likert-scale responses, a</description>
     </item>
     <item>
       <title>Streamlining the Evidence-to-Practice Pathway With Computerised Decision Support in Anaesthesiology and Critical Care: A Qualitative Study of Clinician and System-Level Interest Holder Perspectives Across Five Scandinavian Countries.</title>
@@ -153,13 +146,6 @@
       <description>The aim of this study was to determine the prevalence of persistent lymphopaenia, defined as an absolute lymphocyte count (ALC) &lt; 1.0 × 109/L on both the first and second intensive care unit (ICU) days in patients with sepsis and the association of persistent lymphopaenia with advanced organ support. A prospective, multicentre, binational point prevalence study of adult patients treated in participating ICUs in June 2023 was conducted. Main outcome measures included prevalence of persistent lymp</description>
     </item>
     <item>
-      <title>Relationship between selected microRNAs, pentraxin 3 and uromodulin in pathophysiology of septic acute kidney injury.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43003797/</link>
-      <guid isPermaLink="false">pmid:43003797</guid>
-      <category>Infectious Disease &amp; Sepsis</category>
-      <description>Acute kidney injury (AKI) is a common complication of sepsis and is associated with increased morbidity and mortality in critically ill patients. Combined assessment of serum pentraxin 3 (PTX3), uromodulin (UMOD), and circulating microRNAs (miRNAs) may improve understanding of the pathophysiology of septic AKI. In this study, 81 critically ill adults with sepsis were stratified into AKI and non-AKI groups, and 90 healthy volunteers served as controls. Blood samples were collected on days 1 and 4</description>
-    </item>
-    <item>
       <title>Intensive Care Unit Management of the Hemodynamically Significant Pulmonary Embolism.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42977378/</link>
       <guid isPermaLink="false">pmid:42977378</guid>
@@ -195,18 +181,18 @@
       <description>Acute and critical illnesses are typically accompanied by hemodynamic instability, tissue edema, mechanical ventilation and extracellular matrix remodeling. Abnormal shear stress, mechanical stretch, pressure loading and tissue deformation continuously reshape the local mechanical microenvironment. Piezo1 is a mechanosensitive cation channel that converts mechanical stimuli into intracellular signals dominated by Ca²+ influx and contributes to vascular homeostasis, immune regulation and tissue r</description>
     </item>
     <item>
-      <title>Higher Daily Hospitalization Costs and Intensive Care Utilization Among Decedents With Systemic Lupus Erythematosus and Rheumatoid Arthritis: A Bioethical Analysis of End-of-Life Care.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42976192/</link>
-      <guid isPermaLink="false">pmid:42976192</guid>
-      <category>General Critical Care</category>
-      <description>End-of-life care creates financial burdens. This study examines medical procedures/interventions and costs for inpatients with systemic lupus erythematosus (SLE) and rheumatoid arthritis (RA), comparing those who died during hospitalization to those who survived, analyzing the findings through a bioethical perspective. This observational 1:1 case-control study was conducted at a tertiary care center. Patients with SLE and RA (ICD-10-CM diagnostic codes) who were hospitalized for at least 24 h du</description>
-    </item>
-    <item>
       <title>Shock Synopsis December 2026.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43018536/</link>
       <guid isPermaLink="false">pmid:43018536</guid>
       <category>General Critical Care</category>
       <description></description>
+    </item>
+    <item>
+      <title>Continuous prediction of prolonged intensive care unit stay from longitudinal electronic health record data: development and external validation.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43032252/</link>
+      <guid isPermaLink="false">pmid:43032252</guid>
+      <category>General Critical Care</category>
+      <description>To develop and externally validate Prognostic Estimator of RiSk for prolonged ICU STay (PERSIST), a model that continuously updates the probability of an intensive care unit (ICU) stay longer than 7 days during the first week of ICU admission. We developed PERSIST, an XGBoost model, on 49 255 adult ICU stays from the Mount Sinai Health System (MSHS; 2021-2025) and externally validated it in 72 156 Medical Information Mart for Intensive Care-IV (MIMIC-IV) stays (2008-2019). Sixty routinely availa</description>
     </item>
     <item>
       <title>Resting-State Functional MRI and Clinical Outcomes After Acute Disorders of Consciousness: A Systematic Review.</title>
@@ -221,6 +207,41 @@
       <guid isPermaLink="false">pmid:42956386</guid>
       <category>Neurology</category>
       <description>Accurate assessment and prognostication of patients with acute disorders of consciousness (DoC) after severe brain injury remain a substantial clinical challenge. Resting-state fMRI (rs-fMRI) measures spontaneous, temporally correlated brain activity in the absence of external stimulation and provides objective insight into the integrity of large-scale neural networks that support brain function. Emerging evidence suggests that assessing neural integrity using rs-fMRI may improve outcome predict</description>
+    </item>
+    <item>
+      <title>EMCrit 438 – HyperCRITical 002</title>
+      <link>https://emcrit.org/emcrit/hypercritical-002/</link>
+      <guid isPermaLink="false">https://emcrit.org/emcrit/hypercritical-002/</guid>
+      <category>EMCrit</category>
+      <description>Josh Farkas of PulmCrit and the IBCC returns for Hypercritical 002. We take on vasopressin timing after the VASSPR trial, phenobarbital versus diazepam for alcohol withdrawal, hyperangulated video laryngoscopy as the first-line blade, high-dose potassium repletion, and bicarb in DKA. Some agreement, some arguing. EMCrit Project by Scott Weingart, MD FCCM .</description>
+    </item>
+    <item>
+      <title>Handling of the Non-Assessable Verbal Glasgow Coma Scale and Computed Illness Severity in Critically Ill Adults with Acute Brain Injury: A Retrospective Analysis.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43033039/</link>
+      <guid isPermaLink="false">pmid:43033039</guid>
+      <category>This Week</category>
+      <description>BackgroundThe Glasgow Coma Scale (GCS) contributes to illness-severity scores. The verbal component cannot be observed in intubated patients; the MIMIC Code Repository sets &quot;No Response-ETT&quot; rows to a total of 15.ObjectiveTo quantify non-assessable verbal GCS examinations and describe how their handling changes computed severity, the analyzed population and mortality-model performance.Materials and MethodsRetrospective MIMIC-IV cohort (Boston, 2008 to 2022) of adults with acute brain injury (fir</description>
+    </item>
+    <item>
+      <title>ICU delirium: From key drivers to targeted prevention.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43033538/</link>
+      <guid isPermaLink="false">pmid:43033538</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Long-term Electroclinical Outcomes After Herpes Simplex Virus Encephalitis: A Single-Center Case Series.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43033067/</link>
+      <guid isPermaLink="false">pmid:43033067</guid>
+      <category>This Week</category>
+      <description>ObjectiveHerpes simplex virus encephalitis (HSVE) remains an important cause of severe sporadic encephalitis. Electrographic seizures and status epilepticus may be underrecognized during the acute phase, and their relationship with long-term outcome is incompletely defined. We aimed to describe acute EEG abnormalities and long-term seizure and cognitive outcomes in adults with HSVE.MethodsWe retrospectively reviewed adults hospitalized with HSVE in the neurology ward or neurological intensive ca</description>
+    </item>
+    <item>
+      <title>Massive subchorionic thrombohematoma (Breus' mole): A nationwide retrospective study in Japan.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43032933/</link>
+      <guid isPermaLink="false">pmid:43032933</guid>
+      <category>This Week</category>
+      <description>To estimate the incidence, diagnostic features, and perinatal outcomes of massive subchorionic thrombohematoma (MST) in Japan. This nationwide multicenter retrospective study (2018-2023) analyzed confirmed cases of MST, defined as a laminated hematoma with a maximum thickness ≥1 cm. Maternal characteristics, sonographic patterns, and perinatal complications were evaluated. Of 346 741 deliveries across 87 tertiary perinatal centers, 69 pathologically confirmed MST cases were identified at 27 cent</description>
     </item>
     <item>
       <title>Geriatric Hip Fracture mFI-5 for Postoperative ICU Need and 30 Day Mortality</title>
@@ -293,6 +314,13 @@
       <description>Increased left ventricular (LV) afterload and distension during venoarterial extracorporeal membrane oxygenation (VA-ECMO) support may impede myocardial perfusion in acute myocardial infarction (AMI). Active LV unloading has been associated with improved outcomes. We report the first clinical use of a self-expanding percutaneous ventricular assist device (NyokAssist; magAssist, Suzhou, China) for LV unloading during VA-ECMO in a 56 year old man with AMI-related cardiogenic shock (CS). Successful</description>
     </item>
     <item>
+      <title>The global research landscape of emergency medical services in out-of-hospital cardiac arrest.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43026539/</link>
+      <guid isPermaLink="false">pmid:43026539</guid>
+      <category>This Week</category>
+      <description>Out-of-hospital cardiac arrest (OHCA) remains a major cause of death, and emergency medical services (EMS) are central to recognition, resuscitation, transport, and linkage to post-arrest care. Although previous bibliometric studies have mapped the broader cardiac arrest and cardiopulmonary resuscitation literature, the intersection of EMS and OHCA warrants focused characterization. We performed a retrospective bibliometric analysis of records indexed in the Web of Science Core Collection from 1</description>
+    </item>
+    <item>
       <title>Language Concordance in Critical Care: A Systematic Review.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43023815/</link>
       <guid isPermaLink="false">pmid:43023815</guid>
@@ -356,6 +384,13 @@
       <description>To investigate the association between early changes in the levels of serum albumin during continuous kidney replacement therapy (CKRT) and long-term dialysis dependence and mortality in patients with acute kidney injury who survived for 90 days or more days after CKRT initiation. A multicenter retrospective cohort study. Eight university-affiliated tertiary hospitals in South Korea participating in the LINking health medical records, biospecimens, and biosignals in Korean patients with Acute ki</description>
     </item>
     <item>
+      <title>Improving the delivered dose achievement rate in continuous renal replacement therapy: a quality improvement project.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43034065/</link>
+      <guid isPermaLink="false">pmid:43034065</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
       <title>Antimicrobial stewardship in critical care: Applying PK/PD and optimised antimicrobial dosing to improve care.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43025027/</link>
       <guid isPermaLink="false">pmid:43025027</guid>
@@ -389,41 +424,6 @@
       <guid isPermaLink="false">pmid:43025026</guid>
       <category>This Week</category>
       <description>Capillary refill time (CRT)-guided resuscitation improves outcomes in septic shock by targeting abnormal CRT. However, whether a normal baseline CRT, resulting in no additional attempts to optimize hemodynamics, is associated with mortality remains unclear. We evaluated the association between normal baseline CRT and 28-day mortality in patients with septic shock undergoing protocolized resuscitation. This post-hoc analysis included all randomized patients from the ANDROMEDA-SHOCK 1 and 2 trials</description>
-    </item>
-    <item>
-      <title>Successful management of arrow‑rebound‑induced transcervical penetrating trauma with major vascular and pharyngolaryngeal injuries: A case report.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43024299/</link>
-      <guid isPermaLink="false">pmid:43024299</guid>
-      <category>This Week</category>
-      <description>Penetrating neck injury involving major vessels is highly lethal. Long-trajectory transcervical penetration caused by rebounding arrows is exceptionally rare in civilians, posing significant diagnostic and management challenges. A man in his early 50s presented to the emergency department approximately 2 hours after an arrow, rebounding from a nearby training target, penetrated his neck (entering above the left mandible, exiting on the right). He was conscious with minimal external bleeding but </description>
-    </item>
-    <item>
-      <title>Evaluation of preoperative and perioperative characteristics in patients admitted to a postoperative intensive care unit: A prospective observational study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43024269/</link>
-      <guid isPermaLink="false">pmid:43024269</guid>
-      <category>This Week</category>
-      <description>Postoperative intensive care unit (ICU) admission is commonly considered for patients perceived to be at increased risk of postoperative complications. This study aimed to describe the preoperative and perioperative characteristics of patients admitted to a postoperative ICU and to explore associations between routinely available clinical parameters, inflammatory biomarkers, and short-term outcomes. This prospective observational study included 126 adult patients admitted postoperatively to a te</description>
-    </item>
-    <item>
-      <title>How Specialty Shapes Burnout in the Medical ICU: A Qualitative Study of Resident Experiences.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43023407/</link>
-      <guid isPermaLink="false">pmid:43023407</guid>
-      <category>This Week</category>
-      <description>The negative impacts of burnout in resident physicians have been widely documented, and burnout rates in the Medical Intensive Care Unit (MICU) are high. While burnout has been studied in physicians and other personnel in Intensive Care Units (ICUs), little attention has been given to resident physicians in the MICU. Our prior study demonstrated very high rates of burnout in residents in the MICU and was suggestive that non-internal medicine (non-IM) residents may be at an even higher risk of bu</description>
-    </item>
-    <item>
-      <title>Interpretable Recalibration of a Sequential Organ Failure Assessment-Derived Score Using Machine Learning-Guided Optimization: Multicenter Cohort Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43024933/</link>
-      <guid isPermaLink="false">pmid:43024933</guid>
-      <category>This Week</category>
-      <description>The Sequential Organ Failure Assessment (SOFA) score is central to risk stratification in intensive care units (ICUs), but its thresholds and 0- to 4-point increments were set by expert consensus in 1996 and never reestimated from outcome data. Machine learning models discriminate better while discarding the additive, point-based structure that makes SOFA auditable at the bedside, and methods for updating a legacy score rather than replacing it remain scarce. This study aimed to develop and inte</description>
-    </item>
-    <item>
-      <title>Leveraging artificial intelligence for ICU pharmacotherapy training: Supporting learning while preserving clinical judgment.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43025023/</link>
-      <guid isPermaLink="false">pmid:43025023</guid>
-      <category>This Week</category>
-      <description>Artificial intelligence (AI) is increasingly embedded in critical care practice at a time when pharmacotherapeutic decisions are becoming more complex, data-intensive, and time-sensitive. For medical residents and fellows, this creates both educational opportunities and challenges, as AI may support learning but must not replace the development of independent clinical judgment. This perspective examines potential applications of AI in ICU pharmacotherapy training, including support for just-in-t</description>
     </item>
   </channel>
 </rss>
