@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sun, 15 Nov 2026 10:11:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 10:22:44 +0000</lastBuildDate>
     <item>
       <title>Serious Adverse Events in Adult ICU Patients: A Substudy of the PATIENCE Cohort.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42963077/</link>
@@ -18,13 +18,6 @@
       <guid isPermaLink="false">pmid:43003534</guid>
       <category>Cardiovascular</category>
       <description>Valvular heart disease is an uncommon but high-risk cause of cardiogenic shock requiring rapid, multidisciplinary management aimed at bridging patients to definitive surgical or transcatheter valve intervention. Early comprehensive Doppler echocardiography is essential, as clinical signs may be subtle. Distinguishing decompensated chronic valvular disease from acute unstable lesions guides urgency and treatment strategy. Medical stabilization and mechanical circulatory support vary markedly betw</description>
-    </item>
-    <item>
-      <title>Moral Distress, Burnout, and the Intensive Care Unit Environment.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43003538/</link>
-      <guid isPermaLink="false">pmid:43003538</guid>
-      <category>Trauma &amp; Surgical</category>
-      <description>This article examines the relationship between moral distress and burnout among intensive care unit (ICU) clinicians and argues that moral distress acts as a precursor to burnout. Moral distress arises when clinicians cannot act according to ethical obligations due to systemic constraints, leading to cumulative moral residue. In high-intensity ICU environments, this distress is driven by nonbeneficial treatment, poor communication, and resource limitations. Over time, unresolved moral distress c</description>
     </item>
     <item>
       <title>Streamlining the Evidence-to-Practice Pathway With Computerised Decision Support in Anaesthesiology and Critical Care: A Qualitative Study of Clinician and System-Level Interest Holder Perspectives Across Five Scandinavian Countries.</title>
@@ -209,6 +202,13 @@
       <description>Accurate assessment and prognostication of patients with acute disorders of consciousness (DoC) after severe brain injury remain a substantial clinical challenge. Resting-state fMRI (rs-fMRI) measures spontaneous, temporally correlated brain activity in the absence of external stimulation and provides objective insight into the integrity of large-scale neural networks that support brain function. Emerging evidence suggests that assessing neural integrity using rs-fMRI may improve outcome predict</description>
     </item>
     <item>
+      <title>Effect of Different Single-Session Durations of Intermittent Pneumatic Compression on the Prevention of Deep Vein Thrombosis in Postoperative ICU Patients: A Randomized Controlled Trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43034273/</link>
+      <guid isPermaLink="false">pmid:43034273</guid>
+      <category>This Week</category>
+      <description>BACKGROUND Deep vein thrombosis (DVT) is a common and potentially life-threatening complication in postoperative ICU patients. Intermittent pneumatic compression (IPC) is widely used for mechanical thromboprophylaxis; however, the optimal single-session duration of IPC remains unclear. This randomized controlled trial aimed to evaluate the efficacy of different single-session durations of IPC for preventing DVT in postoperative ICU patients. MATERIAL AND METHODS This prospective randomized contr</description>
+    </item>
+    <item>
       <title>EMCrit 438 – HyperCRITical 002</title>
       <link>https://emcrit.org/emcrit/hypercritical-002/</link>
       <guid isPermaLink="false">https://emcrit.org/emcrit/hypercritical-002/</guid>
@@ -235,6 +235,13 @@
       <guid isPermaLink="false">pmid:43033067</guid>
       <category>This Week</category>
       <description>ObjectiveHerpes simplex virus encephalitis (HSVE) remains an important cause of severe sporadic encephalitis. Electrographic seizures and status epilepticus may be underrecognized during the acute phase, and their relationship with long-term outcome is incompletely defined. We aimed to describe acute EEG abnormalities and long-term seizure and cognitive outcomes in adults with HSVE.MethodsWe retrospectively reviewed adults hospitalized with HSVE in the neurology ward or neurological intensive ca</description>
+    </item>
+    <item>
+      <title>Risk factors associated with the development of a catheter-related thrombosis in patients with critical illness: a systematic review and meta-analysis.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43034248/</link>
+      <guid isPermaLink="false">pmid:43034248</guid>
+      <category>This Week</category>
+      <description>We sought to conduct a systematic review and meta-analysis with the primary objective to identify prognostic factors associated with developing a catheter-related thrombosis in the critical care setting. Our secondary objective was to report the incidence of this entity. We searched, MEDLINE® and Embase® from inception through 4 May 2024 for all studies in patients with critical illness that reported catheter-related thrombosis, with an updated search performed on 23 October 2025. We included En</description>
     </item>
     <item>
       <title>Massive subchorionic thrombohematoma (Breus' mole): A nationwide retrospective study in Japan.</title>
@@ -417,13 +424,6 @@
       <guid isPermaLink="false">pmid:43025024</guid>
       <category>This Week</category>
       <description>Resuscitation strategies incorporating peripheral perfusion targets (RSIPPT) have emerged as promising tools in septic shock. However, whether they improve clinically relevant outcomes remains uncertain. We aimed to evaluate whether these strategies reduce 28/30-day mortality and improve other clinical outcomes compared with usual care. A systematic review and meta-analysis of randomized controlled trials (RCTs) using a random-effects model was conducted. Electronic searches of PubMed, EMBASE, a</description>
-    </item>
-    <item>
-      <title>The association between normal capillary refill time and 28-day mortality in septic shock patients subjected to early hemodynamic resuscitation.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43025026/</link>
-      <guid isPermaLink="false">pmid:43025026</guid>
-      <category>This Week</category>
-      <description>Capillary refill time (CRT)-guided resuscitation improves outcomes in septic shock by targeting abnormal CRT. However, whether a normal baseline CRT, resulting in no additional attempts to optimize hemodynamics, is associated with mortality remains unclear. We evaluated the association between normal baseline CRT and 28-day mortality in patients with septic shock undergoing protocolized resuscitation. This post-hoc analysis included all randomized patients from the ANDROMEDA-SHOCK 1 and 2 trials</description>
     </item>
   </channel>
 </rss>
