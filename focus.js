@@ -18,8 +18,7 @@
     if (intro) intro.textContent = descriptions[view];
     tabs.forEach(button => {
       const selected = button.dataset.scopeTab === view;
-      button.setAttribute("aria-selected", String(selected));
-      button.tabIndex = selected ? 0 : -1;
+      button.setAttribute("aria-pressed", String(selected));
     });
     mobileTabs.forEach(button => {
       const selected = button.dataset.scopeMobileTab === view;
