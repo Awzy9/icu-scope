@@ -31,6 +31,7 @@
   <meta name="twitter:image" content="og-image.png" />
 
   <link rel="stylesheet" href="style.css?v=40" />
+  <link rel="stylesheet" href="focus.css?v=1" />
   <script>
     (function () {
       var saved = localStorage.getItem("icu-scope-theme");
@@ -95,7 +96,7 @@
   <section class="hero">
     <div class="hero-inner">
       <p class="hero-eyebrow">ICU Scope</p>
-      <h1 class="hero-title">The latest critical-care evidence, curated daily.</h1>
+      <h1 class="hero-title">Critical care evidence, without the noise.</h1>
       <p class="hero-sub" id="updated-line">Loading update time…</p>
       <section class="hero-stats" id="dashboard-strip" aria-label="Today in critical care" hidden>
         <div class="hero-stat">
@@ -125,6 +126,22 @@
       </a>
     </div>
   </section>
+
+  <nav class="scope-primary-nav" aria-label="Evidence views">
+    <button type="button" data-scope-tab="week" aria-pressed="true" aria-controls="this-week-section">This Week</button>
+    <button type="button" data-scope-tab="guidelines" aria-pressed="false" aria-controls="guideline-section">Guidelines</button>
+    <button type="button" data-scope-tab="trials" aria-pressed="false" aria-controls="trial-results-section">Trials</button>
+    <details class="scope-tools">
+      <summary aria-label="Open evidence view settings">Settings ⚙</summary>
+      <div class="scope-tools-panel">
+        <strong>Display preferences</strong>
+        <label><input id="scope-advanced-filters" type="checkbox" /> Show advanced filters</label>
+        <label><input id="scope-show-archive" type="checkbox" /> Show secondary archives and saved articles</label>
+        <p>Archives include older system feeds, FOAMed, preprints, registered trials, and classics. Nothing is deleted.</p>
+      </div>
+    </details>
+  </nav>
+  <p class="scope-focus-intro" id="scope-focus-intro">New critical-care publications from the last seven days.</p>
 
   <div class="toolbar" id="toolbar">
     <div id="filter-status" class="sr-only" role="status" aria-live="polite"></div>
@@ -366,6 +383,12 @@
 
   <script src="auth.js?v=1" defer></script>
   <script src="app.js?v=38"></script>
+  <nav class="scope-mobile-nav" aria-label="Evidence mobile navigation">
+    <button type="button" data-scope-mobile-tab="week" aria-current="page">This Week</button>
+    <button type="button" data-scope-mobile-tab="guidelines">Guidelines</button>
+    <button type="button" data-scope-mobile-tab="trials">Trials</button>
+  </nav>
+  <script src="focus.js?v=1"></script>
   <script src="/analytics.js"></script>
   <script>
     if ("serviceWorker" in navigator) {
