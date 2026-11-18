@@ -20,7 +20,7 @@ body.focused-scope .content { max-width:1100px; }
 .scope-tools-panel p { font-size:.8rem; color:var(--text-secondary); margin:0; }
 .scope-focus-intro { max-width:1100px; margin:0 auto; padding:0 1rem 1rem; color:var(--text-secondary); font-size:.95rem; }
 body.focused-scope:not(.scope-archive-open) :is(#spotlight-section,#saved-section,#ksa-section,#trending-section,#foamed-section,#bottom-line-section,#preprint-section,#trial-section,#classics-section,#content) { display:none!important; }
-body.focused-scope.scope-archive-open :is(#spotlight-section,#saved-section,#ksa-section,#trending-section,#foamed-section,#bottom-line-section,#preprint-section,#trial-section,#classics-section,#content) { display:block; }
+/* Archive mode restores each section’s original render-time [hidden] state. */
 body.focused-scope[data-scope-view="week"] :is(#guideline-section,#trial-results-section),
 body.focused-scope[data-scope-view="guidelines"] :is(#this-week-section,#trial-results-section),
 body.focused-scope[data-scope-view="trials"] :is(#this-week-section,#guideline-section) { display:none!important; }
