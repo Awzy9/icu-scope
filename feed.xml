@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Wed, 18 Nov 2026 10:56:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 11:01:09 +0000</lastBuildDate>
     <item>
       <title>Critical Care Management of Disaster-Related Organ Failure.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43044610/</link>
@@ -34,11 +34,11 @@
       <description>Valvular heart disease is an uncommon but high-risk cause of cardiogenic shock requiring rapid, multidisciplinary management aimed at bridging patients to definitive surgical or transcatheter valve intervention. Early comprehensive Doppler echocardiography is essential, as clinical signs may be subtle. Distinguishing decompensated chronic valvular disease from acute unstable lesions guides urgency and treatment strategy. Medical stabilization and mechanical circulatory support vary markedly betw</description>
     </item>
     <item>
-      <title>Streamlining the Evidence-to-Practice Pathway With Computerised Decision Support in Anaesthesiology and Critical Care: A Qualitative Study of Clinician and System-Level Interest Holder Perspectives Across Five Scandinavian Countries.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43000120/</link>
-      <guid isPermaLink="false">pmid:43000120</guid>
+      <title>Decision making around end-of-life: Focused ethnography in two intensive care units in Vietnam.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049668/</link>
+      <guid isPermaLink="false">pmid:43049668</guid>
       <category>General Critical Care</category>
-      <description>Implementing evidence-based recommendations in anaesthesiology and critical care remains challenging due to guideline, workflow and contextual barriers. Guideline-based computerised clinical decision support systems (CDSS), embedded in structured pathways linking international guidelines to Scandinavian-endorsed recommendations and delivered via electronic health records, may help strengthen the evidence-to-practice pathway. This study aimed to explore perceived barriers and facilitators to thei</description>
+      <description>Literature on the quality of death and dying has predominantly drawn on high-income contexts, while much less is known about end-of-life care in low-middle-income settings. In Vietnam, policy and practice around palliative and end-of-life care has not kept pace with the ageing of the population. This study explores factors influencing end-of-life decision making in intensive care units (ICUs) where formal protocols are lacking. This analysis is a part of a larger ethnographic study examining vit</description>
     </item>
     <item>
       <title>Endpoint-specific mortality associated with malignancy among adults with sepsis or septic shock: a systematic review and meta-analysis.</title>
@@ -76,18 +76,18 @@
       <description>Despite advances in trauma resuscitation, significant gaps remain in understanding how early physiological and biochemical derangements influence clinical outcomes. The Sydney 'Clinical Outcomes following Acute Shock in Trauma' (COAST) registry was developed by clinicians containing both prehospital and in-hospital data, allowing for the identification of risk factors that influence early mortality for major trauma patients with shock. This study reports the formation of the registry and the pat</description>
     </item>
     <item>
-      <title>Low-intensity versus medium-intensity continuous renal replacement therapy for critically ill patients (LIMIT) trial: Protocol summary and statistical analysis plan of a randomised clinical trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/42857206/</link>
-      <guid isPermaLink="false">pmid:42857206</guid>
-      <category>Respiratory</category>
-      <description>Severe acute kidney injury in critically ill patients may require continuous renal replacement therapy (CRRT), yet mortality remains high. A standard CRRT intensity is 20-25 mL/kg/hr, because higher doses have not improved outcomes. Excessive treatment may cause harm by removing antibiotics and other essential substances and potentially impairing renal recovery. Observational data suggest that lower-intensity CRRT may be effective, warranting a clinical trial to compare low-versus standard-inten</description>
-    </item>
-    <item>
       <title>Variation in capability, organisational structure, and treatment processes for critically ill adults with moderate-to-severe traumatic brain injury in Australia and New Zealand.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42830737/</link>
       <guid isPermaLink="false">pmid:42830737</guid>
       <category>Neurology</category>
       <description>To characterise between-centre variation in capability, organisational structure, and treatment processes for adults with moderate-to-severe traumatic brain injury (msTBI) admitted to intensive care (ICU) in Australia and New Zealand (ANZ). Cross-sectional questionnaire supplemented by linked Australian and New Zealand Intensive Care Society CORE Critical Care Resources Registry descriptors. ANZ ICUs treating adults with msTBI, October-December 2025. Variation in organisational structure and cap</description>
+    </item>
+    <item>
+      <title>Use of osilodrostat in life-threatening ectopic Cushing syndrome secondary to neuroendocrine tumor.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43047331/</link>
+      <guid isPermaLink="false">pmid:43047331</guid>
+      <category>Neurology</category>
+      <description>Ectopic adrenocorticotropic hormone (ACTH) syndrome is a rare, severe form of endogenous Cushing syndrome requiring rapid cortisol reduction; experience with osilodrostat in critically ill patients remains limited. A 41-year-old woman with a prior supraglottic neuroendocrine tumor (NET) presented with rapidly progressive proximal weakness, severe hypokalemia, hypertension, and delirium. Adrenocorticotropic hormone-dependent hypercortisolism was confirmed, with a 12 × 10 × 14-cm abdominal mass sh</description>
     </item>
     <item>
       <title>Low-intensity versus medium-intensity continuous renal replacement therapy for critically ill patients (LIMIT) trial: Protocol summary and statistical analysis plan of a randomised clinical trial.</title>
@@ -116,6 +116,13 @@
       <guid isPermaLink="false">pmid:43042701</guid>
       <category>Renal</category>
       <description>Whether robot-assisted partial nephrectomy (RAPN) reduces acute kidney injury (AKI) compared with laparoscopic partial nephrectomy (LPN) in patients with limited renal reserve remains uncertain. We compared early AKI and six-month renal outcomes between approaches in high-risk patients. This single-center retrospective cohort study included adult patients with solitary kidney, documented CKD, or preoperative estimated glomerular filtration rate (eGFR) &lt;60 mL/min/1.73 m2 who underwent laparoscopi</description>
+    </item>
+    <item>
+      <title>Association Between Urinary pH and Vancomycin-Associated Acute Kidney Injury.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43053271/</link>
+      <guid isPermaLink="false">pmid:43053271</guid>
+      <category>Renal</category>
+      <description>Vancomycin (VCM) is an antibiotic widely used to treat Gram-positive bacterial infections but commonly causes severe acute kidney injury (AKI). Because VCM contains an amino group with a pKa of 7.2 and has an isoelectric point of 7.2, its ionization state may depend on urinary pH, potentially influencing susceptibility to VCM-associated AKI (VCM-AKI). This study aimed to clarify the relationship between urinary pH and VCM-AKI. This study analysed patients whose urinary pH was measured during int</description>
     </item>
     <item>
       <title>Incidence and mortality of invasive fungal infections among patients admitted in intensive care units in India: findings from a multicentric registry-based study (2023-25).</title>
@@ -153,6 +160,13 @@
       <description>The aim of this study was to determine the prevalence of persistent lymphopaenia, defined as an absolute lymphocyte count (ALC) &lt; 1.0 × 109/L on both the first and second intensive care unit (ICU) days in patients with sepsis and the association of persistent lymphopaenia with advanced organ support. A prospective, multicentre, binational point prevalence study of adult patients treated in participating ICUs in June 2023 was conducted. Main outcome measures included prevalence of persistent lymp</description>
     </item>
     <item>
+      <title>Association Between Urinary pH and Vancomycin-Associated Acute Kidney Injury.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43053271/</link>
+      <guid isPermaLink="false">pmid:43053271</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>Vancomycin (VCM) is an antibiotic widely used to treat Gram-positive bacterial infections but commonly causes severe acute kidney injury (AKI). Because VCM contains an amino group with a pKa of 7.2 and has an isoelectric point of 7.2, its ionization state may depend on urinary pH, potentially influencing susceptibility to VCM-associated AKI (VCM-AKI). This study aimed to clarify the relationship between urinary pH and VCM-AKI. This study analysed patients whose urinary pH was measured during int</description>
+    </item>
+    <item>
       <title>Intensive Care Unit Management of the Hemodynamically Significant Pulmonary Embolism.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42977378/</link>
       <guid isPermaLink="false">pmid:42977378</guid>
@@ -188,13 +202,6 @@
       <description>Acute and critical illnesses are typically accompanied by hemodynamic instability, tissue edema, mechanical ventilation and extracellular matrix remodeling. Abnormal shear stress, mechanical stretch, pressure loading and tissue deformation continuously reshape the local mechanical microenvironment. Piezo1 is a mechanosensitive cation channel that converts mechanical stimuli into intracellular signals dominated by Ca²+ influx and contributes to vascular homeostasis, immune regulation and tissue r</description>
     </item>
     <item>
-      <title>Shock Synopsis December 2026.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43018536/</link>
-      <guid isPermaLink="false">pmid:43018536</guid>
-      <category>General Critical Care</category>
-      <description></description>
-    </item>
-    <item>
       <title>Continuous prediction of prolonged intensive care unit stay from longitudinal electronic health record data: development and external validation.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43032252/</link>
       <guid isPermaLink="false">pmid:43032252</guid>
@@ -216,214 +223,207 @@
       <description>Accurate assessment and prognostication of patients with acute disorders of consciousness (DoC) after severe brain injury remain a substantial clinical challenge. Resting-state fMRI (rs-fMRI) measures spontaneous, temporally correlated brain activity in the absence of external stimulation and provides objective insight into the integrity of large-scale neural networks that support brain function. Emerging evidence suggests that assessing neural integrity using rs-fMRI may improve outcome predict</description>
     </item>
     <item>
-      <title>Surgical Critical Care Initiative (SC2i) Tissue and Data Acquisition Protocol (TDAP) in Burn Patients Improving the Robustness and Generalizability of Post-burn Sepsis Prediction With the Post-Burn Sepsis Digital Twin. Group 1</title>
-      <link>https://clinicaltrials.gov/study/NCT07249762</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07249762</guid>
+      <title>Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury</title>
+      <link>https://www.thebottomline.org.uk/summaries/icm/intermittent-or-continuous-renal-replacement-therapy-in-acute-kidney-injury/</link>
+      <guid isPermaLink="false">https://www.thebottomline.org.uk/summaries/icm/intermittent-or-continuous-renal-replacement-therapy-in-acute-kidney-injury/</guid>
+      <category>The Bottom Line</category>
+      <description>Intermittent or Continuous Renal-Replacement Therapy in Acute Kidney Injury Gaudry. NEJM 2026. DOI: 10.1056/NEJMoa2608397 Clinical Question Among critically ill patients with AKI who had indications for RRT, is the use of intermittent haemodialysis (IHD) non-inferior to continuous renal replacement therapy (CRRT) with respect to major adverse kidney events by day 90 (MAKE90)? Background AKI is ass</description>
+    </item>
+    <item>
+      <title>Prognostic Factors in Critically Ill Patients Admitted After Caustic Ingestion in France</title>
+      <link>https://clinicaltrials.gov/study/NCT07526220</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07526220</guid>
       <category>Clinical Trial</category>
-      <description>This study is following adult patients with serious burn injuries to better understand how their bodies respond to treatment and recovery. Researchers will collect small amounts of blood and tissue samples, along with information already recorded in the medical record, such as vital signs, lab results, and details of surgeries or complications. The goal is to identify patterns that may help predict who is at higher risk for infections or other problems after a burn injury. This information could</description>
+      <description>DATACAUSTIC is a national retrospective multicentre observational study designed to identify prognostic factors associated with outcomes in critically ill adult patients admitted after caustic ingestion in France.</description>
     </item>
     <item>
-      <title>POCUS Assessment of IVC Dynamics in Septic Shock: Prognostic Value and Association With Fluid Balance and Clinical Outcomes,To Determine the Prognostic Value of IVC Diameter and Respiratory Variation Measured by POCUS During the First 72 Hours in Patients With Septic Shock for Predicting 28-day Mort</title>
-      <link>https://clinicaltrials.gov/study/NCT07942116</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07942116</guid>
+      <title>Effect of Increased Dialysis Versus Hemofiltration</title>
+      <link>https://clinicaltrials.gov/study/NCT07946198</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07946198</guid>
       <category>Clinical Trial</category>
-      <description>Serial Point of Care Ultrasonographic Assessment of Inferior Vena Cava Dynamics in Septic Shock Prognostic Value and Association with Fluid Balance and Clinical Outcomes To determine the prognostic value of IVC diameter and respiratory variation measured by POCUS during the first 72 hours in patients with septic shock for predicting 28 day mortality Secondary objectives To evaluate the association between IVC parameters and AKI fluid balance vasopressor duration mechanical ventilation ICU mortal</description>
+      <description>Regional citrate anticoagulation is commonly used during continuous kidney replacement therapy (CKRT) in critically ill patients. Citrate prevents clotting in the extracorporeal circuit by reducing ionized calcium concentrations. However, adequate anticoagulation is not always achieved, and the influence of dialysis and hemofiltration on citrate removal and post-filter ionized calcium remains incompletely understood. This prospective, single-center, interventional study compares two strategies f</description>
     </item>
     <item>
-      <title>Clinical Impact of a Multiplex Rapid Diagnostic Pneumonia Panel Testing in Critically-ill Patients With Severe Hospital-acquired Pneumonia, Ventilator-associated Pneumonia and Community-acquired Pneumonia With High Risk of Multidrug Resistant Pathogen</title>
-      <link>https://clinicaltrials.gov/study/NCT06782607</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06782607</guid>
+      <title>Strengthening Hope After ICU Discharge</title>
+      <link>https://clinicaltrials.gov/study/NCT06569901</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06569901</guid>
       <category>Clinical Trial</category>
-      <description>The objective of the research is to ascertain the influence of a syndromic mutiplex PCR assay (FilmArray) on the management of patients hospitalised in the ICU for severe respiratory disease. The diagnostic process for pneumonia has become significantly more intricate over the past decade due to the interference of the biological, radiological, and clinical criteria of patients hospitalised in the intensive care unit with the conventional criteria for the diagnosis of severe respiratory diseases</description>
+      <description>The goal of this clinical trial is to evaluate an interventional program that aims to strengthen hope in intensive care unit (ICU) patients in the rehabilitation phase. The main questions it aims to answer are: To develop and implement a follow-up service to strengthen hope in ICU patients, and to evaluate the effect on hope in a stepped wedge randomized trial. To identify possible predictive factors (facilitators and barriers) associated with hope. Participants will be asked to take part in an </description>
     </item>
     <item>
-      <title>Emapalumab Treatment For Anticipated Clinical Benefit In Sepsis Driven By The Interferon-Gamma Endotype (The EMBRACE Trial)</title>
-      <link>https://clinicaltrials.gov/study/NCT06694701</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06694701</guid>
+      <title>The Burden of Acute Respiratory Failure in Chinese ICUs: a National Cohort Study</title>
+      <link>https://clinicaltrials.gov/study/NCT06213779</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06213779</guid>
       <category>Clinical Trial</category>
-      <description>EMBRACE is a double-blind, randomized, placebo-controlled, phase IIa study that will be conducted in multiple Intensive Care Units (ICUs) and departments of Internal Medicine across Greece. It aims to investigate if treatment with emapalumab, a monoclonal antibody which blocks IFNγ, may improve the outcome of patients with sepsis driven by the IDS (endotype of IFNγ-driven sepsis) endotype. EMBRACE also aims to identify the best dosing regimen of emapalumab for the management of IDS.</description>
+      <description>We aim to prospectively assess the burden, management and therapeutic approaches and outcomes of acute respiratory failure requiring respiratory support, during the winter months in China. The purpose of this study is to provide new and current data on the disease burden of acute respiratory failure and ARDS. It will answer the following questions: * The frequency and disease burden of acute respiratory failure in China; * The incidence of ARDS based on the new global definition within this pati</description>
     </item>
     <item>
-      <title>TDAP in Burn Patients (Group 2)</title>
-      <link>https://clinicaltrials.gov/study/NCT07223684</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07223684</guid>
+      <title>OPT101 in Patients With Community Acquired Pneumonia (CAP) With Sepsis</title>
+      <link>https://clinicaltrials.gov/study/NCT06669403</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06669403</guid>
       <category>Clinical Trial</category>
-      <description>This study is following adult patients with serious burn injuries to better understand how their bodies respond to treatment and recovery. Researchers will collect small amounts of blood and tissue samples, along with information already recorded in the medical record, such as vital signs, lab results, and details of surgeries or complications. The goal is to identify patterns that may help predict who is at higher risk for infections or other problems after a burn injury. This information could</description>
+      <description>OPT101-100-40 is a multicenter, randomized, placebo-controlled, multiple-ascending-dose, sequential-group, investigator- and participant-blinded, sponsor-unblinded, study of OPT101 vs placebo when administered for up to 4 days to patients admitted to the hospital for treatment of Community Acquired Pneumonia (CAP) with sepsis. This study will be performed in patients with Community Acquired Pneumonia (CAP) with Sepsis, who are 18 years or older to evaluate the safety and tolerability of OPT101 i</description>
     </item>
     <item>
-      <title>Patient Characterization Panel to Improve Satisfaction With the Intensive Care Unit Stay (CONNECT)</title>
-      <link>https://clinicaltrials.gov/study/NCT07830043</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07830043</guid>
+      <title>Factors Associated With Early Readmission in Critical Care</title>
+      <link>https://clinicaltrials.gov/study/NCT07182916</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07182916</guid>
       <category>Clinical Trial</category>
-      <description>Intensive care units (ICUs) present unique challenges to humanized, person-centered care. The severity of illness and the demands of complex technical management can displace attention from patients as individuals, making it harder to build meaningful connections with patients and their families. This trial tests a simple, low-cost bedside intervention: a structured panel. The &quot;Patient as a Person&quot; panel, placed near each patient's bed. The care team, together with the patient and family, record</description>
+      <description>The COVID-19 health crisis has highlighted pre-existing challenges in patient flow management within healthcare facilities, especially in critical care units. This has sparked debate regarding the sufficiency of critical care beds in France, while drawing attention to the lack of downstream structures. Inefficient patient flow, leading to bed occupancy bottlenecks, has been correlated with both critical care length of stay and morbidity. Unplanned early readmission to critical care further exace</description>
     </item>
     <item>
-      <title>Blood Glucose Management in Intensive Care Units</title>
-      <link>https://clinicaltrials.gov/study/NCT05775770</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05775770</guid>
+      <title>Multimodal Sleep Promotion in Surgical ICU Patients</title>
+      <link>https://clinicaltrials.gov/study/NCT07672509</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07672509</guid>
       <category>Clinical Trial</category>
-      <description>The investigators propose to conduct a study of practices to describe the methods of managing glycemic control in hospitalized patients in critical care. This is a prospective multicenter observational study conducted in Intensive Medicine and Resuscitation departments in France and Belgium. The aim of this study is to carry out an inventory of the current practices of glycemia management as well as their modalities. Being one of the key points of the management, this work will have for main obj</description>
+      <description>Sleep disturbances are highly prevalent among patients admitted to intensive care units (ICUs). Critical illness, environmental factors, and routine clinical care frequently result in fragmented sleep, reduced sleep quality, and disruption of normal circadian rhythms. Previous studies have shown that poor sleep in ICU patients may be associated with delirium, impaired recovery, decreased functional outcomes, and lower patient satisfaction. Environmental factors such as noise generated by alarms </description>
     </item>
     <item>
-      <title>The SUBcutaneous Comprehensive UlTrasonographic (SUBCUT) protocol and Severity of Water and Edema Level Score (SWELS) for dynamic assessment of peripheral edema burden in critically ill patients: a prospective, longitudinal observational study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044166/</link>
-      <guid isPermaLink="false">pmid:43044166</guid>
-      <category>This Week</category>
-      <description>Excessive fluid resuscitation may lead to pathologic fluid accumulation and increased mortality. Cumulative fluid balance (CFB) correlates poorly with outcomes. Ultrasonographic central congestion metrics (VExUS/Lung ultrasound) inherently overlook critical fluid shifts within the peripheral reservoir. To bridge this diagnostic gap, we developed the SUBcutaneous Comprehensive UlTrasonographic (SUBCUT) protocol for standardized, semi-quantitative assessment of peripheral edema burden. Ultrasonogr</description>
+      <title>Corticosteroids in Hyperinflammatory Phenotype of Critical Illness</title>
+      <link>https://clinicaltrials.gov/study/NCT07511582</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07511582</guid>
+      <category>Clinical Trial</category>
+      <description>The goal of this clinical trial is to learn whether methylprednisolone improves outcomes in critically ill patients with a hyperinflammatory phenotype. It will also evaluate the safety of methylprednisolone at different doses. The main questions it aims to answer are: * Does methylprednisolone improve organ function compared with placebo? * Does methylprednisolone reduce the risk of mortality within 30 days? Researchers will compare high-dose methylprednisolone (160mg/d), low-dose methylpredniso</description>
     </item>
     <item>
-      <title>Blood Pressure Estimation for Hemodynamic Monitoring Using Reduced Photoplethysmography Features in Intensive Care Units: Prospective Machine Learning Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044098/</link>
-      <guid isPermaLink="false">pmid:43044098</guid>
-      <category>This Week</category>
-      <description>Continuous, noninvasive blood pressure (BP) monitoring is clinically important for managing hemodynamic instability in the intensive care unit (ICU). However, current ICU practice primarily relies on invasive arterial catheterization. While this is the clinical gold standard for continuous measurement, it carries risks such as infection and thrombosis and is typically limited to select critical care settings. To reduce reliance on invasive arterial lines, we developed an interpretable estimation</description>
+      <title>Will the Use of Respiratory Quotient ''RQ'' Improve Treatment Outcomes for Intensive Care Unit (ICU) Patients?</title>
+      <link>https://clinicaltrials.gov/study/NCT07457554</link>
+      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07457554</guid>
+      <category>Clinical Trial</category>
+      <description>Introduction and assumptions: Optimal nutritional therapy is an important component of intensive care. Both underfeeding and overfeeding are associated with poorer outcomes in critically ill patients. Indirect calorimetry is the gold standard for assessing resting energy expenditure (REE). It also provides the respiratory quotient (RQ), calculated as carbon dioxide production divided by oxygen consumption. RQ reflects substrate utilization and may help guide the choice of nutritional formulation</description>
     </item>
     <item>
-      <title>Cardiovascular physiology of respiratory support in acute cardiac critical illness: A hemodynamic guided approach.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044167/</link>
-      <guid isPermaLink="false">pmid:43044167</guid>
-      <category>This Week</category>
-      <description>Respiratory support is traditionally regarded as a treatment for respiratory failure. However, interventions that modify pleural pressure, transpulmonary pressure, lung volume, or the work of breathing simultaneously influence venous return, ventricular loading conditions, pulmonary vascular resistance, ventricular interdependence, myocardial oxygen demand, cardiac output, and systemic perfusion. Consequently, similar respiratory interventions may produce different haemodynamic effects according</description>
-    </item>
-    <item>
-      <title>Survival after out of hospital cardiac arrest in relation to AED usage in a multi response system including AED equipped drones.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044727/</link>
-      <guid isPermaLink="false">pmid:43044727</guid>
-      <category>This Week</category>
-      <description>Early defibrillation is a key determinant of survival in out‑of‑hospital cardiac arrest (OHCA). In multi-response systems, it remains unclear which responders contribute most to early AED use and survival. This study compared first AED-attaching responders and their association with 30-day survival in a regional multi-response system. This registry‑based cohort study included OHCA cases in Västra Götaland Region, Sweden, between January 1, 2015, and December 31, 2024. Data were obtained from EMS</description>
-    </item>
-    <item>
-      <title>Early Prehospital Prediction of Neurological Outcome After Out-of-Hospital Cardiac Arrest Derivation and External Validation of the MIRA-29 Score.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044726/</link>
-      <guid isPermaLink="false">pmid:43044726</guid>
-      <category>This Week</category>
-      <description>Out-of-hospital cardiac (OHCA) arrest is a frequent emergency, and few patients will survive with good neurological outcome. Identification of patients with a low likelihood of meaningful recovery represents a major clinical challenge. Numerous scores have been developed to guide decision-making after OHCA, with variable goals and targets, but most of them have been validated on small cohorts, integrates variables not available in the prehospital field, or do have low prediction values. MIRA-29 </description>
-    </item>
-    <item>
-      <title>RescQ(TM): One-year implementation and feasibility results of a digitally enabled support pathway for bystanders of out-of-hospital cardiac arrest.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044725/</link>
-      <guid isPermaLink="false">pmid:43044725</guid>
-      <category>This Week</category>
-      <description>Bystanders to out-of-hospital cardiac arrest (OHCA) are at significant risk of psychological distress, yet no standardised support pathway exists for them in the UK. RescQ™ is a digital-first bystander support pathway embedded within regional prehospital and cardiac arrest care services. To evaluate the feasibility of embedding RescQ™ into routine emergency medical services (EMS) practice leading to appropriate contact with bystanders involved in OHCA. Secondary aims were to describe digital acc</description>
-    </item>
-    <item>
-      <title>Out-of-hospital cardiac arrests due to foreign body airway obstruction: A CanROC registry, retrospective cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044724/</link>
-      <guid isPermaLink="false">pmid:43044724</guid>
-      <category>This Week</category>
-      <description>Foreign body airway obstruction (FBAO) is a treatable cause of out-of-hospital cardiac arrest (OHCA), but North American data are limited. Exploratory retrospective cohort study of EMS-treated OHCAs using the Canadian Resuscitation Outcomes Consortium (CanROC) registry (2005-2023), classified as obviously FBAO-related or of no obvious cause (presumed cardiac). Logistic regression compared Utstein characteristics between etiologies and identified factors associated with prehospital return of spon</description>
-    </item>
-    <item>
-      <title>Commercially available multimodal LLMs for EEG-based prognostication after cardiac arrest.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044723/</link>
-      <guid isPermaLink="false">pmid:43044723</guid>
-      <category>This Week</category>
-      <description>Machine-learning and deep-learning approaches have been successfully applied to EEG-based prognostication in comatose patients after cardiac arrest (CA), but typically rely on task-specific signal processing, feature extraction, and model development. Here, we investigated whether two commercially available multimodal large language models (LLMs) could predict neurological outcome directly from EEG images. Thirty-three comatose patients on the first day after CA from a prospective cohort were in</description>
-    </item>
-    <item>
-      <title>Community First Responder Activation Reduces the Negative Impact of AED Distance on Bystander Defibrillation After Out-of-Hospital Cardiac Arrest.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044722/</link>
-      <guid isPermaLink="false">pmid:43044722</guid>
-      <category>This Week</category>
-      <description>Early defibrillation is critical for survival after out-of-hospital cardiac arrest (OHCA), yet bystander defibrillation remains uncommon despite the availability of automated external defibrillators (AEDs). We investigated whether HeartRunner community first responder activation increased the likelihood of bystander defibrillation and 30-day survival in relation to the distance to the nearest accessible AED. Linking data from the Danish Cardiac Arrest Registry, Danish AED Network, and HeartRunne</description>
-    </item>
-    <item>
-      <title>Opioid-Sparing Pain Control in Lung Transplantation: A Single-Center Experience with Intraoperative Intercostal Nerve Cryoablation.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43040978/</link>
-      <guid isPermaLink="false">pmid:43040978</guid>
-      <category>This Week</category>
-      <description>Postoperative pain following lung transplantation is substantial and contributes to opioid exposure, delirium risk, and prolonged recovery. We evaluated the impact of intraoperative intercostal nerve cryoablation on postoperative opioid use, delirium incidence, and early clinical outcomes. We conducted a single-center retrospective matched cohort study of adult lung transplant recipients. Patients who underwent intraoperative intercostal nerve cryoablation (intervention) were compared with a his</description>
-    </item>
-    <item>
-      <title>High-Frequency Chest Wall Oscillation in Critical Care: A Systematic Review.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044049/</link>
-      <guid isPermaLink="false">pmid:43044049</guid>
-      <category>This Week</category>
-      <description>Airway secretion retention represents a major clinical challenge in critically ill patients, promoting gas exchange impairment and atelectasis, precipitating failure of noninvasive respiratory support, and prolonging invasive mechanical ventilation, with an associated increase in respiratory-related complications and mortality. High-frequency chest wall oscillation (HFCWO) is a noninvasive airway clearance technique widely used in chronic respiratory diseases, but its role in the intensive care </description>
-    </item>
-    <item>
-      <title>Comparative epidemiology and outcomes of gram-negative and non-gram-negative External Ventricular Drain (EVD)-related infections: a 10-year single-center cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43043528/</link>
-      <guid isPermaLink="false">pmid:43043528</guid>
-      <category>This Week</category>
-      <description>External ventricular drainage (EVD) is a device used in neurosurgical intensive care to monitor intracranial pressure and treat acute hydrocephalus. Ventriculostomy related infections (VRI) remain the major complications, with reported rates of 8 to 11 cases per 1000 EVD days. Most VRI cases are caused by skin commensal bacteria but Gram-negative bacilli (GNB) infections may carry a worse prognosis. We conducted a single-center, retrospective, observational study in a neurosurgical ICU, from Jan</description>
-    </item>
-    <item>
-      <title>Therapeutic plasma exchange and continuous renal replacement therapy for severe dengue with multiorgan failure: a case report and focused review.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044623/</link>
-      <guid isPermaLink="false">pmid:43044623</guid>
-      <category>This Week</category>
-      <description>Severe dengue can progress to acute liver failure, haemolysis, encephalopathy, shock, and multiorgan dysfunction, but the role of therapeutic plasma exchange in treatment remains uncertain. We report a 17-year-old adolescent with NS1-positive dengue managed with continuous renal replacement therapy, therapeutic plasma exchange, and comprehensive intensive care, and provide a focused narrative review of therapeutic plasma exchange in severe dengue. The patient developed abrupt massive intravascul</description>
-    </item>
-    <item>
-      <title>EaRly impAct theraPy with ceftazidime-avibactam via rapID diagnostics versus standard of care antibiotics and diagnostics in patients with bloodstream infection, hospital-acquired pneumonia or ventilator-associated pneumonia due to Pseudomonas aeruginosa or carbapenem-resistant Enterobacterales (RAPID): protocol for a randomised controlled trial.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43045153/</link>
-      <guid isPermaLink="false">pmid:43045153</guid>
+      <title>From clinical expertise to playable Code: AI-assisted development of a serious game for cardiac arrest awareness.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43051573/</link>
+      <guid isPermaLink="false">pmid:43051573</guid>
       <category>This Week</category>
       <description></description>
     </item>
     <item>
-      <title>Phylogenetic evidence of genetic diversity in Metamycoplasma salivarium from Saudi ventilator-associated pneumonia.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43042812/</link>
-      <guid isPermaLink="false">pmid:43042812</guid>
+      <title>The path towards precision transfusion medicine in critical care: focus on patient physiology, not only on study populations.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049888/</link>
+      <guid isPermaLink="false">pmid:43049888</guid>
       <category>This Week</category>
-      <description>Culture-based identification of Metamycoplasma salivarium in ventilator-associated pneumonia (VAP) is prone to misinterpretation due to phenotypic similarity with pathogenic Mycoplasma species. We performed full-length 16S rRNA PacBio sequencing on 24 M. salivarium sequence variants from Saudi ICU patients with VAP. Global alignments against four GenBank reference strains and phylogenetic reconstruction using neighbor-joining methods characterized population structure relative to global M. saliv</description>
+      <description></description>
     </item>
     <item>
-      <title>Health-care utilization, costs, and quality of life in patients with sepsis: Results from the SAGA trial in the Netherlands.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43044164/</link>
-      <guid isPermaLink="false">pmid:43044164</guid>
+      <title>ICU Mortality Associated With Clinically Important Upper Gastrointestinal Bleeding: A Multistate Analysis.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049476/</link>
+      <guid isPermaLink="false">pmid:43049476</guid>
       <category>This Week</category>
-      <description>Sepsis imposes a substantial clinical and economic burden, yet detailed patient-level data on long-term healthcare costs and quality of life (QoL) is mainly based on intensive care unit (ICU) survivors and relies on model-based projections for patients treated in general wards. To assess direct and indirect healthcare costs and QoL during the first year after community-onset sepsis. Data were obtained from a cluster-randomized trial of patients hospitalized with sepsis of urological, abdominal o</description>
+      <description>Clinically important upper gastrointestinal bleeding may increase mortality and time to discharge from the ICU. Conventional analyses ignore timing and treat bleeding as a binary event. We evaluated the association between time-dependent clinically important upper gastrointestinal bleeding and ICU mortality. A multicenter cohort study using data from an international stress ulcer prophylaxis trial. A total of 4821 invasively ventilated adult participants. None. A multistate model was specified w</description>
     </item>
     <item>
-      <title>Perioperative factors associated with postoperative continuation of mechanical ventilation after initial burn surgery: a retrospective cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43040000/</link>
-      <guid isPermaLink="false">pmid:43040000</guid>
+      <title>High-Flow Nasal Cannula Versus Conventional Oxygen Therapy in Adults With De Novo Acute Hypoxemic Respiratory Failure: A Systematic Review and Meta-Analysis With Trial Sequential Analysis.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049460/</link>
+      <guid isPermaLink="false">pmid:43049460</guid>
       <category>This Week</category>
-      <description>Early surgical intervention, including debridement and grafting, is crucial in acute burn injury management. Although early extubation in operating rooms (ORs) reduces intensive care unit length of stay and ventilator-associated complications, extubation feasibility following initial burn surgery remains uncertain. We investigated perioperative factors associated with postoperative continuation of mechanical ventilation (MV) after initial burn surgery. This retrospective study analyzed patients </description>
+      <description>To evaluate the efficacy of high-flow nasal cannula (HFNC) compared with conventional oxygen therapy (COT) in adults with de novo acute hypoxemic respiratory failure (AHRF) using a meta-analysis with trial sequential analysis (TSA). MEDLINE, Embase, and the Cochrane Central Register of Controlled Trials were searched from database inception to April 7, 2026. Randomized controlled trials (RCTs) comparing HFNC with COT in adults with de novo AHRF. Two investigators independently performed study se</description>
     </item>
     <item>
-      <title>Patterns, outcomes and predictors of severe hospital course among people in prison admitted for poisoning in northwest Iran: a retrospective analytical cross-sectional study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43036047/</link>
-      <guid isPermaLink="false">pmid:43036047</guid>
+      <title>Multiplex PCR in suspected ventilator-associated pneumonia: for which settings, and at what price?</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049889/</link>
+      <guid isPermaLink="false">pmid:43049889</guid>
       <category>This Week</category>
-      <description>People in prison may be at heightened risk of poisoning and overdose because of substance use, psychiatric morbidity and the stresses of incarceration. This study aims to describe the demographic, toxicological and clinical characteristics of people in prison who required hospital admission for poisoning in northwest Iran. A retrospective cross-sectional review was conducted using hospital records of all people in prison admitted to the poisoning service of Taleghani Hospital, Urmia, Iran, from </description>
+      <description></description>
     </item>
     <item>
-      <title>Targeted Mild Hypercapnia and Right Ventricular Function After OHCA</title>
-      <link>https://rebelem.com/hypercapnia-on-rv/</link>
-      <guid isPermaLink="false">https://rebelem.com/hypercapnia-on-rv/</guid>
-      <category>REBEL EM</category>
-      <description>The TAME trial was an 2023 RCT that assessed neurologic outcomes with targeted mild hypercapnia vs normocapnia in patients with out-of-hospital cardiac arrest (OHCA) who achieved return of spontaneous circulation (ROSC) given data suggesting that mild hypercapnia may increase cerebral perfusion. In patients with OHCA who achieved ROSC, does targeted mild hypercapnia confer RV dysfunction? The post</description>
+      <title>Analysis of outcome predictors in traumatic brain injury patients requiring intensive care management reveals an independent role of dynamic measures.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049993/</link>
+      <guid isPermaLink="false">pmid:43049993</guid>
+      <category>This Week</category>
+      <description>Research in traumatic brain injury (TBI) mediation and outcome have developed many methods of assessing patient state and response. While several outcome calculators for TBI have been suggested, these calculators do not include all collected variables in the management of these patients; with a paucity of studies on how these hundreds of variables contribute statistically to long-term outcome. Thus, this work endeavors to assess the statistical relationships between commonly collected variables </description>
     </item>
     <item>
-      <title>Immune Response Profiling in Sepsis</title>
-      <link>https://clinicaltrials.gov/study/NCT07937839</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT07937839</guid>
-      <category>Clinical Trial</category>
-      <description>The goal of this prospective observational study is to investigate if a point-of-care testing device using microfluidics can evaluate the biophysical characteristics of white blood cells for the rapid diagnosis and prognosis of acute infection or sepsis. Our main aim is to develop a rapid biophysical sparing assay protocol for the diagnosis and/or prognosis of acute infection and sepsis in the ED among patients with non-specific symptoms, by differentiating infection vs. non-infection in febrile</description>
+      <title>Propranolol administration following traumatic brain injury induces distinct neuroinflammatory gene expression profiles.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049461/</link>
+      <guid isPermaLink="false">pmid:43049461</guid>
+      <category>This Week</category>
+      <description>Traumatic brain injury (TBI) remains a major cause of morbidity and is frequently followed by prolonged intensive care stays with sustained physiologic stress. Beta-blockade has been investigated as an adjunct therapy for TBI given its potential to reduce sympathetic hyperactivation. The molecular mechanisms underlying neuroinflammatory signaling remain incompletely defined. We hypothesized that propranolol (BB) administration following TBI would modify neuroinflammatory transcriptional response</description>
     </item>
     <item>
-      <title>Safety and Efficacy of EXO-CD24 in Patients With ARDS</title>
-      <link>https://clinicaltrials.gov/study/NCT05947747</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05947747</guid>
-      <category>Clinical Trial</category>
-      <description>This is phase IIb, Randomized, Double-blinded, Placebo-controlled Study to Evaluate the Safety and Efficacy of Exosomes Overexpressing CD24 of one dose 10\^10 exosome particles in Patients with ARDS</description>
+      <title>Religion and Religiosity in End-of-Life Decisions in Neurocritical Care.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43049457/</link>
+      <guid isPermaLink="false">pmid:43049457</guid>
+      <category>This Week</category>
+      <description>End-of-life decisions are shaped by diverse biographical, social, and cultural factors. Few studies have systematically examined the impact of religion on end-of-life decisions, and even less data are available on religiosity (i.e., strength of religious faith). The Religion and religiosity in End-of-life deCisiOns in neuroCritIcaL carE (RECONCILE) study aimed to investigate whether religiosity, rather than religion, plays a decisive role in shaping end-of-life decisions. Prospective observation</description>
     </item>
     <item>
-      <title>Effects of Dexmedetomidine Versus Ketamine on Inflammatory Response and Hemodynamic in Patients</title>
-      <link>https://clinicaltrials.gov/study/NCT06490731</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT06490731</guid>
-      <category>Clinical Trial</category>
-      <description>Inflammatory response and hemodynamic response in patients with intraabdominal sepsis and Effects of Dexmedetomidine versus ketamine on it .</description>
+      <title>Early prediction of ICU-acquired weakness with quadriceps ultrasound: outcome verification, prediction timing, and transportability.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43053117/</link>
+      <guid isPermaLink="false">pmid:43053117</guid>
+      <category>This Week</category>
+      <description>Zou et al. developed and temporally validated a prospective multicentre model combining quadriceps ultrasound and clinical variables to predict intensive care unit-acquired weakness. We focus on its intended clinical use: outcome verification depends on patients later becoming assessable by volitional strength testing, whereas some predictors are collected throughout the first 24 h. The later cohort appropriately evaluates performance across time within the participating centre network. Clarifyi</description>
     </item>
     <item>
-      <title>Dexmedetomidinine in the Prevention of Postoperative Delirium in the Intensive Care Unit After Cardiac Surgery</title>
-      <link>https://clinicaltrials.gov/study/NCT05849597</link>
-      <guid isPermaLink="false">https://clinicaltrials.gov/study/NCT05849597</guid>
-      <category>Clinical Trial</category>
-      <description>This is a prospective, randomized, single blinded, controlled clinical trial designed to compare the clinical effects of sedation with dexmedetomidine versus propofol in patients undergoing cardiac surgery.</description>
+      <title>Association of Spiritual Caregiving and Clinical Reasoning Competency with Nursing Care Quality Among Intensive Care Nurses in Türkiye.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43052597/</link>
+      <guid isPermaLink="false">pmid:43052597</guid>
+      <category>This Week</category>
+      <description>This study aimed to examine the associations of intensive care nurses' spiritual caregiving and clinical reasoning competency with nursing care quality. This descriptive study included 520 intensive care nurses in Türkiye. Data were collected between July 2025 and September 2025 using the Descriptive Characteristics Form, the Spiritual Care-Giving Scale (SCGS), the Clinical Reasoning Competency Scale for Nurses (CRCSN), and the Quality Nursing Care Scale (QNCS). Data collection was performed onl</description>
+    </item>
+    <item>
+      <title>Latent Profiles of Decision-Making Self-Efficacy Among Family Surrogate Decision-Makers of Intensive Care Unit Patients: Influencing Factors and Associations With Decision Readiness.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43052212/</link>
+      <guid isPermaLink="false">pmid:43052212</guid>
+      <category>This Week</category>
+      <description>To identify distinct latent profiles of decision-making self-efficacy among ICU family surrogate decision-makers; to examine factors associated with profile membership and rank their relative importance; and to compare PrepDM across profiles to clarify the behavioural significance of profile differences. A cross-sectional study that followed STROBE guidelines. From September 2024 to July 2025, 387 family surrogate decision-makers from a tertiary hospital in Shandong Province, China, were recruit</description>
+    </item>
+    <item>
+      <title>Prognostic performance of the Simplified Acute Physiology Score models II and 3 in critical care: a systematic review and meta-analysis of external validation studies.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43051534/</link>
+      <guid isPermaLink="false">pmid:43051534</guid>
+      <category>This Week</category>
+      <description>The prognostic performance of the Simplified Acute Physiology Score (SAPS) models has not been thoroughly investigated. We systematically reviewed and meta-analysed SAPS mortality prediction metrics across diverse intensive care unit (ICU) populations worldwide. PubMed and Scopus were queried for external validations of SAPS in ICU settings. The &quot;CHARMS&quot; and &quot;PROBAST&quot; tools were applied for data extraction and risk-of-bias assessment, respectively. C-statistics and observed-to-expected ratios we</description>
+    </item>
+    <item>
+      <title>Therapeutic lactate in critically ill patients: Fuel, fluid, or drug?</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43050885/</link>
+      <guid isPermaLink="false">pmid:43050885</guid>
+      <category>This Week</category>
+      <description>Lactate occupies a paradoxical position in critical care. Traditionally regarded as a marker of physiological stress, it is increasingly recognized as an important metabolic substrate with potential therapeutic effects. In their meta-analysis of randomized trials, Labenbacher and colleagues summarize the current clinical evidence for hypertonic sodium lactate treatment (HSL) across heterogeneous critically ill populations. Although no mortality benefit can be established, the available evidence </description>
+    </item>
+    <item>
+      <title>Factors influencing nurse-family communication in intensive care units in the Canary Islands: A cross-sectional study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43050790/</link>
+      <guid isPermaLink="false">pmid:43050790</guid>
+      <category>This Week</category>
+      <description>Communication between nurses and families in intensive care units (ICUs) is an essential component of humanized care. Effective communication is associated with greater family satisfaction and a lower incidence of post-intensive care syndrome in families. However, training and organizational barriers persist that hinder its development. To explore nurses' perceptions of communication with families in the ICUs of public hospitals in the Canary Islands and to identify factors associated with a gre</description>
+    </item>
+    <item>
+      <title>Reply to: When greater numbers do not translate to greater certainty: Interpretation of meta-analyses combining randomized and non-randomized studies of mechanical intra-arrest ventilation.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43051574/</link>
+      <guid isPermaLink="false">pmid:43051574</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Interpreting Hemodynamic Superiority of Direct Cardiac Compression: The Importance of Experimental Independence and Biventricular Balance.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43050701/</link>
+      <guid isPermaLink="false">pmid:43050701</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Reply to Letter to the Editor: Interpreting Hemodynamic Superiority of Direct Cardiac Compression.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43050697/</link>
+      <guid isPermaLink="false">pmid:43050697</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Development and Validation of a Reproducible Cross-Species Liver Machine Perfusion Platform in Rats and Mice.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43050689/</link>
+      <guid isPermaLink="false">pmid:43050689</guid>
+      <category>This Week</category>
+      <description>Ex vivo liver machine perfusion is increasingly used for graft assessment and reconditioning, but reproducible small-animal platforms remain limited. We developed a modular rat-mouse liver machine perfusion platform built around a shared extracorporeal circuit backbone with interchangeable cannulation interfaces, continuous inflow pressure monitoring, and a compact dry thermal-bead bath supporting benchtop subnormothermic and normothermic studies as well as cold-room hypothermic deployment. Perf</description>
+    </item>
+    <item>
+      <title>ASAIO 2026 Annual Conference Summary.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43048943/</link>
+      <guid isPermaLink="false">pmid:43048943</guid>
+      <category>This Week</category>
+      <description></description>
     </item>
   </channel>
 </rss>

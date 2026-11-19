@@ -150,5 +150,30 @@
    "possible spotlight / cache key pmid:42873779"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-19T10:58:13+00:00",
+  "kind": "approved_content_changed",
+  "content_id": "ev_a16fe8de808f",
+  "title": "The Effect of Pink Noise and the Quiet Night Intervention on Sleep Parameters in Intensive Care Unit Patients: A Single-Center Randomized Controlled Trial",
+  "pmid": "",
+  "doi": "",
+  "detail": "Source text/title/DOI changed; approved version retained pending review",
+  "derived_content": [],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-19T10:59:01+00:00",
+  "kind": "correction_or_update",
+  "content_id": "ev_7a59c53a03fe",
+  "title": "Nurse-led continuity-oriented family support across the adult ICU trajectory: a systematic review and meta-analysis of PICS-F-related outcomes.",
+  "pmid": "42906251",
+  "doi": "10.1016/j.iccn.2026.104584",
+  "detail": "correction",
+  "derived_content": [
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:42906251"
+  ],
+  "notified": false
  }
 ]
