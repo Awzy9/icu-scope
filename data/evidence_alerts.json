@@ -189,5 +189,47 @@
    "possible spotlight / cache key pmid:42946128"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-21T10:28:21+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_f2b1566f8fc2",
+  "title": "Applied nutritional investigation determinants of lower quadriceps skeletal muscle measured by ultrasound at ICU admission: a cross-sectional analysis.",
+  "pmid": "42860123",
+  "doi": "10.1016/j.nut.2026.113431",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:42860123"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-21T10:28:51+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_d062cfa1e613",
+  "title": "Editorial: How to measure first responders' arrival time in a smartphone alerting system? An observational study.",
+  "pmid": "42971309",
+  "doi": "10.1016/j.resuscitation.2026.111376",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:42971309"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-21T10:29:09+00:00",
+  "kind": "verification_failed",
+  "content_id": "ev_88e811e51ced",
+  "title": "Shock Synopsis December 2026.",
+  "pmid": "43018536",
+  "doi": "10.1097/shk.0000000000002944",
+  "detail": "PMID 43018536 not found in PubMed",
+  "derived_content": [
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:43018536"
+  ],
+  "notified": false
  }
 ]
