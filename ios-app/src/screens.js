@@ -1,14 +1,15 @@
 import { useLayoutEffect, useMemo, useState } from "react";
-import { FlatList, Pressable, RefreshControl, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
+import { FlatList, Image, Pressable, RefreshControl, ScrollView, StyleSheet, Text, TextInput, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import { LinearGradient } from "expo-linear-gradient";
-import { ArticleCard, Carousel, Empty, FilterBar, SectionTitle, SkeletonList, SortBar, filterOptions, tap } from "./components";
+import { ArticleCard, Carousel, Empty, FadeIn, FilterBar, ResultsBar, ScreenTitle, SectionTitle, SkeletonList, filterOptions, tap } from "./components";
 import { allArticles, articleKey, buildSections, searchArticles } from "./data";
 import MasterDetail from "./MasterDetail";
 import { CLASSICS } from "./classics";
 import { dueKeys, sortArticles } from "./studyTools";
 import { useStore } from "./store";
-import { useTheme } from "./theme";
+import { ContentColumn, useColumns } from "./screenLayout";
+import { radius, space, type, useCardStyle, useTheme } from "./theme";
 import TodayExtras from "./TodayExtras";
 
 function useOpen(navigation) {
@@ -29,11 +30,51 @@ function Loading({ hero }) {
   return <SkeletonList hero={hero} />;
 }
 
+function BrandMark() {
+  const t = useTheme();
+  return (
+    <View style={styles.brand}>
+      <Image source={require("../assets/icon.png")} style={styles.brandIcon} />
+      <Text style={{ fontSize: 15, fontWeight: "800", color: t.textSecondary, letterSpacing: -0.2 }}>
+        ICU <Text style={{ color: t.teal }}>Scope</Text>
+      </Text>
+    </View>
+  );
+}
+
+// Article of the week: the one big, confident card on the Today screen.
+function Hero({ spot, onPress }) {
+  const t = useTheme();
+  return (
+    <Pressable onPress={onPress} accessibilityRole="button" style={({ pressed }) => [styles.heroWrap, { transform: [{ scale: pressed ? 0.985 : 1 }] }]}>
+      <LinearGradient colors={t.gradient} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.hero}>
+        <Ionicons name="pulse" size={170} color="rgba(255,255,255,0.09)" style={styles.heroArt} />
+        <View style={styles.heroPill}>
+          <Ionicons name="star" size={12} color="#fff" />
+          <Text style={styles.heroKicker}>ARTICLE OF THE WEEK</Text>
+        </View>
+        <Text style={styles.heroTitle} numberOfLines={4}>{spot.title}</Text>
+        <View style={styles.heroFoot}>
+          <Text style={styles.heroMeta} numberOfLines={2}>
+            {[spot.study_type, spot.journal].filter(Boolean).join("  ·  ")}
+          </Text>
+          <View style={styles.heroCta}>
+            <Text style={styles.heroCtaText}>Read</Text>
+            <Ionicons name="arrow-forward" size={15} color="#0b3d91" />
+          </View>
+        </View>
+      </LinearGradient>
+    </Pressable>
+  );
+}
+
 export function TodayScreen({ navigation }) {
-  const { feed, refreshing, refresh, offline, settings, seen } = useStore();
+  const { feed, refreshing, refresh, offline, settings } = useStore();
   const t = useTheme();
   const open = useOpen(navigation);
   if (!feed) return <Loading hero />;
+  const hour = new Date().getHours();
+  const greeting = hour < 12 ? "Good morning" : hour < 18 ? "Good afternoon" : "Good evening";
   const spot = feed.spotlight;
   const spotArticle =
     spot && allArticles(feed).find((a) => a.pmid && a.pmid === spot.pmid);
@@ -45,42 +86,31 @@ export function TodayScreen({ navigation }) {
 
   return (
     <ScrollView
-      contentInsetAdjustmentBehavior="automatic"
       refreshControl={<RefreshControl refreshing={refreshing} onRefresh={refresh} tintColor={t.accent} />}
-      contentContainerStyle={{ paddingBottom: 30 }}
+      contentContainerStyle={{ paddingBottom: 40 }}
     >
+      <ContentColumn>
       {offline ? (
         <Text style={[styles.banner, { backgroundColor: t.amberSoft, color: t.amber }]}>
           Offline – showing the last downloaded articles
         </Text>
       ) : null}
 
-      <Text style={[styles.today, { color: t.textMuted }]}>
-        {new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}
-        {week.length ? `  ·  ${week.filter((a) => !seen.has(articleKey(a))).length} unread this week` : ""}
-      </Text>
+      <ScreenTitle
+        eyebrow={<BrandMark />}
+        title={greeting}
+        subtitle={`${new Date().toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" })}${week.length ? `  ·  ${week.length} new this week` : ""}`}
+      />
 
       {spot ? (
-        <Pressable
-          onPress={() => open(spotArticle || { title: spot.title, pmid: spot.pmid, url: spot.url, journal: "", pubdate: spot.pubdate, study_type: spot.study_type, summary: spot.why_selected })}
-          style={({ pressed }) => [styles.heroWrap, { transform: [{ scale: pressed ? 0.985 : 1 }] }]}
-        >
-          <LinearGradient colors={t.gradient} start={{ x: 0, y: 0 }} end={{ x: 1, y: 1 }} style={styles.hero}>
-            <View style={styles.heroPill}>
-              <Ionicons name="star" size={12} color="#fff" />
-              <Text style={styles.heroKicker}>ARTICLE OF THE WEEK</Text>
-            </View>
-            <Text style={styles.heroTitle} numberOfLines={4}>{spot.title}</Text>
-            <View style={styles.heroFoot}>
-              <Text style={styles.heroMeta} numberOfLines={1}>
-                {[spot.study_type, spot.journal].filter(Boolean).join("  ·  ")}
-              </Text>
-              <View style={styles.heroGo}>
-                <Ionicons name="arrow-forward" size={16} color="#0b3d91" />
-              </View>
-            </View>
-          </LinearGradient>
-        </Pressable>
+        <FadeIn>
+        <Hero
+          spot={spot}
+          onPress={() =>
+            open(spotArticle || { title: spot.title, pmid: spot.pmid, url: spot.url, journal: "", pubdate: spot.pubdate, study_type: spot.study_type, summary: spot.why_selected })
+          }
+        />
+        </FadeIn>
       ) : null}
 
       <TodayExtras navigation={navigation} />
@@ -122,6 +152,7 @@ export function TodayScreen({ navigation }) {
           ))}
         </>
       ) : null}
+      </ContentColumn>
     </ScrollView>
   );
 }
@@ -133,11 +164,11 @@ const CAT = {
   renal: ["water", "teal"],
   "gi-nutrition": ["nutrition", "green"],
   "endocrine-metabolic": ["flask", "amber"],
-  "infectious-sepsis": ["bug", "rose"],
+  "infectious-sepsis": ["bug", "purple"],
   "hematology-coag": ["color-fill", "rose"],
   "trauma-surgical": ["bandage", "amber"],
   "procedures-pocus": ["pulse", "accent"],
-  pharmacology: ["medkit", "purple"],
+  pharmacology: ["medkit", "teal"],
 };
 const SECTION_ICON = {
   trial_results: ["checkmark-done-circle", "green"],
@@ -151,30 +182,32 @@ const SECTION_ICON = {
 
 function Tile({ icon, tone, label, count, sub, fresh, onPress }) {
   const t = useTheme();
+  const cols = useColumns();
   return (
-    <Pressable
-      onPress={() => {
-        tap();
-        onPress();
-      }}
-      style={({ pressed }) => [
-        styles.tile,
-        { backgroundColor: t.surface, borderColor: t.border, transform: [{ scale: pressed ? 0.97 : 1 }] },
-      ]}
-    >
-      <View style={styles.tileTop}>
-        <View style={[styles.tileIcon, { backgroundColor: t[`${tone}Soft`] || t.surfaceSoft }]}>
-          <Ionicons name={icon} size={22} color={t[tone]} />
-        </View>
-        {fresh ? (
-          <View style={[styles.fresh, { backgroundColor: t.tealSoft }]}>
-            <Text style={{ color: t.teal, fontWeight: "800", fontSize: 12 }}>{fresh} new</Text>
+    <View style={{ width: `${100 / cols}%`, padding: 5 }}>
+      <Pressable
+        onPress={() => {
+          tap();
+          onPress();
+        }}
+        accessibilityRole="button"
+        accessibilityLabel={`${label}, ${sub ?? `${count} articles`}${fresh ? `, ${fresh} new` : ""}`}
+        style={({ pressed }) => [styles.tile, { backgroundColor: t[`${tone}Soft`] || t.surfaceSoft, transform: [{ scale: pressed ? 0.97 : 1 }] }]}
+      >
+        <View style={styles.tileTop}>
+          <View style={[styles.tileIcon, { backgroundColor: t[tone] }]}>
+            <Ionicons name={icon} size={20} color="#fff" />
           </View>
-        ) : null}
-      </View>
-      <Text style={[styles.tileLabel, { color: t.text }]} numberOfLines={2}>{label}</Text>
-      <Text style={[styles.tileCount, { color: t.textMuted }]}>{sub ?? `${count} articles`}</Text>
-    </Pressable>
+          {fresh ? (
+            <View style={[styles.fresh, { backgroundColor: t.surface }]}>
+              <Text style={{ color: t.teal, fontWeight: "800", fontSize: 12 }}>{fresh} new</Text>
+            </View>
+          ) : null}
+        </View>
+        <Text style={[type.headline, { color: t.text, marginTop: "auto" }]} numberOfLines={2}>{label}</Text>
+        <Text style={[type.caption, { color: t.textSecondary }]}>{sub ?? `${count} articles`}</Text>
+      </Pressable>
+    </View>
   );
 }
 
@@ -194,10 +227,11 @@ export function BrowseScreen({ navigation }) {
 
   return (
     <ScrollView
-      contentInsetAdjustmentBehavior="automatic"
       refreshControl={<RefreshControl refreshing={refreshing} onRefresh={refresh} tintColor={t.accent} />}
-      contentContainerStyle={{ paddingBottom: 30 }}
+      contentContainerStyle={{ paddingBottom: 40 }}
     >
+      <ContentColumn>
+      <ScreenTitle title="Browse" subtitle="By organ system, source or tool" />
       <SectionTitle>Organ systems</SectionTitle>
       <View style={styles.grid}>
         {feed.categories.filter((c) => !settings.hiddenCategories.includes(c.id)).map((c) => {
@@ -224,6 +258,7 @@ export function BrowseScreen({ navigation }) {
           return <Tile key={s.id} icon={icon} tone={tone} label={s.label} count={s.articles.length} onPress={() => go(s.label, s.articles)} />;
         })}
       </View>
+      </ContentColumn>
     </ScrollView>
   );
 }
@@ -261,7 +296,7 @@ export function ListScreen({ route, navigation }) {
           ListHeaderComponent={
             <View style={{ backgroundColor: t.bg }}>
               <FilterBar total={articles.length} options={options} value={type} onChange={setType} />
-              <SortBar value={sort} onChange={setSort} />
+              <ResultsBar count={shown.length} sort={sort} onSort={setSort} />
             </View>
           }
           renderItem={({ item, index }) => <ArticleCard article={item} onPress={open} index={index} />}
@@ -278,7 +313,7 @@ export function ListScreen({ route, navigation }) {
   );
 }
 
-function WatchRow({ query }) {
+function WatchButton({ query }) {
   const t = useTheme();
   const { watchlist, addWatch } = useStore();
   const watching = watchlist.some((w) => w.query.toLowerCase() === query.trim().toLowerCase());
@@ -287,12 +322,12 @@ function WatchRow({ query }) {
       onPress={() => addWatch(query)}
       disabled={watching}
       accessibilityRole="button"
-      style={[styles.watchRow, { backgroundColor: watching ? t.surfaceSoft : t.accentSoft }]}
+      accessibilityLabel={watching ? `Watching ${query.trim()}` : `Watch ${query.trim()}`}
+      hitSlop={8}
+      style={[styles.watchButton, { backgroundColor: watching ? t.surfaceSoft : t.accentSoft }]}
     >
-      <Ionicons name={watching ? "eye" : "eye-outline"} size={17} color={watching ? t.textMuted : t.accent} />
-      <Text style={{ color: watching ? t.textMuted : t.accent, fontWeight: "700", flex: 1 }} numberOfLines={1}>
-        {watching ? `Watching “${query.trim()}” on Today` : `Watch “${query.trim()}” and flag new matches on Today`}
-      </Text>
+      <Ionicons name={watching ? "eye" : "eye-outline"} size={14} color={watching ? t.textMuted : t.accent} />
+      <Text style={{ color: watching ? t.textMuted : t.accent, fontWeight: "700", fontSize: 12.5 }}>{watching ? "Watching" : "Watch"}</Text>
     </Pressable>
   );
 }
@@ -300,6 +335,7 @@ function WatchRow({ query }) {
 export function SearchScreen({ navigation }) {
   const { feed, settings } = useStore();
   const t = useTheme();
+  const card = useCardStyle();
   const [q, setQ] = useState("");
   const pool = useMemo(() => (feed ? allArticles(feed, settings.hiddenCategories) : []), [feed, settings.hiddenCategories]);
   const [type, setType] = useState(null);
@@ -312,7 +348,8 @@ export function SearchScreen({ navigation }) {
     <MasterDetail navigation={navigation}>
       {(open) => (
     <View style={{ flex: 1 }}>
-      <View style={[styles.searchBox, { backgroundColor: t.surface, borderColor: t.border, borderWidth: StyleSheet.hairlineWidth }]}>
+      <ScreenTitle title="Search" subtitle={pool.length ? `${pool.length} articles on this device` : undefined} />
+      <View style={[styles.searchBox, card, { borderRadius: radius.lg }]}>
         <Ionicons name="search" size={18} color={t.textMuted} />
         <TextInput
           value={q}
@@ -334,9 +371,8 @@ export function SearchScreen({ navigation }) {
         ListHeaderComponent={
           q.trim().length >= 2 ? (
             <View>
-              <WatchRow query={q} />
               <FilterBar total={found.length} options={options} value={type} onChange={setType} />
-              <SortBar value={sort} onChange={setSort} />
+              <ResultsBar count={results.length} sort={sort} onSort={setSort} extra={<WatchButton query={q} />} />
             </View>
           ) : null
         }
@@ -372,7 +408,6 @@ export function SavedScreen({ navigation }) {
     <FlatList
       data={shown}
       keyExtractor={(a, i) => `${articleKey(a)}-${i}`}
-      contentInsetAdjustmentBehavior="automatic"
       contentContainerStyle={{ paddingBottom: 12, flexGrow: 1 }}
       ListHeaderComponent={
         <View>
@@ -426,24 +461,25 @@ export function SavedScreen({ navigation }) {
 const styles = StyleSheet.create({
   center: { flex: 1, alignItems: "center", justifyContent: "center" },
   banner: { textAlign: "center", paddingVertical: 8, fontWeight: "600", fontSize: 13 },
-  heroWrap: { marginHorizontal: 16, marginTop: 8, marginBottom: 6, borderRadius: 24, overflow: "hidden" },
-  hero: { padding: 20, gap: 14 },
+  brand: { flexDirection: "row", alignItems: "center", gap: 8, marginBottom: space.md },
+  brandIcon: { width: 26, height: 26, borderRadius: 7 },
+  heroWrap: { marginHorizontal: space.lg, marginTop: space.sm, marginBottom: space.md, borderRadius: radius.xl, shadowColor: "#0b3d91", shadowOpacity: 0.28, shadowRadius: 18, shadowOffset: { width: 0, height: 10 }, elevation: 5 },
+  hero: { padding: 22, gap: 16, borderRadius: radius.xl, overflow: "hidden", minHeight: 210 },
+  heroArt: { position: "absolute", right: -26, bottom: -34 },
+  heroCta: { flexDirection: "row", alignItems: "center", gap: 6, backgroundColor: "#fff", borderRadius: 999, paddingHorizontal: 16, paddingVertical: 10 },
+  heroCtaText: { color: "#0b3d91", fontWeight: "800", fontSize: 15 },
   heroPill: { flexDirection: "row", alignItems: "center", gap: 5, alignSelf: "flex-start", backgroundColor: "rgba(255,255,255,0.18)", borderRadius: 999, paddingHorizontal: 10, paddingVertical: 5 },
   heroKicker: { color: "#fff", fontWeight: "800", fontSize: 11, letterSpacing: 0.9 },
-  heroTitle: { color: "#fff", fontSize: 21, fontWeight: "800", lineHeight: 27, letterSpacing: -0.3 },
+  heroTitle: { color: "#fff", fontSize: 23, fontWeight: "800", lineHeight: 29, letterSpacing: -0.5 },
   heroFoot: { flexDirection: "row", alignItems: "center", gap: 12 },
   heroMeta: { flex: 1, color: "rgba(255,255,255,0.82)", fontSize: 13, fontWeight: "500" },
-  heroGo: { width: 34, height: 34, borderRadius: 17, backgroundColor: "#fff", alignItems: "center", justifyContent: "center" },
-  grid: { flexDirection: "row", flexWrap: "wrap", paddingHorizontal: 12 },
-  tile: { width: "47%", flexGrow: 1, margin: 4, borderRadius: 18, borderWidth: StyleSheet.hairlineWidth, padding: 14, gap: 4, minHeight: 124 },
-  today: { fontSize: 13.5, fontWeight: "600", paddingHorizontal: 20, paddingTop: 4 },
+  grid: { flexDirection: "row", flexWrap: "wrap", paddingHorizontal: 11 },
+  tile: { borderRadius: 22, padding: space.lg, gap: 3, minHeight: 124 },
   tileTop: { flexDirection: "row", justifyContent: "space-between", alignItems: "flex-start", marginBottom: 8 },
   fresh: { borderRadius: 999, paddingHorizontal: 9, paddingVertical: 4 },
-  watchRow: { flexDirection: "row", alignItems: "center", gap: 8, marginHorizontal: 16, marginBottom: 8, borderRadius: 12, paddingHorizontal: 14, paddingVertical: 11 },
   deleteRow: { flexDirection: "row", alignItems: "center", gap: 6, paddingHorizontal: 20, paddingVertical: 8 },
-  tileIcon: { width: 42, height: 42, borderRadius: 13, alignItems: "center", justifyContent: "center" },
-  tileLabel: { fontSize: 15.5, fontWeight: "700", lineHeight: 20 },
-  tileCount: { fontSize: 12.5 },
-  searchBox: { flexDirection: "row", alignItems: "center", gap: 8, margin: 16, marginBottom: 12, borderRadius: 14, paddingHorizontal: 12 },
-  input: { flex: 1, paddingVertical: 12, fontSize: 16 },
+  tileIcon: { width: 38, height: 38, borderRadius: 12, alignItems: "center", justifyContent: "center" },
+  searchBox: { flexDirection: "row", alignItems: "center", gap: 10, marginHorizontal: space.lg, marginBottom: space.md, paddingHorizontal: space.lg },
+  watchButton: { flexDirection: "row", alignItems: "center", gap: 5, borderRadius: 999, paddingHorizontal: 11, paddingVertical: 6 },
+  input: { flex: 1, paddingVertical: 14, fontSize: 16.5, outlineStyle: "none" },
 });

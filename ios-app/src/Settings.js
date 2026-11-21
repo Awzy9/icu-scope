@@ -2,9 +2,10 @@ import { useState } from "react";
 import { Linking, Pressable, ScrollView, StyleSheet, Switch, Text, View } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 import app from "../app.json";
-import { Segmented, SectionTitle } from "./components";
+import { Segmented, ScreenTitle, SectionTitle } from "./components";
 import { REMINDER_HOURS, cancelReminder, enableReminder, remindersSupported, scheduleReminder } from "./reminders";
 import { GoalSetting, LockSetting, WatchlistSetting } from "./SettingsExtras";
+import { ContentColumn } from "./screenLayout";
 import { useStore } from "./store";
 import { useTheme } from "./theme";
 
@@ -69,7 +70,9 @@ export default function Settings() {
   const updated = feed?.generated_at ? new Date(feed.generated_at).toLocaleString() : "Not yet";
 
   return (
-    <ScrollView contentInsetAdjustmentBehavior="automatic" contentContainerStyle={{ paddingBottom: 40 }}>
+    <ScrollView contentContainerStyle={{ paddingBottom: 40 }}>
+      <ContentColumn>
+      <ScreenTitle title="Settings" subtitle={`ICU Scope ${app.expo.version}`} />
       <SectionTitle>Appearance</SectionTitle>
       <View style={styles.pad}>
         <Segmented options={APPEARANCE} value={settings.appearance} onChange={(v) => updateSettings({ appearance: v })} />
@@ -193,6 +196,7 @@ export default function Settings() {
           Always read the source paper.
         </Text>
       </View>
+      </ContentColumn>
     </ScrollView>
   );
 }

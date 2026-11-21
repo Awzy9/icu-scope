@@ -1,10 +1,10 @@
 import { useMemo } from "react";
 import { ScrollView, StyleSheet, Text, View } from "react-native";
-import { Empty } from "./components";
+import { Empty, FILTER_LABEL } from "./components";
 import { allArticles } from "./data";
 import { countBy, monthlyCounts } from "./studyTools";
 import { useStore } from "./store";
-import { useTheme } from "./theme";
+import { radius, space, type, useCardStyle, useTheme } from "./theme";
 
 function Bars({ data, horizontal }) {
   const t = useTheme();
@@ -39,9 +39,10 @@ function Bars({ data, horizontal }) {
 
 function Panel({ title, note, children }) {
   const t = useTheme();
+  const card = useCardStyle();
   return (
-    <View style={[styles.panel, { backgroundColor: t.surface, borderColor: t.border }]}>
-      <Text style={{ color: t.text, fontWeight: "800", fontSize: 16.5 }}>{title}</Text>
+    <View style={[styles.panel, card]}>
+      <Text style={[type.headline, { color: t.text }]}>{title}</Text>
       {children}
       {note ? <Text style={{ color: t.textMuted, fontSize: 12 }}>{note}</Text> : null}
     </View>
@@ -53,7 +54,7 @@ export default function Trends() {
   const { feed } = useStore();
   const pool = useMemo(() => (feed ? allArticles(feed) : []), [feed]);
   const months = useMemo(() => monthlyCounts(pool, 6), [pool]);
-  const types = useMemo(() => countBy(pool, (a) => a.study_type).slice(0, 6), [pool]);
+  const types = useMemo(() => countBy(pool, (a) => FILTER_LABEL[a.study_type] || a.study_type).slice(0, 6), [pool]);
   const systems = useMemo(
     () => (feed?.categories || []).map((c) => ({ label: c.label, count: c.articles.length })).sort((a, b) => b.count - a.count),
     [feed],
@@ -75,7 +76,7 @@ export default function Trends() {
 }
 
 const styles = StyleSheet.create({
-  panel: { borderRadius: 18, borderWidth: StyleSheet.hairlineWidth, padding: 16, gap: 14 },
+  panel: { borderRadius: radius.lg, padding: space.lg, gap: 14 },
   vChart: { flexDirection: "row", alignItems: "flex-end", justifyContent: "space-between", minHeight: 170 },
   vCol: { alignItems: "center", gap: 6, flex: 1, justifyContent: "flex-end" },
   vBar: { width: 22, borderRadius: 6 },
