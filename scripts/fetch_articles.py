@@ -59,7 +59,7 @@ TRIALS_MAX = int(os.environ.get("TRIALS_MAX", "10"))
 REQUEST_DELAY = 0.4  # stay under NCBI's 3 req/sec unauthenticated limit
 
 GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = os.environ.get("GROQ_MODEL", "llama-3.1-8b-instant")
+GROQ_MODEL = os.environ.get("GROQ_MODEL", "openai/gpt-oss-20b")
 GROQ_ENDPOINT = "https://api.groq.com/openai/v1/chat/completions"
 AI_SUMMARY_MAX_PER_RUN = int(os.environ.get("AI_SUMMARY_MAX_PER_RUN", "40"))
 AI_REQUEST_DELAY = 0.6
@@ -1597,6 +1597,34 @@ def article_identity(article):
     return f"title:{title}|journal:{journal}"
 
 
+def dedupe_public_items(items, section):
+    """Keep one public card per publication identity without deleting archived records.
+
+    FOAMed feeds can publish the same post under multiple URLs (e.g. a category
+    feed plus the main feed). The archive intentionally retains source entries,
+    but the public safety gate requires unique publication identities within
+    each section. Use exactly the same key as the publication safety check; do
+    not weaken or bypass that check.
+    """
+    from evidence.normalize import identity_keys
+
+    seen = set()
+    unique = []
+    for article in items:
+        keys = identity_keys(article)
+        if not keys:
+            # Missing identifiers are still checked by the publication gate.
+            unique.append(article)
+            continue
+        key = keys[0]
+        if key in seen:
+            print(f"  duplicate public {section} item withheld ({key}): {article.get('url', '')}")
+            continue
+        seen.add(key)
+        unique.append(article)
+    return unique
+
+
 def merge_into_bucket(bucket, fresh_articles, id_fn):
     """Add/update fresh_articles into bucket (keyed dict, mutated in place).
 
@@ -1812,8 +1840,8 @@ def main():
     for c in categories_out:
         c["articles"] = EVIDENCE.filter_visible(f"categories/{c['id']}", c["articles"])
     trending_articles = EVIDENCE.filter_visible("trending", trending_articles)
-    foamed_articles = EVIDENCE.filter_visible("foamed", foamed_articles)
-    bottom_line_articles = EVIDENCE.filter_visible("bottom_line", bottom_line_articles)
+    foamed_articles = dedupe_public_items(EVIDENCE.filter_visible("foamed", foamed_articles), "foamed")
+    bottom_line_articles = dedupe_public_items(EVIDENCE.filter_visible("bottom_line", bottom_line_articles), "bottom_line")
     guideline_articles = EVIDENCE.filter_visible("guidelines", guideline_articles)
     ksa_articles = EVIDENCE.filter_visible("ksa", ksa_articles)
     preprint_articles = EVIDENCE.filter_visible("preprints", preprint_articles)
