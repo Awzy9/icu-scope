@@ -1,4 +1,28 @@
 {
+  "pmid:42963148": {
+    "key_stats": "",
+    "summary": "This review outlines the acute management priorities for survivors of cardiac arrest, emphasizing organ support, hemodynamic stability, and investigation of the arrest cause. It highlights key areas of uncertainty, including targeted temperature management, neuroprognostication, coronary evaluation, and hemodynamic targets.",
+    "significance": "Understanding these priorities helps ICU clinicians optimize care to improve survival and neurologic outcomes after cardiac arrest.",
+    "rounds_takeaway": ""
+  },
+  "pmid:42977378": {
+    "key_stats": "",
+    "summary": "This article reviews ICU management of hemodynamically significant pulmonary embolism. It highlights that patients with right‑ventricular failure, hemodynamic instability, or cardiac arrest require advanced monitoring and intervention. Key points include rapid diagnosis, risk stratification, timely reperfusion, and tailored hemodynamic and respiratory support.",
+    "significance": "Understanding these ICU strategies is important because pulmonary embolism can rapidly worsen right‑ventricular function and cause death. Applying a structured approach may improve outcomes in critically ill patients.",
+    "rounds_takeaway": ""
+  },
+  "pmid:43044167": {
+    "key_stats": "",
+    "summary": "This narrative review discusses how respiratory support interventions alter cardiovascular physiology in patients with acute cardiac critical illness. It proposes a framework based on three haemodynamic phenotypes—left‑ventricular congestion, low‑output cardiogenic shock, and right‑ventricular pressure overload—to guide assessment and management. The review emphasizes that respiratory support should be viewed as both a respiratory and cardiovascular intervention.",
+    "significance": "Understanding the cardiovascular effects of respiratory support can help clinicians anticipate and mitigate potential haemodynamic complications in cardiac patients, improving overall management and outcomes.",
+    "rounds_takeaway": "When initiating respiratory support, routinely reassess cardiovascular status to balance respiratory benefit and haemodynamic impact."
+  },
+  "pmid:43025806": {
+    "key_stats": "",
+    "summary": "This guide outlines a physiology-driven, stepwise approach to diagnosing and managing acute right ventricular failure in the ICU. It emphasizes bedside tools such as point-of-care ultrasound and invasive hemodynamics, and reviews strategies for preload optimization, afterload reduction, contractility support, airway management, vasoactive medications, and timely escalation to mechanical circulatory support.",
+    "significance": "Recognizing right ventricular failure early is critical because it carries high mortality in cardiogenic shock. Practical bedside tools and targeted interventions can improve identification and guide timely escalation to mechanical support, potentially improving outcomes.",
+    "rounds_takeaway": "Use point-of-care ultrasound and invasive hemodynamics to recognize RVF and consider early mechanical circulatory support in appropriately selected patients."
+  },
   "pmid:42320025": {
     "summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
     "significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects."
@@ -407,10 +431,6 @@
   "pmid:42469406": {
     "summary": "Researchers developed a machine learning model to help manage bleeding and clotting in critically ill patients by analyzing their medical records and lab results. The model showed promise in guiding personalized treatment and identifying key factors that affect bleeding and clotting. It can help doctors make more informed decisions about patient care.",
     "significance": "This study provides a data-driven tool for managing coagulopathy in critically ill patients, which can lead to improved patient outcomes and more effective use of resources in the ICU."
-  },
-  "pmid:42458534": {
-    "summary": "Researchers studied 100 ICU patients to see if disseminated intravascular coagulation (DIC) is linked to a condition called persistent inflammation, immunosuppression, and catabolism syndrome (PIICS). They found that DIC occurring after 8 days in the ICU may increase the risk of PIICS. The study suggests that coagulopathy during the middle phase of ICU stay may contribute to PIICS.",
-    "significance": "Understanding the relationship between DIC and PIICS can help ICU clinicians identify patients at risk of developing PIICS, allowing for targeted interventions to prevent or mitigate its effects."
   },
   "pmid:42257882": {
     "summary": "This study reviewed current evidence on Patient Blood Management strategies in ICU patients, finding that intravenous iron supplementation and small-volume blood collection tubes can safely reduce anemia, and that restrictive blood transfusion strategies are generally supported.",
