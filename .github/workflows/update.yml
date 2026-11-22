@@ -49,7 +49,8 @@ jobs:
           FOAMED_MAX_PER_SOURCE: "6"
           FOAMED_TOTAL_MAX: "15"
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-          GROQ_MODEL: "llama-3.1-8b-instant"
+          # Override with the repository variable only when a supported model is needed.
+          GROQ_MODEL: ${{ vars.GROQ_MODEL || 'openai/gpt-oss-20b' }}
           AI_SUMMARY_MAX_PER_RUN: "40"
           GUIDELINE_DAYS: "180"
           GUIDELINE_MAX: "10"
