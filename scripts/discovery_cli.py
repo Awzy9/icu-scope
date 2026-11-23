@@ -5,7 +5,7 @@
   retry                           retry articles stuck in pending_retry / retrieval_failed
   reconcile                       compare discovered -> retrieved -> stored -> verification record -> displayed; re-queue recoverable gaps
   trace PMID                      follow one article: discovery -> retrieval -> storage -> verification -> approval -> display
-  status [--fail-on-degraded]     print the monitoring status (exit 1 if degraded)
+  status [--fail-on-degraded|--fail-on-operational]  report status; fail only on operational errors in CI
 Exit codes: 0 ok, 1 degraded / unresolved problems, 2 internal error.
 """
 import argparse
@@ -97,7 +97,11 @@ def cmd_trace(a):
 
 def cmd_status(a):
     st = json.load(open(os.path.join(DATA, "discovery_status.json"), encoding="utf-8"))
-    print(json.dumps({k: st[k] for k in ("health", "problems", "last_successful_retrieval", "this_run", "totals")}, indent=1))
+    print(json.dumps({k: st.get(k) for k in ("health", "problems", "operational_health", "operational_problems", "editorial_backlog_count", "last_successful_retrieval", "this_run", "totals")}, indent=1))
+    if st.get("editorial_backlog_count", 0):
+        print(f"::warning::{st['editorial_backlog_count']} articles await editorial verification; the successful refresh is not blocked.")
+    if a.fail_on_operational and st.get("operational_health") != "healthy":
+        return 1  # fail closed on missing or stale-format status
     return 1 if (a.fail_on_degraded and st["health"] != "healthy") else 0
 
 
@@ -108,7 +112,7 @@ def main(argv=None):
     sp.add_parser("retry").set_defaults(fn=cmd_retry)
     sp.add_parser("reconcile").set_defaults(fn=cmd_reconcile)
     p = sp.add_parser("trace"); p.add_argument("pmid"); p.set_defaults(fn=cmd_trace)
-    p = sp.add_parser("status"); p.add_argument("--fail-on-degraded", action="store_true"); p.set_defaults(fn=cmd_status)
+    p = sp.add_parser("status"); p.add_argument("--fail-on-degraded", action="store_true"); p.add_argument("--fail-on-operational", action="store_true"); p.set_defaults(fn=cmd_status)
     args = ap.parse_args(argv)
     try:
         return args.fn(args)
