@@ -1,21 +1,16 @@
 {
  "command": "fetch",
- "finished_at": "2026-11-23T11:39:26+00:00",
- "duration_s": 668.7,
- "http_requests": 595,
+ "finished_at": "2026-11-23T11:58:00+00:00",
+ "duration_s": 517.6,
+ "http_requests": 86,
  "http_retries": 0,
  "source_errors": [],
  "stats": {
-  "records_created": 25,
-  "pending_review": 13,
-  "auto_published": 12,
-  "failed_verification": 1,
-  "alerts": 1,
   "held_back": 1405,
   "not_promoted": 1,
   "study_type_harmonized": 26,
   "ai_failed_validation": 54,
-  "ai_auto_validated": 261
+  "ai_auto_validated": 262
  },
  "states": {
   "unverified": 20,

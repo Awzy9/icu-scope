@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:39:25+00:00",
+  "generated_at": "2026-11-23T11:57:59+00:00",
   "window_days": 120,
   "trending": {
     "window_days": 30,
@@ -9833,8 +9833,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/43069547/",
         "epub_date": "2026-11-23",
         "indexed_date": "2026-11-23",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "renal",
         "category_label": "Renal",
         "category_ids": [
@@ -9946,8 +9944,9 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/43068629/",
         "epub_date": "2026-11-22",
         "indexed_date": "2026-11-22",
-        "link_broken": false,
-        "link_broken_kind": "doi",
+        "ai_key_stats": "",
+        "ai_summary": "This review summarizes hemodynamic and ventilatory physiology for early-career intensivists, integrating recent trials and expert consensus. It explains how macro- and microcirculatory interactions, fluid responsiveness, vasopressor use, and mechanical ventilation principles inform bedside decisions. The article also discusses emerging topics such as patient self-inflicted lung injury and the role of pulmonary artery catheters.",
+        "ai_significance": "Understanding these physiological principles helps clinicians tailor interventions to individual patients and avoid pitfalls of monitoring. It supports a physiology-guided approach that may improve patient outcomes.",
         "category_id": "cardiovascular",
         "category_label": "Cardiovascular",
         "category_ids": [
@@ -9966,7 +9965,7 @@
           "last_verified": "2026-11-23",
           "full_text_reviewed": false,
           "clinically_reviewed": false,
-          "ai_status": "none",
+          "ai_status": "auto_validated",
           "ai_practice_approved": false,
           "retraction_status": "none",
           "notices": [],
@@ -10007,8 +10006,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/43068574/",
         "epub_date": "2026-11-22",
         "indexed_date": "2026-11-22",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "neurology",
         "category_label": "Neurology",
         "category_ids": [
@@ -11034,8 +11031,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/43063081/",
         "epub_date": null,
         "indexed_date": "2026-11-20",
-        "link_broken": false,
-        "link_broken_kind": "doi",
         "category_id": "gi-nutrition",
         "category_label": "GI & Nutrition",
         "category_ids": [
@@ -12202,8 +12197,6 @@
         "url": "https://pubmed.ncbi.nlm.nih.gov/43059173/",
         "epub_date": "2026-11-19",
         "indexed_date": "2026-11-20",
-        "link_broken": true,
-        "link_broken_kind": "doi",
         "category_id": "gi-nutrition",
         "category_label": "GI & Nutrition",
         "category_ids": [
@@ -35474,8 +35467,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42919451/",
           "epub_date": "2026-10-23",
           "indexed_date": "2026-10-23",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_d541256ca003",
             "state": "published",
@@ -52804,8 +52795,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42985103/",
           "epub_date": "2026-10-21",
           "indexed_date": "2026-11-05",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_c71806e08fc3",
             "state": "published",
@@ -52852,8 +52841,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42992167/",
           "epub_date": "2026-11-01",
           "indexed_date": "2026-11-06",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_d2b70dfcc159",
             "state": "published",
@@ -52898,8 +52885,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42997845/",
           "epub_date": "2026-10-22",
           "indexed_date": "2026-11-07",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_7bf8f47ccbb3",
             "state": "published",
@@ -52944,8 +52929,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42996610/",
           "epub_date": "2026-10-23",
           "indexed_date": "2026-11-07",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_b455135df605",
             "state": "published",
@@ -52990,8 +52973,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43011026/",
           "epub_date": "2026-10-27",
           "indexed_date": "2026-11-11",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_a331d6c60ed4",
             "state": "published",
@@ -53040,8 +53021,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43016839/",
           "epub_date": "2026-10-28",
           "indexed_date": "2026-11-12",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_99fec28d4ba4",
             "state": "published",
@@ -53093,8 +53072,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43017542/",
           "epub_date": "2026-11-07",
           "indexed_date": "2026-11-12",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_9c994750d555",
             "state": "published",
@@ -53138,8 +53115,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43016749/",
           "epub_date": "2026-10-28",
           "indexed_date": "2026-11-12",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_fec254560f91",
             "state": "published",
@@ -53189,8 +53164,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43031566/",
           "epub_date": "2026-10-30",
           "indexed_date": "2026-11-14",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_0457670b823b",
             "state": "published",
@@ -53235,8 +53208,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43041350/",
           "epub_date": "2026-11-02",
           "indexed_date": "2026-11-17",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_874bf436cdc7",
             "state": "published",
@@ -53281,8 +53252,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43041877/",
           "epub_date": "2026-11-02",
           "indexed_date": "2026-11-17",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_945d1ccfacdf",
             "state": "published",
@@ -53334,8 +53303,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43060952/",
           "epub_date": "2026-11-05",
           "indexed_date": "2026-11-20",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_4156e8b938e5",
             "state": "published",
@@ -53383,8 +53350,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43065403/",
           "epub_date": "2026-11-06",
           "indexed_date": "2026-11-21",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_7a73377f3dab",
             "state": "published",
@@ -53477,8 +53442,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43061996/",
           "epub_date": "2026-11-20",
           "indexed_date": "2026-11-20",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_fceed8ddbb68",
             "state": "published",
@@ -53547,8 +53510,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42893059/",
           "epub_date": "2026-10-08",
           "indexed_date": "2026-10-18",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_b465357e9272",
             "state": "published",
@@ -53591,8 +53552,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42933947/",
           "epub_date": "2026-08-19",
           "indexed_date": "2026-10-26",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_b9d4ccd0afb4",
             "state": "published",
@@ -53641,8 +53600,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43023026/",
           "epub_date": "2026-10-27",
           "indexed_date": "2026-11-13",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_e94599352851",
             "state": "published",
@@ -53698,8 +53655,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43056780/",
           "epub_date": "2026-11-13",
           "indexed_date": "2026-11-19",
-          "link_broken": false,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_1b04b8194d65",
             "state": "published",
@@ -53834,8 +53789,6 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42992818/",
           "epub_date": "2026-11-06",
           "indexed_date": "2026-11-06",
-          "link_broken": true,
-          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_4c9e1bf8810d",
             "state": "published",
@@ -53881,6 +53834,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42989940/",
           "epub_date": "2026-11-05",
           "indexed_date": "2026-11-06",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_feeae4ffca50",
             "state": "published",
@@ -53927,6 +53882,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42952327/",
           "epub_date": null,
           "indexed_date": "2026-10-29",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_afc8ee6fa458",
             "state": "published",
@@ -53973,6 +53930,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42861658/",
           "epub_date": null,
           "indexed_date": "2026-10-12",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_17cb38e693c0",
             "state": "published",
@@ -54017,6 +53976,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43026001/",
           "epub_date": null,
           "indexed_date": "2026-11-13",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_8263dd4c7763",
             "state": "published",
@@ -54197,6 +54158,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42964729/",
           "epub_date": null,
           "indexed_date": "2026-10-31",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_df16256e6c71",
             "state": "published",
@@ -54261,6 +54224,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42934932/",
           "epub_date": "2026-10-26",
           "indexed_date": "2026-10-27",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_0bf036db3017",
             "state": "published",
@@ -54307,6 +54272,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42933867/",
           "epub_date": "2026-10-26",
           "indexed_date": "2026-10-26",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_8de79fd04b8d",
             "state": "published",
@@ -54408,6 +54375,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/43030120/",
           "epub_date": "2026-10-23",
           "indexed_date": "2026-11-14",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_4ec8ea47868f",
             "state": "published",
@@ -54451,6 +54420,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42906879/",
           "epub_date": "2026-10-22",
           "indexed_date": "2026-10-22",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_896477bd80cf",
             "state": "published",
@@ -54502,6 +54473,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42908224/",
           "epub_date": "2026-10-21",
           "indexed_date": "2026-10-22",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_b4e2ad972e29",
             "state": "published",
@@ -54580,6 +54553,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42879340/",
           "epub_date": "2026-10-15",
           "indexed_date": "2026-10-15",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_2fdf89183352",
             "state": "published",
@@ -54623,6 +54598,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42875940/",
           "epub_date": "2026-10-15",
           "indexed_date": "2026-10-15",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_a78e8d365d15",
             "state": "published",
@@ -54667,6 +54644,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42876873/",
           "epub_date": "2026-10-13",
           "indexed_date": "2026-10-15",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_a2ed5be6f575",
             "state": "published",
@@ -54723,6 +54702,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42933108/",
           "epub_date": "2026-10-12",
           "indexed_date": "2026-10-26",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_fbeac6adb707",
             "state": "published",
@@ -54768,6 +54749,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42850757/",
           "epub_date": "2026-10-08",
           "indexed_date": "2026-10-09",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_40133972ef69",
             "state": "published",
@@ -54821,6 +54804,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42837970/",
           "epub_date": "2026-10-06",
           "indexed_date": "2026-10-06",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_5c993dd42d43",
             "state": "published",
@@ -54869,6 +54854,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42832132/",
           "epub_date": "2026-10-05",
           "indexed_date": "2026-10-05",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_5c7d89c4ce8b",
             "state": "published",
@@ -54912,6 +54899,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42826338/",
           "epub_date": null,
           "indexed_date": "2026-10-02",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_1ec7d440f7bc",
             "state": "published",
@@ -54963,6 +54952,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42823888/",
           "epub_date": "2026-10-02",
           "indexed_date": "2026-10-02",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_70b021955cc4",
             "state": "published",
@@ -55150,6 +55141,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42820798/",
           "epub_date": "2026-10-01",
           "indexed_date": "2026-10-01",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_f28b96056abe",
             "state": "published",
@@ -55196,6 +55189,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42866789/",
           "epub_date": "2026-09-21",
           "indexed_date": "2026-10-13",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_d504dc2d0a75",
             "state": "published",
@@ -55241,6 +55236,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42820893/",
           "epub_date": "2026-10-01",
           "indexed_date": "2026-10-01",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_36d4f37af9e7",
             "state": "published",
@@ -55286,6 +55283,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42884667/",
           "epub_date": "2026-09-29",
           "indexed_date": "2026-10-16",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_4aab8aa79c14",
             "state": "published",
@@ -55328,6 +55327,8 @@
           "url": "https://pubmed.ncbi.nlm.nih.gov/42882273/",
           "epub_date": "2026-09-25",
           "indexed_date": "2026-10-16",
+          "link_broken": true,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_fdf6338a1ad2",
             "state": "published",
@@ -55429,6 +55430,8 @@
           "is_open_access": true,
           "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13576187/",
           "url": "https://pubmed.ncbi.nlm.nih.gov/42745269/",
+          "link_broken": false,
+          "link_broken_kind": "doi",
           "evidence": {
             "id": "ev_2505cf0b209c",
             "state": "published",

@@ -1,17 +1,20 @@
 {
- "generated_at": "2026-11-23T11:39:26+00:00",
- "health": "degraded",
+ "generated_at": "2026-11-23T11:58:00+00:00",
+ "health": "attention_needed",
  "problems": [
-  "784 unresolved reconciliation discrepancies"
+  "784 articles awaiting editorial verification beyond 14 days"
  ],
- "last_successful_retrieval": "2026-11-23T11:39:26+00:00",
- "last_run": "2026-11-23T11:39:26+00:00",
+ "operational_health": "healthy",
+ "operational_problems": [],
+ "editorial_backlog_count": 784,
+ "last_successful_retrieval": "2026-11-23T11:58:00+00:00",
+ "last_run": "2026-11-23T11:58:00+00:00",
  "this_run": {
-  "new_discovered": 27,
-  "retrieved": 27,
-  "rejected": 2,
+  "new_discovered": 0,
+  "retrieved": 0,
+  "rejected": 0,
   "duplicates": 0,
-  "relevance_uncertain": 13,
+  "relevance_uncertain": 0,
   "strategies_ok": 77,
   "strategies_failed": [],
   "query_warnings": []
@@ -186,14 +189,14 @@
    "total_discovered": 2253,
    "relevant_or_review": 1968,
    "published": 1426,
-   "new_this_run": 16
+   "new_this_run": 0
   },
   "ventilation-resp-failure": {
    "label": "Mechanical ventilation & respiratory failure",
    "total_discovered": 857,
    "relevant_or_review": 712,
    "published": 568,
-   "new_this_run": 1
+   "new_this_run": 0
   },
   "ards": {
    "label": "ARDS",
@@ -207,7 +210,7 @@
    "total_discovered": 593,
    "relevant_or_review": 500,
    "published": 338,
-   "new_this_run": 3
+   "new_this_run": 0
   },
   "hemodynamics-cardio": {
    "label": "Hemodynamics & cardiovascular critical care",
@@ -221,7 +224,7 @@
    "total_discovered": 182,
    "relevant_or_review": 167,
    "published": 116,
-   "new_this_run": 1
+   "new_this_run": 0
   },
   "rrt-renal": {
    "label": "Renal replacement therapy & AKI",
@@ -235,7 +238,7 @@
    "total_discovered": 351,
    "relevant_or_review": 308,
    "published": 189,
-   "new_this_run": 3
+   "new_this_run": 0
   },
   "toxicology": {
    "label": "Toxicology",
@@ -249,7 +252,7 @@
    "total_discovered": 250,
    "relevant_or_review": 242,
    "published": 172,
-   "new_this_run": 1
+   "new_this_run": 0
   },
   "ecmo": {
    "label": "ECMO & extracorporeal support",
@@ -277,7 +280,7 @@
    "total_discovered": 288,
    "relevant_or_review": 255,
    "published": 129,
-   "new_this_run": 2
+   "new_this_run": 0
   },
   "obstetric-critical-care": {
    "label": "Obstetric critical care",
@@ -367,17 +370,6 @@
   "epmc:obstetric-critical-care:mesh": "2026-11-23"
  },
  "recent_runs": [
-  {
-   "started_at": "2026-11-14T09:36:59+00:00",
-   "finished_at": "2026-11-14T09:39:36+00:00",
-   "ok": true,
-   "new_discovered": 98,
-   "retrieved": 98,
-   "rejected": 11,
-   "duplicates": 0,
-   "uncertain": 28,
-   "failed_requests": 0
-  },
   {
    "started_at": "2026-11-15T10:07:02+00:00",
    "finished_at": "2026-11-15T10:11:00+00:00",
@@ -475,6 +467,17 @@
    "rejected": 2,
    "duplicates": 0,
    "uncertain": 13,
+   "failed_requests": 0
+  },
+  {
+   "started_at": "2026-11-23T11:49:23+00:00",
+   "finished_at": "2026-11-23T11:58:00+00:00",
+   "ok": true,
+   "new_discovered": 0,
+   "retrieved": 0,
+   "rejected": 0,
+   "duplicates": 0,
+   "uncertain": 0,
    "failed_requests": 0
   }
  ]
