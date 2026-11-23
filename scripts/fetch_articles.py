@@ -1695,7 +1695,9 @@ def finalize_discovery(output, archive, written):
     with open(os.path.join(DATA_DIR, "reconciliation.json"), "w", encoding="utf-8") as f:
         json.dump(report, f, indent=1, ensure_ascii=False)
     issue = os.environ.get("DISCOVERY_ISSUE_FILE")
-    if issue and (st["health"] != "healthy" or report["discrepancies"]):
+    # Keep editorial-only backlog in discovery_status.json; avoid opening a new
+    # GitHub issue every day when the refresh itself succeeded.
+    if issue and st["operational_health"] != "healthy":
         with open(issue, "w", encoding="utf-8") as f:
             f.write(f"# ICU Scope literature discovery: {st['health'].upper()}\n\n" + "\n".join(f"- {p}" for p in st["problems"]) + "\n\n" + disc_reconcile.report_markdown(report))
     print(f"  discovery health: {st['health']} | discovered {st['totals']['discovered']} | published {st['totals']['published']} | "
