@@ -1,5 +1,8 @@
-"""Administrator monitoring status (data/discovery_status.json). Failures are made visible: any failed request, stale success,
-unrecoverable discrepancy or exhausted retry flips `health` to degraded and the workflow turns red."""
+"""Administrator monitoring status (data/discovery_status.json).
+
+Keep editorial-review backlog visible without conflating it with operational
+failures. The clinical publication safety gate is independent and unchanged.
+"""
 import datetime as dt
 import json
 
@@ -29,20 +32,38 @@ def build_status(engine, report, path):
     pend = led.by_status(L.PENDING_RETRY, L.RETRIEVAL_FAILED)
     last_ok = st.get("last_success")
     stale = (not last_ok) or (dt.datetime.now(dt.timezone.utc) - dt.datetime.fromisoformat(last_ok)).total_seconds() > STALE_HOURS * 3600
-    problems = []
+    operational_problems = []
+    editorial_problems = []
     if run["failed_requests"]:
-        problems.append(f"{len(run['failed_requests'])} failed request(s) this run")
+        operational_problems.append(f"{len(run['failed_requests'])} failed request(s) this run")
     if stale:
-        problems.append("no fully successful retrieval in the last %dh" % STALE_HOURS)
-    if report and report["unrecoverable"]:
-        problems.append(f"{report['unrecoverable']} unresolved reconciliation discrepancies")
+        operational_problems.append("no fully successful retrieval in the last %dh" % STALE_HOURS)
+
+    # An article awaiting human verification is not a broken retrieval.
+    # Other discrepancies, including rejected articles displayed publicly,
+    # remain operational failures and must not be silently ignored.
+    discrepancies = report["discrepancies"] if report else []
+    editorial_count = sum(d["type"] == "stalled_awaiting" for d in discrepancies)
+    operational_count = len(discrepancies) - editorial_count
+    if operational_count:
+        operational_problems.append(f"{operational_count} operational reconciliation discrepancies")
+    if editorial_count:
+        editorial_problems.append(f"{editorial_count} articles awaiting editorial verification beyond 14 days")
+
     if any(r["attempts"] >= engine.cfg["max_attempts"] for r in pend):
-        problems.append("articles exhausted automatic retries")
+        operational_problems.append("articles exhausted automatic retries")
     bad_strat = [k for k, v in run["strategy_results"].items() if not v.get("ok")]
+    if bad_strat:
+        operational_problems.append(f"{len(bad_strat)} failed search strategy(ies)")
     if run.get("query_warnings"):
-        problems.append(f"{len(run['query_warnings'])} search strategy(ies) returned PubMed query warnings (possible malformed query)")
+        operational_problems.append(f"{len(run['query_warnings'])} search strategy(ies) returned PubMed query warnings (possible malformed query)")
     status = {
-        "generated_at": now_iso(), "health": "degraded" if problems else "healthy", "problems": problems,
+        "generated_at": now_iso(),
+        "health": "degraded" if operational_problems else ("attention_needed" if editorial_problems else "healthy"),
+        "problems": operational_problems + editorial_problems,
+        "operational_health": "degraded" if operational_problems else "healthy",
+        "operational_problems": operational_problems,
+        "editorial_backlog_count": editorial_count,
         "last_successful_retrieval": last_ok, "last_run": st.get("last_run"),
         "this_run": {"new_discovered": run["new_discovered"], "retrieved": run["retrieved"], "rejected": run["rejected"], "duplicates": run["duplicates"],
                      "relevance_uncertain": run["uncertain"], "strategies_ok": sum(1 for v in run["strategy_results"].values() if v.get("ok")),

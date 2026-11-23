@@ -113,6 +113,7 @@ jobs:
 
       - name: Safety tests + publication gate (must pass before anything is committed)
         run: |
+          set -o pipefail
           python -m unittest discover -s tests -t . -v 2>&1 | tail -n 15
           node --test tests/review_api.test.js
           python scripts/evidence_cli.py audit-verify
@@ -157,7 +158,8 @@ jobs:
             git push origin "HEAD:main"
           fi
 
-      # Deliberately LAST and after the commit: good data is never blocked, but a degraded retrieval turns the run red
-      # (and notifies) instead of being reported as a successful update.
-      - name: Fail the run if literature discovery is degraded
-        run: python scripts/discovery_cli.py status --fail-on-degraded
+      # Deliberately LAST and after the commit. Fail technical retrieval/integrity
+      # problems, not articles awaiting human editorial verification.
+      # Clinical-evidence publication safety checks above remain mandatory.
+      - name: Check operational discovery health (editorial backlog is a warning)
+        run: python scripts/discovery_cli.py status --fail-on-operational
