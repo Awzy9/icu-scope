@@ -1,28 +1,29 @@
 {
  "command": "fetch",
- "finished_at": "2026-11-22T12:19:20+00:00",
- "duration_s": 829.3,
- "http_requests": 747,
- "http_retries": 29,
+ "finished_at": "2026-11-23T11:39:26+00:00",
+ "duration_s": 668.7,
+ "http_requests": 595,
+ "http_retries": 0,
  "source_errors": [],
  "stats": {
-  "records_created": 55,
-  "pending_review": 27,
-  "auto_published": 32,
-  "failed_verification": 2,
-  "held_back": 1387,
+  "records_created": 25,
+  "pending_review": 13,
+  "auto_published": 12,
+  "failed_verification": 1,
+  "alerts": 1,
+  "held_back": 1405,
   "not_promoted": 1,
   "study_type_harmonized": 26,
-  "ai_auto_validated": 260,
-  "ai_failed_validation": 53
+  "ai_failed_validation": 54,
+  "ai_auto_validated": 261
  },
  "states": {
   "unverified": 20,
-  "pending_review": 1184,
+  "pending_review": 1197,
   "verified": 0,
-  "published": 2933,
+  "published": 2944,
   "updated": 4,
-  "under_investigation": 2,
+  "under_investigation": 3,
   "retracted": 0,
   "archived": 2
  }

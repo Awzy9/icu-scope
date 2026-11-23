@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Sun, 22 Nov 2026 12:19:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 11:39:26 +0000</lastBuildDate>
     <item>
       <title>Consent for intensive care research involving adults who lack decision-making capacity: A jurisdictional analysis of Australia's fragmented framework.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43068288/</link>
@@ -53,6 +53,20 @@
       <guid isPermaLink="false">pmid:43003534</guid>
       <category>Cardiovascular</category>
       <description>Valvular heart disease is an uncommon but high-risk cause of cardiogenic shock requiring rapid, multidisciplinary management aimed at bridging patients to definitive surgical or transcatheter valve intervention. Early comprehensive Doppler echocardiography is essential, as clinical signs may be subtle. Distinguishing decompensated chronic valvular disease from acute unstable lesions guides urgency and treatment strategy. Medical stabilization and mechanical circulatory support vary markedly betw</description>
+    </item>
+    <item>
+      <title>Effects of Iloprost on Nitric Oxide Biomarkers in Patients With Septic Shock and Severe Endotheliopathy.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43068852/</link>
+      <guid isPermaLink="false">pmid:43068852</guid>
+      <category>Infectious Disease &amp; Sepsis</category>
+      <description>Septic shock is characterized by profound endothelial dysfunction, which may involve changes in the prostacyclin and nitric oxide (NO) pathways and contribute to immune dysregulation, coagulopathy, and vascular instability. Iloprost has shown potential to modulate NO biomarkers in non-septic conditions. We investigated whether treatment with the prostacyclin analog iloprost affected plasma concentrations of the NO biomarkers ADMA, SDMA, arginine, and homoarginine in patients with septic shock an</description>
+    </item>
+    <item>
+      <title>Effects of Iloprost on Nitric Oxide Biomarkers in Patients With Septic Shock and Severe Endotheliopathy.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43068852/</link>
+      <guid isPermaLink="false">pmid:43068852</guid>
+      <category>Hematology &amp; Coagulation</category>
+      <description>Septic shock is characterized by profound endothelial dysfunction, which may involve changes in the prostacyclin and nitric oxide (NO) pathways and contribute to immune dysregulation, coagulopathy, and vascular instability. Iloprost has shown potential to modulate NO biomarkers in non-septic conditions. We investigated whether treatment with the prostacyclin analog iloprost affected plasma concentrations of the NO biomarkers ADMA, SDMA, arginine, and homoarginine in patients with septic shock an</description>
     </item>
     <item>
       <title>Gut microbiome-based interventions to prevent ICU-acquired infections: A systematic review and meta-analysis.</title>
@@ -230,6 +244,13 @@
       <description>Acute and critical illnesses are typically accompanied by hemodynamic instability, tissue edema, mechanical ventilation and extracellular matrix remodeling. Abnormal shear stress, mechanical stretch, pressure loading and tissue deformation continuously reshape the local mechanical microenvironment. Piezo1 is a mechanosensitive cation channel that converts mechanical stimuli into intracellular signals dominated by Ca²+ influx and contributes to vascular homeostasis, immune regulation and tissue r</description>
     </item>
     <item>
+      <title>Healthcare Professionals' Perspectives on Nutritional Risk Screening Practices in Intensive Care Units: The Guide-in Nut National Survey.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43069709/</link>
+      <guid isPermaLink="false">pmid:43069709</guid>
+      <category>General Critical Care</category>
+      <description>Nutritional risk screening is recommended for critically ill patients; however, little is known about how healthcare professionals implement it in practice. This study evaluated healthcare professionals' perspectives on nutritional risk screening, including implementation, use of validated tools, adherence to guideline recommendations, and perceived barriers. A cross-sectional online survey was conducted among Brazilian physicians, nurses, and dietitians with at least 1 year of ICU experience. T</description>
+    </item>
+    <item>
       <title>Resting-State Functional MRI and Clinical Outcomes After Acute Disorders of Consciousness: A Systematic Review.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42956386/</link>
       <guid isPermaLink="false">pmid:42956386</guid>
@@ -242,6 +263,34 @@
       <guid isPermaLink="false">pmid:42956386</guid>
       <category>Neurology</category>
       <description>Accurate assessment and prognostication of patients with acute disorders of consciousness (DoC) after severe brain injury remain a substantial clinical challenge. Resting-state fMRI (rs-fMRI) measures spontaneous, temporally correlated brain activity in the absence of external stimulation and provides objective insight into the integrity of large-scale neural networks that support brain function. Emerging evidence suggests that assessing neural integrity using rs-fMRI may improve outcome predict</description>
+    </item>
+    <item>
+      <title>Extreme Hypereosinophilia Revealing Disseminated Strongyloidiasis in a Critically Ill Patient.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43069547/</link>
+      <guid isPermaLink="false">pmid:43069547</guid>
+      <category>This Week</category>
+      <description>BACKGROUND Extreme hypereosinophilia is an uncommon but clinically important laboratory finding that may indicate serious underlying disease. In tropical regions, parasitic infections, particularly Strongyloides stercoralis, should be considered. However, the diagnosis may be overlooked in critically ill patients with multiple concurrent infections. Because disseminated strongyloidiasis carries high mortality when diagnosis is delayed, early recognition and empirical anti-helminthic therapy are </description>
+    </item>
+    <item>
+      <title>Impact of a sepsis clinical decision support system and workflow on sepsis-associated mortality or hospice discharge: A multihospital quasi-experimental study from 2018 to 2024.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43070045/</link>
+      <guid isPermaLink="false">pmid:43070045</guid>
+      <category>This Week</category>
+      <description>Clinical decision support (CDS) tools may enhance sepsis care delivery by streamlining recognition, reducing workflow-related delays, and facilitating timely treatment initiation. This study evaluated the impact of the sepsis navigation tool (SNT), a CDS-driven quality improvement initiative, on all-cause in-hospital mortality or hospice discharge and adherence to key sepsis care processes. This retrospective, quasi-experimental study utilized electronic health record data from 631,620 adult acu</description>
+    </item>
+    <item>
+      <title>Integrating physiology and practice in critical care: hemodynamics and ventilatory mechanics for the beginner intensivist.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43068629/</link>
+      <guid isPermaLink="false">pmid:43068629</guid>
+      <category>This Week</category>
+      <description>This educational review provides a practical and evidence-informed overview of hemodynamic and ventilatory physiology for early-career intensivists. It integrates recent trials and expert consensus to explain how macro- and microcirculatory interactions, fluid responsiveness, vasopressor use, and mechanical-ventilation principles translate into bedside decision-making. Beyond summarizing physiology, this article emphasizes clinical reasoning, controversies, and limitations of monitoring approach</description>
+    </item>
+    <item>
+      <title>Neurosurgical intervention and ICU mortality in mechanically ventilated patients with acute brain injury: A post hoc analysis of a multicenter observational study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43068574/</link>
+      <guid isPermaLink="false">pmid:43068574</guid>
+      <category>This Week</category>
+      <description>Mechanically ventilated patients with acute brain injury (ABI) frequently undergo neurosurgical procedures, but the differences between medically and surgically managed patients and ICU mortality remains uncertain because of disease heterogeneity and specific neurosurgical indication. We performed a post hoc analysis of the prospective ENIO multicenter observational study (NCT03400904), conducted from June 2018 to November 2020 in 73 ICUs across 18 countries. Adult neurocritical care patients wi</description>
     </item>
     <item>
       <title>Global Leadership Initiative on a Malnutrition-Based Muscle Assessment Using Multiple Methods in Critically Ill Patients: A Prospective Observational Study.</title>
@@ -375,55 +424,6 @@
       <guid isPermaLink="false">pmid:43064335</guid>
       <category>This Week</category>
       <description></description>
-    </item>
-    <item>
-      <title>Hemodynamic Effects of Three Different Mechanical Circulatory Support Strategies in Isolated Acute Right Heart Failure.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43063495/</link>
-      <guid isPermaLink="false">pmid:43063495</guid>
-      <category>This Week</category>
-      <description>Although acute right ventricular failure (aRVF) is commonly treated with venoarterial extracorporeal membrane oxygenation (VA ECMO), this approach may increase complications. We compared femoro-femoral VA ECMO, single-lumen cannula femoro-pulmonary artery (V-Pa), and double-lumen cannula right atrium-to-pulmonary artery (RA-Pa) support configurations in a swine model of ischemic aRVF-induced cardiogenic shock. Twenty-six adult German Landrasse swine were randomly assigned to the three study grou</description>
-    </item>
-    <item>
-      <title>The Role of Diagnostic Tools in the Management of Ventilator Associated Lower Respiratory Tract Infections.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43063987/</link>
-      <guid isPermaLink="false">pmid:43063987</guid>
-      <category>This Week</category>
-      <description>Ventilator-associated pneumonia (VAP) remains a leading healthcare-associated infection in intensive care units and is closely associated with prolonged mechanical ventilation, excessive antimicrobial exposure, higher costs, and poor clinical outcomes. Despite decades of clinical trials and guideline development, bedside diagnosis remains limited by the absence of a biological reference standard. Conventional criteria combine nonspecific clinical, radiographic, and microbiological findings and c</description>
-    </item>
-    <item>
-      <title>Effect of fascial plane blocks providing postoperative analgesia on mechanical ventilation duration in the ıntensive care unit and early oxygenation after cardiac surgery.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43059355/</link>
-      <guid isPermaLink="false">pmid:43059355</guid>
-      <category>This Week</category>
-      <description>The primary objective of this study was to examine whether a combined pecto-intercostal fascial plane block (PIFB) and serratus anterior plane block (SAPB) influences the duration of mechanical ventilation in patients who underwent open cardiac surgery via median sternotomy with cardiopulmonary bypass. Secondary objectives included evaluating the effects of this analgesic approach on early postoperative oxygenation parameters, pain intensity scores, and overall opioid consumption. This retrospec</description>
-    </item>
-    <item>
-      <title>Dexmedetomidine-associated bradycardia in perioperative and critical care settings: a cross-database pharmacovigilance study using FAERS and JADER.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43058338/</link>
-      <guid isPermaLink="false">pmid:43058338</guid>
-      <category>This Week</category>
-      <description>Dexmedetomidine (DEX) is a highly selective α2-adrenoceptor agonist widely used for sedation in perioperative and critical care settings. Although bradycardia is a recognised adverse effect, its temporal reporting patterns and associated clinical characteristics remain incompletely characterised. This study investigated DEX-associated bradycardia using two independent spontaneous reporting systems. We conducted a retrospective pharmacovigilance study using the FDA Adverse Event Reporting System </description>
-    </item>
-    <item>
-      <title>Machine learning for early identification of delirium in ICU patients with acute kidney injury.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43063111/</link>
-      <guid isPermaLink="false">pmid:43063111</guid>
-      <category>This Week</category>
-      <description>Delirium is common in critically ill patients and is associated with worse outcomes, but its risk factors among adults with acute kidney injury (AKI) in the intensive care unit (ICU) are not fully described. We aimed to develop and validate a simple machine learning model to predict delirium during ICU stay in adult AKI patients and to identify the most important clinical predictors. We retrospectively included ICU patients aged 18 years or older with a diagnosis of AKI. The cohort was randomly </description>
-    </item>
-    <item>
-      <title>Non-linear association between enteral nutrition initiation time and sepsis-associated delirium: A retrospective cohort study using the MIMIC-III database.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43063066/</link>
-      <guid isPermaLink="false">pmid:43063066</guid>
-      <category>This Week</category>
-      <description>Sepsis-associated delirium (SAD) is a common and critical complication in sepsis patients. Early enteral nutrition is recommended for sepsis patients, yet the relationship between enteral nutrition (EN) initiation time and SAD incidence remains unclear. This study aimed to explore this relationship. The Medical Information Mart for Intensive Care III database was queried to identify sepsis patients who had received EN during their intensive care unit (ICU) stay. Multivariable logistic regression</description>
-    </item>
-    <item>
-      <title>Delirium prevalence and practices across intensive care units in Singapore: a point prevalence survey.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43062038/</link>
-      <guid isPermaLink="false">pmid:43062038</guid>
-      <category>This Week</category>
-      <description>Delirium is characterised by a disturbance in attention and awareness, alongside an acute change in cognition that develops over a short period and fluctuates in severity. It is associated with critical illness. This study aimed to determine the point prevalence of delirium in Singapore's intensive care units (ICUs) and assess the adherence of local delirium management practices and evidence-based international guidelines. A point prevalence survey was conducted on World Delirium Awareness Day, </description>
     </item>
   </channel>
 </rss>

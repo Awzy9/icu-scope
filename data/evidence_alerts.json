@@ -231,5 +231,18 @@
    "possible spotlight / cache key pmid:43018536"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-23T11:33:09+00:00",
+  "kind": "verification_failed",
+  "content_id": "ev_bbc3814c7bd4",
+  "title": "Early Detection and Kinetics of Sepsis-Induced Coagulopathy in Severe Burn Patients",
+  "pmid": "",
+  "doi": "",
+  "detail": "NCT07905807 exists; title similarity 0.24",
+  "derived_content": [
+   "displayed in: trials"
+  ],
+  "notified": false
  }
 ]

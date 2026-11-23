@@ -1,4 +1,10 @@
 {
+  "pmid:43003534": {
+    "key_stats": "",
+    "summary": "Valvular heart disease can precipitate cardiogenic shock and requires rapid, multidisciplinary care to bridge patients to definitive valve intervention. Early comprehensive Doppler echocardiography is essential to distinguish chronic decompensated disease from acute unstable lesions, guiding urgency and treatment strategy. Management varies between stenotic and regurgitant lesions, and transcatheter approaches are preferred when feasible, though they add complexity to cardiac ICU care.",
+    "significance": "Recognizing the high-risk nature of valvular shock and tailoring shock therapies to the specific valve pathology can prevent harm and improve outcomes in the ICU setting.",
+    "rounds_takeaway": "Use early comprehensive Doppler echocardiography to differentiate chronic from acute valvular lesions and guide urgency of intervention."
+  },
   "pmid:42963148": {
     "key_stats": "",
     "summary": "This review outlines the acute management priorities for survivors of cardiac arrest, emphasizing organ support, hemodynamic stability, and investigation of the arrest cause. It highlights key areas of uncertainty, including targeted temperature management, neuroprognostication, coronary evaluation, and hemodynamic targets.",
@@ -9,6 +15,12 @@
     "key_stats": "",
     "summary": "This article reviews ICU management of hemodynamically significant pulmonary embolism. It highlights that patients with right‑ventricular failure, hemodynamic instability, or cardiac arrest require advanced monitoring and intervention. Key points include rapid diagnosis, risk stratification, timely reperfusion, and tailored hemodynamic and respiratory support.",
     "significance": "Understanding these ICU strategies is important because pulmonary embolism can rapidly worsen right‑ventricular function and cause death. Applying a structured approach may improve outcomes in critically ill patients.",
+    "rounds_takeaway": ""
+  },
+  "pmid:43057195": {
+    "key_stats": "",
+    "summary": "The authors discuss refractory septic shock, noting that beyond a mean arterial pressure of about 60‑65 mmHg, tissue perfusion appears independent of arterial pressure. They propose that increasing MAP may incur higher norepinephrine costs and suggest evaluating MAP targets using repeated markers like capillary refill time and lactate rather than single values.",
+    "significance": "This highlights that very high MAP targets may not improve tissue perfusion and could increase vasopressor burden, underscoring the need for individualized MAP goals in refractory septic shock.",
     "rounds_takeaway": ""
   },
   "pmid:43044167": {
