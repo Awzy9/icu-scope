@@ -41,6 +41,12 @@
     "significance": "Recognizing right ventricular failure early is critical because it carries high mortality in cardiogenic shock. Practical bedside tools and targeted interventions can improve identification and guide timely escalation to mechanical support, potentially improving outcomes.",
     "rounds_takeaway": "Use point-of-care ultrasound and invasive hemodynamics to recognize RVF and consider early mechanical circulatory support in appropriately selected patients."
   },
+  "pmid:43042851": {
+    "key_stats": "",
+    "summary": "A 62‑year‑old man undergoing ureteroscopy developed sudden end‑tidal CO₂ drop, increased airway pressure, hypotension, desaturation, and atrial fibrillation. Urgent transesophageal echocardiography revealed extensive gas in the right heart and pulmonary artery, confirming venous gas embolism. The patient stabilized with supportive measures and was discharged after five days.",
+    "significance": "This case demonstrates that venous gas embolism can present abruptly during ureteroscopic procedures and that transesophageal echocardiography can rapidly confirm the diagnosis and guide resuscitation.",
+    "rounds_takeaway": "If an abrupt end‑tidal CO₂ decrease occurs during ureteroscopy, promptly obtain transesophageal echocardiography to assess for venous gas embolism."
+  },
   "pmid:42320025": {
     "summary": "This review explores the mechanisms of how extracorporeal life support helps patients with cardiac and respiratory failure. It found that ECLS can restore gas exchange, improve circulation, and reduce secondary organ injuries, making it easier for patients to recover. It can also provide a bridge to transplantation in some cases.",
     "significance": "Understanding the mechanisms of ECLS can help clinicians make better decisions about when to use it, which patients will benefit the most, and how to minimize its risks and side effects."
@@ -441,14 +447,6 @@
   "pmid:42477630": {
     "summary": "Researchers developed and validated a machine learning model using the XGBoost algorithm to predict ICU death in patients with chronic heart failure and pulmonary infection. The model was able to identify key predictors of mortality, including lactic acid, white blood cell count, and pre-existing diabetes. The model's performance was evaluated and found to be accurate in predicting ICU mortality.",
     "significance": "This study provides a valuable tool for ICU clinicians to predict mortality in patients with chronic heart failure and pulmonary infection, allowing for more individualized risk assessment and management."
-  },
-  "pmid:42471569": {
-    "summary": "This study found that sepsis-induced coagulopathy is associated with higher in-hospital mortality and increased need for vasopressor support in ICU patients with sepsis. The study used a scoring system to predict mortality, which showed moderate discriminative performance. The results suggest that sepsis-induced coagulopathy may provide additional prognostic information when used alongside existing severity assessment tools.",
-    "significance": "Understanding the prognostic impact of sepsis-induced coagulopathy can help clinicians identify patients at higher risk of mortality and inform treatment decisions, potentially improving outcomes in critically ill patients with sepsis."
-  },
-  "pmid:42469406": {
-    "summary": "Researchers developed a machine learning model to help manage bleeding and clotting in critically ill patients by analyzing their medical records and lab results. The model showed promise in guiding personalized treatment and identifying key factors that affect bleeding and clotting. It can help doctors make more informed decisions about patient care.",
-    "significance": "This study provides a data-driven tool for managing coagulopathy in critically ill patients, which can lead to improved patient outcomes and more effective use of resources in the ICU."
   },
   "pmid:42257882": {
     "summary": "This study reviewed current evidence on Patient Blood Management strategies in ICU patients, finding that intravenous iron supplementation and small-volume blood collection tubes can safely reduce anemia, and that restrictive blood transfusion strategies are generally supported.",
