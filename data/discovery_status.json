@@ -1,71 +1,72 @@
 {
- "generated_at": "2026-11-24T13:20:54+00:00",
+ "generated_at": "2026-11-25T12:08:08+00:00",
  "health": "attention_needed",
  "problems": [
-  "792 articles awaiting editorial verification beyond 14 days"
+  "812 articles awaiting editorial verification beyond 14 days"
  ],
  "operational_health": "healthy",
  "operational_problems": [],
- "editorial_backlog_count": 792,
- "last_successful_retrieval": "2026-11-24T13:20:54+00:00",
- "last_run": "2026-11-24T13:20:54+00:00",
+ "editorial_backlog_count": 812,
+ "last_successful_retrieval": "2026-11-25T12:08:08+00:00",
+ "last_run": "2026-11-25T12:08:08+00:00",
  "this_run": {
-  "new_discovered": 79,
-  "retrieved": 78,
-  "rejected": 10,
+  "new_discovered": 66,
+  "retrieved": 65,
+  "rejected": 6,
   "duplicates": 1,
-  "relevance_uncertain": 28,
+  "relevance_uncertain": 22,
   "strategies_ok": 77,
   "strategies_failed": [],
   "query_warnings": []
  },
  "totals": {
-  "discovered": 3844,
-  "retrieved": 3844,
-  "awaiting_verification": 1187,
+  "discovered": 3910,
+  "retrieved": 3910,
+  "awaiting_verification": 1211,
   "approved": 0,
-  "published": 2140,
-  "duplicate": 2,
-  "rejected": 515,
+  "published": 2175,
+  "duplicate": 3,
+  "rejected": 521,
   "pending_retry": 0
  },
  "by_status": {
   "discovered": 0,
   "retrieved": 0,
-  "awaiting_verification": 1187,
+  "awaiting_verification": 1211,
   "approved": 0,
-  "published": 2140,
-  "duplicate": 2,
-  "rejected": 515,
+  "published": 2175,
+  "duplicate": 3,
+  "rejected": 521,
   "retrieval_failed": 0,
   "pending_retry": 0
  },
  "rejection_reasons": {
   "paediatric/neonatal population (out of scope per editorial policy)": 21,
-  "paediatric/neonatal population (out of scope per existing editorial policy)": 470,
+  "paediatric/neonatal population (out of scope per existing editorial policy)": 476,
   "correction/retraction notice, not primary evidence (tracked against the original": 24,
   "duplicate of PMID 42832436": 1,
-  "duplicate of PMID 43069460": 1
+  "duplicate of PMID 43069460": 1,
+  "duplicate of PMID 42832427": 1
  },
  "failed_requests": [],
  "pending_retry": [],
  "reconciliation": {
-  "discrepancies": 792,
+  "discrepancies": 812,
   "recoverable": 0,
-  "unrecoverable": 792,
+  "unrecoverable": 812,
   "stages": {
-   "discovered": 3844,
-   "retrieved": 3844,
-   "stored": 3327,
-   "verification_record": 3327,
-   "displayed": 821
+   "discovered": 3910,
+   "retrieved": 3910,
+   "stored": 3386,
+   "verification_record": 3386,
+   "displayed": 825
   },
-  "strategy_gap_found_only_by_europepmc": 468,
+  "strategy_gap_found_only_by_europepmc": 474,
   "top": [
    {
     "pmid": "42880916",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "[Correlation between acute kidney injury diagnosed by serum creatinine and urine output criteria and short-term prognosis in critically ill patients following non-cardiac surgery]."
@@ -73,7 +74,7 @@
    {
     "pmid": "42953146",
     "type": "stalled_awaiting",
-    "detail": "unverified for 23 days (source verification failed - rechecked on schedule)",
+    "detail": "unverified for 24 days (source verification failed - rechecked on schedule)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "[Clinical characteristics and in-hospital outcomes of patients receiving antithrombotic therapy in a cardiac intensive care unit in sub-Saharan Africa: a retrospective comparative study at the Cardiology Institute of Abidjan]."
@@ -81,7 +82,7 @@
    {
     "pmid": "42933954",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Revisiting Rest: Evidence-Based Shifts in Adult Intensive Care Unit Early Mobility."
@@ -89,7 +90,7 @@
    {
     "pmid": "42933953",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Intensive Care Unit Delirium in Critically Ill Adults: Evidence-Based Approaches to Prevention and Management."
@@ -97,7 +98,7 @@
    {
     "pmid": "42933952",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Intensive Care Unit Liberation: Transforming Critical Care Through the ABCDEF Bundle."
@@ -105,7 +106,7 @@
    {
     "pmid": "42908551",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Development and validation of an interpretable machine learning model for predicting early acute kidney injury and altered consciousness in cardiac surgery patients admitted to the intensive care unit: a retrospective study."
@@ -113,7 +114,7 @@
    {
     "pmid": "42901492",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Intensivists' Perspectives and Practices on Palliative Care in the ICU: A Nationwide Survey in Korea."
@@ -121,7 +122,7 @@
    {
     "pmid": "42879586",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required (ICU relevance uncertain))",
+    "detail": "pending_review for 24 days (editorial review required (ICU relevance uncertain))",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "From muscle dysfunction to functionality: challenges and pathways for rehabilitation in critically ill patients."
@@ -129,7 +130,7 @@
    {
     "pmid": "42878854",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required (ICU relevance uncertain))",
+    "detail": "pending_review for 24 days (editorial review required (ICU relevance uncertain))",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Reply to the letter to the editor: comment on \"Usefulness of the phase angle for inflammation criteria of the global leadership initiative on malnutrition in critically ill patients\"."
@@ -137,7 +138,7 @@
    {
     "pmid": "42877248",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required (ICU relevance uncertain))",
+    "detail": "pending_review for 24 days (editorial review required (ICU relevance uncertain))",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Population Pharmacokinetics and Exposure-Response Analysis of Voriconazole in ICU and Non-ICU Hospitalized Adults."
@@ -145,7 +146,7 @@
    {
     "pmid": "42876967",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Antibiotic prescribing appropriateness among critically ill patients at a single tertiary care center in the United Arab Emirates: a retrospective cohort study."
@@ -153,7 +154,7 @@
    {
     "pmid": "42876204",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required (ICU relevance uncertain))",
+    "detail": "pending_review for 24 days (editorial review required (ICU relevance uncertain))",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Letter to the Editor: Association Between Fluid Overload and Pressure Injuries in ICU Patients With Sepsis: A Retrospective Cohort Study."
@@ -161,7 +162,7 @@
    {
     "pmid": "42875877",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required (ICU relevance uncertain))",
+    "detail": "pending_review for 24 days (editorial review required (ICU relevance uncertain))",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "Systematic CRS-R-based Evaluation of Disorders of Consciousness in the ICU: Development and Evolution of a Multidisciplinary Program."
@@ -169,7 +170,7 @@
    {
     "pmid": "42875287",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required (ICU relevance uncertain))",
+    "detail": "pending_review for 24 days (editorial review required (ICU relevance uncertain))",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "EACTS/STS/AATS Guidelines on Temporary Mechanical Circulatory Support in Adult Cardiac Surgery: An Expert Analysis for Cardiothoracic Anesthesia and Critical Care."
@@ -177,7 +178,7 @@
    {
     "pmid": "42875155",
     "type": "stalled_awaiting",
-    "detail": "pending_review for 23 days (editorial review required)",
+    "detail": "pending_review for 24 days (editorial review required)",
     "recoverable": false,
     "action": "editorial/verification attention needed",
     "title": "[The dignity of older people put to the test in critical care]."
@@ -187,17 +188,17 @@
  "specialties": {
   "general-critical-care": {
    "label": "General critical care",
-   "total_discovered": 2307,
-   "relevant_or_review": 2016,
-   "published": 1459,
-   "new_this_run": 45
+   "total_discovered": 2353,
+   "relevant_or_review": 2058,
+   "published": 1486,
+   "new_this_run": 42
   },
   "ventilation-resp-failure": {
    "label": "Mechanical ventilation & respiratory failure",
-   "total_discovered": 878,
-   "relevant_or_review": 729,
-   "published": 579,
-   "new_this_run": 12
+   "total_discovered": 891,
+   "relevant_or_review": 742,
+   "published": 590,
+   "new_this_run": 7
   },
   "ards": {
    "label": "ARDS",
@@ -208,180 +209,169 @@
   },
   "sepsis": {
    "label": "Sepsis & septic shock",
-   "total_discovered": 601,
-   "relevant_or_review": 506,
-   "published": 343,
-   "new_this_run": 5
+   "total_discovered": 609,
+   "relevant_or_review": 514,
+   "published": 349,
+   "new_this_run": 4
   },
   "hemodynamics-cardio": {
    "label": "Hemodynamics & cardiovascular critical care",
-   "total_discovered": 392,
-   "relevant_or_review": 360,
-   "published": 284,
+   "total_discovered": 400,
+   "relevant_or_review": 367,
+   "published": 288,
    "new_this_run": 4
   },
   "neurocritical": {
    "label": "Neurocritical care",
-   "total_discovered": 186,
-   "relevant_or_review": 170,
-   "published": 119,
-   "new_this_run": 3
+   "total_discovered": 189,
+   "relevant_or_review": 173,
+   "published": 122,
+   "new_this_run": 1
   },
   "rrt-renal": {
    "label": "Renal replacement therapy & AKI",
-   "total_discovered": 358,
-   "relevant_or_review": 319,
-   "published": 246,
-   "new_this_run": 2
+   "total_discovered": 363,
+   "relevant_or_review": 323,
+   "published": 249,
+   "new_this_run": 1
   },
   "infections": {
    "label": "Critical care infections",
-   "total_discovered": 358,
-   "relevant_or_review": 314,
-   "published": 193,
-   "new_this_run": 2
+   "total_discovered": 361,
+   "relevant_or_review": 316,
+   "published": 194,
+   "new_this_run": 1
   },
   "toxicology": {
    "label": "Toxicology",
-   "total_discovered": 55,
-   "relevant_or_review": 50,
-   "published": 38,
-   "new_this_run": 1
+   "total_discovered": 57,
+   "relevant_or_review": 52,
+   "published": 39,
+   "new_this_run": 0
   },
   "trauma-surgical": {
    "label": "Trauma & surgical critical care",
-   "total_discovered": 254,
-   "relevant_or_review": 246,
-   "published": 175,
-   "new_this_run": 1
+   "total_discovered": 257,
+   "relevant_or_review": 249,
+   "published": 178,
+   "new_this_run": 0
   },
   "ecmo": {
    "label": "ECMO & extracorporeal support",
-   "total_discovered": 138,
-   "relevant_or_review": 114,
+   "total_discovered": 139,
+   "relevant_or_review": 115,
    "published": 99,
    "new_this_run": 0
   },
   "nutrition-metabolism": {
    "label": "Nutrition & metabolism",
-   "total_discovered": 123,
-   "relevant_or_review": 110,
-   "published": 79,
-   "new_this_run": 1
+   "total_discovered": 125,
+   "relevant_or_review": 112,
+   "published": 81,
+   "new_this_run": 0
   },
   "sedation-delirium": {
    "label": "Sedation, analgesia & delirium",
-   "total_discovered": 307,
-   "relevant_or_review": 265,
-   "published": 209,
-   "new_this_run": 0
+   "total_discovered": 316,
+   "relevant_or_review": 272,
+   "published": 215,
+   "new_this_run": 3
   },
   "hematology-coag": {
    "label": "Hematology & coagulation",
-   "total_discovered": 293,
-   "relevant_or_review": 258,
-   "published": 131,
-   "new_this_run": 2
+   "total_discovered": 298,
+   "relevant_or_review": 263,
+   "published": 132,
+   "new_this_run": 3
   },
   "obstetric-critical-care": {
    "label": "Obstetric critical care",
    "total_discovered": 39,
    "relevant_or_review": 36,
    "published": 25,
-   "new_this_run": 1
+   "new_this_run": 0
   }
  },
  "strategy_watermarks": {
-  "general-critical-care:mesh": "2026-11-24",
-  "general-critical-care:keyword": "2026-11-24",
-  "general-critical-care:pubtype": "2026-11-24",
-  "ventilation-resp-failure:mesh": "2026-11-24",
-  "ventilation-resp-failure:keyword": "2026-11-24",
-  "ventilation-resp-failure:pubtype": "2026-11-24",
-  "ards:mesh": "2026-11-24",
-  "ards:keyword": "2026-11-24",
-  "ards:pubtype": "2026-11-24",
-  "sepsis:mesh": "2026-11-24",
-  "sepsis:keyword": "2026-11-24",
-  "sepsis:pubtype": "2026-11-24",
-  "hemodynamics-cardio:mesh": "2026-11-24",
-  "hemodynamics-cardio:keyword": "2026-11-24",
-  "hemodynamics-cardio:pubtype": "2026-11-24",
-  "neurocritical:mesh": "2026-11-24",
-  "neurocritical:keyword": "2026-11-24",
-  "neurocritical:pubtype": "2026-11-24",
-  "rrt-renal:mesh": "2026-11-24",
-  "rrt-renal:keyword": "2026-11-24",
-  "rrt-renal:pubtype": "2026-11-24",
-  "infections:mesh": "2026-11-24",
-  "infections:keyword": "2026-11-24",
-  "infections:pubtype": "2026-11-24",
-  "toxicology:mesh": "2026-11-24",
-  "toxicology:keyword": "2026-11-24",
-  "toxicology:pubtype": "2026-11-24",
-  "trauma-surgical:mesh": "2026-11-24",
-  "trauma-surgical:keyword": "2026-11-24",
-  "trauma-surgical:pubtype": "2026-11-24",
-  "ecmo:mesh": "2026-11-24",
-  "ecmo:keyword": "2026-11-24",
-  "ecmo:pubtype": "2026-11-24",
-  "nutrition-metabolism:mesh": "2026-11-24",
-  "nutrition-metabolism:keyword": "2026-11-24",
-  "nutrition-metabolism:pubtype": "2026-11-24",
-  "sedation-delirium:mesh": "2026-11-24",
-  "sedation-delirium:keyword": "2026-11-24",
-  "sedation-delirium:pubtype": "2026-11-24",
-  "hematology-coag:mesh": "2026-11-24",
-  "hematology-coag:keyword": "2026-11-24",
-  "hematology-coag:pubtype": "2026-11-24",
-  "obstetric-critical-care:mesh": "2026-11-24",
-  "obstetric-critical-care:keyword": "2026-11-24",
-  "obstetric-critical-care:pubtype": "2026-11-24",
-  "core-journals": "2026-11-24",
-  "general-journals-icu": "2026-11-24",
-  "epmc:general-critical-care:title": "2026-11-24",
-  "epmc:general-critical-care:mesh": "2026-11-24",
-  "epmc:ventilation-resp-failure:text": "2026-11-24",
-  "epmc:ventilation-resp-failure:mesh": "2026-11-24",
-  "epmc:ards:text": "2026-11-24",
-  "epmc:ards:mesh": "2026-11-24",
-  "epmc:sepsis:text": "2026-11-24",
-  "epmc:sepsis:mesh": "2026-11-24",
-  "epmc:hemodynamics-cardio:text": "2026-11-24",
-  "epmc:hemodynamics-cardio:mesh": "2026-11-24",
-  "epmc:neurocritical:text": "2026-11-24",
-  "epmc:neurocritical:mesh": "2026-11-24",
-  "epmc:rrt-renal:text": "2026-11-24",
-  "epmc:rrt-renal:mesh": "2026-11-24",
-  "epmc:infections:text": "2026-11-24",
-  "epmc:infections:mesh": "2026-11-24",
-  "epmc:toxicology:text": "2026-11-24",
-  "epmc:toxicology:mesh": "2026-11-24",
-  "epmc:trauma-surgical:text": "2026-11-24",
-  "epmc:trauma-surgical:mesh": "2026-11-24",
-  "epmc:ecmo:text": "2026-11-24",
-  "epmc:ecmo:mesh": "2026-11-24",
-  "epmc:nutrition-metabolism:text": "2026-11-24",
-  "epmc:nutrition-metabolism:mesh": "2026-11-24",
-  "epmc:sedation-delirium:text": "2026-11-24",
-  "epmc:sedation-delirium:mesh": "2026-11-24",
-  "epmc:hematology-coag:text": "2026-11-24",
-  "epmc:hematology-coag:mesh": "2026-11-24",
-  "epmc:obstetric-critical-care:text": "2026-11-24",
-  "epmc:obstetric-critical-care:mesh": "2026-11-24"
+  "general-critical-care:mesh": "2026-11-25",
+  "general-critical-care:keyword": "2026-11-25",
+  "general-critical-care:pubtype": "2026-11-25",
+  "ventilation-resp-failure:mesh": "2026-11-25",
+  "ventilation-resp-failure:keyword": "2026-11-25",
+  "ventilation-resp-failure:pubtype": "2026-11-25",
+  "ards:mesh": "2026-11-25",
+  "ards:keyword": "2026-11-25",
+  "ards:pubtype": "2026-11-25",
+  "sepsis:mesh": "2026-11-25",
+  "sepsis:keyword": "2026-11-25",
+  "sepsis:pubtype": "2026-11-25",
+  "hemodynamics-cardio:mesh": "2026-11-25",
+  "hemodynamics-cardio:keyword": "2026-11-25",
+  "hemodynamics-cardio:pubtype": "2026-11-25",
+  "neurocritical:mesh": "2026-11-25",
+  "neurocritical:keyword": "2026-11-25",
+  "neurocritical:pubtype": "2026-11-25",
+  "rrt-renal:mesh": "2026-11-25",
+  "rrt-renal:keyword": "2026-11-25",
+  "rrt-renal:pubtype": "2026-11-25",
+  "infections:mesh": "2026-11-25",
+  "infections:keyword": "2026-11-25",
+  "infections:pubtype": "2026-11-25",
+  "toxicology:mesh": "2026-11-25",
+  "toxicology:keyword": "2026-11-25",
+  "toxicology:pubtype": "2026-11-25",
+  "trauma-surgical:mesh": "2026-11-25",
+  "trauma-surgical:keyword": "2026-11-25",
+  "trauma-surgical:pubtype": "2026-11-25",
+  "ecmo:mesh": "2026-11-25",
+  "ecmo:keyword": "2026-11-25",
+  "ecmo:pubtype": "2026-11-25",
+  "nutrition-metabolism:mesh": "2026-11-25",
+  "nutrition-metabolism:keyword": "2026-11-25",
+  "nutrition-metabolism:pubtype": "2026-11-25",
+  "sedation-delirium:mesh": "2026-11-25",
+  "sedation-delirium:keyword": "2026-11-25",
+  "sedation-delirium:pubtype": "2026-11-25",
+  "hematology-coag:mesh": "2026-11-25",
+  "hematology-coag:keyword": "2026-11-25",
+  "hematology-coag:pubtype": "2026-11-25",
+  "obstetric-critical-care:mesh": "2026-11-25",
+  "obstetric-critical-care:keyword": "2026-11-25",
+  "obstetric-critical-care:pubtype": "2026-11-25",
+  "core-journals": "2026-11-25",
+  "general-journals-icu": "2026-11-25",
+  "epmc:general-critical-care:title": "2026-11-25",
+  "epmc:general-critical-care:mesh": "2026-11-25",
+  "epmc:ventilation-resp-failure:text": "2026-11-25",
+  "epmc:ventilation-resp-failure:mesh": "2026-11-25",
+  "epmc:ards:text": "2026-11-25",
+  "epmc:ards:mesh": "2026-11-25",
+  "epmc:sepsis:text": "2026-11-25",
+  "epmc:sepsis:mesh": "2026-11-25",
+  "epmc:hemodynamics-cardio:text": "2026-11-25",
+  "epmc:hemodynamics-cardio:mesh": "2026-11-25",
+  "epmc:neurocritical:text": "2026-11-25",
+  "epmc:neurocritical:mesh": "2026-11-25",
+  "epmc:rrt-renal:text": "2026-11-25",
+  "epmc:rrt-renal:mesh": "2026-11-25",
+  "epmc:infections:text": "2026-11-25",
+  "epmc:infections:mesh": "2026-11-25",
+  "epmc:toxicology:text": "2026-11-25",
+  "epmc:toxicology:mesh": "2026-11-25",
+  "epmc:trauma-surgical:text": "2026-11-25",
+  "epmc:trauma-surgical:mesh": "2026-11-25",
+  "epmc:ecmo:text": "2026-11-25",
+  "epmc:ecmo:mesh": "2026-11-25",
+  "epmc:nutrition-metabolism:text": "2026-11-25",
+  "epmc:nutrition-metabolism:mesh": "2026-11-25",
+  "epmc:sedation-delirium:text": "2026-11-25",
+  "epmc:sedation-delirium:mesh": "2026-11-25",
+  "epmc:hematology-coag:text": "2026-11-25",
+  "epmc:hematology-coag:mesh": "2026-11-25",
+  "epmc:obstetric-critical-care:text": "2026-11-25",
+  "epmc:obstetric-critical-care:mesh": "2026-11-25"
  },
  "recent_runs": [
-  {
-   "started_at": "2026-11-16T10:19:59+00:00",
-   "finished_at": "2026-11-16T10:22:43+00:00",
-   "ok": true,
-   "new_discovered": 18,
-   "retrieved": 18,
-   "rejected": 8,
-   "duplicates": 0,
-   "uncertain": 4,
-   "failed_requests": 0
-  },
   {
    "started_at": "2026-11-17T11:18:08+00:00",
    "finished_at": "2026-11-17T11:23:10+00:00",
@@ -479,6 +469,17 @@
    "rejected": 10,
    "duplicates": 1,
    "uncertain": 28,
+   "failed_requests": 0
+  },
+  {
+   "started_at": "2026-11-25T11:51:43+00:00",
+   "finished_at": "2026-11-25T12:08:08+00:00",
+   "ok": true,
+   "new_discovered": 66,
+   "retrieved": 65,
+   "rejected": 6,
+   "duplicates": 1,
+   "uncertain": 22,
    "failed_requests": 0
   }
  ]

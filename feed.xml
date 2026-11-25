@@ -4,7 +4,7 @@
     <title>ICU Scope</title>
     <link>https://awzy9.github.io/icu-scope/</link>
     <description>Daily-updated ICU/critical-care literature and FOAMed, organized by organ system.</description>
-    <lastBuildDate>Tue, 24 Nov 2026 13:20:54 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 12:08:08 +0000</lastBuildDate>
     <item>
       <title>Consent for intensive care research involving adults who lack decision-making capacity: A jurisdictional analysis of Australia's fragmented framework.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43068288/</link>
@@ -81,6 +81,13 @@
       <guid isPermaLink="false">pmid:43049668</guid>
       <category>General Critical Care</category>
       <description>Literature on the quality of death and dying has predominantly drawn on high-income contexts, while much less is known about end-of-life care in low-middle-income settings. In Vietnam, policy and practice around palliative and end-of-life care has not kept pace with the ageing of the population. This study explores factors influencing end-of-life decision making in intensive care units (ICUs) where formal protocols are lacking. This analysis is a part of a larger ethnographic study examining vit</description>
+    </item>
+    <item>
+      <title>Effect of Spatial Distance From the Crash Scene to a Critical Care Center on Traffic Fatality Rates in Japan.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43080077/</link>
+      <guid isPermaLink="false">pmid:43080077</guid>
+      <category>General Critical Care</category>
+      <description>To evaluate the association between spatial distance from the traffic-crash scene to the nearest critical care center and traffic-crash fatality in Japan. Using National Police Agency Traffic Accident Statistics Open Data for 2022-2024, we calculated the great-circle distance from each crash site to the nearest of 312 critical care centers, stratified crashes into 1-km bands, and grouped crashes into &lt; 5 km, 5-15 km, and ≥ 15 km categories to compare fatality rate, crash type, roadway configurat</description>
     </item>
     <item>
       <title>Endpoint-specific mortality associated with malignancy among adults with sepsis or septic shock: a systematic review and meta-analysis.</title>
@@ -216,13 +223,6 @@
       <description>Despite advances in trauma resuscitation, significant gaps remain in understanding how early physiological and biochemical derangements influence clinical outcomes. The Sydney 'Clinical Outcomes following Acute Shock in Trauma' (COAST) registry was developed by clinicians containing both prehospital and in-hospital data, allowing for the identification of risk factors that influence early mortality for major trauma patients with shock. This study reports the formation of the registry and the pat</description>
     </item>
     <item>
-      <title>Epidemiology of hypoxic-ischemic encephalopathy after cardiopulmonary resuscitation in intensive care units: A nationwide database study in China.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43061209/</link>
-      <guid isPermaLink="false">pmid:43061209</guid>
-      <category>Hematology &amp; Coagulation</category>
-      <description>The high mortality rate associated with cardiac arrest poses a significant clinical challenge. Hypoxic-ischemic encephalopathy (HIE) following successful cardiopulmonary resuscitation (CPR) is the principal determinant of patient outcomes after cardiac arrest. However, the epidemiological profile of patients with HIE in intensive care units (ICUs) remains poorly defined. This retrospective, nationwide database study was based on clinical data collected by the China National Critical Care Quality</description>
-    </item>
-    <item>
       <title>Causal mediation analysis of contact with COVID-19 patients and burnout syndrome in physiotherapists in Japan: secondary analysis of a multicentre observational study.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/42496126/</link>
       <guid isPermaLink="false">pmid:42496126</guid>
@@ -249,6 +249,13 @@
       <guid isPermaLink="false">pmid:43069709</guid>
       <category>General Critical Care</category>
       <description>Nutritional risk screening is recommended for critically ill patients; however, little is known about how healthcare professionals implement it in practice. This study evaluated healthcare professionals' perspectives on nutritional risk screening, including implementation, use of validated tools, adherence to guideline recommendations, and perceived barriers. A cross-sectional online survey was conducted among Brazilian physicians, nurses, and dietitians with at least 1 year of ICU experience. T</description>
+    </item>
+    <item>
+      <title>PulmCrit: Physician-delivered Comprehensive Medication Management (CMM) in the ICU</title>
+      <link>https://emcrit.org/pulmcrit/cmm/</link>
+      <guid isPermaLink="false">https://emcrit.org/pulmcrit/cmm/</guid>
+      <category>PulmCrit</category>
+      <description>A recent study in CHEST evaluated the relationship between mortality and pharmacist-delivered comprehensive medication management (CMM) in the ICU. It found that a single day without pharmacist-delivered CMM correlated with a 20% increase in mortality: This paper is a correlational study with major methodological limitations, which should temper our enthusiasm. Most hospitals lack ICU pharmacists </description>
     </item>
     <item>
       <title>Pharmacokinetic of Sevoflurane During a 48h Sedation in Intensive Care Unit With AnaConDa®</title>
@@ -300,11 +307,88 @@
       <description>Accurate assessment and prognostication of patients with acute disorders of consciousness (DoC) after severe brain injury remain a substantial clinical challenge. Resting-state fMRI (rs-fMRI) measures spontaneous, temporally correlated brain activity in the absence of external stimulation and provides objective insight into the integrity of large-scale neural networks that support brain function. Emerging evidence suggests that assessing neural integrity using rs-fMRI may improve outcome predict</description>
     </item>
     <item>
+      <title>Prehospital Fluid Resuscitation for Patients With Suspected Sepsis: The PITSTOP-Fluids Factorial Randomized Clinical Trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43076208/</link>
+      <guid isPermaLink="false">pmid:43076208</guid>
+      <category>This Week</category>
+      <description>Early resuscitation with intravenous fluids is recommended for patients with sepsis. To determine the effect of liberal vs more conservative fluid resuscitation strategies in the ambulance on mortality among patients with suspected sepsis. Multicenter, 2 × 2 factorial randomized clinical trial conducted by 4 paramedic services and their destination hospitals in Ontario, Canada. Participants were adults with suspected sepsis, defined as suspected infection, fever (≥38.0 °C), and hypotension (syst</description>
+    </item>
+    <item>
+      <title>Vasopressin Versus Norepinephrine in Septic Shock: A Systematic Review and Meta-Analysis of Randomized Trials Focusing on Vasopressor Timing.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43080063/</link>
+      <guid isPermaLink="false">pmid:43080063</guid>
+      <category>This Week</category>
+      <description>Background and aimsThe optimal choice and timing of vasopressor therapy in septic shock remain uncertain. While norepinephrine is recommended as first-line treatment, vasopressin may offer potential benefits, particularly regarding renal outcomes. We aimed to compare the efficacy and safety of vasopressin versus norepinephrine, with a focus on timing of initiation.MethodsWe conducted a systematic review and meta-analysis of randomized controlled trials comparing vasopressin and norepinephrine in</description>
+    </item>
+    <item>
+      <title>Real-Time Cumulative Fluid Balance Surveillance and Stewardship in Critical Care: From Prediction to Prevention of Fluid Overload.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43076000/</link>
+      <guid isPermaLink="false">pmid:43076000</guid>
+      <category>This Week</category>
+      <description>Fluid therapy is a crucial intervention in critical care, but the same treatment that restores perfusion during shock may become harmful when positive fluid balance persists after stabilization and contributes to organ dysfunction. A key conceptual distinction is that daily fluid balance (FB), cumulative fluid balance (CFB), and percent cumulative fluid balance (%CFB) are quantitative measurements, whereas fluid overload (FO) is a clinical state in which positive fluid balance is associated with</description>
+    </item>
+    <item>
       <title>Intracranial Pressure Waveform Response to Hypertonic Saline Bolus in Patients with Traumatic Brain Injury.</title>
       <link>https://pubmed.ncbi.nlm.nih.gov/43073625/</link>
       <guid isPermaLink="false">pmid:43073625</guid>
       <category>This Week</category>
       <description>We aimed to identify features of intracranial compliance (ICC) reflected in intracranial pressure (ICP) waveform morphology following bolus of 20% hypertonic saline (HTS) to manage intracranial hypertension. ICP was monitored during 89 HTS injections in ten patients with traumatic brain injury (TBI) and high intracranial hypertension. Pulse amplitude (AMP), P2/P1 ratio, pulse shape index (PSI), and normalized time to peak (TTP) were retrospectively analyzed over 3h including pre-, during, and po</description>
+    </item>
+    <item>
+      <title>Perioperative noise isolation for postoperative delirium in older adults undergoing hip surgery: a randomized clinical trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43077801/</link>
+      <guid isPermaLink="false">pmid:43077801</guid>
+      <category>This Week</category>
+      <description>Postoperative delirium (POD) is common in older adults undergoing hip surgery. Noise exposure is associated with increased delirium risk. We hypothesized that perioperative noise isolation would reduce POD in these patients. In this single-center, randomized, patient- and assessor-blind trial, 320 patients (aged ≥65 y) undergoing hip surgery under sevoflurane anesthesia were randomly assigned 1:1 using block randomization stratified by age, surgery type, and planned surgical ICU admission to noi</description>
+    </item>
+    <item>
+      <title>Predicting Energy Expenditure and Metabolic Tolerance for Medical Nutrition Therapy in Neurocritical Care: A Prospective Cohort Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43079028/</link>
+      <guid isPermaLink="false">pmid:43079028</guid>
+      <category>This Week</category>
+      <description>Medical nutrition therapy (MNT) is a key determinant of outcome in critically ill patients, as both underfeeding and overfeeding are associated with unfavorable outcome. Optimal energy provision should consider both resting energy expenditure (REE) and the extent of catabolism to match the exogenous energy delivery to the patient's net demand and thereby maintain metabolic tolerance. Hence, we aimed to evaluate (1) the accuracy of predictive equations (PEs), (2) metabolic tolerance, and (3) REE </description>
+    </item>
+    <item>
+      <title>Graves' disease with thyroid storm: a truly grave disease.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43076995/</link>
+      <guid isPermaLink="false">pmid:43076995</guid>
+      <category>This Week</category>
+      <description>Graves' disease can be exacerbated by thyroid storm. This endocrine emergency is a very rare condition in children and adolescents, with a mortality rate of approximately 10%-30%. Here, we report on a 12-year-old girl with known Graves' disease who presented with pneumonia and thyroid storm (tachycardia, hyperpyrexia, hepatic failure, gastrointestinal manifestations [vomiting, diarrhea], and encephalopathy). She required immediate intensive care treatment including anti-thyroid medication, β‑blo</description>
+    </item>
+    <item>
+      <title>An Interpretable Machine Learning Model for Early Prediction of Septic Shock in Intensive Care Unit Patients: The Incremental Value of Cardiac Output.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43076004/</link>
+      <guid isPermaLink="false">pmid:43076004</guid>
+      <category>This Week</category>
+      <description>BackgroundEarly identification of septic shock is critical for timely resuscitation, yet conventional vital signs such as blood pressure exhibit physiological lag during the compensatory phase. Whether advanced hemodynamic parameters confer incremental predictive value within machine learning (ML) early warning frameworks remains unquantified.MethodsThis retrospective cohort study used the MIMIC-IV v3.0 database. From 7384 patients with hemodynamic monitoring records, 1716 adult ICU patients con</description>
+    </item>
+    <item>
+      <title>Ringer's lactate versus saline in the fluids in septic shock (FISSH) trial: a multicentre, blinded, parallel-group, randomised controlled trial.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43078115/</link>
+      <guid isPermaLink="false">pmid:43078115</guid>
+      <category>This Week</category>
+      <description>Despite fluid therapy being a hallmark of treatment for patients with septic shock, the optimal crystalloid to use in this setting remains unclear. We aimed to compare the effect of two different, commonly used crystalloids in patients with septic shock. In this multicentre, blinded, parallel-group, randomised controlled trial, adults (aged ≥16 years) at 30 academic and community hospitals across Canada and Saudi Arabia who were critically ill with septic shock were randomly assigned (1:1) via a</description>
+    </item>
+    <item>
+      <title>Exploring the Requirements of Clinicians for Transparent and Trustworthy Decision Support Systems in Intensive Care: Focus Group Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43077230/</link>
+      <guid isPermaLink="false">pmid:43077230</guid>
+      <category>This Week</category>
+      <description>Understanding how digital systems can support clinical decision-making is crucial, especially with the growing deployment of increasingly complex AI models. This complexity raises concerns about trustworthiness, affecting the safe and effective adoption of such technologies. In intensive care units (ICUs), where clinicians make high-stakes, time-sensitive decisions, decision support tools must be designed to align with clinical needs and cognitive workflows. A better understanding of decision-ma</description>
+    </item>
+    <item>
+      <title>ProtekDuo Cannulation Through the Left Internal Jugular Vein: A First-in-Human Technique.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43077676/</link>
+      <guid isPermaLink="false">pmid:43077676</guid>
+      <category>This Week</category>
+      <description></description>
+    </item>
+    <item>
+      <title>Vector Flow Mapping Energy Loss and Pump Flow in Left Ventricular Assist Device Patients: A Transesophageal Echocardiography Pilot Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43077672/</link>
+      <guid isPermaLink="false">pmid:43077672</guid>
+      <category>This Week</category>
+      <description>Left ventricular assist device (LVAD) support redirects intraventricular flow toward the inflow cannula. We examined whether vector flow mapping-derived energy loss (EL), a measure of viscous dissipation related to spatial velocity gradients, was associated with controller-displayed pump flow. This prospective single-center pilot enrolled 33 patients undergoing LVAD-related surgery with intraoperative transesophageal echocardiography; 31 HeartMate 3 recipients were analyzable. The maximum availa</description>
     </item>
     <item>
       <title>FGEBM 005 – In Which We Beat a Slow Retreat from Therapeutic Hypothermia</title>
@@ -335,95 +419,11 @@
       <description>Continuous electroencephalography (cEEG) is a valuable tool for neurological prognostication after cardiac arrest. However, registration is often delayed by time-consuming electrode placement and limited availability of EEG technicians. This study investigated the implementation of a frontal EEG (fEEG) configuration using 6 self-adhesive electrodes by nurses within 3 h of Intensive Care Unit (ICU) admission in patients after cardiac arrest. The FRONT study followed a type 3 hybrid design. Nurses</description>
     </item>
     <item>
-      <title>Subphenotyping and precision medicine approaches to ARDS.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43071126/</link>
-      <guid isPermaLink="false">pmid:43071126</guid>
+      <title>Higher Quality Temperature Control Is Associated With Improved Outcomes Following Out-of-Hospital Cardiac Arrest: A Multicenter Validation Study.</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/43076807/</link>
+      <guid isPermaLink="false">pmid:43076807</guid>
       <category>This Week</category>
-      <description>Sixty years after its initial description, acute respiratory distress syndrome (ARDS) remains defined by bilateral radiographic opacities and impaired oxygenation rather than by its underlying biology. This syndromic definition encompasses considerable clinical and biological heterogeneity, which may contribute to the ineffectiveness of pharmacotherapy trials to date. Subphenotyping aims to address this heterogeneity by identifying more homogeneous patient groups that differ in prognosis and/or </description>
-    </item>
-    <item>
-      <title>Discordance Between Guidelines and Practice in ICP Monitoring in Traumatic Brain Injury: Insights from the CENTER-TBI Cohort Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43073624/</link>
-      <guid isPermaLink="false">pmid:43073624</guid>
-      <category>This Week</category>
-      <description>Intracranial pressure (ICP) monitoring is important in selected patients with traumatic brain injury (TBI). This study aims to quantify variability in ICP monitoring practices across European trauma centres, to analyse associations with patient and imaging characteristics and to explore concordance between the practice of ICP monitoring and guideline recommendations. In the Collaborative European Neurotrauma Effectiveness Research in Traumatic Brain Injury (CENTER-TBI) database, we assessed conc</description>
-    </item>
-    <item>
-      <title>Coma Epidemiology, Evaluation, and Therapy in Low- and Middle-Income Countries: Revisiting the Curing Coma(®) Campaign COME TOGETHER Survey.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43073623/</link>
-      <guid isPermaLink="false">pmid:43073623</guid>
-      <category>This Week</category>
-      <description>The Curing Coma Campaign (CCC) initiated a survey to assess global practices in coma management but lacked of sufficient data from low- and middle-income countries (LMICs). A follow-up survey in India provided regional insights, which cannot be generalized to all LMICs. The aim of this study was to conduct a dedicated survey across various LMICs to understand local practices and challenges in the care of comatose patients. This was a cross-sectional online survey of 163 healthcare professionals </description>
-    </item>
-    <item>
-      <title>Protein and Energy Intake and Clinical Outcomes in Patients with Acute Kidney Injury during Continuous Renal Replacement Therapy: A Secondary Analysis of a Prospective Cohort Study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43071713/</link>
-      <guid isPermaLink="false">pmid:43071713</guid>
-      <category>This Week</category>
-      <description>Evidence on nutritional support's impact on outcomes in critically ill AKI patients receiving CRRT is limited. We evaluated associations between delivered energy/protein intake and mortality in this population. This was a secondary analysis of a prospective cohort study at King Chulalongkorn Memorial Hospital (March 2024-November 2025, NCT06254703), including critically ill adults with AKI on CRRT. Daily protein and calorie delivery were calculated from enteral, parenteral, and non-nutritional s</description>
-    </item>
-    <item>
-      <title>Extreme Hypereosinophilia Revealing Disseminated Strongyloidiasis in a Critically Ill Patient.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43069547/</link>
-      <guid isPermaLink="false">pmid:43069547</guid>
-      <category>This Week</category>
-      <description>BACKGROUND Extreme hypereosinophilia is an uncommon but clinically important laboratory finding that may indicate serious underlying disease. In tropical regions, parasitic infections, particularly Strongyloides stercoralis, should be considered. However, the diagnosis may be overlooked in critically ill patients with multiple concurrent infections. Because disseminated strongyloidiasis carries high mortality when diagnosis is delayed, early recognition and empirical anti-helminthic therapy are </description>
-    </item>
-    <item>
-      <title>Early phosphate repletion and ventilator-free days in hypophosphatemic critical illness: a target trial emulation.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43072570/</link>
-      <guid isPermaLink="false">pmid:43072570</guid>
-      <category>This Week</category>
-      <description>Hypophosphatemia is common in critical illness, but whether prompt phosphate repletion improves patient-centered outcomes remains uncertain. To estimate the effect of phosphate repletion within 12 hours of incident hypophosphatemia on 28-day ventilator-free days. In this target trial emulation using MIMIC-IV 3.0, adults during their first ICU stay with an initial serum phosphate concentration &lt;2.5 mg/dL within 48 hours of ICU admission were eligible. Treatment strategies were repletion within 12</description>
-    </item>
-    <item>
-      <title>Contribution of continuous renal replacement therapy to diquat elimination relative to native renal excretion in acute diquat poisoning.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43070652/</link>
-      <guid isPermaLink="false">pmid:43070652</guid>
-      <category>This Week</category>
-      <description>The quantitative contribution of continuous renal replacement therapy to diquat elimination remains poorly defined. We aim to quantify the contribution of continuous renal replacement therapy to diquat elimination and examine the influence of kidney function and treatment timing. In this prospective observational study, patients with acute diquat poisoning who received continuous renal replacement therapy and maintained urine output were enrolled between June 2020 and June 2025. Diquat removal w</description>
-    </item>
-    <item>
-      <title>Impact of a sepsis clinical decision support system and workflow on sepsis-associated mortality or hospice discharge: A multihospital quasi-experimental study from 2018 to 2024.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43070045/</link>
-      <guid isPermaLink="false">pmid:43070045</guid>
-      <category>This Week</category>
-      <description>Clinical decision support (CDS) tools may enhance sepsis care delivery by streamlining recognition, reducing workflow-related delays, and facilitating timely treatment initiation. This study evaluated the impact of the sepsis navigation tool (SNT), a CDS-driven quality improvement initiative, on all-cause in-hospital mortality or hospice discharge and adherence to key sepsis care processes. This retrospective, quasi-experimental study utilized electronic health record data from 631,620 adult acu</description>
-    </item>
-    <item>
-      <title>Recurrent enteral feeding intolerance and in-hospital mortality in critically ill patients: a time-updated analysis.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43072571/</link>
-      <guid isPermaLink="false">pmid:43072571</guid>
-      <category>This Week</category>
-      <description>To evaluate the association between time-updated enteral feeding intolerance (EFI) states and in-hospital mortality in mechanically ventilated critically ill patients. We retrospectively analyzed adults receiving mechanical ventilation who remained in the ICU for at least 3 days. EFI was assessed daily during Nutrition Days 1-7. Patients initially contributed person-time to the no-EFI state, entered the first-EFI state on the first qualifying EFI day, and entered the recurrent-EFI state on the s</description>
-    </item>
-    <item>
-      <title>Association between Candidozyma auris candiduria and subsequent candidemia in colonized critically ill patients: a nine-year cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43071406/</link>
-      <guid isPermaLink="false">pmid:43071406</guid>
-      <category>This Week</category>
-      <description>Urinary isolation of Candidozyma auris in colonized critically ill patients is common, but its clinical significance remains poorly defined. We conducted a retrospective cohort study between May 2016 and December 2025 at a 900-bed tertiary hospital in Valencia, Spain, with endemic clade III C. auris. Patients aged 14 years or older with C. auris colonization and at least one urine culture were included. Candiduria was modeled as a time-varying exposure in cause-specific Cox models. The primary o</description>
-    </item>
-    <item>
-      <title>Angiogenic factors and fetal Doppler for predicting adverse perinatal outcome in late-onset small fetuses with and those without pre-eclampsia.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43071506/</link>
-      <guid isPermaLink="false">pmid:43071506</guid>
-      <category>This Week</category>
-      <description>To assess the predictive performance of angiogenic factors and fetal Doppler, alone and in combination, for composite adverse perinatal outcome (CAPO) in late-onset small-for-gestational age (SGA) and fetal growth restriction (FGR), in both cases with and those without pre-eclampsia (PE), to determine whether these markers predict adverse outcomes beyond their established association with PE. As a secondary objective, we evaluated their performance for predicting subsequent PE. This was a retros</description>
-    </item>
-    <item>
-      <title>Respiratory cultures, intensive care admission and mortality in hospitalized acute exacerbations of COPD: a register-based nationwide cohort study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43072998/</link>
-      <guid isPermaLink="false">pmid:43072998</guid>
-      <category>This Week</category>
-      <description></description>
-    </item>
-    <item>
-      <title>Co-design of an eye-tracking communication tool and a feasibility randomised controlled trial in conscious non-verbal ICU patients in Shanghai, China: protocol for a two-phase mixed-methods study.</title>
-      <link>https://pubmed.ncbi.nlm.nih.gov/43072835/</link>
-      <guid isPermaLink="false">pmid:43072835</guid>
-      <category>This Week</category>
-      <description></description>
+      <description>Hypothermic temperature control has not consistently demonstrated a neuroprotective effect, resulting in heterogeneity of use in clinical practice. We evaluated temperature control quality across 4 institutions and its association with clinical outcomes. Retrospective analysis of institutional registry data collected between 2021 and 2024 in survivors of out-of-hospital cardiac arrest (OHCA) with Glasgow Coma Scale Motor score less than 6 from 4 academic centers with established cardiac arrest p</description>
     </item>
   </channel>
 </rss>
