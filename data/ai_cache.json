@@ -5,12 +5,6 @@
     "significance": "Recognizing the high-risk nature of valvular shock and tailoring shock therapies to the specific valve pathology can prevent harm and improve outcomes in the ICU setting.",
     "rounds_takeaway": "Use early comprehensive Doppler echocardiography to differentiate chronic from acute valvular lesions and guide urgency of intervention."
   },
-  "pmid:42963148": {
-    "key_stats": "",
-    "summary": "This review outlines the acute management priorities for survivors of cardiac arrest, emphasizing organ support, hemodynamic stability, and investigation of the arrest cause. It highlights key areas of uncertainty, including targeted temperature management, neuroprognostication, coronary evaluation, and hemodynamic targets.",
-    "significance": "Understanding these priorities helps ICU clinicians optimize care to improve survival and neurologic outcomes after cardiac arrest.",
-    "rounds_takeaway": ""
-  },
   "pmid:42977378": {
     "key_stats": "",
     "summary": "This article reviews ICU management of hemodynamically significant pulmonary embolism. It highlights that patients with right‑ventricular failure, hemodynamic instability, or cardiac arrest require advanced monitoring and intervention. Key points include rapid diagnosis, risk stratification, timely reperfusion, and tailored hemodynamic and respiratory support.",
@@ -439,14 +433,6 @@
   "pmid:42206945": {
     "summary": "This study looked at how admission hemoglobin levels and sex affect ICU mortality in patients with traumatic brain injury. The researchers found that higher admission hemoglobin levels were associated with lower ICU mortality, but did not find a significant interaction between sex and hemoglobin levels. This means that sex may not be a factor in determining the best hemoglobin transfusion threshold for TBI patients.",
     "significance": "These findings do not support the use of sex-differentiated hemoglobin transfusion thresholds in the initial management of TBI patients, but further studies are needed to confirm these results and evaluate the role of sex-related differences in hemoglobin trajectories during ICU stay."
-  },
-  "pmid:42490008": {
-    "summary": "This meta-analysis compared regional citrate anticoagulation (RCA) to no anticoagulation (NA) during continuous renal replacement therapy (CRRT) in critically ill patients at high risk of bleeding. RCA prolonged filter lifespan and reduced circuit clotting, but increased risks of citrate accumulation and hypocalcemia. RCA also reduced major bleeding events, but did not affect in-hospital mortality.",
-    "significance": "This study's findings support the use of RCA as an alternative to NA during CRRT in high-risk patients, potentially reducing bleeding complications without affecting mortality. However, careful monitoring of citrate levels and calcium levels is necessary to mitigate the risks associated with RCA."
-  },
-  "pmid:42477630": {
-    "summary": "Researchers developed and validated a machine learning model using the XGBoost algorithm to predict ICU death in patients with chronic heart failure and pulmonary infection. The model was able to identify key predictors of mortality, including lactic acid, white blood cell count, and pre-existing diabetes. The model's performance was evaluated and found to be accurate in predicting ICU mortality.",
-    "significance": "This study provides a valuable tool for ICU clinicians to predict mortality in patients with chronic heart failure and pulmonary infection, allowing for more individualized risk assessment and management."
   },
   "pmid:42257882": {
     "summary": "This study reviewed current evidence on Patient Blood Management strategies in ICU patients, finding that intravenous iron supplementation and small-volume blood collection tubes can safely reduce anemia, and that restrictive blood transfusion strategies are generally supported.",

@@ -244,5 +244,95 @@
    "displayed in: trials"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-26T11:46:39+00:00",
+  "kind": "approved_content_changed",
+  "content_id": "ev_2e01538d3911",
+  "title": "Effect of Protocolized Magnesium Replacement on Mortality and Atrial Fibrillation in Critically Ill Patients",
+  "pmid": "",
+  "doi": "",
+  "detail": "Source text/title/DOI changed; approved version retained pending review",
+  "derived_content": [],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-26T11:46:39+00:00",
+  "kind": "approved_content_changed",
+  "content_id": "ev_1ff0bf5c95e9",
+  "title": "Phase 2a Multiple Ascending Dose Study in Hospitalized Patients With Pneumonia.",
+  "pmid": "",
+  "doi": "",
+  "detail": "Source text/title/DOI changed; approved version retained pending review",
+  "derived_content": [],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-26T11:46:39+00:00",
+  "kind": "approved_content_changed",
+  "content_id": "ev_de7b0c2f0ddc",
+  "title": "Gastric Emptying and Enteral Nutrition Tolerance According to Vasopressor Dose in ICU Patients",
+  "pmid": "",
+  "doi": "",
+  "detail": "Source text/title/DOI changed; approved version retained pending review",
+  "derived_content": [],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-26T11:47:36+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_5ced005b8d8a",
+  "title": "Depressive and Anxiety symptoms associated with ICU admission in hypertensive disorders of pregnancy: a prospective cohort study.",
+  "pmid": "42946258",
+  "doi": "10.1016/j.jaclp.2026.10.343",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/cardiovascular",
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:42946258"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-26T11:48:43+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_7098d3b0361e",
+  "title": "Cefiderocol for the treatment of bloodstream infection due to MBL-producing Enterobacterales: a single-center retrospective cohort.",
+  "pmid": "42962939",
+  "doi": "10.1016/j.ijantimicag.2026.108053",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/infectious-sepsis",
+   "possible spotlight / cache key pmid:42962939"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-26T11:48:53+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_74020a231f2c",
+  "title": "2026 Global Initiative for Asthma (GINA) Strategy Report: Executive Summary and Key Changes.",
+  "pmid": "42847657",
+  "doi": "10.1093/ajrccm/aamag542",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/respiratory",
+   "possible spotlight / cache key pmid:42847657"
+  ],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-26T11:49:02+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_7850278cdd8f",
+  "title": "Locked Algorithms, Missing Data, and Surrogates: Why Auto-Adjusted NIV Should Not Yet Replace Manual Titration in OHS.",
+  "pmid": "42949899",
+  "doi": "10.1093/ajrccm/aamag477",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:42949899"
+  ],
+  "notified": false
  }
 ]
