@@ -334,5 +334,19 @@
    "possible spotlight / cache key pmid:42949899"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-27T11:39:16+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_b40087106ed0",
+  "title": "Reply to Zeng et al.: Locked Algorithms, Missing Data, and Surrogates: Why Auto-Adjusted NIV Should Not Yet Replace Manual Titration in OHS.",
+  "pmid": "42949866",
+  "doi": "10.1093/ajrccm/aamag479",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/general-critical-care",
+   "possible spotlight / cache key pmid:42949866"
+  ],
+  "notified": false
  }
 ]
