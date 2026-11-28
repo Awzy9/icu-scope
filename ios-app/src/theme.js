@@ -1,4 +1,4 @@
-import { useColorScheme } from "react-native";
+import { StyleSheet, useColorScheme } from "react-native";
 import { useStore } from "./store";
 
 // Palette taken from the ICU Scope logo: deep blue magnifier, teal pulse line.
@@ -26,10 +26,10 @@ const light = {
 };
 
 const dark = {
-  bg: "#0b1119",
-  surface: "#141d29",
+  bg: "#0a1018",
+  surface: "#141e2c",
   surfaceSoft: "#1c2736",
-  border: "#243245",
+  border: "#26364a",
   text: "#eaf0f8",
   textSecondary: "#b4c0d0",
   textMuted: "#8393a8",
@@ -73,3 +73,37 @@ export const TYPE = {
   "FOAMed/Blog": ["teal", "mic"],
 };
 export const TYPE_DEFAULT = ["textMuted", "document-text"];
+
+// ---- design tokens -------------------------------------------------------
+// One scale for spacing, corner radius and type, so screens stay consistent.
+export const space = { xs: 4, sm: 8, md: 12, lg: 16, xl: 20, xxl: 28 };
+export const radius = { sm: 10, md: 14, lg: 20, xl: 28, pill: 999 };
+
+export const type = {
+  largeTitle: { fontSize: 32, lineHeight: 38, fontWeight: "800", letterSpacing: -0.8 },
+  title: { fontSize: 24, lineHeight: 30, fontWeight: "800", letterSpacing: -0.5 },
+  headline: { fontSize: 17, lineHeight: 23, fontWeight: "700", letterSpacing: -0.2 },
+  section: { fontSize: 19, lineHeight: 24, fontWeight: "700", letterSpacing: -0.3 },
+  body: { fontSize: 16, lineHeight: 24 },
+  callout: { fontSize: 15, lineHeight: 21 },
+  caption: { fontSize: 13, lineHeight: 18 },
+  label: { fontSize: 11.5, lineHeight: 14, fontWeight: "800", letterSpacing: 0.8, textTransform: "uppercase" },
+};
+
+// Cards get a soft shadow on light backgrounds and a hairline border on dark ones.
+export function useCardStyle() {
+  const dark = useIsDark();
+  const t = useTheme();
+  return dark
+    ? { backgroundColor: t.surface, borderWidth: StyleSheet.hairlineWidth, borderColor: t.border }
+    : {
+        backgroundColor: t.surface,
+        borderWidth: StyleSheet.hairlineWidth,
+        borderColor: t.border,
+        shadowColor: "#0b2a55",
+        shadowOpacity: 0.07,
+        shadowRadius: 14,
+        shadowOffset: { width: 0, height: 5 },
+        elevation: 2,
+      };
+}

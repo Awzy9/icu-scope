@@ -5,7 +5,7 @@ import { Empty, tap } from "./components";
 import { articleKey } from "./data";
 import { dueKeys } from "./studyTools";
 import { useStore } from "./store";
-import { useTheme } from "./theme";
+import { radius, useCardStyle, useTheme } from "./theme";
 
 const GRADES = [
   { grade: "again", label: "Again", tone: "rose" },
@@ -16,6 +16,7 @@ const GRADES = [
 // Spaced-repetition review of article takeaways. Cards come from saved articles.
 export default function Review() {
   const t = useTheme();
+  const cardStyle = useCardStyle();
   const { deck, saved, addCards, gradeCard } = useStore();
   const [shown, setShown] = useState(false);
   const due = dueKeys(deck);
@@ -53,7 +54,7 @@ export default function Review() {
   return (
     <ScrollView contentContainerStyle={styles.wrap}>
       <Text style={{ color: t.textMuted, fontWeight: "700" }}>{due.length} due · {Object.keys(deck).length} in deck</Text>
-      <View style={[styles.card, { backgroundColor: t.surface, borderColor: t.border }]}>
+      <View style={[styles.card, cardStyle]}>
         <Text style={{ color: t.accent, fontSize: 12, fontWeight: "800", letterSpacing: 0.7 }}>WHAT IS THE TAKEAWAY?</Text>
         <Text style={{ color: t.text, fontSize: 20, fontWeight: "800", lineHeight: 27 }}>{a.title}</Text>
         {shown ? (
@@ -97,7 +98,7 @@ export default function Review() {
 
 const styles = StyleSheet.create({
   wrap: { padding: 16, gap: 14 },
-  card: { borderRadius: 20, borderWidth: StyleSheet.hairlineWidth, padding: 20, gap: 14 },
+  card: { borderRadius: radius.xl, padding: 22, gap: 16 },
   answer: { borderRadius: 14, padding: 14 },
   button: { borderRadius: 14, paddingVertical: 15, paddingHorizontal: 22, alignItems: "center" },
   buttonText: { color: "#fff", fontWeight: "800", fontSize: 16 },
