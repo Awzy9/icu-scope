@@ -348,5 +348,30 @@
    "possible spotlight / cache key pmid:42949866"
   ],
   "notified": false
+ },
+ {
+  "ts": "2026-11-28T11:06:52+00:00",
+  "kind": "approved_content_changed",
+  "content_id": "ev_3f907876d5fe",
+  "title": "Clinical Effects of Ringers Lactate Versus Sterofundin/ Plasmalyte Solution in Patients With Sepsis",
+  "pmid": "",
+  "doi": "",
+  "detail": "Source text/title/DOI changed; approved version retained pending review",
+  "derived_content": [],
+  "notified": false
+ },
+ {
+  "ts": "2026-11-28T11:07:48+00:00",
+  "kind": "source_metadata_changed",
+  "content_id": "ev_d5192b9338fe",
+  "title": "Continuous glucose monitoring for diabetes mellitus in the perioperative and intensive care setting: a prospective observational validation study(✰).",
+  "pmid": "42864191",
+  "doi": "10.1016/j.bja.2026.08.014",
+  "detail": "Title/DOI changed at source",
+  "derived_content": [
+   "displayed in: categories/cardiovascular",
+   "possible spotlight / cache key pmid:42864191"
+  ],
+  "notified": false
  }
 ]

@@ -29,6 +29,12 @@
     "significance": "Understanding the cardiovascular effects of respiratory support can help clinicians anticipate and mitigate potential haemodynamic complications in cardiac patients, improving overall management and outcomes.",
     "rounds_takeaway": "When initiating respiratory support, routinely reassess cardiovascular status to balance respiratory benefit and haemodynamic impact."
   },
+  "pmid:43044726": {
+    "key_stats": "",
+    "summary": "A prehospital score, MIRA‑29, was derived from 1,099 adult out‑of‑hospital cardiac arrest patients and externally validated in 82,696 cases. The model uses four simple clinical variables and achieved high accuracy (0.88) and specificity for poor neurological outcome (0.99).",
+    "significance": "The score offers clinicians a rapid, data‑driven tool to identify patients with a very low likelihood of meaningful neurological recovery, potentially informing early triage and resource allocation decisions.",
+    "rounds_takeaway": "Use the MIRA‑29 score in the prehospital setting to flag patients unlikely to achieve good neurological outcome."
+  },
   "pmid:43025806": {
     "key_stats": "",
     "summary": "This guide outlines a physiology-driven, stepwise approach to diagnosing and managing acute right ventricular failure in the ICU. It emphasizes bedside tools such as point-of-care ultrasound and invasive hemodynamics, and reviews strategies for preload optimization, afterload reduction, contractility support, airway management, vasoactive medications, and timely escalation to mechanical circulatory support.",

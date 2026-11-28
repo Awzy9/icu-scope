@@ -1,9 +1,9 @@
 {
-  "pmid": "43058869",
-  "title": "Discordant evidence on corticosteroids in sepsis: a meta-research study.",
+  "pmid": "43074020",
+  "title": "The sepsis trial landscape: a domain-specific systematic review and meta-analysis of adult sepsis randomized controlled trials.",
   "journal": "Critical care (London, England)",
-  "url": "https://pubmed.ncbi.nlm.nih.gov/43058869/",
-  "pubdate": "2026 Nov 19",
+  "url": "https://pubmed.ncbi.nlm.nih.gov/43074020/",
+  "pubdate": "2026 Nov 17",
   "study_type": "Meta-Analysis",
   "why_selected": "Selected from this week's highest-ranked ICU evidence. It is a Meta-Analysis, prioritized by evidence level and citation impact.",
   "discussion_prompts": [
@@ -11,8 +11,8 @@
     "Which ICU patients are most likely to benefit from these findings, and who may not?",
     "Would these results change current bedside practice or require further validation?"
   ],
-  "week": "2026-11-21",
-  "generated_at": "2026-11-21T10:29:29+00:00",
+  "week": "2026-11-28",
+  "generated_at": "2026-11-28T11:08:38+00:00",
   "previous_pmids": [
     "42765454",
     "42565658",
@@ -21,6 +21,7 @@
     "42545097",
     "42958418",
     "42980831",
-    "42970124"
+    "42970124",
+    "43058869"
   ]
 }
